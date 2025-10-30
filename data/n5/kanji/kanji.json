@@ -1,0 +1,5310 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "character": "一",
+      "strokes": 1,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ひと",
+            "romanji": "hito"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "イチ",
+            "romanji": "ichi"
+          },
+          {
+            "furigana": "イツ",
+            "romanji": "itsu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "satu",
+        "en": "one"
+      },
+      "examples": [
+        {
+          "word": "一つ",
+          "furigana": "ひとつ",
+          "romanji": "hitotsu",
+          "meaning_id": "satu buah",
+          "meaning_en": "one"
+        },
+        {
+          "word": "一日",
+          "furigana": "いちにち",
+          "romanji": "ichinichi",
+          "meaning_id": "satu hari",
+          "meaning_en": "one day"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "character": "二",
+      "strokes": 2,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ふた",
+            "romanji": "futa"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ニ",
+            "romanji": "ni"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "dua",
+        "en": "two"
+      },
+      "examples": [
+        {
+          "word": "二つ",
+          "furigana": "ふたつ",
+          "romanji": "futatsu",
+          "meaning_id": "dua buah",
+          "meaning_en": "two"
+        },
+        {
+          "word": "二年",
+          "furigana": "にねん",
+          "romanji": "ninen",
+          "meaning_id": "dua tahun",
+          "meaning_en": "two years"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "character": "七",
+      "strokes": 2,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "なな",
+            "romanji": "nana"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シチ",
+            "romanji": "shichi"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "tujuh",
+        "en": "seven"
+      },
+      "examples": [
+        {
+          "word": "七つ",
+          "furigana": "ななつ",
+          "romanji": "nanatsu",
+          "meaning_id": "tujuh buah",
+          "meaning_en": "seven"
+        },
+        {
+          "word": "七月",
+          "furigana": "しちがつ",
+          "romanji": "shichigatsu",
+          "meaning_id": "bulan Juli",
+          "meaning_en": "July"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "character": "八",
+      "strokes": 2,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "やっ",
+            "romanji": "ya"
+          },
+          {
+            "furigana": "や",
+            "romanji": "ya"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ハチ",
+            "romanji": "hachi"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "delapan",
+        "en": "eight"
+      },
+      "examples": [
+        {
+          "word": "八つ",
+          "furigana": "やっつ",
+          "romanji": "yattsu",
+          "meaning_id": "delapan buah",
+          "meaning_en": "eight"
+        },
+        {
+          "word": "八百屋",
+          "furigana": "やおや",
+          "romanji": "yaoya",
+          "meaning_id": "toko sayur dan buah",
+          "meaning_en": "greengrocer"
+        },
+        {
+          "word": "八年",
+          "furigana": "はちねん",
+          "romanji": "hachinen",
+          "meaning_id": "delapan tahun",
+          "meaning_en": "eight years"
+        },
+        {
+          "word": "八百",
+          "furigana": "はっぴゃく",
+          "romanji": "happyaku",
+          "meaning_id": "delapan ratus",
+          "meaning_en": "eight hundred"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "character": "九",
+      "strokes": 2,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ここの",
+            "romanji": "kokono"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "キュウ",
+            "romanji": "kyuu"
+          },
+          {
+            "furigana": "ク",
+            "romanji": "ku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sembilan",
+        "en": "nine"
+      },
+      "examples": [
+        {
+          "word": "九つ",
+          "furigana": "ここのつ",
+          "romanji": "kokonotsu",
+          "meaning_id": "sembilan buah",
+          "meaning_en": "nine"
+        },
+        {
+          "word": "九年",
+          "furigana": "きゅうねん",
+          "romanji": "kyuunen",
+          "meaning_id": "sembilan tahun",
+          "meaning_en": "nine years"
+        },
+        {
+          "word": "九時",
+          "furigana": "くじ",
+          "romanji": "kuji",
+          "meaning_id": "jam sembilan",
+          "meaning_en": "nine o'clock"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "character": "十",
+      "strokes": 2,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "とお",
+            "romanji": "too"
+          },
+          {
+            "furigana": "と",
+            "romanji": "to"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ジュウ",
+            "romanji": "juu"
+          },
+          {
+            "furigana": "ジュッ",
+            "romanji": "jut"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sepuluh",
+        "en": "ten"
+      },
+      "examples": [
+        {
+          "word": "十日",
+          "furigana": "とおか",
+          "romanji": "tooka",
+          "meaning_id": "tanggal sepuluh",
+          "meaning_en": "tenth day"
+        },
+        {
+          "word": "十色",
+          "furigana": "といろ",
+          "romanji": "toiro",
+          "meaning_id": "sepuluh warna",
+          "meaning_en": "ten colors"
+        },
+        {
+          "word": "十字路",
+          "furigana": "じゅうじろ",
+          "romanji": "juujiro",
+          "meaning_id": "perempatan jalan",
+          "meaning_en": "crossroads"
+        },
+        {
+          "word": "十回",
+          "furigana": "じゅっかい",
+          "romanji": "jukkai",
+          "meaning_id": "sepuluh kali",
+          "meaning_en": "ten times"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "character": "人",
+      "strokes": 2,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ひと",
+            "romanji": "hito"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ジン",
+            "romanji": "jin"
+          },
+          {
+            "furigana": "ニン",
+            "romanji": "nin"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "orang",
+        "en": "person"
+      },
+      "examples": [
+        {
+          "word": "人",
+          "furigana": "ひと",
+          "romanji": "hito",
+          "meaning_id": "orang",
+          "meaning_en": "person"
+        },
+        {
+          "word": "旅人",
+          "furigana": "たびびと",
+          "romanji": "tabibito",
+          "meaning_id": "orang yang berkelana",
+          "meaning_en": "traveler"
+        },
+        {
+          "word": "日本人",
+          "furigana": "にほんじん",
+          "romanji": "nihonjin",
+          "meaning_id": "orang Jepang",
+          "meaning_en": "Japanese person"
+        },
+        {
+          "word": "三人",
+          "furigana": "さんにん",
+          "romanji": "sannin",
+          "meaning_id": "tiga orang",
+          "meaning_en": "three people"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "character": "三",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "みっ",
+            "romanji": "mit"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "サン",
+            "romanji": "san"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "tiga",
+        "en": "three"
+      },
+      "examples": [
+        {
+          "word": "三つ",
+          "furigana": "みっつ",
+          "romanji": "mittsu",
+          "meaning_id": "tiga buah",
+          "meaning_en": "three"
+        },
+        {
+          "word": "三重",
+          "furigana": "みえ",
+          "romanji": "mie",
+          "meaning_id": "tiga lapis",
+          "meaning_en": "three layers"
+        },
+        {
+          "word": "三年",
+          "furigana": "さんねん",
+          "romanji": "sannen",
+          "meaning_id": "tiga tahun",
+          "meaning_en": "three years"
+        },
+        {
+          "word": "千葉",
+          "furigana": "ちば",
+          "romanji": "chiba",
+          "meaning_id": "nama tempat Chiba",
+          "meaning_en": "Chiba (place name)"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "character": "千",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ち",
+            "romanji": "chi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "セン",
+            "romanji": "sen"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "seribu",
+        "en": "thousand"
+      },
+      "examples": [
+        {
+          "word": "千円",
+          "furigana": "せんえん",
+          "romanji": "sen'en",
+          "meaning_id": "seribu yen",
+          "meaning_en": "thousand yen"
+        },
+        {
+          "word": "三千",
+          "furigana": "さんぜん",
+          "romanji": "sanzen",
+          "meaning_id": "tiga ribu",
+          "meaning_en": "three thousand"
+        },
+        {
+          "word": "一万",
+          "furigana": "いちまん",
+          "romanji": "ichiman",
+          "meaning_id": "sepuluh ribu",
+          "meaning_en": "ten thousand"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "character": "万",
+      "strokes": 3,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "マン",
+            "romanji": "man"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sepuluh ribu",
+        "en": "ten thousand"
+      },
+      "examples": [
+        {
+          "word": "万国",
+          "furigana": "ばんこく",
+          "romanji": "bankoku",
+          "meaning_id": "seluruh negara",
+          "meaning_en": "all nations"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "character": "山",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "やま",
+            "romanji": "yama"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "サン",
+            "romanji": "san"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "gunung",
+        "en": "mountain"
+      },
+      "examples": [
+        {
+          "word": "山",
+          "furigana": "やま",
+          "romanji": "yama",
+          "meaning_id": "gunung",
+          "meaning_en": "mountain"
+        },
+        {
+          "word": "富士山",
+          "furigana": "ふじさん",
+          "romanji": "fujisan",
+          "meaning_id": "gunung Fuji",
+          "meaning_en": "Mount Fuji"
+        },
+        {
+          "word": "火山",
+          "furigana": "かざん",
+          "romanji": "kazan",
+          "meaning_id": "gunung berapi",
+          "meaning_en": "volcano"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "character": "川",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "かわ",
+            "romanji": "kawa"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "セン",
+            "romanji": "sen"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sungai",
+        "en": "river"
+      },
+      "examples": [
+        {
+          "word": "川",
+          "furigana": "かわ",
+          "romanji": "kawa",
+          "meaning_id": "sungai",
+          "meaning_en": "river"
+        },
+        {
+          "word": "小川",
+          "furigana": "おがわ",
+          "romanji": "ogawa",
+          "meaning_id": "sungai kecil",
+          "meaning_en": "small river"
+        },
+        {
+          "word": "河川",
+          "furigana": "かせん",
+          "romanji": "kasen",
+          "meaning_id": "sungai-sungai",
+          "meaning_en": "rivers"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "character": "土",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "つち",
+            "romanji": "tsuchi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ド",
+            "romanji": "do"
+          },
+          {
+            "furigana": "ト",
+            "romanji": "to"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "tanah",
+        "en": "soil, earth"
+      },
+      "examples": [
+        {
+          "word": "土",
+          "furigana": "つち",
+          "romanji": "tsuchi",
+          "meaning_id": "tanah",
+          "meaning_en": "soil"
+        },
+        {
+          "word": "土曜日",
+          "furigana": "どようび",
+          "romanji": "doyoubi",
+          "meaning_id": "hari sabtu",
+          "meaning_en": "Saturday"
+        },
+        {
+          "word": "土地",
+          "furigana": "とち",
+          "romanji": "tochi",
+          "meaning_id": "tanah, daratan",
+          "meaning_en": "land"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "character": "口",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "くち",
+            "romanji": "kuchi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "コウ",
+            "romanji": "kou"
+          },
+          {
+            "furigana": "ク",
+            "romanji": "ku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "mulut",
+        "en": "mouth"
+      },
+      "examples": [
+        {
+          "word": "口",
+          "furigana": "くち",
+          "romanji": "kuchi",
+          "meaning_id": "mulut",
+          "meaning_en": "mouth"
+        },
+        {
+          "word": "出口",
+          "furigana": "でぐち",
+          "romanji": "deguchi",
+          "meaning_id": "pintu keluar",
+          "meaning_en": "exit"
+        },
+        {
+          "word": "人口",
+          "furigana": "じんこう",
+          "romanji": "jinkou",
+          "meaning_id": "populasi, jumlah penduduk",
+          "meaning_en": "population"
+        },
+        {
+          "word": "口調",
+          "furigana": "くちょう",
+          "romanji": "kuchou",
+          "meaning_id": "nada bicara",
+          "meaning_en": "tone of voice"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "character": "女",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "おんな",
+            "romanji": "onna"
+          },
+          {
+            "furigana": "め",
+            "romanji": "me"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ジョ",
+            "romanji": "jo"
+          },
+          {
+            "furigana": "ニョ",
+            "romanji": "nyo"
+          },
+          {
+            "furigana": "ニョウ",
+            "romanji": "nyou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "wanita, perempuan",
+        "en": "woman"
+      },
+      "examples": [
+        {
+          "word": "女",
+          "furigana": "おんな",
+          "romanji": "onna",
+          "meaning_id": "wanita, perempuan",
+          "meaning_en": "woman"
+        },
+        {
+          "word": "女神",
+          "furigana": "めがみ",
+          "romanji": "megami",
+          "meaning_id": "dewi",
+          "meaning_en": "goddess"
+        },
+        {
+          "word": "女性",
+          "furigana": "じょせい",
+          "romanji": "josei",
+          "meaning_id": "wanita, perempuan",
+          "meaning_en": "woman, female"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "character": "子",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "こ",
+            "romanji": "ko"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シ",
+            "romanji": "shi"
+          },
+          {
+            "furigana": "ス",
+            "romanji": "su"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "anak",
+        "en": "child"
+      },
+      "examples": [
+        {
+          "word": "子",
+          "furigana": "こ",
+          "romanji": "ko",
+          "meaning_id": "anak",
+          "meaning_en": "child"
+        },
+        {
+          "word": "子供",
+          "furigana": "こども",
+          "romanji": "kodomo",
+          "meaning_id": "anak-anak",
+          "meaning_en": "children"
+        },
+        {
+          "word": "息子",
+          "furigana": "むすこ",
+          "romanji": "musuko",
+          "meaning_id": "anak yang tersesa/kesasar",
+          "meaning_en": "son"
+        },
+        {
+          "word": "子孫",
+          "furigana": "しそん",
+          "romanji": "shison",
+          "meaning_id": "anak cucu",
+          "meaning_en": "descendants"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "character": "上",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "うえ",
+            "romanji": "ue"
+          },
+          {
+            "furigana": "うわ",
+            "romanji": "uwa"
+          },
+          {
+            "furigana": "かみ",
+            "romanji": "kami"
+          },
+          {
+            "furigana": "あ",
+            "romanji": "a"
+          },
+          {
+            "furigana": "のぼ",
+            "romanji": "nobo"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ジョウ",
+            "romanji": "jou"
+          },
+          {
+            "furigana": "ショウ",
+            "romanji": "shou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "atas",
+        "en": "above, up"
+      },
+      "examples": [
+        {
+          "word": "上",
+          "furigana": "うえ",
+          "romanji": "ue",
+          "meaning_id": "atas",
+          "meaning_en": "above"
+        },
+        {
+          "word": "上着",
+          "furigana": "うわぎ",
+          "romanji": "uwagi",
+          "meaning_id": "jaket",
+          "meaning_en": "jacket"
+        },
+        {
+          "word": "川上",
+          "furigana": "かわかみ",
+          "romanji": "kawakami",
+          "meaning_id": "hulu sungai",
+          "meaning_en": "upstream"
+        },
+        {
+          "word": "上がる",
+          "furigana": "あがる",
+          "romanji": "agaru",
+          "meaning_id": "mengangkat",
+          "meaning_en": "to go up"
+        },
+        {
+          "word": "上る",
+          "furigana": "のぼる",
+          "romanji": "noboru",
+          "meaning_id": "naik",
+          "meaning_en": "to climb"
+        },
+        {
+          "word": "上司",
+          "furigana": "じょうし",
+          "romanji": "joushi",
+          "meaning_id": "atasan, boss",
+          "meaning_en": "boss, superior"
+        },
+        {
+          "word": "上人",
+          "furigana": "しょうにん",
+          "romanji": "shounin",
+          "meaning_id": "santa, orang suci",
+          "meaning_en": "saint"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "character": "下",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "した",
+            "romanji": "shita"
+          },
+          {
+            "furigana": "しも",
+            "romanji": "shimo"
+          },
+          {
+            "furigana": "もと",
+            "romanji": "moto"
+          },
+          {
+            "furigana": "さ",
+            "romanji": "sa"
+          },
+          {
+            "furigana": "くだ",
+            "romanji": "kuda"
+          },
+          {
+            "furigana": "お",
+            "romanji": "o"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カ",
+            "romanji": "ka"
+          },
+          {
+            "furigana": "ゲ",
+            "romanji": "ge"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "bawah",
+        "en": "below, down"
+      },
+      "examples": [
+        {
+          "word": "下",
+          "furigana": "した",
+          "romanji": "shita",
+          "meaning_id": "bawah",
+          "meaning_en": "below"
+        },
+        {
+          "word": "川下",
+          "furigana": "かわしも",
+          "romanji": "kawashimo",
+          "meaning_id": "hilir sungai",
+          "meaning_en": "downstream"
+        },
+        {
+          "word": "足下",
+          "furigana": "あしもと",
+          "romanji": "ashimoto",
+          "meaning_id": "sekitar pijakan kaki",
+          "meaning_en": "at one's feet"
+        },
+        {
+          "word": "下がる",
+          "furigana": "さがる",
+          "romanji": "sagaru",
+          "meaning_id": "turun, jatuh",
+          "meaning_en": "to go down"
+        },
+        {
+          "word": "下る",
+          "furigana": "くだる",
+          "romanji": "kudaru",
+          "meaning_id": "turun, menuruni",
+          "meaning_en": "to descend"
+        },
+        {
+          "word": "下ろす",
+          "furigana": "おろす",
+          "romanji": "orosu",
+          "meaning_id": "menurunkan, menjatuhkan",
+          "meaning_en": "to lower"
+        },
+        {
+          "word": "地下",
+          "furigana": "ちか",
+          "romanji": "chika",
+          "meaning_id": "bawah tanah",
+          "meaning_en": "underground"
+        },
+        {
+          "word": "上下",
+          "furigana": "じょうげ",
+          "romanji": "jouge",
+          "meaning_id": "atas dan bawah",
+          "meaning_en": "up and down"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "character": "大",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "おお",
+            "romanji": "oo"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ダイ",
+            "romanji": "dai"
+          },
+          {
+            "furigana": "タイ",
+            "romanji": "tai"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "besar",
+        "en": "big, large"
+      },
+      "examples": [
+        {
+          "word": "大きい",
+          "furigana": "おおきい",
+          "romanji": "ookii",
+          "meaning_id": "besar",
+          "meaning_en": "big"
+        },
+        {
+          "word": "大学",
+          "furigana": "だいがく",
+          "romanji": "daigaku",
+          "meaning_id": "universitas, perguruan tinggi",
+          "meaning_en": "university"
+        },
+        {
+          "word": "大量",
+          "furigana": "たいりょう",
+          "romanji": "tairyou",
+          "meaning_id": "jumlah besar",
+          "meaning_en": "large quantity"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "character": "小",
+      "strokes": 3,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ちい",
+            "romanji": "chii"
+          },
+          {
+            "furigana": "こ",
+            "romanji": "ko"
+          },
+          {
+            "furigana": "お",
+            "romanji": "o"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ショウ",
+            "romanji": "shou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "kecil",
+        "en": "small"
+      },
+      "examples": [
+        {
+          "word": "小さい",
+          "furigana": "ちいさい",
+          "romanji": "chiisai",
+          "meaning_id": "kecil",
+          "meaning_en": "small"
+        },
+        {
+          "word": "小鳥",
+          "furigana": "ことり",
+          "romanji": "kotori",
+          "meaning_id": "anak burung, burung kecil",
+          "meaning_en": "small bird"
+        },
+        {
+          "word": "小川",
+          "furigana": "おがわ",
+          "romanji": "ogawa",
+          "meaning_id": "sungai kecil",
+          "meaning_en": "small river"
+        },
+        {
+          "word": "小学校",
+          "furigana": "しょうがっこう",
+          "romanji": "shougakkou",
+          "meaning_id": "sekolah dasar",
+          "meaning_en": "elementary school"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "character": "五",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "いつ",
+            "romanji": "itsu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ゴ",
+            "romanji": "go"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "lima",
+        "en": "five"
+      },
+      "examples": [
+        {
+          "word": "五つ",
+          "furigana": "いつつ",
+          "romanji": "itsutsu",
+          "meaning_id": "lima buah",
+          "meaning_en": "five"
+        },
+        {
+          "word": "五年",
+          "furigana": "ごねん",
+          "romanji": "gonen",
+          "meaning_id": "lima tahun",
+          "meaning_en": "five years"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "character": "六",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "む",
+            "romanji": "mu"
+          },
+          {
+            "furigana": "むっ",
+            "romanji": "mut"
+          },
+          {
+            "furigana": "むい",
+            "romanji": "mui"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ロク",
+            "romanji": "roku"
+          },
+          {
+            "furigana": "リク",
+            "romanji": "riku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "enam",
+        "en": "six"
+      },
+      "examples": [
+        {
+          "word": "六つ",
+          "furigana": "むっつ",
+          "romanji": "muttsu",
+          "meaning_id": "enam buah",
+          "meaning_en": "six"
+        },
+        {
+          "word": "六日",
+          "furigana": "むいか",
+          "romanji": "muika",
+          "meaning_id": "tanggal 6, 6 hari",
+          "meaning_en": "sixth day"
+        },
+        {
+          "word": "六年",
+          "furigana": "ろくねん",
+          "romanji": "rokunen",
+          "meaning_id": "enam tahun",
+          "meaning_en": "six years"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "character": "円",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "まる",
+            "romanji": "maru"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "エン",
+            "romanji": "en"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "bundar",
+        "en": "circle, yen"
+      },
+      "examples": [
+        {
+          "word": "円い",
+          "furigana": "まるい",
+          "romanji": "marui",
+          "meaning_id": "bundar",
+          "meaning_en": "round"
+        },
+        {
+          "word": "円形",
+          "furigana": "えんけい",
+          "romanji": "enkei",
+          "meaning_id": "bentuk bundar",
+          "meaning_en": "circular shape"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "character": "日",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ひ",
+            "romanji": "hi"
+          },
+          {
+            "furigana": "び",
+            "romanji": "bi"
+          },
+          {
+            "furigana": "か",
+            "romanji": "ka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ニチ",
+            "romanji": "nichi"
+          },
+          {
+            "furigana": "ジツ",
+            "romanji": "jitsu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "hari, matahari",
+        "en": "day, sun"
+      },
+      "examples": [
+        {
+          "word": "日陰",
+          "furigana": "ひかげ",
+          "romanji": "hikage",
+          "meaning_id": "tempat teduh",
+          "meaning_en": "shade"
+        },
+        {
+          "word": "今日",
+          "furigana": "きょう",
+          "romanji": "kyou",
+          "meaning_id": "sinar matahari dari barat",
+          "meaning_en": "today"
+        },
+        {
+          "word": "二日",
+          "furigana": "ふつか",
+          "romanji": "futsuka",
+          "meaning_id": "tanggal 2, 2 hari",
+          "meaning_en": "second day"
+        },
+        {
+          "word": "日常",
+          "furigana": "にちじょう",
+          "romanji": "nichijou",
+          "meaning_id": "sehari-hari",
+          "meaning_en": "daily"
+        },
+        {
+          "word": "日光",
+          "furigana": "にっこう",
+          "romanji": "nikkou",
+          "meaning_id": "sinar matahari",
+          "meaning_en": "sunlight"
+        },
+        {
+          "word": "休日",
+          "furigana": "きゅうじつ",
+          "romanji": "kyuujitsu",
+          "meaning_id": "hari libur",
+          "meaning_en": "holiday"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "character": "月",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "つき",
+            "romanji": "tsuki"
+          },
+          {
+            "furigana": "つく",
+            "romanji": "tsuku"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ゲツ",
+            "romanji": "getsu"
+          },
+          {
+            "furigana": "ガツ",
+            "romanji": "gatsu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "bulan",
+        "en": "month, moon"
+      },
+      "examples": [
+        {
+          "word": "月見",
+          "furigana": "つきみ",
+          "romanji": "tsukimi",
+          "meaning_id": "menikmati pemandangan bulan",
+          "meaning_en": "moon viewing"
+        },
+        {
+          "word": "三日月",
+          "furigana": "みかづき",
+          "romanji": "mikazuki",
+          "meaning_id": "bulan sabit",
+          "meaning_en": "crescent moon"
+        },
+        {
+          "word": "満月",
+          "furigana": "まんげつ",
+          "romanji": "mangetsu",
+          "meaning_id": "bulan purnama",
+          "meaning_en": "full moon"
+        },
+        {
+          "word": "月給",
+          "furigana": "げっきゅう",
+          "romanji": "gekkyuu",
+          "meaning_id": "gaji bulanan",
+          "meaning_en": "monthly salary"
+        },
+        {
+          "word": "正月",
+          "furigana": "しょうがつ",
+          "romanji": "shougatsu",
+          "meaning_id": "tahun baru",
+          "meaning_en": "New Year"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "character": "木",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "き",
+            "romanji": "ki"
+          },
+          {
+            "furigana": "こ",
+            "romanji": "ko"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "モク",
+            "romanji": "moku"
+          },
+          {
+            "furigana": "ボク",
+            "romanji": "boku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "pohon, kayu",
+        "en": "tree, wood"
+      },
+      "examples": [
+        {
+          "word": "木",
+          "furigana": "き",
+          "romanji": "ki",
+          "meaning_id": "pohon, kayu",
+          "meaning_en": "tree, wood"
+        },
+        {
+          "word": "木陰",
+          "furigana": "こかげ",
+          "romanji": "kokage",
+          "meaning_id": "tempat rindang",
+          "meaning_en": "shade of tree"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "character": "火",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ひ",
+            "romanji": "hi"
+          },
+          {
+            "furigana": "ほ",
+            "romanji": "ho"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カ",
+            "romanji": "ka"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "api",
+        "en": "fire"
+      },
+      "examples": [
+        {
+          "word": "火",
+          "furigana": "ひ",
+          "romanji": "hi",
+          "meaning_id": "api",
+          "meaning_en": "fire"
+        },
+        {
+          "word": "花火",
+          "furigana": "はなび",
+          "romanji": "hanabi",
+          "meaning_id": "kembang api",
+          "meaning_en": "fireworks"
+        },
+        {
+          "word": "火事",
+          "furigana": "かじ",
+          "romanji": "kaji",
+          "meaning_id": "cahaya api",
+          "meaning_en": "fire incident"
+        },
+        {
+          "word": "火事",
+          "furigana": "かじ",
+          "romanji": "kaji",
+          "meaning_id": "kebakaran",
+          "meaning_en": "fire"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "character": "水",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "みず",
+            "romanji": "mizu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "スイ",
+            "romanji": "sui"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "air",
+        "en": "water"
+      },
+      "examples": [
+        {
+          "word": "水",
+          "furigana": "みず",
+          "romanji": "mizu",
+          "meaning_id": "air",
+          "meaning_en": "water"
+        },
+        {
+          "word": "水泳",
+          "furigana": "すいえい",
+          "romanji": "suiei",
+          "meaning_id": "tetesan air",
+          "meaning_en": "swimming"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "character": "中",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "なか",
+            "romanji": "naka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "チュウ",
+            "romanji": "chuu"
+          },
+          {
+            "furigana": "ジュウ",
+            "romanji": "juu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "dalam",
+        "en": "middle, inside"
+      },
+      "examples": [
+        {
+          "word": "中",
+          "furigana": "なか",
+          "romanji": "naka",
+          "meaning_id": "dalam",
+          "meaning_en": "inside"
+        },
+        {
+          "word": "中学校",
+          "furigana": "ちゅうがっこう",
+          "romanji": "chuugakkou",
+          "meaning_id": "SMP",
+          "meaning_en": "middle school"
+        },
+        {
+          "word": "一日中",
+          "furigana": "いちにちじゅう",
+          "romanji": "ichinichijuu",
+          "meaning_id": "seharian",
+          "meaning_en": "all day long"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "character": "今",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "いま",
+            "romanji": "ima"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "コン",
+            "romanji": "kon"
+          },
+          {
+            "furigana": "キン",
+            "romanji": "kin"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sekarang",
+        "en": "now"
+      },
+      "examples": [
+        {
+          "word": "今",
+          "furigana": "いま",
+          "romanji": "ima",
+          "meaning_id": "sekarang",
+          "meaning_en": "now"
+        },
+        {
+          "word": "今月",
+          "furigana": "こんげつ",
+          "romanji": "kongetsu",
+          "meaning_id": "bulan ini",
+          "meaning_en": "this month"
+        },
+        {
+          "word": "古今",
+          "furigana": "ここん",
+          "romanji": "kokon",
+          "meaning_id": "dulu dan sekarang",
+          "meaning_en": "past and present"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "character": "午",
+      "strokes": 4,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "ゴ",
+            "romanji": "go"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "siang",
+        "en": "noon"
+      },
+      "examples": [
+        {
+          "word": "午後",
+          "furigana": "ごご",
+          "romanji": "gogo",
+          "meaning_id": "sesudah jam 12 siang",
+          "meaning_en": "afternoon"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "character": "手",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "て",
+            "romanji": "te"
+          },
+          {
+            "furigana": "た",
+            "romanji": "ta"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シュ",
+            "romanji": "shu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "tangan",
+        "en": "hand"
+      },
+      "examples": [
+        {
+          "word": "手",
+          "furigana": "て",
+          "romanji": "te",
+          "meaning_id": "tangan",
+          "meaning_en": "hand"
+        },
+        {
+          "word": "人手",
+          "furigana": "ひとで",
+          "romanji": "hitode",
+          "meaning_id": "tenaga bantuan",
+          "meaning_en": "helping hand"
+        },
+        {
+          "word": "手紙",
+          "furigana": "てがみ",
+          "romanji": "tegami",
+          "meaning_id": "kendali, kekang",
+          "meaning_en": "letter"
+        },
+        {
+          "word": "歌手",
+          "furigana": "かしゅ",
+          "romanji": "kashu",
+          "meaning_id": "penyanyi",
+          "meaning_en": "singer"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "character": "友",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "とも",
+            "romanji": "tomo"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ユウ",
+            "romanji": "yuu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "teman",
+        "en": "friend"
+      },
+      "examples": [
+        {
+          "word": "友だち",
+          "furigana": "ともだち",
+          "romanji": "tomodachi",
+          "meaning_id": "teman, sahabat",
+          "meaning_en": "friend"
+        },
+        {
+          "word": "友人",
+          "furigana": "ゆうじん",
+          "romanji": "yuujin",
+          "meaning_id": "teman, sahabat",
+          "meaning_en": "friend"
+        },
+        {
+          "word": "友親",
+          "furigana": "ゆうしん",
+          "romanji": "yuushin",
+          "meaning_id": "orang tua laki-laki, ayah",
+          "meaning_en": "close friend"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "character": "父",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ちち",
+            "romanji": "chichi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "フ",
+            "romanji": "fu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "ayah",
+        "en": "father"
+      },
+      "examples": [
+        {
+          "word": "父",
+          "furigana": "ちち",
+          "romanji": "chichi",
+          "meaning_id": "ayah dan ibu",
+          "meaning_en": "father"
+        },
+        {
+          "word": "父母",
+          "furigana": "ふぼ",
+          "romanji": "fubo",
+          "meaning_id": "ayah dan ibu",
+          "meaning_en": "parents"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "character": "天",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あめ",
+            "romanji": "ame"
+          },
+          {
+            "furigana": "あま",
+            "romanji": "ama"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "テン",
+            "romanji": "ten"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "langit",
+        "en": "heaven, sky"
+      },
+      "examples": [
+        {
+          "word": "天",
+          "furigana": "あめ",
+          "romanji": "ame",
+          "meaning_id": "langit",
+          "meaning_en": "heaven"
+        },
+        {
+          "word": "天の川",
+          "furigana": "あまのがわ",
+          "romanji": "amanogawa",
+          "meaning_id": "bima sakti",
+          "meaning_en": "Milky Way"
+        },
+        {
+          "word": "天国",
+          "furigana": "てんごく",
+          "romanji": "tengoku",
+          "meaning_id": "surga",
+          "meaning_en": "paradise"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "character": "少",
+      "strokes": 4,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "すく",
+            "romanji": "suku"
+          },
+          {
+            "furigana": "すこ",
+            "romanji": "suko"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ショウ",
+            "romanji": "shou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sedikit",
+        "en": "few, little"
+      },
+      "examples": [
+        {
+          "word": "少ない",
+          "furigana": "すくない",
+          "romanji": "sukunai",
+          "meaning_id": "kurang",
+          "meaning_en": "few"
+        },
+        {
+          "word": "少し",
+          "furigana": "すこし",
+          "romanji": "sukoshi",
+          "meaning_id": "sedikit, agak",
+          "meaning_en": "a little"
+        },
+        {
+          "word": "少年",
+          "furigana": "しょうねん",
+          "romanji": "shounen",
+          "meaning_id": "pemuda",
+          "meaning_en": "young man"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "character": "生",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "い",
+            "romanji": "i"
+          },
+          {
+            "furigana": "う",
+            "romanji": "u"
+          },
+          {
+            "furigana": "は",
+            "romanji": "ha"
+          },
+          {
+            "furigana": "き",
+            "romanji": "ki"
+          },
+          {
+            "furigana": "なま",
+            "romanji": "nama"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "セイ",
+            "romanji": "sei"
+          },
+          {
+            "furigana": "ショウ",
+            "romanji": "shou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "hidup",
+        "en": "life, birth"
+      },
+      "examples": [
+        {
+          "word": "生きる",
+          "furigana": "いきる",
+          "romanji": "ikiru",
+          "meaning_id": "hidup",
+          "meaning_en": "to live"
+        },
+        {
+          "word": "生まれる",
+          "furigana": "うまれる",
+          "romanji": "umareru",
+          "meaning_id": "lahir",
+          "meaning_en": "to be born"
+        },
+        {
+          "word": "生える",
+          "furigana": "はえる",
+          "romanji": "haeru",
+          "meaning_id": "tumbuh",
+          "meaning_en": "to grow"
+        },
+        {
+          "word": "生で",
+          "furigana": "なまで",
+          "romanji": "namade",
+          "meaning_id": "dengan tanpa campuran",
+          "meaning_en": "raw"
+        },
+        {
+          "word": "生野菜",
+          "furigana": "なまやさい",
+          "romanji": "namayasai",
+          "meaning_id": "sayuran mentah",
+          "meaning_en": "raw vegetables"
+        },
+        {
+          "word": "先生",
+          "furigana": "せんせい",
+          "romanji": "sensei",
+          "meaning_id": "murid, siswa",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "一生",
+          "furigana": "いっしょう",
+          "romanji": "isshou",
+          "meaning_id": "seumur hidup",
+          "meaning_en": "whole life"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "character": "本",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "もと",
+            "romanji": "moto"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ホン",
+            "romanji": "hon"
+          },
+          {
+            "furigana": "ボン",
+            "romanji": "bon"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "buku",
+        "en": "book"
+      },
+      "examples": [
+        {
+          "word": "本",
+          "furigana": "ほん",
+          "romanji": "hon",
+          "meaning_id": "pangkal, dasar",
+          "meaning_en": "book"
+        },
+        {
+          "word": "二本",
+          "furigana": "にほん",
+          "romanji": "nihon",
+          "meaning_id": "2 batang",
+          "meaning_en": "two (long objects)"
+        },
+        {
+          "word": "一本",
+          "furigana": "いっぽん",
+          "romanji": "ippon",
+          "meaning_id": "1 batang",
+          "meaning_en": "one (long object)"
+        },
+        {
+          "word": "三本",
+          "furigana": "さんぼん",
+          "romanji": "sanbon",
+          "meaning_id": "3 batang",
+          "meaning_en": "three (long objects)"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "character": "古",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ふる",
+            "romanji": "furu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "コ",
+            "romanji": "ko"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "lama",
+        "en": "old"
+      },
+      "examples": [
+        {
+          "word": "古い",
+          "furigana": "ふるい",
+          "romanji": "furui",
+          "meaning_id": "tua, lama",
+          "meaning_en": "old"
+        },
+        {
+          "word": "古典",
+          "furigana": "こてん",
+          "romanji": "koten",
+          "meaning_id": "klasik",
+          "meaning_en": "classic"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "character": "右",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "みぎ",
+            "romanji": "migi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ウ",
+            "romanji": "u"
+          },
+          {
+            "furigana": "ユウ",
+            "romanji": "yuu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "kanan",
+        "en": "right"
+      },
+      "examples": [
+        {
+          "word": "右側",
+          "furigana": "みぎがわ",
+          "romanji": "migigawa",
+          "meaning_id": "sebelah kanan",
+          "meaning_en": "right side"
+        },
+        {
+          "word": "右折",
+          "furigana": "うせつ",
+          "romanji": "usetsu",
+          "meaning_id": "belok kanan",
+          "meaning_en": "right turn"
+        },
+        {
+          "word": "左右",
+          "furigana": "さゆう",
+          "romanji": "sayuu",
+          "meaning_id": "kiri dan kanan",
+          "meaning_en": "left and right"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "character": "左",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ひだり",
+            "romanji": "hidari"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "サ",
+            "romanji": "sa"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "kiri",
+        "en": "left"
+      },
+      "examples": [
+        {
+          "word": "左側",
+          "furigana": "ひだりがわ",
+          "romanji": "hidarigawa",
+          "meaning_id": "sebelah kiri",
+          "meaning_en": "left side"
+        },
+        {
+          "word": "左折",
+          "furigana": "させつ",
+          "romanji": "sasetsu",
+          "meaning_id": "belok kiri",
+          "meaning_en": "left turn"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "character": "出",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "で",
+            "romanji": "de"
+          },
+          {
+            "furigana": "だ",
+            "romanji": "da"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シュツ",
+            "romanji": "shutsu"
+          },
+          {
+            "furigana": "シュッ",
+            "romanji": "shut"
+          },
+          {
+            "furigana": "スイ",
+            "romanji": "sui"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "keluar",
+        "en": "exit, go out"
+      },
+      "examples": [
+        {
+          "word": "出る",
+          "furigana": "でる",
+          "romanji": "deru",
+          "meaning_id": "keluar",
+          "meaning_en": "to go out"
+        },
+        {
+          "word": "出す",
+          "furigana": "だす",
+          "romanji": "dasu",
+          "meaning_id": "mengeluarkan",
+          "meaning_en": "to take out"
+        },
+        {
+          "word": "輸出",
+          "furigana": "ゆしゅつ",
+          "romanji": "yushutsu",
+          "meaning_id": "ekspor",
+          "meaning_en": "export"
+        },
+        {
+          "word": "出国",
+          "furigana": "しゅっこく",
+          "romanji": "shukkoく",
+          "meaning_id": "ke luar negeri",
+          "meaning_en": "departure from country"
+        },
+        {
+          "word": "出納",
+          "furigana": "すいとう",
+          "romanji": "suitou",
+          "meaning_id": "pengeluaran dan pendapatan",
+          "meaning_en": "receipts and expenditures"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "character": "北",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "きた",
+            "romanji": "kita"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ホク",
+            "romanji": "hoku"
+          },
+          {
+            "furigana": "ボク",
+            "romanji": "boku"
+          },
+          {
+            "furigana": "ホッ",
+            "romanji": "hot"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "utara",
+        "en": "north"
+      },
+      "examples": [
+        {
+          "word": "北",
+          "furigana": "きた",
+          "romanji": "kita",
+          "meaning_id": "utara",
+          "meaning_en": "north"
+        },
+        {
+          "word": "東北",
+          "furigana": "とうほく",
+          "romanji": "touhoku",
+          "meaning_id": "timur laut",
+          "meaning_en": "northeast"
+        },
+        {
+          "word": "南北",
+          "furigana": "なんぼく",
+          "romanji": "nanboku",
+          "meaning_id": "selatan dan utara",
+          "meaning_en": "north and south"
+        },
+        {
+          "word": "北海道",
+          "furigana": "ほっかいどう",
+          "romanji": "hokkaido",
+          "meaning_id": "nama tempat Hokkaido",
+          "meaning_en": "Hokkaido"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "character": "半",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "なか",
+            "romanji": "naka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ハン",
+            "romanji": "han"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "setengah",
+        "en": "half"
+      },
+      "examples": [
+        {
+          "word": "半ば",
+          "furigana": "なかば",
+          "romanji": "nakaba",
+          "meaning_id": "pertengahan",
+          "meaning_en": "middle"
+        },
+        {
+          "word": "半分",
+          "furigana": "はんぶん",
+          "romanji": "hanbun",
+          "meaning_id": "setengah, separuh",
+          "meaning_en": "half"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "character": "母",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "はは",
+            "romanji": "haha"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ボ",
+            "romanji": "bo"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "ibu",
+        "en": "mother"
+      },
+      "examples": [
+        {
+          "word": "母親",
+          "furigana": "ははおや",
+          "romanji": "hahaoya",
+          "meaning_id": "orang tua perempuan, ibu",
+          "meaning_en": "mother"
+        },
+        {
+          "word": "父母",
+          "furigana": "ふぼ",
+          "romanji": "fubo",
+          "meaning_id": "ayah dan ibu",
+          "meaning_en": "parents"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "character": "兄",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あに",
+            "romanji": "ani"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ケイ",
+            "romanji": "kei"
+          },
+          {
+            "furigana": "キョウ",
+            "romanji": "kyou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "kakak laki-laki",
+        "en": "older brother"
+      },
+      "examples": [
+        {
+          "word": "兄",
+          "furigana": "あに",
+          "romanji": "ani",
+          "meaning_id": "abang",
+          "meaning_en": "older brother"
+        },
+        {
+          "word": "父兄",
+          "furigana": "ふけい",
+          "romanji": "fukei",
+          "meaning_id": "wali",
+          "meaning_en": "guardian"
+        },
+        {
+          "word": "兄弟",
+          "furigana": "きょうだい",
+          "romanji": "kyoudai",
+          "meaning_id": "kakak beradik",
+          "meaning_en": "siblings"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "character": "冬",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ふゆ",
+            "romanji": "fuyu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "トウ",
+            "romanji": "tou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "musim dingin",
+        "en": "winter"
+      },
+      "examples": [
+        {
+          "word": "冬",
+          "furigana": "ふゆ",
+          "romanji": "fuyu",
+          "meaning_id": "musim dingin",
+          "meaning_en": "winter"
+        },
+        {
+          "word": "冬季",
+          "furigana": "とうき",
+          "romanji": "touki",
+          "meaning_id": "musim dingin",
+          "meaning_en": "winter season"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "character": "白",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "しろ",
+            "romanji": "shiro"
+          },
+          {
+            "furigana": "しら",
+            "romanji": "shira"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ハク",
+            "romanji": "haku"
+          },
+          {
+            "furigana": "バク",
+            "romanji": "baku"
+          },
+          {
+            "furigana": "ビャク",
+            "romanji": "byaku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "putih",
+        "en": "white"
+      },
+      "examples": [
+        {
+          "word": "白い",
+          "furigana": "しろい",
+          "romanji": "shiroi",
+          "meaning_id": "putih",
+          "meaning_en": "white"
+        },
+        {
+          "word": "白髪",
+          "furigana": "しらが",
+          "romanji": "shiraga",
+          "meaning_id": "dinding putih",
+          "meaning_en": "white hair"
+        },
+        {
+          "word": "白米",
+          "furigana": "はくまい",
+          "romanji": "hakumai",
+          "meaning_id": "beras putih",
+          "meaning_en": "white rice"
+        },
+        {
+          "word": "蛋白質",
+          "furigana": "たんぱくしつ",
+          "romanji": "tanpakushitsu",
+          "meaning_id": "protein, zat putih telur",
+          "meaning_en": "protein"
+        },
+        {
+          "word": "白檀",
+          "furigana": "びゃくだん",
+          "romanji": "byakudan",
+          "meaning_id": "kayu cendana",
+          "meaning_en": "sandalwood"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "character": "立",
+      "strokes": 5,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "た",
+            "romanji": "ta"
+          },
+          {
+            "furigana": "たち",
+            "romanji": "tachi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "リツ",
+            "romanji": "ritsu"
+          },
+          {
+            "furigana": "リッ",
+            "romanji": "rit"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "berdiri",
+        "en": "stand"
+      },
+      "examples": [
+        {
+          "word": "立つ",
+          "furigana": "たつ",
+          "romanji": "tatsu",
+          "meaning_id": "berdiri",
+          "meaning_en": "to stand"
+        },
+        {
+          "word": "立場",
+          "furigana": "たちば",
+          "romanji": "tachiba",
+          "meaning_id": "sudut pandang, posisi",
+          "meaning_en": "position, standpoint"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "character": "吸",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "す",
+            "romanji": "su"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "キュウ",
+            "romanji": "kyuu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "menghisap",
+        "en": "inhale, suck"
+      },
+      "examples": [
+        {
+          "word": "夕立",
+          "furigana": "ゆうだち",
+          "romanji": "yuudachi",
+          "meaning_id": "hujan di musim panas",
+          "meaning_en": "evening shower"
+        },
+        {
+          "word": "独立",
+          "furigana": "どくりつ",
+          "romanji": "dokuritsu",
+          "meaning_id": "kemerdekaan",
+          "meaning_en": "independence"
+        },
+        {
+          "word": "立春",
+          "furigana": "りっしゅん",
+          "romanji": "risshun",
+          "meaning_id": "awal musim semi",
+          "meaning_en": "beginning of spring"
+        },
+        {
+          "word": "建立",
+          "furigana": "こんりゅう",
+          "romanji": "konryuu",
+          "meaning_id": "pendirian (bangunan)",
+          "meaning_en": "construction"
+        },
+        {
+          "word": "吸う",
+          "furigana": "すう",
+          "romanji": "suu",
+          "meaning_id": "menghisap",
+          "meaning_en": "to inhale"
+        },
+        {
+          "word": "吸収",
+          "furigana": "きゅうしゅう",
+          "romanji": "kyuushuu",
+          "meaning_id": "penghisapan, absorbsi",
+          "meaning_en": "absorption"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "character": "百",
+      "strokes": 6,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "ヒャク",
+            "romanji": "hyaku"
+          },
+          {
+            "furigana": "ヒャッ",
+            "romanji": "hyat"
+          },
+          {
+            "furigana": "ビャク",
+            "romanji": "byaku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "seratus",
+        "en": "hundred"
+      },
+      "examples": [
+        {
+          "word": "百",
+          "furigana": "ひゃく",
+          "romanji": "hyaku",
+          "meaning_id": "seratus",
+          "meaning_en": "hundred"
+        },
+        {
+          "word": "三百",
+          "furigana": "さんびゃく",
+          "romanji": "sanbyaku",
+          "meaning_id": "seratus batang",
+          "meaning_en": "three hundred"
+        },
+        {
+          "word": "六百",
+          "furigana": "ろっぴゃく",
+          "romanji": "roppyaku",
+          "meaning_id": "tiga ratus",
+          "meaning_en": "six hundred"
+        },
+        {
+          "word": "八百",
+          "furigana": "はっぴゃく",
+          "romanji": "happyaku",
+          "meaning_id": "enam ratus",
+          "meaning_en": "eight hundred"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "character": "年",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "とし",
+            "romanji": "toshi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ネン",
+            "romanji": "nen"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "tahun",
+        "en": "year"
+      },
+      "examples": [
+        {
+          "word": "年",
+          "furigana": "とし",
+          "romanji": "toshi",
+          "meaning_id": "tahun",
+          "meaning_en": "year"
+        },
+        {
+          "word": "危年",
+          "furigana": "きねん",
+          "romanji": "kinen",
+          "meaning_id": "tahun/usia yg tidak beruntung",
+          "meaning_en": "unlucky year"
+        },
+        {
+          "word": "年齢",
+          "furigana": "ねんれい",
+          "romanji": "nenrei",
+          "meaning_id": "usia",
+          "meaning_en": "age"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "character": "先",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "さき",
+            "romanji": "saki"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "セン",
+            "romanji": "sen"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "dahulu",
+        "en": "before, ahead"
+      },
+      "examples": [
+        {
+          "word": "先",
+          "furigana": "さき",
+          "romanji": "saki",
+          "meaning_id": "usia",
+          "meaning_en": "ahead"
+        },
+        {
+          "word": "宛先",
+          "furigana": "あてさき",
+          "romanji": "atesaki",
+          "meaning_id": "nama & alamat penerima surat",
+          "meaning_en": "addressee"
+        },
+        {
+          "word": "先生",
+          "furigana": "せんせい",
+          "romanji": "sensei",
+          "meaning_id": "guru",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "character": "行",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "い",
+            "romanji": "i"
+          },
+          {
+            "furigana": "ゆ",
+            "romanji": "yu"
+          },
+          {
+            "furigana": "おこな",
+            "romanji": "okona"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "コウ",
+            "romanji": "kou"
+          },
+          {
+            "furigana": "ギョウ",
+            "romanji": "gyou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "pergi",
+        "en": "go, conduct"
+      },
+      "examples": [
+        {
+          "word": "行く",
+          "furigana": "いく",
+          "romanji": "iku",
+          "meaning_id": "pergi",
+          "meaning_en": "to go"
+        },
+        {
+          "word": "行方",
+          "furigana": "ゆくえ",
+          "romanji": "yukue",
+          "meaning_id": "keberadaan",
+          "meaning_en": "whereabouts"
+        },
+        {
+          "word": "行う",
+          "furigana": "おこなう",
+          "romanji": "okonau",
+          "meaning_id": "menyelenggarakan",
+          "meaning_en": "to conduct"
+        },
+        {
+          "word": "旅行",
+          "furigana": "りょこう",
+          "romanji": "ryokou",
+          "meaning_id": "kelakuan, tingkah laku",
+          "meaning_en": "travel"
+        },
+        {
+          "word": "行列",
+          "furigana": "ぎょうれつ",
+          "romanji": "gyouretsu",
+          "meaning_id": "barisan, antrian",
+          "meaning_en": "queue"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "character": "休",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "やす",
+            "romanji": "yasu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "キュウ",
+            "romanji": "kyuu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "istirahat",
+        "en": "rest"
+      },
+      "examples": [
+        {
+          "word": "休む",
+          "furigana": "やすむ",
+          "romanji": "yasumu",
+          "meaning_id": "beristirahat",
+          "meaning_en": "to rest"
+        },
+        {
+          "word": "休日",
+          "furigana": "きゅうじつ",
+          "romanji": "kyuujitsu",
+          "meaning_id": "hari libur",
+          "meaning_en": "holiday"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "character": "西",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "にし",
+            "romanji": "nishi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "セイ",
+            "romanji": "sei"
+          },
+          {
+            "furigana": "サイ",
+            "romanji": "sai"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "barat",
+        "en": "west"
+      },
+      "examples": [
+        {
+          "word": "西",
+          "furigana": "にし",
+          "romanji": "nishi",
+          "meaning_id": "pintu barat",
+          "meaning_en": "west"
+        },
+        {
+          "word": "西洋人",
+          "furigana": "せいようじん",
+          "romanji": "seiyoujin",
+          "meaning_id": "orang barat",
+          "meaning_en": "westerner"
+        },
+        {
+          "word": "西国",
+          "furigana": "さいごく",
+          "romanji": "saigoku",
+          "meaning_id": "negara bagian barat Jepang",
+          "meaning_en": "western Japan"
+        },
+        {
+          "word": "東西",
+          "furigana": "とうざい",
+          "romanji": "touzai",
+          "meaning_id": "timur dan barat",
+          "meaning_en": "east and west"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "character": "毎",
+      "strokes": 6,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "マイ",
+            "romanji": "mai"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "setiap",
+        "en": "every"
+      },
+      "examples": [
+        {
+          "word": "毎日",
+          "furigana": "まいにち",
+          "romanji": "mainichi",
+          "meaning_id": "setiap hari",
+          "meaning_en": "every day"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "character": "気",
+      "strokes": 6,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "キ",
+            "romanji": "ki"
+          },
+          {
+            "furigana": "ケ",
+            "romanji": "ke"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "perasaan",
+        "en": "spirit, feeling"
+      },
+      "examples": [
+        {
+          "word": "気持ち",
+          "furigana": "きもち",
+          "romanji": "kimochi",
+          "meaning_id": "perasaan",
+          "meaning_en": "feeling"
+        },
+        {
+          "word": "気配",
+          "furigana": "けはい",
+          "romanji": "kehai",
+          "meaning_id": "tanda, indikasi",
+          "meaning_en": "sign, indication"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "character": "有",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あ",
+            "romanji": "a"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ユウ",
+            "romanji": "yuu"
+          },
+          {
+            "furigana": "ウ",
+            "romanji": "u"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "ada",
+        "en": "exist, have"
+      },
+      "examples": [
+        {
+          "word": "有る",
+          "furigana": "ある",
+          "romanji": "aru",
+          "meaning_id": "ada",
+          "meaning_en": "to exist"
+        },
+        {
+          "word": "有料",
+          "furigana": "ゆうりょう",
+          "romanji": "yuuryou",
+          "meaning_id": "dikenakan biaya",
+          "meaning_en": "fee required"
+        },
+        {
+          "word": "有無",
+          "furigana": "うむ",
+          "romanji": "umu",
+          "meaning_id": "ada atau tidak",
+          "meaning_en": "existence or nonexistence"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "character": "名",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "な",
+            "romanji": "na"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "メイ",
+            "romanji": "mei"
+          },
+          {
+            "furigana": "ミョウ",
+            "romanji": "myou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "nama",
+        "en": "name"
+      },
+      "examples": [
+        {
+          "word": "名前",
+          "furigana": "なまえ",
+          "romanji": "namae",
+          "meaning_id": "nama",
+          "meaning_en": "name"
+        },
+        {
+          "word": "名刺",
+          "furigana": "めいし",
+          "romanji": "meishi",
+          "meaning_id": "kartu nama",
+          "meaning_en": "business card"
+        },
+        {
+          "word": "名字",
+          "furigana": "みょうじ",
+          "romanji": "myouji",
+          "meaning_id": "nama keluarga",
+          "meaning_en": "surname"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "character": "会",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あ",
+            "romanji": "a"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カイ",
+            "romanji": "kai"
+          },
+          {
+            "furigana": "エ",
+            "romanji": "e"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "bertemu",
+        "en": "meet, association"
+      },
+      "examples": [
+        {
+          "word": "会う",
+          "furigana": "あう",
+          "romanji": "au",
+          "meaning_id": "bertemu",
+          "meaning_en": "to meet"
+        },
+        {
+          "word": "会議",
+          "furigana": "かいぎ",
+          "romanji": "kaigi",
+          "meaning_id": "rapat",
+          "meaning_en": "meeting"
+        },
+        {
+          "word": "会得",
+          "furigana": "えとく",
+          "romanji": "etoku",
+          "meaning_id": "pemahaman, pengertian",
+          "meaning_en": "understanding"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "character": "安",
+      "strokes": 6,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "やす",
+            "romanji": "yasu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "アン",
+            "romanji": "an"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "murah",
+        "en": "cheap, peaceful"
+      },
+      "examples": [
+        {
+          "word": "安い",
+          "furigana": "やすい",
+          "romanji": "yasui",
+          "meaning_id": "murah",
+          "meaning_en": "cheap"
+        },
+        {
+          "word": "安全",
+          "furigana": "あんぜん",
+          "romanji": "anzen",
+          "meaning_id": "keselamatan",
+          "meaning_en": "safety"
+        },
+        {
+          "word": "何か",
+          "furigana": "なにか",
+          "romanji": "nanika",
+          "meaning_id": "sesuatu",
+          "meaning_en": "something"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "character": "何",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "なに",
+            "romanji": "nani"
+          },
+          {
+            "furigana": "なん",
+            "romanji": "nan"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カ",
+            "romanji": "ka"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "apa",
+        "en": "what"
+      },
+      "examples": [
+        {
+          "word": "何時",
+          "furigana": "なんじ",
+          "romanji": "nanji",
+          "meaning_id": "jam berapa",
+          "meaning_en": "what time"
+        },
+        {
+          "word": "幾何",
+          "furigana": "きか",
+          "romanji": "kika",
+          "meaning_id": "geometri, ilmu ukur",
+          "meaning_en": "geometry"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "character": "男",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "おとこ",
+            "romanji": "otoko"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ダン",
+            "romanji": "dan"
+          },
+          {
+            "furigana": "ナン",
+            "romanji": "nan"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "laki-laki",
+        "en": "man, male"
+      },
+      "examples": [
+        {
+          "word": "男",
+          "furigana": "おとこ",
+          "romanji": "otoko",
+          "meaning_id": "laki-laki, pria",
+          "meaning_en": "man"
+        },
+        {
+          "word": "男性",
+          "furigana": "だんせい",
+          "romanji": "dansei",
+          "meaning_id": "laki-laki, pria",
+          "meaning_en": "male"
+        },
+        {
+          "word": "長男",
+          "furigana": "ちょうなん",
+          "romanji": "chounan",
+          "meaning_id": "putra sulung",
+          "meaning_en": "eldest son"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "character": "車",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "くるま",
+            "romanji": "kuruma"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シャ",
+            "romanji": "sha"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "kendaraan",
+        "en": "car, vehicle"
+      },
+      "examples": [
+        {
+          "word": "車",
+          "furigana": "くるま",
+          "romanji": "kuruma",
+          "meaning_id": "kendaraan",
+          "meaning_en": "car"
+        },
+        {
+          "word": "自動車",
+          "furigana": "じどうしゃ",
+          "romanji": "jidousha",
+          "meaning_id": "roda gigi, persneling",
+          "meaning_en": "automobile"
+        },
+        {
+          "word": "車掌",
+          "furigana": "しゃしょう",
+          "romanji": "shashou",
+          "meaning_id": "kondektur",
+          "meaning_en": "conductor"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "character": "花",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "はな",
+            "romanji": "hana"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カ",
+            "romanji": "ka"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "bunga",
+        "en": "flower"
+      },
+      "examples": [
+        {
+          "word": "花",
+          "furigana": "はな",
+          "romanji": "hana",
+          "meaning_id": "bunga",
+          "meaning_en": "flower"
+        },
+        {
+          "word": "雄花",
+          "furigana": "おばな",
+          "romanji": "obana",
+          "meaning_id": "benang sari",
+          "meaning_en": "male flower"
+        },
+        {
+          "word": "花瓶",
+          "furigana": "かびん",
+          "romanji": "kabin",
+          "meaning_id": "vas bunga",
+          "meaning_en": "flower vase"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "character": "来",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "く",
+            "romanji": "ku"
+          },
+          {
+            "furigana": "こ",
+            "romanji": "ko"
+          },
+          {
+            "furigana": "きた",
+            "romanji": "kita"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ライ",
+            "romanji": "rai"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "datang",
+        "en": "come"
+      },
+      "examples": [
+        {
+          "word": "来る",
+          "furigana": "くる",
+          "romanji": "kuru",
+          "meaning_id": "datang",
+          "meaning_en": "to come"
+        },
+        {
+          "word": "来ない",
+          "furigana": "こない",
+          "romanji": "konai",
+          "meaning_id": "tidak datang",
+          "meaning_en": "not come"
+        },
+        {
+          "word": "来る",
+          "furigana": "きたる",
+          "romanji": "kitaru",
+          "meaning_id": "yang akan datang",
+          "meaning_en": "coming"
+        },
+        {
+          "word": "来年",
+          "furigana": "らいねん",
+          "romanji": "rainen",
+          "meaning_id": "tahun depan",
+          "meaning_en": "next year"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "character": "見",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "み",
+            "romanji": "mi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ケン",
+            "romanji": "ken"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "melihat",
+        "en": "see, look"
+      },
+      "examples": [
+        {
+          "word": "見る",
+          "furigana": "みる",
+          "romanji": "miru",
+          "meaning_id": "melihat",
+          "meaning_en": "to see"
+        },
+        {
+          "word": "見物",
+          "furigana": "けんぶつ",
+          "romanji": "kenbutsu",
+          "meaning_id": "tamasya, wisata",
+          "meaning_en": "sightseeing"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "character": "近",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "ちか",
+            "romanji": "chika"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "キン",
+            "romanji": "kin"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "dekat",
+        "en": "near"
+      },
+      "examples": [
+        {
+          "word": "近い",
+          "furigana": "ちかい",
+          "romanji": "chikai",
+          "meaning_id": "dekat",
+          "meaning_en": "near"
+        },
+        {
+          "word": "近所",
+          "furigana": "きんじょ",
+          "romanji": "kinjo",
+          "meaning_id": "sekitar, bertetanggaan",
+          "meaning_en": "neighborhood"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "character": "図",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "はか",
+            "romanji": "haka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ズ",
+            "romanji": "zu"
+          },
+          {
+            "furigana": "ト",
+            "romanji": "to"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "gambar",
+        "en": "diagram, figure"
+      },
+      "examples": [
+        {
+          "word": "図る",
+          "furigana": "はかる",
+          "romanji": "hakaru",
+          "meaning_id": "merencanakan, mencoba",
+          "meaning_en": "to plan"
+        },
+        {
+          "word": "図面",
+          "furigana": "ずめん",
+          "romanji": "zumen",
+          "meaning_id": "gambar rencana",
+          "meaning_en": "blueprint"
+        },
+        {
+          "word": "図書館",
+          "furigana": "としょかん",
+          "romanji": "toshokan",
+          "meaning_id": "perpustakaan",
+          "meaning_en": "library"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "character": "赤",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あか",
+            "romanji": "aka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "セキ",
+            "romanji": "seki"
+          },
+          {
+            "furigana": "シャク",
+            "romanji": "shaku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "merah",
+        "en": "red"
+      },
+      "examples": [
+        {
+          "word": "赤い",
+          "furigana": "あかい",
+          "romanji": "akai",
+          "meaning_id": "merah",
+          "meaning_en": "red"
+        },
+        {
+          "word": "赤道",
+          "furigana": "せきどう",
+          "romanji": "sekidou",
+          "meaning_id": "khatulistiwa",
+          "meaning_en": "equator"
+        },
+        {
+          "word": "赤銅",
+          "furigana": "しゃくどう",
+          "romanji": "shakudou",
+          "meaning_id": "tembaga merah",
+          "meaning_en": "red copper"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "character": "言",
+      "strokes": 7,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "い",
+            "romanji": "i"
+          },
+          {
+            "furigana": "こと",
+            "romanji": "koto"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ゲン",
+            "romanji": "gen"
+          },
+          {
+            "furigana": "ゴン",
+            "romanji": "gon"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "berkata",
+        "en": "say, word"
+      },
+      "examples": [
+        {
+          "word": "言う",
+          "furigana": "いう",
+          "romanji": "iu",
+          "meaning_id": "berkata",
+          "meaning_en": "to say"
+        },
+        {
+          "word": "言葉",
+          "furigana": "ことば",
+          "romanji": "kotoba",
+          "meaning_id": "kata, bahasa",
+          "meaning_en": "word, language"
+        },
+        {
+          "word": "最言",
+          "furigana": "さいごん",
+          "romanji": "saigon",
+          "meaning_id": "igauan, mengigau",
+          "meaning_en": "delirium"
+        },
+        {
+          "word": "言語",
+          "furigana": "げんご",
+          "romanji": "gengo",
+          "meaning_id": "bahasa",
+          "meaning_en": "language"
+        },
+        {
+          "word": "伝言",
+          "furigana": "でんごん",
+          "romanji": "dengon",
+          "meaning_id": "pesan",
+          "meaning_en": "message"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "character": "金",
+      "strokes": 8,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "かね",
+            "romanji": "kane"
+          },
+          {
+            "furigana": "かな",
+            "romanji": "kana"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "キン",
+            "romanji": "kin"
+          },
+          {
+            "furigana": "コン",
+            "romanji": "kon"
+          },
+          {
+            "furigana": "ゴン",
+            "romanji": "gon"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "uang",
+        "en": "gold, money"
+      },
+      "examples": [
+        {
+          "word": "お金",
+          "furigana": "おかね",
+          "romanji": "okane",
+          "meaning_id": "uang",
+          "meaning_en": "money"
+        },
+        {
+          "word": "黄金",
+          "furigana": "おうごん",
+          "romanji": "ougon",
+          "meaning_id": "kawat",
+          "meaning_en": "gold"
+        },
+        {
+          "word": "金槌",
+          "furigana": "かなづち",
+          "romanji": "kanazuchi",
+          "meaning_id": "palu, martil",
+          "meaning_en": "hammer"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "character": "学",
+      "strokes": 8,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "まな",
+            "romanji": "mana"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ガク",
+            "romanji": "gaku"
+          },
+          {
+            "furigana": "ガッ",
+            "romanji": "gat"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "belajar",
+        "en": "study, learn"
+      },
+      "examples": [
+        {
+          "word": "金魚",
+          "furigana": "きんぎょ",
+          "romanji": "kingyo",
+          "meaning_id": "ikan mas koki",
+          "meaning_en": "goldfish"
+        },
+        {
+          "word": "金色",
+          "furigana": "きんいろ",
+          "romanji": "kiniro",
+          "meaning_id": "warna emas",
+          "meaning_en": "golden color"
+        },
+        {
+          "word": "黄金",
+          "furigana": "おうごん",
+          "romanji": "ougon",
+          "meaning_id": "emas",
+          "meaning_en": "gold"
+        },
+        {
+          "word": "学ぶ",
+          "furigana": "まなぶ",
+          "romanji": "manabu",
+          "meaning_id": "belajar",
+          "meaning_en": "to learn"
+        },
+        {
+          "word": "学生",
+          "furigana": "がくせい",
+          "romanji": "gakusei",
+          "meaning_id": "pelajar, murid",
+          "meaning_en": "student"
+        },
+        {
+          "word": "学校",
+          "furigana": "がっこう",
+          "romanji": "gakkou",
+          "meaning_id": "sekolah",
+          "meaning_en": "school"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "character": "雨",
+      "strokes": 8,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あめ",
+            "romanji": "ame"
+          },
+          {
+            "furigana": "あま",
+            "romanji": "ama"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ウ",
+            "romanji": "u"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "hujan",
+        "en": "rain"
+      },
+      "examples": [
+        {
+          "word": "雨",
+          "furigana": "あめ",
+          "romanji": "ame",
+          "meaning_id": "hujan",
+          "meaning_en": "rain"
+        },
+        {
+          "word": "雨傘",
+          "furigana": "あまがさ",
+          "romanji": "amagasa",
+          "meaning_id": "payung hujan",
+          "meaning_en": "umbrella"
+        },
+        {
+          "word": "梅雨",
+          "furigana": "つゆ",
+          "romanji": "tsuyu",
+          "meaning_id": "curah hujan",
+          "meaning_en": "rainy season"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "character": "店",
+      "strokes": 8,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "みせ",
+            "romanji": "mise"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "テン",
+            "romanji": "ten"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "toko",
+        "en": "shop, store"
+      },
+      "examples": [
+        {
+          "word": "店",
+          "furigana": "みせ",
+          "romanji": "mise",
+          "meaning_id": "toko",
+          "meaning_en": "shop"
+        },
+        {
+          "word": "店内",
+          "furigana": "てんない",
+          "romanji": "tennai",
+          "meaning_id": "dalam toko",
+          "meaning_en": "inside the store"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "character": "前",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "まえ",
+            "romanji": "mae"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ゼン",
+            "romanji": "zen"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "depan",
+        "en": "front, before"
+      },
+      "examples": [
+        {
+          "word": "前書き",
+          "furigana": "まえがき",
+          "romanji": "maegaki",
+          "meaning_id": "prakata, kata pengantar",
+          "meaning_en": "preface"
+        },
+        {
+          "word": "前後",
+          "furigana": "ぜんご",
+          "romanji": "zengo",
+          "meaning_id": "depan & belakang, sebelum & sesudah",
+          "meaning_en": "front and back"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "character": "後",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あと",
+            "romanji": "ato"
+          },
+          {
+            "furigana": "うし",
+            "romanji": "ushi"
+          },
+          {
+            "furigana": "のち",
+            "romanji": "nochi"
+          },
+          {
+            "furigana": "おく",
+            "romanji": "oku"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ゴ",
+            "romanji": "go"
+          },
+          {
+            "furigana": "コウ",
+            "romanji": "kou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sesudah",
+        "en": "after, behind"
+      },
+      "examples": [
+        {
+          "word": "後",
+          "furigana": "あと",
+          "romanji": "ato",
+          "meaning_id": "sesudah",
+          "meaning_en": "after"
+        },
+        {
+          "word": "後ろ",
+          "furigana": "うしろ",
+          "romanji": "ushiro",
+          "meaning_id": "belakang",
+          "meaning_en": "behind"
+        },
+        {
+          "word": "後ほど",
+          "furigana": "のちほど",
+          "romanji": "nochihodo",
+          "meaning_id": "nanti",
+          "meaning_en": "later"
+        },
+        {
+          "word": "後れる",
+          "furigana": "おくれる",
+          "romanji": "okureru",
+          "meaning_id": "terbelakang, ketinggalan",
+          "meaning_en": "to be late"
+        },
+        {
+          "word": "食後",
+          "furigana": "しょくご",
+          "romanji": "shokugo",
+          "meaning_id": "sesudah makan",
+          "meaning_en": "after meal"
+        },
+        {
+          "word": "後輩",
+          "furigana": "こうはい",
+          "romanji": "kouhai",
+          "meaning_id": "junior, adik kelas",
+          "meaning_en": "junior"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "character": "南",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "みなみ",
+            "romanji": "minami"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ナ",
+            "romanji": "na"
+          },
+          {
+            "furigana": "ナン",
+            "romanji": "nan"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "selatan",
+        "en": "south"
+      },
+      "examples": [
+        {
+          "word": "南",
+          "furigana": "みなみ",
+          "romanji": "minami",
+          "meaning_id": "selatan",
+          "meaning_en": "south"
+        },
+        {
+          "word": "南無",
+          "furigana": "なむ",
+          "romanji": "namu",
+          "meaning_id": "aku berserah kepada Buddha",
+          "meaning_en": "devotion to Buddha"
+        },
+        {
+          "word": "南極",
+          "furigana": "なんきょく",
+          "romanji": "nankyoku",
+          "meaning_id": "kutub selatan",
+          "meaning_en": "South Pole"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "character": "食",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "た",
+            "romanji": "ta"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ショク",
+            "romanji": "shoku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "makan",
+        "en": "eat, food"
+      },
+      "examples": [
+        {
+          "word": "食べる",
+          "furigana": "たべる",
+          "romanji": "taberu",
+          "meaning_id": "makan",
+          "meaning_en": "to eat"
+        },
+        {
+          "word": "食う",
+          "furigana": "くう",
+          "romanji": "kuu",
+          "meaning_id": "makan",
+          "meaning_en": "to eat"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "character": "海",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "うみ",
+            "romanji": "umi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カイ",
+            "romanji": "kai"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "laut",
+        "en": "sea, ocean"
+      },
+      "examples": [
+        {
+          "word": "食事",
+          "furigana": "しょくじ",
+          "romanji": "shokuji",
+          "meaning_id": "makanan",
+          "meaning_en": "meal"
+        },
+        {
+          "word": "断食",
+          "furigana": "だんじき",
+          "romanji": "danjiki",
+          "meaning_id": "puasa",
+          "meaning_en": "fasting"
+        },
+        {
+          "word": "海",
+          "furigana": "うみ",
+          "romanji": "umi",
+          "meaning_id": "laut",
+          "meaning_en": "sea"
+        },
+        {
+          "word": "海峡",
+          "furigana": "かいきょう",
+          "romanji": "kaikyou",
+          "meaning_id": "angkatan laut",
+          "meaning_en": "strait"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "character": "春",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "はる",
+            "romanji": "haru"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シュン",
+            "romanji": "shun"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "musim semi",
+        "en": "spring"
+      },
+      "examples": [
+        {
+          "word": "春",
+          "furigana": "はる",
+          "romanji": "haru",
+          "meaning_id": "musim semi",
+          "meaning_en": "spring"
+        },
+        {
+          "word": "春季",
+          "furigana": "しゅんき",
+          "romanji": "shunki",
+          "meaning_id": "musim semi",
+          "meaning_en": "spring season"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "character": "秋",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あき",
+            "romanji": "aki"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シュウ",
+            "romanji": "shuu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "musim gugur",
+        "en": "autumn"
+      },
+      "examples": [
+        {
+          "word": "秋",
+          "furigana": "あき",
+          "romanji": "aki",
+          "meaning_id": "musim gugur",
+          "meaning_en": "autumn"
+        },
+        {
+          "word": "秋季",
+          "furigana": "しゅうき",
+          "romanji": "shuuki",
+          "meaning_id": "musim gugur",
+          "meaning_en": "autumn season"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "character": "持",
+      "strokes": 9,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "も",
+            "romanji": "mo"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ジ",
+            "romanji": "ji"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "memegang",
+        "en": "hold, have"
+      },
+      "examples": [
+        {
+          "word": "持つ",
+          "furigana": "もつ",
+          "romanji": "motsu",
+          "meaning_id": "memegang, memiliki",
+          "meaning_en": "to hold"
+        },
+        {
+          "word": "持参する",
+          "furigana": "じさんする",
+          "romanji": "jisansuru",
+          "meaning_id": "membawa",
+          "meaning_en": "to bring"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "character": "校",
+      "strokes": 10,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "コウ",
+            "romanji": "kou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "sekolah",
+        "en": "school"
+      },
+      "examples": [
+        {
+          "word": "校長",
+          "furigana": "こうちょう",
+          "romanji": "kouchou",
+          "meaning_id": "kepala sekolah",
+          "meaning_en": "principal"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "character": "書",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "か",
+            "romanji": "ka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ショ",
+            "romanji": "sho"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "menulis",
+        "en": "write, book"
+      },
+      "examples": [
+        {
+          "word": "書く",
+          "furigana": "かく",
+          "romanji": "kaku",
+          "meaning_id": "menulis",
+          "meaning_en": "to write"
+        },
+        {
+          "word": "書類",
+          "furigana": "しょるい",
+          "romanji": "shorui",
+          "meaning_id": "dokumen",
+          "meaning_en": "document"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "character": "高",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "たか",
+            "romanji": "taka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "コウ",
+            "romanji": "kou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "tinggi",
+        "en": "high, tall"
+      },
+      "examples": [
+        {
+          "word": "高い",
+          "furigana": "たかい",
+          "romanji": "takai",
+          "meaning_id": "tinggi, mahal",
+          "meaning_en": "high, expensive"
+        },
+        {
+          "word": "高校",
+          "furigana": "こうこう",
+          "romanji": "koukou",
+          "meaning_id": "SMU, SMA",
+          "meaning_en": "high school"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "character": "時",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "とき",
+            "romanji": "toki"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ジ",
+            "romanji": "ji"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "waktu",
+        "en": "time"
+      },
+      "examples": [
+        {
+          "word": "時々",
+          "furigana": "ときどき",
+          "romanji": "tokidoki",
+          "meaning_id": "kadang-kadang",
+          "meaning_en": "sometimes"
+        },
+        {
+          "word": "時間",
+          "furigana": "じかん",
+          "romanji": "jikan",
+          "meaning_id": "waktu",
+          "meaning_en": "time"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "character": "家",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "いえ",
+            "romanji": "ie"
+          },
+          {
+            "furigana": "や",
+            "romanji": "ya"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カ",
+            "romanji": "ka"
+          },
+          {
+            "furigana": "ケ",
+            "romanji": "ke"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "rumah",
+        "en": "house, home"
+      },
+      "examples": [
+        {
+          "word": "家",
+          "furigana": "いえ",
+          "romanji": "ie",
+          "meaning_id": "rumah",
+          "meaning_en": "house"
+        },
+        {
+          "word": "家主",
+          "furigana": "やぬし",
+          "romanji": "yanushi",
+          "meaning_id": "pemilik/tuan rumah",
+          "meaning_en": "landlord"
+        },
+        {
+          "word": "家族",
+          "furigana": "かぞく",
+          "romanji": "kazoku",
+          "meaning_id": "keluarga",
+          "meaning_en": "family"
+        },
+        {
+          "word": "家来",
+          "furigana": "けらい",
+          "romanji": "kerai",
+          "meaning_id": "pembantu, kaki-tangan",
+          "meaning_en": "retainer"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "character": "夏",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "なつ",
+            "romanji": "natsu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カ",
+            "romanji": "ka"
+          },
+          {
+            "furigana": "ゲ",
+            "romanji": "ge"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "musim panas",
+        "en": "summer"
+      },
+      "examples": [
+        {
+          "word": "夏",
+          "furigana": "なつ",
+          "romanji": "natsu",
+          "meaning_id": "musim panas",
+          "meaning_en": "summer"
+        },
+        {
+          "word": "夏季",
+          "furigana": "かき",
+          "romanji": "kaki",
+          "meaning_id": "musim panas",
+          "meaning_en": "summer season"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "character": "紙",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "かみ",
+            "romanji": "kami"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シ",
+            "romanji": "shi"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "kertas",
+        "en": "paper"
+      },
+      "examples": [
+        {
+          "word": "夏至",
+          "furigana": "げし",
+          "romanji": "geshi",
+          "meaning_id": "hari saat terang terlama pada musim panas",
+          "meaning_en": "summer solstice"
+        },
+        {
+          "word": "紙",
+          "furigana": "かみ",
+          "romanji": "kami",
+          "meaning_id": "kertas",
+          "meaning_en": "paper"
+        },
+        {
+          "word": "手紙",
+          "furigana": "てがみ",
+          "romanji": "tegami",
+          "meaning_id": "surat",
+          "meaning_en": "letter"
+        },
+        {
+          "word": "紙幣",
+          "furigana": "しへい",
+          "romanji": "shihei",
+          "meaning_id": "uang kertas",
+          "meaning_en": "paper money"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "character": "週",
+      "strokes": 11,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "シュウ",
+            "romanji": "shuu"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "minggu",
+        "en": "week"
+      },
+      "examples": [
+        {
+          "word": "週末",
+          "furigana": "しゅうまつ",
+          "romanji": "shuumatsu",
+          "meaning_id": "akhir pekan",
+          "meaning_en": "weekend"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "character": "朝",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あさ",
+            "romanji": "asa"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "チョウ",
+            "romanji": "chou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "pagi",
+        "en": "morning"
+      },
+      "examples": [
+        {
+          "word": "朝",
+          "furigana": "あさ",
+          "romanji": "asa",
+          "meaning_id": "pagi",
+          "meaning_en": "morning"
+        },
+        {
+          "word": "朝食",
+          "furigana": "ちょうしょく",
+          "romanji": "choushoku",
+          "meaning_id": "sarapan pagi",
+          "meaning_en": "breakfast"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "character": "飲",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "の",
+            "romanji": "no"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "イン",
+            "romanji": "in"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "minum",
+        "en": "drink"
+      },
+      "examples": [
+        {
+          "word": "飲む",
+          "furigana": "のむ",
+          "romanji": "nomu",
+          "meaning_id": "minum",
+          "meaning_en": "to drink"
+        },
+        {
+          "word": "飲料",
+          "furigana": "いんりょう",
+          "romanji": "inryou",
+          "meaning_id": "minuman",
+          "meaning_en": "beverage"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "character": "買",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "か",
+            "romanji": "ka"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "バイ",
+            "romanji": "bai"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "membeli",
+        "en": "buy"
+      },
+      "examples": [
+        {
+          "word": "買う",
+          "furigana": "かう",
+          "romanji": "kau",
+          "meaning_id": "membeli",
+          "meaning_en": "to buy"
+        },
+        {
+          "word": "買収",
+          "furigana": "ばいしゅう",
+          "romanji": "baishuu",
+          "meaning_id": "pembelian",
+          "meaning_en": "acquisition"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "character": "道",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "みち",
+            "romanji": "michi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ドウ",
+            "romanji": "dou"
+          },
+          {
+            "furigana": "トウ",
+            "romanji": "tou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "jalan",
+        "en": "road, way"
+      },
+      "examples": [
+        {
+          "word": "道",
+          "furigana": "みち",
+          "romanji": "michi",
+          "meaning_id": "jalan, jalanan",
+          "meaning_en": "road"
+        },
+        {
+          "word": "道路",
+          "furigana": "どうろ",
+          "romanji": "douro",
+          "meaning_id": "jalan, jalanan",
+          "meaning_en": "road"
+        },
+        {
+          "word": "神道",
+          "furigana": "しんとう",
+          "romanji": "shintou",
+          "meaning_id": "kepercayaan Shinto",
+          "meaning_en": "Shinto"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "character": "着",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "き",
+            "romanji": "ki"
+          },
+          {
+            "furigana": "つ",
+            "romanji": "tsu"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "チャク",
+            "romanji": "chaku"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "memakai",
+        "en": "wear, arrive"
+      },
+      "examples": [
+        {
+          "word": "着る",
+          "furigana": "きる",
+          "romanji": "kiru",
+          "meaning_id": "mengenakan (pakaian)",
+          "meaning_en": "to wear"
+        },
+        {
+          "word": "着く",
+          "furigana": "つく",
+          "romanji": "tsuku",
+          "meaning_id": "tiba, sampai",
+          "meaning_en": "to arrive"
+        },
+        {
+          "word": "到着",
+          "furigana": "とうちゃく",
+          "romanji": "touchaku",
+          "meaning_id": "tiba, sampai",
+          "meaning_en": "arrival"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "character": "間",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あいだ",
+            "romanji": "aida"
+          },
+          {
+            "furigana": "ま",
+            "romanji": "ma"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "カン",
+            "romanji": "kan"
+          },
+          {
+            "furigana": "ケン",
+            "romanji": "ken"
+          },
+          {
+            "furigana": "ゲン",
+            "romanji": "gen"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "antara",
+        "en": "between, interval"
+      },
+      "examples": [
+        {
+          "word": "間",
+          "furigana": "あいだ",
+          "romanji": "aida",
+          "meaning_id": "antara, selama",
+          "meaning_en": "between"
+        },
+        {
+          "word": "客間",
+          "furigana": "きゃくま",
+          "romanji": "kyakuma",
+          "meaning_id": "ruang tamu",
+          "meaning_en": "guest room"
+        },
+        {
+          "word": "時間",
+          "furigana": "じかん",
+          "romanji": "jikan",
+          "meaning_id": "waktu",
+          "meaning_en": "time"
+        },
+        {
+          "word": "世間",
+          "furigana": "せけん",
+          "romanji": "seken",
+          "meaning_id": "dunia, duniawi",
+          "meaning_en": "world"
+        },
+        {
+          "word": "人間",
+          "furigana": "にんげん",
+          "romanji": "ningen",
+          "meaning_id": "manusia",
+          "meaning_en": "human being"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "character": "話",
+      "strokes": 13,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "はな",
+            "romanji": "hana"
+          },
+          {
+            "furigana": "はなし",
+            "romanji": "hanashi"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ワ",
+            "romanji": "wa"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "berbicara",
+        "en": "talk, speak"
+      },
+      "examples": [
+        {
+          "word": "話す",
+          "furigana": "はなす",
+          "romanji": "hanasu",
+          "meaning_id": "berbicara",
+          "meaning_en": "to speak"
+        },
+        {
+          "word": "話",
+          "furigana": "はなし",
+          "romanji": "hanashi",
+          "meaning_id": "pembicaraan",
+          "meaning_en": "story, talk"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "character": "新",
+      "strokes": 13,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "あたら",
+            "romanji": "atara"
+          },
+          {
+            "furigana": "あら",
+            "romanji": "ara"
+          },
+          {
+            "furigana": "にい",
+            "romanji": "nii"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "シン",
+            "romanji": "shin"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "baru",
+        "en": "new"
+      },
+      "examples": [
+        {
+          "word": "昔話",
+          "furigana": "むかしばなし",
+          "romanji": "mukashibanashi",
+          "meaning_id": "dongeng",
+          "meaning_en": "old story"
+        },
+        {
+          "word": "話題",
+          "furigana": "わだい",
+          "romanji": "wadai",
+          "meaning_id": "topik pembicaraan",
+          "meaning_en": "topic"
+        },
+        {
+          "word": "新しい",
+          "furigana": "あたらしい",
+          "romanji": "atarashii",
+          "meaning_id": "baru",
+          "meaning_en": "new"
+        },
+        {
+          "word": "新た",
+          "furigana": "あらた",
+          "romanji": "arata",
+          "meaning_id": "baru",
+          "meaning_en": "new"
+        },
+        {
+          "word": "新妻",
+          "furigana": "にいづま",
+          "romanji": "niizuma",
+          "meaning_id": "istri yang baru dinikahi",
+          "meaning_en": "new bride"
+        },
+        {
+          "word": "新鮮",
+          "furigana": "しんせん",
+          "romanji": "shinsen",
+          "meaning_id": "segar, baru",
+          "meaning_en": "fresh"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "character": "電",
+      "strokes": 13,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "デン",
+            "romanji": "den"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "listrik",
+        "en": "electricity"
+      },
+      "examples": [
+        {
+          "word": "電気",
+          "furigana": "でんき",
+          "romanji": "denki",
+          "meaning_id": "listrik",
+          "meaning_en": "electricity"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "character": "駅",
+      "strokes": 14,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "えき",
+            "romanji": "eki"
+          }
+        ],
+        "on": []
+      },
+      "meanings": {
+        "id": "stasiun",
+        "en": "station"
+      },
+      "examples": [
+        {
+          "word": "駅",
+          "furigana": "えき",
+          "romanji": "eki",
+          "meaning_id": "stasiun kereta",
+          "meaning_en": "station"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "character": "聞",
+      "strokes": 14,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "き",
+            "romanji": "ki"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ブン",
+            "romanji": "bun"
+          },
+          {
+            "furigana": "モン",
+            "romanji": "mon"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "mendengar",
+        "en": "hear, ask"
+      },
+      "examples": [
+        {
+          "word": "聞く",
+          "furigana": "きく",
+          "romanji": "kiku",
+          "meaning_id": "mendengar, bertanya",
+          "meaning_en": "to hear, to ask"
+        },
+        {
+          "word": "新聞",
+          "furigana": "しんぶん",
+          "romanji": "shinbun",
+          "meaning_id": "surat kabar, koran",
+          "meaning_en": "newspaper"
+        },
+        {
+          "word": "聞聞する",
+          "furigana": "ぶんもんする",
+          "romanji": "bunmonsuru",
+          "meaning_id": "mendengarkan",
+          "meaning_en": "to listen"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "character": "読",
+      "strokes": 14,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "よ",
+            "romanji": "yo"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ドク",
+            "romanji": "doku"
+          },
+          {
+            "furigana": "トウ",
+            "romanji": "tou"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "membaca",
+        "en": "read"
+      },
+      "examples": [
+        {
+          "word": "読む",
+          "furigana": "よむ",
+          "romanji": "yomu",
+          "meaning_id": "membaca",
+          "meaning_en": "to read"
+        },
+        {
+          "word": "読書",
+          "furigana": "どくしょ",
+          "romanji": "dokusho",
+          "meaning_id": "baca buku",
+          "meaning_en": "reading"
+        },
+        {
+          "word": "読点",
+          "furigana": "とうてん",
+          "romanji": "touten",
+          "meaning_id": "tanda baca koma",
+          "meaning_en": "comma"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "character": "語",
+      "strokes": 14,
+      "readings": {
+        "kun": [
+          {
+            "furigana": "かた",
+            "romanji": "kata"
+          }
+        ],
+        "on": [
+          {
+            "furigana": "ゴ",
+            "romanji": "go"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "bahasa",
+        "en": "language, word"
+      },
+      "examples": [
+        {
+          "word": "語る",
+          "furigana": "かたる",
+          "romanji": "kataru",
+          "meaning_id": "berkata, bercerita",
+          "meaning_en": "to tell"
+        },
+        {
+          "word": "日本語",
+          "furigana": "にほんご",
+          "romanji": "nihongo",
+          "meaning_id": "bahasa Jepang",
+          "meaning_en": "Japanese language"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "character": "銀",
+      "strokes": 14,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "ギン",
+            "romanji": "gin"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "perak",
+        "en": "silver"
+      },
+      "examples": [
+        {
+          "word": "銀",
+          "furigana": "ぎん",
+          "romanji": "gin",
+          "meaning_id": "perak",
+          "meaning_en": "silver"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "character": "館",
+      "strokes": 16,
+      "readings": {
+        "kun": [],
+        "on": [
+          {
+            "furigana": "カン",
+            "romanji": "kan"
+          }
+        ]
+      },
+      "meanings": {
+        "id": "gedung",
+        "en": "building, hall"
+      },
+      "examples": [
+        {
+          "word": "図書館",
+          "furigana": "としょかん",
+          "romanji": "toshokan",
+          "meaning_id": "perpustakaan",
+          "meaning_en": "library"
+        }
+      ]
+    }
+  ]
+}
