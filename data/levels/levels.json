@@ -1,0 +1,54 @@
+{
+  "levels": [
+    {
+      "id": "n5",
+      "name": "N5",
+      "title": "Beginner",
+      "total_kanji": 46,
+      "color": "#94A3B8",
+      "order": 1
+    },
+    {
+      "id": "n4", 
+      "name": "N4",
+      "title": "Elementary",
+      "total_kanji": 181,
+      "color": "#FDE047",
+      "order": 2
+    },
+    {
+      "id": "n3",
+      "name": "N3", 
+      "title": "Intermediate",
+      "total_kanji": 367,
+      "color": "#E5E7EB",
+      "order": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "kanji",
+      "name": "Kanji",
+      "icon": "漢",
+      "color": "#FDE047"
+    },
+    {
+      "id": "vocabulary", 
+      "name": "Vocabulary",
+      "icon": "単",
+      "color": "#E5E7EB"
+    },
+    {
+      "id": "grammar",
+      "name": "Grammar", 
+      "icon": "文",
+      "color": "#E5E7EB"
+    },
+    {
+      "id": "listening",
+      "name": "Listening",
+      "icon": "聴", 
+      "color": "#E5E7EB"
+    }
+  ]
+}

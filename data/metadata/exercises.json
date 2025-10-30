@@ -1,0 +1,42 @@
+{
+  "exercise_types": [
+    {
+      "id": "writing",
+      "name": "Writing", 
+      "description": "Practice writing kanji characters",
+      "icon": "✏️",
+      "color": "#FDE047"
+    },
+    {
+      "id": "reading",
+      "name": "Reading",
+      "description": "Practice reading kanji pronunciations", 
+      "icon": "💬",
+      "color": "#FDE047"
+    },
+    {
+      "id": "pairing",
+      "name": "Pairing",
+      "description": "Match kanji with meanings or readings",
+      "icon": "🔗", 
+      "color": "#FDE047"
+    }
+  ],
+  "difficulty_levels": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "color": "#22C55E"
+    },
+    {
+      "id": "intermediate", 
+      "name": "Intermediate",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "advanced",
+      "name": "Advanced",
+      "color": "#EF4444"
+    }
+  ]
+}
