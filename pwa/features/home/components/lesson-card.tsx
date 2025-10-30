@@ -13,29 +13,30 @@ interface LessonCardProps {
   onListClick?: () => void;
 }
 
-export function LessonCard({ 
-  level, 
-  lessonNumber, 
-  progress, 
+export function LessonCard({
+  level,
+  lessonNumber,
+  progress,
   kanjiList,
   onExerciseClick,
-  onListClick 
+  onListClick,
 }: LessonCardProps) {
   return (
     <Card className="hover:shadow-xl transition-all duration-300 hover:border-ring">
       <CardContent className="p-4">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-3">
-            <Badge className="font-bold text-sm bg-blue-600 text-white border border-blue-500">{level}</Badge>
-            <Badge
-              className="rounded-full font-bold text-sm bg-yellow-500 text-black border border-yellow-400"
-            >
-              Lesson {lessonNumber}
-            </Badge>
+            <Badge variant="default" className="text-sm">{level}</Badge>
+            <Badge variant="outline" className="text-sm">Lesson {lessonNumber}</Badge>
           </div>
           <div className="flex items-center gap-2">
-            <Progress value={progress} className="w-32 h-2 bg-gray-700 [&>div]:bg-yellow-500" />
-            <span className="text-foreground font-bold text-sm">{progress}%</span>
+            <Progress
+              value={progress}
+              className="w-32 h-2"
+            />
+            <span className="text-foreground font-bold text-sm">
+              {progress}%
+            </span>
           </div>
         </div>
 
@@ -65,8 +66,9 @@ export function LessonCard({
           </Button>
         </div>
 
-        <Button 
-          className="w-full font-bold bg-green-600 hover:bg-green-700 text-white border border-green-500" 
+        <Button
+          className="w-full"
+          variant="outline"
           onClick={onExerciseClick}
         >
           Exercise
