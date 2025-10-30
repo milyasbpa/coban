@@ -34,7 +34,7 @@ export default function SplashScreen({ children }: { children: React.ReactNode }
 
   if (isLoading) {
     return (
-      <div className="fixed inset-0 bg-linear-to-br from-slate-800 via-slate-700 to-slate-900 flex flex-col items-center justify-center z-50">
+      <div className="fixed inset-0 bg-bg-primary flex flex-col items-center justify-center z-50">
         {/* Character Image */}
         <div className="relative mb-8 animate-bounce-slow">
           <img 
@@ -44,14 +44,14 @@ export default function SplashScreen({ children }: { children: React.ReactNode }
           />
           
           {/* Glow effect around character */}
-          <div className="absolute inset-0 w-40 h-40 bg-blue-400/20 rounded-full blur-xl animate-pulse"></div>
+          <div className="absolute inset-0 w-40 h-40 bg-accent-primary/20 rounded-full blur-xl animate-pulse"></div>
         </div>
         
         {/* Simple Loading Dots */}
         <div className="flex space-x-2">
-          <div className="w-3 h-3 bg-slate-300 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-          <div className="w-3 h-3 bg-slate-300 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-          <div className="w-3 h-3 bg-slate-300 rounded-full animate-bounce"></div>
+          <div className="w-3 h-3 bg-text-primary rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+          <div className="w-3 h-3 bg-text-primary rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+          <div className="w-3 h-3 bg-text-primary rounded-full animate-bounce"></div>
         </div>
       </div>
     )
