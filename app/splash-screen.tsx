@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "@/pwa/core/components/badge"
 
 export default function SplashScreen({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true)
