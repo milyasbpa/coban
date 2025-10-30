@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./splash.css";
 
 :root {
   --background: #ffffff;

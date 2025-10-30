@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import SplashScreen from "./splash-screen";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,11 +57,41 @@ export default function RootLayout({
         <meta name="msapplication-tap-highlight" content="no" />
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
+        
+        {/* Apple Splash Screens */}
+        <link
+          rel="apple-touch-startup-image"
+          href="/splash-320x568.svg"
+          media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+        />
+        <link
+          rel="apple-touch-startup-image"
+          href="/splash-375x812.svg"
+          media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+        />
+        <link
+          rel="apple-touch-startup-image"
+          href="/splash-414x896.svg"
+          media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+        />
+        
+        {/* Android Chrome PWA Meta Tags */}
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="mobile-web-app-title" content="Coban" />
+        
+        {/* PWA Display Mode */}
+        <meta name="display-mode" content="standalone" />
+        
+        {/* Prevent user scaling on PWA */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <SplashScreen>
+          {children}
+        </SplashScreen>
       </body>
     </html>
   );
