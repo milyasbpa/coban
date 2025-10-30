@@ -34,46 +34,25 @@ export default function SplashScreen({ children }: { children: React.ReactNode }
 
   if (isLoading) {
     return (
-      <div className="fixed inset-0 bg-black flex flex-col items-center justify-center z-50 transition-all duration-500">
-        {/* App Icon with animation */}
-        <div className="relative mb-8">
-          <div className="w-32 h-32 bg-white rounded-3xl flex items-center justify-center shadow-2xl transform transition-transform duration-1000 hover:scale-110">
-            <span className="text-6xl font-bold text-black select-none">C</span>
-          </div>
+      <div className="fixed inset-0 bg-linear-to-br from-slate-800 via-slate-700 to-slate-900 flex flex-col items-center justify-center z-50">
+        {/* Character Image */}
+        <div className="relative mb-8 animate-bounce-slow">
+          <img 
+            src="/icon-512x512.png" 
+            alt="Coban Character" 
+            className="w-40 h-40 object-contain drop-shadow-2xl"
+          />
           
-          {/* Animated ring */}
-          <div className="absolute inset-0 w-32 h-32 border-4 border-white/20 rounded-3xl animate-pulse"></div>
-          <div className="absolute inset-2 w-28 h-28 border-2 border-white/10 rounded-2xl animate-ping"></div>
+          {/* Glow effect around character */}
+          <div className="absolute inset-0 w-40 h-40 bg-blue-400/20 rounded-full blur-xl animate-pulse"></div>
         </div>
         
-        {/* App Name with slide-in animation */}
-        <div className="text-center mb-8 transform transition-all duration-1000 delay-300">
-          <h1 className="text-5xl font-bold text-white mb-3 tracking-tight">Coban Bas</h1>
-          <p className="text-gray-300 text-xl font-medium">Japanese Learning App</p>
-          {isInstalled && (
-            <p className="text-green-400 text-sm mt-2 flex items-center justify-center gap-2">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="20,6 9,17 4,12"/>
-              </svg>
-              App Installed
-            </p>
-          )}
+        {/* Simple Loading Dots */}
+        <div className="flex space-x-2">
+          <div className="w-3 h-3 bg-slate-300 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+          <div className="w-3 h-3 bg-slate-300 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+          <div className="w-3 h-3 bg-slate-300 rounded-full animate-bounce"></div>
         </div>
-        
-        {/* Loading Animation */}
-        <div className="flex space-x-3 mb-8">
-          <div className="w-4 h-4 bg-white rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-          <div className="w-4 h-4 bg-white rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-          <div className="w-4 h-4 bg-white rounded-full animate-bounce"></div>
-        </div>
-        
-        {/* Progress Bar */}
-        <div className="w-72 h-2 bg-gray-800 rounded-full overflow-hidden">
-          <div className="h-full bg-white progress-bar rounded-full"></div>
-        </div>
-        
-        {/* Loading text */}
-        <p className="text-gray-400 text-sm mt-6 animate-pulse">Loading your Japanese journey...</p>
       </div>
     )
   }
