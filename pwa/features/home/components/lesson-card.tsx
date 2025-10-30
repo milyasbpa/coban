@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/pwa/core/components/card";
 import { Badge } from "@/pwa/core/components/badge";
 import { Progress } from "@/pwa/core/components/progress";
 import { Button } from "@/pwa/core/components/button";
+import { List } from "lucide-react";
 
 interface LessonCardProps {
   level: string;
@@ -25,16 +26,15 @@ export function LessonCard({
       <CardContent className="p-4">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-3">
-            <Badge className="font-bold text-sm">{level}</Badge>
+            <Badge className="font-bold text-sm bg-blue-600 text-white border border-blue-500">{level}</Badge>
             <Badge
-              variant="secondary"
-              className="rounded-full font-bold text-sm"
+              className="rounded-full font-bold text-sm bg-yellow-500 text-black border border-yellow-400"
             >
               Lesson {lessonNumber}
             </Badge>
           </div>
           <div className="flex items-center gap-2">
-            <Progress value={progress} className="w-32 h-2" />
+            <Progress value={progress} className="w-32 h-2 bg-gray-700 [&>div]:bg-yellow-500" />
             <span className="text-foreground font-bold text-sm">{progress}%</span>
           </div>
         </div>
@@ -60,20 +60,13 @@ export function LessonCard({
             }}
             onClick={onListClick}
           >
-            <div className="grid grid-cols-3 gap-0.5">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <div
-                  key={i}
-                  className="w-1 h-1 bg-foreground rounded-full"
-                ></div>
-              ))}
-            </div>
+            <List className="w-4 h-4" />
             List
           </Button>
         </div>
 
         <Button 
-          className="w-full font-bold" 
+          className="w-full font-bold bg-green-600 hover:bg-green-700 text-white border border-green-500" 
           onClick={onExerciseClick}
         >
           Exercise
