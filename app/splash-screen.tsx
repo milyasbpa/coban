@@ -48,7 +48,7 @@ export default function SplashScreen({ children }: { children: React.ReactNode }
         
         {/* App Name with slide-in animation */}
         <div className="text-center mb-8 transform transition-all duration-1000 delay-300">
-          <h1 className="text-5xl font-bold text-white mb-3 tracking-tight">Coban</h1>
+          <h1 className="text-5xl font-bold text-white mb-3 tracking-tight">Coban Bas</h1>
           <p className="text-gray-300 text-xl font-medium">Japanese Learning App</p>
           {isInstalled && (
             <p className="text-green-400 text-sm mt-2 flex items-center justify-center gap-2">
