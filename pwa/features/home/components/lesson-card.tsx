@@ -22,8 +22,8 @@ export function LessonCard({
   onListClick,
 }: LessonCardProps) {
   return (
-    <Card className="hover:shadow-xl transition-all duration-300 hover:border-ring">
-      <CardContent className="p-4">
+    <Card className="hover:shadow-xl transition-all duration-300 hover:border-ring gap-0 py-4">
+      <CardContent className="px-4">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-3">
             <Badge variant="default" className="text-sm">{level}</Badge>
@@ -60,10 +60,6 @@ export function LessonCard({
             variant="outline"
             size="sm"
             className="flex items-center gap-2"
-            style={{
-              backgroundColor: "var(--character-dark)",
-              color: "var(--foreground)",
-            }}
             onClick={onListClick}
           >
             <List className="w-4 h-4" />
@@ -73,7 +69,7 @@ export function LessonCard({
 
         <Button
           className="w-full"
-          variant="outline"
+          variant="default"
           onClick={onExerciseClick}
         >
           Exercise
