@@ -69,28 +69,11 @@ export default function SplashScreen({ children }: { children: React.ReactNode }
         
         {/* Progress Bar */}
         <div className="w-72 h-2 bg-gray-800 rounded-full overflow-hidden">
-          <div className="h-full bg-gradient-to-r from-white via-gray-300 to-white animate-[loading_2s_ease-in-out_infinite] rounded-full"></div>
+          <div className="h-full bg-white progress-bar rounded-full"></div>
         </div>
         
         {/* Loading text */}
         <p className="text-gray-400 text-sm mt-6 animate-pulse">Loading your Japanese journey...</p>
-        
-        <style jsx>{`
-          @keyframes loading {
-            0% {
-              width: 0%;
-              margin-left: 0%;
-            }
-            50% {
-              width: 100%;
-              margin-left: 0%;
-            }
-            100% {
-              width: 0%;
-              margin-left: 100%;
-            }
-          }
-        `}</style>
       </div>
     )
   }
