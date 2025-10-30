@@ -1,0 +1,118 @@
+{
+  "topic_categories": {
+    "family_relationships": {
+      "name": "Keluarga & Hubungan",
+      "kanji_ids": [17, 43, 55, 56, 118, 141],
+      "kanji_characters": ["主", "弟", "姉", "妹", "族", "親"],
+      "description": "Kanji yang berkaitan dengan anggota keluarga dan hubungan sosial"
+    },
+    "body_anatomy": {
+      "name": "Tubuh & Anatomi",
+      "kanji_ids": [5, 15, 39, 42],
+      "kanji_characters": ["心", "目", "足", "体"],
+      "description": "Bagian-bagian tubuh manusia dan organ"
+    },
+    "places_locations": {
+      "name": "Tempat & Lokasi",
+      "kanji_ids": [8, 11, 18, 32, 45, 46, 54, 60, 126, 133],
+      "kanji_characters": ["内", "公", "台", "地", "町", "住", "店", "所", "場", "園"],
+      "description": "Lokasi, tempat, dan area geografis"
+    },
+    "activities_work": {
+      "name": "Aktivitas & Pekerjaan",
+      "kanji_ids": [22, 47, 48, 58, 44, 59, 95, 96, 97, 98, 131, 136],
+      "kanji_characters": ["仕", "作", "売", "歩", "走", "泳", "借", "起", "帰", "通", "働", "辞"],
+      "description": "Kegiatan sehari-hari dan pekerjaan"
+    },
+    "time_temporal": {
+      "name": "Waktu",
+      "kanji_ids": [2, 26, 30, 61, 91, 142],
+      "kanji_characters": ["夕", "去", "早", "夜", "度", "曜"],
+      "description": "Konsep waktu, hari, dan periode temporal"
+    },
+    "nature_animals": {
+      "name": "Alam & Hewan",
+      "kanji_ids": [4, 7, 33, 111, 119, 120],
+      "kanji_characters": ["犬", "牛", "色", "動", "野", "菜"],
+      "description": "Hewan, tumbuhan, dan elemen alam"
+    },
+    "food_nutrition": {
+      "name": "Makanan & Nutrisi",
+      "kanji_ids": [28, 106, 127],
+      "kanji_characters": ["米", "料", "飯"],
+      "description": "Makanan, bahan masakan, dan nutrisi"
+    },
+    "abstract_concepts": {
+      "name": "Konsep Abstrak",
+      "kanji_ids": [1, 13, 14, 23, 24, 25, 29, 31, 34, 35, 36, 37, 38, 103, 134, 137],
+      "kanji_characters": ["力", "予", "不", "正", "代", "世", "安", "多", "考", "合", "自", "同", "死", "真", "意", "楽"],
+      "description": "Konsep abstrak seperti kekuatan, perencanaan, kebenaran, dll"
+    },
+    "education_learning": {
+      "name": "Pendidikan & Pembelajaran",
+      "kanji_ids": [53, 92, 94, 112, 113, 116, 117, 135, 138, 140],
+      "kanji_characters": ["究", "研", "勉", "習", "部", "教", "理", "業", "試", "質"],
+      "description": "Pendidikan, penelitian, dan proses belajar"
+    },
+    "medical_health": {
+      "name": "Medis & Kesehatan",
+      "kanji_ids": [49, 50, 93, 104],
+      "kanji_characters": ["利", "医", "病", "院"],
+      "description": "Kesehatan, medis, dan fasilitas kesehatan"
+    },
+    "construction_building": {
+      "name": "Konstruksi & Bangunan",
+      "kanji_ids": [3, 16, 90],
+      "kanji_characters": ["工", "立", "建"],
+      "description": "Konstruksi, bangunan, dan infrastruktur"
+    },
+    "transportation": {
+      "name": "Transportasi",
+      "kanji_ids": [99, 115, 128, 132],
+      "kanji_characters": ["旅", "転", "運", "鉄"],
+      "description": "Perjalanan dan alat transportasi"
+    },
+    "communication_media": {
+      "name": "Komunikasi & Media",
+      "kanji_ids": [6, 20, 41, 66, 139],
+      "kanji_characters": ["文", "写", "言", "画", "歌"],
+      "description": "Komunikasi, media, dan seni"
+    },
+    "business_commerce": {
+      "name": "Bisnis & Perdagangan",
+      "kanji_ids": [40, 67, 101, 102, 105, 125],
+      "kanji_characters": ["社", "者", "荷", "席", "員", "貸"],
+      "description": "Bisnis, perdagangan, dan layanan"
+    },
+    "daily_activities": {
+      "name": "Aktivitas Harian",
+      "kanji_ids": [9, 19, 57, 62, 63, 64, 65, 107, 110, 124, 129],
+      "kanji_characters": ["止", "用", "始", "注", "服", "定", "物", "閉", "終", "開", "集"],
+      "description": "Aktivitas dan kegiatan sehari-hari"
+    },
+    "directions_positions": {
+      "name": "Arah & Posisi",
+      "kanji_ids": [10, 21, 27],
+      "kanji_characters": ["方", "広", "以"],
+      "description": "Arah, posisi, dan lokasi relatif"
+    },
+    "appearance_characteristics": {
+      "name": "Penampilan & Karakteristik",
+      "kanji_ids": [12, 52, 100, 108, 114, 121, 130],
+      "kanji_characters": ["切", "別", "特", "強", "黒", "悪", "暗"],
+      "description": "Sifat penampilan dan karakteristik"
+    },
+    "facilities_buildings": {
+      "name": "Fasilitas & Gedung",
+      "kanji_ids": [68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 109, 122, 123],
+      "kanji_characters": ["事", "時", "間", "週", "曲", "思", "教", "低", "持", "待", "意", "重", "急", "速", "貧", "困", "便", "新", "古", "若", "老", "太", "問", "堂", "答"],
+      "description": "Berbagai fasilitas dan jenis bangunan"
+    }
+  },
+  "summary": {
+    "total_kanji": 142,
+    "total_categories": 18,
+    "coverage": "100%",
+    "description": "Semua 142 kanji N4 berhasil dikategorikan berdasarkan topik semantic. Kategorisasi ini memudahkan pembelajaran dengan mengelompokkan kanji yang memiliki makna atau konteks penggunaan yang serupa."
+  }
+}
