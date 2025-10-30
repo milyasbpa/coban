@@ -1,5 +1,4 @@
 import Image from "next/image";
-import InstallButton from "../components/InstallButton";
 
 export default function Home() {
   return (
@@ -60,7 +59,7 @@ export default function Home() {
             Documentation
           </a>
         </div>
-        
+
         {/* PWA Install Info */}
         <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-lg text-center border border-blue-200 dark:border-blue-800">
           <div className="text-2xl mb-3">📱</div>
@@ -75,7 +74,6 @@ export default function Home() {
             <p>• Fast loading</p>
             <p>• Native app experience</p>
           </div>
-          <InstallButton />
         </div>
       </main>
     </div>

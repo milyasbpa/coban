@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import PWAInstaller from "../components/PWAInstaller";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,9 +17,7 @@ export const metadata: Metadata = {
   description: "Learn Japanese with Coban - Your Japanese learning companion",
   generator: "Next.js",
   keywords: ["japanese", "learning", "kanji", "vocabulary", "n4", "jlpt"],
-  authors: [
-    { name: "Coban Team" }
-  ],
+  authors: [{ name: "Coban Team" }],
   icons: [
     { rel: "apple-touch-icon", url: "/icon-192x192.png" },
     { rel: "icon", url: "/icon.svg" },
@@ -32,7 +29,8 @@ export const viewport = {
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
-  viewport: "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
+  viewport:
+    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
 };
 
 export default function RootLayout({
@@ -47,7 +45,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Coban" />
-        <meta name="description" content="Learn Japanese with Coban - Your Japanese learning companion" />
+        <meta
+          name="description"
+          content="Learn Japanese with Coban - Your Japanese learning companion"
+        />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
@@ -59,7 +60,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <PWAInstaller />
         {children}
       </body>
     </html>
