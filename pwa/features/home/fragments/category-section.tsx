@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Badge } from "@/pwa/core/components/badge";
-import { getLevelData } from "@/pwa/core/data/levels";
+import { getLevelData } from "@/pwa/features/home/utils/levels";
 import { CategoryButton } from "../components/category-button";
 
 export function CategorySection() {

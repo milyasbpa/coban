@@ -1,8 +1,9 @@
 "use client";
 
 import { LessonCard } from "../components/lesson-card";
+import { getLessonsByLevel } from "../utils/lesson";
 
-// Mock data - nanti bisa dari API atau data layer
+// Interface untuk Lesson
 interface Lesson {
   id: number;
   level: string;
@@ -11,24 +12,14 @@ interface Lesson {
   kanjiList: string[];
 }
 
-const mockLessons: Lesson[] = [
-  {
-    id: 1,
-    level: "N5",
-    lessonNumber: 1,
-    progress: 97,
-    kanjiList: ["一", "二", "三", "四", "五"]
-  },
-  {
-    id: 2,
-    level: "N5", 
-    lessonNumber: 2,
-    progress: 97,
-    kanjiList: ["六", "七", "八", "九", "十"]
-  }
-];
+interface LessonsSectionProps {
+  selectedLevel?: string;
+}
 
-export function LessonsSection() {
+export function LessonsSection({ selectedLevel = "N5" }: LessonsSectionProps) {
+  // Ambil lessons berdasarkan level yang dipilih
+  const lessons: Lesson[] = getLessonsByLevel(selectedLevel);
+
   const handleExerciseClick = (lessonId: number) => {
     console.log(`Starting exercise for lesson ${lessonId}`);
     // TODO: Navigate to exercise page
@@ -41,7 +32,7 @@ export function LessonsSection() {
 
   return (
     <div className="space-y-4">
-      {mockLessons.map((lesson) => (
+      {lessons.map((lesson: Lesson) => (
         <LessonCard
           key={lesson.id}
           level={lesson.level}

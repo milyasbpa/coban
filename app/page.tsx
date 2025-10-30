@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { Header } from "@/pwa/core/fragments/header";
 import { LevelSection } from "@/pwa/features/home/fragments/level-section";
 import { CategorySection } from "@/pwa/features/home/fragments/category-section";
@@ -6,6 +9,8 @@ import { KanjiListCTA } from "@/pwa/features/home/fragments/kanji-list-cta";
 import { LessonsSection } from "@/pwa/features/home/fragments/lessons-section";
 
 export default function Home() {
+  const [selectedLevel, setSelectedLevel] = useState("N5");
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -13,7 +18,7 @@ export default function Home() {
 
       <div className="px-4 py-6">
         {/* Level Section */}
-        <LevelSection />
+        <LevelSection onLevelChange={setSelectedLevel} />
 
         {/* Category Section */}
         <CategorySection />
@@ -25,7 +30,7 @@ export default function Home() {
         <KanjiListCTA />
 
         {/* Lessons Section */}
-        <LessonsSection />
+        <LessonsSection selectedLevel={selectedLevel} />
       </div>
     </div>
   );
