@@ -11,7 +11,9 @@ interface LevelSectionProps {
 
 export function LevelSection({ onLevelChange }: LevelSectionProps) {
   const levelData = getLevelData();
-  const [selectedLevelId, setSelectedLevelId] = useState(levelData.levels[0]?.id || "n5");
+  const [selectedLevelId, setSelectedLevelId] = useState(
+    levelData.levels[0]?.id || "n5"
+  );
 
   const handleLevelClick = (levelId: string) => {
     setSelectedLevelId(levelId);
@@ -28,14 +30,7 @@ export function LevelSection({ onLevelChange }: LevelSectionProps) {
 
   return (
     <div className="text-center mb-8">
-      <Badge
-        variant="secondary"
-        className="mb-4 px-6 py-2 text-sm font-medium"
-        style={{
-          backgroundColor: "var(--character-dark)",
-          color: "var(--foreground)",
-        }}
-      >
+      <Badge variant="secondary" className="mb-4 px-6 py-2 text-sm font-medium">
         Level
       </Badge>
 

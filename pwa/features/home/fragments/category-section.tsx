@@ -7,7 +7,9 @@ import { CategoryButton } from "../components/category-button";
 
 export function CategorySection() {
   const levelData = getLevelData();
-  const [selectedCategoryId, setSelectedCategoryId] = useState(levelData.categories[0]?.id || "kanji");
+  const [selectedCategoryId, setSelectedCategoryId] = useState(
+    levelData.categories[0]?.id || "kanji"
+  );
 
   const handleCategoryClick = (categoryId: string) => {
     setSelectedCategoryId(categoryId);
@@ -15,14 +17,7 @@ export function CategorySection() {
 
   return (
     <div className="text-center mb-8">
-      <Badge
-        variant="secondary"
-        className="mb-6 px-6 py-2 text-sm font-medium"
-        style={{
-          backgroundColor: "var(--character-dark)",
-          color: "var(--foreground)",
-        }}
-      >
+      <Badge variant="secondary" className="mb-6 px-6 py-2 text-sm font-medium">
         Category
       </Badge>
 

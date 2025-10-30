@@ -41,8 +41,8 @@ export function LessonCard({
         </div>
 
         <div className="flex items-center justify-between mb-4">
-          <div className="flex gap-2 text-lg text-foreground">
-            {kanjiList.map((kanji, i) => (
+          <div className="flex gap-2 text-lg text-foreground items-center">
+            {kanjiList.slice(0, 6).map((kanji, i) => (
               <span
                 key={i}
                 className="hover:text-secondary transition-colors cursor-pointer"
@@ -50,6 +50,11 @@ export function LessonCard({
                 {kanji}
               </span>
             ))}
+            {kanjiList.length > 6 && (
+              <Badge variant="outline" className="text-xs">
+                +{kanjiList.length - 6} more
+              </Badge>
+            )}
           </div>
           <Button
             variant="outline"
