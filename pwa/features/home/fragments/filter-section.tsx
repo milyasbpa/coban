@@ -20,7 +20,7 @@ export function FilterSection() {
   const [selectedFilter, setSelectedFilter] = useState<FilterType>("all");
 
   return (
-    <div className="flex gap-4 mb-6 px-4">
+    <div className="flex w-full justify-center gap-4 mb-6 px-4">
       <RadioGroup
         value={selectedFilter}
         onValueChange={(value) => setSelectedFilter(value as FilterType)}

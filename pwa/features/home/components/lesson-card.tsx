@@ -26,14 +26,15 @@ export function LessonCard({
       <CardContent className="px-4">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-3">
-            <Badge variant="default" className="text-sm">{level}</Badge>
-            <Badge variant="outline" className="text-sm">Lesson {lessonNumber}</Badge>
+            <Badge variant="secondary" className="text-sm">
+              {level}
+            </Badge>
+            <Badge variant="outline" className="text-sm">
+              Lesson {lessonNumber}
+            </Badge>
           </div>
           <div className="flex items-center gap-2">
-            <Progress
-              value={progress}
-              className="w-32 h-2"
-            />
+            <Progress value={progress} className="w-32 h-2" />
             <span className="text-foreground font-bold text-sm">
               {progress}%
             </span>
@@ -69,7 +70,7 @@ export function LessonCard({
 
         <Button
           className="w-full"
-          variant="default"
+          variant="secondary"
           onClick={onExerciseClick}
         >
           Exercise
