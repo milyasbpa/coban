@@ -1,112 +1,62 @@
 @import "tailwindcss";
 
 :root {
-  /* Character Colors - Based on the cute black cat character */
-  --character-dark: #1a1a2e;      /* Character's dark fur */
-  --character-light: #16213e;     /* Character's lighter areas */
-  --character-eyes: #f5f5f5;      /* Character's bright eyes */
-  --character-nose: #ff6b6b;      /* Character's cute nose */
+  /* Coban Design System - Integrated with Shadcn/UI */
+  --background: #0f1419;           /* Deep night background */
+  --foreground: #f9fafb;           /* Primary white text */
+  --card: #374151;                 /* Card backgrounds */
+  --card-foreground: #f9fafb;      /* Card text */
+  --popover: #374151;              /* Popover background */
+  --popover-foreground: #f9fafb;   /* Popover text */
+  --primary: #60a5fa;              /* Blue accent for primary actions */
+  --primary-foreground: #f9fafb;   /* Primary button text */
+  --secondary: #34d399;            /* Green for success/secondary */
+  --secondary-foreground: #1a1a2e; /* Secondary button text (dark) */
+  --muted: #2d3748;                /* Muted backgrounds */
+  --muted-foreground: #9ca3af;     /* Muted text */
+  --accent: #34d399;               /* Green accent */
+  --accent-foreground: #1a1a2e;    /* Accent text (dark) */
+  --destructive: #ef4444;          /* Red for errors */
+  --destructive-foreground: #f9fafb; /* Destructive text */
+  --border: #374151;               /* Border color */
+  --input: #2d3748;                /* Input backgrounds */
+  --ring: #60a5fa;                 /* Focus ring (blue) */
+  --radius: 0.5rem;                /* Border radius */
   
-  /* Background Colors - Atmospheric like the scene */
-  --bg-primary: #0f1419;          /* Deep night background */
-  --bg-secondary: #1e2a3a;        /* Mid-tone atmospheric */
-  --bg-tertiary: #2d3748;         /* Lighter surface */
-  --bg-card: #374151;             /* Card backgrounds */
-  --bg-hover: #4b5563;            /* Hover states */
+  /* Character theme colors */
+  --character-dark: #1a1a2e;       /* Character's dark fur */
+  --character-light: #16213e;      /* Character's lighter areas */
   
-  /* Accent Colors - Warm and inviting for learning */
-  --accent-primary: #fbbf24;      /* Warm golden (like wood table) */
-  --accent-secondary: #60a5fa;    /* Soft blue (atmospheric) */
-  --accent-success: #34d399;      /* Success green */
-  --accent-warning: #f59e0b;      /* Warning amber */
-  --accent-error: #ef4444;        /* Error red */
-  
-  /* Text Colors - High contrast for readability */
-  --text-primary: #f9fafb;        /* Primary white text */
-  --text-secondary: #d1d5db;      /* Secondary gray text */
-  --text-muted: #9ca3af;          /* Muted text */
-  --text-disabled: #6b7280;       /* Disabled text */
-  
-  /* Interactive Colors - For buttons and interactions */
-  --btn-primary: #fbbf24;         /* Primary button (golden) */
-  --btn-primary-hover: #f59e0b;   /* Primary hover */
-  --btn-secondary: #374151;       /* Secondary button */
-  --btn-secondary-hover: #4b5563; /* Secondary hover */
-  --btn-success: #10b981;         /* Success button */
-  --btn-danger: #ef4444;          /* Danger button */
-  
-  /* Border Colors */
-  --border-light: #374151;        /* Light borders */
-  --border-medium: #4b5563;       /* Medium borders */
-  --border-focus: #fbbf24;        /* Focus borders */
-  
-  /* Learning-specific Colors */
-  --kanji-beginner: #34d399;      /* Beginner level */
-  --kanji-intermediate: #fbbf24;  /* Intermediate level */
-  --kanji-advanced: #ef4444;      /* Advanced level */
-  --kanji-mastered: #8b5cf6;      /* Mastered */
-  
-  /* Component-specific */
-  --card-shadow: rgba(0, 0, 0, 0.4);
-  --glow-soft: rgba(251, 191, 36, 0.2);
-  --overlay: rgba(15, 20, 25, 0.8);
-  
-  /* Legacy variables for compatibility */
-  --background: var(--bg-primary);
-  --foreground: var(--text-primary);
+  /* Learning level colors */
+  --kanji-beginner: #34d399;       /* Green for beginner */
+  --kanji-intermediate: #60a5fa;   /* Blue for intermediate */
+  --kanji-advanced: #ef4444;       /* Red for advanced */
+  --kanji-mastered: #8b5cf6;       /* Purple for mastered */
 }
 
-@theme inline {
-  --color-background: var(--bg-primary);
-  --color-foreground: var(--text-primary);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  
-  /* Character Colors */
-  --color-character-dark: #1a1a2e;
-  --color-character-light: #16213e;
-  --color-character-eyes: #f5f5f5;
-  --color-character-nose: #ff6b6b;
-  
-  /* Background Colors */
-  --color-bg-primary: #0f1419;
-  --color-bg-secondary: #1e2a3a;
-  --color-bg-tertiary: #2d3748;
-  --color-bg-card: #374151;
-  --color-bg-hover: #4b5563;
-  
-  /* Accent Colors */
-  --color-accent-primary: #fbbf24;
-  --color-accent-secondary: #60a5fa;
-  --color-success: #34d399;
-  --color-warning: #f59e0b;
-  --color-error: #ef4444;
-  
-  /* Text Colors */
-  --color-text-primary: #f9fafb;
-  --color-text-secondary: #d1d5db;
-  --color-text-muted: #9ca3af;
-  --color-text-disabled: #6b7280;
-  
-  /* Button Colors */
-  --color-btn-primary: #fbbf24;
-  --color-btn-primary-hover: #f59e0b;
-  --color-btn-secondary: #374151;
-  --color-btn-secondary-hover: #4b5563;
-  --color-btn-success: #10b981;
-  --color-btn-danger: #ef4444;
-  
-  /* Border Colors */
-  --color-border-light: #374151;
-  --color-border-medium: #4b5563;
-  --color-border-focus: #fbbf24;
-  
-  /* Learning Level Colors */
-  --color-kanji-beginner: #34d399;
-  --color-kanji-intermediate: #fbbf24;
-  --color-kanji-advanced: #ef4444;
-  --color-kanji-mastered: #8b5cf6;
+.dark {
+  --background: #0f1419;
+  --foreground: #f9fafb;
+  --card: #374151;
+  --card-foreground: #f9fafb;
+  --popover: #374151;
+  --popover-foreground: #f9fafb;
+  --primary: #60a5fa;
+  --primary-foreground: #f9fafb;
+  --secondary: #34d399;
+  --secondary-foreground: #1a1a2e;
+  --muted: #2d3748;
+  --muted-foreground: #9ca3af;
+  --accent: #34d399;
+  --accent-foreground: #1a1a2e;
+  --destructive: #ef4444;
+  --destructive-foreground: #f9fafb;
+  --border: #374151;
+  --input: #2d3748;
+  --ring: #60a5fa;
 }
+
+
 
 /* PWA Splash Screen Animations */
 @keyframes progressLoad {
@@ -150,67 +100,7 @@
   }
 }
 
-/* Design System Utility Classes */
-
-/* Button Styles */
-.btn {
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.75rem;
-  font-weight: 500;
-  transition: all 0.2s ease;
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  text-decoration: none;
-}
-
-.btn:focus {
-  outline: 2px solid var(--border-focus);
-  outline-offset: 2px;
-}
-
-.btn-primary {
-  background-color: var(--btn-primary);
-  color: var(--character-dark);
-  box-shadow: 0 4px 12px var(--glow-soft);
-}
-
-.btn-primary:hover {
-  background-color: var(--btn-primary-hover);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 20px var(--glow-soft);
-}
-
-.btn-secondary {
-  background-color: var(--btn-secondary);
-  color: var(--text-primary);
-  border: 1px solid var(--border-medium);
-}
-
-.btn-secondary:hover {
-  background-color: var(--btn-secondary-hover);
-}
-
-/* Card Styles */
-.card {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-light);
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px var(--card-shadow);
-  transition: all 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px var(--card-shadow);
-  border-color: var(--border-focus);
-}
-
-/* Kanji Learning Level Colors */
+/* Learning Level Colors */
 .level-beginner {
   color: var(--kanji-beginner);
   border-color: var(--kanji-beginner);
@@ -231,64 +121,12 @@
   border-color: var(--kanji-mastered);
 }
 
-/* Text Styles */
-.text-primary {
-  color: var(--text-primary);
-}
-
-.text-secondary {
-  color: var(--text-secondary);
-}
-
-.text-muted {
-  color: var(--text-muted);
-}
-
-/* Character-themed Elements */
-.character-glow {
-  box-shadow: 0 0 20px var(--glow-soft);
-}
-
-.character-gradient {
-  background: linear-gradient(135deg, var(--character-light), var(--character-dark));
-}
-
-/* Learning Progress Indicators */
-.progress-bar-container {
-  background-color: var(--bg-tertiary);
-  border-radius: 9999px;
-  overflow: hidden;
-}
-
-.progress-bar-fill {
-  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
-  border-radius: 9999px;
-  transition: width 0.5s ease;
-}
-
-/* Interactive Elements */
-.interactive-hover {
-  transition: all 0.2s ease;
-}
-
-.interactive-hover:hover {
-  transform: scale(1.02);
-  filter: brightness(1.1);
-}
-
-/* Focus States */
-.focus-ring:focus {
-  outline: 2px solid var(--border-focus);
-  outline-offset: 2px;
-}
-
-@media (prefers-color-scheme: dark) {
-  /* Dark mode is our default, so no overrides needed */
-}
-
-body {
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: system-ui, -apple-system, sans-serif;
-  line-height: 1.6;
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
 }
