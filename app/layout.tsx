@@ -17,13 +17,12 @@ export const metadata: Metadata = {
   title: "Coban - Japanese Learning App",
   description: "Learn Japanese with Coban - Your Japanese learning companion",
   generator: "Next.js",
-  manifest: "/manifest.json",
   keywords: ["japanese", "learning", "kanji", "vocabulary", "n4", "jlpt"],
   authors: [
     { name: "Coban Team" }
   ],
   icons: [
-    { rel: "apple-touch-icon", url: "/icon.svg" },
+    { rel: "apple-touch-icon", url: "/icon-192x192.png" },
     { rel: "icon", url: "/icon.svg" },
   ],
 };
@@ -54,8 +53,7 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <link rel="apple-touch-icon" href="/icon.svg" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icon-192x192.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </head>
       <body

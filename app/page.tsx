@@ -1,4 +1,5 @@
 import Image from "next/image";
+import InstallButton from "../components/InstallButton";
 
 export default function Home() {
   return (
@@ -58,6 +59,23 @@ export default function Home() {
           >
             Documentation
           </a>
+        </div>
+        
+        {/* PWA Install Info */}
+        <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-lg text-center border border-blue-200 dark:border-blue-800">
+          <div className="text-2xl mb-3">📱</div>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+            Install Coban App
+          </h3>
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+            Get the full experience by installing this app on your device!
+          </p>
+          <div className="space-y-2 text-xs text-gray-500 dark:text-gray-500 mb-4">
+            <p>• Works offline</p>
+            <p>• Fast loading</p>
+            <p>• Native app experience</p>
+          </div>
+          <InstallButton />
         </div>
       </main>
     </div>
