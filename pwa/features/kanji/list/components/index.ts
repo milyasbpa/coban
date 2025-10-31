@@ -1,0 +1,1 @@
+export { KanjiGridCard } from './kanji-grid-card';

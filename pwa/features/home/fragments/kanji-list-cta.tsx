@@ -1,12 +1,14 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { Grid3X3 } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 
 export function KanjiListCTA() {
+  const router = useRouter();
+  
   const handleClick = () => {
-    console.log("Navigate to kanji list page");
-    // TODO: Navigate to all kanji list page
+    router.push("/kanji/list");
   };
 
   return (

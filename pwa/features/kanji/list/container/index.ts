@@ -1,0 +1,1 @@
+export { KanjiListContainer } from './kanji-list-container';
