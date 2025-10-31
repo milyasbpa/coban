@@ -74,13 +74,21 @@ export function KanjiListContainer() {
       {/* Kanji Grid */}
       <div className="p-4 pb-20 bg-background min-h-screen">
         <div className="grid grid-cols-5 gap-3 max-w-2xl mx-auto">
-          {kanjiList.map((kanji) => (
-            <KanjiGridCard
-              key={kanji.id}
-              kanji={kanji}
-              onClick={handleKanjiClick}
-            />
-          ))}
+          {kanjiList.length > 0 ? (
+            kanjiList.map((kanji) => (
+              <KanjiGridCard
+                key={`${kanji.level}-${kanji.id}`}
+                kanji={kanji}
+                onClick={handleKanjiClick}
+              />
+            ))
+          ) : (
+            <div className="col-span-5 text-center py-8">
+              <p className="text-muted-foreground">
+                No kanji data available for {selectedLevel}
+              </p>
+            </div>
+          )}
         </div>
       </div>
 
