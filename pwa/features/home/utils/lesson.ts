@@ -28,7 +28,7 @@ const groupKanjiByStrokes = (
   }, {} as { [key: number]: string[] });
 };
 
-// Membuat lesson berdasarkan stroke count (satu lesson per stroke count)
+// Membuat lesson dengan maksimal 5 kanji per lesson
 const createLessonsFromKanjiGroups = (
   kanjiGroups: { [key: number]: string[] },
   level: string
@@ -42,18 +42,25 @@ const createLessonsFromKanjiGroups = (
     .map(Number)
     .sort((a, b) => a - b);
 
+  // Kumpulkan semua kanji dalam urutan stroke count
+  const allKanji: string[] = [];
   sortedStrokes.forEach((strokes) => {
-    const kanjiList = kanjiGroups[strokes];
+    allKanji.push(...kanjiGroups[strokes]);
+  });
 
-    // Satu lesson untuk setiap stroke count
+  // Bagi kanji menjadi chunks dengan maksimal 5 kanji per lesson
+  const kanjiPerLesson = 5;
+  for (let i = 0; i < allKanji.length; i += kanjiPerLesson) {
+    const kanjiChunk = allKanji.slice(i, i + kanjiPerLesson);
+    
     lessons.push({
       id: lessonId++,
       level: level,
       lessonNumber: lessonNumber++,
       progress: Math.floor(Math.random() * 100), // Random progress untuk sekarang
-      kanjiList: kanjiList, // Semua kanji dengan stroke yang sama
+      kanjiList: kanjiChunk,
     });
-  });
+  }
 
   return lessons;
 };
