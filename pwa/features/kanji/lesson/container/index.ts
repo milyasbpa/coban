@@ -1,0 +1,1 @@
+export { KanjiLessonContainer } from './kanji-lesson-container';
