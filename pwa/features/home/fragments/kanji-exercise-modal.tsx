@@ -21,8 +21,13 @@ export function KanjiExerciseModal() {
     if (exerciseType === "pairing") {
       // Navigate to pairing exercise with lesson data
       window.location.href = `/kanji/exercise/pairing?lessonId=${exerciseModal.lessonId}&level=N5`;
+    } else if (exerciseType === "reading") {
+      // Navigate to reading exercise with lesson data
+      window.location.href = `/kanji/exercise/reading?lessonId=${exerciseModal.lessonId}&level=N5`;
+    } else if (exerciseType === "writing") {
+      // Navigate to writing exercise with lesson data
+      window.location.href = `/kanji/exercise/writing?level=n5&lesson=${lessonNumber}`;
     }
-    // TODO: Add other exercise types
   };
 
   return (
@@ -44,7 +49,10 @@ export function KanjiExerciseModal() {
 
         <div className="space-y-3 mt-4">
           {/* Writing Exercise */}
-          <div className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm">
+          <div 
+            className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm cursor-pointer"
+            onClick={() => handleExerciseStart("writing")}
+          >
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-2">
                 <Edit3 className="h-4 w-4 text-foreground" />
@@ -56,7 +64,10 @@ export function KanjiExerciseModal() {
           </div>
 
           {/* Reading Exercise */}
-          <div className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm">
+          <div 
+            className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm cursor-pointer"
+            onClick={() => handleExerciseStart("reading")}
+          >
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-2">
                 <Book className="h-4 w-4 text-foreground" />
