@@ -2,6 +2,8 @@
 
 import { LessonCard } from "../components/lesson-card";
 import { getLessonsByLevel } from "../utils/lesson";
+import { useHomeStore } from "../store/home-store";
+import { ExerciseModal } from "./exercise-modal";
 
 // Interface untuk Lesson
 interface Lesson {
@@ -19,10 +21,13 @@ interface LessonsSectionProps {
 export function LessonsSection({ selectedLevel = "N5" }: LessonsSectionProps) {
   // Ambil lessons berdasarkan level yang dipilih
   const lessons: Lesson[] = getLessonsByLevel(selectedLevel);
+  const { openExerciseModal } = useHomeStore();
 
   const handleExerciseClick = (lessonId: number) => {
-    console.log(`Starting exercise for lesson ${lessonId}`);
-    // TODO: Navigate to exercise page
+    const lesson = lessons.find(l => l.id === lessonId);
+    if (lesson) {
+      openExerciseModal(lesson.id, lesson.lessonNumber, lesson.kanjiList);
+    }
   };
 
   const handleListClick = (lessonId: number) => {
@@ -43,6 +48,7 @@ export function LessonsSection({ selectedLevel = "N5" }: LessonsSectionProps) {
           onListClick={() => handleListClick(lesson.id)}
         />
       ))}
+      <ExerciseModal />
     </div>
   );
 }
