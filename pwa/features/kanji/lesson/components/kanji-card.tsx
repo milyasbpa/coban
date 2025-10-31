@@ -7,6 +7,7 @@ import { Volume2 } from "lucide-react";
 import { KanjiDetail } from "../utils/kanji";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useKanjiSelection } from "../store/kanji-selection.store";
+import { useDisplayOptions } from "../store/display-options.store";
 import { cn } from "@/pwa/core/lib/utils";
 
 interface KanjiCardProps {
@@ -17,6 +18,7 @@ interface KanjiCardProps {
 export function KanjiCard({ kanji, index }: KanjiCardProps) {
   const { isIndonesian } = useLanguage();
   const { isSelectionMode, selectedKanjiIds, toggleKanjiSelection } = useKanjiSelection();
+  const { displayOptions } = useDisplayOptions();
   const isSelected = selectedKanjiIds.has(kanji.id);
 
   const handleAudioPlay = async (text: string, wordInfo?: string) => {
@@ -86,9 +88,11 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
             </div>
             
             {/* Kanji meaning */}
-            <div className="text-xs font-medium text-muted-foreground text-center">
-              {kanjiMeaning}
-            </div>
+            {displayOptions.meaning && (
+              <div className="text-xs font-medium text-muted-foreground text-center">
+                {kanjiMeaning}
+              </div>
+            )}
           </div>
         </div>
         
@@ -145,26 +149,34 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
           <div key={idx} className="grid grid-cols-[1fr_auto] gap-2 items-center text-sm">
             {/* Word content with fixed layout */}
             <div className="grid grid-cols-[auto_1fr] gap-2 items-baseline min-w-0">
-              {/* Left side - Word and furigana */}
+              {/* Left side - Word and readings */}
               <div className="flex items-baseline gap-1 shrink-0">
-                <span className="font-semibold text-foreground">
-                  {example.word}
-                </span>
-                <span className="text-muted-foreground text-xs">
-                  【{example.furigana}】
-                </span>
-                <span className="text-muted-foreground">
-                  ({example.romanji})
-                </span>
+                {displayOptions.japanese && (
+                  <span className="font-semibold text-foreground">
+                    {example.word}
+                  </span>
+                )}
+                {displayOptions.furigana && (
+                  <span className="text-muted-foreground text-xs">
+                    【{example.furigana}】
+                  </span>
+                )}
+                {displayOptions.romanji && (
+                  <span className="text-muted-foreground">
+                    ({example.romanji})
+                  </span>
+                )}
               </div>
               
               {/* Right side - Colon and meaning with consistent alignment */}
-              <div className="flex items-baseline gap-2 min-w-0">
-                <span className="text-muted-foreground shrink-0">:</span>
-                <span className="text-muted-foreground truncate">
-                  {isIndonesian ? example.meaning_id : example.meaning_en}
-                </span>
-              </div>
+              {displayOptions.meaning && (
+                <div className="flex items-baseline gap-2 min-w-0">
+                  <span className="text-muted-foreground shrink-0">:</span>
+                  <span className="text-muted-foreground truncate">
+                    {isIndonesian ? example.meaning_id : example.meaning_en}
+                  </span>
+                </div>
+              )}
             </div>
             
             {/* Audio button for each word */}
