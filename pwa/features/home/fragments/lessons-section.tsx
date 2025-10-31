@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { LessonCard } from "../components/lesson-card";
 import { getLessonsByLevel } from "../utils/lesson";
 import { useHomeStore } from "../store/home-store";
@@ -22,6 +23,7 @@ export function LessonsSection({ selectedLevel = "N5" }: LessonsSectionProps) {
   // Ambil lessons berdasarkan level yang dipilih
   const lessons: Lesson[] = getLessonsByLevel(selectedLevel);
   const { openExerciseModal } = useHomeStore();
+  const router = useRouter();
 
   const handleExerciseClick = (lessonId: number) => {
     const lesson = lessons.find(l => l.id === lessonId);
@@ -31,8 +33,7 @@ export function LessonsSection({ selectedLevel = "N5" }: LessonsSectionProps) {
   };
 
   const handleListClick = (lessonId: number) => {
-    console.log(`Opening kanji list for lesson ${lessonId}`);
-    // TODO: Navigate to kanji list page
+    router.push(`/kanji/list?lessonId=${lessonId}&level=${selectedLevel}`);
   };
 
   return (

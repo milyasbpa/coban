@@ -1,0 +1,1 @@
+export { KanjiCard } from './kanji-card';
