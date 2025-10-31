@@ -33,7 +33,7 @@ export function LessonsSection({ selectedLevel = "N5" }: LessonsSectionProps) {
   };
 
   const handleListClick = (lessonId: number) => {
-    router.push(`/kanji/list?lessonId=${lessonId}&level=${selectedLevel}`);
+    router.push(`/kanji/lesson?lessonId=${lessonId}&level=${selectedLevel}`);
   };
 
   return (
