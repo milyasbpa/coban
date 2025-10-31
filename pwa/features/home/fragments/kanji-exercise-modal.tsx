@@ -10,14 +10,19 @@ import { Progress } from "@/pwa/core/components/progress";
 import { useHomeStore } from "../store/home-store";
 import { Edit3, Book, Users } from "lucide-react";
 
-export function ExerciseModal() {
+export function KanjiExerciseModal() {
   const { exerciseModal, closeExerciseModal } = useHomeStore();
   const { isOpen, lessonNumber, kanjiList } = exerciseModal;
 
   const handleExerciseStart = (exerciseType: string) => {
     console.log(`Starting ${exerciseType} exercise for lesson ${lessonNumber}`);
-    // TODO: Navigate to specific exercise type
     closeExerciseModal();
+    
+    if (exerciseType === "pairing") {
+      // Navigate to pairing exercise with lesson data
+      window.location.href = `/kanji/exercise/pairing?lessonId=${exerciseModal.lessonId}&level=N5`;
+    }
+    // TODO: Add other exercise types
   };
 
   return (
@@ -63,7 +68,10 @@ export function ExerciseModal() {
           </div>
 
           {/* Pairing Exercise */}
-          <div className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm">
+          <div 
+            className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm cursor-pointer"
+            onClick={() => handleExerciseStart("pairing")}
+          >
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-2">
                 <Users className="h-4 w-4 text-foreground" />

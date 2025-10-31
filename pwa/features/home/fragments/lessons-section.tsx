@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { LessonCard } from "../components/lesson-card";
 import { getLessonsByLevel } from "../utils/lesson";
 import { useHomeStore } from "../store/home-store";
-import { ExerciseModal } from "./exercise-modal";
+import { KanjiExerciseModal } from "./kanji-exercise-modal";
 
 // Interface untuk Lesson
 interface Lesson {
@@ -49,7 +49,7 @@ export function LessonsSection({ selectedLevel = "N5" }: LessonsSectionProps) {
           onListClick={() => handleListClick(lesson.id)}
         />
       ))}
-      <ExerciseModal />
+      <KanjiExerciseModal />
     </div>
   );
 }
