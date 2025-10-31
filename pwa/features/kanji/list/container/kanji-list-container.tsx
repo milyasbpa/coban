@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { KanjiGridCard } from "../components/kanji-grid-card";
@@ -10,10 +10,20 @@ import { getAllKanjiByLevel, getAvailableLevels, KanjiItem } from "../utils/kanj
 
 export function KanjiListContainer() {
   const router = useRouter();
-  const [selectedLevel, setSelectedLevel] = useState("N5");
+  const searchParams = useSearchParams();
+  
+  // Get level from URL params, default to N5
+  const levelFromUrl = searchParams.get('level') || 'N5';
+  const [selectedLevel, setSelectedLevel] = useState(levelFromUrl);
   const [kanjiList, setKanjiList] = useState<KanjiItem[]>([]);
   
   const levels = getAvailableLevels();
+
+  // Update selected level when URL changes
+  useEffect(() => {
+    const levelFromUrl = searchParams.get('level') || 'N5';
+    setSelectedLevel(levelFromUrl);
+  }, [searchParams]);
 
   useEffect(() => {
     const kanji = getAllKanjiByLevel(selectedLevel);
@@ -31,6 +41,10 @@ export function KanjiListContainer() {
 
   const handleLevelChange = (level: string) => {
     setSelectedLevel(level);
+    // Update URL with new level parameter
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.set('level', level);
+    router.replace(newUrl.pathname + newUrl.search);
   };
 
   return (

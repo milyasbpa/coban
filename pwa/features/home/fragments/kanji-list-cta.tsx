@@ -4,11 +4,15 @@ import { useRouter } from "next/navigation";
 import { Grid3X3 } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 
-export function KanjiListCTA() {
+interface KanjiListCTAProps {
+  selectedLevel?: string;
+}
+
+export function KanjiListCTA({ selectedLevel = "N5" }: KanjiListCTAProps) {
   const router = useRouter();
   
   const handleClick = () => {
-    router.push("/kanji/list");
+    router.push(`/kanji/list?level=${selectedLevel}`);
   };
 
   return (
@@ -19,7 +23,7 @@ export function KanjiListCTA() {
       <div className="flex items-center justify-center gap-2">
         <Grid3X3 className="w-6 h-6" />
         <span className="font-semibold text-sm ml-2">
-          N5 Kanji list
+          {selectedLevel} Kanji list
         </span>
       </div>
     </Button>

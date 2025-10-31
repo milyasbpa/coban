@@ -27,7 +27,7 @@ export default function Home() {
         <FilterSection />
 
         {/* Kanji List CTA */}
-        <KanjiListCTA />
+        <KanjiListCTA selectedLevel={selectedLevel} />
 
         {/* Lessons Section */}
         <LessonsSection selectedLevel={selectedLevel} />
