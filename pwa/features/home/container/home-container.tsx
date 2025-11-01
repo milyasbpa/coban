@@ -11,6 +11,7 @@ import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
 
 export function HomeContainer() {
   const [selectedLevel, setSelectedLevel] = useState("N5");
+  const [selectedLessonType, setSelectedLessonType] = useState<"stroke" | "topic">("stroke");
 
   return (
     <div className="min-h-screen bg-background">
@@ -31,11 +32,17 @@ export function HomeContainer() {
           {/* Kanji List CTA */}
           <KanjiListCTA selectedLevel={selectedLevel} />
           {/* Lesson Type Toggle */}
-          <LessonTypeToggle />
+          <LessonTypeToggle 
+            selectedType={selectedLessonType}
+            onTypeChange={setSelectedLessonType}
+          />
         </div>
 
         {/* Kanji Lessons Section */}
-        <KanjiLessonsSection selectedLevel={selectedLevel} />
+        <KanjiLessonsSection 
+          selectedLevel={selectedLevel} 
+          selectedLessonType={selectedLessonType}
+        />
       </div>
     </div>
   );

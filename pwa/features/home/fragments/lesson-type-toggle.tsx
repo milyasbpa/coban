@@ -1,18 +1,20 @@
 "use client";
 
-import { useState } from "react";
 import { cn } from "@/pwa/core/lib/utils";
 
-export function LessonTypeToggle() {
-  const [selectedType, setSelectedType] = useState<"stroke" | "topic">("stroke");
+interface LessonTypeToggleProps {
+  selectedType: "stroke" | "topic";
+  onTypeChange: (type: "stroke" | "topic") => void;
+}
 
+export function LessonTypeToggle({ selectedType, onTypeChange }: LessonTypeToggleProps) {
   return (
     <div className="flex items-center justify-center mb-6">
       <div className="bg-muted/50 rounded-full border border-border/50">
         <div className="flex items-center">
           {/* Stroke Option */}
           <button
-            onClick={() => setSelectedType("stroke")}
+            onClick={() => onTypeChange("stroke")}
             className={cn(
               "px-4 py-2 text-sm font-medium rounded-full",
               selectedType === "stroke"
@@ -25,7 +27,7 @@ export function LessonTypeToggle() {
 
           {/* Topic Option */}
           <button
-            onClick={() => setSelectedType("topic")}
+            onClick={() => onTypeChange("topic")}
             className={cn(
               "px-4 py-2 text-sm font-medium rounded-full",
               selectedType === "topic"
