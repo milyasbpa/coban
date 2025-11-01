@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { ScoreHeader } from "../fragments/score-header";
 import { GameResult } from "../fragments/game-result";
@@ -8,12 +8,6 @@ import { PairingHeader } from "../fragments/pairing-header";
 import { GameGrid } from "../fragments/game-grid";
 import { PairingDisplayOptionsControl } from "../fragments/pairing-display-options-control";
 import { usePairingGameStore } from "../store/pairing-game.store";
-import {
-  getPairingGameData,
-  getSections,
-  PairingWord,
-  shuffleArray,
-} from "../utils/pairing-game";
 
 export function KanjiPairingExerciseContainer() {
   const searchParams = useSearchParams();
@@ -21,66 +15,27 @@ export function KanjiPairingExerciseContainer() {
   const lessonId = searchParams.get("lessonId");
   const level = searchParams.get("level") || "N5";
 
-  // Game state
-  const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
-  const [allSections, setAllSections] = useState<PairingWord[][]>([]);
-
   // Store
   const {
-    gameStats,
     isGameComplete,
     isRetryMode,
-    updateStats,
-    setGameComplete,
+    moveToNextSection,
     calculateAndSetScore,
-    loadSection,
-    setAllGameWords,
-    resetGame,
+    setGameComplete,
+    initializeGame,
   } = usePairingGameStore();
-
-  // Reusable function for initializing/restarting game
-  const initializeGame = (shouldResetSectionIndex = false) => {
-    if (!lessonId) return;
-    
-    const gameData = getPairingGameData(parseInt(lessonId), level);
-    
-    // Shuffle all words first for better randomness
-    const shuffledWords = shuffleArray(gameData.words);
-    
-    // Get initial sections
-    const sections = getSections(shuffledWords);
-    
-    setAllSections(sections);
-    resetGame(gameData.totalWords, sections.length);
-    
-    // Store shuffled words for retry system
-    setAllGameWords(shuffledWords);
-    
-    // Reset section index if needed (for restart)
-    if (shouldResetSectionIndex) {
-      setCurrentSectionIndex(0);
-    }
-    
-    // Load first section
-    if (sections.length > 0) {
-      loadSection(sections[0]);
-    }
-  };
 
   // Initialize game on mount
   useEffect(() => {
-    initializeGame();
-  }, [lessonId, level]);
+    if (!lessonId) return;
+    initializeGame(parseInt(lessonId), level);
+  }, [lessonId, level, initializeGame]);
 
   // Listen for section complete events from GameGrid
   useEffect(() => {
     const handleSectionComplete = () => {
-      if (currentSectionIndex + 1 < allSections.length) {
-        // Move to next section
-        setCurrentSectionIndex((prev) => prev + 1);
-        updateStats({ currentSection: gameStats.currentSection + 1 });
-        loadSection(allSections[currentSectionIndex + 1]);
-      } else {
+      const hasMoreSections = moveToNextSection();
+      if (!hasMoreSections) {
         // Game complete
         calculateAndSetScore();
         setGameComplete(true);
@@ -89,7 +44,8 @@ export function KanjiPairingExerciseContainer() {
 
     const handleGameRestart = () => {
       // Use the reusable function with section index reset
-      initializeGame(true);
+      if (!lessonId) return;
+      initializeGame(parseInt(lessonId), level, true);
     };
 
     const handleRetryComplete = () => {
@@ -107,13 +63,12 @@ export function KanjiPairingExerciseContainer() {
       window.removeEventListener("retryComplete", handleRetryComplete);
     };
   }, [
-    currentSectionIndex,
-    allSections,
-    gameStats.currentSection,
-    updateStats,
-    loadSection,
+    moveToNextSection,
     calculateAndSetScore,
     setGameComplete,
+    initializeGame,
+    lessonId,
+    level,
   ]);
 
   // Show GameResult only if game is complete AND not in active retry mode
