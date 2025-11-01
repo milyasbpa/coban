@@ -4,7 +4,7 @@ import { Progress } from "@/pwa/core/components/progress";
 import { Button } from "@/pwa/core/components/button";
 import { List } from "lucide-react";
 
-interface LessonCardProps {
+interface StrokeLessonCardProps {
   level: string;
   lessonNumber: number;
   progress: number;
@@ -13,14 +13,14 @@ interface LessonCardProps {
   onListClick?: () => void;
 }
 
-export function LessonCard({
+export function StrokeLessonCard({
   level,
   lessonNumber,
   progress,
   kanjiList,
   onExerciseClick,
   onListClick,
-}: LessonCardProps) {
+}: StrokeLessonCardProps) {
   return (
     <Card className="hover:shadow-xl transition-all duration-300 hover:border-ring gap-0 py-4">
       <CardContent className="px-4">
