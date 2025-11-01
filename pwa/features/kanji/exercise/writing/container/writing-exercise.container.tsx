@@ -12,13 +12,7 @@ import {
   KanjiSelectionGrid
 } from '../fragments/writing-fragments';
 import { AssemblyArea, SubmitButton } from '../components';
-
-interface WritingQuestion {
-  kanji: string;
-  reading: string;
-  meaning: string;
-  audio?: string;
-}
+import { getWritingQuestions, WritingQuestion } from '../utils';
 
 interface WritingExerciseContainerProps {
   level: string;
@@ -61,29 +55,17 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
     }
   }, [questions, currentQuestionIndex]);
 
-  const loadQuestions = async () => {
+  const loadQuestions = () => {
     try {
       setLoading(true);
-      const response = await fetch(`/data/${level}/kanji/kanji.json`);
-      const allKanji = await response.json();
+      
+      // Use utility function to get questions
+      const writingQuestions = getWritingQuestions(level, lesson, 5);
 
-      // Get kanji for this specific lesson
-      const lessonKanji = allKanji.filter((item: any) => 
-        item.lesson === parseInt(lesson)
-      );
-
-      if (lessonKanji.length === 0) {
+      if (writingQuestions.length === 0) {
         console.warn('No kanji found for this lesson');
         return;
       }
-
-      // Create questions from lesson kanji
-      const writingQuestions: WritingQuestion[] = lessonKanji.map((item: any) => ({
-        kanji: item.kanji,
-        reading: item.reading,
-        meaning: item.meaning,
-        audio: item.audio || undefined
-      }));
 
       setQuestions(writingQuestions);
     } catch (error) {
