@@ -61,7 +61,7 @@ interface PairingGameState {
   checkSectionComplete: () => boolean;
 }
 
-// Helper function untuk menghitung score (berkurang proporsional berdasarkan unique wrong words)
+// Helper functions
 const calculateScore = (stats: GameStats): number => {
   if (stats.totalWords === 0) return 100;
 
@@ -73,6 +73,16 @@ const calculateScore = (stats: GameStats): number => {
 
   // Bulatkan dan clamp between 0-100
   return Math.max(0, Math.min(100, Math.round(newScore)));
+};
+
+// Fisher-Yates shuffle - only used for retry sessions
+const shuffleArray = <T>(array: T[]): T[] => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 };
 
 export const usePairingGameStore = create<PairingGameState>((set, get) => ({
@@ -318,18 +328,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   // Game Grid Actions
   loadSection: (sectionWords) => {
-    const shuffleArray = <T>(array: T[]): T[] => {
-      const shuffled = [...array];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-      }
-      return shuffled;
-    };
-
     set({
       gameWords: sectionWords,
-      shuffledKanji: shuffleArray(sectionWords.map((w: any) => w.kanji)),
+      // No need to shuffle again - already shuffled in container with Fisher-Yates
+      shuffledKanji: sectionWords.map((w: any) => w.kanji),
       selectedCards: [],
       matchedPairs: new Set(),
       errorCards: new Set(),
@@ -401,16 +403,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       }
     }
 
-    // Shuffle and load retry session
-    const shuffleArray = <T>(array: T[]): T[] => {
-      const shuffled = [...array];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-      }
-      return shuffled;
-    };
-
+    // Shuffle retry words for randomness
     set({
       gameWords: retryWords,
       shuffledKanji: shuffleArray(retryWords.map((w) => w.kanji)),

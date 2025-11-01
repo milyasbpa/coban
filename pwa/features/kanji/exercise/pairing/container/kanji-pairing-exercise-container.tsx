@@ -10,6 +10,16 @@ import { PairingDisplayOptionsControl } from "../fragments/pairing-display-optio
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { getPairingGameData, PairingWord } from "../utils/pairing-game";
 
+// Fisher-Yates shuffle algorithm for better randomness
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 export function KanjiPairingExerciseContainer() {
   const searchParams = useSearchParams();
 
@@ -37,18 +47,21 @@ export function KanjiPairingExerciseContainer() {
   useEffect(() => {
     if (lessonId) {
       const gameData = getPairingGameData(parseInt(lessonId), level);
+      
+      // Shuffle all words first for better randomness
+      const shuffledWords = shuffleArray(gameData.words);
+      
       const sections = [];
-
-      // Split into sections of 5
-      for (let i = 0; i < gameData.words.length; i += 5) {
-        sections.push(gameData.words.slice(i, i + 5));
+      // Split shuffled words into sections of 5
+      for (let i = 0; i < shuffledWords.length; i += 5) {
+        sections.push(shuffledWords.slice(i, i + 5));
       }
 
       setAllSections(sections);
       resetGame(gameData.totalWords, sections.length);
 
-      // Store all words for retry system
-      setAllGameWords(gameData.words);
+      // Store shuffled words for retry system
+      setAllGameWords(shuffledWords);
 
       // Load first section
       if (sections.length > 0) {

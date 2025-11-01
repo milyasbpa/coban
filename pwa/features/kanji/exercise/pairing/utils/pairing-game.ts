@@ -82,7 +82,6 @@ export const getPairingGameData = (lessonId: number, level: string) => {
   // NOTE: for dummy Purpose don't remove when it's uncomment
   // const words = createPairingWords(kanjiDetails);
   const words = createPairingWords(kanjiDetails).slice(0, 3);
-  // const sections = createGameSections(words);
   const sections = createGameSections(words);
   return {
     words,
