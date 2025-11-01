@@ -14,7 +14,7 @@ export function LessonHeader() {
   const { isSelectionMode, toggleSelectionMode } = useKanjiSelection();
 
   return (
-    <div className="sticky top-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border shadow-sm">
+    <div className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b border-border/40">
       <div className="flex items-center justify-between p-4">
         {/* Back Button */}
         <Link href="/" passHref>
