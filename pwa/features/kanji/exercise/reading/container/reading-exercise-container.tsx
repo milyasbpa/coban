@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { ChevronLeft, Settings, X } from "lucide-react";
+import { Settings, X } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { Progress } from "@/pwa/core/components/progress";
 import { KanjiDisplay } from "../components/kanji-display";
@@ -13,11 +13,9 @@ import { GameResult } from "../../pairing/fragments/game-result";
 import { 
   getReadingGameData, 
   checkAnswer, 
-  calculateReadingScore,
-  ReadingQuestion,
-  ReadingGameStats,
-  AnswerResult
+  calculateReadingScore
 } from "../utils/reading-game";
+import { useReadingExerciseStore } from "../store";
 
 export function ReadingExerciseContainer() {
   const router = useRouter();
@@ -26,38 +24,42 @@ export function ReadingExerciseContainer() {
   const lessonId = searchParams.get('lessonId');
   const level = searchParams.get('level') || 'N5';
   
-  // Game state
-  const [questions, setQuestions] = useState<ReadingQuestion[]>([]);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [inputMode, setInputMode] = useState<"multiple-choice" | "direct-input">("multiple-choice");
-  const [selectedOption, setSelectedOption] = useState("");
-  const [directInput, setDirectInput] = useState("");
-  const [isAnswered, setIsAnswered] = useState(false);
-  const [showBottomSheet, setShowBottomSheet] = useState(false);
-  const [currentResult, setCurrentResult] = useState<AnswerResult | null>(null);
-  const [gameStats, setGameStats] = useState<ReadingGameStats>({
-    totalQuestions: 0,
-    correctAnswers: 0,
-    wrongAnswers: 0,
-    currentQuestion: 1,
-    score: 0
-  });
-  const [isGameComplete, setIsGameComplete] = useState(false);
+  // Use store
+  const {
+    inputMode,
+    selectedOption,
+    directInput,
+    isAnswered,
+    showBottomSheet,
+    currentResult,
+    gameStats,
+    isGameComplete,
+    getCurrentQuestion,
+    getProgress,
+    getCanCheck,
+    initializeGame,
+    setInputMode,
+    setSelectedOption,
+    setDirectInput,
+    setIsAnswered,
+    setShowBottomSheet,
+    setCurrentResult,
+    updateGameStats,
+    handleNextQuestion,
+    restartGame
+  } = useReadingExerciseStore();
 
-  const currentQuestion = questions[currentQuestionIndex];
-  const progress = questions.length > 0 ? (currentQuestionIndex / questions.length) * 100 : 0;
+  const currentQuestion = getCurrentQuestion();
+  const progress = getProgress();
+  const canCheck = getCanCheck();
 
   // Initialize game
   useEffect(() => {
     if (lessonId) {
       const gameData = getReadingGameData(parseInt(lessonId), level);
-      setQuestions(gameData.questions);
-      setGameStats(prev => ({
-        ...prev,
-        totalQuestions: gameData.totalQuestions
-      }));
+      initializeGame(gameData.questions, gameData.totalQuestions);
     }
-  }, [lessonId, level]);
+  }, [lessonId, level, initializeGame]);
 
   const handleCheckAnswer = () => {
     if (!currentQuestion) return;
@@ -72,64 +74,23 @@ export function ReadingExerciseContainer() {
     setShowBottomSheet(true);
     
     // Update stats
-    setGameStats(prev => ({
-      ...prev,
-      correctAnswers: prev.correctAnswers + (result.isCorrect ? 1 : 0),
-      wrongAnswers: prev.wrongAnswers + (result.isCorrect ? 0 : 1)
-    }));
+    updateGameStats({
+      correctAnswers: gameStats.correctAnswers + (result.isCorrect ? 1 : 0),
+      wrongAnswers: gameStats.wrongAnswers + (result.isCorrect ? 0 : 1)
+    });
   };
 
-  const handleNextQuestion = () => {
-    setShowBottomSheet(false);
-    setCurrentResult(null);
-    setIsAnswered(false);
-    setSelectedOption("");
-    setDirectInput("");
-    
-    if (currentQuestionIndex + 1 < questions.length) {
-      // Move to next question
-      setCurrentQuestionIndex(prev => prev + 1);
-      setGameStats(prev => ({
-        ...prev,
-        currentQuestion: prev.currentQuestion + 1
-      }));
-    } else {
-      // Game complete
-      const finalScore = calculateReadingScore({
-        ...gameStats,
-        correctAnswers: gameStats.correctAnswers + (currentResult?.isCorrect ? 1 : 0),
-        wrongAnswers: gameStats.wrongAnswers + (currentResult?.isCorrect ? 0 : 1)
-      });
-      
-      setGameStats(prev => ({ ...prev, score: finalScore }));
-      setIsGameComplete(true);
-    }
+  const onNextQuestion = () => {
+    handleNextQuestion(calculateReadingScore);
   };
 
   const handleRestart = () => {
-    setCurrentQuestionIndex(0);
-    setIsAnswered(false);
-    setShowBottomSheet(false);
-    setCurrentResult(null);
-    setSelectedOption("");
-    setDirectInput("");
-    setIsGameComplete(false);
-    setGameStats({
-      totalQuestions: questions.length,
-      correctAnswers: 0,
-      wrongAnswers: 0,
-      currentQuestion: 1,
-      score: 0
-    });
+    restartGame();
   };
 
   const handleBackToHome = () => {
     router.back();
   };
-
-  const canCheck = inputMode === "multiple-choice" 
-    ? selectedOption.trim() !== "" 
-    : directInput.trim() !== "";
 
   // if (isGameComplete) {
   //   return (
@@ -181,11 +142,7 @@ export function ReadingExerciseContainer() {
         </div>
 
         {/* Mode Selector */}
-        <ModeSelector
-          currentMode={inputMode}
-          onModeChange={setInputMode}
-          disabled={isAnswered}
-        />
+        <ModeSelector />
 
         {/* Answer Input */}
         <div className="mb-8">
@@ -211,11 +168,7 @@ export function ReadingExerciseContainer() {
       </div>
 
       {/* Answer Bottom Sheet */}
-      <AnswerBottomSheet
-        isOpen={showBottomSheet}
-        result={currentResult}
-        onNext={handleNextQuestion}
-      />
+      <AnswerBottomSheet />
     </div>
   );
 }
