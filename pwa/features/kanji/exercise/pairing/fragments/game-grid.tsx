@@ -27,7 +27,10 @@ export function GameGrid() {
     setSelectedCards,
     setMatchedPairs,
     setErrorCards,
-    checkSectionComplete
+    checkSectionComplete,
+    isRetryMode,
+    originalWordsWithErrors,
+    finishRetryMode
   } = usePairingGameStore();
 
   // Create shuffled meanings based on current language
@@ -72,8 +75,20 @@ export function GameGrid() {
           // Check if section is complete - emit event for parent to handle
           if (newMatchedPairs.size >= gameWords.length * 2) {
             setTimeout(() => {
-              // Dispatch custom event for section completion
-              window.dispatchEvent(new CustomEvent('sectionComplete'));
+              if (isRetryMode) {
+                // Calculate retry results
+                const correctOriginalWords = Array.from(newMatchedPairs)
+                  .filter(cardId => originalWordsWithErrors.has(cardId))
+                  .length;
+                
+                finishRetryMode({ correctCount: correctOriginalWords });
+                
+                // For retry mode, directly complete the game
+                window.dispatchEvent(new CustomEvent('retryComplete'));
+              } else {
+                // Normal game flow - dispatch section completion
+                window.dispatchEvent(new CustomEvent('sectionComplete'));
+              }
             }, 500);
           }
         } else {

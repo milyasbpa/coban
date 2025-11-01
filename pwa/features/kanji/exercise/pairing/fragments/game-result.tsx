@@ -7,10 +7,20 @@ import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreColor } from "../utils/score-colors";
+import { RotateCcw } from "lucide-react";
 
 export function GameResult() {
   const router = useRouter();
-  const { gameStats, resetGame } = usePairingGameStore();
+  const { 
+    gameStats, 
+    resetGame, 
+    canRetry, 
+    startRetryMode, 
+    generateRetrySession,
+    wordsWithErrors,
+    isRetryMode,
+    originalScore 
+  } = usePairingGameStore();
   const { score, correctPairs, totalWords, wrongAttempts } = gameStats;
   
   const [windowDimensions, setWindowDimensions] = useState({ width: 0, height: 0 });
@@ -21,6 +31,13 @@ export function GameResult() {
   
   // Perfect score (100%) triggers confetti
   const isPerfectScore = accuracy === 100 && wrongAttempts === 0;
+  const canShowRetry = canRetry() && !isRetryMode;
+  const wrongWordsCount = wordsWithErrors.size;
+
+  const handleRetry = () => {
+    startRetryMode();
+    generateRetrySession();
+  };
 
   useEffect(() => {
     // Set window dimensions for confetti
@@ -49,7 +66,7 @@ export function GameResult() {
   }, [isPerfectScore]);
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+    <div className="min-h-screen bg-background p-4">
       {/* Confetti for perfect scores */}
       {showConfetti && (
         <Confetti
@@ -61,15 +78,18 @@ export function GameResult() {
         />
       )}
       
-      <Card className="w-full max-w-md p-8 text-center space-y-6">
+      <div className="flex items-center justify-center min-h-screen">
+        <Card className="w-full max-w-md p-8 text-center space-y-6">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold text-foreground">
-            {isPerfectScore ? "Perfect! 🎉" : "Bravo! 🎉"}
+            {isRetryMode ? "Retry Complete! ⚡" : isPerfectScore ? "Perfect! 🎉" : "Bravo! 🎉"}
           </h1>
           <p className="text-muted-foreground">
-            {isPerfectScore 
-              ? "Amazing! You got everything right!" 
-              : "Congratulations on completing the exercise!"
+            {isRetryMode 
+              ? `Original: ${originalScore} → Final: ${score}` 
+              : isPerfectScore 
+                ? "Amazing! You got everything right!" 
+                : "Congratulations on completing the exercise!"
             }
           </p>
         </div>
@@ -102,12 +122,25 @@ export function GameResult() {
 
         {/* Action Buttons */}
         <div className="space-y-3 pt-4">
+          {/* Retry Button - only show if there are wrong words and not in retry mode */}
+          {canShowRetry && (
+            <Button 
+              onClick={handleRetry}
+              variant="default"
+              className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+            >
+              <RotateCcw className="w-4 h-4 mr-2" />
+              Retry Wrong ({wrongWordsCount})
+            </Button>
+          )}
+          
           <Button 
             onClick={() => {
               resetGame(gameStats.totalWords, gameStats.totalSections);
               // Emit restart event for container to handle
               window.dispatchEvent(new CustomEvent('gameRestart'));
             }}
+            variant={canShowRetry ? "outline" : "default"}
             className="w-full"
           >
             Play Again
@@ -120,7 +153,8 @@ export function GameResult() {
             Back to Home
           </Button>
         </div>
-      </Card>
+        </Card>
+      </div>
     </div>
   );
 }

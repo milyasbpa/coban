@@ -26,11 +26,13 @@ export function KanjiPairingExerciseContainer() {
   // Store
   const { 
     gameStats, 
-    isGameComplete, 
+    isGameComplete,
+    isRetryMode, 
     updateStats, 
     setGameComplete, 
     calculateAndSetScore,
     loadSection,
+    setAllGameWords,
     resetGame
   } = usePairingGameStore();
 
@@ -47,6 +49,9 @@ export function KanjiPairingExerciseContainer() {
       
       setAllSections(sections);
       resetGame(gameData.totalWords, sections.length);
+      
+      // Store all words for retry system
+      setAllGameWords(gameData.words);
       
       // Load first section
       if (sections.length > 0) {
@@ -77,16 +82,24 @@ export function KanjiPairingExerciseContainer() {
       }
     };
 
+    const handleRetryComplete = () => {
+      // Retry is complete, game result will show automatically
+      // No need to do anything here as finishRetryMode handles state
+    };
+
     window.addEventListener('sectionComplete', handleSectionComplete);
     window.addEventListener('gameRestart', handleGameRestart);
+    window.addEventListener('retryComplete', handleRetryComplete);
     
     return () => {
       window.removeEventListener('sectionComplete', handleSectionComplete);
       window.removeEventListener('gameRestart', handleGameRestart);
+      window.removeEventListener('retryComplete', handleRetryComplete);
     };
   }, [currentSectionIndex, allSections, gameStats.currentSection, updateStats, loadSection, calculateAndSetScore, setGameComplete]);
 
-  if (isGameComplete) {
+  // Show GameResult only if game is complete AND not in active retry mode
+  if (isGameComplete && !isRetryMode) {
     return <GameResult />;
   }
 
