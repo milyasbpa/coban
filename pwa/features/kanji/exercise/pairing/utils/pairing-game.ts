@@ -80,8 +80,8 @@ export const calculateScore = (stats: GameStats): number => {
 export const getPairingGameData = (lessonId: number, level: string) => {
   const kanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
   // NOTE: for debugging purpose don't remove when it's uncomment
-  // const words = createPairingWords(kanjiDetails);
-  const words = createPairingWords(kanjiDetails).slice(0, 3);
+  // const words = createPairingWords(kanjiDetails).slice(0, 3);
+  const words = createPairingWords(kanjiDetails);
   const sections = createGameSections(words);
   return {
     words,
