@@ -27,12 +27,10 @@ export function GameGrid() {
     setSelectedCards,
     setMatchedPairs,
     setErrorCards,
-    checkSectionComplete,
     removeWordError,
     isRetryMode,
     globalWordsWithErrors,
     finishRetryMode,
-    wordsWithErrors,
   } = usePairingGameStore();
 
   // Create shuffled meanings based on current language

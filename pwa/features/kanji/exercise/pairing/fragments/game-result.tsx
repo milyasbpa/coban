@@ -8,6 +8,7 @@ import { Card } from "@/pwa/core/components/card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreColor } from "../utils/score-colors";
 import { RotateCcw } from "lucide-react";
+import Link from "next/link";
 
 export function GameResult() {
   const router = useRouter();
@@ -167,13 +168,11 @@ export function GameResult() {
             >
               Play Again
             </Button>
-            <Button
-              variant="outline"
-              onClick={() => router.back()}
-              className="w-full"
-            >
-              Back to Home
-            </Button>
+            <Link href="/" className="w-full">
+              <Button variant="outline" className="w-full">
+                Back to Home
+              </Button>
+            </Link>
           </div>
         </Card>
       </div>
