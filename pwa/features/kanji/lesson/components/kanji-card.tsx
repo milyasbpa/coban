@@ -17,39 +17,39 @@ interface KanjiCardProps {
 
 export function KanjiCard({ kanji, index }: KanjiCardProps) {
   const { isIndonesian } = useLanguage();
-  const { isSelectionMode, selectedKanjiIds, toggleKanjiSelection } = useKanjiSelection();
+  const { isSelectionMode, selectedKanjiIds, toggleKanjiSelection } =
+    useKanjiSelection();
   const { displayOptions } = useDisplayOptions();
   const isSelected = selectedKanjiIds.has(kanji.id);
 
   const handleAudioPlay = async (text: string, wordInfo?: string) => {
     try {
-      // Method 1: Web Speech API (fallback)  
-      if ('speechSynthesis' in window) {
+      // Method 1: Web Speech API (fallback)
+      if ("speechSynthesis" in window) {
         // Cancel any ongoing speech
         speechSynthesis.cancel();
-        
+
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'ja-JP';
+        utterance.lang = "ja-JP";
         utterance.rate = 0.8; // Slower rate for better pronunciation
         utterance.pitch = 1;
         utterance.volume = 1;
-        
+
         // Get Japanese voices
         const voices = speechSynthesis.getVoices();
-        const japaneseVoice = voices.find(voice => 
-          voice.lang.includes('ja') || voice.name.includes('Japanese')
+        const japaneseVoice = voices.find(
+          (voice) =>
+            voice.lang.includes("ja") || voice.name.includes("Japanese")
         );
-        
+
         if (japaneseVoice) {
           utterance.voice = japaneseVoice;
         }
-        
+
         speechSynthesis.speak(utterance);
       }
     } catch (error) {
-      console.error('Audio playback failed:', error);
-      // Fallback: Just log the word
-      console.log('Playing audio for:', wordInfo || text, '- pronunciation:', text);
+      console.error("Audio playback failed:", error);
     }
   };
 
@@ -62,7 +62,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
   const kanjiMeaning = isIndonesian ? kanji.meanings.id : kanji.meanings.en;
 
   return (
-    <Card 
+    <Card
       className={cn(
         "p-4 space-y-0 bg-card border transition-all duration-200 cursor-pointer gap-2",
         isSelectionMode && "hover:shadow-md",
@@ -78,7 +78,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
           <span className="text-sm font-medium text-muted-foreground bg-muted px-2 py-1 rounded-md">
             {index}
           </span>
-          
+
           <div className="flex flex-col items-center space-y-1">
             {/* Kanji character display */}
             <div className="w-16 h-16 bg-linear-to-br from-amber-100 to-amber-200 dark:from-amber-200/20 dark:to-amber-300/20 rounded-lg flex items-center justify-center border border-amber-200/50 shadow-inner">
@@ -86,7 +86,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
                 {kanji.character}
               </span>
             </div>
-            
+
             {/* Kanji meaning */}
             {displayOptions.meaning && (
               <div className="text-xs font-medium text-muted-foreground text-center">
@@ -95,38 +95,44 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
             )}
           </div>
         </div>
-        
+
         {/* Right side - Readings */}
         <div className="flex-1 space-y-2">
           {/* KUN reading */}
-          <div className="flex items-center gap-2">
-            <Badge 
-              variant="secondary" 
+          <div className="flex items-start gap-2">
+            <Badge
+              variant="secondary"
               className="bg-primary text-primary-foreground text-xs font-semibold px-2 py-0.5"
             >
               KUN
             </Badge>
             <span className="text-sm font-medium text-foreground">
-              {kanji.readings.kun.length > 0 
-                ? kanji.readings.kun.map((reading) => `${reading.furigana} (${reading.romanji})`).join("、")
-                : "—"
-              }
+              {kanji.readings.kun.length > 0
+                ? kanji.readings.kun
+                    .map(
+                      (reading) => `${reading.furigana} (${reading.romanji})`
+                    )
+                    .join("、")
+                : "—"}
             </span>
           </div>
-          
+
           {/* ON reading */}
-          <div className="flex items-center gap-2">
-            <Badge 
-              variant="secondary" 
+          <div className="flex items-start gap-2">
+            <Badge
+              variant="secondary"
               className="bg-secondary text-secondary-foreground text-xs font-semibold px-2 py-0.5"
             >
               ON
             </Badge>
             <span className="text-sm font-medium text-foreground">
-              {kanji.readings.on.length > 0 
-                ? kanji.readings.on.map((reading) => `${reading.furigana} (${reading.romanji})`).join("、")
-                : "—"
-              }
+              {kanji.readings.on.length > 0
+                ? kanji.readings.on
+                    .map(
+                      (reading) => `${reading.furigana} (${reading.romanji})`
+                    )
+                    .join("、")
+                : "—"}
             </span>
           </div>
         </div>
@@ -134,11 +140,11 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
 
       {/* Words Section Badge */}
       <div className="flex items-center gap-2 pt-2">
-        <Badge 
-          variant="secondary" 
+        <Badge
+          variant="secondary"
           className="bg-primary text-primary-foreground text-xs font-semibold px-2 py-0.5"
         >
-          {isIndonesian ? 'Kata' : 'Words'}
+          {isIndonesian ? "Kata" : "Words"}
         </Badge>
         <div className="flex-1 h-px bg-border/20"></div>
       </div>
@@ -146,7 +152,10 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
       {/* Example words */}
       <div className="space-y-1.5 pt-1">
         {kanji.examples.map((example, idx) => (
-          <div key={idx} className="grid grid-cols-[1fr_auto] gap-2 items-center text-sm">
+          <div
+            key={idx}
+            className="grid grid-cols-[1fr_auto] gap-2 items-center text-sm"
+          >
             {/* Word content with fixed layout */}
             <div className="grid grid-cols-[auto_1fr] gap-2 items-baseline min-w-0">
               {/* Left side - Word and readings */}
@@ -167,7 +176,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
                   </span>
                 )}
               </div>
-              
+
               {/* Right side - Colon and meaning with consistent alignment */}
               {displayOptions.meaning && (
                 <div className="flex items-baseline gap-2 min-w-0">
@@ -178,7 +187,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
                 </div>
               )}
             </div>
-            
+
             {/* Audio button for each word */}
             <Button
               variant="ghost"
