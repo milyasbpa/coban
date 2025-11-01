@@ -85,7 +85,12 @@ export function KanjiPairingExerciseContainer() {
       // Get initial sections
       const sections = getSections(shuffledWords);
       resetGame(gameData.totalWords, sections.length);
+
       setCurrentSectionIndex(0);
+
+      // Store shuffled words for retry system
+      setAllGameWords(shuffledWords);
+
       if (allSections.length > 0) {
         loadSection(allSections[0]);
       }
