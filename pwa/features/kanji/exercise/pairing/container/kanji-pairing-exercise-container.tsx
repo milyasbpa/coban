@@ -8,17 +8,12 @@ import { PairingHeader } from "../fragments/pairing-header";
 import { GameGrid } from "../fragments/game-grid";
 import { PairingDisplayOptionsControl } from "../fragments/pairing-display-options-control";
 import { usePairingGameStore } from "../store/pairing-game.store";
-import { getPairingGameData, PairingWord } from "../utils/pairing-game";
-
-// Fisher-Yates shuffle algorithm for better randomness
-function shuffleArray<T>(array: T[]): T[] {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
+import {
+  getPairingGameData,
+  getSections,
+  PairingWord,
+  shuffleArray,
+} from "../utils/pairing-game";
 
 export function KanjiPairingExerciseContainer() {
   const searchParams = useSearchParams();
@@ -47,15 +42,12 @@ export function KanjiPairingExerciseContainer() {
   useEffect(() => {
     if (lessonId) {
       const gameData = getPairingGameData(parseInt(lessonId), level);
-      
+
       // Shuffle all words first for better randomness
       const shuffledWords = shuffleArray(gameData.words);
-      
-      const sections = [];
-      // Split shuffled words into sections of 5
-      for (let i = 0; i < shuffledWords.length; i += 5) {
-        sections.push(shuffledWords.slice(i, i + 5));
-      }
+
+      // Get initial sections
+      const sections = getSections(shuffledWords);
 
       setAllSections(sections);
       resetGame(gameData.totalWords, sections.length);
@@ -86,6 +78,13 @@ export function KanjiPairingExerciseContainer() {
     };
 
     const handleGameRestart = () => {
+      if (!lessonId) return;
+      const gameData = getPairingGameData(parseInt(lessonId), level);
+      // Shuffle all words first for better randomness
+      const shuffledWords = shuffleArray(gameData.words);
+      // Get initial sections
+      const sections = getSections(shuffledWords);
+      resetGame(gameData.totalWords, sections.length);
       setCurrentSectionIndex(0);
       if (allSections.length > 0) {
         loadSection(allSections[0]);

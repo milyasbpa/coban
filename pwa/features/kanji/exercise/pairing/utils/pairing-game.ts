@@ -79,7 +79,7 @@ export const calculateScore = (stats: GameStats): number => {
 // Get pairing game data by lesson
 export const getPairingGameData = (lessonId: number, level: string) => {
   const kanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
-  // NOTE: for dummy Purpose don't remove when it's uncomment
+  // NOTE: for debugging purpose don't remove when it's uncomment
   // const words = createPairingWords(kanjiDetails);
   const words = createPairingWords(kanjiDetails).slice(0, 3);
   const sections = createGameSections(words);
@@ -89,4 +89,14 @@ export const getPairingGameData = (lessonId: number, level: string) => {
     totalWords: words.length,
     totalSections: sections.length,
   };
+};
+
+// get sections utility
+export const getSections = (shuffledWords: PairingWord[]) => {
+  const sections = [];
+  // Split shuffled words into sections of 5
+  for (let i = 0; i < shuffledWords.length; i += 5) {
+    sections.push(shuffledWords.slice(i, i + 5));
+  }
+  return sections;
 };

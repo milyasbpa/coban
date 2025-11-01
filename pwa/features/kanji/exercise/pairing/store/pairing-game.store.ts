@@ -64,7 +64,6 @@ interface PairingGameState {
 // Helper functions
 const calculateScore = (stats: GameStats): number => {
   if (stats.totalWords === 0) return 100;
-
   // Sistem penalty: Setiap kanji word yang salah (pertama kali) mengurangi score
   // Penalty proporsional = 100 / total words, jadi jika 5 words dan 1 salah = -20 poin
   const penaltyPerUniqueWrongWord = 100 / stats.totalWords;
@@ -196,7 +195,8 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   addWordError: (kanjiWord: string) => {
-    const { wordsWithErrors, isRetryMode } = get();
+    const { wordsWithErrors } = get();
+    console.log(wordsWithErrors, "ini apa cek ya");
     const isFirstError = !wordsWithErrors.has(kanjiWord);
 
     // Only penalize score on first error for this specific kanji word
@@ -238,7 +238,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
           uniqueWrongWords: newUniqueWrongWords,
         };
         const newScore = calculateScore(updatedStats);
-
+        console.log(updatedStats, "ini updated stats");
         return {
           wordsWithErrors: newWordsWithErrors,
           gameStats: {
@@ -423,11 +423,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   finishRetryMode: (retryResults: { correctCount: number }) => {
-    const {
-      gameStats,
-      globalWordsWithErrors,
-      wordsWithErrors,
-    } = get();
+    const { gameStats, globalWordsWithErrors, wordsWithErrors } = get();
 
     // Merge current session wrong words to global (for next potential retry)
     const updatedGlobalWordsWithErrors = new Set([
