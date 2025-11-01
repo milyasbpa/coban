@@ -6,6 +6,7 @@ import { LevelSection } from "../fragments/level-section";
 import { CategorySection } from "../fragments/category-section";
 import { FilterSection } from "../fragments/filter-section";
 import { KanjiListCTA } from "../fragments/kanji-list-cta";
+import { LessonTypeToggle } from "../fragments/lesson-type-toggle";
 import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
 
 export function HomeContainer() {
@@ -26,8 +27,12 @@ export function HomeContainer() {
         {/* Filter Section */}
         <FilterSection />
 
-        {/* Kanji List CTA */}
-        <KanjiListCTA selectedLevel={selectedLevel} />
+        <div className="flex items-center justify-between">
+          {/* Kanji List CTA */}
+          <KanjiListCTA selectedLevel={selectedLevel} />
+          {/* Lesson Type Toggle */}
+          <LessonTypeToggle />
+        </div>
 
         {/* Kanji Lessons Section */}
         <KanjiLessonsSection selectedLevel={selectedLevel} />
