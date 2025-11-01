@@ -2,6 +2,7 @@ import { create } from "zustand";
 import {
   getPairingGameData,
   getSections,
+  PairingWord,
   shuffleArray as shuffleArrayUtil,
 } from "../utils/pairing-game";
 
@@ -28,19 +29,19 @@ interface PairingGameState {
 
   // Section Management State
   currentSectionIndex: number;
-  allSections: any[][]; // PairingWord[][]
+  allSections: PairingWord[][]; // PairingWord[][]
 
   // Retry System - Redesigned for Recursive Support
   isRetryMode: boolean;
   originalTotalWords: number; // Store original total words for penalty calculation
-  allGameWords: any[]; // Store all words for decoy selection
+  allGameWords: PairingWord[]; // Store all words for decoy selection
 
   // Global Accumulative Tracking (never reset during retry)
   globalWordsWithErrors: Set<string>; // ALL words yang pernah salah sejak awal (accumulative)
   currentBaseScore: number; // Current base score untuk retry berikutnya
 
   // Game Grid State
-  gameWords: any[]; // PairingWord[]
+  gameWords: PairingWord[]; // PairingWord[]
   shuffledKanji: string[];
   selectedCards: SelectedCard[];
   matchedPairs: Set<string>;
@@ -63,7 +64,7 @@ interface PairingGameState {
 
   // Section Management Actions
   setCurrentSectionIndex: (index: number) => void;
-  setAllSections: (sections: any[][]) => void;
+  setAllSections: (sections: PairingWord[][]) => void;
   moveToNextSection: () => boolean; // Returns true if moved, false if game complete
   resetSectionIndex: () => void;
 
@@ -75,8 +76,8 @@ interface PairingGameState {
   ) => void;
 
   // Game Grid Actions
-  loadSection: (sectionWords: any[]) => void;
-  setAllGameWords: (allWords: any[]) => void;
+  loadSection: (sectionWords: PairingWord[]) => void;
+  setAllGameWords: (allWords: PairingWord[]) => void;
   setSelectedCards: (cards: SelectedCard[]) => void;
   setMatchedPairs: (pairs: Set<string>) => void;
   setErrorCards: (errors: Set<string>) => void;
