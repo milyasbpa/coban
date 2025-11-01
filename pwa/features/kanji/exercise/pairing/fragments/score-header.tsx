@@ -5,7 +5,9 @@ import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreTextColor } from "../utils/score-colors";
 
 export function ScoreHeader() {
-  const { gameStats } = usePairingGameStore();
+  const { 
+    gameStats
+  } = usePairingGameStore();
   const { score, correctPairs, totalWords } = gameStats;
   
   const scoreTextColor = getScoreTextColor(score);

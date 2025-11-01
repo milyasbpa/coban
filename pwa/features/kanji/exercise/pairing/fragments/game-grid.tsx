@@ -29,7 +29,7 @@ export function GameGrid() {
     setErrorCards,
     checkSectionComplete,
     isRetryMode,
-    originalWordsWithErrors,
+    globalWordsWithErrors,
     finishRetryMode
   } = usePairingGameStore();
 
@@ -78,7 +78,7 @@ export function GameGrid() {
               if (isRetryMode) {
                 // Calculate retry results
                 const correctOriginalWords = Array.from(newMatchedPairs)
-                  .filter(cardId => originalWordsWithErrors.has(cardId))
+                  .filter(cardId => globalWordsWithErrors.has(cardId))
                   .length;
                 
                 finishRetryMode({ correctCount: correctOriginalWords });

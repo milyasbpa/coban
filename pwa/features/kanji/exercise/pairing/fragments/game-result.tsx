@@ -17,9 +17,9 @@ export function GameResult() {
     canRetry, 
     startRetryMode, 
     generateRetrySession,
+    globalWordsWithErrors,
     wordsWithErrors,
-    isRetryMode,
-    originalScore 
+    isRetryMode
   } = usePairingGameStore();
   const { score, correctPairs, totalWords, wrongAttempts } = gameStats;
   
@@ -32,7 +32,8 @@ export function GameResult() {
   // Perfect score (100%) triggers confetti
   const isPerfectScore = accuracy === 100 && wrongAttempts === 0;
   const canShowRetry = canRetry() && !isRetryMode;
-  const wrongWordsCount = wordsWithErrors.size;
+  const allWrongWords = new Set([...globalWordsWithErrors, ...wordsWithErrors]);
+  const wrongWordsCount = allWrongWords.size;
 
   const handleRetry = () => {
     startRetryMode();
