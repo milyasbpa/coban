@@ -15,6 +15,7 @@ import {
   TabsTrigger,
 } from "@/pwa/core/components/tabs";
 import topicMapping from "@/data/n5/kanji/kanji_topic_mapping.json";
+import { useHomeSettingsStore } from "../store/home-settings.store";
 
 // Interface untuk Lesson
 interface Lesson {
@@ -25,15 +26,8 @@ interface Lesson {
   kanjiList: string[];
 }
 
-interface KanjiLessonsSectionProps {
-  selectedLevel?: string;
-  selectedLessonType?: "stroke" | "topic";
-}
-
-export function KanjiLessonsSection({
-  selectedLevel = "N5",
-  selectedLessonType = "stroke",
-}: KanjiLessonsSectionProps) {
+export function KanjiLessonsSection() {
+  const { selectedLevel, selectedLessonType } = useHomeSettingsStore();
   // Ambil lessons berdasarkan tipe yang dipilih
   const strokeLessons: Lesson[] = getLessonsByLevel(selectedLevel);
   const topicLessons = getTopicLessons();

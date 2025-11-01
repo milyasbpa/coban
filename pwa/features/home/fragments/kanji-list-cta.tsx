@@ -3,13 +3,11 @@
 import { useRouter } from "next/navigation";
 import { Grid3X3 } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
+import { useHomeSettingsStore } from "../store/home-settings.store";
 
-interface KanjiListCTAProps {
-  selectedLevel?: string;
-}
-
-export function KanjiListCTA({ selectedLevel = "N5" }: KanjiListCTAProps) {
+export function KanjiListCTA() {
   const router = useRouter();
+  const { selectedLevel } = useHomeSettingsStore();
   
   const handleClick = () => {
     router.push(`/kanji/list?level=${selectedLevel}`);

@@ -1,19 +1,30 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Badge } from "@/pwa/core/components/badge";
 import { getLevelData } from "@/pwa/features/home/utils/levels";
 import { CategoryButton } from "../components/category-button";
+import { useHomeSettingsStore } from "../store/home-settings.store";
 
 export function CategorySection() {
   const levelData = getLevelData();
+  const { selectedCategory, setSelectedCategory } = useHomeSettingsStore();
+  
   const [selectedCategoryId, setSelectedCategoryId] = useState(
-    levelData.categories[0]?.id || "kanji"
+    selectedCategory || levelData.categories[0]?.id || "kanji"
   );
 
   const handleCategoryClick = (categoryId: string) => {
     setSelectedCategoryId(categoryId);
+    setSelectedCategory(categoryId); // Persist to store
   };
+
+  // Sync with persisted state on mount
+  useEffect(() => {
+    if (selectedCategory && selectedCategory !== selectedCategoryId) {
+      setSelectedCategoryId(selectedCategory);
+    }
+  }, [selectedCategory, selectedCategoryId]);
 
   return (
     <div className="text-center mb-8">

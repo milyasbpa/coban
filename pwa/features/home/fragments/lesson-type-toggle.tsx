@@ -1,23 +1,20 @@
 "use client";
 
 import { cn } from "@/pwa/core/lib/utils";
+import { useHomeSettingsStore } from "../store/home-settings.store";
 
-interface LessonTypeToggleProps {
-  selectedType: "stroke" | "topic";
-  onTypeChange: (type: "stroke" | "topic") => void;
-}
-
-export function LessonTypeToggle({ selectedType, onTypeChange }: LessonTypeToggleProps) {
+export function LessonTypeToggle() {
+  const { selectedLessonType, setSelectedLessonType } = useHomeSettingsStore();
   return (
     <div className="flex items-center justify-center mb-6">
       <div className="bg-muted/50 rounded-full border border-border/50">
         <div className="flex items-center">
           {/* Stroke Option */}
           <button
-            onClick={() => onTypeChange("stroke")}
+            onClick={() => setSelectedLessonType("stroke")}
             className={cn(
               "px-4 py-2 text-sm font-medium rounded-full",
-              selectedType === "stroke"
+              selectedLessonType === "stroke"
                 ? "bg-primary text-secondary border border-border"
                 : "text-muted-foreground hover:text-foreground hover:bg-muted/30"
             )}
@@ -27,10 +24,10 @@ export function LessonTypeToggle({ selectedType, onTypeChange }: LessonTypeToggl
 
           {/* Topic Option */}
           <button
-            onClick={() => onTypeChange("topic")}
+            onClick={() => setSelectedLessonType("topic")}
             className={cn(
               "px-4 py-2 text-sm font-medium rounded-full",
-              selectedType === "topic"
+              selectedLessonType === "topic"
                 ? "bg-primary text-secondary border border-border"
                 : "text-muted-foreground hover:text-foreground hover:bg-muted/30"
             )}
