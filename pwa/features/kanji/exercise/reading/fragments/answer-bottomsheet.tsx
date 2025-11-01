@@ -12,30 +12,33 @@ import { useReadingExerciseStore } from "../store";
 import { calculateReadingScore } from "../utils/reading-game";
 
 export function AnswerBottomSheet() {
-  const { showBottomSheet, currentResult, handleNextQuestion } = useReadingExerciseStore();
-  
+  const { showBottomSheet, currentResult, handleNextQuestion } =
+    useReadingExerciseStore();
+
   const onNext = () => {
     handleNextQuestion(calculateReadingScore);
   };
-  
+
   if (!currentResult) return null;
 
   return (
     <Sheet open={showBottomSheet} onOpenChange={() => {}}>
-      <SheetContent 
-        side="bottom" 
+      <SheetContent
+        side="bottom"
         className={cn(
-          "h-[300px] rounded-t-xl",
-          currentResult.isCorrect 
-            ? "bg-green-50 border-green-200" 
+          "min-h-[300px] rounded-t-xl",
+          currentResult.isCorrect
+            ? "bg-green-50 border-green-200"
             : "bg-red-50 border-red-200"
         )}
       >
         <SheetHeader className="text-center space-y-4">
-          <SheetTitle className={cn(
-            "text-2xl font-bold",
-            currentResult.isCorrect ? "text-green-800" : "text-red-800"
-          )}>
+          <SheetTitle
+            className={cn(
+              "text-2xl font-bold",
+              currentResult.isCorrect ? "text-green-800" : "text-red-800"
+            )}
+          >
             {currentResult.isCorrect ? "Correct! 🎉" : "Incorrect ❌"}
           </SheetTitle>
         </SheetHeader>
@@ -55,10 +58,12 @@ export function AnswerBottomSheet() {
           <div className="bg-background/50 rounded-lg p-4 space-y-2">
             <div className="flex justify-between items-center">
               <span className="text-muted-foreground">Your answer:</span>
-              <span className={cn(
-                "font-semibold",
-                currentResult.isCorrect ? "text-green-600" : "text-red-600"
-              )}>
+              <span
+                className={cn(
+                  "font-semibold",
+                  currentResult.isCorrect ? "text-green-600" : "text-red-600"
+                )}
+              >
                 {currentResult.userAnswer}
               </span>
             </div>
@@ -79,12 +84,11 @@ export function AnswerBottomSheet() {
           </div>
 
           {/* Next Button */}
-          <Button 
-            onClick={onNext}
-            className="w-full h-12 text-lg"
-          >
-            Continue
-          </Button>
+          <div className="px-6 py-4">
+            <Button onClick={onNext} className="w-full h-12 text-lg">
+              Continue
+            </Button>
+          </div>
         </div>
       </SheetContent>
     </Sheet>
