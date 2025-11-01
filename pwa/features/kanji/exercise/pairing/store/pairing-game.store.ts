@@ -69,11 +69,7 @@ interface PairingGameState {
   resetSectionIndex: () => void;
 
   // Game Initialization Actions
-  initializeGame: (
-    lessonId: number,
-    level: string,
-    shouldResetSectionIndex?: boolean
-  ) => void;
+  initializeGame: (lessonId: number, level: string, shouldResetSectionIndex?: boolean, selectedKanjiIds?: number[]) => void;
 
   // Game Grid Actions
   loadSection: (sectionWords: PairingWord[]) => void;
@@ -370,15 +366,15 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   resetSectionIndex: () => set({ currentSectionIndex: 0 }),
 
   // Game Initialization Actions
-  initializeGame: (lessonId, level, shouldResetSectionIndex = false) => {
-    const gameData = getPairingGameData(lessonId, level);
-
+  initializeGame: (lessonId, level, shouldResetSectionIndex = false, selectedKanjiIds) => {
+    const gameData = getPairingGameData(lessonId, level, selectedKanjiIds);
+    
     // Shuffle all words first for better randomness
     const shuffledWords = shuffleArrayUtil(gameData.words);
-
+    
     // Get initial sections
     const sections = getSections(shuffledWords);
-
+    
     const {
       setAllSections,
       resetGame,
@@ -386,18 +382,18 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       resetSectionIndex,
       loadSection,
     } = get();
-
+    
     setAllSections(sections);
     resetGame(gameData.totalWords, sections.length);
-
+    
     // Store shuffled words for retry system
     setAllGameWords(shuffledWords);
-
+    
     // Reset section index if needed (for restart)
     if (shouldResetSectionIndex) {
       resetSectionIndex();
     }
-
+    
     // Load first section
     if (sections.length > 0) {
       loadSection(sections[0]);

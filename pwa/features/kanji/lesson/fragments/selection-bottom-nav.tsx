@@ -5,18 +5,37 @@ import { useKanjiSelection } from "../store/kanji-selection.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { Edit3, Book, Users, X } from "lucide-react";
 import { cn } from "@/pwa/core/lib/utils";
+import { useSearchParams } from "next/navigation";
 
 export function SelectionBottomNav() {
   const { selectedKanjiIds, clearSelection, toggleSelectionMode } = useKanjiSelection();
   const { isIndonesian } = useLanguage();
+  const searchParams = useSearchParams();
   
   const selectedCount = selectedKanjiIds.size;
+  const lessonId = searchParams.get("lessonId");
+  const level = searchParams.get("level") || "N5";
 
   if (selectedCount === 0) return null;
 
   const handleExerciseStart = (exerciseType: string) => {
-    console.log(`Starting ${exerciseType} exercise with selected kanji:`, Array.from(selectedKanjiIds));
-    // TODO: Navigate to exercise with selected kanji
+    if (!lessonId || selectedKanjiIds.size === 0) return;
+    
+    const selectedKanjiArray = Array.from(selectedKanjiIds);
+    console.log(`Starting ${exerciseType} exercise with selected kanji:`, selectedKanjiArray);
+    
+    // Build URL with selected kanji parameters
+    const selectedKanjiParam = selectedKanjiArray.join(',');
+    
+    if (exerciseType === "pairing") {
+      window.location.href = `/kanji/exercise/pairing?lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+    } else if (exerciseType === "reading") {
+      window.location.href = `/kanji/exercise/reading?lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+    } else if (exerciseType === "writing") {
+      window.location.href = `/kanji/exercise/writing?lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+    }
+    
+    // Clear selection after navigation
     clearSelection();
     toggleSelectionMode();
   };

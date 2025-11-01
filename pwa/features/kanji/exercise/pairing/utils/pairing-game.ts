@@ -77,8 +77,18 @@ export const calculateScore = (stats: GameStats): number => {
 };
 
 // Get pairing game data by lesson
-export const getPairingGameData = (lessonId: number, level: string) => {
-  const kanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+export const getPairingGameData = (
+  lessonId: number, 
+  level: string, 
+  selectedKanjiIds?: number[]
+) => {
+  const allKanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+  
+  // Filter kanji details if selectedKanjiIds is provided
+  const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0
+    ? allKanjiDetails.filter(kanji => selectedKanjiIds.includes(kanji.id))
+    : allKanjiDetails;
+  
   // NOTE: for debugging purpose don't remove when it's uncomment
   // const words = createPairingWords(kanjiDetails).slice(0, 3);
   const words = createPairingWords(kanjiDetails);

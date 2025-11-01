@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { ScoreHeader } from "../fragments/score-header";
 import { GameResult } from "../fragments/game-result";
@@ -14,6 +14,14 @@ export function KanjiPairingExerciseContainer() {
 
   const lessonId = searchParams.get("lessonId");
   const level = searchParams.get("level") || "N5";
+  const selectedKanjiParam = searchParams.get("selectedKanji");
+  
+  // Parse selected kanji IDs from URL parameter with memoization to prevent re-creation
+  const selectedKanjiIds = useMemo(() => {
+    return selectedKanjiParam 
+      ? selectedKanjiParam.split(',').map(id => parseInt(id.trim())).filter(id => !isNaN(id))
+      : undefined;
+  }, [selectedKanjiParam]);
 
   // Store
   const {
@@ -28,8 +36,8 @@ export function KanjiPairingExerciseContainer() {
   // Initialize game on mount
   useEffect(() => {
     if (!lessonId) return;
-    initializeGame(parseInt(lessonId), level);
-  }, [lessonId, level, initializeGame]);
+    initializeGame(parseInt(lessonId), level, false, selectedKanjiIds);
+  }, [lessonId, level, selectedKanjiIds, initializeGame]);
 
   // Listen for section complete events from GameGrid
   useEffect(() => {
@@ -45,7 +53,7 @@ export function KanjiPairingExerciseContainer() {
     const handleGameRestart = () => {
       // Use the reusable function with section index reset
       if (!lessonId) return;
-      initializeGame(parseInt(lessonId), level, true);
+      initializeGame(parseInt(lessonId), level, true, selectedKanjiIds);
     };
 
     const handleRetryComplete = () => {
@@ -69,6 +77,7 @@ export function KanjiPairingExerciseContainer() {
     initializeGame,
     lessonId,
     level,
+    selectedKanjiIds,
   ]);
 
   // Show GameResult only if game is complete AND not in active retry mode
