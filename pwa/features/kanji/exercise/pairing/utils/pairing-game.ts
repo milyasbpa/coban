@@ -1,4 +1,7 @@
-import { getKanjiDetailsByLessonId, KanjiDetail } from "@/pwa/features/kanji/lesson/utils/kanji";
+import {
+  getKanjiDetailsByLessonId,
+  KanjiDetail,
+} from "@/pwa/features/kanji/lesson/utils/kanji";
 import { GameStats } from "../store/pairing-game.store";
 
 export interface PairingWord {
@@ -16,12 +19,12 @@ export interface GameSection {
   completed: boolean;
 }
 
-
-
 // Convert kanji details to pairing words
-export const createPairingWords = (kanjiDetails: KanjiDetail[]): PairingWord[] => {
+export const createPairingWords = (
+  kanjiDetails: KanjiDetail[]
+): PairingWord[] => {
   const words: PairingWord[] = [];
-  
+
   kanjiDetails.forEach((kanji) => {
     // Use examples from kanji data
     kanji.examples.forEach((example, index) => {
@@ -35,7 +38,7 @@ export const createPairingWords = (kanjiDetails: KanjiDetail[]): PairingWord[] =
       });
     });
   });
-  
+
   return words;
 };
 
@@ -43,7 +46,7 @@ export const createPairingWords = (kanjiDetails: KanjiDetail[]): PairingWord[] =
 export const createGameSections = (words: PairingWord[]): GameSection[] => {
   const sections: GameSection[] = [];
   const wordsPerSection = 5;
-  
+
   for (let i = 0; i < words.length; i += wordsPerSection) {
     const sectionWords = words.slice(i, i + wordsPerSection);
     sections.push({
@@ -52,7 +55,7 @@ export const createGameSections = (words: PairingWord[]): GameSection[] => {
       completed: false,
     });
   }
-  
+
   return sections;
 };
 
@@ -68,16 +71,19 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 
 // Calculate score based on performance
 export const calculateScore = (stats: GameStats): number => {
-  const accuracy = stats.correctPairs / (stats.correctPairs + stats.wrongAttempts);
+  const accuracy =
+    stats.correctPairs / (stats.correctPairs + stats.wrongAttempts);
   return Math.round(accuracy * 100);
 };
 
 // Get pairing game data by lesson
 export const getPairingGameData = (lessonId: number, level: string) => {
   const kanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
-  const words = createPairingWords(kanjiDetails);
+  // NOTE: for dummy Purpose don't remove when it's uncomment
+  // const words = createPairingWords(kanjiDetails);
+  const words = createPairingWords(kanjiDetails).slice(0, 3);
+  // const sections = createGameSections(words);
   const sections = createGameSections(words);
-  
   return {
     words,
     sections,

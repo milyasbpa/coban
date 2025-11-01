@@ -1,4 +1,4 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
 export interface GameStats {
   totalWords: number;
@@ -20,37 +20,38 @@ interface PairingGameState {
   gameStats: GameStats;
   isGameComplete: boolean;
   wordsWithErrors: Set<string>; // Track words yang sudah pernah salah dalam session ini saja
-  
+
   // Retry System - Redesigned for Recursive Support
   isRetryMode: boolean;
   originalTotalWords: number; // Store original total words for penalty calculation
   allGameWords: any[]; // Store all words for decoy selection
-  
+
   // Global Accumulative Tracking (never reset during retry)
   globalWordsWithErrors: Set<string>; // ALL words yang pernah salah sejak awal (accumulative)
   currentBaseScore: number; // Current base score untuk retry berikutnya
-  
+
   // Game Grid State
   gameWords: any[]; // PairingWord[]
   shuffledKanji: string[];
   selectedCards: SelectedCard[];
   matchedPairs: Set<string>;
   errorCards: Set<string>;
-  
+
   // Actions
   updateStats: (stats: Partial<GameStats>) => void;
   setGameComplete: (complete: boolean) => void;
   resetGame: (totalWords: number, totalSections: number) => void;
   calculateAndSetScore: () => void;
   addWordError: (word: string) => boolean; // Return true jika ini error pertama untuk word ini
+  removeWordError: (word: string) => boolean; // Return true jika berhasil remove word dari error tracking
   resetWordsWithErrors: () => void;
-  
+
   // Retry Actions
   startRetryMode: () => void;
   generateRetrySession: () => void;
   finishRetryMode: (retryResults: { correctCount: number }) => void;
   canRetry: () => boolean;
-  
+
   // Game Grid Actions
   loadSection: (sectionWords: any[]) => void;
   setAllGameWords: (allWords: any[]) => void;
@@ -63,13 +64,13 @@ interface PairingGameState {
 // Helper function untuk menghitung score (berkurang proporsional berdasarkan unique wrong words)
 const calculateScore = (stats: GameStats): number => {
   if (stats.totalWords === 0) return 100;
-  
+
   // Sistem penalty: Setiap kanji word yang salah (pertama kali) mengurangi score
   // Penalty proporsional = 100 / total words, jadi jika 5 words dan 1 salah = -20 poin
   const penaltyPerUniqueWrongWord = 100 / stats.totalWords;
   const totalPenalty = stats.uniqueWrongWords * penaltyPerUniqueWrongWord;
   const newScore = 100 - totalPenalty;
-  
+
   // Bulatkan dan clamp between 0-100
   return Math.max(0, Math.min(100, Math.round(newScore)));
 };
@@ -86,79 +87,87 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
   isGameComplete: false,
   wordsWithErrors: new Set(),
-  
+
   // Retry System - Redesigned
   isRetryMode: false,
   originalTotalWords: 0,
   allGameWords: [],
-  
+
   // Global Accumulative Tracking
   globalWordsWithErrors: new Set(),
   currentBaseScore: 100,
-  
+
   // Game Grid State
   gameWords: [],
   shuffledKanji: [],
   selectedCards: [],
   matchedPairs: new Set(),
   errorCards: new Set(),
-  
-  updateStats: (updates) => set((state) => {
-    const newStats = {
-      ...state.gameStats,
-      ...updates,
-    };
-    // Only recalculate score if not explicitly provided in updates
-    if (!updates.hasOwnProperty('score')) {
-      if (state.isRetryMode) {
-        // During retry mode, maintain current score (will be handled by addWordError)
-        newStats.score = state.gameStats.score;
-      } else {
-        // Normal mode: recalculate from scratch
-        newStats.score = calculateScore(newStats);
+
+  updateStats: (updates) =>
+    set((state) => {
+      const newStats = {
+        ...state.gameStats,
+        ...updates,
+      };
+      // Only recalculate score if not explicitly provided in updates
+      if (!updates.hasOwnProperty("score")) {
+        if (state.isRetryMode) {
+          // During retry mode, maintain current score (will be handled by addWordError)
+          newStats.score = state.gameStats.score;
+        } else {
+          // Normal mode: recalculate from scratch
+          newStats.score = calculateScore(newStats);
+        }
       }
-    }
-    return { gameStats: newStats };
-  }),
-  
+      return { gameStats: newStats };
+    }),
+
   setGameComplete: (complete) => set({ isGameComplete: complete }),
-  
-  resetGame: (totalWords, totalSections) => set({
-    gameStats: {
-      totalWords,
-      correctPairs: 0,
-      wrongAttempts: 0,
-      uniqueWrongWords: 0,
-      currentSection: 1,
-      totalSections,
-      score: 100,
-    },
-    isGameComplete: false,
-    wordsWithErrors: new Set(),
-    // Reset retry system
-    isRetryMode: false,
-    originalTotalWords: 0,
-    allGameWords: [],
-    globalWordsWithErrors: new Set(),
-    currentBaseScore: 100,
-    // Reset game grid state
-    gameWords: [],
-    shuffledKanji: [],
-    selectedCards: [],
-    matchedPairs: new Set(),
-    errorCards: new Set(),
-  }),
-  
+
+  resetGame: (totalWords, totalSections) =>
+    set({
+      gameStats: {
+        totalWords,
+        correctPairs: 0,
+        wrongAttempts: 0,
+        uniqueWrongWords: 0,
+        currentSection: 1,
+        totalSections,
+        score: 100,
+      },
+      isGameComplete: false,
+      wordsWithErrors: new Set(),
+      // Reset retry system
+      isRetryMode: false,
+      originalTotalWords: 0,
+      allGameWords: [],
+      globalWordsWithErrors: new Set(),
+      currentBaseScore: 100,
+      // Reset game grid state
+      gameWords: [],
+      shuffledKanji: [],
+      selectedCards: [],
+      matchedPairs: new Set(),
+      errorCards: new Set(),
+    }),
+
   calculateAndSetScore: () => {
-    const { gameStats, isRetryMode, originalTotalWords, globalWordsWithErrors, wordsWithErrors } = get();
-    
+    const {
+      gameStats,
+      isRetryMode,
+      originalTotalWords,
+      globalWordsWithErrors,
+      wordsWithErrors,
+    } = get();
+
     let newScore;
     if (isRetryMode) {
       // During retry mode, calculate from global accumulative wrong words + current session wrong words
       const penaltyPerWord = 100 / originalTotalWords;
       const allCurrentWrongWords = new Set([
         ...globalWordsWithErrors,
-        ...wordsWithErrors
+        ...wordsWithErrors,
       ]);
       const totalUniqueWrongWords = allCurrentWrongWords.size;
       const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
@@ -167,77 +176,146 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       // Normal mode: calculate from scratch
       newScore = calculateScore(gameStats);
     }
-    
+
     set((state) => ({
       gameStats: {
         ...state.gameStats,
         score: Math.round(newScore),
-      }
+      },
     }));
   },
-  
+
   addWordError: (kanjiWord: string) => {
     const { wordsWithErrors, isRetryMode } = get();
     const isFirstError = !wordsWithErrors.has(kanjiWord);
-    
+
     // Only penalize score on first error for this specific kanji word
     if (isFirstError) {
       set((state) => {
-        const newWordsWithErrors = new Set([...state.wordsWithErrors, kanjiWord]);
+        const newWordsWithErrors = new Set([
+          ...state.wordsWithErrors,
+          kanjiWord,
+        ]);
         const newUniqueWrongWords = state.gameStats.uniqueWrongWords + 1;
-        
+
         // During retry mode, calculate penalty from global accumulative base
         if (state.isRetryMode) {
           const penaltyPerWord = 100 / state.originalTotalWords;
-          
+
           // Calculate total unique wrong words: global + current session
           const allCurrentWrongWords = new Set([
             ...state.globalWordsWithErrors, // All words wrong sejak awal
-            ...newWordsWithErrors // Current retry session wrong words
+            ...newWordsWithErrors, // Current retry session wrong words
           ]);
-          
+
           const totalUniqueWrongWords = allCurrentWrongWords.size;
           const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
           const newScore = Math.max(0, 100 - totalPenalty);
-          
+
           return {
             wordsWithErrors: newWordsWithErrors,
             gameStats: {
               ...state.gameStats,
               uniqueWrongWords: newUniqueWrongWords,
               score: Math.round(newScore),
-            }
+            },
           };
         }
-        
+
         // Normal mode: Recalculate score immediately with new penalty
         const updatedStats = {
           ...state.gameStats,
           uniqueWrongWords: newUniqueWrongWords,
         };
         const newScore = calculateScore(updatedStats);
-        
+
         return {
           wordsWithErrors: newWordsWithErrors,
           gameStats: {
             ...updatedStats,
             score: newScore,
-          }
+          },
         };
       });
     }
-    
+
     return isFirstError;
   },
-  
-  resetWordsWithErrors: () => set((state) => ({
-    wordsWithErrors: new Set(),
-    gameStats: {
-      ...state.gameStats,
-      uniqueWrongWords: 0,
+
+  removeWordError: (kanjiWord: string) => {
+    const { wordsWithErrors, globalWordsWithErrors } = get();
+
+    // Jika wordsWithErrors kosong (tidak ada error di sesi saat ini),
+    // maka remove dari globalWordsWithErrors
+    if (wordsWithErrors.size === 0) {
+      const wasInGlobal = globalWordsWithErrors.has(kanjiWord);
+      if (wasInGlobal) {
+        set((state) => {
+          const newGlobalWordsWithErrors = new Set(state.globalWordsWithErrors);
+          newGlobalWordsWithErrors.delete(kanjiWord);
+
+          // Recalculate score based on reduced penalty
+          let newScore;
+          console.log(state.isRetryMode, "ini state is retry mode");
+          if (state.isRetryMode) {
+            const penaltyPerWord = 100 / state.allGameWords.length;
+            const totalUniqueWrongWords = newGlobalWordsWithErrors.size;
+            const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
+            newScore = Math.max(0, 100 - totalPenalty);
+            console.log(
+              state.originalTotalWords,
+              "total_words",
+              totalUniqueWrongWords,
+              "total unique wrong words",
+              totalPenalty,
+              "total penalty",
+              newScore,
+              "total score",
+              state,
+              "ini state"
+            );
+          } else {
+            // Normal mode: recalculate from current stats minus this word
+            const updatedStats = {
+              ...state.gameStats,
+              uniqueWrongWords: Math.max(
+                0,
+                state.gameStats.uniqueWrongWords - 1
+              ),
+            };
+            newScore = calculateScore(updatedStats);
+          }
+          console.log(newScore, "ini new score");
+          return {
+            globalWordsWithErrors: newGlobalWordsWithErrors,
+            gameStats: {
+              ...state.gameStats,
+              uniqueWrongWords: Math.max(
+                0,
+                state.gameStats.uniqueWrongWords - 1
+              ),
+              score: Math.round(newScore),
+            },
+          };
+        });
+      }
+      return wasInGlobal;
+    } else {
+      // Jika wordsWithErrors ada isi (ada error di sesi saat ini),
+      // maka tidak remove apapun
+      return false;
     }
-  })),
-  
+  },
+
+  resetWordsWithErrors: () =>
+    set((state) => ({
+      wordsWithErrors: new Set(),
+      gameStats: {
+        ...state.gameStats,
+        uniqueWrongWords: 0,
+      },
+    })),
+
   // Game Grid Actions
   loadSection: (sectionWords) => {
     const shuffleArray = <T>(array: T[]): T[] => {
@@ -248,7 +326,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       }
       return shuffled;
     };
-    
+
     set({
       gameWords: sectionWords,
       shuffledKanji: shuffleArray(sectionWords.map((w: any) => w.kanji)),
@@ -257,15 +335,15 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       errorCards: new Set(),
     });
   },
-  
+
   setAllGameWords: (allWords) => set({ allGameWords: allWords }),
-  
+
   setSelectedCards: (cards) => set({ selectedCards: cards }),
-  
+
   setMatchedPairs: (pairs) => set({ matchedPairs: pairs }),
-  
+
   setErrorCards: (errors) => set({ errorCards: errors }),
-  
+
   checkSectionComplete: () => {
     const { matchedPairs, gameWords } = get();
     return matchedPairs.size >= gameWords.length * 2;
@@ -274,19 +352,22 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   // Retry System Implementation
   canRetry: () => {
     const { globalWordsWithErrors, wordsWithErrors } = get();
-    const allWrongWords = new Set([...globalWordsWithErrors, ...wordsWithErrors]);
+    const allWrongWords = new Set([
+      ...globalWordsWithErrors,
+      ...wordsWithErrors,
+    ]);
     return allWrongWords.size > 0; // Can retry if there are any wrong words globally
   },
 
   startRetryMode: () => {
     const { gameStats, wordsWithErrors, globalWordsWithErrors } = get();
-    
+
     // Merge current session wrong words ke global tracking
     const newGlobalWordsWithErrors = new Set([
       ...globalWordsWithErrors,
-      ...wordsWithErrors
+      ...wordsWithErrors,
     ]);
-    
+
     set({
       isRetryMode: true,
       isGameComplete: false,
@@ -299,22 +380,27 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   generateRetrySession: () => {
     const { globalWordsWithErrors, allGameWords, currentBaseScore } = get();
     const wrongWords = Array.from(globalWordsWithErrors);
-    
+
     // Find wrong word data
-    const wrongWordData = allGameWords.filter(w => wrongWords.includes(w.kanji));
-    
+    const wrongWordData = allGameWords.filter((w) =>
+      wrongWords.includes(w.kanji)
+    );
+
     // Generate retry session based on wrong words count
     let retryWords = [...wrongWordData];
-    
+
     if (wrongWords.length === 1) {
       // Add 1 decoy for single wrong word
-      const correctWords = allGameWords.filter(w => !wrongWords.includes(w.kanji));
+      const correctWords = allGameWords.filter(
+        (w) => !wrongWords.includes(w.kanji)
+      );
       if (correctWords.length > 0) {
-        const randomDecoy = correctWords[Math.floor(Math.random() * correctWords.length)];
+        const randomDecoy =
+          correctWords[Math.floor(Math.random() * correctWords.length)];
         retryWords.push(randomDecoy);
       }
     }
-    
+
     // Shuffle and load retry session
     const shuffleArray = <T>(array: T[]): T[] => {
       const shuffled = [...array];
@@ -327,7 +413,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
     set({
       gameWords: retryWords,
-      shuffledKanji: shuffleArray(retryWords.map(w => w.kanji)),
+      shuffledKanji: shuffleArray(retryWords.map((w) => w.kanji)),
       selectedCards: [],
       matchedPairs: new Set(),
       errorCards: new Set(),
@@ -339,39 +425,38 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         uniqueWrongWords: 0,
         totalWords: retryWords.length,
         score: currentBaseScore, // Start with current base score (accumulative)
-      }
+      },
     });
   },
 
   finishRetryMode: (retryResults: { correctCount: number }) => {
-    const { 
+    const {
       gameStats,
-      originalTotalWords,
       globalWordsWithErrors,
-      wordsWithErrors 
+      wordsWithErrors,
     } = get();
-    
+
     // Merge current session wrong words to global (for next potential retry)
     const updatedGlobalWordsWithErrors = new Set([
       ...globalWordsWithErrors,
-      ...wordsWithErrors
+      ...wordsWithErrors,
     ]);
-    
+
     // Current score already reflects all penalties correctly
     let finalScore = gameStats.score;
-    
+
     // Update currentBaseScore for potential next retry
     const newBaseScore = finalScore;
-    
-    console.log('FinishRetryMode Debug:', {
+
+    console.log("FinishRetryMode Debug:", {
       currentScore: gameStats.score,
       globalWordsWithErrors: Array.from(globalWordsWithErrors),
       sessionWordsWithErrors: Array.from(wordsWithErrors),
       updatedGlobalWordsWithErrors: Array.from(updatedGlobalWordsWithErrors),
       retryResults,
-      finalScore
+      finalScore,
     });
-    
+
     set((state) => ({
       isRetryMode: false,
       isGameComplete: true,
@@ -380,7 +465,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       gameStats: {
         ...state.gameStats,
         score: Math.max(0, Math.min(100, Math.round(finalScore))),
-      }
+      },
     }));
   },
 }));

@@ -8,32 +8,29 @@ import { PairingHeader } from "../fragments/pairing-header";
 import { GameGrid } from "../fragments/game-grid";
 import { PairingDisplayOptionsControl } from "../fragments/pairing-display-options-control";
 import { usePairingGameStore } from "../store/pairing-game.store";
-import { 
-  getPairingGameData, 
-  PairingWord
-} from "../utils/pairing-game";
+import { getPairingGameData, PairingWord } from "../utils/pairing-game";
 
 export function KanjiPairingExerciseContainer() {
   const searchParams = useSearchParams();
-  
-  const lessonId = searchParams.get('lessonId');
-  const level = searchParams.get('level') || 'N5';
-  
+
+  const lessonId = searchParams.get("lessonId");
+  const level = searchParams.get("level") || "N5";
+
   // Game state
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
   const [allSections, setAllSections] = useState<PairingWord[][]>([]);
-  
+
   // Store
-  const { 
-    gameStats, 
+  const {
+    gameStats,
     isGameComplete,
-    isRetryMode, 
-    updateStats, 
-    setGameComplete, 
+    isRetryMode,
+    updateStats,
+    setGameComplete,
     calculateAndSetScore,
     loadSection,
     setAllGameWords,
-    resetGame
+    resetGame,
   } = usePairingGameStore();
 
   // Initialize game
@@ -41,18 +38,18 @@ export function KanjiPairingExerciseContainer() {
     if (lessonId) {
       const gameData = getPairingGameData(parseInt(lessonId), level);
       const sections = [];
-      
+
       // Split into sections of 5
       for (let i = 0; i < gameData.words.length; i += 5) {
         sections.push(gameData.words.slice(i, i + 5));
       }
-      
+
       setAllSections(sections);
       resetGame(gameData.totalWords, sections.length);
-      
+
       // Store all words for retry system
       setAllGameWords(gameData.words);
-      
+
       // Load first section
       if (sections.length > 0) {
         loadSection(sections[0]);
@@ -65,7 +62,7 @@ export function KanjiPairingExerciseContainer() {
     const handleSectionComplete = () => {
       if (currentSectionIndex + 1 < allSections.length) {
         // Move to next section
-        setCurrentSectionIndex(prev => prev + 1);
+        setCurrentSectionIndex((prev) => prev + 1);
         updateStats({ currentSection: gameStats.currentSection + 1 });
         loadSection(allSections[currentSectionIndex + 1]);
       } else {
@@ -87,16 +84,24 @@ export function KanjiPairingExerciseContainer() {
       // No need to do anything here as finishRetryMode handles state
     };
 
-    window.addEventListener('sectionComplete', handleSectionComplete);
-    window.addEventListener('gameRestart', handleGameRestart);
-    window.addEventListener('retryComplete', handleRetryComplete);
-    
+    window.addEventListener("sectionComplete", handleSectionComplete);
+    window.addEventListener("gameRestart", handleGameRestart);
+    window.addEventListener("retryComplete", handleRetryComplete);
+
     return () => {
-      window.removeEventListener('sectionComplete', handleSectionComplete);
-      window.removeEventListener('gameRestart', handleGameRestart);
-      window.removeEventListener('retryComplete', handleRetryComplete);
+      window.removeEventListener("sectionComplete", handleSectionComplete);
+      window.removeEventListener("gameRestart", handleGameRestart);
+      window.removeEventListener("retryComplete", handleRetryComplete);
     };
-  }, [currentSectionIndex, allSections, gameStats.currentSection, updateStats, loadSection, calculateAndSetScore, setGameComplete]);
+  }, [
+    currentSectionIndex,
+    allSections,
+    gameStats.currentSection,
+    updateStats,
+    loadSection,
+    calculateAndSetScore,
+    setGameComplete,
+  ]);
 
   // Show GameResult only if game is complete AND not in active retry mode
   if (isGameComplete && !isRetryMode) {
