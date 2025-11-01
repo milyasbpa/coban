@@ -38,28 +38,38 @@ export function KanjiPairingExerciseContainer() {
     resetGame,
   } = usePairingGameStore();
 
-  // Initialize game
-  useEffect(() => {
-    if (lessonId) {
-      const gameData = getPairingGameData(parseInt(lessonId), level);
-
-      // Shuffle all words first for better randomness
-      const shuffledWords = shuffleArray(gameData.words);
-
-      // Get initial sections
-      const sections = getSections(shuffledWords);
-
-      setAllSections(sections);
-      resetGame(gameData.totalWords, sections.length);
-
-      // Store shuffled words for retry system
-      setAllGameWords(shuffledWords);
-
-      // Load first section
-      if (sections.length > 0) {
-        loadSection(sections[0]);
-      }
+  // Reusable function for initializing/restarting game
+  const initializeGame = (shouldResetSectionIndex = false) => {
+    if (!lessonId) return;
+    
+    const gameData = getPairingGameData(parseInt(lessonId), level);
+    
+    // Shuffle all words first for better randomness
+    const shuffledWords = shuffleArray(gameData.words);
+    
+    // Get initial sections
+    const sections = getSections(shuffledWords);
+    
+    setAllSections(sections);
+    resetGame(gameData.totalWords, sections.length);
+    
+    // Store shuffled words for retry system
+    setAllGameWords(shuffledWords);
+    
+    // Reset section index if needed (for restart)
+    if (shouldResetSectionIndex) {
+      setCurrentSectionIndex(0);
     }
+    
+    // Load first section
+    if (sections.length > 0) {
+      loadSection(sections[0]);
+    }
+  };
+
+  // Initialize game on mount
+  useEffect(() => {
+    initializeGame();
   }, [lessonId, level]);
 
   // Listen for section complete events from GameGrid
@@ -78,22 +88,8 @@ export function KanjiPairingExerciseContainer() {
     };
 
     const handleGameRestart = () => {
-      if (!lessonId) return;
-      const gameData = getPairingGameData(parseInt(lessonId), level);
-      // Shuffle all words first for better randomness
-      const shuffledWords = shuffleArray(gameData.words);
-      // Get initial sections
-      const sections = getSections(shuffledWords);
-      resetGame(gameData.totalWords, sections.length);
-
-      setCurrentSectionIndex(0);
-
-      // Store shuffled words for retry system
-      setAllGameWords(shuffledWords);
-
-      if (allSections.length > 0) {
-        loadSection(allSections[0]);
-      }
+      // Use the reusable function with section index reset
+      initializeGame(true);
     };
 
     const handleRetryComplete = () => {
