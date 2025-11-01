@@ -1,10 +1,12 @@
 import { getKanjiDetailsByLessonId, KanjiDetail } from "@/pwa/features/kanji/lesson/utils/kanji";
+import { GameStats } from "../store/pairing-game.store";
 
 export interface PairingWord {
   id: string;
   kanji: string;
   reading: string;
-  meaning: string;
+  meaning_id: string;
+  meaning_en: string;
   furigana: string;
 }
 
@@ -14,14 +16,7 @@ export interface GameSection {
   completed: boolean;
 }
 
-export interface GameStats {
-  totalWords: number;
-  correctPairs: number;
-  wrongAttempts: number;
-  currentSection: number;
-  totalSections: number;
-  score: number;
-}
+
 
 // Convert kanji details to pairing words
 export const createPairingWords = (kanjiDetails: KanjiDetail[]): PairingWord[] => {
@@ -34,7 +29,8 @@ export const createPairingWords = (kanjiDetails: KanjiDetail[]): PairingWord[] =
         id: `${kanji.id}-${index}`,
         kanji: example.word,
         reading: example.romanji,
-        meaning: example.meaning_id,
+        meaning_id: example.meaning_id,
+        meaning_en: example.meaning_en,
         furigana: example.furigana,
       });
     });

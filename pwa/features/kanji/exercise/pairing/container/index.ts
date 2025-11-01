@@ -1,0 +1,1 @@
+export { KanjiPairingExerciseContainer } from './kanji-pairing-exercise-container';

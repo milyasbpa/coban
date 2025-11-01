@@ -1,0 +1,110 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
+import { ScoreHeader } from "../fragments/score-header";
+import { GameResult } from "../fragments/game-result";
+import { PairingHeader } from "../fragments/pairing-header";
+import { GameGrid } from "../fragments/game-grid";
+import { PairingDisplayOptionsControl } from "../fragments/pairing-display-options-control";
+import { usePairingGameStore } from "../store/pairing-game.store";
+import { 
+  getPairingGameData, 
+  PairingWord
+} from "../utils/pairing-game";
+
+export function KanjiPairingExerciseContainer() {
+  const searchParams = useSearchParams();
+  
+  const lessonId = searchParams.get('lessonId');
+  const level = searchParams.get('level') || 'N5';
+  
+  // Game state
+  const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
+  const [allSections, setAllSections] = useState<PairingWord[][]>([]);
+  
+  // Store
+  const { 
+    gameStats, 
+    isGameComplete, 
+    updateStats, 
+    setGameComplete, 
+    calculateAndSetScore,
+    loadSection,
+    resetGame
+  } = usePairingGameStore();
+
+  // Initialize game
+  useEffect(() => {
+    if (lessonId) {
+      const gameData = getPairingGameData(parseInt(lessonId), level);
+      const sections = [];
+      
+      // Split into sections of 5
+      for (let i = 0; i < gameData.words.length; i += 5) {
+        sections.push(gameData.words.slice(i, i + 5));
+      }
+      
+      setAllSections(sections);
+      resetGame(gameData.totalWords, sections.length);
+      
+      // Load first section
+      if (sections.length > 0) {
+        loadSection(sections[0]);
+      }
+    }
+  }, [lessonId, level]);
+
+  // Listen for section complete events from GameGrid
+  useEffect(() => {
+    const handleSectionComplete = () => {
+      if (currentSectionIndex + 1 < allSections.length) {
+        // Move to next section
+        setCurrentSectionIndex(prev => prev + 1);
+        updateStats({ currentSection: gameStats.currentSection + 1 });
+        loadSection(allSections[currentSectionIndex + 1]);
+      } else {
+        // Game complete
+        calculateAndSetScore();
+        setGameComplete(true);
+      }
+    };
+
+    const handleGameRestart = () => {
+      setCurrentSectionIndex(0);
+      if (allSections.length > 0) {
+        loadSection(allSections[0]);
+      }
+    };
+
+    window.addEventListener('sectionComplete', handleSectionComplete);
+    window.addEventListener('gameRestart', handleGameRestart);
+    
+    return () => {
+      window.removeEventListener('sectionComplete', handleSectionComplete);
+      window.removeEventListener('gameRestart', handleGameRestart);
+    };
+  }, [currentSectionIndex, allSections, gameStats.currentSection, updateStats, loadSection, calculateAndSetScore, setGameComplete]);
+
+  if (isGameComplete) {
+    return <GameResult />;
+  }
+
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Header */}
+      <PairingHeader />
+
+      <div className="p-4">
+        {/* Score Header */}
+        <ScoreHeader />
+
+        {/* Game Grid */}
+        <GameGrid />
+      </div>
+
+      {/* Display Options Control */}
+      <PairingDisplayOptionsControl />
+    </div>
+  );
+}

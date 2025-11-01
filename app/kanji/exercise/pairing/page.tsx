@@ -1,10 +1,10 @@
 import { Suspense } from "react";
-import { PairingExerciseContainer } from "@/pwa/features/kanji/exercise/pairing/container/pairing-exercise-container";
+import { KanjiPairingExerciseContainer } from "@/pwa/features/kanji/exercise/pairing/container";
 
-export default function PairingExercisePage() {
+export default function KanjiPairingPage() {
   return (
-    <Suspense fallback={<div>Loading exercise...</div>}>
-      <PairingExerciseContainer />
+    <Suspense fallback={<div>Loading...</div>}>
+      <KanjiPairingExerciseContainer />
     </Suspense>
   );
 }

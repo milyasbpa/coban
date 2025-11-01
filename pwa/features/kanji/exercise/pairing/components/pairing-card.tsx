@@ -2,10 +2,13 @@
 
 import { Card } from "@/pwa/core/components/card";
 import { cn } from "@/pwa/core/lib/utils";
+import { usePairingDisplayOptions } from "../store";
 
 interface PairingCardProps {
   id: string;
   content: string;
+  furigana?: string;
+  romanji?: string;
   type: "kanji" | "meaning";
   isSelected: boolean;
   isMatched: boolean;
@@ -16,12 +19,16 @@ interface PairingCardProps {
 export function PairingCard({ 
   id, 
   content, 
+  furigana,
+  romanji,
   type, 
   isSelected, 
   isMatched, 
   isError, 
   onClick 
 }: PairingCardProps) {
+  const { displayFurigana, displayRomanji } = usePairingDisplayOptions();
+
   const handleClick = () => {
     if (isMatched) return; // Don't allow clicking matched cards
     onClick(id, type);
@@ -30,7 +37,9 @@ export function PairingCard({
   return (
     <Card
       className={cn(
-        "p-4 cursor-pointer transition-all duration-200 select-none min-h-[80px] flex items-center justify-center text-center",
+        "p-4 cursor-pointer transition-all duration-200 select-none flex items-center justify-center text-center",
+        // Consistent height for both card types
+        "min-h-[100px]",
         {
           // Default state
           "bg-card hover:bg-muted/50 border-border": !isSelected && !isMatched && !isError,
@@ -50,11 +59,28 @@ export function PairingCard({
       )}
       onClick={handleClick}
     >
-      <div className="w-full">
+      <div className="w-full flex flex-col items-center justify-center gap-1">
         {type === "kanji" ? (
-          <div className="text-lg font-bold">{content}</div>
+          <>
+            {/* Furigana (atas kanji) */}
+            {displayFurigana && furigana && (
+              <div className="text-xs text-muted-foreground font-medium leading-tight">
+                {furigana}
+              </div>
+            )}
+            
+            {/* Kanji content (utama) */}
+            <div className="text-lg font-bold leading-tight">{content}</div>
+            
+            {/* Romanji (bawah kanji) */}
+            {displayRomanji && romanji && (
+              <div className="text-xs text-muted-foreground font-medium leading-tight">
+                {romanji}
+              </div>
+            )}
+          </>
         ) : (
-          <div className="text-sm font-medium leading-tight">{content}</div>
+          <div className="text-sm font-medium leading-tight px-2">{content}</div>
         )}
       </div>
     </Card>
