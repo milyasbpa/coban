@@ -5,11 +5,14 @@ import { useSearchParams } from "next/navigation";
 import { KanjiCard } from "../components/kanji-card";
 import { LessonHeader } from "../fragments/lesson-header";
 import { DisplayOptionsControl } from "../fragments/display-options-control";
+import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
+import { useKanjiSelection } from "../store/kanji-selection.store";
 import { getKanjiDetailsByLessonId, KanjiDetail } from "../utils/kanji";
 
 export function KanjiLessonContainer() {
   const searchParams = useSearchParams();
   const [kanjiList, setKanjiList] = useState<KanjiDetail[]>([]);
+  const { isSelectionMode } = useKanjiSelection();
 
   const lessonId = searchParams.get("lessonId");
   const level = searchParams.get("level") || "N5";
@@ -39,6 +42,9 @@ export function KanjiLessonContainer() {
 
       {/* Display Options Control */}
       <DisplayOptionsControl />
+
+      {/* Selection Bottom Navigation */}
+      {isSelectionMode && <SelectionBottomNav />}
     </div>
   );
 }

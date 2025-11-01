@@ -36,8 +36,9 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
       className={cn(
         "p-4 space-y-0 bg-card border transition-all duration-200 cursor-pointer gap-2",
         isSelectionMode && "hover:shadow-md",
-        isSelected && "border-primary bg-primary/5 shadow-md",
-        !isSelected && "border-border shadow-sm hover:shadow-md"
+        isSelected && "border-primary bg-primary/10 shadow-lg ring-2 ring-primary/20",
+        !isSelected && isSelectionMode && "border-border shadow-sm hover:shadow-md hover:border-primary/30",
+        !isSelectionMode && "border-border shadow-sm hover:shadow-md"
       )}
       onClick={handleCardClick}
     >
@@ -45,14 +46,29 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
       <div className="flex gap-3 items-start">
         {/* Index and Kanji on same row */}
         <div className="flex items-start gap-3">
-          <span className="text-sm font-medium text-muted-foreground bg-muted px-2 py-1 rounded-md">
+          <span className={cn(
+            "text-sm font-medium px-2 py-1 rounded-md transition-colors",
+            isSelected 
+              ? "text-primary-foreground bg-primary" 
+              : "text-muted-foreground bg-muted"
+          )}>
             {index}
           </span>
 
           <div className="flex flex-col items-center space-y-1">
             {/* Kanji character display */}
-            <div className="w-16 h-16 bg-linear-to-br from-amber-100 to-amber-200 dark:from-amber-200/20 dark:to-amber-300/20 rounded-lg flex items-center justify-center border border-amber-200/50 shadow-inner">
-              <span className="text-2xl font-bold text-amber-900 dark:text-amber-100 select-none">
+            <div className={cn(
+              "w-16 h-16 rounded-lg flex items-center justify-center border shadow-inner transition-colors",
+              isSelected 
+                ? "bg-linear-to-br from-primary/20 to-primary/30 border-primary/50" 
+                : "bg-linear-to-br from-amber-100 to-amber-200 dark:from-amber-200/20 dark:to-amber-300/20 border-amber-200/50"
+            )}>
+              <span className={cn(
+                "text-2xl font-bold select-none transition-colors",
+                isSelected 
+                  ? "text-primary" 
+                  : "text-amber-900 dark:text-amber-100"
+              )}>
                 {kanji.character}
               </span>
             </div>
@@ -72,7 +88,12 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
           <div className="flex items-start gap-2">
             <Badge
               variant="secondary"
-              className="bg-primary text-primary-foreground text-xs font-semibold px-2 py-0.5"
+              className={cn(
+                "text-xs font-semibold px-2 py-0.5 transition-colors",
+                isSelected 
+                  ? "bg-primary/80 text-primary-foreground" 
+                  : "bg-primary text-primary-foreground"
+              )}
             >
               KUN
             </Badge>
@@ -91,7 +112,12 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
           <div className="flex items-start gap-2">
             <Badge
               variant="secondary"
-              className="bg-secondary text-secondary-foreground text-xs font-semibold px-2 py-0.5"
+              className={cn(
+                "text-xs font-semibold px-2 py-0.5 transition-colors",
+                isSelected 
+                  ? "bg-secondary/80 text-secondary-foreground border-primary/20" 
+                  : "bg-secondary text-secondary-foreground"
+              )}
             >
               ON
             </Badge>
@@ -112,7 +138,12 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
       <div className="flex items-center gap-2 pt-2">
         <Badge
           variant="secondary"
-          className="bg-primary text-primary-foreground text-xs font-semibold px-2 py-0.5"
+          className={cn(
+            "text-xs font-semibold px-2 py-0.5 transition-colors",
+            isSelected 
+              ? "bg-primary/80 text-primary-foreground" 
+              : "bg-primary text-primary-foreground"
+          )}
         >
           {isIndonesian ? "Kata" : "Words"}
         </Badge>
