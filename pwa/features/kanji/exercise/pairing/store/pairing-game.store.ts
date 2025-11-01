@@ -48,9 +48,11 @@ interface PairingGameState {
 const calculateScore = (stats: GameStats): number => {
   if (stats.totalWords === 0) return 100;
   
-  // Penalty proporsional berdasarkan unique wrong words: 100 dibagi jumlah total kata
+  // Sistem penalty: Setiap kanji word yang salah (pertama kali) mengurangi score
+  // Penalty proporsional = 100 / total words, jadi jika 5 words dan 1 salah = -20 poin
   const penaltyPerUniqueWrongWord = 100 / stats.totalWords;
-  const newScore = 100 - (stats.uniqueWrongWords * penaltyPerUniqueWrongWord);
+  const totalPenalty = stats.uniqueWrongWords * penaltyPerUniqueWrongWord;
+  const newScore = 100 - totalPenalty;
   
   // Bulatkan dan clamp between 0-100
   return Math.max(0, Math.min(100, Math.round(newScore)));
@@ -81,8 +83,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       ...state.gameStats,
       ...updates,
     };
-    // Recalculate score whenever stats are updated
-    newStats.score = calculateScore(newStats);
+    // Only recalculate score if not explicitly provided in updates
+    if (!updates.hasOwnProperty('score')) {
+      newStats.score = calculateScore(newStats);
+    }
     return { gameStats: newStats };
   }),
   
@@ -119,18 +123,31 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     }));
   },
   
-  addWordError: (word: string) => {
+  addWordError: (kanjiWord: string) => {
     const { wordsWithErrors } = get();
-    const isFirstError = !wordsWithErrors.has(word);
+    const isFirstError = !wordsWithErrors.has(kanjiWord);
     
+    // Only penalize score on first error for this specific kanji word
     if (isFirstError) {
-      set((state) => ({
-        wordsWithErrors: new Set([...state.wordsWithErrors, word]),
-        gameStats: {
+      set((state) => {
+        const newWordsWithErrors = new Set([...state.wordsWithErrors, kanjiWord]);
+        const newUniqueWrongWords = state.gameStats.uniqueWrongWords + 1;
+        
+        // Recalculate score immediately with new penalty
+        const updatedStats = {
           ...state.gameStats,
-          uniqueWrongWords: state.gameStats.uniqueWrongWords + 1,
-        }
-      }));
+          uniqueWrongWords: newUniqueWrongWords,
+        };
+        const newScore = calculateScore(updatedStats);
+        
+        return {
+          wordsWithErrors: newWordsWithErrors,
+          gameStats: {
+            ...updatedStats,
+            score: newScore,
+          }
+        };
+      });
     }
     
     return isFirstError;

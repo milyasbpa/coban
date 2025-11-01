@@ -80,9 +80,9 @@ export function GameGrid() {
           // Wrong match - show error
           setErrorCards(new Set([kanjiCard.id, meaningCard.id]));
           
-          // Track word errors (hanya kurangi score jika ini error pertama untuk word ini)
-          const kanjiWordFirstError = addWordError(kanjiCard.id);
-          const meaningWordFirstError = addWordError(meaningCard.id);
+          // Track word errors based on the kanji (not individual cards)
+          // Only the kanji determines if this is first error for this word
+          const isFirstErrorForThisWord = addWordError(kanjiCard.id);
           
           // Update wrong attempts count (selalu bertambah untuk tracking)
           updateStats({ wrongAttempts: gameStats.wrongAttempts + 1 });

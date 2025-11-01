@@ -17,9 +17,11 @@ export const useLanguage = create<LanguageState>()(
       toggleLanguage: () => {
         const currentLang = get().language;
         const newLang = currentLang === 'id' ? 'en' : 'id';
+        const newIsIndonesian = newLang === 'id';
+        
         set({ 
           language: newLang, 
-          isIndonesian: newLang === 'id' 
+          isIndonesian: newIsIndonesian
         });
       },
       
@@ -32,7 +34,17 @@ export const useLanguage = create<LanguageState>()(
     }),
     {
       name: 'language-storage',
-      partialize: (state) => ({ language: state.language }),
+      partialize: (state) => ({ 
+        language: state.language, 
+        isIndonesian: state.isIndonesian 
+      }),
+      // Ensure proper rehydration
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          // Sync isIndonesian with language after rehydration
+          state.isIndonesian = state.language === 'id';
+        }
+      },
     }
   )
 );
