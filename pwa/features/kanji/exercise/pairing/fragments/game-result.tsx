@@ -86,7 +86,7 @@ export function GameResult() {
           </h1>
           <p className="text-muted-foreground">
             {isRetryMode 
-              ? `Original: ${originalScore} → Final: ${score}` 
+              ? `Retry completed with final score!` 
               : isPerfectScore 
                 ? "Amazing! You got everything right!" 
                 : "Congratulations on completing the exercise!"

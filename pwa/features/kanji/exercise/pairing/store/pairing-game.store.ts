@@ -146,14 +146,19 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   }),
   
   calculateAndSetScore: () => {
-    const { gameStats, isRetryMode, originalScore, originalTotalWords } = get();
+    const { gameStats, isRetryMode, originalTotalWords, originalWordsWithErrors, wordsWithErrors } = get();
     
     let newScore;
     if (isRetryMode) {
-      // During retry mode, calculate from original score base
+      // During retry mode, calculate total unique wrong words from both original and retry sessions
       const penaltyPerWord = 100 / originalTotalWords;
-      const decoyPenalty = gameStats.uniqueWrongWords * penaltyPerWord;
-      newScore = Math.max(0, originalScore - decoyPenalty);
+      const allWrongWords = new Set([
+        ...originalWordsWithErrors,
+        ...wordsWithErrors
+      ]);
+      const totalUniqueWrongWords = allWrongWords.size;
+      const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
+      newScore = Math.max(0, 100 - totalPenalty);
     } else {
       // Normal mode: calculate from scratch
       newScore = calculateScore(gameStats);
@@ -180,14 +185,22 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         // During retry mode, calculate penalty from original score base
         if (state.isRetryMode) {
           const penaltyPerWord = 100 / state.originalTotalWords;
-          const decoyPenalty = newUniqueWrongWords * penaltyPerWord;
-          const newScore = Math.max(0, state.originalScore - decoyPenalty);
+          
+          // Calculate total unique wrong words including original wrong words and new decoy wrong words
+          const allWrongWords = new Set([
+            ...state.originalWordsWithErrors, // Original wrong words
+            ...newWordsWithErrors // Current retry wrong words (decoy words)
+          ]);
+          
+          const totalUniqueWrongWords = allWrongWords.size;
+          const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
+          const newScore = Math.max(0, 100 - totalPenalty); // Calculate from 100, not originalScore
           
           return {
             wordsWithErrors: newWordsWithErrors,
             gameStats: {
               ...state.gameStats,
-              uniqueWrongWords: newUniqueWrongWords,
+              uniqueWrongWords: newUniqueWrongWords, // Keep track of retry session wrong words
               score: Math.round(newScore),
             }
           };
@@ -320,33 +333,26 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   finishRetryMode: (retryResults: { correctCount: number }) => {
     const { 
-      originalScore, 
+      gameStats,
       originalTotalWords,
       originalWordsWithErrors,
       wordsWithErrors 
     } = get();
     
-    const originalWrongCount = originalWordsWithErrors.size;
-    const penaltyPerWord = 100 / originalTotalWords;
-    
-    // Start with original score
-    let finalScore = originalScore;
-    
-    // If original wrong words were corrected, restore their penalty
-    if (retryResults.correctCount > 0) {
-      const restoredPenalty = retryResults.correctCount * penaltyPerWord;
-      finalScore = originalScore + restoredPenalty;
-    }
-    
-    // Apply penalty for decoy wrong answers
-    const currentRetryWrongCount = wordsWithErrors.size;
-    if (currentRetryWrongCount > 0) {
-      const decoyPenalty = currentRetryWrongCount * penaltyPerWord;
-      finalScore = finalScore - decoyPenalty;
-    }
+    // Simple approach: just keep the current score (no restore mechanism needed)
+    // Current score already reflects the reality of what happened in retry
+    let finalScore = gameStats.score; // Current score includes all penalties correctly
     
     // Ensure score is within bounds
     finalScore = Math.max(0, Math.min(100, Math.round(finalScore)));
+    
+    console.log('FinishRetryMode Debug:', {
+      currentScore: gameStats.score,
+      originalWordsWithErrors: Array.from(originalWordsWithErrors),
+      wordsWithErrors: Array.from(wordsWithErrors),
+      retryResults,
+      finalScore
+    });
     
     set((state) => ({
       isRetryMode: false,

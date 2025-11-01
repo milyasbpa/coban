@@ -131,22 +131,22 @@ export function ReadingExerciseContainer() {
     ? selectedOption.trim() !== "" 
     : directInput.trim() !== "";
 
-  if (isGameComplete) {
-    return (
-      <GameResult 
-        stats={{
-          totalWords: gameStats.totalQuestions,
-          correctPairs: gameStats.correctAnswers,
-          wrongAttempts: gameStats.wrongAnswers,
-          currentSection: 1,
-          totalSections: 1,
-          score: gameStats.score
-        }}
-        onRestart={handleRestart}
-        onBackToHome={handleBackToHome}
-      />
-    );
-  }
+  // if (isGameComplete) {
+  //   return (
+  //     <GameResult 
+  //       stats={{
+  //         totalWords: gameStats.totalQuestions,
+  //         correctPairs: gameStats.correctAnswers,
+  //         wrongAttempts: gameStats.wrongAnswers,
+  //         currentSection: 1,
+  //         totalSections: 1,
+  //         score: gameStats.score
+  //       }}
+  //       onRestart={handleRestart}
+  //       onBackToHome={handleBackToHome}
+  //     />
+  //   );
+  // }
 
   if (!currentQuestion) {
     return <div className="min-h-screen bg-background flex items-center justify-center">Loading...</div>;
