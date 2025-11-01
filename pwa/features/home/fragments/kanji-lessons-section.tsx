@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { StrokeLessonCard } from "../components/stroke-lesson-card";
 import { TopicLessonCard } from "../components/topic-lesson-card";
 import { getLessonsByLevel } from "../utils/lesson";
-import { getTopicLessons } from "../../kanji/lesson/utils/topic";
+import { getTopicLessons, getTopicCategories } from "../../kanji/lesson/utils/topic";
 import { useHomeStore } from "../store/home-store";
 import { KanjiExerciseModal } from "./kanji-exercise-modal";
 import {
@@ -14,7 +14,6 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/pwa/core/components/tabs";
-import topicMapping from "@/data/n5/kanji/kanji_topic_mapping.json";
 import { useHomeSettingsStore } from "../store/home-settings.store";
 
 // Interface untuk Lesson
@@ -30,7 +29,7 @@ export function KanjiLessonsSection() {
   const { selectedLevel, selectedLessonType } = useHomeSettingsStore();
   // Ambil lessons berdasarkan tipe yang dipilih
   const strokeLessons: Lesson[] = getLessonsByLevel(selectedLevel);
-  const topicLessons = getTopicLessons();
+  const topicLessons = getTopicLessons(selectedLevel);
   
   const { openExerciseModal } = useHomeStore();
   const router = useRouter();
@@ -120,7 +119,8 @@ export function KanjiLessonsSection() {
       return (
         <div className="space-y-4">
           {topicTabs[0].topics.map((topic) => {
-            const category = topicMapping.topic_categories[topic.id as keyof typeof topicMapping.topic_categories];
+            const categories = getTopicCategories(selectedLevel);
+            const category = categories[topic.id];
             return (
               <TopicLessonCard
                 key={topic.id}
@@ -156,7 +156,8 @@ export function KanjiLessonsSection() {
           {topicTabs.map((tab) => (
             <TabsContent key={tab.id} value={tab.id} className="space-y-4">
               {tab.topics.map((topic) => {
-                const category = topicMapping.topic_categories[topic.id as keyof typeof topicMapping.topic_categories];
+                const categories = getTopicCategories(selectedLevel);
+                const category = categories[topic.id];
                 return (
                   <TopicLessonCard
                     key={topic.id}

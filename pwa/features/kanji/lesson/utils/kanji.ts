@@ -73,10 +73,11 @@ export const getKanjiDetailsByTopicId = (
   topicId: string,
   level: string
 ): KanjiDetail[] => {
-  // Import topic mapping
-  const topicMapping = require("@/data/n5/kanji/kanji_topic_mapping.json");
+  // Import topic utilities to get level-aware topic data
+  const { getTopicCategories } = require("@/pwa/features/kanji/lesson/utils/topic");
   
-  const category = topicMapping.topic_categories[topicId];
+  const categories = getTopicCategories(level);
+  const category = categories[topicId];
   if (!category) return [];
   
   return getKanjiDetailsByCharacters(category.kanji_characters, level);
