@@ -4,6 +4,8 @@ import { useMemo } from "react";
 import { PairingCard } from "../components/pairing-card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { shuffleArray } from "../utils";
+import { playAudio } from "@/pwa/core/lib/utils/audio";
 
 interface SelectedCard {
   id: string;
@@ -38,16 +40,13 @@ export function GameGrid() {
     const meanings = gameWords.map((w: any) =>
       isIndonesian ? w.meaning_id : w.meaning_en
     );
-    const shuffled = [...meanings];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
+    const shuffled = shuffleArray(meanings);
     return shuffled;
   }, [gameWords, isIndonesian]);
 
   const handleCardClick = (id: string, type: "kanji" | "meaning") => {
     if (matchedPairs.has(id) || errorCards.has(id)) return;
+    if (type === "kanji") playAudio(id);
 
     const content = type === "kanji" ? id : id; // We'll use the meaning directly as id
     const newCard: SelectedCard = { id, type, content };

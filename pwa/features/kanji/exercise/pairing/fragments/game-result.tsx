@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import Confetti from "react-confetti";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
@@ -11,10 +10,8 @@ import { RotateCcw } from "lucide-react";
 import Link from "next/link";
 
 export function GameResult() {
-  const router = useRouter();
   const {
     gameStats,
-    resetGame,
     canRetry,
     startRetryMode,
     generateRetrySession,

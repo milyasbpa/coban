@@ -9,6 +9,7 @@ import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useKanjiSelection } from "../store/kanji-selection.store";
 import { useDisplayOptions } from "../store/display-options.store";
 import { cn } from "@/pwa/core/lib/utils";
+import { playAudio } from "@/pwa/core/lib/utils/audio";
 
 interface KanjiCardProps {
   kanji: KanjiDetail;
@@ -21,37 +22,6 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
     useKanjiSelection();
   const { displayOptions } = useDisplayOptions();
   const isSelected = selectedKanjiIds.has(kanji.id);
-
-  const handleAudioPlay = async (text: string, wordInfo?: string) => {
-    try {
-      // Method 1: Web Speech API (fallback)
-      if ("speechSynthesis" in window) {
-        // Cancel any ongoing speech
-        speechSynthesis.cancel();
-
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = "ja-JP";
-        utterance.rate = 0.8; // Slower rate for better pronunciation
-        utterance.pitch = 1;
-        utterance.volume = 1;
-
-        // Get Japanese voices
-        const voices = speechSynthesis.getVoices();
-        const japaneseVoice = voices.find(
-          (voice) =>
-            voice.lang.includes("ja") || voice.name.includes("Japanese")
-        );
-
-        if (japaneseVoice) {
-          utterance.voice = japaneseVoice;
-        }
-
-        speechSynthesis.speak(utterance);
-      }
-    } catch (error) {
-      console.error("Audio playback failed:", error);
-    }
-  };
 
   const handleCardClick = () => {
     if (isSelectionMode) {
@@ -194,7 +164,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
               size="sm"
               onClick={(e) => {
                 e.stopPropagation();
-                handleAudioPlay(example.furigana, example.word);
+                playAudio(example.furigana);
               }}
               className="w-6 h-6 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
             >
