@@ -69,7 +69,7 @@ interface PairingGameState {
   resetSectionIndex: () => void;
 
   // Game Initialization Actions
-  initializeGame: (lessonId: number, level: string, shouldResetSectionIndex?: boolean, selectedKanjiIds?: number[]) => void;
+  initializeGame: (lessonId: number | null, level: string, shouldResetSectionIndex?: boolean, selectedKanjiIds?: number[], topicId?: string) => void;
 
   // Game Grid Actions
   loadSection: (sectionWords: PairingWord[]) => void;
@@ -366,8 +366,8 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   resetSectionIndex: () => set({ currentSectionIndex: 0 }),
 
   // Game Initialization Actions
-  initializeGame: (lessonId, level, shouldResetSectionIndex = false, selectedKanjiIds) => {
-    const gameData = getPairingGameData(lessonId, level, selectedKanjiIds);
+  initializeGame: (lessonId, level, shouldResetSectionIndex = false, selectedKanjiIds, topicId) => {
+    const gameData = getPairingGameData(lessonId, level, selectedKanjiIds, topicId);
     
     // Shuffle all words first for better randomness
     const shuffledWords = shuffleArrayUtil(gameData.words);

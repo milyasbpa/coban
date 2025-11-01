@@ -1,5 +1,6 @@
 import {
   getKanjiDetailsByLessonId,
+  getKanjiDetailsByTopicId,
   KanjiDetail,
 } from "@/pwa/features/kanji/lesson/utils/kanji";
 import { GameStats } from "../store/pairing-game.store";
@@ -78,11 +79,22 @@ export const calculateScore = (stats: GameStats): number => {
 
 // Get pairing game data by lesson
 export const getPairingGameData = (
-  lessonId: number, 
+  lessonId: number | null, 
   level: string, 
-  selectedKanjiIds?: number[]
+  selectedKanjiIds?: number[],
+  topicId?: string
 ) => {
-  const allKanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+  let allKanjiDetails: KanjiDetail[];
+  
+  if (topicId) {
+    // Get kanji details by topic ID
+    allKanjiDetails = getKanjiDetailsByTopicId(topicId, level);
+  } else if (lessonId) {
+    // Get kanji details by lesson ID
+    allKanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+  } else {
+    allKanjiDetails = [];
+  }
   
   // Filter kanji details if selectedKanjiIds is provided
   const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0

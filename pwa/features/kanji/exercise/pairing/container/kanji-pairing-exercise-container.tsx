@@ -13,6 +13,7 @@ export function KanjiPairingExerciseContainer() {
   const searchParams = useSearchParams();
 
   const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
   const selectedKanjiParam = searchParams.get("selectedKanji");
   
@@ -35,9 +36,16 @@ export function KanjiPairingExerciseContainer() {
 
   // Initialize game on mount
   useEffect(() => {
-    if (!lessonId) return;
-    initializeGame(parseInt(lessonId), level, false, selectedKanjiIds);
-  }, [lessonId, level, selectedKanjiIds, initializeGame]);
+    if (!lessonId && !topicId) return;
+    
+    if (topicId) {
+      // Initialize with topicId
+      initializeGame(null, level, false, selectedKanjiIds, topicId);
+    } else if (lessonId) {
+      // Initialize with lessonId  
+      initializeGame(parseInt(lessonId), level, false, selectedKanjiIds);
+    }
+  }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
 
   // Listen for section complete events from GameGrid
   useEffect(() => {
@@ -52,8 +60,13 @@ export function KanjiPairingExerciseContainer() {
 
     const handleGameRestart = () => {
       // Use the reusable function with section index reset
-      if (!lessonId) return;
-      initializeGame(parseInt(lessonId), level, true, selectedKanjiIds);
+      if (!lessonId && !topicId) return;
+      
+      if (topicId) {
+        initializeGame(null, level, true, selectedKanjiIds, topicId);
+      } else if (lessonId) {
+        initializeGame(parseInt(lessonId), level, true, selectedKanjiIds);
+      }
     };
 
     const handleRetryComplete = () => {
@@ -76,6 +89,7 @@ export function KanjiPairingExerciseContainer() {
     setGameComplete,
     initializeGame,
     lessonId,
+    topicId,
     level,
     selectedKanjiIds,
   ]);

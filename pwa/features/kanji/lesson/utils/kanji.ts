@@ -67,3 +67,17 @@ export const getKanjiDetailsByLessonId = (
   
   return getKanjiDetailsByCharacters(lesson.kanjiList, level);
 };
+
+// Get kanji details by topic ID
+export const getKanjiDetailsByTopicId = (
+  topicId: string,
+  level: string
+): KanjiDetail[] => {
+  // Import topic mapping
+  const topicMapping = require("@/data/n5/kanji/kanji_topic_mapping.json");
+  
+  const category = topicMapping.topic_categories[topicId];
+  if (!category) return [];
+  
+  return getKanjiDetailsByCharacters(category.kanji_characters, level);
+};

@@ -7,7 +7,7 @@ import { LessonHeader } from "../fragments/lesson-header";
 import { DisplayOptionsControl } from "../fragments/display-options-control";
 import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
 import { useKanjiSelection } from "../store/kanji-selection.store";
-import { getKanjiDetailsByLessonId, KanjiDetail } from "../utils/kanji";
+import { getKanjiDetailsByLessonId, getKanjiDetailsByTopicId, KanjiDetail } from "../utils/kanji";
 
 export function KanjiLessonContainer() {
   const searchParams = useSearchParams();
@@ -15,14 +15,20 @@ export function KanjiLessonContainer() {
   const { isSelectionMode } = useKanjiSelection();
 
   const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
 
   useEffect(() => {
-    if (lessonId) {
+    if (topicId) {
+      // Handle topic-based lesson
+      const kanji = getKanjiDetailsByTopicId(topicId, level);
+      setKanjiList(kanji);
+    } else if (lessonId) {
+      // Handle stroke-based lesson
       const kanji = getKanjiDetailsByLessonId(parseInt(lessonId), level);
       setKanjiList(kanji);
     }
-  }, [lessonId, level]);
+  }, [lessonId, topicId, level]);
 
   return (
     <div className="min-h-screen bg-background">

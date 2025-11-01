@@ -14,12 +14,13 @@ export function SelectionBottomNav() {
   
   const selectedCount = selectedKanjiIds.size;
   const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
 
   if (selectedCount === 0) return null;
 
   const handleExerciseStart = (exerciseType: string) => {
-    if (!lessonId || selectedKanjiIds.size === 0) return;
+    if ((!lessonId && !topicId) || selectedKanjiIds.size === 0) return;
     
     const selectedKanjiArray = Array.from(selectedKanjiIds);
     console.log(`Starting ${exerciseType} exercise with selected kanji:`, selectedKanjiArray);
@@ -27,12 +28,20 @@ export function SelectionBottomNav() {
     // Build URL with selected kanji parameters
     const selectedKanjiParam = selectedKanjiArray.join(',');
     
+    // Build base URL with either lessonId or topicId
+    let baseUrl = '';
+    if (topicId) {
+      baseUrl = `topicId=${topicId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+    } else if (lessonId) {
+      baseUrl = `lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+    }
+    
     if (exerciseType === "pairing") {
-      window.location.href = `/kanji/exercise/pairing?lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+      window.location.href = `/kanji/exercise/pairing?${baseUrl}`;
     } else if (exerciseType === "reading") {
-      window.location.href = `/kanji/exercise/reading?lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+      window.location.href = `/kanji/exercise/reading?${baseUrl}`;
     } else if (exerciseType === "writing") {
-      window.location.href = `/kanji/exercise/writing?lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
+      window.location.href = `/kanji/exercise/writing?${baseUrl}`;
     }
     
     // Clear selection after navigation
