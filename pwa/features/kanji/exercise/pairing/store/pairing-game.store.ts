@@ -24,6 +24,7 @@ interface PairingGameState {
   // Retry System
   isRetryMode: boolean;
   originalScore: number;
+  originalTotalWords: number; // Store original total words for bonus calculation
   originalWordsWithErrors: Set<string>; // Words that were wrong in original game
   allGameWords: any[]; // Store all words for decoy selection
   
@@ -87,6 +88,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   // Retry System
   isRetryMode: false,
   originalScore: 100,
+  originalTotalWords: 0,
   originalWordsWithErrors: new Set(),
   allGameWords: [],
   
@@ -104,7 +106,13 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     };
     // Only recalculate score if not explicitly provided in updates
     if (!updates.hasOwnProperty('score')) {
-      newStats.score = calculateScore(newStats);
+      if (state.isRetryMode) {
+        // During retry mode, maintain current score (will be handled by addWordError)
+        newStats.score = state.gameStats.score;
+      } else {
+        // Normal mode: recalculate from scratch
+        newStats.score = calculateScore(newStats);
+      }
     }
     return { gameStats: newStats };
   }),
@@ -126,6 +134,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     // Reset retry system
     isRetryMode: false,
     originalScore: 100,
+    originalTotalWords: 0,
     originalWordsWithErrors: new Set(),
     allGameWords: [],
     // Reset game grid state
@@ -137,18 +146,29 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   }),
   
   calculateAndSetScore: () => {
-    const { gameStats } = get();
-    const newScore = calculateScore(gameStats);
+    const { gameStats, isRetryMode, originalScore, originalTotalWords } = get();
+    
+    let newScore;
+    if (isRetryMode) {
+      // During retry mode, calculate from original score base
+      const penaltyPerWord = 100 / originalTotalWords;
+      const decoyPenalty = gameStats.uniqueWrongWords * penaltyPerWord;
+      newScore = Math.max(0, originalScore - decoyPenalty);
+    } else {
+      // Normal mode: calculate from scratch
+      newScore = calculateScore(gameStats);
+    }
+    
     set((state) => ({
       gameStats: {
         ...state.gameStats,
-        score: newScore,
+        score: Math.round(newScore),
       }
     }));
   },
   
   addWordError: (kanjiWord: string) => {
-    const { wordsWithErrors } = get();
+    const { wordsWithErrors, isRetryMode } = get();
     const isFirstError = !wordsWithErrors.has(kanjiWord);
     
     // Only penalize score on first error for this specific kanji word
@@ -157,7 +177,23 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         const newWordsWithErrors = new Set([...state.wordsWithErrors, kanjiWord]);
         const newUniqueWrongWords = state.gameStats.uniqueWrongWords + 1;
         
-        // Recalculate score immediately with new penalty
+        // During retry mode, calculate penalty from original score base
+        if (state.isRetryMode) {
+          const penaltyPerWord = 100 / state.originalTotalWords;
+          const decoyPenalty = newUniqueWrongWords * penaltyPerWord;
+          const newScore = Math.max(0, state.originalScore - decoyPenalty);
+          
+          return {
+            wordsWithErrors: newWordsWithErrors,
+            gameStats: {
+              ...state.gameStats,
+              uniqueWrongWords: newUniqueWrongWords,
+              score: Math.round(newScore),
+            }
+          };
+        }
+        
+        // Normal mode: Recalculate score immediately with new penalty
         const updatedStats = {
           ...state.gameStats,
           uniqueWrongWords: newUniqueWrongWords,
@@ -230,6 +266,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       isRetryMode: true,
       isGameComplete: false, // ✅ Reset game complete state
       originalScore: gameStats.score,
+      originalTotalWords: gameStats.totalWords, // ✅ Store original total words
       originalWordsWithErrors: new Set([...wordsWithErrors]),
     });
   },
@@ -276,25 +313,44 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         wrongAttempts: 0,
         uniqueWrongWords: 0,
         totalWords: retryWords.length,
+        score: get().originalScore, // Start retry with original score
       }
     });
   },
 
   finishRetryMode: (retryResults: { correctCount: number }) => {
-    const { originalScore, originalWordsWithErrors, gameStats } = get();
+    const { 
+      originalScore, 
+      originalTotalWords,
+      originalWordsWithErrors,
+      wordsWithErrors 
+    } = get();
+    
     const originalWrongCount = originalWordsWithErrors.size;
-    const totalOriginalWords = gameStats.totalWords;
+    const penaltyPerWord = 100 / originalTotalWords;
     
-    // Calculate bonus: how many originally wrong words were corrected
-    const maxPossibleBonus = (originalWrongCount / totalOriginalWords) * 100;
-    const correctionRatio = retryResults.correctCount / originalWrongCount;
-    const bonusPoints = maxPossibleBonus * correctionRatio;
+    // Start with original score
+    let finalScore = originalScore;
     
-    const finalScore = Math.min(100, Math.round(originalScore + bonusPoints));
+    // If original wrong words were corrected, restore their penalty
+    if (retryResults.correctCount > 0) {
+      const restoredPenalty = retryResults.correctCount * penaltyPerWord;
+      finalScore = originalScore + restoredPenalty;
+    }
+    
+    // Apply penalty for decoy wrong answers
+    const currentRetryWrongCount = wordsWithErrors.size;
+    if (currentRetryWrongCount > 0) {
+      const decoyPenalty = currentRetryWrongCount * penaltyPerWord;
+      finalScore = finalScore - decoyPenalty;
+    }
+    
+    // Ensure score is within bounds
+    finalScore = Math.max(0, Math.min(100, Math.round(finalScore)));
     
     set((state) => ({
       isRetryMode: false,
-      isGameComplete: true, // ✅ Mark game as complete after retry
+      isGameComplete: true,
       gameStats: {
         ...state.gameStats,
         score: finalScore,
