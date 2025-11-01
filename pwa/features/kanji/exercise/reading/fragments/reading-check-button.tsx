@@ -16,7 +16,7 @@ export function ReadingCheckButton() {
     setCurrentResult,
     setIsAnswered,
     setShowBottomSheet,
-    updateGameStats
+    updateGameStats,
   } = useReadingExerciseStore();
 
   const currentQuestion = getCurrentQuestion();
@@ -24,30 +24,31 @@ export function ReadingCheckButton() {
 
   const handleCheckAnswer = () => {
     if (!currentQuestion) return;
-    
-    const userAnswer = inputMode === "multiple-choice" ? selectedOption : directInput;
-    
+
+    const userAnswer =
+      inputMode === "multiple-choice" ? selectedOption : directInput;
+
     if (!userAnswer.trim()) return; // No answer provided
-    
+
     const result = checkAnswer(currentQuestion, userAnswer);
     setCurrentResult(result);
     setIsAnswered(true);
     setShowBottomSheet(true);
-    
+
     // Update stats
     updateGameStats({
       correctAnswers: gameStats.correctAnswers + (result.isCorrect ? 1 : 0),
-      wrongAnswers: gameStats.wrongAnswers + (result.isCorrect ? 0 : 1)
+      wrongAnswers: gameStats.wrongAnswers + (result.isCorrect ? 0 : 1),
     });
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-t border-border/40 p-4">
+    <div className="fixed bottom-0 left-0 right-0 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-t border-border p-4">
       <div className="max-w-2xl mx-auto">
         <Button
           onClick={handleCheckAnswer}
           disabled={!canCheck || isAnswered}
-          className="w-full h-16 text-lg bg-muted hover:bg-muted/80 text-foreground"
+          className="w-full h-16 text-lg bg-primary disabled:bg-muted text-white disabled:text-foreground"
         >
           Check
         </Button>
