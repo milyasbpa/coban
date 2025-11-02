@@ -3422,6 +3422,13 @@
           "romanji": "kimaru",
           "meaning_id": "keputusan",
           "meaning_en": "to be decided"
+        },
+        {
+          "word": "決意",
+          "furigana": "けつい",
+          "romanji": "ketsui",
+          "meaning_id": "tekat",
+          "meaning_en": "determination"
         }
       ]
     },
@@ -3472,8 +3479,36 @@
           "word": "初夏",
           "furigana": "しょか",
           "romanji": "shoka",
-          "meaning_id": "awal",
+          "meaning_id": "pertama kali mendengar",
           "meaning_en": "early summer"
+        },
+        {
+          "word": "初め",
+          "furigana": "はじめ",
+          "romanji": "hajime",
+          "meaning_id": "awal",
+          "meaning_en": "beginning"
+        },
+        {
+          "word": "初回",
+          "furigana": "しょかい",
+          "romanji": "shokai",
+          "meaning_id": "pertempuran",
+          "meaning_en": "first time"
+        },
+        {
+          "word": "初める",
+          "furigana": "はじめる",
+          "romanji": "hajimeru",
+          "meaning_id": "mulai",
+          "meaning_en": "to begin"
+        },
+        {
+          "word": "初級",
+          "furigana": "しょきゅう",
+          "romanji": "shokyuu",
+          "meaning_id": "tingkat dasar",
+          "meaning_en": "beginner level"
         }
       ]
     },
@@ -3504,8 +3539,15 @@
           "word": "改める",
           "furigana": "あらためる",
           "romanji": "aratameru",
-          "meaning_id": "inovasi",
+          "meaning_id": "memperbaiki",
           "meaning_en": "to improve"
+        },
+        {
+          "word": "改革",
+          "furigana": "かいかく",
+          "romanji": "kaikaku",
+          "meaning_id": "inovasi",
+          "meaning_en": "reform"
         }
       ]
     },
@@ -3564,11 +3606,18 @@
       },
       "examples": [
         {
-          "word": "判断",
-          "furigana": "はんだん",
-          "romanji": "handan",
+          "word": "判子",
+          "furigana": "はんこ",
+          "romanji": "hanko",
+          "meaning_id": "cap",
+          "meaning_en": "seal"
+        },
+        {
+          "word": "裁判",
+          "furigana": "さいばん",
+          "romanji": "saiban",
           "meaning_id": "pengadilan",
-          "meaning_en": "judgment"
+          "meaning_en": "trial"
         }
       ]
     },
@@ -4049,6 +4098,13 @@
       },
       "examples": [
         {
+          "word": "抱く",
+          "furigana": "だく",
+          "romanji": "daku",
+          "meaning_id": "memeluk",
+          "meaning_en": "to embrace"
+        },
+        {
           "word": "抱える",
           "furigana": "かかえる",
           "romanji": "kakaeru",
@@ -4080,6 +4136,13 @@
         "en": "invite"
       },
       "examples": [
+        {
+          "word": "招く",
+          "furigana": "まねく",
+          "romanji": "maneku",
+          "meaning_id": "mengundang",
+          "meaning_en": "to invite"
+        },
         {
           "word": "招待",
           "furigana": "しょうたい",
@@ -4117,11 +4180,25 @@
       },
       "examples": [
         {
+          "word": "定める",
+          "furigana": "さだめる",
+          "romanji": "sadameru",
+          "meaning_id": "menetapkan",
+          "meaning_en": "to determine"
+        },
+        {
           "word": "決定",
           "furigana": "けってい",
           "romanji": "kettei",
           "meaning_id": "keputusan",
           "meaning_en": "decision"
+        },
+        {
+          "word": "定規",
+          "furigana": "じょうぎ",
+          "romanji": "jougi",
+          "meaning_id": "penggaris",
+          "meaning_en": "ruler"
         }
       ]
     },
@@ -4162,6 +4239,13 @@
           "romanji": "minoru",
           "meaning_id": "berbuah, berhasil",
           "meaning_en": "to bear fruit"
+        },
+        {
+          "word": "実力",
+          "furigana": "じつりょく",
+          "romanji": "jitsuryoku",
+          "meaning_id": "kemampuan",
+          "meaning_en": "ability"
         }
       ]
     },
@@ -4329,11 +4413,11 @@
       },
       "examples": [
         {
-          "word": "彼女",
-          "furigana": "かのじょ",
-          "romanji": "kanojo",
-          "meaning_id": "dia (perempuan)",
-          "meaning_en": "she"
+          "word": "彼岸",
+          "furigana": "ひがん",
+          "romanji": "higan",
+          "meaning_id": "minggu ekuilnoks",
+          "meaning_en": "equinoctial week"
         }
       ]
     },
@@ -4366,6 +4450,13 @@
           "romanji": "kakaku",
           "meaning_id": "harga",
           "meaning_en": "price"
+        },
+        {
+          "word": "価値",
+          "furigana": "かち",
+          "romanji": "kachi",
+          "meaning_id": "berbak, patut mendapat",
+          "meaning_en": "value"
         }
       ]
     },
@@ -4409,11 +4500,25 @@
       },
       "examples": [
         {
+          "word": "供える",
+          "furigana": "そなえる",
+          "romanji": "sonaeru",
+          "meaning_id": "menghidangkan",
+          "meaning_en": "to offer"
+        },
+        {
           "word": "子供",
           "furigana": "こども",
           "romanji": "kodomo",
-          "meaning_id": "anak-anak",
+          "meaning_id": "peserta",
           "meaning_en": "children"
+        },
+        {
+          "word": "提供",
+          "furigana": "ていきょう",
+          "romanji": "teikyou",
+          "meaning_id": "persembahan",
+          "meaning_en": "provision"
         }
       ]
     },
@@ -4440,6 +4545,13 @@
         "en": "example"
       },
       "examples": [
+        {
+          "word": "例え",
+          "furigana": "たとえ",
+          "romanji": "tatoe",
+          "meaning_id": "contoh",
+          "meaning_en": "example"
+        },
         {
           "word": "例文",
           "furigana": "れいぶん",
@@ -4471,6 +4583,13 @@
         "en": "gender, nature"
       },
       "examples": [
+        {
+          "word": "性別",
+          "furigana": "せいべつ",
+          "romanji": "seibetsu",
+          "meaning_id": "jenis kelamin",
+          "meaning_en": "gender"
+        },
         {
           "word": "相性",
           "furigana": "あいしょう",
@@ -4504,6 +4623,13 @@
       },
       "examples": [
         {
+          "word": "怖い",
+          "furigana": "こわい",
+          "romanji": "kowai",
+          "meaning_id": "takut",
+          "meaning_en": "scary"
+        },
+        {
           "word": "恐怖",
           "furigana": "きょうふ",
           "romanji": "kyoufu",
@@ -4535,6 +4661,13 @@
         "en": "reside"
       },
       "examples": [
+        {
+          "word": "居る",
+          "furigana": "いる",
+          "romanji": "iru",
+          "meaning_id": "memiliki",
+          "meaning_en": "to be present"
+        },
         {
           "word": "居住",
           "furigana": "きょじゅう",
@@ -4626,6 +4759,13 @@
       },
       "examples": [
         {
+          "word": "命",
+          "furigana": "いのち",
+          "romanji": "inochi",
+          "meaning_id": "nyawa",
+          "meaning_en": "life"
+        },
+        {
           "word": "革命",
           "furigana": "かくめい",
           "romanji": "kakumei",
@@ -4657,6 +4797,13 @@
         "en": "oil"
       },
       "examples": [
+        {
+          "word": "油",
+          "furigana": "あぶら",
+          "romanji": "abura",
+          "meaning_id": "minyak, lemak",
+          "meaning_en": "oil"
+        },
         {
           "word": "油断",
           "furigana": "ゆだん",
@@ -4703,6 +4850,27 @@
           "romanji": "osameru",
           "meaning_id": "memerintah",
           "meaning_en": "to govern"
+        },
+        {
+          "word": "治す",
+          "furigana": "なおす",
+          "romanji": "naosu",
+          "meaning_id": "menyembuhkan",
+          "meaning_en": "to heal"
+        },
+        {
+          "word": "治安",
+          "furigana": "ちあん",
+          "romanji": "chian",
+          "meaning_id": "keamanan",
+          "meaning_en": "public order"
+        },
+        {
+          "word": "政治",
+          "furigana": "せいじ",
+          "romanji": "seiji",
+          "meaning_id": "politik",
+          "meaning_en": "politics"
         }
       ]
     },
@@ -4729,6 +4897,13 @@
         "en": "swim"
       },
       "examples": [
+        {
+          "word": "泳ぐ",
+          "furigana": "およぐ",
+          "romanji": "oyogu",
+          "meaning_id": "berenang",
+          "meaning_en": "to swim"
+        },
         {
           "word": "競泳",
           "furigana": "きょうえい",
@@ -4768,8 +4943,15 @@
           "word": "法律",
           "furigana": "ほうりつ",
           "romanji": "houritsu",
-          "meaning_id": "larangan",
+          "meaning_id": "peraturan",
           "meaning_en": "law"
+        },
+        {
+          "word": "方法",
+          "furigana": "ほうほう",
+          "romanji": "houhou",
+          "meaning_id": "larangan",
+          "meaning_en": "method"
         }
       ]
     },
@@ -4800,8 +4982,15 @@
           "word": "泣く",
           "furigana": "なく",
           "romanji": "naku",
-          "meaning_id": "meraung-raung",
+          "meaning_id": "menangis",
           "meaning_en": "to cry"
+        },
+        {
+          "word": "号泣",
+          "furigana": "ごうきゅう",
+          "romanji": "goukyuu",
+          "meaning_id": "meraung-raung",
+          "meaning_en": "wailing"
         }
       ]
     },
@@ -4833,11 +5022,25 @@
       },
       "examples": [
         {
+          "word": "泊まる",
+          "furigana": "とまる",
+          "romanji": "tomaru",
+          "meaning_id": "menginap",
+          "meaning_en": "to stay overnight"
+        },
+        {
           "word": "宿泊",
           "furigana": "しゅくはく",
           "romanji": "shukuhaku",
           "meaning_id": "penginapan",
           "meaning_en": "lodging"
+        },
+        {
+          "word": "一泊",
+          "furigana": "いっぱく",
+          "romanji": "ippaku",
+          "meaning_id": "satu malam",
+          "meaning_en": "one night"
         }
       ]
     },
@@ -4868,6 +5071,13 @@
         "en": "wave"
       },
       "examples": [
+        {
+          "word": "波",
+          "furigana": "なみ",
+          "romanji": "nami",
+          "meaning_id": "ombak",
+          "meaning_en": "wave"
+        },
         {
           "word": "電波",
           "furigana": "でんぱ",
@@ -4901,6 +5111,13 @@
           "romanji": "seifu",
           "meaning_id": "pemerintah",
           "meaning_en": "government"
+        },
+        {
+          "word": "府庁",
+          "furigana": "ふちょう",
+          "romanji": "fuchou",
+          "meaning_id": "kantor pemerintah",
+          "meaning_en": "prefectural office"
         }
       ]
     },
@@ -4927,6 +5144,13 @@
         "en": "target"
       },
       "examples": [
+        {
+          "word": "的",
+          "furigana": "まと",
+          "romanji": "mato",
+          "meaning_id": "objek sasaran",
+          "meaning_en": "target"
+        },
         {
           "word": "目的",
           "furigana": "もくてき",
@@ -4973,6 +5197,20 @@
           "romanji": "nagoyaka",
           "meaning_id": "damai, ramah",
           "meaning_en": "peaceful"
+        },
+        {
+          "word": "平和",
+          "furigana": "へいわ",
+          "romanji": "heiwa",
+          "meaning_id": "perdamaian",
+          "meaning_en": "peace"
+        },
+        {
+          "word": "和食",
+          "furigana": "わしょく",
+          "romanji": "washoku",
+          "meaning_id": "makanan jepang",
+          "meaning_en": "japanese food"
         }
       ]
     }
