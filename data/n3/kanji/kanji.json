@@ -8623,6 +8623,304 @@
           "meaning_en": "whole"
         }
       ]
+    },
+    {
+      "id": 243,
+      "character": "凍",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          { "furigana": "こお", "romanji": "koo" },
+          { "furigana": "こご", "romanji": "kogo" }
+        ],
+        "on": [{ "furigana": "トウ", "romanji": "tou" }]
+      },
+      "meanings": { "id": "beku", "en": "freeze" },
+      "examples": [
+        {
+          "word": "凍る",
+          "furigana": "こおる",
+          "romanji": "kooru",
+          "meaning_id": "beku",
+          "meaning_en": "freeze"
+        },
+        {
+          "word": "凍結",
+          "furigana": "とうけつ",
+          "romanji": "touketsu",
+          "meaning_id": "pembekuan",
+          "meaning_en": "freezing"
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "character": "流",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "なが", "romanji": "naga" }],
+        "on": [
+          { "furigana": "リュウ", "romanji": "ryuu" },
+          { "furigana": "ル", "romanji": "ru" }
+        ]
+      },
+      "meanings": { "id": "mengalir", "en": "flow" },
+      "examples": [
+        {
+          "word": "流れる",
+          "furigana": "ながれる",
+          "romanji": "nagareru",
+          "meaning_id": "mengalir",
+          "meaning_en": "to flow"
+        },
+        {
+          "word": "交流",
+          "furigana": "こうりゅう",
+          "romanji": "kouryuu",
+          "meaning_id": "pertukaran",
+          "meaning_en": "exchange"
+        },
+        {
+          "word": "流浪",
+          "furigana": "るろう",
+          "romanji": "rurou",
+          "meaning_id": "mengembara",
+          "meaning_en": "wander"
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "character": "涙",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "なみだ", "romanji": "namida" }],
+        "on": [{ "furigana": "ルイ", "romanji": "rui" }]
+      },
+      "meanings": { "id": "air mata", "en": "tears" },
+      "examples": [
+        {
+          "word": "涙",
+          "furigana": "なみだ",
+          "romanji": "namida",
+          "meaning_id": "air mata",
+          "meaning_en": "tear"
+        },
+        {
+          "word": "催涙ガス",
+          "furigana": "さいるいガス",
+          "romanji": "sairui gasu",
+          "meaning_id": "gas air mata",
+          "meaning_en": "tear gas"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "character": "消",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          { "furigana": "き", "romanji": "ki" },
+          { "furigana": "け", "romanji": "ke" }
+        ],
+        "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      },
+      "meanings": { "id": "menghilang", "en": "disappear" },
+      "examples": [
+        {
+          "word": "消える",
+          "furigana": "きえる",
+          "romanji": "kieru",
+          "meaning_id": "menghilang",
+          "meaning_en": "disappear"
+        },
+        {
+          "word": "消す",
+          "furigana": "けす",
+          "romanji": "kesu",
+          "meaning_id": "menghapus",
+          "meaning_en": "erase"
+        },
+        {
+          "word": "消費",
+          "furigana": "しょうひ",
+          "romanji": "shouhi",
+          "meaning_id": "konsumsi",
+          "meaning_en": "consumption"
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "character": "酒",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          { "furigana": "さけ", "romanji": "sake" },
+          { "furigana": "さ", "romanji": "sa" },
+          { "furigana": "か", "romanji": "ka" },
+          { "furigana": "ざか", "romanji": "zaka" }
+        ],
+        "on": [{ "furigana": "シュ", "romanji": "shu" }]
+      },
+      "meanings": { "id": "minuman keras", "en": "alcohol" },
+      "examples": [
+        {
+          "word": "酒",
+          "furigana": "さけ",
+          "romanji": "sake",
+          "meaning_id": "minuman keras",
+          "meaning_en": "alcohol"
+        },
+        {
+          "word": "酒屋",
+          "furigana": "さかや",
+          "romanji": "sakaya",
+          "meaning_id": "toko arak",
+          "meaning_en": "liquor store"
+        },
+        {
+          "word": "日本酒",
+          "furigana": "にほんしゅ",
+          "romanji": "nihonshu",
+          "meaning_id": "arak jepang",
+          "meaning_en": "Japanese sake"
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "character": "浮",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          { "furigana": "う", "romanji": "u" },
+          { "furigana": "うわ", "romanji": "uwa" }
+        ],
+        "on": [{ "furigana": "フ", "romanji": "fu" }]
+      },
+      "meanings": { "id": "mengapung", "en": "float" },
+      "examples": [
+        {
+          "word": "浮く",
+          "furigana": "うく",
+          "romanji": "uku",
+          "meaning_id": "mengapung",
+          "meaning_en": "float"
+        },
+        {
+          "word": "浮気",
+          "furigana": "うわき",
+          "romanji": "uwaki",
+          "meaning_id": "kecurangan",
+          "meaning_en": "affair"
+        },
+        {
+          "word": "浮腫",
+          "furigana": "ふしゅ",
+          "romanji": "fushu",
+          "meaning_id": "pembengkakan",
+          "meaning_en": "swelling"
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "character": "疲",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "つか", "romanji": "tsuka" }],
+        "on": [{ "furigana": "ヒ", "romanji": "hi" }]
+      },
+      "meanings": { "id": "lelah", "en": "tired" },
+      "examples": [
+        {
+          "word": "疲れる",
+          "furigana": "つかれる",
+          "romanji": "tsukareru",
+          "meaning_id": "lelah",
+          "meaning_en": "tired"
+        },
+        {
+          "word": "疲労",
+          "furigana": "ひろう",
+          "romanji": "hirou",
+          "meaning_id": "kelelahan",
+          "meaning_en": "fatigue"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "character": "席",
+      "strokes": 10,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "セキ", "romanji": "seki" }]
+      },
+      "meanings": { "id": "tempat duduk", "en": "seat" },
+      "examples": [
+        {
+          "word": "出席",
+          "furigana": "しゅっせき",
+          "romanji": "shusseki",
+          "meaning_id": "kehadiran",
+          "meaning_en": "attendance"
+        },
+        {
+          "word": "欠席",
+          "furigana": "けっせき",
+          "romanji": "kesseki",
+          "meaning_id": "absen",
+          "meaning_en": "absence"
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "character": "座",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "すわ", "romanji": "suwa" }],
+        "on": [{ "furigana": "ザ", "romanji": "za" }]
+      },
+      "meanings": { "id": "duduk", "en": "sit" },
+      "examples": [
+        {
+          "word": "座る",
+          "furigana": "すわる",
+          "romanji": "suwaru",
+          "meaning_id": "duduk",
+          "meaning_en": "sit"
+        },
+        {
+          "word": "正座",
+          "furigana": "せいざ",
+          "romanji": "seiza",
+          "meaning_id": "berlutut",
+          "meaning_en": "kneel"
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "character": "庫",
+      "strokes": 10,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "コ", "romanji": "ko" }]
+      },
+      "meanings": { "id": "gudang", "en": "warehouse" },
+      "examples": [
+        {
+          "word": "倉庫",
+          "furigana": "そうこ",
+          "romanji": "souko",
+          "meaning_id": "gudang",
+          "meaning_en": "warehouse"
+        }
+      ]
     }
   ]
 }
