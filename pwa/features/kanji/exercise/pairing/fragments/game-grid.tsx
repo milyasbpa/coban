@@ -4,8 +4,11 @@ import { useMemo } from "react";
 import { PairingCard } from "../components/pairing-card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
-import { PairingWord, shuffleArray } from "../utils";
+import { shuffleArray, PairingWord } from "../utils";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { useSearchParams } from "next/navigation";
+import type { QuestionResult } from "@/pwa/features/score/model/score";
 
 interface SelectedCard {
   id: string;
@@ -15,6 +18,13 @@ interface SelectedCard {
 
 export function GameGrid() {
   const { isIndonesian } = useLanguage();
+  const searchParams = useSearchParams();
+  const { updateExerciseScore, updateKanjiMastery, initializeUser, currentUserScore, isInitialized } = useScoreStore();
+
+  // Get URL parameters for score tracking
+  const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
+  const level = searchParams.get("level") || "N5";
 
   // Store - get all game grid state from store
   const {
@@ -96,6 +106,72 @@ export function GameGrid() {
                   // Game complete
                   calculateAndSetScore();
                   setGameComplete(true);
+
+                  // Integrate with Score Calculation System
+                  const integrateWithScoreSystem = async () => {
+                    // Auto-initialize user if not already initialized
+                    if (!isInitialized || !currentUserScore) {
+                      console.log('ScoreStore: Auto-initializing user...');
+                      await initializeUser('default-user', level as "N5" | "N4" | "N3" | "N2" | "N1");
+                    }
+
+                    const createExerciseAttempt = () => {
+                    const startTime = new Date(Date.now() - (gameStats.wrongAttempts * 5000)).toISOString(); // Estimate start time
+                    const endTime = new Date().toISOString();
+                    const duration = Math.max(60, gameStats.wrongAttempts * 5 + gameStats.correctPairs * 10); // Estimate duration
+                    
+                    // Create detailed answers from game data
+                    const answers: QuestionResult[] = gameWords.map((word, index) => ({
+                      questionId: `${word.id}-${index}`,
+                      kanjiId: word.id,
+                      kanji: word.kanji,
+                      userAnswer: word.kanji, // In pairing, correct kanji selection
+                      correctAnswer: word.kanji,
+                      isCorrect: !globalWordsWithErrors.has(word.kanji),
+                      timeSpent: Math.random() * 20 + 5, // Estimate 5-25 seconds per question
+                      difficulty: (gameStats.score >= 800 ? "medium" : "easy") as "easy" | "medium" | "hard"
+                    }));
+
+                      return {
+                        attemptId: `pairing-${lessonId || topicId}-${Date.now()}`,
+                        lessonId: lessonId || topicId || "unknown",
+                        exerciseType: "pairing" as const,
+                        level,
+                        startTime,
+                        endTime,
+                        duration,
+                        totalQuestions: gameWords.length,
+                        correctAnswers: gameStats.correctPairs,
+                        wrongAnswers: gameStats.wrongAttempts,
+                        score: gameStats.score,
+                        accuracy: Math.round((gameStats.correctPairs / gameWords.length) * 100),
+                        answers
+                      };
+                    };
+
+                    // Update exercise score in the system
+                    const exerciseAttempt = createExerciseAttempt();
+                    await updateExerciseScore(exerciseAttempt);
+
+                    // Update individual kanji mastery
+                    gameWords.forEach(word => {
+                      const questionResult: QuestionResult = {
+                        questionId: word.id,
+                        kanjiId: word.id,
+                        kanji: word.kanji,
+                        userAnswer: word.kanji,
+                        correctAnswer: word.kanji,
+                        isCorrect: !globalWordsWithErrors.has(word.kanji),
+                        timeSpent: Math.random() * 20 + 5,
+                        difficulty: (gameStats.score >= 800 ? "medium" : "easy") as "easy" | "medium" | "hard"
+                      };
+                      
+                      updateKanjiMastery(word.id, word.kanji, [questionResult]);
+                    });
+                  };
+
+                  // Call the integration function
+                  integrateWithScoreSystem();
                 }
               }
             }, 500);

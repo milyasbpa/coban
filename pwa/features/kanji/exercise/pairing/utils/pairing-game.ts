@@ -102,8 +102,8 @@ export const getPairingGameData = (
     : allKanjiDetails;
   
   // NOTE: for debugging purpose don't remove when it's uncomment
-  // const words = createPairingWords(kanjiDetails).slice(0, 3);
-  const words = createPairingWords(kanjiDetails);
+  const words = createPairingWords(kanjiDetails).slice(0, 3);
+  // const words = createPairingWords(kanjiDetails);
   const sections = createGameSections(words);
   return {
     words,
