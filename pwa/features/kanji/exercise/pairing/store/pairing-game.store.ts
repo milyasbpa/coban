@@ -356,8 +356,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       loadSection,
     } = get();
 
-    console.log(currentSectionIndex + 1, allSections.length);
-
     if (currentSectionIndex + 1 < allSections.length) {
       // Move to next section
       const nextIndex = currentSectionIndex + 1;
@@ -528,15 +526,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
     // Update currentBaseScore for potential next retry
     const newBaseScore = finalScore;
-
-    console.log("FinishRetryMode Debug:", {
-      currentScore: gameStats.score,
-      globalWordsWithErrors: Array.from(globalWordsWithErrors),
-      sessionWordsWithErrors: Array.from(wordsWithErrors),
-      updatedGlobalWordsWithErrors: Array.from(updatedGlobalWordsWithErrors),
-      retryResults,
-      finalScore,
-    });
 
     set((state) => ({
       isRetryMode: false,
