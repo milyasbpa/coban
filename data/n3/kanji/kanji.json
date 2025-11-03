@@ -10608,6 +10608,289 @@
           "meaning_en": "tax"
         }
       ]
+    },
+
+    {
+      "id": 331,
+      "character": "富",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          { "furigana": "とみ", "romanji": "tomi" },
+          { "furigana": "とむ", "romanji": "tomu" }
+        ],
+        "on": [
+          { "furigana": "フ", "romanji": "fu" },
+          { "furigana": "フウ", "romanji": "fuu" }
+        ]
+      },
+      "meanings": { "id": "kaya, berlimpah", "en": "wealth, abundance" },
+      "examples": [
+        {
+          "word": "富む",
+          "furigana": "とむ",
+          "romanji": "tomu",
+          "meaning_id": "kaya, makmur",
+          "meaning_en": "to be rich"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "character": "割",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          { "furigana": "わり", "romanji": "wari" },
+          { "furigana": "さ", "romanji": "sa" }
+        ],
+        "on": [{ "furigana": "カツ", "romanji": "katsu" }]
+      },
+      "meanings": { "id": "potongan harga", "en": "divide, discount" },
+      "examples": [
+        {
+          "word": "割引",
+          "furigana": "わりびき",
+          "romanji": "waribiki",
+          "meaning_id": "potongan harga",
+          "meaning_en": "discount"
+        },
+        {
+          "word": "分割",
+          "furigana": "ぶんかつ",
+          "romanji": "bunkatsu",
+          "meaning_id": "cicilan, angsuran",
+          "meaning_en": "installment"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "character": "勤",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "つと", "romanji": "tsuto" }],
+        "on": [
+          { "furigana": "キン", "romanji": "kin" },
+          { "furigana": "ゴ", "romanji": "go" }
+        ]
+      },
+      "meanings": { "id": "bekerja, berdinas", "en": "service, diligence" },
+      "examples": [
+        {
+          "word": "勤務",
+          "furigana": "きんむ",
+          "romanji": "kinmu",
+          "meaning_id": "bekerja, berdinas",
+          "meaning_en": "service, duty"
+        },
+        {
+          "word": "勤勉",
+          "furigana": "きんべん",
+          "romanji": "kinben",
+          "meaning_id": "rajin, tekun, giat",
+          "meaning_en": "diligent, hardworking"
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "character": "散",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "ち", "romanji": "chi" }],
+        "on": [{ "furigana": "サン", "romanji": "san" }]
+      },
+      "meanings": {
+        "id": "berhamburan, berserakan",
+        "en": "scatter, disperse"
+      },
+      "examples": [
+        {
+          "word": "散歩",
+          "furigana": "さんぽ",
+          "romanji": "sanpo",
+          "meaning_id": "jalan kaki",
+          "meaning_en": "walk, stroll"
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "character": "給",
+      "strokes": 12,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "キュウ", "romanji": "kyuu" }]
+      },
+      "meanings": { "id": "gaji, upah", "en": "salary, allowance" },
+      "examples": [
+        {
+          "word": "給料",
+          "furigana": "きゅうりょう",
+          "romanji": "kyuuryou",
+          "meaning_id": "gaji, upah",
+          "meaning_en": "salary"
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "character": "絶",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "た", "romanji": "ta" }],
+        "on": [
+          { "furigana": "ゼツ", "romanji": "zetsu" },
+          { "furigana": "セツ", "romanji": "setsu" }
+        ]
+      },
+      "meanings": { "id": "terhenti, terputus", "en": "discontinue, sever" },
+      "examples": [
+        {
+          "word": "絶える",
+          "furigana": "たえる",
+          "romanji": "taeru",
+          "meaning_id": "terhenti, terputus",
+          "meaning_en": "to cease, stop"
+        },
+        {
+          "word": "絶望",
+          "furigana": "ぜつぼう",
+          "romanji": "zetsubou",
+          "meaning_id": "keputus-asaan",
+          "meaning_en": "despair"
+        }
+      ]
+    },
+    {
+      "id": 337,
+      "character": "結",
+      "strokes": 12,
+      "readings": {
+        "kun": [
+          { "furigana": "むす", "romanji": "musu" },
+          { "furigana": "ゆ", "romanji": "yu" }
+        ],
+        "on": [{ "furigana": "ケツ", "romanji": "ketsu" }]
+      },
+      "meanings": { "id": "menghubungkan, mengikat", "en": "tie, connect" },
+      "examples": [
+        {
+          "word": "結ぶ",
+          "furigana": "むすぶ",
+          "romanji": "musubu",
+          "meaning_id": "mengikat",
+          "meaning_en": "to tie, bind"
+        },
+        {
+          "word": "結果",
+          "furigana": "けっか",
+          "romanji": "kekka",
+          "meaning_id": "hasil, akibat",
+          "meaning_en": "result, outcome"
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "character": "絵",
+      "strokes": 12,
+      "readings": {
+        "kun": [],
+        "on": [
+          { "furigana": "カイ", "romanji": "kai" },
+          { "furigana": "エ", "romanji": "e" }
+        ]
+      },
+      "meanings": { "id": "lukisan, gambar", "en": "picture, painting" },
+      "examples": [
+        {
+          "word": "絵画",
+          "furigana": "かいが",
+          "romanji": "kaiga",
+          "meaning_id": "gambar, lukisan",
+          "meaning_en": "painting"
+        },
+        {
+          "word": "絵本",
+          "furigana": "えほん",
+          "romanji": "ehon",
+          "meaning_id": "buku gambar",
+          "meaning_en": "picture book"
+        }
+      ]
+    },
+    {
+      "id": 339,
+      "character": "普",
+      "strokes": 12,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "フ", "romanji": "fu" }]
+      },
+      "meanings": { "id": "biasa, lazim", "en": "normal, general" },
+      "examples": [
+        {
+          "word": "普通",
+          "furigana": "ふつう",
+          "romanji": "futsuu",
+          "meaning_id": "biasa, lazim",
+          "meaning_en": "normal, usual"
+        }
+      ]
+    },
+    {
+      "id": 340,
+      "character": "歯",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "は", "romanji": "ha" }],
+        "on": [{ "furigana": "シ", "romanji": "shi" }]
+      },
+      "meanings": { "id": "gigi", "en": "tooth" },
+      "examples": [
+        {
+          "word": "歯ブラシ",
+          "furigana": "はブラシ",
+          "romanji": "haburashi",
+          "meaning_id": "sikat gigi",
+          "meaning_en": "toothbrush"
+        },
+        {
+          "word": "歯科医",
+          "furigana": "しかい",
+          "romanji": "shikai",
+          "meaning_id": "dokter gigi",
+          "meaning_en": "dentist"
+        }
+      ]
+    },
+    {
+      "id": 341,
+      "character": "晴",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "は", "romanji": "ha" }],
+        "on": [{ "furigana": "セイ", "romanji": "sei" }]
+      },
+      "meanings": { "id": "menjadi cerah", "en": "clear up (weather)" },
+      "examples": [
+        {
+          "word": "晴れる",
+          "furigana": "はれる",
+          "romanji": "hareru",
+          "meaning_id": "menjadi cerah",
+          "meaning_en": "to become sunny"
+        },
+        {
+          "word": "晴天",
+          "furigana": "せいてん",
+          "romanji": "seiten",
+          "meaning_id": "cuaca cerah",
+          "meaning_en": "fine weather"
+        }
+      ]
     }
   ]
 }
