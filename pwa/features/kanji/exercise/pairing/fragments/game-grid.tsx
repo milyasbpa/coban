@@ -49,7 +49,6 @@ export function GameGrid() {
 
   const handleCardClick = (id: string, type: "kanji" | "meaning") => {
     if (matchedPairs.has(id) || errorCards.has(id)) return;
-    if (type === "kanji") playAudio(id);
 
     const content = type === "kanji" ? id : id; // We'll use the meaning directly as id
     const newCard: SelectedCard = { id, type, content };
@@ -149,7 +148,11 @@ export function GameGrid() {
               )}
               isMatched={matchedPairs.has(kanji)}
               isError={errorCards.has(kanji)}
-              onClick={() => handleCardClick(kanji, "kanji")}
+              onClick={() => {
+                handleCardClick(kanji, "kanji");
+                if (!wordData) return;
+                playAudio(wordData.furigana);
+              }}
             />
           );
         })}
