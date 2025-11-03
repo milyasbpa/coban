@@ -13,7 +13,7 @@ interface PairingCardProps {
   isSelected: boolean;
   isMatched: boolean;
   isError: boolean;
-  onClick: (id: string, type: "kanji" | "meaning") => void;
+  onClick: () => void;
 }
 
 export function PairingCard({ 
@@ -31,7 +31,7 @@ export function PairingCard({
 
   const handleClick = () => {
     if (isMatched) return; // Don't allow clicking matched cards
-    onClick(id, type);
+    onClick();
   };
 
   return (

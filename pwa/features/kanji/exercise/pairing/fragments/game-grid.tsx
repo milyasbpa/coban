@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { PairingCard } from "../components/pairing-card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
-import { shuffleArray } from "../utils";
+import { PairingWord, shuffleArray } from "../utils";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 
 interface SelectedCard {
@@ -132,7 +132,9 @@ export function GameGrid() {
       <div className="space-y-3">
         {shuffledKanji.map((kanji: string) => {
           // Find the word data for this kanji to get furigana and reading
-          const wordData = gameWords.find((w: any) => w.kanji === kanji);
+          const wordData = gameWords.find(
+            (w: PairingWord) => w.kanji === kanji
+          );
 
           return (
             <PairingCard
@@ -147,7 +149,7 @@ export function GameGrid() {
               )}
               isMatched={matchedPairs.has(kanji)}
               isError={errorCards.has(kanji)}
-              onClick={handleCardClick}
+              onClick={() => handleCardClick(kanji, "kanji")}
             />
           );
         })}
@@ -155,7 +157,7 @@ export function GameGrid() {
 
       {/* Right Column - Meanings */}
       <div className="space-y-3">
-        {shuffledMeanings.map((meaning: string, index: number) => (
+        {shuffledMeanings.map((meaning: string) => (
           <PairingCard
             key={`meaning-${meaning}-${isIndonesian ? "id" : "en"}`}
             id={meaning}
@@ -166,7 +168,7 @@ export function GameGrid() {
             )}
             isMatched={matchedPairs.has(meaning)}
             isError={errorCards.has(meaning)}
-            onClick={handleCardClick}
+            onClick={() => handleCardClick(meaning, "meaning")}
           />
         ))}
       </div>
