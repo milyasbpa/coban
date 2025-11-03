@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Button } from '@/pwa/core/components/button';
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import type { QuestionResult } from "@/pwa/features/score/model/score";
 import { useWritingExerciseStore } from '../store/writing-exercise.store';
 import { 
   DndContext, 
@@ -30,13 +32,23 @@ import {
 import { AssemblyArea, SubmitButton, KanjiTile } from '../components';
 import { getWritingQuestions, WritingQuestion } from '../utils';
 
-interface WritingExerciseContainerProps {
-  level: string;
-  lesson: string;
-}
-
-export function WritingExerciseContainer({ level, lesson }: WritingExerciseContainerProps) {
+export function WritingExerciseContainer() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  
+  const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
+  const level = searchParams.get("level") || "N5";
+  const selectedKanjiParam = searchParams.get("selectedKanji");
+
+  // Parse selected kanji IDs from URL parameter
+  const selectedKanjiIds = selectedKanjiParam
+    ? selectedKanjiParam
+        .split(",")
+        .map((id) => parseInt(id.trim()))
+        .filter((id) => !isNaN(id))
+    : undefined;
+
   const [questions, setQuestions] = useState<WritingQuestion[]>([]);
   const [shuffledKanji, setShuffledKanji] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
@@ -46,6 +58,10 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
   // Drag and drop state
   const [activeKanji, setActiveKanji] = useState<string | null>(null);
   const [usedKanji, setUsedKanji] = useState<string[]>([]);
+  const [scoreIntegrated, setScoreIntegrated] = useState(false);
+
+  // Score management store
+  const { updateExerciseScore, updateKanjiMastery, initializeUser, currentUserScore, isInitialized } = useScoreStore();
 
   const {
     currentQuestionIndex,
@@ -83,7 +99,7 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
   useEffect(() => {
     loadQuestions();
     resetExercise();
-  }, [level, lesson]);
+  }, [lessonId, topicId, level, selectedKanjiIds]);
 
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
@@ -92,15 +108,104 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
     }
   }, [questions, currentQuestionIndex]);
 
+  // Score management integration when exercise is complete
+  useEffect(() => {
+    const integrateScoreManagement = async () => {
+      if (currentQuestionIndex >= questions.length && questions.length > 0 && !scoreIntegrated) {
+        setScoreIntegrated(true);
+        
+        // Auto-initialize user if not already initialized
+        if (!isInitialized || !currentUserScore) {
+          console.log('ScoreStore: Auto-initializing user...');
+          await initializeUser('default-user', level as "N5" | "N4" | "N3" | "N2" | "N1");
+        }
+
+        const createExerciseAttempt = () => {
+          const startTime = new Date(Date.now() - (questions.length * 30000)).toISOString(); // Estimate 30 seconds per question
+          const endTime = new Date().toISOString();
+          const duration = questions.length * 30; // Estimate duration
+          const wrongAnswers = questions.length - score;
+          
+          // Create detailed answers from writing game data
+          const answers: QuestionResult[] = questions.map((question, index) => {
+            const isCorrect = index < score; // Simple estimation based on score
+            
+            return {
+              questionId: `writing-${index}`,
+              kanjiId: question.kanji,
+              kanji: question.kanji,
+              userAnswer: isCorrect ? question.kanji : "wrong-answer",
+              correctAnswer: question.kanji,
+              isCorrect,
+              timeSpent: Math.random() * 60 + 20, // Estimate 20-80 seconds per question
+              difficulty: (score / questions.length >= 0.8 ? "medium" : "easy") as "easy" | "medium" | "hard"
+            };
+          });
+
+          return {
+            attemptId: `writing-${lessonId || topicId}-${Date.now()}`,
+            lessonId: lessonId || topicId || "unknown",
+            exerciseType: "writing" as const,
+            level,
+            startTime,
+            endTime,
+            duration,
+            totalQuestions: questions.length,
+            correctAnswers: score,
+            wrongAnswers,
+            score: Math.round((score / questions.length) * 100),
+            accuracy: Math.round((score / questions.length) * 100),
+            answers
+          };
+        };
+
+        // Update exercise score in the system
+        const exerciseAttempt = createExerciseAttempt();
+        await updateExerciseScore(exerciseAttempt);
+
+        // Update individual kanji mastery
+        questions.forEach((question, index) => {
+          const isCorrect = index < score;
+          
+          const questionResult: QuestionResult = {
+            questionId: `writing-${index}`,
+            kanjiId: question.kanji,
+            kanji: question.kanji,
+            userAnswer: isCorrect ? question.kanji : "wrong-answer",
+            correctAnswer: question.kanji,
+            isCorrect,
+            timeSpent: Math.random() * 60 + 20,
+            difficulty: (score / questions.length >= 0.8 ? "medium" : "easy") as "easy" | "medium" | "hard"
+          };
+          
+          updateKanjiMastery(question.kanji, question.kanji, [questionResult]);
+        });
+      }
+    };
+
+    integrateScoreManagement();
+  }, [currentQuestionIndex, questions.length, score, scoreIntegrated, isInitialized, currentUserScore, initializeUser, updateExerciseScore, updateKanjiMastery, level, lessonId, topicId, questions]);
+
   const loadQuestions = () => {
     try {
       setLoading(true);
       
+      if (!lessonId && !topicId) {
+        console.warn('No lessonId or topicId provided');
+        setLoading(false);
+        return;
+      }
+      
       // Use utility function to get questions - now based on examples (words)
-      const writingQuestions = getWritingQuestions(level, lesson);
+      const writingQuestions = getWritingQuestions(
+        level, 
+        lessonId ? parseInt(lessonId) : null,
+        selectedKanjiIds,
+        topicId || undefined
+      );
 
       if (writingQuestions.length === 0) {
-        console.warn('No examples found for this lesson');
+        console.warn('No examples found for this lesson/topic');
         return;
       }
 
@@ -228,11 +333,18 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
     resetExercise();
     setShowFeedback(false);
     setUsedKanji([]);
+    setScoreIntegrated(false); // Reset score integration flag
     setupCurrentQuestion();
   };
 
   const handleBackToLesson = () => {
-    router.push(`/kanji/lesson?level=${level}&lesson=${lesson}`);
+    if (topicId) {
+      router.push(`/kanji/lesson?topicId=${topicId}&level=${level}`);
+    } else if (lessonId) {
+      router.push(`/kanji/lesson?lessonId=${lessonId}&level=${level}`);
+    } else {
+      router.back();
+    }
   };
 
   const handleBack = () => {

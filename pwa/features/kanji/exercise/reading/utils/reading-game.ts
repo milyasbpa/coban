@@ -1,5 +1,6 @@
 import {
   getKanjiDetailsByLessonId,
+  getKanjiDetailsByTopicId,
   KanjiDetail,
 } from "@/pwa/features/kanji/lesson/utils/kanji";
 import { shuffleArray } from "../../pairing/utils";
@@ -114,9 +115,30 @@ export const calculateReadingScore = (stats: ReadingGameStats): number => {
   return Math.round((stats.correctAnswers / stats.totalQuestions) * 100);
 };
 
-// Get reading game data by lesson
-export const getReadingGameData = (lessonId: number, level: string) => {
-  const kanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+// Get reading game data by lesson or topic
+export const getReadingGameData = (
+  lessonId: number | null, 
+  level: string, 
+  selectedKanjiIds?: number[],
+  topicId?: string
+) => {
+  let allKanjiDetails: KanjiDetail[];
+  
+  if (topicId) {
+    // Get kanji details by topic ID
+    allKanjiDetails = getKanjiDetailsByTopicId(topicId, level);
+  } else if (lessonId) {
+    // Get kanji details by lesson ID
+    allKanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+  } else {
+    allKanjiDetails = [];
+  }
+  
+  // Filter kanji details if selectedKanjiIds is provided
+  const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0
+    ? allKanjiDetails.filter(kanji => selectedKanjiIds.includes(kanji.id))
+    : allKanjiDetails;
+    
   const questions = createReadingQuestions(kanjiDetails);
 
   return {

@@ -18,7 +18,17 @@ export function ReadingExerciseContainer() {
   const searchParams = useSearchParams();
 
   const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
+  const selectedKanjiParam = searchParams.get("selectedKanji");
+
+  // Parse selected kanji IDs from URL parameter
+  const selectedKanjiIds = selectedKanjiParam
+    ? selectedKanjiParam
+        .split(",")
+        .map((id) => parseInt(id.trim()))
+        .filter((id) => !isNaN(id))
+    : undefined;
 
   // Use store
   const { isGameComplete, getCurrentQuestion, initializeGame } =
@@ -28,11 +38,18 @@ export function ReadingExerciseContainer() {
 
   // Initialize game
   useEffect(() => {
-    if (lessonId) {
-      const gameData = getReadingGameData(parseInt(lessonId), level);
+    if (!lessonId && !topicId) return;
+
+    if (topicId) {
+      // Initialize with topicId
+      const gameData = getReadingGameData(null, level, selectedKanjiIds, topicId);
+      initializeGame(gameData.questions, gameData.totalQuestions);
+    } else if (lessonId) {
+      // Initialize with lessonId
+      const gameData = getReadingGameData(parseInt(lessonId), level, selectedKanjiIds);
       initializeGame(gameData.questions, gameData.totalQuestions);
     }
-  }, [lessonId, level, initializeGame]);
+  }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
 
   if (isGameComplete) {
     return <ReadingGameResult />;

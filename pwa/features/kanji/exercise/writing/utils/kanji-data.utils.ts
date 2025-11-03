@@ -1,5 +1,10 @@
 // Utility functions for loading kanji data
 import n5KanjiData from "@/data/n5/kanji/kanji.json";
+import {
+  getKanjiDetailsByLessonId,
+  getKanjiDetailsByTopicId,
+  KanjiDetail,
+} from "@/pwa/features/kanji/lesson/utils/kanji";
 
 export interface KanjiItem {
   id: number;
@@ -81,23 +86,63 @@ export function kanjiExampleToWritingQuestion(example: NonNullable<KanjiItem['ex
 }
 
 /**
- * Get writing questions for a specific lesson - based on examples (words), not individual kanji
+ * Convert KanjiDetail example to WritingQuestion (for topic-based questions)
+ */
+export function kanjiDetailExampleToWritingQuestion(example: KanjiDetail['examples'][0]): WritingQuestion {
+  return {
+    kanji: example.word, // Use the word/phrase, not individual kanji
+    reading: example.furigana,
+    meaning: example.meaning_id,
+    audio: undefined, // No audio in current JSON structure
+  };
+}
+
+/**
+ * Get writing questions for a specific lesson or topic - based on examples (words), not individual kanji
  */
 export function getWritingQuestions(
   level: string,
-  lesson: string | number
+  lessonId: number | null,
+  selectedKanjiIds?: number[],
+  topicId?: string
 ): WritingQuestion[] {
-  const lessonKanji = getKanjiForLesson(level, lesson, 5); // Get all kanji for the lesson
   const questions: WritingQuestion[] = [];
   
-  // Collect all examples from all kanji in the lesson
-  lessonKanji.forEach(kanjiItem => {
-    if (kanjiItem.examples) {
-      kanjiItem.examples.forEach(example => {
-        questions.push(kanjiExampleToWritingQuestion(example));
+  if (topicId) {
+    // Use KanjiDetail approach for topic-based questions
+    let allKanjiDetails: KanjiDetail[];
+    allKanjiDetails = getKanjiDetailsByTopicId(topicId, level);
+    
+    // Filter kanji details if selectedKanjiIds is provided
+    const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0
+      ? allKanjiDetails.filter(kanji => selectedKanjiIds.includes(kanji.id))
+      : allKanjiDetails;
+    
+    // Collect all examples from all kanji details
+    kanjiDetails.forEach(kanjiDetail => {
+      kanjiDetail.examples.forEach(example => {
+        questions.push(kanjiDetailExampleToWritingQuestion(example));
       });
-    }
-  });
+    });
+    
+  } else if (lessonId) {
+    // Use KanjiItem approach for lesson-based questions (existing logic)
+    const allKanjiItems = getKanjiForLesson(level, lessonId, 5);
+    
+    // Filter kanji items if selectedKanjiIds is provided
+    const kanjiItems = selectedKanjiIds && selectedKanjiIds.length > 0
+      ? allKanjiItems.filter(kanji => selectedKanjiIds.includes(kanji.id))
+      : allKanjiItems;
+    
+    // Collect all examples from all kanji items
+    kanjiItems.forEach(kanjiItem => {
+      if (kanjiItem.examples) {
+        kanjiItem.examples.forEach(example => {
+          questions.push(kanjiExampleToWritingQuestion(example));
+        });
+      }
+    });
+  }
   
   return questions;
 }
