@@ -96,11 +96,11 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
     try {
       setLoading(true);
       
-      // Use utility function to get questions
-      const writingQuestions = getWritingQuestions(level, lesson, 5);
+      // Use utility function to get questions - now based on examples (words)
+      const writingQuestions = getWritingQuestions(level, lesson);
 
       if (writingQuestions.length === 0) {
-        console.warn('No kanji found for this lesson');
+        console.warn('No examples found for this lesson');
         return;
       }
 

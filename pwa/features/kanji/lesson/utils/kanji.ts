@@ -1,5 +1,7 @@
 import n5KanjiData from "@/data/n5/kanji/kanji.json";
 import n4KanjiData from "@/data/n4/kanji/kanji.json";
+import { getLessonsByLevel } from "@/pwa/features/home/utils/lesson";
+import { getTopicCategories } from "./topic";
 
 interface KanjiReading {
   furigana: string;
@@ -35,7 +37,7 @@ export const getKanjiDetailsByCharacters = (
   level: string
 ): KanjiDetail[] => {
   let kanjiData: typeof n5KanjiData;
-  
+
   switch (level.toUpperCase()) {
     case "N5":
       kanjiData = n5KanjiData;
@@ -48,7 +50,7 @@ export const getKanjiDetailsByCharacters = (
   }
 
   return characters
-    .map(char => kanjiData.items.find(kanji => kanji.character === char))
+    .map((char) => kanjiData.items.find((kanji) => kanji.character === char))
     .filter(Boolean) as KanjiDetail[];
 };
 
@@ -57,14 +59,11 @@ export const getKanjiDetailsByLessonId = (
   lessonId: number,
   level: string
 ): KanjiDetail[] => {
-  // Import lesson utility
-  const { getLessonsByLevel } = require("@/pwa/features/home/utils/lesson");
-  
   const lessons = getLessonsByLevel(level);
   const lesson = lessons.find((l: any) => l.id === lessonId);
-  
+
   if (!lesson) return [];
-  
+
   return getKanjiDetailsByCharacters(lesson.kanjiList, level);
 };
 
@@ -73,12 +72,9 @@ export const getKanjiDetailsByTopicId = (
   topicId: string,
   level: string
 ): KanjiDetail[] => {
-  // Import topic utilities to get level-aware topic data
-  const { getTopicCategories } = require("@/pwa/features/kanji/lesson/utils/topic");
-  
   const categories = getTopicCategories(level);
   const category = categories[topicId];
   if (!category) return [];
-  
+
   return getKanjiDetailsByCharacters(category.kanji_characters, level);
 };

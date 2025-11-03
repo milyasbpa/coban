@@ -2,10 +2,12 @@ import {
   getKanjiDetailsByLessonId,
   KanjiDetail,
 } from "@/pwa/features/kanji/lesson/utils/kanji";
+import { shuffleArray } from "../../pairing/utils";
 
 export interface ReadingQuestion {
   id: string;
   kanji: string;
+  romanji: string;
   correctReading: string;
   correctMeaning: string;
   furigana: string;
@@ -29,64 +31,62 @@ export interface AnswerResult {
   meaning: string;
 }
 
-// Convert kanji to reading questions
+// Convert kanji examples (words) to reading questions
 export const createReadingQuestions = (
   kanjiDetails: KanjiDetail[]
 ): ReadingQuestion[] => {
   const questions: ReadingQuestion[] = [];
+  const examples: KanjiDetail["examples"] = [];
 
-  kanjiDetails.forEach((kanji, index) => {
-    // Get all possible readings for options
-    const allReadings = [
-      ...kanji.readings.kun.map((r) => r.furigana),
-      ...kanji.readings.on.map((r) => r.furigana),
-    ];
+  // Collect all examples from all kanji
+  kanjiDetails.forEach((kanji) => {
+    kanji.examples.forEach((kanjiExample) => {
+      examples.push(kanjiExample);
+    });
+  });
 
-    // Pick the first kun reading as correct answer (or on if no kun)
-    const correctReading =
-      kanji.readings.kun.length > 0
-        ? kanji.readings.kun[0].furigana
-        : kanji.readings.on[0].furigana;
+  // Create questions from examples (words), not individual kanji
+  examples.forEach((example, index) => {
+    const correctReading = example.furigana; // Use furigana from KanjiDetail structure
+    const correctRomanji = example.romanji; // Use romanji from KanjiDetail structure
+    const correctMeaning = example.meaning_id; // Use meaning_id from KanjiDetail structure
 
-    const correctFurigana =
-      kanji.readings.kun.length > 0
-        ? kanji.readings.kun[0].furigana
-        : kanji.readings.on[0].furigana;
-
-    // Create wrong options from other kanji readings
-    const wrongOptions = kanjiDetails
+    // Create wrong options from other examples' readings
+    const wrongOptions = examples
       .filter((_, i) => i !== index)
-      .flatMap((k) => [
-        ...k.readings.kun.map((r) => r.furigana),
-        ...k.readings.on.map((r) => r.furigana),
-      ])
+      .map((ex) => ex.furigana)
       .filter((reading) => reading !== correctReading)
       .slice(0, 3); // Take 3 wrong options
+
+    // Ensure we have enough options, if not, pad with some default options
+    while (wrongOptions.length < 3 && examples.length > 1) {
+      const randomExample =
+        examples[Math.floor(Math.random() * examples.length)];
+      if (
+        randomExample.furigana !== correctReading &&
+        !wrongOptions.includes(randomExample.furigana)
+      ) {
+        wrongOptions.push(randomExample.furigana);
+      }
+      if (wrongOptions.length >= 3) break;
+    }
 
     // Shuffle options
     const options = shuffleArray([correctReading, ...wrongOptions]);
 
+    // Push the question to questions array
     questions.push({
-      id: `${kanji.id}-${index}`,
-      kanji: kanji.character,
+      id: `example-${index}`,
+      kanji: example.word, // The word/phrase, not individual kanji
+      romanji: example.romanji,
       correctReading,
-      correctMeaning: kanji.meanings.id,
-      furigana: correctFurigana,
+      correctMeaning,
+      furigana: correctReading,
       options,
     });
   });
 
   return questions;
-};
-
-// Shuffle array utility
-export const shuffleArray = <T>(array: T[]): T[] => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
 };
 
 // Check if answer is correct
