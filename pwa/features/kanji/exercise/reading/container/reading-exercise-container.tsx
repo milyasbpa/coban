@@ -11,6 +11,7 @@ import { AnswerBottomSheet } from "../fragments/answer-bottomsheet";
 import { getReadingGameData } from "../utils/reading-game";
 import { useReadingExerciseStore } from "../store";
 import { ModeSelector } from "../fragments";
+import ReadingQuestion from "../fragments/reading-question";
 
 export function ReadingExerciseContainer() {
   const searchParams = useSearchParams();
@@ -19,7 +20,7 @@ export function ReadingExerciseContainer() {
   const level = searchParams.get("level") || "N5";
 
   // Use store
-  const { gameStats, isGameComplete, getCurrentQuestion, initializeGame } =
+  const { isGameComplete, getCurrentQuestion, initializeGame } =
     useReadingExerciseStore();
 
   const currentQuestion = getCurrentQuestion();
@@ -51,14 +52,7 @@ export function ReadingExerciseContainer() {
 
       <div className="p-4 max-w-2xl mx-auto pb-24">
         {/* Question Title */}
-        <div className="text-center mb-8">
-          <h1 className="text-lg font-semibold text-foreground mb-4">
-            Choose the correct reading
-          </h1>
-
-          {/* Kanji Display */}
-          <KanjiDisplay kanji={currentQuestion.kanji} />
-        </div>
+        <ReadingQuestion />
 
         <ModeSelector />
 
