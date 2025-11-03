@@ -269,22 +269,24 @@ export class ScoreCalculator {
    * Calculate lesson progress percentage
    */
   static calculateLessonProgress(lessonScore: LessonScore): number {
-    const exerciseWeights = { writing: 0.4, reading: 0.4, pairing: 0.2 };
-    let totalWeight = 0;
+    const exerciseWeights = { writing: 1/3, reading: 1/3, pairing: 1/3 };
+    const totalPossibleWeight = 1.0; // Total weight is always 1.0 (100%)
     let weightedProgress = 0;
     
     Object.entries(exerciseWeights).forEach(([exerciseType, weight]) => {
       const attempts = lessonScore.exercises[exerciseType as keyof typeof lessonScore.exercises];
       if (attempts && attempts.length > 0) {
-        totalWeight += weight;
         const bestAttempt = attempts.reduce((best, current) => 
           current.score > best.score ? current : best
         );
+        // Add weighted progress for completed exercises
         weightedProgress += (bestAttempt.accuracy * weight);
       }
+      // Note: Incomplete exercises contribute 0 to weightedProgress
     });
     
-    return totalWeight > 0 ? Math.round(weightedProgress / totalWeight) : 0;
+    // Always divide by total possible weight (1.0), not just completed weight
+    return Math.round(weightedProgress / totalPossibleWeight);
   }
   
   /**
