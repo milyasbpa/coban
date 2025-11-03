@@ -20,7 +20,6 @@ export function GameGrid() {
   const {
     gameStats,
     gameWords,
-    shuffledKanji,
     selectedCards,
     matchedPairs,
     errorCards,
@@ -129,29 +128,23 @@ export function GameGrid() {
     <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
       {/* Left Column - Kanji */}
       <div className="space-y-3">
-        {shuffledKanji.map((kanji: string) => {
-          // Find the word data for this kanji to get furigana and reading
-          const wordData = gameWords.find(
-            (w: PairingWord) => w.kanji === kanji
-          );
-
+        {gameWords.map((gameWord: PairingWord) => {
           return (
             <PairingCard
-              key={kanji}
-              id={kanji}
-              content={kanji}
-              furigana={wordData?.furigana}
-              romanji={wordData?.reading}
+              key={gameWord.kanji}
+              id={gameWord.kanji}
+              content={gameWord.kanji}
+              furigana={gameWord.furigana}
+              romanji={gameWord.reading}
               type="kanji"
               isSelected={selectedCards.some(
-                (c: SelectedCard) => c.id === kanji
+                (c: SelectedCard) => c.id === gameWord.kanji
               )}
-              isMatched={matchedPairs.has(kanji)}
-              isError={errorCards.has(kanji)}
+              isMatched={matchedPairs.has(gameWord.kanji)}
+              isError={errorCards.has(gameWord.kanji)}
               onClick={() => {
-                handleCardClick(kanji, "kanji");
-                if (!wordData) return;
-                playAudio(wordData.furigana);
+                handleCardClick(gameWord.kanji, "kanji");
+                playAudio(gameWord.furigana);
               }}
             />
           );

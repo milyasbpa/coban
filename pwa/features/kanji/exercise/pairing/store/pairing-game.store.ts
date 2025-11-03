@@ -42,7 +42,6 @@ interface PairingGameState {
 
   // Game Grid State
   gameWords: PairingWord[]; // PairingWord[]
-  shuffledKanji: string[];
   selectedCards: SelectedCard[];
   matchedPairs: Set<string>;
   errorCards: Set<string>;
@@ -137,7 +136,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   // Game Grid State
   gameWords: [],
-  shuffledKanji: [],
   selectedCards: [],
   matchedPairs: new Set(),
   errorCards: new Set(),
@@ -187,7 +185,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       currentBaseScore: 100,
       // Reset game grid state
       gameWords: [],
-      shuffledKanji: [],
       selectedCards: [],
       matchedPairs: new Set(),
       errorCards: new Set(),
@@ -422,8 +419,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   loadSection: (sectionWords) => {
     set({
       gameWords: sectionWords,
-      // No need to shuffle again - already shuffled in container with Fisher-Yates
-      shuffledKanji: sectionWords.map((w: PairingWord) => w.kanji),
       selectedCards: [],
       matchedPairs: new Set(),
       errorCards: new Set(),
@@ -498,7 +493,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     // Shuffle retry words for randomness
     set({
       gameWords: retryWords,
-      shuffledKanji: shuffleArray(retryWords.map((w) => w.kanji)),
       selectedCards: [],
       matchedPairs: new Set(),
       errorCards: new Set(),
