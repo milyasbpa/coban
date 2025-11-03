@@ -1,8 +1,10 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { Button } from "@/pwa/core/components/button";
 import { Input } from "@/pwa/core/components/input";
 import { cn } from "@/pwa/core/lib/utils";
+import * as wanakana from "wanakana";
 
 interface AnswerInputProps {
   mode: "multiple-choice" | "direct-input";
@@ -23,6 +25,25 @@ export function AnswerInput({
   onInputChange,
   disabled = false
 }: AnswerInputProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  // Setup WanaKana for hiragana input
+  useEffect(() => {
+    if (mode === "direct-input" && inputRef.current) {
+      // Bind WanaKana to input for automatic hiragana conversion
+      wanakana.bind(inputRef.current, {
+        IMEMode: true, // Enable IME mode for better Japanese input
+        useObsoleteKana: false, // Don't use obsolete kana
+      });
+
+      // Cleanup on unmount
+      return () => {
+        if (inputRef.current) {
+          wanakana.unbind(inputRef.current);
+        }
+      };
+    }
+  }, [mode]);
   if (mode === "multiple-choice") {
     return (
       <div className="space-y-3">
@@ -50,12 +71,18 @@ export function AnswerInput({
   return (
     <div className="space-y-4">
       <Input
-        placeholder="Type the reading here..."
+        ref={inputRef}
+        placeholder="Type the reading here (hiragana)..."
         value={directInput}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => onInputChange(e.target.value)}
         disabled={disabled}
         className="h-16 text-lg text-center"
+        autoComplete="off"
+        spellCheck={false}
       />
+      <div className="text-xs text-muted-foreground text-center">
+        Type in romaji and it will automatically convert to hiragana
+      </div>
     </div>
   );
 }

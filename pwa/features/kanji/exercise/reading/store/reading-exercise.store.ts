@@ -18,10 +18,18 @@ interface ReadingExerciseState {
   gameStats: ReadingGameStats;
   isGameComplete: boolean;
 
+  // Retry system
+  isRetryMode: boolean;
+  wrongQuestions: ReadingQuestion[];
+  originalTotalQuestions: number;
+  baseScore: number;
+
   // Computed values
   getCurrentQuestion: () => ReadingQuestion | null;
   getProgress: () => number;
   getCanCheck: () => boolean;
+  canRetry: () => boolean;
+  getWrongQuestions: () => ReadingQuestion[];
 
   // Actions
   setQuestions: (questions: ReadingQuestion[]) => void;
@@ -40,6 +48,10 @@ interface ReadingExerciseState {
   nextQuestion: () => void;
   resetAnswer: () => void;
   restartGame: () => void;
+  
+  // Retry actions
+  startRetryMode: () => void;
+  addWrongQuestion: (question: ReadingQuestion) => void;
   
   // Handler for next question with score calculation
   handleNextQuestion: (calculateReadingScore: (stats: ReadingGameStats) => number) => void;
@@ -64,6 +76,12 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
   },
   isGameComplete: false,
 
+  // Retry system initial state
+  isRetryMode: false,
+  wrongQuestions: [],
+  originalTotalQuestions: 0,
+  baseScore: 0,
+
   // Computed values
   getCurrentQuestion: () => {
     const { questions, currentQuestionIndex } = get();
@@ -80,6 +98,16 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     return inputMode === "multiple-choice" 
       ? selectedOption.trim() !== "" 
       : directInput.trim() !== "";
+  },
+
+  canRetry: () => {
+    const { wrongQuestions } = get();
+    return wrongQuestions.length > 0;
+  },
+
+  getWrongQuestions: () => {
+    const { wrongQuestions } = get();
+    return wrongQuestions;
   },
 
   // Actions
@@ -170,6 +198,10 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
       showBottomSheet: false,
       currentResult: null,
       isGameComplete: false,
+      isRetryMode: false,
+      wrongQuestions: [],
+      originalTotalQuestions: 0,
+      baseScore: 0,
       gameStats: {
         totalQuestions: questions.length,
         correctAnswers: 0,
@@ -180,15 +212,60 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     });
   },
 
+  // Retry system implementation
+  startRetryMode: () => {
+    const { wrongQuestions, gameStats } = get();
+    if (wrongQuestions.length === 0) return;
+    
+    set({
+      questions: [...wrongQuestions], // Set questions to wrong questions only
+      currentQuestionIndex: 0,
+      inputMode: "multiple-choice",
+      selectedOption: "",
+      directInput: "",
+      isAnswered: false,
+      showBottomSheet: false,
+      currentResult: null,
+      isGameComplete: false,
+      isRetryMode: true,
+      baseScore: gameStats.score, // Store current score as base
+      originalTotalQuestions: gameStats.totalQuestions, // Store original total
+      gameStats: {
+        totalQuestions: wrongQuestions.length,
+        correctAnswers: 0,
+        wrongAnswers: 0,
+        currentQuestion: 1,
+        score: gameStats.score // Start from previous score
+      }
+    });
+  },
+
+  addWrongQuestion: (question) => {
+    set((state) => ({
+      wrongQuestions: [...state.wrongQuestions, question]
+    }));
+  },
+
   handleNextQuestion: (calculateReadingScore) => {
-    const { gameStats, nextQuestion: next, updateGameStats } = get();
+    const { gameStats, nextQuestion: next, updateGameStats, isRetryMode, baseScore, originalTotalQuestions } = get();
     
     // Calculate final score before moving to next question if this is the last question
     const isLastQuestion = gameStats.currentQuestion === gameStats.totalQuestions;
     
     if (isLastQuestion) {
-      const finalScore = calculateReadingScore(gameStats);
-      updateGameStats({ score: finalScore });
+      let finalScore;
+      
+      if (isRetryMode) {
+        // Retry mode scoring: baseScore + (correct answers * points per original question)
+        const pointsPerOriginalQuestion = 100 / originalTotalQuestions;
+        const bonusPoints = gameStats.correctAnswers * pointsPerOriginalQuestion;
+        finalScore = Math.min(100, baseScore + bonusPoints);
+      } else {
+        // Normal mode scoring  
+        finalScore = calculateReadingScore(gameStats);
+      }
+      
+      updateGameStats({ score: Math.round(finalScore) });
     }
     
     next();

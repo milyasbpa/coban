@@ -17,6 +17,7 @@ export function ReadingCheckButton() {
     setIsAnswered,
     setShowBottomSheet,
     updateGameStats,
+    addWrongQuestion,
   } = useReadingExerciseStore();
 
   const currentQuestion = getCurrentQuestion();
@@ -34,6 +35,11 @@ export function ReadingCheckButton() {
     setCurrentResult(result);
     setIsAnswered(true);
     setShowBottomSheet(true);
+
+    // Track wrong questions for retry
+    if (!result.isCorrect) {
+      addWrongQuestion(currentQuestion);
+    }
 
     // Update stats
     updateGameStats({

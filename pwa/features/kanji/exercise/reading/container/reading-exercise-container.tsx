@@ -1,39 +1,26 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { KanjiDisplay } from "../components/kanji-display";
-import { AnswerInput } from "../components/answer-input";
-import { ModeSelector } from "../fragments/mode-selector";
-import { AnswerBottomSheet } from "../fragments/answer-bottomsheet";
 import { ReadingHeader } from "../fragments/reading-header";
+import { ReadingGameResult } from "../fragments/reading-game-result";
+import { AnswerForm } from "../fragments/answer-form";
 import { ReadingCheckButton } from "../fragments/reading-check-button";
+import { AnswerBottomSheet } from "../fragments/answer-bottomsheet";
 import { getReadingGameData } from "../utils/reading-game";
 import { useReadingExerciseStore } from "../store";
+import { ModeSelector } from "../fragments";
 
 export function ReadingExerciseContainer() {
-  const router = useRouter();
   const searchParams = useSearchParams();
 
   const lessonId = searchParams.get("lessonId");
   const level = searchParams.get("level") || "N5";
 
   // Use store
-  const {
-    inputMode,
-    selectedOption,
-    directInput,
-    isAnswered,
-    gameStats,
-    isGameComplete,
-    getCurrentQuestion,
-    getProgress,
-    initializeGame,
-    setSelectedOption,
-    setDirectInput,
-    handleNextQuestion,
-    restartGame,
-  } = useReadingExerciseStore();
+  const { gameStats, isGameComplete, getCurrentQuestion, initializeGame } =
+    useReadingExerciseStore();
 
   const currentQuestion = getCurrentQuestion();
 
@@ -45,30 +32,9 @@ export function ReadingExerciseContainer() {
     }
   }, [lessonId, level, initializeGame]);
 
-  const handleRestart = () => {
-    restartGame();
-  };
-
-  const handleBackToHome = () => {
-    router.back();
-  };
-
-  // if (isGameComplete) {
-  //   return (
-  //     <GameResult
-  //       stats={{
-  //         totalWords: gameStats.totalQuestions,
-  //         correctPairs: gameStats.correctAnswers,
-  //         wrongAttempts: gameStats.wrongAnswers,
-  //         currentSection: 1,
-  //         totalSections: 1,
-  //         score: gameStats.score
-  //       }}
-  //       onRestart={handleRestart}
-  //       onBackToHome={handleBackToHome}
-  //     />
-  //   );
-  // }
+  if (isGameComplete) {
+    return <ReadingGameResult />;
+  }
 
   if (!currentQuestion) {
     return (
@@ -94,21 +60,10 @@ export function ReadingExerciseContainer() {
           <KanjiDisplay kanji={currentQuestion.kanji} />
         </div>
 
-        {/* Mode Selector */}
         <ModeSelector />
 
-        {/* Answer Input */}
-        <div className="mb-8">
-          <AnswerInput
-            mode={inputMode}
-            options={currentQuestion.options}
-            selectedOption={selectedOption}
-            directInput={directInput}
-            onOptionSelect={setSelectedOption}
-            onInputChange={setDirectInput}
-            disabled={isAnswered}
-          />
-        </div>
+        {/* Answer Components */}
+        <AnswerForm />
       </div>
 
       {/* Floating Check Button */}
