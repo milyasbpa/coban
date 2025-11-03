@@ -8,7 +8,7 @@ import { FilterSection } from "../fragments/filter-section";
 import { KanjiListCTA } from "../fragments/kanji-list-cta";
 import { LessonTypeToggle } from "../fragments/lesson-type-toggle";
 import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
-import { useScoreStore } from "@/pwa/core/store/score.store";
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { config } from "@/pwa/core/config/env";
 
 export function HomeContainer() {

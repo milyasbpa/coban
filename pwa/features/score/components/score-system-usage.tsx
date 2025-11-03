@@ -6,7 +6,7 @@
  */
 
 import { useEffect } from "react";
-import { useScoreStore } from "@/pwa/core/store/score.store";
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
 // Import will be available after creating the integration file
 // import { ReadingExerciseIntegration } from "@/pwa/features/kanji/exercise/reading/utils/score-integration";
 

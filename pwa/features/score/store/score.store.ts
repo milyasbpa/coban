@@ -1,6 +1,6 @@
 import { create } from 'zustand';
-import { StorageManager } from '../lib/storage';
-import { ScoreCalculator } from '../lib/score-calculator';
+import { StorageManager } from '../storage/storage';
+import { ScoreCalculator } from '../utils/score-calculator';
 import { 
   UserScore, 
   ExerciseAttempt, 

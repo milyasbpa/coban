@@ -15,7 +15,7 @@ import {
   TabsTrigger,
 } from "@/pwa/core/components/tabs";
 import { useHomeSettingsStore } from "../store/home-settings.store";
-import { useScoreStore } from "@/pwa/core/store/score.store";
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
 
 // Interface untuk Lesson
 interface Lesson {

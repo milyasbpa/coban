@@ -3,7 +3,7 @@
 import { Sun, Moon } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { useTheme } from "@/pwa/core/lib/hooks/use-theme";
-import { ResetStatisticsButton } from "@/pwa/core/components/reset-statistics-button";
+import { ResetStatisticsButton } from "@/pwa/features/score/components/reset-statistics-button";
 import Image from "next/image";
 
 export function Header() {

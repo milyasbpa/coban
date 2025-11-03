@@ -12,8 +12,8 @@ import {
   DialogTrigger,
 } from "@/pwa/core/components/dialog";
 import { Badge } from "@/pwa/core/components/badge";
-import { useScoreStore } from "@/pwa/core/store/score.store";
-import { StorageManager } from "@/pwa/core/lib/storage";
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { StorageManager } from "@/pwa/features/score/storage/storage";
 import { isFeatureEnabled, devLog } from "@/pwa/core/config/env";
 import { RotateCcw, Database, Trash2, AlertTriangle } from "lucide-react";
 

@@ -8,7 +8,7 @@ import {
 } from "@/pwa/core/components/dialog";
 import { Progress } from "@/pwa/core/components/progress";
 import { useHomeStore } from "../store/home-store";
-import { useScoreStore } from "@/pwa/core/store/score.store";
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { Edit3, Book, Users } from "lucide-react";
 
 export function KanjiExerciseModal() {

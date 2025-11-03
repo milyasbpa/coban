@@ -1,5 +1,5 @@
 // Example integration helper for reading exercise
-import { ExerciseAttempt, QuestionResult } from "@/pwa/core/model/score";
+import { ExerciseAttempt, QuestionResult } from "@/pwa/features/score/model/score";
 import { ReadingGameStats, AnswerResult } from "../utils/reading-game";
 
 export class ReadingExerciseIntegration {
