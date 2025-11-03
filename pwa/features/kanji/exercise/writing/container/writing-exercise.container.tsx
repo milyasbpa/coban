@@ -5,13 +5,29 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { Button } from '@/pwa/core/components/button';
 import { useWritingExerciseStore } from '../store/writing-exercise.store';
 import { 
+  DndContext, 
+  DragEndEvent,
+  DragOverEvent,
+  DragStartEvent,
+  DragOverlay,
+  closestCenter,
+  KeyboardSensor,
+  PointerSensor,
+  useSensor,
+  useSensors,
+} from '@dnd-kit/core';
+import { arrayMove } from '@dnd-kit/sortable';
+import { 
+  sortableKeyboardCoordinates
+} from '@dnd-kit/sortable';
+import { 
   WritingHeader, 
   AnswerFeedback, 
   CompletionScreen,
   AudioPlayer,
   KanjiSelectionGrid
 } from '../fragments/writing-fragments';
-import { AssemblyArea, SubmitButton } from '../components';
+import { AssemblyArea, SubmitButton, KanjiTile } from '../components';
 import { getWritingQuestions, WritingQuestion } from '../utils';
 
 interface WritingExerciseContainerProps {
@@ -26,6 +42,10 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
   const [loading, setLoading] = useState(true);
   const [showFeedback, setShowFeedback] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+  
+  // Drag and drop state
+  const [activeKanji, setActiveKanji] = useState<string | null>(null);
+  const [usedKanji, setUsedKanji] = useState<string[]>([]);
 
   const {
     currentQuestionIndex,
@@ -41,8 +61,24 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
     resetExercise,
     setCorrectAnswer,
     setAvailableKanji,
-    setShowAnswer
+    setShowAnswer,
+    insertKanjiAt,
+    reorderKanji
   } = useWritingExerciseStore();
+
+  // Configure @dnd-kit sensors with better mobile support
+  const sensors = useSensors(
+    useSensor(PointerSensor, {
+      activationConstraint: {
+        distance: 8, // Prevent accidental drags
+        delay: 100, // Small delay for better mobile experience
+        tolerance: 5,
+      },
+    }),
+    useSensor(KeyboardSensor, {
+      coordinateGetter: sortableKeyboardCoordinates,
+    })
+  );
 
   useEffect(() => {
     loadQuestions();
@@ -52,6 +88,7 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
       setupCurrentQuestion();
+      setUsedKanji([]); // Reset used kanji for new question
     }
   }, [questions, currentQuestionIndex]);
 
@@ -105,8 +142,54 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
   };
 
   const handleKanjiClick = (kanji: string) => {
-    if (showAnswer) return;
+    if (showAnswer || usedKanji.includes(kanji)) return;
     addKanji(kanji);
+    setUsedKanji(prev => [...prev, kanji]);
+  };
+
+  // Handle drag start
+  const handleDragStart = (event: DragStartEvent) => {
+    const activeData = event.active.data.current;
+    if (activeData?.kanji) {
+      setActiveKanji(activeData.kanji);
+    }
+  };
+
+  // Handle drag over (for drop zones)
+  const handleDragOver = (event: DragOverEvent) => {
+    // Optional: Add any over logic here
+  };
+
+  // Handle drag end
+  const handleDragEnd = (event: DragEndEvent) => {
+    const { active, over } = event;
+    
+    setActiveKanji(null); // Clear active kanji
+    
+    if (!over || showAnswer) return;
+
+    const activeData = active.data.current;
+    const overId = over.id as string;
+
+    // If dragging from selection grid to assembly area
+    if (activeData?.variant === 'available' && overId === 'assembly-area') {
+      const kanjiToAdd = activeData.kanji;
+      addKanji(kanjiToAdd);
+      
+      // Mark kanji as used so it disappears from selection grid
+      setUsedKanji(prev => [...prev, kanjiToAdd]);
+      return;
+    }
+
+    // If reordering within assembly area
+    if (activeData?.variant === 'selected' && overId.startsWith('assembly-')) {
+      const activeIndex = activeData.sourceIndex;
+      const overIndex = parseInt(overId.split('-')[1]);
+      
+      if (activeIndex !== overIndex) {
+        reorderKanji(activeIndex, overIndex);
+      }
+    }
   };
 
   const handleSubmitAnswer = () => {
@@ -117,6 +200,19 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
     setShowFeedback(true);
   };
 
+  const handleRemoveKanji = (index: number) => {
+    const kanjiToRemove = selectedKanji[index];
+    removeKanji(index);
+    
+    // Make kanji available again in selection grid
+    setUsedKanji(prev => prev.filter(k => k !== kanjiToRemove));
+  };
+
+  const handleClearAll = () => {
+    clearSelected();
+    setUsedKanji([]); // Make all kanji available again
+  };
+
   const handleNext = () => {
     if (currentQuestionIndex >= questions.length - 1) {
       // Exercise complete
@@ -125,11 +221,13 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
     
     nextQuestion();
     setShowFeedback(false);
+    setUsedKanji([]); // Reset for next question
   };
 
   const handleRestart = () => {
     resetExercise();
     setShowFeedback(false);
+    setUsedKanji([]);
     setupCurrentQuestion();
   };
 
@@ -181,56 +279,78 @@ export function WritingExerciseContainer({ level, lesson }: WritingExerciseConta
   const canSubmit = selectedKanji.length > 0 && !showAnswer;
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="max-w-md mx-auto p-4 space-y-6">
-        <WritingHeader
-          currentQuestion={currentQuestionIndex}
-          totalQuestions={questions.length}
-          score={score}
-          onBack={handleBack}
-        />
-
-        <div className="space-y-6">
-          {/* Audio and Reading Display */}
-          <AudioPlayer
-            audioUrl={currentQuestion.audio}
-            reading={currentQuestion.reading}
+    <DndContext
+      sensors={sensors}
+      collisionDetection={closestCenter}
+      onDragStart={handleDragStart}
+      onDragOver={handleDragOver}
+      onDragEnd={handleDragEnd}
+    >
+      <div className="min-h-screen bg-background">
+        <div className="max-w-md mx-auto p-4 space-y-6">
+          <WritingHeader
+            currentQuestion={currentQuestionIndex}
+            totalQuestions={questions.length}
+            score={score}
+            onBack={handleBack}
           />
 
-          {/* Assembly Area */}
-          <AssemblyArea
-            selectedKanji={selectedKanji}
-            onRemoveKanji={removeKanji}
-            onClear={clearSelected}
-            correctAnswer={currentQuestion.kanji}
-            showAnswer={showAnswer}
-          />
-
-          {/* Available Kanji */}
-          <KanjiSelectionGrid
-            availableKanji={shuffledKanji}
-            onKanjiClick={handleKanjiClick}
-            disabled={showAnswer}
-          />
-
-          {/* Submit Button */}
-          {!showAnswer && (
-            <SubmitButton
-              onSubmit={handleSubmitAnswer}
-              canSubmit={canSubmit}
+          <div className="space-y-6">
+            {/* Audio and Reading Display */}
+            <AudioPlayer
+              audioUrl={currentQuestion.audio}
+              reading={currentQuestion.reading}
             />
-          )}
-        </div>
-      </div>
 
-      {/* Answer Feedback */}
-      {showFeedback && (
-        <AnswerFeedback
-          isCorrect={isCorrect}
-          onNext={handleNext}
-          isLastQuestion={currentQuestionIndex >= questions.length - 1}
-        />
-      )}
-    </div>
+            {/* Assembly Area */}
+            <AssemblyArea
+              selectedKanji={selectedKanji}
+              onRemoveKanji={handleRemoveKanji}
+              onClear={handleClearAll}
+              correctAnswer={currentQuestion.kanji}
+              showAnswer={showAnswer}
+            />
+
+            {/* Available Kanji */}
+            <KanjiSelectionGrid
+              availableKanji={shuffledKanji}
+              usedKanji={usedKanji}
+              onKanjiClick={handleKanjiClick}
+              disabled={showAnswer}
+            />
+
+            {/* Submit Button */}
+            {!showAnswer && (
+              <SubmitButton
+                onSubmit={handleSubmitAnswer}
+                canSubmit={canSubmit}
+              />
+            )}
+          </div>
+        </div>
+
+        {/* Answer Feedback */}
+        {showFeedback && (
+          <AnswerFeedback
+            isCorrect={isCorrect}
+            onNext={handleNext}
+            isLastQuestion={currentQuestionIndex >= questions.length - 1}
+          />
+        )}
+      </div>
+      
+      {/* Drag Overlay for visual feedback */}
+      <DragOverlay>
+        {activeKanji ? (
+          <KanjiTile
+            id="drag-overlay"
+            kanji={activeKanji}
+            onClick={() => {}}
+            variant="available"
+            draggable={false}
+          />
+        ) : null}
+      </DragOverlay>
+    </DndContext>
   );
 }

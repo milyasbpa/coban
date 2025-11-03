@@ -18,6 +18,9 @@ interface WritingExerciseState {
   nextQuestion: () => void;
   resetExercise: () => void;
   setShowAnswer: (show: boolean) => void;
+  // New drag and drop functions
+  insertKanjiAt: (kanji: string, index: number) => void;
+  reorderKanji: (fromIndex: number, toIndex: number) => void;
 }
 
 export const useWritingExerciseStore = create<WritingExerciseState>((set, get) => ({
@@ -81,5 +84,28 @@ export const useWritingExerciseStore = create<WritingExerciseState>((set, get) =
     showAnswer: false
   }),
 
-  setShowAnswer: (show: boolean) => set({ showAnswer: show })
+  setShowAnswer: (show: boolean) => set({ showAnswer: show }),
+
+  // New drag and drop functions
+  insertKanjiAt: (kanji: string, index: number) => {
+    const { selectedKanji, availableKanji } = get();
+    if (availableKanji.includes(kanji)) {
+      const newSelected = [...selectedKanji];
+      newSelected.splice(index, 0, kanji);
+      set({ selectedKanji: newSelected });
+    }
+  },
+
+  reorderKanji: (fromIndex: number, toIndex: number) => {
+    const { selectedKanji } = get();
+    if (fromIndex === toIndex || fromIndex < 0 || toIndex < 0 || 
+        fromIndex >= selectedKanji.length || toIndex >= selectedKanji.length) {
+      return;
+    }
+
+    const newSelected = [...selectedKanji];
+    const [movedKanji] = newSelected.splice(fromIndex, 1);
+    newSelected.splice(toIndex, 0, movedKanji);
+    set({ selectedKanji: newSelected });
+  }
 }));

@@ -1,6 +1,13 @@
-import { Button } from '@/pwa/core/components/button';
-import { Trash2 } from 'lucide-react';
-import { KanjiTile } from './kanji-tile';
+import { Button } from "@/pwa/core/components/button";
+import { Trash2 } from "lucide-react";
+import { KanjiTile } from "./kanji-tile";
+import { useDroppable } from "@dnd-kit/core";
+import {
+  SortableContext,
+  horizontalListSortingStrategy,
+} from "@dnd-kit/sortable";
+import { useSortable } from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 
 interface AssemblyAreaProps {
   selectedKanji: string[];
@@ -10,17 +17,74 @@ interface AssemblyAreaProps {
   showAnswer?: boolean;
 }
 
-export function AssemblyArea({ 
-  selectedKanji, 
-  onRemoveKanji, 
-  onClear, 
+// Create a sortable kanji tile component
+function SortableKanjiTile({
+  kanji,
+  index,
+  onRemove,
+  showAnswer,
+}: {
+  kanji: string;
+  index: number;
+  onRemove: () => void;
+  showAnswer: boolean;
+}) {
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging,
+  } = useSortable({
+    id: `assembly-${index}`,
+    disabled: showAnswer,
+    data: {
+      kanji,
+      sourceIndex: index,
+      variant: "selected",
+    },
+  });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+  };
+
+  return (
+    <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
+      <KanjiTile
+        id={`assembly-${index}`}
+        kanji={kanji}
+        onClick={onRemove}
+        variant="selected"
+        draggable={!showAnswer}
+        index={index}
+      />
+    </div>
+  );
+}
+
+export function AssemblyArea({
+  selectedKanji,
+  onRemoveKanji,
+  onClear,
   correctAnswer,
-  showAnswer = false 
+  showAnswer = false,
 }: AssemblyAreaProps) {
+  const { setNodeRef, isOver } = useDroppable({
+    id: "assembly-area",
+  });
+
+  // Generate IDs for sortable context
+  const sortableIds = selectedKanji.map((_, index) => `assembly-${index}`);
+
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <p className="text-sm text-muted-foreground">Rangkai kata di bawah ini:</p>
+        <p className="text-sm text-muted-foreground">
+          Rangkai kata di bawah ini:
+        </p>
         {selectedKanji.length > 0 && (
           <Button
             variant="ghost"
@@ -33,27 +97,44 @@ export function AssemblyArea({
           </Button>
         )}
       </div>
-      
-      <div className="min-h-[60px] p-4 border-2 border-dashed border-border rounded-lg bg-muted/30 flex items-center gap-2 flex-wrap">
+
+      <div
+        ref={setNodeRef}
+        className={`min-h-[60px] p-4 border-2 border-dashed rounded-lg bg-muted/30 flex items-center gap-2 flex-wrap transition-all duration-200 ${
+          isOver
+            ? "border-primary bg-primary/10 scale-[1.02] shadow-lg"
+            : "border-border"
+        }`}
+      >
         {selectedKanji.length === 0 ? (
-          <p className="text-muted-foreground text-sm">Klik atau drag kanji ke sini...</p>
+          <p className="text-muted-foreground text-sm">
+            Klik atau drag kanji ke sini...
+          </p>
         ) : (
-          selectedKanji.map((kanji, index) => (
-            <KanjiTile
-              key={index}
-              kanji={kanji}
-              onClick={() => onRemoveKanji(index)}
-              variant="selected"
-            />
-          ))
+          <SortableContext
+            items={sortableIds}
+            strategy={horizontalListSortingStrategy}
+          >
+            {selectedKanji.map((kanji, index) => (
+              <SortableKanjiTile
+                key={index}
+                kanji={kanji}
+                index={index}
+                onRemove={() => onRemoveKanji(index)}
+                showAnswer={showAnswer}
+              />
+            ))}
+          </SortableContext>
         )}
       </div>
 
       {showAnswer && correctAnswer && (
         <div className="p-3 bg-muted rounded-lg">
-          <p className="text-sm text-muted-foreground mb-1">Jawaban yang benar:</p>
+          <p className="text-sm text-muted-foreground mb-1">
+            Jawaban yang benar:
+          </p>
           <div className="flex gap-2">
-            {correctAnswer.split('').map((char, index) => (
+            {correctAnswer.split("").map((char, index) => (
               <div
                 key={index}
                 className="min-w-[40px] h-10 rounded border border-green-500/30 bg-green-500/10 flex items-center justify-center text-sm font-medium text-green-700"
