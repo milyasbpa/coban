@@ -9225,6 +9225,289 @@
           "meaning_en": "destruction"
         }
       ]
+    },
+
+    {
+      "id": 265,
+      "character": "残",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "のこ", "romanji": "noko" }],
+        "on": [{ "furigana": "ザン", "romanji": "zan" }]
+      },
+      "meanings": { "id": "tersisa, lembur", "en": "remain, overtime" },
+      "examples": [
+        {
+          "word": "残る",
+          "furigana": "のこる",
+          "romanji": "nokoru",
+          "meaning_id": "tersisa",
+          "meaning_en": "to remain"
+        },
+        {
+          "word": "残業",
+          "furigana": "ざんぎょう",
+          "romanji": "zangyou",
+          "meaning_id": "lembur",
+          "meaning_en": "overtime"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "character": "笑",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          { "furigana": "わら", "romanji": "wara" },
+          { "furigana": "え", "romanji": "e" }
+        ],
+        "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      },
+      "meanings": { "id": "tertawa, senyum", "en": "laugh, smile" },
+      "examples": [
+        {
+          "word": "笑う",
+          "furigana": "わらう",
+          "romanji": "warau",
+          "meaning_id": "tertawa",
+          "meaning_en": "to laugh"
+        },
+        {
+          "word": "笑顔",
+          "furigana": "えがお",
+          "romanji": "egao",
+          "meaning_id": "senyum",
+          "meaning_en": "smile"
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "character": "帯",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          { "furigana": "お", "romanji": "o" },
+          { "furigana": "おび", "romanji": "obi" }
+        ],
+        "on": [{ "furigana": "タイ", "romanji": "tai" }]
+      },
+      "meanings": { "id": "memakai, ikat pinggang", "en": "wear, belt" },
+      "examples": [
+        {
+          "word": "帯びる",
+          "furigana": "おびる",
+          "romanji": "obiru",
+          "meaning_id": "memakai",
+          "meaning_en": "to wear"
+        },
+        {
+          "word": "帯",
+          "furigana": "おび",
+          "romanji": "obi",
+          "meaning_id": "ikat pinggang",
+          "meaning_en": "belt"
+        },
+        {
+          "word": "熱帯",
+          "furigana": "ねったい",
+          "romanji": "nettai",
+          "meaning_id": "zona tropis",
+          "meaning_en": "tropical zone"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "character": "険",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "けわ", "romanji": "kewa" }],
+        "on": [{ "furigana": "ケン", "romanji": "ken" }]
+      },
+      "meanings": { "id": "curam, bahaya", "en": "steep, danger" },
+      "examples": [
+        {
+          "word": "険しい",
+          "furigana": "けわしい",
+          "romanji": "kewashii",
+          "meaning_id": "curam",
+          "meaning_en": "steep"
+        },
+        {
+          "word": "危険",
+          "furigana": "きけん",
+          "romanji": "kiken",
+          "meaning_id": "bahaya",
+          "meaning_en": "danger"
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "character": "捨",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "す", "romanji": "su" }],
+        "on": [{ "furigana": "シャ", "romanji": "sha" }]
+      },
+      "meanings": { "id": "membuang", "en": "throw away" },
+      "examples": [
+        {
+          "word": "捨てる",
+          "furigana": "すてる",
+          "romanji": "suteru",
+          "meaning_id": "membuang",
+          "meaning_en": "to throw away"
+        },
+        {
+          "word": "四捨五入",
+          "furigana": "ししゃごにゅう",
+          "romanji": "shishagonyuu",
+          "meaning_id": "pembulatan angka ke atas",
+          "meaning_en": "rounding up numbers"
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "character": "探",
+      "strokes": 11,
+      "readings": {
+        "kun": [
+          { "furigana": "さが", "romanji": "saga" },
+          { "furigana": "さぐ", "romanji": "sagu" }
+        ],
+        "on": [{ "furigana": "タン", "romanji": "tan" }]
+      },
+      "meanings": { "id": "mencari, eksplorasi", "en": "search, exploration" },
+      "examples": [
+        {
+          "word": "探す",
+          "furigana": "さがす",
+          "romanji": "sagasu",
+          "meaning_id": "mencari",
+          "meaning_en": "to search"
+        },
+        {
+          "word": "探検",
+          "furigana": "たんけん",
+          "romanji": "tanken",
+          "meaning_id": "eksplorasi",
+          "meaning_en": "exploration"
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "character": "掛",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "か", "romanji": "ka" }],
+        "on": []
+      },
+      "meanings": { "id": "menggantung, keluar rumah", "en": "hang, go out" },
+      "examples": [
+        {
+          "word": "掛ける",
+          "furigana": "かける",
+          "romanji": "kakeru",
+          "meaning_id": "menggantung",
+          "meaning_en": "to hang"
+        },
+        {
+          "word": "出掛ける",
+          "furigana": "でかける",
+          "romanji": "dekakeru",
+          "meaning_id": "keluar rumah",
+          "meaning_en": "to go out"
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "character": "描",
+      "strokes": 11,
+      "readings": {
+        "kun": [
+          { "furigana": "か", "romanji": "ka" },
+          { "furigana": "えが", "romanji": "ega" }
+        ],
+        "on": [{ "furigana": "ビョウ", "romanji": "byou" }]
+      },
+      "meanings": { "id": "menggambar, melukis", "en": "draw, paint" },
+      "examples": [
+        {
+          "word": "描く",
+          "furigana": "えがく",
+          "romanji": "egaku",
+          "meaning_id": "menggambar",
+          "meaning_en": "to draw"
+        },
+        {
+          "word": "描写",
+          "furigana": "びょうしゃ",
+          "romanji": "byousha",
+          "meaning_id": "gambaran, lukisan",
+          "meaning_en": "depiction, illustration"
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "character": "接",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "つ", "romanji": "tsu" }],
+        "on": [
+          { "furigana": "セツ", "romanji": "setsu" },
+          { "furigana": "セッ", "romanji": "se" }
+        ]
+      },
+      "meanings": { "id": "menyambung, wawancara", "en": "connect, interview" },
+      "examples": [
+        {
+          "word": "接ぐ",
+          "furigana": "つぐ",
+          "romanji": "tsugu",
+          "meaning_id": "menyambung",
+          "meaning_en": "to connect"
+        },
+        {
+          "word": "面接",
+          "furigana": "めんせつ",
+          "romanji": "mensetsu",
+          "meaning_id": "wawancara",
+          "meaning_en": "interview"
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "character": "猫",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "ねこ", "romanji": "neko" }],
+        "on": [{ "furigana": "ビョウ", "romanji": "byou" }]
+      },
+      "meanings": { "id": "kucing", "en": "cat" },
+      "examples": [
+        {
+          "word": "猫",
+          "furigana": "ねこ",
+          "romanji": "neko",
+          "meaning_id": "kucing",
+          "meaning_en": "cat"
+        },
+        {
+          "word": "猫額",
+          "furigana": "びょうがく",
+          "romanji": "byougaku",
+          "meaning_id": "dahi kucing",
+          "meaning_en": "cat's forehead"
+        }
+      ]
     }
   ]
 }

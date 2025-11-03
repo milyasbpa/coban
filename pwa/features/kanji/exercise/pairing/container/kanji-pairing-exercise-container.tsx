@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import { ScoreHeader } from "../fragments/score-header";
 import { GameResult } from "../fragments/game-result";
 import { PairingHeader } from "../fragments/pairing-header";
