@@ -10365,6 +10365,249 @@
           "meaning_en": "sales, marketing"
         }
       ]
+    },
+
+    {
+      "id": 319,
+      "character": "募",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "つの", "romanji": "tsuno" }],
+        "on": [{ "furigana": "ボ", "romanji": "bo" }]
+      },
+      "meanings": { "id": "mengumpulkan", "en": "recruit, gather" },
+      "examples": [
+        {
+          "word": "募集",
+          "furigana": "ぼしゅう",
+          "romanji": "boshuu",
+          "meaning_id": "perekrutan, permintaan",
+          "meaning_en": "recruitment"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "character": "葉",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "は", "romanji": "ha" }],
+        "on": [{ "furigana": "ヨウ", "romanji": "you" }]
+      },
+      "meanings": { "id": "daun", "en": "leaf" },
+      "examples": [
+        {
+          "word": "紅葉",
+          "furigana": "こうよう",
+          "romanji": "kouyou",
+          "meaning_id": "daun musim gugur",
+          "meaning_en": "autumn leaves"
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "character": "渡",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "わた", "romanji": "wata" }],
+        "on": [{ "furigana": "ト", "romanji": "to" }]
+      },
+      "meanings": { "id": "melintas, menyeberang", "en": "cross, transit" },
+      "examples": [
+        {
+          "word": "渡航",
+          "furigana": "とこう",
+          "romanji": "tokou",
+          "meaning_id": "perjalanan ke luar negeri",
+          "meaning_en": "voyage, travel abroad"
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "character": "落",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "お", "romanji": "o" }],
+        "on": [{ "furigana": "ラク", "romanji": "raku" }]
+      },
+      "meanings": { "id": "jatuh, turun", "en": "fall, drop" },
+      "examples": [
+        {
+          "word": "段落",
+          "furigana": "だんらく",
+          "romanji": "danraku",
+          "meaning_id": "paragraf",
+          "meaning_en": "paragraph"
+        }
+      ]
+    },
+    {
+      "id": 323,
+      "character": "湖",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "みずうみ", "romanji": "mizuumi" }],
+        "on": [{ "furigana": "コ", "romanji": "ko" }]
+      },
+      "meanings": { "id": "danau", "en": "lake" },
+      "examples": [
+        {
+          "word": "湖水",
+          "furigana": "こすい",
+          "romanji": "kosui",
+          "meaning_id": "air danau",
+          "meaning_en": "lake water"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "character": "港",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "みなと", "romanji": "minato" }],
+        "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      },
+      "meanings": { "id": "pelabuhan", "en": "harbor, port" },
+      "examples": [
+        {
+          "word": "空港",
+          "furigana": "くうこう",
+          "romanji": "kuukou",
+          "meaning_id": "bandara",
+          "meaning_en": "airport"
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "character": "満",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "み", "romanji": "mi" }],
+        "on": [{ "furigana": "マン", "romanji": "man" }]
+      },
+      "meanings": { "id": "penuh", "en": "full, satisfied" },
+      "examples": [
+        {
+          "word": "満足",
+          "furigana": "まんぞく",
+          "romanji": "manzoku",
+          "meaning_id": "memuaskan",
+          "meaning_en": "satisfaction"
+        }
+      ]
+    },
+    {
+      "id": 326,
+      "character": "減",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "へ", "romanji": "he" }],
+        "on": [{ "furigana": "ゲン", "romanji": "gen" }]
+      },
+      "meanings": { "id": "berkurang, menyusut", "en": "decrease, reduce" },
+      "examples": [
+        {
+          "word": "減少",
+          "furigana": "げんしょう",
+          "romanji": "genshou",
+          "meaning_id": "pengurangan, penurunan",
+          "meaning_en": "reduction, decline"
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "character": "湯",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "ゆ", "romanji": "yu" }],
+        "on": [{ "furigana": "トウ", "romanji": "tou" }]
+      },
+      "meanings": { "id": "air panas", "en": "hot water" },
+      "examples": [
+        {
+          "word": "お湯",
+          "furigana": "おゆ",
+          "romanji": "oyu",
+          "meaning_id": "air panas",
+          "meaning_en": "hot water"
+        },
+        {
+          "word": "熱湯",
+          "furigana": "ねっとう",
+          "romanji": "nettou",
+          "meaning_id": "air mendidih",
+          "meaning_en": "boiling water"
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "character": "喜",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "よろこ", "romanji": "yoroko" }],
+        "on": [{ "furigana": "キ", "romanji": "ki" }]
+      },
+      "meanings": { "id": "gembira, senang", "en": "joy, delight" },
+      "examples": [
+        {
+          "word": "喜ぶ",
+          "furigana": "よろこぶ",
+          "romanji": "yorokobu",
+          "meaning_id": "gembira, senang",
+          "meaning_en": "to be happy"
+        },
+        {
+          "word": "喜劇",
+          "furigana": "きげき",
+          "romanji": "kigeki",
+          "meaning_id": "komedi",
+          "meaning_en": "comedy"
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "character": "程",
+      "strokes": 12,
+      "readings": {
+        "kun": [{ "furigana": "ほど", "romanji": "hodo" }],
+        "on": [{ "furigana": "テイ", "romanji": "tei" }]
+      },
+      "meanings": { "id": "batasan, tidak sebesar", "en": "extent, degree" },
+      "examples": [
+        {
+          "word": "程度",
+          "furigana": "ていど",
+          "romanji": "teido",
+          "meaning_id": "derajat, tingkat",
+          "meaning_en": "degree, level"
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "character": "税",
+      "strokes": 12,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "ゼイ", "romanji": "zei" }]
+      },
+      "meanings": { "id": "uang pajak, bea cukai", "en": "tax, duty" },
+      "examples": [
+        {
+          "word": "税金",
+          "furigana": "ぜいきん",
+          "romanji": "zeikin",
+          "meaning_id": "uang pajak",
+          "meaning_en": "tax"
+        }
+      ]
     }
   ]
 }
