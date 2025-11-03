@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
-import { KanjiDisplay } from "../components/kanji-display";
 import { ReadingHeader } from "../fragments/reading-header";
 import { ReadingGameResult } from "../fragments/reading-game-result";
 import { AnswerForm } from "../fragments/answer-form";
@@ -13,24 +12,11 @@ import { getReadingGameData } from "../utils/reading-game";
 import { useReadingExerciseStore } from "../store";
 import { ModeSelector } from "../fragments";
 import ReadingQuestion from "../fragments/reading-question";
+import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function ReadingExerciseContainer() {
-  const searchParams = useSearchParams();
-
-  const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
-  const level = searchParams.get("level") || "N5";
-  const selectedKanjiParam = searchParams.get("selectedKanji");
-
-  // Parse selected kanji IDs from URL parameter
-  const selectedKanjiIds = useMemo(() => {
-    return selectedKanjiParam
-      ? selectedKanjiParam
-          .split(",")
-          .map((id) => parseInt(id.trim()))
-          .filter((id) => !isNaN(id))
-      : undefined;
-  }, [selectedKanjiParam]);
+  const { lessonId, topicId, level, selectedKanjiIds } =
+    useExerciseSearchParams();
 
   // Use store
   const { isGameComplete, getCurrentQuestion, initializeGame } =

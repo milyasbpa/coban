@@ -29,25 +29,12 @@ import {
 } from "../fragments/writing-fragments";
 import { AssemblyArea, SubmitButton, KanjiTile } from "../components";
 import { getWritingQuestions, WritingQuestion } from "../utils";
+import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function WritingExerciseContainer() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-
-  const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
-  const level = searchParams.get("level") || "N5";
-  const selectedKanjiParam = searchParams.get("selectedKanji");
-
-  // Parse selected kanji IDs from URL parameter
-  const selectedKanjiIds = useMemo(() => {
-    return selectedKanjiParam
-      ? selectedKanjiParam
-          .split(",")
-          .map((id) => parseInt(id.trim()))
-          .filter((id) => !isNaN(id))
-      : undefined;
-  }, [selectedKanjiParam]);
+  const { lessonId, topicId, level, selectedKanjiIds } =
+    useExerciseSearchParams();
 
   const [questions, setQuestions] = useState<WritingQuestion[]>([]);
   const [shuffledKanji, setShuffledKanji] = useState<string[]>([]);
@@ -73,7 +60,6 @@ export function WritingExerciseContainer() {
     currentQuestionIndex,
     selectedKanji,
     score,
-    isComplete,
     showAnswer,
     addKanji,
     removeKanji,
@@ -84,7 +70,6 @@ export function WritingExerciseContainer() {
     setCorrectAnswer,
     setAvailableKanji,
     setShowAnswer,
-    insertKanjiAt,
     reorderKanji,
   } = useWritingExerciseStore();
 

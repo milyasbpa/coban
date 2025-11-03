@@ -1,31 +1,17 @@
 "use client";
 
 import { useEffect, useMemo } from "react";
-import { useSearchParams } from "next/navigation";
 import { ScoreHeader } from "../fragments/score-header";
 import { GameResult } from "../fragments/game-result";
 import { PairingHeader } from "../fragments/pairing-header";
 import { GameGrid } from "../fragments/game-grid";
 import { PairingDisplayOptionsControl } from "../fragments/pairing-display-options-control";
 import { usePairingGameStore } from "../store/pairing-game.store";
+import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function KanjiPairingExerciseContainer() {
-  const searchParams = useSearchParams();
-
-  const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
-  const level = searchParams.get("level") || "N5";
-  const selectedKanjiParam = searchParams.get("selectedKanji");
-
-  // Parse selected kanji IDs from URL parameter with memoization to prevent re-creation
-  const selectedKanjiIds = useMemo(() => {
-    return selectedKanjiParam
-      ? selectedKanjiParam
-          .split(",")
-          .map((id) => parseInt(id.trim()))
-          .filter((id) => !isNaN(id))
-      : undefined;
-  }, [selectedKanjiParam]);
+  const { lessonId, topicId, level, selectedKanjiParam, selectedKanjiIds } =
+    useExerciseSearchParams();
 
   // Store
   const { isGameComplete, isRetryMode, initializeGame } = usePairingGameStore();
