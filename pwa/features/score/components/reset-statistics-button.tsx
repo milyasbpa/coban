@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "@/pwa/core/components/button";
-import { 
+import {
   Dialog,
   DialogContent,
   DialogDescription,
@@ -14,7 +14,7 @@ import {
 import { Badge } from "@/pwa/core/components/badge";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { StorageManager } from "@/pwa/features/score/storage/storage";
-import { isFeatureEnabled, devLog } from "@/pwa/core/config/env";
+import { devLog } from "@/pwa/core/config/env";
 import { RotateCcw, Database, Trash2, AlertTriangle } from "lucide-react";
 
 export function ResetStatisticsButton() {
@@ -25,65 +25,60 @@ export function ResetStatisticsButton() {
     exerciseStorageLength: number;
     analyticsStorageLength: number;
   } | null>(null);
-  
+
   const { resetStatistics, currentUserScore } = useScoreStore();
-  
-  // Only show in development or when feature flag is enabled
-  if (!isFeatureEnabled('showResetStatistics')) {
-    return null;
-  }
-  
+
   const handleOpenDialog = async () => {
     setIsOpen(true);
     try {
       const info = await StorageManager.getStorageInfo();
       setStorageInfo(info);
     } catch (error) {
-      devLog('Failed to get storage info', error);
+      devLog("Failed to get storage info", error);
     }
   };
-  
+
   const handleResetStatistics = async () => {
     if (!currentUserScore) {
-      devLog('No user score available for reset');
+      devLog("No user score available for reset");
       return;
     }
-    
+
     setIsResetting(true);
     try {
       await resetStatistics();
-      devLog('Statistics reset successfully');
+      devLog("Statistics reset successfully");
       setIsOpen(false);
     } catch (error) {
-      devLog('Failed to reset statistics', error);
+      devLog("Failed to reset statistics", error);
     } finally {
       setIsResetting(false);
     }
   };
-  
+
   const handleClearAllData = async () => {
     setIsResetting(true);
     try {
       await StorageManager.clearAllData();
-      devLog('All data cleared successfully');
+      devLog("All data cleared successfully");
       setIsOpen(false);
       // Optionally reload the page to reset the app state
-      if (typeof window !== 'undefined') {
+      if (typeof window !== "undefined") {
         window.location.reload();
       }
     } catch (error) {
-      devLog('Failed to clear all data', error);
+      devLog("Failed to clear all data", error);
     } finally {
       setIsResetting(false);
     }
   };
-  
+
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
-        <Button 
-          variant="outline" 
-          size="sm" 
+        <Button
+          variant="outline"
+          size="sm"
           className="bg-red-50 border-red-200 text-red-700 hover:bg-red-100 hover:border-red-300"
           onClick={handleOpenDialog}
         >
@@ -91,7 +86,7 @@ export function ResetStatisticsButton() {
           Dev Tools
         </Button>
       </DialogTrigger>
-      
+
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <div className="flex items-center gap-2">
@@ -99,10 +94,11 @@ export function ResetStatisticsButton() {
             <DialogTitle>Development Tools</DialogTitle>
           </div>
           <DialogDescription>
-            These tools are only available in development mode. Use with caution.
+            These tools are only available in development mode. Use with
+            caution.
           </DialogDescription>
         </DialogHeader>
-        
+
         <div className="space-y-4">
           {/* Storage Information */}
           <div className="bg-muted/50 p-4 rounded-lg">
@@ -111,22 +107,30 @@ export function ResetStatisticsButton() {
               <div className="space-y-1 text-xs text-muted-foreground">
                 <div className="flex justify-between">
                   <span>Score Storage:</span>
-                  <Badge variant="secondary">{storageInfo.scoreStorageLength} records</Badge>
+                  <Badge variant="secondary">
+                    {storageInfo.scoreStorageLength} records
+                  </Badge>
                 </div>
                 <div className="flex justify-between">
                   <span>Exercise Storage:</span>
-                  <Badge variant="secondary">{storageInfo.exerciseStorageLength} records</Badge>
+                  <Badge variant="secondary">
+                    {storageInfo.exerciseStorageLength} records
+                  </Badge>
                 </div>
                 <div className="flex justify-between">
                   <span>Analytics Storage:</span>
-                  <Badge variant="secondary">{storageInfo.analyticsStorageLength} records</Badge>
+                  <Badge variant="secondary">
+                    {storageInfo.analyticsStorageLength} records
+                  </Badge>
                 </div>
               </div>
             ) : (
-              <div className="text-xs text-muted-foreground">Loading storage info...</div>
+              <div className="text-xs text-muted-foreground">
+                Loading storage info...
+              </div>
             )}
           </div>
-          
+
           {/* User Information */}
           {currentUserScore && (
             <div className="bg-muted/50 p-4 rounded-lg">
@@ -142,17 +146,21 @@ export function ResetStatisticsButton() {
                 </div>
                 <div className="flex justify-between">
                   <span>Total Score:</span>
-                  <Badge variant="outline">{currentUserScore.overallStats.totalScore}</Badge>
+                  <Badge variant="outline">
+                    {currentUserScore.overallStats.totalScore}
+                  </Badge>
                 </div>
                 <div className="flex justify-between">
                   <span>Exercises Completed:</span>
-                  <Badge variant="outline">{currentUserScore.overallStats.totalExercisesCompleted}</Badge>
+                  <Badge variant="outline">
+                    {currentUserScore.overallStats.totalExercisesCompleted}
+                  </Badge>
                 </div>
               </div>
             </div>
           )}
         </div>
-        
+
         <DialogFooter className="sm:justify-start">
           <div className="flex flex-col gap-2 w-full">
             {/* Reset Statistics Button */}
@@ -163,9 +171,9 @@ export function ResetStatisticsButton() {
               className="w-full justify-start"
             >
               <RotateCcw className="w-4 h-4 mr-2" />
-              {isResetting ? 'Resetting...' : 'Reset Current User Statistics'}
+              {isResetting ? "Resetting..." : "Reset Current User Statistics"}
             </Button>
-            
+
             {/* Clear All Data Button */}
             <Button
               variant="destructive"
@@ -174,9 +182,9 @@ export function ResetStatisticsButton() {
               className="w-full justify-start"
             >
               <Trash2 className="w-4 h-4 mr-2" />
-              {isResetting ? 'Clearing...' : 'Clear All Data (All Users)'}
+              {isResetting ? "Clearing..." : "Clear All Data (All Users)"}
             </Button>
-            
+
             {/* Cancel Button */}
             <Button
               variant="ghost"
