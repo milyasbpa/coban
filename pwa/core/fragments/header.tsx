@@ -3,6 +3,7 @@
 import { Sun, Moon } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { useTheme } from "@/pwa/core/lib/hooks/use-theme";
+import { ResetStatisticsButton } from "@/pwa/core/components/reset-statistics-button";
 import Image from "next/image";
 
 export function Header() {
@@ -22,19 +23,22 @@ export function Header() {
           <span className="font-medium">Coban</span>
         </div>
 
-        <Button
-          variant="ghost"
-          size="icon"
-          className="rounded-full"
-          onClick={() => toggleTheme()}
-          aria-label="Toggle theme"
-        >
-          {isDarkMode ? (
-            <Sun className="w-5 h-5 text-foreground" />
-          ) : (
-            <Moon className="w-5 h-5 text-foreground" />
-          )}
-        </Button>
+        <div className="flex items-center gap-2">
+          <ResetStatisticsButton />
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-full"
+            onClick={() => toggleTheme()}
+            aria-label="Toggle theme"
+          >
+            {isDarkMode ? (
+              <Sun className="w-5 h-5 text-foreground" />
+            ) : (
+              <Moon className="w-5 h-5 text-foreground" />
+            )}
+          </Button>
+        </div>
       </div>
     </div>
   );

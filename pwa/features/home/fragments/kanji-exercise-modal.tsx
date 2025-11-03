@@ -8,11 +8,13 @@ import {
 } from "@/pwa/core/components/dialog";
 import { Progress } from "@/pwa/core/components/progress";
 import { useHomeStore } from "../store/home-store";
+import { useScoreStore } from "@/pwa/core/store/score.store";
 import { Edit3, Book, Users } from "lucide-react";
 
 export function KanjiExerciseModal() {
   const { exerciseModal, closeExerciseModal } = useHomeStore();
-  const { isOpen, lessonNumber, kanjiList } = exerciseModal;
+  const { getExerciseProgress } = useScoreStore();
+  const { isOpen, lessonNumber, lessonId, kanjiList } = exerciseModal;
 
   const handleExerciseStart = (exerciseType: string) => {
     console.log(`Starting ${exerciseType} exercise for lesson ${lessonNumber}`);
@@ -61,10 +63,10 @@ export function KanjiExerciseModal() {
                 </span>
               </div>
               <div className="text-right text-sm font-medium text-foreground">
-                92%
+                {Math.round(getExerciseProgress("writing", lessonId?.toString()))}%
               </div>
             </div>
-            <Progress value={92} className="mb-2 h-1.5" />
+            <Progress value={getExerciseProgress("writing", lessonId?.toString())} className="mb-2 h-1.5" />
           </div>
 
           {/* Reading Exercise */}
@@ -80,10 +82,10 @@ export function KanjiExerciseModal() {
                 </span>
               </div>
               <div className="text-right text-sm font-medium text-foreground">
-                100%
+                {Math.round(getExerciseProgress("reading", lessonId?.toString()))}%
               </div>
             </div>
-            <Progress value={100} className="mb-2 h-1.5" />
+            <Progress value={getExerciseProgress("reading", lessonId?.toString())} className="mb-2 h-1.5" />
           </div>
 
           {/* Pairing Exercise */}
@@ -99,10 +101,10 @@ export function KanjiExerciseModal() {
                 </span>
               </div>
               <div className="text-right text-sm font-medium text-foreground">
-                100%
+                {Math.round(getExerciseProgress("pairing", lessonId?.toString()))}%
               </div>
             </div>
-            <Progress value={100} className="mb-2 h-1.5" />
+            <Progress value={getExerciseProgress("pairing", lessonId?.toString())} className="mb-2 h-1.5" />
           </div>
         </div>
       </DialogContent>

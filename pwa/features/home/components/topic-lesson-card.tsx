@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/pwa/core/components/card";
 import { Badge } from "@/pwa/core/components/badge";
 import { Button } from "@/pwa/core/components/button";
+import { Progress } from "@/pwa/core/components/progress";
 import { List } from "lucide-react";
 
 interface TopicLessonCardProps {
@@ -33,6 +34,7 @@ export function TopicLessonCard({
             </Badge>
           </div>
           <div className="flex items-center gap-2">
+            <Progress value={progress} className="w-24 h-2" />
             <span className="text-foreground font-bold text-sm">
               {progress}%
             </span>

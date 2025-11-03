@@ -15,6 +15,7 @@ import {
   TabsTrigger,
 } from "@/pwa/core/components/tabs";
 import { useHomeSettingsStore } from "../store/home-settings.store";
+import { useScoreStore } from "@/pwa/core/store/score.store";
 
 // Interface untuk Lesson
 interface Lesson {
@@ -32,6 +33,7 @@ export function KanjiLessonsSection() {
   const topicLessons = getTopicLessons(selectedLevel);
   
   const { openExerciseModal } = useHomeStore();
+  const { getLessonProgress } = useScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
 
@@ -126,7 +128,7 @@ export function KanjiLessonsSection() {
                 key={topic.id}
                 level={selectedLevel}
                 name={topic.name}
-                progress={0} // You can implement progress tracking later
+                progress={getLessonProgress(topic.id)}
                 kanjiList={category?.kanji_characters || []}
                 onExerciseClick={() => handleTopicExerciseClick(topic.id)}
                 onListClick={() => handleTopicListClick(topic.id)}
@@ -163,7 +165,7 @@ export function KanjiLessonsSection() {
                     key={topic.id}
                     level={selectedLevel}
                     name={topic.name}
-                    progress={0} // You can implement progress tracking later
+                    progress={getLessonProgress(topic.id)}
                     kanjiList={category?.kanji_characters || []}
                     onExerciseClick={() => handleTopicExerciseClick(topic.id)}
                     onListClick={() => handleTopicListClick(topic.id)}
@@ -200,7 +202,7 @@ export function KanjiLessonsSection() {
             key={lesson.id}
             level={lesson.level}
             lessonNumber={lesson.lessonNumber}
-            progress={lesson.progress}
+            progress={getLessonProgress(lesson.id.toString())}
             kanjiList={lesson.kanjiList}
             onExerciseClick={() => handleExerciseClick(lesson.id)}
             onListClick={() => handleListClick(lesson.id)}
@@ -233,7 +235,7 @@ export function KanjiLessonsSection() {
                 key={lesson.id}
                 level={lesson.level}
                 lessonNumber={lesson.lessonNumber}
-                progress={lesson.progress}
+                progress={getLessonProgress(lesson.id.toString())}
                 kanjiList={lesson.kanjiList}
                 onExerciseClick={() => handleExerciseClick(lesson.id)}
                 onListClick={() => handleListClick(lesson.id)}
