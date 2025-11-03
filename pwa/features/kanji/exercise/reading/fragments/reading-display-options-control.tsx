@@ -57,7 +57,7 @@ export function ReadingDisplayOptionsControl() {
           />
           
           {/* Options Card */}
-          <div className="fixed bottom-20 right-6 z-50">
+          <div className="fixed bottom-44 right-6 z-50">
             <Card className="p-4 w-72 bg-card border border-border shadow-xl">
               <div className="space-y-4">
                 {/* Header */}
