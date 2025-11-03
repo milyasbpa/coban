@@ -345,7 +345,9 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   // Section Management Actions
   setCurrentSectionIndex: (index) => set({ currentSectionIndex: index }),
 
-  setAllSections: (sections) => set({ allSections: sections }),
+  setAllSections: (sections) => {
+    set({ allSections: sections });
+  },
 
   moveToNextSection: () => {
     const {
@@ -399,8 +401,8 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       loadSection,
     } = get();
 
-    setAllSections(sections);
     resetGame(gameData.totalWords, sections.length);
+    setAllSections(sections);
 
     // Store shuffled words for retry system
     setAllGameWords(shuffledWords);

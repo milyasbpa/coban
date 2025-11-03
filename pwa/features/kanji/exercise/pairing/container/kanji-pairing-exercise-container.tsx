@@ -28,11 +28,7 @@ export function KanjiPairingExerciseContainer() {
   }, [selectedKanjiParam]);
 
   // Store
-  const {
-    isGameComplete,
-    isRetryMode,
-    initializeGame,
-  } = usePairingGameStore();
+  const { isGameComplete, isRetryMode, initializeGame } = usePairingGameStore();
 
   // Initialize game on mount
   useEffect(() => {
