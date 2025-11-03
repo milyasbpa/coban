@@ -7649,6 +7649,303 @@
           "meaning_en": "addition"
         }
       ]
-    }
+    },
+    [
+      {
+        "id": 210,
+        "character": "迷",
+        "strokes": 9,
+        "readings": {
+          "kun": [{ "furigana": "まよ", "romanji": "mayo" }],
+          "on": [{ "furigana": "メイ", "romanji": "mei" }]
+        },
+        "meanings": {
+          "id": "bingung",
+          "en": "to be lost"
+        },
+        "examples": [
+          {
+            "word": "迷う",
+            "furigana": "まよう",
+            "romanji": "mayou",
+            "meaning_id": "bingung",
+            "meaning_en": "to be puzzled"
+          },
+          {
+            "word": "迷信",
+            "furigana": "めいしん",
+            "romanji": "meishin",
+            "meaning_id": "takhayul",
+            "meaning_en": "superstition"
+          }
+        ]
+      },
+      {
+        "id": 211,
+        "character": "変",
+        "strokes": 9,
+        "readings": {
+          "kun": [{ "furigana": "か", "romanji": "ka" }],
+          "on": [{ "furigana": "ヘン", "romanji": "hen" }]
+        },
+        "meanings": {
+          "id": "berubah",
+          "en": "change"
+        },
+        "examples": [
+          {
+            "word": "変わる",
+            "furigana": "かわる",
+            "romanji": "kawaru",
+            "meaning_id": "berubah",
+            "meaning_en": "to change"
+          },
+          {
+            "word": "大変",
+            "furigana": "たいへん",
+            "romanji": "taihen",
+            "meaning_id": "sangat",
+            "meaning_en": "very"
+          }
+        ]
+      },
+      {
+        "id": 212,
+        "character": "故",
+        "strokes": 9,
+        "readings": {
+          "kun": [{ "furigana": "ゆえ", "romanji": "yue" }],
+          "on": [{ "furigana": "コ", "romanji": "ko" }]
+        },
+        "meanings": {
+          "id": "alasan, karena",
+          "en": "reason, cause"
+        },
+        "examples": [
+          {
+            "word": "事故",
+            "furigana": "じこ",
+            "romanji": "jiko",
+            "meaning_id": "kecelakaan",
+            "meaning_en": "accident"
+          }
+        ]
+      },
+      {
+        "id": 213,
+        "character": "怒",
+        "strokes": 9,
+        "readings": {
+          "kun": [
+            { "furigana": "おこ", "romanji": "oko" },
+            { "furigana": "いか", "romanji": "ika" }
+          ],
+          "on": [{ "furigana": "ド", "romanji": "do" }]
+        },
+        "meanings": {
+          "id": "marah",
+          "en": "anger"
+        },
+        "examples": [
+          {
+            "word": "怒る",
+            "furigana": "おこる",
+            "romanji": "okoru",
+            "meaning_id": "marah",
+            "meaning_en": "to get angry"
+          },
+          {
+            "word": "怒気",
+            "furigana": "どき",
+            "romanji": "doki",
+            "meaning_id": "kemarahan",
+            "meaning_en": "anger, rage"
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "character": "飛",
+        "strokes": 9,
+        "readings": {
+          "kun": [{ "furigana": "と", "romanji": "to" }],
+          "on": [{ "furigana": "ヒ", "romanji": "hi" }]
+        },
+        "meanings": {
+          "id": "terbang",
+          "en": "fly"
+        },
+        "examples": [
+          {
+            "word": "飛ぶ",
+            "furigana": "とぶ",
+            "romanji": "tobu",
+            "meaning_id": "terbang",
+            "meaning_en": "to fly"
+          },
+          {
+            "word": "飛行機",
+            "furigana": "ひこうき",
+            "romanji": "hikouki",
+            "meaning_id": "pesawat",
+            "meaning_en": "airplane"
+          },
+          {
+            "word": "飛行士",
+            "furigana": "ひこうし",
+            "romanji": "hikoushi",
+            "meaning_id": "pilot",
+            "meaning_en": "pilot"
+          }
+        ]
+      },
+      {
+        "id": 215,
+        "character": "背",
+        "strokes": 9,
+        "readings": {
+          "kun": [
+            { "furigana": "せ", "romanji": "se" },
+            { "furigana": "せい", "romanji": "sei" },
+            { "furigana": "そむ", "romanji": "somu" }
+          ],
+          "on": [{ "furigana": "ハイ", "romanji": "hai" }]
+        },
+        "meanings": {
+          "id": "tinggi, punggung, bertentangan, latar belakang",
+          "en": "height, back, opposite, background"
+        },
+        "examples": [
+          {
+            "word": "背が高い",
+            "furigana": "せがたかい",
+            "romanji": "segatakai",
+            "meaning_id": "tinggi",
+            "meaning_en": "tall"
+          },
+          {
+            "word": "背中",
+            "furigana": "せなか",
+            "romanji": "senaka",
+            "meaning_id": "punggung",
+            "meaning_en": "back"
+          },
+          {
+            "word": "背景",
+            "furigana": "はいけい",
+            "romanji": "haikei",
+            "meaning_id": "latar belakang",
+            "meaning_en": "background"
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "character": "皆",
+        "strokes": 9,
+        "readings": {
+          "kun": [{ "furigana": "みな", "romanji": "mina" }],
+          "on": [{ "furigana": "カイ", "romanji": "kai" }]
+        },
+        "meanings": {
+          "id": "semua",
+          "en": "everyone"
+        },
+        "examples": [
+          {
+            "word": "皆",
+            "furigana": "みな",
+            "romanji": "mina",
+            "meaning_id": "semua",
+            "meaning_en": "everyone"
+          },
+          {
+            "word": "皆目",
+            "furigana": "かいもく",
+            "romanji": "kaimoku",
+            "meaning_id": "sama sekali tidak",
+            "meaning_en": "not at all"
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "character": "降",
+        "strokes": 10,
+        "readings": {
+          "kun": [
+            { "furigana": "お", "romanji": "o" },
+            { "furigana": "ふ", "romanji": "fu" }
+          ],
+          "on": [{ "furigana": "コウ", "romanji": "kou" }]
+        },
+        "meanings": {
+          "id": "turun",
+          "en": "descend"
+        },
+        "examples": [
+          {
+            "word": "降りる",
+            "furigana": "おりる",
+            "romanji": "oriru",
+            "meaning_id": "turun",
+            "meaning_en": "to get off"
+          },
+          {
+            "word": "降る",
+            "furigana": "ふる",
+            "romanji": "furu",
+            "meaning_id": "turun, jatuh",
+            "meaning_en": "to fall (rain, snow)"
+          },
+          {
+            "word": "降参",
+            "furigana": "こうさん",
+            "romanji": "kousan",
+            "meaning_id": "menyerah",
+            "meaning_en": "surrender"
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "character": "除",
+        "strokes": 10,
+        "readings": {
+          "kun": [{ "furigana": "のぞ", "romanji": "nozo" }],
+          "on": [
+            { "furigana": "ジョ", "romanji": "jo" },
+            { "furigana": "ジ", "romanji": "ji" }
+          ]
+        },
+        "meanings": {
+          "id": "membasmi, meniadakan",
+          "en": "remove, exclude"
+        },
+        "examples": [
+          {
+            "word": "除く",
+            "furigana": "のぞく",
+            "romanji": "nozoku",
+            "meaning_id": "membasmi, meniadakan",
+            "meaning_en": "to remove"
+          },
+          {
+            "word": "掃除",
+            "furigana": "そうじ",
+            "romanji": "souji",
+            "meaning_id": "pembersihan",
+            "meaning_en": "cleaning"
+          },
+          {
+            "word": "除外",
+            "furigana": "じょがい",
+            "romanji": "jogai",
+            "meaning_id": "pengecualian",
+            "meaning_en": "exception"
+          }
+        ]
+      }
+    ]
   ]
 }
