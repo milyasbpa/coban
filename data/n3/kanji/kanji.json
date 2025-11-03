@@ -8921,6 +8921,310 @@
           "meaning_en": "warehouse"
         }
       ]
+    },
+
+    {
+      "id": 253,
+      "character": "庭",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "にわ", "romanji": "niwa" }],
+        "on": [{ "furigana": "テイ", "romanji": "tei" }]
+      },
+      "meanings": { "id": "pekarangan", "en": "garden, courtyard" },
+      "examples": [
+        {
+          "word": "庭",
+          "furigana": "にわ",
+          "romanji": "niwa",
+          "meaning_id": "pekarangan",
+          "meaning_en": "garden"
+        },
+        {
+          "word": "家庭",
+          "furigana": "かてい",
+          "romanji": "katei",
+          "meaning_id": "rumah tangga",
+          "meaning_en": "household"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "character": "原",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "はら", "romanji": "hara" }],
+        "on": [{ "furigana": "ゲン", "romanji": "gen" }]
+      },
+      "meanings": { "id": "padang rumput, penyebab", "en": "field, origin" },
+      "examples": [
+        {
+          "word": "野原",
+          "furigana": "のはら",
+          "romanji": "nohara",
+          "meaning_id": "padang rumput",
+          "meaning_en": "field"
+        },
+        {
+          "word": "原因",
+          "furigana": "げんいん",
+          "romanji": "genin",
+          "meaning_id": "penyebab",
+          "meaning_en": "cause"
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "character": "値",
+      "strokes": 10,
+      "readings": {
+        "kun": [
+          { "furigana": "あたい", "romanji": "atai" },
+          { "furigana": "ね", "romanji": "ne" }
+        ],
+        "on": [{ "furigana": "チ", "romanji": "chi" }]
+      },
+      "meanings": { "id": "nilai, harga", "en": "value, price" },
+      "examples": [
+        {
+          "word": "値",
+          "furigana": "ね",
+          "romanji": "ne",
+          "meaning_id": "harga",
+          "meaning_en": "price"
+        },
+        {
+          "word": "価値",
+          "furigana": "かち",
+          "romanji": "kachi",
+          "meaning_id": "nilai",
+          "meaning_en": "value"
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "character": "候",
+      "strokes": 10,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      },
+      "meanings": { "id": "cuaca, iklim", "en": "climate, season" },
+      "examples": [
+        {
+          "word": "候",
+          "furigana": "そうろう",
+          "romanji": "sourou",
+          "meaning_id": "cuaca",
+          "meaning_en": "climate"
+        },
+        {
+          "word": "気候",
+          "furigana": "きこう",
+          "romanji": "kikou",
+          "meaning_id": "iklim",
+          "meaning_en": "weather"
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "character": "個",
+      "strokes": 10,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "コ", "romanji": "ko" }]
+      },
+      "meanings": { "id": "perorangan", "en": "individual" },
+      "examples": [
+        {
+          "word": "個人",
+          "furigana": "こじん",
+          "romanji": "kojin",
+          "meaning_id": "perorangan",
+          "meaning_en": "individual"
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "character": "倍",
+      "strokes": 10,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "バイ", "romanji": "bai" }]
+      },
+      "meanings": { "id": "dua kali lipat", "en": "double" },
+      "examples": [
+        {
+          "word": "倍",
+          "furigana": "ばい",
+          "romanji": "bai",
+          "meaning_id": "dua kali lipat",
+          "meaning_en": "twice"
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "character": "倒",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "たお", "romanji": "tao" }],
+        "on": [
+          { "furigana": "トウ", "romanji": "tou" },
+          { "furigana": "ドウ", "romanji": "dou" }
+        ]
+      },
+      "meanings": { "id": "jatuh, roboh", "en": "fall, collapse" },
+      "examples": [
+        {
+          "word": "倒れる",
+          "furigana": "たおれる",
+          "romanji": "taoreru",
+          "meaning_id": "jatuh, roboh",
+          "meaning_en": "to fall"
+        },
+        {
+          "word": "倒産",
+          "furigana": "とうさん",
+          "romanji": "tousan",
+          "meaning_id": "bangkrut",
+          "meaning_en": "bankruptcy"
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "character": "格",
+      "strokes": 10,
+      "readings": {
+        "kun": [],
+        "on": [
+          { "furigana": "カク", "romanji": "kaku" },
+          { "furigana": "コウ", "romanji": "kou" }
+        ]
+      },
+      "meanings": { "id": "perbedaan, status", "en": "rank, difference" },
+      "examples": [
+        {
+          "word": "格差",
+          "furigana": "かくさ",
+          "romanji": "kakusa",
+          "meaning_id": "perbedaan",
+          "meaning_en": "disparity"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "character": "配",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "くば", "romanji": "kuba" }],
+        "on": [{ "furigana": "ハイ", "romanji": "hai" }]
+      },
+      "meanings": { "id": "membagikan, penugasan", "en": "distribute, assign" },
+      "examples": [
+        {
+          "word": "配る",
+          "furigana": "くばる",
+          "romanji": "kubaru",
+          "meaning_id": "membagikan",
+          "meaning_en": "to distribute"
+        },
+        {
+          "word": "配属",
+          "furigana": "はいぞく",
+          "romanji": "haizoku",
+          "meaning_id": "penugasan",
+          "meaning_en": "assignment"
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "character": "記",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "しる", "romanji": "shiru" }],
+        "on": [{ "furigana": "キ", "romanji": "ki" }]
+      },
+      "meanings": { "id": "mencatat", "en": "record" },
+      "examples": [
+        {
+          "word": "記す",
+          "furigana": "しるす",
+          "romanji": "shirusu",
+          "meaning_id": "mencatat",
+          "meaning_en": "to record"
+        },
+        {
+          "word": "記者",
+          "furigana": "きしゃ",
+          "romanji": "kisha",
+          "meaning_id": "wartawan",
+          "meaning_en": "reporter"
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "character": "留",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "と", "romanji": "to" }],
+        "on": [
+          { "furigana": "リュウ", "romanji": "ryuu" },
+          { "furigana": "ル", "romanji": "ru" }
+        ]
+      },
+      "meanings": { "id": "tinggal, menetap", "en": "stay, remain" },
+      "examples": [
+        {
+          "word": "留まる",
+          "furigana": "とまる",
+          "romanji": "tomaru",
+          "meaning_id": "tinggal",
+          "meaning_en": "to stay"
+        },
+        {
+          "word": "留学",
+          "furigana": "りゅうがく",
+          "romanji": "ryuugaku",
+          "meaning_id": "belajar di luar negeri",
+          "meaning_en": "study abroad"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "character": "破",
+      "strokes": 10,
+      "readings": {
+        "kun": [{ "furigana": "やぶ", "romanji": "yabu" }],
+        "on": [{ "furigana": "ハ", "romanji": "ha" }]
+      },
+      "meanings": { "id": "merobek, perusakan", "en": "tear, destruction" },
+      "examples": [
+        {
+          "word": "破る",
+          "furigana": "やぶる",
+          "romanji": "yaburu",
+          "meaning_id": "merobek",
+          "meaning_en": "to tear"
+        },
+        {
+          "word": "破壊",
+          "furigana": "はかい",
+          "romanji": "hakai",
+          "meaning_id": "perusakan",
+          "meaning_en": "destruction"
+        }
+      ]
     }
   ]
 }
