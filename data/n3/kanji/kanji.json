@@ -10093,6 +10093,278 @@
           "meaning_en": "homework"
         }
       ]
+    },
+
+    {
+      "id": 297,
+      "character": "寄",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "よ", "romanji": "yo" }],
+        "on": [{ "furigana": "キ", "romanji": "ki" }]
+      },
+      "meanings": { "id": "mampir, singgah", "en": "stop by, approach" },
+      "examples": [
+        {
+          "word": "寄る",
+          "furigana": "よる",
+          "romanji": "yoru",
+          "meaning_id": "mampir",
+          "meaning_en": "to stop by"
+        },
+        {
+          "word": "寄生虫",
+          "furigana": "きせいちゅう",
+          "romanji": "kiseichuu",
+          "meaning_id": "cacing parasit",
+          "meaning_en": "parasite"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "character": "部",
+      "strokes": 11,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "ブ", "romanji": "bu" }]
+      },
+      "meanings": { "id": "bagian, pori", "en": "section, part" },
+      "examples": [
+        {
+          "word": "学部",
+          "furigana": "がくぶ",
+          "romanji": "gakubu",
+          "meaning_id": "fakultas",
+          "meaning_en": "faculty"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "character": "常",
+      "strokes": 11,
+      "readings": {
+        "kun": [
+          { "furigana": "つね", "romanji": "tsune" },
+          { "furigana": "とこ", "romanji": "toko" }
+        ],
+        "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
+      },
+      "meanings": { "id": "sering, biasanya", "en": "usual, ordinary" },
+      "examples": [
+        {
+          "word": "常に",
+          "furigana": "つねに",
+          "romanji": "tsuneni",
+          "meaning_id": "senantiasa",
+          "meaning_en": "always"
+        },
+        {
+          "word": "正常",
+          "furigana": "せいじょう",
+          "romanji": "seijou",
+          "meaning_id": "normal, biasa",
+          "meaning_en": "normal"
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "character": "務",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "つと", "romanji": "tsuto" }],
+        "on": [{ "furigana": "ム", "romanji": "mu" }]
+      },
+      "meanings": { "id": "menjabat, bisnis", "en": "duty, business" },
+      "examples": [
+        {
+          "word": "務める",
+          "furigana": "つとめる",
+          "romanji": "tsutomeru",
+          "meaning_id": "menjabat",
+          "meaning_en": "to serve, to work"
+        },
+        {
+          "word": "業務",
+          "furigana": "ぎょうむ",
+          "romanji": "gyoumu",
+          "meaning_id": "bisnis",
+          "meaning_en": "business, operations"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "character": "情",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "なさ", "romanji": "nasa" }],
+        "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
+      },
+      "meanings": { "id": "perasaan, simpati", "en": "emotion, sympathy" },
+      "examples": [
+        {
+          "word": "情け",
+          "furigana": "なさけ",
+          "romanji": "nasake",
+          "meaning_id": "simpati, nurani",
+          "meaning_en": "sympathy, compassion"
+        },
+        {
+          "word": "情けない",
+          "furigana": "なさけない",
+          "romanji": "nasakenai",
+          "meaning_id": "menyedihkan",
+          "meaning_en": "pitiful"
+        },
+        {
+          "word": "情報",
+          "furigana": "じょうほう",
+          "romanji": "jouhou",
+          "meaning_id": "informasi",
+          "meaning_en": "information"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "character": "責",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "せ", "romanji": "se" }],
+        "on": [{ "furigana": "セキ", "romanji": "seki" }]
+      },
+      "meanings": { "id": "tanggung jawab", "en": "responsibility" },
+      "examples": [
+        {
+          "word": "責める",
+          "furigana": "せめる",
+          "romanji": "semeru",
+          "meaning_id": "menyalahkan",
+          "meaning_en": "to blame"
+        },
+        {
+          "word": "責任",
+          "furigana": "せきにん",
+          "romanji": "sekinin",
+          "meaning_id": "tanggung jawab",
+          "meaning_en": "responsibility"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "character": "規",
+      "strokes": 11,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "キ", "romanji": "ki" }]
+      },
+      "meanings": { "id": "peraturan", "en": "regulation, rule" },
+      "examples": [
+        {
+          "word": "規則",
+          "furigana": "きそく",
+          "romanji": "kisoku",
+          "meaning_id": "peraturan",
+          "meaning_en": "rule, regulation"
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "character": "望",
+      "strokes": 11,
+      "readings": {
+        "kun": [{ "furigana": "のぞ", "romanji": "nozo" }],
+        "on": [{ "furigana": "ボウ", "romanji": "bou" }]
+      },
+      "meanings": { "id": "berharap, keinginan", "en": "hope, desire" },
+      "examples": [
+        {
+          "word": "望む",
+          "furigana": "のぞむ",
+          "romanji": "nozomu",
+          "meaning_id": "berharap",
+          "meaning_en": "to hope for"
+        },
+        {
+          "word": "希望",
+          "furigana": "きぼう",
+          "romanji": "kibou",
+          "meaning_id": "harapan, keinginan",
+          "meaning_en": "hope, wish"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "character": "断",
+      "strokes": 11,
+      "readings": {
+        "kun": [
+          { "furigana": "ことわ", "romanji": "kotowa" },
+          { "furigana": "た", "romanji": "ta" }
+        ],
+        "on": [{ "furigana": "ダン", "romanji": "dan" }]
+      },
+      "meanings": { "id": "menolak, memutus", "en": "refuse, decide" },
+      "examples": [
+        {
+          "word": "断る",
+          "furigana": "ことわる",
+          "romanji": "kotowaru",
+          "meaning_id": "menolak",
+          "meaning_en": "to refuse"
+        },
+        {
+          "word": "断定",
+          "furigana": "だんてい",
+          "romanji": "dantei",
+          "meaning_id": "kesimpulan",
+          "meaning_en": "conclusion"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "character": "郵",
+      "strokes": 11,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "ユウ", "romanji": "yuu" }]
+      },
+      "meanings": { "id": "kantor pos", "en": "mail, postal" },
+      "examples": [
+        {
+          "word": "郵便局",
+          "furigana": "ゆうびんきょく",
+          "romanji": "yuubinkyoku",
+          "meaning_id": "kantor pos",
+          "meaning_en": "post office"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "character": "販",
+      "strokes": 11,
+      "readings": {
+        "kun": [],
+        "on": [{ "furigana": "ハン", "romanji": "han" }]
+      },
+      "meanings": { "id": "penjualan", "en": "sales" },
+      "examples": [
+        {
+          "word": "販売",
+          "furigana": "はんばい",
+          "romanji": "hanbai",
+          "meaning_id": "penjualan",
+          "meaning_en": "sales, marketing"
+        }
+      ]
     }
   ]
 }
