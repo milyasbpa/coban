@@ -9,6 +9,7 @@ import { getScoreColor } from "../utils/score-colors";
 import { RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { useWindowSize } from "usehooks-ts";
 
 export function GameResult() {
   const searchParams = useSearchParams();
@@ -39,10 +40,7 @@ export function GameResult() {
   } = usePairingGameStore();
   const { score, correctPairs, totalWords, wrongAttempts } = gameStats;
 
-  const [windowDimensions, setWindowDimensions] = useState({
-    width: 0,
-    height: 0,
-  });
+  const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false);
 
   const accuracy = Math.round(
@@ -73,29 +71,13 @@ export function GameResult() {
   };
 
   useEffect(() => {
-    // Set window dimensions for confetti
-    const handleResize = () => {
-      setWindowDimensions({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
     // Show confetti for perfect scores
     if (isPerfectScore) {
       setShowConfetti(true);
       // Stop confetti after 5 seconds
       const timer = setTimeout(() => setShowConfetti(false), 5000);
-      return () => {
-        clearTimeout(timer);
-        window.removeEventListener("resize", handleResize);
-      };
+      return () => clearTimeout(timer);
     }
-
-    return () => window.removeEventListener("resize", handleResize);
   }, [isPerfectScore]);
 
   return (
@@ -103,8 +85,8 @@ export function GameResult() {
       {/* Confetti for perfect scores */}
       {showConfetti && (
         <Confetti
-          width={windowDimensions.width}
-          height={windowDimensions.height}
+          width={width}
+          height={height}
           numberOfPieces={200}
           recycle={false}
           gravity={0.1}
