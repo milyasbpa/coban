@@ -69,7 +69,13 @@ interface PairingGameState {
   resetSectionIndex: () => void;
 
   // Game Initialization Actions
-  initializeGame: (lessonId: number | null, level: string, shouldResetSectionIndex?: boolean, selectedKanjiIds?: number[], topicId?: string) => void;
+  initializeGame: (
+    lessonId: number | null,
+    level: string,
+    shouldResetSectionIndex?: boolean,
+    selectedKanjiIds?: number[],
+    topicId?: string
+  ) => void;
 
   // Game Grid Actions
   loadSection: (sectionWords: PairingWord[]) => void;
@@ -350,6 +356,8 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       loadSection,
     } = get();
 
+    console.log(currentSectionIndex + 1, allSections.length);
+
     if (currentSectionIndex + 1 < allSections.length) {
       // Move to next section
       const nextIndex = currentSectionIndex + 1;
@@ -366,15 +374,25 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   resetSectionIndex: () => set({ currentSectionIndex: 0 }),
 
   // Game Initialization Actions
-  initializeGame: (lessonId, level, shouldResetSectionIndex = false, selectedKanjiIds, topicId) => {
-    const gameData = getPairingGameData(lessonId, level, selectedKanjiIds, topicId);
-    
+  initializeGame: (
+    lessonId,
+    level,
+    shouldResetSectionIndex = false,
+    selectedKanjiIds,
+    topicId
+  ) => {
+    const gameData = getPairingGameData(
+      lessonId,
+      level,
+      selectedKanjiIds,
+      topicId
+    );
+
     // Shuffle all words first for better randomness
     const shuffledWords = shuffleArrayUtil(gameData.words);
-    
+
     // Get initial sections
     const sections = getSections(shuffledWords);
-    
     const {
       setAllSections,
       resetGame,
@@ -382,18 +400,18 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       resetSectionIndex,
       loadSection,
     } = get();
-    
+
     setAllSections(sections);
     resetGame(gameData.totalWords, sections.length);
-    
+
     // Store shuffled words for retry system
     setAllGameWords(shuffledWords);
-    
+
     // Reset section index if needed (for restart)
     if (shouldResetSectionIndex) {
       resetSectionIndex();
     }
-    
+
     // Load first section
     if (sections.length > 0) {
       loadSection(sections[0]);
@@ -405,7 +423,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     set({
       gameWords: sectionWords,
       // No need to shuffle again - already shuffled in container with Fisher-Yates
-      shuffledKanji: sectionWords.map((w: any) => w.kanji),
+      shuffledKanji: sectionWords.map((w: PairingWord) => w.kanji),
       selectedCards: [],
       matchedPairs: new Set(),
       errorCards: new Set(),

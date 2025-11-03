@@ -32,6 +32,7 @@ export function GameGrid() {
     removeWordError,
     isRetryMode,
     globalWordsWithErrors,
+    allSections,
     finishRetryMode,
     moveToNextSection,
     calculateAndSetScore,
@@ -48,6 +49,7 @@ export function GameGrid() {
   }, [gameWords, isIndonesian]);
 
   const handleCardClick = (id: string, type: "kanji" | "meaning") => {
+    console.log(allSections.length);
     if (matchedPairs.has(id) || errorCards.has(id)) return;
     if (type === "kanji") playAudio(id);
 
