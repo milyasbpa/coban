@@ -4,24 +4,24 @@ import { Card } from "@/pwa/core/components/card";
 
 interface KanjiDisplayProps {
   kanji: string;
-  showFurigana?: boolean;
-  furigana?: string;
+  romanji?: string;
+  showRomanji?: boolean;
   onClick?: () => void;
 }
 
 export function KanjiDisplay({
   kanji,
-  showFurigana = false,
-  furigana,
+  romanji,
+  showRomanji,
   onClick,
 }: KanjiDisplayProps) {
   return (
     <Card
-      className="w-32 h-32 mx-auto bg-card border-2 border-border flex flex-col items-center justify-center"
+      className="w-32 h-32 mx-auto bg-card border-2 border-border flex flex-col items-center justify-center cursor-pointer hover:bg-accent/10 transition-colors"
       onClick={onClick}
     >
-      {showFurigana && furigana && (
-        <div className="text-sm text-muted-foreground mb-1">{furigana}</div>
+      {showRomanji && romanji && (
+        <div className="text-sm text-muted-foreground mb-1">{romanji}</div>
       )}
       <div className="text-4xl font-bold text-foreground">{kanji}</div>
     </Card>

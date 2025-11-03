@@ -1,10 +1,12 @@
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { KanjiDisplay } from "../components";
-import { useReadingExerciseStore } from "../store";
+import { useReadingDisplayOptions, useReadingExerciseStore } from "../store";
 
 export default function ReadingQuestion() {
   const { getCurrentQuestion } = useReadingExerciseStore();
   const currentQuestion = getCurrentQuestion();
+  const { displayRomanji } = useReadingDisplayOptions();
+
   if (!currentQuestion) return null;
 
   return (
@@ -16,6 +18,7 @@ export default function ReadingQuestion() {
       {/* Kanji Display */}
       <KanjiDisplay
         kanji={currentQuestion.kanji}
+        romanji={currentQuestion.furigana}
         onClick={() => {
           playAudio(currentQuestion.furigana);
         }}

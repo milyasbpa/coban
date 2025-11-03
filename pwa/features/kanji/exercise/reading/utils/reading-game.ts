@@ -1,4 +1,7 @@
-import { getKanjiDetailsByLessonId, KanjiDetail } from "@/pwa/features/kanji/lesson/utils/kanji";
+import {
+  getKanjiDetailsByLessonId,
+  KanjiDetail,
+} from "@/pwa/features/kanji/lesson/utils/kanji";
 
 export interface ReadingQuestion {
   id: string;
@@ -27,33 +30,37 @@ export interface AnswerResult {
 }
 
 // Convert kanji to reading questions
-export const createReadingQuestions = (kanjiDetails: KanjiDetail[]): ReadingQuestion[] => {
+export const createReadingQuestions = (
+  kanjiDetails: KanjiDetail[]
+): ReadingQuestion[] => {
   const questions: ReadingQuestion[] = [];
-  
+
   kanjiDetails.forEach((kanji, index) => {
     // Get all possible readings for options
     const allReadings = [
-      ...kanji.readings.kun.map(r => r.furigana),
-      ...kanji.readings.on.map(r => r.furigana)
+      ...kanji.readings.kun.map((r) => r.furigana),
+      ...kanji.readings.on.map((r) => r.furigana),
     ];
-    
+
     // Pick the first kun reading as correct answer (or on if no kun)
-    const correctReading = kanji.readings.kun.length > 0 
-      ? kanji.readings.kun[0].furigana 
-      : kanji.readings.on[0].furigana;
-      
-    const correctFurigana = kanji.readings.kun.length > 0 
-      ? kanji.readings.kun[0].furigana 
-      : kanji.readings.on[0].furigana;
+    const correctReading =
+      kanji.readings.kun.length > 0
+        ? kanji.readings.kun[0].furigana
+        : kanji.readings.on[0].furigana;
+
+    const correctFurigana =
+      kanji.readings.kun.length > 0
+        ? kanji.readings.kun[0].furigana
+        : kanji.readings.on[0].furigana;
 
     // Create wrong options from other kanji readings
     const wrongOptions = kanjiDetails
       .filter((_, i) => i !== index)
-      .flatMap(k => [
-        ...k.readings.kun.map(r => r.furigana),
-        ...k.readings.on.map(r => r.furigana)
+      .flatMap((k) => [
+        ...k.readings.kun.map((r) => r.furigana),
+        ...k.readings.on.map((r) => r.furigana),
       ])
-      .filter(reading => reading !== correctReading)
+      .filter((reading) => reading !== correctReading)
       .slice(0, 3); // Take 3 wrong options
 
     // Shuffle options
@@ -65,10 +72,10 @@ export const createReadingQuestions = (kanjiDetails: KanjiDetail[]): ReadingQues
       correctReading,
       correctMeaning: kanji.meanings.id,
       furigana: correctFurigana,
-      options
+      options,
     });
   });
-  
+
   return questions;
 };
 
@@ -84,18 +91,20 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 
 // Check if answer is correct
 export const checkAnswer = (
-  question: ReadingQuestion, 
+  question: ReadingQuestion,
   userAnswer: string
 ): AnswerResult => {
-  const isCorrect = userAnswer.toLowerCase().trim() === question.correctReading.toLowerCase().trim();
-  
+  const isCorrect =
+    userAnswer.toLowerCase().trim() ===
+    question.correctReading.toLowerCase().trim();
+
   return {
     isCorrect,
     userAnswer,
     correctAnswer: question.correctReading,
     kanji: question.kanji,
     furigana: question.furigana,
-    meaning: question.correctMeaning
+    meaning: question.correctMeaning,
   };
 };
 
@@ -109,9 +118,9 @@ export const calculateReadingScore = (stats: ReadingGameStats): number => {
 export const getReadingGameData = (lessonId: number, level: string) => {
   const kanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
   const questions = createReadingQuestions(kanjiDetails);
-  
+
   return {
     questions,
-    totalQuestions: questions.length
+    totalQuestions: questions.length,
   };
 };

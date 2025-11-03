@@ -8,6 +8,7 @@ import { ReadingGameResult } from "../fragments/reading-game-result";
 import { AnswerForm } from "../fragments/answer-form";
 import { ReadingCheckButton } from "../fragments/reading-check-button";
 import { AnswerBottomSheet } from "../fragments/answer-bottomsheet";
+import { ReadingDisplayOptionsControl } from "../fragments/reading-display-options-control";
 import { getReadingGameData } from "../utils/reading-game";
 import { useReadingExerciseStore } from "../store";
 import { ModeSelector } from "../fragments";
@@ -65,6 +66,9 @@ export function ReadingExerciseContainer() {
 
       {/* Answer Bottom Sheet */}
       <AnswerBottomSheet />
+
+      {/* Display Options Control */}
+      <ReadingDisplayOptionsControl />
     </div>
   );
 }
