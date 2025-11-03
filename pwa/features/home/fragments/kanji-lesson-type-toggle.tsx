@@ -3,7 +3,7 @@
 import { cn } from "@/pwa/core/lib/utils";
 import { useHomeSettingsStore } from "../store/home-settings.store";
 
-export function LessonTypeToggle() {
+export function KanjiLessonTypeToggle() {
   const { selectedLessonType, setSelectedLessonType } = useHomeSettingsStore();
   return (
     <div className="flex items-center justify-center mb-6">

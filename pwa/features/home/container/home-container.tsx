@@ -6,7 +6,7 @@ import { LevelSection } from "../fragments/level-section";
 import { CategorySection } from "../fragments/category-section";
 import { FilterSection } from "../fragments/filter-section";
 import { KanjiListCTA } from "../fragments/kanji-list-cta";
-import { LessonTypeToggle } from "../fragments/lesson-type-toggle";
+import { KanjiLessonTypeToggle } from "../fragments/kanji-lesson-type-toggle";
 import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { config } from "@/pwa/core/config/env";
@@ -40,7 +40,7 @@ export function HomeContainer() {
           {/* Kanji List CTA */}
           <KanjiListCTA />
           {/* Lesson Type Toggle */}
-          <LessonTypeToggle />
+          <KanjiLessonTypeToggle />
         </div>
 
         {/* Kanji Lessons Section */}
