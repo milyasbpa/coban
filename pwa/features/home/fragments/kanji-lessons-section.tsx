@@ -32,7 +32,7 @@ export function KanjiLessonsSection() {
   const strokeLessons: Lesson[] = getLessonsByLevel(selectedLevel);
   const topicLessons = getTopicLessons(selectedLevel);
   
-  const { openExerciseModal } = useHomeStore();
+  const { openKanjiExerciseModal } = useHomeStore();
   const { getLessonProgress } = useScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
@@ -82,10 +82,16 @@ export function KanjiLessonsSection() {
     return tabs;
   }, [currentTopicLessons, selectedLessonType]);
 
+  // Handle exercise click for stroke-based lessons
   const handleExerciseClick = (lessonId: number) => {
     const lesson = currentLessons.find((l: Lesson) => l.id === lessonId);
     if (lesson) {
-      openExerciseModal(lesson.id, lesson.lessonNumber, lesson.kanjiList);
+      openKanjiExerciseModal({
+        lessonId: lesson.id,
+        lessonType: "stroke",
+        lessonName: `Lesson ${lesson.lessonNumber}`,
+        kanjiList: lesson.kanjiList
+      });
     }
   };
 
@@ -93,9 +99,23 @@ export function KanjiLessonsSection() {
     router.push(`/kanji/lesson?lessonId=${lessonId}&level=${selectedLevel}`);
   };
 
+  // Handle exercise click for topic-based lessons - now uses openExerciseModal for consistency
   const handleTopicExerciseClick = (topicId: string) => {
-    // Navigate to topic-based exercise
-    router.push(`/kanji/exercise/pairing?topicId=${topicId}&level=${selectedLevel}`);
+    // Find topic data and get kanji list
+    const topic = currentTopicLessons.find((t) => t.id === topicId);
+    if (topic) {
+      const categories = getTopicCategories(selectedLevel);
+      const category = categories[topicId];
+      const kanjiList = category?.kanji_characters || [];
+      
+      // Now both stroke and topic lessons use the same modal!
+      openKanjiExerciseModal({
+        topicId: topicId,
+        lessonType: "topic",
+        lessonName: topic.name || category?.name || topicId,
+        kanjiList: kanjiList
+      });
+    }
   };
 
   const handleTopicListClick = (topicId: string) => {

@@ -12,35 +12,54 @@ import { useScoreStore } from "@/pwa/core/store/score.store";
 import { Edit3, Book, Users } from "lucide-react";
 
 export function KanjiExerciseModal() {
-  const { exerciseModal, closeExerciseModal } = useHomeStore();
+  const { kanjiExerciseModal, closeKanjiExerciseModal } = useHomeStore();
   const { getExerciseProgress } = useScoreStore();
-  const { isOpen, lessonNumber, lessonId, kanjiList } = exerciseModal;
+  const { isOpen, lessonName, lessonId, topicId, lessonType, kanjiList } =
+    kanjiExerciseModal;
 
   const handleExerciseStart = (exerciseType: string) => {
-    console.log(`Starting ${exerciseType} exercise for lesson ${lessonNumber}`);
-    closeExerciseModal();
+    closeKanjiExerciseModal();
+
+    // Build URL based on lesson type
+    const buildExerciseUrl = (exercise: string) => {
+      const baseUrl = `/kanji/exercise/${exercise}`;
+      const level = "N5"; // Could be dynamic based on selected level
+
+      if (lessonType === "stroke" && lessonId) {
+        return `${baseUrl}?lessonId=${lessonId}&level=${level}`;
+      } else if (lessonType === "topic" && topicId) {
+        return `${baseUrl}?topicId=${topicId}&level=${level}`;
+      }
+
+      // Fallback
+      return `${baseUrl}?level=${level}`;
+    };
 
     if (exerciseType === "pairing") {
-      // Navigate to pairing exercise with lesson data
-      window.location.href = `/kanji/exercise/pairing?lessonId=${exerciseModal.lessonId}&level=N5`;
+      window.location.href = buildExerciseUrl("pairing");
     } else if (exerciseType === "reading") {
-      // Navigate to reading exercise with lesson data
-      window.location.href = `/kanji/exercise/reading?lessonId=${exerciseModal.lessonId}&level=N5`;
+      window.location.href = buildExerciseUrl("reading");
     } else if (exerciseType === "writing") {
-      // Navigate to writing exercise with lesson data
-      window.location.href = `/kanji/exercise/writing?level=n5&lesson=${lessonNumber}`;
+      // Writing exercise uses different parameter format
+      if (lessonType === "stroke") {
+        // For stroke lessons, extract number from lessonName (e.g., "Lesson 1" -> "1")
+        const lessonNumber = lessonName?.match(/\d+/)?.[0] || "1";
+        window.location.href = `/kanji/exercise/writing?level=n5&lesson=${lessonNumber}`;
+      } else if (lessonType === "topic") {
+        window.location.href = `/kanji/exercise/writing?level=n5&topic=${topicId}`;
+      }
     }
   };
 
   return (
-    <Dialog open={isOpen} onOpenChange={closeExerciseModal}>
+    <Dialog open={isOpen} onOpenChange={closeKanjiExerciseModal}>
       <DialogContent className="sm:max-w-md bg-popover border-2 border-border shadow-xl backdrop-blur-sm">
         <DialogHeader className="text-center space-y-2">
           <div className="mx-auto bg-foreground text-background px-4 py-1.5 rounded-full w-fit">
             <span className="text-xs font-bold tracking-wider">EXERCISES</span>
           </div>
           <DialogTitle className="text-lg font-bold text-foreground">
-            Lesson {lessonNumber}
+            {lessonName}
           </DialogTitle>
           <div className="text-center">
             <div className="text-xl font-bold text-foreground mb-3 tracking-wider">
@@ -63,10 +82,26 @@ export function KanjiExerciseModal() {
                 </span>
               </div>
               <div className="text-right text-sm font-medium text-foreground">
-                {Math.round(getExerciseProgress("writing", lessonId?.toString()))}%
+                {Math.round(
+                  getExerciseProgress(
+                    "writing",
+                    lessonType === "stroke"
+                      ? lessonId?.toString()
+                      : topicId || undefined
+                  )
+                )}
+                %
               </div>
             </div>
-            <Progress value={getExerciseProgress("writing", lessonId?.toString())} className="mb-2 h-1.5" />
+            <Progress
+              value={getExerciseProgress(
+                "writing",
+                lessonType === "stroke"
+                  ? lessonId?.toString()
+                  : topicId || undefined
+              )}
+              className="mb-2 h-1.5"
+            />
           </div>
 
           {/* Reading Exercise */}
@@ -82,10 +117,26 @@ export function KanjiExerciseModal() {
                 </span>
               </div>
               <div className="text-right text-sm font-medium text-foreground">
-                {Math.round(getExerciseProgress("reading", lessonId?.toString()))}%
+                {Math.round(
+                  getExerciseProgress(
+                    "reading",
+                    lessonType === "stroke"
+                      ? lessonId?.toString()
+                      : topicId || undefined
+                  )
+                )}
+                %
               </div>
             </div>
-            <Progress value={getExerciseProgress("reading", lessonId?.toString())} className="mb-2 h-1.5" />
+            <Progress
+              value={getExerciseProgress(
+                "reading",
+                lessonType === "stroke"
+                  ? lessonId?.toString()
+                  : topicId || undefined
+              )}
+              className="mb-2 h-1.5"
+            />
           </div>
 
           {/* Pairing Exercise */}
@@ -101,10 +152,26 @@ export function KanjiExerciseModal() {
                 </span>
               </div>
               <div className="text-right text-sm font-medium text-foreground">
-                {Math.round(getExerciseProgress("pairing", lessonId?.toString()))}%
+                {Math.round(
+                  getExerciseProgress(
+                    "pairing",
+                    lessonType === "stroke"
+                      ? lessonId?.toString()
+                      : topicId || undefined
+                  )
+                )}
+                %
               </div>
             </div>
-            <Progress value={getExerciseProgress("pairing", lessonId?.toString())} className="mb-2 h-1.5" />
+            <Progress
+              value={getExerciseProgress(
+                "pairing",
+                lessonType === "stroke"
+                  ? lessonId?.toString()
+                  : topicId || undefined
+              )}
+              className="mb-2 h-1.5"
+            />
           </div>
         </div>
       </DialogContent>

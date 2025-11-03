@@ -1,42 +1,56 @@
 import { create } from 'zustand';
 
-interface ExerciseModal {
+interface KanjiExerciseModal {
   isOpen: boolean;
-  lessonId: number | null;
-  lessonNumber: number | null;
+  lessonId?: number | null;
+  topicId?: string | null;
+  lessonType: "stroke" | "topic";
+  lessonName: string | null;
   kanjiList: string[];
 }
 
 interface HomeState {
-  exerciseModal: ExerciseModal;
-  openExerciseModal: (lessonId: number, lessonNumber: number, kanjiList: string[]) => void;
-  closeExerciseModal: () => void;
+  kanjiExerciseModal: KanjiExerciseModal;
+  openKanjiExerciseModal: (params: {
+    lessonId?: number;
+    topicId?: string;
+    lessonType: "stroke" | "topic";
+    lessonName: string;
+    kanjiList: string[];
+  }) => void;
+  closeKanjiExerciseModal: () => void;
 }
 
 export const useHomeStore = create<HomeState>((set) => ({
-  exerciseModal: {
+  kanjiExerciseModal: {
     isOpen: false,
     lessonId: null,
-    lessonNumber: null,
+    topicId: null,
+    lessonType: "stroke",
+    lessonName: null,
     kanjiList: [],
   },
-  openExerciseModal: (lessonId, lessonNumber, kanjiList) =>
+  openKanjiExerciseModal: (params) =>
     set((state) => ({
-      exerciseModal: {
-        ...state.exerciseModal,
+      kanjiExerciseModal: {
+        ...state.kanjiExerciseModal,
         isOpen: true,
-        lessonId,
-        lessonNumber,
-        kanjiList,
+        lessonId: params.lessonId || null,
+        topicId: params.topicId || null,
+        lessonType: params.lessonType,
+        lessonName: params.lessonName,
+        kanjiList: params.kanjiList,
       },
     })),
-  closeExerciseModal: () =>
+  closeKanjiExerciseModal: () =>
     set((state) => ({
-      exerciseModal: {
-        ...state.exerciseModal,
+      kanjiExerciseModal: {
+        ...state.kanjiExerciseModal,
         isOpen: false,
         lessonId: null,
-        lessonNumber: null,
+        topicId: null,
+        lessonType: "stroke",
+        lessonName: null,
         kanjiList: [],
       },
     })),

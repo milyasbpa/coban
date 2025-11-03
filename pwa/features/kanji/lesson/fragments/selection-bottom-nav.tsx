@@ -8,10 +8,11 @@ import { cn } from "@/pwa/core/lib/utils";
 import { useSearchParams } from "next/navigation";
 
 export function SelectionBottomNav() {
-  const { selectedKanjiIds, clearSelection, toggleSelectionMode } = useKanjiSelection();
+  const { selectedKanjiIds, clearSelection, toggleSelectionMode } =
+    useKanjiSelection();
   const { isIndonesian } = useLanguage();
   const searchParams = useSearchParams();
-  
+
   const selectedCount = selectedKanjiIds.size;
   const lessonId = searchParams.get("lessonId");
   const topicId = searchParams.get("topicId");
@@ -21,21 +22,20 @@ export function SelectionBottomNav() {
 
   const handleExerciseStart = (exerciseType: string) => {
     if ((!lessonId && !topicId) || selectedKanjiIds.size === 0) return;
-    
+
     const selectedKanjiArray = Array.from(selectedKanjiIds);
-    console.log(`Starting ${exerciseType} exercise with selected kanji:`, selectedKanjiArray);
-    
+
     // Build URL with selected kanji parameters
-    const selectedKanjiParam = selectedKanjiArray.join(',');
-    
+    const selectedKanjiParam = selectedKanjiArray.join(",");
+
     // Build base URL with either lessonId or topicId
-    let baseUrl = '';
+    let baseUrl = "";
     if (topicId) {
       baseUrl = `topicId=${topicId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
     } else if (lessonId) {
       baseUrl = `lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
     }
-    
+
     if (exerciseType === "pairing") {
       window.location.href = `/kanji/exercise/pairing?${baseUrl}`;
     } else if (exerciseType === "reading") {
@@ -43,7 +43,7 @@ export function SelectionBottomNav() {
     } else if (exerciseType === "writing") {
       window.location.href = `/kanji/exercise/writing?${baseUrl}`;
     }
-    
+
     // Clear selection after navigation
     clearSelection();
     toggleSelectionMode();
