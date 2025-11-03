@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { KanjiDisplay } from "../components/kanji-display";
 import { ReadingHeader } from "../fragments/reading-header";
@@ -23,12 +23,14 @@ export function ReadingExerciseContainer() {
   const selectedKanjiParam = searchParams.get("selectedKanji");
 
   // Parse selected kanji IDs from URL parameter
-  const selectedKanjiIds = selectedKanjiParam
-    ? selectedKanjiParam
-        .split(",")
-        .map((id) => parseInt(id.trim()))
-        .filter((id) => !isNaN(id))
-    : undefined;
+  const selectedKanjiIds = useMemo(() => {
+    return selectedKanjiParam
+      ? selectedKanjiParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
+      : undefined;
+  }, [selectedKanjiParam]);
 
   // Use store
   const { isGameComplete, getCurrentQuestion, initializeGame } =
@@ -42,11 +44,20 @@ export function ReadingExerciseContainer() {
 
     if (topicId) {
       // Initialize with topicId
-      const gameData = getReadingGameData(null, level, selectedKanjiIds, topicId);
+      const gameData = getReadingGameData(
+        null,
+        level,
+        selectedKanjiIds,
+        topicId
+      );
       initializeGame(gameData.questions, gameData.totalQuestions);
     } else if (lessonId) {
       // Initialize with lessonId
-      const gameData = getReadingGameData(parseInt(lessonId), level, selectedKanjiIds);
+      const gameData = getReadingGameData(
+        parseInt(lessonId),
+        level,
+        selectedKanjiIds
+      );
       initializeGame(gameData.questions, gameData.totalQuestions);
     }
   }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
