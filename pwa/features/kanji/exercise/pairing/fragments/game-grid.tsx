@@ -40,7 +40,7 @@ export function GameGrid() {
 
   // Create shuffled meanings based on current language
   const shuffledMeanings = useMemo(() => {
-    const meanings = gameWords.map((w: any) =>
+    const meanings = gameWords.map((w: PairingWord) =>
       isIndonesian ? w.meaning_id : w.meaning_en
     );
     const shuffled = shuffleArray(meanings);
