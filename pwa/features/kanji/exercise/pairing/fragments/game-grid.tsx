@@ -33,6 +33,9 @@ export function GameGrid() {
     isRetryMode,
     globalWordsWithErrors,
     finishRetryMode,
+    moveToNextSection,
+    calculateAndSetScore,
+    setGameComplete,
   } = usePairingGameStore();
 
   // Create shuffled meanings based on current language
@@ -89,12 +92,13 @@ export function GameGrid() {
                 ).length;
 
                 finishRetryMode({ correctCount: correctOriginalWords });
-
-                // For retry mode, directly complete the game
-                window.dispatchEvent(new CustomEvent("retryComplete"));
               } else {
-                // Normal game flow - dispatch section completion
-                window.dispatchEvent(new CustomEvent("sectionComplete"));
+                const hasMoreSections = moveToNextSection();
+                if (!hasMoreSections) {
+                  // Game complete
+                  calculateAndSetScore();
+                  setGameComplete(true);
+                }
               }
             }, 500);
           }

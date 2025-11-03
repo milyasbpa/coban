@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Confetti from "react-confetti";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
@@ -8,8 +8,25 @@ import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreColor } from "../utils/score-colors";
 import { RotateCcw } from "lucide-react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 export function GameResult() {
+  const searchParams = useSearchParams();
+  const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
+  const level = searchParams.get("level") || "N5";
+  const selectedKanjiParam = searchParams.get("selectedKanji");
+
+  // Parse selected kanji IDs from URL parameter with memoization to prevent re-creation
+  const selectedKanjiIds = useMemo(() => {
+    return selectedKanjiParam
+      ? selectedKanjiParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
+      : undefined;
+  }, [selectedKanjiParam]);
+
   const {
     gameStats,
     canRetry,
@@ -18,6 +35,7 @@ export function GameResult() {
     globalWordsWithErrors,
     wordsWithErrors,
     isRetryMode,
+    initializeGame,
   } = usePairingGameStore();
   const { score, correctPairs, totalWords, wrongAttempts } = gameStats;
 
@@ -41,6 +59,17 @@ export function GameResult() {
   const handleRetry = () => {
     startRetryMode();
     generateRetrySession();
+  };
+
+  const handleGameRestart = () => {
+    // Use the reusable function with section index reset
+    if (!lessonId && !topicId) return;
+
+    if (topicId) {
+      initializeGame(null, level, true, selectedKanjiIds, topicId);
+    } else if (lessonId) {
+      initializeGame(parseInt(lessonId), level, true, selectedKanjiIds);
+    }
   };
 
   useEffect(() => {
@@ -156,10 +185,7 @@ export function GameResult() {
             )}
 
             <Button
-              onClick={() => {
-                // Emit restart event for container to handle
-                window.dispatchEvent(new CustomEvent("gameRestart"));
-              }}
+              onClick={handleGameRestart}
               variant={canShowRetry ? "outline" : "default"}
               className="w-full"
             >

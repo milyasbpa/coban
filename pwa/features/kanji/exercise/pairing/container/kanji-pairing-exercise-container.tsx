@@ -16,11 +16,14 @@ export function KanjiPairingExerciseContainer() {
   const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
   const selectedKanjiParam = searchParams.get("selectedKanji");
-  
+
   // Parse selected kanji IDs from URL parameter with memoization to prevent re-creation
   const selectedKanjiIds = useMemo(() => {
-    return selectedKanjiParam 
-      ? selectedKanjiParam.split(',').map(id => parseInt(id.trim())).filter(id => !isNaN(id))
+    return selectedKanjiParam
+      ? selectedKanjiParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
       : undefined;
   }, [selectedKanjiParam]);
 
@@ -28,71 +31,21 @@ export function KanjiPairingExerciseContainer() {
   const {
     isGameComplete,
     isRetryMode,
-    moveToNextSection,
-    calculateAndSetScore,
-    setGameComplete,
     initializeGame,
   } = usePairingGameStore();
 
   // Initialize game on mount
   useEffect(() => {
     if (!lessonId && !topicId) return;
-    
+
     if (topicId) {
       // Initialize with topicId
       initializeGame(null, level, false, selectedKanjiIds, topicId);
     } else if (lessonId) {
-      // Initialize with lessonId  
+      // Initialize with lessonId
       initializeGame(parseInt(lessonId), level, false, selectedKanjiIds);
     }
   }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
-
-  // Listen for section complete events from GameGrid
-  useEffect(() => {
-    const handleSectionComplete = () => {
-      const hasMoreSections = moveToNextSection();
-      if (!hasMoreSections) {
-        // Game complete
-        calculateAndSetScore();
-        setGameComplete(true);
-      }
-    };
-
-    const handleGameRestart = () => {
-      // Use the reusable function with section index reset
-      if (!lessonId && !topicId) return;
-      
-      if (topicId) {
-        initializeGame(null, level, true, selectedKanjiIds, topicId);
-      } else if (lessonId) {
-        initializeGame(parseInt(lessonId), level, true, selectedKanjiIds);
-      }
-    };
-
-    const handleRetryComplete = () => {
-      // Retry is complete, game result will show automatically
-      // No need to do anything here as finishRetryMode handles state
-    };
-
-    window.addEventListener("sectionComplete", handleSectionComplete);
-    window.addEventListener("gameRestart", handleGameRestart);
-    window.addEventListener("retryComplete", handleRetryComplete);
-
-    return () => {
-      window.removeEventListener("sectionComplete", handleSectionComplete);
-      window.removeEventListener("gameRestart", handleGameRestart);
-      window.removeEventListener("retryComplete", handleRetryComplete);
-    };
-  }, [
-    moveToNextSection,
-    calculateAndSetScore,
-    setGameComplete,
-    initializeGame,
-    lessonId,
-    topicId,
-    level,
-    selectedKanjiIds,
-  ]);
 
   // Show GameResult only if game is complete AND not in active retry mode
   if (isGameComplete && !isRetryMode) {
