@@ -116,17 +116,10 @@ export function GameGrid() {
                     }
 
                     const createExerciseAttempt = () => {
-                    const startTime = new Date(Date.now() - (gameStats.wrongAttempts * 5000)).toISOString(); // Estimate start time
-                    const endTime = new Date().toISOString();
-                    const duration = Math.max(60, gameStats.wrongAttempts * 5 + gameStats.correctPairs * 10); // Estimate duration
-                    
                     // Create detailed answers from game data
                     const answers: QuestionResult[] = gameWords.map((word, index) => ({
-                      questionId: `${word.id}-${index}`,
                       kanjiId: word.id,
                       kanji: word.kanji,
-                      userAnswer: word.kanji, // In pairing, correct kanji selection
-                      correctAnswer: word.kanji,
                       isCorrect: !globalWordsWithErrors.has(word.kanji),
                     }));
 
@@ -135,13 +128,8 @@ export function GameGrid() {
                         lessonId: lessonId || topicId || "unknown",
                         exerciseType: "pairing" as const,
                         level,
-                        startTime,
-                        endTime,
                         totalQuestions: gameWords.length,
                         correctAnswers: gameStats.correctPairs,
-                        wrongAnswers: gameStats.wrongAttempts,
-                        score: gameStats.score,
-                        accuracy: Math.round((gameStats.correctPairs / gameWords.length) * 100),
                         answers
                       };
                     };
@@ -153,11 +141,8 @@ export function GameGrid() {
                     // Update individual kanji mastery
                     gameWords.forEach(word => {
                       const questionResult: QuestionResult = {
-                        questionId: word.id,
                         kanjiId: word.id,
                         kanji: word.kanji,
-                        userAnswer: word.kanji,
-                        correctAnswer: word.kanji,
                         isCorrect: !globalWordsWithErrors.has(word.kanji),
                       };
                       

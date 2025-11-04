@@ -35,10 +35,6 @@ export interface LessonScore {
   level: string;
   category: string;
   
-  // Progress metrics
-  totalScore: number;
-  completionPercentage: number;
-  
   // Exercise breakdown
   exercises: {
     writing?: ExerciseAttempt[];
@@ -58,26 +54,18 @@ export interface ExerciseAttempt {
   lessonId: string;
   exerciseType: "writing" | "reading" | "pairing";
   level: string;
-  startTime: string;
-  endTime: string;
   
   // Results
   totalQuestions: number;
   correctAnswers: number;
-  wrongAnswers: number;
-  score: number;
-  accuracy: number;
   
   // Detailed answers
   answers: QuestionResult[];
 }
 
 export interface QuestionResult {
-  questionId: string;
   kanjiId: string;
   kanji: string;
-  userAnswer: string;
-  correctAnswer: string;
   isCorrect: boolean;
 }
 

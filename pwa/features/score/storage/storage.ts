@@ -113,10 +113,12 @@ export class StorageManager {
     });
 
     return attempts
-      .sort(
-        (a, b) =>
-          new Date(b.startTime).getTime() - new Date(a.startTime).getTime()
-      )
+      .sort((a, b) => {
+        // Extract timestamp from attemptId (format: "{type}-{lesson}-{timestamp}")
+        const aTimestamp = parseInt(a.attemptId.split('-').pop() || '0');
+        const bTimestamp = parseInt(b.attemptId.split('-').pop() || '0');
+        return bTimestamp - aTimestamp;
+      })
       .slice(0, limit);
   }
 
@@ -131,10 +133,12 @@ export class StorageManager {
       }
     });
 
-    return attempts.sort(
-      (a, b) =>
-        new Date(b.startTime).getTime() - new Date(a.startTime).getTime()
-    );
+    return attempts.sort((a, b) => {
+      // Extract timestamp from attemptId (format: "{type}-{lesson}-{timestamp}")
+      const aTimestamp = parseInt(a.attemptId.split('-').pop() || '0');
+      const bTimestamp = parseInt(b.attemptId.split('-').pop() || '0');
+      return bTimestamp - aTimestamp;
+    });
   }
 
   static async getAttemptsByExerciseType(
@@ -148,10 +152,12 @@ export class StorageManager {
       }
     });
 
-    return attempts.sort(
-      (a, b) =>
-        new Date(b.startTime).getTime() - new Date(a.startTime).getTime()
-    );
+    return attempts.sort((a, b) => {
+      // Extract timestamp from attemptId (format: "{type}-{lesson}-{timestamp}")
+      const aTimestamp = parseInt(a.attemptId.split('-').pop() || '0');
+      const bTimestamp = parseInt(b.attemptId.split('-').pop() || '0');
+      return bTimestamp - aTimestamp;
+    });
   }
 
   // ============ Data Management & Cleanup ============

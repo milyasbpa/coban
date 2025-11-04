@@ -119,23 +119,13 @@ export function WritingExerciseContainer() {
         }
 
         const createExerciseAttempt = () => {
-          const startTime = new Date(
-            Date.now() - questions.length * 30000
-          ).toISOString(); // Estimate 30 seconds per question
-          const endTime = new Date().toISOString();
-          const duration = questions.length * 30; // Estimate duration
-          const wrongAnswers = questions.length - score;
-
           // Create detailed answers from writing game data
           const answers: QuestionResult[] = questions.map((question, index) => {
             const isCorrect = index < score; // Simple estimation based on score
 
             return {
-              questionId: `writing-${index}`,
               kanjiId: question.kanji,
               kanji: question.kanji,
-              userAnswer: isCorrect ? question.kanji : "wrong-answer",
-              correctAnswer: question.kanji,
               isCorrect,
             };
           });
@@ -145,13 +135,8 @@ export function WritingExerciseContainer() {
             lessonId: lessonId || topicId || "unknown",
             exerciseType: "writing" as const,
             level,
-            startTime,
-            endTime,
             totalQuestions: questions.length,
             correctAnswers: score,
-            wrongAnswers,
-            score: Math.round((score / questions.length) * 100),
-            accuracy: Math.round((score / questions.length) * 100),
             answers,
           };
         };
@@ -165,11 +150,8 @@ export function WritingExerciseContainer() {
           const isCorrect = index < score;
 
           const questionResult: QuestionResult = {
-            questionId: `writing-${index}`,
             kanjiId: question.kanji,
             kanji: question.kanji,
-            userAnswer: isCorrect ? question.kanji : "wrong-answer",
-            correctAnswer: question.kanji,
             isCorrect,
           };
 

@@ -15,7 +15,7 @@ export class ScoreCalculator {
    * Calculate exercise score based on accuracy, speed, and difficulty
    */
   static calculateExerciseScore(attempt: ExerciseAttempt): number {
-    const accuracy = attempt.accuracy;
+    const accuracy = (attempt.correctAnswers / attempt.totalQuestions) * 100;
     
     // Base score from accuracy (0-800 points)
     const accuracyScore = accuracy * 8;
@@ -110,13 +110,14 @@ export class ScoreCalculator {
     newAttempt: ExerciseAttempt
   ): ExerciseTypeScore {
     const totalAttempts = currentScore.totalAttempts + 1;
-    const bestScore = Math.max(currentScore.bestScore, newAttempt.score);
+    const newScore = this.calculateExerciseScore(newAttempt);
+    const bestScore = Math.max(currentScore.bestScore, newScore);
     const totalCorrect = currentScore.totalCorrect + newAttempt.correctAnswers;
     const totalQuestions = currentScore.totalQuestions + newAttempt.totalQuestions;
     const overallAccuracy = totalQuestions > 0 ? (totalCorrect / totalQuestions) * 100 : 0;
     
     // Calculate average score
-    const totalScoreSum = currentScore.averageScore * (totalAttempts - 1) + newAttempt.score;
+    const totalScoreSum = currentScore.averageScore * (totalAttempts - 1) + newScore;
     const averageScore = totalScoreSum / totalAttempts;
     
     return {
@@ -140,17 +141,41 @@ export class ScoreCalculator {
     Object.entries(exerciseWeights).forEach(([exerciseType, weight]) => {
       const attempts = lessonScore.exercises[exerciseType as keyof typeof lessonScore.exercises];
       if (attempts && attempts.length > 0) {
-        const bestAttempt = attempts.reduce((best, current) => 
-          current.score > best.score ? current : best
-        );
+        const bestAttempt = attempts.reduce((best, current) => {
+          const currentScore = this.calculateExerciseScore(current);
+          const bestScore = this.calculateExerciseScore(best);
+          return currentScore > bestScore ? current : best;
+        });
         // Add weighted progress for completed exercises
-        weightedProgress += (bestAttempt.accuracy * weight);
+        const accuracy = (bestAttempt.correctAnswers / bestAttempt.totalQuestions) * 100;
+        weightedProgress += (accuracy * weight);
       }
       // Note: Incomplete exercises contribute 0 to weightedProgress
     });
     
     // Always divide by total possible weight (1.0), not just completed weight
     return Math.round(weightedProgress / totalPossibleWeight);
+  }
+
+  /**
+   * Calculate total score for a lesson (computed property)
+   */
+  static calculateLessonTotalScore(lessonScore: LessonScore): number {
+    let maxScore = 0;
+    
+    Object.values(lessonScore.exercises).forEach(attempts => {
+      if (attempts && attempts.length > 0) {
+        const bestAttempt = attempts.reduce((best, current) => {
+          const currentScore = this.calculateExerciseScore(current);
+          const bestScore = this.calculateExerciseScore(best);
+          return currentScore > bestScore ? current : best;
+        });
+        const attemptScore = this.calculateExerciseScore(bestAttempt);
+        maxScore = Math.max(maxScore, attemptScore);
+      }
+    });
+    
+    return maxScore;
   }
   
   /**

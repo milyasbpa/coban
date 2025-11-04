@@ -9,19 +9,12 @@ export class ReadingExerciseIntegration {
   static createExerciseAttempt(
     lessonId: string,
     level: string,
-    startTime: string,
-    endTime: string,
     gameStats: ReadingGameStats,
     answers: AnswerResult[]
   ): ExerciseAttempt {
-    const duration = (new Date(endTime).getTime() - new Date(startTime).getTime()) / 1000;
-    
     const questionResults: QuestionResult[] = answers.map((answer, index) => ({
-      questionId: `reading_${lessonId}_${index}`,
       kanjiId: answer.kanji, // Assuming kanji character is the ID
       kanji: answer.kanji,
-      userAnswer: answer.userAnswer,
-      correctAnswer: answer.correctAnswer,
       isCorrect: answer.isCorrect,
     }));
     
@@ -30,13 +23,8 @@ export class ReadingExerciseIntegration {
       lessonId,
       exerciseType: "reading",
       level,
-      startTime,
-      endTime,
       totalQuestions: gameStats.totalQuestions,
       correctAnswers: gameStats.correctAnswers,
-      wrongAnswers: gameStats.wrongAnswers,
-      score: gameStats.score, // Will be recalculated by ScoreCalculator
-      accuracy: (gameStats.correctAnswers / gameStats.totalQuestions) * 100,
       answers: questionResults
     };
   }
@@ -49,11 +37,8 @@ export class ReadingExerciseIntegration {
     
     answers.forEach((answer, index) => {
       const questionResult: QuestionResult = {
-        questionId: `reading_${index}`,
         kanjiId: answer.kanji,
         kanji: answer.kanji,
-        userAnswer: answer.userAnswer,
-        correctAnswer: answer.correctAnswer,
         isCorrect: answer.isCorrect,
       };
       

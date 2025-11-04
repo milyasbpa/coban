@@ -17,12 +17,11 @@ export function ExampleUsageInReadingExercise() {
   const handleExerciseComplete = async (
     lessonId: string,
     level: string,
-    startTime: string, 
     gameStats: any,
     answers: any[]
   ) => {
     // See ExerciseScoreIntegration.completeExercise() below for actual implementation
-    console.log("Exercise completed", { lessonId, level, startTime, gameStats, answers });
+    console.log("Exercise completed", { lessonId, level, gameStats, answers });
   };
   
   // This is just an example - you would integrate this into your actual exercise component
@@ -82,23 +81,16 @@ export class ExerciseScoreIntegration {
     exerciseType: "writing" | "reading" | "pairing",
     lessonId: string,
     level: string,
-    startTime: string,
     results: {
       totalQuestions: number;
       correctAnswers: number;
-      wrongAnswers: number;
       answers: Array<{
         kanji: string;
-        userAnswer: string;
-        correctAnswer: string;
         isCorrect: boolean;
       }>;
     }
   ) {
     const { updateExerciseScore, updateKanjiMastery } = useScoreStore.getState();
-    
-    const endTime = new Date().toISOString();
-    const duration = (new Date(endTime).getTime() - new Date(startTime).getTime()) / 1000;
     
     // Create exercise attempt
     const exerciseAttempt = {
@@ -106,19 +98,11 @@ export class ExerciseScoreIntegration {
       lessonId,
       exerciseType,
       level,
-      startTime,
-      endTime,
       totalQuestions: results.totalQuestions,
       correctAnswers: results.correctAnswers,
-      wrongAnswers: results.wrongAnswers,
-      score: 0, // Will be calculated
-      accuracy: (results.correctAnswers / results.totalQuestions) * 100,
       answers: results.answers.map((answer, index) => ({
-        questionId: `${exerciseType}_${lessonId}_${index}`,
         kanjiId: answer.kanji,
         kanji: answer.kanji,
-        userAnswer: answer.userAnswer,
-        correctAnswer: answer.correctAnswer,
         isCorrect: answer.isCorrect,
       }))
     };

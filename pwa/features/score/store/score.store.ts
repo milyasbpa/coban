@@ -121,10 +121,8 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
         lessonId: attempt.lessonId,
         level: attempt.level,
         category: "kanji",
-        totalScore: 0,
-        completionPercentage: 0,
         exercises: { writing: [], reading: [], pairing: [] },
-        lastAttempt: updatedAttempt.endTime,
+        lastAttempt: new Date().toISOString(),
         status: "not_started" as const,
       };
 
@@ -140,16 +138,8 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
           ...currentLessonScore.exercises,
           [attempt.exerciseType]: exerciseAttempts,
         },
-        totalScore: Math.max(currentLessonScore.totalScore, calculatedScore),
-        lastAttempt: updatedAttempt.endTime,
+        lastAttempt: new Date().toISOString(),
         status: calculatedScore >= 800 ? "completed" : "in_progress",
-        completionPercentage: ScoreCalculator.calculateLessonProgress({
-          ...currentLessonScore,
-          exercises: {
-            ...currentLessonScore.exercises,
-            [attempt.exerciseType]: exerciseAttempts,
-          },
-        }),
       };
 
       // Update overall stats
@@ -253,7 +243,7 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     const lessonScore = currentUserScore.lessonProgress[lessonId];
     if (!lessonScore) return 0;
 
-    return lessonScore.completionPercentage;
+    return ScoreCalculator.calculateLessonProgress(lessonScore);
   },
 
   // Get exercise progress
@@ -271,10 +261,12 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
       const exerciseAttempts = lessonScore.exercises[exerciseType];
       if (!exerciseAttempts || exerciseAttempts.length === 0) return 0;
 
-      const bestAttempt = exerciseAttempts.reduce((best, current) =>
-        current.score > best.score ? current : best
-      );
-      return bestAttempt.accuracy;
+      const bestAttempt = exerciseAttempts.reduce((best, current) => {
+        const currentAccuracy = (current.correctAnswers / current.totalQuestions) * 100;
+        const bestAccuracy = (best.correctAnswers / best.totalQuestions) * 100;
+        return currentAccuracy > bestAccuracy ? current : best;
+      });
+      return (bestAttempt.correctAnswers / bestAttempt.totalQuestions) * 100;
     }
 
     // Return overall exercise type progress

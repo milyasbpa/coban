@@ -55,17 +55,6 @@ export function AnswerBottomSheet() {
         }
 
         const createExerciseAttempt = () => {
-          const startTime = new Date(
-            Date.now() -
-              (gameStats.wrongAnswers * 15000 +
-                gameStats.correctAnswers * 10000)
-          ).toISOString(); // Estimate start time
-          const endTime = new Date().toISOString();
-          const duration = Math.max(
-            60,
-            gameStats.wrongAnswers * 15 + gameStats.correctAnswers * 10
-          ); // Estimate duration
-
           // Create detailed answers from reading game data
           const currentQuestions = isRetryMode ? wrongQuestions : questions;
           const answers: QuestionResult[] = currentQuestions.map(
@@ -74,13 +63,8 @@ export function AnswerBottomSheet() {
               const isCorrect = index < gameStats.correctAnswers;
 
               return {
-                questionId: question.id,
                 kanjiId: question.kanji, // Use the word/phrase as kanji identifier
                 kanji: question.kanji,
-                userAnswer: isCorrect
-                  ? question.correctReading
-                  : "wrong-answer", // Simplified for tracking
-                correctAnswer: question.correctReading,
                 isCorrect,
               };
             }
@@ -91,15 +75,8 @@ export function AnswerBottomSheet() {
             lessonId: lessonId || topicId || "unknown",
             exerciseType: "reading" as const,
             level,
-            startTime,
-            endTime,
             totalQuestions: gameStats.totalQuestions,
             correctAnswers: gameStats.correctAnswers,
-            wrongAnswers: gameStats.wrongAnswers,
-            score: gameStats.score,
-            accuracy: Math.round(
-              (gameStats.correctAnswers / gameStats.totalQuestions) * 100
-            ),
             answers,
           };
         };
@@ -113,16 +90,11 @@ export function AnswerBottomSheet() {
         currentQuestions.forEach((question, index) => {
           const isCorrect = index < gameStats.correctAnswers;
 
-          const questionResult: QuestionResult = {
-            questionId: question.id,
-            kanjiId: question.kanji,
-            kanji: question.kanji,
-            userAnswer: isCorrect ? question.correctReading : "wrong-answer",
-            correctAnswer: question.correctReading,
-            isCorrect,
-          };
-
-          updateKanjiMastery(question.kanji, question.kanji, [questionResult]);
+        const questionResult: QuestionResult = {
+          kanjiId: question.kanji,
+          kanji: question.kanji,
+          isCorrect,
+        };          updateKanjiMastery(question.kanji, question.kanji, [questionResult]);
         });
       };
 
@@ -170,24 +142,16 @@ export function AnswerBottomSheet() {
           {/* Answer Comparison */}
           <div className="bg-background/50 rounded-lg p-4 space-y-2">
             <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Your answer:</span>
+              <span className="text-muted-foreground">Result:</span>
               <span
                 className={cn(
                   "font-semibold",
                   currentResult.isCorrect ? "text-green-600" : "text-red-600"
                 )}
               >
-                {currentResult.userAnswer}
+                {currentResult.isCorrect ? "Correct" : "Incorrect"}
               </span>
             </div>
-            {!currentResult.isCorrect && (
-              <div className="flex justify-between items-center">
-                <span className="text-muted-foreground">Correct answer:</span>
-                <span className="font-semibold text-green-600">
-                  {currentResult.correctAnswer}
-                </span>
-              </div>
-            )}
             <div className="flex justify-between items-center">
               <span className="text-muted-foreground">Meaning:</span>
               <span className="font-semibold text-foreground">
