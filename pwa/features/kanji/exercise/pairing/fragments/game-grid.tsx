@@ -65,9 +65,6 @@ export function GameGrid() {
       }
 
       // Import required utilities for word-based scoring
-      const { ScoreCalculator } = await import(
-        "@/pwa/features/score/utils/score-calculator"
-      );
       const { WordIdGenerator } = await import(
         "@/pwa/features/score/utils/word-id-generator"
       );
