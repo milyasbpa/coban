@@ -148,7 +148,7 @@ export function KanjiLessonsSection() {
                 key={topic.id}
                 level={selectedLevel}
                 name={topic.name}
-                progress={getLessonProgress(topic.id)}
+                progress={getLessonProgress(`topic_${topic.id}`)}
                 kanjiList={category?.kanji_characters || []}
                 onExerciseClick={() => handleTopicExerciseClick(topic.id)}
                 onListClick={() => handleTopicListClick(topic.id)}
@@ -181,15 +181,15 @@ export function KanjiLessonsSection() {
                 const categories = getTopicCategories(selectedLevel);
                 const category = categories[topic.id];
                 return (
-                  <TopicLessonCard
-                    key={topic.id}
-                    level={selectedLevel}
-                    name={topic.name}
-                    progress={getLessonProgress(topic.id)}
-                    kanjiList={category?.kanji_characters || []}
-                    onExerciseClick={() => handleTopicExerciseClick(topic.id)}
-                    onListClick={() => handleTopicListClick(topic.id)}
-                  />
+                <TopicLessonCard
+                  key={topic.id}
+                  level={selectedLevel}
+                  name={topic.name}
+                  progress={getLessonProgress(`topic_${topic.id}`)}
+                  kanjiList={category?.kanji_characters || []}
+                  onExerciseClick={() => handleTopicExerciseClick(topic.id)}
+                  onListClick={() => handleTopicListClick(topic.id)}
+                />
                 );
               })}
             </TabsContent>

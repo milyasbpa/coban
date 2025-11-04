@@ -87,7 +87,7 @@ export function KanjiExerciseModal() {
                     "writing",
                     lessonType === "stroke"
                       ? lessonId?.toString()
-                      : topicId || undefined
+                      : `topic_${topicId}`
                   )
                 )}
                 %
@@ -98,7 +98,7 @@ export function KanjiExerciseModal() {
                 "writing",
                 lessonType === "stroke"
                   ? lessonId?.toString()
-                  : topicId || undefined
+                  : `topic_${topicId}`
               )}
               className="mb-2 h-1.5"
             />
@@ -122,7 +122,7 @@ export function KanjiExerciseModal() {
                     "reading",
                     lessonType === "stroke"
                       ? lessonId?.toString()
-                      : topicId || undefined
+                      : `topic_${topicId}`
                   )
                 )}
                 %
@@ -133,7 +133,7 @@ export function KanjiExerciseModal() {
                 "reading",
                 lessonType === "stroke"
                   ? lessonId?.toString()
-                  : topicId || undefined
+                  : `topic_${topicId}`
               )}
               className="mb-2 h-1.5"
             />
@@ -157,7 +157,7 @@ export function KanjiExerciseModal() {
                     "pairing",
                     lessonType === "stroke"
                       ? lessonId?.toString()
-                      : topicId || undefined
+                      : `topic_${topicId}`
                   )
                 )}
                 %
@@ -168,7 +168,7 @@ export function KanjiExerciseModal() {
                 "pairing",
                 lessonType === "stroke"
                   ? lessonId?.toString()
-                  : topicId || undefined
+                  : `topic_${topicId}`
               )}
               className="mb-2 h-1.5"
             />

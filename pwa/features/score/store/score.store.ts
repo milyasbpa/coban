@@ -50,6 +50,10 @@ interface ScoreState {
   clearAllData: () => Promise<void>;
   resetStatistics: () => Promise<void>;
 
+  // Helper methods for lesson-specific progress
+  getLessonKanjiList: (lessonId: string) => string[];
+  getTopicKanjiList: (topicId: string) => string[];
+
   // Compatibility layer for existing exercise containers
   updateExerciseScore?: (attempt: any) => Promise<void>;
 }
@@ -134,7 +138,13 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     if (!currentUserScore || !currentUserScore.kanjiMastery[kanjiId]) {
       return null;
     }
-    return currentUserScore.kanjiMastery[kanjiId].words[wordId] || null;
+    
+    const kanjiMastery = currentUserScore.kanjiMastery[kanjiId];
+    if (!kanjiMastery.words || typeof kanjiMastery.words !== 'object') {
+      return null;
+    }
+    
+    return kanjiMastery.words[wordId] || null;
   },
 
   // Update individual word mastery (internal method)
@@ -160,16 +170,29 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
-    // Calculate progress based on kanji mastery for this lesson
-    const kanjiArray = Object.values(currentUserScore.kanjiMastery);
-    if (kanjiArray.length === 0) return 0;
+    // Get kanji list specific to this lesson
+    const lessonKanjiList = get().getLessonKanjiList(lessonId);
+    if (lessonKanjiList.length === 0) return 0;
 
-    // Simple average of kanji scores for lesson
-    const totalProgress = kanjiArray.reduce((sum, kanji) => {
-      return sum + ((kanji.overallScore / 100) * 100);
-    }, 0);
+    // Calculate progress only for kanji in this specific lesson
+    let totalProgress = 0;
+    let validKanjiCount = 0;
 
-    return Math.round(totalProgress / kanjiArray.length);
+    lessonKanjiList.forEach(kanjiChar => {
+      // Find kanji mastery by character (since lessonKanjiList contains characters, not IDs)
+      const kanjiMastery = Object.values(currentUserScore.kanjiMastery).find(
+        k => k.character === kanjiChar
+      );
+      
+      if (kanjiMastery) {
+        totalProgress += kanjiMastery.overallScore;
+        validKanjiCount++;
+      }
+      // If kanji not found in mastery, it contributes 0 to progress (not learned yet)
+    });
+
+    // Calculate average: if no kanji learned yet, return 0; otherwise return average
+    return validKanjiCount > 0 ? Math.round(totalProgress / lessonKanjiList.length) : 0;
   },
 
   // Get exercise progress (UI compatibility - uses word-based data)
@@ -180,23 +203,55 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
-    // Calculate exercise-specific progress from word data
-    const kanjiArray = Object.values(currentUserScore.kanjiMastery);
-    if (kanjiArray.length === 0) return 0;
+    // If no lessonId provided, calculate global progress (fallback to old behavior)
+    if (!lessonId) {
+      const kanjiArray = Object.values(currentUserScore.kanjiMastery);
+      if (kanjiArray.length === 0) return 0;
+
+      let totalProgress = 0;
+      let totalWords = 0;
+
+      kanjiArray.forEach(kanji => {
+        if (!kanji.words || typeof kanji.words !== 'object') return;
+        
+        const words = Object.values(kanji.words);
+        words.forEach(word => {
+          const exerciseScore = word.exerciseScores[exerciseType];
+          const maxScore = ScoreCalculator.calculateMaxScorePerExercise(
+            Object.keys(kanji.words).length
+          );
+          totalProgress += maxScore > 0 ? (exerciseScore / maxScore) * 100 : 0;
+          totalWords++;
+        });
+      });
+
+      return totalWords > 0 ? Math.round(totalProgress / totalWords) : 0;
+    }
+
+    // Calculate exercise-specific progress for specific lesson
+    const lessonKanjiList = get().getLessonKanjiList(lessonId);
+    if (lessonKanjiList.length === 0) return 0;
 
     let totalProgress = 0;
     let totalWords = 0;
 
-    kanjiArray.forEach(kanji => {
-      const words = Object.values(kanji.words);
-      words.forEach(word => {
-        const exerciseScore = word.exerciseScores[exerciseType];
-        const maxScore = ScoreCalculator.calculateMaxScorePerExercise(
-          Object.keys(kanji.words).length
-        );
-        totalProgress += maxScore > 0 ? (exerciseScore / maxScore) * 100 : 0;
-        totalWords++;
-      });
+    lessonKanjiList.forEach(kanjiChar => {
+      // Find kanji mastery by character
+      const kanjiMastery = Object.values(currentUserScore.kanjiMastery).find(
+        k => k.character === kanjiChar
+      );
+      
+      if (kanjiMastery && kanjiMastery.words && typeof kanjiMastery.words === 'object') {
+        const words = Object.values(kanjiMastery.words);
+        words.forEach(word => {
+          const exerciseScore = word.exerciseScores[exerciseType];
+          const maxScore = ScoreCalculator.calculateMaxScorePerExercise(
+            Object.keys(kanjiMastery.words).length
+          );
+          totalProgress += maxScore > 0 ? (exerciseScore / maxScore) * 100 : 0;
+          totalWords++;
+        });
+      }
     });
 
     return totalWords > 0 ? Math.round(totalProgress / totalWords) : 0;
@@ -304,6 +359,44 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
           error instanceof Error ? error.message : "Failed to reset statistics",
         isLoading: false,
       });
+    }
+  },
+
+  // Helper methods for lesson-specific progress
+  getLessonKanjiList: (lessonId: string): string[] => {
+    try {
+      // Check if it's a topic lesson (prefixed with "topic_")
+      if (lessonId.startsWith("topic_")) {
+        const topicId = lessonId.replace("topic_", "");
+        return get().getTopicKanjiList(topicId);
+      }
+
+      // Handle stroke-based lessons
+      const { getLessonsByLevel } = require("../../home/utils/lesson");
+      const { selectedLevel } = require("../../home/store/home-settings.store").useHomeSettingsStore.getState();
+      
+      const lessons = getLessonsByLevel(selectedLevel || "N5");
+      const lesson = lessons.find((l: any) => l.id.toString() === lessonId);
+      
+      return lesson ? lesson.kanjiList : [];
+    } catch (error) {
+      console.error("ScoreStore: Failed to get lesson kanji list", error);
+      return [];
+    }
+  },
+
+  getTopicKanjiList: (topicId: string): string[] => {
+    try {
+      const { getTopicCategories } = require("../../kanji/lesson/utils/topic");
+      const { selectedLevel } = require("../../home/store/home-settings.store").useHomeSettingsStore.getState();
+      
+      const categories = getTopicCategories(selectedLevel || "N5");
+      const category = categories[topicId];
+      
+      return category ? category.kanji_characters || [] : [];
+    } catch (error) {
+      console.error("ScoreStore: Failed to get topic kanji list", error);
+      return [];
     }
   },
 
