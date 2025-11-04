@@ -118,44 +118,50 @@ export function WritingExerciseContainer() {
           );
         }
 
-        const createExerciseAttempt = () => {
-          // Create detailed answers from writing game data
-          const answers: QuestionResult[] = questions.map((question, index) => {
-            const isCorrect = index < score; // Simple estimation based on score
+        // Import required utilities for word-based scoring
+        const { ScoreCalculator } = await import("@/pwa/features/score/utils/score-calculator");
+        const { WordIdGenerator } = await import("@/pwa/features/score/utils/word-id-generator");
+        const { KanjiWordMapper } = await import("@/pwa/features/score/utils/kanji-word-mapper");
 
-            return {
-              kanjiId: question.kanji,
-              kanji: question.kanji,
-              isCorrect,
-            };
-          });
+        // Create word-based question results using accurate kanji mapping
+        const wordResults: QuestionResult[] = questions.map((question, index) => {
+          const isCorrect = index < score; // Simple estimation based on score
+          
+          // Get accurate kanji information using mapper
+          const kanjiInfo = KanjiWordMapper.getKanjiInfo(question.kanji, level);
+          
+          // Generate word ID for this word
+          const wordId = WordIdGenerator.generateWordId(question.kanji, kanjiInfo.kanjiId, index);
 
           return {
-            attemptId: `writing-${lessonId || topicId}-${Date.now()}`,
-            lessonId: lessonId || topicId || "unknown",
-            exerciseType: "writing" as const,
-            level,
-            totalQuestions: questions.length,
-            correctAnswers: score,
-            answers,
-          };
-        };
-
-        // Update exercise score in the system
-        const exerciseAttempt = createExerciseAttempt();
-        await updateExerciseScore(exerciseAttempt);
-
-        // Update individual kanji mastery
-        questions.forEach((question, index) => {
-          const isCorrect = index < score;
-
-          const questionResult: QuestionResult = {
-            kanjiId: question.kanji,
-            kanji: question.kanji,
+            kanjiId: kanjiInfo.kanjiId,
+            kanji: kanjiInfo.kanjiCharacter,
             isCorrect,
+            wordId,
+            word: question.kanji,
+            exerciseType: "writing" as const,
           };
+        });
 
-          updateKanjiMastery(question.kanji, question.kanji, [questionResult]);
+        // Group results by kanji for word-based processing
+        const resultsByKanji = wordResults.reduce((acc, result) => {
+          if (!acc[result.kanjiId]) {
+            acc[result.kanjiId] = [];
+          }
+          acc[result.kanjiId].push(result);
+          return acc;
+        }, {} as Record<string, QuestionResult[]>);
+
+        // Update word-based scoring for each kanji
+        Object.entries(resultsByKanji).forEach(([kanjiId, results]) => {
+          // Get accurate total words for this kanji
+          const firstWord = results[0]?.word;
+          const totalWordsInKanji = firstWord ? KanjiWordMapper.getTotalWordsForKanji(firstWord, level) : 1;
+          
+          // Update each word's mastery
+          results.forEach(result => {
+            updateKanjiMastery(kanjiId, result.kanji, [result]);
+          });
         });
       }
     };

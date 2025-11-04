@@ -1,8 +1,14 @@
 import localforage from "localforage";
 import {
   UserScore,
-  ExerciseAttempt,
+  WordMasteryLevel,
+  KanjiMasteryLevel,
+  QuestionResult,
+  DEFAULT_WORD_MASTERY,
+  DEFAULT_KANJI_MASTERY,
 } from "../model/score";
+
+
 
 // Configure LocalForage instances for different data types
 const scoreStorage = localforage.createInstance({
@@ -48,41 +54,8 @@ export class StorageManager {
     const defaultScore: UserScore = {
       userId,
       level,
-      category: "kanji",
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
-      overallStats: {
-        totalScore: 0,
-        totalExercisesCompleted: 0,
-        averageAccuracy: 0,
-      },
-      lessonProgress: {},
-      exerciseScores: {
-        writing: {
-          totalAttempts: 0,
-          bestScore: 0,
-          averageScore: 0,
-          totalCorrect: 0,
-          totalQuestions: 0,
-          overallAccuracy: 0,
-        },
-        reading: {
-          totalAttempts: 0,
-          bestScore: 0,
-          averageScore: 0,
-          totalCorrect: 0,
-          totalQuestions: 0,
-          overallAccuracy: 0,
-        },
-        pairing: {
-          totalAttempts: 0,
-          bestScore: 0,
-          averageScore: 0,
-          totalCorrect: 0,
-          totalQuestions: 0,
-          overallAccuracy: 0,
-        },
-      },
       kanjiMastery: {},
     };
 
@@ -90,74 +63,139 @@ export class StorageManager {
     return defaultScore;
   }
 
-  // ============ Exercise Attempt Management ============
+  // ============ Word-Based Data Management ============
 
-  static async saveExerciseAttempt(attempt: ExerciseAttempt): Promise<void> {
-    const key = `${attempt.lessonId}_${attempt.exerciseType}_${attempt.attemptId}`;
-    await exerciseStorage.setItem(key, attempt);
+  /**
+   * Save or update word mastery data
+   */
+  static async saveWordMastery(
+    userId: string,
+    kanjiId: string,
+    wordId: string,
+    wordMastery: WordMasteryLevel
+  ): Promise<void> {
+    const userScore = await this.getUserScore(userId);
+    if (!userScore) return;
+
+    // Initialize kanji mastery if it doesn't exist
+    if (!userScore.kanjiMastery[kanjiId]) {
+      userScore.kanjiMastery[kanjiId] = {
+        kanjiId,
+        character: wordMastery.kanjiId, // Use as character for now
+        level: userScore.level,
+        ...DEFAULT_KANJI_MASTERY,
+        words: {},
+      };
+    }
+
+    // Update word mastery
+    userScore.kanjiMastery[kanjiId].words[wordId] = wordMastery;
+
+    // Recalculate kanji mastery
+    const { ScoreCalculator } = await import("../utils/score-calculator");
+    userScore.kanjiMastery[kanjiId] = ScoreCalculator.calculateKanjiMastery(
+      userScore.kanjiMastery[kanjiId]
+    );
+
+    await this.saveUserScore(userId, userScore);
   }
 
-  static async getExerciseAttempt(
-    attemptId: string
-  ): Promise<ExerciseAttempt | null> {
-    return await exerciseStorage.getItem(attemptId);
+  /**
+   * Get word mastery for specific word
+   */
+  static async getWordMastery(
+    userId: string,
+    kanjiId: string,
+    wordId: string
+  ): Promise<WordMasteryLevel | null> {
+    const userScore = await this.getUserScore(userId);
+    if (!userScore || !userScore.kanjiMastery[kanjiId]) {
+      return null;
+    }
+
+    return userScore.kanjiMastery[kanjiId].words[wordId] || null;
   }
 
-  static async getRecentAttempts(
-    limit: number = 10
-  ): Promise<ExerciseAttempt[]> {
-    const attempts: ExerciseAttempt[] = [];
+  /**
+   * Get all words for a specific kanji
+   */
+  static async getKanjiWords(
+    userId: string,
+    kanjiId: string
+  ): Promise<WordMasteryLevel[]> {
+    const userScore = await this.getUserScore(userId);
+    if (!userScore || !userScore.kanjiMastery[kanjiId]) {
+      return [];
+    }
 
-    await exerciseStorage.iterate((attempt: ExerciseAttempt) => {
-      attempts.push(attempt);
-    });
-
-    return attempts
-      .sort((a, b) => {
-        // Extract timestamp from attemptId (format: "{type}-{lesson}-{timestamp}")
-        const aTimestamp = parseInt(a.attemptId.split('-').pop() || '0');
-        const bTimestamp = parseInt(b.attemptId.split('-').pop() || '0');
-        return bTimestamp - aTimestamp;
-      })
-      .slice(0, limit);
+    return Object.values(userScore.kanjiMastery[kanjiId].words);
   }
 
-  static async getAttemptsByLesson(
-    lessonId: string
-  ): Promise<ExerciseAttempt[]> {
-    const attempts: ExerciseAttempt[] = [];
+  /**
+   * Save multiple question results (batch update)
+   */
+  static async saveQuestionResults(
+    userId: string,
+    results: QuestionResult[]
+  ): Promise<void> {
+    const userScore = await this.getUserScore(userId);
+    if (!userScore) return;
 
-    await exerciseStorage.iterate((attempt: ExerciseAttempt) => {
-      if (attempt.lessonId === lessonId) {
-        attempts.push(attempt);
+    const { ScoreCalculator } = await import("../utils/score-calculator");
+    const { KanjiWordMapper } = await import("../utils/kanji-word-mapper");
+
+    // Group results by kanji
+    const resultsByKanji = results.reduce((acc, result) => {
+      if (!acc[result.kanjiId]) {
+        acc[result.kanjiId] = [];
       }
-    });
+      acc[result.kanjiId].push(result);
+      return acc;
+    }, {} as Record<string, QuestionResult[]>);
 
-    return attempts.sort((a, b) => {
-      // Extract timestamp from attemptId (format: "{type}-{lesson}-{timestamp}")
-      const aTimestamp = parseInt(a.attemptId.split('-').pop() || '0');
-      const bTimestamp = parseInt(b.attemptId.split('-').pop() || '0');
-      return bTimestamp - aTimestamp;
-    });
-  }
-
-  static async getAttemptsByExerciseType(
-    exerciseType: "writing" | "reading" | "pairing"
-  ): Promise<ExerciseAttempt[]> {
-    const attempts: ExerciseAttempt[] = [];
-
-    await exerciseStorage.iterate((attempt: ExerciseAttempt) => {
-      if (attempt.exerciseType === exerciseType) {
-        attempts.push(attempt);
+    // Process each kanji's results
+    for (const [kanjiId, kanjiResults] of Object.entries(resultsByKanji)) {
+      // Initialize kanji mastery if it doesn't exist
+      if (!userScore.kanjiMastery[kanjiId]) {
+        userScore.kanjiMastery[kanjiId] = {
+          kanjiId,
+          character: kanjiResults[0].kanji,
+          level: userScore.level,
+          ...DEFAULT_KANJI_MASTERY,
+          words: {},
+        };
       }
-    });
 
-    return attempts.sort((a, b) => {
-      // Extract timestamp from attemptId (format: "{type}-{lesson}-{timestamp}")
-      const aTimestamp = parseInt(a.attemptId.split('-').pop() || '0');
-      const bTimestamp = parseInt(b.attemptId.split('-').pop() || '0');
-      return bTimestamp - aTimestamp;
-    });
+      // Process each word result
+      for (const result of kanjiResults) {
+        if (result.wordId && result.word) {
+          // Initialize word mastery if it doesn't exist
+          if (!userScore.kanjiMastery[kanjiId].words[result.wordId]) {
+            userScore.kanjiMastery[kanjiId].words[result.wordId] = {
+              wordId: result.wordId,
+              word: result.word,
+              kanjiId: result.kanjiId,
+              ...DEFAULT_WORD_MASTERY,
+            };
+          }
+
+          // Get total words for accurate score calculation
+          const totalWords = KanjiWordMapper.getTotalWordsForKanji(result.word, userScore.level);
+
+          // Update word mastery with new result
+          const currentWord = userScore.kanjiMastery[kanjiId].words[result.wordId];
+          userScore.kanjiMastery[kanjiId].words[result.wordId] = 
+            ScoreCalculator.updateWordMastery(currentWord, result, totalWords);
+        }
+      }
+
+      // Recalculate kanji mastery after all word updates
+      userScore.kanjiMastery[kanjiId] = ScoreCalculator.calculateKanjiMastery(
+        userScore.kanjiMastery[kanjiId]
+      );
+    }
+
+    await this.saveUserScore(userId, userScore);
   }
 
   // ============ Data Management & Cleanup ============
@@ -166,11 +204,12 @@ export class StorageManager {
     // Clear user scores
     await scoreStorage.removeItem(userId);
 
-    // Clear exercise attempts
+    // Clear word-based exercise data (if stored separately)
     const keysToRemove: string[] = [];
-    await exerciseStorage.iterate((attempt: ExerciseAttempt, key: string) => {
-      // Assuming we can identify user data by some pattern or we store userId in attempts
-      keysToRemove.push(key);
+    await exerciseStorage.iterate((data: any, key: string) => {
+      if (key.startsWith(userId)) {
+        keysToRemove.push(key);
+      }
     });
 
     for (const key of keysToRemove) {
@@ -208,11 +247,14 @@ export class StorageManager {
     };
   }
 
-  // ============ Migration & Maintenance ============
+  // ============ Maintenance ============
 
-  static async migrateData(): Promise<void> {
-    // Future migration logic can be added here
-    console.info("StorageManager: No migrations needed");
+  /**
+   * Simple data validation and cleanup
+   */
+  static async validateAndCleanup(): Promise<void> {
+    console.info("StorageManager: Performing data validation and cleanup");
+    // Simple validation - future cleanup logic can be added here if needed
   }
 
   static async validateStorage(): Promise<boolean> {
@@ -227,6 +269,91 @@ export class StorageManager {
       return retrieved !== null;
     } catch (error) {
       console.error("StorageManager: Storage validation failed", error);
+      return false;
+    }
+  }
+
+  // ============ Word-Based Analytics ============
+
+  /**
+   * Get learning progress analytics for a user
+   */
+  static async getUserAnalytics(userId: string): Promise<{
+    totalKanji: number;
+    totalWords: number;
+    masteredWords: number;
+    averageProgress: number;
+    strongestKanji: string[];
+    weakestKanji: string[];
+    recentActivity: string;
+  }> {
+    const userScore = await this.getUserScore(userId);
+    if (!userScore) {
+      return {
+        totalKanji: 0,
+        totalWords: 0,
+        masteredWords: 0,
+        averageProgress: 0,
+        strongestKanji: [],
+        weakestKanji: [],
+        recentActivity: new Date().toISOString(),
+      };
+    }
+
+    const { ScoreCalculator } = await import("../utils/score-calculator");
+    const report = ScoreCalculator.generateMasteryReport(userScore);
+    
+    const kanjiArray = Object.values(userScore.kanjiMastery);
+    const sortedByScore = kanjiArray.sort((a, b) => b.overallScore - a.overallScore);
+    
+    return {
+      totalKanji: kanjiArray.length,
+      totalWords: report.totalWords,
+      masteredWords: report.masteredWords,
+      averageProgress: ScoreCalculator.calculateUserProgress(userScore),
+      strongestKanji: sortedByScore.slice(0, 5).map(k => k.character),
+      weakestKanji: sortedByScore.slice(-5).map(k => k.character),
+      recentActivity: userScore.updatedAt,
+    };
+  }
+
+  /**
+   * Export user data for backup or analysis
+   */
+  static async exportUserData(userId: string): Promise<string> {
+    const userScore = await this.getUserScore(userId);
+    if (!userScore) {
+      throw new Error(`User ${userId} not found`);
+    }
+
+    const analytics = await this.getUserAnalytics(userId);
+    
+    const exportData = {
+      version: "1.0",
+      exportDate: new Date().toISOString(),
+      userData: userScore,
+      analytics,
+    };
+
+    return JSON.stringify(exportData, null, 2);
+  }
+
+  /**
+   * Import user data from backup
+   */
+  static async importUserData(userId: string, importData: string): Promise<boolean> {
+    try {
+      const data = JSON.parse(importData);
+      
+      if (data.version && data.userData) {
+        await this.saveUserScore(userId, data.userData);
+        console.log(`Successfully imported data for user: ${userId}`);
+        return true;
+      } else {
+        throw new Error("Invalid import data format");
+      }
+    } catch (error) {
+      console.error(`Failed to import data for user ${userId}:`, error);
       return false;
     }
   }

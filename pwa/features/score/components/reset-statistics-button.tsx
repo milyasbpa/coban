@@ -15,24 +15,43 @@ import { Badge } from "@/pwa/core/components/badge";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { StorageManager } from "@/pwa/features/score/storage/storage";
 import { devLog } from "@/pwa/core/config/env";
-import { RotateCcw, Database, Trash2, AlertTriangle } from "lucide-react";
+import { RotateCcw, Database, Trash2, AlertTriangle, Download } from "lucide-react";
 
 export function ResetStatisticsButton() {
   const [isOpen, setIsOpen] = useState(false);
   const [isResetting, setIsResetting] = useState(false);
+  const [isExporting, setIsExporting] = useState(false);
   const [storageInfo, setStorageInfo] = useState<{
     scoreStorageLength: number;
     exerciseStorageLength: number;
     analyticsStorageLength: number;
   } | null>(null);
+  const [userStats, setUserStats] = useState<{
+    totalWords: number;
+    masteredWords: number;
+    totalKanji: number;
+    averageProgress: number;
+  } | null>(null);
 
-  const { resetStatistics, currentUserScore } = useScoreStore();
+  const { resetStatistics, currentUserScore, clearAllData } = useScoreStore();
 
   const handleOpenDialog = async () => {
     setIsOpen(true);
     try {
+      // Get storage info
       const info = await StorageManager.getStorageInfo();
       setStorageInfo(info);
+
+      // Get user analytics if user exists
+      if (currentUserScore) {
+        const analytics = await StorageManager.getUserAnalytics(currentUserScore.userId);
+        setUserStats({
+          totalWords: analytics.totalWords,
+          masteredWords: analytics.masteredWords,
+          totalKanji: analytics.totalKanji,
+          averageProgress: analytics.averageProgress,
+        });
+      }
     } catch (error) {
       devLog("Failed to get storage info", error);
     }
@@ -59,7 +78,7 @@ export function ResetStatisticsButton() {
   const handleClearAllData = async () => {
     setIsResetting(true);
     try {
-      await StorageManager.clearAllData();
+      await clearAllData();
       devLog("All data cleared successfully");
       setIsOpen(false);
       // Optionally reload the page to reset the app state
@@ -70,6 +89,35 @@ export function ResetStatisticsButton() {
       devLog("Failed to clear all data", error);
     } finally {
       setIsResetting(false);
+    }
+  };
+
+  const handleExportData = async () => {
+    if (!currentUserScore) {
+      devLog("No user score available for export");
+      return;
+    }
+
+    setIsExporting(true);
+    try {
+      const exportData = await StorageManager.exportUserData(currentUserScore.userId);
+      
+      // Create and download file
+      const blob = new Blob([exportData], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `coban-backup-${currentUserScore.userId}-${new Date().toISOString().split('T')[0]}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+      
+      devLog("Data exported successfully");
+    } catch (error) {
+      devLog("Failed to export data", error);
+    } finally {
+      setIsExporting(false);
     }
   };
 
@@ -145,15 +193,27 @@ export function ResetStatisticsButton() {
                   <Badge variant="outline">{currentUserScore.level}</Badge>
                 </div>
                 <div className="flex justify-between">
-                  <span>Total Score:</span>
+                  <span>Total Kanji:</span>
                   <Badge variant="outline">
-                    {currentUserScore.overallStats.totalScore}
+                    {userStats?.totalKanji || Object.keys(currentUserScore.kanjiMastery).length}
                   </Badge>
                 </div>
                 <div className="flex justify-between">
-                  <span>Exercises Completed:</span>
+                  <span>Total Words:</span>
                   <Badge variant="outline">
-                    {currentUserScore.overallStats.totalExercisesCompleted}
+                    {userStats?.totalWords || 0}
+                  </Badge>
+                </div>
+                <div className="flex justify-between">
+                  <span>Mastered Words:</span>
+                  <Badge variant="outline">
+                    {userStats?.masteredWords || 0}
+                  </Badge>
+                </div>
+                <div className="flex justify-between">
+                  <span>Average Progress:</span>
+                  <Badge variant="outline">
+                    {userStats?.averageProgress?.toFixed(1) || '0'}%
                   </Badge>
                 </div>
               </div>
@@ -163,12 +223,23 @@ export function ResetStatisticsButton() {
 
         <DialogFooter className="sm:justify-start">
           <div className="flex flex-col gap-2 w-full">
+            {/* Export Data Button */}
+            <Button
+              variant="outline"
+              onClick={handleExportData}
+              disabled={isExporting || !currentUserScore}
+              className="w-full justify-start bg-blue-50 border-blue-200 text-blue-700 hover:bg-blue-100"
+            >
+              <Download className="w-4 h-4 mr-2" />
+              {isExporting ? "Exporting..." : "Export User Data (Backup)"}
+            </Button>
+
             {/* Reset Statistics Button */}
             <Button
               variant="outline"
               onClick={handleResetStatistics}
               disabled={isResetting || !currentUserScore}
-              className="w-full justify-start"
+              className="w-full justify-start bg-yellow-50 border-yellow-200 text-yellow-700 hover:bg-yellow-100"
             >
               <RotateCcw className="w-4 h-4 mr-2" />
               {isResetting ? "Resetting..." : "Reset Current User Statistics"}
@@ -189,7 +260,7 @@ export function ResetStatisticsButton() {
             <Button
               variant="ghost"
               onClick={() => setIsOpen(false)}
-              disabled={isResetting}
+              disabled={isResetting || isExporting}
               className="w-full"
             >
               Cancel

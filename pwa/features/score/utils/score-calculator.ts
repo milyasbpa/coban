@@ -1,208 +1,216 @@
 import { 
-  ExerciseAttempt, 
   QuestionResult, 
+  WordMasteryLevel,
   KanjiMasteryLevel, 
   UserScore,
-  LessonScore,
-  ExerciseTypeScore,
-  OverallProgress
+  ExerciseType,
+  ColorCode,
+  MAX_SCORE,
+  EXERCISE_TYPES
 } from '../model/score';
 
 export class ScoreCalculator {
-  // ============ Exercise Scoring ============
+  
+  // ============ Word-Based Scoring Core ============
   
   /**
-   * Calculate exercise score based on accuracy, speed, and difficulty
+   * Calculate maximum score per word based on formula: 100 / (total words in kanji × 3)
+   * @param totalWordsInKanji Total number of words for this kanji
+   * @returns Maximum score that can be earned per word
    */
-  static calculateExerciseScore(attempt: ExerciseAttempt): number {
-    const accuracy = (attempt.correctAnswers / attempt.totalQuestions) * 100;
-    
-    // Base score from accuracy (0-800 points)
-    const accuracyScore = accuracy * 8;
-    
-    // Question count bonus (0-200 points) - more questions = better
-    const questionBonus = Math.min(200, attempt.totalQuestions * 10);
-    
-    const totalScore = Math.round(accuracyScore + questionBonus);
-    return Math.min(1000, Math.max(0, totalScore)); // Cap between 0-1000
+  static calculateMaxScorePerWord(totalWordsInKanji: number): number {
+    if (totalWordsInKanji <= 0) return 0;
+    return MAX_SCORE / (totalWordsInKanji * EXERCISE_TYPES.length);
   }
   
-  // ============ Kanji Mastery Calculation ============
+  /**
+   * Calculate maximum score per exercise: maxScorePerWord / 3
+   * @param totalWordsInKanji Total number of words for this kanji
+   * @returns Maximum score per exercise type (writing, reading, pairing)
+   */
+  static calculateMaxScorePerExercise(totalWordsInKanji: number): number {
+    return this.calculateMaxScorePerWord(totalWordsInKanji) / EXERCISE_TYPES.length;
+  }
   
   /**
-   * Calculate kanji mastery level using spaced repetition principles
+   * Calculate word mastery score from QuestionResults
+   * @param results Array of question results for this specific word
+   * @param totalWordsInKanji Total words in parent kanji (for score calculation)
+   * @returns Updated WordMasteryLevel
    */
-  static calculateKanjiMastery(
-    kanjiId: string, 
-    character: string,
-    level: string,
-    recentResults: QuestionResult[],
-    currentMastery?: KanjiMasteryLevel
-  ): KanjiMasteryLevel {
+  static calculateWordScore(
+    results: QuestionResult[], 
+    currentWord: WordMasteryLevel,
+    totalWordsInKanji: number
+  ): WordMasteryLevel {
+    const maxScorePerExercise = this.calculateMaxScorePerExercise(totalWordsInKanji);
     const now = new Date().toISOString();
     
-    // Initialize or get current mastery data
-    const totalSeen = (currentMastery?.totalSeen || 0) + recentResults.length;
-    const previousCorrect = currentMastery?.totalCorrect || 0;
-    const newCorrect = recentResults.filter(r => r.isCorrect).length;
-    const totalCorrect = previousCorrect + newCorrect;
+    // Initialize exercise scores from current state
+    const exerciseScores = { ...currentWord.exerciseScores };
+    let totalAttempts = currentWord.totalAttempts;
+    let correctAttempts = currentWord.correctAttempts;
     
-    // Calculate consecutive correct streak
-    let consecutiveCorrect = currentMastery?.consecutiveCorrect || 0;
-    for (let i = recentResults.length - 1; i >= 0; i--) {
-      if (recentResults[i].isCorrect) {
-        consecutiveCorrect++;
-      } else {
-        consecutiveCorrect = 0;
-        break;
+    // Process each new result
+    results.forEach(result => {
+      if (result.wordId === currentWord.wordId) {
+        totalAttempts++;
+        if (result.isCorrect) {
+          correctAttempts++;
+          // Award full score per exercise type
+          exerciseScores[result.exerciseType] = maxScorePerExercise;
+        }
+        // Note: Incorrect answers don't reduce scores in this system
       }
-    }
+    });
     
-    // Calculate confidence score (0-100)
-    const overallAccuracy = totalSeen > 0 ? (totalCorrect / totalSeen) * 100 : 0;
-    const recentAccuracy = recentResults.length > 0 ? 
-      (recentResults.filter(r => r.isCorrect).length / recentResults.length) * 100 : 0;
-    
-    // Weight recent performance more heavily
-    const confidenceScore = Math.round(
-      (overallAccuracy * 0.3) + (recentAccuracy * 0.7)
-    );
-    
-    // Determine mastery level
-    const masteryLevel = this.determineMasteryLevel(confidenceScore, consecutiveCorrect, totalSeen);
+    // Calculate aggregate mastery score (sum of all exercise scores)
+    const masteryScore = exerciseScores.writing + exerciseScores.reading + exerciseScores.pairing;
     
     return {
-      kanjiId,
-      character,
-      level,
-      masteryLevel,
-      confidenceScore,
-      totalSeen,
-      totalCorrect,
-      consecutiveCorrect,
+      ...currentWord,
+      masteryScore,
+      exerciseScores,
+      totalAttempts,
+      correctAttempts,
       lastSeen: now,
     };
   }
   
-  private static determineMasteryLevel(
-    confidenceScore: number, 
-    consecutiveCorrect: number,
-    totalSeen: number
-  ): "beginner" | "intermediate" | "advanced" | "master" {
-    if (confidenceScore >= 90 && consecutiveCorrect >= 5 && totalSeen >= 10) {
-      return "master";
-    } else if (confidenceScore >= 75 && consecutiveCorrect >= 3 && totalSeen >= 5) {
-      return "advanced";
-    } else if (confidenceScore >= 60 && totalSeen >= 3) {
-      return "intermediate";
-    } else {
-      return "beginner";
-    }
-  }
-  
-  // ============ Progress Calculations ============
-  
   /**
-   * Update exercise type score with new attempt
+   * Calculate kanji mastery from all its words
+   * @param kanjiMastery Current kanji mastery level
+   * @returns Updated kanji mastery with computed values
    */
-  static updateExerciseTypeScore(
-    currentScore: ExerciseTypeScore,
-    newAttempt: ExerciseAttempt
-  ): ExerciseTypeScore {
-    const totalAttempts = currentScore.totalAttempts + 1;
-    const newScore = this.calculateExerciseScore(newAttempt);
-    const bestScore = Math.max(currentScore.bestScore, newScore);
-    const totalCorrect = currentScore.totalCorrect + newAttempt.correctAnswers;
-    const totalQuestions = currentScore.totalQuestions + newAttempt.totalQuestions;
-    const overallAccuracy = totalQuestions > 0 ? (totalCorrect / totalQuestions) * 100 : 0;
+  static calculateKanjiMastery(kanjiMastery: KanjiMasteryLevel): KanjiMasteryLevel {
+    const words = Object.values(kanjiMastery.words);
+    const now = new Date().toISOString();
     
-    // Calculate average score
-    const totalScoreSum = currentScore.averageScore * (totalAttempts - 1) + newScore;
-    const averageScore = totalScoreSum / totalAttempts;
+    // Calculate overall score (sum of all word mastery scores)
+    const overallScore = words.reduce((sum, word) => sum + word.masteryScore, 0);
+    
+    // Determine color code based on completion percentage
+    const colorCode = this.getColorFromScore(overallScore);
+    
+    // Find most recent activity across all words
+    const lastSeen = words.length > 0 
+      ? words.reduce((latest, word) => word.lastSeen > latest ? word.lastSeen : latest, words[0].lastSeen)
+      : now;
     
     return {
-      totalAttempts,
-      bestScore,
-      averageScore,
-      totalCorrect,
-      totalQuestions,
-      overallAccuracy,
+      ...kanjiMastery,
+      overallScore,
+      colorCode,
+      lastSeen,
     };
   }
   
   /**
-   * Calculate lesson progress percentage
+   * Update word mastery with new question result
+   * @param currentWord Current word mastery state
+   * @param result New question result
+   * @param totalWordsInKanji Total words in parent kanji
+   * @returns Updated word mastery
    */
-  static calculateLessonProgress(lessonScore: LessonScore): number {
-    const exerciseWeights = { writing: 1/3, reading: 1/3, pairing: 1/3 };
-    const totalPossibleWeight = 1.0; // Total weight is always 1.0 (100%)
-    let weightedProgress = 0;
-    
-    Object.entries(exerciseWeights).forEach(([exerciseType, weight]) => {
-      const attempts = lessonScore.exercises[exerciseType as keyof typeof lessonScore.exercises];
-      if (attempts && attempts.length > 0) {
-        const bestAttempt = attempts.reduce((best, current) => {
-          const currentScore = this.calculateExerciseScore(current);
-          const bestScore = this.calculateExerciseScore(best);
-          return currentScore > bestScore ? current : best;
-        });
-        // Add weighted progress for completed exercises
-        const accuracy = (bestAttempt.correctAnswers / bestAttempt.totalQuestions) * 100;
-        weightedProgress += (accuracy * weight);
-      }
-      // Note: Incomplete exercises contribute 0 to weightedProgress
-    });
-    
-    // Always divide by total possible weight (1.0), not just completed weight
-    return Math.round(weightedProgress / totalPossibleWeight);
+  static updateWordMastery(
+    currentWord: WordMasteryLevel,
+    result: QuestionResult,
+    totalWordsInKanji: number
+  ): WordMasteryLevel {
+    return this.calculateWordScore([result], currentWord, totalWordsInKanji);
   }
-
+  
+  // ============ Color and Progress Logic ============
+  
   /**
-   * Calculate total score for a lesson (computed property)
+   * Get color code based on score completion
+   * @param score Current score
+   * @returns Color code for UI visualization
    */
-  static calculateLessonTotalScore(lessonScore: LessonScore): number {
-    let maxScore = 0;
+  static getColorFromScore(score: number): ColorCode {
+    const percentage = (score / MAX_SCORE) * 100;
     
-    Object.values(lessonScore.exercises).forEach(attempts => {
-      if (attempts && attempts.length > 0) {
-        const bestAttempt = attempts.reduce((best, current) => {
-          const currentScore = this.calculateExerciseScore(current);
-          const bestScore = this.calculateExerciseScore(best);
-          return currentScore > bestScore ? current : best;
-        });
-        const attemptScore = this.calculateExerciseScore(bestAttempt);
-        maxScore = Math.max(maxScore, attemptScore);
-      }
-    });
-    
-    return maxScore;
+    if (percentage >= 90) return "green";    // Master level
+    if (percentage >= 70) return "yellow";   // Advanced level
+    if (percentage >= 40) return "orange";   // Intermediate level
+    return "red";                            // Beginner level
   }
   
   /**
-   * Calculate overall user progress
+   * Calculate user progress across all kanji
+   * @param userScore Current user score state
+   * @returns Progress percentage (0-100)
    */
-  static calculateOverallProgress(userScore: UserScore): OverallProgress {
-    const levelOrder = ["N5", "N4", "N3", "N2", "N1"];
-    const currentLevelIndex = levelOrder.indexOf(userScore.level);
-    const nextLevel = currentLevelIndex < levelOrder.length - 1 ? levelOrder[currentLevelIndex + 1] : null;
+  static calculateUserProgress(userScore: UserScore): number {
+    const kanjiArray = Object.values(userScore.kanjiMastery);
+    if (kanjiArray.length === 0) return 0;
     
-    // Calculate progress to next level based on completed lessons and mastery
-    const totalLessons = Object.keys(userScore.lessonProgress).length;
-    const completedLessons = Object.values(userScore.lessonProgress)
-      .filter(lesson => lesson.status === "completed" || lesson.status === "mastered").length;
+    const totalScore = kanjiArray.reduce((sum, kanji) => sum + kanji.overallScore, 0);
+    const maxPossibleScore = kanjiArray.length * MAX_SCORE;
     
-    const masteredKanji = Object.values(userScore.kanjiMastery)
-      .filter(kanji => kanji.masteryLevel === "master").length;
+    return Math.round((totalScore / maxPossibleScore) * 100);
+  }
+  
+  /**
+   * Generate mastery report for analytics
+   * @param userScore Current user score state
+   * @returns Detailed mastery analysis
+   */
+  static generateMasteryReport(userScore: UserScore): {
+    totalWords: number;
+    masteredWords: number;
+    weakWords: string[];
+    strongWords: string[];
+  } {
+    const allWords: WordMasteryLevel[] = [];
     
-    const progressToNextLevel = totalLessons > 0 ? Math.round((completedLessons / totalLessons) * 100) : 0;
+    // Collect all words from all kanji
+    Object.values(userScore.kanjiMastery).forEach(kanji => {
+      allWords.push(...Object.values(kanji.words));
+    });
+    
+    const totalWords = allWords.length;
+    const masteredWords = allWords.filter(word => {
+      const parentKanji = Object.values(userScore.kanjiMastery).find(k => k.kanjiId === word.kanjiId);
+      const totalWordsInKanji = parentKanji ? Object.values(parentKanji.words).length : 1;
+      const maxScore = this.calculateMaxScorePerWord(totalWordsInKanji);
+      return word.masteryScore >= maxScore * 0.9; // 90% completion = mastered
+    }).length;
+    
+    // Sort words by mastery score for weak/strong identification
+    const sortedWords = allWords.sort((a, b) => b.masteryScore - a.masteryScore);
+    const weakWords = sortedWords.slice(-5).map(w => w.word); // Bottom 5
+    const strongWords = sortedWords.slice(0, 5).map(w => w.word); // Top 5
     
     return {
-      currentLevel: userScore.level,
-      nextLevel,
-      progressToNextLevel,
-      totalKanjiLearned: Object.keys(userScore.kanjiMastery).length,
-      masteredKanji,
+      totalWords,
+      masteredWords,
+      weakWords,
+      strongWords,
     };
   }
   
+  /**
+   * Convert legacy QuestionResult to new word-based format
+   * @param legacy Legacy question result
+   * @param wordId Generated word identifier
+   * @param word The actual word text
+   * @param exerciseType Type of exercise
+   * @returns New format QuestionResult
+   */
+  static convertLegacyQuestionResult(
+    legacy: { kanjiId: string; kanji: string; isCorrect: boolean },
+    wordId: string,
+    word: string,
+    exerciseType: ExerciseType
+  ): QuestionResult {
+    return {
+      kanjiId: legacy.kanjiId,
+      kanji: legacy.kanji,
+      isCorrect: legacy.isCorrect,
+      wordId,
+      word,
+      exerciseType,
+    };
+  }
 }

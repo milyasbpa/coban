@@ -115,39 +115,53 @@ export function GameGrid() {
                       await initializeUser('default-user', level as "N5" | "N4" | "N3" | "N2" | "N1");
                     }
 
-                    const createExerciseAttempt = () => {
-                    // Create detailed answers from game data
-                    const answers: QuestionResult[] = gameWords.map((word, index) => ({
-                      kanjiId: word.id,
-                      kanji: word.kanji,
-                      isCorrect: !globalWordsWithErrors.has(word.kanji),
-                    }));
+                    // Import required utilities for word-based scoring
+                    const { ScoreCalculator } = await import("@/pwa/features/score/utils/score-calculator");
+                    const { WordIdGenerator } = await import("@/pwa/features/score/utils/word-id-generator");
+                    const { KanjiWordMapper } = await import("@/pwa/features/score/utils/kanji-word-mapper");
+
+                    // Create word-based question results using accurate kanji mapping
+                    const wordResults: QuestionResult[] = gameWords.map((word, index) => {
+                      const isCorrect = !globalWordsWithErrors.has(word.kanji);
+                      
+                      // Get accurate kanji information using mapper
+                      const kanjiInfo = KanjiWordMapper.getKanjiInfo(word.kanji, level);
+                      
+                      // Generate word ID for this word
+                      const wordId = WordIdGenerator.generateWordId(word.kanji, kanjiInfo.kanjiId, index);
 
                       return {
-                        attemptId: `pairing-${lessonId || topicId}-${Date.now()}`,
-                        lessonId: lessonId || topicId || "unknown",
+                        kanjiId: kanjiInfo.kanjiId,
+                        kanji: kanjiInfo.kanjiCharacter,
+                        isCorrect,
+                        wordId,
+                        word: word.kanji,
                         exerciseType: "pairing" as const,
-                        level,
-                        totalQuestions: gameWords.length,
-                        correctAnswers: gameStats.correctPairs,
-                        answers
                       };
-                    };
-
-                    // Update exercise score in the system
-                    const exerciseAttempt = createExerciseAttempt();
-                    await updateExerciseScore(exerciseAttempt);
-
-                    // Update individual kanji mastery
-                    gameWords.forEach(word => {
-                      const questionResult: QuestionResult = {
-                        kanjiId: word.id,
-                        kanji: word.kanji,
-                        isCorrect: !globalWordsWithErrors.has(word.kanji),
-                      };
-                      
-                      updateKanjiMastery(word.id, word.kanji, [questionResult]);
                     });
+
+                    // Group results by kanji for word-based processing
+                    const resultsByKanji = wordResults.reduce((acc, result) => {
+                      if (!acc[result.kanjiId]) {
+                        acc[result.kanjiId] = [];
+                      }
+                      acc[result.kanjiId].push(result);
+                      return acc;
+                    }, {} as Record<string, QuestionResult[]>);
+
+                    // Update word-based scoring for each kanji
+                    Object.entries(resultsByKanji).forEach(([kanjiId, results]) => {
+                      // Get accurate total words for this kanji
+                      const firstWord = results[0]?.word;
+                      const totalWordsInKanji = firstWord ? KanjiWordMapper.getTotalWordsForKanji(firstWord, level) : 1;
+                      
+                      // Update each word's mastery
+                      results.forEach(result => {
+                        updateKanjiMastery(kanjiId, result.kanji, [result]);
+                      });
+                    });
+
+                    console.log("Word-based scoring integration completed for pairing exercise");
                   };
 
                   // Call the integration function

@@ -1,12 +1,12 @@
 import { create } from "zustand";
 import { StorageManager } from "../storage/storage";
 import { ScoreCalculator } from "../utils/score-calculator";
+import { KanjiWordMapper } from "../utils/kanji-word-mapper";
+import { WordIdGenerator } from "../utils/word-id-generator";
 import {
   UserScore,
-  ExerciseAttempt,
-  LessonScore,
+  WordMasteryLevel,
   KanjiMasteryLevel,
-  OverallProgress,
   QuestionResult,
 } from "../model/score";
 
@@ -22,26 +22,36 @@ interface ScoreState {
     userId: string,
     level?: "N5" | "N4" | "N3" | "N2" | "N1"
   ) => Promise<void>;
-  updateExerciseScore: (attempt: ExerciseAttempt) => Promise<void>;
   updateKanjiMastery: (
     kanjiId: string,
     character: string,
     results: QuestionResult[]
   ) => Promise<void>;
 
-  // Getters
+  // Getters (maintain same interface for UI compatibility)
   getLessonProgress: (lessonId: string) => number;
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
     lessonId?: string
   ) => number;
-  getOverallProgress: () => OverallProgress | null;
+  getOverallProgress: () => {
+    currentLevel: string;
+    totalKanjiLearned: number;
+    masteredKanji: number;
+  } | null;
   getKanjiMastery: (kanjiId: string) => KanjiMasteryLevel | null;
+
+  // Word-based methods (internal use)
+  getWordMastery: (kanjiId: string, wordId: string) => WordMasteryLevel | null;
+  updateWordMastery: (wordId: string, result: QuestionResult) => Promise<void>;
 
   // Utility
   refreshUserScore: () => Promise<void>;
   clearAllData: () => Promise<void>;
   resetStatistics: () => Promise<void>;
+
+  // Compatibility layer for existing exercise containers
+  updateExerciseScore?: (attempt: any) => Promise<void>;
 }
 
 export const useScoreStore = create<ScoreState>((set, get) => ({
@@ -59,10 +69,12 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     set({ isLoading: true, error: null });
 
     try {
-      // Validate storage first
-      const isStorageValid = await StorageManager.validateStorage();
-      if (!isStorageValid) {
-        throw new Error("Storage validation failed");
+      // Initialize storage system first
+      const { StorageInitializer } = await import("../storage/initializer");
+      const initResult = await StorageInitializer.initialize();
+      
+      if (!initResult.success) {
+        throw new Error(`Storage initialization failed: ${initResult.message}`);
       }
 
       // Try to get existing user score
@@ -91,113 +103,9 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     }
   },
 
-  // Update exercise score
-  updateExerciseScore: async (attempt: ExerciseAttempt) => {
-    const { currentUserScore } = get();
-    if (!currentUserScore) {
-      console.warn("ScoreStore: No user score available for update");
-      return;
-    }
 
-    try {
-      set({ isLoading: true });
 
-      // Calculate exercise score
-      const calculatedScore = ScoreCalculator.calculateExerciseScore(attempt);
-      const updatedAttempt = { ...attempt, score: calculatedScore };
-
-      // Update exercise type score
-      const currentExerciseScore =
-        currentUserScore.exerciseScores[attempt.exerciseType];
-      const updatedExerciseScore = ScoreCalculator.updateExerciseTypeScore(
-        currentExerciseScore,
-        updatedAttempt
-      );
-
-      // Update lesson progress
-      const currentLessonScore = currentUserScore.lessonProgress[
-        attempt.lessonId
-      ] || {
-        lessonId: attempt.lessonId,
-        level: attempt.level,
-        category: "kanji",
-        exercises: { writing: [], reading: [], pairing: [] },
-        lastAttempt: new Date().toISOString(),
-        status: "not_started" as const,
-      };
-
-      // Add attempt to lesson exercises
-      const exerciseAttempts =
-        currentLessonScore.exercises[attempt.exerciseType] || [];
-      exerciseAttempts.push(updatedAttempt);
-
-      // Update lesson score
-      const updatedLessonScore: LessonScore = {
-        ...currentLessonScore,
-        exercises: {
-          ...currentLessonScore.exercises,
-          [attempt.exerciseType]: exerciseAttempts,
-        },
-        lastAttempt: new Date().toISOString(),
-        status: calculatedScore >= 800 ? "completed" : "in_progress",
-      };
-
-      // Update overall stats
-      const updatedOverallStats = {
-        ...currentUserScore.overallStats,
-        totalScore: currentUserScore.overallStats.totalScore + calculatedScore,
-        totalExercisesCompleted:
-          currentUserScore.overallStats.totalExercisesCompleted + 1,
-      };
-
-      // Calculate new average accuracy
-      const totalQuestions =
-        currentUserScore.overallStats.totalExercisesCompleted * 10; // Estimate
-      const totalCorrect =
-        (currentUserScore.overallStats.averageAccuracy / 100) * totalQuestions +
-        attempt.correctAnswers;
-      updatedOverallStats.averageAccuracy =
-        (totalCorrect / (totalQuestions + attempt.totalQuestions)) * 100;
-
-      // Create updated user score
-      const updatedUserScore: UserScore = {
-        ...currentUserScore,
-        overallStats: updatedOverallStats,
-        exerciseScores: {
-          ...currentUserScore.exerciseScores,
-          [attempt.exerciseType]: updatedExerciseScore,
-        },
-        lessonProgress: {
-          ...currentUserScore.lessonProgress,
-          [attempt.lessonId]: updatedLessonScore,
-        },
-        updatedAt: new Date().toISOString(),
-      };
-
-      // Save to storage
-      await StorageManager.saveUserScore(
-        currentUserScore.userId,
-        updatedUserScore
-      );
-      await StorageManager.saveExerciseAttempt(updatedAttempt);
-
-      set({
-        currentUserScore: updatedUserScore,
-        isLoading: false,
-      });
-    } catch (error) {
-      console.error("ScoreStore: Failed to update exercise score", error);
-      set({
-        error:
-          error instanceof Error
-            ? error.message
-            : "Failed to update exercise score",
-        isLoading: false,
-      });
-    }
-  },
-
-  // Update kanji mastery
+  // Update kanji mastery using word-based scoring
   updateKanjiMastery: async (
     kanjiId: string,
     character: string,
@@ -207,46 +115,64 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     if (!currentUserScore) return;
 
     try {
-      const currentMastery = currentUserScore.kanjiMastery[kanjiId];
-      const updatedMastery = ScoreCalculator.calculateKanjiMastery(
-        kanjiId,
-        character,
-        currentUserScore.level,
-        results,
-        currentMastery
-      );
-
-      const updatedUserScore: UserScore = {
-        ...currentUserScore,
-        kanjiMastery: {
-          ...currentUserScore.kanjiMastery,
-          [kanjiId]: updatedMastery,
-        },
-        updatedAt: new Date().toISOString(),
-      };
-
-      await StorageManager.saveUserScore(
-        currentUserScore.userId,
-        updatedUserScore
-      );
-      set({ currentUserScore: updatedUserScore });
+      // Use new storage method to handle word-based updates
+      await StorageManager.saveQuestionResults(currentUserScore.userId, results);
+      
+      // Refresh the user score to get updated data
+      const refreshedScore = await StorageManager.getUserScore(currentUserScore.userId);
+      if (refreshedScore) {
+        set({ currentUserScore: refreshedScore });
+      }
     } catch (error) {
       console.error("ScoreStore: Failed to update kanji mastery", error);
     }
   },
 
-  // Get lesson progress
+  // Get word mastery (internal method)
+  getWordMastery: (kanjiId: string, wordId: string): WordMasteryLevel | null => {
+    const { currentUserScore } = get();
+    if (!currentUserScore || !currentUserScore.kanjiMastery[kanjiId]) {
+      return null;
+    }
+    return currentUserScore.kanjiMastery[kanjiId].words[wordId] || null;
+  },
+
+  // Update individual word mastery (internal method)
+  updateWordMastery: async (wordId: string, result: QuestionResult) => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return;
+
+    try {
+      await StorageManager.saveQuestionResults(currentUserScore.userId, [result]);
+      
+      // Refresh user score
+      const refreshedScore = await StorageManager.getUserScore(currentUserScore.userId);
+      if (refreshedScore) {
+        set({ currentUserScore: refreshedScore });
+      }
+    } catch (error) {
+      console.error("ScoreStore: Failed to update word mastery", error);
+    }
+  },
+
+  // Get lesson progress (UI compatibility - uses word-based data)
   getLessonProgress: (lessonId: string): number => {
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
-    const lessonScore = currentUserScore.lessonProgress[lessonId];
-    if (!lessonScore) return 0;
+    // Calculate progress based on kanji mastery for this lesson
+    const kanjiArray = Object.values(currentUserScore.kanjiMastery);
+    if (kanjiArray.length === 0) return 0;
 
-    return ScoreCalculator.calculateLessonProgress(lessonScore);
+    // Simple average of kanji scores for lesson
+    const totalProgress = kanjiArray.reduce((sum, kanji) => {
+      return sum + ((kanji.overallScore / 100) * 100);
+    }, 0);
+
+    return Math.round(totalProgress / kanjiArray.length);
   },
 
-  // Get exercise progress
+  // Get exercise progress (UI compatibility - uses word-based data)
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
     lessonId?: string
@@ -254,32 +180,47 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
-    if (lessonId) {
-      const lessonScore = currentUserScore.lessonProgress[lessonId];
-      if (!lessonScore) return 0;
+    // Calculate exercise-specific progress from word data
+    const kanjiArray = Object.values(currentUserScore.kanjiMastery);
+    if (kanjiArray.length === 0) return 0;
 
-      const exerciseAttempts = lessonScore.exercises[exerciseType];
-      if (!exerciseAttempts || exerciseAttempts.length === 0) return 0;
+    let totalProgress = 0;
+    let totalWords = 0;
 
-      const bestAttempt = exerciseAttempts.reduce((best, current) => {
-        const currentAccuracy = (current.correctAnswers / current.totalQuestions) * 100;
-        const bestAccuracy = (best.correctAnswers / best.totalQuestions) * 100;
-        return currentAccuracy > bestAccuracy ? current : best;
+    kanjiArray.forEach(kanji => {
+      const words = Object.values(kanji.words);
+      words.forEach(word => {
+        const exerciseScore = word.exerciseScores[exerciseType];
+        const maxScore = ScoreCalculator.calculateMaxScorePerExercise(
+          Object.keys(kanji.words).length
+        );
+        totalProgress += maxScore > 0 ? (exerciseScore / maxScore) * 100 : 0;
+        totalWords++;
       });
-      return (bestAttempt.correctAnswers / bestAttempt.totalQuestions) * 100;
-    }
+    });
 
-    // Return overall exercise type progress
-    const exerciseScore = currentUserScore.exerciseScores[exerciseType];
-    return exerciseScore.overallAccuracy;
+    return totalWords > 0 ? Math.round(totalProgress / totalWords) : 0;
   },
 
-  // Get overall progress
-  getOverallProgress: (): OverallProgress | null => {
+  // Get overall progress (UI compatibility - uses word-based data)
+  getOverallProgress: (): {
+    currentLevel: string;
+    totalKanjiLearned: number;
+    masteredKanji: number;
+  } | null => {
     const { currentUserScore } = get();
     if (!currentUserScore) return null;
 
-    return ScoreCalculator.calculateOverallProgress(currentUserScore);
+    const kanjiArray = Object.values(currentUserScore.kanjiMastery);
+    const masteredKanji = kanjiArray.filter(kanji => 
+      (kanji.overallScore / 100) >= 0.9 // 90% mastery = mastered
+    ).length;
+
+    return {
+      currentLevel: currentUserScore.level,
+      totalKanjiLearned: kanjiArray.length,
+      masteredKanji,
+    };
   },
 
   // Get kanji mastery
@@ -364,5 +305,12 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
         isLoading: false,
       });
     }
+  },
+
+  // Compatibility method for existing exercise containers
+  updateExerciseScore: async (attempt: any) => {
+    // This is a no-op method for backward compatibility
+    // Exercise containers now use updateKanjiMastery with word-based results
+    console.warn("ScoreStore: updateExerciseScore is deprecated. Use updateKanjiMastery with word-based results instead.");
   },
 }));
