@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { PairingCard } from "../components/pairing-card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
@@ -19,30 +19,74 @@ interface SelectedCard {
 export function GameGrid() {
   const { isIndonesian } = useLanguage();
   const searchParams = useSearchParams();
-  const { updateExerciseScore, updateKanjiMastery, initializeUser, currentUserScore, isInitialized } = useScoreStore();
+  const {
+    updateExerciseScore,
+    updateKanjiMastery,
+    initializeUser,
+    currentUserScore,
+    isInitialized,
+  } = useScoreStore();
 
-  // Real-time per-word score integration
+  // Session-based tracking for first-attempt-only integration
+  const [attemptedWordsInSession, setAttemptedWordsInSession] = useState<
+    Set<string>
+  >(new Set());
+
+  // Helper functions for first-attempt tracking
+  const hasAttemptedWord = (wordKey: string): boolean => {
+    return attemptedWordsInSession.has(wordKey);
+  };
+
+  const markWordAsAttempted = (wordKey: string): void => {
+    setAttemptedWordsInSession((prev) => new Set([...prev, wordKey]));
+  };
+
+  // Real-time per-word score integration (first-attempt-only)
   const integrateWordScore = async (word: PairingWord, isCorrect: boolean) => {
     try {
+      // ✅ FIRST-ATTEMPT-ONLY: Check if word has been attempted in this session
+      if (hasAttemptedWord(word.kanji)) {
+        console.log(
+          `Skipping word integration - already attempted in session:`,
+          word.kanji
+        );
+        return; // Skip integration for subsequent attempts
+      }
+
+      // Mark word as attempted to prevent future integrations in this session
+      markWordAsAttempted(word.kanji);
+
       // Auto-initialize user if not already initialized
       if (!isInitialized || !currentUserScore) {
-        console.log('ScoreStore: Auto-initializing user for word:', word.kanji);
-        await initializeUser('default-user', level as "N5" | "N4" | "N3" | "N2" | "N1");
+        await initializeUser(
+          "default-user",
+          level as "N5" | "N4" | "N3" | "N2" | "N1"
+        );
       }
 
       // Import required utilities for word-based scoring
-      const { ScoreCalculator } = await import("@/pwa/features/score/utils/score-calculator");
-      const { WordIdGenerator } = await import("@/pwa/features/score/utils/word-id-generator");
-      const { KanjiWordMapper } = await import("@/pwa/features/score/utils/kanji-word-mapper");
+      const { ScoreCalculator } = await import(
+        "@/pwa/features/score/utils/score-calculator"
+      );
+      const { WordIdGenerator } = await import(
+        "@/pwa/features/score/utils/word-id-generator"
+      );
+      const { KanjiWordMapper } = await import(
+        "@/pwa/features/score/utils/kanji-word-mapper"
+      );
 
       // Extract kanji character from the word
       const kanjiCharacter = word.kanji.charAt(0);
-      
+
       // Get accurate kanji information using the extracted kanji character
       const kanjiInfo = KanjiWordMapper.getKanjiInfo(kanjiCharacter, level);
-      
+
       // Generate unique word ID based on actual word content
-      const wordId = WordIdGenerator.generateWordId(word.kanji, kanjiInfo.kanjiId, 0);
+      const wordId = WordIdGenerator.generateWordId(
+        word.kanji,
+        kanjiInfo.kanjiId,
+        0
+      );
 
       const wordResult: QuestionResult = {
         kanjiId: kanjiInfo.kanjiId,
@@ -53,18 +97,10 @@ export function GameGrid() {
         exerciseType: "pairing" as const,
       };
 
-      console.log(`Real-time word integration:`, {
-        word: word.kanji,
-        kanjiCharacter,
-        isCorrect,
-        kanjiId: kanjiInfo.kanjiId
-      });
-
-      // Update word mastery immediately
+      // Update word mastery immediately (first attempt only)
       updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [wordResult]);
-      
     } catch (error) {
-      console.error('Error in real-time word score integration:', error);
+      console.error("Error in first-attempt word score integration:", error);
     }
   };
 
@@ -156,8 +192,10 @@ export function GameGrid() {
                   // Game complete
                   calculateAndSetScore();
                   setGameComplete(true);
-                  
-                  console.log("Pairing exercise completed - all word scores already integrated in real-time");
+
+                  console.log(
+                    "Pairing exercise completed - all word scores already integrated in real-time"
+                  );
                 }
               }
             }, 500);
@@ -174,7 +212,7 @@ export function GameGrid() {
           updateStats({ wrongAttempts: gameStats.wrongAttempts + 1 });
 
           // ✅ REAL-TIME Per-Word Score Integration for Wrong Match
-          const wrongWord = gameWords.find(w => w.kanji === kanjiCard.id);
+          const wrongWord = gameWords.find((w) => w.kanji === kanjiCard.id);
           if (wrongWord) {
             integrateWordScore(wrongWord, false);
           }
