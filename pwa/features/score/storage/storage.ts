@@ -2,8 +2,6 @@ import localforage from "localforage";
 import {
   UserScore,
   ExerciseAttempt,
-  DailyProgress,
-  WeeklyProgress,
 } from "../model/score";
 
 // Configure LocalForage instances for different data types
@@ -57,7 +55,6 @@ export class StorageManager {
         totalScore: 0,
         totalExercisesCompleted: 0,
         averageAccuracy: 0,
-        studyTimeMinutes: 0,
         currentStreak: 0,
         longestStreak: 0,
         lastStudyDate: new Date().toISOString(),
@@ -71,9 +68,6 @@ export class StorageManager {
           totalCorrect: 0,
           totalQuestions: 0,
           overallAccuracy: 0,
-          averageTimePerQuestion: 0,
-          recentAttempts: [],
-          progressTrend: "stable",
         },
         reading: {
           totalAttempts: 0,
@@ -82,9 +76,6 @@ export class StorageManager {
           totalCorrect: 0,
           totalQuestions: 0,
           overallAccuracy: 0,
-          averageTimePerQuestion: 0,
-          recentAttempts: [],
-          progressTrend: "stable",
         },
         pairing: {
           totalAttempts: 0,
@@ -93,9 +84,6 @@ export class StorageManager {
           totalCorrect: 0,
           totalQuestions: 0,
           overallAccuracy: 0,
-          averageTimePerQuestion: 0,
-          recentAttempts: [],
-          progressTrend: "stable",
         },
       },
       kanjiMastery: {},
@@ -167,62 +155,6 @@ export class StorageManager {
       (a, b) =>
         new Date(b.startTime).getTime() - new Date(a.startTime).getTime()
     );
-  }
-
-  // ============ Analytics Management ============
-
-  static async saveDailyProgress(
-    userId: string,
-    date: string,
-    progress: DailyProgress
-  ): Promise<void> {
-    const key = `${userId}_daily_${date}`;
-    await analyticsStorage.setItem(key, progress);
-  }
-
-  static async getDailyProgress(
-    userId: string,
-    startDate: string,
-    endDate: string
-  ): Promise<DailyProgress[]> {
-    const progressList: DailyProgress[] = [];
-
-    await analyticsStorage.iterate((progress: DailyProgress, key: string) => {
-      if (key.startsWith(`${userId}_daily_`)) {
-        const progressDate = progress.date;
-        if (progressDate >= startDate && progressDate <= endDate) {
-          progressList.push(progress);
-        }
-      }
-    });
-
-    return progressList.sort((a, b) => a.date.localeCompare(b.date));
-  }
-
-  static async saveWeeklyProgress(
-    userId: string,
-    weekStart: string,
-    progress: WeeklyProgress
-  ): Promise<void> {
-    const key = `${userId}_weekly_${weekStart}`;
-    await analyticsStorage.setItem(key, progress);
-  }
-
-  static async getWeeklyProgress(
-    userId: string,
-    limit: number = 12
-  ): Promise<WeeklyProgress[]> {
-    const progressList: WeeklyProgress[] = [];
-
-    await analyticsStorage.iterate((progress: WeeklyProgress, key: string) => {
-      if (key.startsWith(`${userId}_weekly_`)) {
-        progressList.push(progress);
-      }
-    });
-
-    return progressList
-      .sort((a, b) => b.weekStart.localeCompare(a.weekStart))
-      .slice(0, limit);
   }
 
   // ============ Data Management & Cleanup ============

@@ -122,10 +122,8 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
         level: attempt.level,
         category: "kanji",
         totalScore: 0,
-        maxPossibleScore: 1000,
         completionPercentage: 0,
         exercises: { writing: [], reading: [], pairing: [] },
-        firstAttempt: updatedAttempt.startTime,
         lastAttempt: updatedAttempt.endTime,
         status: "not_started" as const,
       };
@@ -144,11 +142,6 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
         },
         totalScore: Math.max(currentLessonScore.totalScore, calculatedScore),
         lastAttempt: updatedAttempt.endTime,
-        bestAttempt:
-          !currentLessonScore.bestAttempt ||
-          calculatedScore > currentLessonScore.bestAttempt.score
-            ? updatedAttempt
-            : currentLessonScore.bestAttempt,
         status: calculatedScore >= 800 ? "completed" : "in_progress",
         completionPercentage: ScoreCalculator.calculateLessonProgress({
           ...currentLessonScore,
@@ -165,9 +158,6 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
         totalScore: currentUserScore.overallStats.totalScore + calculatedScore,
         totalExercisesCompleted:
           currentUserScore.overallStats.totalExercisesCompleted + 1,
-        studyTimeMinutes:
-          currentUserScore.overallStats.studyTimeMinutes +
-          Math.round(attempt.duration / 60),
         lastStudyDate: new Date().toISOString(),
       };
 

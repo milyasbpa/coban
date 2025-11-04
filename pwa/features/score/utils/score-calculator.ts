@@ -5,8 +5,6 @@ import {
   UserScore,
   LessonScore,
   ExerciseTypeScore,
-  DailyProgress,
-  WeeklyProgress,
   OverallProgress
 } from '../model/score';
 
@@ -211,10 +209,6 @@ export class ScoreCalculator {
     currentScore: ExerciseTypeScore,
     newAttempt: ExerciseAttempt
   ): ExerciseTypeScore {
-    const recentAttempts = [...currentScore.recentAttempts, newAttempt]
-      .sort((a, b) => new Date(b.startTime).getTime() - new Date(a.startTime).getTime())
-      .slice(0, 10); // Keep last 10 attempts
-    
     const totalAttempts = currentScore.totalAttempts + 1;
     const bestScore = Math.max(currentScore.bestScore, newAttempt.score);
     const totalCorrect = currentScore.totalCorrect + newAttempt.correctAnswers;
@@ -225,14 +219,6 @@ export class ScoreCalculator {
     const totalScoreSum = currentScore.averageScore * (totalAttempts - 1) + newAttempt.score;
     const averageScore = totalScoreSum / totalAttempts;
     
-    // Calculate average time per question
-    const currentTotalTime = currentScore.averageTimePerQuestion * currentScore.totalQuestions;
-    const newTotalTime = currentTotalTime + newAttempt.duration;
-    const averageTimePerQuestion = totalQuestions > 0 ? newTotalTime / totalQuestions : 0;
-    
-    // Calculate progress trend
-    const progressTrend = this.calculateProgressTrend(recentAttempts);
-    
     return {
       totalAttempts,
       bestScore,
@@ -240,29 +226,7 @@ export class ScoreCalculator {
       totalCorrect,
       totalQuestions,
       overallAccuracy,
-      averageTimePerQuestion,
-      recentAttempts,
-      progressTrend
     };
-  }
-  
-  private static calculateProgressTrend(recentAttempts: ExerciseAttempt[]): "improving" | "stable" | "declining" {
-    if (recentAttempts.length < 3) return "stable";
-    
-    const scores = recentAttempts.slice(0, 5).map(a => a.score).reverse(); // Most recent first, then reverse for chronological order
-    
-    let improvements = 0;
-    let declines = 0;
-    
-    for (let i = 1; i < scores.length; i++) {
-      const diff = scores[i] - scores[i - 1];
-      if (diff > 50) improvements++;
-      else if (diff < -50) declines++;
-    }
-    
-    if (improvements > declines) return "improving";
-    else if (declines > improvements) return "declining";
-    else return "stable";
   }
   
   /**

@@ -1,7 +1,7 @@
 export interface UserScore {
   userId: string;
   level: "N5" | "N4" | "N3" | "N2" | "N1";
-  category: "kanji" | "vocabulary" | "grammar" | "listening";
+  category: "kanji";
   createdAt: string;
   updatedAt: string;
   
@@ -10,7 +10,6 @@ export interface UserScore {
     totalScore: number;
     totalExercisesCompleted: number;
     averageAccuracy: number;
-    studyTimeMinutes: number;
     currentStreak: number;
     longestStreak: number;
     lastStudyDate: string;
@@ -36,14 +35,11 @@ export interface UserScore {
 
 export interface LessonScore {
   lessonId: string;
-  lessonNumber?: number;
-  topicId?: string;
   level: string;
   category: string;
   
   // Progress metrics
   totalScore: number;
-  maxPossibleScore: number;
   completionPercentage: number;
   
   // Exercise breakdown
@@ -54,9 +50,7 @@ export interface LessonScore {
   };
   
   // Timestamps
-  firstAttempt: string;
   lastAttempt: string;
-  bestAttempt?: ExerciseAttempt;
   
   // Status
   status: "not_started" | "in_progress" | "completed" | "mastered";
@@ -100,11 +94,6 @@ export interface ExerciseTypeScore {
   totalCorrect: number;
   totalQuestions: number;
   overallAccuracy: number;
-  averageTimePerQuestion: number;
-  
-  // Progress over time
-  recentAttempts: ExerciseAttempt[];
-  progressTrend: "improving" | "stable" | "declining";
 }
 
 export interface KanjiMasteryLevel {
@@ -130,53 +119,6 @@ export interface KanjiMasteryLevel {
   // Difficulty adaptation
   adaptiveDifficulty: "easy" | "medium" | "hard";
   nextReviewDate: string;
-}
-
-export interface LearningAnalytics {
-  // Performance trends
-  performanceTrend: {
-    daily: DailyProgress[];
-    weekly: WeeklyProgress[];
-    monthly: MonthlyProgress[];
-  };
-  
-  // Strengths & Weaknesses
-  strongKanji: KanjiMasteryLevel[];
-  weakKanji: KanjiMasteryLevel[];
-  
-  // Study patterns
-  studyHeatmap: { date: string; sessionsCount: number; totalTime: number }[];
-  peakPerformanceTime: { hour: number; averageScore: number }[];
-  
-  // Recommendations
-  suggestedReviews: string[]; // kanji IDs that need review
-  suggestedLessons: string[]; // lesson IDs to focus on
-}
-
-export interface DailyProgress {
-  date: string;
-  totalScore: number;
-  exercisesCompleted: number;
-  accuracy: number;
-  studyTime: number;
-}
-
-export interface WeeklyProgress {
-  weekStart: string;
-  weekEnd: string;
-  totalScore: number;
-  exercisesCompleted: number;
-  averageAccuracy: number;
-  totalStudyTime: number;
-}
-
-export interface MonthlyProgress {
-  month: string;
-  year: number;
-  totalScore: number;
-  exercisesCompleted: number;
-  averageAccuracy: number;
-  totalStudyTime: number;
 }
 
 export interface OverallProgress {
