@@ -23,8 +23,6 @@ export class ReadingExerciseIntegration {
       userAnswer: answer.userAnswer,
       correctAnswer: answer.correctAnswer,
       isCorrect: answer.isCorrect,
-      timeSpent: 10, // Estimate based on total duration / questions
-      difficulty: "medium" as const // Could be determined by kanji complexity
     }));
     
     return {
@@ -34,7 +32,6 @@ export class ReadingExerciseIntegration {
       level,
       startTime,
       endTime,
-      duration,
       totalQuestions: gameStats.totalQuestions,
       correctAnswers: gameStats.correctAnswers,
       wrongAnswers: gameStats.wrongAnswers,
@@ -58,8 +55,6 @@ export class ReadingExerciseIntegration {
         userAnswer: answer.userAnswer,
         correctAnswer: answer.correctAnswer,
         isCorrect: answer.isCorrect,
-        timeSpent: 10, // Estimate
-        difficulty: "medium" as const
       };
       
       if (!kanjiResults.has(answer.kanji)) {

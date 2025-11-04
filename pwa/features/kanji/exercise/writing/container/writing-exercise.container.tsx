@@ -137,10 +137,6 @@ export function WritingExerciseContainer() {
               userAnswer: isCorrect ? question.kanji : "wrong-answer",
               correctAnswer: question.kanji,
               isCorrect,
-              timeSpent: Math.random() * 60 + 20, // Estimate 20-80 seconds per question
-              difficulty: (score / questions.length >= 0.8
-                ? "medium"
-                : "easy") as "easy" | "medium" | "hard",
             };
           });
 
@@ -151,7 +147,6 @@ export function WritingExerciseContainer() {
             level,
             startTime,
             endTime,
-            duration,
             totalQuestions: questions.length,
             correctAnswers: score,
             wrongAnswers,
@@ -176,10 +171,6 @@ export function WritingExerciseContainer() {
             userAnswer: isCorrect ? question.kanji : "wrong-answer",
             correctAnswer: question.kanji,
             isCorrect,
-            timeSpent: Math.random() * 60 + 20,
-            difficulty: (score / questions.length >= 0.8
-              ? "medium"
-              : "easy") as "easy" | "medium" | "hard",
           };
 
           updateKanjiMastery(question.kanji, question.kanji, [questionResult]);

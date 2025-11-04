@@ -128,8 +128,6 @@ export function GameGrid() {
                       userAnswer: word.kanji, // In pairing, correct kanji selection
                       correctAnswer: word.kanji,
                       isCorrect: !globalWordsWithErrors.has(word.kanji),
-                      timeSpent: Math.random() * 20 + 5, // Estimate 5-25 seconds per question
-                      difficulty: (gameStats.score >= 800 ? "medium" : "easy") as "easy" | "medium" | "hard"
                     }));
 
                       return {
@@ -139,7 +137,6 @@ export function GameGrid() {
                         level,
                         startTime,
                         endTime,
-                        duration,
                         totalQuestions: gameWords.length,
                         correctAnswers: gameStats.correctPairs,
                         wrongAnswers: gameStats.wrongAttempts,
@@ -162,8 +159,6 @@ export function GameGrid() {
                         userAnswer: word.kanji,
                         correctAnswer: word.kanji,
                         isCorrect: !globalWordsWithErrors.has(word.kanji),
-                        timeSpent: Math.random() * 20 + 5,
-                        difficulty: (gameStats.score >= 800 ? "medium" : "easy") as "easy" | "medium" | "hard"
                       };
                       
                       updateKanjiMastery(word.id, word.kanji, [questionResult]);

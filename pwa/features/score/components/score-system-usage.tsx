@@ -56,7 +56,6 @@ export function ExampleProgressDisplay() {
           <div>Current Level: {overallProgress.currentLevel}</div>
           <div>Total Kanji Learned: {overallProgress.totalKanjiLearned}</div>
           <div>Mastered Kanji: {overallProgress.masteredKanji}</div>
-          <div>Current Streak: {overallProgress.streakInfo.current} days</div>
         </div>
       )}
     </div>
@@ -109,7 +108,6 @@ export class ExerciseScoreIntegration {
       level,
       startTime,
       endTime,
-      duration,
       totalQuestions: results.totalQuestions,
       correctAnswers: results.correctAnswers,
       wrongAnswers: results.wrongAnswers,
@@ -122,8 +120,6 @@ export class ExerciseScoreIntegration {
         userAnswer: answer.userAnswer,
         correctAnswer: answer.correctAnswer,
         isCorrect: answer.isCorrect,
-        timeSpent: duration / results.totalQuestions,
-        difficulty: "medium" as const
       }))
     };
     

@@ -158,7 +158,6 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
         totalScore: currentUserScore.overallStats.totalScore + calculatedScore,
         totalExercisesCompleted:
           currentUserScore.overallStats.totalExercisesCompleted + 1,
-        lastStudyDate: new Date().toISOString(),
       };
 
       // Calculate new average accuracy
@@ -169,20 +168,6 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
         attempt.correctAnswers;
       updatedOverallStats.averageAccuracy =
         (totalCorrect / (totalQuestions + attempt.totalQuestions)) * 100;
-
-      // Update study streak
-      const streakUpdate = ScoreCalculator.updateStudyStreak(
-        currentUserScore.overallStats.lastStudyDate
-      );
-      if (streakUpdate.currentStreak > 0) {
-        updatedOverallStats.currentStreak =
-          currentUserScore.overallStats.currentStreak +
-          streakUpdate.currentStreak;
-        updatedOverallStats.longestStreak = Math.max(
-          updatedOverallStats.longestStreak,
-          updatedOverallStats.currentStreak
-        );
-      }
 
       // Create updated user score
       const updatedUserScore: UserScore = {

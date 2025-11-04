@@ -10,9 +10,6 @@ export interface UserScore {
     totalScore: number;
     totalExercisesCompleted: number;
     averageAccuracy: number;
-    currentStreak: number;
-    longestStreak: number;
-    lastStudyDate: string;
   };
   
   // Lesson Progress (by lesson number or topic)
@@ -63,7 +60,6 @@ export interface ExerciseAttempt {
   level: string;
   startTime: string;
   endTime: string;
-  duration: number; // seconds
   
   // Results
   totalQuestions: number;
@@ -83,8 +79,6 @@ export interface QuestionResult {
   userAnswer: string;
   correctAnswer: string;
   isCorrect: boolean;
-  timeSpent: number; // seconds
-  difficulty: "easy" | "medium" | "hard";
 }
 
 export interface ExerciseTypeScore {
@@ -105,20 +99,11 @@ export interface KanjiMasteryLevel {
   masteryLevel: "beginner" | "intermediate" | "advanced" | "master";
   confidenceScore: number; // 0-100
   
-  // Exercise-specific mastery
-  writingMastery: number; // 0-100
-  readingMastery: number; // 0-100
-  pairingMastery: number; // 0-100
-  
   // Learning data
   totalSeen: number;
   totalCorrect: number;
   consecutiveCorrect: number;
   lastSeen: string;
-  
-  // Difficulty adaptation
-  adaptiveDifficulty: "easy" | "medium" | "hard";
-  nextReviewDate: string;
 }
 
 export interface OverallProgress {
@@ -127,9 +112,4 @@ export interface OverallProgress {
   progressToNextLevel: number; // 0-100
   totalKanjiLearned: number;
   masteredKanji: number;
-  streakInfo: {
-    current: number;
-    longest: number;
-    lastStudyDate: string;
-  };
 }

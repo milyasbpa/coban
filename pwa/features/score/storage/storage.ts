@@ -55,9 +55,6 @@ export class StorageManager {
         totalScore: 0,
         totalExercisesCompleted: 0,
         averageAccuracy: 0,
-        currentStreak: 0,
-        longestStreak: 0,
-        lastStudyDate: new Date().toISOString(),
       },
       lessonProgress: {},
       exerciseScores: {

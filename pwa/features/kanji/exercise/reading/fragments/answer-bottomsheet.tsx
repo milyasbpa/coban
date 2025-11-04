@@ -82,11 +82,6 @@ export function AnswerBottomSheet() {
                   : "wrong-answer", // Simplified for tracking
                 correctAnswer: question.correctReading,
                 isCorrect,
-                timeSpent: Math.random() * 30 + 10, // Estimate 10-40 seconds per question
-                difficulty: (gameStats.score >= 800 ? "medium" : "easy") as
-                  | "easy"
-                  | "medium"
-                  | "hard",
               };
             }
           );
@@ -98,7 +93,6 @@ export function AnswerBottomSheet() {
             level,
             startTime,
             endTime,
-            duration,
             totalQuestions: gameStats.totalQuestions,
             correctAnswers: gameStats.correctAnswers,
             wrongAnswers: gameStats.wrongAnswers,
@@ -126,11 +120,6 @@ export function AnswerBottomSheet() {
             userAnswer: isCorrect ? question.correctReading : "wrong-answer",
             correctAnswer: question.correctReading,
             isCorrect,
-            timeSpent: Math.random() * 30 + 10,
-            difficulty: (gameStats.score >= 800 ? "medium" : "easy") as
-              | "easy"
-              | "medium"
-              | "hard",
           };
 
           updateKanjiMastery(question.kanji, question.kanji, [questionResult]);
