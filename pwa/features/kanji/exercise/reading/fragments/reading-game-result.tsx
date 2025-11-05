@@ -1,6 +1,5 @@
 "use client";
 
-
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
 import { Confetti } from "@/pwa/core/components/confetti";
@@ -8,44 +7,20 @@ import { RotateCcw, Home } from "lucide-react";
 
 import { useRouter } from "next/navigation";
 import { useReadingExerciseStore } from "../store";
-
-const getScoreColor = (score: number) => {
-  if (score >= 80) {
-    return {
-      bg: "bg-green-50",
-      border: "border-green-200",
-      text: "text-green-700",
-      textSecondary: "text-green-600"
-    };
-  } else if (score >= 60) {
-    return {
-      bg: "bg-yellow-50",
-      border: "border-yellow-200", 
-      text: "text-yellow-700",
-      textSecondary: "text-yellow-600"
-    };
-  } else {
-    return {
-      bg: "bg-red-50",
-      border: "border-red-200",
-      text: "text-red-700", 
-      textSecondary: "text-red-600"
-    };
-  }
-};
+import { getScoreColor } from "../../pairing/utils";
 
 export function ReadingGameResult() {
   const router = useRouter();
-  
+
   // Get data from store instead of props
-  const { 
+  const {
     gameState: { gameStats, isRetryMode },
-    restartGame, 
-    canRetry, 
+    restartGame,
+    canRetry,
     startRetryMode,
-    getWrongQuestions
+    getWrongQuestions,
   } = useReadingExerciseStore();
-  
+
   const handleRestart = () => {
     restartGame();
   };
@@ -57,11 +32,11 @@ export function ReadingGameResult() {
   const handleRetry = () => {
     startRetryMode();
   };
-  
+
   const { totalQuestions, correctAnswers, wrongAnswers, score } = gameStats;
   const accuracy = Math.round((correctAnswers / totalQuestions) * 100);
   const scoreColors = getScoreColor(score);
-  
+
   // Perfect score (100%) triggers confetti
   const isPerfectScore = accuracy === 100 && wrongAnswers === 0;
   const showRetryButton = canRetry() && !isRetryMode;
@@ -96,34 +71,6 @@ export function ReadingGameResult() {
             </div>
           </div>
 
-          {/* Statistics */}
-          <div className="space-y-4">
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Correct Answers:</span>
-              <span className="font-semibold text-foreground">
-                {correctAnswers}
-              </span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Total Questions:</span>
-              <span className="font-semibold text-foreground">
-                {totalQuestions}
-              </span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Wrong Answers:</span>
-              <span className="font-semibold text-foreground">
-                {wrongAnswers}
-              </span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Accuracy:</span>
-              <span className={`font-semibold ${scoreColors.text}`}>
-                {accuracy}%
-              </span>
-            </div>
-          </div>
-
           {/* Action Buttons */}
           <div className="space-y-3 pt-4">
             {/* Retry Button - only show if there are wrong questions and not in retry mode */}
@@ -146,7 +93,7 @@ export function ReadingGameResult() {
               <RotateCcw className="w-4 h-4 mr-2" />
               Try Again
             </Button>
-            
+
             <Button
               onClick={handleBackToHome}
               variant="outline"
