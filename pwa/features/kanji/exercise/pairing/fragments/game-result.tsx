@@ -64,9 +64,20 @@ export function GameResult() {
     if (!lessonId && !topicId) return;
 
     if (topicId) {
-      initializeGame(null, level, true, selectedKanjiIds, topicId);
+      initializeGame({
+        lessonId: null,
+        level,
+        shouldResetSectionIndex: true,
+        selectedKanjiIds,
+        topicId,
+      });
     } else if (lessonId) {
-      initializeGame(parseInt(lessonId), level, true, selectedKanjiIds);
+      initializeGame({
+        lessonId: parseInt(lessonId),
+        level,
+        shouldResetSectionIndex: true,
+        selectedKanjiIds,
+      });
     }
   };
 

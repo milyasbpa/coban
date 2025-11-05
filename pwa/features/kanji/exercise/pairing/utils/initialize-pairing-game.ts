@@ -15,10 +15,21 @@ export function useInitializePairingGame() {
 
     if (topicId) {
       // Initialize with topicId
-      initializeGame(null, level, false, selectedKanjiIds, topicId);
+      initializeGame({
+        lessonId: null,
+        level,
+        shouldResetSectionIndex: false,
+        selectedKanjiIds,
+        topicId,
+      });
     } else if (lessonId) {
       // Initialize with lessonId
-      initializeGame(parseInt(lessonId), level, false, selectedKanjiIds);
+      initializeGame({
+        lessonId: parseInt(lessonId),
+        level,
+        shouldResetSectionIndex: false,
+        selectedKanjiIds,
+      });
     }
   }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
 }

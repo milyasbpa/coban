@@ -4,11 +4,13 @@ import { useMemo, useState } from "react";
 import { PairingCard } from "../components/pairing-card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
-import { shuffleArray, PairingWord } from "../utils";
+import { shuffleArray } from "../utils";
+import { PairingWord } from "../types";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { useSearchParams } from "next/navigation";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
+import { useExerciseSearchParams } from "../../utils/hooks";
 
 interface SelectedCard {
   id: string;
@@ -46,10 +48,6 @@ export function GameGrid() {
     try {
       // ✅ FIRST-ATTEMPT-ONLY: Check if word has been attempted in this session
       if (hasAttemptedWord(word.kanji)) {
-        console.log(
-          `Skipping word integration - already attempted in session:`,
-          word.kanji
-        );
         return; // Skip integration for subsequent attempts
       }
 
@@ -101,10 +99,7 @@ export function GameGrid() {
     }
   };
 
-  // Get URL parameters for score tracking
-  const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
-  const level = searchParams.get("level") || "N5";
+  const { level } = useExerciseSearchParams();
 
   // Store - get all game grid state from store
   const {
@@ -164,6 +159,8 @@ export function GameGrid() {
             kanjiCard.id,
             meaningCard.id,
           ]);
+
+          console.log(newMatchedPairs, "ini new matched pairs");
 
           setMatchedPairs(newMatchedPairs);
           updateStats({ correctPairs: gameStats.correctPairs + 1 });
@@ -226,6 +223,8 @@ export function GameGrid() {
       }
     }
   };
+
+  console.log(matchedPairs, "ini matched pairs");
 
   return (
     <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">

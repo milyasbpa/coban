@@ -3,22 +3,8 @@ import {
   getKanjiDetailsByTopicId,
   KanjiDetail,
 } from "@/pwa/features/kanji/lesson/utils/kanji";
-import { GameStats } from "../store/pairing-game.store";
-
-export interface PairingWord {
-  id: string;
-  kanji: string;
-  reading: string;
-  meaning_id: string;
-  meaning_en: string;
-  furigana: string;
-}
-
-export interface GameSection {
-  sectionIndex: number;
-  words: PairingWord[];
-  completed: boolean;
-}
+import { PairingWord, GameSection } from "../types";
+import { GameDataService } from "../services";
 
 // Convert kanji details to pairing words
 export const createPairingWords = (
@@ -60,21 +46,9 @@ export const createGameSections = (words: PairingWord[]): GameSection[] => {
   return sections;
 };
 
-// Shuffle array function
+// Shuffle array function - delegated to service
 export const shuffleArray = <T>(array: T[]): T[] => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
-
-// Calculate score based on performance
-export const calculateScore = (stats: GameStats): number => {
-  const accuracy =
-    stats.correctPairs / (stats.correctPairs + stats.wrongAttempts);
-  return Math.round(accuracy * 100);
+  return GameDataService.shuffleArray(array);
 };
 
 // Get pairing game data by lesson
@@ -113,12 +87,7 @@ export const getPairingGameData = (
   };
 };
 
-// get sections utility
+// get sections utility - delegated to service
 export const getSections = (shuffledWords: PairingWord[]) => {
-  const sections = [];
-  // Split shuffled words into sections of 5
-  for (let i = 0; i < shuffledWords.length; i += 5) {
-    sections.push(shuffledWords.slice(i, i + 5));
-  }
-  return sections;
+  return GameDataService.createSections(shuffledWords, 5);
 };
