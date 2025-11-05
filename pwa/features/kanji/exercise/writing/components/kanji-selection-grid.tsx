@@ -1,24 +1,26 @@
-import { KanjiTile } from '../components/kanji-tile';
-import { useWritingExerciseStore } from '../store/writing-exercise.store';
+import { KanjiTile } from './kanji-tile';
 
-export function KanjiSelectionGrid() {
-  const { 
-    shuffledKanji, 
-    usedKanji, 
-    showAnswer,
-    addKanji,
-    addUsedKanji
-  } = useWritingExerciseStore();
+interface KanjiSelectionGridProps {
+  shuffledKanji: string[];
+  usedKanji: string[];
+  showAnswer: boolean;
+  onKanjiClick: (kanji: string) => void;
+}
 
+export function KanjiSelectionGrid({
+  shuffledKanji,
+  usedKanji,
+  showAnswer,
+  onKanjiClick
+}: KanjiSelectionGridProps) {
   const handleKanjiClick = (kanji: string) => {
     if (showAnswer || usedKanji.includes(kanji)) return;
-    addKanji(kanji);
-    addUsedKanji(kanji);
+    onKanjiClick(kanji);
   };
   return (
     <div className="space-y-3">
       <p className="text-sm text-muted-foreground">
-        Pilih atau drag kanji untuk merangkai kata:
+        Select or drag kanji to assemble the word:
       </p>
       <div className="grid grid-cols-4 gap-3">
         {shuffledKanji.map((kanji, index) => {

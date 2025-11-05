@@ -2,7 +2,7 @@ import { Button } from '@/pwa/core/components/button';
 import { Volume2 } from 'lucide-react';
 import { useWritingExerciseStore } from '../store/writing-exercise.store';
 
-export function AudioPlayer() {
+export function Question() {
   const { questions, currentQuestionIndex } = useWritingExerciseStore();
   
   const currentQuestion = questions[currentQuestionIndex];

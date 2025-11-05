@@ -1,12 +1,10 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { Button } from "@/pwa/core/components/button";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
-import { ScoreCalculator } from "@/pwa/features/score/utils/score-calculator";
 import { WordIdGenerator } from "@/pwa/features/score/utils/word-id-generator";
 import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 import {
@@ -14,22 +12,20 @@ import {
   DragEndEvent,
   DragOverEvent,
   DragStartEvent,
-  DragOverlay,
   closestCenter,
   KeyboardSensor,
   PointerSensor,
   useSensor,
   useSensors,
 } from "@dnd-kit/core";
-import { arrayMove } from "@dnd-kit/sortable";
 import { sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import { WritingHeader } from "../fragments/writing-header";
 import { AnswerFeedback } from "../fragments/answer-feedback";
 import { CompletionScreen } from "../fragments/completion-screen";
-import { AudioPlayer } from "../fragments/audio-player";
-import { KanjiSelectionGrid } from "../fragments/kanji-selection-grid";
-import { AssemblyArea, SubmitButton, KanjiTile } from "../components";
-import { getWritingQuestions, WritingQuestion } from "../utils";
+import { Question } from "../fragments/question";
+import { AssemblyArea } from "../fragments/assembly-area";
+import { SubmitButton } from "../components";
+import { getWritingQuestions } from "../utils";
 import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function WritingExerciseContainer() {
@@ -57,14 +53,9 @@ export function WritingExerciseContainer() {
     showFeedback,
     scoreIntegrated,
     score,
-    activeKanji,
-    
+
     // Actions for container logic
     checkAnswer,
-    clearSelected,
-    removeKanji,
-    removeUsedKanji,
-    clearUsedKanji,
     addKanji,
     addUsedKanji,
     setQuestions,
@@ -73,7 +64,7 @@ export function WritingExerciseContainer() {
     setScoreIntegrated,
     setActiveKanji,
     reorderKanji,
-    resetExercise,
+    resetExerciseProgress,
     setupCurrentQuestion: setupCurrentQuestionStore,
   } = useWritingExerciseStore();
 
@@ -92,8 +83,8 @@ export function WritingExerciseContainer() {
   );
 
   useEffect(() => {
+    resetExerciseProgress();
     loadQuestions();
-    resetExercise();
   }, [lessonId, topicId, level, selectedKanjiIds]);
 
   useEffect(() => {
@@ -194,8 +185,6 @@ export function WritingExerciseContainer() {
   ]);
 
   const loadQuestions = () => {
-    console.log("loadQuestions called with:", { lessonId, topicId, level, selectedKanjiIds });
-    
     if (!lessonId && !topicId) {
       console.warn("No lessonId or topicId provided");
       return;
@@ -209,9 +198,6 @@ export function WritingExerciseContainer() {
       topicId || undefined
     );
 
-    console.log("getWritingQuestions returned:", writingQuestions.length, "questions");
-    console.log("First few questions:", writingQuestions.slice(0, 3));
-
     if (writingQuestions.length === 0) {
       console.warn("No examples found for this lesson/topic");
       return;
@@ -219,8 +205,6 @@ export function WritingExerciseContainer() {
 
     setQuestions(writingQuestions);
   };
-
-
 
   // Handle drag start
   const handleDragStart = (event: DragStartEvent) => {
@@ -275,40 +259,6 @@ export function WritingExerciseContainer() {
     setShowFeedback(true);
   };
 
-  const handleRemoveKanji = (index: number) => {
-    const kanjiToRemove = selectedKanji[index];
-    removeKanji(index);
-
-    // Make kanji available again in selection grid
-    removeUsedKanji(kanjiToRemove);
-  };
-
-  const handleClearAll = () => {
-    clearSelected();
-    clearUsedKanji(); // Make all kanji available again
-  };
-
-  const handleBack = () => {
-    router.back();
-  };
-
-
-
-  if (questions.length === 0) {
-    return (
-      <div className="min-h-screen flex items-center justify-center p-4">
-        <div className="text-center space-y-4">
-          <p className="text-muted-foreground">
-            Tidak ada soal untuk lesson ini
-          </p>
-          <Button onClick={handleBack} variant="outline">
-            Kembali
-          </Button>
-        </div>
-      </div>
-    );
-  }
-
   // Show completion screen
   if (currentQuestionIndex >= questions.length) {
     return <CompletionScreen />;
@@ -331,19 +281,10 @@ export function WritingExerciseContainer() {
 
           <div className="space-y-6">
             {/* Audio and Reading Display */}
-            <AudioPlayer />
+            <Question />
 
-            {/* Assembly Area */}
-            <AssemblyArea
-              selectedKanji={selectedKanji}
-              onRemoveKanji={handleRemoveKanji}
-              onClear={handleClearAll}
-              correctAnswer={currentQuestion.kanji}
-              showAnswer={showAnswer}
-            />
-
-            {/* Available Kanji */}
-            <KanjiSelectionGrid />
+            {/* Assembly Area with Kanji Selection Grid */}
+            <AssemblyArea />
 
             {/* Submit Button */}
             {!showAnswer && (
@@ -356,23 +297,8 @@ export function WritingExerciseContainer() {
         </div>
 
         {/* Answer Feedback */}
-        {showFeedback && (
-          <AnswerFeedback />
-        )}
+        {showFeedback && <AnswerFeedback />}
       </div>
-
-      {/* Drag Overlay for visual feedback */}
-      <DragOverlay>
-        {activeKanji ? (
-          <KanjiTile
-            id="drag-overlay"
-            kanji={activeKanji}
-            onClick={() => {}}
-            variant="available"
-            draggable={false}
-          />
-        ) : null}
-      </DragOverlay>
     </DndContext>
   );
 }

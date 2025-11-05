@@ -28,6 +28,7 @@ interface WritingExerciseState {
   checkAnswer: () => boolean;
   nextQuestion: () => void;
   resetExercise: () => void;
+  resetExerciseProgress: () => void;
   setShowAnswer: (show: boolean) => void;
   // New drag and drop functions
   insertKanjiAt: (kanji: string, index: number) => void;
@@ -127,6 +128,22 @@ export const useWritingExerciseStore = create<WritingExerciseState>((set, get) =
     scoreIntegrated: false
   }),
 
+  resetExerciseProgress: () => set({
+    currentQuestionIndex: 0,
+    selectedKanji: [],
+    correctAnswer: '',
+    availableKanji: [],
+    score: 0,
+    isComplete: false,
+    showAnswer: false,
+    shuffledKanji: [],
+    showFeedback: false,
+    isCorrect: false,
+    activeKanji: null,
+    usedKanji: [],
+    scoreIntegrated: false
+  }),
+
   setShowAnswer: (show: boolean) => set({ showAnswer: show }),
 
   // New drag and drop functions
@@ -196,13 +213,17 @@ export const useWritingExerciseStore = create<WritingExerciseState>((set, get) =
     const otherKanji = questions
       .filter((_, index) => index !== currentIndex)
       .flatMap((q) => q.kanji.split(""))
-      .filter((char, index, arr) => arr.indexOf(char) === index) // Remove duplicates
-      .slice(0, Math.max(5, 8 - correctChars.length)); // Ensure we have enough options
+      .filter((char, index, arr) => arr.indexOf(char) === index); // Remove duplicates from other questions
 
-    const allOptions = [...correctChars, ...otherKanji];
+    // Combine correct chars with other kanji, ensuring no duplicates
+    const allUniqueChars = new Set([...correctChars, ...otherKanji]);
+    const allOptions = Array.from(allUniqueChars);
+
+    // Take only what we need (ensure we have enough options but not too many)
+    const finalOptions = allOptions.slice(0, Math.max(8, correctChars.length + 5));
 
     // Shuffle the options
-    const shuffled = allOptions.sort(() => Math.random() - 0.5);
+    const shuffled = finalOptions.sort(() => Math.random() - 0.5);
 
     set({ 
       shuffledKanji: shuffled,

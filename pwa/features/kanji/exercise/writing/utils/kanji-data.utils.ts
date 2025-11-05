@@ -1,39 +1,8 @@
 // Utility functions for loading kanji data
-import n5KanjiData from "@/data/n5/kanji/kanji.json";
 import {
   KanjiService,
   KanjiDetail,
 } from "@/pwa/core/services/kanji";
-
-export interface KanjiItem {
-  id: number;
-  character: string;
-  strokes: number;
-  readings: {
-    kun?: Array<{
-      furigana: string;
-      romanji: string;
-    }>;
-    on?: Array<{
-      furigana: string;
-      romanji: string;
-    }>;
-  };
-  meanings: {
-    id: string;
-    en: string;
-  };
-  examples?: Array<{
-    id: number;
-    word: string;
-    furigana: string;
-    romanji: string;
-    meanings: {
-      id: string;
-      en: string;
-    };
-  }>;
-}
 
 export interface WritingQuestion {
   kanji: string;
@@ -43,48 +12,41 @@ export interface WritingQuestion {
 }
 
 /**
- * Get kanji data based on level
+ * Get all kanji details for a specific level using KanjiService
  */
-export function getKanjiData(level: string): KanjiItem[] {
-  console.log("getKanjiData called with level:", level);
-  switch (level.toLowerCase()) {
-    case "n5":
-      console.log("N5 data items count:", n5KanjiData.items?.length || 0);
-      return n5KanjiData.items || [];
-    // Add other levels when available
-    // case 'n4':
-    //   return n4KanjiData.items || [];
-    default:
-      console.warn(`Level ${level} not supported, falling back to N5`);
-      return n5KanjiData.items || [];
+export function getAllKanjiByLevel(level: string): KanjiDetail[] {
+  // Get all kanji for the level by using a lesson approach
+  // Since we don't have a direct "get all kanji" method, we'll get them by lessons
+  const allKanji: KanjiDetail[] = [];
+  let lessonId = 1;
+  
+  // Keep getting lessons until we get no more kanji
+  while (true) {
+    const lessonKanji = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
+    if (lessonKanji.length === 0) break;
+    
+    allKanji.push(...lessonKanji);
+    lessonId++;
   }
+  
+  return allKanji;
 }
 
 /**
- * Get kanji for a specific lesson
+ * Get kanji for a specific lesson using KanjiService
  */
 export function getKanjiForLesson(
   level: string,
-  lesson: string | number,
-  lessonSize: number = 5
-): KanjiItem[] {
-  const allKanji = getKanjiData(level);
+  lesson: string | number
+): KanjiDetail[] {
   const lessonNumber = typeof lesson === "string" ? parseInt(lesson) : lesson;
-
-  const startIndex = (lessonNumber - 1) * lessonSize;
-  const endIndex = startIndex + lessonSize;
-
-  console.log("getKanjiForLesson:", { level, lessonNumber, startIndex, endIndex, totalKanji: allKanji.length });
-  const result = allKanji.slice(startIndex, endIndex);
-  console.log("getKanjiForLesson result:", result.map(k => ({ id: k.id, character: k.character, examplesCount: k.examples?.length || 0 })));
-  
-  return result;
+  return KanjiService.getKanjiDetailsByLessonId(lessonNumber, level);
 }
 
 /**
- * Convert KanjiItem example to WritingQuestion
+ * Convert KanjiDetail example to WritingQuestion
  */
-export function kanjiExampleToWritingQuestion(example: NonNullable<KanjiItem['examples']>[0]): WritingQuestion {
+export function kanjiExampleToWritingQuestion(example: KanjiDetail['examples'][0]): WritingQuestion {
   return {
     kanji: example.word, // Use the word/phrase, not individual kanji
     reading: example.furigana,
@@ -114,7 +76,6 @@ export function getWritingQuestions(
   selectedKanjiIds?: number[],
   topicId?: string
 ): WritingQuestion[] {
-  console.log("getWritingQuestions called with:", { level, lessonId, selectedKanjiIds, topicId });
   const questions: WritingQuestion[] = [];
   
   if (topicId) {
@@ -135,29 +96,22 @@ export function getWritingQuestions(
     });
     
   } else if (lessonId) {
-    // Use KanjiItem approach for lesson-based questions (existing logic)
-    console.log("Processing lesson-based questions for lessonId:", lessonId);
-    const allKanjiItems = getKanjiForLesson(level, lessonId, 5);
-    console.log("allKanjiItems:", allKanjiItems.length, "items");
+    // Use KanjiDetail approach for lesson-based questions - get all words from lesson kanji
+    const allKanjiItems = getKanjiForLesson(level, lessonId);
     
     // Filter kanji items if selectedKanjiIds is provided
     const kanjiItems = selectedKanjiIds && selectedKanjiIds.length > 0
       ? allKanjiItems.filter(kanji => selectedKanjiIds.includes(kanji.id))
       : allKanjiItems;
-    console.log("kanjiItems after filtering:", kanjiItems.length, "items");
     
-    // Collect all examples from all kanji items
+    // Collect all examples from all kanji items (no limit - get all words)
     kanjiItems.forEach(kanjiItem => {
-      console.log(`Processing kanji ${kanjiItem.character} with ${kanjiItem.examples?.length || 0} examples`);
-      if (kanjiItem.examples) {
-        kanjiItem.examples.forEach(example => {
-          questions.push(kanjiExampleToWritingQuestion(example));
-        });
-      }
+      kanjiItem.examples.forEach(example => {
+        questions.push(kanjiExampleToWritingQuestion(example));
+      });
     });
   }
   
-  console.log("Final questions count:", questions.length);
   return questions;
 }
 
@@ -165,6 +119,6 @@ export function getWritingQuestions(
  * Get total number of lessons for a level
  */
 export function getTotalLessons(level: string, lessonSize: number = 5): number {
-  const allKanji = getKanjiData(level);
+  const allKanji = getAllKanjiByLevel(level);
   return Math.ceil(allKanji.length / lessonSize);
 }
