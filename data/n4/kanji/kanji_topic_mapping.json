@@ -2,110 +2,428 @@
   "topic_categories": {
     "family_relationships": {
       "name": "Family & Relationships",
-      "kanji_ids": [17, 43, 55, 56, 118, 141],
-      "kanji_characters": ["主", "弟", "姉", "妹", "族", "親"],
+      "kanji_ids": [
+        124,
+        150,
+        162,
+        163,
+        225,
+        248
+      ],
+      "kanji_characters": [
+        "主",
+        "弟",
+        "姉",
+        "妹",
+        "族",
+        "親"
+      ],
       "description": "Kanji related to family members and social relationships"
     },
     "body_anatomy": {
       "name": "Body & Anatomy",
-      "kanji_ids": [5, 15, 39, 42],
-      "kanji_characters": ["心", "目", "足", "体"],
+      "kanji_ids": [
+        112,
+        122,
+        146,
+        149
+      ],
+      "kanji_characters": [
+        "心",
+        "目",
+        "足",
+        "体"
+      ],
       "description": "Human body parts and organs"
     },
     "places_locations": {
       "name": "Places & Locations",
-      "kanji_ids": [8, 11, 18, 32, 45, 46, 54, 60, 126, 133],
-      "kanji_characters": ["内", "公", "台", "地", "町", "住", "店", "所", "場", "園"],
+      "kanji_ids": [
+        115,
+        118,
+        125,
+        139,
+        152,
+        153,
+        161,
+        167,
+        233,
+        240
+      ],
+      "kanji_characters": [
+        "内",
+        "公",
+        "台",
+        "地",
+        "町",
+        "住",
+        "店",
+        "所",
+        "場",
+        "園"
+      ],
       "description": "Locations, places, and geographical areas"
     },
     "activities_work": {
       "name": "Activities & Work",
-      "kanji_ids": [22, 47, 48, 58, 44, 59, 95, 96, 97, 98, 131, 136],
-      "kanji_characters": ["仕", "作", "売", "歩", "走", "泳", "借", "起", "帰", "通", "働", "辞"],
+      "kanji_ids": [
+        129,
+        154,
+        155,
+        165,
+        151,
+        166,
+        202,
+        203,
+        204,
+        205,
+        238,
+        243
+      ],
+      "kanji_characters": [
+        "仕",
+        "作",
+        "売",
+        "歩",
+        "走",
+        "泳",
+        "借",
+        "起",
+        "帰",
+        "通",
+        "働",
+        "辞"
+      ],
       "description": "Daily activities and work-related actions"
     },
     "time_temporal": {
       "name": "Time & Temporal",
-      "kanji_ids": [2, 26, 30, 61, 91, 142],
-      "kanji_characters": ["夕", "去", "早", "夜", "度", "曜"],
+      "kanji_ids": [
+        109,
+        133,
+        137,
+        168,
+        198,
+        249
+      ],
+      "kanji_characters": [
+        "夕",
+        "去",
+        "早",
+        "夜",
+        "度",
+        "曜"
+      ],
       "description": "Time concepts, days, and temporal periods"
     },
     "nature_animals": {
       "name": "Nature & Animals",
-      "kanji_ids": [4, 7, 33, 111, 119, 120],
-      "kanji_characters": ["犬", "牛", "色", "動", "野", "菜"],
+      "kanji_ids": [
+        111,
+        114,
+        140,
+        218,
+        226,
+        227
+      ],
+      "kanji_characters": [
+        "犬",
+        "牛",
+        "色",
+        "動",
+        "野",
+        "菜"
+      ],
       "description": "Animals, plants, and natural elements"
     },
     "food_nutrition": {
       "name": "Food & Nutrition",
-      "kanji_ids": [28, 106, 127],
-      "kanji_characters": ["米", "料", "飯"],
+      "kanji_ids": [
+        135,
+        213,
+        234
+      ],
+      "kanji_characters": [
+        "米",
+        "料",
+        "飯"
+      ],
       "description": "Food, cooking ingredients, and nutrition"
     },
     "abstract_concepts": {
       "name": "Abstract Concepts",
-      "kanji_ids": [1, 13, 14, 23, 24, 25, 29, 31, 34, 35, 36, 37, 38, 103, 134, 137],
-      "kanji_characters": ["力", "予", "不", "正", "代", "世", "安", "多", "考", "合", "自", "同", "死", "真", "意", "楽"],
+      "kanji_ids": [
+        108,
+        120,
+        121,
+        130,
+        131,
+        132,
+        136,
+        138,
+        141,
+        142,
+        143,
+        144,
+        145,
+        210,
+        241,
+        244
+      ],
+      "kanji_characters": [
+        "力",
+        "予",
+        "不",
+        "正",
+        "代",
+        "世",
+        "安",
+        "多",
+        "考",
+        "合",
+        "自",
+        "同",
+        "死",
+        "真",
+        "意",
+        "楽"
+      ],
       "description": "Abstract concepts like strength, planning, truth, etc."
     },
     "education_learning": {
       "name": "Education & Learning",
-      "kanji_ids": [53, 92, 94, 112, 113, 116, 117, 135, 138, 140],
-      "kanji_characters": ["究", "研", "勉", "習", "部", "教", "理", "業", "試", "質"],
+      "kanji_ids": [
+        160,
+        199,
+        201,
+        219,
+        220,
+        223,
+        224,
+        242,
+        245,
+        247
+      ],
+      "kanji_characters": [
+        "究",
+        "研",
+        "勉",
+        "習",
+        "部",
+        "教",
+        "理",
+        "業",
+        "試",
+        "質"
+      ],
       "description": "Education, research, and learning processes"
     },
     "medical_health": {
       "name": "Medical & Health",
-      "kanji_ids": [49, 50, 93, 104],
-      "kanji_characters": ["利", "医", "病", "院"],
+      "kanji_ids": [
+        156,
+        157,
+        200,
+        211
+      ],
+      "kanji_characters": [
+        "利",
+        "医",
+        "病",
+        "院"
+      ],
       "description": "Health, medical, and healthcare facilities"
     },
     "construction_building": {
       "name": "Construction & Building",
-      "kanji_ids": [3, 16, 90],
-      "kanji_characters": ["工", "立", "建"],
+      "kanji_ids": [
+        110,
+        123,
+        197
+      ],
+      "kanji_characters": [
+        "工",
+        "立",
+        "建"
+      ],
       "description": "Construction, buildings, and infrastructure"
     },
     "transportation": {
       "name": "Transportation",
-      "kanji_ids": [99, 115, 128, 132],
-      "kanji_characters": ["旅", "転", "運", "鉄"],
+      "kanji_ids": [
+        206,
+        222,
+        235,
+        239
+      ],
+      "kanji_characters": [
+        "旅",
+        "転",
+        "運",
+        "鉄"
+      ],
       "description": "Travel and transportation means"
     },
     "communication_media": {
       "name": "Communication & Media",
-      "kanji_ids": [6, 20, 41, 66, 139],
-      "kanji_characters": ["文", "写", "言", "画", "歌"],
+      "kanji_ids": [
+        113,
+        127,
+        148,
+        173,
+        246
+      ],
+      "kanji_characters": [
+        "文",
+        "写",
+        "言",
+        "画",
+        "歌"
+      ],
       "description": "Communication, media, and arts"
     },
     "business_commerce": {
       "name": "Business & Commerce",
-      "kanji_ids": [40, 67, 101, 102, 105, 125],
-      "kanji_characters": ["社", "者", "荷", "席", "員", "貸"],
+      "kanji_ids": [
+        147,
+        174,
+        208,
+        209,
+        212,
+        232
+      ],
+      "kanji_characters": [
+        "社",
+        "者",
+        "荷",
+        "席",
+        "員",
+        "貸"
+      ],
       "description": "Business, commerce, and services"
     },
     "daily_activities": {
       "name": "Daily Activities",
-      "kanji_ids": [9, 19, 57, 62, 63, 64, 65, 107, 110, 124, 129],
-      "kanji_characters": ["止", "用", "始", "注", "服", "定", "物", "閉", "終", "開", "集"],
+      "kanji_ids": [
+        116,
+        126,
+        164,
+        169,
+        170,
+        171,
+        172,
+        214,
+        217,
+        231,
+        236
+      ],
+      "kanji_characters": [
+        "止",
+        "用",
+        "始",
+        "注",
+        "服",
+        "定",
+        "物",
+        "閉",
+        "終",
+        "開",
+        "集"
+      ],
       "description": "Daily activities and routines"
     },
     "directions_positions": {
       "name": "Directions & Positions",
-      "kanji_ids": [10, 21, 27],
-      "kanji_characters": ["方", "広", "以"],
+      "kanji_ids": [
+        117,
+        128,
+        134
+      ],
+      "kanji_characters": [
+        "方",
+        "広",
+        "以"
+      ],
       "description": "Directions, positions, and relative locations"
     },
     "appearance_characteristics": {
       "name": "Appearance & Characteristics",
-      "kanji_ids": [12, 52, 100, 108, 114, 121, 130],
-      "kanji_characters": ["切", "別", "特", "強", "黒", "悪", "暗"],
+      "kanji_ids": [
+        119,
+        159,
+        207,
+        215,
+        221,
+        228,
+        237
+      ],
+      "kanji_characters": [
+        "切",
+        "別",
+        "特",
+        "強",
+        "黒",
+        "悪",
+        "暗"
+      ],
       "description": "Appearance traits and characteristics"
     },
     "facilities_buildings": {
       "name": "Facilities & Buildings",
-      "kanji_ids": [68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 109, 122, 123],
-      "kanji_characters": ["事", "時", "間", "週", "曲", "思", "教", "低", "持", "待", "意", "重", "急", "速", "貧", "困", "便", "新", "古", "若", "老", "太", "問", "堂", "答"],
+      "kanji_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        216,
+        229,
+        230
+      ],
+      "kanji_characters": [
+        "事",
+        "時",
+        "間",
+        "週",
+        "曲",
+        "思",
+        "教",
+        "低",
+        "持",
+        "待",
+        "意",
+        "重",
+        "急",
+        "速",
+        "貧",
+        "困",
+        "便",
+        "新",
+        "古",
+        "若",
+        "老",
+        "太",
+        "問",
+        "堂",
+        "答"
+      ],
       "description": "Various facilities and types of buildings"
     }
   },
