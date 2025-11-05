@@ -6,35 +6,26 @@ import { Card } from "@/pwa/core/components/card";
 import { Badge } from "@/pwa/core/components/badge";
 import { Settings, Eye, EyeOff } from "lucide-react";
 import { usePairingDisplayOptions } from "../store";
-import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
-import { isIndonesianLanguage } from "../../../shared/utils/language-helpers";
 import { cn } from "@/pwa/core/lib/utils";
 
 export function PairingDisplayOptionsControl() {
   const [isOpen, setIsOpen] = useState(false);
-  const { language } = useLanguage();
-  
-  // Helper function to determine if current language is Indonesian
-  const isIndonesian = isIndonesianLanguage(language);
-  const {
-    displayFurigana,
-    displayRomanji,
-    toggleFurigana,
-    toggleRomanji,
-  } = usePairingDisplayOptions();
+
+  const { displayFurigana, displayRomanji, toggleFurigana, toggleRomanji } =
+    usePairingDisplayOptions();
 
   const options = [
     {
-      key: 'furigana',
-      label: 'Furigana',
-      description: isIndonesian ? 'Teks bantuan baca' : 'Reading guide',
+      key: "furigana",
+      label: "Furigana",
+      description: "Reading guide",
       isActive: displayFurigana,
       toggle: toggleFurigana,
     },
     {
-      key: 'romanji',
-      label: 'Romanji',
-      description: isIndonesian ? 'Tulisan Latin' : 'Latin script',
+      key: "romanji",
+      label: "Romanji",
+      description: "Latin script",
       isActive: displayRomanji,
       toggle: toggleRomanji,
     },
@@ -53,10 +44,12 @@ export function PairingDisplayOptionsControl() {
             isOpen && "bg-primary/90"
           )}
         >
-          <Settings className={cn(
-            "h-5 w-5 transition-transform duration-200",
-            isOpen && "rotate-45"
-          )} />
+          <Settings
+            className={cn(
+              "h-5 w-5 transition-transform duration-200",
+              isOpen && "rotate-45"
+            )}
+          />
         </Button>
       </div>
 
@@ -64,11 +57,11 @@ export function PairingDisplayOptionsControl() {
       {isOpen && (
         <>
           {/* Backdrop */}
-          <div 
+          <div
             className="fixed inset-0 bg-background/80 backdrop-blur-sm z-40"
             onClick={() => setIsOpen(false)}
           />
-          
+
           {/* Options Card */}
           <div className="fixed bottom-20 right-6 z-50">
             <Card className="p-4 w-72 bg-card border border-border shadow-xl">
@@ -76,7 +69,7 @@ export function PairingDisplayOptionsControl() {
                 {/* Header */}
                 <div className="flex items-center justify-between">
                   <h3 className="font-semibold text-foreground">
-                    {isIndonesian ? 'Opsi Tampilan' : 'Display Options'}
+                    {"Display Options"}
                   </h3>
                 </div>
 
@@ -88,22 +81,24 @@ export function PairingDisplayOptionsControl() {
                       className="flex items-center justify-between p-2 rounded-lg hover:bg-accent/20 transition-colors"
                     >
                       <div className="flex items-center gap-3">
-                        <div className={cn(
-                          "w-8 h-8 rounded-full flex items-center justify-center border-2 transition-colors",
-                          option.isActive 
-                            ? "border-primary bg-primary/10" 
-                            : "border-muted-foreground/30"
-                        )}>
+                        <div
+                          className={cn(
+                            "w-8 h-8 rounded-full flex items-center justify-center border-2 transition-colors",
+                            option.isActive
+                              ? "border-primary bg-primary/10"
+                              : "border-muted-foreground/30"
+                          )}
+                        >
                           {option.isActive ? (
                             <Eye className="h-4 w-4 text-primary" />
                           ) : (
                             <EyeOff className="h-4 w-4 text-muted-foreground" />
                           )}
                         </div>
-                        
+
                         <div>
                           <div className="flex items-center gap-2">
-                            <Badge 
+                            <Badge
                               variant="secondary"
                               className="text-xs font-semibold px-2 py-0.5"
                             >
@@ -115,17 +110,14 @@ export function PairingDisplayOptionsControl() {
                           </p>
                         </div>
                       </div>
-                      
+
                       <Button
                         variant="ghost"
                         size="sm"
                         onClick={option.toggle}
                         className="h-8 w-16 text-xs"
                       >
-                        {option.isActive 
-                          ? (isIndonesian ? 'Sembunyikan' : 'Hide')
-                          : (isIndonesian ? 'Tampilkan' : 'Show')
-                        }
+                        {option.isActive ? "Hide" : "Show"}
                       </Button>
                     </div>
                   ))}

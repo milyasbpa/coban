@@ -1,11 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Confetti from "react-confetti";
+
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
+import { Confetti } from "@/pwa/core/components/confetti";
 import { RotateCcw, Home } from "lucide-react";
-import { useWindowSize } from "usehooks-ts";
 
 import { useRouter } from "next/navigation";
 import { useReadingExerciseStore } from "../store";
@@ -59,8 +58,6 @@ export function ReadingGameResult() {
   const handleRetry = () => {
     startRetryMode();
   };
-  const { width, height } = useWindowSize();
-  const [showConfetti, setShowConfetti] = useState(false);
   
   const { totalQuestions, correctAnswers, wrongAnswers, score } = gameStats;
   const accuracy = Math.round((correctAnswers / totalQuestions) * 100);
@@ -69,29 +66,11 @@ export function ReadingGameResult() {
   // Perfect score (100%) triggers confetti
   const isPerfectScore = accuracy === 100 && wrongAnswers === 0;
   const showRetryButton = canRetry() && !isRetryMode;
-  
-  useEffect(() => {
-    // Show confetti for perfect scores
-    if (isPerfectScore) {
-      setShowConfetti(true);
-      // Stop confetti after 5 seconds
-      const timer = setTimeout(() => setShowConfetti(false), 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [isPerfectScore]);
 
   return (
     <div className="min-h-screen bg-background p-4">
       {/* Confetti for perfect scores */}
-      {showConfetti && (
-        <Confetti
-          width={width}
-          height={height}
-          numberOfPieces={200}
-          recycle={false}
-          gravity={0.1}
-        />
-      )}
+      <Confetti isPerfectScore={isPerfectScore} />
 
       <div className="flex items-center justify-center min-h-screen">
         <Card className="w-full max-w-md p-8 text-center space-y-6">

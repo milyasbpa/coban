@@ -1,15 +1,14 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import Confetti from "react-confetti";
+import { useMemo } from "react";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
+import { Confetti } from "@/pwa/core/components/confetti";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreColor } from "../utils/score-colors";
 import { RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { useWindowSize } from "usehooks-ts";
 
 export function GameResult() {
   const searchParams = useSearchParams();
@@ -36,9 +35,6 @@ export function GameResult() {
     sectionState: { errorWords: sectionErrorWords },
     initializeGame,
   } = usePairingGameStore();
-
-  const { width, height } = useWindowSize();
-  const [showConfetti, setShowConfetti] = useState(false);
 
   const scoreColors = getScoreColor(score);
 
@@ -75,28 +71,10 @@ export function GameResult() {
     }
   };
 
-  useEffect(() => {
-    // Show confetti for perfect scores
-    if (isPerfectScore) {
-      setShowConfetti(true);
-      // Stop confetti after 5 seconds
-      const timer = setTimeout(() => setShowConfetti(false), 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [isPerfectScore]);
-
   return (
     <div className="min-h-screen bg-background p-4">
       {/* Confetti for perfect scores */}
-      {showConfetti && (
-        <Confetti
-          width={width}
-          height={height}
-          numberOfPieces={200}
-          recycle={false}
-          gravity={0.1}
-        />
-      )}
+      <Confetti isPerfectScore={isPerfectScore} />
 
       <div className="flex items-center justify-center min-h-screen">
         <Card className="w-full max-w-md p-8 text-center space-y-6">
