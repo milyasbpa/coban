@@ -10,11 +10,6 @@ export interface PairingWord {
   furigana: string;
 }
 
-export interface GameStats {
-  // Empty interface - all fields moved to semantic locations
-  // Keep for backward compatibility during transition
-}
-
 export interface GameState {
   allGameWords: PairingWord[]; // Global master data - all words for the entire game
   isRetryMode: boolean; // Global retry mode state
@@ -32,11 +27,6 @@ export interface SectionState {
   matchedPairs: Set<string>; // Current section matched pairs
   errorCards: Set<string>; // Current section error cards
   errorWords: Set<string>; // Current section error words
-}
-
-export interface RetryState {
-  // Empty interface - globalWordsWithErrors moved to gameState.errorWords
-  // Keep for backward compatibility during transition
 }
 
 export interface SelectedCard extends PairingWord {

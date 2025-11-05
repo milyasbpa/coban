@@ -5,7 +5,6 @@ import {
   shuffleArray as shuffleArrayUtil,
 } from "../utils/pairing-game";
 import {
-  GameStats,
   GameState,
   SectionState,
   PairingWord,
