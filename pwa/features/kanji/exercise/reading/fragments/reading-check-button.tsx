@@ -3,6 +3,9 @@
 import { Button } from "@/pwa/core/components/button";
 import { useReadingExerciseStore } from "../store";
 import { checkAnswer } from "../utils/reading-game";
+import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { useExerciseSearchParams } from "../../utils/hooks";
+import type { QuestionResult } from "@/pwa/features/score/model/score";
 
 export function ReadingCheckButton() {
   const {
@@ -17,10 +20,68 @@ export function ReadingCheckButton() {
     addWrongQuestion,
   } = useReadingExerciseStore();
 
+  const {
+    updateKanjiMastery,
+    initializeUser,
+    currentUserScore,
+    isInitialized,
+  } = useScoreStore();
+
+  const { level } = useExerciseSearchParams();
+
+  // Real-time per-question score integration
+  const integrateQuestionScore = async (question: any, isCorrect: boolean) => {
+    try {
+
+      // Auto-initialize user if not already initialized
+      if (!isInitialized || !currentUserScore) {
+        await initializeUser(
+          "default-user",
+          level as "N5" | "N4" | "N3" | "N2" | "N1"
+        );
+      }
+
+      // Import required utilities for word-based scoring
+      const { WordIdGenerator } = await import(
+        "@/pwa/features/score/utils/word-id-generator"
+      );
+      const { KanjiWordMapper } = await import(
+        "@/pwa/features/score/utils/kanji-word-mapper"
+      );
+
+      // Extract kanji character from the question
+      const kanjiCharacter = question.kanji.charAt(0);
+
+      // Get accurate kanji information using the extracted kanji character
+      const kanjiInfo = KanjiWordMapper.getKanjiInfo(kanjiCharacter, level);
+
+      // Generate unique word ID based on actual question content
+      const wordId = WordIdGenerator.generateWordId(
+        question.kanji,
+        kanjiInfo.kanjiId,
+        gameStats.currentQuestion - 1
+      );
+
+      const questionResult: QuestionResult = {
+        kanjiId: kanjiInfo.kanjiId,
+        kanji: kanjiCharacter,
+        isCorrect,
+        wordId,
+        word: question.kanji,
+        exerciseType: "reading" as const,
+      };
+
+      // Update word mastery immediately (first attempt only)
+      updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [questionResult]);
+    } catch (error) {
+      console.error("Error in first-attempt question score integration:", error);
+    }
+  };
+
   const currentQuestion = getCurrentQuestion();
   const canCheck = getCanCheck();
 
-  const handleCheckAnswer = () => {
+  const handleCheckAnswer = async () => {
     if (!currentQuestion) return;
 
     const userAnswer =
@@ -43,6 +104,9 @@ export function ReadingCheckButton() {
       correctAnswers: gameStats.correctAnswers + (result.isCorrect ? 1 : 0),
       wrongAnswers: gameStats.wrongAnswers + (result.isCorrect ? 0 : 1),
     });
+
+    // REAL-TIME Per-Question Score Integration
+    await integrateQuestionScore(currentQuestion, result.isCorrect);
   };
 
   return (
