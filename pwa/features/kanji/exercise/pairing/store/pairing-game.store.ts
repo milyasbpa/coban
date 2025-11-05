@@ -9,7 +9,6 @@ import {
   GameState,
   SectionState,
   RetryState,
-  GameGridState,
   PairingWord,
   SelectedCard,
   RetryResults,
@@ -31,7 +30,6 @@ interface PairingGameState {
   gameState: GameState;
   sectionState: SectionState;
   retryState: RetryState;
-  gameGridState: GameGridState;
 
   // Actions
   updateStats: (stats: Partial<GameStats>) => void;
@@ -64,16 +62,18 @@ interface PairingGameState {
   setMatchedPairs: (pairs: Set<string>) => void;
   setErrorCards: (errors: Set<string>) => void;
   checkSectionComplete: () => boolean;
+
+  // Computed Functions
+  getGameTotalWords: () => number;
+  getSectionTotalWords: () => number;
 }
 
 export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   // Core Game State
   gameStats: {
-    totalWords: 0,
     correctPairs: 0,
     wrongAttempts: 0,
     uniqueWrongWords: 0,
-    score: 100,
   },
   isGameComplete: false,
   wordsWithErrors: new Set(),
@@ -81,91 +81,75 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   // Grouped State Objects
   gameState: {
     allGameWords: [],
+    isRetryMode: false,
+    score: 100,
   },
-
   sectionState: {
     currentSectionIndex: 0,
     allSections: [],
     gameWords: [],
-  },
-
-  retryState: {
-    isRetryMode: false,
-    originalTotalWords: 0,
-    globalWordsWithErrors: new Set(),
-    currentBaseScore: 100,
-  },
-
-  gameGridState: {
     selectedCards: [],
-    matchedPairs: new Set(),
-    errorCards: new Set(),
+    matchedPairs: new Set<string>(),
+    errorCards: new Set<string>(),
+  },
+  retryState: {
+    globalWordsWithErrors: new Set<string>(),
   },
 
-  updateStats: (updates) =>
+  // Computed functions
+  getGameTotalWords: () => get().gameState.allGameWords.length,
+  getSectionTotalWords: () => get().sectionState.gameWords.length,
+
+  updateStats: (updates: Partial<GameStats>) =>
     set((state) => {
       const newStats = {
         ...state.gameStats,
         ...updates,
       };
-      // Only recalculate score if not explicitly provided in updates
-      if (!updates.hasOwnProperty("score")) {
-        if (state.retryState.isRetryMode) {
-          // During retry mode, maintain current score (will be handled by addWordError)
-          newStats.score = state.gameStats.score;
-        } else {
-          // Normal mode: recalculate from scratch
-          newStats.score = ScoreCalculatorService.calculateScore(newStats);
-        }
-      }
       return { gameStats: newStats };
     }),
 
-  setGameComplete: (complete) => set({ isGameComplete: complete }),
+  setGameComplete: (complete: boolean) => set({ isGameComplete: complete }),
 
-  resetGame: (totalWords) =>
+  resetGame: (totalWords: number) =>
     set({
       gameStats: {
-        totalWords,
         correctPairs: 0,
         wrongAttempts: 0,
         uniqueWrongWords: 0,
-        score: 100,
       },
       isGameComplete: false,
       wordsWithErrors: new Set(),
       gameState: {
         allGameWords: [],
+        isRetryMode: false,
+        score: 100,
       },
       sectionState: {
         currentSectionIndex: 0,
         allSections: [],
         gameWords: [],
+        selectedCards: [],
+        matchedPairs: new Set<string>(),
+        errorCards: new Set<string>(),
       },
       retryState: {
-        isRetryMode: false,
-        originalTotalWords: 0,
         globalWordsWithErrors: new Set(),
-        currentBaseScore: 100,
-      },
-      gameGridState: {
-        selectedCards: [],
-        matchedPairs: new Set(),
-        errorCards: new Set(),
       },
     }),
 
   calculateAndSetScore: () => {
     const {
       gameStats,
-      retryState: { isRetryMode, originalTotalWords, globalWordsWithErrors },
+      gameState: { isRetryMode, score, allGameWords },
+      retryState: { globalWordsWithErrors },
       wordsWithErrors,
     } = get();
 
     let newScore;
     if (isRetryMode) {
       // During retry mode, calculate from global accumulative wrong words + current session wrong words
-      const penaltyPerWord = 100 / originalTotalWords;
+      const penaltyPerWord = 100 / allGameWords.length;
       const allCurrentWrongWords = new Set([
         ...globalWordsWithErrors,
         ...wordsWithErrors,
@@ -175,12 +159,12 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       newScore = Math.max(0, 100 - totalPenalty);
     } else {
       // Normal mode: calculate from scratch
-      newScore = ScoreCalculatorService.calculateScore(gameStats);
+      newScore = ScoreCalculatorService.calculateScore(gameStats, allGameWords.length);
     }
 
     set((state) => ({
-      gameStats: {
-        ...state.gameStats,
+      gameState: {
+        ...state.gameState,
         score: Math.round(newScore),
       },
     }));
@@ -199,8 +183,8 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         const newUniqueWrongWords = state.gameStats.uniqueWrongWords + 1;
 
         // During retry mode, calculate penalty from global accumulative base
-        if (state.retryState.isRetryMode) {
-          const penaltyPerWord = 100 / state.retryState.originalTotalWords;
+        if (state.gameState.isRetryMode) {
+          const penaltyPerWord = 100 / state.gameState.allGameWords.length;
 
           // Calculate total unique wrong words: global + current session
           const allCurrentWrongWords = WordErrorService.getAllWrongWords(
@@ -217,6 +201,9 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
             gameStats: {
               ...state.gameStats,
               uniqueWrongWords: newUniqueWrongWords,
+            },
+            gameState: {
+              ...state.gameState,
               score: Math.round(newScore),
             },
           };
@@ -227,11 +214,14 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
           ...state.gameStats,
           uniqueWrongWords: newUniqueWrongWords,
         };
-        const newScore = ScoreCalculatorService.calculateScore(updatedStats);
+        const newScore = ScoreCalculatorService.calculateScore(updatedStats, state.gameState.allGameWords.length);
         return {
           wordsWithErrors: newErrorSet,
           gameStats: {
             ...updatedStats,
+          },
+          gameState: {
+            ...state.gameState,
             score: newScore,
           },
         };
@@ -258,7 +248,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
           // Recalculate score based on reduced penalty
           let newScore;
-          if (state.retryState.isRetryMode) {
+          if (state.gameState.isRetryMode) {
             const penaltyPerWord = 100 / state.gameState.allGameWords.length;
             const totalUniqueWrongWords = newGlobalWordsWithErrors.size;
             const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
@@ -272,7 +262,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
                 state.gameStats.uniqueWrongWords - 1
               ),
             };
-            newScore = ScoreCalculatorService.calculateScore(updatedStats);
+            newScore = ScoreCalculatorService.calculateScore(updatedStats, state.gameState.allGameWords.length);
           }
           return {
             retryState: {
@@ -308,7 +298,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     })),
 
   // Section Management Actions
-  setCurrentSectionIndex: (index) => 
+  setCurrentSectionIndex: (index: number) =>
     set((state) => ({
       sectionState: {
         ...state.sectionState,
@@ -316,7 +306,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       },
     })),
 
-  setAllSections: (sections) => {
+  setAllSections: (sections: PairingWord[][]) => {
     set((state) => ({
       sectionState: {
         ...state.sectionState,
@@ -405,14 +395,11 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   // Game Grid Actions
-  loadSection: (sectionWords) => {
+  loadSection: (sectionWords: PairingWord[]) => {
     set((state) => ({
       sectionState: {
         ...state.sectionState,
         gameWords: sectionWords,
-      },
-      gameGridState: {
-        ...state.gameGridState,
         selectedCards: [],
         matchedPairs: new Set(),
         errorCards: new Set(),
@@ -420,7 +407,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     }));
   },
 
-  setAllGameWords: (allWords) => 
+  setAllGameWords: (allWords: PairingWord[]) =>
     set((state) => ({
       gameState: {
         ...state.gameState,
@@ -428,32 +415,30 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       },
     })),
 
-  setSelectedCards: (cards) => 
+  setSelectedCards: (cards: SelectedCard[]) =>
     set((state) => ({
-      gameGridState: {
-        ...state.gameGridState,
+      sectionState: {
+        ...state.sectionState,
         selectedCards: cards,
       },
     })),
 
-  setMatchedPairs: (pairs) => 
+  setMatchedPairs: (pairs: Set<string>) =>
     set((state) => ({
-      gameGridState: {
-        ...state.gameGridState,
+      sectionState: {
+        ...state.sectionState,
         matchedPairs: pairs,
       },
     })),
 
-  setErrorCards: (errors) => 
+  setErrorCards: (errors: Set<string>) =>
     set((state) => ({
-      gameGridState: {
-        ...state.gameGridState,
+      sectionState: {
+        ...state.sectionState,
         errorCards: errors,
       },
-    })),
-
-  checkSectionComplete: () => {
-    const { gameGridState: { matchedPairs }, sectionState: { gameWords } } = get();
+    })),  checkSectionComplete: () => {
+    const { sectionState: { matchedPairs, gameWords } } = get();
     return GameDataService.isSectionComplete(
       matchedPairs.size,
       gameWords.length
@@ -480,19 +465,20 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     );
 
     set((state) => ({
+      gameState: {
+        ...state.gameState,
+        isRetryMode: true,
+      },
       retryState: {
         ...state.retryState,
-        isRetryMode: true,
-        currentBaseScore: gameStats.score, // Store current score as base for retry
         globalWordsWithErrors: newGlobalWordsWithErrors, // Update global tracking
-        originalTotalWords: gameStats.totalWords || state.retryState.originalTotalWords, // Set once, reuse
       },
       isGameComplete: false,
     }));
   },
 
   generateRetrySession: () => {
-    const { retryState: { globalWordsWithErrors, currentBaseScore }, gameState: { allGameWords } } = get();
+    const { retryState: { globalWordsWithErrors }, gameState: { allGameWords, score } } = get();
     const wrongWords = Array.from(globalWordsWithErrors);
 
     // Generate retry words using service
@@ -504,9 +490,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       sectionState: {
         ...state.sectionState,
         gameWords: retryWords,
-      },
-      gameGridState: {
-        ...state.gameGridState,
         selectedCards: [],
         matchedPairs: new Set(),
         errorCards: new Set(),
@@ -517,14 +500,12 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         correctPairs: 0,
         wrongAttempts: 0,
         uniqueWrongWords: 0,
-        totalWords: retryWords.length,
-        score: currentBaseScore, // Start with current base score (accumulative)
       },
     }));
   },
 
   finishRetryMode: (retryResults: RetryResults) => {
-    const { gameStats, retryState, wordsWithErrors } = get();
+    const { gameState, retryState, wordsWithErrors } = get();
 
     // Merge current session wrong words to global (for next potential retry)
     const updatedGlobalWordsWithErrors = WordErrorService.mergeErrorSets(
@@ -533,16 +514,16 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     );
 
     // Current score already reflects all penalties correctly
-    let finalScore = gameStats.score;
-
-    // Update currentBaseScore for potential next retry
-    const newBaseScore = finalScore;
+    let finalScore = gameState.score;
 
     set((state) => ({
+      gameState: {
+        ...state.gameState,
+        isRetryMode: false,
+        score: finalScore,
+      },
       retryState: {
         ...state.retryState,
-        isRetryMode: false,
-        currentBaseScore: newBaseScore, // Update base score for next retry
         globalWordsWithErrors: updatedGlobalWordsWithErrors, // Merge session errors to global
       },
       isGameComplete: true,

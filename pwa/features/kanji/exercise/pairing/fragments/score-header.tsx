@@ -5,12 +5,13 @@ import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreTextColor } from "../utils/score-colors";
 
 export function ScoreHeader() {
-  const { 
-    gameStats
+  const {
+    gameStats,
+    gameState: { score },
+    getSectionTotalWords
   } = usePairingGameStore();
-  const { score, correctPairs, totalWords } = gameStats;
-  
-  const scoreTextColor = getScoreTextColor(score);
+  const { correctPairs } = gameStats;
+  const totalWords = getSectionTotalWords();  const scoreTextColor = getScoreTextColor(score);
 
   return (
     <div className="flex justify-between items-center mb-6">

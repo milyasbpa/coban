@@ -33,11 +33,14 @@ export function GameResult() {
     canRetry,
     startRetryMode,
     generateRetrySession,
-    retryState: { globalWordsWithErrors, isRetryMode },
+    gameState: { isRetryMode, score },
+    retryState: { globalWordsWithErrors },
     wordsWithErrors,
     initializeGame,
+    getSectionTotalWords,
   } = usePairingGameStore();
-  const { score, correctPairs, totalWords, wrongAttempts } = gameStats;
+  const { correctPairs, wrongAttempts } = gameStats;
+  const totalWords = getSectionTotalWords();
 
   const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false);

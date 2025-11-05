@@ -11,34 +11,28 @@ export interface PairingWord {
 }
 
 export interface GameStats {
-  totalWords: number;
   correctPairs: number;
   wrongAttempts: number;
   uniqueWrongWords: number; // Track unique words yang pernah salah untuk penalty
-  score: number;
 }
 
 export interface GameState {
   allGameWords: PairingWord[]; // Global master data - all words for the entire game
+  isRetryMode: boolean; // Global retry mode state
+  score: number; // Global computed score
 }
 
 export interface SectionState {
   currentSectionIndex: number;
   allSections: PairingWord[][];
   gameWords: PairingWord[]; // Current section words for UI rendering
+  selectedCards: SelectedCard[]; // Current section UI interaction state
+  matchedPairs: Set<string>; // Current section matched pairs
+  errorCards: Set<string>; // Current section error cards
 }
 
 export interface RetryState {
-  isRetryMode: boolean;
-  originalTotalWords: number; // Store original total words for penalty calculation
   globalWordsWithErrors: Set<string>; // ALL words yang pernah salah sejak awal (accumulative)
-  currentBaseScore: number; // Current base score untuk retry berikutnya
-}
-
-export interface GameGridState {
-  selectedCards: SelectedCard[];
-  matchedPairs: Set<string>;
-  errorCards: Set<string>;
 }
 
 export interface SelectedCard extends PairingWord {

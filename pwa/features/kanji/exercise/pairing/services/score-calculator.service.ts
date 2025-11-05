@@ -6,14 +6,14 @@ import { GameStats } from "../types";
  */
 export class ScoreCalculatorService {
   /**
-   * Calculate score based on game stats
+   * Calculate score based on game stats with total words parameter
    * Sistem penalty: Setiap kanji word yang salah (pertama kali) mengurangi score
    * Penalty proporsional = 100 / total words
    */
-  static calculateScore(stats: GameStats): number {
-    if (stats.totalWords === 0) return 100;
+  static calculateScore(stats: GameStats, totalWords: number = 0): number {
+    if (totalWords === 0) return 100;
     
-    const penaltyPerUniqueWrongWord = 100 / stats.totalWords;
+    const penaltyPerUniqueWrongWord = 100 / totalWords;
     const totalPenalty = stats.uniqueWrongWords * penaltyPerUniqueWrongWord;
     const newScore = 100 - totalPenalty;
 
