@@ -139,9 +139,10 @@ export function GameGrid() {
     pairingWord: PairingWord
   ) => {
     // Get card ID using helper function
-    const id = getCardId(type, pairingWord, language as SupportedLanguage);
+    const cardId = getCardId(type, pairingWord, language as SupportedLanguage);
 
-    if (matchedPairs.has(id) || errorCards.has(id)) return;
+    // Check if this word is already matched (using PairingWord.id) or has error (using card string ID)
+    if (matchedPairs.has(pairingWord.id) || errorCards.has(cardId)) return;
 
     const newCard: SelectedCard = {
       ...pairingWord, // Spread all PairingWord properties
@@ -183,11 +184,10 @@ export function GameGrid() {
         }
 
         if (matchingWord) {
-          // Correct match
+          // Correct match - hanya simpan ID asli PairingWord ke matchedPairs
           const newMatchedPairs = new Set([
             ...matchedPairs,
-            kanjiCard.id,
-            meaningCard.id,
+            matchingWord.id, // Hanya simpan ID angka asli dari PairingWord
           ]);
 
           console.log(newMatchedPairs, "ini new matched pairs");
@@ -195,18 +195,22 @@ export function GameGrid() {
           setMatchedPairs(newMatchedPairs);
           incrementCorrectPairs();
           setSelectedCards([]);
-          removeWordError(kanjiCard.id);
+          removeWordError(kanjiCard.kanji);
 
           // REAL-TIME Per-Word Score Integration
           integrateWordScore(matchingWord, true);
 
-          // Check if section is complete - emit event for parent to handle
-          if (newMatchedPairs.size >= gameWords.length * 2) {
+          // Check if section is complete - sekarang 1 ID per word (bukan 2)
+          if (newMatchedPairs.size >= gameWords.length) {
             setTimeout(() => {
               if (isRetryMode) {
                 // Calculate retry results
+                // newMatchedPairs berisi ID angka, perlu convert ke kanji untuk check error
                 const correctOriginalWords = Array.from(newMatchedPairs).filter(
-                  (cardId) => globalErrorWords.has(cardId)
+                  (wordId) => {
+                    const word = gameWords.find(w => w.id === wordId);
+                    return word && globalErrorWords.has(word.kanji);
+                  }
                 ).length;
 
                 finishRetryMode({ correctCount: correctOriginalWords });
@@ -225,12 +229,14 @@ export function GameGrid() {
             }, 500);
           }
         } else {
-          // Wrong match - show error
-          setErrorCards(new Set([kanjiCard.id, meaningCard.id]));
+          // Wrong match - show error (gunakan card string ID, bukan PairingWord.id)
+          const kanjiCardId = getCardId("kanji", kanjiCard, language as SupportedLanguage);
+          const meaningCardId = getCardId("meaning", meaningCard, language as SupportedLanguage);
+          setErrorCards(new Set([kanjiCardId, meaningCardId]));
 
           // Track word errors based on the kanji (not individual cards)
           // Only the kanji determines if this is first error for this word
-          addWordError(kanjiCard.id);
+          addWordError(kanjiCard.kanji);
 
           // Update wrong attempts count (selalu bertambah untuk tracking)
           // Remove wrongAttempts tracking as per architecture optimization
@@ -268,7 +274,7 @@ export function GameGrid() {
               romanji={gameWord.reading}
               type="kanji"
               isSelected={selectedCards.some(
-                (c: SelectedCard) => c.id === gameWord.kanji
+                (c: SelectedCard) => c.id === gameWord.id && c.type === "kanji"
               )}
               isMatched={matchedPairs.has(gameWord.id)}
               isError={errorCards.has(gameWord.kanji)}
@@ -290,7 +296,7 @@ export function GameGrid() {
             content={meaning}
             type="meaning"
             isSelected={selectedCards.some(
-              (c: SelectedCard) => c.id === meaning
+              (c: SelectedCard) => c.id === word.id && c.type === "meaning"
             )}
             isMatched={matchedPairs.has(word.id)}
             isError={errorCards.has(meaning)}

@@ -65,6 +65,7 @@ export class GameDataService {
    * Check if section is complete based on matched pairs
    */
   static isSectionComplete(matchedPairsCount: number, sectionWordsCount: number): boolean {
-    return matchedPairsCount >= sectionWordsCount * 2;
+    // Sekarang matchedPairs hanya menyimpan 1 ID per word (bukan 2)
+    return matchedPairsCount >= sectionWordsCount;
   }
 }
