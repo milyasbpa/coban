@@ -387,10 +387,10 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
 
   getTopicKanjiList: (topicId: string): string[] => {
     try {
-      const { getTopicCategories } = require("../../kanji/lesson/utils/topic");
+      const { KanjiService } = require("../../../core/services/kanji");
       const { selectedLevel } = require("../../home/store/home-settings.store").useHomeSettingsStore.getState();
       
-      const categories = getTopicCategories(selectedLevel || "N5");
+      const categories = KanjiService.getTopicCategories(selectedLevel || "N5");
       const category = categories[topicId];
       
       return category ? category.kanji_characters || [] : [];

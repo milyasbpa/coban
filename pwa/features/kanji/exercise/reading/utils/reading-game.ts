@@ -1,8 +1,7 @@
 import {
-  getKanjiDetailsByLessonId,
-  getKanjiDetailsByTopicId,
+  KanjiService,
   KanjiDetail,
-} from "@/pwa/features/kanji/lesson/utils/kanji";
+} from "@/pwa/core/services/kanji";
 import { shuffleArray } from "../../pairing/utils";
 
 export interface ReadingQuestion {
@@ -126,10 +125,10 @@ export const getReadingGameData = (
   
   if (topicId) {
     // Get kanji details by topic ID
-    allKanjiDetails = getKanjiDetailsByTopicId(topicId, level);
+    allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
   } else if (lessonId) {
     // Get kanji details by lesson ID
-    allKanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+    allKanjiDetails = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
   } else {
     allKanjiDetails = [];
   }

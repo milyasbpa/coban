@@ -1,10 +1,9 @@
 // Utility functions for loading kanji data
 import n5KanjiData from "@/data/n5/kanji/kanji.json";
 import {
-  getKanjiDetailsByLessonId,
-  getKanjiDetailsByTopicId,
+  KanjiService,
   KanjiDetail,
-} from "@/pwa/features/kanji/lesson/utils/kanji";
+} from "@/pwa/core/services/kanji";
 
 export interface KanjiItem {
   id: number;
@@ -114,7 +113,7 @@ export function getWritingQuestions(
   if (topicId) {
     // Use KanjiDetail approach for topic-based questions
     let allKanjiDetails: KanjiDetail[];
-    allKanjiDetails = getKanjiDetailsByTopicId(topicId, level);
+    allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
     
     // Filter kanji details if selectedKanjiIds is provided
     const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0

@@ -3,7 +3,8 @@
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { TopicLessonCard } from "../components/topic-lesson-card";
-import { getTopicLessons, getTopicCategories } from "../../kanji/lesson/utils/topic";
+import { getTopicLessons } from "../../kanji/lesson/utils/topic";
+import { KanjiService } from "@/pwa/core/services/kanji";
 import { useHomeStore } from "../store/home-store";
 import { KanjiExerciseModal } from "./kanji-exercise-modal";
 import {
@@ -48,7 +49,7 @@ export function KanjiTopicLessonsSection() {
     // Find topic data and get kanji list
     const topic = topicLessons.find((t) => t.id === topicId);
     if (topic) {
-      const categories = getTopicCategories(selectedLevel);
+      const categories = KanjiService.getTopicCategories(selectedLevel);
       const category = categories[topicId];
       const kanjiList = category?.kanji_characters || [];
       
@@ -83,7 +84,7 @@ export function KanjiTopicLessonsSection() {
     return (
       <div className="space-y-4">
         {topicTabs[0].topics.map((topic) => {
-          const categories = getTopicCategories(selectedLevel);
+          const categories = KanjiService.getTopicCategories(selectedLevel);
           const category = categories[topic.id];
           return (
             <TopicLessonCard
@@ -120,7 +121,7 @@ export function KanjiTopicLessonsSection() {
         {topicTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
             {tab.topics.map((topic) => {
-              const categories = getTopicCategories(selectedLevel);
+              const categories = KanjiService.getTopicCategories(selectedLevel);
               const category = categories[topic.id];
               return (
               <TopicLessonCard

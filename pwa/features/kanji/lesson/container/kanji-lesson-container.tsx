@@ -7,7 +7,7 @@ import { LessonHeader } from "../fragments/lesson-header";
 import { LessonDisplayOptionsControl } from "../fragments/lesson-display-options-control";
 import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
 import { useKanjiSelection } from "../store/kanji-selection.store";
-import { getKanjiDetailsByLessonId, getKanjiDetailsByTopicId, KanjiDetail } from "../utils/kanji";
+import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
 
 export function KanjiLessonContainer() {
   const searchParams = useSearchParams();
@@ -21,11 +21,11 @@ export function KanjiLessonContainer() {
   useEffect(() => {
     if (topicId) {
       // Handle topic-based lesson
-      const kanji = getKanjiDetailsByTopicId(topicId, level);
+      const kanji = KanjiService.getKanjiDetailsByTopicId(topicId, level);
       setKanjiList(kanji);
     } else if (lessonId) {
       // Handle stroke-based lesson
-      const kanji = getKanjiDetailsByLessonId(parseInt(lessonId), level);
+      const kanji = KanjiService.getKanjiDetailsByLessonId(parseInt(lessonId), level);
       setKanjiList(kanji);
     }
   }, [lessonId, topicId, level]);

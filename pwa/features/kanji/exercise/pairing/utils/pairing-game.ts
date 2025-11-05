@@ -1,8 +1,4 @@
-import {
-  getKanjiDetailsByLessonId,
-  getKanjiDetailsByTopicId,
-  KanjiDetail,
-} from "@/pwa/features/kanji/lesson/utils/kanji";
+import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
 import { PairingWord, GameSection } from "../types";
 import { GameDataService } from "../services";
 
@@ -14,7 +10,7 @@ export const createPairingWords = (
 
   kanjiDetails.forEach((kanji) => {
     // Use examples from kanji data
-    kanji.examples.forEach((example, index) => {
+    kanji.examples.forEach((example) => {
       words.push({
         id: `${kanji.id}-${example.id}`, // Use example.id from new structure
         kanji: example.word,
@@ -57,28 +53,29 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 
 // Get pairing game data by lesson
 export const getPairingGameData = (
-  lessonId: number | null, 
-  level: string, 
+  lessonId: number | null,
+  level: string,
   selectedKanjiIds?: number[],
   topicId?: string
 ) => {
   let allKanjiDetails: KanjiDetail[];
-  
+
   if (topicId) {
     // Get kanji details by topic ID
-    allKanjiDetails = getKanjiDetailsByTopicId(topicId, level);
+    allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
   } else if (lessonId) {
     // Get kanji details by lesson ID
-    allKanjiDetails = getKanjiDetailsByLessonId(lessonId, level);
+    allKanjiDetails = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
   } else {
     allKanjiDetails = [];
   }
-  
+
   // Filter kanji details if selectedKanjiIds is provided
-  const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0
-    ? allKanjiDetails.filter(kanji => selectedKanjiIds.includes(kanji.id))
-    : allKanjiDetails;
-  
+  const kanjiDetails =
+    selectedKanjiIds && selectedKanjiIds.length > 0
+      ? allKanjiDetails.filter((kanji) => selectedKanjiIds.includes(kanji.id))
+      : allKanjiDetails;
+
   // NOTE: for debugging purpose don't remove when it's uncomment
   // const words = createPairingWords(kanjiDetails).slice(0, 3);
   const words = createPairingWords(kanjiDetails);
