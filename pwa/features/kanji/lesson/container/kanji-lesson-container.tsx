@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { KanjiCard } from "../components/kanji-card";
 import { LessonHeader } from "../fragments/lesson-header";
-import { DisplayOptionsControl } from "../fragments/display-options-control";
+import { LessonDisplayOptionsControl } from "../fragments/lesson-display-options-control";
 import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
 import { useKanjiSelection } from "../store/kanji-selection.store";
 import { getKanjiDetailsByLessonId, getKanjiDetailsByTopicId, KanjiDetail } from "../utils/kanji";
@@ -47,7 +47,7 @@ export function KanjiLessonContainer() {
       </div>
 
       {/* Display Options Control */}
-      <DisplayOptionsControl />
+      <LessonDisplayOptionsControl />
 
       {/* Selection Bottom Navigation */}
       {isSelectionMode && <SelectionBottomNav />}
