@@ -6,6 +6,8 @@ import { checkAnswer } from "../utils/reading-game";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { useExerciseSearchParams } from "../../utils/hooks";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
+import { WordIdGenerator } from "@/pwa/features/score/utils/word-id-generator";
+import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 
 export function ReadingCheckButton() {
   const {
@@ -41,13 +43,7 @@ export function ReadingCheckButton() {
         );
       }
 
-      // Import required utilities for word-based scoring
-      const { WordIdGenerator } = await import(
-        "@/pwa/features/score/utils/word-id-generator"
-      );
-      const { KanjiWordMapper } = await import(
-        "@/pwa/features/score/utils/kanji-word-mapper"
-      );
+      // Use imported utilities for word-based scoring
 
       // Extract kanji character from the question
       const kanjiCharacter = question.kanji.charAt(0);

@@ -1,8 +1,7 @@
 import { create } from "zustand";
 import { StorageManager } from "../storage/storage";
 import { ScoreCalculator } from "../utils/score-calculator";
-import { KanjiWordMapper } from "../utils/kanji-word-mapper";
-import { WordIdGenerator } from "../utils/word-id-generator";
+import { StorageInitializer } from "../storage/initializer";
 import {
   UserScore,
   WordMasteryLevel,
@@ -74,7 +73,6 @@ export const useScoreStore = create<ScoreState>((set, get) => ({
 
     try {
       // Initialize storage system first
-      const { StorageInitializer } = await import("../storage/initializer");
       const initResult = await StorageInitializer.initialize();
       
       if (!initResult.success) {

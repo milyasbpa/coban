@@ -16,6 +16,8 @@ import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
+import { WordIdGenerator } from "@/pwa/features/score/utils/word-id-generator";
+import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 
 export function PairingGameGrid() {
   const { language } = useLanguage();
@@ -59,13 +61,7 @@ export function PairingGameGrid() {
         );
       }
 
-      // Import required utilities for word-based scoring
-      const { WordIdGenerator } = await import(
-        "@/pwa/features/score/utils/word-id-generator"
-      );
-      const { KanjiWordMapper } = await import(
-        "@/pwa/features/score/utils/kanji-word-mapper"
-      );
+      // Use imported utilities for word-based scoring
 
       // Extract kanji character from the word
       const kanjiCharacter = word.kanji.charAt(0);

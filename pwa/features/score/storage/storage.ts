@@ -7,6 +7,8 @@ import {
   DEFAULT_WORD_MASTERY,
   DEFAULT_KANJI_MASTERY,
 } from "../model/score";
+import { ScoreCalculator } from "../utils/score-calculator";
+import { KanjiWordMapper } from "../utils/kanji-word-mapper";
 
 
 
@@ -92,7 +94,6 @@ export class StorageManager {
     userScore.kanjiMastery[kanjiId].words[wordId] = wordMastery;
 
     // Recalculate kanji mastery
-    const { ScoreCalculator } = await import("../utils/score-calculator");
     userScore.kanjiMastery[kanjiId] = ScoreCalculator.calculateKanjiMastery(
       userScore.kanjiMastery[kanjiId]
     );
@@ -140,9 +141,6 @@ export class StorageManager {
   ): Promise<void> {
     const userScore = await this.getUserScore(userId);
     if (!userScore) return;
-
-    const { ScoreCalculator } = await import("../utils/score-calculator");
-    const { KanjiWordMapper } = await import("../utils/kanji-word-mapper");
 
     // Group results by kanji
     const resultsByKanji = results.reduce((acc, result) => {
@@ -300,7 +298,6 @@ export class StorageManager {
       };
     }
 
-    const { ScoreCalculator } = await import("../utils/score-calculator");
     const report = ScoreCalculator.generateMasteryReport(userScore);
     
     const kanjiArray = Object.values(userScore.kanjiMastery);

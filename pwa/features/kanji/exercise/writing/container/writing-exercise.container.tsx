@@ -6,6 +6,9 @@ import { Button } from "@/pwa/core/components/button";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
+import { ScoreCalculator } from "@/pwa/features/score/utils/score-calculator";
+import { WordIdGenerator } from "@/pwa/features/score/utils/word-id-generator";
+import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 import {
   DndContext,
   DragEndEvent,
@@ -111,37 +114,42 @@ export function WritingExerciseContainer() {
 
         // Auto-initialize user if not already initialized
         if (!isInitialized || !currentUserScore) {
-          console.log("ScoreStore: Auto-initializing user...");
           await initializeUser(
             "default-user",
             level as "N5" | "N4" | "N3" | "N2" | "N1"
           );
         }
 
-        // Import required utilities for word-based scoring
-        const { ScoreCalculator } = await import("@/pwa/features/score/utils/score-calculator");
-        const { WordIdGenerator } = await import("@/pwa/features/score/utils/word-id-generator");
-        const { KanjiWordMapper } = await import("@/pwa/features/score/utils/kanji-word-mapper");
+        // Use imported utilities for word-based scoring
 
         // Create word-based question results using accurate kanji mapping
-        const wordResults: QuestionResult[] = questions.map((question, index) => {
-          const isCorrect = index < score; // Simple estimation based on score
-          
-          // Get accurate kanji information using mapper
-          const kanjiInfo = KanjiWordMapper.getKanjiInfo(question.kanji, level);
-          
-          // Generate word ID for this word
-          const wordId = WordIdGenerator.generateWordId(question.kanji, kanjiInfo.kanjiId, index);
+        const wordResults: QuestionResult[] = questions.map(
+          (question, index) => {
+            const isCorrect = index < score; // Simple estimation based on score
 
-          return {
-            kanjiId: kanjiInfo.kanjiId,
-            kanji: kanjiInfo.kanjiCharacter,
-            isCorrect,
-            wordId,
-            word: question.kanji,
-            exerciseType: "writing" as const,
-          };
-        });
+            // Get accurate kanji information using mapper
+            const kanjiInfo = KanjiWordMapper.getKanjiInfo(
+              question.kanji,
+              level
+            );
+
+            // Generate word ID for this word
+            const wordId = WordIdGenerator.generateWordId(
+              question.kanji,
+              kanjiInfo.kanjiId,
+              index
+            );
+
+            return {
+              kanjiId: kanjiInfo.kanjiId,
+              kanji: kanjiInfo.kanjiCharacter,
+              isCorrect,
+              wordId,
+              word: question.kanji,
+              exerciseType: "writing" as const,
+            };
+          }
+        );
 
         // Group results by kanji for word-based processing
         const resultsByKanji = wordResults.reduce((acc, result) => {
@@ -156,10 +164,12 @@ export function WritingExerciseContainer() {
         Object.entries(resultsByKanji).forEach(([kanjiId, results]) => {
           // Get accurate total words for this kanji
           const firstWord = results[0]?.word;
-          const totalWordsInKanji = firstWord ? KanjiWordMapper.getTotalWordsForKanji(firstWord, level) : 1;
-          
+          const totalWordsInKanji = firstWord
+            ? KanjiWordMapper.getTotalWordsForKanji(firstWord, level)
+            : 1;
+
           // Update each word's mastery
-          results.forEach(result => {
+          results.forEach((result) => {
             updateKanjiMastery(kanjiId, result.kanji, [result]);
           });
         });
