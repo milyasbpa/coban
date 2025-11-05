@@ -10,7 +10,7 @@ import { RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
-export function GameResult() {
+export function PairingGameResult() {
   const searchParams = useSearchParams();
   const lessonId = searchParams.get("lessonId");
   const topicId = searchParams.get("topicId");

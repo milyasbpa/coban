@@ -17,7 +17,7 @@ import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
 
-export function GameGrid() {
+export function PairingGameGrid() {
   const { language } = useLanguage();
   const {
     updateKanjiMastery,

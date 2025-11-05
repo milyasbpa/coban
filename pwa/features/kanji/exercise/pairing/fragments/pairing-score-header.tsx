@@ -4,7 +4,7 @@ import { Card } from "@/pwa/core/components/card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreTextColor } from "../utils/score-colors";
 
-export function ScoreHeader() {
+export function PairingScoreHeader() {
   const {
     gameState: { score, correctPairs },
     getSectionTotalWords
