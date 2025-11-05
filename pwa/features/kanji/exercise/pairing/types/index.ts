@@ -18,21 +18,24 @@ export interface GameStats {
   score: number;
 }
 
+export interface GameState {
+  allGameWords: PairingWord[]; // Global master data - all words for the entire game
+}
+
 export interface SectionState {
   currentSectionIndex: number;
   allSections: PairingWord[][];
+  gameWords: PairingWord[]; // Current section words for UI rendering
 }
 
 export interface RetryState {
   isRetryMode: boolean;
   originalTotalWords: number; // Store original total words for penalty calculation
-  allGameWords: PairingWord[]; // Store all words for decoy selection
   globalWordsWithErrors: Set<string>; // ALL words yang pernah salah sejak awal (accumulative)
   currentBaseScore: number; // Current base score untuk retry berikutnya
 }
 
 export interface GameGridState {
-  gameWords: PairingWord[];
   selectedCards: SelectedCard[];
   matchedPairs: Set<string>;
   errorCards: Set<string>;

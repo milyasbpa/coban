@@ -6,6 +6,7 @@ import {
 } from "../utils/pairing-game";
 import {
   GameStats,
+  GameState,
   SectionState,
   RetryState,
   GameGridState,
@@ -27,6 +28,7 @@ interface PairingGameState {
   wordsWithErrors: Set<string>; // Track words yang sudah pernah salah dalam session ini saja
 
   // Grouped State Objects
+  gameState: GameState;
   sectionState: SectionState;
   retryState: RetryState;
   gameGridState: GameGridState;
@@ -76,22 +78,25 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   isGameComplete: false,
   wordsWithErrors: new Set(),
 
-  // Grouped State Objects  
+  // Grouped State Objects
+  gameState: {
+    allGameWords: [],
+  },
+
   sectionState: {
     currentSectionIndex: 0,
     allSections: [],
+    gameWords: [],
   },
 
   retryState: {
     isRetryMode: false,
     originalTotalWords: 0,
-    allGameWords: [],
     globalWordsWithErrors: new Set(),
     currentBaseScore: 100,
   },
 
   gameGridState: {
-    gameWords: [],
     selectedCards: [],
     matchedPairs: new Set(),
     errorCards: new Set(),
@@ -129,19 +134,21 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       },
       isGameComplete: false,
       wordsWithErrors: new Set(),
+      gameState: {
+        allGameWords: [],
+      },
       sectionState: {
         currentSectionIndex: 0,
         allSections: [],
+        gameWords: [],
       },
       retryState: {
         isRetryMode: false,
         originalTotalWords: 0,
-        allGameWords: [],
         globalWordsWithErrors: new Set(),
         currentBaseScore: 100,
       },
       gameGridState: {
-        gameWords: [],
         selectedCards: [],
         matchedPairs: new Set(),
         errorCards: new Set(),
@@ -252,7 +259,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
           // Recalculate score based on reduced penalty
           let newScore;
           if (state.retryState.isRetryMode) {
-            const penaltyPerWord = 100 / state.retryState.allGameWords.length;
+            const penaltyPerWord = 100 / state.gameState.allGameWords.length;
             const totalUniqueWrongWords = newGlobalWordsWithErrors.size;
             const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
             newScore = Math.max(0, 100 - totalPenalty);
@@ -400,9 +407,12 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   // Game Grid Actions
   loadSection: (sectionWords) => {
     set((state) => ({
+      sectionState: {
+        ...state.sectionState,
+        gameWords: sectionWords,
+      },
       gameGridState: {
         ...state.gameGridState,
-        gameWords: sectionWords,
         selectedCards: [],
         matchedPairs: new Set(),
         errorCards: new Set(),
@@ -412,8 +422,8 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   setAllGameWords: (allWords) => 
     set((state) => ({
-      retryState: {
-        ...state.retryState,
+      gameState: {
+        ...state.gameState,
         allGameWords: allWords,
       },
     })),
@@ -443,7 +453,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     })),
 
   checkSectionComplete: () => {
-    const { gameGridState: { matchedPairs, gameWords } } = get();
+    const { gameGridState: { matchedPairs }, sectionState: { gameWords } } = get();
     return GameDataService.isSectionComplete(
       matchedPairs.size,
       gameWords.length
@@ -482,7 +492,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   generateRetrySession: () => {
-    const { retryState: { globalWordsWithErrors, allGameWords, currentBaseScore } } = get();
+    const { retryState: { globalWordsWithErrors, currentBaseScore }, gameState: { allGameWords } } = get();
     const wrongWords = Array.from(globalWordsWithErrors);
 
     // Generate retry words using service
@@ -491,9 +501,12 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       wrongWords
     );
     set((state) => ({
+      sectionState: {
+        ...state.sectionState,
+        gameWords: retryWords,
+      },
       gameGridState: {
         ...state.gameGridState,
-        gameWords: retryWords,
         selectedCards: [],
         matchedPairs: new Set(),
         errorCards: new Set(),

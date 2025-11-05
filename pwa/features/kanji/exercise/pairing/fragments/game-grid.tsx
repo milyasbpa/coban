@@ -104,7 +104,8 @@ export function GameGrid() {
   // Store - get all game grid state from store
   const {
     gameStats,
-    gameGridState: { gameWords, selectedCards, matchedPairs, errorCards },
+    sectionState: { gameWords },
+    gameGridState: { selectedCards, matchedPairs, errorCards },
     updateStats,
     addWordError,
     setSelectedCards,
