@@ -150,12 +150,9 @@ export function GameGrid() {
 
     if (matchedPairs.has(id) || errorCards.has(id)) return;
 
-    const content = id;
     const newCard: SelectedCard = {
-      id,
+      ...pairingWord, // Spread all PairingWord properties
       type,
-      content,
-      pairingWord, // Store reference to the full PairingWord data
     };
 
     if (selectedCards.length === 0) {
@@ -171,30 +168,17 @@ export function GameGrid() {
         // Direct matching using pairingWord references
         let matchingWord: PairingWord | undefined;
 
-        // Since both cards now have pairingWord, we can do direct comparison
-        if (kanjiCard.pairingWord && meaningCard.pairingWord) {
-          // Check if both cards reference the same PairingWord
-          matchingWord =
-            kanjiCard.pairingWord.id === meaningCard.pairingWord.id
-              ? kanjiCard.pairingWord
-              : undefined;
+        // Since SelectedCard extends PairingWord, we can check if they reference the same word
+        // by comparing their PairingWord IDs
+        if (kanjiCard.id === meaningCard.id) {
+          matchingWord = kanjiCard; // Both reference the same PairingWord
         } else {
-          // One of the cards doesn't have pairingWord, check by content
-          const kanjiCardWord = kanjiCard.pairingWord;
-          const meaningCardWord = meaningCard.pairingWord;
-
-          if (kanjiCardWord) {
-            const meaningToMatch = getMeaning(
-              kanjiCardWord,
-              language as SupportedLanguage
-            );
-            matchingWord =
-              meaningToMatch === meaningCard.id ? kanjiCardWord : undefined;
-          } else if (meaningCardWord) {
-            matchingWord =
-              meaningCardWord.kanji === kanjiCard.id
-                ? meaningCardWord
-                : undefined;
+          // Additional validation - check if kanji card's meaning matches meaning card's content
+          const kanjiMeaning = getMeaning(kanjiCard, language as SupportedLanguage);
+          const meaningCardId = getCardId("meaning", meaningCard, language as SupportedLanguage);
+          
+          if (kanjiMeaning === meaningCardId) {
+            matchingWord = kanjiCard;
           }
         }
 
@@ -252,10 +236,8 @@ export function GameGrid() {
           updateStats({ wrongAttempts: gameStats.wrongAttempts + 1 });
 
           // REAL-TIME Per-Word Score Integration for Wrong Match
-          // Use direct reference from kanjiCard (since we always have pairingWord now)
-          if (kanjiCard.pairingWord) {
-            integrateWordScore(kanjiCard.pairingWord, false);
-          }
+          // Use kanjiCard directly since it now extends PairingWord
+          integrateWordScore(kanjiCard, false);
 
           // Clear error state after animation
           setTimeout(() => {

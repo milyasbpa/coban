@@ -20,11 +20,8 @@ export interface GameStats {
   score: number;
 }
 
-export interface SelectedCard {
-  id: string;
+export interface SelectedCard extends PairingWord {
   type: "kanji" | "meaning";
-  content: string;
-  pairingWord?: PairingWord; // Optional reference to full PairingWord data
 }
 
 export interface GameSection {
