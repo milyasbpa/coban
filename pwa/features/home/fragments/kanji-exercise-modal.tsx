@@ -6,9 +6,9 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/pwa/core/components/dialog";
-import { Progress } from "@/pwa/core/components/progress";
 import { useHomeStore } from "../store/home-store";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { ExerciseCard } from "../components/exercise-card";
 import { Edit3, Book, Users } from "lucide-react";
 
 export function KanjiExerciseModal() {
@@ -70,109 +70,46 @@ export function KanjiExerciseModal() {
 
         <div className="space-y-3 mt-4">
           {/* Writing Exercise */}
-          <div
-            className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm cursor-pointer"
-            onClick={() => handleExerciseStart("writing")}
-          >
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <Edit3 className="h-4 w-4 text-foreground" />
-                <span className="font-medium text-foreground text-sm">
-                  Writing
-                </span>
-              </div>
-              <div className="text-right text-sm font-medium text-foreground">
-                {Math.round(
-                  getExerciseProgress(
-                    "writing",
-                    lessonType === "stroke"
-                      ? lessonId?.toString()
-                      : `topic_${topicId}`
-                  )
-                )}
-                %
-              </div>
-            </div>
-            <Progress
-              value={getExerciseProgress(
-                "writing",
-                lessonType === "stroke"
-                  ? lessonId?.toString()
-                  : `topic_${topicId}`
-              )}
-              className="mb-2 h-1.5"
-            />
-          </div>
+          <ExerciseCard
+            title="Writing"
+            exerciseType="writing"
+            Icon={Edit3}
+            progress={getExerciseProgress(
+              "writing",
+              lessonType === "stroke"
+                ? lessonId?.toString()
+                : `topic_${topicId}`
+            )}
+            onClick={handleExerciseStart}
+          />
 
           {/* Reading Exercise */}
-          <div
-            className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm cursor-pointer"
-            onClick={() => handleExerciseStart("reading")}
-          >
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <Book className="h-4 w-4 text-foreground" />
-                <span className="font-medium text-foreground text-sm">
-                  Reading
-                </span>
-              </div>
-              <div className="text-right text-sm font-medium text-foreground">
-                {Math.round(
-                  getExerciseProgress(
-                    "reading",
-                    lessonType === "stroke"
-                      ? lessonId?.toString()
-                      : `topic_${topicId}`
-                  )
-                )}
-                %
-              </div>
-            </div>
-            <Progress
-              value={getExerciseProgress(
-                "reading",
-                lessonType === "stroke"
-                  ? lessonId?.toString()
-                  : `topic_${topicId}`
-              )}
-              className="mb-2 h-1.5"
-            />
-          </div>
+          <ExerciseCard
+            title="Reading"
+            exerciseType="reading"
+            Icon={Book}
+            progress={getExerciseProgress(
+              "reading",
+              lessonType === "stroke"
+                ? lessonId?.toString()
+                : `topic_${topicId}`
+            )}
+            onClick={handleExerciseStart}
+          />
 
           {/* Pairing Exercise */}
-          <div
-            className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm cursor-pointer"
-            onClick={() => handleExerciseStart("pairing")}
-          >
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <Users className="h-4 w-4 text-foreground" />
-                <span className="font-medium text-foreground text-sm">
-                  Pairing
-                </span>
-              </div>
-              <div className="text-right text-sm font-medium text-foreground">
-                {Math.round(
-                  getExerciseProgress(
-                    "pairing",
-                    lessonType === "stroke"
-                      ? lessonId?.toString()
-                      : `topic_${topicId}`
-                  )
-                )}
-                %
-              </div>
-            </div>
-            <Progress
-              value={getExerciseProgress(
-                "pairing",
-                lessonType === "stroke"
-                  ? lessonId?.toString()
-                  : `topic_${topicId}`
-              )}
-              className="mb-2 h-1.5"
-            />
-          </div>
+          <ExerciseCard
+            title="Pairing"
+            exerciseType="pairing"
+            Icon={Users}
+            progress={getExerciseProgress(
+              "pairing",
+              lessonType === "stroke"
+                ? lessonId?.toString()
+                : `topic_${topicId}`
+            )}
+            onClick={handleExerciseStart}
+          />
         </div>
       </DialogContent>
     </Dialog>
