@@ -18,11 +18,11 @@ export function KanjiSelectionGrid({
     onKanjiClick(kanji);
   };
   return (
-    <div className="space-y-3">
-      <p className="text-sm text-muted-foreground">
+    <div className="space-y-4">
+      <p className="text-sm text-muted-foreground font-medium">
         Select or drag kanji to assemble the word:
       </p>
-      <div className="grid grid-cols-4 gap-3">
+      <div className="grid grid-cols-4 gap-4 p-2 rounded-lg bg-muted/10">
         {shuffledKanji.map((kanji, index) => {
           const isUsed = usedKanji.includes(kanji);
           return (

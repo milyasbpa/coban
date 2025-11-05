@@ -1,14 +1,10 @@
 // Utility functions for loading kanji data
-import {
-  KanjiService,
-  KanjiDetail,
-} from "@/pwa/core/services/kanji";
+import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
 
 export interface WritingQuestion {
   kanji: string;
   reading: string;
   meaning: string;
-  audio?: string;
 }
 
 /**
@@ -19,16 +15,16 @@ export function getAllKanjiByLevel(level: string): KanjiDetail[] {
   // Since we don't have a direct "get all kanji" method, we'll get them by lessons
   const allKanji: KanjiDetail[] = [];
   let lessonId = 1;
-  
+
   // Keep getting lessons until we get no more kanji
   while (true) {
     const lessonKanji = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
     if (lessonKanji.length === 0) break;
-    
+
     allKanji.push(...lessonKanji);
     lessonId++;
   }
-  
+
   return allKanji;
 }
 
@@ -46,24 +42,26 @@ export function getKanjiForLesson(
 /**
  * Convert KanjiDetail example to WritingQuestion
  */
-export function kanjiExampleToWritingQuestion(example: KanjiDetail['examples'][0]): WritingQuestion {
+export function kanjiExampleToWritingQuestion(
+  example: KanjiDetail["examples"][0]
+): WritingQuestion {
   return {
     kanji: example.word, // Use the word/phrase, not individual kanji
     reading: example.furigana,
     meaning: example.meanings.id, // Use new meanings structure
-    audio: undefined, // No audio in current JSON structure
   };
 }
 
 /**
  * Convert KanjiDetail example to WritingQuestion (for topic-based questions)
  */
-export function kanjiDetailExampleToWritingQuestion(example: KanjiDetail['examples'][0]): WritingQuestion {
+export function kanjiDetailExampleToWritingQuestion(
+  example: KanjiDetail["examples"][0]
+): WritingQuestion {
   return {
     kanji: example.word, // Use the word/phrase, not individual kanji
     reading: example.furigana,
     meaning: example.meanings.id, // Use new meanings structure
-    audio: undefined, // No audio in current JSON structure
   };
 }
 
@@ -77,41 +75,42 @@ export function getWritingQuestions(
   topicId?: string
 ): WritingQuestion[] {
   const questions: WritingQuestion[] = [];
-  
+
   if (topicId) {
     // Use KanjiDetail approach for topic-based questions
     let allKanjiDetails: KanjiDetail[];
     allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
-    
+
     // Filter kanji details if selectedKanjiIds is provided
-    const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0
-      ? allKanjiDetails.filter(kanji => selectedKanjiIds.includes(kanji.id))
-      : allKanjiDetails;
-    
+    const kanjiDetails =
+      selectedKanjiIds && selectedKanjiIds.length > 0
+        ? allKanjiDetails.filter((kanji) => selectedKanjiIds.includes(kanji.id))
+        : allKanjiDetails;
+
     // Collect all examples from all kanji details
-    kanjiDetails.forEach(kanjiDetail => {
-      kanjiDetail.examples.forEach(example => {
+    kanjiDetails.forEach((kanjiDetail) => {
+      kanjiDetail.examples.forEach((example) => {
         questions.push(kanjiDetailExampleToWritingQuestion(example));
       });
     });
-    
   } else if (lessonId) {
     // Use KanjiDetail approach for lesson-based questions - get all words from lesson kanji
     const allKanjiItems = getKanjiForLesson(level, lessonId);
-    
+
     // Filter kanji items if selectedKanjiIds is provided
-    const kanjiItems = selectedKanjiIds && selectedKanjiIds.length > 0
-      ? allKanjiItems.filter(kanji => selectedKanjiIds.includes(kanji.id))
-      : allKanjiItems;
-    
+    const kanjiItems =
+      selectedKanjiIds && selectedKanjiIds.length > 0
+        ? allKanjiItems.filter((kanji) => selectedKanjiIds.includes(kanji.id))
+        : allKanjiItems;
+
     // Collect all examples from all kanji items (no limit - get all words)
-    kanjiItems.forEach(kanjiItem => {
-      kanjiItem.examples.forEach(example => {
+    kanjiItems.forEach((kanjiItem) => {
+      kanjiItem.examples.forEach((example) => {
         questions.push(kanjiExampleToWritingQuestion(example));
       });
     });
   }
-  
+
   return questions;
 }
 

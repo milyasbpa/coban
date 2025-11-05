@@ -52,11 +52,16 @@ export function AssemblyArea() {
   return (
     <div className="space-y-6">
       {/* Assembly Area */}
-      <div className="space-y-4">
+      <div className="space-y-4 relative">
         <div className="flex items-center justify-between">
-          <p className="text-sm text-muted-foreground">
-            Arrange the characters below:
-          </p>
+          <div>
+            <p className="text-sm font-medium text-foreground">
+              Assembly Area
+            </p>
+            <p className="text-xs text-muted-foreground">
+              Arrange characters to form the word
+            </p>
+          </div>
           {selectedKanji.length > 0 && (
             <Button
               variant="ghost"
@@ -72,16 +77,27 @@ export function AssemblyArea() {
 
         <div
           ref={setNodeRef}
-          className={`min-h-[60px] p-4 border-2 border-dashed rounded-lg bg-muted/30 flex items-center gap-2 flex-wrap transition-all duration-200 ${
+          className={`min-h-[80px] p-6 border-2 border-dashed rounded-xl bg-muted/20 flex items-center gap-2 flex-wrap transition-all duration-300 ease-in-out ${
             isOver
-              ? "border-primary bg-primary/10 scale-[1.02] shadow-lg"
-              : "border-border"
+              ? "border-primary bg-primary/15 scale-[1.03] shadow-xl border-solid transform ring-2 ring-primary/30"
+              : "border-muted-foreground/30 hover:border-muted-foreground/50 hover:bg-muted/30"
           }`}
         >
           {selectedKanji.length === 0 ? (
-            <p className="text-muted-foreground text-sm">
-              Click or drag kanji here...
-            </p>
+            <div className="w-full text-center py-4">
+              <p className={`text-sm transition-colors duration-200 ${
+                isOver 
+                  ? "text-primary font-medium" 
+                  : "text-muted-foreground"
+              }`}>
+                {isOver 
+                  ? "Drop kanji here to assemble the word!" 
+                  : "Click or drag kanji here to start building..."}
+              </p>
+              <p className="text-xs text-muted-foreground/70 mt-1">
+                {isOver ? "Release to add" : "Large drop zone for easy targeting"}
+              </p>
+            </div>
           ) : (
             <SortableContext
               items={sortableIds}
