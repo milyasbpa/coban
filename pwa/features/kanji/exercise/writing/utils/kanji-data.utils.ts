@@ -25,11 +25,14 @@ export interface KanjiItem {
     en: string;
   };
   examples?: Array<{
+    id: number;
     word: string;
     furigana: string;
     romanji: string;
-    meaning_id: string;
-    meaning_en: string;
+    meanings: {
+      id: string;
+      en: string;
+    };
   }>;
 }
 
@@ -80,7 +83,7 @@ export function kanjiExampleToWritingQuestion(example: NonNullable<KanjiItem['ex
   return {
     kanji: example.word, // Use the word/phrase, not individual kanji
     reading: example.furigana,
-    meaning: example.meaning_id,
+    meaning: example.meanings.id, // Use new meanings structure
     audio: undefined, // No audio in current JSON structure
   };
 }
@@ -92,7 +95,7 @@ export function kanjiDetailExampleToWritingQuestion(example: KanjiDetail['exampl
   return {
     kanji: example.word, // Use the word/phrase, not individual kanji
     reading: example.furigana,
-    meaning: example.meaning_id,
+    meaning: example.meanings.id, // Use new meanings structure
     audio: undefined, // No audio in current JSON structure
   };
 }

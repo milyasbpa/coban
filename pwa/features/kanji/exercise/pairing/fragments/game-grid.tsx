@@ -123,13 +123,13 @@ export function GameGrid() {
   const getCardId = (type: "kanji" | "meaning", pairingWord: PairingWord): string => {
     return type === "kanji" 
       ? pairingWord.kanji 
-      : (isIndonesian ? pairingWord.meaning_id : pairingWord.meaning_en);
+      : (isIndonesian ? pairingWord.meanings.id : pairingWord.meanings.en);
   };
 
   // Create shuffled meanings with mapping to PairingWord
   const shuffledMeaningsData = useMemo(() => {
     const meaningsWithWords = gameWords.map((w: PairingWord) => ({
-      meaning: isIndonesian ? w.meaning_id : w.meaning_en,
+      meaning: isIndonesian ? w.meanings.id : w.meanings.en,
       word: w,
     }));
     const shuffled = shuffleArray(meaningsWithWords);
@@ -178,7 +178,7 @@ export function GameGrid() {
           const meaningCardWord = meaningCard.pairingWord;
           
           if (kanjiCardWord) {
-            const meaningToMatch = isIndonesian ? kanjiCardWord.meaning_id : kanjiCardWord.meaning_en;
+            const meaningToMatch = isIndonesian ? kanjiCardWord.meanings.id : kanjiCardWord.meanings.en;
             matchingWord = meaningToMatch === meaningCard.id ? kanjiCardWord : undefined;
           } else if (meaningCardWord) {
             matchingWord = meaningCardWord.kanji === kanjiCard.id ? meaningCardWord : undefined;

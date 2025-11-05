@@ -28,18 +28,24 @@
       },
       "examples": [
         {
+          "id": 1,
           "word": "一つ",
           "furigana": "ひとつ",
           "romanji": "hitotsu",
-          "meaning_id": "satu buah",
-          "meaning_en": "one"
+          "meanings": {
+            "id": "satu buah",
+            "en": "one"
+          }
         },
         {
           "word": "一日",
           "furigana": "いちにち",
           "romanji": "ichinichi",
-          "meaning_id": "satu hari",
-          "meaning_en": "one day"
+          "id": 2,
+          "meanings": {
+            "id": "satu hari",
+            "en": "one day"
+          }
         }
       ]
     },
@@ -70,15 +76,21 @@
           "word": "二つ",
           "furigana": "ふたつ",
           "romanji": "futatsu",
-          "meaning_id": "dua buah",
-          "meaning_en": "two"
+          "id": 3,
+          "meanings": {
+            "id": "dua buah",
+            "en": "two"
+          }
         },
         {
           "word": "二年",
           "furigana": "にねん",
           "romanji": "ninen",
-          "meaning_id": "dua tahun",
-          "meaning_en": "two years"
+          "id": 4,
+          "meanings": {
+            "id": "dua tahun",
+            "en": "two years"
+          }
         }
       ]
     },
@@ -109,15 +121,21 @@
           "word": "七つ",
           "furigana": "ななつ",
           "romanji": "nanatsu",
-          "meaning_id": "tujuh buah",
-          "meaning_en": "seven"
+          "id": 5,
+          "meanings": {
+            "id": "tujuh buah",
+            "en": "seven"
+          }
         },
         {
           "word": "七月",
           "furigana": "しちがつ",
           "romanji": "shichigatsu",
-          "meaning_id": "bulan Juli",
-          "meaning_en": "July"
+          "id": 6,
+          "meanings": {
+            "id": "bulan Juli",
+            "en": "July"
+          }
         }
       ]
     },
@@ -152,29 +170,41 @@
           "word": "八つ",
           "furigana": "やっつ",
           "romanji": "yattsu",
-          "meaning_id": "delapan buah",
-          "meaning_en": "eight"
+          "id": 7,
+          "meanings": {
+            "id": "delapan buah",
+            "en": "eight"
+          }
         },
         {
           "word": "八百屋",
           "furigana": "やおや",
           "romanji": "yaoya",
-          "meaning_id": "toko sayur dan buah",
-          "meaning_en": "greengrocer"
+          "id": 8,
+          "meanings": {
+            "id": "toko sayur dan buah",
+            "en": "greengrocer"
+          }
         },
         {
           "word": "八年",
           "furigana": "はちねん",
           "romanji": "hachinen",
-          "meaning_id": "delapan tahun",
-          "meaning_en": "eight years"
+          "id": 9,
+          "meanings": {
+            "id": "delapan tahun",
+            "en": "eight years"
+          }
         },
         {
           "word": "八百",
           "furigana": "はっぴゃく",
           "romanji": "happyaku",
-          "meaning_id": "delapan ratus",
-          "meaning_en": "eight hundred"
+          "id": 10,
+          "meanings": {
+            "id": "delapan ratus",
+            "en": "eight hundred"
+          }
         }
       ]
     },
@@ -209,22 +239,31 @@
           "word": "九つ",
           "furigana": "ここのつ",
           "romanji": "kokonotsu",
-          "meaning_id": "sembilan buah",
-          "meaning_en": "nine"
+          "id": 11,
+          "meanings": {
+            "id": "sembilan buah",
+            "en": "nine"
+          }
         },
         {
           "word": "九年",
           "furigana": "きゅうねん",
           "romanji": "kyuunen",
-          "meaning_id": "sembilan tahun",
-          "meaning_en": "nine years"
+          "id": 12,
+          "meanings": {
+            "id": "sembilan tahun",
+            "en": "nine years"
+          }
         },
         {
           "word": "九時",
           "furigana": "くじ",
           "romanji": "kuji",
-          "meaning_id": "jam sembilan",
-          "meaning_en": "nine o'clock"
+          "id": 13,
+          "meanings": {
+            "id": "jam sembilan",
+            "en": "nine o'clock"
+          }
         }
       ]
     },
@@ -263,29 +302,41 @@
           "word": "十日",
           "furigana": "とおか",
           "romanji": "tooka",
-          "meaning_id": "tanggal sepuluh",
-          "meaning_en": "tenth day"
+          "id": 14,
+          "meanings": {
+            "id": "tanggal sepuluh",
+            "en": "tenth day"
+          }
         },
         {
           "word": "十色",
           "furigana": "といろ",
           "romanji": "toiro",
-          "meaning_id": "sepuluh warna",
-          "meaning_en": "ten colors"
+          "id": 15,
+          "meanings": {
+            "id": "sepuluh warna",
+            "en": "ten colors"
+          }
         },
         {
           "word": "十字路",
           "furigana": "じゅうじろ",
           "romanji": "juujiro",
-          "meaning_id": "perempatan jalan",
-          "meaning_en": "crossroads"
+          "id": 16,
+          "meanings": {
+            "id": "perempatan jalan",
+            "en": "crossroads"
+          }
         },
         {
           "word": "十回",
           "furigana": "じゅっかい",
           "romanji": "jukkai",
-          "meaning_id": "sepuluh kali",
-          "meaning_en": "ten times"
+          "id": 17,
+          "meanings": {
+            "id": "sepuluh kali",
+            "en": "ten times"
+          }
         }
       ]
     },
@@ -320,29 +371,41 @@
           "word": "人",
           "furigana": "ひと",
           "romanji": "hito",
-          "meaning_id": "orang",
-          "meaning_en": "person"
+          "id": 18,
+          "meanings": {
+            "id": "orang",
+            "en": "person"
+          }
         },
         {
           "word": "旅人",
           "furigana": "たびびと",
           "romanji": "tabibito",
-          "meaning_id": "orang yang berkelana",
-          "meaning_en": "traveler"
+          "id": 19,
+          "meanings": {
+            "id": "orang yang berkelana",
+            "en": "traveler"
+          }
         },
         {
           "word": "日本人",
           "furigana": "にほんじん",
           "romanji": "nihonjin",
-          "meaning_id": "orang Jepang",
-          "meaning_en": "Japanese person"
+          "id": 20,
+          "meanings": {
+            "id": "orang Jepang",
+            "en": "Japanese person"
+          }
         },
         {
           "word": "三人",
           "furigana": "さんにん",
           "romanji": "sannin",
-          "meaning_id": "tiga orang",
-          "meaning_en": "three people"
+          "id": 21,
+          "meanings": {
+            "id": "tiga orang",
+            "en": "three people"
+          }
         }
       ]
     },
@@ -373,29 +436,41 @@
           "word": "三つ",
           "furigana": "みっつ",
           "romanji": "mittsu",
-          "meaning_id": "tiga buah",
-          "meaning_en": "three"
+          "id": 22,
+          "meanings": {
+            "id": "tiga buah",
+            "en": "three"
+          }
         },
         {
           "word": "三重",
           "furigana": "みえ",
           "romanji": "mie",
-          "meaning_id": "tiga lapis",
-          "meaning_en": "three layers"
+          "id": 23,
+          "meanings": {
+            "id": "tiga lapis",
+            "en": "three layers"
+          }
         },
         {
           "word": "三年",
           "furigana": "さんねん",
           "romanji": "sannen",
-          "meaning_id": "tiga tahun",
-          "meaning_en": "three years"
+          "id": 24,
+          "meanings": {
+            "id": "tiga tahun",
+            "en": "three years"
+          }
         },
         {
           "word": "千葉",
           "furigana": "ちば",
           "romanji": "chiba",
-          "meaning_id": "nama tempat Chiba",
-          "meaning_en": "Chiba (place name)"
+          "id": 25,
+          "meanings": {
+            "id": "nama tempat Chiba",
+            "en": "Chiba (place name)"
+          }
         }
       ]
     },
@@ -426,22 +501,31 @@
           "word": "千円",
           "furigana": "せんえん",
           "romanji": "sen'en",
-          "meaning_id": "seribu yen",
-          "meaning_en": "thousand yen"
+          "id": 26,
+          "meanings": {
+            "id": "seribu yen",
+            "en": "thousand yen"
+          }
         },
         {
           "word": "三千",
           "furigana": "さんぜん",
           "romanji": "sanzen",
-          "meaning_id": "tiga ribu",
-          "meaning_en": "three thousand"
+          "id": 27,
+          "meanings": {
+            "id": "tiga ribu",
+            "en": "three thousand"
+          }
         },
         {
           "word": "一万",
           "furigana": "いちまん",
           "romanji": "ichiman",
-          "meaning_id": "sepuluh ribu",
-          "meaning_en": "ten thousand"
+          "id": 28,
+          "meanings": {
+            "id": "sepuluh ribu",
+            "en": "ten thousand"
+          }
         }
       ]
     },
@@ -467,8 +551,11 @@
           "word": "万国",
           "furigana": "ばんこく",
           "romanji": "bankoku",
-          "meaning_id": "seluruh negara",
-          "meaning_en": "all nations"
+          "id": 29,
+          "meanings": {
+            "id": "seluruh negara",
+            "en": "all nations"
+          }
         }
       ]
     },
@@ -499,22 +586,31 @@
           "word": "山",
           "furigana": "やま",
           "romanji": "yama",
-          "meaning_id": "gunung",
-          "meaning_en": "mountain"
+          "id": 30,
+          "meanings": {
+            "id": "gunung",
+            "en": "mountain"
+          }
         },
         {
           "word": "富士山",
           "furigana": "ふじさん",
           "romanji": "fujisan",
-          "meaning_id": "gunung Fuji",
-          "meaning_en": "Mount Fuji"
+          "id": 31,
+          "meanings": {
+            "id": "gunung Fuji",
+            "en": "Mount Fuji"
+          }
         },
         {
           "word": "火山",
           "furigana": "かざん",
           "romanji": "kazan",
-          "meaning_id": "gunung berapi",
-          "meaning_en": "volcano"
+          "id": 32,
+          "meanings": {
+            "id": "gunung berapi",
+            "en": "volcano"
+          }
         }
       ]
     },
@@ -545,22 +641,31 @@
           "word": "川",
           "furigana": "かわ",
           "romanji": "kawa",
-          "meaning_id": "sungai",
-          "meaning_en": "river"
+          "id": 33,
+          "meanings": {
+            "id": "sungai",
+            "en": "river"
+          }
         },
         {
           "word": "小川",
           "furigana": "おがわ",
           "romanji": "ogawa",
-          "meaning_id": "sungai kecil",
-          "meaning_en": "small river"
+          "id": 34,
+          "meanings": {
+            "id": "sungai kecil",
+            "en": "small river"
+          }
         },
         {
           "word": "河川",
           "furigana": "かせん",
           "romanji": "kasen",
-          "meaning_id": "sungai-sungai",
-          "meaning_en": "rivers"
+          "id": 35,
+          "meanings": {
+            "id": "sungai-sungai",
+            "en": "rivers"
+          }
         }
       ]
     },
@@ -595,22 +700,31 @@
           "word": "土",
           "furigana": "つち",
           "romanji": "tsuchi",
-          "meaning_id": "tanah",
-          "meaning_en": "soil"
+          "id": 36,
+          "meanings": {
+            "id": "tanah",
+            "en": "soil"
+          }
         },
         {
           "word": "土曜日",
           "furigana": "どようび",
           "romanji": "doyoubi",
-          "meaning_id": "hari sabtu",
-          "meaning_en": "Saturday"
+          "id": 37,
+          "meanings": {
+            "id": "hari sabtu",
+            "en": "Saturday"
+          }
         },
         {
           "word": "土地",
           "furigana": "とち",
           "romanji": "tochi",
-          "meaning_id": "tanah, daratan",
-          "meaning_en": "land"
+          "id": 38,
+          "meanings": {
+            "id": "tanah, daratan",
+            "en": "land"
+          }
         }
       ]
     },
@@ -645,29 +759,41 @@
           "word": "口",
           "furigana": "くち",
           "romanji": "kuchi",
-          "meaning_id": "mulut",
-          "meaning_en": "mouth"
+          "id": 39,
+          "meanings": {
+            "id": "mulut",
+            "en": "mouth"
+          }
         },
         {
           "word": "出口",
           "furigana": "でぐち",
           "romanji": "deguchi",
-          "meaning_id": "pintu keluar",
-          "meaning_en": "exit"
+          "id": 40,
+          "meanings": {
+            "id": "pintu keluar",
+            "en": "exit"
+          }
         },
         {
           "word": "人口",
           "furigana": "じんこう",
           "romanji": "jinkou",
-          "meaning_id": "populasi, jumlah penduduk",
-          "meaning_en": "population"
+          "id": 41,
+          "meanings": {
+            "id": "populasi, jumlah penduduk",
+            "en": "population"
+          }
         },
         {
           "word": "口調",
           "furigana": "くちょう",
           "romanji": "kuchou",
-          "meaning_id": "nada bicara",
-          "meaning_en": "tone of voice"
+          "id": 42,
+          "meanings": {
+            "id": "nada bicara",
+            "en": "tone of voice"
+          }
         }
       ]
     },
@@ -710,22 +836,31 @@
           "word": "女",
           "furigana": "おんな",
           "romanji": "onna",
-          "meaning_id": "wanita, perempuan",
-          "meaning_en": "woman"
+          "id": 43,
+          "meanings": {
+            "id": "wanita, perempuan",
+            "en": "woman"
+          }
         },
         {
           "word": "女神",
           "furigana": "めがみ",
           "romanji": "megami",
-          "meaning_id": "dewi",
-          "meaning_en": "goddess"
+          "id": 44,
+          "meanings": {
+            "id": "dewi",
+            "en": "goddess"
+          }
         },
         {
           "word": "女性",
           "furigana": "じょせい",
           "romanji": "josei",
-          "meaning_id": "wanita, perempuan",
-          "meaning_en": "woman, female"
+          "id": 45,
+          "meanings": {
+            "id": "wanita, perempuan",
+            "en": "woman, female"
+          }
         }
       ]
     },
@@ -760,29 +895,41 @@
           "word": "子",
           "furigana": "こ",
           "romanji": "ko",
-          "meaning_id": "anak",
-          "meaning_en": "child"
+          "id": 46,
+          "meanings": {
+            "id": "anak",
+            "en": "child"
+          }
         },
         {
           "word": "子供",
           "furigana": "こども",
           "romanji": "kodomo",
-          "meaning_id": "anak-anak",
-          "meaning_en": "children"
+          "id": 47,
+          "meanings": {
+            "id": "anak-anak",
+            "en": "children"
+          }
         },
         {
           "word": "息子",
           "furigana": "むすこ",
           "romanji": "musuko",
-          "meaning_id": "anak yang tersesa/kesasar",
-          "meaning_en": "son"
+          "id": 48,
+          "meanings": {
+            "id": "anak yang tersesa/kesasar",
+            "en": "son"
+          }
         },
         {
           "word": "子孫",
           "furigana": "しそん",
           "romanji": "shison",
-          "meaning_id": "anak cucu",
-          "meaning_en": "descendants"
+          "id": 49,
+          "meanings": {
+            "id": "anak cucu",
+            "en": "descendants"
+          }
         }
       ]
     },
@@ -833,50 +980,71 @@
           "word": "上",
           "furigana": "うえ",
           "romanji": "ue",
-          "meaning_id": "atas",
-          "meaning_en": "above"
+          "id": 50,
+          "meanings": {
+            "id": "atas",
+            "en": "above"
+          }
         },
         {
           "word": "上着",
           "furigana": "うわぎ",
           "romanji": "uwagi",
-          "meaning_id": "jaket",
-          "meaning_en": "jacket"
+          "id": 51,
+          "meanings": {
+            "id": "jaket",
+            "en": "jacket"
+          }
         },
         {
           "word": "川上",
           "furigana": "かわかみ",
           "romanji": "kawakami",
-          "meaning_id": "hulu sungai",
-          "meaning_en": "upstream"
+          "id": 52,
+          "meanings": {
+            "id": "hulu sungai",
+            "en": "upstream"
+          }
         },
         {
           "word": "上がる",
           "furigana": "あがる",
           "romanji": "agaru",
-          "meaning_id": "mengangkat",
-          "meaning_en": "to go up"
+          "id": 53,
+          "meanings": {
+            "id": "mengangkat",
+            "en": "to go up"
+          }
         },
         {
           "word": "上る",
           "furigana": "のぼる",
           "romanji": "noboru",
-          "meaning_id": "naik",
-          "meaning_en": "to climb"
+          "id": 54,
+          "meanings": {
+            "id": "naik",
+            "en": "to climb"
+          }
         },
         {
           "word": "上司",
           "furigana": "じょうし",
           "romanji": "joushi",
-          "meaning_id": "atasan, boss",
-          "meaning_en": "boss, superior"
+          "id": 55,
+          "meanings": {
+            "id": "atasan, boss",
+            "en": "boss, superior"
+          }
         },
         {
           "word": "上人",
           "furigana": "しょうにん",
           "romanji": "shounin",
-          "meaning_id": "santa, orang suci",
-          "meaning_en": "saint"
+          "id": 56,
+          "meanings": {
+            "id": "santa, orang suci",
+            "en": "saint"
+          }
         }
       ]
     },
@@ -931,57 +1099,81 @@
           "word": "下",
           "furigana": "した",
           "romanji": "shita",
-          "meaning_id": "bawah",
-          "meaning_en": "below"
+          "id": 57,
+          "meanings": {
+            "id": "bawah",
+            "en": "below"
+          }
         },
         {
           "word": "川下",
           "furigana": "かわしも",
           "romanji": "kawashimo",
-          "meaning_id": "hilir sungai",
-          "meaning_en": "downstream"
+          "id": 58,
+          "meanings": {
+            "id": "hilir sungai",
+            "en": "downstream"
+          }
         },
         {
           "word": "足下",
           "furigana": "あしもと",
           "romanji": "ashimoto",
-          "meaning_id": "sekitar pijakan kaki",
-          "meaning_en": "at one's feet"
+          "id": 59,
+          "meanings": {
+            "id": "sekitar pijakan kaki",
+            "en": "at one's feet"
+          }
         },
         {
           "word": "下がる",
           "furigana": "さがる",
           "romanji": "sagaru",
-          "meaning_id": "turun, jatuh",
-          "meaning_en": "to go down"
+          "id": 60,
+          "meanings": {
+            "id": "turun, jatuh",
+            "en": "to go down"
+          }
         },
         {
           "word": "下る",
           "furigana": "くだる",
           "romanji": "kudaru",
-          "meaning_id": "turun, menuruni",
-          "meaning_en": "to descend"
+          "id": 61,
+          "meanings": {
+            "id": "turun, menuruni",
+            "en": "to descend"
+          }
         },
         {
           "word": "下ろす",
           "furigana": "おろす",
           "romanji": "orosu",
-          "meaning_id": "menurunkan, menjatuhkan",
-          "meaning_en": "to lower"
+          "id": 62,
+          "meanings": {
+            "id": "menurunkan, menjatuhkan",
+            "en": "to lower"
+          }
         },
         {
           "word": "地下",
           "furigana": "ちか",
           "romanji": "chika",
-          "meaning_id": "bawah tanah",
-          "meaning_en": "underground"
+          "id": 63,
+          "meanings": {
+            "id": "bawah tanah",
+            "en": "underground"
+          }
         },
         {
           "word": "上下",
           "furigana": "じょうげ",
           "romanji": "jouge",
-          "meaning_id": "atas dan bawah",
-          "meaning_en": "up and down"
+          "id": 64,
+          "meanings": {
+            "id": "atas dan bawah",
+            "en": "up and down"
+          }
         }
       ]
     },
@@ -1016,22 +1208,31 @@
           "word": "大きい",
           "furigana": "おおきい",
           "romanji": "ookii",
-          "meaning_id": "besar",
-          "meaning_en": "big"
+          "id": 65,
+          "meanings": {
+            "id": "besar",
+            "en": "big"
+          }
         },
         {
           "word": "大学",
           "furigana": "だいがく",
           "romanji": "daigaku",
-          "meaning_id": "universitas, perguruan tinggi",
-          "meaning_en": "university"
+          "id": 66,
+          "meanings": {
+            "id": "universitas, perguruan tinggi",
+            "en": "university"
+          }
         },
         {
           "word": "大量",
           "furigana": "たいりょう",
           "romanji": "tairyou",
-          "meaning_id": "jumlah besar",
-          "meaning_en": "large quantity"
+          "id": 67,
+          "meanings": {
+            "id": "jumlah besar",
+            "en": "large quantity"
+          }
         }
       ]
     },
@@ -1070,29 +1271,41 @@
           "word": "小さい",
           "furigana": "ちいさい",
           "romanji": "chiisai",
-          "meaning_id": "kecil",
-          "meaning_en": "small"
+          "id": 68,
+          "meanings": {
+            "id": "kecil",
+            "en": "small"
+          }
         },
         {
           "word": "小鳥",
           "furigana": "ことり",
           "romanji": "kotori",
-          "meaning_id": "anak burung, burung kecil",
-          "meaning_en": "small bird"
+          "id": 69,
+          "meanings": {
+            "id": "anak burung, burung kecil",
+            "en": "small bird"
+          }
         },
         {
           "word": "小川",
           "furigana": "おがわ",
           "romanji": "ogawa",
-          "meaning_id": "sungai kecil",
-          "meaning_en": "small river"
+          "id": 70,
+          "meanings": {
+            "id": "sungai kecil",
+            "en": "small river"
+          }
         },
         {
           "word": "小学校",
           "furigana": "しょうがっこう",
           "romanji": "shougakkou",
-          "meaning_id": "sekolah dasar",
-          "meaning_en": "elementary school"
+          "id": 71,
+          "meanings": {
+            "id": "sekolah dasar",
+            "en": "elementary school"
+          }
         }
       ]
     },
@@ -1123,15 +1336,21 @@
           "word": "五つ",
           "furigana": "いつつ",
           "romanji": "itsutsu",
-          "meaning_id": "lima buah",
-          "meaning_en": "five"
+          "id": 72,
+          "meanings": {
+            "id": "lima buah",
+            "en": "five"
+          }
         },
         {
           "word": "五年",
           "furigana": "ごねん",
           "romanji": "gonen",
-          "meaning_id": "lima tahun",
-          "meaning_en": "five years"
+          "id": 73,
+          "meanings": {
+            "id": "lima tahun",
+            "en": "five years"
+          }
         }
       ]
     },
@@ -1174,22 +1393,31 @@
           "word": "六つ",
           "furigana": "むっつ",
           "romanji": "muttsu",
-          "meaning_id": "enam buah",
-          "meaning_en": "six"
+          "id": 74,
+          "meanings": {
+            "id": "enam buah",
+            "en": "six"
+          }
         },
         {
           "word": "六日",
           "furigana": "むいか",
           "romanji": "muika",
-          "meaning_id": "tanggal 6, 6 hari",
-          "meaning_en": "sixth day"
+          "id": 75,
+          "meanings": {
+            "id": "tanggal 6, 6 hari",
+            "en": "sixth day"
+          }
         },
         {
           "word": "六年",
           "furigana": "ろくねん",
           "romanji": "rokunen",
-          "meaning_id": "enam tahun",
-          "meaning_en": "six years"
+          "id": 76,
+          "meanings": {
+            "id": "enam tahun",
+            "en": "six years"
+          }
         }
       ]
     },
@@ -1220,15 +1448,21 @@
           "word": "円い",
           "furigana": "まるい",
           "romanji": "marui",
-          "meaning_id": "bundar",
-          "meaning_en": "round"
+          "id": 77,
+          "meanings": {
+            "id": "bundar",
+            "en": "round"
+          }
         },
         {
           "word": "円形",
           "furigana": "えんけい",
           "romanji": "enkei",
-          "meaning_id": "bentuk bundar",
-          "meaning_en": "circular shape"
+          "id": 78,
+          "meanings": {
+            "id": "bentuk bundar",
+            "en": "circular shape"
+          }
         }
       ]
     },
@@ -1271,43 +1505,61 @@
           "word": "日陰",
           "furigana": "ひかげ",
           "romanji": "hikage",
-          "meaning_id": "tempat teduh",
-          "meaning_en": "shade"
+          "id": 79,
+          "meanings": {
+            "id": "tempat teduh",
+            "en": "shade"
+          }
         },
         {
           "word": "今日",
           "furigana": "きょう",
           "romanji": "kyou",
-          "meaning_id": "sinar matahari dari barat",
-          "meaning_en": "today"
+          "id": 80,
+          "meanings": {
+            "id": "sinar matahari dari barat",
+            "en": "today"
+          }
         },
         {
           "word": "二日",
           "furigana": "ふつか",
           "romanji": "futsuka",
-          "meaning_id": "tanggal 2, 2 hari",
-          "meaning_en": "second day"
+          "id": 81,
+          "meanings": {
+            "id": "tanggal 2, 2 hari",
+            "en": "second day"
+          }
         },
         {
           "word": "日常",
           "furigana": "にちじょう",
           "romanji": "nichijou",
-          "meaning_id": "sehari-hari",
-          "meaning_en": "daily"
+          "id": 82,
+          "meanings": {
+            "id": "sehari-hari",
+            "en": "daily"
+          }
         },
         {
           "word": "日光",
           "furigana": "にっこう",
           "romanji": "nikkou",
-          "meaning_id": "sinar matahari",
-          "meaning_en": "sunlight"
+          "id": 83,
+          "meanings": {
+            "id": "sinar matahari",
+            "en": "sunlight"
+          }
         },
         {
           "word": "休日",
           "furigana": "きゅうじつ",
           "romanji": "kyuujitsu",
-          "meaning_id": "hari libur",
-          "meaning_en": "holiday"
+          "id": 84,
+          "meanings": {
+            "id": "hari libur",
+            "en": "holiday"
+          }
         }
       ]
     },
@@ -1346,36 +1598,51 @@
           "word": "月見",
           "furigana": "つきみ",
           "romanji": "tsukimi",
-          "meaning_id": "menikmati pemandangan bulan",
-          "meaning_en": "moon viewing"
+          "id": 85,
+          "meanings": {
+            "id": "menikmati pemandangan bulan",
+            "en": "moon viewing"
+          }
         },
         {
           "word": "三日月",
           "furigana": "みかづき",
           "romanji": "mikazuki",
-          "meaning_id": "bulan sabit",
-          "meaning_en": "crescent moon"
+          "id": 86,
+          "meanings": {
+            "id": "bulan sabit",
+            "en": "crescent moon"
+          }
         },
         {
           "word": "満月",
           "furigana": "まんげつ",
           "romanji": "mangetsu",
-          "meaning_id": "bulan purnama",
-          "meaning_en": "full moon"
+          "id": 87,
+          "meanings": {
+            "id": "bulan purnama",
+            "en": "full moon"
+          }
         },
         {
           "word": "月給",
           "furigana": "げっきゅう",
           "romanji": "gekkyuu",
-          "meaning_id": "gaji bulanan",
-          "meaning_en": "monthly salary"
+          "id": 88,
+          "meanings": {
+            "id": "gaji bulanan",
+            "en": "monthly salary"
+          }
         },
         {
           "word": "正月",
           "furigana": "しょうがつ",
           "romanji": "shougatsu",
-          "meaning_id": "tahun baru",
-          "meaning_en": "New Year"
+          "id": 89,
+          "meanings": {
+            "id": "tahun baru",
+            "en": "New Year"
+          }
         }
       ]
     },
@@ -1414,15 +1681,21 @@
           "word": "木",
           "furigana": "き",
           "romanji": "ki",
-          "meaning_id": "pohon, kayu",
-          "meaning_en": "tree, wood"
+          "id": 90,
+          "meanings": {
+            "id": "pohon, kayu",
+            "en": "tree, wood"
+          }
         },
         {
           "word": "木陰",
           "furigana": "こかげ",
           "romanji": "kokage",
-          "meaning_id": "tempat rindang",
-          "meaning_en": "shade of tree"
+          "id": 91,
+          "meanings": {
+            "id": "tempat rindang",
+            "en": "shade of tree"
+          }
         }
       ]
     },
@@ -1457,29 +1730,41 @@
           "word": "火",
           "furigana": "ひ",
           "romanji": "hi",
-          "meaning_id": "api",
-          "meaning_en": "fire"
+          "id": 92,
+          "meanings": {
+            "id": "api",
+            "en": "fire"
+          }
         },
         {
           "word": "花火",
           "furigana": "はなび",
           "romanji": "hanabi",
-          "meaning_id": "kembang api",
-          "meaning_en": "fireworks"
+          "id": 93,
+          "meanings": {
+            "id": "kembang api",
+            "en": "fireworks"
+          }
         },
         {
           "word": "火事",
           "furigana": "かじ",
           "romanji": "kaji",
-          "meaning_id": "cahaya api",
-          "meaning_en": "fire incident"
+          "id": 94,
+          "meanings": {
+            "id": "cahaya api",
+            "en": "fire incident"
+          }
         },
         {
           "word": "火事",
           "furigana": "かじ",
           "romanji": "kaji",
-          "meaning_id": "kebakaran",
-          "meaning_en": "fire"
+          "id": 95,
+          "meanings": {
+            "id": "kebakaran",
+            "en": "fire"
+          }
         }
       ]
     },
@@ -1510,15 +1795,21 @@
           "word": "水",
           "furigana": "みず",
           "romanji": "mizu",
-          "meaning_id": "air",
-          "meaning_en": "water"
+          "id": 96,
+          "meanings": {
+            "id": "air",
+            "en": "water"
+          }
         },
         {
           "word": "水泳",
           "furigana": "すいえい",
           "romanji": "suiei",
-          "meaning_id": "tetesan air",
-          "meaning_en": "swimming"
+          "id": 97,
+          "meanings": {
+            "id": "tetesan air",
+            "en": "swimming"
+          }
         }
       ]
     },
@@ -1553,22 +1844,31 @@
           "word": "中",
           "furigana": "なか",
           "romanji": "naka",
-          "meaning_id": "dalam",
-          "meaning_en": "inside"
+          "id": 98,
+          "meanings": {
+            "id": "dalam",
+            "en": "inside"
+          }
         },
         {
           "word": "中学校",
           "furigana": "ちゅうがっこう",
           "romanji": "chuugakkou",
-          "meaning_id": "SMP",
-          "meaning_en": "middle school"
+          "id": 99,
+          "meanings": {
+            "id": "SMP",
+            "en": "middle school"
+          }
         },
         {
           "word": "一日中",
           "furigana": "いちにちじゅう",
           "romanji": "ichinichijuu",
-          "meaning_id": "seharian",
-          "meaning_en": "all day long"
+          "id": 100,
+          "meanings": {
+            "id": "seharian",
+            "en": "all day long"
+          }
         }
       ]
     },
@@ -1603,22 +1903,31 @@
           "word": "今",
           "furigana": "いま",
           "romanji": "ima",
-          "meaning_id": "sekarang",
-          "meaning_en": "now"
+          "id": 101,
+          "meanings": {
+            "id": "sekarang",
+            "en": "now"
+          }
         },
         {
           "word": "今月",
           "furigana": "こんげつ",
           "romanji": "kongetsu",
-          "meaning_id": "bulan ini",
-          "meaning_en": "this month"
+          "id": 102,
+          "meanings": {
+            "id": "bulan ini",
+            "en": "this month"
+          }
         },
         {
           "word": "古今",
           "furigana": "ここん",
           "romanji": "kokon",
-          "meaning_id": "dulu dan sekarang",
-          "meaning_en": "past and present"
+          "id": 103,
+          "meanings": {
+            "id": "dulu dan sekarang",
+            "en": "past and present"
+          }
         }
       ]
     },
@@ -1644,8 +1953,11 @@
           "word": "午後",
           "furigana": "ごご",
           "romanji": "gogo",
-          "meaning_id": "sesudah jam 12 siang",
-          "meaning_en": "afternoon"
+          "id": 104,
+          "meanings": {
+            "id": "sesudah jam 12 siang",
+            "en": "afternoon"
+          }
         }
       ]
     },
@@ -1680,29 +1992,41 @@
           "word": "手",
           "furigana": "て",
           "romanji": "te",
-          "meaning_id": "tangan",
-          "meaning_en": "hand"
+          "id": 105,
+          "meanings": {
+            "id": "tangan",
+            "en": "hand"
+          }
         },
         {
           "word": "人手",
           "furigana": "ひとで",
           "romanji": "hitode",
-          "meaning_id": "tenaga bantuan",
-          "meaning_en": "helping hand"
+          "id": 106,
+          "meanings": {
+            "id": "tenaga bantuan",
+            "en": "helping hand"
+          }
         },
         {
           "word": "手紙",
           "furigana": "てがみ",
           "romanji": "tegami",
-          "meaning_id": "kendali, kekang",
-          "meaning_en": "letter"
+          "id": 107,
+          "meanings": {
+            "id": "kendali, kekang",
+            "en": "letter"
+          }
         },
         {
           "word": "歌手",
           "furigana": "かしゅ",
           "romanji": "kashu",
-          "meaning_id": "penyanyi",
-          "meaning_en": "singer"
+          "id": 108,
+          "meanings": {
+            "id": "penyanyi",
+            "en": "singer"
+          }
         }
       ]
     },
@@ -1733,22 +2057,31 @@
           "word": "友だち",
           "furigana": "ともだち",
           "romanji": "tomodachi",
-          "meaning_id": "teman, sahabat",
-          "meaning_en": "friend"
+          "id": 109,
+          "meanings": {
+            "id": "teman, sahabat",
+            "en": "friend"
+          }
         },
         {
           "word": "友人",
           "furigana": "ゆうじん",
           "romanji": "yuujin",
-          "meaning_id": "teman, sahabat",
-          "meaning_en": "friend"
+          "id": 110,
+          "meanings": {
+            "id": "teman, sahabat",
+            "en": "friend"
+          }
         },
         {
           "word": "友親",
           "furigana": "ゆうしん",
           "romanji": "yuushin",
-          "meaning_id": "orang tua laki-laki, ayah",
-          "meaning_en": "close friend"
+          "id": 111,
+          "meanings": {
+            "id": "orang tua laki-laki, ayah",
+            "en": "close friend"
+          }
         }
       ]
     },
@@ -1779,15 +2112,21 @@
           "word": "父",
           "furigana": "ちち",
           "romanji": "chichi",
-          "meaning_id": "ayah dan ibu",
-          "meaning_en": "father"
+          "id": 112,
+          "meanings": {
+            "id": "ayah dan ibu",
+            "en": "father"
+          }
         },
         {
           "word": "父母",
           "furigana": "ふぼ",
           "romanji": "fubo",
-          "meaning_id": "ayah dan ibu",
-          "meaning_en": "parents"
+          "id": 113,
+          "meanings": {
+            "id": "ayah dan ibu",
+            "en": "parents"
+          }
         }
       ]
     },
@@ -1822,22 +2161,31 @@
           "word": "天",
           "furigana": "あめ",
           "romanji": "ame",
-          "meaning_id": "langit",
-          "meaning_en": "heaven"
+          "id": 114,
+          "meanings": {
+            "id": "langit",
+            "en": "heaven"
+          }
         },
         {
           "word": "天の川",
           "furigana": "あまのがわ",
           "romanji": "amanogawa",
-          "meaning_id": "bima sakti",
-          "meaning_en": "Milky Way"
+          "id": 115,
+          "meanings": {
+            "id": "bima sakti",
+            "en": "Milky Way"
+          }
         },
         {
           "word": "天国",
           "furigana": "てんごく",
           "romanji": "tengoku",
-          "meaning_id": "surga",
-          "meaning_en": "paradise"
+          "id": 116,
+          "meanings": {
+            "id": "surga",
+            "en": "paradise"
+          }
         }
       ]
     },
@@ -1872,22 +2220,31 @@
           "word": "少ない",
           "furigana": "すくない",
           "romanji": "sukunai",
-          "meaning_id": "kurang",
-          "meaning_en": "few"
+          "id": 117,
+          "meanings": {
+            "id": "kurang",
+            "en": "few"
+          }
         },
         {
           "word": "少し",
           "furigana": "すこし",
           "romanji": "sukoshi",
-          "meaning_id": "sedikit, agak",
-          "meaning_en": "a little"
+          "id": 118,
+          "meanings": {
+            "id": "sedikit, agak",
+            "en": "a little"
+          }
         },
         {
           "word": "少年",
           "furigana": "しょうねん",
           "romanji": "shounen",
-          "meaning_id": "pemuda",
-          "meaning_en": "young man"
+          "id": 119,
+          "meanings": {
+            "id": "pemuda",
+            "en": "young man"
+          }
         }
       ]
     },
@@ -1938,50 +2295,71 @@
           "word": "生きる",
           "furigana": "いきる",
           "romanji": "ikiru",
-          "meaning_id": "hidup",
-          "meaning_en": "to live"
+          "id": 120,
+          "meanings": {
+            "id": "hidup",
+            "en": "to live"
+          }
         },
         {
           "word": "生まれる",
           "furigana": "うまれる",
           "romanji": "umareru",
-          "meaning_id": "lahir",
-          "meaning_en": "to be born"
+          "id": 121,
+          "meanings": {
+            "id": "lahir",
+            "en": "to be born"
+          }
         },
         {
           "word": "生える",
           "furigana": "はえる",
           "romanji": "haeru",
-          "meaning_id": "tumbuh",
-          "meaning_en": "to grow"
+          "id": 122,
+          "meanings": {
+            "id": "tumbuh",
+            "en": "to grow"
+          }
         },
         {
           "word": "生で",
           "furigana": "なまで",
           "romanji": "namade",
-          "meaning_id": "dengan tanpa campuran",
-          "meaning_en": "raw"
+          "id": 123,
+          "meanings": {
+            "id": "dengan tanpa campuran",
+            "en": "raw"
+          }
         },
         {
           "word": "生野菜",
           "furigana": "なまやさい",
           "romanji": "namayasai",
-          "meaning_id": "sayuran mentah",
-          "meaning_en": "raw vegetables"
+          "id": 124,
+          "meanings": {
+            "id": "sayuran mentah",
+            "en": "raw vegetables"
+          }
         },
         {
           "word": "先生",
           "furigana": "せんせい",
           "romanji": "sensei",
-          "meaning_id": "murid, siswa",
-          "meaning_en": "teacher"
+          "id": 125,
+          "meanings": {
+            "id": "murid, siswa",
+            "en": "teacher"
+          }
         },
         {
           "word": "一生",
           "furigana": "いっしょう",
           "romanji": "isshou",
-          "meaning_id": "seumur hidup",
-          "meaning_en": "whole life"
+          "id": 126,
+          "meanings": {
+            "id": "seumur hidup",
+            "en": "whole life"
+          }
         }
       ]
     },
@@ -2016,29 +2394,41 @@
           "word": "本",
           "furigana": "ほん",
           "romanji": "hon",
-          "meaning_id": "pangkal, dasar",
-          "meaning_en": "book"
+          "id": 127,
+          "meanings": {
+            "id": "pangkal, dasar",
+            "en": "book"
+          }
         },
         {
           "word": "二本",
           "furigana": "にほん",
           "romanji": "nihon",
-          "meaning_id": "2 batang",
-          "meaning_en": "two (long objects)"
+          "id": 128,
+          "meanings": {
+            "id": "2 batang",
+            "en": "two (long objects)"
+          }
         },
         {
           "word": "一本",
           "furigana": "いっぽん",
           "romanji": "ippon",
-          "meaning_id": "1 batang",
-          "meaning_en": "one (long object)"
+          "id": 129,
+          "meanings": {
+            "id": "1 batang",
+            "en": "one (long object)"
+          }
         },
         {
           "word": "三本",
           "furigana": "さんぼん",
           "romanji": "sanbon",
-          "meaning_id": "3 batang",
-          "meaning_en": "three (long objects)"
+          "id": 130,
+          "meanings": {
+            "id": "3 batang",
+            "en": "three (long objects)"
+          }
         }
       ]
     },
@@ -2069,15 +2459,21 @@
           "word": "古い",
           "furigana": "ふるい",
           "romanji": "furui",
-          "meaning_id": "tua, lama",
-          "meaning_en": "old"
+          "id": 131,
+          "meanings": {
+            "id": "tua, lama",
+            "en": "old"
+          }
         },
         {
           "word": "古典",
           "furigana": "こてん",
           "romanji": "koten",
-          "meaning_id": "klasik",
-          "meaning_en": "classic"
+          "id": 132,
+          "meanings": {
+            "id": "klasik",
+            "en": "classic"
+          }
         }
       ]
     },
@@ -2112,22 +2508,31 @@
           "word": "右側",
           "furigana": "みぎがわ",
           "romanji": "migigawa",
-          "meaning_id": "sebelah kanan",
-          "meaning_en": "right side"
+          "id": 133,
+          "meanings": {
+            "id": "sebelah kanan",
+            "en": "right side"
+          }
         },
         {
           "word": "右折",
           "furigana": "うせつ",
           "romanji": "usetsu",
-          "meaning_id": "belok kanan",
-          "meaning_en": "right turn"
+          "id": 134,
+          "meanings": {
+            "id": "belok kanan",
+            "en": "right turn"
+          }
         },
         {
           "word": "左右",
           "furigana": "さゆう",
           "romanji": "sayuu",
-          "meaning_id": "kiri dan kanan",
-          "meaning_en": "left and right"
+          "id": 135,
+          "meanings": {
+            "id": "kiri dan kanan",
+            "en": "left and right"
+          }
         }
       ]
     },
@@ -2158,15 +2563,21 @@
           "word": "左側",
           "furigana": "ひだりがわ",
           "romanji": "hidarigawa",
-          "meaning_id": "sebelah kiri",
-          "meaning_en": "left side"
+          "id": 136,
+          "meanings": {
+            "id": "sebelah kiri",
+            "en": "left side"
+          }
         },
         {
           "word": "左折",
           "furigana": "させつ",
           "romanji": "sasetsu",
-          "meaning_id": "belok kiri",
-          "meaning_en": "left turn"
+          "id": 137,
+          "meanings": {
+            "id": "belok kiri",
+            "en": "left turn"
+          }
         }
       ]
     },
@@ -2209,36 +2620,51 @@
           "word": "出る",
           "furigana": "でる",
           "romanji": "deru",
-          "meaning_id": "keluar",
-          "meaning_en": "to go out"
+          "id": 138,
+          "meanings": {
+            "id": "keluar",
+            "en": "to go out"
+          }
         },
         {
           "word": "出す",
           "furigana": "だす",
           "romanji": "dasu",
-          "meaning_id": "mengeluarkan",
-          "meaning_en": "to take out"
+          "id": 139,
+          "meanings": {
+            "id": "mengeluarkan",
+            "en": "to take out"
+          }
         },
         {
           "word": "輸出",
           "furigana": "ゆしゅつ",
           "romanji": "yushutsu",
-          "meaning_id": "ekspor",
-          "meaning_en": "export"
+          "id": 140,
+          "meanings": {
+            "id": "ekspor",
+            "en": "export"
+          }
         },
         {
           "word": "出国",
           "furigana": "しゅっこく",
           "romanji": "shukkoく",
-          "meaning_id": "ke luar negeri",
-          "meaning_en": "departure from country"
+          "id": 141,
+          "meanings": {
+            "id": "ke luar negeri",
+            "en": "departure from country"
+          }
         },
         {
           "word": "出納",
           "furigana": "すいとう",
           "romanji": "suitou",
-          "meaning_id": "pengeluaran dan pendapatan",
-          "meaning_en": "receipts and expenditures"
+          "id": 142,
+          "meanings": {
+            "id": "pengeluaran dan pendapatan",
+            "en": "receipts and expenditures"
+          }
         }
       ]
     },
@@ -2277,29 +2703,41 @@
           "word": "北",
           "furigana": "きた",
           "romanji": "kita",
-          "meaning_id": "utara",
-          "meaning_en": "north"
+          "id": 143,
+          "meanings": {
+            "id": "utara",
+            "en": "north"
+          }
         },
         {
           "word": "東北",
           "furigana": "とうほく",
           "romanji": "touhoku",
-          "meaning_id": "timur laut",
-          "meaning_en": "northeast"
+          "id": 144,
+          "meanings": {
+            "id": "timur laut",
+            "en": "northeast"
+          }
         },
         {
           "word": "南北",
           "furigana": "なんぼく",
           "romanji": "nanboku",
-          "meaning_id": "selatan dan utara",
-          "meaning_en": "north and south"
+          "id": 145,
+          "meanings": {
+            "id": "selatan dan utara",
+            "en": "north and south"
+          }
         },
         {
           "word": "北海道",
           "furigana": "ほっかいどう",
           "romanji": "hokkaido",
-          "meaning_id": "nama tempat Hokkaido",
-          "meaning_en": "Hokkaido"
+          "id": 146,
+          "meanings": {
+            "id": "nama tempat Hokkaido",
+            "en": "Hokkaido"
+          }
         }
       ]
     },
@@ -2330,15 +2768,21 @@
           "word": "半ば",
           "furigana": "なかば",
           "romanji": "nakaba",
-          "meaning_id": "pertengahan",
-          "meaning_en": "middle"
+          "id": 147,
+          "meanings": {
+            "id": "pertengahan",
+            "en": "middle"
+          }
         },
         {
           "word": "半分",
           "furigana": "はんぶん",
           "romanji": "hanbun",
-          "meaning_id": "setengah, separuh",
-          "meaning_en": "half"
+          "id": 148,
+          "meanings": {
+            "id": "setengah, separuh",
+            "en": "half"
+          }
         }
       ]
     },
@@ -2369,15 +2813,21 @@
           "word": "母親",
           "furigana": "ははおや",
           "romanji": "hahaoya",
-          "meaning_id": "orang tua perempuan, ibu",
-          "meaning_en": "mother"
+          "id": 149,
+          "meanings": {
+            "id": "orang tua perempuan, ibu",
+            "en": "mother"
+          }
         },
         {
           "word": "父母",
           "furigana": "ふぼ",
           "romanji": "fubo",
-          "meaning_id": "ayah dan ibu",
-          "meaning_en": "parents"
+          "id": 150,
+          "meanings": {
+            "id": "ayah dan ibu",
+            "en": "parents"
+          }
         }
       ]
     },
@@ -2412,22 +2862,31 @@
           "word": "兄",
           "furigana": "あに",
           "romanji": "ani",
-          "meaning_id": "abang",
-          "meaning_en": "older brother"
+          "id": 151,
+          "meanings": {
+            "id": "abang",
+            "en": "older brother"
+          }
         },
         {
           "word": "父兄",
           "furigana": "ふけい",
           "romanji": "fukei",
-          "meaning_id": "wali",
-          "meaning_en": "guardian"
+          "id": 152,
+          "meanings": {
+            "id": "wali",
+            "en": "guardian"
+          }
         },
         {
           "word": "兄弟",
           "furigana": "きょうだい",
           "romanji": "kyoudai",
-          "meaning_id": "kakak beradik",
-          "meaning_en": "siblings"
+          "id": 153,
+          "meanings": {
+            "id": "kakak beradik",
+            "en": "siblings"
+          }
         }
       ]
     },
@@ -2458,15 +2917,21 @@
           "word": "冬",
           "furigana": "ふゆ",
           "romanji": "fuyu",
-          "meaning_id": "musim dingin",
-          "meaning_en": "winter"
+          "id": 154,
+          "meanings": {
+            "id": "musim dingin",
+            "en": "winter"
+          }
         },
         {
           "word": "冬季",
           "furigana": "とうき",
           "romanji": "touki",
-          "meaning_id": "musim dingin",
-          "meaning_en": "winter season"
+          "id": 155,
+          "meanings": {
+            "id": "musim dingin",
+            "en": "winter season"
+          }
         }
       ]
     },
@@ -2509,36 +2974,51 @@
           "word": "白い",
           "furigana": "しろい",
           "romanji": "shiroi",
-          "meaning_id": "putih",
-          "meaning_en": "white"
+          "id": 156,
+          "meanings": {
+            "id": "putih",
+            "en": "white"
+          }
         },
         {
           "word": "白髪",
           "furigana": "しらが",
           "romanji": "shiraga",
-          "meaning_id": "dinding putih",
-          "meaning_en": "white hair"
+          "id": 157,
+          "meanings": {
+            "id": "dinding putih",
+            "en": "white hair"
+          }
         },
         {
           "word": "白米",
           "furigana": "はくまい",
           "romanji": "hakumai",
-          "meaning_id": "beras putih",
-          "meaning_en": "white rice"
+          "id": 158,
+          "meanings": {
+            "id": "beras putih",
+            "en": "white rice"
+          }
         },
         {
           "word": "蛋白質",
           "furigana": "たんぱくしつ",
           "romanji": "tanpakushitsu",
-          "meaning_id": "protein, zat putih telur",
-          "meaning_en": "protein"
+          "id": 159,
+          "meanings": {
+            "id": "protein, zat putih telur",
+            "en": "protein"
+          }
         },
         {
           "word": "白檀",
           "furigana": "びゃくだん",
           "romanji": "byakudan",
-          "meaning_id": "kayu cendana",
-          "meaning_en": "sandalwood"
+          "id": 160,
+          "meanings": {
+            "id": "kayu cendana",
+            "en": "sandalwood"
+          }
         }
       ]
     },
@@ -2577,15 +3057,21 @@
           "word": "立つ",
           "furigana": "たつ",
           "romanji": "tatsu",
-          "meaning_id": "berdiri",
-          "meaning_en": "to stand"
+          "id": 161,
+          "meanings": {
+            "id": "berdiri",
+            "en": "to stand"
+          }
         },
         {
           "word": "立場",
           "furigana": "たちば",
           "romanji": "tachiba",
-          "meaning_id": "sudut pandang, posisi",
-          "meaning_en": "position, standpoint"
+          "id": 162,
+          "meanings": {
+            "id": "sudut pandang, posisi",
+            "en": "position, standpoint"
+          }
         }
       ]
     },
@@ -2616,43 +3102,61 @@
           "word": "夕立",
           "furigana": "ゆうだち",
           "romanji": "yuudachi",
-          "meaning_id": "hujan di musim panas",
-          "meaning_en": "evening shower"
+          "id": 163,
+          "meanings": {
+            "id": "hujan di musim panas",
+            "en": "evening shower"
+          }
         },
         {
           "word": "独立",
           "furigana": "どくりつ",
           "romanji": "dokuritsu",
-          "meaning_id": "kemerdekaan",
-          "meaning_en": "independence"
+          "id": 164,
+          "meanings": {
+            "id": "kemerdekaan",
+            "en": "independence"
+          }
         },
         {
           "word": "立春",
           "furigana": "りっしゅん",
           "romanji": "risshun",
-          "meaning_id": "awal musim semi",
-          "meaning_en": "beginning of spring"
+          "id": 165,
+          "meanings": {
+            "id": "awal musim semi",
+            "en": "beginning of spring"
+          }
         },
         {
           "word": "建立",
           "furigana": "こんりゅう",
           "romanji": "konryuu",
-          "meaning_id": "pendirian (bangunan)",
-          "meaning_en": "construction"
+          "id": 166,
+          "meanings": {
+            "id": "pendirian (bangunan)",
+            "en": "construction"
+          }
         },
         {
           "word": "吸う",
           "furigana": "すう",
           "romanji": "suu",
-          "meaning_id": "menghisap",
-          "meaning_en": "to inhale"
+          "id": 167,
+          "meanings": {
+            "id": "menghisap",
+            "en": "to inhale"
+          }
         },
         {
           "word": "吸収",
           "furigana": "きゅうしゅう",
           "romanji": "kyuushuu",
-          "meaning_id": "penghisapan, absorbsi",
-          "meaning_en": "absorption"
+          "id": 168,
+          "meanings": {
+            "id": "penghisapan, absorbsi",
+            "en": "absorption"
+          }
         }
       ]
     },
@@ -2686,29 +3190,41 @@
           "word": "百",
           "furigana": "ひゃく",
           "romanji": "hyaku",
-          "meaning_id": "seratus",
-          "meaning_en": "hundred"
+          "id": 169,
+          "meanings": {
+            "id": "seratus",
+            "en": "hundred"
+          }
         },
         {
           "word": "三百",
           "furigana": "さんびゃく",
           "romanji": "sanbyaku",
-          "meaning_id": "seratus batang",
-          "meaning_en": "three hundred"
+          "id": 170,
+          "meanings": {
+            "id": "seratus batang",
+            "en": "three hundred"
+          }
         },
         {
           "word": "六百",
           "furigana": "ろっぴゃく",
           "romanji": "roppyaku",
-          "meaning_id": "tiga ratus",
-          "meaning_en": "six hundred"
+          "id": 171,
+          "meanings": {
+            "id": "tiga ratus",
+            "en": "six hundred"
+          }
         },
         {
           "word": "八百",
           "furigana": "はっぴゃく",
           "romanji": "happyaku",
-          "meaning_id": "enam ratus",
-          "meaning_en": "eight hundred"
+          "id": 172,
+          "meanings": {
+            "id": "enam ratus",
+            "en": "eight hundred"
+          }
         }
       ]
     },
@@ -2739,22 +3255,31 @@
           "word": "年",
           "furigana": "とし",
           "romanji": "toshi",
-          "meaning_id": "tahun",
-          "meaning_en": "year"
+          "id": 173,
+          "meanings": {
+            "id": "tahun",
+            "en": "year"
+          }
         },
         {
           "word": "危年",
           "furigana": "きねん",
           "romanji": "kinen",
-          "meaning_id": "tahun/usia yg tidak beruntung",
-          "meaning_en": "unlucky year"
+          "id": 174,
+          "meanings": {
+            "id": "tahun/usia yg tidak beruntung",
+            "en": "unlucky year"
+          }
         },
         {
           "word": "年齢",
           "furigana": "ねんれい",
           "romanji": "nenrei",
-          "meaning_id": "usia",
-          "meaning_en": "age"
+          "id": 175,
+          "meanings": {
+            "id": "usia",
+            "en": "age"
+          }
         }
       ]
     },
@@ -2785,22 +3310,31 @@
           "word": "先",
           "furigana": "さき",
           "romanji": "saki",
-          "meaning_id": "usia",
-          "meaning_en": "ahead"
+          "id": 176,
+          "meanings": {
+            "id": "usia",
+            "en": "ahead"
+          }
         },
         {
           "word": "宛先",
           "furigana": "あてさき",
           "romanji": "atesaki",
-          "meaning_id": "nama & alamat penerima surat",
-          "meaning_en": "addressee"
+          "id": 177,
+          "meanings": {
+            "id": "nama & alamat penerima surat",
+            "en": "addressee"
+          }
         },
         {
           "word": "先生",
           "furigana": "せんせい",
           "romanji": "sensei",
-          "meaning_id": "guru",
-          "meaning_en": "teacher"
+          "id": 178,
+          "meanings": {
+            "id": "guru",
+            "en": "teacher"
+          }
         }
       ]
     },
@@ -2843,36 +3377,51 @@
           "word": "行く",
           "furigana": "いく",
           "romanji": "iku",
-          "meaning_id": "pergi",
-          "meaning_en": "to go"
+          "id": 179,
+          "meanings": {
+            "id": "pergi",
+            "en": "to go"
+          }
         },
         {
           "word": "行方",
           "furigana": "ゆくえ",
           "romanji": "yukue",
-          "meaning_id": "keberadaan",
-          "meaning_en": "whereabouts"
+          "id": 180,
+          "meanings": {
+            "id": "keberadaan",
+            "en": "whereabouts"
+          }
         },
         {
           "word": "行う",
           "furigana": "おこなう",
           "romanji": "okonau",
-          "meaning_id": "menyelenggarakan",
-          "meaning_en": "to conduct"
+          "id": 181,
+          "meanings": {
+            "id": "menyelenggarakan",
+            "en": "to conduct"
+          }
         },
         {
           "word": "旅行",
           "furigana": "りょこう",
           "romanji": "ryokou",
-          "meaning_id": "kelakuan, tingkah laku",
-          "meaning_en": "travel"
+          "id": 182,
+          "meanings": {
+            "id": "kelakuan, tingkah laku",
+            "en": "travel"
+          }
         },
         {
           "word": "行列",
           "furigana": "ぎょうれつ",
           "romanji": "gyouretsu",
-          "meaning_id": "barisan, antrian",
-          "meaning_en": "queue"
+          "id": 183,
+          "meanings": {
+            "id": "barisan, antrian",
+            "en": "queue"
+          }
         }
       ]
     },
@@ -2903,15 +3452,21 @@
           "word": "休む",
           "furigana": "やすむ",
           "romanji": "yasumu",
-          "meaning_id": "beristirahat",
-          "meaning_en": "to rest"
+          "id": 184,
+          "meanings": {
+            "id": "beristirahat",
+            "en": "to rest"
+          }
         },
         {
           "word": "休日",
           "furigana": "きゅうじつ",
           "romanji": "kyuujitsu",
-          "meaning_id": "hari libur",
-          "meaning_en": "holiday"
+          "id": 185,
+          "meanings": {
+            "id": "hari libur",
+            "en": "holiday"
+          }
         }
       ]
     },
@@ -2946,29 +3501,41 @@
           "word": "西",
           "furigana": "にし",
           "romanji": "nishi",
-          "meaning_id": "pintu barat",
-          "meaning_en": "west"
+          "id": 186,
+          "meanings": {
+            "id": "pintu barat",
+            "en": "west"
+          }
         },
         {
           "word": "西洋人",
           "furigana": "せいようじん",
           "romanji": "seiyoujin",
-          "meaning_id": "orang barat",
-          "meaning_en": "westerner"
+          "id": 187,
+          "meanings": {
+            "id": "orang barat",
+            "en": "westerner"
+          }
         },
         {
           "word": "西国",
           "furigana": "さいごく",
           "romanji": "saigoku",
-          "meaning_id": "negara bagian barat Jepang",
-          "meaning_en": "western Japan"
+          "id": 188,
+          "meanings": {
+            "id": "negara bagian barat Jepang",
+            "en": "western Japan"
+          }
         },
         {
           "word": "東西",
           "furigana": "とうざい",
           "romanji": "touzai",
-          "meaning_id": "timur dan barat",
-          "meaning_en": "east and west"
+          "id": 189,
+          "meanings": {
+            "id": "timur dan barat",
+            "en": "east and west"
+          }
         }
       ]
     },
@@ -2994,8 +3561,11 @@
           "word": "毎日",
           "furigana": "まいにち",
           "romanji": "mainichi",
-          "meaning_id": "setiap hari",
-          "meaning_en": "every day"
+          "id": 190,
+          "meanings": {
+            "id": "setiap hari",
+            "en": "every day"
+          }
         }
       ]
     },
@@ -3025,15 +3595,21 @@
           "word": "気持ち",
           "furigana": "きもち",
           "romanji": "kimochi",
-          "meaning_id": "perasaan",
-          "meaning_en": "feeling"
+          "id": 191,
+          "meanings": {
+            "id": "perasaan",
+            "en": "feeling"
+          }
         },
         {
           "word": "気配",
           "furigana": "けはい",
           "romanji": "kehai",
-          "meaning_id": "tanda, indikasi",
-          "meaning_en": "sign, indication"
+          "id": 192,
+          "meanings": {
+            "id": "tanda, indikasi",
+            "en": "sign, indication"
+          }
         }
       ]
     },
@@ -3068,22 +3644,31 @@
           "word": "有る",
           "furigana": "ある",
           "romanji": "aru",
-          "meaning_id": "ada",
-          "meaning_en": "to exist"
+          "id": 193,
+          "meanings": {
+            "id": "ada",
+            "en": "to exist"
+          }
         },
         {
           "word": "有料",
           "furigana": "ゆうりょう",
           "romanji": "yuuryou",
-          "meaning_id": "dikenakan biaya",
-          "meaning_en": "fee required"
+          "id": 194,
+          "meanings": {
+            "id": "dikenakan biaya",
+            "en": "fee required"
+          }
         },
         {
           "word": "有無",
           "furigana": "うむ",
           "romanji": "umu",
-          "meaning_id": "ada atau tidak",
-          "meaning_en": "existence or nonexistence"
+          "id": 195,
+          "meanings": {
+            "id": "ada atau tidak",
+            "en": "existence or nonexistence"
+          }
         }
       ]
     },
@@ -3118,22 +3703,31 @@
           "word": "名前",
           "furigana": "なまえ",
           "romanji": "namae",
-          "meaning_id": "nama",
-          "meaning_en": "name"
+          "id": 196,
+          "meanings": {
+            "id": "nama",
+            "en": "name"
+          }
         },
         {
           "word": "名刺",
           "furigana": "めいし",
           "romanji": "meishi",
-          "meaning_id": "kartu nama",
-          "meaning_en": "business card"
+          "id": 197,
+          "meanings": {
+            "id": "kartu nama",
+            "en": "business card"
+          }
         },
         {
           "word": "名字",
           "furigana": "みょうじ",
           "romanji": "myouji",
-          "meaning_id": "nama keluarga",
-          "meaning_en": "surname"
+          "id": 198,
+          "meanings": {
+            "id": "nama keluarga",
+            "en": "surname"
+          }
         }
       ]
     },
@@ -3168,22 +3762,31 @@
           "word": "会う",
           "furigana": "あう",
           "romanji": "au",
-          "meaning_id": "bertemu",
-          "meaning_en": "to meet"
+          "id": 199,
+          "meanings": {
+            "id": "bertemu",
+            "en": "to meet"
+          }
         },
         {
           "word": "会議",
           "furigana": "かいぎ",
           "romanji": "kaigi",
-          "meaning_id": "rapat",
-          "meaning_en": "meeting"
+          "id": 200,
+          "meanings": {
+            "id": "rapat",
+            "en": "meeting"
+          }
         },
         {
           "word": "会得",
           "furigana": "えとく",
           "romanji": "etoku",
-          "meaning_id": "pemahaman, pengertian",
-          "meaning_en": "understanding"
+          "id": 201,
+          "meanings": {
+            "id": "pemahaman, pengertian",
+            "en": "understanding"
+          }
         }
       ]
     },
@@ -3214,22 +3817,31 @@
           "word": "安い",
           "furigana": "やすい",
           "romanji": "yasui",
-          "meaning_id": "murah",
-          "meaning_en": "cheap"
+          "id": 202,
+          "meanings": {
+            "id": "murah",
+            "en": "cheap"
+          }
         },
         {
           "word": "安全",
           "furigana": "あんぜん",
           "romanji": "anzen",
-          "meaning_id": "keselamatan",
-          "meaning_en": "safety"
+          "id": 203,
+          "meanings": {
+            "id": "keselamatan",
+            "en": "safety"
+          }
         },
         {
           "word": "何か",
           "furigana": "なにか",
           "romanji": "nanika",
-          "meaning_id": "sesuatu",
-          "meaning_en": "something"
+          "id": 204,
+          "meanings": {
+            "id": "sesuatu",
+            "en": "something"
+          }
         }
       ]
     },
@@ -3264,15 +3876,21 @@
           "word": "何時",
           "furigana": "なんじ",
           "romanji": "nanji",
-          "meaning_id": "jam berapa",
-          "meaning_en": "what time"
+          "id": 205,
+          "meanings": {
+            "id": "jam berapa",
+            "en": "what time"
+          }
         },
         {
           "word": "幾何",
           "furigana": "きか",
           "romanji": "kika",
-          "meaning_id": "geometri, ilmu ukur",
-          "meaning_en": "geometry"
+          "id": 206,
+          "meanings": {
+            "id": "geometri, ilmu ukur",
+            "en": "geometry"
+          }
         }
       ]
     },
@@ -3307,22 +3925,31 @@
           "word": "男",
           "furigana": "おとこ",
           "romanji": "otoko",
-          "meaning_id": "laki-laki, pria",
-          "meaning_en": "man"
+          "id": 207,
+          "meanings": {
+            "id": "laki-laki, pria",
+            "en": "man"
+          }
         },
         {
           "word": "男性",
           "furigana": "だんせい",
           "romanji": "dansei",
-          "meaning_id": "laki-laki, pria",
-          "meaning_en": "male"
+          "id": 208,
+          "meanings": {
+            "id": "laki-laki, pria",
+            "en": "male"
+          }
         },
         {
           "word": "長男",
           "furigana": "ちょうなん",
           "romanji": "chounan",
-          "meaning_id": "putra sulung",
-          "meaning_en": "eldest son"
+          "id": 209,
+          "meanings": {
+            "id": "putra sulung",
+            "en": "eldest son"
+          }
         }
       ]
     },
@@ -3353,22 +3980,31 @@
           "word": "車",
           "furigana": "くるま",
           "romanji": "kuruma",
-          "meaning_id": "kendaraan",
-          "meaning_en": "car"
+          "id": 210,
+          "meanings": {
+            "id": "kendaraan",
+            "en": "car"
+          }
         },
         {
           "word": "自動車",
           "furigana": "じどうしゃ",
           "romanji": "jidousha",
-          "meaning_id": "roda gigi, persneling",
-          "meaning_en": "automobile"
+          "id": 211,
+          "meanings": {
+            "id": "roda gigi, persneling",
+            "en": "automobile"
+          }
         },
         {
           "word": "車掌",
           "furigana": "しゃしょう",
           "romanji": "shashou",
-          "meaning_id": "kondektur",
-          "meaning_en": "conductor"
+          "id": 212,
+          "meanings": {
+            "id": "kondektur",
+            "en": "conductor"
+          }
         }
       ]
     },
@@ -3399,22 +4035,31 @@
           "word": "花",
           "furigana": "はな",
           "romanji": "hana",
-          "meaning_id": "bunga",
-          "meaning_en": "flower"
+          "id": 213,
+          "meanings": {
+            "id": "bunga",
+            "en": "flower"
+          }
         },
         {
           "word": "雄花",
           "furigana": "おばな",
           "romanji": "obana",
-          "meaning_id": "benang sari",
-          "meaning_en": "male flower"
+          "id": 214,
+          "meanings": {
+            "id": "benang sari",
+            "en": "male flower"
+          }
         },
         {
           "word": "花瓶",
           "furigana": "かびん",
           "romanji": "kabin",
-          "meaning_id": "vas bunga",
-          "meaning_en": "flower vase"
+          "id": 215,
+          "meanings": {
+            "id": "vas bunga",
+            "en": "flower vase"
+          }
         }
       ]
     },
@@ -3453,29 +4098,41 @@
           "word": "来る",
           "furigana": "くる",
           "romanji": "kuru",
-          "meaning_id": "datang",
-          "meaning_en": "to come"
+          "id": 216,
+          "meanings": {
+            "id": "datang",
+            "en": "to come"
+          }
         },
         {
           "word": "来ない",
           "furigana": "こない",
           "romanji": "konai",
-          "meaning_id": "tidak datang",
-          "meaning_en": "not come"
+          "id": 217,
+          "meanings": {
+            "id": "tidak datang",
+            "en": "not come"
+          }
         },
         {
           "word": "来る",
           "furigana": "きたる",
           "romanji": "kitaru",
-          "meaning_id": "yang akan datang",
-          "meaning_en": "coming"
+          "id": 218,
+          "meanings": {
+            "id": "yang akan datang",
+            "en": "coming"
+          }
         },
         {
           "word": "来年",
           "furigana": "らいねん",
           "romanji": "rainen",
-          "meaning_id": "tahun depan",
-          "meaning_en": "next year"
+          "id": 219,
+          "meanings": {
+            "id": "tahun depan",
+            "en": "next year"
+          }
         }
       ]
     },
@@ -3506,15 +4163,21 @@
           "word": "見る",
           "furigana": "みる",
           "romanji": "miru",
-          "meaning_id": "melihat",
-          "meaning_en": "to see"
+          "id": 220,
+          "meanings": {
+            "id": "melihat",
+            "en": "to see"
+          }
         },
         {
           "word": "見物",
           "furigana": "けんぶつ",
           "romanji": "kenbutsu",
-          "meaning_id": "tamasya, wisata",
-          "meaning_en": "sightseeing"
+          "id": 221,
+          "meanings": {
+            "id": "tamasya, wisata",
+            "en": "sightseeing"
+          }
         }
       ]
     },
@@ -3545,15 +4208,21 @@
           "word": "近い",
           "furigana": "ちかい",
           "romanji": "chikai",
-          "meaning_id": "dekat",
-          "meaning_en": "near"
+          "id": 222,
+          "meanings": {
+            "id": "dekat",
+            "en": "near"
+          }
         },
         {
           "word": "近所",
           "furigana": "きんじょ",
           "romanji": "kinjo",
-          "meaning_id": "sekitar, bertetanggaan",
-          "meaning_en": "neighborhood"
+          "id": 223,
+          "meanings": {
+            "id": "sekitar, bertetanggaan",
+            "en": "neighborhood"
+          }
         }
       ]
     },
@@ -3588,22 +4257,31 @@
           "word": "図る",
           "furigana": "はかる",
           "romanji": "hakaru",
-          "meaning_id": "merencanakan, mencoba",
-          "meaning_en": "to plan"
+          "id": 224,
+          "meanings": {
+            "id": "merencanakan, mencoba",
+            "en": "to plan"
+          }
         },
         {
           "word": "図面",
           "furigana": "ずめん",
           "romanji": "zumen",
-          "meaning_id": "gambar rencana",
-          "meaning_en": "blueprint"
+          "id": 225,
+          "meanings": {
+            "id": "gambar rencana",
+            "en": "blueprint"
+          }
         },
         {
           "word": "図書館",
           "furigana": "としょかん",
           "romanji": "toshokan",
-          "meaning_id": "perpustakaan",
-          "meaning_en": "library"
+          "id": 226,
+          "meanings": {
+            "id": "perpustakaan",
+            "en": "library"
+          }
         }
       ]
     },
@@ -3638,22 +4316,31 @@
           "word": "赤い",
           "furigana": "あかい",
           "romanji": "akai",
-          "meaning_id": "merah",
-          "meaning_en": "red"
+          "id": 227,
+          "meanings": {
+            "id": "merah",
+            "en": "red"
+          }
         },
         {
           "word": "赤道",
           "furigana": "せきどう",
           "romanji": "sekidou",
-          "meaning_id": "khatulistiwa",
-          "meaning_en": "equator"
+          "id": 228,
+          "meanings": {
+            "id": "khatulistiwa",
+            "en": "equator"
+          }
         },
         {
           "word": "赤銅",
           "furigana": "しゃくどう",
           "romanji": "shakudou",
-          "meaning_id": "tembaga merah",
-          "meaning_en": "red copper"
+          "id": 229,
+          "meanings": {
+            "id": "tembaga merah",
+            "en": "red copper"
+          }
         }
       ]
     },
@@ -3692,36 +4379,51 @@
           "word": "言う",
           "furigana": "いう",
           "romanji": "iu",
-          "meaning_id": "berkata",
-          "meaning_en": "to say"
+          "id": 230,
+          "meanings": {
+            "id": "berkata",
+            "en": "to say"
+          }
         },
         {
           "word": "言葉",
           "furigana": "ことば",
           "romanji": "kotoba",
-          "meaning_id": "kata, bahasa",
-          "meaning_en": "word, language"
+          "id": 231,
+          "meanings": {
+            "id": "kata, bahasa",
+            "en": "word, language"
+          }
         },
         {
           "word": "最言",
           "furigana": "さいごん",
           "romanji": "saigon",
-          "meaning_id": "igauan, mengigau",
-          "meaning_en": "delirium"
+          "id": 232,
+          "meanings": {
+            "id": "igauan, mengigau",
+            "en": "delirium"
+          }
         },
         {
           "word": "言語",
           "furigana": "げんご",
           "romanji": "gengo",
-          "meaning_id": "bahasa",
-          "meaning_en": "language"
+          "id": 233,
+          "meanings": {
+            "id": "bahasa",
+            "en": "language"
+          }
         },
         {
           "word": "伝言",
           "furigana": "でんごん",
           "romanji": "dengon",
-          "meaning_id": "pesan",
-          "meaning_en": "message"
+          "id": 234,
+          "meanings": {
+            "id": "pesan",
+            "en": "message"
+          }
         }
       ]
     },
@@ -3764,22 +4466,31 @@
           "word": "お金",
           "furigana": "おかね",
           "romanji": "okane",
-          "meaning_id": "uang",
-          "meaning_en": "money"
+          "id": 235,
+          "meanings": {
+            "id": "uang",
+            "en": "money"
+          }
         },
         {
           "word": "黄金",
           "furigana": "おうごん",
           "romanji": "ougon",
-          "meaning_id": "kawat",
-          "meaning_en": "gold"
+          "id": 236,
+          "meanings": {
+            "id": "kawat",
+            "en": "gold"
+          }
         },
         {
           "word": "金槌",
           "furigana": "かなづち",
           "romanji": "kanazuchi",
-          "meaning_id": "palu, martil",
-          "meaning_en": "hammer"
+          "id": 237,
+          "meanings": {
+            "id": "palu, martil",
+            "en": "hammer"
+          }
         }
       ]
     },
@@ -3814,43 +4525,61 @@
           "word": "金魚",
           "furigana": "きんぎょ",
           "romanji": "kingyo",
-          "meaning_id": "ikan mas koki",
-          "meaning_en": "goldfish"
+          "id": 238,
+          "meanings": {
+            "id": "ikan mas koki",
+            "en": "goldfish"
+          }
         },
         {
           "word": "金色",
           "furigana": "きんいろ",
           "romanji": "kiniro",
-          "meaning_id": "warna emas",
-          "meaning_en": "golden color"
+          "id": 239,
+          "meanings": {
+            "id": "warna emas",
+            "en": "golden color"
+          }
         },
         {
           "word": "黄金",
           "furigana": "おうごん",
           "romanji": "ougon",
-          "meaning_id": "emas",
-          "meaning_en": "gold"
+          "id": 240,
+          "meanings": {
+            "id": "emas",
+            "en": "gold"
+          }
         },
         {
           "word": "学ぶ",
           "furigana": "まなぶ",
           "romanji": "manabu",
-          "meaning_id": "belajar",
-          "meaning_en": "to learn"
+          "id": 241,
+          "meanings": {
+            "id": "belajar",
+            "en": "to learn"
+          }
         },
         {
           "word": "学生",
           "furigana": "がくせい",
           "romanji": "gakusei",
-          "meaning_id": "pelajar, murid",
-          "meaning_en": "student"
+          "id": 242,
+          "meanings": {
+            "id": "pelajar, murid",
+            "en": "student"
+          }
         },
         {
           "word": "学校",
           "furigana": "がっこう",
           "romanji": "gakkou",
-          "meaning_id": "sekolah",
-          "meaning_en": "school"
+          "id": 243,
+          "meanings": {
+            "id": "sekolah",
+            "en": "school"
+          }
         }
       ]
     },
@@ -3885,22 +4614,31 @@
           "word": "雨",
           "furigana": "あめ",
           "romanji": "ame",
-          "meaning_id": "hujan",
-          "meaning_en": "rain"
+          "id": 244,
+          "meanings": {
+            "id": "hujan",
+            "en": "rain"
+          }
         },
         {
           "word": "雨傘",
           "furigana": "あまがさ",
           "romanji": "amagasa",
-          "meaning_id": "payung hujan",
-          "meaning_en": "umbrella"
+          "id": 245,
+          "meanings": {
+            "id": "payung hujan",
+            "en": "umbrella"
+          }
         },
         {
           "word": "梅雨",
           "furigana": "つゆ",
           "romanji": "tsuyu",
-          "meaning_id": "curah hujan",
-          "meaning_en": "rainy season"
+          "id": 246,
+          "meanings": {
+            "id": "curah hujan",
+            "en": "rainy season"
+          }
         }
       ]
     },
@@ -3931,15 +4669,21 @@
           "word": "店",
           "furigana": "みせ",
           "romanji": "mise",
-          "meaning_id": "toko",
-          "meaning_en": "shop"
+          "id": 247,
+          "meanings": {
+            "id": "toko",
+            "en": "shop"
+          }
         },
         {
           "word": "店内",
           "furigana": "てんない",
           "romanji": "tennai",
-          "meaning_id": "dalam toko",
-          "meaning_en": "inside the store"
+          "id": 248,
+          "meanings": {
+            "id": "dalam toko",
+            "en": "inside the store"
+          }
         }
       ]
     },
@@ -3970,15 +4714,21 @@
           "word": "前書き",
           "furigana": "まえがき",
           "romanji": "maegaki",
-          "meaning_id": "prakata, kata pengantar",
-          "meaning_en": "preface"
+          "id": 249,
+          "meanings": {
+            "id": "prakata, kata pengantar",
+            "en": "preface"
+          }
         },
         {
           "word": "前後",
           "furigana": "ぜんご",
           "romanji": "zengo",
-          "meaning_id": "depan & belakang, sebelum & sesudah",
-          "meaning_en": "front and back"
+          "id": 250,
+          "meanings": {
+            "id": "depan & belakang, sebelum & sesudah",
+            "en": "front and back"
+          }
         }
       ]
     },
@@ -4025,43 +4775,61 @@
           "word": "後",
           "furigana": "あと",
           "romanji": "ato",
-          "meaning_id": "sesudah",
-          "meaning_en": "after"
+          "id": 251,
+          "meanings": {
+            "id": "sesudah",
+            "en": "after"
+          }
         },
         {
           "word": "後ろ",
           "furigana": "うしろ",
           "romanji": "ushiro",
-          "meaning_id": "belakang",
-          "meaning_en": "behind"
+          "id": 252,
+          "meanings": {
+            "id": "belakang",
+            "en": "behind"
+          }
         },
         {
           "word": "後ほど",
           "furigana": "のちほど",
           "romanji": "nochihodo",
-          "meaning_id": "nanti",
-          "meaning_en": "later"
+          "id": 253,
+          "meanings": {
+            "id": "nanti",
+            "en": "later"
+          }
         },
         {
           "word": "後れる",
           "furigana": "おくれる",
           "romanji": "okureru",
-          "meaning_id": "terbelakang, ketinggalan",
-          "meaning_en": "to be late"
+          "id": 254,
+          "meanings": {
+            "id": "terbelakang, ketinggalan",
+            "en": "to be late"
+          }
         },
         {
           "word": "食後",
           "furigana": "しょくご",
           "romanji": "shokugo",
-          "meaning_id": "sesudah makan",
-          "meaning_en": "after meal"
+          "id": 255,
+          "meanings": {
+            "id": "sesudah makan",
+            "en": "after meal"
+          }
         },
         {
           "word": "後輩",
           "furigana": "こうはい",
           "romanji": "kouhai",
-          "meaning_id": "junior, adik kelas",
-          "meaning_en": "junior"
+          "id": 256,
+          "meanings": {
+            "id": "junior, adik kelas",
+            "en": "junior"
+          }
         }
       ]
     },
@@ -4096,22 +4864,31 @@
           "word": "南",
           "furigana": "みなみ",
           "romanji": "minami",
-          "meaning_id": "selatan",
-          "meaning_en": "south"
+          "id": 257,
+          "meanings": {
+            "id": "selatan",
+            "en": "south"
+          }
         },
         {
           "word": "南無",
           "furigana": "なむ",
           "romanji": "namu",
-          "meaning_id": "aku berserah kepada Buddha",
-          "meaning_en": "devotion to Buddha"
+          "id": 258,
+          "meanings": {
+            "id": "aku berserah kepada Buddha",
+            "en": "devotion to Buddha"
+          }
         },
         {
           "word": "南極",
           "furigana": "なんきょく",
           "romanji": "nankyoku",
-          "meaning_id": "kutub selatan",
-          "meaning_en": "South Pole"
+          "id": 259,
+          "meanings": {
+            "id": "kutub selatan",
+            "en": "South Pole"
+          }
         }
       ]
     },
@@ -4142,15 +4919,21 @@
           "word": "食べる",
           "furigana": "たべる",
           "romanji": "taberu",
-          "meaning_id": "makan",
-          "meaning_en": "to eat"
+          "id": 260,
+          "meanings": {
+            "id": "makan",
+            "en": "to eat"
+          }
         },
         {
           "word": "食う",
           "furigana": "くう",
           "romanji": "kuu",
-          "meaning_id": "makan",
-          "meaning_en": "to eat"
+          "id": 261,
+          "meanings": {
+            "id": "makan",
+            "en": "to eat"
+          }
         }
       ]
     },
@@ -4181,29 +4964,41 @@
           "word": "食事",
           "furigana": "しょくじ",
           "romanji": "shokuji",
-          "meaning_id": "makanan",
-          "meaning_en": "meal"
+          "id": 262,
+          "meanings": {
+            "id": "makanan",
+            "en": "meal"
+          }
         },
         {
           "word": "断食",
           "furigana": "だんじき",
           "romanji": "danjiki",
-          "meaning_id": "puasa",
-          "meaning_en": "fasting"
+          "id": 263,
+          "meanings": {
+            "id": "puasa",
+            "en": "fasting"
+          }
         },
         {
           "word": "海",
           "furigana": "うみ",
           "romanji": "umi",
-          "meaning_id": "laut",
-          "meaning_en": "sea"
+          "id": 264,
+          "meanings": {
+            "id": "laut",
+            "en": "sea"
+          }
         },
         {
           "word": "海峡",
           "furigana": "かいきょう",
           "romanji": "kaikyou",
-          "meaning_id": "angkatan laut",
-          "meaning_en": "strait"
+          "id": 265,
+          "meanings": {
+            "id": "angkatan laut",
+            "en": "strait"
+          }
         }
       ]
     },
@@ -4234,15 +5029,21 @@
           "word": "春",
           "furigana": "はる",
           "romanji": "haru",
-          "meaning_id": "musim semi",
-          "meaning_en": "spring"
+          "id": 266,
+          "meanings": {
+            "id": "musim semi",
+            "en": "spring"
+          }
         },
         {
           "word": "春季",
           "furigana": "しゅんき",
           "romanji": "shunki",
-          "meaning_id": "musim semi",
-          "meaning_en": "spring season"
+          "id": 267,
+          "meanings": {
+            "id": "musim semi",
+            "en": "spring season"
+          }
         }
       ]
     },
@@ -4273,15 +5074,21 @@
           "word": "秋",
           "furigana": "あき",
           "romanji": "aki",
-          "meaning_id": "musim gugur",
-          "meaning_en": "autumn"
+          "id": 268,
+          "meanings": {
+            "id": "musim gugur",
+            "en": "autumn"
+          }
         },
         {
           "word": "秋季",
           "furigana": "しゅうき",
           "romanji": "shuuki",
-          "meaning_id": "musim gugur",
-          "meaning_en": "autumn season"
+          "id": 269,
+          "meanings": {
+            "id": "musim gugur",
+            "en": "autumn season"
+          }
         }
       ]
     },
@@ -4312,15 +5119,21 @@
           "word": "持つ",
           "furigana": "もつ",
           "romanji": "motsu",
-          "meaning_id": "memegang, memiliki",
-          "meaning_en": "to hold"
+          "id": 270,
+          "meanings": {
+            "id": "memegang, memiliki",
+            "en": "to hold"
+          }
         },
         {
           "word": "持参する",
           "furigana": "じさんする",
           "romanji": "jisansuru",
-          "meaning_id": "membawa",
-          "meaning_en": "to bring"
+          "id": 271,
+          "meanings": {
+            "id": "membawa",
+            "en": "to bring"
+          }
         }
       ]
     },
@@ -4346,8 +5159,11 @@
           "word": "校長",
           "furigana": "こうちょう",
           "romanji": "kouchou",
-          "meaning_id": "kepala sekolah",
-          "meaning_en": "principal"
+          "id": 272,
+          "meanings": {
+            "id": "kepala sekolah",
+            "en": "principal"
+          }
         }
       ]
     },
@@ -4378,15 +5194,21 @@
           "word": "書く",
           "furigana": "かく",
           "romanji": "kaku",
-          "meaning_id": "menulis",
-          "meaning_en": "to write"
+          "id": 273,
+          "meanings": {
+            "id": "menulis",
+            "en": "to write"
+          }
         },
         {
           "word": "書類",
           "furigana": "しょるい",
           "romanji": "shorui",
-          "meaning_id": "dokumen",
-          "meaning_en": "document"
+          "id": 274,
+          "meanings": {
+            "id": "dokumen",
+            "en": "document"
+          }
         }
       ]
     },
@@ -4417,15 +5239,21 @@
           "word": "高い",
           "furigana": "たかい",
           "romanji": "takai",
-          "meaning_id": "tinggi, mahal",
-          "meaning_en": "high, expensive"
+          "id": 275,
+          "meanings": {
+            "id": "tinggi, mahal",
+            "en": "high, expensive"
+          }
         },
         {
           "word": "高校",
           "furigana": "こうこう",
           "romanji": "koukou",
-          "meaning_id": "SMU, SMA",
-          "meaning_en": "high school"
+          "id": 276,
+          "meanings": {
+            "id": "SMU, SMA",
+            "en": "high school"
+          }
         }
       ]
     },
@@ -4456,15 +5284,21 @@
           "word": "時々",
           "furigana": "ときどき",
           "romanji": "tokidoki",
-          "meaning_id": "kadang-kadang",
-          "meaning_en": "sometimes"
+          "id": 277,
+          "meanings": {
+            "id": "kadang-kadang",
+            "en": "sometimes"
+          }
         },
         {
           "word": "時間",
           "furigana": "じかん",
           "romanji": "jikan",
-          "meaning_id": "waktu",
-          "meaning_en": "time"
+          "id": 278,
+          "meanings": {
+            "id": "waktu",
+            "en": "time"
+          }
         }
       ]
     },
@@ -4503,29 +5337,41 @@
           "word": "家",
           "furigana": "いえ",
           "romanji": "ie",
-          "meaning_id": "rumah",
-          "meaning_en": "house"
+          "id": 279,
+          "meanings": {
+            "id": "rumah",
+            "en": "house"
+          }
         },
         {
           "word": "家主",
           "furigana": "やぬし",
           "romanji": "yanushi",
-          "meaning_id": "pemilik/tuan rumah",
-          "meaning_en": "landlord"
+          "id": 280,
+          "meanings": {
+            "id": "pemilik/tuan rumah",
+            "en": "landlord"
+          }
         },
         {
           "word": "家族",
           "furigana": "かぞく",
           "romanji": "kazoku",
-          "meaning_id": "keluarga",
-          "meaning_en": "family"
+          "id": 281,
+          "meanings": {
+            "id": "keluarga",
+            "en": "family"
+          }
         },
         {
           "word": "家来",
           "furigana": "けらい",
           "romanji": "kerai",
-          "meaning_id": "pembantu, kaki-tangan",
-          "meaning_en": "retainer"
+          "id": 282,
+          "meanings": {
+            "id": "pembantu, kaki-tangan",
+            "en": "retainer"
+          }
         }
       ]
     },
@@ -4560,15 +5406,21 @@
           "word": "夏",
           "furigana": "なつ",
           "romanji": "natsu",
-          "meaning_id": "musim panas",
-          "meaning_en": "summer"
+          "id": 283,
+          "meanings": {
+            "id": "musim panas",
+            "en": "summer"
+          }
         },
         {
           "word": "夏季",
           "furigana": "かき",
           "romanji": "kaki",
-          "meaning_id": "musim panas",
-          "meaning_en": "summer season"
+          "id": 284,
+          "meanings": {
+            "id": "musim panas",
+            "en": "summer season"
+          }
         }
       ]
     },
@@ -4599,29 +5451,41 @@
           "word": "夏至",
           "furigana": "げし",
           "romanji": "geshi",
-          "meaning_id": "hari saat terang terlama pada musim panas",
-          "meaning_en": "summer solstice"
+          "id": 285,
+          "meanings": {
+            "id": "hari saat terang terlama pada musim panas",
+            "en": "summer solstice"
+          }
         },
         {
           "word": "紙",
           "furigana": "かみ",
           "romanji": "kami",
-          "meaning_id": "kertas",
-          "meaning_en": "paper"
+          "id": 286,
+          "meanings": {
+            "id": "kertas",
+            "en": "paper"
+          }
         },
         {
           "word": "手紙",
           "furigana": "てがみ",
           "romanji": "tegami",
-          "meaning_id": "surat",
-          "meaning_en": "letter"
+          "id": 287,
+          "meanings": {
+            "id": "surat",
+            "en": "letter"
+          }
         },
         {
           "word": "紙幣",
           "furigana": "しへい",
           "romanji": "shihei",
-          "meaning_id": "uang kertas",
-          "meaning_en": "paper money"
+          "id": 288,
+          "meanings": {
+            "id": "uang kertas",
+            "en": "paper money"
+          }
         }
       ]
     },
@@ -4647,8 +5511,11 @@
           "word": "週末",
           "furigana": "しゅうまつ",
           "romanji": "shuumatsu",
-          "meaning_id": "akhir pekan",
-          "meaning_en": "weekend"
+          "id": 289,
+          "meanings": {
+            "id": "akhir pekan",
+            "en": "weekend"
+          }
         }
       ]
     },
@@ -4679,15 +5546,21 @@
           "word": "朝",
           "furigana": "あさ",
           "romanji": "asa",
-          "meaning_id": "pagi",
-          "meaning_en": "morning"
+          "id": 290,
+          "meanings": {
+            "id": "pagi",
+            "en": "morning"
+          }
         },
         {
           "word": "朝食",
           "furigana": "ちょうしょく",
           "romanji": "choushoku",
-          "meaning_id": "sarapan pagi",
-          "meaning_en": "breakfast"
+          "id": 291,
+          "meanings": {
+            "id": "sarapan pagi",
+            "en": "breakfast"
+          }
         }
       ]
     },
@@ -4718,15 +5591,21 @@
           "word": "飲む",
           "furigana": "のむ",
           "romanji": "nomu",
-          "meaning_id": "minum",
-          "meaning_en": "to drink"
+          "id": 292,
+          "meanings": {
+            "id": "minum",
+            "en": "to drink"
+          }
         },
         {
           "word": "飲料",
           "furigana": "いんりょう",
           "romanji": "inryou",
-          "meaning_id": "minuman",
-          "meaning_en": "beverage"
+          "id": 293,
+          "meanings": {
+            "id": "minuman",
+            "en": "beverage"
+          }
         }
       ]
     },
@@ -4757,15 +5636,21 @@
           "word": "買う",
           "furigana": "かう",
           "romanji": "kau",
-          "meaning_id": "membeli",
-          "meaning_en": "to buy"
+          "id": 294,
+          "meanings": {
+            "id": "membeli",
+            "en": "to buy"
+          }
         },
         {
           "word": "買収",
           "furigana": "ばいしゅう",
           "romanji": "baishuu",
-          "meaning_id": "pembelian",
-          "meaning_en": "acquisition"
+          "id": 295,
+          "meanings": {
+            "id": "pembelian",
+            "en": "acquisition"
+          }
         }
       ]
     },
@@ -4800,22 +5685,31 @@
           "word": "道",
           "furigana": "みち",
           "romanji": "michi",
-          "meaning_id": "jalan, jalanan",
-          "meaning_en": "road"
+          "id": 296,
+          "meanings": {
+            "id": "jalan, jalanan",
+            "en": "road"
+          }
         },
         {
           "word": "道路",
           "furigana": "どうろ",
           "romanji": "douro",
-          "meaning_id": "jalan, jalanan",
-          "meaning_en": "road"
+          "id": 297,
+          "meanings": {
+            "id": "jalan, jalanan",
+            "en": "road"
+          }
         },
         {
           "word": "神道",
           "furigana": "しんとう",
           "romanji": "shintou",
-          "meaning_id": "kepercayaan Shinto",
-          "meaning_en": "Shinto"
+          "id": 298,
+          "meanings": {
+            "id": "kepercayaan Shinto",
+            "en": "Shinto"
+          }
         }
       ]
     },
@@ -4850,22 +5744,31 @@
           "word": "着る",
           "furigana": "きる",
           "romanji": "kiru",
-          "meaning_id": "mengenakan (pakaian)",
-          "meaning_en": "to wear"
+          "id": 299,
+          "meanings": {
+            "id": "mengenakan (pakaian)",
+            "en": "to wear"
+          }
         },
         {
           "word": "着く",
           "furigana": "つく",
           "romanji": "tsuku",
-          "meaning_id": "tiba, sampai",
-          "meaning_en": "to arrive"
+          "id": 300,
+          "meanings": {
+            "id": "tiba, sampai",
+            "en": "to arrive"
+          }
         },
         {
           "word": "到着",
           "furigana": "とうちゃく",
           "romanji": "touchaku",
-          "meaning_id": "tiba, sampai",
-          "meaning_en": "arrival"
+          "id": 301,
+          "meanings": {
+            "id": "tiba, sampai",
+            "en": "arrival"
+          }
         }
       ]
     },
@@ -4908,36 +5811,51 @@
           "word": "間",
           "furigana": "あいだ",
           "romanji": "aida",
-          "meaning_id": "antara, selama",
-          "meaning_en": "between"
+          "id": 302,
+          "meanings": {
+            "id": "antara, selama",
+            "en": "between"
+          }
         },
         {
           "word": "客間",
           "furigana": "きゃくま",
           "romanji": "kyakuma",
-          "meaning_id": "ruang tamu",
-          "meaning_en": "guest room"
+          "id": 303,
+          "meanings": {
+            "id": "ruang tamu",
+            "en": "guest room"
+          }
         },
         {
           "word": "時間",
           "furigana": "じかん",
           "romanji": "jikan",
-          "meaning_id": "waktu",
-          "meaning_en": "time"
+          "id": 304,
+          "meanings": {
+            "id": "waktu",
+            "en": "time"
+          }
         },
         {
           "word": "世間",
           "furigana": "せけん",
           "romanji": "seken",
-          "meaning_id": "dunia, duniawi",
-          "meaning_en": "world"
+          "id": 305,
+          "meanings": {
+            "id": "dunia, duniawi",
+            "en": "world"
+          }
         },
         {
           "word": "人間",
           "furigana": "にんげん",
           "romanji": "ningen",
-          "meaning_id": "manusia",
-          "meaning_en": "human being"
+          "id": 306,
+          "meanings": {
+            "id": "manusia",
+            "en": "human being"
+          }
         }
       ]
     },
@@ -4972,15 +5890,21 @@
           "word": "話す",
           "furigana": "はなす",
           "romanji": "hanasu",
-          "meaning_id": "berbicara",
-          "meaning_en": "to speak"
+          "id": 307,
+          "meanings": {
+            "id": "berbicara",
+            "en": "to speak"
+          }
         },
         {
           "word": "話",
           "furigana": "はなし",
           "romanji": "hanashi",
-          "meaning_id": "pembicaraan",
-          "meaning_en": "story, talk"
+          "id": 308,
+          "meanings": {
+            "id": "pembicaraan",
+            "en": "story, talk"
+          }
         }
       ]
     },
@@ -5019,43 +5943,61 @@
           "word": "昔話",
           "furigana": "むかしばなし",
           "romanji": "mukashibanashi",
-          "meaning_id": "dongeng",
-          "meaning_en": "old story"
+          "id": 309,
+          "meanings": {
+            "id": "dongeng",
+            "en": "old story"
+          }
         },
         {
           "word": "話題",
           "furigana": "わだい",
           "romanji": "wadai",
-          "meaning_id": "topik pembicaraan",
-          "meaning_en": "topic"
+          "id": 310,
+          "meanings": {
+            "id": "topik pembicaraan",
+            "en": "topic"
+          }
         },
         {
           "word": "新しい",
           "furigana": "あたらしい",
           "romanji": "atarashii",
-          "meaning_id": "baru",
-          "meaning_en": "new"
+          "id": 311,
+          "meanings": {
+            "id": "baru",
+            "en": "new"
+          }
         },
         {
           "word": "新た",
           "furigana": "あらた",
           "romanji": "arata",
-          "meaning_id": "baru",
-          "meaning_en": "new"
+          "id": 312,
+          "meanings": {
+            "id": "baru",
+            "en": "new"
+          }
         },
         {
           "word": "新妻",
           "furigana": "にいづま",
           "romanji": "niizuma",
-          "meaning_id": "istri yang baru dinikahi",
-          "meaning_en": "new bride"
+          "id": 313,
+          "meanings": {
+            "id": "istri yang baru dinikahi",
+            "en": "new bride"
+          }
         },
         {
           "word": "新鮮",
           "furigana": "しんせん",
           "romanji": "shinsen",
-          "meaning_id": "segar, baru",
-          "meaning_en": "fresh"
+          "id": 314,
+          "meanings": {
+            "id": "segar, baru",
+            "en": "fresh"
+          }
         }
       ]
     },
@@ -5081,8 +6023,11 @@
           "word": "電気",
           "furigana": "でんき",
           "romanji": "denki",
-          "meaning_id": "listrik",
-          "meaning_en": "electricity"
+          "id": 315,
+          "meanings": {
+            "id": "listrik",
+            "en": "electricity"
+          }
         }
       ]
     },
@@ -5108,8 +6053,11 @@
           "word": "駅",
           "furigana": "えき",
           "romanji": "eki",
-          "meaning_id": "stasiun kereta",
-          "meaning_en": "station"
+          "id": 316,
+          "meanings": {
+            "id": "stasiun kereta",
+            "en": "station"
+          }
         }
       ]
     },
@@ -5144,22 +6092,31 @@
           "word": "聞く",
           "furigana": "きく",
           "romanji": "kiku",
-          "meaning_id": "mendengar, bertanya",
-          "meaning_en": "to hear, to ask"
+          "id": 317,
+          "meanings": {
+            "id": "mendengar, bertanya",
+            "en": "to hear, to ask"
+          }
         },
         {
           "word": "新聞",
           "furigana": "しんぶん",
           "romanji": "shinbun",
-          "meaning_id": "surat kabar, koran",
-          "meaning_en": "newspaper"
+          "id": 318,
+          "meanings": {
+            "id": "surat kabar, koran",
+            "en": "newspaper"
+          }
         },
         {
           "word": "聞聞する",
           "furigana": "ぶんもんする",
           "romanji": "bunmonsuru",
-          "meaning_id": "mendengarkan",
-          "meaning_en": "to listen"
+          "id": 319,
+          "meanings": {
+            "id": "mendengarkan",
+            "en": "to listen"
+          }
         }
       ]
     },
@@ -5194,22 +6151,31 @@
           "word": "読む",
           "furigana": "よむ",
           "romanji": "yomu",
-          "meaning_id": "membaca",
-          "meaning_en": "to read"
+          "id": 320,
+          "meanings": {
+            "id": "membaca",
+            "en": "to read"
+          }
         },
         {
           "word": "読書",
           "furigana": "どくしょ",
           "romanji": "dokusho",
-          "meaning_id": "baca buku",
-          "meaning_en": "reading"
+          "id": 321,
+          "meanings": {
+            "id": "baca buku",
+            "en": "reading"
+          }
         },
         {
           "word": "読点",
           "furigana": "とうてん",
           "romanji": "touten",
-          "meaning_id": "tanda baca koma",
-          "meaning_en": "comma"
+          "id": 322,
+          "meanings": {
+            "id": "tanda baca koma",
+            "en": "comma"
+          }
         }
       ]
     },
@@ -5240,15 +6206,21 @@
           "word": "語る",
           "furigana": "かたる",
           "romanji": "kataru",
-          "meaning_id": "berkata, bercerita",
-          "meaning_en": "to tell"
+          "id": 323,
+          "meanings": {
+            "id": "berkata, bercerita",
+            "en": "to tell"
+          }
         },
         {
           "word": "日本語",
           "furigana": "にほんご",
           "romanji": "nihongo",
-          "meaning_id": "bahasa Jepang",
-          "meaning_en": "Japanese language"
+          "id": 324,
+          "meanings": {
+            "id": "bahasa Jepang",
+            "en": "Japanese language"
+          }
         }
       ]
     },
@@ -5274,8 +6246,11 @@
           "word": "銀",
           "furigana": "ぎん",
           "romanji": "gin",
-          "meaning_id": "perak",
-          "meaning_en": "silver"
+          "id": 325,
+          "meanings": {
+            "id": "perak",
+            "en": "silver"
+          }
         }
       ]
     },
@@ -5301,8 +6276,11 @@
           "word": "図書館",
           "furigana": "としょかん",
           "romanji": "toshokan",
-          "meaning_id": "perpustakaan",
-          "meaning_en": "library"
+          "id": 326,
+          "meanings": {
+            "id": "perpustakaan",
+            "en": "library"
+          }
         }
       ]
     }

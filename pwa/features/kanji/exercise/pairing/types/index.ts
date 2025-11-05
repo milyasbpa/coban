@@ -3,8 +3,10 @@ export interface PairingWord {
   id: string;
   kanji: string;
   reading: string;
-  meaning_id: string;
-  meaning_en: string;
+  meanings: {
+    id: string;
+    en: string;
+  };
   furigana: string;
 }
 

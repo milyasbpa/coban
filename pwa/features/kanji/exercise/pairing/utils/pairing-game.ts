@@ -16,11 +16,10 @@ export const createPairingWords = (
     // Use examples from kanji data
     kanji.examples.forEach((example, index) => {
       words.push({
-        id: `${kanji.id}-${index}`,
+        id: `${kanji.id}-${example.id}`, // Use example.id from new structure
         kanji: example.word,
         reading: example.romanji,
-        meaning_id: example.meaning_id,
-        meaning_en: example.meaning_en,
+        meanings: example.meanings, // Use new meanings structure
         furigana: example.furigana,
       });
     });

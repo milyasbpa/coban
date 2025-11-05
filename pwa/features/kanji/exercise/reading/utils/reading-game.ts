@@ -50,7 +50,7 @@ export const createReadingQuestions = (
   examples.forEach((example, index) => {
     const correctReading = example.furigana; // Use furigana from KanjiDetail structure
     const correctRomanji = example.romanji; // Use romanji from KanjiDetail structure
-    const correctMeaning = example.meaning_id; // Use meaning_id from KanjiDetail structure
+    const correctMeaning = example.meanings.id; // Use meanings.id from new structure
 
     // Create wrong options from other examples' readings
     const wrongOptions = examples

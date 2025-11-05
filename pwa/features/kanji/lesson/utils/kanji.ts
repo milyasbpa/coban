@@ -9,11 +9,14 @@ interface KanjiReading {
 }
 
 interface KanjiExample {
+  id: number;
   word: string;
   furigana: string;
   romanji: string;
-  meaning_id: string;
-  meaning_en: string;
+  meanings: {
+    id: string;
+    en: string;
+  };
 }
 
 export interface KanjiDetail {

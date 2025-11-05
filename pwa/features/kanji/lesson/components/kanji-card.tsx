@@ -183,7 +183,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
                 <div className="flex items-baseline gap-2 min-w-0">
                   <span className="text-muted-foreground shrink-0">:</span>
                   <span className="text-muted-foreground truncate">
-                    {isIndonesian ? example.meaning_id : example.meaning_en}
+                    {isIndonesian ? example.meanings.id : example.meanings.en}
                   </span>
                 </div>
               )}
