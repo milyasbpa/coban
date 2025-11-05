@@ -23,13 +23,11 @@ import {
 } from "@dnd-kit/core";
 import { arrayMove } from "@dnd-kit/sortable";
 import { sortableKeyboardCoordinates } from "@dnd-kit/sortable";
-import {
-  WritingHeader,
-  AnswerFeedback,
-  CompletionScreen,
-  AudioPlayer,
-  KanjiSelectionGrid,
-} from "../fragments/writing-fragments";
+import { WritingHeader } from "../fragments/writing-header";
+import { AnswerFeedback } from "../fragments/answer-feedback";
+import { CompletionScreen } from "../fragments/completion-screen";
+import { AudioPlayer } from "../fragments/audio-player";
+import { KanjiSelectionGrid } from "../fragments/kanji-selection-grid";
 import { AssemblyArea, SubmitButton, KanjiTile } from "../components";
 import { getWritingQuestions, WritingQuestion } from "../utils";
 import { useExerciseSearchParams } from "../../utils/hooks";
@@ -39,16 +37,7 @@ export function WritingExerciseContainer() {
   const { lessonId, topicId, level, selectedKanjiIds } =
     useExerciseSearchParams();
 
-  const [questions, setQuestions] = useState<WritingQuestion[]>([]);
-  const [shuffledKanji, setShuffledKanji] = useState<string[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const [isCorrect, setIsCorrect] = useState(false);
-
-  // Drag and drop state
-  const [activeKanji, setActiveKanji] = useState<string | null>(null);
-  const [usedKanji, setUsedKanji] = useState<string[]>([]);
-  const [scoreIntegrated, setScoreIntegrated] = useState(false);
+  // All state now managed by useWritingExerciseStore
 
   // Score management store
   const {
@@ -60,20 +49,34 @@ export function WritingExerciseContainer() {
   } = useScoreStore();
 
   const {
+    // State for container logic
     currentQuestionIndex,
     selectedKanji,
-    score,
     showAnswer,
-    addKanji,
-    removeKanji,
-    clearSelected,
+    questions,
+    loading,
+    showFeedback,
+    scoreIntegrated,
+    score,
+    activeKanji,
+    
+    // Actions for container logic
     checkAnswer,
-    nextQuestion,
-    resetExercise,
-    setCorrectAnswer,
-    setAvailableKanji,
-    setShowAnswer,
+    clearSelected,
+    removeKanji,
+    removeUsedKanji,
+    clearUsedKanji,
+    addKanji,
+    addUsedKanji,
+    setQuestions,
+    setLoading,
+    setShowFeedback,
+    setIsCorrect,
+    setScoreIntegrated,
+    setActiveKanji,
     reorderKanji,
+    resetExercise,
+    setupCurrentQuestion: setupCurrentQuestionStore,
   } = useWritingExerciseStore();
 
   // Configure @dnd-kit sensors with better mobile support
@@ -97,10 +100,9 @@ export function WritingExerciseContainer() {
 
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
-      setupCurrentQuestion();
-      setUsedKanji([]); // Reset used kanji for new question
+      setupCurrentQuestionStore(questions, currentQuestionIndex);
     }
-  }, [questions, currentQuestionIndex]);
+  }, [questions, currentQuestionIndex, setupCurrentQuestionStore]);
 
   // Score management integration when exercise is complete
   useEffect(() => {
@@ -224,40 +226,7 @@ export function WritingExerciseContainer() {
     }
   };
 
-  const setupCurrentQuestion = () => {
-    const currentQuestion = questions[currentQuestionIndex];
-    if (!currentQuestion) return;
 
-    // Set the correct answer
-    setCorrectAnswer(currentQuestion.kanji);
-
-    // Create shuffled kanji array for selection
-    // Include correct kanji characters plus some distractors
-    const correctChars = currentQuestion.kanji.split("");
-
-    // Get some random kanji from other questions as distractors
-    const otherKanji = questions
-      .filter((_, index) => index !== currentQuestionIndex)
-      .flatMap((q) => q.kanji.split(""))
-      .filter((char, index, arr) => arr.indexOf(char) === index) // Remove duplicates
-      .slice(0, Math.max(5, 8 - correctChars.length)); // Ensure we have enough options
-
-    const allOptions = [...correctChars, ...otherKanji];
-
-    // Shuffle the options
-    const shuffled = allOptions.sort(() => Math.random() - 0.5);
-
-    setShuffledKanji(shuffled);
-    setAvailableKanji(shuffled);
-    setShowAnswer(false);
-    setShowFeedback(false);
-  };
-
-  const handleKanjiClick = (kanji: string) => {
-    if (showAnswer || usedKanji.includes(kanji)) return;
-    addKanji(kanji);
-    setUsedKanji((prev) => [...prev, kanji]);
-  };
 
   // Handle drag start
   const handleDragStart = (event: DragStartEvent) => {
@@ -289,7 +258,7 @@ export function WritingExerciseContainer() {
       addKanji(kanjiToAdd);
 
       // Mark kanji as used so it disappears from selection grid
-      setUsedKanji((prev) => [...prev, kanjiToAdd]);
+      addUsedKanji(kanjiToAdd);
       return;
     }
 
@@ -317,46 +286,19 @@ export function WritingExerciseContainer() {
     removeKanji(index);
 
     // Make kanji available again in selection grid
-    setUsedKanji((prev) => prev.filter((k) => k !== kanjiToRemove));
+    removeUsedKanji(kanjiToRemove);
   };
 
   const handleClearAll = () => {
     clearSelected();
-    setUsedKanji([]); // Make all kanji available again
-  };
-
-  const handleNext = () => {
-    if (currentQuestionIndex >= questions.length - 1) {
-      // Exercise complete
-      return;
-    }
-
-    nextQuestion();
-    setShowFeedback(false);
-    setUsedKanji([]); // Reset for next question
-  };
-
-  const handleRestart = () => {
-    resetExercise();
-    setShowFeedback(false);
-    setUsedKanji([]);
-    setScoreIntegrated(false); // Reset score integration flag
-    setupCurrentQuestion();
-  };
-
-  const handleBackToLesson = () => {
-    if (topicId) {
-      router.push(`/kanji/lesson?topicId=${topicId}&level=${level}`);
-    } else if (lessonId) {
-      router.push(`/kanji/lesson?lessonId=${lessonId}&level=${level}`);
-    } else {
-      router.back();
-    }
+    clearUsedKanji(); // Make all kanji available again
   };
 
   const handleBack = () => {
     router.back();
   };
+
+
 
   if (loading) {
     return (
@@ -386,14 +328,7 @@ export function WritingExerciseContainer() {
 
   // Show completion screen
   if (currentQuestionIndex >= questions.length) {
-    return (
-      <CompletionScreen
-        score={score}
-        totalQuestions={questions.length}
-        onRestart={handleRestart}
-        onBackToLesson={handleBackToLesson}
-      />
-    );
+    return <CompletionScreen />;
   }
 
   const currentQuestion = questions[currentQuestionIndex];
@@ -409,19 +344,11 @@ export function WritingExerciseContainer() {
     >
       <div className="min-h-screen bg-background">
         <div className="max-w-md mx-auto p-4 space-y-6">
-          <WritingHeader
-            currentQuestion={currentQuestionIndex}
-            totalQuestions={questions.length}
-            score={score}
-            onBack={handleBack}
-          />
+          <WritingHeader />
 
           <div className="space-y-6">
             {/* Audio and Reading Display */}
-            <AudioPlayer
-              audioUrl={currentQuestion.audio}
-              reading={currentQuestion.reading}
-            />
+            <AudioPlayer />
 
             {/* Assembly Area */}
             <AssemblyArea
@@ -433,12 +360,7 @@ export function WritingExerciseContainer() {
             />
 
             {/* Available Kanji */}
-            <KanjiSelectionGrid
-              availableKanji={shuffledKanji}
-              usedKanji={usedKanji}
-              onKanjiClick={handleKanjiClick}
-              disabled={showAnswer}
-            />
+            <KanjiSelectionGrid />
 
             {/* Submit Button */}
             {!showAnswer && (
@@ -452,11 +374,7 @@ export function WritingExerciseContainer() {
 
         {/* Answer Feedback */}
         {showFeedback && (
-          <AnswerFeedback
-            isCorrect={isCorrect}
-            onNext={handleNext}
-            isLastQuestion={currentQuestionIndex >= questions.length - 1}
-          />
+          <AnswerFeedback />
         )}
       </div>
 

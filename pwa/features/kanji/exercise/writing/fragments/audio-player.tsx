@@ -1,12 +1,14 @@
 import { Button } from '@/pwa/core/components/button';
 import { Volume2 } from 'lucide-react';
+import { useWritingExerciseStore } from '../store/writing-exercise.store';
 
-interface AudioPlayerProps {
-  audioUrl?: string;
-  reading: string;
-}
-
-export function AudioPlayer({ audioUrl, reading }: AudioPlayerProps) {
+export function AudioPlayer() {
+  const { questions, currentQuestionIndex } = useWritingExerciseStore();
+  
+  const currentQuestion = questions[currentQuestionIndex];
+  if (!currentQuestion) return null;
+  
+  const { audio: audioUrl, reading } = currentQuestion;
   const playAudio = () => {
     if (audioUrl) {
       const audio = new Audio(audioUrl);
