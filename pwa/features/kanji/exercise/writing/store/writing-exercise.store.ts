@@ -14,7 +14,6 @@ interface WritingExerciseState {
   // New state moved from container
   questions: WritingQuestion[];
   shuffledKanji: string[];
-  loading: boolean;
   showFeedback: boolean;
   isCorrect: boolean;
   activeKanji: string | null;
@@ -37,7 +36,6 @@ interface WritingExerciseState {
   // New setters for moved state
   setQuestions: (questions: WritingQuestion[]) => void;
   setShuffledKanji: (kanji: string[]) => void;
-  setLoading: (loading: boolean) => void;
   setShowFeedback: (show: boolean) => void;
   setIsCorrect: (correct: boolean) => void;
   setActiveKanji: (kanji: string | null) => void;
@@ -62,7 +60,6 @@ export const useWritingExerciseStore = create<WritingExerciseState>((set, get) =
   // New state moved from container
   questions: [],
   shuffledKanji: [],
-  loading: true,
   showFeedback: false,
   isCorrect: false,
   activeKanji: null,
@@ -123,7 +120,6 @@ export const useWritingExerciseStore = create<WritingExerciseState>((set, get) =
     showAnswer: false,
     questions: [],
     shuffledKanji: [],
-    loading: true,
     showFeedback: false,
     isCorrect: false,
     activeKanji: null,
@@ -160,8 +156,6 @@ export const useWritingExerciseStore = create<WritingExerciseState>((set, get) =
   setQuestions: (questions: WritingQuestion[]) => set({ questions }),
   
   setShuffledKanji: (kanji: string[]) => set({ shuffledKanji: kanji }),
-  
-  setLoading: (loading: boolean) => set({ loading }),
   
   setShowFeedback: (show: boolean) => set({ showFeedback: show }),
   

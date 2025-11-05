@@ -54,7 +54,6 @@ export function WritingExerciseContainer() {
     selectedKanji,
     showAnswer,
     questions,
-    loading,
     showFeedback,
     scoreIntegrated,
     score,
@@ -69,7 +68,6 @@ export function WritingExerciseContainer() {
     addKanji,
     addUsedKanji,
     setQuestions,
-    setLoading,
     setShowFeedback,
     setIsCorrect,
     setScoreIntegrated,
@@ -196,34 +194,25 @@ export function WritingExerciseContainer() {
   ]);
 
   const loadQuestions = () => {
-    try {
-      setLoading(true);
-
-      if (!lessonId && !topicId) {
-        console.warn("No lessonId or topicId provided");
-        setLoading(false);
-        return;
-      }
-
-      // Use utility function to get questions - now based on examples (words)
-      const writingQuestions = getWritingQuestions(
-        level,
-        lessonId ? parseInt(lessonId) : null,
-        selectedKanjiIds,
-        topicId || undefined
-      );
-
-      if (writingQuestions.length === 0) {
-        console.warn("No examples found for this lesson/topic");
-        return;
-      }
-
-      setQuestions(writingQuestions);
-    } catch (error) {
-      console.error("Error loading questions:", error);
-    } finally {
-      setLoading(false);
+    if (!lessonId && !topicId) {
+      console.warn("No lessonId or topicId provided");
+      return;
     }
+
+    // Use utility function to get questions - now based on examples (words)
+    const writingQuestions = getWritingQuestions(
+      level,
+      lessonId ? parseInt(lessonId) : null,
+      selectedKanjiIds,
+      topicId || undefined
+    );
+
+    if (writingQuestions.length === 0) {
+      console.warn("No examples found for this lesson/topic");
+      return;
+    }
+
+    setQuestions(writingQuestions);
   };
 
 
@@ -299,17 +288,6 @@ export function WritingExerciseContainer() {
   };
 
 
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center space-y-4">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
-          <p className="text-muted-foreground">Memuat soal writing...</p>
-        </div>
-      </div>
-    );
-  }
 
   if (questions.length === 0) {
     return (
