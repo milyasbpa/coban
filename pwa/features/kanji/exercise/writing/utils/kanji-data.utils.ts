@@ -46,8 +46,10 @@ export interface WritingQuestion {
  * Get kanji data based on level
  */
 export function getKanjiData(level: string): KanjiItem[] {
+  console.log("getKanjiData called with level:", level);
   switch (level.toLowerCase()) {
     case "n5":
+      console.log("N5 data items count:", n5KanjiData.items?.length || 0);
       return n5KanjiData.items || [];
     // Add other levels when available
     // case 'n4':
@@ -72,7 +74,11 @@ export function getKanjiForLesson(
   const startIndex = (lessonNumber - 1) * lessonSize;
   const endIndex = startIndex + lessonSize;
 
-  return allKanji.slice(startIndex, endIndex);
+  console.log("getKanjiForLesson:", { level, lessonNumber, startIndex, endIndex, totalKanji: allKanji.length });
+  const result = allKanji.slice(startIndex, endIndex);
+  console.log("getKanjiForLesson result:", result.map(k => ({ id: k.id, character: k.character, examplesCount: k.examples?.length || 0 })));
+  
+  return result;
 }
 
 /**
@@ -108,6 +114,7 @@ export function getWritingQuestions(
   selectedKanjiIds?: number[],
   topicId?: string
 ): WritingQuestion[] {
+  console.log("getWritingQuestions called with:", { level, lessonId, selectedKanjiIds, topicId });
   const questions: WritingQuestion[] = [];
   
   if (topicId) {
@@ -129,15 +136,19 @@ export function getWritingQuestions(
     
   } else if (lessonId) {
     // Use KanjiItem approach for lesson-based questions (existing logic)
+    console.log("Processing lesson-based questions for lessonId:", lessonId);
     const allKanjiItems = getKanjiForLesson(level, lessonId, 5);
+    console.log("allKanjiItems:", allKanjiItems.length, "items");
     
     // Filter kanji items if selectedKanjiIds is provided
     const kanjiItems = selectedKanjiIds && selectedKanjiIds.length > 0
       ? allKanjiItems.filter(kanji => selectedKanjiIds.includes(kanji.id))
       : allKanjiItems;
+    console.log("kanjiItems after filtering:", kanjiItems.length, "items");
     
     // Collect all examples from all kanji items
     kanjiItems.forEach(kanjiItem => {
+      console.log(`Processing kanji ${kanjiItem.character} with ${kanjiItem.examples?.length || 0} examples`);
       if (kanjiItem.examples) {
         kanjiItem.examples.forEach(example => {
           questions.push(kanjiExampleToWritingQuestion(example));
@@ -146,6 +157,7 @@ export function getWritingQuestions(
     });
   }
   
+  console.log("Final questions count:", questions.length);
   return questions;
 }
 

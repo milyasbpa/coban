@@ -194,6 +194,8 @@ export function WritingExerciseContainer() {
   ]);
 
   const loadQuestions = () => {
+    console.log("loadQuestions called with:", { lessonId, topicId, level, selectedKanjiIds });
+    
     if (!lessonId && !topicId) {
       console.warn("No lessonId or topicId provided");
       return;
@@ -206,6 +208,9 @@ export function WritingExerciseContainer() {
       selectedKanjiIds,
       topicId || undefined
     );
+
+    console.log("getWritingQuestions returned:", writingQuestions.length, "questions");
+    console.log("First few questions:", writingQuestions.slice(0, 3));
 
     if (writingQuestions.length === 0) {
       console.warn("No examples found for this lesson/topic");

@@ -40,14 +40,7 @@ export function KanjiExerciseModal() {
     } else if (exerciseType === "reading") {
       window.location.href = buildExerciseUrl("reading");
     } else if (exerciseType === "writing") {
-      // Writing exercise uses different parameter format
-      if (lessonType === "stroke") {
-        // For stroke lessons, extract number from lessonName (e.g., "Lesson 1" -> "1")
-        const lessonNumber = lessonName?.match(/\d+/)?.[0] || "1";
-        window.location.href = `/kanji/exercise/writing?level=n5&lesson=${lessonNumber}`;
-      } else if (lessonType === "topic") {
-        window.location.href = `/kanji/exercise/writing?level=n5&topic=${topicId}`;
-      }
+      window.location.href = buildExerciseUrl("writing");
     }
   };
 
