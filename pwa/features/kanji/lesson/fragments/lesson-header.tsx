@@ -1,16 +1,13 @@
 "use client";
 
-import { ChevronLeft, Sun, Moon, Edit3 } from "lucide-react";
+import { ChevronLeft, Edit3 } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
-import { useTheme } from "@/pwa/core/lib/hooks/use-theme";
-import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { ThemeToggleButton } from "@/pwa/core/components/theme-toggle-button";
+import { LanguageToggleButton } from "@/pwa/core/components/language-toggle-button";
 import { useKanjiSelection } from "../store/kanji-selection.store";
 import Link from "next/link";
-import ReactCountryFlag from "react-country-flag";
 
 export function LessonHeader() {
-  const { isDarkMode, toggleTheme } = useTheme();
-  const { isIndonesian, toggleLanguage } = useLanguage();
   const { isSelectionMode, toggleSelectionMode } = useKanjiSelection();
 
   return (
@@ -46,40 +43,10 @@ export function LessonHeader() {
           </Button>
 
           {/* Language Toggle */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="rounded-full h-8 w-8 p-0 hover:bg-accent/20 transition-colors"
-            onClick={toggleLanguage}
-            aria-label={`Switch to ${isIndonesian ? 'English' : 'Indonesian'}`}
-          >
-            <div className="border border-border rounded-sm overflow-hidden">
-              <ReactCountryFlag
-                countryCode={isIndonesian ? 'ID' : 'US'}
-                svg
-                style={{
-                  width: '20px',
-                  height: '15px',
-                  display: 'block'
-                }}
-              />
-            </div>
-          </Button>
+          <LanguageToggleButton />
 
           {/* Theme Toggle */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="rounded-full h-8 w-8 p-0 hover:bg-accent/20 transition-colors"
-            onClick={() => toggleTheme()}
-            aria-label="Toggle theme"
-          >
-            {isDarkMode ? (
-              <Sun className="w-5 h-5 text-foreground" />
-            ) : (
-              <Moon className="w-5 h-5 text-foreground" />
-            )}
-          </Button>
+          <ThemeToggleButton />
         </div>
       </div>
     </div>

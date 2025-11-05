@@ -1,13 +1,10 @@
 "use client";
 
-import { Sun, Moon } from "lucide-react";
-import { Button } from "@/pwa/core/components/button";
-import { useTheme } from "@/pwa/core/lib/hooks/use-theme";
+import { ThemeToggleButton } from "@/pwa/core/components/theme-toggle-button";
 import { ResetStatisticsButton } from "@/pwa/features/score/components/reset-statistics-button";
 import Image from "next/image";
 
 export function Header() {
-  const { isDarkMode, toggleTheme } = useTheme();
 
   return (
     <div className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b border-border/40">
@@ -25,19 +22,7 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <ResetStatisticsButton />
-          <Button
-            variant="ghost"
-            size="icon"
-            className="rounded-full"
-            onClick={() => toggleTheme()}
-            aria-label="Toggle theme"
-          >
-            {isDarkMode ? (
-              <Sun className="w-5 h-5 text-foreground" />
-            ) : (
-              <Moon className="w-5 h-5 text-foreground" />
-            )}
-          </Button>
+          <ThemeToggleButton />
         </div>
       </div>
     </div>
