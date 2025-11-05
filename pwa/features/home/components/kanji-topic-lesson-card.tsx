@@ -1,26 +1,25 @@
 import { Card, CardContent } from "@/pwa/core/components/card";
 import { Badge } from "@/pwa/core/components/badge";
-import { Progress } from "@/pwa/core/components/progress";
 import { Button } from "@/pwa/core/components/button";
 import { List } from "lucide-react";
 
-interface StrokeLessonCardProps {
+interface KanjiTopicLessonCardProps {
   level: string;
-  lessonNumber: number;
+  name: string;
   progress: number;
   kanjiList: string[];
   onExerciseClick?: () => void;
   onListClick?: () => void;
 }
 
-export function StrokeLessonCard({
+export function KanjiTopicLessonCard({
   level,
-  lessonNumber,
+  name,
   progress,
   kanjiList,
   onExerciseClick,
   onListClick,
-}: StrokeLessonCardProps) {
+}: KanjiTopicLessonCardProps) {
   return (
     <Card className="hover:shadow-xl transition-all duration-300 hover:border-ring gap-0 py-4">
       <CardContent className="px-4">
@@ -30,11 +29,10 @@ export function StrokeLessonCard({
               {level}
             </Badge>
             <Badge variant="outline" className="text-sm">
-              Lesson {lessonNumber}
+              {name}
             </Badge>
           </div>
           <div className="flex items-center gap-2">
-            <Progress value={progress} className="w-32 h-2" />
             <span className="text-foreground font-bold text-sm">
               {progress}%
             </span>

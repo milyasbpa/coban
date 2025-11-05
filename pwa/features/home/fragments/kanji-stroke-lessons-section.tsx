@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { StrokeLessonCard } from "../components/stroke-lesson-card";
+import { KanjiStrokeLessonCard } from "../components/kanji-stroke-lesson-card";
 import { getLessonsByLevel } from "../utils/lesson";
 import { useHomeStore } from "../store/home-store";
 import { KanjiExerciseModal } from "./kanji-exercise-modal";
@@ -88,7 +88,7 @@ export function KanjiStrokeLessonsSection() {
     return (
       <div className="space-y-4">
         {lessonTabs[0].lessons.map((lesson: Lesson) => (
-          <StrokeLessonCard
+          <KanjiStrokeLessonCard
             key={lesson.id}
             level={lesson.level}
             lessonNumber={lesson.lessonNumber}
@@ -121,7 +121,7 @@ export function KanjiStrokeLessonsSection() {
         {lessonTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
             {tab.lessons.map((lesson: Lesson) => (
-              <StrokeLessonCard
+              <KanjiStrokeLessonCard
                 key={lesson.id}
                 level={lesson.level}
                 lessonNumber={lesson.lessonNumber}

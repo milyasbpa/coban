@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { TopicLessonCard } from "../components/topic-lesson-card";
+import { KanjiTopicLessonCard } from "../components/kanji-topic-lesson-card";
 import { getTopicLessons } from "../../kanji/lesson/utils/topic";
 import { KanjiService } from "@/pwa/core/services/kanji";
 import { useHomeStore } from "../store/home-store";
@@ -87,7 +87,7 @@ export function KanjiTopicLessonsSection() {
           const categories = KanjiService.getTopicCategories(selectedLevel);
           const category = categories[topic.id];
           return (
-            <TopicLessonCard
+            <KanjiTopicLessonCard
               key={topic.id}
               level={selectedLevel}
               name={topic.name}
@@ -124,7 +124,7 @@ export function KanjiTopicLessonsSection() {
               const categories = KanjiService.getTopicCategories(selectedLevel);
               const category = categories[topic.id];
               return (
-              <TopicLessonCard
+              <KanjiTopicLessonCard
                 key={topic.id}
                 level={selectedLevel}
                 name={topic.name}
