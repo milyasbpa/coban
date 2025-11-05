@@ -23,7 +23,7 @@ export function AnswerInput({
   directInput,
   onOptionSelect,
   onInputChange,
-  disabled = false
+  disabled = false,
 }: AnswerInputProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -44,6 +44,7 @@ export function AnswerInput({
       };
     }
   }, [mode]);
+
   if (mode === "multiple-choice") {
     return (
       <div className="space-y-3">
@@ -72,17 +73,16 @@ export function AnswerInput({
     <div className="space-y-4">
       <Input
         ref={inputRef}
-        placeholder="Type the reading here (hiragana)..."
+        placeholder="Type the reading here..."
         value={directInput}
-        onChange={(e: React.ChangeEvent<HTMLInputElement>) => onInputChange(e.target.value)}
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+          onInputChange(e.target.value)
+        }
         disabled={disabled}
         className="h-16 text-lg text-center"
         autoComplete="off"
         spellCheck={false}
       />
-      <div className="text-xs text-muted-foreground text-center">
-        Type in romaji and it will automatically convert to hiragana
-      </div>
     </div>
   );
 }

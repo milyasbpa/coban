@@ -1,0 +1,242 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "PERGAULAN & PERASAAN",
+        "en": "SOCIAL INTERACTION & FEELINGS"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "具合",
+          "hiragana": "ぐあい",
+          "romaji": "guai",
+          "meanings": {
+            "en": "condition, situation",
+            "id": "keadaan, kondisi"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "関係",
+          "hiragana": "かんけい",
+          "romaji": "kankei",
+          "meanings": {
+            "en": "relationship, connection",
+            "id": "hubungan"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "気",
+          "hiragana": "き",
+          "romaji": "ki",
+          "meanings": {
+            "en": "air, spirit, atmosphere",
+            "id": "udara, semangat, suasana"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "気分",
+          "hiragana": "きぶん",
+          "romaji": "kibun",
+          "meanings": {
+            "en": "feeling, mood, health condition",
+            "id": "perasaan, suasana, keadaan kesehatan"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "気持ち",
+          "hiragana": "きもち",
+          "romaji": "kimochi",
+          "meanings": {
+            "en": "feeling, mood",
+            "id": "perasaan, suasana"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "お陰",
+          "hiragana": "おかげ",
+          "romaji": "okage",
+          "meanings": {
+            "en": "thanks to, because of",
+            "id": "berkat, karena"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "お見舞い",
+          "hiragana": "おみまい",
+          "romaji": "omimai",
+          "meanings": {
+            "en": "visit, inquiry after someone's health",
+            "id": "kunjungan, jengukan"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "お土産",
+          "hiragana": "おみやげ",
+          "romaji": "omiyage",
+          "meanings": {
+            "en": "souvenir, gift from a trip",
+            "id": "oleh-oleh, souvenir"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "お礼",
+          "hiragana": "おれい",
+          "romaji": "orei",
+          "meanings": {
+            "en": "gratitude, thanks",
+            "id": "hormat, terima kasih"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "都合",
+          "hiragana": "つごう",
+          "romaji": "tsugou",
+          "meanings": {
+            "en": "convenience, circumstances",
+            "id": "keadaan, urusan"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "PETA & LOKASI",
+        "en": "MAPS & LOCATIONS"
+      },
+      "vocabulary": [
+        {
+          "id": 11,
+          "kanji": "場所",
+          "hiragana": "ばしょ",
+          "romaji": "basho",
+          "meanings": {
+            "en": "place, location",
+            "id": "tempat"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "美術館",
+          "hiragana": "びじゅつかん",
+          "romaji": "bijyutsukan",
+          "meanings": {
+            "en": "art museum, art gallery",
+            "id": "gedung kesenian"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "地理",
+          "hiragana": "ちり",
+          "romaji": "chiri",
+          "meanings": {
+            "en": "geography",
+            "id": "ilmu bumi, geografi"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "駐車場",
+          "hiragana": "ちゅうしゃじょう",
+          "romaji": "chuushajyou",
+          "meanings": {
+            "en": "parking lot, parking space",
+            "id": "tempat parkir"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "動物園",
+          "hiragana": "どうぶつえん",
+          "romaji": "doubutsuen",
+          "meanings": {
+            "en": "zoo",
+            "id": "kebun binatang"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "ガソリンスタンド",
+          "hiragana": "ガソリンスタンド",
+          "romaji": "gasorin sutando",
+          "meanings": {
+            "en": "gas station, petrol station",
+            "id": "pompa bensin"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "飛行場",
+          "hiragana": "ひこうじょう",
+          "romaji": "hikoujyou",
+          "meanings": {
+            "en": "airport, airfield",
+            "id": "bandara udara, lapangan terbang"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "田舎",
+          "hiragana": "いなか",
+          "romaji": "inaka",
+          "meanings": {
+            "en": "countryside, rural area, village",
+            "id": "desa, dusun, kampung"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "海岸",
+          "hiragana": "かいがん",
+          "romaji": "kaigan",
+          "meanings": {
+            "en": "seashore, coast",
+            "id": "pantai, tepi laut"
+          }
+        },
+        {
+          "id": 20,
+          "kanji": "会場",
+          "hiragana": "かいじょう",
+          "romaji": "kaijyou",
+          "meanings": {
+            "en": "meeting place, venue, hall",
+            "id": "ruang rapat, tempat pertemuan"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "近所",
+          "hiragana": "きんじょ",
+          "romaji": "kinjyo",
+          "meanings": {
+            "en": "neighborhood, vicinity",
+            "id": "daerah sekitar"
+          }
+        },
+        {
+          "id": 22,
+          "kanji": "工場",
+          "hiragana": "こうじょう",
+          "romaji": "koujyou",
+          "meanings": {
+            "en": "factory, plant",
+            "id": "luar kota"
+          }
+        }
+      ]
+    }
+  ]
+}

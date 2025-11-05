@@ -1,0 +1,263 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "ANGKA",
+        "en": "NUMBERS"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "番号",
+          "hiragana": "ばんごう",
+          "romaji": "ban'gou",
+          "meanings": {
+            "en": "number",
+            "id": "nomor"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "零",
+          "hiragana": "れい",
+          "romaji": "rei",
+          "meanings": {
+            "en": "zero",
+            "id": "nol"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "ゼロ",
+          "hiragana": "ゼロ",
+          "romaji": "zero",
+          "meanings": {
+            "en": "zero",
+            "id": "nol"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "半",
+          "hiragana": "はん",
+          "romaji": "han",
+          "meanings": {
+            "en": "half",
+            "id": "setengah"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "一",
+          "hiragana": "いち",
+          "romaji": "ichi",
+          "meanings": {
+            "en": "one",
+            "id": "satu"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "二",
+          "hiragana": "に",
+          "romaji": "ni",
+          "meanings": {
+            "en": "two",
+            "id": "dua"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "三",
+          "hiragana": "さん",
+          "romaji": "san",
+          "meanings": {
+            "en": "three",
+            "id": "tiga"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "四",
+          "hiragana": "し、よん",
+          "romaji": "shi, yon",
+          "meanings": {
+            "en": "four",
+            "id": "empat"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "五",
+          "hiragana": "ご",
+          "romaji": "go",
+          "meanings": {
+            "en": "five",
+            "id": "lima"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "六",
+          "hiragana": "ろく",
+          "romaji": "roku",
+          "meanings": {
+            "en": "six",
+            "id": "enam"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "七",
+          "hiragana": "しち、なな",
+          "romaji": "shichi, nana",
+          "meanings": {
+            "en": "seven",
+            "id": "tujuh"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "八",
+          "hiragana": "はち",
+          "romaji": "hachi",
+          "meanings": {
+            "en": "eight",
+            "id": "delapan"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "九",
+          "hiragana": "きゅう、く",
+          "romaji": "kyuu, ku",
+          "meanings": {
+            "en": "nine",
+            "id": "sembilan"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "十",
+          "hiragana": "じゅう",
+          "romaji": "jyuu",
+          "meanings": {
+            "en": "ten",
+            "id": "sepuluh"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "百",
+          "hiragana": "ひゃく",
+          "romaji": "hyaku",
+          "meanings": {
+            "en": "hundred",
+            "id": "ratus, seratus"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "千",
+          "hiragana": "せん",
+          "romaji": "sen",
+          "meanings": {
+            "en": "thousand",
+            "id": "seribu"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "万",
+          "hiragana": "まん",
+          "romaji": "man",
+          "meanings": {
+            "en": "ten thousand",
+            "id": "sepuluh ribu"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "一つ",
+          "hiragana": "ひとつ",
+          "romaji": "hitotsu",
+          "meanings": {
+            "en": "one (counter)",
+            "id": "satu, usia 1 tahun"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "二つ",
+          "hiragana": "ふたつ",
+          "romaji": "futatsu",
+          "meanings": {
+            "en": "two (counter)",
+            "id": "dua, usia 2 tahun"
+          }
+        },
+        {
+          "id": 20,
+          "kanji": "三つ",
+          "hiragana": "みっつ",
+          "romaji": "mittsu",
+          "meanings": {
+            "en": "three (counter)",
+            "id": "tiga, usia 3 tahun"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "四つ",
+          "hiragana": "よっつ",
+          "romaji": "yottsu",
+          "meanings": {
+            "en": "four (counter)",
+            "id": "empat, usia 4 tahun"
+          }
+        },
+        {
+          "id": 22,
+          "kanji": "五つ",
+          "hiragana": "いつつ",
+          "romaji": "itsutsu",
+          "meanings": {
+            "en": "five (counter)",
+            "id": "lima, usia 5 tahun"
+          }
+        },
+        {
+          "id": 23,
+          "kanji": "六つ",
+          "hiragana": "むっつ",
+          "romaji": "muttsu",
+          "meanings": {
+            "en": "six (counter)",
+            "id": "enam, usia 6 tahun"
+          }
+        },
+        {
+          "id": 24,
+          "kanji": "七つ",
+          "hiragana": "ななつ",
+          "romaji": "nanatsu",
+          "meanings": {
+            "en": "seven (counter)",
+            "id": "tujuh, usia 7 tahun"
+          }
+        },
+        {
+          "id": 25,
+          "kanji": "八つ",
+          "hiragana": "やっつ",
+          "romaji": "yattsu",
+          "meanings": {
+            "en": "eight (counter)",
+            "id": "delapan, usia 8 tahun"
+          }
+        }
+      ]
+    }
+  ]
+}

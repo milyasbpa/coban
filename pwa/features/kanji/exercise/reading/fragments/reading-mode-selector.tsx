@@ -4,7 +4,7 @@ import { Button } from "@/pwa/core/components/button";
 import { cn } from "@/pwa/core/lib/utils";
 import { useReadingExerciseStore } from "../store";
 
-export function ModeSelector() {
+export function ReadingModeSelector() {
   const { questionState: { inputMode, isAnswered }, setInputMode } = useReadingExerciseStore();
   return (
     <div className="flex gap-2 mb-6">

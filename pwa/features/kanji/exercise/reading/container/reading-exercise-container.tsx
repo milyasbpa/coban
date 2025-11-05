@@ -7,12 +7,15 @@ import { ReadingCheckButton } from "../fragments/reading-check-button";
 import { AnswerBottomSheet } from "../fragments/answer-bottomsheet";
 import { ReadingDisplayOptionsControl } from "../fragments/reading-display-options-control";
 import { useReadingExerciseStore } from "../store";
-import { ModeSelector } from "../fragments";
+import { ReadingModeSelector } from "../fragments";
 import ReadingQuestion from "../fragments/reading-question";
 import { useInitializeReadingGames } from "../utils/initalize-reading-game";
 
 export function ReadingExerciseContainer() {
-  const { gameState: { isGameComplete }, getCurrentQuestion } = useReadingExerciseStore();
+  const {
+    gameState: { isGameComplete },
+    getCurrentQuestion,
+  } = useReadingExerciseStore();
   const currentQuestion = getCurrentQuestion();
   useInitializeReadingGames();
   if (isGameComplete) {
@@ -36,7 +39,7 @@ export function ReadingExerciseContainer() {
         {/* Question Title */}
         <ReadingQuestion />
 
-        <ModeSelector />
+        <ReadingModeSelector />
 
         {/* Answer Components */}
         <AnswerForm />

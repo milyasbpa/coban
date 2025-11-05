@@ -5,7 +5,7 @@ import {
   AnswerResult
 } from "../utils/reading-game";
 
-interface GameState {
+export interface GameState {
   questions: ReadingQuestion[];
   gameStats: ReadingGameStats;
   isGameComplete: boolean;
@@ -15,7 +15,7 @@ interface GameState {
   baseScore: number;
 }
 
-interface QuestionState {
+export interface QuestionState {
   currentQuestionIndex: number;
   inputMode: "multiple-choice" | "direct-input";
   selectedOption: string;
@@ -25,7 +25,7 @@ interface QuestionState {
   currentResult: AnswerResult | null;
 }
 
-interface ReadingExerciseState {
+export interface ReadingExerciseState {
   // Semantic State Groups
   gameState: GameState;
   questionState: QuestionState;
