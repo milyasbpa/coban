@@ -12,7 +12,9 @@ import {
   DragEndEvent,
   DragOverEvent,
   DragStartEvent,
+  DragOverlay,
   closestCenter,
+  closestCorners,
   KeyboardSensor,
   PointerSensor,
   useSensor,
@@ -68,13 +70,13 @@ export function WritingExerciseContainer() {
     setupCurrentQuestion: setupCurrentQuestionStore,
   } = useWritingExerciseStore();
 
-  // Configure @dnd-kit sensors with better mobile support
+  // Configure @dnd-kit sensors with easier drag activation
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 8, // Prevent accidental drags
-        delay: 100, // Small delay for better mobile experience
-        tolerance: 5,
+        distance: 5, // Reduced distance for easier drag
+        delay: 0, // No delay for immediate response
+        tolerance: 8, // Increased tolerance
       },
     }),
     useSensor(KeyboardSensor, {
@@ -270,7 +272,7 @@ export function WritingExerciseContainer() {
   return (
     <DndContext
       sensors={sensors}
-      collisionDetection={closestCenter}
+      collisionDetection={closestCorners}
       onDragStart={handleDragStart}
       onDragOver={handleDragOver}
       onDragEnd={handleDragEnd}

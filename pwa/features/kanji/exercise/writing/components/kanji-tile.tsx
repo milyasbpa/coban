@@ -50,14 +50,19 @@ export function KanjiTile({
       {...attributes}
       {...listeners}
       className={cn(
-        'min-w-[52px] h-12 rounded-lg border-2 flex items-center justify-center text-lg font-medium transition-all duration-200 select-none',
+        // Base styles - smaller size for better fit
+        'min-w-[40px] h-10 rounded-md border-2 flex items-center justify-center text-base font-medium transition-all duration-200 select-none',
+        // Available variant styles
         variant === 'available' && !disabled && 'border-border bg-background hover:bg-accent hover:border-accent-foreground/20 hover:scale-105 active:scale-95',
         variant === 'available' && disabled && 'border-border/30 bg-muted/50 text-muted-foreground',
-        variant === 'selected' && 'border-primary bg-primary/10 text-primary hover:bg-primary/15',
+        // Selected variant styles - slightly larger
+        variant === 'selected' && 'min-w-[44px] h-11 border-primary bg-primary/10 text-primary hover:bg-primary/15',
+        // State styles
         disabled && 'opacity-30 cursor-not-allowed',
         isDragging && 'opacity-50 scale-95 rotate-2 shadow-lg',
         draggable && !disabled && 'cursor-grab active:cursor-grabbing touch-none hover:shadow-md',
-        id === 'drag-overlay' && 'shadow-2xl border-primary bg-primary/25 scale-110 rotate-3 ring-2 ring-primary/30'
+        // Drag overlay special styles
+        id === 'drag-overlay' && 'shadow-2xl border-primary bg-primary/25 scale-110 rotate-3 ring-2 ring-primary/30 min-w-[44px] h-11'
       )}
     >
       {kanji}

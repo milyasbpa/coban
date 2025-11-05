@@ -22,7 +22,7 @@ export function KanjiSelectionGrid({
       <p className="text-sm text-muted-foreground font-medium">
         Select or drag kanji to assemble the word:
       </p>
-      <div className="grid grid-cols-4 gap-4 p-2 rounded-lg bg-muted/10">
+      <div className="grid grid-cols-5 gap-2.5 p-2 rounded-lg bg-muted/10 sm:grid-cols-6 md:grid-cols-8">
         {shuffledKanji.map((kanji, index) => {
           const isUsed = usedKanji.includes(kanji);
           return (
