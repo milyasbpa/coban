@@ -103,10 +103,8 @@ export function GameGrid() {
 
   // Store - get all game grid state from store
   const {
-    gameStats,
     sectionState: { gameWords },
     sectionState: { selectedCards, matchedPairs, errorCards },
-    updateStats,
     addWordError,
     setSelectedCards,
     setMatchedPairs,
@@ -172,9 +170,16 @@ export function GameGrid() {
           matchingWord = kanjiCard; // Both reference the same PairingWord
         } else {
           // Additional validation - check if kanji card's meaning matches meaning card's content
-          const kanjiMeaning = getMeaning(kanjiCard, language as SupportedLanguage);
-          const meaningCardId = getCardId("meaning", meaningCard, language as SupportedLanguage);
-          
+          const kanjiMeaning = getMeaning(
+            kanjiCard,
+            language as SupportedLanguage
+          );
+          const meaningCardId = getCardId(
+            "meaning",
+            meaningCard,
+            language as SupportedLanguage
+          );
+
           if (kanjiMeaning === meaningCardId) {
             matchingWord = kanjiCard;
           }

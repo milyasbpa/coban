@@ -8,29 +8,18 @@ import {
   GameStats,
   GameState,
   SectionState,
-  RetryState,
   PairingWord,
   SelectedCard,
   RetryResults,
   GameInitializationParams,
 } from "../types";
-import {
-  ScoreCalculatorService,
-  GameDataService,
-  WordErrorService,
-} from "../services";
+import { GameDataService, WordErrorService } from "../services";
 
 interface PairingGameState {
-  // Legacy Core State (for backward compatibility during transition)
-  gameStats: GameStats;
-
   // Semantic State Groups
   gameState: GameState;
   sectionState: SectionState;
-  retryState: RetryState;
 
-  // Actions
-  updateStats: (stats: Partial<GameStats>) => void;
   setGameComplete: (complete: boolean) => void;
   resetGame: (totalWords: number) => void;
   calculateAndSetScore: () => void;
@@ -70,9 +59,6 @@ interface PairingGameState {
 }
 
 export const usePairingGameStore = create<PairingGameState>((set, get) => ({
-  // Legacy State (empty for backward compatibility)
-  gameStats: {},
-
   // Semantic State Groups
   gameState: {
     allGameWords: [],
@@ -106,16 +92,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       },
     })),
 
-  updateStats: (updates: Partial<GameStats>) =>
-    set((state) => {
-      const newStats = {
-        ...state.gameStats,
-        ...updates,
-      };
-      return { gameStats: newStats };
-    }),
-
-  setGameComplete: (complete: boolean) => 
+  setGameComplete: (complete: boolean) =>
     set((state) => ({
       gameState: {
         ...state.gameState,
@@ -125,7 +102,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   resetGame: (totalWords: number) =>
     set({
-      gameStats: {},
       gameState: {
         allGameWords: [],
         isRetryMode: false,
@@ -143,7 +119,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         errorCards: new Set<string>(),
         errorWords: new Set<string>(),
       },
-      retryState: {},
     }),
 
   calculateAndSetScore: () => {
@@ -180,7 +155,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   addWordError: (kanjiWord: string) => {
-    const { sectionState: { errorWords }, gameState } = get();
+    const {
+      sectionState: { errorWords },
+      gameState,
+    } = get();
     const { newErrorSet, isFirstError } = WordErrorService.addWordError(
       errorWords,
       kanjiWord
@@ -242,7 +220,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   removeWordError: (kanjiWord: string) => {
-    const { sectionState: { errorWords }, gameState } = get();
+    const {
+      sectionState: { errorWords },
+      gameState,
+    } = get();
 
     // Jika sectionState.errorWords kosong (tidak ada error di sesi saat ini),
     // maka remove dari gameState.errorWords
@@ -304,8 +285,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   moveToNextSection: () => {
     const {
       sectionState: { currentSectionIndex, allSections },
-      updateStats,
-      gameStats,
       loadSection,
     } = get();
 
@@ -326,7 +305,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     }
   },
 
-  resetSectionIndex: () => 
+  resetSectionIndex: () =>
     set((state) => ({
       sectionState: {
         ...state.sectionState,
@@ -423,8 +402,11 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         ...state.sectionState,
         errorCards: errors,
       },
-    })),  checkSectionComplete: () => {
-    const { sectionState: { matchedPairs, gameWords } } = get();
+    })),
+  checkSectionComplete: () => {
+    const {
+      sectionState: { matchedPairs, gameWords },
+    } = get();
     return GameDataService.isSectionComplete(
       matchedPairs.size,
       gameWords.length
@@ -433,13 +415,18 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   // Retry System Implementation
   canRetry: () => {
-    const { gameState: { errorWords }, sectionState: { errorWords: sectionErrorWords } } = get();
+    const {
+      gameState: { errorWords },
+      sectionState: { errorWords: sectionErrorWords },
+    } = get();
     const allWrongWords = new Set([...errorWords, ...sectionErrorWords]);
     return allWrongWords.size > 0; // Can retry if there are any wrong words globally
   },
 
   startRetryMode: () => {
-    const { sectionState: { errorWords: sectionErrorWords } } = get();
+    const {
+      sectionState: { errorWords: sectionErrorWords },
+    } = get();
 
     // Merge current section wrong words to global tracking
     set((state) => {
@@ -460,7 +447,9 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   generateRetrySession: () => {
-    const { gameState: { errorWords, allGameWords, score } } = get();
+    const {
+      gameState: { errorWords, allGameWords, score },
+    } = get();
     const wrongWords = Array.from(errorWords);
 
     // Generate retry words using service
@@ -485,7 +474,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   finishRetryMode: (retryResults: RetryResults) => {
-    const { gameState, sectionState: { errorWords: sectionErrorWords } } = get();
+    const {
+      gameState,
+      sectionState: { errorWords: sectionErrorWords },
+    } = get();
 
     // Merge current section wrong words to global (for next potential retry)
     const updatedGlobalErrorWords = new Set([

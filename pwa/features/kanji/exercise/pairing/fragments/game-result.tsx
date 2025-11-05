@@ -29,7 +29,6 @@ export function GameResult() {
   }, [selectedKanjiParam]);
 
   const {
-    gameStats,
     canRetry,
     startRetryMode,
     generateRetrySession,
