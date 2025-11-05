@@ -14,15 +14,12 @@ import {
 } from "@/pwa/features/kanji/shared/utils/language-helpers";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
-import { useSearchParams } from "next/navigation";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function GameGrid() {
   const { language } = useLanguage();
-  const searchParams = useSearchParams();
   const {
-    updateExerciseScore,
     updateKanjiMastery,
     initializeUser,
     currentUserScore,
@@ -273,7 +270,7 @@ export function GameGrid() {
               isSelected={selectedCards.some(
                 (c: SelectedCard) => c.id === gameWord.kanji
               )}
-              isMatched={matchedPairs.has(gameWord.kanji)}
+              isMatched={matchedPairs.has(gameWord.id)}
               isError={errorCards.has(gameWord.kanji)}
               onClick={() => {
                 handleCardClick("kanji", gameWord);
@@ -295,7 +292,7 @@ export function GameGrid() {
             isSelected={selectedCards.some(
               (c: SelectedCard) => c.id === meaning
             )}
-            isMatched={matchedPairs.has(meaning)}
+            isMatched={matchedPairs.has(word.id)}
             isError={errorCards.has(meaning)}
             onClick={() => handleCardClick("meaning", word)}
           />
