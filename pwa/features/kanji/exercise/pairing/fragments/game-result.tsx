@@ -33,9 +33,8 @@ export function GameResult() {
     canRetry,
     startRetryMode,
     generateRetrySession,
-    globalWordsWithErrors,
+    retryState: { globalWordsWithErrors, isRetryMode },
     wordsWithErrors,
-    isRetryMode,
     initializeGame,
   } = usePairingGameStore();
   const { score, correctPairs, totalWords, wrongAttempts } = gameStats;

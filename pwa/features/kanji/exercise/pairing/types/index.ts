@@ -15,9 +15,29 @@ export interface GameStats {
   correctPairs: number;
   wrongAttempts: number;
   uniqueWrongWords: number; // Track unique words yang pernah salah untuk penalty
-  currentSection: number;
-  totalSections: number;
   score: number;
+}
+
+export interface SectionState {
+  currentSectionIndex: number;
+  totalSections: number;
+  currentSection: number; // Display section number (1-based)
+  allSections: PairingWord[][];
+}
+
+export interface RetryState {
+  isRetryMode: boolean;
+  originalTotalWords: number; // Store original total words for penalty calculation
+  allGameWords: PairingWord[]; // Store all words for decoy selection
+  globalWordsWithErrors: Set<string>; // ALL words yang pernah salah sejak awal (accumulative)
+  currentBaseScore: number; // Current base score untuk retry berikutnya
+}
+
+export interface GameGridState {
+  gameWords: PairingWord[];
+  selectedCards: SelectedCard[];
+  matchedPairs: Set<string>;
+  errorCards: Set<string>;
 }
 
 export interface SelectedCard extends PairingWord {
