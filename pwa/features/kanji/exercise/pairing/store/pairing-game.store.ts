@@ -192,11 +192,14 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   },
 
   addWordError: (kanjiWord: string) => {
-    const { wordsWithErrors } = get();
+    const { wordsWithErrors, globalWordsWithErrors } = get();
     const { newErrorSet, isFirstError } = WordErrorService.addWordError(
       wordsWithErrors,
       kanjiWord
     );
+    // New
+    // const isKanjiHasError =
+    //   wordsWithErrors.has(kanjiWord) || globalWordsWithErrors.has(kanjiWord);
 
     // Only penalize score on first error for this specific kanji word
     if (isFirstError) {
@@ -255,10 +258,11 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       const wasInGlobal = globalWordsWithErrors.has(kanjiWord);
       if (wasInGlobal) {
         set((state) => {
-          const { newErrorSet: newGlobalWordsWithErrors } = WordErrorService.removeWordError(
-            state.globalWordsWithErrors,
-            kanjiWord
-          );
+          const { newErrorSet: newGlobalWordsWithErrors } =
+            WordErrorService.removeWordError(
+              state.globalWordsWithErrors,
+              kanjiWord
+            );
 
           // Recalculate score based on reduced penalty
           let newScore;
@@ -405,7 +409,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   checkSectionComplete: () => {
     const { matchedPairs, gameWords } = get();
-    return GameDataService.isSectionComplete(matchedPairs.size, gameWords.length);
+    return GameDataService.isSectionComplete(
+      matchedPairs.size,
+      gameWords.length
+    );
   },
 
   // Retry System Implementation
@@ -441,7 +448,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     const wrongWords = Array.from(globalWordsWithErrors);
 
     // Generate retry words using service
-    const retryWords = GameDataService.generateRetryWords(allGameWords, wrongWords);
+    const retryWords = GameDataService.generateRetryWords(
+      allGameWords,
+      wrongWords
+    );
     set({
       gameWords: retryWords,
       selectedCards: [],

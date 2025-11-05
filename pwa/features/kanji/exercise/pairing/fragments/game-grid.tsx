@@ -5,18 +5,12 @@ import { PairingCard } from "../components/pairing-card";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { shuffleArray } from "../utils";
-import { PairingWord } from "../types";
+import { PairingWord, SelectedCard } from "../types";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { useSearchParams } from "next/navigation";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
-
-interface SelectedCard {
-  id: string;
-  type: "kanji" | "meaning";
-  content: string;
-}
 
 export function GameGrid() {
   const { isIndonesian } = useLanguage();
@@ -116,26 +110,48 @@ export function GameGrid() {
     removeWordError,
     isRetryMode,
     globalWordsWithErrors,
+    wordsWithErrors,
     finishRetryMode,
     moveToNextSection,
     calculateAndSetScore,
     setGameComplete,
   } = usePairingGameStore();
 
-  // Create shuffled meanings based on current language
-  const shuffledMeanings = useMemo(() => {
-    const meanings = gameWords.map((w: PairingWord) =>
-      isIndonesian ? w.meaning_id : w.meaning_en
-    );
-    const shuffled = shuffleArray(meanings);
+  console.log(globalWordsWithErrors, wordsWithErrors, "errors: global and words");
+
+  // Helper function to get card ID based on type and pairingWord
+  const getCardId = (type: "kanji" | "meaning", pairingWord: PairingWord): string => {
+    return type === "kanji" 
+      ? pairingWord.kanji 
+      : (isIndonesian ? pairingWord.meaning_id : pairingWord.meaning_en);
+  };
+
+  // Create shuffled meanings with mapping to PairingWord
+  const shuffledMeaningsData = useMemo(() => {
+    const meaningsWithWords = gameWords.map((w: PairingWord) => ({
+      meaning: isIndonesian ? w.meaning_id : w.meaning_en,
+      word: w,
+    }));
+    const shuffled = shuffleArray(meaningsWithWords);
     return shuffled;
   }, [gameWords, isIndonesian]);
 
-  const handleCardClick = (id: string, type: "kanji" | "meaning") => {
+  const handleCardClick = (
+    type: "kanji" | "meaning", 
+    pairingWord: PairingWord
+  ) => {
+    // Get card ID using helper function
+    const id = getCardId(type, pairingWord);
+    
     if (matchedPairs.has(id) || errorCards.has(id)) return;
 
-    const content = type === "kanji" ? id : id; // We'll use the meaning directly as id
-    const newCard: SelectedCard = { id, type, content };
+    const content = id;
+    const newCard: SelectedCard = { 
+      id, 
+      type, 
+      content,
+      pairingWord // Store reference to the full PairingWord data
+    };
 
     if (selectedCards.length === 0) {
       setSelectedCards([newCard]);
@@ -147,10 +163,27 @@ export function GameGrid() {
         const kanjiCard = firstCard.type === "kanji" ? firstCard : newCard;
         const meaningCard = firstCard.type === "meaning" ? firstCard : newCard;
 
-        const matchingWord = gameWords.find((w: any) => {
-          const meaningToMatch = isIndonesian ? w.meaning_id : w.meaning_en;
-          return w.kanji === kanjiCard.id && meaningToMatch === meaningCard.id;
-        });
+        // Direct matching using pairingWord references
+        let matchingWord: PairingWord | undefined;
+        
+        // Since both cards now have pairingWord, we can do direct comparison
+        if (kanjiCard.pairingWord && meaningCard.pairingWord) {
+          // Check if both cards reference the same PairingWord
+          matchingWord = kanjiCard.pairingWord.id === meaningCard.pairingWord.id 
+            ? kanjiCard.pairingWord 
+            : undefined;
+        } else {
+          // One of the cards doesn't have pairingWord, check by content
+          const kanjiCardWord = kanjiCard.pairingWord;
+          const meaningCardWord = meaningCard.pairingWord;
+          
+          if (kanjiCardWord) {
+            const meaningToMatch = isIndonesian ? kanjiCardWord.meaning_id : kanjiCardWord.meaning_en;
+            matchingWord = meaningToMatch === meaningCard.id ? kanjiCardWord : undefined;
+          } else if (meaningCardWord) {
+            matchingWord = meaningCardWord.kanji === kanjiCard.id ? meaningCardWord : undefined;
+          }
+        }
 
         if (matchingWord) {
           // Correct match
@@ -167,7 +200,7 @@ export function GameGrid() {
           setSelectedCards([]);
           removeWordError(kanjiCard.id);
 
-          // ✅ REAL-TIME Per-Word Score Integration
+          // REAL-TIME Per-Word Score Integration
           integrateWordScore(matchingWord, true);
 
           // Check if section is complete - emit event for parent to handle
@@ -205,10 +238,10 @@ export function GameGrid() {
           // Update wrong attempts count (selalu bertambah untuk tracking)
           updateStats({ wrongAttempts: gameStats.wrongAttempts + 1 });
 
-          // ✅ REAL-TIME Per-Word Score Integration for Wrong Match
-          const wrongWord = gameWords.find((w) => w.kanji === kanjiCard.id);
-          if (wrongWord) {
-            integrateWordScore(wrongWord, false);
+          // REAL-TIME Per-Word Score Integration for Wrong Match
+          // Use direct reference from kanjiCard (since we always have pairingWord now)
+          if (kanjiCard.pairingWord) {
+            integrateWordScore(kanjiCard.pairingWord, false);
           }
 
           // Clear error state after animation
@@ -245,7 +278,7 @@ export function GameGrid() {
               isMatched={matchedPairs.has(gameWord.kanji)}
               isError={errorCards.has(gameWord.kanji)}
               onClick={() => {
-                handleCardClick(gameWord.kanji, "kanji");
+                handleCardClick("kanji", gameWord);
                 playAudio(gameWord.furigana);
               }}
             />
@@ -255,7 +288,7 @@ export function GameGrid() {
 
       {/* Right Column - Meanings */}
       <div className="space-y-3">
-        {shuffledMeanings.map((meaning: string) => (
+        {shuffledMeaningsData.map(({ meaning, word }) => (
           <PairingCard
             key={`meaning-${meaning}-${isIndonesian ? "id" : "en"}`}
             id={meaning}
@@ -266,7 +299,7 @@ export function GameGrid() {
             )}
             isMatched={matchedPairs.has(meaning)}
             isError={errorCards.has(meaning)}
-            onClick={() => handleCardClick(meaning, "meaning")}
+            onClick={() => handleCardClick("meaning", word)}
           />
         ))}
       </div>

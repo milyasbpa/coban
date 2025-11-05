@@ -22,6 +22,7 @@ export interface SelectedCard {
   id: string;
   type: "kanji" | "meaning";
   content: string;
+  pairingWord?: PairingWord; // Optional reference to full PairingWord data
 }
 
 export interface GameSection {
