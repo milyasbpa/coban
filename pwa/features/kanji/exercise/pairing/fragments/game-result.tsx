@@ -33,27 +33,20 @@ export function GameResult() {
     canRetry,
     startRetryMode,
     generateRetrySession,
-    gameState: { isRetryMode, score },
-    retryState: { globalWordsWithErrors },
-    wordsWithErrors,
+    gameState: { isRetryMode, score, errorWords: globalErrorWords },
+    sectionState: { errorWords: sectionErrorWords },
     initializeGame,
-    getSectionTotalWords,
   } = usePairingGameStore();
-  const { correctPairs, wrongAttempts } = gameStats;
-  const totalWords = getSectionTotalWords();
 
   const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false);
 
-  const accuracy = Math.round(
-    (correctPairs / (correctPairs + wrongAttempts)) * 100
-  );
   const scoreColors = getScoreColor(score);
 
   // Perfect score (100%) triggers confetti
-  const isPerfectScore = accuracy === 100 && wrongAttempts === 0;
+  const isPerfectScore = score === 100;
   const canShowRetry = canRetry() && !isRetryMode;
-  const allWrongWords = new Set([...globalWordsWithErrors, ...wordsWithErrors]);
+  const allWrongWords = new Set([...globalErrorWords, ...sectionErrorWords]);
   const wrongWordsCount = allWrongWords.size;
 
   const handleRetry = () => {
@@ -134,34 +127,6 @@ export function GameResult() {
             </div>
             <div className={`text-sm ${scoreColors.textSecondary}`}>
               Final Score
-            </div>
-          </div>
-
-          {/* Statistics */}
-          <div className="space-y-4">
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Correct Pairs:</span>
-              <span className="font-semibold text-foreground">
-                {correctPairs}
-              </span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Total Words:</span>
-              <span className="font-semibold text-foreground">
-                {totalWords}
-              </span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Wrong Attempts:</span>
-              <span className="font-semibold text-foreground">
-                {wrongAttempts}
-              </span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">Accuracy:</span>
-              <span className={`font-semibold ${scoreColors.text}`}>
-                {accuracy}%
-              </span>
             </div>
           </div>
 

@@ -6,11 +6,9 @@ import { getScoreTextColor } from "../utils/score-colors";
 
 export function ScoreHeader() {
   const {
-    gameStats,
-    gameState: { score },
+    gameState: { score, correctPairs },
     getSectionTotalWords
   } = usePairingGameStore();
-  const { correctPairs } = gameStats;
   const totalWords = getSectionTotalWords();  const scoreTextColor = getScoreTextColor(score);
 
   return (

@@ -11,15 +11,17 @@ export interface PairingWord {
 }
 
 export interface GameStats {
-  correctPairs: number;
-  wrongAttempts: number;
-  uniqueWrongWords: number; // Track unique words yang pernah salah untuk penalty
+  // Empty interface - all fields moved to semantic locations
+  // Keep for backward compatibility during transition
 }
 
 export interface GameState {
   allGameWords: PairingWord[]; // Global master data - all words for the entire game
   isRetryMode: boolean; // Global retry mode state
   score: number; // Global computed score
+  isComplete: boolean; // Global game completion state
+  correctPairs: number; // Global correct pairs count
+  errorWords: Set<string>; // Global error words for penalty calculation
 }
 
 export interface SectionState {
@@ -29,10 +31,12 @@ export interface SectionState {
   selectedCards: SelectedCard[]; // Current section UI interaction state
   matchedPairs: Set<string>; // Current section matched pairs
   errorCards: Set<string>; // Current section error cards
+  errorWords: Set<string>; // Current section error words
 }
 
 export interface RetryState {
-  globalWordsWithErrors: Set<string>; // ALL words yang pernah salah sejak awal (accumulative)
+  // Empty interface - globalWordsWithErrors moved to gameState.errorWords
+  // Keep for backward compatibility during transition
 }
 
 export interface SelectedCard extends PairingWord {

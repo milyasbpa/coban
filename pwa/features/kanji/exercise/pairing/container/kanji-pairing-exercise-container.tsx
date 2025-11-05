@@ -12,7 +12,7 @@ export function KanjiPairingExerciseContainer() {
   useInitializePairingGame();
 
   // Store
-  const { isGameComplete, gameState: { isRetryMode } } = usePairingGameStore();
+  const { gameState: { isComplete: isGameComplete, isRetryMode } } = usePairingGameStore();
 
   // Show GameResult only if game is complete AND not in active retry mode
   if (isGameComplete && !isRetryMode) {

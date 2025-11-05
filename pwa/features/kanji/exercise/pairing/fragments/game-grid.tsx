@@ -112,19 +112,19 @@ export function GameGrid() {
     setMatchedPairs,
     setErrorCards,
     removeWordError,
-    gameState: { isRetryMode },
-    retryState: { globalWordsWithErrors },
-    wordsWithErrors,
+    gameState: { isRetryMode, errorWords: globalErrorWords },
+    sectionState: { errorWords: sectionErrorWords },
     finishRetryMode,
     moveToNextSection,
     calculateAndSetScore,
     setGameComplete,
+    incrementCorrectPairs,
   } = usePairingGameStore();
 
   console.log(
-    globalWordsWithErrors,
-    wordsWithErrors,
-    "errors: global and words"
+    globalErrorWords,
+    sectionErrorWords,
+    "errors: global and section"
   );
 
   // Helper function moved to language-helpers.ts for better reusability
@@ -191,7 +191,7 @@ export function GameGrid() {
           console.log(newMatchedPairs, "ini new matched pairs");
 
           setMatchedPairs(newMatchedPairs);
-          updateStats({ correctPairs: gameStats.correctPairs + 1 });
+          incrementCorrectPairs();
           setSelectedCards([]);
           removeWordError(kanjiCard.id);
 
@@ -204,7 +204,7 @@ export function GameGrid() {
               if (isRetryMode) {
                 // Calculate retry results
                 const correctOriginalWords = Array.from(newMatchedPairs).filter(
-                  (cardId) => globalWordsWithErrors.has(cardId)
+                  (cardId) => globalErrorWords.has(cardId)
                 ).length;
 
                 finishRetryMode({ correctCount: correctOriginalWords });
@@ -231,7 +231,7 @@ export function GameGrid() {
           addWordError(kanjiCard.id);
 
           // Update wrong attempts count (selalu bertambah untuk tracking)
-          updateStats({ wrongAttempts: gameStats.wrongAttempts + 1 });
+          // Remove wrongAttempts tracking as per architecture optimization
 
           // REAL-TIME Per-Word Score Integration for Wrong Match
           // Use kanjiCard directly since it now extends PairingWord
