@@ -34,7 +34,7 @@ interface PairingGameState {
   // Actions
   updateStats: (stats: Partial<GameStats>) => void;
   setGameComplete: (complete: boolean) => void;
-  resetGame: (totalWords: number, totalSections: number) => void;
+  resetGame: (totalWords: number) => void;
   calculateAndSetScore: () => void;
   addWordError: (word: string) => boolean;
   removeWordError: (word: string) => boolean;
@@ -79,8 +79,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   // Grouped State Objects  
   sectionState: {
     currentSectionIndex: 0,
-    totalSections: 1,
-    currentSection: 1,
     allSections: [],
   },
 
@@ -120,7 +118,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   setGameComplete: (complete) => set({ isGameComplete: complete }),
 
-  resetGame: (totalWords, totalSections) =>
+  resetGame: (totalWords) =>
     set({
       gameStats: {
         totalWords,
@@ -133,8 +131,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       wordsWithErrors: new Set(),
       sectionState: {
         currentSectionIndex: 0,
-        totalSections,
-        currentSection: 1,
         allSections: [],
       },
       retryState: {
@@ -337,7 +333,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         sectionState: {
           ...state.sectionState,
           currentSectionIndex: nextIndex,
-          currentSection: state.sectionState.currentSection + 1,
         },
       }));
       loadSection(allSections[nextIndex]);
@@ -385,7 +380,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       loadSection,
     } = get();
 
-    resetGame(gameData.totalWords, sections.length);
+    resetGame(gameData.totalWords);
     setAllSections(sections);
 
     // Store shuffled words for retry system

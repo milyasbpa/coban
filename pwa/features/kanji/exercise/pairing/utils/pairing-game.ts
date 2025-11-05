@@ -82,7 +82,6 @@ export const getPairingGameData = (
     words,
     sections,
     totalWords: words.length,
-    totalSections: sections.length,
   };
 };
 

@@ -20,8 +20,6 @@ export interface GameStats {
 
 export interface SectionState {
   currentSectionIndex: number;
-  totalSections: number;
-  currentSection: number; // Display section number (1-based)
   allSections: PairingWord[][];
 }
 
