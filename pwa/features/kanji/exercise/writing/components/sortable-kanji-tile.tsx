@@ -38,7 +38,7 @@ export function SortableKanjiTile({
         kanji={kanji}
         onClick={onRemove}
         variant="selected"
-        draggable={!showAnswer}
+        draggable={false} // Disable draggable on inner component to avoid conflict
         index={index}
       />
     </div>

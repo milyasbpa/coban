@@ -45,10 +45,12 @@ export function AssemblyArea() {
   };
 
   const handleKanjiClick = (kanji: string) => {
+    console.log(kanji, "ini kanji");
     addKanji(kanji);
     addUsedKanji(kanji);
   };
-  console.log(isOver, "ini is over", "kanji count:", selectedKanji.length);
+
+  console.log(selectedKanji, "ini selected kanji");
 
   return (
     <div className="space-y-6 w-full max-w-md mx-auto">
@@ -79,7 +81,7 @@ export function AssemblyArea() {
           className={`transition-all duration-300 ease-in-out border-2 border-dashed rounded-lg flex items-start gap-1 flex-wrap relative ${
             isOver
               ? "min-h-[100px] p-4 border-primary bg-red-200/50 shadow-lg border-solid ring-2 ring-primary/30"
-              : "min-h-[60px] p-4 border-muted-foreground/30 bg-blue-100/30 hover:border-muted-foreground/50 hover:bg-muted/30"
+              : "min-h-[60px] p-4 border-muted-foreground/30 bg-muted-100/30 hover:border-muted-foreground/50 hover:bg-muted/30"
           }`}
         >
           {selectedKanji.length === 0 ? (

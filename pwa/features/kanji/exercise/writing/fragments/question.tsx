@@ -12,7 +12,7 @@ export function Question() {
   const { reading } = currentQuestion;
 
   return (
-    <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
+    <div className="flex items-start gap-3 p-4 bg-muted/50 rounded-lg">
       <Button
         variant="outline"
         size="sm"
