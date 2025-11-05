@@ -12,7 +12,7 @@ import ReadingQuestion from "../fragments/reading-question";
 import { useInitializeReadingGames } from "../utils/initalize-reading-game";
 
 export function ReadingExerciseContainer() {
-  const { isGameComplete, getCurrentQuestion } = useReadingExerciseStore();
+  const { gameState: { isGameComplete }, getCurrentQuestion } = useReadingExerciseStore();
   const currentQuestion = getCurrentQuestion();
   useInitializeReadingGames();
   if (isGameComplete) {

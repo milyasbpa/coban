@@ -16,13 +16,9 @@ import type { QuestionResult } from "@/pwa/features/score/model/score";
 
 export function AnswerBottomSheet() {
   const {
-    showBottomSheet,
-    currentResult,
+    questionState: { showBottomSheet, currentResult },
+    gameState: { gameStats, questions, isRetryMode, wrongQuestions },
     handleNextQuestion,
-    gameStats,
-    questions,
-    isRetryMode,
-    wrongQuestions,
   } = useReadingExerciseStore();
 
   const searchParams = useSearchParams();

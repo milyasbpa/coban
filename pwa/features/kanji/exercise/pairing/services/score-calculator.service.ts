@@ -1,5 +1,3 @@
-import { GameStats } from "../types";
-
 /**
  * Score Calculator Service
  * Handles all score calculation logic

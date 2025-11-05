@@ -6,10 +6,7 @@ import { useReadingExerciseStore } from "../store";
 export function AnswerForm() {
   // Get answer input related state from store (no props needed)
   const {
-    inputMode,
-    selectedOption,
-    directInput,
-    isAnswered,
+    questionState: { inputMode, selectedOption, directInput, isAnswered },
     getCurrentQuestion,
     setSelectedOption,
     setDirectInput,

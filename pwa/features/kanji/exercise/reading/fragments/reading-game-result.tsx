@@ -39,11 +39,10 @@ export function ReadingGameResult() {
   
   // Get data from store instead of props
   const { 
-    gameStats, 
+    gameState: { gameStats, isRetryMode },
     restartGame, 
     canRetry, 
     startRetryMode,
-    isRetryMode,
     getWrongQuestions
   } = useReadingExerciseStore();
   

@@ -6,11 +6,8 @@ import { checkAnswer } from "../utils/reading-game";
 
 export function ReadingCheckButton() {
   const {
-    inputMode,
-    selectedOption,
-    directInput,
-    isAnswered,
-    gameStats,
+    questionState: { inputMode, selectedOption, directInput, isAnswered },
+    gameState: { gameStats },
     getCurrentQuestion,
     getCanCheck,
     setCurrentResult,
