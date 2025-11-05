@@ -7,11 +7,15 @@ import { Badge } from "@/pwa/core/components/badge";
 import { Settings, Eye, EyeOff } from "lucide-react";
 import { usePairingDisplayOptions } from "../store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { isIndonesianLanguage } from "../../../shared/utils/language-helpers";
 import { cn } from "@/pwa/core/lib/utils";
 
 export function PairingDisplayOptionsControl() {
   const [isOpen, setIsOpen] = useState(false);
-  const { isIndonesian } = useLanguage();
+  const { language } = useLanguage();
+  
+  // Helper function to determine if current language is Indonesian
+  const isIndonesian = isIndonesianLanguage(language);
   const {
     displayFurigana,
     displayRomanji,

@@ -7,6 +7,7 @@ import { Volume2 } from "lucide-react";
 import { KanjiDetail } from "../utils/kanji";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useKanjiSelection } from "../store/kanji-selection.store";
+import { getMeaning, getLocalizedText, SupportedLanguage } from "../../shared/utils/language-helpers";
 import { useDisplayOptions } from "../store/display-options.store";
 import { cn } from "@/pwa/core/lib/utils";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
@@ -17,7 +18,7 @@ interface KanjiCardProps {
 }
 
 export function KanjiCard({ kanji, index }: KanjiCardProps) {
-  const { isIndonesian } = useLanguage();
+  const { language } = useLanguage();
   const { isSelectionMode, selectedKanjiIds, toggleKanjiSelection } =
     useKanjiSelection();
   const { displayOptions } = useDisplayOptions();
@@ -29,7 +30,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
     }
   };
 
-  const kanjiMeaning = isIndonesian ? kanji.meanings.id : kanji.meanings.en;
+  const kanjiMeaning = getMeaning(kanji, language as SupportedLanguage);
 
   return (
     <Card
@@ -145,7 +146,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
               : "bg-primary text-primary-foreground"
           )}
         >
-          {isIndonesian ? "Kata" : "Words"}
+          {getLocalizedText(language as SupportedLanguage, "Kata", "Words")}
         </Badge>
         <div className="flex-1 h-px bg-border/20"></div>
       </div>
@@ -183,7 +184,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
                 <div className="flex items-baseline gap-2 min-w-0">
                   <span className="text-muted-foreground shrink-0">:</span>
                   <span className="text-muted-foreground truncate">
-                    {isIndonesian ? example.meanings.id : example.meanings.en}
+                    {getMeaning(example, language as SupportedLanguage)}
                   </span>
                 </div>
               )}

@@ -4,12 +4,16 @@ import { ChevronLeft, Sun, Moon, Edit3 } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { useTheme } from "@/pwa/core/lib/hooks/use-theme";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { isIndonesianLanguage } from "../../../shared/utils/language-helpers";
 import Link from "next/link";
 import ReactCountryFlag from "react-country-flag";
 
 export function PairingHeader() {
   const { isDarkMode, toggleTheme } = useTheme();
-  const { isIndonesian, toggleLanguage } = useLanguage();
+  const { language, toggleLanguage } = useLanguage();
+  
+  // Helper function to determine if current language is Indonesian
+  const isIndonesian = isIndonesianLanguage(language);
 
   return (
     <div className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b border-border/40">
