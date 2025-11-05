@@ -45,9 +45,14 @@ export const createGameSections = (words: PairingWord[]): GameSection[] => {
   return sections;
 };
 
-// Shuffle array function - delegated to service
+// Shuffle array function
 export const shuffleArray = <T>(array: T[]): T[] => {
-  return GameDataService.shuffleArray(array);
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 };
 
 // Get pairing game data by lesson
