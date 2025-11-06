@@ -5,8 +5,7 @@ import { useRouter } from "next/navigation";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
-import { KanjiWordIdGenerator } from "@/pwa/features/score/utils/kanji-word-id-generator";
-import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
+import { KanjiService } from "@/pwa/core/services/kanji";
 import {
   DndContext,
   DragEndEvent,
@@ -125,18 +124,14 @@ export function WritingExerciseContainer() {
           (question, index) => {
             const isCorrect = index < score; // Simple estimation based on score
 
-            // Get accurate kanji information using mapper
-            const kanjiInfo = KanjiWordMapper.getKanjiInfo(
+            // Get accurate kanji information using KanjiService
+            const kanjiInfo = KanjiService.getKanjiInfoForScoring(
               question.word,
               level
             );
 
-            // Generate word ID for this word
-            const wordId = KanjiWordIdGenerator.generateWordId(
-              question.word,
-              kanjiInfo.kanjiId,
-              index
-            );
+            // Generate simple word ID
+            const wordId = `${question.word}_${kanjiInfo.kanjiId}_${index}`;
 
             return {
               kanjiId: kanjiInfo.kanjiId,
@@ -163,7 +158,7 @@ export function WritingExerciseContainer() {
           // Get accurate total words for this kanji
           const firstWord = results[0]?.word;
           const totalWordsInKanji = firstWord
-            ? KanjiWordMapper.getTotalWordsForKanji(firstWord, level)
+            ? KanjiService.getTotalWordsForKanji(firstWord, level)
             : 1;
 
           // Update kanji mastery

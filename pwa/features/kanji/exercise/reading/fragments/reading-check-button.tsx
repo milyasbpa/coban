@@ -6,8 +6,7 @@ import { useReadingExerciseStore } from "../store";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useExerciseSearchParams } from "../../utils/hooks";
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
-import { KanjiWordIdGenerator } from "@/pwa/features/score/utils/kanji-word-id-generator";
-import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
+import { KanjiService } from "@/pwa/core/services/kanji";
 
 export function ReadingCheckButton() {
   const {
@@ -48,14 +47,10 @@ export function ReadingCheckButton() {
       const kanjiCharacter = question.question.word.charAt(0);
 
       // Get accurate kanji information using the extracted kanji character
-      const kanjiInfo = KanjiWordMapper.getKanjiInfo(kanjiCharacter, level);
+      const kanjiInfo = KanjiService.getKanjiInfoForScoring(kanjiCharacter, level);
 
-      // Generate unique word ID based on actual question content
-      const wordId = KanjiWordIdGenerator.generateWordId(
-        question.question.word,
-        kanjiInfo.kanjiId,
-        getCurrentQuestionNumber() - 1
-      );
+      // Generate simple word ID
+      const wordId = `${question.question.word}_${kanjiInfo.kanjiId}_${getCurrentQuestionNumber() - 1}`;
 
       const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,

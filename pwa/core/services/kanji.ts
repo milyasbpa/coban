@@ -183,4 +183,67 @@ export class KanjiService {
     
     return null;
   }
+
+  /**
+   * Get kanji info for scoring system
+   * Replaces KanjiWordMapper.getKanjiInfo()
+   */
+  static getKanjiInfoForScoring(word: string, level: string = "N5"): {
+    kanjiId: string;
+    kanjiCharacter: string;
+    totalWords: number;
+  } {
+    const kanjiData = this.getKanjiData(level);
+    if (!kanjiData) {
+      // Fallback
+      const kanjiChar = word.match(/[\u4e00-\u9faf]/)?.[0] || word;
+      return {
+        kanjiId: kanjiChar,
+        kanjiCharacter: kanjiChar,
+        totalWords: 1,
+      };
+    }
+
+    // Direct word lookup in examples
+    for (const kanji of kanjiData.items) {
+      const wordFound = kanji.examples?.some(ex => ex.word === word);
+      if (wordFound) {
+        return {
+          kanjiId: kanji.id.toString(),
+          kanjiCharacter: kanji.character,
+          totalWords: kanji.examples?.length || 1,
+        };
+      }
+    }
+
+    // Fallback: find by kanji character in word
+    const kanjiChars = word.match(/[\u4e00-\u9faf]/g);
+    if (kanjiChars && kanjiChars.length > 0) {
+      const kanji = kanjiData.items.find(k => k.character === kanjiChars[0]);
+      if (kanji) {
+        return {
+          kanjiId: kanji.id.toString(),
+          kanjiCharacter: kanji.character,
+          totalWords: kanji.examples?.length || 1,
+        };
+      }
+    }
+
+    // Final fallback
+    const kanjiChar = word.match(/[\u4e00-\u9faf]/)?.[0] || word;
+    return {
+      kanjiId: kanjiChar,
+      kanjiCharacter: kanjiChar,
+      totalWords: 1,
+    };
+  }
+
+  /**
+   * Get total words count for a kanji (for scoring calculation)
+   * Replaces KanjiWordMapper.getTotalWordsForKanji()
+   */
+  static getTotalWordsForKanji(word: string, level: string = "N5"): number {
+    const kanjiInfo = this.getKanjiInfoForScoring(word, level);
+    return kanjiInfo.totalWords;
+  }
 }

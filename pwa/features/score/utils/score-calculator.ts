@@ -13,13 +13,9 @@ export class KanjiScoreCalculator {
   
   // ============ Core Scoring Methods ============
   
-  static calculateMaxScorePerWord(totalWordsInKanji: number): number {
-    if (totalWordsInKanji <= 0) return 0;
-    return MAX_SCORE / (totalWordsInKanji * EXERCISE_TYPES.length);
-  }
-  
   static calculateMaxScorePerExercise(totalWordsInKanji: number): number {
-    return this.calculateMaxScorePerWord(totalWordsInKanji) / EXERCISE_TYPES.length;
+    if (totalWordsInKanji <= 0) return 0;
+    return MAX_SCORE / (totalWordsInKanji * EXERCISE_TYPES.length * EXERCISE_TYPES.length);
   }
   
   /**
@@ -69,7 +65,8 @@ export class KanjiScoreCalculator {
     const overallScore = words.reduce((sum, word) => sum + word.masteryScore, 0);
     
     // Determine color code based on completion percentage
-    const colorCode = this.getColorFromScore(overallScore);
+    const percentage = (overallScore / MAX_SCORE) * 100;
+    const colorCode: ColorCode = percentage >= 90 ? "green" : percentage >= 70 ? "yellow" : percentage >= 40 ? "orange" : "red";
     
     // Find most recent activity across all words
     const lastSeen = words.length > 0 
@@ -122,7 +119,8 @@ export class KanjiScoreCalculator {
     const masteredWords = allWords.filter(word => {
       const parentKanji = Object.values(userScore.kanjiMastery).find(k => k.kanjiId === word.kanjiId);
       const totalWordsInKanji = parentKanji ? Object.values(parentKanji.words).length : 1;
-      const maxScore = this.calculateMaxScorePerWord(totalWordsInKanji);
+      const maxScorePerExercise = this.calculateMaxScorePerExercise(totalWordsInKanji);
+      const maxScore = maxScorePerExercise * EXERCISE_TYPES.length; // Total max for all exercises
       return word.masteryScore >= maxScore * 0.9; // 90% completion = mastered
     }).length;
     

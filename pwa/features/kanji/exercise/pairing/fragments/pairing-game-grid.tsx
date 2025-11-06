@@ -16,8 +16,7 @@ import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
-import { KanjiWordIdGenerator } from "@/pwa/features/score/utils/kanji-word-id-generator";
-import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
+import { KanjiService } from "@/pwa/core/services/kanji";
 
 export function PairingGameGrid() {
   const { language } = useLanguage();
@@ -67,14 +66,10 @@ export function PairingGameGrid() {
       const kanjiCharacter = word.kanji.charAt(0);
 
       // Get accurate kanji information using the extracted kanji character
-      const kanjiInfo = KanjiWordMapper.getKanjiInfo(kanjiCharacter, level);
+      const kanjiInfo = KanjiService.getKanjiInfoForScoring(kanjiCharacter, level);
 
-      // Generate unique word ID based on actual word content
-      const wordId = KanjiWordIdGenerator.generateWordId(
-        word.kanji,
-        kanjiInfo.kanjiId,
-        0
-      );
+      // Generate simple word ID
+      const wordId = `${word.kanji}_${kanjiInfo.kanjiId}_0`;
 
       const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,
