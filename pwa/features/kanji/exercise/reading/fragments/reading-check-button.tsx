@@ -3,10 +3,10 @@
 import { Button } from "@/pwa/core/components/button";
 import { useReadingExerciseStore } from "../store";
 // import { checkAnswer } from "../utils/reading-game";
-import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useExerciseSearchParams } from "../../utils/hooks";
-import type { QuestionResult } from "@/pwa/features/score/model/score";
-import { WordIdGenerator } from "@/pwa/features/score/utils/word-id-generator";
+import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
+import { KanjiWordIdGenerator } from "@/pwa/features/score/utils/kanji-word-id-generator";
 import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 
 export function ReadingCheckButton() {
@@ -27,7 +27,7 @@ export function ReadingCheckButton() {
     initializeUser,
     currentUserScore,
     isInitialized,
-  } = useScoreStore();
+  } = useKanjiScoreStore();
 
   const { level } = useExerciseSearchParams();
 
@@ -51,13 +51,13 @@ export function ReadingCheckButton() {
       const kanjiInfo = KanjiWordMapper.getKanjiInfo(kanjiCharacter, level);
 
       // Generate unique word ID based on actual question content
-      const wordId = WordIdGenerator.generateWordId(
+      const wordId = KanjiWordIdGenerator.generateWordId(
         question.question.word,
         kanjiInfo.kanjiId,
         getCurrentQuestionNumber() - 1
       );
 
-      const questionResult: QuestionResult = {
+      const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,
         kanji: kanjiCharacter,
         isCorrect,
@@ -66,8 +66,8 @@ export function ReadingCheckButton() {
         exerciseType: "reading" as const,
       };
 
-      // Update word mastery immediately (first attempt only)
-      updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [questionResult]);
+      // Update kanji mastery immediately (first attempt only)
+      updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [exerciseResult]);
     } catch (error) {
       console.error(
         "Error in first-attempt question score integration:",

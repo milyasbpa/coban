@@ -2,10 +2,10 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { useScoreStore } from "@/pwa/features/score/store/score.store";
-import type { QuestionResult } from "@/pwa/features/score/model/score";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
-import { WordIdGenerator } from "@/pwa/features/score/utils/word-id-generator";
+import { KanjiWordIdGenerator } from "@/pwa/features/score/utils/kanji-word-id-generator";
 import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 import {
   DndContext,
@@ -39,12 +39,11 @@ export function WritingExerciseContainer() {
 
   // Score management store
   const {
-    updateExerciseScore,
     updateKanjiMastery,
     initializeUser,
     currentUserScore,
     isInitialized,
-  } = useScoreStore();
+  } = useKanjiScoreStore();
 
   const {
     // State for container logic
@@ -121,8 +120,8 @@ export function WritingExerciseContainer() {
 
         // Use imported utilities for word-based scoring
 
-        // Create word-based question results using accurate kanji mapping
-        const wordResults: QuestionResult[] = questions.map(
+        // Create kanji exercise results using accurate kanji mapping
+        const exerciseResults: KanjiExerciseResult[] = questions.map(
           (question, index) => {
             const isCorrect = index < score; // Simple estimation based on score
 
@@ -133,7 +132,7 @@ export function WritingExerciseContainer() {
             );
 
             // Generate word ID for this word
-            const wordId = WordIdGenerator.generateWordId(
+            const wordId = KanjiWordIdGenerator.generateWordId(
               question.word,
               kanjiInfo.kanjiId,
               index
@@ -150,16 +149,16 @@ export function WritingExerciseContainer() {
           }
         );
 
-        // Group results by kanji for word-based processing
-        const resultsByKanji = wordResults.reduce((acc, result) => {
+        // Group results by kanji for processing
+        const resultsByKanji = exerciseResults.reduce((acc, result) => {
           if (!acc[result.kanjiId]) {
             acc[result.kanjiId] = [];
           }
           acc[result.kanjiId].push(result);
           return acc;
-        }, {} as Record<string, QuestionResult[]>);
+        }, {} as Record<string, KanjiExerciseResult[]>);
 
-        // Update word-based scoring for each kanji
+        // Update kanji scoring for each kanji
         Object.entries(resultsByKanji).forEach(([kanjiId, results]) => {
           // Get accurate total words for this kanji
           const firstWord = results[0]?.word;
@@ -167,7 +166,7 @@ export function WritingExerciseContainer() {
             ? KanjiWordMapper.getTotalWordsForKanji(firstWord, level)
             : 1;
 
-          // Update each word's mastery
+          // Update kanji mastery
           results.forEach((result) => {
             updateKanjiMastery(kanjiId, result.kanji, [result]);
           });
@@ -184,7 +183,6 @@ export function WritingExerciseContainer() {
     isInitialized,
     currentUserScore,
     initializeUser,
-    updateExerciseScore,
     updateKanjiMastery,
     level,
     lessonId,

@@ -7,13 +7,13 @@ import {
   DialogTitle,
 } from "@/pwa/core/components/dialog";
 import { useHomeStore } from "../store/home-store";
-import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { ExerciseCard } from "../components/exercise-card";
 import { Edit3, Book, Users } from "lucide-react";
 
 export function KanjiExerciseModal() {
   const { kanjiExerciseModal, closeKanjiExerciseModal } = useHomeStore();
-  const { getExerciseProgress } = useScoreStore();
+  const { getExerciseProgress } = useKanjiScoreStore();
   const { isOpen, lessonName, lessonId, topicId, lessonType, kanjiList } =
     kanjiExerciseModal;
 

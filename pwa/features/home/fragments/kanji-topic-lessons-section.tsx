@@ -14,12 +14,12 @@ import {
   TabsTrigger,
 } from "@/pwa/core/components/tabs";
 import { useHomeSettingsStore } from "../store/home-settings.store";
-import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 
 export function KanjiTopicLessonsSection() {
   const { selectedLevel } = useHomeSettingsStore();
   const { openKanjiExerciseModal } = useHomeStore();
-  const { getLessonProgress } = useScoreStore();
+  const { getLessonProgress } = useKanjiScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
 

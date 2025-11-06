@@ -7,11 +7,11 @@ import { CategorySection } from "../fragments/category-section";
 import { KanjiListCTA } from "../fragments/kanji-list-cta";
 import { KanjiLessonTypeToggle } from "../fragments/kanji-lesson-type-toggle";
 import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
-import { useScoreStore } from "@/pwa/features/score/store/score.store";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { config } from "@/pwa/core/config/env";
 
 export function HomeContainer() {
-  const { initializeUser, isInitialized } = useScoreStore();
+  const { initializeUser, isInitialized } = useKanjiScoreStore();
 
   // Initialize score system on app start
   useEffect(() => {

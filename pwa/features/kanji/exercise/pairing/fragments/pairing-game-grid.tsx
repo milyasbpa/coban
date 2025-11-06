@@ -13,10 +13,10 @@ import {
   SupportedLanguage,
 } from "@/pwa/features/kanji/shared/utils/language-helpers";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
-import { useScoreStore } from "@/pwa/features/score/store/score.store";
-import type { QuestionResult } from "@/pwa/features/score/model/score";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
-import { WordIdGenerator } from "@/pwa/features/score/utils/word-id-generator";
+import { KanjiWordIdGenerator } from "@/pwa/features/score/utils/kanji-word-id-generator";
 import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 
 export function PairingGameGrid() {
@@ -26,7 +26,7 @@ export function PairingGameGrid() {
     initializeUser,
     currentUserScore,
     isInitialized,
-  } = useScoreStore();
+  } = useKanjiScoreStore();
 
   // Session-based tracking for first-attempt-only integration
   const [attemptedWordsInSession, setAttemptedWordsInSession] = useState<
@@ -70,13 +70,13 @@ export function PairingGameGrid() {
       const kanjiInfo = KanjiWordMapper.getKanjiInfo(kanjiCharacter, level);
 
       // Generate unique word ID based on actual word content
-      const wordId = WordIdGenerator.generateWordId(
+      const wordId = KanjiWordIdGenerator.generateWordId(
         word.kanji,
         kanjiInfo.kanjiId,
         0
       );
 
-      const wordResult: QuestionResult = {
+      const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,
         kanji: kanjiCharacter,
         isCorrect,
@@ -86,7 +86,7 @@ export function PairingGameGrid() {
       };
 
       // Update word mastery immediately (first attempt only)
-      updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [wordResult]);
+      updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [exerciseResult]);
     } catch (error) {
       console.error("Error in first-attempt word score integration:", error);
     }

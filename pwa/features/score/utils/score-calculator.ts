@@ -1,68 +1,49 @@
 import { 
-  QuestionResult, 
-  WordMasteryLevel,
+  KanjiExerciseResult, 
+  KanjiWordLevel,
   KanjiMasteryLevel, 
-  UserScore,
+  KanjiUserScore,
   ExerciseType,
   ColorCode,
   MAX_SCORE,
   EXERCISE_TYPES
 } from '../model/score';
 
-export class ScoreCalculator {
+export class KanjiScoreCalculator {
   
-  // ============ Word-Based Scoring Core ============
+  // ============ Core Scoring Methods ============
   
-  /**
-   * Calculate maximum score per word based on formula: 100 / (total words in kanji × 3)
-   * @param totalWordsInKanji Total number of words for this kanji
-   * @returns Maximum score that can be earned per word
-   */
   static calculateMaxScorePerWord(totalWordsInKanji: number): number {
     if (totalWordsInKanji <= 0) return 0;
     return MAX_SCORE / (totalWordsInKanji * EXERCISE_TYPES.length);
   }
   
-  /**
-   * Calculate maximum score per exercise: maxScorePerWord / 3
-   * @param totalWordsInKanji Total number of words for this kanji
-   * @returns Maximum score per exercise type (writing, reading, pairing)
-   */
   static calculateMaxScorePerExercise(totalWordsInKanji: number): number {
     return this.calculateMaxScorePerWord(totalWordsInKanji) / EXERCISE_TYPES.length;
   }
   
   /**
-   * Calculate word mastery score from QuestionResults
-   * @param results Array of question results for this specific word
-   * @param totalWordsInKanji Total words in parent kanji (for score calculation)
-   * @returns Updated WordMasteryLevel
+   * Update kanji word mastery with new exercise result
    */
-  static calculateWordScore(
-    results: QuestionResult[], 
-    currentWord: WordMasteryLevel,
+  static updateWordMastery(
+    currentWord: KanjiWordLevel,
+    result: KanjiExerciseResult,
     totalWordsInKanji: number
-  ): WordMasteryLevel {
+  ): KanjiWordLevel {
     const maxScorePerExercise = this.calculateMaxScorePerExercise(totalWordsInKanji);
     const now = new Date().toISOString();
     
     // Initialize exercise scores from current state
     const exerciseScores = { ...currentWord.exerciseScores };
-    let totalAttempts = currentWord.totalAttempts;
+    let totalAttempts = currentWord.totalAttempts + 1;
     let correctAttempts = currentWord.correctAttempts;
     
-    // Process each new result
-    results.forEach(result => {
-      if (result.wordId === currentWord.wordId) {
-        totalAttempts++;
-        if (result.isCorrect) {
-          correctAttempts++;
-          // Award full score per exercise type
-          exerciseScores[result.exerciseType] = maxScorePerExercise;
-        }
-        // Note: Incorrect answers don't reduce scores in this system
-      }
-    });
+    // Process the new result
+    if (result.isCorrect) {
+      correctAttempts++;
+      // Award full score per exercise type
+      exerciseScores[result.exerciseType] = maxScorePerExercise;
+    }
     
     // Calculate aggregate mastery score (sum of all exercise scores)
     const masteryScore = exerciseScores.writing + exerciseScores.reading + exerciseScores.pairing;
@@ -79,8 +60,6 @@ export class ScoreCalculator {
   
   /**
    * Calculate kanji mastery from all its words
-   * @param kanjiMastery Current kanji mastery level
-   * @returns Updated kanji mastery with computed values
    */
   static calculateKanjiMastery(kanjiMastery: KanjiMasteryLevel): KanjiMasteryLevel {
     const words = Object.values(kanjiMastery.words);
@@ -105,28 +84,8 @@ export class ScoreCalculator {
     };
   }
   
-  /**
-   * Update word mastery with new question result
-   * @param currentWord Current word mastery state
-   * @param result New question result
-   * @param totalWordsInKanji Total words in parent kanji
-   * @returns Updated word mastery
-   */
-  static updateWordMastery(
-    currentWord: WordMasteryLevel,
-    result: QuestionResult,
-    totalWordsInKanji: number
-  ): WordMasteryLevel {
-    return this.calculateWordScore([result], currentWord, totalWordsInKanji);
-  }
+  // ============ Progress and Analytics ============
   
-  // ============ Color and Progress Logic ============
-  
-  /**
-   * Get color code based on score completion
-   * @param score Current score
-   * @returns Color code for UI visualization
-   */
   static getColorFromScore(score: number): ColorCode {
     const percentage = (score / MAX_SCORE) * 100;
     
@@ -136,12 +95,7 @@ export class ScoreCalculator {
     return "red";                            // Beginner level
   }
   
-  /**
-   * Calculate user progress across all kanji
-   * @param userScore Current user score state
-   * @returns Progress percentage (0-100)
-   */
-  static calculateUserProgress(userScore: UserScore): number {
+  static calculateUserProgress(userScore: KanjiUserScore): number {
     const kanjiArray = Object.values(userScore.kanjiMastery);
     if (kanjiArray.length === 0) return 0;
     
@@ -151,18 +105,13 @@ export class ScoreCalculator {
     return Math.round((totalScore / maxPossibleScore) * 100);
   }
   
-  /**
-   * Generate mastery report for analytics
-   * @param userScore Current user score state
-   * @returns Detailed mastery analysis
-   */
-  static generateMasteryReport(userScore: UserScore): {
+  static generateMasteryReport(userScore: KanjiUserScore): {
     totalWords: number;
     masteredWords: number;
     weakWords: string[];
     strongWords: string[];
   } {
-    const allWords: WordMasteryLevel[] = [];
+    const allWords: KanjiWordLevel[] = [];
     
     // Collect all words from all kanji
     Object.values(userScore.kanjiMastery).forEach(kanji => {
@@ -187,30 +136,6 @@ export class ScoreCalculator {
       masteredWords,
       weakWords,
       strongWords,
-    };
-  }
-  
-  /**
-   * Convert legacy QuestionResult to new word-based format
-   * @param legacy Legacy question result
-   * @param wordId Generated word identifier
-   * @param word The actual word text
-   * @param exerciseType Type of exercise
-   * @returns New format QuestionResult
-   */
-  static convertLegacyQuestionResult(
-    legacy: { kanjiId: string; kanji: string; isCorrect: boolean },
-    wordId: string,
-    word: string,
-    exerciseType: ExerciseType
-  ): QuestionResult {
-    return {
-      kanjiId: legacy.kanjiId,
-      kanji: legacy.kanji,
-      isCorrect: legacy.isCorrect,
-      wordId,
-      word,
-      exerciseType,
     };
   }
 }

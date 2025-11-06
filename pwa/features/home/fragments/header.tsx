@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeToggleButton } from "@/pwa/core/components/theme-toggle-button";
-import { ResetStatisticsButton } from "@/pwa/features/score/components/reset-statistics-button";
+import { KanjiResetStatisticsButton } from "@/pwa/features/score/components/kanji-reset-statistics-button";
 import Image from "next/image";
 
 export function Header() {
@@ -21,7 +21,7 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-2">
-          <ResetStatisticsButton />
+          <KanjiResetStatisticsButton />
           <ThemeToggleButton />
         </div>
       </div>

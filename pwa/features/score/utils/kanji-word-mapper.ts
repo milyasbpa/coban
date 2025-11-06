@@ -83,39 +83,15 @@ export class KanjiWordMapper {
   }
   
   /**
-   * Get all words for a specific kanji ID
-   * @param kanjiId The kanji ID to get words for
-   * @param level JLPT level
-   * @returns Array of words for this kanji
-   */
-  static getWordsForKanji(kanjiId: string, level: string = "N5"): string[] {
-    this.initializeMappings(level);
-    
-    for (const mapping of this.kanjiMappings.values()) {
-      if (mapping.kanjiId === kanjiId) {
-        return mapping.words;
-      }
-    }
-    
-    return [];
-  }
-  
-  /**
    * Get total word count for a kanji (for score calculation)
-   * @param word Any word belonging to the kanji
-   * @param level JLPT level
-   * @returns Total number of words for the parent kanji
    */
   static getTotalWordsForKanji(word: string, level: string = "N5"): number {
     const parentKanji = this.getParentKanji(word, level);
-    return parentKanji ? parentKanji.words.length : 1; // Fallback to 1 if not found
+    return parentKanji ? parentKanji.words.length : 1;
   }
   
   /**
-   * Get accurate kanji ID and character for a word
-   * @param word The word to analyze
-   * @param level JLPT level
-   * @returns Object with kanjiId and kanjiCharacter
+   * Get kanji info for a word - main method yang digunakan
    */
   static getKanjiInfo(word: string, level: string = "N5"): {
     kanjiId: string;
@@ -139,31 +115,5 @@ export class KanjiWordMapper {
       kanjiCharacter: kanjiChar,
       totalWords: 1,
     };
-  }
-  
-  /**
-   * Group words by their parent kanji
-   * @param words Array of words to group
-   * @param level JLPT level
-   * @returns Map of kanjiId to words array
-   */
-  static groupWordsByKanji(words: string[], level: string = "N5"): Map<string, string[]> {
-    this.initializeMappings(level);
-    const groups = new Map<string, string[]>();
-    
-    words.forEach(word => {
-      const kanjiInfo = this.getKanjiInfo(word, level);
-      const existingWords = groups.get(kanjiInfo.kanjiId) || [];
-      groups.set(kanjiInfo.kanjiId, [...existingWords, word]);
-    });
-    
-    return groups;
-  }
-  
-  /**
-   * Clear mappings (useful for testing or level switching)
-   */
-  static clearMappings() {
-    this.kanjiMappings.clear();
   }
 }

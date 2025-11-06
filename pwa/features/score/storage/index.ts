@@ -1,15 +1,15 @@
 /**
- * Storage module exports
- * Provides word-based scoring storage management
+ * Kanji storage module exports
+ * Provides kanji scoring storage management
  */
 
-export { StorageManager } from './storage';
-export { StorageInitializer } from './initializer';
+export { KanjiStorageManager } from './kanji-storage';
+export { KanjiStorageInitializer } from './kanji-initializer';
 
 // Re-export types for convenience
 export type {
-  UserScore,
-  WordMasteryLevel,
+  KanjiUserScore,
+  KanjiWordLevel,
   KanjiMasteryLevel,
-  QuestionResult,
+  KanjiExerciseResult,
 } from '../model/score';

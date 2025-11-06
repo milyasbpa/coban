@@ -1,34 +1,24 @@
 /**
- * Utility functions for generating and parsing word IDs in the word-based scoring system
- * Word ID format: "{romanized_word}_{kanji_id}_{index}"
- * Example: "hitotsu_1_0", "ichinichi_1_1"
+ * Simple utility untuk generate kanji word IDs
+ * Format: "{romanized_word}_{kanji_id}_{index}"
  */
 
-export class WordIdGenerator {
+export class KanjiWordIdGenerator {
   
   /**
-   * Generate unique word ID from word text and kanji ID
-   * @param word The word text (e.g., "一つ", "一日")
-   * @param kanjiId Parent kanji ID (e.g., "1")
-   * @param index Word index within the kanji (0-based)
-   * @returns Unique word identifier
+   * Generate unique word ID dari word text dan kanji ID
    */
   static generateWordId(word: string, kanjiId: string, index: number): string {
-    // Convert Japanese word to romanized equivalent for ID
     const romanized = this.romanizeWord(word);
     return `${romanized}_${kanjiId}_${index}`;
   }
   
-
-  
   /**
-   * Convert Japanese word to romanized form for ID generation
-   * Simple implementation - can be enhanced with proper romanization library
-   * @param word Japanese word
-   * @returns Romanized equivalent
+   * Convert Japanese word ke romanized form untuk ID generation
+   * Simple implementation dengan basic mapping
    */
   private static romanizeWord(word: string): string {
-    // Basic romanization mapping for common cases
+    // Basic romanization mapping untuk common cases
     const romanizationMap: Record<string, string> = {
       // Numbers
       '一つ': 'hitotsu',
@@ -119,7 +109,6 @@ export class WordIdGenerator {
     }
     
     // Fallback: create a safe ID from the word
-    // Replace non-ASCII characters with their Unicode codepoint
     return word
       .split('')
       .map(char => {
