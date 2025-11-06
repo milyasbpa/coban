@@ -14,6 +14,7 @@ import {
 } from "@/pwa/core/components/tabs";
 import { useHomeSettingsStore } from "../store/home-settings.store";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
+import { titleCase } from "@/pwa/core/lib/utils/titleCase";
 
 export function VocabularyLessonSection() {
   const { selectedLevel } = useHomeSettingsStore();
@@ -25,13 +26,17 @@ export function VocabularyLessonSection() {
   const CATEGORIES_PER_TAB = 10;
 
   // Get vocabulary categories based on selected level
-  const vocabularyCategories = VocabularyService.getVocabularyCategories(selectedLevel);
+  const vocabularyCategories =
+    VocabularyService.getVocabularyCategories(selectedLevel);
 
   // Divide vocabulary categories into tabs (pagination with limit 10)
   const categoryTabs = useMemo(() => {
     const tabs = [];
     for (let i = 0; i < vocabularyCategories.length; i += CATEGORIES_PER_TAB) {
-      const tabCategories = vocabularyCategories.slice(i, i + CATEGORIES_PER_TAB);
+      const tabCategories = vocabularyCategories.slice(
+        i,
+        i + CATEGORIES_PER_TAB
+      );
       const tabNumber = Math.floor(i / CATEGORIES_PER_TAB) + 1;
 
       tabs.push({
@@ -58,7 +63,9 @@ export function VocabularyLessonSection() {
 
   const handleVocabularyListClick = (categoryId: number) => {
     // Navigate to vocabulary lesson
-    router.push(`/vocabulary/lesson?categoryId=${categoryId}&level=${selectedLevel}`);
+    router.push(
+      `/vocabulary/lesson?categoryId=${categoryId}&level=${selectedLevel}`
+    );
   };
 
   // No vocabulary categories available
@@ -82,7 +89,7 @@ export function VocabularyLessonSection() {
             key={category.id}
             level={selectedLevel}
             lessonNumber={index + 1}
-            title={category.category.en}
+            title={titleCase(category.category.en)}
             wordCount={category.vocabulary.length}
             progress={getCategoryProgress(category.id.toString())}
             onExerciseClick={() => handleVocabularyExerciseClick(category.id)}
@@ -114,8 +121,8 @@ export function VocabularyLessonSection() {
             {tab.categories.map((category, index) => {
               // Calculate lesson number across all tabs
               const tabIndex = parseInt(tab.id) - 1;
-              const lessonNumber = (tabIndex * CATEGORIES_PER_TAB) + index + 1;
-              
+              const lessonNumber = tabIndex * CATEGORIES_PER_TAB + index + 1;
+
               return (
                 <VocabularyLessonCard
                   key={category.id}
@@ -124,7 +131,9 @@ export function VocabularyLessonSection() {
                   title={category.category.en}
                   wordCount={category.vocabulary.length}
                   progress={getCategoryProgress(category.id.toString())}
-                  onExerciseClick={() => handleVocabularyExerciseClick(category.id)}
+                  onExerciseClick={() =>
+                    handleVocabularyExerciseClick(category.id)
+                  }
                   onListClick={() => handleVocabularyListClick(category.id)}
                 />
               );

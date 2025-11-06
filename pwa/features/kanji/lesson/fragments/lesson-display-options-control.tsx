@@ -34,7 +34,7 @@ export function LessonDisplayOptionsControl() {
     {
       key: "meaning",
       label: "EN",
-      description: "English meaning",
+      description: "Meaning",
       isActive: displayOptions.meaning,
       toggle: toggleMeaning,
     },

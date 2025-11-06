@@ -6,6 +6,7 @@ import { Volume2 } from "lucide-react";
 import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useVocabularyDisplayOptions } from "../store/display-options.store";
+import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
 interface VocabularyItemCardProps {
   vocabulary: VocabularyWord;
@@ -13,9 +14,14 @@ interface VocabularyItemCardProps {
   onClick?: (vocabulary: VocabularyWord) => void;
 }
 
-export function VocabularyItemCard({ vocabulary, index, onClick }: VocabularyItemCardProps) {
+export function VocabularyItemCard({
+  vocabulary,
+  index,
+  onClick,
+}: VocabularyItemCardProps) {
   const { displayOptions } = useVocabularyDisplayOptions();
-  
+  const { language } = useLanguage();
+
   const handleClick = () => {
     if (onClick) {
       onClick(vocabulary);
@@ -28,16 +34,16 @@ export function VocabularyItemCard({ vocabulary, index, onClick }: VocabularyIte
       // Play hiragana pronunciation
       await playAudio(vocabulary.hiragana);
     } catch (error) {
-      console.error('Error playing audio:', error);
+      console.error("Error playing audio:", error);
     }
   };
 
   return (
-    <Card 
+    <Card
       className="p-4 hover:shadow-md transition-all duration-200 cursor-pointer border border-border/50 hover:border-border"
       onClick={handleClick}
     >
-      <div className="flex items-center gap-4">
+      <div className="flex items-start gap-4">
         {/* Index Number */}
         <div className="shrink-0">
           <span className="text-sm font-medium text-muted-foreground w-6 inline-block">
@@ -49,32 +55,34 @@ export function VocabularyItemCard({ vocabulary, index, onClick }: VocabularyIte
         <div className="flex-1 space-y-1">
           {/* Hiragana (Pronunciation) */}
           {displayOptions.hiragana && (
-            <div className="text-lg font-medium text-foreground">
+            <div className="text-xs font-medium text-foreground">
               {vocabulary.hiragana}
             </div>
           )}
-          
+
           {/* Kanji */}
           {displayOptions.japanese && (
             <div className="text-2xl font-bold text-foreground">
               {vocabulary.kanji}
             </div>
           )}
-          
+
           {/* Meanings */}
           {displayOptions.meaning && (
             <div className="space-y-0.5">
-              <div className="text-sm text-red-500 font-medium">
-                {vocabulary.meanings.en}
-              </div>
-              {vocabulary.meanings.id && (
-                <div className="text-sm text-red-400">
+              {language === "en" && (
+                <div className="text-sm text-red-500 font-medium">
+                  {vocabulary.meanings.en}
+                </div>
+              )}
+              {language === "id" && (
+                <div className="text-xs text-red-400">
                   {vocabulary.meanings.id}
                 </div>
               )}
             </div>
           )}
-          
+
           {/* Romaji */}
           {displayOptions.romanji && (
             <div className="text-xs text-muted-foreground">

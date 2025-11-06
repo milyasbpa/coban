@@ -45,7 +45,7 @@ export function VocabularyLessonCard({
 
         <div className="flex items-center justify-between mb-4">
           <div className="flex flex-col gap-1">
-            <h3 className="text-lg font-medium text-foreground">
+            <h3 className="text-sm font-medium text-foreground">
               {title}
             </h3>
             <p className="text-sm text-muted-foreground">
