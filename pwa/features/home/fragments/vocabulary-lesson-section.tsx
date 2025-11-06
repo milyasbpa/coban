@@ -57,8 +57,8 @@ export function VocabularyLessonSection() {
   };
 
   const handleVocabularyListClick = (categoryId: number) => {
-    // Navigate to vocabulary list
-    router.push(`/vocabulary/list?categoryId=${categoryId}&level=${selectedLevel}`);
+    // Navigate to vocabulary lesson
+    router.push(`/vocabulary/lesson?categoryId=${categoryId}&level=${selectedLevel}`);
   };
 
   // No vocabulary categories available

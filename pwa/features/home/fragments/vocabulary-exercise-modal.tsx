@@ -64,8 +64,8 @@ export function VocabularyExerciseModal() {
 
     const { categoryId, level } = vocabularyExerciseModal;
     
-    // Navigate to vocabulary list
-    router.push(`/vocabulary/list?categoryId=${categoryId}&level=${level}`);
+    // Navigate to vocabulary lesson
+    router.push(`/vocabulary/lesson?categoryId=${categoryId}&level=${level}`);
     
     closeVocabularyExerciseModal();
   };

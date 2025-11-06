@@ -5,6 +5,7 @@ import { Button } from "@/pwa/core/components/button";
 import { Volume2 } from "lucide-react";
 import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
+import { useVocabularyDisplayOptions } from "../store/display-options.store";
 
 interface VocabularyItemCardProps {
   vocabulary: VocabularyWord;
@@ -13,6 +14,8 @@ interface VocabularyItemCardProps {
 }
 
 export function VocabularyItemCard({ vocabulary, index, onClick }: VocabularyItemCardProps) {
+  const { displayOptions } = useVocabularyDisplayOptions();
+  
   const handleClick = () => {
     if (onClick) {
       onClick(vocabulary);
@@ -45,31 +48,39 @@ export function VocabularyItemCard({ vocabulary, index, onClick }: VocabularyIte
         {/* Vocabulary Content */}
         <div className="flex-1 space-y-1">
           {/* Hiragana (Pronunciation) */}
-          <div className="text-lg font-medium text-foreground">
-            {vocabulary.hiragana}
-          </div>
+          {displayOptions.hiragana && (
+            <div className="text-lg font-medium text-foreground">
+              {vocabulary.hiragana}
+            </div>
+          )}
           
           {/* Kanji */}
-          <div className="text-2xl font-bold text-foreground">
-            {vocabulary.kanji}
-          </div>
+          {displayOptions.japanese && (
+            <div className="text-2xl font-bold text-foreground">
+              {vocabulary.kanji}
+            </div>
+          )}
           
           {/* Meanings */}
-          <div className="space-y-0.5">
-            <div className="text-sm text-red-500 font-medium">
-              {vocabulary.meanings.en}
-            </div>
-            {vocabulary.meanings.id && (
-              <div className="text-sm text-red-400">
-                {vocabulary.meanings.id}
+          {displayOptions.meaning && (
+            <div className="space-y-0.5">
+              <div className="text-sm text-red-500 font-medium">
+                {vocabulary.meanings.en}
               </div>
-            )}
-          </div>
+              {vocabulary.meanings.id && (
+                <div className="text-sm text-red-400">
+                  {vocabulary.meanings.id}
+                </div>
+              )}
+            </div>
+          )}
           
           {/* Romaji */}
-          <div className="text-xs text-muted-foreground">
-            {vocabulary.romaji}
-          </div>
+          {displayOptions.romanji && (
+            <div className="text-xs text-muted-foreground">
+              {vocabulary.romaji}
+            </div>
+          )}
         </div>
 
         {/* Audio Button */}
