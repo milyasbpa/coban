@@ -22,7 +22,7 @@ export function useInitializeReadingGames() {
         selectedKanjiIds,
         topicId
       );
-      initializeGame(gameData.questions, gameData.totalQuestions);
+      initializeGame(gameData.questions);
     } else if (lessonId) {
       // Initialize with lessonId
       const gameData = getReadingGameData(
@@ -30,7 +30,7 @@ export function useInitializeReadingGames() {
         level,
         selectedKanjiIds
       );
-      initializeGame(gameData.questions, gameData.totalQuestions);
+      initializeGame(gameData.questions);
     }
   }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
 }

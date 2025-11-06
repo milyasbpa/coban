@@ -13,12 +13,12 @@ import { useInitializeReadingGames } from "../utils/initalize-reading-game";
 
 export function ReadingExerciseContainer() {
   const {
-    gameState: { isGameComplete },
+    gameState: { isComplete },
     getCurrentQuestion,
   } = useReadingExerciseStore();
   const currentQuestion = getCurrentQuestion();
   useInitializeReadingGames();
-  if (isGameComplete) {
+  if (isComplete) {
     return <ReadingGameResult />;
   }
 

@@ -1,18 +1,16 @@
 import { create } from "zustand";
 import { 
   ReadingQuestion,
-  ReadingGameStats,
   AnswerResult
 } from "../utils/reading-game";
 
 export interface GameState {
   questions: ReadingQuestion[];
-  gameStats: ReadingGameStats;
-  isGameComplete: boolean;
+  correctQuestions: ReadingQuestion[];
+  isComplete: boolean;
   isRetryMode: boolean;
   wrongQuestions: ReadingQuestion[];
-  originalTotalQuestions: number;
-  baseScore: number;
+  score: number;
 }
 
 export interface QuestionState {
@@ -20,7 +18,6 @@ export interface QuestionState {
   inputMode: "multiple-choice" | "direct-input";
   selectedOption: string;
   directInput: string;
-  isAnswered: boolean;
   showBottomSheet: boolean;
   currentResult: AnswerResult | null;
 }
@@ -36,6 +33,11 @@ export interface ReadingExerciseState {
   getCanCheck: () => boolean;
   canRetry: () => boolean;
   getWrongQuestions: () => ReadingQuestion[];
+  getTotalQuestions: () => number;
+  getCurrentQuestionNumber: () => number;
+  getWrongAnswers: () => number;
+  getCorrectAnswers: () => number;
+  getIsAnswered: () => boolean;
 
   // Actions
   setQuestions: (questions: ReadingQuestion[]) => void;
@@ -43,14 +45,12 @@ export interface ReadingExerciseState {
   setInputMode: (mode: "multiple-choice" | "direct-input") => void;
   setSelectedOption: (option: string) => void;
   setDirectInput: (input: string) => void;
-  setIsAnswered: (answered: boolean) => void;
   setShowBottomSheet: (show: boolean) => void;
   setCurrentResult: (result: AnswerResult | null) => void;
-  updateGameStats: (stats: Partial<ReadingGameStats>) => void;
-  setIsGameComplete: (complete: boolean) => void;
+  setIsComplete: (complete: boolean) => void;
   
   // Game flow actions
-  initializeGame: (questions: ReadingQuestion[], totalQuestions: number) => void;
+  initializeGame: (questions: ReadingQuestion[]) => void;
   nextQuestion: () => void;
   resetAnswer: () => void;
   restartGame: () => void;
@@ -58,34 +58,27 @@ export interface ReadingExerciseState {
   // Retry actions
   startRetryMode: () => void;
   addWrongQuestion: (question: ReadingQuestion) => void;
+  addCorrectQuestion: (question: ReadingQuestion) => void;
   
   // Handler for next question with score calculation
-  handleNextQuestion: (calculateReadingScore: (stats: ReadingGameStats) => number) => void;
+  handleNextQuestion: (calculateReadingScore: (correctQuestions: ReadingQuestion[], totalQuestions: number) => number) => void;
 }
 
 export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) => ({
   // Semantic State Groups
   gameState: {
     questions: [],
-    gameStats: {
-      totalQuestions: 0,
-      correctAnswers: 0,
-      wrongAnswers: 0,
-      currentQuestion: 1,
-      score: 0
-    },
-    isGameComplete: false,
+    correctQuestions: [],
+    isComplete: false,
     isRetryMode: false,
     wrongQuestions: [],
-    originalTotalQuestions: 0,
-    baseScore: 0,
+    score: 0,
   },
   questionState: {
     currentQuestionIndex: 0,
     inputMode: "multiple-choice",
     selectedOption: "",
     directInput: "",
-    isAnswered: false,
     showBottomSheet: false,
     currentResult: null,
   },
@@ -118,6 +111,31 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     return wrongQuestions;
   },
 
+  getTotalQuestions: () => {
+    const { gameState: { questions, isRetryMode, wrongQuestions } } = get();
+    return isRetryMode ? wrongQuestions.length : questions.length;
+  },
+
+  getCurrentQuestionNumber: () => {
+    const { questionState: { currentQuestionIndex } } = get();
+    return currentQuestionIndex + 1;
+  },
+
+  getWrongAnswers: () => {
+    const { gameState: { wrongQuestions } } = get();
+    return wrongQuestions.length;
+  },
+
+  getCorrectAnswers: () => {
+    const { gameState: { correctQuestions } } = get();
+    return correctQuestions.length;
+  },
+
+  getIsAnswered: () => {
+    const { questionState: { currentResult } } = get();
+    return currentResult !== null;
+  },
+
   // Actions
   setQuestions: (questions) => 
     set((state) => ({
@@ -144,11 +162,6 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
       questionState: { ...state.questionState, directInput: input }
     })),
   
-  setIsAnswered: (answered) => 
-    set((state) => ({
-      questionState: { ...state.questionState, isAnswered: answered }
-    })),
-  
   setShowBottomSheet: (show) => 
     set((state) => ({
       questionState: { ...state.questionState, showBottomSheet: show }
@@ -159,42 +172,26 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
       questionState: { ...state.questionState, currentResult: result }
     })),
   
-  updateGameStats: (updates) => 
+  setIsComplete: (complete) => 
     set((state) => ({
-      gameState: {
-        ...state.gameState,
-        gameStats: { ...state.gameState.gameStats, ...updates }
-      }
-    })),
-  
-  setIsGameComplete: (complete) => 
-    set((state) => ({
-      gameState: { ...state.gameState, isGameComplete: complete }
+      gameState: { ...state.gameState, isComplete: complete }
     })),
 
   // Game flow actions
-  initializeGame: (questions, totalQuestions) => set({
+  initializeGame: (questions) => set({
     gameState: {
       questions,
-      gameStats: {
-        totalQuestions,
-        correctAnswers: 0,
-        wrongAnswers: 0,
-        currentQuestion: 1,
-        score: 0
-      },
-      isGameComplete: false,
+      correctQuestions: [],
+      isComplete: false,
       isRetryMode: false,
       wrongQuestions: [],
-      originalTotalQuestions: 0,
-      baseScore: 0,
+      score: 0,
     },
     questionState: {
       currentQuestionIndex: 0,
       inputMode: "multiple-choice",
       selectedOption: "",
       directInput: "",
-      isAnswered: false,
       showBottomSheet: false,
       currentResult: null,
     }
@@ -208,7 +205,6 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
         ...state.questionState,
         showBottomSheet: false,
         currentResult: null,
-        isAnswered: false,
         selectedOption: "",
         directInput: "",
       }
@@ -220,19 +216,12 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
         questionState: {
           ...state.questionState,
           currentQuestionIndex: state.questionState.currentQuestionIndex + 1,
-        },
-        gameState: {
-          ...state.gameState,
-          gameStats: {
-            ...state.gameState.gameStats,
-            currentQuestion: state.gameState.gameStats.currentQuestion + 1
-          }
         }
       }));
     } else {
       // Game complete
       set((state) => ({
-        gameState: { ...state.gameState, isGameComplete: true }
+        gameState: { ...state.gameState, isComplete: true }
       }));
     }
   },
@@ -243,7 +232,6 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
         ...state.questionState,
         selectedOption: "",
         directInput: "",
-        isAnswered: false,
         showBottomSheet: false,
         currentResult: null
       }
@@ -254,25 +242,17 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     set({
       gameState: {
         questions,
-        gameStats: {
-          totalQuestions: questions.length,
-          correctAnswers: 0,
-          wrongAnswers: 0,
-          currentQuestion: 1,
-          score: 0
-        },
-        isGameComplete: false,
+        correctQuestions: [],
+        isComplete: false,
         isRetryMode: false,
         wrongQuestions: [],
-        originalTotalQuestions: 0,
-        baseScore: 0,
+        score: 0,
       },
       questionState: {
         currentQuestionIndex: 0,
         inputMode: "multiple-choice",
         selectedOption: "",
         directInput: "",
-        isAnswered: false,
         showBottomSheet: false,
         currentResult: null,
       }
@@ -281,31 +261,23 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
 
   // Retry system implementation
   startRetryMode: () => {
-    const { gameState: { wrongQuestions, gameStats } } = get();
+    const { gameState: { wrongQuestions, score, questions } } = get();
     if (wrongQuestions.length === 0) return;
     
     set({
       gameState: {
-        questions: [...wrongQuestions], // Set questions to wrong questions only
-        gameStats: {
-          totalQuestions: wrongQuestions.length,
-          correctAnswers: 0,
-          wrongAnswers: 0,
-          currentQuestion: 1,
-          score: gameStats.score // Start from previous score
-        },
-        isGameComplete: false,
+        questions: [...questions], // Keep all original questions
+        correctQuestions: [],
+        isComplete: false,
         isRetryMode: true,
         wrongQuestions: wrongQuestions,
-        baseScore: gameStats.score, // Store current score as base
-        originalTotalQuestions: gameStats.totalQuestions, // Store original total
+        score: score, // Keep current score
       },
       questionState: {
         currentQuestionIndex: 0,
         inputMode: "multiple-choice",
         selectedOption: "",
         directInput: "",
-        isAnswered: false,
         showBottomSheet: false,
         currentResult: null,
       }
@@ -321,30 +293,48 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     }));
   },
 
+  addCorrectQuestion: (question) => {
+    set((state) => ({
+      gameState: {
+        ...state.gameState,
+        correctQuestions: [...state.gameState.correctQuestions, question]
+      }
+    }));
+  },
+
   handleNextQuestion: (calculateReadingScore) => {
     const { 
-      gameState: { gameStats, isRetryMode, baseScore, originalTotalQuestions }, 
-      nextQuestion: next, 
-      updateGameStats 
+      gameState: { correctQuestions, isRetryMode, score, questions }, 
+      getTotalQuestions,
+      getCurrentQuestionNumber,
+      nextQuestion: next 
     } = get();
     
     // Calculate final score before moving to next question if this is the last question
-    const isLastQuestion = gameStats.currentQuestion === gameStats.totalQuestions;
+    const totalQuestions = getTotalQuestions();
+    const currentQuestionNumber = getCurrentQuestionNumber();
+    const isLastQuestion = currentQuestionNumber === totalQuestions;
     
     if (isLastQuestion) {
       let finalScore;
       
       if (isRetryMode) {
-        // Retry mode scoring: baseScore + (correct answers * points per original question)
-        const pointsPerOriginalQuestion = 100 / originalTotalQuestions;
-        const bonusPoints = gameStats.correctAnswers * pointsPerOriginalQuestion;
-        finalScore = Math.min(100, baseScore + bonusPoints);
+        // Retry mode scoring: current score + (correct answers * points per original question)
+        const pointsPerOriginalQuestion = 100 / questions.length;
+        const bonusPoints = correctQuestions.length * pointsPerOriginalQuestion;
+        finalScore = Math.min(100, score + bonusPoints);
       } else {
         // Normal mode scoring  
-        finalScore = calculateReadingScore(gameStats);
+        finalScore = calculateReadingScore(correctQuestions, totalQuestions);
       }
       
-      updateGameStats({ score: Math.round(finalScore) });
+      // Update score directly to gameState
+      set((state) => ({
+        gameState: {
+          ...state.gameState,
+          score: Math.round(finalScore)
+        }
+      }));
     }
     
     next();

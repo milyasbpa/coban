@@ -17,7 +17,7 @@ export function KanjiDisplay({
 }: KanjiDisplayProps) {
   return (
     <Card
-      className="w-32 h-32 mx-auto bg-card border-2 border-border flex flex-col items-center justify-center cursor-pointer hover:bg-accent/10 transition-colors"
+      className="w-32 h-32 mx-auto bg-linear-to-br from-amber-100 to-amber-200 dark:from-amber-200/20 dark:to-amber-300/20 border-amber-200/50 flex flex-col items-center justify-center cursor-pointer hover:bg-accent/10 transition-colors"
       onClick={onClick}
     >
       {showRomanji && romanji && (

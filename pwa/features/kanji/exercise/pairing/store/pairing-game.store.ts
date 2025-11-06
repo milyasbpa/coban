@@ -76,7 +76,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     errorCards: new Set<string>(),
     errorWords: new Set<string>(),
   },
-  retryState: {},
 
   // Computed functions
   getGameTotalWords: () => get().gameState.allGameWords.length,

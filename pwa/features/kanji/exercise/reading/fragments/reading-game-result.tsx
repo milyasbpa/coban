@@ -14,7 +14,10 @@ export function ReadingGameResult() {
 
   // Get data from store instead of props
   const {
-    gameState: { gameStats, isRetryMode },
+    gameState: { isRetryMode, score },
+    getTotalQuestions,
+    getWrongAnswers,
+    getCorrectAnswers,
     restartGame,
     canRetry,
     startRetryMode,
@@ -33,7 +36,9 @@ export function ReadingGameResult() {
     startRetryMode();
   };
 
-  const { totalQuestions, correctAnswers, wrongAnswers, score } = gameStats;
+  const correctAnswers = getCorrectAnswers();
+  const wrongAnswers = getWrongAnswers();
+  const totalQuestions = getTotalQuestions();
   const accuracy = Math.round((correctAnswers / totalQuestions) * 100);
   const scoreColors = getScoreColor(score);
 

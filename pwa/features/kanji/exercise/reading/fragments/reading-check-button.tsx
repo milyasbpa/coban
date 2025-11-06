@@ -11,15 +11,15 @@ import { KanjiWordMapper } from "@/pwa/features/score/utils/kanji-word-mapper";
 
 export function ReadingCheckButton() {
   const {
-    questionState: { inputMode, selectedOption, directInput, isAnswered },
-    gameState: { gameStats },
+    questionState: { inputMode, selectedOption, directInput },
     getCurrentQuestion,
+    getCurrentQuestionNumber,
     getCanCheck,
+    getIsAnswered,
     setCurrentResult,
-    setIsAnswered,
     setShowBottomSheet,
-    updateGameStats,
     addWrongQuestion,
+    addCorrectQuestion,
   } = useReadingExerciseStore();
 
   const {
@@ -55,7 +55,7 @@ export function ReadingCheckButton() {
       const wordId = WordIdGenerator.generateWordId(
         question.kanji,
         kanjiInfo.kanjiId,
-        gameStats.currentQuestion - 1
+        getCurrentQuestionNumber() - 1
       );
 
       const questionResult: QuestionResult = {
@@ -76,6 +76,7 @@ export function ReadingCheckButton() {
 
   const currentQuestion = getCurrentQuestion();
   const canCheck = getCanCheck();
+  const isAnswered = getIsAnswered();
 
   const handleCheckAnswer = async () => {
     if (!currentQuestion) return;
@@ -87,7 +88,6 @@ export function ReadingCheckButton() {
 
     const result = checkAnswer(currentQuestion, userAnswer);
     setCurrentResult(result);
-    setIsAnswered(true);
     setShowBottomSheet(true);
 
     // Track wrong questions for retry
@@ -95,11 +95,10 @@ export function ReadingCheckButton() {
       addWrongQuestion(currentQuestion);
     }
 
-    // Update stats
-    updateGameStats({
-      correctAnswers: gameStats.correctAnswers + (result.isCorrect ? 1 : 0),
-      wrongAnswers: gameStats.wrongAnswers + (result.isCorrect ? 0 : 1),
-    });
+    // Update stats - add to correctQuestions array if correct
+    if (result.isCorrect) {
+      addCorrectQuestion(currentQuestion);
+    }
 
     // REAL-TIME Per-Question Score Integration
     await integrateQuestionScore(currentQuestion, result.isCorrect);

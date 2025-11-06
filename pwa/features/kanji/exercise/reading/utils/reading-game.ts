@@ -14,14 +14,6 @@ export interface ReadingQuestion {
   options: string[]; // For multiple choice
 }
 
-export interface ReadingGameStats {
-  totalQuestions: number;
-  correctAnswers: number;
-  wrongAnswers: number;
-  currentQuestion: number;
-  score: number;
-}
-
 export interface AnswerResult {
   isCorrect: boolean;
   userAnswer: string;
@@ -109,9 +101,9 @@ export const checkAnswer = (
 };
 
 // Calculate final score
-export const calculateReadingScore = (stats: ReadingGameStats): number => {
-  if (stats.totalQuestions === 0) return 0;
-  return Math.round((stats.correctAnswers / stats.totalQuestions) * 100);
+export const calculateReadingScore = (correctQuestions: ReadingQuestion[], totalQuestions: number): number => {
+  if (totalQuestions === 0) return 0;
+  return Math.round((correctQuestions.length / totalQuestions) * 100);
 };
 
 // Get reading game data by lesson or topic
@@ -142,6 +134,5 @@ export const getReadingGameData = (
 
   return {
     questions,
-    totalQuestions: questions.length,
   };
 };
