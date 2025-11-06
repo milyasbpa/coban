@@ -17,11 +17,11 @@ export default function ReadingQuestion() {
 
       {/* Kanji Display */}
       <KanjiDisplay
-        kanji={currentQuestion.question.word}
-        romanji={currentQuestion.question.romanji}
+        kanji={currentQuestion.word}
+        romanji={currentQuestion.romanji}
         showRomanji={displayRomanji}
         onClick={() => {
-          playAudio(currentQuestion.question.furigana);
+          playAudio(currentQuestion.furigana);
         }}
       />
     </div>

@@ -99,8 +99,8 @@ export function ReadingCheckButton() {
 
     // Check if answer is correct using our helper function
     const isCorrect = inputMode === "multiple-choice" 
-      ? selectedKanjiExample?.furigana === currentQuestion.question.furigana
-      : userAnswer === currentQuestion.question.furigana;
+      ? selectedKanjiExample?.furigana === currentQuestion.furigana
+      : userAnswer === currentQuestion.furigana;
 
     // Track wrong questions for retry
     if (!isCorrect) {

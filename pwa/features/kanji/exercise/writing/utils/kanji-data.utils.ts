@@ -1,5 +1,5 @@
 // Utility functions for loading kanji data
-import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
+import { KanjiService, KanjiDetail, KanjiExample } from "@/pwa/core/services/kanji";
 
 export interface WritingQuestion {
   kanji: string;
@@ -26,10 +26,10 @@ export function getKanjiForLesson(
 }
 
 /**
- * Convert KanjiDetail example to WritingQuestion
+ * Convert KanjiExample to WritingQuestion
  */
 export function kanjiExampleToWritingQuestion(
-  example: KanjiDetail["examples"][0]
+  example: KanjiExample
 ): WritingQuestion {
   return {
     kanji: example.word, // Use the word/phrase, not individual kanji
@@ -39,10 +39,10 @@ export function kanjiExampleToWritingQuestion(
 }
 
 /**
- * Convert KanjiDetail example to WritingQuestion (for topic-based questions)
+ * Convert KanjiExample to WritingQuestion (for topic-based questions)
  */
 export function kanjiDetailExampleToWritingQuestion(
-  example: KanjiDetail["examples"][0]
+  example: KanjiExample
 ): WritingQuestion {
   return {
     kanji: example.word, // Use the word/phrase, not individual kanji

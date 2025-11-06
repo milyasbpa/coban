@@ -5,15 +5,14 @@ import {
 } from "@/pwa/core/services/kanji";
 import { shuffleArray } from "../../pairing/utils";
 
-export interface ReadingQuestion {
-  id: string;
-  question: KanjiExample;    // Rich data structure for the question
-  options: KanjiExample[];   // Rich options for future flexibility
+export interface ReadingQuestion extends KanjiExample {
+  // Rich data structure for the question
+  options: KanjiExample[]; // Rich options for future flexibility
 }
 
 export interface AnswerResult {
-  selectedAnswer: KanjiExample;  // What user selected
-  userAnswer: string;            // User input for direct input mode
+  selectedAnswer: KanjiExample; // What user selected
+  userAnswer: string; // User input for direct input mode
 }
 
 // Convert kanji examples (words) to reading questions
@@ -31,7 +30,7 @@ export const createReadingQuestions = (
         word: kanjiExample.word,
         furigana: kanjiExample.furigana,
         romanji: kanjiExample.romanji,
-        meanings: kanjiExample.meanings
+        meanings: kanjiExample.meanings,
       });
     });
   });
@@ -46,10 +45,11 @@ export const createReadingQuestions = (
 
     // Ensure we have enough options, if not, pad with some random examples
     while (wrongOptions.length < 3 && examples.length > 1) {
-      const randomExample = examples[Math.floor(Math.random() * examples.length)];
+      const randomExample =
+        examples[Math.floor(Math.random() * examples.length)];
       if (
         randomExample.furigana !== example.furigana &&
-        !wrongOptions.some(opt => opt.furigana === randomExample.furigana)
+        !wrongOptions.some((opt) => opt.furigana === randomExample.furigana)
       ) {
         wrongOptions.push(randomExample);
       }
@@ -62,9 +62,8 @@ export const createReadingQuestions = (
 
     // Push the question to questions array
     questions.push({
-      id: `example-${index}`,
-      question: example,    // The KanjiExample being asked about
-      options,              // Array of KanjiExample options
+      ...example,
+      options, // Array of KanjiExample options
     });
   });
 
@@ -88,25 +87,30 @@ export const isAnswerCorrect = (
   question: ReadingQuestion,
   selectedOption: KanjiExample
 ): boolean => {
-  return selectedOption.furigana.toLowerCase().trim() === 
-         question.question.furigana.toLowerCase().trim();
+  return (
+    selectedOption.furigana.toLowerCase().trim() ===
+    question.furigana.toLowerCase().trim()
+  );
 };
 
 // Calculate final score
-export const calculateReadingScore = (correctQuestions: ReadingQuestion[], totalQuestions: number): number => {
+export const calculateReadingScore = (
+  correctQuestions: ReadingQuestion[],
+  totalQuestions: number
+): number => {
   if (totalQuestions === 0) return 0;
   return Math.round((correctQuestions.length / totalQuestions) * 100);
 };
 
 // Get reading game data by lesson or topic
 export const getReadingGameData = (
-  lessonId: number | null, 
-  level: string, 
+  lessonId: number | null,
+  level: string,
   selectedKanjiIds?: number[],
   topicId?: string
 ) => {
   let allKanjiDetails: KanjiDetail[];
-  
+
   if (topicId) {
     // Get kanji details by topic ID
     allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
@@ -116,12 +120,13 @@ export const getReadingGameData = (
   } else {
     allKanjiDetails = [];
   }
-  
+
   // Filter kanji details if selectedKanjiIds is provided
-  const kanjiDetails = selectedKanjiIds && selectedKanjiIds.length > 0
-    ? allKanjiDetails.filter(kanji => selectedKanjiIds.includes(kanji.id))
-    : allKanjiDetails;
-    
+  const kanjiDetails =
+    selectedKanjiIds && selectedKanjiIds.length > 0
+      ? allKanjiDetails.filter((kanji) => selectedKanjiIds.includes(kanji.id))
+      : allKanjiDetails;
+
   const questions = createReadingQuestions(kanjiDetails);
 
   return {

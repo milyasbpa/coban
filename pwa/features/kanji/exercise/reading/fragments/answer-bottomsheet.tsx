@@ -53,10 +53,10 @@ export function AnswerBottomSheet() {
           {/* Kanji Display */}
           <div className="text-center">
             <div className="text-6xl font-bold text-foreground mb-2">
-              {currentQuestion.question.word}
+              {currentQuestion.word}
             </div>
             <div className="text-lg text-muted-foreground">
-              {currentQuestion.question.furigana}
+              {currentQuestion.furigana}
             </div>
           </div>
 
@@ -76,7 +76,7 @@ export function AnswerBottomSheet() {
             <div className="flex justify-between items-center">
               <span className="text-muted-foreground">Meaning:</span>
               <span className="font-semibold text-foreground">
-                {currentQuestion.question.meanings.id}
+                {currentQuestion.meanings.id}
               </span>
             </div>
           </div>
