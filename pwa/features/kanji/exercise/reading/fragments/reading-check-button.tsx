@@ -106,12 +106,12 @@ export function ReadingCheckButton() {
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-t border-border p-4">
+    <div className="fixed bottom-0 left-0 right-0 bg-[red] backdrop-blur supports-backdrop-filter:bg-background/60 border-t border-border p-4">
       <div className="max-w-2xl mx-auto">
         <Button
           onClick={handleCheckAnswer}
           disabled={!canCheck || isAnswered}
-          className="w-full h-16 text-lg bg-primary disabled:bg-muted text-white disabled:text-foreground"
+          className="w-full h-10 text-sm bg-primary disabled:bg-muted text-white disabled:text-foreground"
         >
           Check
         </Button>

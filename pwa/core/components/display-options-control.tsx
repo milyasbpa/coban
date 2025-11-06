@@ -18,47 +18,28 @@ export interface DisplayOption {
 interface DisplayOptionsControlProps {
   options: DisplayOption[];
   title?: string;
-  position?: {
-    bottom?: string;
-    right?: string;
-    left?: string;
-    top?: string;
-  };
   showReset?: boolean;
   resetLabel?: string;
+  buttonClassName?: string;
+  dialogClassName?: string;
   onReset?: () => void;
 }
 
-export function DisplayOptionsControl({ 
-  options, 
+export function DisplayOptionsControl({
+  options,
   title = "Display Options",
-  position = { bottom: "6", right: "6" },
   showReset = false,
   resetLabel = "Reset",
-  onReset
+  buttonClassName,
+  dialogClassName,
+  onReset,
 }: DisplayOptionsControlProps) {
   const [isOpen, setIsOpen] = useState(false);
-
-  const buttonPositionClass = cn(
-    "fixed z-50",
-    position.bottom && `bottom-${position.bottom}`,
-    position.right && `right-${position.right}`,
-    position.left && `left-${position.left}`,
-    position.top && `top-${position.top}`
-  );
-
-  const panelPositionClass = cn(
-    "fixed z-50",
-    position.bottom && `bottom-20`,
-    position.right && `right-${position.right}`,
-    position.left && `left-${position.left}`,
-    position.top && `top-20`
-  );
 
   return (
     <>
       {/* Floating Button */}
-      <div className={buttonPositionClass}>
+      <div className={cn("fixed z-50 bottom-10 right-10", buttonClassName)}>
         <Button
           variant="default"
           size="icon"
@@ -87,14 +68,12 @@ export function DisplayOptionsControl({
           />
 
           {/* Options Card */}
-          <div className={panelPositionClass}>
+          <div className={cn("fixed z-50 bottom-24 right-10", dialogClassName)}>
             <Card className="p-4 w-72 bg-card border border-border shadow-xl">
               <div className="space-y-4">
                 {/* Header */}
                 <div className="flex items-center justify-between">
-                  <h3 className="font-semibold text-foreground">
-                    {title}
-                  </h3>
+                  <h3 className="font-semibold text-foreground">{title}</h3>
                   {showReset && onReset && (
                     <Button
                       variant="ghost"

@@ -1,6 +1,9 @@
 "use client";
 
-import { DisplayOptionsControl as BaseDisplayOptionsControl, DisplayOption } from "@/pwa/core/components/display-options-control";
+import {
+  DisplayOptionsControl,
+  DisplayOption,
+} from "@/pwa/core/components/display-options-control";
 import { useDisplayOptions } from "../store/display-options.store";
 
 export function LessonDisplayOptionsControl() {
@@ -10,42 +13,42 @@ export function LessonDisplayOptionsControl() {
     toggleJapanese,
     toggleMeaning,
     toggleRomanji,
-    resetToDefault
+    resetToDefault,
   } = useDisplayOptions();
 
   const options: DisplayOption[] = [
     {
-      key: 'furigana',
-      label: 'Furigana',
-      description: 'Reading guide',
+      key: "furigana",
+      label: "Furigana",
+      description: "Reading guide",
       isActive: displayOptions.furigana,
       toggle: toggleFurigana,
     },
     {
-      key: 'japanese',
-      label: 'JP',
-      description: 'Japanese text',
+      key: "japanese",
+      label: "JP",
+      description: "Japanese text",
       isActive: displayOptions.japanese,
       toggle: toggleJapanese,
     },
     {
-      key: 'meaning',
-      label: 'EN',
-      description: 'English meaning',
+      key: "meaning",
+      label: "EN",
+      description: "English meaning",
       isActive: displayOptions.meaning,
       toggle: toggleMeaning,
     },
     {
-      key: 'romanji',
-      label: 'Romanji',
-      description: 'Latin script',
+      key: "romanji",
+      label: "Romanji",
+      description: "Latin script",
       isActive: displayOptions.romanji,
       toggle: toggleRomanji,
     },
   ];
 
   return (
-    <BaseDisplayOptionsControl
+    <DisplayOptionsControl
       options={options}
       title="Display Options"
       showReset={true}
