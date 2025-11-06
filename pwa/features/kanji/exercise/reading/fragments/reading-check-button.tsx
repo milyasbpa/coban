@@ -46,14 +46,14 @@ export function ReadingCheckButton() {
       // Use imported utilities for word-based scoring
 
       // Extract kanji character from the question
-      const kanjiCharacter = question.kanji.charAt(0);
+      const kanjiCharacter = question.question.word.charAt(0);
 
       // Get accurate kanji information using the extracted kanji character
       const kanjiInfo = KanjiWordMapper.getKanjiInfo(kanjiCharacter, level);
 
       // Generate unique word ID based on actual question content
       const wordId = WordIdGenerator.generateWordId(
-        question.kanji,
+        question.question.word,
         kanjiInfo.kanjiId,
         getCurrentQuestionNumber() - 1
       );
@@ -63,7 +63,7 @@ export function ReadingCheckButton() {
         kanji: kanjiCharacter,
         isCorrect,
         wordId,
-        word: question.kanji,
+        word: question.question.word,
         exerciseType: "reading" as const,
       };
 
@@ -81,27 +81,39 @@ export function ReadingCheckButton() {
   const handleCheckAnswer = async () => {
     if (!currentQuestion) return;
 
-    const userAnswer =
-      inputMode === "multiple-choice" ? selectedOption : directInput;
+    let userAnswer = "";
+    let selectedKanjiExample: any = null;
 
-    if (!userAnswer.trim()) return; // No answer provided
+    if (inputMode === "multiple-choice") {
+      if (!selectedOption) return; // No option selected
+      selectedKanjiExample = selectedOption;
+      userAnswer = selectedOption.furigana;
+    } else {
+      userAnswer = directInput.trim();
+      if (!userAnswer) return; // No answer provided
+    }
 
-    const result = checkAnswer(currentQuestion, userAnswer);
+    const result = checkAnswer(currentQuestion, selectedKanjiExample || { furigana: userAnswer }, userAnswer);
     setCurrentResult(result);
     setShowBottomSheet(true);
 
+    // Check if answer is correct using our helper function
+    const isCorrect = inputMode === "multiple-choice" 
+      ? selectedKanjiExample?.furigana === currentQuestion.question.furigana
+      : userAnswer === currentQuestion.question.furigana;
+
     // Track wrong questions for retry
-    if (!result.isCorrect) {
+    if (!isCorrect) {
       addWrongQuestion(currentQuestion);
     }
 
     // Update stats - add to correctQuestions array if correct
-    if (result.isCorrect) {
+    if (isCorrect) {
       addCorrectQuestion(currentQuestion);
     }
 
     // REAL-TIME Per-Question Score Integration
-    await integrateQuestionScore(currentQuestion, result.isCorrect);
+    await integrateQuestionScore(currentQuestion, isCorrect);
   };
 
   return (

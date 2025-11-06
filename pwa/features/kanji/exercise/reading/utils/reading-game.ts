@@ -1,26 +1,19 @@
 import {
   KanjiService,
   KanjiDetail,
+  KanjiExample,
 } from "@/pwa/core/services/kanji";
 import { shuffleArray } from "../../pairing/utils";
 
 export interface ReadingQuestion {
   id: string;
-  kanji: string;
-  romanji: string;
-  correctReading: string;
-  correctMeaning: string;
-  furigana: string;
-  options: string[]; // For multiple choice
+  question: KanjiExample;    // Rich data structure for the question
+  options: KanjiExample[];   // Rich options for future flexibility
 }
 
 export interface AnswerResult {
-  isCorrect: boolean;
-  userAnswer: string;
-  correctAnswer: string;
-  kanji: string;
-  furigana: string;
-  meaning: string;
+  selectedAnswer: KanjiExample;  // What user selected
+  userAnswer: string;            // User input for direct input mode
 }
 
 // Convert kanji examples (words) to reading questions
@@ -28,53 +21,50 @@ export const createReadingQuestions = (
   kanjiDetails: KanjiDetail[]
 ): ReadingQuestion[] => {
   const questions: ReadingQuestion[] = [];
-  const examples: KanjiDetail["examples"] = [];
+  const examples: KanjiExample[] = [];
 
-  // Collect all examples from all kanji
+  // Collect all examples from all kanji and convert to KanjiExample format
   kanjiDetails.forEach((kanji) => {
     kanji.examples.forEach((kanjiExample) => {
-      examples.push(kanjiExample);
+      examples.push({
+        id: kanjiExample.id,
+        word: kanjiExample.word,
+        furigana: kanjiExample.furigana,
+        romanji: kanjiExample.romanji,
+        meanings: kanjiExample.meanings
+      });
     });
   });
 
   // Create questions from examples (words), not individual kanji
   examples.forEach((example, index) => {
-    const correctReading = example.furigana; // Use furigana from KanjiDetail structure
-    const correctRomanji = example.romanji; // Use romanji from KanjiDetail structure
-    const correctMeaning = example.meanings.id; // Use meanings.id from new structure
-
-    // Create wrong options from other examples' readings
+    // Create wrong options from other examples
     const wrongOptions = examples
       .filter((_, i) => i !== index)
-      .map((ex) => ex.furigana)
-      .filter((reading) => reading !== correctReading)
+      .filter((ex) => ex.furigana !== example.furigana)
       .slice(0, 3); // Take 3 wrong options
 
-    // Ensure we have enough options, if not, pad with some default options
+    // Ensure we have enough options, if not, pad with some random examples
     while (wrongOptions.length < 3 && examples.length > 1) {
-      const randomExample =
-        examples[Math.floor(Math.random() * examples.length)];
+      const randomExample = examples[Math.floor(Math.random() * examples.length)];
       if (
-        randomExample.furigana !== correctReading &&
-        !wrongOptions.includes(randomExample.furigana)
+        randomExample.furigana !== example.furigana &&
+        !wrongOptions.some(opt => opt.furigana === randomExample.furigana)
       ) {
-        wrongOptions.push(randomExample.furigana);
+        wrongOptions.push(randomExample);
       }
       if (wrongOptions.length >= 3) break;
     }
 
-    // Shuffle options
-    const options = shuffleArray([correctReading, ...wrongOptions]);
+    // Combine correct answer with wrong options and shuffle
+    const allOptions = [example, ...wrongOptions];
+    const options = shuffleArray(allOptions);
 
     // Push the question to questions array
     questions.push({
       id: `example-${index}`,
-      kanji: example.word, // The word/phrase, not individual kanji
-      romanji: example.romanji,
-      correctReading,
-      correctMeaning,
-      furigana: correctReading,
-      options,
+      question: example,    // The KanjiExample being asked about
+      options,              // Array of KanjiExample options
     });
   });
 
@@ -84,20 +74,22 @@ export const createReadingQuestions = (
 // Check if answer is correct
 export const checkAnswer = (
   question: ReadingQuestion,
-  userAnswer: string
+  selectedOption: KanjiExample,
+  userAnswer: string = ""
 ): AnswerResult => {
-  const isCorrect =
-    userAnswer.toLowerCase().trim() ===
-    question.correctReading.toLowerCase().trim();
-
   return {
-    isCorrect,
-    userAnswer,
-    correctAnswer: question.correctReading,
-    kanji: question.kanji,
-    furigana: question.furigana,
-    meaning: question.correctMeaning,
+    selectedAnswer: selectedOption,
+    userAnswer: userAnswer,
   };
+};
+
+// Helper function to check if answer is correct (for computed logic)
+export const isAnswerCorrect = (
+  question: ReadingQuestion,
+  selectedOption: KanjiExample
+): boolean => {
+  return selectedOption.furigana.toLowerCase().trim() === 
+         question.question.furigana.toLowerCase().trim();
 };
 
 // Calculate final score

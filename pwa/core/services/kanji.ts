@@ -9,7 +9,7 @@ interface KanjiReading {
   romanji: string;
 }
 
-interface KanjiExample {
+export interface KanjiExample {
   id: number;
   word: string;
   furigana: string;
@@ -141,5 +141,46 @@ export class KanjiService {
     if (!category || !category.kanji_ids) return [];
     
     return allKanji.filter(kanji => category.kanji_ids.includes(kanji.id));
+  }
+
+  /**
+   * Get all kanji by level - for kanji list functionality
+   */
+  static getAllKanjiByLevel(level: string): KanjiDetail[] {
+    const kanjiData = this.getKanjiData(level);
+    if (!kanjiData) return [];
+    
+    return kanjiData.items;
+  }
+
+  /**
+   * Get kanji by ID and level
+   */
+  static getKanjiById(id: number, level: string): KanjiDetail | null {
+    const kanjiData = this.getKanjiData(level);
+    if (!kanjiData) return null;
+    
+    return kanjiData.items.find(kanji => kanji.id === id) || null;
+  }
+
+  /**
+   * Get kanji by character
+   */
+  static getKanjiByCharacter(character: string): KanjiDetail | null {
+    // Try N5 first
+    const n5Data = this.getKanjiData("N5");
+    if (n5Data) {
+      const n5Kanji = n5Data.items.find(kanji => kanji.character === character);
+      if (n5Kanji) return n5Kanji;
+    }
+    
+    // Try N4
+    const n4Data = this.getKanjiData("N4");
+    if (n4Data) {
+      const n4Kanji = n4Data.items.find(kanji => kanji.character === character);
+      if (n4Kanji) return n4Kanji;
+    }
+    
+    return null;
   }
 }

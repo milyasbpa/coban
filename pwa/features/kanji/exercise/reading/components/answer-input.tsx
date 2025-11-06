@@ -5,13 +5,14 @@ import { Button } from "@/pwa/core/components/button";
 import { Input } from "@/pwa/core/components/input";
 import { cn } from "@/pwa/core/lib/utils";
 import * as wanakana from "wanakana";
+import { KanjiExample } from "@/pwa/core/services/kanji";
 
 interface AnswerInputProps {
   mode: "multiple-choice" | "direct-input";
-  options: string[];
-  selectedOption: string;
+  options: KanjiExample[];  // Changed from string[] to KanjiExample[]
+  selectedOption: KanjiExample | null;  // Changed from string to KanjiExample | null
   directInput: string;
-  onOptionSelect: (option: string) => void;
+  onOptionSelect: (option: KanjiExample) => void;  // Changed parameter type
   onInputChange: (value: string) => void;
   disabled?: boolean;
 }
@@ -50,11 +51,11 @@ export function AnswerInput({
       <div className="space-y-3">
         {options.map((option, index) => (
           <Button
-            key={option}
+            key={option.id}
             variant="outline"
             className={cn(
               "w-full h-16 text-left justify-start text-lg",
-              selectedOption === option && "border-primary bg-primary/10"
+              selectedOption?.id === option.id && "border-primary bg-primary/10"
             )}
             onClick={() => onOptionSelect(option)}
             disabled={disabled}
@@ -62,7 +63,7 @@ export function AnswerInput({
             <span className="bg-yellow-400 text-black rounded-full w-8 h-8 flex items-center justify-center mr-4 text-sm font-bold">
               {index + 1}
             </span>
-            {option}
+            {option.furigana}
           </Button>
         ))}
       </div>

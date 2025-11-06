@@ -1,8 +1,10 @@
 import { create } from "zustand";
 import { 
   ReadingQuestion,
-  AnswerResult
+  AnswerResult,
+  isAnswerCorrect
 } from "../utils/reading-game";
+import { KanjiExample } from "@/pwa/core/services/kanji";
 
 export interface GameState {
   questions: ReadingQuestion[];
@@ -16,7 +18,7 @@ export interface GameState {
 export interface QuestionState {
   currentQuestionIndex: number;
   inputMode: "multiple-choice" | "direct-input";
-  selectedOption: string;
+  selectedOption: KanjiExample | null;  // Changed to KanjiExample
   directInput: string;
   showBottomSheet: boolean;
   currentResult: AnswerResult | null;
@@ -38,12 +40,14 @@ export interface ReadingExerciseState {
   getWrongAnswers: () => number;
   getCorrectAnswers: () => number;
   getIsAnswered: () => boolean;
+  getIsCurrentAnswerCorrect: () => boolean;  // New computed function
+  getSelectedAnswerText: () => string;       // Helper for display
 
   // Actions
   setQuestions: (questions: ReadingQuestion[]) => void;
   setCurrentQuestionIndex: (index: number) => void;
   setInputMode: (mode: "multiple-choice" | "direct-input") => void;
-  setSelectedOption: (option: string) => void;
+  setSelectedOption: (option: KanjiExample | null) => void;  // Updated type
   setDirectInput: (input: string) => void;
   setShowBottomSheet: (show: boolean) => void;
   setCurrentResult: (result: AnswerResult | null) => void;
@@ -77,7 +81,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
   questionState: {
     currentQuestionIndex: 0,
     inputMode: "multiple-choice",
-    selectedOption: "",
+    selectedOption: null,
     directInput: "",
     showBottomSheet: false,
     currentResult: null,
@@ -97,7 +101,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
   getCanCheck: () => {
     const { questionState: { inputMode, selectedOption, directInput } } = get();
     return inputMode === "multiple-choice" 
-      ? selectedOption.trim() !== "" 
+      ? selectedOption !== null
       : directInput.trim() !== "";
   },
 
@@ -134,6 +138,19 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
   getIsAnswered: () => {
     const { questionState: { currentResult } } = get();
     return currentResult !== null;
+  },
+
+  getIsCurrentAnswerCorrect: () => {
+    const { questionState: { selectedOption }, getCurrentQuestion } = get();
+    const currentQuestion = getCurrentQuestion();
+    if (!currentQuestion || !selectedOption) return false;
+    return isAnswerCorrect(currentQuestion, selectedOption);
+  },
+
+  getSelectedAnswerText: () => {
+    const { questionState: { selectedOption, directInput, inputMode } } = get();
+    if (inputMode === "direct-input") return directInput;
+    return selectedOption ? selectedOption.furigana : "";
   },
 
   // Actions
@@ -190,7 +207,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     questionState: {
       currentQuestionIndex: 0,
       inputMode: "multiple-choice",
-      selectedOption: "",
+      selectedOption: null,
       directInput: "",
       showBottomSheet: false,
       currentResult: null,
@@ -205,7 +222,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
         ...state.questionState,
         showBottomSheet: false,
         currentResult: null,
-        selectedOption: "",
+        selectedOption: null,
         directInput: "",
       }
     }));
@@ -230,7 +247,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     set((state) => ({
       questionState: {
         ...state.questionState,
-        selectedOption: "",
+        selectedOption: null,
         directInput: "",
         showBottomSheet: false,
         currentResult: null
@@ -251,7 +268,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
       questionState: {
         currentQuestionIndex: 0,
         inputMode: "multiple-choice",
-        selectedOption: "",
+        selectedOption: null,
         directInput: "",
         showBottomSheet: false,
         currentResult: null,
@@ -276,7 +293,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
       questionState: {
         currentQuestionIndex: 0,
         inputMode: "multiple-choice",
-        selectedOption: "",
+        selectedOption: null,
         directInput: "",
         showBottomSheet: false,
         currentResult: null,

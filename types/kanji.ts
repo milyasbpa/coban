@@ -14,11 +14,7 @@ export interface KanjiCharacter {
   difficulty: 'basic' | 'intermediate' | 'advanced';
 }
 
-export interface KanjiExample {
-  word: string;
-  reading: string;
-  meaning: string;
-}
+import { KanjiExample } from "@/pwa/core/services/kanji";
 
 export interface KanjiLesson {
   lesson_info: {

@@ -14,13 +14,18 @@ import { calculateReadingScore } from "../utils/reading-game";
 export function AnswerBottomSheet() {
   const {
     questionState: { showBottomSheet, currentResult },
+    getCurrentQuestion,
+    getIsCurrentAnswerCorrect,
     handleNextQuestion,
   } = useReadingExerciseStore();
+
+  const currentQuestion = getCurrentQuestion();
+  const isCorrect = getIsCurrentAnswerCorrect();
 
   const onNext = () => {
     handleNextQuestion(calculateReadingScore);
   };
-  if (!currentResult) return null;
+  if (!currentResult || !currentQuestion) return null;
 
   return (
     <Sheet open={showBottomSheet} onOpenChange={() => {}}>
@@ -28,7 +33,7 @@ export function AnswerBottomSheet() {
         side="bottom"
         className={cn(
           "min-h-[300px] rounded-t-xl",
-          currentResult.isCorrect
+          isCorrect
             ? "bg-green-50 border-green-200"
             : "bg-red-50 border-red-200"
         )}
@@ -37,10 +42,10 @@ export function AnswerBottomSheet() {
           <SheetTitle
             className={cn(
               "text-2xl font-bold",
-              currentResult.isCorrect ? "text-green-800" : "text-red-800"
+              isCorrect ? "text-green-800" : "text-red-800"
             )}
           >
-            {currentResult.isCorrect ? "Correct! 🎉" : "Incorrect ❌"}
+            {isCorrect ? "Correct! 🎉" : "Incorrect ❌"}
           </SheetTitle>
         </SheetHeader>
 
@@ -48,10 +53,10 @@ export function AnswerBottomSheet() {
           {/* Kanji Display */}
           <div className="text-center">
             <div className="text-6xl font-bold text-foreground mb-2">
-              {currentResult.kanji}
+              {currentQuestion.question.word}
             </div>
             <div className="text-lg text-muted-foreground">
-              {currentResult.furigana}
+              {currentQuestion.question.furigana}
             </div>
           </div>
 
@@ -62,16 +67,16 @@ export function AnswerBottomSheet() {
               <span
                 className={cn(
                   "font-semibold",
-                  currentResult.isCorrect ? "text-green-600" : "text-red-600"
+                  isCorrect ? "text-green-600" : "text-red-600"
                 )}
               >
-                {currentResult.isCorrect ? "Correct" : "Incorrect"}
+                {isCorrect ? "Correct" : "Incorrect"}
               </span>
             </div>
             <div className="flex justify-between items-center">
               <span className="text-muted-foreground">Meaning:</span>
               <span className="font-semibold text-foreground">
-                {currentResult.meaning}
+                {currentQuestion.question.meanings.id}
               </span>
             </div>
           </div>

@@ -11,21 +11,7 @@ export interface WritingQuestion {
  * Get all kanji details for a specific level using KanjiService
  */
 export function getAllKanjiByLevel(level: string): KanjiDetail[] {
-  // Get all kanji for the level by using a lesson approach
-  // Since we don't have a direct "get all kanji" method, we'll get them by lessons
-  const allKanji: KanjiDetail[] = [];
-  let lessonId = 1;
-
-  // Keep getting lessons until we get no more kanji
-  while (true) {
-    const lessonKanji = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
-    if (lessonKanji.length === 0) break;
-
-    allKanji.push(...lessonKanji);
-    lessonId++;
-  }
-
-  return allKanji;
+  return KanjiService.getAllKanjiByLevel(level);
 }
 
 /**
