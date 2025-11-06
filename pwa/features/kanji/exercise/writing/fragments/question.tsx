@@ -11,7 +11,7 @@ export function Question() {
   const currentQuestion = questions[currentQuestionIndex];
   if (!currentQuestion) return null;
 
-  const { reading } = currentQuestion;
+  const { furigana: reading } = currentQuestion;
 
   return (
     <div className="flex items-start gap-3 p-4 bg-muted/50 rounded-lg">

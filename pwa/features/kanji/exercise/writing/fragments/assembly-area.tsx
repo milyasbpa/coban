@@ -25,7 +25,7 @@ export function AssemblyArea() {
   const selectedKanji = questionState.selectedKanji;
   const correctAnswer = questionState.correctAnswer;
   const showAnswer = questionState.showAnswer;
-  const shuffledKanji = gameState.shuffledKanji;
+  const availableCharacters = gameState.availableCharacters;
   const usedKanji = questionState.usedKanji;
 
   const { setNodeRef, isOver } = useDroppable({
@@ -122,7 +122,7 @@ export function AssemblyArea() {
 
       {/* Available Kanji Selection Grid */}
       <KanjiSelectionGrid
-        shuffledKanji={shuffledKanji}
+        shuffledKanji={availableCharacters}
         usedKanji={usedKanji}
         showAnswer={showAnswer}
         onKanjiClick={handleKanjiClick}

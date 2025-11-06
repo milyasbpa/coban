@@ -70,7 +70,7 @@ export function KanjiTile({
         variant === "selected" &&
           "min-w-[44px] h-11 border-primary bg-primary/10 text-primary hover:bg-primary/15",
         // State styles
-        disabled && "opacity-30 cursor-not-allowed",
+        disabled && "hidden cursor-not-allowed",
         isDragging && "opacity-50 scale-95 rotate-2 shadow-lg",
         draggable &&
           !disabled &&

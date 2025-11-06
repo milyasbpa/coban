@@ -1,12 +1,6 @@
 // Utility functions for loading kanji data
 import { KanjiService, KanjiDetail, KanjiExample } from "@/pwa/core/services/kanji";
 
-export interface WritingQuestion {
-  kanji: string;
-  reading: string;
-  meaning: string;
-}
-
 /**
  * Get all kanji details for a specific level using KanjiService
  */
@@ -25,31 +19,7 @@ export function getKanjiForLesson(
   return KanjiService.getKanjiDetailsByLessonId(lessonNumber, level);
 }
 
-/**
- * Convert KanjiExample to WritingQuestion
- */
-export function kanjiExampleToWritingQuestion(
-  example: KanjiExample
-): WritingQuestion {
-  return {
-    kanji: example.word, // Use the word/phrase, not individual kanji
-    reading: example.furigana,
-    meaning: example.meanings.id, // Use new meanings structure
-  };
-}
 
-/**
- * Convert KanjiExample to WritingQuestion (for topic-based questions)
- */
-export function kanjiDetailExampleToWritingQuestion(
-  example: KanjiExample
-): WritingQuestion {
-  return {
-    kanji: example.word, // Use the word/phrase, not individual kanji
-    reading: example.furigana,
-    meaning: example.meanings.id, // Use new meanings structure
-  };
-}
 
 /**
  * Get writing questions for a specific lesson or topic - based on examples (words), not individual kanji
@@ -59,8 +29,8 @@ export function getWritingQuestions(
   lessonId: number | null,
   selectedKanjiIds?: number[],
   topicId?: string
-): WritingQuestion[] {
-  const questions: WritingQuestion[] = [];
+): KanjiExample[] {
+  const questions: KanjiExample[] = [];
 
   if (topicId) {
     // Use KanjiDetail approach for topic-based questions
@@ -76,7 +46,7 @@ export function getWritingQuestions(
     // Collect all examples from all kanji details
     kanjiDetails.forEach((kanjiDetail) => {
       kanjiDetail.examples.forEach((example) => {
-        questions.push(kanjiDetailExampleToWritingQuestion(example));
+        questions.push(example);
       });
     });
   } else if (lessonId) {
@@ -92,7 +62,7 @@ export function getWritingQuestions(
     // Collect all examples from all kanji items (no limit - get all words)
     kanjiItems.forEach((kanjiItem) => {
       kanjiItem.examples.forEach((example) => {
-        questions.push(kanjiExampleToWritingQuestion(example));
+        questions.push(example);
       });
     });
   }

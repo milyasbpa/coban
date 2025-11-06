@@ -23,7 +23,7 @@ import {
 import { sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import { WritingHeader } from "../fragments/writing-header";
 import { AnswerFeedback } from "../fragments/answer-feedback";
-import { CompletionScreen } from "../fragments/completion-screen";
+import { WritingGameResult } from "../fragments/writing-game-result";
 import { Question } from "../fragments/question";
 import { AssemblyArea } from "../fragments/assembly-area";
 import { SubmitButton } from "../components";
@@ -128,13 +128,13 @@ export function WritingExerciseContainer() {
 
             // Get accurate kanji information using mapper
             const kanjiInfo = KanjiWordMapper.getKanjiInfo(
-              question.kanji,
+              question.word,
               level
             );
 
             // Generate word ID for this word
             const wordId = WordIdGenerator.generateWordId(
-              question.kanji,
+              question.word,
               kanjiInfo.kanjiId,
               index
             );
@@ -144,7 +144,7 @@ export function WritingExerciseContainer() {
               kanji: kanjiInfo.kanjiCharacter,
               isCorrect,
               wordId,
-              word: question.kanji,
+              word: question.word,
               exerciseType: "writing" as const,
             };
           }
@@ -269,7 +269,7 @@ export function WritingExerciseContainer() {
 
   // Show completion screen
   if (currentQuestionIndex >= questions.length) {
-    return <CompletionScreen />;
+    return <WritingGameResult />;
   }
 
   const currentQuestion = questions[currentQuestionIndex];
