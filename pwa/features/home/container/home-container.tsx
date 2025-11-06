@@ -8,17 +8,58 @@ import { KanjiListCTA } from "../fragments/kanji-list-cta";
 import { KanjiLessonTypeToggle } from "../fragments/kanji-lesson-type-toggle";
 import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
+import { useHomeSettingsStore } from "../store/home-settings.store";
 import { config } from "@/pwa/core/config/env";
+import { VocabularyLessonSection } from "../fragments/vocabulary-lesson-section";
+
+// Conditional Controls Component
+function ConditionalControls() {
+  const { selectedCategory } = useHomeSettingsStore();
+
+  if (selectedCategory === "kanji") {
+    return (
+      <div className="flex items-center justify-between">
+        {/* Kanji List CTA */}
+        <KanjiListCTA />
+        {/* Lesson Type Toggle */}
+        <KanjiLessonTypeToggle />
+      </div>
+    );
+  }
+
+  if (selectedCategory === "vocabulary") {
+    return (
+      <div className="flex items-center justify-between">
+        {/* Vocabulary List CTA - placeholder for now */}
+        <div></div>
+        {/* No lesson type toggle for vocabulary */}
+        <div></div>
+      </div>
+    );
+  }
+
+  // For other categories (grammar, listening) - no controls yet
+  return null;
+}
 
 export function HomeContainer() {
-  const { initializeUser, isInitialized } = useKanjiScoreStore();
+  const { selectedCategory } = useHomeSettingsStore();
 
-  // Initialize score system on app start
+  const {
+    initializeUser: initializeKanjiUser,
+    isInitialized: isKanjiInitialized,
+  } = useKanjiScoreStore();
+  const { initializeUser: initializeVocabularyUser } =
+    useVocabularyScoreStore();
+
+  // Initialize score systems on app start
   useEffect(() => {
-    if (!isInitialized) {
-      initializeUser(config.defaults.userId, config.defaults.level);
+    if (!isKanjiInitialized) {
+      initializeKanjiUser(config.defaults.userId, config.defaults.level);
+      initializeVocabularyUser(config.defaults.userId, config.defaults.level);
     }
-  }, [initializeUser, isInitialized]);
+  }, [initializeKanjiUser, initializeVocabularyUser, isKanjiInitialized]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -32,15 +73,15 @@ export function HomeContainer() {
         {/* Category Section */}
         <CategorySection />
 
-        <div className="flex items-center justify-between">
-          {/* Kanji List CTA */}
-          <KanjiListCTA />
-          {/* Lesson Type Toggle */}
-          <KanjiLessonTypeToggle />
-        </div>
+        {/* Conditional Controls based on selected category */}
+        <ConditionalControls />
 
         {/* Kanji Lessons Section */}
-        <KanjiLessonsSection />
+        {selectedCategory === "vocabulary" ? (
+          <VocabularyLessonSection />
+        ) : selectedCategory === "kanji" ? (
+          <KanjiLessonsSection />
+        ) : null}
       </div>
     </div>
   );

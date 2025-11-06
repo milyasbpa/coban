@@ -5,17 +5,18 @@ import { KanjiStrokeLessonsSection } from "./kanji-stroke-lessons-section";
 import { KanjiTopicLessonsSection } from "./kanji-topic-lessons-section";
 
 /**
- * Main switcher component for kanji lessons
- * Renders appropriate lesson section based on selected lesson type
+ * Main switcher component for lessons
+ * Renders appropriate lesson section based on selected category and lesson type
  * No props needed - uses internal stores for state management
  */
 export function KanjiLessonsSection() {
   const { selectedLessonType } = useHomeSettingsStore();
-  // Simple switcher - no complex logic, just renders appropriate component
+
+  // For kanji category, use lesson type switcher
   if (selectedLessonType === "topic") {
     return <KanjiTopicLessonsSection />;
   }
 
-  // Default to stroke lessons
+  // Default to stroke lessons for kanji
   return <KanjiStrokeLessonsSection />;
 }
