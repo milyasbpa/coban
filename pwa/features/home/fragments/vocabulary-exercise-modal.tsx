@@ -39,8 +39,8 @@ export function VocabularyExerciseModal() {
       icon: "✍️",
     },
     {
-      id: "meaning",
-      name: "Meaning",
+      id: "pairing",
+      name: "Pairing",
       description: "Match vocabulary with meanings",
       icon: "🧠",
     },

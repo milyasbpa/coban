@@ -46,24 +46,36 @@ export class VocabularyService {
   static getVocabularyCategories(level: string = "N5"): VocabularyCategory[] {
     const vocabularyData = this.getVocabularyData(level);
     if (!vocabularyData || !vocabularyData.items) return [];
-    
+
     return vocabularyData.items;
   }
 
   /**
    * Get vocabulary by category ID
    */
-  static getVocabularyByCategory(categoryId: number, level: string = "N5"): VocabularyCategory | null {
+  static getVocabularyByCategory(
+    categoryId: number,
+    level: string = "N5"
+  ): VocabularyCategory | null {
     const categories = this.getVocabularyCategories(level);
-    return categories.find(cat => cat.id === categoryId) || null;
+    return categories.find((cat) => cat.id === categoryId) || null;
   }
 
   /**
-   * Get vocabulary category by string ID (like "ANGKA")
+   * Get vocabulary category by string ID (like "ANGKA") or numeric ID
    */
-  static getVocabularyByCategoryString(categoryStringId: string, level: string = "N5"): VocabularyCategory | null {
+  static getVocabularyByCategoryString(
+    categoryStringId: string,
+    level: string = "N5"
+  ): VocabularyCategory | null {
     const categories = this.getVocabularyCategories(level);
-    return categories.find(cat => cat.category.id === categoryStringId) || null;
+
+    // First, try to find by category.id string match
+    let category = categories.find(
+      (cat) => String(cat.id) === categoryStringId
+    );
+
+    return category || null;
   }
 
   /**
@@ -71,36 +83,46 @@ export class VocabularyService {
    */
   static getAllVocabularyByLevel(level: string = "N5"): VocabularyWord[] {
     const categories = this.getVocabularyCategories(level);
-    return categories.flatMap(cat => cat.vocabulary);
+    return categories.flatMap((cat) => cat.vocabulary);
   }
 
   /**
    * Get vocabulary word by ID within a category
    */
-  static getVocabularyWordById(categoryId: number, wordId: number, level: string = "N5"): VocabularyWord | null {
+  static getVocabularyWordById(
+    categoryId: number,
+    wordId: number,
+    level: string = "N5"
+  ): VocabularyWord | null {
     const category = this.getVocabularyByCategory(categoryId, level);
     if (!category) return null;
-    
-    return category.vocabulary.find(word => word.id === wordId) || null;
+
+    return category.vocabulary.find((word) => word.id === wordId) || null;
   }
 
   /**
    * Get vocabulary info for scoring system
    * Similar to KanjiService.getKanjiInfoForScoring()
    */
-  static getVocabularyInfoForScoring(word: string, level: string = "N5"): {
+  static getVocabularyInfoForScoring(
+    word: string,
+    level: string = "N5"
+  ): {
     categoryId: string;
     categoryName: string;
     totalWords: number;
   } {
     const categories = this.getVocabularyCategories(level);
-    
+
     // Find category that contains this word
     for (const category of categories) {
-      const wordFound = category.vocabulary.some(vocab => 
-        vocab.kanji === word || vocab.hiragana === word || vocab.romaji === word
+      const wordFound = category.vocabulary.some(
+        (vocab) =>
+          vocab.kanji === word ||
+          vocab.hiragana === word ||
+          vocab.romaji === word
       );
-      
+
       if (wordFound) {
         return {
           categoryId: category.id.toString(),
@@ -121,7 +143,10 @@ export class VocabularyService {
   /**
    * Get total words count for a vocabulary category (for scoring calculation)
    */
-  static getTotalWordsForCategory(categoryId: number, level: string = "N5"): number {
+  static getTotalWordsForCategory(
+    categoryId: number,
+    level: string = "N5"
+  ): number {
     const category = this.getVocabularyByCategory(categoryId, level);
     return category ? category.vocabulary.length : 0;
   }
@@ -129,16 +154,20 @@ export class VocabularyService {
   /**
    * Search vocabulary by term (kanji, hiragana, romaji, or meaning)
    */
-  static searchVocabulary(searchTerm: string, level: string = "N5"): VocabularyWord[] {
+  static searchVocabulary(
+    searchTerm: string,
+    level: string = "N5"
+  ): VocabularyWord[] {
     const allWords = this.getAllVocabularyByLevel(level);
     const term = searchTerm.toLowerCase();
-    
-    return allWords.filter(word => 
-      word.kanji.toLowerCase().includes(term) ||
-      word.hiragana.toLowerCase().includes(term) ||
-      word.romaji.toLowerCase().includes(term) ||
-      word.meanings.en.toLowerCase().includes(term) ||
-      word.meanings.id.toLowerCase().includes(term)
+
+    return allWords.filter(
+      (word) =>
+        word.kanji.toLowerCase().includes(term) ||
+        word.hiragana.toLowerCase().includes(term) ||
+        word.romaji.toLowerCase().includes(term) ||
+        word.meanings.en.toLowerCase().includes(term) ||
+        word.meanings.id.toLowerCase().includes(term)
     );
   }
 }
