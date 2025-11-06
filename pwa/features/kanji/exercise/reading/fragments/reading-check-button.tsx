@@ -2,7 +2,7 @@
 
 import { Button } from "@/pwa/core/components/button";
 import { useReadingExerciseStore } from "../store";
-import { checkAnswer } from "../utils/reading-game";
+// import { checkAnswer } from "../utils/reading-game";
 import { useScoreStore } from "@/pwa/features/score/store/score.store";
 import { useExerciseSearchParams } from "../../utils/hooks";
 import type { QuestionResult } from "@/pwa/features/score/model/score";
@@ -34,7 +34,6 @@ export function ReadingCheckButton() {
   // Real-time per-question score integration
   const integrateQuestionScore = async (question: any, isCorrect: boolean) => {
     try {
-
       // Auto-initialize user if not already initialized
       if (!isInitialized || !currentUserScore) {
         await initializeUser(
@@ -70,7 +69,10 @@ export function ReadingCheckButton() {
       // Update word mastery immediately (first attempt only)
       updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [questionResult]);
     } catch (error) {
-      console.error("Error in first-attempt question score integration:", error);
+      console.error(
+        "Error in first-attempt question score integration:",
+        error
+      );
     }
   };
 
@@ -93,14 +95,19 @@ export function ReadingCheckButton() {
       if (!userAnswer) return; // No answer provided
     }
 
-    const result = checkAnswer(currentQuestion, selectedKanjiExample || { furigana: userAnswer }, userAnswer);
+    // const result = checkAnswer(currentQuestion, selectedKanjiExample || { furigana: userAnswer }, userAnswer);
+    const result = {
+      selectedAnswer: selectedKanjiExample || { furigana: userAnswer },
+      userAnswer: userAnswer,
+    };
     setCurrentResult(result);
     setShowBottomSheet(true);
 
     // Check if answer is correct using our helper function
-    const isCorrect = inputMode === "multiple-choice" 
-      ? selectedKanjiExample?.furigana === currentQuestion.furigana
-      : userAnswer === currentQuestion.furigana;
+    const isCorrect =
+      inputMode === "multiple-choice"
+        ? selectedKanjiExample?.furigana === currentQuestion.furigana
+        : userAnswer === currentQuestion.furigana;
 
     // Track wrong questions for retry
     if (!isCorrect) {

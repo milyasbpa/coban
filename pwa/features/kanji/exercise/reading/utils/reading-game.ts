@@ -70,18 +70,6 @@ export const createReadingQuestions = (
   return questions;
 };
 
-// Check if answer is correct
-export const checkAnswer = (
-  question: ReadingQuestion,
-  selectedOption: KanjiExample,
-  userAnswer: string = ""
-): AnswerResult => {
-  return {
-    selectedAnswer: selectedOption,
-    userAnswer: userAnswer,
-  };
-};
-
 // Helper function to check if answer is correct (for computed logic)
 export const isAnswerCorrect = (
   question: ReadingQuestion,
