@@ -1,24 +1,36 @@
 import { create } from "zustand";
 import { WritingQuestion } from "../utils";
 
-interface WritingExerciseState {
-  // Existing state
+export interface GameState {
+  questions: WritingQuestion[];
+  score: number;
+  isComplete: boolean;
+  shuffledKanji: string[];
+}
+
+export interface QuestionState {
   currentQuestionIndex: number;
   selectedKanji: string[];
   correctAnswer: string;
   availableKanji: string[];
-  score: number;
-  isComplete: boolean;
   showAnswer: boolean;
-
-  // New state moved from container
-  questions: WritingQuestion[];
-  shuffledKanji: string[];
   showFeedback: boolean;
   isCorrect: boolean;
   activeKanji: string | null;
   usedKanji: string[];
   scoreIntegrated: boolean;
+}
+
+interface WritingExerciseState {
+  // Semantic State Groups
+  gameState: GameState;
+  questionState: QuestionState;
+
+  // Computed values
+  getCurrentQuestion: () => WritingQuestion | null;
+  getProgress: () => number;
+
+  // Actions
   setCurrentQuestionIndex: (index: number) => void;
   addKanji: (kanji: string) => void;
   removeKanji: (index: number) => void;
@@ -30,13 +42,17 @@ interface WritingExerciseState {
   resetExercise: () => void;
   resetExerciseProgress: () => void;
   setShowAnswer: (show: boolean) => void;
-  // New drag and drop functions
+  
+  // Drag and drop functions
   insertKanjiAt: (kanji: string, index: number) => void;
   reorderKanji: (fromIndex: number, toIndex: number) => void;
 
-  // New setters for moved state
+  // Setters for gameState
   setQuestions: (questions: WritingQuestion[]) => void;
   setShuffledKanji: (kanji: string[]) => void;
+  setIsComplete: (complete: boolean) => void;
+  
+  // Setters for questionState
   setShowFeedback: (show: boolean) => void;
   setIsCorrect: (correct: boolean) => void;
   setActiveKanji: (kanji: string | null) => void;
@@ -53,164 +69,256 @@ interface WritingExerciseState {
 
 export const useWritingExerciseStore = create<WritingExerciseState>(
   (set, get) => ({
-    // Existing state
-    currentQuestionIndex: 0,
-    selectedKanji: [],
-    correctAnswer: "",
-    availableKanji: [],
-    score: 0,
-    isComplete: false,
-    showAnswer: false,
+    // Semantic State Groups
+    gameState: {
+      questions: [],
+      score: 0,
+      isComplete: false,
+      shuffledKanji: [],
+    },
+    questionState: {
+      currentQuestionIndex: 0,
+      selectedKanji: [],
+      correctAnswer: "",
+      availableKanji: [],
+      showAnswer: false,
+      showFeedback: false,
+      isCorrect: false,
+      activeKanji: null,
+      usedKanji: [],
+      scoreIntegrated: false,
+    },
 
-    // New state moved from container
-    questions: [],
-    shuffledKanji: [],
-    showFeedback: false,
-    isCorrect: false,
-    activeKanji: null,
-    usedKanji: [],
-    scoreIntegrated: false,
+    // Computed values
+    getCurrentQuestion: () => {
+      const { gameState: { questions }, questionState: { currentQuestionIndex } } = get();
+      return questions[currentQuestionIndex] || null;
+    },
 
+    getProgress: () => {
+      const { gameState: { questions }, questionState: { currentQuestionIndex } } = get();
+      return questions.length > 0 ? (currentQuestionIndex / questions.length) * 100 : 0;
+    },
+
+    // Actions
     setCurrentQuestionIndex: (index: number) =>
-      set({ currentQuestionIndex: index }),
+      set((state) => ({
+        questionState: { ...state.questionState, currentQuestionIndex: index }
+      })),
 
     addKanji: (kanji: string) => {
-      const { selectedKanji, availableKanji } = get();
+      const { questionState: { selectedKanji, availableKanji } } = get();
       console.log(availableKanji, kanji, "ini store add kanji");
       if (availableKanji.includes(kanji)) {
-        set({ selectedKanji: [...selectedKanji, kanji] });
+        set((state) => ({
+          questionState: { 
+            ...state.questionState, 
+            selectedKanji: [...selectedKanji, kanji] 
+          }
+        }));
       }
     },
 
     removeKanji: (index: number) => {
-      const { selectedKanji } = get();
+      const { questionState: { selectedKanji } } = get();
       const newSelected = selectedKanji.filter((_, i) => i !== index);
-      set({ selectedKanji: newSelected });
+      set((state) => ({
+        questionState: { ...state.questionState, selectedKanji: newSelected }
+      }));
     },
 
-    clearSelected: () => set({ selectedKanji: [] }),
+    clearSelected: () => 
+      set((state) => ({
+        questionState: { ...state.questionState, selectedKanji: [] }
+      })),
 
-    setCorrectAnswer: (answer: string) => set({ correctAnswer: answer }),
+    setCorrectAnswer: (answer: string) => 
+      set((state) => ({
+        questionState: { ...state.questionState, correctAnswer: answer }
+      })),
 
-    setAvailableKanji: (kanji: string[]) => set({ availableKanji: kanji }),
+    setAvailableKanji: (kanji: string[]) => 
+      set((state) => ({
+        questionState: { ...state.questionState, availableKanji: kanji }
+      })),
 
     checkAnswer: () => {
-      const { selectedKanji, correctAnswer } = get();
+      const { questionState: { selectedKanji, correctAnswer } } = get();
       const userAnswer = selectedKanji.join("");
       const isCorrect = userAnswer === correctAnswer;
 
       if (isCorrect) {
-        set((state) => ({ score: state.score + 1 }));
+        set((state) => ({
+          gameState: { ...state.gameState, score: state.gameState.score + 1 }
+        }));
       }
 
-      set({ showAnswer: true });
+      set((state) => ({
+        questionState: { ...state.questionState, showAnswer: true }
+      }));
       return isCorrect;
     },
 
     nextQuestion: () => {
       set((state) => ({
-        currentQuestionIndex: state.currentQuestionIndex + 1,
-        selectedKanji: [],
-        showAnswer: false,
-        usedKanji: [],
-        showFeedback: false,
+        questionState: {
+          ...state.questionState,
+          currentQuestionIndex: state.questionState.currentQuestionIndex + 1,
+          selectedKanji: [],
+          showAnswer: false,
+          usedKanji: [],
+          showFeedback: false,
+        }
       }));
     },
 
     resetExercise: () =>
       set({
-        currentQuestionIndex: 0,
-        selectedKanji: [],
-        correctAnswer: "",
-        availableKanji: [],
-        score: 0,
-        isComplete: false,
-        showAnswer: false,
-        questions: [],
-        shuffledKanji: [],
-        showFeedback: false,
-        isCorrect: false,
-        activeKanji: null,
-        usedKanji: [],
-        scoreIntegrated: false,
+        gameState: {
+          questions: [],
+          score: 0,
+          isComplete: false,
+          shuffledKanji: [],
+        },
+        questionState: {
+          currentQuestionIndex: 0,
+          selectedKanji: [],
+          correctAnswer: "",
+          availableKanji: [],
+          showAnswer: false,
+          showFeedback: false,
+          isCorrect: false,
+          activeKanji: null,
+          usedKanji: [],
+          scoreIntegrated: false,
+        },
       }),
 
     resetExerciseProgress: () =>
       set({
-        currentQuestionIndex: 0,
-        selectedKanji: [],
-        correctAnswer: "",
-        availableKanji: [],
-        score: 0,
-        isComplete: false,
-        showAnswer: false,
-        shuffledKanji: [],
-        showFeedback: false,
-        isCorrect: false,
-        activeKanji: null,
-        usedKanji: [],
-        scoreIntegrated: false,
+        gameState: {
+          questions: [],
+          score: 0,
+          isComplete: false,
+          shuffledKanji: [],
+        },
+        questionState: {
+          currentQuestionIndex: 0,
+          selectedKanji: [],
+          correctAnswer: "",
+          availableKanji: [],
+          showAnswer: false,
+          showFeedback: false,
+          isCorrect: false,
+          activeKanji: null,
+          usedKanji: [],
+          scoreIntegrated: false,
+        },
       }),
 
-    setShowAnswer: (show: boolean) => set({ showAnswer: show }),
+    setShowAnswer: (show: boolean) => 
+      set((state) => ({
+        questionState: { ...state.questionState, showAnswer: show }
+      })),
 
     // New drag and drop functions
     insertKanjiAt: (kanji: string, index: number) => {
-      const { selectedKanji, availableKanji } = get();
-      if (availableKanji.includes(kanji)) {
-        const newSelected = [...selectedKanji];
+      const { questionState } = get();
+      if (questionState.availableKanji.includes(kanji)) {
+        const newSelected = [...questionState.selectedKanji];
         newSelected.splice(index, 0, kanji);
-        set({ selectedKanji: newSelected });
+        set((state) => ({
+          questionState: { ...state.questionState, selectedKanji: newSelected }
+        }));
       }
     },
 
     reorderKanji: (fromIndex: number, toIndex: number) => {
-      const { selectedKanji } = get();
+      const { questionState } = get();
       if (
         fromIndex === toIndex ||
         fromIndex < 0 ||
         toIndex < 0 ||
-        fromIndex >= selectedKanji.length ||
-        toIndex >= selectedKanji.length
+        fromIndex >= questionState.selectedKanji.length ||
+        toIndex >= questionState.selectedKanji.length
       ) {
         return;
       }
 
-      const newSelected = [...selectedKanji];
+      const newSelected = [...questionState.selectedKanji];
       const [movedKanji] = newSelected.splice(fromIndex, 1);
       newSelected.splice(toIndex, 0, movedKanji);
-      set({ selectedKanji: newSelected });
+      set((state) => ({
+        questionState: { ...state.questionState, selectedKanji: newSelected }
+      }));
     },
 
     // New setter implementations
-    setQuestions: (questions: WritingQuestion[]) => set({ questions }),
+    setQuestions: (questions: WritingQuestion[]) => 
+      set((state) => ({
+        gameState: { ...state.gameState, questions }
+      })),
 
-    setShuffledKanji: (kanji: string[]) => set({ shuffledKanji: kanji }),
+    setShuffledKanji: (kanji: string[]) => 
+      set((state) => ({
+        gameState: { ...state.gameState, shuffledKanji: kanji }
+      })),
 
-    setShowFeedback: (show: boolean) => set({ showFeedback: show }),
+    setShowFeedback: (show: boolean) => 
+      set((state) => ({
+        questionState: { ...state.questionState, showFeedback: show }
+      })),
 
-    setIsCorrect: (correct: boolean) => set({ isCorrect: correct }),
+    setIsCorrect: (correct: boolean) => 
+      set((state) => ({
+        questionState: { ...state.questionState, isCorrect: correct }
+      })),
 
-    setActiveKanji: (kanji: string | null) => set({ activeKanji: kanji }),
+    setActiveKanji: (kanji: string | null) => 
+      set((state) => ({
+        questionState: { ...state.questionState, activeKanji: kanji }
+      })),
 
-    setUsedKanji: (kanji: string[]) => set({ usedKanji: kanji }),
+    setUsedKanji: (kanji: string[]) => 
+      set((state) => ({
+        questionState: { ...state.questionState, usedKanji: kanji }
+      })),
 
     setScoreIntegrated: (integrated: boolean) =>
-      set({ scoreIntegrated: integrated }),
+      set((state) => ({
+        questionState: { ...state.questionState, scoreIntegrated: integrated }
+      })),
+
+    setIsComplete: (complete: boolean) =>
+      set((state) => ({
+        gameState: { ...state.gameState, isComplete: complete }
+      })),
 
     addUsedKanji: (kanji: string) => {
-      const { usedKanji } = get();
-      if (!usedKanji.includes(kanji)) {
-        set({ usedKanji: [...usedKanji, kanji] });
+      const { questionState } = get();
+      if (!questionState.usedKanji.includes(kanji)) {
+        set((state) => ({
+          questionState: { 
+            ...state.questionState, 
+            usedKanji: [...state.questionState.usedKanji, kanji] 
+          }
+        }));
       }
     },
 
     removeUsedKanji: (kanji: string) => {
-      const { usedKanji } = get();
-      set({ usedKanji: usedKanji.filter((k) => k !== kanji) });
+      set((state) => ({
+        questionState: {
+          ...state.questionState,
+          usedKanji: state.questionState.usedKanji.filter((k: string) => k !== kanji)
+        }
+      }));
     },
 
-    clearUsedKanji: () => set({ usedKanji: [] }),
+    clearUsedKanji: () => 
+      set((state) => ({
+        questionState: { ...state.questionState, usedKanji: [] }
+      })),
 
     // Helper function to setup current question
     setupCurrentQuestion: (
@@ -221,7 +329,9 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       if (!currentQuestion) return;
 
       // Set the correct answer
-      set({ correctAnswer: currentQuestion.kanji });
+      set((state) => ({
+        questionState: { ...state.questionState, correctAnswer: currentQuestion.kanji }
+      }));
 
       // Create shuffled kanji array for selection
       const correctChars = currentQuestion.kanji.split("");
@@ -245,13 +355,19 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       // Shuffle the options
       const shuffled = finalOptions.sort(() => Math.random() - 0.5);
 
-      set({
-        shuffledKanji: shuffled,
-        availableKanji: shuffled,
-        showAnswer: false,
-        showFeedback: false,
-        usedKanji: [],
-      });
+      set((state) => ({
+        gameState: {
+          ...state.gameState,
+          shuffledKanji: shuffled,
+        },
+        questionState: {
+          ...state.questionState,
+          availableKanji: shuffled,
+          showAnswer: false,
+          showFeedback: false,
+          usedKanji: [],
+        }
+      }));
     },
   })
 );

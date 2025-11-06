@@ -5,7 +5,9 @@ import { useRouter } from 'next/navigation';
 
 export function CompletionScreen() {
   const router = useRouter();
-  const { score, questions, resetExercise, setScoreIntegrated, setupCurrentQuestion } = useWritingExerciseStore();
+  const { gameState, resetExercise, setScoreIntegrated, setupCurrentQuestion } = useWritingExerciseStore();
+  const score = gameState.score;
+  const questions = gameState.questions;
   
   const totalQuestions = questions.length;
   

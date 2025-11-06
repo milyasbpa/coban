@@ -4,7 +4,9 @@ import { useWritingExerciseStore } from "../store/writing-exercise.store";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 
 export function Question() {
-  const { questions, currentQuestionIndex } = useWritingExerciseStore();
+  const { gameState, questionState } = useWritingExerciseStore();
+  const questions = gameState.questions;
+  const currentQuestionIndex = questionState.currentQuestionIndex;
 
   const currentQuestion = questions[currentQuestionIndex];
   if (!currentQuestion) return null;

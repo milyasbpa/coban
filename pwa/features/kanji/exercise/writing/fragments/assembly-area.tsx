@@ -12,11 +12,8 @@ import { useWritingExerciseStore } from "../store/writing-exercise.store";
 
 export function AssemblyArea() {
   const {
-    selectedKanji,
-    correctAnswer,
-    showAnswer,
-    shuffledKanji,
-    usedKanji,
+    gameState,
+    questionState,
     removeKanji,
     removeUsedKanji,
     clearSelected,
@@ -24,6 +21,12 @@ export function AssemblyArea() {
     addKanji,
     addUsedKanji,
   } = useWritingExerciseStore();
+
+  const selectedKanji = questionState.selectedKanji;
+  const correctAnswer = questionState.correctAnswer;
+  const showAnswer = questionState.showAnswer;
+  const shuffledKanji = gameState.shuffledKanji;
+  const usedKanji = questionState.usedKanji;
 
   const { setNodeRef, isOver } = useDroppable({
     id: "assembly-area",

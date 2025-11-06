@@ -48,13 +48,10 @@ export function WritingExerciseContainer() {
 
   const {
     // State for container logic
-    currentQuestionIndex,
-    selectedKanji,
-    showAnswer,
-    questions,
-    showFeedback,
-    scoreIntegrated,
-    score,
+    gameState,
+    questionState,
+    getCurrentQuestion,
+    getProgress,
 
     // Actions for container logic
     checkAnswer,
@@ -69,6 +66,15 @@ export function WritingExerciseContainer() {
     resetExerciseProgress,
     setupCurrentQuestion: setupCurrentQuestionStore,
   } = useWritingExerciseStore();
+
+  // Computed values from state
+  const currentQuestionIndex = questionState.currentQuestionIndex;
+  const selectedKanji = questionState.selectedKanji;
+  const showAnswer = questionState.showAnswer;
+  const questions = gameState.questions;
+  const showFeedback = questionState.showFeedback;
+  const scoreIntegrated = questionState.scoreIntegrated;
+  const score = gameState.score;
 
   // Configure @dnd-kit sensors with easier drag activation
   const sensors = useSensors(

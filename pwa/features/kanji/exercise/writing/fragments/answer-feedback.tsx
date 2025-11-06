@@ -4,7 +4,10 @@ import { cn } from '@/pwa/core/lib/utils';
 import { useWritingExerciseStore } from '../store/writing-exercise.store';
 
 export function AnswerFeedback() {
-  const { isCorrect, currentQuestionIndex, questions, nextQuestion } = useWritingExerciseStore();
+  const { gameState, questionState, nextQuestion } = useWritingExerciseStore();
+  const isCorrect = questionState.isCorrect;
+  const currentQuestionIndex = questionState.currentQuestionIndex;
+  const questions = gameState.questions;
   
   const isLastQuestion = currentQuestionIndex >= questions.length - 1;
   

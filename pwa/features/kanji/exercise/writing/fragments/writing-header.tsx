@@ -6,7 +6,10 @@ import { useRouter } from 'next/navigation';
 
 export function WritingHeader() {
   const router = useRouter();
-  const { currentQuestionIndex, questions, score } = useWritingExerciseStore();
+  const { gameState, questionState } = useWritingExerciseStore();
+  const currentQuestionIndex = questionState.currentQuestionIndex;
+  const questions = gameState.questions;
+  const score = gameState.score;
   
   const totalQuestions = questions.length;
   const progress = ((currentQuestionIndex) / totalQuestions) * 100;
