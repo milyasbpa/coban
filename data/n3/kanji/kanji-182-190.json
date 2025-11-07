@@ -1,0 +1,275 @@
+[
+  {
+    "id": 182,
+    "character": "点",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "テン", "romanji": "ten" }]
+    },
+    "meanings": {
+      "id": "angka, nilai, skor",
+      "en": "number, score"
+    },
+    "examples": [
+      {
+        "word": "点数",
+        "furigana": "てんすう",
+        "romanji": "tensuu",
+        "id": 182,
+        "meanings": { "id": "skor", "en": "score" }
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "character": "美",
+    "strokes": 9,
+    "readings": {
+      "kun": [{ "furigana": "うつく", "romanji": "utsuku" }],
+      "on": [{ "furigana": "ビ", "romanji": "bi" }]
+    },
+    "meanings": {
+      "id": "cantik, indah, wanita cantik",
+      "en": "beautiful, pretty woman"
+    },
+    "examples": [
+      {
+        "word": "美しい",
+        "furigana": "うつくしい",
+        "romanji": "utsukushii",
+        "id": 150,
+        "meanings": { "id": "cantik, indah", "en": "beautiful" }
+      },
+      {
+        "word": "美人",
+        "furigana": "びじん",
+        "romanji": "bijin",
+        "id": 183,
+        "meanings": { "id": "wanita cantik", "en": "pretty woman" }
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "character": "科",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "カ", "romanji": "ka" }]
+    },
+    "meanings": {
+      "id": "mata pelajaran, ilmu pengetahuan",
+      "en": "subject, science"
+    },
+    "examples": [
+      {
+        "word": "科目",
+        "furigana": "かもく",
+        "romanji": "kamoku",
+        "id": 151,
+        "meanings": { "id": "mata pelajaran", "en": "school subject" }
+      },
+      {
+        "word": "科学",
+        "furigana": "かがく",
+        "romanji": "kagaku",
+        "id": 184,
+        "meanings": { "id": "ilmu pengetahuan", "en": "science" }
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "character": "客",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [
+        { "furigana": "キャク", "romanji": "kyaku" },
+        { "furigana": "カ", "romanji": "ka" }
+      ]
+    },
+    "meanings": {
+      "id": "ruang tamu, meninggal di luar negeri",
+      "en": "guest room, die abroad"
+    },
+    "examples": [
+      {
+        "word": "客間",
+        "furigana": "きゃくま",
+        "romanji": "kyakuma",
+        "id": 185,
+        "meanings": { "id": "ruang tamu", "en": "guest room" }
+      },
+      {
+        "word": "客死",
+        "furigana": "かくし",
+        "romanji": "kakushi",
+        "id": 185,
+        "meanings": { "id": "meninggal di luar negeri", "en": "die abroad" }
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "character": "型",
+    "strokes": 9,
+    "readings": {
+      "kun": [
+        { "furigana": "かた", "romanji": "kata" },
+        { "furigana": "かたち", "romanji": "katachi" }
+      ],
+      "on": [{ "furigana": "ケイ", "romanji": "kei" }]
+    },
+    "meanings": {
+      "id": "bentuk kecil, bentuk tubuh",
+      "en": "small form, body shape"
+    },
+    "examples": [
+      {
+        "word": "小型",
+        "furigana": "こがた",
+        "romanji": "kogata",
+        "id": 186,
+        "meanings": { "id": "bentuk kecil", "en": "small form" }
+      },
+      {
+        "word": "体型",
+        "furigana": "たいけい",
+        "romanji": "taikei",
+        "id": 186,
+        "meanings": { "id": "bentuk tubuh", "en": "body shape" }
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "character": "信",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "シン", "romanji": "shin" }]
+    },
+    "meanings": {
+      "id": "lampu lalu lintas, percaya diri",
+      "en": "traffic light, confidence"
+    },
+    "examples": [
+      {
+        "word": "信号",
+        "furigana": "しんごう",
+        "romanji": "shingou",
+        "id": 187,
+        "meanings": { "id": "lampu lalu lintas", "en": "traffic light" }
+      },
+      {
+        "word": "自信",
+        "furigana": "じしん",
+        "romanji": "jishin",
+        "id": 187,
+        "meanings": { "id": "percaya diri", "en": "confidence" }
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "character": "便",
+    "strokes": 9,
+    "readings": {
+      "kun": [{ "furigana": "たよ", "romanji": "tayo" }],
+      "on": [
+        { "furigana": "ベン", "romanji": "ben" },
+        { "furigana": "ビン", "romanji": "bin" }
+      ]
+    },
+    "meanings": {
+      "id": "berita, praktis, pos laut",
+      "en": "news, practical, sea mail"
+    },
+    "examples": [
+      {
+        "word": "便り",
+        "furigana": "たより",
+        "romanji": "tayori",
+        "id": 188,
+        "meanings": { "id": "berita", "en": "news" }
+      },
+      {
+        "word": "便利",
+        "furigana": "べんり",
+        "romanji": "benri",
+        "id": 188,
+        "meanings": { "id": "praktis", "en": "practical" }
+      },
+      {
+        "word": "船便",
+        "furigana": "ふなびん",
+        "romanji": "funabin",
+        "id": 188,
+        "meanings": { "id": "pos laut", "en": "sea mail" }
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "character": "保",
+    "strokes": 9,
+    "readings": {
+      "kun": [
+        { "furigana": "かかり", "romanji": "kakari" },
+        { "furigana": "がかり", "romanji": "gakari" }
+      ],
+      "on": [{ "furigana": "ケイ", "romanji": "kei" }]
+    },
+    "meanings": {
+      "id": "tugas, urusan, hubungan",
+      "en": "task, matter, relation"
+    },
+    "examples": [
+      {
+        "word": "保",
+        "furigana": "かかり",
+        "romanji": "kakari",
+        "id": 189,
+        "meanings": { "id": "tugas, urusan", "en": "task, matter" }
+      },
+      {
+        "word": "関係",
+        "furigana": "かんけい",
+        "romanji": "kankei",
+        "id": 189,
+        "meanings": { "id": "hubungan", "en": "relation" }
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "character": "保",
+    "strokes": 9,
+    "readings": {
+      "kun": [{ "furigana": "たも", "romanji": "tamo" }],
+      "on": [{ "furigana": "ホ", "romanji": "ho" }]
+    },
+    "meanings": {
+      "id": "menjaga, asuransi",
+      "en": "protect, insurance"
+    },
+    "examples": [
+      {
+        "word": "保つ",
+        "furigana": "たもつ",
+        "romanji": "tamotsu",
+        "id": 190,
+        "meanings": { "id": "menjaga", "en": "to protect" }
+      },
+      {
+        "word": "保険",
+        "furigana": "ほけん",
+        "romanji": "hoken",
+        "id": 190,
+        "meanings": { "id": "asuransi", "en": "insurance" }
+      }
+    ]
+  }
+]

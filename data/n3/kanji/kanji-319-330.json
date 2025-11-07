@@ -1,0 +1,205 @@
+[
+  {
+    "id": 319,
+    "character": "集",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "つの", "romanji": "tsuno" } ],
+      "on": [ { "furigana": "シュウ", "romanji": "shuu" } ]
+    },
+    "meanings": {
+      "id": "mengumpulkan, perekrutan, pengumpulan",
+      "en": "gather, recruit, collection"
+    },
+    "examples": [
+      { "word": "集まる", "furigana": "あつまる", "romanji": "atsumaru", "id": 319, "meanings": { "id": "mengumpulkan", "en": "to gather" } },
+      { "word": "集集", "furigana": "しゅうしゅう", "romanji": "shuushuu", "id": 319, "meanings": { "id": "pengumpulan", "en": "collection" } }
+    ]
+  },
+  {
+    "id": 320,
+    "character": "葉",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "は", "romanji": "ha" }, { "furigana": "ば", "romanji": "ba" } ],
+      "on": [ { "furigana": "ヨウ", "romanji": "you" } ]
+    },
+    "meanings": {
+      "id": "daun, daun musim gugur",
+      "en": "leaf, autumn leaf"
+    },
+    "examples": [
+      { "word": "葉", "furigana": "は", "romanji": "ha", "id": 320, "meanings": { "id": "daun", "en": "leaf" } },
+      { "word": "紅葉", "furigana": "こうよう", "romanji": "kouyou", "id": 320, "meanings": { "id": "daun musim gugur", "en": "autumn leaf" } }
+    ]
+  },
+  {
+    "id": 321,
+    "character": "渡",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "わた", "romanji": "wata" } ],
+      "on": [ { "furigana": "ト", "romanji": "to" } ]
+    },
+    "meanings": {
+      "id": "melintas, menyebrang, perjalanan ke luar negeri",
+      "en": "cross, travel abroad"
+    },
+    "examples": [
+      { "word": "渡る", "furigana": "わたる", "romanji": "wataru", "id": 321, "meanings": { "id": "melintas, menyebrang", "en": "to cross" } },
+      { "word": "渡航", "furigana": "とこう", "romanji": "tokou", "id": 321, "meanings": { "id": "perjalanan ke luar negeri", "en": "travel abroad" } }
+    ]
+  },
+  {
+    "id": 322,
+    "character": "落",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "お", "romanji": "o" } ],
+      "on": [ { "furigana": "ラク", "romanji": "raku" } ]
+    },
+    "meanings": {
+      "id": "jatuh, turun, paragraf",
+      "en": "fall, drop, paragraph"
+    },
+    "examples": [
+      { "word": "落ちる", "furigana": "おちる", "romanji": "ochiru", "id": 322, "meanings": { "id": "jatuh, turun", "en": "to fall, to drop" } },
+      { "word": "段落", "furigana": "だんらく", "romanji": "danraku", "id": 322, "meanings": { "id": "paragraf", "en": "paragraph" } }
+    ]
+  },
+  {
+    "id": 323,
+    "character": "湖",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "みずうみ", "romanji": "mizuumi" } ],
+      "on": [ { "furigana": "コ", "romanji": "ko" } ]
+    },
+    "meanings": {
+      "id": "danau, air danau",
+      "en": "lake, lake water"
+    },
+    "examples": [
+      { "word": "湖", "furigana": "みずうみ", "romanji": "mizuumi", "id": 323, "meanings": { "id": "danau", "en": "lake" } },
+      { "word": "湖水", "furigana": "こすい", "romanji": "kosui", "id": 323, "meanings": { "id": "air danau", "en": "lake water" } }
+    ]
+  },
+  {
+    "id": 324,
+    "character": "港",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "みなと", "romanji": "minato" } ],
+      "on": [ { "furigana": "コウ", "romanji": "kou" } ]
+    },
+    "meanings": {
+      "id": "pelabuhan, bandara",
+      "en": "port, airport"
+    },
+    "examples": [
+      { "word": "港", "furigana": "みなと", "romanji": "minato", "id": 324, "meanings": { "id": "pelabuhan", "en": "port" } },
+      { "word": "空港", "furigana": "くうこう", "romanji": "kuukou", "id": 324, "meanings": { "id": "bandara", "en": "airport" } }
+    ]
+  },
+  {
+    "id": 325,
+    "character": "満",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "み", "romanji": "mi" } ],
+      "on": [ { "furigana": "マン", "romanji": "man" } ]
+    },
+    "meanings": {
+      "id": "penuh, memuaskan",
+      "en": "full, satisfy"
+    },
+    "examples": [
+      { "word": "満ちる", "furigana": "みちる", "romanji": "michiru", "id": 325, "meanings": { "id": "penuh", "en": "full" } },
+      { "word": "満足", "furigana": "まんぞく", "romanji": "manzoku", "id": 325, "meanings": { "id": "memuaskan", "en": "satisfy" } }
+    ]
+  },
+  {
+    "id": 326,
+    "character": "減",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "へ", "romanji": "he" } ],
+      "on": [ { "furigana": "ゲン", "romanji": "gen" } ]
+    },
+    "meanings": {
+      "id": "berkurang, menyusut, pengurangan, penurunan",
+      "en": "decrease, reduction"
+    },
+    "examples": [
+      { "word": "減る", "furigana": "へる", "romanji": "heru", "id": 326, "meanings": { "id": "berkurang, menyusut", "en": "to decrease" } },
+      { "word": "減少", "furigana": "げんしょう", "romanji": "genshou", "id": 326, "meanings": { "id": "pengurangan, penurunan", "en": "reduction" } }
+    ]
+  },
+  {
+    "id": 327,
+    "character": "湯",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "ゆ", "romanji": "yu" } ],
+      "on": [ { "furigana": "トウ", "romanji": "tou" } ]
+    },
+    "meanings": {
+      "id": "air panas, air mendidih",
+      "en": "hot water, boiling water"
+    },
+    "examples": [
+      { "word": "お湯", "furigana": "おゆ", "romanji": "oyu", "id": 327, "meanings": { "id": "air panas", "en": "hot water" } },
+      { "word": "熱湯", "furigana": "ねっとう", "romanji": "nettou", "id": 327, "meanings": { "id": "air mendidih", "en": "boiling water" } }
+    ]
+  },
+  {
+    "id": 328,
+    "character": "喜",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "よろこ", "romanji": "yoroko" } ],
+      "on": [ { "furigana": "キ", "romanji": "ki" } ]
+    },
+    "meanings": {
+      "id": "gembira, senang, komedi",
+      "en": "happy, comedy"
+    },
+    "examples": [
+      { "word": "喜ぶ", "furigana": "よろこぶ", "romanji": "yorokobu", "id": 328, "meanings": { "id": "gembira, senang", "en": "happy" } },
+      { "word": "喜劇", "furigana": "きげき", "romanji": "kigeki", "id": 328, "meanings": { "id": "komedi", "en": "comedy" } }
+    ]
+  },
+  {
+    "id": 329,
+    "character": "程",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "ほど", "romanji": "hodo" } ],
+      "on": [ { "furigana": "テイ", "romanji": "tei" } ]
+    },
+    "meanings": {
+      "id": "batasan, tidak se..., derajat, tingkat",
+      "en": "limit, degree, level"
+    },
+    "examples": [
+      { "word": "程", "furigana": "ほど", "romanji": "hodo", "id": 329, "meanings": { "id": "batasan, tidak se...", "en": "limit" } },
+      { "word": "程度", "furigana": "ていど", "romanji": "teido", "id": 329, "meanings": { "id": "derajat, tingkat", "en": "degree, level" } }
+    ]
+  },
+  {
+    "id": 330,
+    "character": "税",
+    "strokes": 12,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ゼイ", "romanji": "zei" } ]
+    },
+    "meanings": {
+      "id": "uang pajak, bea cukai",
+      "en": "tax, customs"
+    },
+    "examples": [
+      { "word": "税金", "furigana": "ぜいきん", "romanji": "zeikin", "id": 330, "meanings": { "id": "uang pajak, bea cukai", "en": "tax, customs" } }
+    ]
+  }
+]

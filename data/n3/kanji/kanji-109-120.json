@@ -1,0 +1,205 @@
+[
+  {
+    "id": 109,
+    "character": "努",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "つと", "romanji": "tsuto" } ],
+      "on": [ { "furigana": "ド", "romanji": "do" } ]
+    },
+    "meanings": {
+      "id": "rajin, usaha keras",
+      "en": "diligent, hard work"
+    },
+    "examples": [
+      { "word": "努める", "furigana": "つとめる", "romanji": "tsutomeru", "id": 109, "meanings": { "id": "rajin", "en": "diligent" } },
+      { "word": "努力", "furigana": "どりょく", "romanji": "doryoku", "id": 109, "meanings": { "id": "usaha keras", "en": "hard work" } }
+    ]
+  },
+  {
+    "id": 110,
+    "character": "良",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "よ", "romanji": "yo" } ],
+      "on": [ { "furigana": "リョウ", "romanji": "ryou" } ]
+    },
+    "meanings": {
+      "id": "akrab, intim, baik, bagus",
+      "en": "close, intimate, good"
+    },
+    "examples": [
+      { "word": "仲良し", "furigana": "なかよし", "romanji": "nakayoshi", "id": 110, "meanings": { "id": "akrab, intim", "en": "close, intimate" } },
+      { "word": "良好", "furigana": "りょうこう", "romanji": "ryoukou", "id": 110, "meanings": { "id": "baik, bagus", "en": "good" } }
+    ]
+  },
+  {
+    "id": 111,
+    "character": "卵",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "たまご", "romanji": "tamago" } ],
+      "on": [ { "furigana": "ラン", "romanji": "ran" } ]
+    },
+    "meanings": {
+      "id": "telur, putih telur",
+      "en": "egg, egg white"
+    },
+    "examples": [
+      { "word": "卵", "furigana": "たまご", "romanji": "tamago", "id": 111, "meanings": { "id": "telur", "en": "egg" } },
+      { "word": "卵白", "furigana": "らんぱく", "romanji": "ranpaku", "id": 111, "meanings": { "id": "putih telur", "en": "egg white" } }
+    ]
+  },
+  {
+    "id": 112,
+    "character": "余",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "あま", "romanji": "ama" } ],
+      "on": [ { "furigana": "ヨ", "romanji": "yo" } ]
+    },
+    "meanings": {
+      "id": "sisa, waktu luang",
+      "en": "remainder, free time"
+    },
+    "examples": [
+      { "word": "余る", "furigana": "あまる", "romanji": "amaru", "id": 112, "meanings": { "id": "sisa", "en": "remainder" } },
+      { "word": "余暇", "furigana": "よか", "romanji": "yoka", "id": 112, "meanings": { "id": "waktu luang", "en": "free time" } }
+    ]
+  },
+  {
+    "id": 113,
+    "character": "忘",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "わす", "romanji": "wasu" } ],
+      "on": [ { "furigana": "ボウ", "romanji": "bou" } ]
+    },
+    "meanings": {
+      "id": "lupa, pesta akhir tahun",
+      "en": "forget, year-end party"
+    },
+    "examples": [
+      { "word": "忘れる", "furigana": "わすれる", "romanji": "wasureru", "id": 113, "meanings": { "id": "lupa", "en": "forget" } },
+      { "word": "忘年会", "furigana": "ぼうねんかい", "romanji": "bounenkai", "id": 113, "meanings": { "id": "pesta akhir tahun", "en": "year-end party" } }
+    ]
+  },
+  {
+    "id": 114,
+    "character": "更",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "さら", "romanji": "sara" }, { "furigana": "ふ", "romanji": "fu" } ],
+      "on": [ { "furigana": "コウ", "romanji": "kou" } ]
+    },
+    "meanings": {
+      "id": "selanjutnya, bertambah, larut, merubah",
+      "en": "next, increase, late, change"
+    },
+    "examples": [
+      { "word": "更に", "furigana": "さらに", "romanji": "sarani", "id": 114, "meanings": { "id": "selanjutnya", "en": "next" } },
+      { "word": "更改", "furigana": "こうかい", "romanji": "koukai", "id": 114, "meanings": { "id": "merubah", "en": "change" } }
+    ]
+  },
+  {
+    "id": 115,
+    "character": "状",
+    "strokes": 7,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ジョウ", "romanji": "jou" } ]
+    },
+    "meanings": {
+      "id": "keadaan, kabar",
+      "en": "condition, news"
+    },
+    "examples": [
+      { "word": "状況", "furigana": "じょうきょう", "romanji": "joukyou", "id": 115, "meanings": { "id": "keadaan", "en": "condition" } },
+      { "word": "近況", "furigana": "きんきょう", "romanji": "kinkyou", "id": 115, "meanings": { "id": "kabar", "en": "news" } }
+    ]
+  },
+  {
+    "id": 116,
+    "character": "位",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "くらい", "romanji": "kurai" } ],
+      "on": [ { "furigana": "イ", "romanji": "i" } ]
+    },
+    "meanings": {
+      "id": "peringkat, pangkat, posisi, lokasi",
+      "en": "rank, position, location"
+    },
+    "examples": [
+      { "word": "位", "furigana": "くらい", "romanji": "kurai", "id": 116, "meanings": { "id": "peringkat, pangkat", "en": "rank, position" } },
+      { "word": "位置", "furigana": "いち", "romanji": "ichi", "id": 116, "meanings": { "id": "posisi, lokasi", "en": "position, location" } }
+    ]
+  },
+  {
+    "id": 117,
+    "character": "似",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "に", "romanji": "ni" } ],
+      "on": [ { "furigana": "ジ", "romanji": "ji" } ]
+    },
+    "meanings": {
+      "id": "mirip, menyerupai, kemiripan, keserupaan",
+      "en": "similar, resemble, similarity"
+    },
+    "examples": [
+      { "word": "似る", "furigana": "にる", "romanji": "niru", "id": 117, "meanings": { "id": "mirip, menyerupai", "en": "similar, resemble" } },
+      { "word": "類似", "furigana": "るいじ", "romanji": "ruiji", "id": 117, "meanings": { "id": "kemiripan, keserupaan", "en": "similarity" } }
+    ]
+  },
+  {
+    "id": 118,
+    "character": "助",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "たす", "romanji": "tas" }, { "furigana": "すけ", "romanji": "suke" } ],
+      "on": [ { "furigana": "ジョ", "romanji": "jo" } ]
+    },
+    "meanings": {
+      "id": "menolong, asisten",
+      "en": "help, assistant"
+    },
+    "examples": [
+      { "word": "助ける", "furigana": "たすける", "romanji": "tasukeru", "id": 118, "meanings": { "id": "menolong", "en": "to help" } },
+      { "word": "助手", "furigana": "じょしゅ", "romanji": "joshu", "id": 118, "meanings": { "id": "asisten", "en": "assistant" } }
+    ]
+  },
+  {
+    "id": 119,
+    "character": "束",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "たば", "romanji": "taba" } ],
+      "on": [ { "furigana": "ソク", "romanji": "soku" } ]
+    },
+    "meanings": {
+      "id": "mengikat, janji",
+      "en": "bind, promise"
+    },
+    "examples": [
+      { "word": "束ねる", "furigana": "たばねる", "romanji": "tabaneru", "id": 119, "meanings": { "id": "mengikat", "en": "to bind" } },
+      { "word": "約束", "furigana": "やくそく", "romanji": "yakusoku", "id": 119, "meanings": { "id": "janji", "en": "promise" } }
+    ]
+  },
+  {
+    "id": 120,
+    "character": "労",
+    "strokes": 7,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ロウ", "romanji": "rou" } ]
+    },
+    "meanings": {
+      "id": "perburuhan",
+      "en": "labor"
+    },
+    "examples": [
+      { "word": "労働", "furigana": "ろうどう", "romanji": "roudou", "id": 120, "meanings": { "id": "perburuhan", "en": "labor" } }
+    ]
+  }
+]

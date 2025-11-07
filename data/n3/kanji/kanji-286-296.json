@@ -1,0 +1,188 @@
+[
+  {
+    "id": 286,
+    "character": "現",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "あらわ", "romanji": "arawa" } ],
+      "on": [ { "furigana": "ゲン", "romanji": "gen" } ]
+    },
+    "meanings": {
+      "id": "tampak, muncul, sekarang",
+      "en": "appear, present"
+    },
+    "examples": [
+      { "word": "現れる", "furigana": "あらわれる", "romanji": "arawareru", "id": 286, "meanings": { "id": "tampak, muncul", "en": "to appear" } },
+      { "word": "現在", "furigana": "げんざい", "romanji": "genzai", "id": 286, "meanings": { "id": "sekarang", "en": "present" } }
+    ]
+  },
+  {
+    "id": 287,
+    "character": "雪",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "ゆき", "romanji": "yuki" } ],
+      "on": [ { "furigana": "セツ", "romanji": "setsu" } ]
+    },
+    "meanings": {
+      "id": "salju, dataran salju",
+      "en": "snow, snowfield"
+    },
+    "examples": [
+      { "word": "雪", "furigana": "ゆき", "romanji": "yuki", "id": 287, "meanings": { "id": "salju", "en": "snow" } },
+      { "word": "雪原", "furigana": "せつげん", "romanji": "setsugen", "id": 287, "meanings": { "id": "dataran salju", "en": "snowfield" } }
+    ]
+  },
+  {
+    "id": 288,
+    "character": "貧",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "まず", "romanji": "mazu" } ],
+      "on": [ { "furigana": "ヒン", "romanji": "hin" }, { "furigana": "ビン", "romanji": "bin" } ]
+    },
+    "meanings": {
+      "id": "miskin, anemia",
+      "en": "poor, anemia"
+    },
+    "examples": [
+      { "word": "貧しい", "furigana": "まずしい", "romanji": "mazushii", "id": 288, "meanings": { "id": "miskin", "en": "poor" } },
+      { "word": "貧血", "furigana": "ひんけつ", "romanji": "hinketsu", "id": 288, "meanings": { "id": "anemia", "en": "anemia" } }
+    ]
+  },
+  {
+    "id": 289,
+    "character": "欲",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "ほ", "romanji": "ho" }, { "furigana": "はつ", "romanji": "hatsu" } ],
+      "on": [ { "furigana": "ヨク", "romanji": "yoku" } ]
+    },
+    "meanings": {
+      "id": "ingin, nafsu makan",
+      "en": "want, appetite"
+    },
+    "examples": [
+      { "word": "欲しい", "furigana": "ほしい", "romanji": "hoshii", "id": 289, "meanings": { "id": "ingin", "en": "want" } },
+      { "word": "食欲", "furigana": "しょくよく", "romanji": "shokuyoku", "id": 289, "meanings": { "id": "nafsu makan", "en": "appetite" } }
+    ]
+  },
+  {
+    "id": 290,
+    "character": "偶",
+    "strokes": 11,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "グウ", "romanji": "guu" } ]
+    },
+    "meanings": {
+      "id": "bilangan genap",
+      "en": "even number"
+    },
+    "examples": [
+      { "word": "偶数", "furigana": "ぐうすう", "romanji": "guusuu", "id": 290, "meanings": { "id": "bilangan genap", "en": "even number" } }
+    ]
+  },
+  {
+    "id": 291,
+    "character": "側",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "がわ", "romanji": "gawa" } ],
+      "on": [ { "furigana": "ソク", "romanji": "soku" } ]
+    },
+    "meanings": {
+      "id": "bagian barat, sebelah kanan",
+      "en": "west side, right side"
+    },
+    "examples": [
+      { "word": "西側", "furigana": "にしがわ", "romanji": "nishigawa", "id": 291, "meanings": { "id": "bagian barat", "en": "west side" } },
+      { "word": "右側", "furigana": "みぎがわ", "romanji": "migigawa", "id": 291, "meanings": { "id": "sebelah kanan", "en": "right side" } }
+    ]
+  },
+  {
+    "id": 292,
+    "character": "停",
+    "strokes": 11,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "テイ", "romanji": "tei" } ]
+    },
+    "meanings": {
+      "id": "halte",
+      "en": "stop, station"
+    },
+    "examples": [
+      { "word": "停留所", "furigana": "ていりゅうじょ", "romanji": "teiryuujo", "id": 292, "meanings": { "id": "halte", "en": "bus stop, station" } }
+    ]
+  },
+  {
+    "id": 293,
+    "character": "経",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "へ", "romanji": "he" } ],
+      "on": [ { "furigana": "ケイ", "romanji": "kei" }, { "furigana": "キョウ", "romanji": "kyou" } ]
+    },
+    "meanings": {
+      "id": "melalui, berlalu, pengalaman",
+      "en": "pass, experience"
+    },
+    "examples": [
+      { "word": "経る", "furigana": "へる", "romanji": "heru", "id": 293, "meanings": { "id": "melalui, berlalu", "en": "to pass" } },
+      { "word": "経験", "furigana": "けいけん", "romanji": "keiken", "id": 293, "meanings": { "id": "pengalaman", "en": "experience" } }
+    ]
+  },
+  {
+    "id": 294,
+    "character": "細",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "ほそ", "romanji": "hoso" }, { "furigana": "こま", "romanji": "koma" } ],
+      "on": [ { "furigana": "サイ", "romanji": "sai" } ]
+    },
+    "meanings": {
+      "id": "kurus, ramping, halus, kecil, bakteri",
+      "en": "thin, small, bacteria"
+    },
+    "examples": [
+      { "word": "細い", "furigana": "ほそい", "romanji": "hosoi", "id": 294, "meanings": { "id": "kurus, ramping", "en": "thin, slim" } },
+      { "word": "細かい", "furigana": "こまかい", "romanji": "komakai", "id": 294, "meanings": { "id": "halus, kecil", "en": "small, fine" } },
+      { "word": "細菌", "furigana": "さいきん", "romanji": "saikin", "id": 294, "meanings": { "id": "bakteri", "en": "bacteria" } }
+    ]
+  },
+  {
+    "id": 295,
+    "character": "窓",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "まど", "romanji": "mado" } ],
+      "on": [ { "furigana": "ソウ", "romanji": "sou" } ]
+    },
+    "meanings": {
+      "id": "loket, reuni alumni",
+      "en": "window, alumni reunion"
+    },
+    "examples": [
+      { "word": "窓口", "furigana": "まどぐち", "romanji": "madoguchi", "id": 295, "meanings": { "id": "loket", "en": "window, counter" } },
+      { "word": "同窓会", "furigana": "どうそうかい", "romanji": "dousoukai", "id": 295, "meanings": { "id": "reuni alumni", "en": "alumni reunion" } }
+    ]
+  },
+  {
+    "id": 296,
+    "character": "宿",
+    "strokes": 11,
+    "readings": {
+      "kun": [ { "furigana": "やど", "romanji": "yado" } ],
+      "on": [ { "furigana": "シュク", "romanji": "shuku" } ]
+    },
+    "meanings": {
+      "id": "rumah penginapan, pekerjaan rumah",
+      "en": "inn, homework"
+    },
+    "examples": [
+      { "word": "宿屋", "furigana": "やどや", "romanji": "yadoya", "id": 296, "meanings": { "id": "rumah penginapan", "en": "inn" } },
+      { "word": "宿題", "furigana": "しゅくだい", "romanji": "shukudai", "id": 296, "meanings": { "id": "pekerjaan rumah", "en": "homework" } }
+    ]
+  }
+]

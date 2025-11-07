@@ -1,0 +1,331 @@
+[
+  {
+    "id": 191,
+    "character": "砂",
+    "strokes": 9,
+    "readings": {
+      "kun": [{ "furigana": "すな", "romanji": "suna" }],
+      "on": [
+        { "furigana": "サ", "romanji": "sa" },
+        { "furigana": "ジャ", "romanji": "ja" }
+      ]
+    },
+    "meanings": {
+      "id": "pasir, gula, kerikil",
+      "en": "sand, sugar, gravel"
+    },
+    "examples": [
+      {
+        "word": "砂",
+        "furigana": "すな",
+        "romanji": "suna",
+        "id": 152,
+        "meanings": { "id": "pasir", "en": "sand" }
+      },
+      {
+        "word": "砂糖",
+        "furigana": "さとう",
+        "romanji": "satou",
+        "id": 191,
+        "meanings": { "id": "gula", "en": "sugar" }
+      },
+      {
+        "word": "砂利",
+        "furigana": "じゃり",
+        "romanji": "jari",
+        "id": 191,
+        "meanings": { "id": "kerikil", "en": "gravel" }
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "character": "紅",
+    "strokes": 9,
+    "readings": {
+      "kun": [
+        { "furigana": "くれない", "romanji": "kurenai" },
+        { "furigana": "べに", "romanji": "beni" }
+      ],
+      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+    },
+    "meanings": {
+      "id": "merah terang, lipstik, teh merah",
+      "en": "bright red, lipstick, black tea"
+    },
+    "examples": [
+      {
+        "word": "紅",
+        "furigana": "べに",
+        "romanji": "beni",
+        "id": 153,
+        "meanings": { "id": "merah terang", "en": "bright red" }
+      },
+      {
+        "word": "口紅",
+        "furigana": "くちべに",
+        "romanji": "kuchibeni",
+        "id": 192,
+        "meanings": { "id": "lipstik", "en": "lipstick" }
+      },
+      {
+        "word": "紅茶",
+        "furigana": "こうちゃ",
+        "romanji": "koucha",
+        "id": 192,
+        "meanings": { "id": "teh merah", "en": "black tea" }
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "character": "級",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "キュウ", "romanji": "kyuu" }]
+    },
+    "meanings": {
+      "id": "tingkat pemula",
+      "en": "beginner level"
+    },
+    "examples": [
+      {
+        "word": "初級",
+        "furigana": "しょきゅう",
+        "romanji": "shokyuu",
+        "id": 193,
+        "meanings": { "id": "tingkat pemula", "en": "beginner level" }
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "character": "約",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "ヤク", "romanji": "yaku" }]
+    },
+    "meanings": {
+      "id": "kira-kira, pemesanan tempat",
+      "en": "about, reservation"
+    },
+    "examples": [
+      {
+        "word": "約",
+        "furigana": "やく",
+        "romanji": "yaku",
+        "id": 154,
+        "meanings": { "id": "kira-kira", "en": "approximately / about" }
+      },
+      {
+        "word": "予約",
+        "furigana": "よやく",
+        "romanji": "yoyaku",
+        "id": 194,
+        "meanings": { "id": "pemesanan tempat", "en": "reservation" }
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "character": "査",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "サ", "romanji": "sa" }]
+    },
+    "meanings": {
+      "id": "visa",
+      "en": "visa"
+    },
+    "examples": [
+      {
+        "word": "査証",
+        "furigana": "さしょう",
+        "romanji": "sashou",
+        "id": 195,
+        "meanings": { "id": "visa", "en": "visa" }
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "character": "単",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "タン", "romanji": "tan" }]
+    },
+    "meanings": {
+      "id": "kosakata, mudah",
+      "en": "vocabulary, easy"
+    },
+    "examples": [
+      {
+        "word": "単語",
+        "furigana": "たんご",
+        "romanji": "tango",
+        "id": 196,
+        "meanings": { "id": "kosakata", "en": "vocabulary" }
+      },
+      {
+        "word": "簡単",
+        "furigana": "かんたん",
+        "romanji": "kantan",
+        "id": 196,
+        "meanings": { "id": "mudah", "en": "easy" }
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "character": "昨",
+    "strokes": 9,
+    "readings": {
+      "kun": [],
+      "on": [{ "furigana": "サク", "romanji": "saku" }]
+    },
+    "meanings": {
+      "id": "kemarin, tahun lalu",
+      "en": "yesterday, last year"
+    },
+    "examples": [
+      {
+        "word": "昨日",
+        "furigana": "きのう",
+        "romanji": "kinou",
+        "id": 197,
+        "meanings": { "id": "kemarin", "en": "yesterday" }
+      },
+      {
+        "word": "昨年",
+        "furigana": "さくねん",
+        "romanji": "sakunen",
+        "id": 197,
+        "meanings": { "id": "tahun lalu", "en": "last year" }
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "character": "要",
+    "strokes": 9,
+    "readings": {
+      "kun": [
+        { "furigana": "い", "romanji": "i" },
+        { "furigana": "かなめ", "romanji": "kaname" }
+      ],
+      "on": [{ "furigana": "ヨウ", "romanji": "you" }]
+    },
+    "meanings": {
+      "id": "perlu, paling perlu, penting",
+      "en": "need, most needed, important"
+    },
+    "examples": [
+      {
+        "word": "要る",
+        "furigana": "いる",
+        "romanji": "iru",
+        "id": 198,
+        "meanings": { "id": "perlu", "en": "need" }
+      },
+      {
+        "word": "要",
+        "furigana": "よう",
+        "romanji": "you",
+        "id": 155,
+        "meanings": { "id": "paling perlu", "en": "essential / important" }
+      },
+      {
+        "word": "重要",
+        "furigana": "じゅうよう",
+        "romanji": "juuyou",
+        "id": 198,
+        "meanings": { "id": "penting", "en": "important" }
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "character": "負",
+    "strokes": 9,
+    "readings": {
+      "kun": [
+        { "furigana": "ま", "romanji": "ma" },
+        { "furigana": "お", "romanji": "o" }
+      ],
+      "on": [
+        { "furigana": "フ", "romanji": "fu" },
+        { "furigana": "ブ", "romanji": "bu" }
+      ]
+    },
+    "meanings": {
+      "id": "kalah, membawa, beban",
+      "en": "lose, carry, burden"
+    },
+    "examples": [
+      {
+        "word": "負ける",
+        "furigana": "まける",
+        "romanji": "makeru",
+        "id": 199,
+        "meanings": { "id": "kalah", "en": "to lose" }
+      },
+      {
+        "word": "負う",
+        "furigana": "おう",
+        "romanji": "ou",
+        "id": 199,
+        "meanings": { "id": "membawa", "en": "to carry" }
+      },
+      {
+        "word": "負担",
+        "furigana": "ふたん",
+        "romanji": "futan",
+        "id": 199,
+        "meanings": { "id": "beban", "en": "burden" }
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "character": "政",
+    "strokes": 9,
+    "readings": {
+      "kun": [{ "furigana": "まつりごと", "romanji": "matsurigoto" }],
+      "on": [
+        { "furigana": "セイ", "romanji": "sei" },
+        { "furigana": "ショウ", "romanji": "shou" }
+      ]
+    },
+    "meanings": {
+      "id": "politik, pemerintah, bupati",
+      "en": "politics, government, regent"
+    },
+    "examples": [
+      {
+        "word": "政",
+        "furigana": "せい",
+        "romanji": "sei",
+        "id": 156,
+        "meanings": { "id": "politik", "en": "politics / government" }
+      },
+      {
+        "word": "政府",
+        "furigana": "せいふ",
+        "romanji": "seifu",
+        "id": 200,
+        "meanings": { "id": "pemerintah", "en": "government" }
+      },
+      {
+        "word": "摂政",
+        "furigana": "せっしょう",
+        "romanji": "sesshou",
+        "id": 200,
+        "meanings": { "id": "bupati", "en": "regent" }
+      }
+    ]
+  }
+]

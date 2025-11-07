@@ -1,0 +1,173 @@
+[
+  {
+    "id": 377,
+    "character": "戦",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "たたか", "romanji": "tataka" }, { "furigana": "いくさ", "romanji": "ikusa" } ],
+      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+    },
+    "meanings": {
+      "id": "berperang, perang, peperangan, tantangan",
+      "en": "fight, war, battle, challenge"
+    },
+    "examples": [
+      { "word": "戦う", "furigana": "たたかう", "romanji": "tatakau", "id": 377, "meanings": { "id": "berperang", "en": "to fight" } },
+      { "word": "戦争", "furigana": "せんそう", "romanji": "sensou", "id": 377, "meanings": { "id": "perang", "en": "war" } },
+      { "word": "挑戦", "furigana": "ちょうせん", "romanji": "chousen", "id": 377, "meanings": { "id": "tantangan", "en": "challenge" } }
+    ]
+  },
+  {
+    "id": 378,
+    "character": "裏",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "うら", "romanji": "ura" } ],
+      "on": [ { "furigana": "リ", "romanji": "ri" } ]
+    },
+    "meanings": {
+      "id": "pintu belakang, dalam benak, dalam otak",
+      "en": "back door, in mind, in brain"
+    },
+    "examples": [
+      { "word": "裏口", "furigana": "うらぐち", "romanji": "uraguchi", "id": 378, "meanings": { "id": "pintu belakang", "en": "back door" } },
+      { "word": "脳裏", "furigana": "のうり", "romanji": "nouri", "id": 378, "meanings": { "id": "dalam benak, dalam otak", "en": "in mind, in brain" } }
+    ]
+  },
+  {
+    "id": 379,
+    "character": "準",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ジュン", "romanji": "jun" } ]
+    },
+    "meanings": {
+      "id": "persiapan",
+      "en": "preparation"
+    },
+    "examples": [
+      { "word": "準備", "furigana": "じゅんび", "romanji": "junbi", "id": 379, "meanings": { "id": "persiapan", "en": "preparation" } }
+    ]
+  },
+  {
+    "id": 380,
+    "character": "資",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "シ", "romanji": "shi" } ]
+    },
+    "meanings": {
+      "id": "sumber, modal, dana",
+      "en": "resource, capital, fund"
+    },
+    "examples": [
+      { "word": "資源", "furigana": "しげん", "romanji": "shigen", "id": 380, "meanings": { "id": "sumber", "en": "resource" } },
+      { "word": "資金", "furigana": "しきん", "romanji": "shikin", "id": 380, "meanings": { "id": "modal, dana", "en": "capital, fund" } }
+    ]
+  },
+  {
+    "id": 381,
+    "character": "数",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "かず", "romanji": "kazu" }, { "furigana": "かぞ", "romanji": "kazo" } ],
+      "on": [ { "furigana": "スウ", "romanji": "suu" } ]
+    },
+    "meanings": {
+      "id": "jumlah, menghitung, matematika",
+      "en": "number, count, mathematics"
+    },
+    "examples": [
+      { "word": "数", "furigana": "かず", "romanji": "kazu", "id": 381, "meanings": { "id": "jumlah", "en": "number" } },
+      { "word": "数える", "furigana": "かぞえる", "romanji": "kazoeru", "id": 381, "meanings": { "id": "menghitung", "en": "to count" } },
+      { "word": "数学", "furigana": "すうがく", "romanji": "suugaku", "id": 381, "meanings": { "id": "matematika", "en": "mathematics" } }
+    ]
+  },
+  {
+    "id": 382,
+    "character": "預",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "あず", "romanji": "azu" } ],
+      "on": [ { "furigana": "ヨ", "romanji": "yo" } ]
+    },
+    "meanings": {
+      "id": "menitipkan, deposito",
+      "en": "entrust, deposit"
+    },
+    "examples": [
+      { "word": "預ける", "furigana": "あずける", "romanji": "azukeru", "id": 382, "meanings": { "id": "menitipkan", "en": "to entrust" } },
+      { "word": "預金", "furigana": "よきん", "romanji": "yokin", "id": 382, "meanings": { "id": "deposito", "en": "deposit" } }
+    ]
+  },
+  {
+    "id": 383,
+    "character": "園",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "その", "romanji": "sono" } ],
+      "on": [ { "furigana": "エン", "romanji": "en" } ]
+    },
+    "meanings": {
+      "id": "kebun, taman, teknik perkebunan",
+      "en": "garden, park, horticulture"
+    },
+    "examples": [
+      { "word": "園芸", "furigana": "えんげい", "romanji": "engei", "id": 383, "meanings": { "id": "teknik perkebunan", "en": "horticulture" } },
+      { "word": "公園", "furigana": "こうえん", "romanji": "kouen", "id": 383, "meanings": { "id": "taman", "en": "park" } }
+    ]
+  },
+  {
+    "id": 384,
+    "character": "腹",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "はら", "romanji": "hara" } ],
+      "on": [ { "furigana": "フク", "romanji": "fuku" } ]
+    },
+    "meanings": {
+      "id": "perut, sakit perut",
+      "en": "stomach, stomachache"
+    },
+    "examples": [
+      { "word": "腹", "furigana": "はら", "romanji": "hara", "id": 384, "meanings": { "id": "perut", "en": "stomach" } },
+      { "word": "腹痛", "furigana": "ふくつう", "romanji": "fukutsuu", "id": 384, "meanings": { "id": "sakit perut", "en": "stomachache" } }
+    ]
+  },
+  {
+    "id": 385,
+    "character": "暗",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "くら", "romanji": "kura" } ],
+      "on": [ { "furigana": "アン", "romanji": "an" } ]
+    },
+    "meanings": {
+      "id": "gelap, hafalan",
+      "en": "dark, memorization"
+    },
+    "examples": [
+      { "word": "暗い", "furigana": "くらい", "romanji": "kurai", "id": 385, "meanings": { "id": "gelap", "en": "dark" } },
+      { "word": "暗記", "furigana": "あんき", "romanji": "anki", "id": 385, "meanings": { "id": "hafalan", "en": "memorization" } }
+    ]
+  },
+  {
+    "id": 386,
+    "character": "暖",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "あたた", "romanji": "atata" } ],
+      "on": [ { "furigana": "ダン", "romanji": "dan" } ]
+    },
+    "meanings": {
+      "id": "benda yang hangat, pemanasan global",
+      "en": "warm thing, global warming"
+    },
+    "examples": [
+      { "word": "暖かい", "furigana": "あたたかい", "romanji": "atatakai", "id": 386, "meanings": { "id": "benda yang hangat", "en": "warm thing" } },
+      { "word": "温暖化", "furigana": "おんだんか", "romanji": "ondanka", "id": 386, "meanings": { "id": "pemanasan global", "en": "global warming" } }
+    ]
+  }
+]
