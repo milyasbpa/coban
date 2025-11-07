@@ -41,6 +41,7 @@ export interface VocabularyPairingExerciseState {
   getIsCurrentSectionComplete: () => boolean;
   canRetry: () => boolean;
   getSectionTotalWords: () => number;
+  getTotalGameWords: () => number; // Get total words across all sections
   
   // Game State Actions
   setGameComplete: (complete: boolean) => void;
@@ -128,6 +129,11 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
   getSectionTotalWords: () => {
     const { sectionState: { gameWords } } = get();
     return gameWords.length;
+  },
+
+  getTotalGameWords: () => {
+    const { gameState: { allGameWords } } = get();
+    return allGameWords.length;
   },
 
   // Game State Actions
@@ -303,8 +309,8 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
 
   // Game Initialization Actions
   initializeGame: (words) => {
-    // Create sections of 6 pairs each (12 cards per section)
-    const sections = createSections(words, 6);
+    // Create sections of 5 pairs each (10 cards per section)
+    const sections = createSections(words, 5);
     
     set({
       gameState: {

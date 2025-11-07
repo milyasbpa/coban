@@ -13,10 +13,10 @@ function getScoreTextColor(score: number): string {
 export function VocabularyPairingScoreHeader() {
   const {
     gameState: { score, correctPairs },
-    getSectionTotalWords,
+    getTotalGameWords, // Get total words across all sections
   } = useVocabularyPairingExerciseStore();
 
-  const totalWords = getSectionTotalWords();
+  const totalWords = getTotalGameWords(); // Total words keseluruhan, bukan per section
   const scoreTextColor = getScoreTextColor(score);
 
   return (
