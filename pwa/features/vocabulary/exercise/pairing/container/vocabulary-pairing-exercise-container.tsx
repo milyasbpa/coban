@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import { useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
 import { VocabularyPairingHeader } from "../fragments/vocabulary-pairing-header";
 import { VocabularyPairingScoreHeader } from "../fragments/vocabulary-pairing-score-header";
+import { VocabularyPairingDisplayOptionsControl } from "../fragments/vocabulary-pairing-display-options-control";
 import { VocabularyPairingGrid } from "../fragments/vocabulary-pairing-grid";
 import { VocabularyPairingGameResult } from "../fragments/vocabulary-pairing-game-result";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
@@ -70,6 +71,7 @@ export const VocabularyPairingExerciseContainer: React.FC<
       <VocabularyPairingHeader />
       <div className="container mx-auto px-4 py-8 space-y-6">
         <VocabularyPairingScoreHeader />
+        <VocabularyPairingDisplayOptionsControl />
         <VocabularyPairingGrid />
       </div>
     </div>

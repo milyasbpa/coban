@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "@/pwa/core/components/card";
 import { VocabularySelectedCard, useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
+import { useVocabularyPairingDisplayOptions } from "../store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
 interface VocabularyPairingCardProps {
@@ -17,6 +18,7 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
   } = useVocabularyPairingExerciseStore();
   
   const { language } = useLanguage();
+  const { displayHiragana, displayRomaji, displayKanji } = useVocabularyPairingDisplayOptions();
 
   const isSelected = selectedCards.some(selected => 
     selected.id === card.id && selected.type === card.type
@@ -28,8 +30,12 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
 
   const getCardContent = () => {
     if (card.type === "japanese") {
-      // Show kanji if available, otherwise hiragana
-      return card.kanji || card.hiragana;
+      // Show content based on display options
+      if (displayKanji && card.kanji) {
+        return card.kanji;
+      } else {
+        return card.hiragana; // Fallback to hiragana if kanji disabled or not available
+      }
     } else {
       // Show meaning based on selected language
       if (language === 'id') {
@@ -41,15 +47,26 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
   };
 
   const getCardSubtext = () => {
-    if (card.type === "japanese" && card.kanji) {
-      // Show hiragana reading for kanji cards
-      return card.hiragana;
+    if (card.type === "japanese") {
+      const subtexts: string[] = [];
+      
+      // Add hiragana if enabled and kanji is shown
+      if (displayHiragana && displayKanji && card.kanji && card.hiragana) {
+        subtexts.push(card.hiragana);
+      }
+      
+      // Add romaji if enabled
+      if (displayRomaji && card.romaji) {
+        subtexts.push(card.romaji);
+      }
+      
+      return subtexts.length > 0 ? subtexts.join(' • ') : null;
     }
     return null;
   };
 
   const getCardClassName = () => {
-    const baseClasses = "h-24 cursor-pointer transition-all duration-200 flex items-center justify-center text-center select-none";
+    const baseClasses = "h-28 cursor-pointer transition-all duration-200 flex items-center justify-center text-center select-none p-3";
     
     if (isMatched) {
       return `${baseClasses} bg-green-100 border-green-300 text-green-800`;
@@ -71,12 +88,12 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
       className={getCardClassName()}
       onClick={() => !isMatched && !isError && onCardClick(card)}
     >
-      <div className="space-y-1">
-        <div className="text-lg font-semibold">
+      <div className="space-y-1 w-full">
+        <div className="text-lg font-semibold wrap-break-word">
           {getCardContent()}
         </div>
         {getCardSubtext() && (
-          <div className="text-sm text-gray-600">
+          <div className="text-xs text-gray-600 wrap-break-word leading-tight">
             {getCardSubtext()}
           </div>
         )}
