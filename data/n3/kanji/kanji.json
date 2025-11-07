@@ -2844,7 +2844,7 @@
           { "furigana": "も", "romanji": "mo" }
         ],
         "on": [
-          { "furigana": "シュ", "romanji": "shu" },
+ { "furigana": "シュ", "romanji": "shu" },
           { "furigana": "ス", "romanji": "su" }
         ]
       },
@@ -4093,6 +4093,163 @@
           "id": 99,
           "meanings": { "id": "alat musik tiup", "en": "wind instrument" }
         }
+      ]
+    },
+    {
+      "id": 100,
+      "character": "技",
+      "strokes": 7,
+      "readings": {
+        "kun": [ { "furigana": "わざ", "romanji": "waza" } ],
+        "on": [ { "furigana": "ギ", "romanji": "gi" } ]
+      },
+      "meanings": {
+        "id": "kemampuan, teknik",
+        "en": "skill, technique"
+      },
+      "examples": [
+        { "word": "技", "furigana": "わざ", "romanji": "waza", "id": 100, "meanings": { "id": "kemampuan", "en": "skill" } },
+        { "word": "技術", "furigana": "ぎじゅつ", "romanji": "gijutsu", "id": 100, "meanings": { "id": "teknik", "en": "technique" } }
+      ]
+    },
+    {
+      "id": 101,
+      "character": "投",
+      "strokes": 7,
+      "readings": {
+        "kun": [ { "furigana": "なげ", "romanji": "nage" } ],
+        "on": [ { "furigana": "トウ", "romanji": "tou" } ]
+      },
+      "meanings": {
+        "id": "melempar, investasi",
+        "en": "throw, invest"
+      },
+      "examples": [
+        { "word": "投げる", "furigana": "なげる", "romanji": "nageru", "id": 101, "meanings": { "id": "melempar", "en": "to throw" } },
+        { "word": "投資", "furigana": "とうし", "romanji": "toushi", "id": 101, "meanings": { "id": "investasi", "en": "investment" } }
+      ]
+    },
+    {
+      "id": 102,
+      "character": "抜",
+      "strokes": 7,
+      "readings": {
+        "kun": [ { "furigana": "ぬ", "romanji": "nu" } ],
+        "on": [ { "furigana": "バツ", "romanji": "batsu" } ]
+      },
+      "meanings": {
+        "id": "tanpa, istimewa",
+        "en": "without, special"
+      },
+      "examples": [
+        { "word": "抜き", "furigana": "ぬき", "romanji": "nuki", "id": 102, "meanings": { "id": "tanpa", "en": "without" } },
+        { "word": "抜群", "furigana": "ばつぐん", "romanji": "batsugun", "id": 102, "meanings": { "id": "istimewa", "en": "outstanding" } }
+      ]
+    },
+    {
+      "id": 103,
+      "character": "対",
+      "strokes": 7,
+      "readings": {
+        "kun": [],
+        "on": [ { "furigana": "タイ", "romanji": "tai" }, { "furigana": "ツイ", "romanji": "tsui" } ]
+      },
+      "meanings": {
+        "id": "penanggulangan, satu pasang",
+        "en": "countermeasure, pair"
+      },
+      "examples": [
+        { "word": "対策", "furigana": "たいさく", "romanji": "taisaku", "id": 103, "meanings": { "id": "penanggulangan", "en": "countermeasure" } },
+        { "word": "一対", "furigana": "いっつい", "romanji": "ittsui", "id": 103, "meanings": { "id": "satu pasang", "en": "a pair" } }
+      ]
+    },
+    {
+      "id": 104,
+      "character": "決",
+      "strokes": 7,
+      "readings": {
+        "kun": [ { "furigana": "き", "romanji": "ki" } ],
+        "on": [ { "furigana": "ケツ", "romanji": "ketsu" }, { "furigana": "ケッ", "romanji": "ke" } ]
+      },
+      "meanings": {
+        "id": "menentukan, keputusan, tekat",
+        "en": "decide, decision, determination"
+      },
+      "examples": [
+        { "word": "決める", "furigana": "きめる", "romanji": "kimeru", "id": 104, "meanings": { "id": "menentukan", "en": "to decide" } },
+        { "word": "決意", "furigana": "けつい", "romanji": "ketsui", "id": 104, "meanings": { "id": "tekat", "en": "determination" } },
+        { "word": "決定", "furigana": "けってい", "romanji": "kettei", "id": 104, "meanings": { "id": "keputusan", "en": "decision" } }
+      ]
+    },
+    {
+      "id": 105,
+      "character": "初",
+      "strokes": 7,
+      "readings": {
+        "kun": [ { "furigana": "はつ", "romanji": "hatsu" }, { "furigana": "はじ", "romanji": "haji" }, { "furigana": "うい", "romanji": "ui" }, { "furigana": "そ", "romanji": "so" } ],
+        "on": [ { "furigana": "ショ", "romanji": "sho" } ]
+      },
+      "meanings": {
+        "id": "pertama kali, awal, pertempuran, mulai, tingkat dasar",
+        "en": "first time, beginning, battle, start, basic level"
+      },
+      "examples": [
+        { "word": "初耳", "furigana": "はつみみ", "romanji": "hatsumimi", "id": 105, "meanings": { "id": "pertama kali mendengar", "en": "first time hearing" } },
+        { "word": "初め", "furigana": "はじめ", "romanji": "hajime", "id": 105, "meanings": { "id": "awal", "en": "beginning" } },
+        { "word": "初陣", "furigana": "ういじん", "romanji": "uijin", "id": 105, "meanings": { "id": "pertempuran", "en": "first battle" } },
+        { "word": "初める", "furigana": "はじめる", "romanji": "hajimeru", "id": 105, "meanings": { "id": "mulai", "en": "to start" } },
+        { "word": "初級", "furigana": "しょきゅう", "romanji": "shokyuu", "id": 105, "meanings": { "id": "tingkat dasar", "en": "basic level" } }
+      ]
+    },
+    {
+      "id": 106,
+      "character": "改",
+      "strokes": 7,
+      "readings": {
+        "kun": [ { "furigana": "あらた", "romanji": "arata" } ],
+        "on": [ { "furigana": "カイ", "romanji": "kai" } ]
+      },
+      "meanings": {
+        "id": "memperbaiki, inovasi",
+        "en": "improve, innovation"
+      },
+      "examples": [
+        { "word": "改める", "furigana": "あらためる", "romanji": "aratameru", "id": 106, "meanings": { "id": "memperbaiki", "en": "to improve" } },
+        { "word": "改革", "furigana": "かいかく", "romanji": "kaikaku", "id": 106, "meanings": { "id": "inovasi", "en": "innovation" } }
+      ]
+    },
+    {
+      "id": 107,
+      "character": "否",
+      "strokes": 7,
+      "readings": {
+        "kun": [ { "furigana": "いな", "romanji": "ina" } ],
+        "on": [ { "furigana": "ヒ", "romanji": "hi" } ]
+      },
+      "meanings": {
+        "id": "tidak, menolak, penyangkalan",
+        "en": "no, refuse, denial"
+      },
+      "examples": [
+        { "word": "否", "furigana": "いな", "romanji": "ina", "id": 107, "meanings": { "id": "tidak, menolak", "en": "no, refuse" } },
+        { "word": "否定", "furigana": "ひてい", "romanji": "hitei", "id": 107, "meanings": { "id": "penyangkalan", "en": "denial" } }
+      ]
+    },
+    {
+      "id": 108,
+      "character": "判",
+      "strokes": 7,
+      "readings": {
+        "kun": [],
+        "on": [ { "furigana": "ハン", "romanji": "han" }, { "furigana": "バン", "romanji": "ban" } ]
+      },
+      "meanings": {
+        "id": "cap, pengadilan",
+        "en": "seal, judgment"
+      },
+      "examples": [
+        { "word": "判子", "furigana": "はんこ", "romanji": "hanko", "id": 108, "meanings": { "id": "cap", "en": "seal" } },
+        { "word": "裁判", "furigana": "さいばん", "romanji": "saiban", "id": 108, "meanings": { "id": "pengadilan", "en": "judgment, court" } }
       ]
     }
   ]
