@@ -1081,7 +1081,7 @@
             "en": "soap"
           }
         },
-         {
+        {
           "word": "磁石",
           "furigana": "じしゃく",
           "romanji": "jishaku",
@@ -1126,7 +1126,7 @@
             "en": "to hit"
           }
         },
-         {
+        {
           "word": "打者",
           "furigana": "だしゃ",
           "romanji": "dasha",
@@ -1338,7 +1338,7 @@
         "en": "necessary"
       },
       "examples": [
-         {
+        {
           "word": "必ず",
           "furigana": "かならず",
           "romanji": "kanarazu",
@@ -1433,13 +1433,33 @@
       },
       "examples": [
         {
+          "word": "示す",
+          "furigana": "しめす",
+          "romanji": "shimesu",
+          "id": 31,
+          "meanings": {
+            "id": "menunjukkan",
+            "en": "to show; to indicate"
+          }
+        },
+        {
           "word": "指示",
           "furigana": "しじ",
           "romanji": "shiji",
           "id": 31,
           "meanings": {
             "id": "petunjuk",
-            "en": "instruction"
+            "en": "instruction; direction"
+          }
+        },
+        {
+          "word": "示唆",
+          "furigana": "しさ",
+          "romanji": "shisa",
+          "id": 31,
+          "meanings": {
+            "id": "pengarahan, petunjuk",
+            "en": "suggestion; implication; indication"
           }
         }
       ]
@@ -1471,6 +1491,26 @@
         "en": "ice"
       },
       "examples": [
+        {
+          "word": "氷",
+          "furigana": "こおり",
+          "romanji": "koori",
+          "id": 32,
+          "meanings": {
+            "id": "es batu",
+            "en": "ice"
+          }
+        },
+        {
+          "word": "氷雨",
+          "furigana": "ひさめ",
+          "romanji": "hisame",
+          "id": 32,
+          "meanings": {
+            "id": "hujan es di musim panas",
+            "en": "hail; summer hail"
+          }
+        },
         {
           "word": "氷山",
           "furigana": "ひょうざん",
@@ -1511,13 +1551,33 @@
       },
       "examples": [
         {
+          "word": "失う",
+          "furigana": "うしなう",
+          "romanji": "ushinau",
+          "id": 33,
+          "meanings": {
+            "id": "kehilangan",
+            "en": "to lose"
+          }
+        },
+        {
+          "word": "失礼",
+          "furigana": "しつれい",
+          "romanji": "shitsurei",
+          "id": 33,
+          "meanings": {
+            "id": "tidak sopan",
+            "en": "rude; impolite"
+          }
+        },
+        {
           "word": "失敗",
           "furigana": "しっぱい",
           "romanji": "shippai",
           "id": 33,
           "meanings": {
             "id": "gagal",
-            "en": "failure"
+            "en": "failure; mistake"
           }
         }
       ]
@@ -1576,13 +1636,23 @@
       },
       "examples": [
         {
+          "word": "申す",
+          "furigana": "もうす",
+          "romanji": "mousu",
+          "id": 35,
+          "meanings": {
+            "id": "berkata (bentuk sopan)",
+            "en": "to say (humble form)"
+          }
+        },
+        {
           "word": "申告",
           "furigana": "しんこく",
           "romanji": "shinkoku",
           "id": 35,
           "meanings": {
             "id": "laporan",
-            "en": "report"
+            "en": "report; declaration"
           }
         }
       ]
@@ -1610,13 +1680,23 @@
       },
       "examples": [
         {
-          "word": "礼儀",
-          "furigana": "れいぎ",
-          "romanji": "reigi",
+          "word": "お礼",
+          "furigana": "おれい",
+          "romanji": "orei",
+          "id": 36,
+          "meanings": {
+            "id": "ucapan terima kasih",
+            "en": "gratitude; thanks"
+          }
+        },
+        {
+          "word": "礼賛",
+          "furigana": "らいさん",
+          "romanji": "raisan",
           "id": 36,
           "meanings": {
             "id": "pemujaan, pujian",
-            "en": "courtesy"
+            "en": "praise; adoration"
           }
         }
       ]
@@ -1652,6 +1732,16 @@
           "meanings": {
             "id": "menambah",
             "en": "to add"
+          }
+        },
+        {
+          "word": "参加",
+          "furigana": "さんか",
+          "romanji": "sanka",
+          "id": 37,
+          "meanings": {
+            "id": "partisipasi, ikut serta",
+            "en": "participation"
           }
         }
       ]
@@ -1694,7 +1784,27 @@
           "id": 38,
           "meanings": {
             "id": "rata, datar",
-            "en": "flat"
+            "en": "flat; level"
+          }
+        },
+        {
+          "word": "平和",
+          "furigana": "へいわ",
+          "romanji": "heiwa",
+          "id": 38,
+          "meanings": {
+            "id": "kedamaian",
+            "en": "peace"
+          }
+        },
+        {
+          "word": "平等",
+          "furigana": "びょうどう",
+          "romanji": "byoudou",
+          "id": 38,
+          "meanings": {
+            "id": "sama rata, adil",
+            "en": "equality; fairness"
           }
         }
       ]
@@ -1730,6 +1840,16 @@
           "meanings": {
             "id": "membayar",
             "en": "to pay"
+          }
+        },
+        {
+          "word": "払底",
+          "furigana": "ふってい",
+          "romanji": "futtei",
+          "id": 39,
+          "meanings": {
+            "id": "sangat kekurangan",
+            "en": "shortage; lack"
           }
         }
       ]
@@ -1794,7 +1914,17 @@
           "id": 41,
           "meanings": {
             "id": "melakukan kejahatan",
-            "en": "to commit crime"
+            "en": "to commit a crime"
+          }
+        },
+        {
+          "word": "犯罪",
+          "furigana": "はんざい",
+          "romanji": "hanzai",
+          "id": 41,
+          "meanings": {
+            "id": "kejahatan",
+            "en": "crime"
           }
         }
       ]
@@ -1823,13 +1953,23 @@
       },
       "examples": [
         {
-          "word": "共様",
-          "furigana": "ともさま",
-          "romanji": "tomosama",
+          "word": "共稼ぎ",
+          "furigana": "ともかせぎ",
+          "romanji": "tomokasegi",
           "id": 42,
           "meanings": {
-            "id": "suami & istri bersatu",
-            "en": "together"
+            "id": "suami & istri bekerja",
+            "en": "dual-income (both husband and wife working)"
+          }
+        },
+        {
+          "word": "共感",
+          "furigana": "きょうかん",
+          "romanji": "kyoukan",
+          "id": 42,
+          "meanings": {
+            "id": "simpati",
+            "en": "sympathy; empathy"
           }
         }
       ]
@@ -1865,6 +2005,16 @@
           "meanings": {
             "id": "mempercayakan",
             "en": "to entrust"
+          }
+        },
+        {
+          "word": "任務",
+          "furigana": "にんむ",
+          "romanji": "ninmu",
+          "id": 43,
+          "meanings": {
+            "id": "tugas",
+            "en": "duty; mission"
           }
         }
       ]
@@ -1929,7 +2079,17 @@
           "id": 45,
           "meanings": {
             "id": "mengikuti",
-            "en": "to follow"
+            "en": "to follow; to go along"
+          }
+        },
+        {
+          "word": "伝統",
+          "furigana": "でんとう",
+          "romanji": "dentou",
+          "id": 45,
+          "meanings": {
+            "id": "tradisi",
+            "en": "tradition"
           }
         }
       ]
@@ -1962,13 +2122,33 @@
       },
       "examples": [
         {
+          "word": "全く",
+          "furigana": "まったく",
+          "romanji": "mattaku",
+          "id": 46,
+          "meanings": {
+            "id": "sama sekali",
+            "en": "completely; entirely"
+          }
+        },
+        {
           "word": "全て",
           "furigana": "すべて",
           "romanji": "subete",
           "id": 46,
           "meanings": {
             "id": "semua, segalanya",
-            "en": "everything"
+            "en": "everything; all"
+          }
+        },
+        {
+          "word": "全部",
+          "furigana": "ぜんぶ",
+          "romanji": "zenbu",
+          "id": 46,
+          "meanings": {
+            "id": "semua, seluruh",
+            "en": "all; whole"
           }
         }
       ]
@@ -2009,13 +2189,23 @@
       },
       "examples": [
         {
-          "word": "合う",
-          "furigana": "あう",
-          "romanji": "au",
+          "word": "合意",
+          "furigana": "ごうい",
+          "romanji": "goui",
           "id": 47,
           "meanings": {
-            "id": "cocok, pantas",
-            "en": "to fit"
+            "id": "persetujuan",
+            "en": "agreement; consent"
+          }
+        },
+        {
+          "word": "合戦",
+          "furigana": "かっせん",
+          "romanji": "kassen",
+          "id": 47,
+          "meanings": {
+            "id": "peperangan",
+            "en": "battle; fight"
           }
         }
       ]
@@ -2052,6 +2242,16 @@
             "id": "sibuk",
             "en": "busy"
           }
+        },
+        {
+          "word": "多忙",
+          "furigana": "たぼう",
+          "romanji": "tabou",
+          "id": 48,
+          "meanings": {
+            "id": "tekanan kerja",
+            "en": "busyness; being very busy"
+          }
         }
       ]
     },
@@ -2085,7 +2285,17 @@
           "id": 49,
           "meanings": {
             "id": "berputar, berkeliling",
-            "en": "to turn"
+            "en": "to turn; to go around"
+          }
+        },
+        {
+          "word": "回答",
+          "furigana": "かいとう",
+          "romanji": "kaitou",
+          "id": 49,
+          "meanings": {
+            "id": "jawaban",
+            "en": "answer; reply"
           }
         }
       ]
@@ -2120,7 +2330,17 @@
           "id": 50,
           "meanings": {
             "id": "menghadap",
-            "en": "to face"
+            "en": "to face; to head toward"
+          }
+        },
+        {
+          "word": "方向",
+          "furigana": "ほうこう",
+          "romanji": "houkou",
+          "id": 50,
+          "meanings": {
+            "id": "arah",
+            "en": "direction"
           }
         }
       ]
@@ -2153,8 +2373,18 @@
       },
       "examples": [
         {
+          "word": "血",
+          "furigana": "ち",
+          "romanji": "chi",
+          "id": 51,
+          "meanings": {
+            "id": "darah",
+            "en": "blood"
+          }
+        },
+        {
           "word": "貧血",
-          "furigana": "hinketsu",
+          "furigana": "ひんけつ",
           "romanji": "hinketsu",
           "id": 51,
           "meanings": {
@@ -2188,6 +2418,17 @@
       },
       "examples": [
         {
+          "word": "老いる",
+          "furigana": "おいる",
+          "romanji": "oiru",
+          "id": 52,
+          "meanings": {
+            "id": "tua",
+            "en": "old"
+          }
+        },
+
+        {
           "word": "老ける",
           "furigana": "ふける",
           "romanji": "fukeru",
@@ -2195,6 +2436,16 @@
           "meanings": {
             "id": "menjadi tua",
             "en": "to grow old"
+          }
+        },
+        {
+          "word": "老人",
+          "furigana": "ろうじん",
+          "romanji": "roujin",
+          "id": 52,
+          "meanings": {
+            "id": "orang lanjut usia",
+            "en": "elderly person"
           }
         }
       ]
@@ -2223,10 +2474,20 @@
       },
       "examples": [
         {
+          "word": "争う",
+          "furigana": "あらそう",
+          "romanji": "arasou",
+          "id": 52,
+          "meanings": {
+            "id": "bersaing",
+            "en": "to compete"
+          }
+        },
+        {
           "word": "戦争",
           "furigana": "せんそう",
+          "id": 52,
           "romanji": "sensou",
-          "id": 53,
           "meanings": {
             "id": "peperangan",
             "en": "war"
@@ -2264,11 +2525,31 @@
         {
           "word": "危ない",
           "furigana": "あぶない",
+          "id": 52,
           "romanji": "abunai",
-          "id": 54,
           "meanings": {
             "id": "berbahaya",
             "en": "dangerous"
+          }
+        },
+        {
+          "word": "危うく",
+          "furigana": "あやうく",
+          "id": 52,
+          "romanji": "ayauku",
+          "meanings": {
+            "id": "nyaris",
+            "en": "nearly; almost"
+          }
+        },
+        {
+          "word": "危機",
+          "furigana": "きき",
+          "romanji": "kiki",
+          "id": 52,
+          "meanings": {
+            "id": "krisis",
+            "en": "crisis"
           }
         }
       ]
@@ -2296,13 +2577,13 @@
       },
       "examples": [
         {
-          "word": "当たる",
-          "furigana": "あたる",
-          "romanji": "ataru",
-          "id": 55,
+          "word": "式",
+          "furigana": "しき",
+          "id": 53,
+          "romanji": "shiki",
           "meanings": {
-            "id": "kena",
-            "en": "to hit"
+            "id": "upacara",
+            "en": "ceremony"
           }
         }
       ]
@@ -2333,11 +2614,21 @@
         {
           "word": "当たる",
           "furigana": "あたる",
+          "id": 53,
           "romanji": "ataru",
-          "id": 56,
           "meanings": {
             "id": "kena",
-            "en": "to hit"
+            "en": "to be hit; to strike"
+          }
+        },
+        {
+          "word": "当然",
+          "furigana": "とうぜん",
+          "id": 53,
+          "romanji": "touzen",
+          "meanings": {
+            "id": "sudah sepatutnya",
+            "en": "naturally; of course"
           }
         }
       ]
@@ -2400,10 +2691,20 @@
       },
       "examples": [
         {
+          "word": "各々",
+          "furigana": "おのおの",
+          "id": 58,
+          "romanji": "onoono",
+          "meanings": {
+            "id": "masing-masing",
+            "en": "each"
+          }
+        },
+        {
           "word": "各国",
           "furigana": "かっこく",
-          "romanji": "kakkoku",
           "id": 58,
+          "romanji": "kakkoku",
           "meanings": {
             "id": "setiap negara",
             "en": "each country"
@@ -2443,13 +2744,33 @@
       },
       "examples": [
         {
-          "word": "次々",
-          "furigana": "つぎつぎ",
-          "romanji": "tsugitsugi",
-          "id": 59,
+          "word": "次ぐ",
+          "furigana": "つぐ",
+          "id": 58,
+          "romanji": "tsugu",
           "meanings": {
             "id": "berlanjut",
-            "en": "one after another"
+            "en": "to follow; to succeed"
+          }
+        },
+        {
+          "word": "次男",
+          "furigana": "じなん",
+          "id": 58,
+          "romanji": "jinan",
+          "meanings": {
+            "id": "putra kedua",
+            "en": "second son"
+          }
+        },
+        {
+          "word": "次第",
+          "furigana": "しだい",
+          "id": 58,
+          "romanji": "shidai",
+          "meanings": {
+            "id": "selekasnya",
+            "en": "as soon as; depending on"
           }
         }
       ]
@@ -2482,13 +2803,33 @@
       },
       "examples": [
         {
+          "word": "米",
+          "furigana": "こめ",
+          "id": 58,
+          "romanji": "kome",
+          "meanings": {
+            "id": "beras",
+            "en": "rice"
+          }
+        },
+        {
           "word": "米国",
           "furigana": "べいこく",
+          "id": 58,
           "romanji": "beikoku",
-          "id": 60,
           "meanings": {
             "id": "Amerika Serikat",
             "en": "United States"
+          }
+        },
+        {
+          "word": "新米",
+          "furigana": "しんまい",
+          "id": 58,
+          "romanji": "shinmai",
+          "meanings": {
+            "id": "beras baru",
+            "en": "new rice"
           }
         }
       ]
