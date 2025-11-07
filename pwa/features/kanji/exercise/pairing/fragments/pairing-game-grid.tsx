@@ -66,7 +66,10 @@ export function PairingGameGrid() {
       const kanjiCharacter = word.kanji.charAt(0);
 
       // Get accurate kanji information using the extracted kanji character
-      const kanjiInfo = KanjiService.getKanjiInfoForScoring(kanjiCharacter, level);
+      const kanjiInfo = KanjiService.getKanjiInfoForScoring(
+        kanjiCharacter,
+        level
+      );
 
       // Generate simple word ID
       const wordId = `${word.kanji}_${kanjiInfo.kanjiId}_0`;
@@ -199,7 +202,7 @@ export function PairingGameGrid() {
                 // newMatchedPairs berisi ID angka, perlu convert ke kanji untuk check error
                 const correctOriginalWords = Array.from(newMatchedPairs).filter(
                   (wordId) => {
-                    const word = gameWords.find(w => w.id === wordId);
+                    const word = gameWords.find((w) => w.id === wordId);
                     return word && globalErrorWords.has(word.kanji);
                   }
                 ).length;
@@ -221,8 +224,16 @@ export function PairingGameGrid() {
           }
         } else {
           // Wrong match - show error (gunakan card string ID, bukan PairingWord.id)
-          const kanjiCardId = getCardId("kanji", kanjiCard, language as SupportedLanguage);
-          const meaningCardId = getCardId("meaning", meaningCard, language as SupportedLanguage);
+          const kanjiCardId = getCardId(
+            "kanji",
+            kanjiCard,
+            language as SupportedLanguage
+          );
+          const meaningCardId = getCardId(
+            "meaning",
+            meaningCard,
+            language as SupportedLanguage
+          );
           setErrorCards(new Set([kanjiCardId, meaningCardId]));
 
           // Track word errors based on the kanji (not individual cards)
@@ -248,8 +259,6 @@ export function PairingGameGrid() {
       }
     }
   };
-
-  console.log(matchedPairs, "ini matched pairs");
 
   return (
     <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">

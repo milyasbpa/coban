@@ -19,13 +19,13 @@
       },
       "examples": [
         {
-          "word": "了解",
-          "furigana": "りょうかい",
-          "romanji": "ryoukai",
+          "word": "完了",
+          "furigana": "かんりょう",
+          "romanji": "kanryou",
           "id": 1,
           "meanings": {
-            "id": "pemahaman",
-            "en": "understanding"
+            "id": "penyelesaian",
+            "en": "settlement"
           }
         }
       ]
@@ -45,7 +45,7 @@
       },
       "meanings": {
         "id": "orang jenius",
-        "en": "talent"
+        "en": "genius"
       },
       "examples": [
         {
@@ -54,8 +54,8 @@
           "romanji": "tensai",
           "id": 2,
           "meanings": {
-            "id": "jenius",
-            "en": "genius"
+            "id": "orang jenius",
+            "en": "genius/talented person"
           }
         }
       ]
@@ -92,6 +92,16 @@
             "id": "memberi",
             "en": "to give"
           }
+        },
+        {
+          "word": "給与",
+          "furigana": "きゅうよ",
+          "romanji": "kyūyo",
+          "id": 3,
+          "meanings": {
+            "id": "gaji, upah",
+            "en": "salary, pay, compensation"
+          }
         }
       ]
     },
@@ -118,13 +128,33 @@
       },
       "examples": [
         {
-          "word": "死亡",
-          "furigana": "しぼう",
-          "romanji": "shibou",
+          "word": "亡くす",
+          "furigana": "なくす",
+          "romanji": "nakusu",
           "id": 4,
           "meanings": {
-            "id": "kematian",
-            "en": "death"
+            "id": "kehilangan (karena mati)",
+            "en": "to lose (death)"
+          }
+        },
+        {
+          "word": "滅亡",
+          "furigana": "めつぼう",
+          "romanji": "metsubō",
+          "id": 4,
+          "meanings": {
+            "id": "keruntuhan",
+            "en": "downfall, ruin, extinction"
+          }
+        },
+        {
+          "word": "亡者",
+          "furigana": "もうじゃ",
+          "romanji": "mōja",
+          "id": 4,
+          "meanings": {
+            "id": "roh gentayangan",
+            "en": "ghost"
           }
         }
       ]
@@ -143,14 +173,14 @@
         ]
       },
       "meanings": {
-        "id": "roh gentayangan",
+        "id": "raja",
         "en": "king"
       },
       "examples": [
         {
-          "word": "王様",
-          "furigana": "おうさま",
-          "romanji": "ousama",
+          "word": "王",
+          "furigana": "おう",
+          "romanji": "ou",
           "id": 5,
           "meanings": {
             "id": "raja",
@@ -187,6 +217,16 @@
       },
       "examples": [
         {
+          "word": "欠ける",
+          "furigana": "かける",
+          "romanji": "kakeru",
+          "id": 6,
+          "meanings": {
+            "id": "kurang",
+            "en": "to be lack, to be missing"
+          }
+        },
+        {
           "word": "欠席",
           "furigana": "けっせき",
           "romanji": "kesseki",
@@ -221,6 +261,16 @@
         "en": "support"
       },
       "examples": [
+        {
+          "word": "支え",
+          "furigana": "ささえ",
+          "romanji": "sasae",
+          "id": 7,
+          "meanings": {
+            "id": "penyangga, penopang",
+            "en": "support, prop, foundation, backing"
+          }
+        },
         {
           "word": "支援",
           "furigana": "しえん",
@@ -261,6 +311,16 @@
       },
       "examples": [
         {
+          "word": "反る",
+          "furigana": "そる",
+          "romanji": "soru",
+          "id": 8,
+          "meanings": {
+            "id": "melengkung, menekuk",
+            "en": "to bend, to warp, to curve"
+          }
+        },
+        {
           "word": "反応",
           "furigana": "はんのう",
           "romanji": "hannou",
@@ -268,6 +328,16 @@
           "meanings": {
             "id": "reaksi, respon",
             "en": "reaction"
+          }
+        },
+        {
+          "word": "反",
+          "furigana": "たん",
+          "romanji": "tan",
+          "id": 8,
+          "meanings": {
+            "id": "satuan ukuran tanah di jepang",
+            "en": "tan (area unit in japan)"
           }
         }
       ]
@@ -301,8 +371,18 @@
           "romanji": "osameru",
           "id": 9,
           "meanings": {
-            "id": "menyimpan, mengukakan",
-            "en": "to collect"
+            "id": "menyimpan, memasukkan",
+            "en": "to save, to collect"
+          }
+        },
+        {
+          "word": "収入",
+          "furigana": "しゅうにゅう",
+          "romanji": "shuunyuu",
+          "id": 9,
+          "meanings": {
+            "id": "pendapatan, penghasilan",
+            "en": "income, earnings, revenue"
           }
         }
       ]
@@ -331,13 +411,23 @@
       },
       "examples": [
         {
+          "word": "互い",
+          "furigana": "たがい",
+          "romanji": "tagai",
+          "id": 10,
+          "meanings": {
+            "id": "saling, satu sama lain",
+            "en": "each other, one another"
+          }
+        },
+        {
           "word": "相互",
           "furigana": "そうご",
           "romanji": "sougo",
           "id": 10,
           "meanings": {
             "id": "timbal balik, saling",
-            "en": "mutual"
+            "en": "mutual, reciprocal"
           }
         }
       ]
@@ -365,6 +455,16 @@
         "en": "public"
       },
       "examples": [
+        {
+          "word": "公",
+          "furigana": "おおやけ",
+          "romanji": "ooyake",
+          "id": 11,
+          "meanings": {
+            "id": "resmi, umum",
+            "en": "public, official, open"
+          }
+        },
         {
           "word": "公園",
           "furigana": "こうえん",
