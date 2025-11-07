@@ -15,6 +15,7 @@ export interface VocabularyGameState {
   score: number;
   isComplete: boolean;
   correctAnswers: number;
+  correctPairs: number; // Track correct pairs like kanji
   errorWords: Set<string>;
 }
 
@@ -39,6 +40,7 @@ export interface VocabularyPairingExerciseState {
   getCurrentSectionNumber: () => number;
   getIsCurrentSectionComplete: () => boolean;
   canRetry: () => boolean;
+  getSectionTotalWords: () => number;
   
   // Game State Actions
   setGameComplete: (complete: boolean) => void;
@@ -47,6 +49,7 @@ export interface VocabularyPairingExerciseState {
   addWordError: (word: string) => boolean;
   removeWordError: (word: string) => boolean;
   resetWordsWithErrors: () => void;
+  incrementCorrectPairs: () => void;
 
   // Retry Actions
   startRetryMode: () => void;
@@ -80,9 +83,10 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
   gameState: {
     allGameWords: [],
     isRetryMode: false,
-    score: 0,
+    score: 100,
     isComplete: false,
     correctAnswers: 0,
+    correctPairs: 0,
     errorWords: new Set(),
   },
   sectionState: {
@@ -121,6 +125,11 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
     return errorWords.size > 0;
   },
 
+  getSectionTotalWords: () => {
+    const { sectionState: { gameWords } } = get();
+    return gameWords.length;
+  },
+
   // Game State Actions
   setGameComplete: (complete) => 
     set((state) => ({
@@ -131,9 +140,10 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
     gameState: {
       allGameWords: [],
       isRetryMode: false,
-      score: 0,
+      score: 100,
       isComplete: false,
       correctAnswers: 0,
+      correctPairs: 0,
       errorWords: new Set(),
     },
     sectionState: {
@@ -152,7 +162,11 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
     if (allGameWords.length === 0) return;
     
     const correctCount = allGameWords.length - errorWords.size;
-    const score = Math.round((correctCount / allGameWords.length) * 100);
+    
+    // Penalty-based scoring system like kanji pairing
+    const penalty = 10; // 10 points per wrong word
+    const totalPenalty = errorWords.size * penalty;
+    const score = Math.max(0, 100 - totalPenalty);
     
     set((state) => ({
       gameState: { 
@@ -191,6 +205,11 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
   resetWordsWithErrors: () => 
     set((state) => ({
       gameState: { ...state.gameState, errorWords: new Set() }
+    })),
+
+  incrementCorrectPairs: () =>
+    set((state) => ({
+      gameState: { ...state.gameState, correctPairs: state.gameState.correctPairs + 1 }
     })),
 
   // Retry Actions
@@ -291,9 +310,10 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
       gameState: {
         allGameWords: words,
         isRetryMode: false,
-        score: 0,
+        score: 100,
         isComplete: false,
         correctAnswers: 0,
+        correctPairs: 0,
         errorWords: new Set(),
       },
       sectionState: {

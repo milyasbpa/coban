@@ -12,11 +12,11 @@ function getScoreTextColor(score: number): string {
 
 export function VocabularyPairingScoreHeader() {
   const {
-    gameState: { score },
-    sectionState: { matchedPairs, gameWords },
+    gameState: { score, correctPairs },
+    getSectionTotalWords,
   } = useVocabularyPairingExerciseStore();
 
-  const totalWords = gameWords.length;
+  const totalWords = getSectionTotalWords();
   const scoreTextColor = getScoreTextColor(score);
 
   return (
@@ -34,7 +34,7 @@ export function VocabularyPairingScoreHeader() {
         <div className="text-center">
           <div className="text-xs font-semibold text-muted-foreground mb-1">Progress</div>
           <div className="text-lg font-bold text-foreground">
-            {matchedPairs.size}/{totalWords}
+            {correctPairs}/{totalWords}
           </div>
         </div>
       </Card>
