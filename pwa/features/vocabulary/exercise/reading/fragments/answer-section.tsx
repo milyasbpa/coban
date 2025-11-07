@@ -26,13 +26,14 @@ export const AnswerSection: React.FC = () => {
     }
 
     // Create options based on language preference
-    const correctMeaning = language === 'id' 
-      ? currentQuestion.word.meanings.id 
-      : currentQuestion.word.meanings.en;
+    const correctMeaning =
+      language === "id"
+        ? currentQuestion.word.meanings.id
+        : currentQuestion.word.meanings.en;
 
     // Find other vocabulary words to create wrong options
     // For now, use the original options but translate the correct answer
-    return currentQuestion.options.map(option => {
+    return currentQuestion.options.map((option) => {
       if (option === currentQuestion.correctAnswer) {
         return correctMeaning;
       }
@@ -40,10 +41,13 @@ export const AnswerSection: React.FC = () => {
     });
   };
 
+  console.log(currentQuestion, "ini current question");
+
   const displayOptions = getDisplayOptions();
-  const correctAnswer = language === 'id' 
-    ? currentQuestion.word?.meanings?.id || currentQuestion.correctAnswer
-    : currentQuestion.word?.meanings?.en || currentQuestion.correctAnswer;
+  const correctAnswer =
+    language === "id"
+      ? currentQuestion.word?.meanings?.id || currentQuestion.correctAnswer
+      : currentQuestion.word?.meanings?.en || currentQuestion.correctAnswer;
 
   return (
     <div className="space-y-3">
