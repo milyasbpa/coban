@@ -1,48 +1,51 @@
 import React from "react";
-import { VocabularyPairingCard } from "./vocabulary-pairing-card";
-import { VocabularySelectedCard } from "../store/vocabulary-pairing-exercise.store";
+import { VocabularyPairingCard } from "../components/vocabulary-pairing-card";
+import { useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
 
-interface VocabularyPairingGridProps {
-  cards: VocabularySelectedCard[];
-  selectedCards: VocabularySelectedCard[];
-  matchedPairs: Set<string>;
-  errorCards: Set<string>;
-  onCardClick: (card: VocabularySelectedCard) => void;
-}
+export const VocabularyPairingGrid: React.FC = () => {
+  const {
+    sectionState: { gameWords, selectedCards, matchedPairs, errorCards },
+    selectCard,
+  } = useVocabularyPairingExerciseStore();
 
-export const VocabularyPairingGrid: React.FC<VocabularyPairingGridProps> = ({
-  cards,
-  selectedCards,
-  matchedPairs,
-  errorCards,
-  onCardClick,
-}) => {
-  const isCardSelected = (card: VocabularySelectedCard) => {
-    return selectedCards.some(selected => 
-      selected.id === card.id && selected.type === card.type
-    );
+  const handleCardClick = (card: any) => {
+    // Prevent selection if 2 cards already selected
+    if (selectedCards.length >= 2) return;
+    
+    selectCard(card);
   };
 
-  const isCardMatched = (card: VocabularySelectedCard) => {
-    return matchedPairs.has(card.id.toString());
-  };
+  // Separate words by type for 2-column layout
+  const uniqueWords = gameWords.filter((word, index, array) => 
+    array.findIndex(w => w.id === word.id) === index
+  );
 
-  const isCardError = (card: VocabularySelectedCard) => {
-    return errorCards.has(`${card.id}-${card.type}`);
-  };
+  // Create shuffled meanings for right column
+  const shuffledMeanings = [...uniqueWords].sort(() => Math.random() - 0.5);
 
   return (
-    <div className="grid grid-cols-3 md:grid-cols-4 gap-4 p-4">
-      {cards.map((card, index) => (
-        <VocabularyPairingCard
-          key={`${card.id}-${card.type}-${index}`}
-          card={card}
-          isSelected={isCardSelected(card)}
-          isMatched={isCardMatched(card)}
-          isError={isCardError(card)}
-          onClick={onCardClick}
-        />
-      ))}
+    <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
+      {/* Left Column - Japanese (Kanji/Hiragana) */}
+      <div className="space-y-3">
+        {uniqueWords.map((word) => (
+          <VocabularyPairingCard
+            key={`japanese-${word.id}`}
+            card={{ ...word, type: "japanese" }}
+            onCardClick={handleCardClick}
+          />
+        ))}
+      </div>
+
+      {/* Right Column - Meanings */}
+      <div className="space-y-3">
+        {shuffledMeanings.map((word) => (
+          <VocabularyPairingCard
+            key={`meaning-${word.id}`}
+            card={{ ...word, type: "meaning" }}
+            onCardClick={handleCardClick}
+          />
+        ))}
+      </div>
     </div>
   );
 };

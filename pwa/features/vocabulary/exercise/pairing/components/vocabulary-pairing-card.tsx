@@ -1,29 +1,42 @@
 import React from "react";
 import { Card } from "@/pwa/core/components/card";
-import { VocabularySelectedCard } from "../store/vocabulary-pairing-exercise.store";
+import { VocabularySelectedCard, useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
+import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
 interface VocabularyPairingCardProps {
   card: VocabularySelectedCard;
-  isSelected: boolean;
-  isMatched: boolean;
-  isError: boolean;
-  onClick: (card: VocabularySelectedCard) => void;
+  onCardClick: (card: VocabularySelectedCard) => void;
 }
 
 export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
   card,
-  isSelected,
-  isMatched,
-  isError,
-  onClick,
+  onCardClick,
 }) => {
+  const {
+    sectionState: { selectedCards, matchedPairs, errorCards }
+  } = useVocabularyPairingExerciseStore();
+  
+  const { language } = useLanguage();
+
+  const isSelected = selectedCards.some(selected => 
+    selected.id === card.id && selected.type === card.type
+  );
+
+  const isMatched = matchedPairs.has(card.id.toString());
+
+  const isError = errorCards.has(`${card.id}-${card.type}`);
+
   const getCardContent = () => {
     if (card.type === "japanese") {
       // Show kanji if available, otherwise hiragana
       return card.kanji || card.hiragana;
     } else {
-      // Show Indonesian meaning
-      return card.meanings.id;
+      // Show meaning based on selected language
+      if (language === 'id') {
+        return card.meanings.id; // Indonesian meaning
+      } else {
+        return card.meanings.en; // English meaning
+      }
     }
   };
 
@@ -33,13 +46,6 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
       return card.hiragana;
     }
     return null;
-  };
-
-  const getCardVariant = () => {
-    if (isMatched) return "default"; // Matched cards stay highlighted
-    if (isError) return "destructive"; // Error cards are red
-    if (isSelected) return "secondary"; // Selected cards are highlighted
-    return "outline"; // Default cards
   };
 
   const getCardClassName = () => {
@@ -63,7 +69,7 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
   return (
     <Card
       className={getCardClassName()}
-      onClick={() => !isMatched && !isError && onClick(card)}
+      onClick={() => !isMatched && !isError && onCardClick(card)}
     >
       <div className="space-y-1">
         <div className="text-lg font-semibold">
