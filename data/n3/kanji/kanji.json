@@ -535,6 +535,16 @@
       },
       "examples": [
         {
+          "word": "内",
+          "furigana": "うち",
+          "romanji": "uchi",
+          "id": 13,
+          "meanings": {
+            "id": "rumah",
+            "en": "home"
+          }
+        },
+        {
           "word": "内容",
           "furigana": "ないよう",
           "romanji": "naiyou",
@@ -542,6 +552,16 @@
           "meanings": {
             "id": "isi",
             "en": "contents"
+          }
+        },
+        {
+          "word": "境内",
+          "furigana": "けいだい",
+          "romanji": "keidai",
+          "id": 13,
+          "meanings": {
+            "id": "dalam lingkungan rumah ibadah",
+            "en": "sacred enclosure"
           }
         }
       ]
@@ -582,6 +602,26 @@
             "id": "menjelma",
             "en": "to transform"
           }
+        },
+        {
+          "word": "文化",
+          "furigana": "ぶんか",
+          "romanji": "bunka",
+          "id": 14,
+          "meanings": {
+            "id": "kebudayaan",
+            "en": "culture, civilization"
+          }
+        },
+        {
+          "word": "化粧",
+          "furigana": "けしょう",
+          "romanji": "keshou",
+          "id": 14,
+          "meanings": {
+            "id": "rias wajah",
+            "en": "makeup, cosmetics"
+          }
         }
       ]
     },
@@ -617,6 +657,16 @@
       },
       "examples": [
         {
+          "word": "夫",
+          "furigana": "おっと",
+          "romanji": "otto",
+          "id": 15,
+          "meanings": {
+            "id": "suami",
+            "en": "husband"
+          }
+        },
+        {
           "word": "夫人",
           "furigana": "ふじん",
           "romanji": "fujin",
@@ -624,6 +674,16 @@
           "meanings": {
             "id": "nyonya, istri",
             "en": "wife, lady"
+          }
+        },
+        {
+          "word": "大丈夫",
+          "furigana": "だいじょうぶ",
+          "romanji": "daijoubu",
+          "id": 15,
+          "meanings": {
+            "id": "tidak apa apa",
+            "en": "all right, okay, no problem"
           }
         }
       ]
@@ -651,6 +711,16 @@
         "en": "door"
       },
       "examples": [
+        {
+          "word": "戸",
+          "furigana": "と",
+          "romanji": "todana",
+          "id": 16,
+          "meanings": {
+            "id": "pintu",
+            "en": "door"
+          }
+        },
         {
           "word": "戸棚",
           "furigana": "とだな",
@@ -695,6 +765,16 @@
             "id": "membandingkan",
             "en": "to compare"
           }
+        },
+        {
+          "word": "比較",
+          "furigana": "ひかく",
+          "romanji": "hikaku",
+          "id": 17,
+          "meanings": {
+            "id": "perbandingan",
+            "en": "comparison"
+          }
         }
       ]
     },
@@ -730,6 +810,16 @@
             "id": "menarik",
             "en": "to pull"
           }
+        },
+        {
+          "word": "引力",
+          "furigana": "いんりょく",
+          "romanji": "inryoku",
+          "id": 18,
+          "meanings": {
+            "id": "gravitasi",
+            "en": "gravity"
+          }
         }
       ]
     },
@@ -764,6 +854,16 @@
             "id": "mencuci piring",
             "en": "washing dishes"
           }
+        },
+        {
+          "word": "小皿",
+          "furigana": "こざら",
+          "romanji": "kozara",
+          "id": 19,
+          "meanings": {
+            "id": "piring kecil",
+            "en": "small plate"
+          }
         }
       ]
     },
@@ -797,6 +897,16 @@
           "meanings": {
             "id": "buku kecil, brosur",
             "en": "booklet"
+          }
+        },
+        {
+          "word": "短冊",
+          "furigana": "たんざく",
+          "romanji": "tanzaku",
+          "id": 20,
+          "meanings": {
+            "id": "doa/catatan (tanabata)",
+            "en": "tanzaku (tanabata)"
           }
         }
       ]
@@ -858,6 +968,16 @@
         "en": "end"
       },
       "examples": [
+        {
+          "word": "末",
+          "furigana": "すえ",
+          "romanji": "sue",
+          "id": 22,
+          "meanings": {
+            "id": "akhir",
+            "en": "end"
+          }
+        },
         {
           "word": "週末",
           "furigana": "しゅうまつ",
@@ -932,6 +1052,16 @@
       },
       "examples": [
         {
+          "word": "石",
+          "furigana": "いし",
+          "romanji": "ishi",
+          "id": 24,
+          "meanings": {
+            "id": "batu",
+            "en": "stone"
+          }
+        },
+        {
           "word": "石油",
           "furigana": "せきゆ",
           "romanji": "sekiyu",
@@ -939,6 +1069,26 @@
           "meanings": {
             "id": "minyak bumi",
             "en": "petroleum"
+          }
+        },
+        {
+          "word": "石鹸",
+          "furigana": "せっけん",
+          "romanji": "sekken",
+          "id": 24,
+          "meanings": {
+            "id": "sabun",
+            "en": "soap"
+          }
+        },
+         {
+          "word": "磁石",
+          "furigana": "じしゃく",
+          "romanji": "jishaku",
+          "id": 24,
+          "meanings": {
+            "id": "magnet",
+            "en": "magnet"
           }
         }
       ]
@@ -975,6 +1125,16 @@
             "id": "memukul",
             "en": "to hit"
           }
+        },
+         {
+          "word": "打者",
+          "furigana": "だしゃ",
+          "romanji": "dasha",
+          "id": 25,
+          "meanings": {
+            "id": "pemukul bola",
+            "en": "batter"
+          }
         }
       ]
     },
@@ -1006,6 +1166,16 @@
       },
       "examples": [
         {
+          "word": "由",
+          "furigana": "よし",
+          "romanji": "jiyuu",
+          "id": 26,
+          "meanings": {
+            "id": "keadaan, maksud/tujuan",
+            "en": "reason, cause, circumstances, purpose"
+          }
+        },
+        {
           "word": "自由",
           "furigana": "じゆう",
           "romanji": "jiyuu",
@@ -1013,6 +1183,16 @@
           "meanings": {
             "id": "kebebasan",
             "en": "freedom"
+          }
+        },
+        {
+          "word": "由緒",
+          "furigana": "ゆいしょ",
+          "romanji": "yuisho",
+          "id": 26,
+          "meanings": {
+            "id": "silsilah, asal usul",
+            "en": "history, pedigree, lineage"
           }
         }
       ]
@@ -1041,6 +1221,16 @@
       },
       "examples": [
         {
+          "word": "他",
+          "furigana": "ほか",
+          "romanji": "hoka",
+          "id": 27,
+          "meanings": {
+            "id": "lain, selain",
+            "en": "other"
+          }
+        },
+        {
           "word": "他者",
           "furigana": "たしゃ",
           "romanji": "tasha",
@@ -1048,6 +1238,16 @@
           "meanings": {
             "id": "orang lain",
             "en": "others"
+          }
+        },
+        {
+          "word": "他方",
+          "furigana": "たほう",
+          "romanji": "tahou",
+          "id": 27,
+          "meanings": {
+            "id": "cara lain",
+            "en": "the other side, on the other hand"
           }
         }
       ]
@@ -1088,6 +1288,26 @@
             "id": "melekat",
             "en": "to stick"
           }
+        },
+        {
+          "word": "付近",
+          "furigana": "ふきん",
+          "romanji": "fukin",
+          "id": 28,
+          "meanings": {
+            "id": "berdekatan",
+            "en": "vicinity, nearby area"
+          }
+        },
+        {
+          "word": "添付",
+          "furigana": "てんぷ",
+          "romanji": "tenpu",
+          "id": 28,
+          "meanings": {
+            "id": "lampiran",
+            "en": "attachment"
+          }
         }
       ]
     },
@@ -1118,6 +1338,16 @@
         "en": "necessary"
       },
       "examples": [
+         {
+          "word": "必ず",
+          "furigana": "かならず",
+          "romanji": "kanarazu",
+          "id": 29,
+          "meanings": {
+            "id": "selalu, tanpa terkecuali",
+            "en": "always, without exception, surely"
+          }
+        },
         {
           "word": "必要",
           "furigana": "ひつよう",
@@ -1159,8 +1389,18 @@
           "romanji": "meshiagaru",
           "id": 30,
           "meanings": {
+            "id": "bersantap",
+            "en": "to eat, to drink (polite)"
+          }
+        },
+        {
+          "word": "召集",
+          "furigana": "しょうしゅう",
+          "romanji": "shoushuu",
+          "id": 30,
+          "meanings": {
             "id": "memangil bersama",
-            "en": "to eat (polite)"
+            "en": "calling together, summoning"
           }
         }
       ]
