@@ -1,5 +1,7 @@
 import { create } from "zustand";
 import { VocabularyQuestion, VocabularyExerciseWord } from "../../shared/types";
+import { VocabularyService } from "@/pwa/core/services/vocabulary";
+import { generateReadingQuestions, calculateScore, checkAnswer } from "../utils/vocabulary-reading.utils";
 
 export interface VocabularyGameState {
   questions: VocabularyQuestion[];
@@ -61,6 +63,12 @@ export interface VocabularyReadingExerciseState {
   
   // Handler for next question with score calculation
   handleNextQuestion: (calculateScore: (correctQuestions: VocabularyQuestion[], totalQuestions: number) => number) => void;
+
+  // Initialize exercise function
+  initializeExercise: (level: string, categoryId: string) => Promise<void>;
+  
+  // Check answer function 
+  handleCheckAnswer: () => void;
 }
 
 export const useVocabularyReadingExerciseStore = create<VocabularyReadingExerciseState>((set, get) => ({
@@ -343,5 +351,49 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
     }
     
     next();
+  },
+
+  // Initialize exercise function
+  initializeExercise: async (level: string, categoryId: string) => {
+    try {
+      // Get vocabulary category
+      const vocabularyCategory = VocabularyService.getVocabularyByCategoryString(categoryId, level);
+      
+      if (!vocabularyCategory || vocabularyCategory.vocabulary.length < 4) {
+        console.error("Not enough vocabulary words for exercise");
+        return;
+      }
+
+      // Generate questions from vocabulary words
+      const questions = generateReadingQuestions(vocabularyCategory.vocabulary, "kanji-to-meaning");
+      
+      // Initialize the game
+      get().initializeGame(questions);
+    } catch (error) {
+      console.error("Failed to initialize vocabulary reading exercise:", error);
+    }
+  },
+  
+  // Check answer function
+  handleCheckAnswer: () => {
+    const currentQuestion = get().getCurrentQuestion();
+    const selectedOption = get().questionState.selectedOption;
+    
+    if (!currentQuestion || !selectedOption) return;
+
+    const isCorrect = checkAnswer(currentQuestion, selectedOption);
+    
+    // Set result for UI feedback
+    get().setCurrentResult({ isCorrect });
+    
+    // Add to correct or wrong questions
+    if (isCorrect) {
+      get().addCorrectQuestion(currentQuestion);
+    } else {
+      get().addWrongQuestion(currentQuestion);
+    }
+
+    // Show bottom sheet with result
+    get().setShowBottomSheet(true);
   },
 }));
