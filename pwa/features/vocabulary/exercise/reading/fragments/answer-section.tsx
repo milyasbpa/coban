@@ -1,9 +1,9 @@
 import React from "react";
-import { Card } from "@/pwa/core/components/card";
 import { Button } from "@/pwa/core/components/button";
 import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-exercise.store";
+import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
-export const QuestionCard: React.FC = () => {
+export const AnswerSection: React.FC = () => {
   const {
     getCurrentQuestion,
     questionState: { selectedOption },
@@ -12,22 +12,48 @@ export const QuestionCard: React.FC = () => {
     getIsCurrentAnswerCorrect,
   } = useVocabularyReadingExerciseStore();
 
+  const { language } = useLanguage();
   const currentQuestion = getCurrentQuestion();
-
   const isAnswered = getIsAnswered();
   const isCorrect = getIsCurrentAnswerCorrect();
 
   if (!currentQuestion) return null;
 
+  // Get options based on language setting
+  const getDisplayOptions = () => {
+    if (!currentQuestion.word?.meanings) {
+      return currentQuestion.options; // Fallback to original options
+    }
+
+    // Create options based on language preference
+    const correctMeaning = language === 'id' 
+      ? currentQuestion.word.meanings.id 
+      : currentQuestion.word.meanings.en;
+
+    // Find other vocabulary words to create wrong options
+    // For now, use the original options but translate the correct answer
+    return currentQuestion.options.map(option => {
+      if (option === currentQuestion.correctAnswer) {
+        return correctMeaning;
+      }
+      return option; // Keep wrong options as is for now
+    });
+  };
+
+  const displayOptions = getDisplayOptions();
+  const correctAnswer = language === 'id' 
+    ? currentQuestion.word?.meanings?.id || currentQuestion.correctAnswer
+    : currentQuestion.word?.meanings?.en || currentQuestion.correctAnswer;
+
   return (
     <div className="space-y-3">
-      {currentQuestion.options.map((option, index) => {
+      {displayOptions.map((option, index) => {
         const isSelected = selectedOption === option;
         let buttonVariant: "default" | "outline" | "destructive" | "secondary" =
           "outline";
 
         if (isAnswered) {
-          if (option === currentQuestion.correctAnswer) {
+          if (option === correctAnswer) {
             buttonVariant = "default"; // Correct answer is green
           } else if (isSelected && !isCorrect) {
             buttonVariant = "destructive"; // Wrong selected answer is red

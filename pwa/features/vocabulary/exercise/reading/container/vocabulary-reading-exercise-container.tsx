@@ -5,7 +5,8 @@ import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-e
 import { VocabularyReadingHeader } from "../fragments/vocabulary-reading-header";
 import { VocabularyReadingGameResult } from "../fragments/vocabulary-reading-game-result";
 import { VocabularyReadingQuestion } from "../fragments/vocabulary-reading-question";
-import { QuestionCard } from "../fragments/question-card";
+import { VocabularyReadingDisplayOptionsControl } from "../fragments/vocabulary-reading-display-options-control";
+import { AnswerSection } from "../fragments/answer-section";
 import { VocabularyReadingCheckButton } from "../fragments/vocabulary-reading-check-button";
 
 interface VocabularyReadingExerciseContainerProps {
@@ -47,11 +48,14 @@ export const VocabularyReadingExerciseContainer: React.FC<VocabularyReadingExerc
         <VocabularyReadingQuestion />
 
         {/* Question Card with Options */}
-        <QuestionCard />
+        <AnswerSection />
       </div>
 
       {/* Floating Check/Next Button */}
       <VocabularyReadingCheckButton />
+
+      {/* Display Options Control */}
+      <VocabularyReadingDisplayOptionsControl />
     </div>
   );
 };
