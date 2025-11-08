@@ -1,0 +1,84 @@
+[
+  {
+    "id": 460,
+    "character": "警",
+    "strokes": 18,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ケイ", "romanji": "kei" } ]
+    },
+    "meanings": {
+      "id": "peringatan",
+      "en": "warning"
+    },
+    "examples": [
+      { "word": "警告", "furigana": "けいこく", "romanji": "keikoku", "id": 460, "meanings": { "id": "peringatan", "en": "warning" } }
+    ]
+  },
+  {
+    "id": 461,
+    "character": "願",
+    "strokes": 19,
+    "readings": {
+      "kun": [ { "furigana": "ねが", "romanji": "nega" } ],
+      "on": [ { "furigana": "ガン", "romanji": "gan" } ]
+    },
+    "meanings": {
+      "id": "mengharapkan, meminta, pengharapan, tekad, kerinduan",
+      "en": "hope, wish, request, determination, longing"
+    },
+    "examples": [
+      { "word": "願う", "furigana": "ねがう", "romanji": "negau", "id": 461, "meanings": { "id": "mengharapkan, meminta", "en": "to hope, to wish, to request" } },
+      { "word": "願望", "furigana": "がんぼう", "romanji": "ganbou", "id": 461, "meanings": { "id": "pengharapan, tekad, kerinduan", "en": "hope, determination, longing" } }
+    ]
+  },
+  {
+    "id": 462,
+    "character": "識",
+    "strokes": 19,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "シキ", "romanji": "shiki" } ]
+    },
+    "meanings": {
+      "id": "cendikiawan",
+      "en": "scholar"
+    },
+    "examples": [
+      { "word": "識者", "furigana": "しきしゃ", "romanji": "shikisha", "id": 462, "meanings": { "id": "cendikiawan", "en": "scholar" } }
+    ]
+  },
+  {
+    "id": 463,
+    "character": "籍",
+    "strokes": 20,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "セキ", "romanji": "seki" } ]
+    },
+    "meanings": {
+      "id": "warga negara",
+      "en": "citizen"
+    },
+    "examples": [
+      { "word": "国籍", "furigana": "こくせき", "romanji": "kokuseki", "id": 463, "meanings": { "id": "warga negara", "en": "citizen" } }
+    ]
+  },
+  {
+    "id": 464,
+    "character": "議",
+    "strokes": 20,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ギ", "romanji": "gi" } ]
+    },
+    "meanings": {
+      "id": "anggota majelis, rapat, pertemuan",
+      "en": "assembly member, meeting"
+    },
+    "examples": [
+      { "word": "議員", "furigana": "ぎいん", "romanji": "giin", "id": 464, "meanings": { "id": "anggota majelis", "en": "assembly member" } },
+      { "word": "会議", "furigana": "かいぎ", "romanji": "kaigi", "id": 464, "meanings": { "id": "rapat, pertemuan", "en": "meeting" } }
+    ]
+  }
+]

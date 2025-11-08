@@ -1,0 +1,220 @@
+[
+  {
+    "id": 434,
+    "character": "選",
+    "strokes": 15,
+    "readings": {
+      "kun": [ { "furigana": "えら", "romanji": "era" } ],
+      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+    },
+    "meanings": {
+      "id": "memilih, pemilihan (umum)",
+      "en": "choose, election"
+    },
+    "examples": [
+      { "word": "選ぶ", "furigana": "えらぶ", "romanji": "erabu", "id": 434, "meanings": { "id": "memilih", "en": "to choose" } },
+      { "word": "選挙", "furigana": "せんきょ", "romanji": "senkyo", "id": 434, "meanings": { "id": "pemilihan (umum)", "en": "election" } }
+    ]
+  },
+  {
+    "id": 435,
+    "character": "論",
+    "strokes": 15,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ロン", "romanji": "ron" } ]
+    },
+    "meanings": {
+      "id": "skripsi, tesis",
+      "en": "thesis, dissertation"
+    },
+    "examples": [
+      { "word": "論文", "furigana": "ろんぶん", "romanji": "ronbun", "id": 435, "meanings": { "id": "skripsi, tesis", "en": "thesis, dissertation" } }
+    ]
+  },
+  {
+    "id": 436,
+    "character": "課",
+    "strokes": 15,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "カ", "romanji": "ka" } ]
+    },
+    "meanings": {
+      "id": "judul, konsultasi",
+      "en": "title, consultation"
+    },
+    "examples": [
+      { "word": "課題", "furigana": "かだい", "romanji": "kadai", "id": 436, "meanings": { "id": "judul", "en": "title" } },
+      { "word": "相談", "furigana": "そうだん", "romanji": "soudan", "id": 436, "meanings": { "id": "konsultasi", "en": "consultation" } }
+    ]
+  },
+  {
+    "id": 437,
+    "character": "談",
+    "strokes": 15,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ダン", "romanji": "dan" } ]
+    },
+    "meanings": {
+      "id": "konsultasi",
+      "en": "consultation"
+    },
+    "examples": [
+      { "word": "相談", "furigana": "そうだん", "romanji": "soudan", "id": 437, "meanings": { "id": "konsultasi", "en": "consultation" } }
+    ]
+  },
+  {
+    "id": 438,
+    "character": "調",
+    "strokes": 15,
+    "readings": {
+      "kun": [ { "furigana": "しら", "romanji": "shira" }, { "furigana": "ととの", "romanji": "totono" } ],
+      "on": [ { "furigana": "チョウ", "romanji": "chou" } ]
+    },
+    "meanings": {
+      "id": "memeriksa, menyelidiki, merapikan, pemeriksaan, penyelidikan",
+      "en": "examine, investigate, arrange, investigation"
+    },
+    "examples": [
+      { "word": "調べる", "furigana": "しらべる", "romanji": "shiraberu", "id": 438, "meanings": { "id": "memeriksa, menyelidiki", "en": "to examine, to investigate" } },
+      { "word": "調える", "furigana": "ととのえる", "romanji": "totonoeru", "id": 438, "meanings": { "id": "merapikan", "en": "to arrange" } },
+      { "word": "調査", "furigana": "ちょうさ", "romanji": "chousa", "id": 438, "meanings": { "id": "pemeriksaan, penyelidikan", "en": "investigation" } }
+    ]
+  },
+  {
+    "id": 439,
+    "character": "熱",
+    "strokes": 15,
+    "readings": {
+      "kun": [ { "furigana": "あつ", "romanji": "atsu" } ],
+      "on": [ { "furigana": "ネツ", "romanji": "netsu" }, { "furigana": "ネッ", "romanji": "net" } ]
+    },
+    "meanings": {
+      "id": "(benda) panas, antusias",
+      "en": "hot (object), enthusiasm"
+    },
+    "examples": [
+      { "word": "熱", "furigana": "ねつ", "romanji": "netsu", "id": 439, "meanings": { "id": "(benda) panas", "en": "hot (object)" } },
+      { "word": "熱意", "furigana": "ねつい", "romanji": "netsui", "id": 439, "meanings": { "id": "antusias", "en": "enthusiasm" } }
+    ]
+  },
+  {
+    "id": 440,
+    "character": "賛",
+    "strokes": 15,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "サン", "romanji": "san" } ]
+    },
+    "meanings": {
+      "id": "persetujuan",
+      "en": "approval"
+    },
+    "examples": [
+      { "word": "賛成", "furigana": "さんせい", "romanji": "sansei", "id": 440, "meanings": { "id": "persetujuan", "en": "approval" } }
+    ]
+  },
+  {
+    "id": 441,
+    "character": "駐",
+    "strokes": 15,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "チュウ", "romanji": "chuu" } ]
+    },
+    "meanings": {
+      "id": "parkir",
+      "en": "parking"
+    },
+    "examples": [
+      { "word": "駐車", "furigana": "ちゅうしゃ", "romanji": "chuusha", "id": 441, "meanings": { "id": "parkir", "en": "parking" } }
+    ]
+  },
+  {
+    "id": 442,
+    "character": "線",
+    "strokes": 15,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+    },
+    "meanings": {
+      "id": "rel kereta api",
+      "en": "railway line"
+    },
+    "examples": [
+      { "word": "線路", "furigana": "せんろ", "romanji": "senro", "id": 442, "meanings": { "id": "rel kereta api", "en": "railway line" } }
+    ]
+  },
+  {
+    "id": 443,
+    "character": "蔵",
+    "strokes": 15,
+    "readings": {
+      "kun": [ { "furigana": "くら", "romanji": "kura" } ],
+      "on": [ { "furigana": "ゾウ", "romanji": "zou" } ]
+    },
+    "meanings": {
+      "id": "gudang, mentri keuangan",
+      "en": "warehouse, finance minister"
+    },
+    "examples": [
+      { "word": "蔵", "furigana": "くら", "romanji": "kura", "id": 443, "meanings": { "id": "gudang", "en": "warehouse" } },
+      { "word": "蔵相", "furigana": "ぞうしょう", "romanji": "zoushou", "id": 443, "meanings": { "id": "mentri keuangan", "en": "finance minister" } }
+    ]
+  },
+  {
+    "id": 444,
+    "character": "橋",
+    "strokes": 16,
+    "readings": {
+      "kun": [ { "furigana": "はし", "romanji": "hashi" }, { "furigana": "ばし", "romanji": "bashi" } ],
+      "on": [ { "furigana": "キョウ", "romanji": "kyou" } ]
+    },
+    "meanings": {
+      "id": "jembatan, jembatan penyeberangan",
+      "en": "bridge, pedestrian bridge"
+    },
+    "examples": [
+      { "word": "橋", "furigana": "はし", "romanji": "hashi", "id": 444, "meanings": { "id": "jembatan", "en": "bridge" } },
+      { "word": "歩道橋", "furigana": "ほどうきょう", "romanji": "hodoukyou", "id": 444, "meanings": { "id": "jembatan penyeberangan", "en": "pedestrian bridge" } }
+    ]
+  },
+  {
+    "id": 445,
+    "character": "機",
+    "strokes": 16,
+    "readings": {
+      "kun": [ { "furigana": "はた", "romanji": "hata" } ],
+      "on": [ { "furigana": "キ", "romanji": "ki" } ]
+    },
+    "meanings": {
+      "id": "mesin tenun, kesempatan, peluang",
+      "en": "loom, opportunity, chance"
+    },
+    "examples": [
+      { "word": "機", "furigana": "はた", "romanji": "hata", "id": 445, "meanings": { "id": "mesin tenun", "en": "loom" } },
+      { "word": "機会", "furigana": "きかい", "romanji": "kikai", "id": 445, "meanings": { "id": "kesempatan, peluang", "en": "opportunity, chance" } }
+    ]
+  },
+  {
+    "id": 446,
+    "character": "頼",
+    "strokes": 16,
+    "readings": {
+      "kun": [ { "furigana": "たの", "romanji": "tano" }, { "furigana": "たよ", "romanji": "tayo" } ],
+      "on": [ { "furigana": "ライ", "romanji": "rai" } ]
+    },
+    "meanings": {
+      "id": "meminta (tolong), mengandalkan, mempercayakan, permohonan, permintaan",
+      "en": "ask (for help), rely, entrust, request"
+    },
+    "examples": [
+      { "word": "頼む", "furigana": "たのむ", "romanji": "tanomu", "id": 446, "meanings": { "id": "meminta (tolong)", "en": "to ask (for help)" } },
+      { "word": "頼る", "furigana": "たよる", "romanji": "tayoru", "id": 446, "meanings": { "id": "mengandalkan, mempercayakan", "en": "to rely, to entrust" } },
+      { "word": "依頼", "furigana": "いらい", "romanji": "irai", "id": 446, "meanings": { "id": "permohonan, permintaan", "en": "request" } }
+    ]
+  }
+]
