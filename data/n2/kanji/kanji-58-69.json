@@ -5,12 +5,30 @@
     "strokes": 7,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ボウ", "romanji": "bou" }, { "furigana": "ボツ", "romanji": "botsu" } ]
+      "on": [
+        { "furigana": "ボウ", "romanji": "bou" },
+        { "furigana": "ボツ", "romanji": "botsu" }
+      ]
     },
-    "meanings": { "id": "cukuran botak, biksu, anak laki-laki kecil", "en": "shaven head, monk, little boy" },
+    "meanings": {
+      "id": "cukuran botak, biksu, anak laki-laki kecil",
+      "en": "shaven head, monk, little boy"
+    },
     "examples": [
-      { "word": "坊主", "furigana": "ぼうず", "romanji": "bouzu", "id": 58, "meanings": { "id": "cukuran botak, biksu", "en": "shaven head, monk" } },
-      { "word": "坊ちゃん", "furigana": "ぼっちゃん", "romanji": "botchan", "id": 58, "meanings": { "id": "anak laki-laki kecil", "en": "little boy" } }
+      {
+        "word": "坊主",
+        "furigana": "ぼうず",
+        "romanji": "bouzu",
+        "id": 58,
+        "meanings": { "id": "cukuran botak, biksu", "en": "shaven head, monk" }
+      },
+      {
+        "word": "坊ちゃん",
+        "furigana": "ぼっちゃん",
+        "romanji": "botchan",
+        "id": 58,
+        "meanings": { "id": "anak laki-laki kecil", "en": "little boy" }
+      }
     ]
   },
   {
@@ -18,13 +36,28 @@
     "character": "坂",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "さか", "romanji": "saka" } ],
-      "on": [ { "furigana": "ハン", "romanji": "han" } ]
+      "kun": [{ "furigana": "さか", "romanji": "saka" }],
+      "on": [{ "furigana": "ハン", "romanji": "han" }]
     },
-    "meanings": { "id": "jalan tanjakan, tanjakan curam", "en": "slope, steep hill" },
+    "meanings": {
+      "id": "jalan tanjakan, tanjakan curam",
+      "en": "slope, steep hill"
+    },
     "examples": [
-      { "word": "坂道", "furigana": "さかみち", "romanji": "sakamichi", "id": 59, "meanings": { "id": "jalan tanjakan", "en": "slope" } },
-      { "word": "急坂", "furigana": "きゅうはん", "romanji": "kyuuhan", "id": 59, "meanings": { "id": "tanjakan curam", "en": "steep hill" } }
+      {
+        "word": "坂道",
+        "furigana": "さかみち",
+        "romanji": "sakamichi",
+        "id": 59,
+        "meanings": { "id": "jalan tanjakan", "en": "slope" }
+      },
+      {
+        "word": "急坂",
+        "furigana": "きゅうはん",
+        "romanji": "kyuuhan",
+        "id": 59,
+        "meanings": { "id": "tanjakan curam", "en": "steep hill" }
+      }
     ]
   },
   {
@@ -32,13 +65,28 @@
     "character": "阪",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "さか", "romanji": "saka" } ],
-      "on": [ { "furigana": "ハン", "romanji": "han" } ]
+      "kun": [{ "furigana": "さか", "romanji": "saka" }],
+      "on": [{ "furigana": "ハン", "romanji": "han" }]
     },
-    "meanings": { "id": "nama kota Osaka & Kobe", "en": "Osaka & Kobe (city name)" },
+    "meanings": {
+      "id": "nama kota Osaka & Kobe",
+      "en": "Osaka & Kobe (city name)"
+    },
     "examples": [
-      { "word": "大阪", "furigana": "おおさか", "romanji": "oosaka", "id": 60, "meanings": { "id": "Osaka", "en": "Osaka" } },
-      { "word": "阪神", "furigana": "はんしん", "romanji": "hanshin", "id": 60, "meanings": { "id": "Kobe", "en": "Kobe" } }
+      {
+        "word": "大阪",
+        "furigana": "おおさか",
+        "romanji": "oosaka",
+        "id": 60,
+        "meanings": { "id": "Osaka", "en": "Osaka" }
+      },
+      {
+        "word": "阪神",
+        "furigana": "はんしん",
+        "romanji": "hanshin",
+        "id": 60,
+        "meanings": { "id": "Kobe", "en": "Kobe" }
+      }
     ]
   },
   {
@@ -46,13 +94,25 @@
     "character": "攻",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "せ", "romanji": "se" } ],
-      "on": [ { "furigana": "コウ", "romanji": "kou" } ]
+      "kun": [{ "furigana": "せ", "romanji": "se" }],
+      "on": [{ "furigana": "コウ", "romanji": "kou" }]
     },
     "meanings": { "id": "menyerang, serangan", "en": "to attack, attack" },
     "examples": [
-      { "word": "攻める", "furigana": "せめる", "romanji": "semeru", "id": 61, "meanings": { "id": "menyerang", "en": "to attack" } },
-      { "word": "攻撃", "furigana": "こうげき", "romanji": "kougeki", "id": 61, "meanings": { "id": "serangan", "en": "attack" } }
+      {
+        "word": "攻める",
+        "furigana": "せめる",
+        "romanji": "semeru",
+        "id": 61,
+        "meanings": { "id": "menyerang", "en": "to attack" }
+      },
+      {
+        "word": "攻撃",
+        "furigana": "こうげき",
+        "romanji": "kougeki",
+        "id": 61,
+        "meanings": { "id": "serangan", "en": "attack" }
+      }
     ]
   },
   {
@@ -61,11 +121,17 @@
     "strokes": 7,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ヒ", "romanji": "hi" } ]
+      "on": [{ "furigana": "ヒ", "romanji": "hi" }]
     },
     "meanings": { "id": "kecaman, kritik", "en": "criticism, critique" },
     "examples": [
-      { "word": "批判", "furigana": "ひはん", "romanji": "hihan", "id": 62, "meanings": { "id": "kecaman, kritik", "en": "criticism, critique" } }
+      {
+        "word": "批判",
+        "furigana": "ひはん",
+        "romanji": "hihan",
+        "id": 62,
+        "meanings": { "id": "kecaman, kritik", "en": "criticism, critique" }
+      }
     ]
   },
   {
@@ -73,13 +139,28 @@
     "character": "沖",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "おき", "romanji": "oki" } ],
-      "on": [ { "furigana": "チュウ", "romanji": "chuu" } ]
+      "kun": [{ "furigana": "おき", "romanji": "oki" }],
+      "on": [{ "furigana": "チュウ", "romanji": "chuu" }]
     },
-    "meanings": { "id": "lepas pantai, naik ke langit/surga", "en": "offshore, ascend to heaven" },
+    "meanings": {
+      "id": "lepas pantai, naik ke langit/surga",
+      "en": "offshore, ascend to heaven"
+    },
     "examples": [
-      { "word": "沖", "furigana": "おき", "romanji": "oki", "id": 63, "meanings": { "id": "lepas pantai", "en": "offshore" } },
-      { "word": "天沖", "furigana": "てんちゅう", "romanji": "tenchuu", "id": 63, "meanings": { "id": "naik ke langit/surga", "en": "ascend to heaven" } }
+      {
+        "word": "沖",
+        "furigana": "おき",
+        "romanji": "oki",
+        "id": 63,
+        "meanings": { "id": "lepas pantai", "en": "offshore" }
+      },
+      {
+        "word": "天沖",
+        "furigana": "てんちゅう",
+        "romanji": "tenchuu",
+        "id": 63,
+        "meanings": { "id": "naik ke langit/surga", "en": "ascend to heaven" }
+      }
     ]
   },
   {
@@ -88,11 +169,27 @@
     "strokes": 7,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "タク", "romanji": "taku" } ]
+      "on": [{ "furigana": "タク", "romanji": "taku" }]
     },
     "meanings": { "id": "air rawa, banyak", "en": "marsh water, many" },
     "examples": [
-      { "word": "沢山", "furigana": "たくさん", "romanji": "takusan", "id": 64, "meanings": { "id": "banyak", "en": "many" } }
+      {
+        "word": "沢水",
+        "furigana": "さわみず",
+        "romanji": "sawamizu",
+        "id": 185,
+        "meanings": {
+          "id": "air rawa, air alami dari lembah",
+          "en": "swamp water, natural valley water"
+        }
+      },
+      {
+        "word": "沢山",
+        "furigana": "たくさん",
+        "romanji": "takusan",
+        "id": 64,
+        "meanings": { "id": "banyak", "en": "many" }
+      }
     ]
   },
   {
@@ -100,13 +197,28 @@
     "character": "沈",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "しず", "romanji": "shizu" } ],
-      "on": [ { "furigana": "チン", "romanji": "chin" } ]
+      "kun": [{ "furigana": "しず", "romanji": "shizu" }],
+      "on": [{ "furigana": "チン", "romanji": "chin" }]
     },
-    "meanings": { "id": "tenggelam, terbenam, pengendapan", "en": "to sink, sedimentation" },
+    "meanings": {
+      "id": "tenggelam, terbenam, pengendapan",
+      "en": "to sink, sedimentation"
+    },
     "examples": [
-      { "word": "沈む", "furigana": "しずむ", "romanji": "shizumu", "id": 65, "meanings": { "id": "tenggelam, terbenam", "en": "to sink" } },
-      { "word": "沈殿", "furigana": "ちんでん", "romanji": "chinden", "id": 65, "meanings": { "id": "pengendapan", "en": "sedimentation" } }
+      {
+        "word": "沈む",
+        "furigana": "しずむ",
+        "romanji": "shizumu",
+        "id": 65,
+        "meanings": { "id": "tenggelam, terbenam", "en": "to sink" }
+      },
+      {
+        "word": "沈殿",
+        "furigana": "ちんでん",
+        "romanji": "chinden",
+        "id": 65,
+        "meanings": { "id": "pengendapan", "en": "sedimentation" }
+      }
     ]
   },
   {
@@ -114,12 +226,18 @@
     "character": "杉",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "すぎ", "romanji": "sugi" } ],
+      "kun": [{ "furigana": "すぎ", "romanji": "sugi" }],
       "on": []
     },
     "meanings": { "id": "pohon cedar", "en": "cedar tree" },
     "examples": [
-      { "word": "杉の木", "furigana": "すぎのき", "romanji": "suginoki", "id": 66, "meanings": { "id": "pohon cedar", "en": "cedar tree" } }
+      {
+        "word": "杉の木",
+        "furigana": "すぎのき",
+        "romanji": "suginoki",
+        "id": 66,
+        "meanings": { "id": "pohon cedar", "en": "cedar tree" }
+      }
     ]
   },
   {
@@ -127,13 +245,28 @@
     "character": "村",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "むら", "romanji": "mura" } ],
-      "on": [ { "furigana": "ソン", "romanji": "son" } ]
+      "kun": [{ "furigana": "むら", "romanji": "mura" }],
+      "on": [{ "furigana": "ソン", "romanji": "son" }]
     },
-    "meanings": { "id": "kampung, desa, desa pertanian", "en": "village, farming village" },
+    "meanings": {
+      "id": "kampung, desa, desa pertanian",
+      "en": "village, farming village"
+    },
     "examples": [
-      { "word": "村", "furigana": "むら", "romanji": "mura", "id": 67, "meanings": { "id": "kampung, desa", "en": "village" } },
-      { "word": "農村", "furigana": "のうそん", "romanji": "nouson", "id": 67, "meanings": { "id": "desa pertanian", "en": "farming village" } }
+      {
+        "word": "村",
+        "furigana": "むら",
+        "romanji": "mura",
+        "id": 67,
+        "meanings": { "id": "kampung, desa", "en": "village" }
+      },
+      {
+        "word": "農村",
+        "furigana": "のうそん",
+        "romanji": "nouson",
+        "id": 67,
+        "meanings": { "id": "desa pertanian", "en": "farming village" }
+      }
     ]
   },
   {
@@ -141,14 +274,38 @@
     "character": "我",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "わ", "romanji": "wa" }, { "furigana": "われ", "romanji": "ware" } ],
-      "on": [ { "furigana": "ガ", "romanji": "ga" } ]
+      "kun": [
+        { "furigana": "わ", "romanji": "wa" },
+        { "furigana": "われ", "romanji": "ware" }
+      ],
+      "on": [{ "furigana": "ガ", "romanji": "ga" }]
     },
-    "meanings": { "id": "negeri kami, kami, kita, kemauan sendiri", "en": "our country, we, self-will" },
+    "meanings": {
+      "id": "negeri kami, kami, kita, kemauan sendiri",
+      "en": "our country, we, self-will"
+    },
     "examples": [
-      { "word": "我が国", "furigana": "わがくに", "romanji": "wagakuni", "id": 68, "meanings": { "id": "negeri kami", "en": "our country" } },
-      { "word": "我々", "furigana": "われわれ", "romanji": "wareware", "id": 68, "meanings": { "id": "kami, kita", "en": "we, us" } },
-      { "word": "我意", "furigana": "がい", "romanji": "gai", "id": 68, "meanings": { "id": "kemauan sendiri", "en": "self-will" } }
+      {
+        "word": "我が国",
+        "furigana": "わがくに",
+        "romanji": "wagakuni",
+        "id": 68,
+        "meanings": { "id": "negeri kami", "en": "our country" }
+      },
+      {
+        "word": "我々",
+        "furigana": "われわれ",
+        "romanji": "wareware",
+        "id": 68,
+        "meanings": { "id": "kami, kita", "en": "we, us" }
+      },
+      {
+        "word": "我意",
+        "furigana": "がい",
+        "romanji": "gai",
+        "id": 68,
+        "meanings": { "id": "kemauan sendiri", "en": "self-will" }
+      }
     ]
   },
   {
@@ -156,13 +313,25 @@
     "character": "災",
     "strokes": 7,
     "readings": {
-      "kun": [ { "furigana": "わざわ", "romanji": "wazawa" } ],
-      "on": [ { "furigana": "サイ", "romanji": "sai" } ]
+      "kun": [{ "furigana": "わざわ", "romanji": "wazawa" }],
+      "on": [{ "furigana": "サイ", "romanji": "sai" }]
     },
     "meanings": { "id": "bencana, malapetaka", "en": "disaster, calamity" },
     "examples": [
-      { "word": "災い", "furigana": "わざわい", "romanji": "wazawai", "id": 69, "meanings": { "id": "bencana, malapetaka", "en": "disaster, calamity" } },
-      { "word": "災難", "furigana": "さいなん", "romanji": "sainan", "id": 69, "meanings": { "id": "bencana, malapetaka", "en": "disaster, calamity" } }
+      {
+        "word": "災い",
+        "furigana": "わざわい",
+        "romanji": "wazawai",
+        "id": 69,
+        "meanings": { "id": "bencana, malapetaka", "en": "disaster, calamity" }
+      },
+      {
+        "word": "災難",
+        "furigana": "さいなん",
+        "romanji": "sainan",
+        "id": 69,
+        "meanings": { "id": "bencana, malapetaka", "en": "disaster, calamity" }
+      }
     ]
   }
 ]

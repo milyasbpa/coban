@@ -15,8 +15,20 @@
       "en": "polite, meticulous, city block"
     },
     "examples": [
-      { "word": "丁寧", "furigana": "ていねい", "romanji": "teinei", "id": 1, "meanings": { "id": "sopan, teliti", "en": "polite, meticulous" } },
-      { "word": "丁目", "furigana": "ちょうめ", "romanji": "choume", "id": 1, "meanings": { "id": "pembagian tata kota", "en": "city block" } }
+      {
+        "word": "丁寧",
+        "furigana": "ていねい",
+        "romanji": "teinei",
+        "id": 1,
+        "meanings": { "id": "sopan, teliti", "en": "polite, meticulous" }
+      },
+      {
+        "word": "丁目",
+        "furigana": "ちょうめ",
+        "romanji": "choume",
+        "id": 1,
+        "meanings": { "id": "pembagian tata kota", "en": "city block" }
+      }
     ]
   },
   {
@@ -25,16 +37,20 @@
     "strokes": 3,
     "readings": {
       "kun": [],
-      "on": [
-        { "furigana": "シ", "romanji": "shi" }
-      ]
+      "on": [{ "furigana": "シ", "romanji": "shi" }]
     },
     "meanings": {
       "id": "pengacara",
       "en": "lawyer"
     },
     "examples": [
-      { "word": "弁護士", "furigana": "べんごし", "romanji": "bengoshi", "id": 2, "meanings": { "id": "pengacara", "en": "lawyer" } }
+      {
+        "word": "弁護士",
+        "furigana": "べんごし",
+        "romanji": "bengoshi",
+        "id": 2,
+        "meanings": { "id": "pengacara", "en": "lawyer" }
+      }
     ]
   },
   {
@@ -42,16 +58,28 @@
     "character": "及",
     "strokes": 3,
     "readings": {
-      "kun": [ { "furigana": "およ", "romanji": "oyo" } ],
-      "on": [ { "furigana": "キュウ", "romanji": "kyuu" } ]
+      "kun": [{ "furigana": "およ", "romanji": "oyo" }],
+      "on": [{ "furigana": "キュウ", "romanji": "kyuu" }]
     },
     "meanings": {
       "id": "mencapai, setara",
       "en": "to reach, equal"
     },
     "examples": [
-      { "word": "及ぶ", "furigana": "およぶ", "romanji": "oyobu", "id": 3, "meanings": { "id": "mencapai", "en": "to reach" } },
-      { "word": "普及", "furigana": "ふきゅう", "romanji": "fukyuu", "id": 3, "meanings": { "id": "tersebar, populer", "en": "spread, popular" } }
+      {
+        "word": "及ぶ",
+        "furigana": "およぶ",
+        "romanji": "oyobu",
+        "id": 3,
+        "meanings": { "id": "mencapai", "en": "to reach" }
+      },
+      {
+        "word": "普及",
+        "furigana": "ふきゅう",
+        "romanji": "fukyuu",
+        "id": 3,
+        "meanings": { "id": "tersebar, populer", "en": "spread, popular" }
+      }
     ]
   },
   {
@@ -59,16 +87,28 @@
     "character": "双",
     "strokes": 4,
     "readings": {
-      "kun": [ { "furigana": "ふた", "romanji": "futa" } ],
-      "on": [ { "furigana": "ソウ", "romanji": "sou" } ]
+      "kun": [{ "furigana": "ふた", "romanji": "futa" }],
+      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
     },
     "meanings": {
       "id": "anak kembar, dua pihak/arah",
       "en": "twins, two sides/directions"
     },
     "examples": [
-      { "word": "双子", "furigana": "ふたご", "romanji": "futago", "id": 4, "meanings": { "id": "anak kembar", "en": "twins" } },
-      { "word": "双方", "furigana": "そうほう", "romanji": "souhou", "id": 4, "meanings": { "id": "dua pihak/arah", "en": "both sides/directions" } }
+      {
+        "word": "双子",
+        "furigana": "ふたご",
+        "romanji": "futago",
+        "id": 4,
+        "meanings": { "id": "anak kembar", "en": "twins" }
+      },
+      {
+        "word": "双方",
+        "furigana": "そうほう",
+        "romanji": "souhou",
+        "id": 4,
+        "meanings": { "id": "dua pihak/arah", "en": "both sides/directions" }
+      }
     ]
   },
   {
@@ -76,16 +116,28 @@
     "character": "氏",
     "strokes": 4,
     "readings": {
-      "kun": [ { "furigana": "うじ", "romanji": "uji" } ],
-      "on": [ { "furigana": "シ", "romanji": "shi" } ]
+      "kun": [{ "furigana": "うじ", "romanji": "uji" }],
+      "on": [{ "furigana": "シ", "romanji": "shi" }]
     },
     "meanings": {
       "id": "dewa pelindung, nama lengkap",
       "en": "guardian deity, surname"
     },
     "examples": [
-      { "word": "氏神", "furigana": "うじがみ", "romanji": "ujigami", "id": 5, "meanings": { "id": "dewa pelindung", "en": "guardian deity" } },
-      { "word": "氏名", "furigana": "しめい", "romanji": "shimei", "id": 5, "meanings": { "id": "nama lengkap", "en": "full name" } }
+      {
+        "word": "氏神",
+        "furigana": "うじがみ",
+        "romanji": "ujigami",
+        "id": 5,
+        "meanings": { "id": "dewa pelindung", "en": "guardian deity" }
+      },
+      {
+        "word": "氏名",
+        "furigana": "しめい",
+        "romanji": "shimei",
+        "id": 5,
+        "meanings": { "id": "nama lengkap", "en": "full name" }
+      }
     ]
   },
   {
@@ -94,14 +146,20 @@
     "strokes": 4,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ジョウ", "romanji": "jou" } ]
+      "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
     },
     "meanings": {
       "id": "canda, kelakar",
       "en": "joke, humor"
     },
     "examples": [
-      { "word": "冗談", "furigana": "じょうだん", "romanji": "joudan", "id": 6, "meanings": { "id": "canda, kelakar", "en": "joke, humor" } }
+      {
+        "word": "冗談",
+        "furigana": "じょうだん",
+        "romanji": "joudan",
+        "id": 6,
+        "meanings": { "id": "canda, kelakar", "en": "joke, humor" }
+      }
     ]
   },
   {
@@ -109,17 +167,38 @@
     "character": "太",
     "strokes": 4,
     "readings": {
-      "kun": [ { "furigana": "ふと", "romanji": "futo" } ],
-      "on": [ { "furigana": "タ", "romanji": "ta" }, { "furigana": "タイ", "romanji": "tai" } ]
+      "kun": [{ "furigana": "ふと", "romanji": "futo" }],
+      "on": [
+        { "furigana": "タ", "romanji": "ta" },
+        { "furigana": "タイ", "romanji": "tai" }
+      ]
     },
     "meanings": {
       "id": "gemuk, pedang, matahari",
       "en": "fat, sword, sun"
     },
     "examples": [
-      { "word": "太る", "furigana": "ふとる", "romanji": "futoru", "id": 7, "meanings": { "id": "gemuk", "en": "fat" } },
-      { "word": "太刀", "furigana": "たち", "romanji": "tachi", "id": 7, "meanings": { "id": "pedang", "en": "sword" } },
-      { "word": "太陽", "furigana": "たいよう", "romanji": "taiyou", "id": 7, "meanings": { "id": "matahari", "en": "sun" } }
+      {
+        "word": "太る",
+        "furigana": "ふとる",
+        "romanji": "futoru",
+        "id": 7,
+        "meanings": { "id": "gemuk", "en": "fat" }
+      },
+      {
+        "word": "太刀",
+        "furigana": "たち",
+        "romanji": "tachi",
+        "id": 7,
+        "meanings": { "id": "pedang", "en": "sword" }
+      },
+      {
+        "word": "太陽",
+        "furigana": "たいよう",
+        "romanji": "taiyou",
+        "id": 7,
+        "meanings": { "id": "matahari", "en": "sun" }
+      }
     ]
   },
   {
@@ -127,17 +206,38 @@
     "character": "井",
     "strokes": 4,
     "readings": {
-      "kun": [ { "furigana": "い", "romanji": "i" } ],
-      "on": [ { "furigana": "セイ", "romanji": "sei" }, { "furigana": "ジョウ", "romanji": "jou" } ]
+      "kun": [{ "furigana": "い", "romanji": "i" }],
+      "on": [
+        { "furigana": "セイ", "romanji": "sei" },
+        { "furigana": "ジョウ", "romanji": "jou" }
+      ]
     },
     "meanings": {
       "id": "sumur, sumur minyak, langit-langit",
       "en": "well, oil well, ceiling"
     },
     "examples": [
-      { "word": "井戸", "furigana": "いど", "romanji": "ido", "id": 8, "meanings": { "id": "sumur", "en": "well" } },
-      { "word": "油井", "furigana": "ゆせい", "romanji": "yusei", "id": 8, "meanings": { "id": "sumur minyak", "en": "oil well" } },
-      { "word": "天井", "furigana": "てんじょう", "romanji": "tenjou", "id": 8, "meanings": { "id": "langit-langit", "en": "ceiling" } }
+      {
+        "word": "井戸",
+        "furigana": "いど",
+        "romanji": "ido",
+        "id": 8,
+        "meanings": { "id": "sumur", "en": "well" }
+      },
+      {
+        "word": "油井",
+        "furigana": "ゆせい",
+        "romanji": "yusei",
+        "id": 8,
+        "meanings": { "id": "sumur minyak", "en": "oil well" }
+      },
+      {
+        "word": "天井",
+        "furigana": "てんじょう",
+        "romanji": "tenjou",
+        "id": 8,
+        "meanings": { "id": "langit-langit", "en": "ceiling" }
+      }
     ]
   },
   {
@@ -145,16 +245,28 @@
     "character": "片",
     "strokes": 4,
     "readings": {
-      "kun": [ { "furigana": "かた", "romanji": "kata" } ],
-      "on": [ { "furigana": "ヘン", "romanji": "hen" } ]
+      "kun": [{ "furigana": "かた", "romanji": "kata" }],
+      "on": [{ "furigana": "ヘン", "romanji": "hen" }]
     },
     "meanings": {
       "id": "satu jalan/jurusan, pecahan, serpihan",
       "en": "one way/direction, fragment, chip"
     },
     "examples": [
-      { "word": "片道", "furigana": "かたみち", "romanji": "katamichi", "id": 9, "meanings": { "id": "satu jalan/jurusan", "en": "one way/direction" } },
-      { "word": "破片", "furigana": "はへん", "romanji": "hahen", "id": 9, "meanings": { "id": "pecahan, serpihan", "en": "fragment, chip" } }
+      {
+        "word": "片道",
+        "furigana": "かたみち",
+        "romanji": "katamichi",
+        "id": 9,
+        "meanings": { "id": "satu jalan/jurusan", "en": "one way/direction" }
+      },
+      {
+        "word": "破片",
+        "furigana": "はへん",
+        "romanji": "hahen",
+        "id": 9,
+        "meanings": { "id": "pecahan, serpihan", "en": "fragment, chip" }
+      }
     ]
   },
   {
@@ -162,19 +274,55 @@
     "character": "匹",
     "strokes": 4,
     "readings": {
-      "kun": [ { "furigana": "ひき", "romanji": "hiki" }, { "furigana": "びき", "romanji": "biki" } ],
-      "on": [ { "furigana": "ヒツ", "romanji": "hitsu" }, { "furigana": "ヒッ", "romanji": "hitsu" } ]
+      "kun": [
+        { "furigana": "ひき", "romanji": "hiki" },
+        { "furigana": "びき", "romanji": "biki" }
+      ],
+      "on": [
+        { "furigana": "ヒツ", "romanji": "hitsu" },
+        { "furigana": "ヒッ", "romanji": "hitsu" }
+      ]
     },
     "meanings": {
       "id": "ekor, kuda, setara, sederajat",
       "en": "counter for animals, horse, equal"
     },
     "examples": [
-      { "word": "二匹", "furigana": "にひき", "romanji": "nihiki", "id": 10, "meanings": { "id": "2 ekor", "en": "2 animals" } },
-      { "word": "三匹", "furigana": "さんびき", "romanji": "sanbiki", "id": 10, "meanings": { "id": "3 ekor", "en": "3 animals" } },
-      { "word": "六匹", "furigana": "ろっぴき", "romanji": "roppiki", "id": 10, "meanings": { "id": "6 ekor", "en": "6 animals" } },
-      { "word": "馬匹", "furigana": "ばひつ", "romanji": "bahitsu", "id": 10, "meanings": { "id": "kuda", "en": "horse" } },
-      { "word": "匹敵", "furigana": "ひってき", "romanji": "hitteki", "id": 10, "meanings": { "id": "setara, sederajat", "en": "equal, equivalent" } }
+      {
+        "word": "二匹",
+        "furigana": "にひき",
+        "romanji": "nihiki",
+        "id": 10,
+        "meanings": { "id": "2 ekor", "en": "2 animals" }
+      },
+      {
+        "word": "三匹",
+        "furigana": "さんびき",
+        "romanji": "sanbiki",
+        "id": 10,
+        "meanings": { "id": "3 ekor", "en": "3 animals" }
+      },
+      {
+        "word": "六匹",
+        "furigana": "ろっぴき",
+        "romanji": "roppiki",
+        "id": 10,
+        "meanings": { "id": "6 ekor", "en": "6 animals" }
+      },
+      {
+        "word": "馬匹",
+        "furigana": "ばひつ",
+        "romanji": "bahitsu",
+        "id": 10,
+        "meanings": { "id": "kuda", "en": "horse" }
+      },
+      {
+        "word": "匹敵",
+        "furigana": "ひってき",
+        "romanji": "hitteki",
+        "id": 10,
+        "meanings": { "id": "setara, sederajat", "en": "equal, equivalent" }
+      }
     ]
   }
 ]

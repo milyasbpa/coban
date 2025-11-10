@@ -4,16 +4,57 @@
     "character": "空",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "あ", "romanji": "a" }, { "furigana": "そら", "romanji": "sora" }, { "furigana": "ぞら", "romanji": "zora" }, { "furigana": "から", "romanji": "kara" } ],
-      "on": [ { "furigana": "クウ", "romanji": "kuu" } ]
+      "kun": [
+        { "furigana": "あ", "romanji": "a" },
+        { "furigana": "そら", "romanji": "sora" },
+        { "furigana": "ぞら", "romanji": "zora" },
+        { "furigana": "から", "romanji": "kara" }
+      ],
+      "on": [{ "furigana": "クウ", "romanji": "kuu" }]
     },
-    "meanings": { "id": "kosong, warna langit, langit biru, karate, tangan kosong, bandara", "en": "empty, sky color, blue sky, karate, airport" },
+    "meanings": {
+      "id": "kosong, warna langit, langit biru, karate, tangan kosong, bandara",
+      "en": "empty, sky color, blue sky, karate, airport"
+    },
     "examples": [
-      { "word": "空く", "furigana": "あく", "romanji": "aku", "id": 83, "meanings": { "id": "kosong", "en": "empty" } },
-      { "word": "空色", "furigana": "そらいろ", "romanji": "sorairo", "id": 83, "meanings": { "id": "warna langit", "en": "sky color" } },
-      { "word": "青空", "furigana": "あおぞら", "romanji": "aozora", "id": 83, "meanings": { "id": "langit biru", "en": "blue sky" } },
-      { "word": "空手", "furigana": "からて", "romanji": "karate", "id": 83, "meanings": { "id": "karate, tangan kosong", "en": "karate, empty hand" } },
-      { "word": "空港", "furigana": "くうこう", "romanji": "kuukou", "id": 83, "meanings": { "id": "bandara", "en": "airport" } }
+      {
+        "word": "空く",
+        "furigana": "あく",
+        "romanji": "aku",
+        "id": 83,
+        "meanings": { "id": "kosong", "en": "empty" }
+      },
+      {
+        "word": "空色",
+        "furigana": "そらいろ",
+        "romanji": "sorairo",
+        "id": 83,
+        "meanings": { "id": "warna langit", "en": "sky color" }
+      },
+      {
+        "word": "青空",
+        "furigana": "あおぞら",
+        "romanji": "aozora",
+        "id": 83,
+        "meanings": { "id": "langit biru", "en": "blue sky" }
+      },
+      {
+        "word": "空手",
+        "furigana": "からて",
+        "romanji": "karate",
+        "id": 83,
+        "meanings": {
+          "id": "karate, tangan kosong",
+          "en": "karate, empty hand"
+        }
+      },
+      {
+        "word": "空港",
+        "furigana": "くうこう",
+        "romanji": "kuukou",
+        "id": 83,
+        "meanings": { "id": "bandara", "en": "airport" }
+      }
     ]
   },
   {
@@ -21,13 +62,28 @@
     "character": "宝",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "たから", "romanji": "takara" } ],
-      "on": [ { "furigana": "ホウ", "romanji": "hou" } ]
+      "kun": [{ "furigana": "たから", "romanji": "takara" }],
+      "on": [{ "furigana": "ホウ", "romanji": "hou" }]
     },
-    "meanings": { "id": "barang berharga, batu permata", "en": "treasure, jewel" },
+    "meanings": {
+      "id": "barang berharga, batu permata",
+      "en": "treasure, jewel"
+    },
     "examples": [
-      { "word": "宝物", "furigana": "たからもの", "romanji": "takaramono", "id": 84, "meanings": { "id": "barang berharga", "en": "treasure" } },
-      { "word": "宝石", "furigana": "ほうせき", "romanji": "houseki", "id": 84, "meanings": { "id": "batu permata", "en": "jewel" } }
+      {
+        "word": "宝物",
+        "furigana": "たからもの",
+        "romanji": "takaramono",
+        "id": 84,
+        "meanings": { "id": "barang berharga", "en": "treasure" }
+      },
+      {
+        "word": "宝石",
+        "furigana": "ほうせき",
+        "romanji": "houseki",
+        "id": 84,
+        "meanings": { "id": "batu permata", "en": "jewel" }
+      }
     ]
   },
   {
@@ -36,12 +92,33 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "イ", "romanji": "i" }, { "furigana": "エ", "romanji": "e" } ]
+      "on": [
+        { "furigana": "イ", "romanji": "i" },
+        { "furigana": "エ", "romanji": "e" }
+      ]
     },
-    "meanings": { "id": "permohonan, permintaan, berserah diri (agama)", "en": "request, surrender (religion)" },
+    "meanings": {
+      "id": "permohonan, permintaan, berserah diri (agama)",
+      "en": "request, surrender (religion)"
+    },
     "examples": [
-      { "word": "依頼", "furigana": "いらい", "romanji": "irai", "id": 85, "meanings": { "id": "permohonan, permintaan", "en": "request" } },
-      { "word": "帰依", "furigana": "きえ", "romanji": "kie", "id": 85, "meanings": { "id": "berserah diri (agama)", "en": "surrender (religion)" } }
+      {
+        "word": "依頼",
+        "furigana": "いらい",
+        "romanji": "irai",
+        "id": 85,
+        "meanings": { "id": "permohonan, permintaan", "en": "request" }
+      },
+      {
+        "word": "帰依",
+        "furigana": "きえ",
+        "romanji": "kie",
+        "id": 85,
+        "meanings": {
+          "id": "berserah diri (agama)",
+          "en": "surrender (religion)"
+        }
+      }
     ]
   },
   {
@@ -50,11 +127,17 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "オウ", "romanji": "ou" } ]
+      "on": [{ "furigana": "オウ", "romanji": "ou" }]
     },
     "meanings": { "id": "pulang-pergi", "en": "round trip" },
     "examples": [
-      { "word": "往復", "furigana": "おうふく", "romanji": "oufuku", "id": 86, "meanings": { "id": "pulang-pergi", "en": "round trip" } }
+      {
+        "word": "往復",
+        "furigana": "おうふく",
+        "romanji": "oufuku",
+        "id": 86,
+        "meanings": { "id": "pulang-pergi", "en": "round trip" }
+      }
     ]
   },
   {
@@ -62,13 +145,42 @@
     "character": "岸",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "きし", "romanji": "kishi" }, { "furigana": "ぎし", "romanji": "gishi" } ],
-      "on": [ { "furigana": "ガン", "romanji": "gan" } ]
+      "kun": [
+        { "furigana": "きし", "romanji": "kishi" },
+        { "furigana": "ぎし", "romanji": "gishi" }
+      ],
+      "on": [{ "furigana": "ガン", "romanji": "gan" }]
     },
-    "meanings": { "id": "tepian pantai/sungai, tepi sungai", "en": "beach/river bank, river edge" },
+    "meanings": {
+      "id": "tepian pantai/sungai, tepi sungai",
+      "en": "beach/river bank, river edge"
+    },
     "examples": [
-      { "word": "海岸", "furigana": "かいがん", "romanji": "kaigan", "id": 87, "meanings": { "id": "tepian pantai", "en": "beach" } },
-      { "word": "岸辺", "furigana": "きしべ", "romanji": "kishibe", "id": 87, "meanings": { "id": "tepi sungai", "en": "river edge" } }
+      {
+        "id": 187,
+        "character": "岸",
+        "word": "岸辺",
+        "furigana": "きしべ",
+        "romanji": "kishibe",
+        "meanings": {
+          "id": "tepian pantai/sungai",
+          "en": "shore; bank; waterside"
+        }
+      },
+      {
+        "word": "海岸",
+        "furigana": "かいがん",
+        "romanji": "kaigan",
+        "id": 87,
+        "meanings": { "id": "tepian pantai", "en": "beach" }
+      },
+      {
+        "word": "岸辺",
+        "furigana": "きしべ",
+        "romanji": "kishibe",
+        "id": 87,
+        "meanings": { "id": "tepi sungai", "en": "river edge" }
+      }
     ]
   },
   {
@@ -76,13 +188,28 @@
     "character": "岩",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "いわ", "romanji": "iwa" } ],
-      "on": [ { "furigana": "ガン", "romanji": "gan" } ]
+      "kun": [{ "furigana": "いわ", "romanji": "iwa" }],
+      "on": [{ "furigana": "ガン", "romanji": "gan" }]
     },
-    "meanings": { "id": "tempat berbatu karang, batu karang", "en": "rocky place, coral rock" },
+    "meanings": {
+      "id": "tempat berbatu karang, batu karang",
+      "en": "rocky place, coral rock"
+    },
     "examples": [
-      { "word": "岩場", "furigana": "いわば", "romanji": "iwaba", "id": 88, "meanings": { "id": "tempat berbatu karang", "en": "rocky place" } },
-      { "word": "岩石", "furigana": "がんせき", "romanji": "ganseki", "id": 88, "meanings": { "id": "batu karang", "en": "coral rock" } }
+      {
+        "word": "岩場",
+        "furigana": "いわば",
+        "romanji": "iwaba",
+        "id": 88,
+        "meanings": { "id": "tempat berbatu karang", "en": "rocky place" }
+      },
+      {
+        "word": "岩石",
+        "furigana": "がんせき",
+        "romanji": "ganseki",
+        "id": 88,
+        "meanings": { "id": "batu karang", "en": "coral rock" }
+      }
     ]
   },
   {
@@ -91,11 +218,17 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "カク", "romanji": "kaku" } ]
+      "on": [{ "furigana": "カク", "romanji": "kaku" }]
     },
     "meanings": { "id": "memperbesar", "en": "to enlarge" },
     "examples": [
-      { "word": "拡大する", "furigana": "かくだいする", "romanji": "kakudaisuru", "id": 89, "meanings": { "id": "memperbesar", "en": "to enlarge" } }
+      {
+        "word": "拡大する",
+        "furigana": "かくだいする",
+        "romanji": "kakudaisuru",
+        "id": 89,
+        "meanings": { "id": "memperbesar", "en": "to enlarge" }
+      }
     ]
   },
   {
@@ -103,12 +236,28 @@
     "character": "拒",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "こば", "romanji": "koba" } ],
-      "on": [ { "furigana": "キョ", "romanji": "kyo" } ]
+      "kun": [{ "furigana": "こば", "romanji": "koba" }],
+      "on": [{ "furigana": "キョ", "romanji": "kyo" }]
     },
     "meanings": { "id": "menolak", "en": "to refuse" },
     "examples": [
-      { "word": "拒否する", "furigana": "きょひする", "romanji": "kyohisuru", "id": 90, "meanings": { "id": "menolak", "en": "to refuse" } }
+      {
+        "id": 120,
+        "word": "拒む",
+        "furigana": "こばむ",
+        "romanji": "kobamu",
+        "meanings": {
+          "id": "menolak, menampik",
+          "en": "to refuse, to reject"
+        }
+      },
+      {
+        "word": "拒否する",
+        "furigana": "きょひする",
+        "romanji": "kyohisuru",
+        "id": 90,
+        "meanings": { "id": "menolak", "en": "to refuse" }
+      }
     ]
   },
   {
@@ -116,13 +265,28 @@
     "character": "拝",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "おが", "romanji": "oga" } ],
-      "on": [ { "furigana": "ハイ", "romanji": "hai" } ]
+      "kun": [{ "furigana": "おが", "romanji": "oga" }],
+      "on": [{ "furigana": "ハイ", "romanji": "hai" }]
     },
-    "meanings": { "id": "memuja, beribadah, karcis masuk", "en": "to worship, pray, admission ticket" },
+    "meanings": {
+      "id": "memuja, beribadah, karcis masuk",
+      "en": "to worship, pray, admission ticket"
+    },
     "examples": [
-      { "word": "拝む", "furigana": "おがむ", "romanji": "ogamu", "id": 91, "meanings": { "id": "memuja, beribadah", "en": "to worship, pray" } },
-      { "word": "拝観料", "furigana": "はいかんりょう", "romanji": "haikanryou", "id": 91, "meanings": { "id": "karcis masuk", "en": "admission ticket" } }
+      {
+        "word": "拝む",
+        "furigana": "おがむ",
+        "romanji": "ogamu",
+        "id": 91,
+        "meanings": { "id": "memuja, beribadah", "en": "to worship, pray" }
+      },
+      {
+        "word": "拝観料",
+        "furigana": "はいかんりょう",
+        "romanji": "haikanryou",
+        "id": 91,
+        "meanings": { "id": "karcis masuk", "en": "admission ticket" }
+      }
     ]
   },
   {
@@ -131,12 +295,30 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ハク", "romanji": "haku" }, { "furigana": "ヒョウ", "romanji": "hyou" } ]
+      "on": [
+        { "furigana": "ハク", "romanji": "haku" },
+        { "furigana": "ヒョウ", "romanji": "hyou" }
+      ]
     },
-    "meanings": { "id": "tepukan tangan, ketukan, irama", "en": "clap, beat, rhythm" },
+    "meanings": {
+      "id": "tepukan tangan, ketukan, irama",
+      "en": "clap, beat, rhythm"
+    },
     "examples": [
-      { "word": "拍手", "furigana": "はくしゅ", "romanji": "hakushu", "id": 92, "meanings": { "id": "tepukan tangan", "en": "clap" } },
-      { "word": "拍子", "furigana": "ひょうし", "romanji": "hyoushi", "id": 92, "meanings": { "id": "ketukan, irama", "en": "beat, rhythm" } }
+      {
+        "word": "拍手",
+        "furigana": "はくしゅ",
+        "romanji": "hakushu",
+        "id": 92,
+        "meanings": { "id": "tepukan tangan", "en": "clap" }
+      },
+      {
+        "word": "拍子",
+        "furigana": "ひょうし",
+        "romanji": "hyoushi",
+        "id": 92,
+        "meanings": { "id": "ketukan, irama", "en": "beat, rhythm" }
+      }
     ]
   },
   {
@@ -144,14 +326,41 @@
     "character": "担",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "かつ", "romanji": "katsu" }, { "furigana": "にな", "romanji": "nina" } ],
-      "on": [ { "furigana": "タン", "romanji": "tan" } ]
+      "kun": [
+        { "furigana": "かつ", "romanji": "katsu" },
+        { "furigana": "にな", "romanji": "nina" }
+      ],
+      "on": [{ "furigana": "タン", "romanji": "tan" }]
     },
-    "meanings": { "id": "memikul, beban, tanggung jawab", "en": "to carry, burden, responsibility" },
+    "meanings": {
+      "id": "memikul, beban, tanggung jawab",
+      "en": "to carry, burden, responsibility"
+    },
     "examples": [
-      { "word": "担ぐ", "furigana": "かつぐ", "romanji": "katsugu", "id": 93, "meanings": { "id": "memikul", "en": "to carry" } },
-      { "word": "担う", "furigana": "になう", "romanji": "ninau", "id": 93, "meanings": { "id": "memikul", "en": "to carry" } },
-      { "word": "担任", "furigana": "たんにん", "romanji": "tannin", "id": 93, "meanings": { "id": "beban, tanggung jawab", "en": "burden, responsibility" } }
+      {
+        "word": "担ぐ",
+        "furigana": "かつぐ",
+        "romanji": "katsugu",
+        "id": 93,
+        "meanings": { "id": "memikul", "en": "to carry" }
+      },
+      {
+        "word": "担う",
+        "furigana": "になう",
+        "romanji": "ninau",
+        "id": 93,
+        "meanings": { "id": "memikul", "en": "to carry" }
+      },
+      {
+        "word": "担任",
+        "furigana": "たんにん",
+        "romanji": "tannin",
+        "id": 93,
+        "meanings": {
+          "id": "beban, tanggung jawab",
+          "en": "burden, responsibility"
+        }
+      }
     ]
   }
 ]

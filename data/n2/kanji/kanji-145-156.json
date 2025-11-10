@@ -4,15 +4,44 @@
     "character": "香",
     "strokes": 9,
     "readings": {
-      "kun": [ { "furigana": "か", "romanji": "ka" }, { "furigana": "かお", "romanji": "kao" } ],
-      "on": [ { "furigana": "コウ", "romanji": "kou" }, { "furigana": "キョウ", "romanji": "kyou" } ]
+      "kun": [
+        { "furigana": "か", "romanji": "ka" },
+        { "furigana": "かお", "romanji": "kao" }
+      ],
+      "on": [
+        { "furigana": "コウ", "romanji": "kou" },
+        { "furigana": "キョウ", "romanji": "kyou" }
+      ]
     },
-    "meanings": { "id": "daya pikat, pesona, aroma, bau harum, minyak wangi, buah catur spear", "en": "fragrance, charm, perfume, chess piece (spear)" },
+    "meanings": {
+      "id": "daya pikat, pesona, aroma, bau harum, minyak wangi, buah catur spear",
+      "en": "fragrance, charm, perfume, chess piece (spear)"
+    },
     "examples": [
-      { "word": "色香", "furigana": "いろか", "romanji": "iroka", "meanings": { "id": "daya pikat, pesona", "en": "charm, allure" } },
-      { "word": "香り", "furigana": "かおり", "romanji": "kaori", "meanings": { "id": "aroma, bau harum", "en": "aroma, fragrance" } },
-      { "word": "香水", "furigana": "こうすい", "romanji": "kousui", "meanings": { "id": "minyak wangi", "en": "perfume" } },
-      { "word": "香車", "furigana": "きょうしゃ", "romanji": "kyousha", "meanings": { "id": "buah catur spear", "en": "chess piece (spear)" } }
+      {
+        "word": "色香",
+        "furigana": "いろか",
+        "romanji": "iroka",
+        "meanings": { "id": "daya pikat, pesona", "en": "charm, allure" }
+      },
+      {
+        "word": "香り",
+        "furigana": "かおり",
+        "romanji": "kaori",
+        "meanings": { "id": "aroma, bau harum", "en": "aroma, fragrance" }
+      },
+      {
+        "word": "香水",
+        "furigana": "こうすい",
+        "romanji": "kousui",
+        "meanings": { "id": "minyak wangi", "en": "perfume" }
+      },
+      {
+        "word": "香車",
+        "furigana": "きょうしゃ",
+        "romanji": "kyousha",
+        "meanings": { "id": "buah catur spear", "en": "chess piece (spear)" }
+      }
     ]
   },
   {
@@ -20,14 +49,35 @@
     "character": "星",
     "strokes": 9,
     "readings": {
-      "kun": [ { "furigana": "ほし", "romanji": "hoshi" } ],
-      "on": [ { "furigana": "セイ", "romanji": "sei" }, { "furigana": "ジョウ", "romanji": "jou" } ]
+      "kun": [{ "furigana": "ほし", "romanji": "hoshi" }],
+      "on": [
+        { "furigana": "セイ", "romanji": "sei" },
+        { "furigana": "ジョウ", "romanji": "jou" }
+      ]
     },
-    "meanings": { "id": "sinar bintang, bintang (zodiak), bintang venus", "en": "star, zodiac, Venus" },
+    "meanings": {
+      "id": "sinar bintang, bintang (zodiak), bintang venus",
+      "en": "star, zodiac, Venus"
+    },
     "examples": [
-      { "word": "星明", "furigana": "せいめい", "romanji": "seimei", "meanings": { "id": "sinar bintang", "en": "starlight" } },
-      { "word": "星座", "furigana": "せいざ", "romanji": "seiza", "meanings": { "id": "bintang (zodiak)", "en": "constellation, zodiac" } },
-      { "word": "明星", "furigana": "みょうじょう", "romanji": "myoujou", "meanings": { "id": "bintang venus", "en": "Venus (star)" } }
+      {
+        "word": "星明",
+        "furigana": "せいめい",
+        "romanji": "seimei",
+        "meanings": { "id": "sinar bintang", "en": "starlight" }
+      },
+      {
+        "word": "星座",
+        "furigana": "せいざ",
+        "romanji": "seiza",
+        "meanings": { "id": "bintang (zodiak)", "en": "constellation, zodiac" }
+      },
+      {
+        "word": "明星",
+        "furigana": "みょうじょう",
+        "romanji": "myoujou",
+        "meanings": { "id": "bintang venus", "en": "Venus (star)" }
+      }
     ]
   },
   {
@@ -36,11 +86,16 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
     },
     "meanings": { "id": "era Showa", "en": "Showa era" },
     "examples": [
-      { "word": "昭和", "furigana": "しょうわ", "romanji": "shouwa", "meanings": { "id": "era Showa", "en": "Showa era" } }
+      {
+        "word": "昭和",
+        "furigana": "しょうわ",
+        "romanji": "shouwa",
+        "meanings": { "id": "era Showa", "en": "Showa era" }
+      }
     ]
   },
   {
@@ -48,12 +103,30 @@
     "character": "泉",
     "strokes": 9,
     "readings": {
-      "kun": [ { "furigana": "いずみ", "romanji": "izumi" } ],
-      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+      "kun": [{ "furigana": "いずみ", "romanji": "izumi" }],
+      "on": [{ "furigana": "セン", "romanji": "sen" }]
     },
-    "meanings": { "id": "mata air, sumber air panas", "en": "spring, hot spring" },
+    "meanings": {
+      "id": "mata air, sumber air panas",
+      "en": "spring, hot spring"
+    },
     "examples": [
-      { "word": "温泉", "furigana": "おんせん", "romanji": "onsen", "meanings": { "id": "sumber air panas", "en": "hot spring" } }
+      {
+        "id": 193,
+        "word": "泉",
+        "furigana": "いずみ",
+        "romanji": "izumi",
+        "meanings": {
+          "id": "mata air",
+          "en": "spring, fountain"
+        }
+      },
+      {
+        "word": "温泉",
+        "furigana": "おんせん",
+        "romanji": "onsen",
+        "meanings": { "id": "sumber air panas", "en": "hot spring" }
+      }
     ]
   },
   {
@@ -62,11 +135,16 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "コウ", "romanji": "kou" } ]
+      "on": [{ "furigana": "コウ", "romanji": "kou" }]
     },
     "meanings": { "id": "banjir, air bah", "en": "flood" },
     "examples": [
-      { "word": "洪水", "furigana": "こうずい", "romanji": "kouzui", "meanings": { "id": "banjir, air bah", "en": "flood" } }
+      {
+        "word": "洪水",
+        "furigana": "こうずい",
+        "romanji": "kouzui",
+        "meanings": { "id": "banjir, air bah", "en": "flood" }
+      }
     ]
   },
   {
@@ -74,13 +152,23 @@
     "character": "洗",
     "strokes": 9,
     "readings": {
-      "kun": [ { "furigana": "あら", "romanji": "ara" } ],
-      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+      "kun": [{ "furigana": "あら", "romanji": "ara" }],
+      "on": [{ "furigana": "セン", "romanji": "sen" }]
     },
     "meanings": { "id": "mencuci, cucian", "en": "to wash, laundry" },
     "examples": [
-      { "word": "洗う", "furigana": "あらう", "romanji": "arau", "meanings": { "id": "mencuci", "en": "to wash" } },
-      { "word": "洗濯", "furigana": "せんたく", "romanji": "sentaku", "meanings": { "id": "cucian", "en": "laundry" } }
+      {
+        "word": "洗う",
+        "furigana": "あらう",
+        "romanji": "arau",
+        "meanings": { "id": "mencuci", "en": "to wash" }
+      },
+      {
+        "word": "洗濯",
+        "furigana": "せんたく",
+        "romanji": "sentaku",
+        "meanings": { "id": "cucian", "en": "laundry" }
+      }
     ]
   },
   {
@@ -89,12 +177,25 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ドウ", "romanji": "dou" } ]
+      "on": [{ "furigana": "ドウ", "romanji": "dou" }]
     },
-    "meanings": { "id": "goa, lubang, pemahaman", "en": "cave, hole, understanding" },
+    "meanings": {
+      "id": "goa, lubang, pemahaman",
+      "en": "cave, hole, understanding"
+    },
     "examples": [
-      { "word": "洞窟", "furigana": "どうくつ", "romanji": "doukutsu", "meanings": { "id": "goa, lubang", "en": "cave, cavern" } },
-      { "word": "洞察", "furigana": "どうさつ", "romanji": "dousatsu", "meanings": { "id": "pemahaman", "en": "insight, understanding" } }
+      {
+        "word": "洞窟",
+        "furigana": "どうくつ",
+        "romanji": "doukutsu",
+        "meanings": { "id": "goa, lubang", "en": "cave, cavern" }
+      },
+      {
+        "word": "洞察",
+        "furigana": "どうさつ",
+        "romanji": "dousatsu",
+        "meanings": { "id": "pemahaman", "en": "insight, understanding" }
+      }
     ]
   },
   {
@@ -103,11 +204,16 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ジョウ", "romanji": "jou" } ]
+      "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
     },
     "meanings": { "id": "membersihkan", "en": "to purify, to clean" },
     "examples": [
-      { "word": "浄化する", "furigana": "じょうかする", "romanji": "jouka suru", "meanings": { "id": "membersihkan", "en": "to purify, to clean" } }
+      {
+        "word": "浄化する",
+        "furigana": "じょうかする",
+        "romanji": "jouka suru",
+        "meanings": { "id": "membersihkan", "en": "to purify, to clean" }
+      }
     ]
   },
   {
@@ -115,14 +221,35 @@
     "character": "染",
     "strokes": 9,
     "readings": {
-      "kun": [ { "furigana": "そ", "romanji": "so" }, { "furigana": "し", "romanji": "shi" } ],
-      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+      "kun": [
+        { "furigana": "そ", "romanji": "so" },
+        { "furigana": "し", "romanji": "shi" }
+      ],
+      "on": [{ "furigana": "セン", "romanji": "sen" }]
     },
-    "meanings": { "id": "menyepuh, noda, polusi", "en": "to dye, stain, pollution" },
+    "meanings": {
+      "id": "menyepuh, noda, polusi",
+      "en": "to dye, stain, pollution"
+    },
     "examples": [
-      { "word": "染める", "furigana": "そめる", "romanji": "someru", "meanings": { "id": "menyepuh", "en": "to dye" } },
-      { "word": "染み", "furigana": "しみ", "romanji": "shimi", "meanings": { "id": "noda", "en": "stain" } },
-      { "word": "汚染", "furigana": "おせん", "romanji": "osen", "meanings": { "id": "polusi", "en": "pollution" } }
+      {
+        "word": "染める",
+        "furigana": "そめる",
+        "romanji": "someru",
+        "meanings": { "id": "menyepuh", "en": "to dye" }
+      },
+      {
+        "word": "染み",
+        "furigana": "しみ",
+        "romanji": "shimi",
+        "meanings": { "id": "noda", "en": "stain" }
+      },
+      {
+        "word": "汚染",
+        "furigana": "おせん",
+        "romanji": "osen",
+        "meanings": { "id": "polusi", "en": "pollution" }
+      }
     ]
   },
   {
@@ -130,13 +257,26 @@
     "character": "津",
     "strokes": 9,
     "readings": {
-      "kun": [ { "furigana": "つ", "romanji": "tsu" } ],
-      "on": [ { "furigana": "シン", "romanji": "shin" } ]
+      "kun": [{ "furigana": "つ", "romanji": "tsu" }],
+      "on": [{ "furigana": "シン", "romanji": "shin" }]
     },
-    "meanings": { "id": "tsunami, menarik minat", "en": "tsunami, to attract interest" },
+    "meanings": {
+      "id": "tsunami, menarik minat",
+      "en": "tsunami, to attract interest"
+    },
     "examples": [
-      { "word": "津波", "furigana": "つなみ", "romanji": "tsunami", "meanings": { "id": "tsunami", "en": "tsunami" } },
-      { "word": "興味津々", "furigana": "きょうみしんしん", "romanji": "kyoumi shinshin", "meanings": { "id": "menarik minat", "en": "very interested" } }
+      {
+        "word": "津波",
+        "furigana": "つなみ",
+        "romanji": "tsunami",
+        "meanings": { "id": "tsunami", "en": "tsunami" }
+      },
+      {
+        "word": "興味津々",
+        "furigana": "きょうみしんしん",
+        "romanji": "kyoumi shinshin",
+        "meanings": { "id": "menarik minat", "en": "very interested" }
+      }
     ]
   },
   {
@@ -145,12 +285,31 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "リツ", "romanji": "ritsu" }, { "furigana": "リチ", "romanji": "richi" } ]
+      "on": [
+        { "furigana": "リツ", "romanji": "ritsu" },
+        { "furigana": "リチ", "romanji": "richi" }
+      ]
     },
-    "meanings": { "id": "undang-undang, teliti, jujur, patuh", "en": "law, precise, honest, obedient" },
+    "meanings": {
+      "id": "undang-undang, teliti, jujur, patuh",
+      "en": "law, precise, honest, obedient"
+    },
     "examples": [
-      { "word": "法律", "furigana": "ほうりつ", "romanji": "houritsu", "meanings": { "id": "undang-undang", "en": "law" } },
-      { "word": "律儀", "furigana": "りちぎ", "romanji": "richigi", "meanings": { "id": "teliti, jujur, patuh", "en": "precise, honest, obedient" } }
+      {
+        "word": "法律",
+        "furigana": "ほうりつ",
+        "romanji": "houritsu",
+        "meanings": { "id": "undang-undang", "en": "law" }
+      },
+      {
+        "word": "律儀",
+        "furigana": "りちぎ",
+        "romanji": "richigi",
+        "meanings": {
+          "id": "teliti, jujur, patuh",
+          "en": "precise, honest, obedient"
+        }
+      }
     ]
   },
   {
@@ -158,13 +317,26 @@
     "character": "侵",
     "strokes": 9,
     "readings": {
-      "kun": [ { "furigana": "おか", "romanji": "oka" } ],
-      "on": [ { "furigana": "シン", "romanji": "shin" } ]
+      "kun": [{ "furigana": "おか", "romanji": "oka" }],
+      "on": [{ "furigana": "シン", "romanji": "shin" }]
     },
-    "meanings": { "id": "melanggar, menyerobot masuk", "en": "to invade, to violate" },
+    "meanings": {
+      "id": "melanggar, menyerobot masuk",
+      "en": "to invade, to violate"
+    },
     "examples": [
-      { "word": "侵す", "furigana": "おかす", "romanji": "okasu", "meanings": { "id": "melanggar", "en": "to violate" } },
-      { "word": "侵入する", "furigana": "しんにゅうする", "romanji": "shinnyuu suru", "meanings": { "id": "menyerobot masuk", "en": "to invade, to intrude" } }
+      {
+        "word": "侵す",
+        "furigana": "おかす",
+        "romanji": "okasu",
+        "meanings": { "id": "melanggar", "en": "to violate" }
+      },
+      {
+        "word": "侵入する",
+        "furigana": "しんにゅうする",
+        "romanji": "shinnyuu suru",
+        "meanings": { "id": "menyerobot masuk", "en": "to invade, to intrude" }
+      }
     ]
   }
 ]

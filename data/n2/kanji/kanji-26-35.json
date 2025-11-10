@@ -4,13 +4,25 @@
     "character": "民",
     "strokes": 5,
     "readings": {
-      "kun": [ { "furigana": "たみ", "romanji": "tami" } ],
-      "on": [ { "furigana": "ミン", "romanji": "min" } ]
+      "kun": [{ "furigana": "たみ", "romanji": "tami" }],
+      "on": [{ "furigana": "ミン", "romanji": "min" }]
     },
     "meanings": { "id": "rakyat, cerita rakyat", "en": "people, folk tale" },
     "examples": [
-      { "word": "民", "furigana": "たみ", "romanji": "tami", "id": 26, "meanings": { "id": "rakyat", "en": "people" } },
-      { "word": "民話", "furigana": "みんわ", "romanji": "minwa", "id": 26, "meanings": { "id": "cerita rakyat", "en": "folk tale" } }
+      {
+        "word": "民",
+        "furigana": "たみ",
+        "romanji": "tami",
+        "id": 26,
+        "meanings": { "id": "rakyat", "en": "people" }
+      },
+      {
+        "word": "民話",
+        "furigana": "みんわ",
+        "romanji": "minwa",
+        "id": 26,
+        "meanings": { "id": "cerita rakyat", "en": "folk tale" }
+      }
     ]
   },
   {
@@ -19,11 +31,17 @@
     "strokes": 5,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "レイ", "romanji": "rei" } ]
+      "on": [{ "furigana": "レイ", "romanji": "rei" }]
     },
     "meanings": { "id": "perintah", "en": "order, command" },
     "examples": [
-      { "word": "命令", "furigana": "めいれい", "romanji": "meirei", "id": 27, "meanings": { "id": "perintah", "en": "order, command" } }
+      {
+        "word": "命令",
+        "furigana": "めいれい",
+        "romanji": "meirei",
+        "id": 27,
+        "meanings": { "id": "perintah", "en": "order, command" }
+      }
     ]
   },
   {
@@ -31,14 +49,38 @@
     "character": "皮",
     "strokes": 5,
     "readings": {
-      "kun": [ { "furigana": "かわ", "romanji": "kawa" }, { "furigana": "がわ", "romanji": "gawa" } ],
-      "on": [ { "furigana": "ヒ", "romanji": "hi" } ]
+      "kun": [
+        { "furigana": "かわ", "romanji": "kawa" },
+        { "furigana": "がわ", "romanji": "gawa" }
+      ],
+      "on": [{ "furigana": "ヒ", "romanji": "hi" }]
     },
-    "meanings": { "id": "kulit mentah, bulu kulit binatang, kulit (manusia)", "en": "raw skin, animal fur, human skin" },
+    "meanings": {
+      "id": "kulit mentah, bulu kulit binatang, kulit (manusia)",
+      "en": "raw skin, animal fur, human skin"
+    },
     "examples": [
-      { "word": "生皮", "furigana": "なまかわ", "romanji": "namakawa", "id": 28, "meanings": { "id": "kulit mentah", "en": "raw skin" } },
-      { "word": "毛皮", "furigana": "けがわ", "romanji": "kegawa", "id": 28, "meanings": { "id": "bulu kulit binatang", "en": "animal fur" } },
-      { "word": "皮膚", "furigana": "ひふ", "romanji": "hifu", "id": 28, "meanings": { "id": "kulit (manusia)", "en": "human skin" } }
+      {
+        "word": "生皮",
+        "furigana": "なまかわ",
+        "romanji": "namakawa",
+        "id": 28,
+        "meanings": { "id": "kulit mentah", "en": "raw skin" }
+      },
+      {
+        "word": "毛皮",
+        "furigana": "けがわ",
+        "romanji": "kegawa",
+        "id": 28,
+        "meanings": { "id": "bulu kulit binatang", "en": "animal fur" }
+      },
+      {
+        "word": "皮膚",
+        "furigana": "ひふ",
+        "romanji": "hifu",
+        "id": 28,
+        "meanings": { "id": "kulit (manusia)", "en": "human skin" }
+      }
     ]
   },
   {
@@ -46,15 +88,45 @@
     "character": "布",
     "strokes": 5,
     "readings": {
-      "kun": [ { "furigana": "ぬの", "romanji": "nuno" } ],
-      "on": [ { "furigana": "フ", "romanji": "fu" }, { "furigana": "ブ", "romanji": "bu" } ]
+      "kun": [{ "furigana": "ぬの", "romanji": "nuno" }],
+      "on": [
+        { "furigana": "フ", "romanji": "fu" },
+        { "furigana": "ブ", "romanji": "bu" }
+      ]
     },
-    "meanings": { "id": "kain, tempat tidur ala Jepang, sejenis tumbuhan laut, kompres", "en": "cloth, futon, seaweed, compress" },
+    "meanings": {
+      "id": "kain, tempat tidur ala Jepang, sejenis tumbuhan laut, kompres",
+      "en": "cloth, futon, seaweed, compress"
+    },
     "examples": [
-      { "word": "布", "furigana": "ぬの", "romanji": "nuno", "id": 29, "meanings": { "id": "kain", "en": "cloth" } },
-      { "word": "布団", "furigana": "ふとん", "romanji": "futon", "id": 29, "meanings": { "id": "tempat tidur ala Jepang", "en": "Japanese futon" } },
-      { "word": "昆布", "furigana": "こんぶ", "romanji": "konbu", "id": 29, "meanings": { "id": "sejenis tumbuhan laut", "en": "seaweed" } },
-      { "word": "湿布", "furigana": "しっぷ", "romanji": "shippu", "id": 29, "meanings": { "id": "kompres", "en": "compress" } }
+      {
+        "word": "布",
+        "furigana": "ぬの",
+        "romanji": "nuno",
+        "id": 29,
+        "meanings": { "id": "kain", "en": "cloth" }
+      },
+      {
+        "word": "布団",
+        "furigana": "ふとん",
+        "romanji": "futon",
+        "id": 29,
+        "meanings": { "id": "tempat tidur ala Jepang", "en": "Japanese futon" }
+      },
+      {
+        "word": "昆布",
+        "furigana": "こんぶ",
+        "romanji": "konbu",
+        "id": 29,
+        "meanings": { "id": "sejenis tumbuhan laut", "en": "seaweed" }
+      },
+      {
+        "word": "湿布",
+        "furigana": "しっぷ",
+        "romanji": "shippu",
+        "id": 29,
+        "meanings": { "id": "kompres", "en": "compress" }
+      }
     ]
   },
   {
@@ -62,13 +134,28 @@
     "character": "札",
     "strokes": 5,
     "readings": {
-      "kun": [ { "furigana": "ふだ", "romanji": "fuda" } ],
-      "on": [ { "furigana": "サツ", "romanji": "satsu" } ]
+      "kun": [{ "furigana": "ふだ", "romanji": "fuda" }],
+      "on": [{ "furigana": "サツ", "romanji": "satsu" }]
     },
-    "meanings": { "id": "label nama, gepokan uang kertas", "en": "name tag, banknote" },
+    "meanings": {
+      "id": "label nama, gepokan uang kertas",
+      "en": "name tag, banknote"
+    },
     "examples": [
-      { "word": "名札", "furigana": "なふだ", "romanji": "nafuda", "id": 30, "meanings": { "id": "label nama", "en": "name tag" } },
-      { "word": "札束", "furigana": "さつたば", "romanji": "satsutaba", "id": 30, "meanings": { "id": "gepok uang kertas", "en": "bundle of banknotes" } }
+      {
+        "word": "名札",
+        "furigana": "なふだ",
+        "romanji": "nafuda",
+        "id": 30,
+        "meanings": { "id": "label nama", "en": "name tag" }
+      },
+      {
+        "word": "札束",
+        "furigana": "さつたば",
+        "romanji": "satsutaba",
+        "id": 30,
+        "meanings": { "id": "gepok uang kertas", "en": "bundle of banknotes" }
+      }
     ]
   },
   {
@@ -76,13 +163,31 @@
     "character": "井",
     "strokes": 5,
     "readings": {
-      "kun": [ { "furigana": "どん", "romanji": "don" }, { "furigana": "どんぶり", "romanji": "donburi" } ],
+      "kun": [
+        { "furigana": "どん", "romanji": "don" },
+        { "furigana": "どんぶり", "romanji": "donburi" }
+      ],
       "on": []
     },
-    "meanings": { "id": "nasi tempura, mangkuk besar", "en": "tempura rice bowl, large bowl" },
+    "meanings": {
+      "id": "nasi tempura, mangkuk besar",
+      "en": "tempura rice bowl, large bowl"
+    },
     "examples": [
-      { "word": "天丼", "furigana": "てんどん", "romanji": "tendon", "id": 31, "meanings": { "id": "nasi tempura", "en": "tempura rice bowl" } },
-      { "word": "丼", "furigana": "どんぶり", "romanji": "donburi", "id": 31, "meanings": { "id": "mangkuk besar", "en": "large bowl" } }
+      {
+        "word": "天丼",
+        "furigana": "てんどん",
+        "romanji": "tendon",
+        "id": 31,
+        "meanings": { "id": "nasi tempura", "en": "tempura rice bowl" }
+      },
+      {
+        "word": "丼",
+        "furigana": "どんぶり",
+        "romanji": "donburi",
+        "id": 31,
+        "meanings": { "id": "mangkuk besar", "en": "large bowl" }
+      }
     ]
   },
   {
@@ -90,14 +195,51 @@
     "character": "辺",
     "strokes": 5,
     "readings": {
-      "kun": [ { "furigana": "あた", "romanji": "ata" }, { "furigana": "ぺ", "romanji": "pe" } ],
-      "on": [ { "furigana": "ヘン", "romanji": "hen" }, { "furigana": "ペン", "romanji": "pen" } ]
+      "kun": [
+        { "furigana": "あた", "romanji": "ata" },
+        { "furigana": "ぺ", "romanji": "pe" }
+      ],
+      "on": [
+        { "furigana": "ヘン", "romanji": "hen" },
+        { "furigana": "ペン", "romanji": "pen" }
+      ]
     },
-    "meanings": { "id": "sekitar, tepi pantai, daerah sekitar", "en": "vicinity, beach, surrounding area" },
+    "meanings": {
+      "id": "sekitar, tepi pantai, daerah sekitar",
+      "en": "vicinity, beach, surrounding area"
+    },
     "examples": [
-      { "word": "海辺", "furigana": "うみべ", "romanji": "umibe", "id": 32, "meanings": { "id": "tepi pantai", "en": "beach" } },
-      { "word": "周辺", "furigana": "しゅうへん", "romanji": "shuuhen", "id": 32, "meanings": { "id": "sekitar", "en": "vicinity" } },
-      { "word": "近辺", "furigana": "きんぺん", "romanji": "kinpen", "id": 32, "meanings": { "id": "daerah sekitar", "en": "surrounding area" } }
+      {
+        "word": "辺り",
+        "furigana": "あたり",
+        "romanji": "atari",
+        "id": 180,
+        "meanings": {
+          "id": "sekitar, sekeliling",
+          "en": "vicinity, nearby area"
+        }
+      },
+      {
+        "word": "海辺",
+        "furigana": "うみべ",
+        "romanji": "umibe",
+        "id": 32,
+        "meanings": { "id": "tepi pantai", "en": "beach" }
+      },
+      {
+        "word": "周辺",
+        "furigana": "しゅうへん",
+        "romanji": "shuuhen",
+        "id": 32,
+        "meanings": { "id": "sekitar", "en": "vicinity" }
+      },
+      {
+        "word": "近辺",
+        "furigana": "きんぺん",
+        "romanji": "kinpen",
+        "id": 32,
+        "meanings": { "id": "daerah sekitar", "en": "surrounding area" }
+      }
     ]
   },
   {
@@ -106,11 +248,17 @@
     "strokes": 5,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "カン", "romanji": "kan" } ]
+      "on": [{ "furigana": "カン", "romanji": "kan" }]
     },
     "meanings": { "id": "koran pagi", "en": "morning newspaper" },
     "examples": [
-      { "word": "朝刊", "furigana": "ちょうかん", "romanji": "choukan", "id": 33, "meanings": { "id": "koran pagi", "en": "morning newspaper" } }
+      {
+        "word": "朝刊",
+        "furigana": "ちょうかん",
+        "romanji": "choukan",
+        "id": 33,
+        "meanings": { "id": "koran pagi", "en": "morning newspaper" }
+      }
     ]
   },
   {
@@ -119,11 +267,17 @@
     "strokes": 6,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ケイ", "romanji": "kei" } ]
+      "on": [{ "furigana": "ケイ", "romanji": "kei" }]
     },
     "meanings": { "id": "penjara", "en": "prison, punishment" },
     "examples": [
-      { "word": "刑務所", "furigana": "けいむしょ", "romanji": "keimusho", "id": 34, "meanings": { "id": "penjara", "en": "prison" } }
+      {
+        "word": "刑務所",
+        "furigana": "けいむしょ",
+        "romanji": "keimusho",
+        "id": 34,
+        "meanings": { "id": "penjara", "en": "prison" }
+      }
     ]
   },
   {
@@ -131,14 +285,41 @@
     "character": "仮",
     "strokes": 6,
     "readings": {
-      "kun": [ { "furigana": "かり", "romanji": "kari" } ],
-      "on": [ { "furigana": "カ", "romanji": "ka" }, { "furigana": "ケ", "romanji": "ke" } ]
+      "kun": [{ "furigana": "かり", "romanji": "kari" }],
+      "on": [
+        { "furigana": "カ", "romanji": "ka" },
+        { "furigana": "ケ", "romanji": "ke" }
+      ]
     },
-    "meanings": { "id": "surat izin palsu, hipotesis, perkiraan, pura-pura sakit", "en": "false license, hypothesis, estimate, feign illness" },
+    "meanings": {
+      "id": "surat izin palsu, hipotesis, perkiraan, pura-pura sakit",
+      "en": "false license, hypothesis, estimate, feign illness"
+    },
     "examples": [
-      { "word": "仮免許", "furigana": "かりめんきょ", "romanji": "karimenkyo", "id": 35, "meanings": { "id": "surat izin palsu", "en": "false license" } },
-      { "word": "仮定", "furigana": "かてい", "romanji": "katei", "id": 35, "meanings": { "id": "hipotesis, perkiraan", "en": "hypothesis, estimate" } },
-      { "word": "仮病", "furigana": "けびょう", "romanji": "kebyou", "id": 35, "meanings": { "id": "pura-pura sakit", "en": "feign illness" } }
+      {
+        "word": "仮免許",
+        "furigana": "かりめんきょ",
+        "romanji": "karimenkyo",
+        "id": 35,
+        "meanings": { "id": "surat izin palsu", "en": "false license" }
+      },
+      {
+        "word": "仮定",
+        "furigana": "かてい",
+        "romanji": "katei",
+        "id": 35,
+        "meanings": {
+          "id": "hipotesis, perkiraan",
+          "en": "hypothesis, estimate"
+        }
+      },
+      {
+        "word": "仮病",
+        "furigana": "けびょう",
+        "romanji": "kebyou",
+        "id": 35,
+        "meanings": { "id": "pura-pura sakit", "en": "feign illness" }
+      }
     ]
   }
 ]
