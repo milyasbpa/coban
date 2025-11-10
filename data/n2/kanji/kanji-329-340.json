@@ -1,0 +1,157 @@
+[
+  {
+    "id": 329,
+    "character": "詰",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "つ", "romanji": "tsu" }, { "furigana": "づめ", "romanji": "zume" } ],
+      "on": [ { "furigana": "キツ", "romanji": "kitsu" } ]
+    },
+    "meanings": { "id": "tersumbat, menyusut, makanan kalengan, pertanyaan memojokkan, kecaman, celaan", "en": "blocked, shrunk, canned food, cornering question, criticism" },
+    "examples": [
+      { "word": "詰まる", "furigana": "つまる", "romanji": "tsumaru", "meanings": { "id": "tersumbat, menyusut", "en": "blocked, shrunk" } },
+      { "word": "缶詰", "furigana": "かんづめ", "romanji": "kanzume", "meanings": { "id": "makanan kalengan", "en": "canned food" } },
+      { "word": "詰問", "furigana": "きつもん", "romanji": "kitsumon", "meanings": { "id": "pertanyaan memojokkan", "en": "cornering question" } },
+      { "word": "詰責", "furigana": "きっせき", "romanji": "kisseki", "meanings": { "id": "kecaman, celaan", "en": "criticism" } }
+    ]
+  },
+  {
+    "id": 330,
+    "character": "詩",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "シ", "romanji": "shi" } ]
+    },
+    "meanings": { "id": "syair", "en": "poem" },
+    "examples": [
+      { "word": "詩", "furigana": "し", "romanji": "shi", "meanings": { "id": "syair", "en": "poem" } }
+    ]
+  },
+  {
+    "id": 331,
+    "character": "詳",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "くわ", "romanji": "kuwa" } ],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "terperinci, detil", "en": "detailed, precise" },
+    "examples": [
+      { "word": "詳しい", "furigana": "くわしい", "romanji": "kuwashii", "meanings": { "id": "terperinci, detil", "en": "detailed, precise" } },
+      { "word": "詳細", "furigana": "しょうさい", "romanji": "shousai", "meanings": { "id": "terperinci, detil", "en": "details" } }
+    ]
+  },
+  {
+    "id": 332,
+    "character": "群",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "む", "romanji": "mu" } ],
+      "on": [ { "furigana": "グン", "romanji": "gun" } ]
+    },
+    "meanings": { "id": "kerumunan, gerombol, (nama tempat) Gunma", "en": "crowd, group, Gunma (place name)" },
+    "examples": [
+      { "word": "群れ", "furigana": "むれ", "romanji": "mure", "meanings": { "id": "kerumunan, gerombol", "en": "crowd, group" } },
+      { "word": "群馬", "furigana": "ぐんま", "romanji": "gunma", "meanings": { "id": "(nama tempat) Gunma", "en": "Gunma (place name)" } }
+    ]
+  },
+  {
+    "id": 333,
+    "character": "頑",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ガン", "romanji": "gan" } ]
+    },
+    "meanings": { "id": "keras kepala", "en": "stubborn" },
+    "examples": [
+      { "word": "頑固", "furigana": "がんこ", "romanji": "ganko", "meanings": { "id": "keras kepala", "en": "stubborn" } }
+    ]
+  },
+  {
+    "id": 334,
+    "character": "傾",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "かた", "romanji": "kata" } ],
+      "on": [ { "furigana": "ケイ", "romanji": "kei" } ]
+    },
+    "meanings": { "id": "mencondongkan, kecenderungan", "en": "to incline, tendency" },
+    "examples": [
+      { "word": "傾ける", "furigana": "かたむける", "romanji": "katamukeru", "meanings": { "id": "mencondongkan", "en": "to incline" } },
+      { "word": "傾向", "furigana": "けいこう", "romanji": "keikou", "meanings": { "id": "kecenderungan", "en": "tendency" } }
+    ]
+  },
+  {
+    "id": 335,
+    "character": "債",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "サイ", "romanji": "sai" } ]
+    },
+    "meanings": { "id": "hutang, upah, gaji", "en": "debt, wage, salary" },
+    "examples": [
+      { "word": "債務", "furigana": "さいむ", "romanji": "saimu", "meanings": { "id": "hutang", "en": "debt" } },
+      { "word": "賃金", "furigana": "ちんぎん", "romanji": "chingin", "meanings": { "id": "upah, gaji", "en": "wage, salary" } }
+    ]
+  },
+  {
+    "id": 336,
+    "character": "催",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "もよお", "romanji": "moyoo" } ],
+      "on": [ { "furigana": "サイ", "romanji": "sai" } ]
+    },
+    "meanings": { "id": "mengadakan acara, ilmu hipnotis", "en": "to hold an event, hypnosis" },
+    "examples": [
+      { "word": "催す", "furigana": "もよおす", "romanji": "moyoosu", "meanings": { "id": "mengadakan acara", "en": "to hold an event" } },
+      { "word": "催眠術", "furigana": "さいみんじゅつ", "romanji": "saiminjutsu", "meanings": { "id": "ilmu hipnotis", "en": "hypnosis" } }
+    ]
+  },
+  {
+    "id": 337,
+    "character": "傷",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "いた", "romanji": "ita" }, { "furigana": "きず", "romanji": "kizu" } ],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "luka, koyak, melukai, luka parah", "en": "wound, tear, to injure, serious wound" },
+    "examples": [
+      { "word": "傷む", "furigana": "いたむ", "romanji": "itamu", "meanings": { "id": "luka, koyak", "en": "wound, tear" } },
+      { "word": "傷つける", "furigana": "きずつける", "romanji": "kizutsukeru", "meanings": { "id": "melukai", "en": "to injure" } },
+      { "word": "重傷", "furigana": "じゅうしょう", "romanji": "juushou", "meanings": { "id": "luka parah", "en": "serious wound" } }
+    ]
+  },
+  {
+    "id": 338,
+    "character": "携",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "たずさ", "romanji": "tazusa" } ],
+      "on": [ { "furigana": "ケイ", "romanji": "kei" } ]
+    },
+    "meanings": { "id": "mengambil bagian, bawa", "en": "to participate, to carry" },
+    "examples": [
+      { "word": "携わる", "furigana": "たずさわる", "romanji": "tazusawaru", "meanings": { "id": "mengambil bagian", "en": "to participate" } },
+      { "word": "携帯", "furigana": "けいたい", "romanji": "keitai", "meanings": { "id": "bawa", "en": "to carry" } }
+    ]
+  },
+  {
+    "id": 339,
+    "character": "損",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "そこ", "romanji": "soko" } ],
+      "on": [ { "furigana": "ソン", "romanji": "son" } ]
+    },
+    "meanings": { "id": "merugikan, kerugian, kerusakan", "en": "to harm, loss, damage" },
+    "examples": [
+      { "word": "損なう", "furigana": "そこなう", "romanji": "sokonau", "meanings": { "id": "merugikan", "en": "to harm" } },
+      { "word": "損害", "furigana": "そんがい", "romanji": "songai", "meanings": { "id": "kerugian, kerusakan", "en": "loss, damage" } }
+    ]
+  }
+]

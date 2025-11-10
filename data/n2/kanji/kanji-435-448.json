@@ -1,0 +1,195 @@
+[
+  {
+    "id": 435,
+    "character": "環",
+    "strokes": 17,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "カン", "romanji": "kan" } ]
+    },
+    "meanings": { "id": "lingkungan", "en": "environment" },
+    "examples": [
+      { "word": "環境", "furigana": "かんきょう", "romanji": "kankyou", "meanings": { "id": "lingkungan", "en": "environment" } }
+    ]
+  },
+  {
+    "id": 436,
+    "character": "縮",
+    "strokes": 17,
+    "readings": {
+      "kun": [ { "furigana": "ちぢ", "romanji": "chiji" } ],
+      "on": [ { "furigana": "シュク", "romanji": "shuku" } ]
+    },
+    "meanings": { "id": "menyusut, menciut, copy perkecil", "en": "shrink, contract, reduce copy" },
+    "examples": [
+      { "word": "縮まる", "furigana": "ちぢまる", "romanji": "chijimaru", "meanings": { "id": "menyusut, menciut", "en": "shrink, contract" } },
+      { "word": "縮小コピー", "furigana": "しゅくしょうコピー", "romanji": "shukushou kopii", "meanings": { "id": "copy perkecil", "en": "reduce copy" } }
+    ]
+  },
+  {
+    "id": 437,
+    "character": "鮮",
+    "strokes": 17,
+    "readings": {
+      "kun": [ { "furigana": "あざ", "romanji": "aza" } ],
+      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+    },
+    "meanings": { "id": "cerah, cemerlang, segar, baru", "en": "bright, brilliant, fresh, new" },
+    "examples": [
+      { "word": "鮮やか", "furigana": "あざやか", "romanji": "azayaka", "meanings": { "id": "cerah, cemerlang", "en": "bright, brilliant" } },
+      { "word": "新鮮", "furigana": "しんせん", "romanji": "shinsen", "meanings": { "id": "segar, baru", "en": "fresh, new" } }
+    ]
+  },
+  {
+    "id": 438,
+    "character": "騒",
+    "strokes": 18,
+    "readings": {
+      "kun": [ { "furigana": "さわ", "romanji": "sawa" } ],
+      "on": [ { "furigana": "ソウ", "romanji": "sou" } ]
+    },
+    "meanings": { "id": "bersorak-sorai, bunyi bising", "en": "cheer, noisy sound" },
+    "examples": [
+      { "word": "騒ぐ", "furigana": "さわぐ", "romanji": "sawagu", "meanings": { "id": "bersorak-sorai", "en": "to cheer" } },
+      { "word": "騒言", "furigana": "そうげん", "romanji": "sougen", "meanings": { "id": "bunyi bising", "en": "noisy sound" } }
+    ]
+  },
+  {
+    "id": 439,
+    "character": "験",
+    "strokes": 18,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ケン", "romanji": "ken" }, { "furigana": "ゲン", "romanji": "gen" } ]
+    },
+    "meanings": { "id": "ulangan, ujian, khasiat", "en": "test, exam, efficacy" },
+    "examples": [
+      { "word": "試験", "furigana": "しけん", "romanji": "shiken", "meanings": { "id": "ulangan, ujian", "en": "test, exam" } },
+      { "word": "験", "furigana": "けん", "romanji": "ken", "meanings": { "id": "khasiat", "en": "efficacy" } }
+    ]
+  },
+  {
+    "id": 440,
+    "character": "贈",
+    "strokes": 18,
+    "readings": {
+      "kun": [ { "furigana": "おく", "romanji": "oku" } ],
+      "on": [ { "furigana": "ゾウ", "romanji": "zou" } ]
+    },
+    "meanings": { "id": "menghadiahkan, persembahan, sumbangan", "en": "to give, offering, donation" },
+    "examples": [
+      { "word": "贈る", "furigana": "おくる", "romanji": "okuru", "meanings": { "id": "menghadiahkan", "en": "to give" } },
+      { "word": "贈呈", "furigana": "ぞうてい", "romanji": "zoutei", "meanings": { "id": "persembahan", "en": "offering" } },
+      { "word": "贈与", "furigana": "ぞうよ", "romanji": "zouyo", "meanings": { "id": "sumbangan", "en": "donation" } }
+    ]
+  },
+  {
+    "id": 441,
+    "character": "瀬",
+    "strokes": 19,
+    "readings": {
+      "kun": [ { "furigana": "せ", "romanji": "se" } ],
+      "on": []
+    },
+    "meanings": { "id": "tembikar, porselin", "en": "pottery, porcelain" },
+    "examples": [
+      { "word": "瀬戸物", "furigana": "せともの", "romanji": "setomono", "meanings": { "id": "tembikar, porselin", "en": "pottery, porcelain" } }
+    ]
+  },
+  {
+    "id": 442,
+    "character": "簿",
+    "strokes": 19,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ボ", "romanji": "bo" } ]
+    },
+    "meanings": { "id": "pembukuan", "en": "bookkeeping" },
+    "examples": [
+      { "word": "名簿", "furigana": "めいぼ", "romanji": "meibo", "meanings": { "id": "pembukuan", "en": "bookkeeping" } }
+    ]
+  },
+  {
+    "id": 443,
+    "character": "臓",
+    "strokes": 19,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ゾウ", "romanji": "zou" } ]
+    },
+    "meanings": { "id": "jantung", "en": "heart" },
+    "examples": [
+      { "word": "心臓", "furigana": "しんぞう", "romanji": "shinzou", "meanings": { "id": "jantung", "en": "heart" } }
+    ]
+  },
+  {
+    "id": 444,
+    "character": "鏡",
+    "strokes": 19,
+    "readings": {
+      "kun": [ { "furigana": "かがみ", "romanji": "kagami" } ],
+      "on": [ { "furigana": "キョウ", "romanji": "kyou" } ]
+    },
+    "meanings": { "id": "cermin, teropong, teleskop", "en": "mirror, telescope" },
+    "examples": [
+      { "word": "鏡", "furigana": "かがみ", "romanji": "kagami", "meanings": { "id": "cermin", "en": "mirror" } },
+      { "word": "望遠鏡", "furigana": "ぼうえんきょう", "romanji": "bouenkyou", "meanings": { "id": "teropong, teleskop", "en": "telescope" } }
+    ]
+  },
+  {
+    "id": 445,
+    "character": "爆",
+    "strokes": 19,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "バク", "romanji": "baku" } ]
+    },
+    "meanings": { "id": "ledakan, letusan", "en": "explosion, eruption" },
+    "examples": [
+      { "word": "爆発", "furigana": "ばくはつ", "romanji": "bakuhatsu", "meanings": { "id": "ledakan, letusan", "en": "explosion, eruption" } }
+    ]
+  },
+  {
+    "id": 446,
+    "character": "響",
+    "strokes": 20,
+    "readings": {
+      "kun": [ { "furigana": "ひび", "romanji": "hibi" } ],
+      "on": [ { "furigana": "キョウ", "romanji": "kyou" } ]
+    },
+    "meanings": { "id": "bergema, bergaung, pengaruh, dampak", "en": "echo, reverberate, influence, impact" },
+    "examples": [
+      { "word": "響く", "furigana": "ひびく", "romanji": "hibiku", "meanings": { "id": "bergema, bergaung", "en": "echo, reverberate" } },
+      { "word": "影響", "furigana": "えいきょう", "romanji": "eikyou", "meanings": { "id": "pengaruh, dampak", "en": "influence, impact" } }
+    ]
+  },
+  {
+    "id": 447,
+    "character": "競",
+    "strokes": 20,
+    "readings": {
+      "kun": [ { "furigana": "きそ", "romanji": "kiso" }, { "furigana": "せ", "romanji": "se" } ],
+      "on": [ { "furigana": "キョウ", "romanji": "kyou" }, { "furigana": "ケイ", "romanji": "kei" } ]
+    },
+    "meanings": { "id": "berlomba, bersaing, lelang, persaingan, pacuan kuda", "en": "compete, rivalry, auction, horse race" },
+    "examples": [
+      { "word": "競う", "furigana": "きそう", "romanji": "kisou", "meanings": { "id": "berlomba, bersaing", "en": "compete, rivalry" } },
+      { "word": "競売", "furigana": "きょうばい", "romanji": "kyoubai", "meanings": { "id": "lelang", "en": "auction" } },
+      { "word": "競争", "furigana": "きょうそう", "romanji": "kyousou", "meanings": { "id": "persaingan", "en": "competition" } },
+      { "word": "競馬", "furigana": "けいば", "romanji": "keiba", "meanings": { "id": "pacuan kuda", "en": "horse race" } }
+    ]
+  },
+  {
+    "id": 448,
+    "character": "護",
+    "strokes": 20,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ゴ", "romanji": "go" } ]
+    },
+    "meanings": { "id": "perawat", "en": "nurse" },
+    "examples": [
+      { "word": "看護師", "furigana": "かんごし", "romanji": "kangoshi", "meanings": { "id": "perawat", "en": "nurse" } }
+    ]
+  }
+]

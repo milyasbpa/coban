@@ -1,0 +1,179 @@
+[
+  {
+    "id": 94,
+    "character": "牧",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "まき", "romanji": "maki" } ],
+      "on": [ { "furigana": "ボク", "romanji": "boku" } ]
+    },
+    "meanings": { "id": "padang gembala", "en": "pasture, ranch" },
+    "examples": [
+      { "word": "牧場", "furigana": "ぼくじょう", "romanji": "bokujou", "id": 94, "meanings": { "id": "padang gembala", "en": "pasture, ranch" } }
+    ]
+  },
+  {
+    "id": 95,
+    "character": "祈",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "いの", "romanji": "ino" } ],
+      "on": [ { "furigana": "キ", "romanji": "ki" } ]
+    },
+    "meanings": { "id": "berdoa, doa permohonan", "en": "to pray, prayer" },
+    "examples": [
+      { "word": "祈る", "furigana": "いのる", "romanji": "inoru", "id": 95, "meanings": { "id": "berdoa", "en": "to pray" } },
+      { "word": "祈願", "furigana": "きがん", "romanji": "kigan", "id": 95, "meanings": { "id": "doa permohonan", "en": "prayer" } }
+    ]
+  },
+  {
+    "id": 96,
+    "character": "枝",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "えだ", "romanji": "eda" } ],
+      "on": [ { "furigana": "シ", "romanji": "shi" } ]
+    },
+    "meanings": { "id": "dahan, ranting, bagian belahan dahan", "en": "branch, twig, branch part" },
+    "examples": [
+      { "word": "枝", "furigana": "えだ", "romanji": "eda", "id": 96, "meanings": { "id": "dahan, ranting", "en": "branch, twig" } },
+      { "word": "分枝", "furigana": "ぶんし", "romanji": "bunshi", "id": 96, "meanings": { "id": "bagian belahan dahan", "en": "branch part" } }
+    ]
+  },
+  {
+    "id": 97,
+    "character": "林",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "はやし", "romanji": "hayashi" }, { "furigana": "ばやし", "romanji": "bayashi" } ],
+      "on": [ { "furigana": "リン", "romanji": "rin" } ]
+    },
+    "meanings": { "id": "hutan belukar, hutan pinus, hutan belantara", "en": "grove, pine forest, jungle" },
+    "examples": [
+      { "word": "林", "furigana": "はやし", "romanji": "hayashi", "id": 97, "meanings": { "id": "hutan belukar", "en": "grove" } },
+      { "word": "松林", "furigana": "まつばやし", "romanji": "matsubayashi", "id": 97, "meanings": { "id": "hutan pinus", "en": "pine forest" } },
+      { "word": "密林", "furigana": "みつりん", "romanji": "mitsurin", "id": 97, "meanings": { "id": "hutan belantara", "en": "jungle" } }
+    ]
+  },
+  {
+    "id": 98,
+    "character": "松",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "まつ", "romanji": "matsu" } ],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "hutan pinus, simbol kebahagiaan", "en": "pine forest, symbol of happiness" },
+    "examples": [
+      { "word": "松原", "furigana": "まつばら", "romanji": "matsubara", "id": 98, "meanings": { "id": "hutan pinus", "en": "pine forest" } },
+      { "word": "松竹梅", "furigana": "しょうちくばい", "romanji": "shouchikubai", "id": 98, "meanings": { "id": "simbol kebahagiaan", "en": "symbol of happiness" } }
+    ]
+  },
+  {
+    "id": 99,
+    "character": "枠",
+    "strokes": 8,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ワク", "romanji": "waku" } ]
+    },
+    "meanings": { "id": "bingkai, batasan", "en": "frame, boundary" },
+    "examples": [
+      { "word": "枠", "furigana": "わく", "romanji": "waku", "id": 99, "meanings": { "id": "bingkai, batasan", "en": "frame, boundary" } }
+    ]
+  },
+  {
+    "id": 100,
+    "character": "況",
+    "strokes": 8,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "キョウ", "romanji": "kyou" } ]
+    },
+    "meanings": { "id": "situasi, kondisi", "en": "situation, condition" },
+    "examples": [
+      { "word": "状況", "furigana": "じょうきょう", "romanji": "joukyou", "id": 100, "meanings": { "id": "situasi, kondisi", "en": "situation, condition" } }
+    ]
+  },
+  {
+    "id": 101,
+    "character": "沼",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "ぬま", "romanji": "numa" } ],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "tanah rawa, rawa", "en": "swamp, marsh" },
+    "examples": [
+      { "word": "沼", "furigana": "ぬま", "romanji": "numa", "id": 101, "meanings": { "id": "tanah rawa", "en": "swamp" } },
+      { "word": "沼沢", "furigana": "しょうたく", "romanji": "shoutaku", "id": 101, "meanings": { "id": "rawa", "en": "marsh" } }
+    ]
+  },
+  {
+    "id": 102,
+    "character": "泥",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "どろ", "romanji": "doro" } ],
+      "on": [ { "furigana": "デイ", "romanji": "dei" } ]
+    },
+    "meanings": { "id": "maling, pencuri, antara langit & bumi", "en": "thief, between sky & earth" },
+    "examples": [
+      { "word": "泥棒", "furigana": "どろぼう", "romanji": "dorobou", "id": 102, "meanings": { "id": "maling, pencuri", "en": "thief" } },
+      { "word": "天地泥の差", "furigana": "てんちどろのさ", "romanji": "tenchidoro no sa", "id": 102, "meanings": { "id": "antara langit & bumi", "en": "between sky & earth" } }
+    ]
+  },
+  {
+    "id": 103,
+    "character": "泡",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "あわ", "romanji": "awa" } ],
+      "on": [ { "furigana": "ホウ", "romanji": "hou" } ]
+    },
+    "meanings": { "id": "busa, buih, gelembung", "en": "foam, bubble" },
+    "examples": [
+      { "word": "泡", "furigana": "あわ", "romanji": "awa", "id": 103, "meanings": { "id": "busa, buih, gelembung", "en": "foam, bubble" } }
+    ]
+  },
+  {
+    "id": 104,
+    "character": "防",
+    "strokes": 8,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ボウ", "romanji": "bou" } ]
+    },
+    "meanings": { "id": "lemak, gemuk", "en": "fat, obese" },
+    "examples": [
+      { "word": "脂肪", "furigana": "しぼう", "romanji": "shibou", "id": 104, "meanings": { "id": "lemak, gemuk", "en": "fat, obese" } }
+    ]
+  },
+  {
+    "id": 105,
+    "character": "背",
+    "strokes": 8,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "コウ", "romanji": "kou" } ]
+    },
+    "meanings": { "id": "pengesahan, pengukuhan", "en": "approval, confirmation" },
+    "examples": [
+      { "word": "背任", "furigana": "はいにん", "romanji": "hainin", "id": 105, "meanings": { "id": "pengesahan, pengukuhan", "en": "approval, confirmation" } }
+    ]
+  },
+  {
+    "id": 106,
+    "character": "肩",
+    "strokes": 8,
+    "readings": {
+      "kun": [ { "furigana": "かた", "romanji": "kata" } ],
+      "on": [ { "furigana": "ケン", "romanji": "ken" } ]
+    },
+    "meanings": { "id": "pundak, bahu, tulang belikat", "en": "shoulder, scapula" },
+    "examples": [
+      { "word": "肩", "furigana": "かた", "romanji": "kata", "id": 106, "meanings": { "id": "pundak, bahu", "en": "shoulder" } },
+      { "word": "肩甲骨", "furigana": "けんこうこつ", "romanji": "kenkoukotsu", "id": 106, "meanings": { "id": "tulang belikat", "en": "scapula" } }
+    ]
+  }
+]

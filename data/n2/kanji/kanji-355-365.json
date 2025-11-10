@@ -1,0 +1,155 @@
+[
+  {
+    "id": 355,
+    "character": "節",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "ふし", "romanji": "fushi" } ],
+      "on": [ { "furigana": "セツ", "romanji": "setsu" }, { "furigana": "セチ", "romanji": "sechi" } ]
+    },
+    "meanings": { "id": "sendi jari, musim, acara resepsi di istana", "en": "joint, season, imperial ceremony" },
+    "examples": [
+      { "word": "指の節", "furigana": "ゆびのふし", "romanji": "yubi no fushi", "meanings": { "id": "sendi jari", "en": "finger joint" } },
+      { "word": "季節", "furigana": "きせつ", "romanji": "kisetsu", "meanings": { "id": "musim", "en": "season" } },
+      { "word": "節会", "furigana": "せちえ", "romanji": "sechie", "meanings": { "id": "acara resepsi di istana", "en": "imperial ceremony" } }
+    ]
+  },
+  {
+    "id": 356,
+    "character": "義",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ギ", "romanji": "gi" } ]
+    },
+    "meanings": { "id": "kewajiban", "en": "duty, obligation" },
+    "examples": [
+      { "word": "義務", "furigana": "ぎむ", "romanji": "gimu", "meanings": { "id": "kewajiban", "en": "duty, obligation" } }
+    ]
+  },
+  {
+    "id": 357,
+    "character": "嫌",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "きら", "romanji": "kira" }, { "furigana": "いや", "romanji": "iya" } ],
+      "on": [ { "furigana": "ケン", "romanji": "ken" }, { "furigana": "ゲン", "romanji": "gen" } ]
+    },
+    "meanings": { "id": "membenci, tidak suka, menyebalkan, perasaan benci, suasana hati", "en": "hate, dislike, annoying, feeling of hate, mood" },
+    "examples": [
+      { "word": "嫌う", "furigana": "きらう", "romanji": "kirau", "meanings": { "id": "membenci, tidak suka", "en": "hate, dislike" } },
+      { "word": "嫌味", "furigana": "いやみ", "romanji": "iyami", "meanings": { "id": "menyebalkan", "en": "annoying" } },
+      { "word": "嫌悪", "furigana": "けんお", "romanji": "ken'o", "meanings": { "id": "perasaan benci", "en": "feeling of hate" } },
+      { "word": "機嫌", "furigana": "きげん", "romanji": "kigen", "meanings": { "id": "suasana hati", "en": "mood" } }
+    ]
+  },
+  {
+    "id": 358,
+    "character": "較",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "カク", "romanji": "kaku" } ]
+    },
+    "meanings": { "id": "perbandingan", "en": "comparison" },
+    "examples": [
+      { "word": "比較", "furigana": "ひかく", "romanji": "hikaku", "meanings": { "id": "perbandingan", "en": "comparison" } }
+    ]
+  },
+  {
+    "id": 359,
+    "character": "触",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "さわ", "romanji": "sawa" }, { "furigana": "ふ", "romanji": "fu" } ],
+      "on": [ { "furigana": "ショク", "romanji": "shoku" }, { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "menyentuh, meraba, rasa, kesan", "en": "touch, feel, impression" },
+    "examples": [
+      { "word": "触れる", "furigana": "ふれる", "romanji": "fureru", "meanings": { "id": "menyentuh, meraba", "en": "touch, feel" } },
+      { "word": "感触", "furigana": "かんしょく", "romanji": "kanshoku", "meanings": { "id": "rasa, kesan", "en": "impression, feeling" } }
+    ]
+  },
+  {
+    "id": 360,
+    "character": "睡",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "スイ", "romanji": "sui" } ]
+    },
+    "meanings": { "id": "tidur", "en": "sleep" },
+    "examples": [
+      { "word": "睡眠", "furigana": "すいみん", "romanji": "suimin", "meanings": { "id": "tidur", "en": "sleep" } }
+    ]
+  },
+  {
+    "id": 361,
+    "character": "跡",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "あと", "romanji": "ato" } ],
+      "on": [ { "furigana": "セキ", "romanji": "seki" } ]
+    },
+    "meanings": { "id": "jejak kaki, peninggalan bersejarah", "en": "footprint, historic remains" },
+    "examples": [
+      { "word": "足跡", "furigana": "そくせき", "romanji": "sokuseki", "meanings": { "id": "jejak kaki", "en": "footprint" } },
+      { "word": "遺跡", "furigana": "いせき", "romanji": "iseki", "meanings": { "id": "peninggalan bersejarah", "en": "historic remains" } }
+    ]
+  },
+  {
+    "id": 362,
+    "character": "殿",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "との", "romanji": "tono" }, { "furigana": "どの", "romanji": "dono" } ],
+      "on": [ { "furigana": "テン", "romanji": "ten" }, { "furigana": "デン", "romanji": "den" } ]
+    },
+    "meanings": { "id": "Yang terhormat Bapak/Ibu, Yth. Bpk. Yamada, istana, pengendapan", "en": "honorific Mr./Ms., palace, sedimentation" },
+    "examples": [
+      { "word": "山口健殿", "furigana": "やまぐちけんどの", "romanji": "yamaguchi ken dono", "meanings": { "id": "Yth. Bpk. Yamada", "en": "Mr. Yamaguchi" } },
+      { "word": "御殿", "furigana": "ごてん", "romanji": "goten", "meanings": { "id": "istana", "en": "palace" } },
+      { "word": "沈殿", "furigana": "ちんでん", "romanji": "chinden", "meanings": { "id": "pengendapan", "en": "sedimentation" } }
+    ]
+  },
+  {
+    "id": 363,
+    "character": "鉱",
+    "strokes": 13,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "コウ", "romanji": "kou" } ]
+    },
+    "meanings": { "id": "pertambangan", "en": "mining" },
+    "examples": [
+      { "word": "鉱山", "furigana": "こうざん", "romanji": "kouzan", "meanings": { "id": "pertambangan", "en": "mining" } }
+    ]
+  },
+  {
+    "id": 364,
+    "character": "腰",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "こし", "romanji": "koshi" } ],
+      "on": [ { "furigana": "ヨウ", "romanji": "you" } ]
+    },
+    "meanings": { "id": "pinggang, sakit pinggang", "en": "waist, back pain" },
+    "examples": [
+      { "word": "腰", "furigana": "こし", "romanji": "koshi", "meanings": { "id": "pinggang", "en": "waist" } },
+      { "word": "腰痛", "furigana": "ようつう", "romanji": "youtsuu", "meanings": { "id": "sakit pinggang", "en": "back pain" } }
+    ]
+  },
+  {
+    "id": 365,
+    "character": "誌",
+    "strokes": 14,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "シ", "romanji": "shi" } ]
+    },
+    "meanings": { "id": "majalah", "en": "magazine" },
+    "examples": [
+      { "word": "雑誌", "furigana": "ざっし", "romanji": "zasshi", "meanings": { "id": "majalah", "en": "magazine" } }
+    ]
+  }
+]

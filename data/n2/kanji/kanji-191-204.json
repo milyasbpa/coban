@@ -1,0 +1,194 @@
+[
+  {
+    "id": 191,
+    "character": "妊",
+    "strokes": 10,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "シン", "romanji": "shin" } ]
+    },
+    "meanings": { "id": "hamil", "en": "pregnant" },
+    "examples": [
+      { "word": "妊娠する", "furigana": "にんしんする", "romanji": "ninshin suru", "meanings": { "id": "hamil", "en": "to be pregnant" } }
+    ]
+  },
+  {
+    "id": 192,
+    "character": "振",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "ふ", "romanji": "fu" } ],
+      "on": [ { "furigana": "シン", "romanji": "shin" } ]
+    },
+    "meanings": { "id": "menggetarkan, getaran", "en": "to shake, vibration" },
+    "examples": [
+      { "word": "振る", "furigana": "ふる", "romanji": "furu", "meanings": { "id": "menggetarkan", "en": "to shake" } },
+      { "word": "振動", "furigana": "しんどう", "romanji": "shindou", "meanings": { "id": "getaran", "en": "vibration" } }
+    ]
+  },
+  {
+    "id": 193,
+    "character": "捜",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "さが", "romanji": "saga" } ],
+      "on": [ { "furigana": "ソウ", "romanji": "sou" } ]
+    },
+    "meanings": { "id": "mencari, melacak, pencarian, pelacakan", "en": "to search, to track, search, tracking" },
+    "examples": [
+      { "word": "捜す", "furigana": "さがす", "romanji": "sagasu", "meanings": { "id": "mencari, melacak", "en": "to search, to track" } },
+      { "word": "捜査", "furigana": "そうさ", "romanji": "sousa", "meanings": { "id": "pencarian, pelacakan", "en": "search, investigation" } }
+    ]
+  },
+  {
+    "id": 194,
+    "character": "剤",
+    "strokes": 10,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ザイ", "romanji": "zai" } ]
+    },
+    "meanings": { "id": "bahan pencuci", "en": "detergent, agent" },
+    "examples": [
+      { "word": "洗剤", "furigana": "せんざい", "romanji": "senzai", "meanings": { "id": "bahan pencuci", "en": "detergent" } }
+    ]
+  },
+  {
+    "id": 195,
+    "character": "討",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "う", "romanji": "u" } ],
+      "on": [ { "furigana": "トウ", "romanji": "tou" } ]
+    },
+    "meanings": { "id": "membalas (dendam), diskusi, bincang-bincang", "en": "to retaliate, discussion, talk" },
+    "examples": [
+      { "word": "討つ", "furigana": "うつ", "romanji": "utsu", "meanings": { "id": "membalas (dendam)", "en": "to retaliate" } },
+      { "word": "討論", "furigana": "とうろん", "romanji": "touron", "meanings": { "id": "diskusi, bincang-bincang", "en": "discussion, debate" } }
+    ]
+  },
+  {
+    "id": 196,
+    "character": "訓",
+    "strokes": 10,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "クン", "romanji": "kun" } ]
+    },
+    "meanings": { "id": "pelatihan", "en": "training" },
+    "examples": [
+      { "word": "訓練", "furigana": "くんれん", "romanji": "kunren", "meanings": { "id": "pelatihan", "en": "training" } }
+    ]
+  },
+  {
+    "id": 197,
+    "character": "浜",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "はま", "romanji": "hama" } ],
+      "on": [ { "furigana": "ヒン", "romanji": "hin" } ]
+    },
+    "meanings": { "id": "tepi pantai, tanggul pesisir pantai", "en": "beach, coastal embankment" },
+    "examples": [
+      { "word": "浜辺", "furigana": "はまべ", "romanji": "hamabe", "meanings": { "id": "tepi pantai", "en": "beach" } },
+      { "word": "海浜", "furigana": "かいひん", "romanji": "kaihin", "meanings": { "id": "tanggul pesisir pantai", "en": "coastal embankment" } }
+    ]
+  },
+  {
+    "id": 198,
+    "character": "将",
+    "strokes": 10,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "masa depan, kelak", "en": "future, soon" },
+    "examples": [
+      { "word": "将来", "furigana": "しょうらい", "romanji": "shourai", "meanings": { "id": "masa depan, kelak", "en": "future" } }
+    ]
+  },
+  {
+    "id": 199,
+    "character": "症",
+    "strokes": 10,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "gejala penyakit", "en": "symptom, disease" },
+    "examples": [
+      { "word": "症状", "furigana": "しょうじょう", "romanji": "shoujou", "meanings": { "id": "gejala penyakit", "en": "symptom" } }
+    ]
+  },
+  {
+    "id": 200,
+    "character": "針",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "はり", "romanji": "hari" }, { "furigana": "ばり", "romanji": "bari" } ],
+      "on": [ { "furigana": "シン", "romanji": "shin" } ]
+    },
+    "meanings": { "id": "jarum, kail, jarum suntik", "en": "needle, hook, syringe" },
+    "examples": [
+      { "word": "針", "furigana": "はり", "romanji": "hari", "meanings": { "id": "jarum, kail", "en": "needle, hook" } },
+      { "word": "注射針", "furigana": "ちゅうしゃしん", "romanji": "chuushashin", "meanings": { "id": "jarum suntik", "en": "syringe needle" } }
+    ]
+  },
+  {
+    "id": 201,
+    "character": "射",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "い", "romanji": "i" } ],
+      "on": [ { "furigana": "シャ", "romanji": "sha" } ]
+    },
+    "meanings": { "id": "membidik, sinar radiasi", "en": "to shoot, radiation ray" },
+    "examples": [
+      { "word": "射る", "furigana": "いる", "romanji": "iru", "meanings": { "id": "membidik", "en": "to shoot" } },
+      { "word": "放射線", "furigana": "ほうしゃせん", "romanji": "houshasen", "meanings": { "id": "sinar radiasi", "en": "radiation ray" } }
+    ]
+  },
+  {
+    "id": 202,
+    "character": "華",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "はな", "romanji": "hana" } ],
+      "on": [ { "furigana": "カ", "romanji": "ka" }, { "furigana": "ゲ", "romanji": "ge" } ]
+    },
+    "meanings": { "id": "meriah, seni merangkai bunga, bunga teratai", "en": "splendid, flower arrangement, lotus flower" },
+    "examples": [
+      { "word": "華やか", "furigana": "はなやか", "romanji": "hanayaka", "meanings": { "id": "meriah", "en": "splendid, gorgeous" } },
+      { "word": "華道", "furigana": "かどう", "romanji": "kadou", "meanings": { "id": "seni merangkai bunga", "en": "flower arrangement" } },
+      { "word": "蓮華", "furigana": "れんげ", "romanji": "renge", "meanings": { "id": "bunga teratai", "en": "lotus flower" } }
+    ]
+  },
+  {
+    "id": 203,
+    "character": "耕",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "たがや", "romanji": "tagaya" } ],
+      "on": [ { "furigana": "コウ", "romanji": "kou" } ]
+    },
+    "meanings": { "id": "membajak tanah, pembajakan tanah", "en": "to plow, plowing" },
+    "examples": [
+      { "word": "耕す", "furigana": "たがやす", "romanji": "tagayasu", "meanings": { "id": "membajak tanah", "en": "to plow" } },
+      { "word": "耕作", "furigana": "こうさく", "romanji": "kousaku", "meanings": { "id": "pembajakan tanah", "en": "plowing" } }
+    ]
+  },
+  {
+    "id": 204,
+    "character": "挙",
+    "strokes": 10,
+    "readings": {
+      "kun": [ { "furigana": "あ", "romanji": "a" } ],
+      "on": [ { "furigana": "キョ", "romanji": "kyo" } ]
+    },
+    "meanings": { "id": "mengadakan, pemilihan umum", "en": "to hold, election" },
+    "examples": [
+      { "word": "挙げる", "furigana": "あげる", "romanji": "ageru", "meanings": { "id": "mengadakan", "en": "to hold, to raise" } },
+      { "word": "選挙", "furigana": "せんきょ", "romanji": "senkyo", "meanings": { "id": "pemilihan umum", "en": "election" } }
+    ]
+  }
+]

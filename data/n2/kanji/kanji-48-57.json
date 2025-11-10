@@ -1,0 +1,145 @@
+[
+  {
+    "id": 48,
+    "character": "肌",
+    "strokes": 6,
+    "readings": {
+      "kun": [ { "furigana": "はだ", "romanji": "hada" } ],
+      "on": []
+    },
+    "meanings": { "id": "warna kulit", "en": "skin color" },
+    "examples": [
+      { "word": "肌色", "furigana": "はだいろ", "romanji": "hadairo", "id": 48, "meanings": { "id": "warna kulit", "en": "skin color" } }
+    ]
+  },
+  {
+    "id": 49,
+    "character": "印",
+    "strokes": 6,
+    "readings": {
+      "kun": [ { "furigana": "しるし", "romanji": "shirushi" }, { "furigana": "じるし", "romanji": "jirushi" } ],
+      "on": [ { "furigana": "イン", "romanji": "in" } ]
+    },
+    "meanings": { "id": "tanda, lambang, tanda panah, percetakan", "en": "mark, symbol, arrow mark, printing" },
+    "examples": [
+      { "word": "矢印", "furigana": "やじるし", "romanji": "yajirushi", "id": 49, "meanings": { "id": "tanda panah", "en": "arrow mark" } },
+      { "word": "印刷", "furigana": "いんさつ", "romanji": "insatsu", "id": 49, "meanings": { "id": "percetakan", "en": "printing" } }
+    ]
+  },
+  {
+    "id": 50,
+    "character": "羊",
+    "strokes": 6,
+    "readings": {
+      "kun": [ { "furigana": "ひつじ", "romanji": "hitsuji" } ],
+      "on": [ { "furigana": "ヨウ", "romanji": "you" } ]
+    },
+    "meanings": { "id": "domba, biri-biri, bulu domba, wool", "en": "sheep, wool" },
+    "examples": [
+      { "word": "羊", "furigana": "ひつじ", "romanji": "hitsuji", "id": 50, "meanings": { "id": "domba, biri-biri", "en": "sheep" } },
+      { "word": "羊毛", "furigana": "ようもう", "romanji": "youmou", "id": 50, "meanings": { "id": "bulu domba, wool", "en": "wool" } }
+    ]
+  },
+  {
+    "id": 51,
+    "character": "糸",
+    "strokes": 6,
+    "readings": {
+      "kun": [ { "furigana": "いと", "romanji": "ito" } ],
+      "on": [ { "furigana": "シ", "romanji": "shi" } ]
+    },
+    "meanings": { "id": "benang sutera, produksi benang sutera", "en": "silk thread, silk production" },
+    "examples": [
+      { "word": "絹糸", "furigana": "けんし", "romanji": "kenshi", "id": 51, "meanings": { "id": "benang sutera", "en": "silk thread" } },
+      { "word": "製糸業", "furigana": "せいしぎょう", "romanji": "seishigyou", "id": 51, "meanings": { "id": "produksi benang sutera", "en": "silk production" } }
+    ]
+  },
+  {
+    "id": 52,
+    "character": "囲",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "かこ", "romanji": "kako" } ],
+      "on": [ { "furigana": "イ", "romanji": "i" } ]
+    },
+    "meanings": { "id": "mengelilingi, batasan, lingkup", "en": "to surround, boundary, scope" },
+    "examples": [
+      { "word": "囲む", "furigana": "かこむ", "romanji": "kakomu", "id": 52, "meanings": { "id": "mengelilingi", "en": "to surround" } },
+      { "word": "範囲", "furigana": "はんい", "romanji": "hani", "id": 52, "meanings": { "id": "batasan, lingkup", "en": "boundary, scope" } }
+    ]
+  },
+  {
+    "id": 53,
+    "character": "応",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "こた", "romanji": "kota" } ],
+      "on": [ { "furigana": "オウ", "romanji": "ou" } ]
+    },
+    "meanings": { "id": "bereaksi, merespons, dukungan, bantuan", "en": "to respond, support, help" },
+    "examples": [
+      { "word": "応える", "furigana": "こたえる", "romanji": "kotaeru", "id": 53, "meanings": { "id": "bereaksi, merespons", "en": "to respond" } },
+      { "word": "応援", "furigana": "おうえん", "romanji": "ouen", "id": 53, "meanings": { "id": "dukungan, bantuan", "en": "support, help" } }
+    ]
+  },
+  {
+    "id": 54,
+    "character": "序",
+    "strokes": 7,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ジョ", "romanji": "jo" } ]
+    },
+    "meanings": { "id": "urutan, kedudukan", "en": "order, position" },
+    "examples": [
+      { "word": "序列", "furigana": "じょれつ", "romanji": "joretsu", "id": 54, "meanings": { "id": "urutan, kedudukan", "en": "order, position" } }
+    ]
+  },
+  {
+    "id": 55,
+    "character": "床",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "ゆか", "romanji": "yuka" }, { "furigana": "とこ", "romanji": "toko" } ],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "lantai, ruang kecil dalam ruang, tatami, bangun tidur", "en": "floor, small room, tatami, get up" },
+    "examples": [
+      { "word": "床", "furigana": "ゆか", "romanji": "yuka", "id": 55, "meanings": { "id": "lantai", "en": "floor" } },
+      { "word": "床の間", "furigana": "とこのま", "romanji": "tokonoma", "id": 55, "meanings": { "id": "ruang kecil dalam ruang", "en": "small room" } },
+      { "word": "畳床", "furigana": "たたみどこ", "romanji": "tatamidoko", "id": 55, "meanings": { "id": "tatami", "en": "tatami" } },
+      { "word": "起床", "furigana": "きしょう", "romanji": "kishou", "id": 55, "meanings": { "id": "bangun tidur", "en": "get up" } }
+    ]
+  },
+  {
+    "id": 56,
+    "character": "励",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "はげ", "romanji": "hage" } ],
+      "on": [ { "furigana": "レイ", "romanji": "rei" } ]
+    },
+    "meanings": { "id": "berupaya, berikhtiar, dorongan", "en": "to strive, encouragement" },
+    "examples": [
+      { "word": "励む", "furigana": "はげむ", "romanji": "hagemu", "id": 56, "meanings": { "id": "berupaya, berikhtiar", "en": "to strive" } },
+      { "word": "激励", "furigana": "げきれい", "romanji": "gekierei", "id": 56, "meanings": { "id": "dorongan", "en": "encouragement" } }
+    ]
+  },
+  {
+    "id": 57,
+    "character": "声",
+    "strokes": 7,
+    "readings": {
+      "kun": [ { "furigana": "こえ", "romanji": "koe" }, { "furigana": "こわ", "romanji": "kowa" } ],
+      "on": [ { "furigana": "セイ", "romanji": "sei" }, { "furigana": "ジョウ", "romanji": "jou" } ]
+    },
+    "meanings": { "id": "suara, suara nyanyian, warna suara, pita suara, suara menggelegar", "en": "voice, singing voice, tone, vocal cord, booming voice" },
+    "examples": [
+      { "word": "声", "furigana": "こえ", "romanji": "koe", "id": 57, "meanings": { "id": "suara", "en": "voice" } },
+      { "word": "歌声", "furigana": "うたごえ", "romanji": "utagoe", "id": 57, "meanings": { "id": "suara nyanyian", "en": "singing voice" } },
+      { "word": "音声", "furigana": "おんせい", "romanji": "onsei", "id": 57, "meanings": { "id": "warna suara", "en": "tone" } },
+      { "word": "声帯", "furigana": "せいたい", "romanji": "seitai", "id": 57, "meanings": { "id": "pita suara", "en": "vocal cord" } },
+      { "word": "大音声", "furigana": "だいおんじょう", "romanji": "daionjou", "id": 57, "meanings": { "id": "suara menggelegar", "en": "booming voice" } }
+    ]
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "id": 318,
+    "character": "傘",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "かさ", "romanji": "kasa" }, { "furigana": "がさ", "romanji": "gasa" } ],
+      "on": [ { "furigana": "サン", "romanji": "san" } ]
+    },
+    "meanings": { "id": "payung", "en": "umbrella" },
+    "examples": [
+      { "word": "傘", "furigana": "かさ", "romanji": "kasa", "meanings": { "id": "payung", "en": "umbrella" } },
+      { "word": "雨傘", "furigana": "あまがさ", "romanji": "amagasa", "meanings": { "id": "payung hujan", "en": "rain umbrella" } },
+      { "word": "落下傘", "furigana": "らっかさん", "romanji": "rakkasan", "meanings": { "id": "parasut, terjun payung", "en": "parachute" } }
+    ]
+  },
+  {
+    "id": 319,
+    "character": "靴",
+    "strokes": 12,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+    },
+    "meanings": { "id": "dandanan, rias", "en": "makeup, adornment" },
+    "examples": [
+      { "word": "化粧", "furigana": "けしょう", "romanji": "keshou", "meanings": { "id": "dandanan, rias", "en": "makeup" } }
+    ]
+  },
+  {
+    "id": 320,
+    "character": "腕",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "うで", "romanji": "ude" } ],
+      "on": [ { "furigana": "ワン", "romanji": "wan" } ]
+    },
+    "meanings": { "id": "jam tangan, kekuatan lengan", "en": "wristwatch, arm strength" },
+    "examples": [
+      { "word": "腕時計", "furigana": "うでどけい", "romanji": "udedokei", "meanings": { "id": "jam tangan", "en": "wristwatch" } },
+      { "word": "腕力", "furigana": "わんりょく", "romanji": "wanryoku", "meanings": { "id": "kekuatan lengan", "en": "arm strength" } }
+    ]
+  },
+  {
+    "id": 321,
+    "character": "就",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "つ", "romanji": "tsu" } ],
+      "on": [ { "furigana": "シュウ", "romanji": "shuu" }, { "furigana": "ジュ", "romanji": "ju" } ]
+    },
+    "meanings": { "id": "mendapat (kedudukan), dapat pekerjaan, prestasi, pencapaian", "en": "to get (position), to get a job, achievement" },
+    "examples": [
+      { "word": "就く", "furigana": "つく", "romanji": "tsuku", "meanings": { "id": "mendapat (kedudukan)", "en": "to get (position)" } },
+      { "word": "就職", "furigana": "しゅうしょく", "romanji": "shuushoku", "meanings": { "id": "dapat pekerjaan", "en": "to get a job" } },
+      { "word": "就業", "furigana": "しゅうぎょう", "romanji": "shuugyou", "meanings": { "id": "prestasi, pencapaian", "en": "achievement" } }
+    ]
+  },
+  {
+    "id": 322,
+    "character": "衆",
+    "strokes": 12,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "シュウ", "romanji": "shuu" }, { "furigana": "ジュ", "romanji": "ju" } ]
+    },
+    "meanings": { "id": "khalayak ramai, satwa, makhluk hidup", "en": "crowd, creatures, living beings" },
+    "examples": [
+      { "word": "大衆", "furigana": "たいしゅう", "romanji": "taishuu", "meanings": { "id": "khalayak ramai", "en": "crowd" } },
+      { "word": "衆生", "furigana": "しゅじょう", "romanji": "shujou", "meanings": { "id": "satwa, makhluk hidup", "en": "creatures, living beings" } }
+    ]
+  },
+  {
+    "id": 323,
+    "character": "酢",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "す", "romanji": "su" } ],
+      "on": [ { "furigana": "サク", "romanji": "saku" } ]
+    },
+    "meanings": { "id": "cuka, cuka dari buah prem, asam asetat", "en": "vinegar, plum vinegar, acetic acid" },
+    "examples": [
+      { "word": "酢", "furigana": "す", "romanji": "su", "meanings": { "id": "cuka", "en": "vinegar" } },
+      { "word": "梅酢", "furigana": "うめず", "romanji": "umezu", "meanings": { "id": "cuka dari buah prem", "en": "plum vinegar" } },
+      { "word": "酢酸", "furigana": "さくさん", "romanji": "sakusan", "meanings": { "id": "asam asetat", "en": "acetic acid" } }
+    ]
+  },
+  {
+    "id": 324,
+    "character": "鈍",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "にぶ", "romanji": "nibu" } ],
+      "on": [ { "furigana": "ドン", "romanji": "don" } ]
+    },
+    "meanings": { "id": "tumpul, lamban, bebal, tidak peka", "en": "dull, slow, insensitive" },
+    "examples": [
+      { "word": "鈍い", "furigana": "にぶい", "romanji": "nibui", "meanings": { "id": "tumpul, lamban", "en": "dull, slow" } },
+      { "word": "鈍感", "furigana": "どんかん", "romanji": "donkan", "meanings": { "id": "bebal, tidak peka", "en": "insensitive" } }
+    ]
+  },
+  {
+    "id": 325,
+    "character": "媛",
+    "strokes": 12,
+    "readings": {
+      "kun": [ { "furigana": "ひめ", "romanji": "hime" } ],
+      "on": [ { "furigana": "エン", "romanji": "en" } ]
+    },
+    "meanings": { "id": "(nama tempat) Ehime, wanita bermartabat", "en": "Ehime (place name), noble woman" },
+    "examples": [
+      { "word": "愛媛", "furigana": "えひめ", "romanji": "ehime", "meanings": { "id": "(nama tempat) Ehime", "en": "Ehime (place name)" } },
+      { "word": "媛", "furigana": "ひめ", "romanji": "hime", "meanings": { "id": "wanita bermartabat", "en": "noble woman" } }
+    ]
+  },
+  {
+    "id": 326,
+    "character": "廊",
+    "strokes": 12,
+    "readings": {
+      "kun": [],
+      "on": [ { "furigana": "ロウ", "romanji": "rou" } ]
+    },
+    "meanings": { "id": "koridor, lorong", "en": "corridor, hallway" },
+    "examples": [
+      { "word": "廊下", "furigana": "ろうか", "romanji": "rouka", "meanings": { "id": "koridor, lorong", "en": "corridor, hallway" } }
+    ]
+  },
+  {
+    "id": 327,
+    "character": "勧",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "すす", "romanji": "susu" } ],
+      "on": [ { "furigana": "カン", "romanji": "kan" } ]
+    },
+    "meanings": { "id": "menyarankan, menegur", "en": "to recommend, to admonish" },
+    "examples": [
+      { "word": "勧める", "furigana": "すすめる", "romanji": "susumeru", "meanings": { "id": "menyarankan", "en": "to recommend" } },
+      { "word": "勧告する", "furigana": "かんこくする", "romanji": "kankoku suru", "meanings": { "id": "menegur", "en": "to admonish" } }
+    ]
+  },
+  {
+    "id": 328,
+    "character": "勢",
+    "strokes": 13,
+    "readings": {
+      "kun": [ { "furigana": "いきお", "romanji": "ikio" } ],
+      "on": [ { "furigana": "セイ", "romanji": "sei" } ]
+    },
+    "meanings": { "id": "daya, kekuatan, kekuasaan, pengaruh", "en": "power, strength, influence" },
+    "examples": [
+      { "word": "勢い", "furigana": "いきおい", "romanji": "ikioi", "meanings": { "id": "daya, kekuatan", "en": "power, strength" } },
+      { "word": "勢力", "furigana": "せいりょく", "romanji": "seiryoku", "meanings": { "id": "kekuasaan, pengaruh", "en": "influence, power" } }
+    ]
+  }
+]
