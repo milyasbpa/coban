@@ -5,14 +5,20 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ケン", "romanji": "ken" } ]
+      "on": [{ "furigana": "ケン", "romanji": "ken" }]
     },
     "meanings": {
       "id": "mesin penjual tiket",
       "en": "ticket machine"
     },
     "examples": [
-      { "word": "券売機", "furigana": "けんばいき", "romanji": "kenbaiki", "id": 121, "meanings": { "id": "mesin penjual tiket", "en": "ticket machine" } }
+      {
+        "word": "券売機",
+        "furigana": "けんばいき",
+        "romanji": "kenbaiki",
+        "id": 121,
+        "meanings": { "id": "mesin penjual tiket", "en": "ticket machine" }
+      }
     ]
   },
   {
@@ -21,14 +27,20 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ヒ", "romanji": "hi" } ]
+      "on": [{ "furigana": "ヒ", "romanji": "hi" }]
     },
     "meanings": {
       "id": "pintu darurat",
       "en": "emergency exit"
     },
     "examples": [
-      { "word": "非常口", "furigana": "ひじょうぐち", "romanji": "hijouguchi", "id": 122, "meanings": { "id": "pintu darurat", "en": "emergency exit" } }
+      {
+        "word": "非常口",
+        "furigana": "ひじょうぐち",
+        "romanji": "hijouguchi",
+        "id": 122,
+        "meanings": { "id": "pintu darurat", "en": "emergency exit" }
+      }
     ]
   },
   {
@@ -36,16 +48,28 @@
     "character": "押",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "お", "romanji": "o" } ],
-      "on": [ { "furigana": "オウ", "romanji": "ou" } ]
+      "kun": [{ "furigana": "お", "romanji": "o" }],
+      "on": [{ "furigana": "オウ", "romanji": "ou" }]
     },
     "meanings": {
       "id": "mendorong, cap",
       "en": "push, stamp"
     },
     "examples": [
-      { "word": "押す", "furigana": "おす", "romanji": "osu", "id": 123, "meanings": { "id": "mendorong", "en": "to push" } },
-      { "word": "押印", "furigana": "おういん", "romanji": "ouin", "id": 123, "meanings": { "id": "cap", "en": "stamp" } }
+      {
+        "word": "押す",
+        "furigana": "おす",
+        "romanji": "osu",
+        "id": 123,
+        "meanings": { "id": "mendorong", "en": "to push" }
+      },
+      {
+        "word": "押印",
+        "furigana": "おういん",
+        "romanji": "ouin",
+        "id": 123,
+        "meanings": { "id": "cap", "en": "stamp" }
+      }
     ]
   },
   {
@@ -53,17 +77,39 @@
     "character": "抱",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "いだ", "romanji": "ida" }, { "furigana": "かか", "romanji": "kaka" }, { "furigana": "だ", "romanji": "da" } ],
-      "on": [ { "furigana": "ホウ", "romanji": "hou" } ]
+      "kun": [
+        { "furigana": "いだ", "romanji": "ida" },
+        { "furigana": "かか", "romanji": "kaka" },
+        { "furigana": "だ", "romanji": "da" }
+      ],
+      "on": [{ "furigana": "ホウ", "romanji": "hou" }]
     },
     "meanings": {
       "id": "memeluk, aspirasi",
       "en": "embrace, aspiration"
     },
     "examples": [
-      { "word": "抱く", "furigana": "だく", "romanji": "daku", "id": 124, "meanings": { "id": "memeluk", "en": "to embrace" } },
-      { "word": "抱える", "furigana": "かかえる", "romanji": "kakaeru", "id": 124, "meanings": { "id": "memeluk", "en": "to hold" } },
-      { "word": "抱負", "furigana": "ほうふ", "romanji": "houfu", "id": 124, "meanings": { "id": "aspirasi", "en": "aspiration" } }
+      {
+        "word": "抱く",
+        "furigana": "だく",
+        "romanji": "daku",
+        "id": 124,
+        "meanings": { "id": "memeluk", "en": "to embrace" }
+      },
+      {
+        "word": "抱える",
+        "furigana": "かかえる",
+        "romanji": "kakaeru",
+        "id": 124,
+        "meanings": { "id": "memeluk", "en": "to hold" }
+      },
+      {
+        "word": "抱負",
+        "furigana": "ほうふ",
+        "romanji": "houfu",
+        "id": 124,
+        "meanings": { "id": "aspirasi", "en": "aspiration" }
+      }
     ]
   },
   {
@@ -71,16 +117,28 @@
     "character": "招",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "まね", "romanji": "mane" } ],
-      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+      "kun": [{ "furigana": "まね", "romanji": "mane" }],
+      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
     },
     "meanings": {
       "id": "mengundang, undangan",
       "en": "invite, invitation"
     },
     "examples": [
-      { "word": "招待", "furigana": "しょうたい", "romanji": "shoutai", "id": 125, "meanings": { "id": "undangan", "en": "invitation" } },
-      { "word": "招く", "furigana": "まねく", "romanji": "maneku", "id": 125, "meanings": { "id": "mengundang", "en": "to invite" } }
+      {
+        "word": "招待",
+        "furigana": "しょうたい",
+        "romanji": "shoutai",
+        "id": 125,
+        "meanings": { "id": "undangan", "en": "invitation" }
+      },
+      {
+        "word": "招く",
+        "furigana": "まねく",
+        "romanji": "maneku",
+        "id": 125,
+        "meanings": { "id": "mengundang", "en": "to invite" }
+      }
     ]
   },
   {
@@ -88,17 +146,38 @@
     "character": "定",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "さだ", "romanji": "sada" } ],
-      "on": [ { "furigana": "テイ", "romanji": "tei" }, { "furigana": "ジョウ", "romanji": "jou" } ]
+      "kun": [{ "furigana": "さだ", "romanji": "sada" }],
+      "on": [
+        { "furigana": "テイ", "romanji": "tei" },
+        { "furigana": "ジョウ", "romanji": "jou" }
+      ]
     },
     "meanings": {
       "id": "menetapkan, penggaris, keputusan",
       "en": "determine, ruler, decision"
     },
     "examples": [
-      { "word": "定める", "furigana": "さだめる", "romanji": "sadameru", "id": 126, "meanings": { "id": "menetapkan", "en": "to determine" } },
-      { "word": "定規", "furigana": "じょうぎ", "romanji": "jougi", "id": 126, "meanings": { "id": "penggaris", "en": "ruler" } },
-      { "word": "決定", "furigana": "けってい", "romanji": "kettei", "id": 126, "meanings": { "id": "keputusan", "en": "decision" } }
+      {
+        "word": "定める",
+        "furigana": "さだめる",
+        "romanji": "sadameru",
+        "id": 126,
+        "meanings": { "id": "menetapkan", "en": "to determine" }
+      },
+      {
+        "word": "定規",
+        "furigana": "じょうぎ",
+        "romanji": "jougi",
+        "id": 126,
+        "meanings": { "id": "penggaris", "en": "ruler" }
+      },
+      {
+        "word": "決定",
+        "furigana": "けってい",
+        "romanji": "kettei",
+        "id": 126,
+        "meanings": { "id": "keputusan", "en": "decision" }
+      }
     ]
   },
   {
@@ -106,17 +185,41 @@
     "character": "実",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "み", "romanji": "mi" }, { "furigana": "みの", "romanji": "mino" } ],
-      "on": [ { "furigana": "ジツ", "romanji": "jitsu" }, { "furigana": "ジッ", "romanji": "ji" } ]
+      "kun": [
+        { "furigana": "み", "romanji": "mi" },
+        { "furigana": "みの", "romanji": "mino" }
+      ],
+      "on": [
+        { "furigana": "ジツ", "romanji": "jitsu" },
+        { "furigana": "ジッ", "romanji": "ji" }
+      ]
     },
     "meanings": {
       "id": "buah, biji, berbuah, berhasil, kemampuan",
       "en": "fruit, seed, bear fruit, succeed, ability"
     },
     "examples": [
-      { "word": "実", "furigana": "み", "romanji": "mi", "id": 127, "meanings": { "id": "buah, biji", "en": "fruit, seed" } },
-      { "word": "実る", "furigana": "みのる", "romanji": "minoru", "id": 127, "meanings": { "id": "berbuah, berhasil", "en": "bear fruit, succeed" } },
-      { "word": "実力", "furigana": "じつりょく", "romanji": "jitsuryoku", "id": 127, "meanings": { "id": "kemampuan", "en": "ability" } }
+      {
+        "word": "実",
+        "furigana": "み",
+        "romanji": "mi",
+        "id": 127,
+        "meanings": { "id": "buah, biji", "en": "fruit, seed" }
+      },
+      {
+        "word": "実る",
+        "furigana": "みのる",
+        "romanji": "minoru",
+        "id": 127,
+        "meanings": { "id": "berbuah, berhasil", "en": "bear fruit, succeed" }
+      },
+      {
+        "word": "実力",
+        "furigana": "じつりょく",
+        "romanji": "jitsuryoku",
+        "id": 127,
+        "meanings": { "id": "kemampuan", "en": "ability" }
+      }
     ]
   },
   {
@@ -124,16 +227,28 @@
     "character": "突",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "つ", "romanji": "tsu" } ],
-      "on": [ { "furigana": "トツ", "romanji": "totsu" } ]
+      "kun": [{ "furigana": "つ", "romanji": "tsu" }],
+      "on": [{ "furigana": "トツ", "romanji": "totsu" }]
     },
     "meanings": {
       "id": "menyodok, tiba-tiba",
       "en": "poke, suddenly"
     },
     "examples": [
-      { "word": "突く", "furigana": "つく", "romanji": "tsuku", "id": 128, "meanings": { "id": "menyodok", "en": "to poke" } },
-      { "word": "突然", "furigana": "とつぜん", "romanji": "totsuzen", "id": 128, "meanings": { "id": "tiba-tiba", "en": "suddenly" } }
+      {
+        "word": "突く",
+        "furigana": "つく",
+        "romanji": "tsuku",
+        "id": 128,
+        "meanings": { "id": "menyodok", "en": "to poke" }
+      },
+      {
+        "word": "突然",
+        "furigana": "とつぜん",
+        "romanji": "totsuzen",
+        "id": 128,
+        "meanings": { "id": "tiba-tiba", "en": "suddenly" }
+      }
     ]
   },
   {
@@ -141,16 +256,31 @@
     "character": "乳",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "ち", "romanji": "chi" }, { "furigana": "ちち", "romanji": "chichi" } ],
-      "on": [ { "furigana": "ニュウ", "romanji": "nyuu" } ]
+      "kun": [
+        { "furigana": "ち", "romanji": "chi" },
+        { "furigana": "ちち", "romanji": "chichi" }
+      ],
+      "on": [{ "furigana": "ニュウ", "romanji": "nyuu" }]
     },
     "meanings": {
       "id": "puting susu, susu sapi",
       "en": "nipple, cow's milk"
     },
     "examples": [
-      { "word": "乳首", "furigana": "ちくび", "romanji": "chikubi", "id": 129, "meanings": { "id": "puting susu", "en": "nipple" } },
-      { "word": "牛乳", "furigana": "ぎゅうにゅう", "romanji": "gyuunyuu", "id": 129, "meanings": { "id": "susu sapi", "en": "cow's milk" } }
+      {
+        "word": "乳首",
+        "furigana": "ちくび",
+        "romanji": "chikubi",
+        "id": 129,
+        "meanings": { "id": "puting susu", "en": "nipple" }
+      },
+      {
+        "word": "牛乳",
+        "furigana": "ぎゅうにゅう",
+        "romanji": "gyuunyuu",
+        "id": 129,
+        "meanings": { "id": "susu sapi", "en": "cow's milk" }
+      }
     ]
   },
   {
@@ -158,16 +288,28 @@
     "character": "受",
     "strokes": 8,
     "readings": {
-      "kun": [ { "furigana": "う", "romanji": "u" } ],
-      "on": [ { "furigana": "ジュ", "romanji": "ju" } ]
+      "kun": [{ "furigana": "う", "romanji": "u" }],
+      "on": [{ "furigana": "ジュ", "romanji": "ju" }]
     },
     "meanings": {
       "id": "menerima, ikut ujian",
       "en": "receive, take an exam"
     },
     "examples": [
-      { "word": "受ける", "furigana": "うける", "romanji": "ukeru", "id": 130, "meanings": { "id": "menerima", "en": "to receive" } },
-      { "word": "受験", "furigana": "じゅけん", "romanji": "juken", "id": 130, "meanings": { "id": "ikut ujian", "en": "take an exam" } }
+      {
+        "word": "受ける",
+        "furigana": "うける",
+        "romanji": "ukeru",
+        "id": 130,
+        "meanings": { "id": "menerima", "en": "to receive" }
+      },
+      {
+        "word": "受験",
+        "furigana": "じゅけん",
+        "romanji": "juken",
+        "id": 130,
+        "meanings": { "id": "ikut ujian", "en": "take an exam" }
+      }
     ]
   }
 ]
