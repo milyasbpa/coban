@@ -1,7 +1,9 @@
 import n5KanjiData from "@/data/n5/kanji/kanji.json";
 import n4KanjiData from "@/data/n4/kanji/kanji.json";
-import n5TopicMapping from '@/data/n5/kanji/kanji_topic_mapping.json';
-import n4TopicMapping from '@/data/n4/kanji/kanji_topic_mapping.json';
+import n3KanjiData from "@/data/n3/kanji/kanji.json";
+import n5TopicMapping from "@/data/n5/kanji/kanji_topic_mapping.json";
+import n4TopicMapping from "@/data/n4/kanji/kanji_topic_mapping.json";
+import n3TopicMapping from "@/data/n3/kanji/kanji_topic_mapping.json";
 import { getLessonsByLevel } from "@/pwa/features/home/utils/lesson";
 
 interface KanjiReading {
@@ -56,6 +58,8 @@ export class KanjiService {
         return n5KanjiData;
       case "N4":
         return n4KanjiData;
+      case "N3":
+        return n3KanjiData;
       default:
         return null;
     }
@@ -71,6 +75,7 @@ export class KanjiService {
       case "N4":
         return n4TopicMapping;
       case "N3":
+        return n3TopicMapping;
       case "N2":
       case "N1":
         // Return empty structure for levels that don't have topic mapping yet
@@ -127,7 +132,9 @@ export class KanjiService {
   /**
    * Get all available topic categories - moved from topic.ts (general function)
    */
-  static getTopicCategories(level: string = "N5"): Record<string, TopicCategory> {
+  static getTopicCategories(
+    level: string = "N5"
+  ): Record<string, TopicCategory> {
     const topicMapping = this.getTopicMappingData(level);
     return topicMapping.topic_categories;
   }
@@ -135,12 +142,18 @@ export class KanjiService {
   /**
    * Get kanji filtered by topic using kanji_ids from mapping - moved from topic.ts (general function)
    */
-  static getKanjiByTopic(allKanji: KanjiDetail[], topicId: string, level: string = "N5"): KanjiDetail[] {
+  static getKanjiByTopic(
+    allKanji: KanjiDetail[],
+    topicId: string,
+    level: string = "N5"
+  ): KanjiDetail[] {
     const topicMapping = this.getTopicMappingData(level);
-    const category = topicMapping.topic_categories[topicId as keyof typeof topicMapping.topic_categories] as TopicCategory;
+    const category = topicMapping.topic_categories[
+      topicId as keyof typeof topicMapping.topic_categories
+    ] as TopicCategory;
     if (!category || !category.kanji_ids) return [];
-    
-    return allKanji.filter(kanji => category.kanji_ids.includes(kanji.id));
+
+    return allKanji.filter((kanji) => category.kanji_ids.includes(kanji.id));
   }
 
   /**
@@ -149,7 +162,7 @@ export class KanjiService {
   static getAllKanjiByLevel(level: string): KanjiDetail[] {
     const kanjiData = this.getKanjiData(level);
     if (!kanjiData) return [];
-    
+
     return kanjiData.items;
   }
 
@@ -159,8 +172,8 @@ export class KanjiService {
   static getKanjiById(id: number, level: string): KanjiDetail | null {
     const kanjiData = this.getKanjiData(level);
     if (!kanjiData) return null;
-    
-    return kanjiData.items.find(kanji => kanji.id === id) || null;
+
+    return kanjiData.items.find((kanji) => kanji.id === id) || null;
   }
 
   /**
@@ -170,17 +183,21 @@ export class KanjiService {
     // Try N5 first
     const n5Data = this.getKanjiData("N5");
     if (n5Data) {
-      const n5Kanji = n5Data.items.find(kanji => kanji.character === character);
+      const n5Kanji = n5Data.items.find(
+        (kanji) => kanji.character === character
+      );
       if (n5Kanji) return n5Kanji;
     }
-    
+
     // Try N4
     const n4Data = this.getKanjiData("N4");
     if (n4Data) {
-      const n4Kanji = n4Data.items.find(kanji => kanji.character === character);
+      const n4Kanji = n4Data.items.find(
+        (kanji) => kanji.character === character
+      );
       if (n4Kanji) return n4Kanji;
     }
-    
+
     return null;
   }
 
@@ -188,7 +205,10 @@ export class KanjiService {
    * Get kanji info for scoring system
    * Replaces KanjiWordMapper.getKanjiInfo()
    */
-  static getKanjiInfoForScoring(word: string, level: string = "N5"): {
+  static getKanjiInfoForScoring(
+    word: string,
+    level: string = "N5"
+  ): {
     kanjiId: string;
     kanjiCharacter: string;
     totalWords: number;
@@ -206,7 +226,7 @@ export class KanjiService {
 
     // Direct word lookup in examples
     for (const kanji of kanjiData.items) {
-      const wordFound = kanji.examples?.some(ex => ex.word === word);
+      const wordFound = kanji.examples?.some((ex) => ex.word === word);
       if (wordFound) {
         return {
           kanjiId: kanji.id.toString(),
@@ -219,7 +239,7 @@ export class KanjiService {
     // Fallback: find by kanji character in word
     const kanjiChars = word.match(/[\u4e00-\u9faf]/g);
     if (kanjiChars && kanjiChars.length > 0) {
-      const kanji = kanjiData.items.find(k => k.character === kanjiChars[0]);
+      const kanji = kanjiData.items.find((k) => k.character === kanjiChars[0]);
       if (kanji) {
         return {
           kanjiId: kanji.id.toString(),
