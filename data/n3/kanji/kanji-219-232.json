@@ -4,16 +4,31 @@
     "character": "粉",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "こ", "romanji": "ko" }, { "furigana": "こな", "romanji": "kona" } ],
-      "on": [ { "furigana": "フン", "romanji": "fun" } ]
+      "kun": [
+        { "furigana": "こ", "romanji": "ko" },
+        { "furigana": "こな", "romanji": "kona" }
+      ],
+      "on": [{ "furigana": "フン", "romanji": "fun" }]
     },
     "meanings": {
       "id": "tepung terigu, serbuk sari",
       "en": "wheat flour, pollen"
     },
     "examples": [
-      { "word": "小麦粉", "furigana": "こむぎこ", "romanji": "komugiko", "id": 219, "meanings": { "id": "tepung terigu", "en": "wheat flour" } },
-      { "word": "花粉", "furigana": "かふん", "romanji": "kafun", "id": 219, "meanings": { "id": "serbuk sari", "en": "pollen" } }
+      {
+        "word": "小麦粉",
+        "furigana": "こむぎこ",
+        "romanji": "komugiko",
+        "id": 219,
+        "meanings": { "id": "tepung terigu", "en": "wheat flour" }
+      },
+      {
+        "word": "花粉",
+        "furigana": "かふん",
+        "romanji": "kafun",
+        "id": 219,
+        "meanings": { "id": "serbuk sari", "en": "pollen" }
+      }
     ]
   },
   {
@@ -21,16 +36,31 @@
     "character": "骨",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "ほね", "romanji": "hone" } ],
-      "on": [ { "furigana": "コツ", "romanji": "kotsu" }, { "furigana": "コツ", "romanji": "kotsu" } ]
+      "kun": [{ "furigana": "ほね", "romanji": "hone" }],
+      "on": [
+        { "furigana": "コツ", "romanji": "kotsu" },
+        { "furigana": "コツ", "romanji": "kotsu" }
+      ]
     },
     "meanings": {
       "id": "tulang, patah tulang",
       "en": "bone, fracture"
     },
     "examples": [
-      { "word": "骨", "furigana": "ほね", "romanji": "hone", "id": 220, "meanings": { "id": "tulang", "en": "bone" } },
-      { "word": "骨折", "furigana": "こっせつ", "romanji": "kossetsu", "id": 220, "meanings": { "id": "patah tulang", "en": "fracture" } }
+      {
+        "word": "骨",
+        "furigana": "ほね",
+        "romanji": "hone",
+        "id": 220,
+        "meanings": { "id": "tulang", "en": "bone" }
+      },
+      {
+        "word": "骨折",
+        "furigana": "こっせつ",
+        "romanji": "kossetsu",
+        "id": 220,
+        "meanings": { "id": "patah tulang", "en": "fracture" }
+      }
     ]
   },
   {
@@ -39,15 +69,30 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ザイ", "romanji": "zai" }, { "furigana": "サイ", "romanji": "sai" } ]
+      "on": [
+        { "furigana": "ザイ", "romanji": "zai" },
+        { "furigana": "サイ", "romanji": "sai" }
+      ]
     },
     "meanings": {
       "id": "harta benda, dompet",
       "en": "property, wallet"
     },
     "examples": [
-      { "word": "財産", "furigana": "ざいさん", "romanji": "zaisan", "id": 221, "meanings": { "id": "harta benda", "en": "property" } },
-      { "word": "財布", "furigana": "さいふ", "romanji": "saifu", "id": 221, "meanings": { "id": "dompet", "en": "wallet" } }
+      {
+        "word": "財産",
+        "furigana": "ざいさん",
+        "romanji": "zaisan",
+        "id": 221,
+        "meanings": { "id": "harta benda", "en": "property" }
+      },
+      {
+        "word": "財布",
+        "furigana": "さいふ",
+        "romanji": "saifu",
+        "id": 221,
+        "meanings": { "id": "dompet", "en": "wallet" }
+      }
     ]
   },
   {
@@ -55,16 +100,28 @@
     "character": "眠",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "ねむ", "romanji": "nemu" } ],
-      "on": [ { "furigana": "ミン", "romanji": "min" } ]
+      "kun": [{ "furigana": "ねむ", "romanji": "nemu" }],
+      "on": [{ "furigana": "ミン", "romanji": "min" }]
     },
     "meanings": {
       "id": "mengantuk, tidur musim dingin",
       "en": "sleepy, hibernation"
     },
     "examples": [
-      { "word": "眠い", "furigana": "ねむい", "romanji": "nemui", "id": 222, "meanings": { "id": "mengantuk", "en": "sleepy" } },
-      { "word": "冬眠", "furigana": "とうみん", "romanji": "toumin", "id": 222, "meanings": { "id": "tidur musim dingin", "en": "hibernation" } }
+      {
+        "word": "眠い",
+        "furigana": "ねむい",
+        "romanji": "nemui",
+        "id": 222,
+        "meanings": { "id": "mengantuk", "en": "sleepy" }
+      },
+      {
+        "word": "冬眠",
+        "furigana": "とうみん",
+        "romanji": "toumin",
+        "id": 222,
+        "meanings": { "id": "tidur musim dingin", "en": "hibernation" }
+      }
     ]
   },
   {
@@ -72,16 +129,28 @@
     "character": "島",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "しま", "romanji": "shima" } ],
-      "on": [ { "furigana": "トウ", "romanji": "tou" } ]
+      "kun": [{ "furigana": "しま", "romanji": "shima" }],
+      "on": [{ "furigana": "トウ", "romanji": "tou" }]
     },
     "meanings": {
       "id": "pulau, kepulauan",
       "en": "island, archipelago"
     },
     "examples": [
-      { "word": "島", "furigana": "しま", "romanji": "shima", "id": 223, "meanings": { "id": "pulau", "en": "island" } },
-      { "word": "列島", "furigana": "れっとう", "romanji": "retto", "id": 223, "meanings": { "id": "kepulauan", "en": "archipelago" } }
+      {
+        "word": "島",
+        "furigana": "しま",
+        "romanji": "shima",
+        "id": 223,
+        "meanings": { "id": "pulau", "en": "island" }
+      },
+      {
+        "word": "列島",
+        "furigana": "れっとう",
+        "romanji": "retto",
+        "id": 223,
+        "meanings": { "id": "kepulauan", "en": "archipelago" }
+      }
     ]
   },
   {
@@ -89,16 +158,28 @@
     "character": "馬",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "うま", "romanji": "uma" } ],
-      "on": [ { "furigana": "バ", "romanji": "ba" } ]
+      "kun": [{ "furigana": "うま", "romanji": "uma" }],
+      "on": [{ "furigana": "バ", "romanji": "ba" }]
     },
     "meanings": {
       "id": "kuda, bodoh",
       "en": "horse, foolish"
     },
     "examples": [
-      { "word": "馬", "furigana": "うま", "romanji": "uma", "id": 224, "meanings": { "id": "kuda", "en": "horse" } },
-      { "word": "馬鹿", "furigana": "ばか", "romanji": "baka", "id": 224, "meanings": { "id": "bodoh", "en": "foolish" } }
+      {
+        "word": "馬",
+        "furigana": "うま",
+        "romanji": "uma",
+        "id": 224,
+        "meanings": { "id": "kuda", "en": "horse" }
+      },
+      {
+        "word": "馬鹿",
+        "furigana": "ばか",
+        "romanji": "baka",
+        "id": 224,
+        "meanings": { "id": "bodoh", "en": "foolish" }
+      }
     ]
   },
   {
@@ -106,16 +187,31 @@
     "character": "殺",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "ころ", "romanji": "koro" } ],
-      "on": [ { "furigana": "サツ", "romanji": "satsu" }, { "furigana": "セツ", "romanji": "setsu" } ]
+      "kun": [{ "furigana": "ころ", "romanji": "koro" }],
+      "on": [
+        { "furigana": "サツ", "romanji": "satsu" },
+        { "furigana": "セツ", "romanji": "setsu" }
+      ]
     },
     "meanings": {
       "id": "pembunuh, membunuh",
       "en": "killer, to kill"
     },
     "examples": [
-      { "word": "殺人", "furigana": "さつじん", "romanji": "satsujin", "id": 225, "meanings": { "id": "pembunuh", "en": "killer" } },
-      { "word": "殺す", "furigana": "ころす", "romanji": "korosu", "id": 225, "meanings": { "id": "membunuh", "en": "to kill" } }
+      {
+        "word": "殺人",
+        "furigana": "さつじん",
+        "romanji": "satsujin",
+        "id": 225,
+        "meanings": { "id": "pembunuh", "en": "killer" }
+      },
+      {
+        "word": "殺す",
+        "furigana": "ころす",
+        "romanji": "korosu",
+        "id": 225,
+        "meanings": { "id": "membunuh", "en": "to kill" }
+      }
     ]
   },
   {
@@ -124,14 +220,20 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ノウ", "romanji": "nou" } ]
+      "on": [{ "furigana": "ノウ", "romanji": "nou" }]
     },
     "meanings": {
       "id": "kemampuan",
       "en": "ability"
     },
     "examples": [
-      { "word": "能力", "furigana": "のうりょく", "romanji": "nouryoku", "id": 226, "meanings": { "id": "kemampuan", "en": "ability" } }
+      {
+        "word": "能力",
+        "furigana": "のうりょく",
+        "romanji": "nouryoku",
+        "id": 226,
+        "meanings": { "id": "kemampuan", "en": "ability" }
+      }
     ]
   },
   {
@@ -140,14 +242,20 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "シ", "romanji": "shi" } ]
+      "on": [{ "furigana": "シ", "romanji": "shi" }]
     },
     "meanings": {
       "id": "guru",
       "en": "teacher"
     },
     "examples": [
-      { "word": "教師", "furigana": "きょうし", "romanji": "kyoushi", "id": 227, "meanings": { "id": "guru", "en": "teacher" } }
+      {
+        "word": "教師",
+        "furigana": "きょうし",
+        "romanji": "kyoushi",
+        "id": 227,
+        "meanings": { "id": "guru", "en": "teacher" }
+      }
     ]
   },
   {
@@ -156,14 +264,20 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "アン", "romanji": "an" } ]
+      "on": [{ "furigana": "アン", "romanji": "an" }]
     },
     "meanings": {
       "id": "informasi",
       "en": "information"
     },
     "examples": [
-      { "word": "案内", "furigana": "あんない", "romanji": "annai", "id": 228, "meanings": { "id": "informasi", "en": "information" } }
+      {
+        "word": "案内",
+        "furigana": "あんない",
+        "romanji": "annai",
+        "id": 228,
+        "meanings": { "id": "informasi", "en": "information" }
+      }
     ]
   },
   {
@@ -172,14 +286,20 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ガイ", "romanji": "gai" } ]
+      "on": [{ "furigana": "ガイ", "romanji": "gai" }]
     },
     "meanings": {
       "id": "serangga perusak",
       "en": "harmful insect"
     },
     "examples": [
-      { "word": "害虫", "furigana": "がいちゅう", "romanji": "gaichuu", "id": 229, "meanings": { "id": "serangga perusak", "en": "harmful insect" } }
+      {
+        "word": "害虫",
+        "furigana": "がいちゅう",
+        "romanji": "gaichuu",
+        "id": 229,
+        "meanings": { "id": "serangga perusak", "en": "harmful insect" }
+      }
     ]
   },
   {
@@ -187,16 +307,28 @@
     "character": "容",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "い", "romanji": "i" } ],
-      "on": [ { "furigana": "ヨウ", "romanji": "you" } ]
+      "kun": [{ "furigana": "い", "romanji": "i" }],
+      "on": [{ "furigana": "ヨウ", "romanji": "you" }]
     },
     "meanings": {
       "id": "memasukkan, isi, inti",
       "en": "insert, content, core"
     },
     "examples": [
-      { "word": "容れる", "furigana": "いれる", "romanji": "ireru", "id": 230, "meanings": { "id": "memasukkan", "en": "to insert" } },
-      { "word": "内容", "furigana": "ないよう", "romanji": "naiyou", "id": 230, "meanings": { "id": "isi, inti", "en": "content, core" } }
+      {
+        "word": "容れる",
+        "furigana": "いれる",
+        "romanji": "ireru",
+        "id": 230,
+        "meanings": { "id": "memasukkan", "en": "to insert" }
+      },
+      {
+        "word": "内容",
+        "furigana": "ないよう",
+        "romanji": "naiyou",
+        "id": 230,
+        "meanings": { "id": "isi, inti", "en": "content, core" }
+      }
     ]
   },
   {
@@ -204,16 +336,31 @@
     "character": "捕",
     "strokes": 10,
     "readings": {
-      "kun": [ { "furigana": "と", "romanji": "to" }, { "furigana": "つか", "romanji": "tsuka" } ],
-      "on": [ { "furigana": "ホ", "romanji": "ho" } ]
+      "kun": [
+        { "furigana": "と", "romanji": "to" },
+        { "furigana": "つか", "romanji": "tsuka" }
+      ],
+      "on": [{ "furigana": "ホ", "romanji": "ho" }]
     },
     "meanings": {
       "id": "menangkap, tawanan",
       "en": "to catch, prisoner"
     },
     "examples": [
-      { "word": "捕らえる", "furigana": "とらえる", "romanji": "toraeru", "id": 231, "meanings": { "id": "menangkap", "en": "to catch" } },
-      { "word": "捕虜", "furigana": "ほりょ", "romanji": "horyo", "id": 231, "meanings": { "id": "tawanan", "en": "prisoner" } }
+      {
+        "word": "捕らえる",
+        "furigana": "とらえる",
+        "romanji": "toraeru",
+        "id": 231,
+        "meanings": { "id": "menangkap", "en": "to catch" }
+      },
+      {
+        "word": "捕虜",
+        "furigana": "ほりょ",
+        "romanji": "horyo",
+        "id": 231,
+        "meanings": { "id": "tawanan", "en": "prisoner" }
+      }
     ]
   },
   {
@@ -222,14 +369,20 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ト", "romanji": "to" } ]
+      "on": [{ "furigana": "ト", "romanji": "to" }]
     },
     "meanings": {
       "id": "murid",
       "en": "student"
     },
     "examples": [
-      { "word": "生徒", "furigana": "せいと", "romanji": "seito", "id": 232, "meanings": { "id": "murid", "en": "student" } }
+      {
+        "word": "生徒",
+        "furigana": "せいと",
+        "romanji": "seito",
+        "id": 232,
+        "meanings": { "id": "murid", "en": "student" }
+      }
     ]
   }
 ]

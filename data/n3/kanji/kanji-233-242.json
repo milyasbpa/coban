@@ -8,9 +8,7 @@
         { "furigana": "いき", "romanji": "iki" },
         { "furigana": "むすこ", "romanji": "musuko" }
       ],
-      "on": [
-        { "furigana": "ソク", "romanji": "soku" }
-      ]
+      "on": [{ "furigana": "ソク", "romanji": "soku" }]
     },
     "meanings": {
       "id": "sesak nafas, anak laki-laki, istirahat",
@@ -45,12 +43,8 @@
     "character": "恐",
     "strokes": 10,
     "readings": {
-      "kun": [
-        { "furigana": "おそ", "romanji": "oso" }
-      ],
-      "on": [
-        { "furigana": "キョウ", "romanji": "kyou" }
-      ]
+      "kun": [{ "furigana": "おそ", "romanji": "oso" }],
+      "on": [{ "furigana": "キョウ", "romanji": "kyou" }]
     },
     "meanings": {
       "id": "takut, khawatir, menakutkan, sungkan",
@@ -89,9 +83,7 @@
         { "furigana": "は", "romanji": "ha" },
         { "furigana": "はじ", "romanji": "haji" }
       ],
-      "on": [
-        { "furigana": "チ", "romanji": "chi" }
-      ]
+      "on": [{ "furigana": "チ", "romanji": "chi" }]
     },
     "meanings": {
       "id": "malu, tidak tahu malu",
@@ -119,9 +111,7 @@
     "character": "娘",
     "strokes": 10,
     "readings": {
-      "kun": [
-        { "furigana": "むすめ", "romanji": "musume" }
-      ],
+      "kun": [{ "furigana": "むすめ", "romanji": "musume" }],
       "on": []
     },
     "meanings": {
@@ -154,15 +144,20 @@
         { "furigana": "はや", "romanji": "haya" },
         { "furigana": "すみ", "romanji": "sumi" }
       ],
-      "on": [
-        { "furigana": "ソク", "romanji": "soku" }
-      ]
+      "on": [{ "furigana": "ソク", "romanji": "soku" }]
     },
     "meanings": {
       "id": "cepat, laju pesat, cepat tanpa tunda",
       "en": "fast, rapid, immediate"
     },
     "examples": [
+      {
+        "word": "速い",
+        "furigana": "はやい",
+        "romanji": "hayai",
+        "id": 160,
+        "meanings": { "id": "cepat", "en": "fast / quick" }
+      },
       {
         "word": "急速",
         "furigana": "きゅうそく",
@@ -188,9 +183,7 @@
         { "furigana": "つ", "romanji": "tsu" },
         { "furigana": "つら", "romanji": "tsura" }
       ],
-      "on": [
-        { "furigana": "レン", "romanji": "ren" }
-      ]
+      "on": [{ "furigana": "レン", "romanji": "ren" }]
     },
     "meanings": {
       "id": "mengajak, berderet, hubungan",
@@ -226,9 +219,7 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [
-        { "furigana": "ト", "romanji": "to" }
-      ]
+      "on": [{ "furigana": "ト", "romanji": "to" }]
     },
     "meanings": {
       "id": "pertengahan",
@@ -249,12 +240,8 @@
     "character": "造",
     "strokes": 10,
     "readings": {
-      "kun": [
-        { "furigana": "つく", "romanji": "tsuku" }
-      ],
-      "on": [
-        { "furigana": "ゾウ", "romanji": "zou" }
-      ]
+      "kun": [{ "furigana": "つく", "romanji": "tsuku" }],
+      "on": [{ "furigana": "ゾウ", "romanji": "zou" }]
     },
     "meanings": {
       "id": "membuat (dalam skala besar), produksi",
@@ -266,7 +253,10 @@
         "furigana": "つくる",
         "romanji": "tsukuru",
         "id": 240,
-        "meanings": { "id": "membuat (dalam skala besar)", "en": "to make (large scale)" }
+        "meanings": {
+          "id": "membuat (dalam skala besar)",
+          "en": "to make (large scale)"
+        }
       },
       {
         "word": "製造",
@@ -282,12 +272,8 @@
     "character": "差",
     "strokes": 10,
     "readings": {
-      "kun": [
-        { "furigana": "さ", "romanji": "sa" }
-      ],
-      "on": [
-        { "furigana": "サ", "romanji": "sa" }
-      ]
+      "kun": [{ "furigana": "さ", "romanji": "sa" }],
+      "on": [{ "furigana": "サ", "romanji": "sa" }]
     },
     "meanings": {
       "id": "menggunakan, diskriminasi",

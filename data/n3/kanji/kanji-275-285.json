@@ -4,16 +4,31 @@
     "character": "得",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "え", "romanji": "e" }, { "furigana": "う", "romanji": "u" } ],
-      "on": [ { "furigana": "トク", "romanji": "toku" } ]
+      "kun": [
+        { "furigana": "え", "romanji": "e" },
+        { "furigana": "う", "romanji": "u" }
+      ],
+      "on": [{ "furigana": "トク", "romanji": "toku" }]
     },
     "meanings": {
       "id": "mendapatkan, bangga",
       "en": "obtain, proud"
     },
     "examples": [
-      { "word": "得る", "furigana": "える", "romanji": "eru", "id": 275, "meanings": { "id": "mendapatkan", "en": "to obtain" } },
-      { "word": "得意", "furigana": "とくい", "romanji": "tokui", "id": 275, "meanings": { "id": "bangga", "en": "proud" } }
+      {
+        "word": "得る",
+        "furigana": "える",
+        "romanji": "eru",
+        "id": 275,
+        "meanings": { "id": "mendapatkan", "en": "to obtain" }
+      },
+      {
+        "word": "得意",
+        "furigana": "とくい",
+        "romanji": "tokui",
+        "id": 275,
+        "meanings": { "id": "bangga", "en": "proud" }
+      }
     ]
   },
   {
@@ -22,14 +37,20 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ジュツ", "romanji": "jutsu" } ]
+      "on": [{ "furigana": "ジュツ", "romanji": "jutsu" }]
     },
     "meanings": {
       "id": "teknik, teknologi",
       "en": "technique, technology"
     },
     "examples": [
-      { "word": "技術", "furigana": "ぎじゅつ", "romanji": "gijutsu", "id": 276, "meanings": { "id": "teknik, teknologi", "en": "technique, technology" } }
+      {
+        "word": "技術",
+        "furigana": "ぎじゅつ",
+        "romanji": "gijutsu",
+        "id": 276,
+        "meanings": { "id": "teknik, teknologi", "en": "technique, technology" }
+      }
     ]
   },
   {
@@ -37,16 +58,28 @@
     "character": "移",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "うつ", "romanji": "utsu" } ],
-      "on": [ { "furigana": "イ", "romanji": "i" } ]
+      "kun": [{ "furigana": "うつ", "romanji": "utsu" }],
+      "on": [{ "furigana": "イ", "romanji": "i" }]
     },
     "meanings": {
       "id": "pindah, beralih, perpindahan",
       "en": "move, shift, transfer"
     },
     "examples": [
-      { "word": "移る", "furigana": "うつる", "romanji": "utsuru", "id": 277, "meanings": { "id": "pindah, beralih", "en": "to move, to shift" } },
-      { "word": "移動", "furigana": "いどう", "romanji": "idou", "id": 277, "meanings": { "id": "perpindahan", "en": "transfer" } }
+      {
+        "word": "移る",
+        "furigana": "うつる",
+        "romanji": "utsuru",
+        "id": 277,
+        "meanings": { "id": "pindah, beralih", "en": "to move, to shift" }
+      },
+      {
+        "word": "移動",
+        "furigana": "いどう",
+        "romanji": "idou",
+        "id": 277,
+        "meanings": { "id": "perpindahan", "en": "transfer" }
+      }
     ]
   },
   {
@@ -54,16 +87,28 @@
     "character": "商",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "あきな", "romanji": "akina" } ],
-      "on": [ { "furigana": "ショウ", "romanji": "shou" } ]
+      "kun": [{ "furigana": "あきな", "romanji": "akina" }],
+      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
     },
     "meanings": {
       "id": "berdagang, perusahaan dagang",
       "en": "trade, trading company"
     },
     "examples": [
-      { "word": "商業", "furigana": "しょうぎょう", "romanji": "shougyou", "id": 278, "meanings": { "id": "berdagang", "en": "trade" } },
-      { "word": "商社", "furigana": "しょうしゃ", "romanji": "shousha", "id": 278, "meanings": { "id": "perusahaan dagang", "en": "trading company" } }
+      {
+        "word": "商業",
+        "furigana": "しょうぎょう",
+        "romanji": "shougyou",
+        "id": 278,
+        "meanings": { "id": "berdagang, menjual", "en": "trade" }
+      },
+      {
+        "word": "商社",
+        "furigana": "しょうしゃ",
+        "romanji": "shousha",
+        "id": 278,
+        "meanings": { "id": "perusahaan dagang", "en": "trading company" }
+      }
     ]
   },
   {
@@ -71,16 +116,41 @@
     "character": "訪",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "おとず", "romanji": "otozu" }, { "furigana": "たず", "romanji": "tazu" } ],
-      "on": [ { "furigana": "ホウ", "romanji": "hou" }, { "furigana": "ボウ", "romanji": "bou" } ]
+      "kun": [
+        { "furigana": "おとず", "romanji": "otozu" },
+        { "furigana": "たず", "romanji": "tazu" }
+      ],
+      "on": [
+        { "furigana": "ホウ", "romanji": "hou" },
+        { "furigana": "ボウ", "romanji": "bou" }
+      ]
     },
     "meanings": {
       "id": "mengunjungi, kunjungan",
       "en": "visit, visitation"
     },
     "examples": [
-      { "word": "訪れる", "furigana": "おとずれる", "romanji": "otozureru", "id": 279, "meanings": { "id": "mengunjungi", "en": "to visit" } },
-      { "word": "訪問", "furigana": "ほうもん", "romanji": "houmon", "id": 279, "meanings": { "id": "kunjungan", "en": "visitation" } }
+      {
+        "word": "訪れる",
+        "furigana": "おとずれる",
+        "romanji": "otozureru",
+        "id": 279,
+        "meanings": { "id": "mengunjungi", "en": "to visit" }
+      },
+      {
+        "word": "訪れる",
+        "furigana": "たずれる",
+        "romanji": "tazureru",
+        "id": 279,
+        "meanings": { "id": "mengunjungi", "en": "to visit" }
+      },
+      {
+        "word": "訪問",
+        "furigana": "ほうもん",
+        "romanji": "houmon",
+        "id": 279,
+        "meanings": { "id": "kunjungan", "en": "visitation" }
+      }
     ]
   },
   {
@@ -88,15 +158,34 @@
     "character": "許",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "ゆる", "romanji": "yuru" } ],
-      "on": [ { "furigana": "キョ", "romanji": "kyo" } ]
+      "kun": [{ "furigana": "ゆる", "romanji": "yuru" }],
+      "on": [{ "furigana": "キョ", "romanji": "kyo" }]
     },
     "meanings": {
       "id": "izin, persetujuan",
       "en": "permission, approval"
     },
     "examples": [
-      { "word": "許す", "furigana": "ゆるす", "romanji": "yurusu", "id": 280, "meanings": { "id": "izin, persetujuan", "en": "to permit, to approve" } }
+      {
+        "word": "許す",
+        "furigana": "ゆるす",
+        "romanji": "yurusu",
+        "id": 164,
+        "meanings": {
+          "id": "mengizinkan",
+          "en": "to permit, to allow"
+        }
+      },
+      {
+        "word": "許可",
+        "furigana": "きょか",
+        "romanji": "kyoka",
+        "id": 163,
+        "meanings": {
+          "id": "izin, persetujuan",
+          "en": "permission, approval, authorization"
+        }
+      }
     ]
   },
   {
@@ -105,14 +194,23 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "フ", "romanji": "fu" }, { "furigana": "プ", "romanji": "pu" } ]
+      "on": [
+        { "furigana": "フ", "romanji": "fu" },
+        { "furigana": "プ", "romanji": "pu" }
+      ]
     },
     "meanings": {
       "id": "suami istri",
       "en": "husband and wife"
     },
     "examples": [
-      { "word": "夫婦", "furigana": "ふうふ", "romanji": "fuufu", "id": 281, "meanings": { "id": "suami istri", "en": "husband and wife" } }
+      {
+        "word": "夫婦",
+        "furigana": "ふうふ",
+        "romanji": "fuufu",
+        "id": 281,
+        "meanings": { "id": "suami istri", "en": "husband and wife" }
+      }
     ]
   },
   {
@@ -121,15 +219,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "コン", "romanji": "kon" } ]
+      "on": [{ "furigana": "コン", "romanji": "kon" }]
     },
     "meanings": {
       "id": "menikah, pertunangan",
       "en": "marriage, engagement"
     },
     "examples": [
-      { "word": "結婚", "furigana": "けっこん", "romanji": "kekkon", "id": 282, "meanings": { "id": "menikah", "en": "marriage" } },
-      { "word": "婚約", "furigana": "こんやく", "romanji": "konyaku", "id": 282, "meanings": { "id": "pertunangan", "en": "engagement" } }
+      {
+        "word": "結婚",
+        "furigana": "けっこん",
+        "romanji": "kekkon",
+        "id": 282,
+        "meanings": { "id": "menikah", "en": "marriage" }
+      },
+      {
+        "word": "婚約",
+        "furigana": "こんやく",
+        "romanji": "konyaku",
+        "id": 282,
+        "meanings": { "id": "pertunangan", "en": "engagement" }
+      }
     ]
   },
   {
@@ -137,17 +247,38 @@
     "character": "船",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "ふね", "romanji": "fune" }, { "furigana": "ふな", "romanji": "funa" } ],
-      "on": [ { "furigana": "セン", "romanji": "sen" } ]
+      "kun": [
+        { "furigana": "ふね", "romanji": "fune" },
+        { "furigana": "ふな", "romanji": "funa" }
+      ],
+      "on": [{ "furigana": "セン", "romanji": "sen" }]
     },
     "meanings": {
       "id": "kapal laut, pos laut, balon",
       "en": "ship, sea mail, balloon"
     },
     "examples": [
-      { "word": "船", "furigana": "ふね", "romanji": "fune", "id": 283, "meanings": { "id": "kapal laut", "en": "ship" } },
-      { "word": "船便", "furigana": "ふなびん", "romanji": "funabin", "id": 283, "meanings": { "id": "pos laut", "en": "sea mail" } },
-      { "word": "風船", "furigana": "ふうせん", "romanji": "fuusen", "id": 283, "meanings": { "id": "balon", "en": "balloon" } }
+      {
+        "word": "船",
+        "furigana": "ふね",
+        "romanji": "fune",
+        "id": 283,
+        "meanings": { "id": "kapal laut", "en": "ship" }
+      },
+      {
+        "word": "船便",
+        "furigana": "ふなびん",
+        "romanji": "funabin",
+        "id": 283,
+        "meanings": { "id": "pos laut", "en": "sea mail" }
+      },
+      {
+        "word": "風船",
+        "furigana": "ふうせん",
+        "romanji": "fuusen",
+        "id": 283,
+        "meanings": { "id": "balon", "en": "balloon" }
+      }
     ]
   },
   {
@@ -155,16 +286,31 @@
     "character": "閉",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "し", "romanji": "shi" }, { "furigana": "と", "romanji": "to" } ],
-      "on": [ { "furigana": "ヘイ", "romanji": "hei" } ]
+      "kun": [
+        { "furigana": "し", "romanji": "shi" },
+        { "furigana": "と", "romanji": "to" }
+      ],
+      "on": [{ "furigana": "ヘイ", "romanji": "hei" }]
     },
     "meanings": {
       "id": "menutup, penutupan",
       "en": "close, closure"
     },
     "examples": [
-      { "word": "閉める", "furigana": "しめる", "romanji": "shimeru", "id": 284, "meanings": { "id": "menutup", "en": "to close" } },
-      { "word": "閉会", "furigana": "へいかい", "romanji": "heikai", "id": 284, "meanings": { "id": "penutupan", "en": "closure" } }
+      {
+        "word": "閉める",
+        "furigana": "しめる",
+        "romanji": "shimeru",
+        "id": 284,
+        "meanings": { "id": "menutup", "en": "to close" }
+      },
+      {
+        "word": "閉会",
+        "furigana": "へいかい",
+        "romanji": "heikai",
+        "id": 284,
+        "meanings": { "id": "penutupan", "en": "closure" }
+      }
     ]
   },
   {
@@ -172,16 +318,28 @@
     "character": "球",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "たま", "romanji": "tama" } ],
-      "on": [ { "furigana": "キュウ", "romanji": "kyuu" } ]
+      "kun": [{ "furigana": "たま", "romanji": "tama" }],
+      "on": [{ "furigana": "キュウ", "romanji": "kyuu" }]
     },
     "meanings": {
       "id": "bola, bola lampu, dunia, bumi",
       "en": "ball, light bulb, world, earth"
     },
     "examples": [
-      { "word": "球", "furigana": "たま", "romanji": "tama", "id": 285, "meanings": { "id": "bola, bola lampu", "en": "ball, light bulb" } },
-      { "word": "地球", "furigana": "ちきゅう", "romanji": "chikyuu", "id": 285, "meanings": { "id": "dunia, bumi", "en": "world, earth" } }
+      {
+        "word": "球",
+        "furigana": "たま",
+        "romanji": "tama",
+        "id": 285,
+        "meanings": { "id": "bola, bola lampu", "en": "ball, light bulb" }
+      },
+      {
+        "word": "地球",
+        "furigana": "ちきゅう",
+        "romanji": "chikyuu",
+        "id": 285,
+        "meanings": { "id": "dunia, bumi", "en": "world, earth" }
+      }
     ]
   }
 ]
