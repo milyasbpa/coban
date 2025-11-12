@@ -56,7 +56,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
             {index}
           </span>
 
-          <div className="flex flex-col items-center space-y-1">
+          <div className="flex flex-col items-center justify-start space-y-1">
             {/* Kanji character display */}
             <div className={cn(
               "w-16 h-16 rounded-lg flex items-center justify-center border shadow-inner transition-colors",
@@ -76,7 +76,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
 
             {/* Kanji meaning */}
             {displayOptions.meaning && (
-              <div className="text-xs font-medium text-muted-foreground text-center">
+              <div className="text-xs font-medium text-muted-foreground text-center max-w-16">
                 {kanjiMeaning}
               </div>
             )}
