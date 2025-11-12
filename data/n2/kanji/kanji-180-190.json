@@ -4,8 +4,18 @@
     "character": "悩",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "なや", "romanji": "naya" }],
-      "on": [{ "furigana": "ノウ", "romanji": "nou" }]
+      "kun": [
+        {
+          "furigana": "なや",
+          "romanji": "naya"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ノウ",
+          "romanji": "nou"
+        }
+      ]
     },
     "meanings": {
       "id": "bingung, pusing, mempesona",
@@ -19,13 +29,18 @@
         "meanings": {
           "id": "bingung, pusing",
           "en": "to be troubled, to be confused"
-        }
+        },
+        "id": 1
       },
       {
         "word": "悩殺",
         "furigana": "のうさつ",
         "romanji": "nousatsu",
-        "meanings": { "id": "mempesona", "en": "charming, captivating" }
+        "meanings": {
+          "id": "mempesona",
+          "en": "charming, captivating"
+        },
+        "id": 2
       }
     ]
   },
@@ -35,15 +50,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      "on": [
+        {
+          "furigana": "コウ",
+          "romanji": "kou"
+        }
+      ]
     },
-    "meanings": { "id": "penerbangan", "en": "navigation, flight" },
+    "meanings": {
+      "id": "penerbangan",
+      "en": "navigation, flight"
+    },
     "examples": [
       {
         "word": "航空",
         "furigana": "こうくう",
         "romanji": "koukuu",
-        "meanings": { "id": "penerbangan", "en": "aviation, flight" }
+        "meanings": {
+          "id": "penerbangan",
+          "en": "aviation, flight"
+        },
+        "id": 1
       }
     ]
   },
@@ -52,8 +79,18 @@
     "character": "酌",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "く", "romanji": "ku" }],
-      "on": [{ "furigana": "シャク", "romanji": "shaku" }]
+      "kun": [
+        {
+          "furigana": "く",
+          "romanji": "ku"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シャク",
+          "romanji": "shaku"
+        }
+      ]
     },
     "meanings": {
       "id": "menimba, menyerok, menuangkan minuman keras",
@@ -64,7 +101,11 @@
         "word": "酌む",
         "furigana": "くむ",
         "romanji": "kumu",
-        "meanings": { "id": "menimba, menyerok", "en": "to ladle, to scoop" }
+        "meanings": {
+          "id": "menimba, menyerok",
+          "en": "to ladle, to scoop"
+        },
+        "id": 1
       },
       {
         "word": "お酌する",
@@ -73,7 +114,8 @@
         "meanings": {
           "id": "menuangkan minuman keras",
           "en": "to serve alcohol"
-        }
+        },
+        "id": 2
       }
     ]
   },
@@ -82,10 +124,21 @@
     "character": "修",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "おさ", "romanji": "osa" }],
+      "kun": [
+        {
+          "furigana": "おさ",
+          "romanji": "osa"
+        }
+      ],
       "on": [
-        { "furigana": "シュ", "romanji": "shu" },
-        { "furigana": "シュウ", "romanji": "shuu" }
+        {
+          "furigana": "シュ",
+          "romanji": "shu"
+        },
+        {
+          "furigana": "シュウ",
+          "romanji": "shuu"
+        }
       ]
     },
     "meanings": {
@@ -94,7 +147,7 @@
     },
     "examples": [
       {
-        "id": 197,
+        "id": 1,
         "word": "修まる",
         "furigana": "おさまる",
         "romanji": "osamaru",
@@ -107,13 +160,21 @@
         "word": "修する",
         "furigana": "しゅうする",
         "romanji": "shuu suru",
-        "meanings": { "id": "bertapa", "en": "to train, to discipline" }
+        "meanings": {
+          "id": "bertapa",
+          "en": "to train, to discipline"
+        },
+        "id": 2
       },
       {
         "word": "修理する",
         "furigana": "しゅうりする",
         "romanji": "shuuri suru",
-        "meanings": { "id": "mereparasi", "en": "to repair" }
+        "meanings": {
+          "id": "mereparasi",
+          "en": "to repair"
+        },
+        "id": 3
       }
     ]
   },
@@ -123,15 +184,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ハイ", "romanji": "hai" }]
+      "on": [
+        {
+          "furigana": "ハイ",
+          "romanji": "hai"
+        }
+      ]
     },
-    "meanings": { "id": "pemeran, aktor", "en": "actor, performer" },
+    "meanings": {
+      "id": "pemeran, aktor",
+      "en": "actor, performer"
+    },
     "examples": [
       {
         "word": "俳優",
         "furigana": "はいゆう",
         "romanji": "haiyuu",
-        "meanings": { "id": "pemeran, aktor", "en": "actor, performer" }
+        "meanings": {
+          "id": "pemeran, aktor",
+          "en": "actor, performer"
+        },
+        "id": 1
       }
     ]
   },
@@ -140,11 +213,25 @@
     "character": "従",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "したが", "romanji": "shitaga" }],
+      "kun": [
+        {
+          "furigana": "したが",
+          "romanji": "shitaga"
+        }
+      ],
       "on": [
-        { "furigana": "ジュウ", "romanji": "juu" },
-        { "furigana": "ショウ", "romanji": "shou" },
-        { "furigana": "ジュ", "romanji": "ju" }
+        {
+          "furigana": "ジュウ",
+          "romanji": "juu"
+        },
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        },
+        {
+          "furigana": "ジュ",
+          "romanji": "ju"
+        }
       ]
     },
     "meanings": {
@@ -156,16 +243,24 @@
         "word": "従う",
         "furigana": "したがう",
         "romanji": "shitagau",
-        "meanings": { "id": "mengikuti, mematuhi", "en": "to follow, to obey" }
+        "meanings": {
+          "id": "mengikuti, mematuhi",
+          "en": "to follow, to obey"
+        },
+        "id": 1
       },
       {
         "word": "従順する",
         "furigana": "じゅうじゅんする",
         "romanji": "juujun suru",
-        "meanings": { "id": "patuh, taat", "en": "to be obedient" }
+        "meanings": {
+          "id": "patuh, taat",
+          "en": "to be obedient"
+        },
+        "id": 2
       },
       {
-        "id": 198,
+        "id": 3,
         "word": "従容",
         "furigana": "しょうよう",
         "romanji": "shouyou",
@@ -178,7 +273,11 @@
         "word": "従三位",
         "furigana": "じゅさんみ",
         "romanji": "jusanmi",
-        "meanings": { "id": "urutan 3 terakhir", "en": "last three ranks" }
+        "meanings": {
+          "id": "urutan 3 terakhir",
+          "en": "last three ranks"
+        },
+        "id": 4
       }
     ]
   },
@@ -188,15 +287,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ジュン", "romanji": "jun" }]
+      "on": [
+        {
+          "furigana": "ジュン",
+          "romanji": "jun"
+        }
+      ]
     },
-    "meanings": { "id": "emas murni", "en": "pure gold" },
+    "meanings": {
+      "id": "emas murni",
+      "en": "pure gold"
+    },
     "examples": [
       {
         "word": "純金",
         "furigana": "じゅんきん",
         "romanji": "junkin",
-        "meanings": { "id": "emas murni", "en": "pure gold" }
+        "meanings": {
+          "id": "emas murni",
+          "en": "pure gold"
+        },
+        "id": 1
       }
     ]
   },
@@ -205,11 +316,25 @@
     "character": "納",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "おさ", "romanji": "osa" }],
+      "kun": [
+        {
+          "furigana": "おさ",
+          "romanji": "osa"
+        }
+      ],
       "on": [
-        { "furigana": "ノウ", "romanji": "nou" },
-        { "furigana": "ナン", "romanji": "nan" },
-        { "furigana": "ナットウ", "romanji": "nattou" }
+        {
+          "furigana": "ノウ",
+          "romanji": "nou"
+        },
+        {
+          "furigana": "ナン",
+          "romanji": "nan"
+        },
+        {
+          "furigana": "ナットウ",
+          "romanji": "nattou"
+        }
       ]
     },
     "meanings": {
@@ -221,25 +346,41 @@
         "word": "納める",
         "furigana": "おさめる",
         "romanji": "osameru",
-        "meanings": { "id": "membayar, menyimpan", "en": "to pay, to store" }
+        "meanings": {
+          "id": "membayar, menyimpan",
+          "en": "to pay, to store"
+        },
+        "id": 1
       },
       {
         "word": "納税",
         "furigana": "のうぜい",
         "romanji": "nouzei",
-        "meanings": { "id": "pembayaran pajak", "en": "tax payment" }
+        "meanings": {
+          "id": "pembayaran pajak",
+          "en": "tax payment"
+        },
+        "id": 2
       },
       {
         "word": "納屋",
         "furigana": "なや",
         "romanji": "naya",
-        "meanings": { "id": "gudang, lumbung", "en": "warehouse, barn" }
+        "meanings": {
+          "id": "gudang, lumbung",
+          "en": "warehouse, barn"
+        },
+        "id": 3
       },
       {
         "word": "納豆",
         "furigana": "なっとう",
         "romanji": "nattou",
-        "meanings": { "id": "kedelai fermentasi", "en": "fermented soybeans" }
+        "meanings": {
+          "id": "kedelai fermentasi",
+          "en": "fermented soybeans"
+        },
+        "id": 4
       },
       {
         "word": "出納",
@@ -248,7 +389,8 @@
         "meanings": {
           "id": "pemasukan & pengeluaran",
           "en": "income & expenditure"
-        }
+        },
+        "id": 5
       }
     ]
   },
@@ -257,8 +399,18 @@
     "character": "孫",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "まご", "romanji": "mago" }],
-      "on": [{ "furigana": "ソン", "romanji": "son" }]
+      "kun": [
+        {
+          "furigana": "まご",
+          "romanji": "mago"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ソン",
+          "romanji": "son"
+        }
+      ]
     },
     "meanings": {
       "id": "cucu, anak cucu, keturunan",
@@ -269,13 +421,21 @@
         "word": "孫",
         "furigana": "まご",
         "romanji": "mago",
-        "meanings": { "id": "cucu", "en": "grandchild" }
+        "meanings": {
+          "id": "cucu",
+          "en": "grandchild"
+        },
+        "id": 1
       },
       {
         "word": "子孫",
         "furigana": "しそん",
         "romanji": "shison",
-        "meanings": { "id": "anak cucu, keturunan", "en": "descendant" }
+        "meanings": {
+          "id": "anak cucu, keturunan",
+          "en": "descendant"
+        },
+        "id": 2
       }
     ]
   },
@@ -285,15 +445,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "チク", "romanji": "chiku" }]
+      "on": [
+        {
+          "furigana": "チク",
+          "romanji": "chiku"
+        }
+      ]
     },
-    "meanings": { "id": "peternakan", "en": "livestock, animal husbandry" },
+    "meanings": {
+      "id": "peternakan",
+      "en": "livestock, animal husbandry"
+    },
     "examples": [
       {
         "word": "畜産業",
         "furigana": "ちくさんぎょう",
         "romanji": "chikusangyou",
-        "meanings": { "id": "peternakan", "en": "animal husbandry" }
+        "meanings": {
+          "id": "peternakan",
+          "en": "animal husbandry"
+        },
+        "id": 1
       }
     ]
   },
@@ -303,15 +475,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "エン", "romanji": "en" }]
+      "on": [
+        {
+          "furigana": "エン",
+          "romanji": "en"
+        }
+      ]
     },
-    "meanings": { "id": "perjamuan", "en": "banquet, feast" },
+    "meanings": {
+      "id": "perjamuan",
+      "en": "banquet, feast"
+    },
     "examples": [
       {
         "word": "宴会",
         "furigana": "えんかい",
         "romanji": "enkai",
-        "meanings": { "id": "perjamuan", "en": "banquet, party" }
+        "meanings": {
+          "id": "perjamuan",
+          "en": "banquet, party"
+        },
+        "id": 1
       }
     ]
   }

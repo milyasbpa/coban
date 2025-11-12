@@ -4,8 +4,18 @@
     "character": "張",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "は", "romanji": "ha" }],
-      "on": [{ "furigana": "チョウ", "romanji": "chou" }]
+      "kun": [
+        {
+          "furigana": "は",
+          "romanji": "ha"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "チョウ",
+          "romanji": "chou"
+        }
+      ]
     },
     "meanings": {
       "id": "merentangkan, merasa tegang",
@@ -16,13 +26,21 @@
         "word": "張る",
         "furigana": "はる",
         "romanji": "haru",
-        "meanings": { "id": "merentangkan", "en": "to stretch" }
+        "meanings": {
+          "id": "merentangkan",
+          "en": "to stretch"
+        },
+        "id": 1
       },
       {
         "word": "緊張する",
         "furigana": "きんちょうする",
         "romanji": "kinchou suru",
-        "meanings": { "id": "merasa tegang", "en": "to feel tense" }
+        "meanings": {
+          "id": "merasa tegang",
+          "en": "to feel tense"
+        },
+        "id": 2
       }
     ]
   },
@@ -31,8 +49,18 @@
     "character": "粒",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "つぶ", "romanji": "tsubu" }],
-      "on": [{ "furigana": "リュウ", "romanji": "ryuu" }]
+      "kun": [
+        {
+          "furigana": "つぶ",
+          "romanji": "tsubu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "リュウ",
+          "romanji": "ryuu"
+        }
+      ]
     },
     "meanings": {
       "id": "tetesan air hujan, butiran halus",
@@ -43,13 +71,21 @@
         "word": "雨粒",
         "furigana": "あまつぶ",
         "romanji": "amatsubu",
-        "meanings": { "id": "tetesan air hujan", "en": "raindrop" }
+        "meanings": {
+          "id": "tetesan air hujan",
+          "en": "raindrop"
+        },
+        "id": 1
       },
       {
         "word": "粒子",
         "furigana": "りゅうし",
         "romanji": "ryuushi",
-        "meanings": { "id": "butiran halus", "en": "fine grain, particle" }
+        "meanings": {
+          "id": "butiran halus",
+          "en": "fine grain, particle"
+        },
+        "id": 2
       }
     ]
   },
@@ -58,10 +94,21 @@
     "character": "眼",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "まなこ", "romanji": "manako" }],
+      "kun": [
+        {
+          "furigana": "まなこ",
+          "romanji": "manako"
+        }
+      ],
       "on": [
-        { "furigana": "ガン", "romanji": "gan" },
-        { "furigana": "ゲン", "romanji": "gen" }
+        {
+          "furigana": "ガン",
+          "romanji": "gan"
+        },
+        {
+          "furigana": "ゲン",
+          "romanji": "gen"
+        }
       ]
     },
     "meanings": {
@@ -73,13 +120,21 @@
         "word": "眼",
         "furigana": "まなこ",
         "romanji": "manako",
-        "meanings": { "id": "mata", "en": "eye" }
+        "meanings": {
+          "id": "mata",
+          "en": "eye"
+        },
+        "id": 1
       },
       {
         "word": "眼球",
         "furigana": "がんきゅう",
         "romanji": "gankyuu",
-        "meanings": { "id": "bola mata", "en": "eyeball" }
+        "meanings": {
+          "id": "bola mata",
+          "en": "eyeball"
+        },
+        "id": 2
       },
       {
         "word": "慧眼",
@@ -88,7 +143,8 @@
         "meanings": {
           "id": "pandangan yg tajam",
           "en": "sharp vision, insight"
-        }
+        },
+        "id": 3
       }
     ]
   },
@@ -98,15 +154,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "シ", "romanji": "shi" }]
+      "on": [
+        {
+          "furigana": "シ",
+          "romanji": "shi"
+        }
+      ]
     },
-    "meanings": { "id": "sorotan mata, pandangan", "en": "gaze, view" },
+    "meanings": {
+      "id": "sorotan mata, pandangan",
+      "en": "gaze, view"
+    },
     "examples": [
       {
         "word": "視線",
         "furigana": "しせん",
         "romanji": "shisen",
-        "meanings": { "id": "sorotan mata, pandangan", "en": "gaze, view" }
+        "meanings": {
+          "id": "sorotan mata, pandangan",
+          "en": "gaze, view"
+        },
+        "id": 1
       }
     ]
   },
@@ -115,8 +183,18 @@
     "character": "患",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "わずら", "romanji": "wazura" }],
-      "on": [{ "furigana": "カン", "romanji": "kan" }]
+      "kun": [
+        {
+          "furigana": "わずら",
+          "romanji": "wazura"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "カン",
+          "romanji": "kan"
+        }
+      ]
     },
     "meanings": {
       "id": "menderita penyakit, pasien, penderita",
@@ -127,13 +205,21 @@
         "word": "患う",
         "furigana": "わずらう",
         "romanji": "wazurau",
-        "meanings": { "id": "menderita penyakit", "en": "to suffer illness" }
+        "meanings": {
+          "id": "menderita penyakit",
+          "en": "to suffer illness"
+        },
+        "id": 1
       },
       {
         "word": "患者",
         "furigana": "かんじゃ",
         "romanji": "kanja",
-        "meanings": { "id": "pasien, penderita", "en": "patient" }
+        "meanings": {
+          "id": "pasien, penderita",
+          "en": "patient"
+        },
+        "id": 2
       }
     ]
   },
@@ -142,22 +228,43 @@
     "character": "進",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "すす", "romanji": "susu" }],
-      "on": [{ "furigana": "シン", "romanji": "shin" }]
+      "kun": [
+        {
+          "furigana": "すす",
+          "romanji": "susu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シン",
+          "romanji": "shin"
+        }
+      ]
     },
-    "meanings": { "id": "maju, kemajuan", "en": "to advance, progress" },
+    "meanings": {
+      "id": "maju, kemajuan",
+      "en": "to advance, progress"
+    },
     "examples": [
       {
         "word": "進む",
         "furigana": "すすむ",
         "romanji": "susumu",
-        "meanings": { "id": "maju", "en": "to advance" }
+        "meanings": {
+          "id": "maju",
+          "en": "to advance"
+        },
+        "id": 1
       },
       {
         "word": "進歩",
         "furigana": "しんぽ",
         "romanji": "shinpo",
-        "meanings": { "id": "kemajuan", "en": "progress" }
+        "meanings": {
+          "id": "kemajuan",
+          "en": "progress"
+        },
+        "id": 2
       }
     ]
   },
@@ -166,8 +273,18 @@
     "character": "設",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "もう", "romanji": "mou" }],
-      "on": [{ "furigana": "セツ", "romanji": "setsu" }]
+      "kun": [
+        {
+          "furigana": "もう",
+          "romanji": "mou"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "セツ",
+          "romanji": "setsu"
+        }
+      ]
     },
     "meanings": {
       "id": "mempersiapkan, mendirikan, membentuk",
@@ -178,7 +295,11 @@
         "word": "設ける",
         "furigana": "もうける",
         "romanji": "moukeru",
-        "meanings": { "id": "mempersiapkan", "en": "to prepare" }
+        "meanings": {
+          "id": "mempersiapkan",
+          "en": "to prepare"
+        },
+        "id": 1
       },
       {
         "word": "設立",
@@ -187,7 +308,8 @@
         "meanings": {
           "id": "mendirikan, membentuk",
           "en": "to establish, to form"
-        }
+        },
+        "id": 2
       }
     ]
   },
@@ -196,8 +318,18 @@
     "character": "彩",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "いろど", "romanji": "irodo" }],
-      "on": [{ "furigana": "サイ", "romanji": "sai" }]
+      "kun": [
+        {
+          "furigana": "いろど",
+          "romanji": "irodo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "サイ",
+          "romanji": "sai"
+        }
+      ]
     },
     "meanings": {
       "id": "mewarnai, pewarnaan, berwarna",
@@ -208,13 +340,21 @@
         "word": "彩る",
         "furigana": "いろどる",
         "romanji": "irodoru",
-        "meanings": { "id": "mewarnai", "en": "to color" }
+        "meanings": {
+          "id": "mewarnai",
+          "en": "to color"
+        },
+        "id": 1
       },
       {
         "word": "彩色",
         "furigana": "さいしき",
         "romanji": "saishiki",
-        "meanings": { "id": "pewarnaan, berwarna", "en": "coloring, colored" }
+        "meanings": {
+          "id": "pewarnaan, berwarna",
+          "en": "coloring, colored"
+        },
+        "id": 2
       }
     ]
   },
@@ -223,8 +363,18 @@
     "character": "斜",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "なな", "romanji": "nana" }],
-      "on": [{ "furigana": "シャ", "romanji": "sha" }]
+      "kun": [
+        {
+          "furigana": "なな",
+          "romanji": "nana"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シャ",
+          "romanji": "sha"
+        }
+      ]
     },
     "meanings": {
       "id": "miring, lereng, bidang miring",
@@ -235,7 +385,11 @@
         "word": "斜め",
         "furigana": "ななめ",
         "romanji": "naname",
-        "meanings": { "id": "miring", "en": "slant, slope" }
+        "meanings": {
+          "id": "miring",
+          "en": "slant, slope"
+        },
+        "id": 1
       },
       {
         "word": "斜面",
@@ -244,7 +398,8 @@
         "meanings": {
           "id": "lereng, bidang miring",
           "en": "slope, inclined plane"
-        }
+        },
+        "id": 2
       }
     ]
   },
@@ -254,15 +409,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ビン", "romanji": "bin" }]
+      "on": [
+        {
+          "furigana": "ビン",
+          "romanji": "bin"
+        }
+      ]
     },
-    "meanings": { "id": "vas bunga", "en": "flower vase" },
+    "meanings": {
+      "id": "vas bunga",
+      "en": "flower vase"
+    },
     "examples": [
       {
         "word": "花瓶",
         "furigana": "かびん",
         "romanji": "kabin",
-        "meanings": { "id": "vas bunga", "en": "flower vase" }
+        "meanings": {
+          "id": "vas bunga",
+          "en": "flower vase"
+        },
+        "id": 1
       }
     ]
   },
@@ -272,12 +439,24 @@
     "strokes": 11,
     "readings": {
       "kun": [
-        { "furigana": "も", "romanji": "mo" },
-        { "furigana": "さか", "romanji": "saka" }
+        {
+          "furigana": "も",
+          "romanji": "mo"
+        },
+        {
+          "furigana": "さか",
+          "romanji": "saka"
+        }
       ],
       "on": [
-        { "furigana": "セイ", "romanji": "sei" },
-        { "furigana": "ジョウ", "romanji": "jou" }
+        {
+          "furigana": "セイ",
+          "romanji": "sei"
+        },
+        {
+          "furigana": "ジョウ",
+          "romanji": "jou"
+        }
       ]
     },
     "meanings": {
@@ -289,25 +468,41 @@
         "word": "盛る",
         "furigana": "もる",
         "romanji": "moru",
-        "meanings": { "id": "menghidangkan", "en": "to serve" }
+        "meanings": {
+          "id": "menghidangkan",
+          "en": "to serve"
+        },
+        "id": 1
       },
       {
         "word": "盛ん",
         "furigana": "さかん",
         "romanji": "sakan",
-        "meanings": { "id": "aktif, maju", "en": "active, prosperous" }
+        "meanings": {
+          "id": "aktif, maju",
+          "en": "active, prosperous"
+        },
+        "id": 2
       },
       {
         "word": "盛大",
         "furigana": "せいだい",
         "romanji": "seidai",
-        "meanings": { "id": "megah, besar-besaran", "en": "grand, magnificent" }
+        "meanings": {
+          "id": "megah, besar-besaran",
+          "en": "grand, magnificent"
+        },
+        "id": 3
       },
       {
         "word": "繁盛",
         "furigana": "はんじょう",
         "romanji": "hanjou",
-        "meanings": { "id": "kemakmuran", "en": "prosperity" }
+        "meanings": {
+          "id": "kemakmuran",
+          "en": "prosperity"
+        },
+        "id": 4
       }
     ]
   }

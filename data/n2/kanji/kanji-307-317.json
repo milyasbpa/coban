@@ -5,15 +5,27 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "チョ", "romanji": "cho" }]
+      "on": [
+        {
+          "furigana": "チョ",
+          "romanji": "cho"
+        }
+      ]
     },
-    "meanings": { "id": "tabungan", "en": "savings" },
+    "meanings": {
+      "id": "tabungan",
+      "en": "savings"
+    },
     "examples": [
       {
         "word": "貯金",
         "furigana": "ちょきん",
         "romanji": "chokin",
-        "meanings": { "id": "tabungan", "en": "savings" }
+        "meanings": {
+          "id": "tabungan",
+          "en": "savings"
+        },
+        "id": 1
       }
     ]
   },
@@ -22,8 +34,18 @@
     "character": "紫",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "むらさき", "romanji": "murasaki" }],
-      "on": [{ "furigana": "シ", "romanji": "shi" }]
+      "kun": [
+        {
+          "furigana": "むらさき",
+          "romanji": "murasaki"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シ",
+          "romanji": "shi"
+        }
+      ]
     },
     "meanings": {
       "id": "warna ungu, sinar ultra violet",
@@ -34,13 +56,21 @@
         "word": "紫色",
         "furigana": "むらさきいろ",
         "romanji": "murasakiiro",
-        "meanings": { "id": "warna ungu", "en": "purple" }
+        "meanings": {
+          "id": "warna ungu",
+          "en": "purple"
+        },
+        "id": 1
       },
       {
         "word": "紫外線",
         "furigana": "しがいせん",
         "romanji": "shigaisen",
-        "meanings": { "id": "sinar ultra violet", "en": "ultraviolet ray" }
+        "meanings": {
+          "id": "sinar ultra violet",
+          "en": "ultraviolet ray"
+        },
+        "id": 2
       }
     ]
   },
@@ -49,8 +79,18 @@
     "character": "統",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "す", "romanji": "su" }],
-      "on": [{ "furigana": "トウ", "romanji": "tou" }]
+      "kun": [
+        {
+          "furigana": "す",
+          "romanji": "su"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "トウ",
+          "romanji": "tou"
+        }
+      ]
     },
     "meanings": {
       "id": "mengendalikan, menyatu, seragam",
@@ -61,13 +101,21 @@
         "word": "統べる",
         "furigana": "すべる",
         "romanji": "suberu",
-        "meanings": { "id": "mengendalikan", "en": "to control" }
+        "meanings": {
+          "id": "mengendalikan",
+          "en": "to control"
+        },
+        "id": 1
       },
       {
         "word": "統一",
         "furigana": "とういつ",
         "romanji": "touitsu",
-        "meanings": { "id": "menyatu, seragam", "en": "unite, uniform" }
+        "meanings": {
+          "id": "menyatu, seragam",
+          "en": "unite, uniform"
+        },
+        "id": 2
       }
     ]
   },
@@ -78,8 +126,14 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "ハク", "romanji": "haku" },
-        { "furigana": "バク", "romanji": "baku" }
+        {
+          "furigana": "ハク",
+          "romanji": "haku"
+        },
+        {
+          "furigana": "バク",
+          "romanji": "baku"
+        }
       ]
     },
     "meanings": {
@@ -91,25 +145,41 @@
         "word": "博物館",
         "furigana": "はくぶつかん",
         "romanji": "hakubutsukan",
-        "meanings": { "id": "museum", "en": "museum" }
+        "meanings": {
+          "id": "museum",
+          "en": "museum"
+        },
+        "id": 1
       },
       {
         "word": "賭博",
         "furigana": "とばく",
         "romanji": "tobaku",
-        "meanings": { "id": "perjudian", "en": "gambling" }
+        "meanings": {
+          "id": "perjudian",
+          "en": "gambling"
+        },
+        "id": 2
       },
       {
         "word": "万博",
         "furigana": "ばんぱく",
         "romanji": "banpaku",
-        "meanings": { "id": "expo", "en": "expo" }
+        "meanings": {
+          "id": "expo",
+          "en": "expo"
+        },
+        "id": 3
       },
       {
         "word": "博士",
         "furigana": "はかせ",
         "romanji": "hakase",
-        "meanings": { "id": "gelar doktor", "en": "doctorate" }
+        "meanings": {
+          "id": "gelar doktor",
+          "en": "doctorate"
+        },
+        "id": 4
       }
     ]
   },
@@ -118,10 +188,21 @@
     "character": "幅",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "はば", "romanji": "haba" }],
+      "kun": [
+        {
+          "furigana": "はば",
+          "romanji": "haba"
+        }
+      ],
       "on": [
-        { "furigana": "フク", "romanji": "fuku" },
-        { "furigana": "ブク", "romanji": "buku" }
+        {
+          "furigana": "フク",
+          "romanji": "fuku"
+        },
+        {
+          "furigana": "ブク",
+          "romanji": "buku"
+        }
       ]
     },
     "meanings": {
@@ -133,19 +214,31 @@
         "word": "幅広い",
         "furigana": "はばひろい",
         "romanji": "habahiroi",
-        "meanings": { "id": "ukuran yang lebar", "en": "wide" }
+        "meanings": {
+          "id": "ukuran yang lebar",
+          "en": "wide"
+        },
+        "id": 1
       },
       {
         "word": "紙幅",
         "furigana": "しふく",
         "romanji": "shifuku",
-        "meanings": { "id": "ukuran kertas", "en": "paper size" }
+        "meanings": {
+          "id": "ukuran kertas",
+          "en": "paper size"
+        },
+        "id": 2
       },
       {
         "word": "全幅",
         "furigana": "ぜんぷく",
         "romanji": "zenpuku",
-        "meanings": { "id": "lebar keseluruhan", "en": "total width" }
+        "meanings": {
+          "id": "lebar keseluruhan",
+          "en": "total width"
+        },
+        "id": 3
       }
     ]
   },
@@ -155,15 +248,27 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ボウ", "romanji": "bou" }]
+      "on": [
+        {
+          "furigana": "ボウ",
+          "romanji": "bou"
+        }
+      ]
     },
-    "meanings": { "id": "topi", "en": "hat" },
+    "meanings": {
+      "id": "topi",
+      "en": "hat"
+    },
     "examples": [
       {
         "word": "帽子",
         "furigana": "ぼうし",
         "romanji": "boushi",
-        "meanings": { "id": "topi", "en": "hat" }
+        "meanings": {
+          "id": "topi",
+          "en": "hat"
+        },
+        "id": 1
       }
     ]
   },
@@ -174,8 +279,14 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "ゾウ", "romanji": "zou" },
-        { "furigana": "ショウ", "romanji": "shou" }
+        {
+          "furigana": "ゾウ",
+          "romanji": "zou"
+        },
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
       ]
     },
     "meanings": {
@@ -187,13 +298,21 @@
         "word": "象",
         "furigana": "ぞう",
         "romanji": "zou",
-        "meanings": { "id": "gajah", "en": "elephant" }
+        "meanings": {
+          "id": "gajah",
+          "en": "elephant"
+        },
+        "id": 1
       },
       {
         "word": "象徴",
         "furigana": "しょうちょう",
         "romanji": "shouchou",
-        "meanings": { "id": "simbol, lambang", "en": "symbol, emblem" }
+        "meanings": {
+          "id": "simbol, lambang",
+          "en": "symbol, emblem"
+        },
+        "id": 2
       }
     ]
   },
@@ -202,10 +321,21 @@
     "character": "街",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "まち", "romanji": "machi" }],
+      "kun": [
+        {
+          "furigana": "まち",
+          "romanji": "machi"
+        }
+      ],
       "on": [
-        { "furigana": "カイ", "romanji": "kai" },
-        { "furigana": "ガイ", "romanji": "gai" }
+        {
+          "furigana": "カイ",
+          "romanji": "kai"
+        },
+        {
+          "furigana": "ガイ",
+          "romanji": "gai"
+        }
       ]
     },
     "meanings": {
@@ -217,19 +347,31 @@
         "word": "街角",
         "furigana": "まちかど",
         "romanji": "machikado",
-        "meanings": { "id": "sudut kota", "en": "city corner" }
+        "meanings": {
+          "id": "sudut kota",
+          "en": "city corner"
+        },
+        "id": 1
       },
       {
         "word": "街道",
         "furigana": "かいどう",
         "romanji": "kaidou",
-        "meanings": { "id": "jalan raya", "en": "street, highway" }
+        "meanings": {
+          "id": "jalan raya",
+          "en": "street, highway"
+        },
+        "id": 2
       },
       {
         "word": "商店街",
         "furigana": "しょうてんがい",
         "romanji": "shoutengai",
-        "meanings": { "id": "pertokoan", "en": "shopping district" }
+        "meanings": {
+          "id": "pertokoan",
+          "en": "shopping district"
+        },
+        "id": 3
       }
     ]
   },
@@ -238,8 +380,18 @@
     "character": "寒",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "さむ", "romanji": "samu" }],
-      "on": [{ "furigana": "カン", "romanji": "kan" }]
+      "kun": [
+        {
+          "furigana": "さむ",
+          "romanji": "samu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "カン",
+          "romanji": "kan"
+        }
+      ]
     },
     "meanings": {
       "id": "dingin, udara dingin & panas",
@@ -250,13 +402,21 @@
         "word": "寒い",
         "furigana": "さむい",
         "romanji": "samui",
-        "meanings": { "id": "dingin", "en": "cold" }
+        "meanings": {
+          "id": "dingin",
+          "en": "cold"
+        },
+        "id": 1
       },
       {
         "word": "寒暑",
         "furigana": "かんしょ",
         "romanji": "kansho",
-        "meanings": { "id": "udara dingin & panas", "en": "cold & hot air" }
+        "meanings": {
+          "id": "udara dingin & panas",
+          "en": "cold & hot air"
+        },
+        "id": 2
       }
     ]
   },
@@ -265,16 +425,28 @@
     "character": "嵐",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "あらし", "romanji": "arashi" }],
+      "kun": [
+        {
+          "furigana": "あらし",
+          "romanji": "arashi"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "topan, angin ribut", "en": "storm, gale" },
+    "meanings": {
+      "id": "topan, angin ribut",
+      "en": "storm, gale"
+    },
     "examples": [
       {
         "word": "嵐",
         "furigana": "あらし",
         "romanji": "arashi",
-        "meanings": { "id": "topan, angin ribut", "en": "storm, gale" }
+        "meanings": {
+          "id": "topan, angin ribut",
+          "en": "storm, gale"
+        },
+        "id": 1
       }
     ]
   },
@@ -283,8 +455,18 @@
     "character": "雇",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "やと", "romanji": "yato" }],
-      "on": [{ "furigana": "コ", "romanji": "ko" }]
+      "kun": [
+        {
+          "furigana": "やと",
+          "romanji": "yato"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "コ",
+          "romanji": "ko"
+        }
+      ]
     },
     "meanings": {
       "id": "mempekerjakan, hal mempekerjakan",
@@ -295,13 +477,21 @@
         "word": "雇う",
         "furigana": "やとう",
         "romanji": "yatou",
-        "meanings": { "id": "mempekerjakan", "en": "to employ" }
+        "meanings": {
+          "id": "mempekerjakan",
+          "en": "to employ"
+        },
+        "id": 1
       },
       {
         "word": "雇用",
         "furigana": "こよう",
         "romanji": "koyou",
-        "meanings": { "id": "hal mempekerjakan", "en": "employment" }
+        "meanings": {
+          "id": "hal mempekerjakan",
+          "en": "employment"
+        },
+        "id": 2
       }
     ]
   }

@@ -5,7 +5,12 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "シ", "romanji": "shi" }]
+      "on": [
+        {
+          "furigana": "シ",
+          "romanji": "shi"
+        }
+      ]
     },
     "meanings": {
       "id": "kata benda",
@@ -16,8 +21,11 @@
         "word": "名詞",
         "furigana": "めいし",
         "romanji": "meishi",
-        "id": 294,
-        "meanings": { "id": "kata benda", "en": "noun" }
+        "id": 1,
+        "meanings": {
+          "id": "kata benda",
+          "en": "noun"
+        }
       }
     ]
   },
@@ -27,7 +35,12 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ヒョウ", "romanji": "hyou" }]
+      "on": [
+        {
+          "furigana": "ヒョウ",
+          "romanji": "hyou"
+        }
+      ]
     },
     "meanings": {
       "id": "penilaian, evaluasi",
@@ -38,8 +51,11 @@
         "word": "評価",
         "furigana": "ひょうか",
         "romanji": "hyouka",
-        "id": 295,
-        "meanings": { "id": "penilaian, evaluasi", "en": "evaluation, review" }
+        "id": 1,
+        "meanings": {
+          "id": "penilaian, evaluasi",
+          "en": "evaluation, review"
+        }
       }
     ]
   },
@@ -48,8 +64,18 @@
     "character": "診",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "み", "romanji": "mi" }],
-      "on": [{ "furigana": "シン", "romanji": "shin" }]
+      "kun": [
+        {
+          "furigana": "み",
+          "romanji": "mi"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シン",
+          "romanji": "shin"
+        }
+      ]
     },
     "meanings": {
       "id": "mendiagnosis, diagnosis",
@@ -60,15 +86,21 @@
         "word": "診る",
         "furigana": "みる",
         "romanji": "miru",
-        "id": 296,
-        "meanings": { "id": "mendiagnosis", "en": "to diagnose" }
+        "id": 1,
+        "meanings": {
+          "id": "mendiagnosis",
+          "en": "to diagnose"
+        }
       },
       {
         "word": "診断",
         "furigana": "しんだん",
         "romanji": "shindan",
-        "id": 296,
-        "meanings": { "id": "diagnosis", "en": "diagnosis" }
+        "id": 2,
+        "meanings": {
+          "id": "diagnosis",
+          "en": "diagnosis"
+        }
       }
     ]
   },
@@ -78,7 +110,12 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      "on": [
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
+      ]
     },
     "meanings": {
       "id": "bukti",
@@ -89,8 +126,11 @@
         "word": "証拠",
         "furigana": "しょうこ",
         "romanji": "shouko",
-        "id": 297,
-        "meanings": { "id": "bukti", "en": "evidence" }
+        "id": 1,
+        "meanings": {
+          "id": "bukti",
+          "en": "evidence"
+        }
       }
     ]
   },
@@ -99,8 +139,18 @@
     "character": "湿",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "しめ", "romanji": "shime" }],
-      "on": [{ "furigana": "シツ", "romanji": "shitsu" }]
+      "kun": [
+        {
+          "furigana": "しめ",
+          "romanji": "shime"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シツ",
+          "romanji": "shitsu"
+        }
+      ]
     },
     "meanings": {
       "id": "menjadi basah/lembab, derajat kelembaban, kelembaban udara",
@@ -111,22 +161,31 @@
         "word": "湿る",
         "furigana": "しめる",
         "romanji": "shimeru",
-        "id": 298,
-        "meanings": { "id": "menjadi basah/lembab", "en": "to get wet/damp" }
+        "id": 1,
+        "meanings": {
+          "id": "menjadi basah/lembab",
+          "en": "to get wet/damp"
+        }
       },
       {
         "word": "湿度",
         "furigana": "しつど",
         "romanji": "shitsudo",
-        "id": 298,
-        "meanings": { "id": "derajat kelembaban", "en": "humidity level" }
+        "id": 2,
+        "meanings": {
+          "id": "derajat kelembaban",
+          "en": "humidity level"
+        }
       },
       {
         "word": "湿気",
         "furigana": "しっけ",
         "romanji": "shikke",
-        "id": 298,
-        "meanings": { "id": "kelembaban udara", "en": "air moisture" }
+        "id": 3,
+        "meanings": {
+          "id": "kelembaban udara",
+          "en": "air moisture"
+        }
       }
     ]
   },
@@ -135,8 +194,18 @@
     "character": "温",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "あたた", "romanji": "atata" }],
-      "on": [{ "furigana": "オン", "romanji": "on" }]
+      "kun": [
+        {
+          "furigana": "あたた",
+          "romanji": "atata"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "オン",
+          "romanji": "on"
+        }
+      ]
     },
     "meanings": {
       "id": "(benda) hangat, sumber air panas",
@@ -147,15 +216,21 @@
         "word": "温泉",
         "furigana": "おんせん",
         "romanji": "onsen",
-        "id": 299,
-        "meanings": { "id": "sumber air panas", "en": "hot spring" }
+        "id": 1,
+        "meanings": {
+          "id": "sumber air panas",
+          "en": "hot spring"
+        }
       },
       {
         "word": "温かい",
         "furigana": "あたたかい",
         "romanji": "atatakai",
-        "id": 299,
-        "meanings": { "id": "(benda) hangat", "en": "warm (object)" }
+        "id": 2,
+        "meanings": {
+          "id": "(benda) hangat",
+          "en": "warm (object)"
+        }
       }
     ]
   },
@@ -165,7 +240,12 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ワン", "romanji": "wan" }]
+      "on": [
+        {
+          "furigana": "ワン",
+          "romanji": "wan"
+        }
+      ]
     },
     "meanings": {
       "id": "teluk Jakarta",
@@ -176,8 +256,11 @@
         "word": "ジャカルタ湾",
         "furigana": "ジャカルタわん",
         "romanji": "jakaruta wan",
-        "id": 300,
-        "meanings": { "id": "teluk Jakarta", "en": "Jakarta bay" }
+        "id": 1,
+        "meanings": {
+          "id": "teluk Jakarta",
+          "en": "Jakarta bay"
+        }
       }
     ]
   },
@@ -186,8 +269,18 @@
     "character": "測",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "はか", "romanji": "haka" }],
-      "on": [{ "furigana": "ソク", "romanji": "soku" }]
+      "kun": [
+        {
+          "furigana": "はか",
+          "romanji": "haka"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ソク",
+          "romanji": "soku"
+        }
+      ]
     },
     "meanings": {
       "id": "mengukur, survei, pemeriksaan",
@@ -198,15 +291,21 @@
         "word": "測る",
         "furigana": "はかる",
         "romanji": "hakaru",
-        "id": 301,
-        "meanings": { "id": "mengukur", "en": "to measure" }
+        "id": 1,
+        "meanings": {
+          "id": "mengukur",
+          "en": "to measure"
+        }
       },
       {
         "word": "測定",
         "furigana": "そくてい",
         "romanji": "sokutei",
-        "id": 301,
-        "meanings": { "id": "survei, pemeriksaan", "en": "survey, examination" }
+        "id": 2,
+        "meanings": {
+          "id": "survei, pemeriksaan",
+          "en": "survey, examination"
+        }
       }
     ]
   },
@@ -215,8 +314,18 @@
     "character": "敬",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "うやま", "romanji": "uyama" }],
-      "on": [{ "furigana": "ケイ", "romanji": "kei" }]
+      "kun": [
+        {
+          "furigana": "うやま",
+          "romanji": "uyama"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケイ",
+          "romanji": "kei"
+        }
+      ]
     },
     "meanings": {
       "id": "menghormati, bentuk bahasa hormat",
@@ -227,15 +336,21 @@
         "word": "敬う",
         "furigana": "うやまう",
         "romanji": "uyamau",
-        "id": 302,
-        "meanings": { "id": "menghormati", "en": "to respect" }
+        "id": 1,
+        "meanings": {
+          "id": "menghormati",
+          "en": "to respect"
+        }
       },
       {
         "word": "敬語",
         "furigana": "けいご",
         "romanji": "keigo",
-        "id": 302,
-        "meanings": { "id": "bentuk bahasa hormat", "en": "honorific form" }
+        "id": 2,
+        "meanings": {
+          "id": "bentuk bahasa hormat",
+          "en": "honorific form"
+        }
       }
     ]
   },
@@ -244,8 +359,18 @@
     "character": "善",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "よ", "romanji": "yo" }],
-      "on": [{ "furigana": "ゼン", "romanji": "zen" }]
+      "kun": [
+        {
+          "furigana": "よ",
+          "romanji": "yo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ゼン",
+          "romanji": "zen"
+        }
+      ]
     },
     "meanings": {
       "id": "bagus, baik, maksud yang baik",
@@ -256,15 +381,21 @@
         "word": "善い",
         "furigana": "よい",
         "romanji": "yoi",
-        "id": 303,
-        "meanings": { "id": "bagus, baik", "en": "good" }
+        "id": 1,
+        "meanings": {
+          "id": "bagus, baik",
+          "en": "good"
+        }
       },
       {
         "word": "善意",
         "furigana": "ぜんい",
         "romanji": "zen'i",
-        "id": 303,
-        "meanings": { "id": "maksud yang baik", "en": "good intention" }
+        "id": 2,
+        "meanings": {
+          "id": "maksud yang baik",
+          "en": "good intention"
+        }
       }
     ]
   },
@@ -274,10 +405,21 @@
     "strokes": 12,
     "readings": {
       "kun": [
-        { "furigana": "とうと", "romanji": "touto" },
-        { "furigana": "たっと", "romanji": "tatto" }
+        {
+          "furigana": "とうと",
+          "romanji": "touto"
+        },
+        {
+          "furigana": "たっと",
+          "romanji": "tatto"
+        }
       ],
-      "on": [{ "furigana": "ソン", "romanji": "son" }]
+      "on": [
+        {
+          "furigana": "ソン",
+          "romanji": "son"
+        }
+      ]
     },
     "meanings": {
       "id": "mulia, agung, luhur, menghormati",
@@ -288,14 +430,17 @@
         "word": "尊い",
         "furigana": "とうとい",
         "romanji": "toutoi",
-        "id": 304,
-        "meanings": { "id": "mulia, agung, luhur", "en": "noble, exalted" }
+        "id": 1,
+        "meanings": {
+          "id": "mulia, agung, luhur",
+          "en": "noble, exalted"
+        }
       },
       {
         "word": "尊ぶ",
         "furigana": "たっとぶ",
         "romanji": "tatobu",
-        "id": 304,
+        "id": 2,
         "meanings": {
           "id": "mulia, agung, luhur",
           "en": "to respect, to honor"
@@ -305,8 +450,11 @@
         "word": "尊重",
         "furigana": "そんちょう",
         "romanji": "sonchou",
-        "id": 304,
-        "meanings": { "id": "menghormati", "en": "to respect" }
+        "id": 3,
+        "meanings": {
+          "id": "menghormati",
+          "en": "to respect"
+        }
       }
     ]
   },
@@ -316,10 +464,21 @@
     "strokes": 12,
     "readings": {
       "kun": [
-        { "furigana": "たっと", "romanji": "tatto" },
-        { "furigana": "とうと", "romanji": "touto" }
+        {
+          "furigana": "たっと",
+          "romanji": "tatto"
+        },
+        {
+          "furigana": "とうと",
+          "romanji": "touto"
+        }
       ],
-      "on": [{ "furigana": "キ", "romanji": "ki" }]
+      "on": [
+        {
+          "furigana": "キ",
+          "romanji": "ki"
+        }
+      ]
     },
     "meanings": {
       "id": "bangsawan, ningrat, berharga",
@@ -327,7 +486,7 @@
     },
     "examples": [
       {
-        "id": 224,
+        "id": 1,
         "word": "貴い",
         "furigana": "たっとい",
         "romanji": "tattoi",
@@ -340,15 +499,21 @@
         "word": "貴い",
         "furigana": "とうとい",
         "romanji": "toutoi",
-        "id": 305,
-        "meanings": { "id": "bangsawan, ningrat", "en": "noble, aristocrat" }
+        "id": 2,
+        "meanings": {
+          "id": "bangsawan, ningrat",
+          "en": "noble, aristocrat"
+        }
       },
       {
         "word": "貴重",
         "furigana": "きちょう",
         "romanji": "kichou",
-        "id": 305,
-        "meanings": { "id": "berharga", "en": "valuable" }
+        "id": 3,
+        "meanings": {
+          "id": "berharga",
+          "en": "valuable"
+        }
       }
     ]
   },
@@ -358,7 +523,12 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ジュン", "romanji": "jun" }]
+      "on": [
+        {
+          "furigana": "ジュン",
+          "romanji": "jun"
+        }
+      ]
     },
     "meanings": {
       "id": "urutan",
@@ -369,8 +539,11 @@
         "word": "順番",
         "furigana": "じゅんばん",
         "romanji": "junban",
-        "id": 306,
-        "meanings": { "id": "urutan", "en": "order, sequence" }
+        "id": 1,
+        "meanings": {
+          "id": "urutan",
+          "en": "order, sequence"
+        }
       }
     ]
   }

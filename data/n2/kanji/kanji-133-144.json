@@ -5,15 +5,27 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ソク", "romanji": "soku" }]
+      "on": [
+        {
+          "furigana": "ソク",
+          "romanji": "soku"
+        }
+      ]
     },
-    "meanings": { "id": "peraturan", "en": "rule, regulation" },
+    "meanings": {
+      "id": "peraturan",
+      "en": "rule, regulation"
+    },
     "examples": [
       {
         "word": "規則",
         "furigana": "きそく",
         "romanji": "kisoku",
-        "meanings": { "id": "peraturan", "en": "rule, regulation" }
+        "meanings": {
+          "id": "peraturan",
+          "en": "rule, regulation"
+        },
+        "id": 1
       }
     ]
   },
@@ -23,15 +35,27 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "イ", "romanji": "i" }]
+      "on": [
+        {
+          "furigana": "イ",
+          "romanji": "i"
+        }
+      ]
     },
-    "meanings": { "id": "lambung", "en": "stomach" },
+    "meanings": {
+      "id": "lambung",
+      "en": "stomach"
+    },
     "examples": [
       {
         "word": "胃袋",
         "furigana": "いぶくろ",
         "romanji": "ibukuro",
-        "meanings": { "id": "lambung", "en": "stomach" }
+        "meanings": {
+          "id": "lambung",
+          "en": "stomach"
+        },
+        "id": 1
       }
     ]
   },
@@ -40,10 +64,23 @@
     "character": "勇",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "いさ", "romanji": "isa" }],
-      "on": [{ "furigana": "ユウ", "romanji": "yuu" }]
+      "kun": [
+        {
+          "furigana": "いさ",
+          "romanji": "isa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ユウ",
+          "romanji": "yuu"
+        }
+      ]
     },
-    "meanings": { "id": "bergebu-gebu, keberanian", "en": "courage, bravery" },
+    "meanings": {
+      "id": "bergebu-gebu, keberanian",
+      "en": "courage, bravery"
+    },
     "examples": [
       {
         "word": "勇む",
@@ -52,13 +89,18 @@
         "meanings": {
           "id": "bergebu-gebu",
           "en": "to be spirited, to be brave"
-        }
+        },
+        "id": 1
       },
       {
         "word": "勇気",
         "furigana": "ゆうき",
         "romanji": "yuuki",
-        "meanings": { "id": "keberanian", "en": "courage, bravery" }
+        "meanings": {
+          "id": "keberanian",
+          "en": "courage, bravery"
+        },
+        "id": 2
       }
     ]
   },
@@ -68,10 +110,21 @@
     "strokes": 9,
     "readings": {
       "kun": [
-        { "furigana": "さか", "romanji": "saka" },
-        { "furigana": "は", "romanji": "ha" }
+        {
+          "furigana": "さか",
+          "romanji": "saka"
+        },
+        {
+          "furigana": "は",
+          "romanji": "ha"
+        }
       ],
-      "on": [{ "furigana": "エイ", "romanji": "ei" }]
+      "on": [
+        {
+          "furigana": "エイ",
+          "romanji": "ei"
+        }
+      ]
     },
     "meanings": {
       "id": "makmur, maju, berkilau, cemerlang, gizi, nutrisi",
@@ -82,7 +135,11 @@
         "word": "栄える",
         "furigana": "さかえる",
         "romanji": "sakaeru",
-        "meanings": { "id": "makmur, maju", "en": "to prosper, to flourish" }
+        "meanings": {
+          "id": "makmur, maju",
+          "en": "to prosper, to flourish"
+        },
+        "id": 1
       },
       {
         "word": "栄える",
@@ -91,13 +148,18 @@
         "meanings": {
           "id": "berkilau, cemerlang",
           "en": "to shine, to be brilliant"
-        }
+        },
+        "id": 2
       },
       {
         "word": "栄養",
         "furigana": "えいよう",
         "romanji": "eiyou",
-        "meanings": { "id": "gizi, nutrisi", "en": "nutrition" }
+        "meanings": {
+          "id": "gizi, nutrisi",
+          "en": "nutrition"
+        },
+        "id": 3
       }
     ]
   },
@@ -106,10 +168,18 @@
     "character": "茨",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "いばら", "romanji": "ibara" }],
+      "kun": [
+        {
+          "furigana": "いばら",
+          "romanji": "ibara"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "(nama tempat) Ibaraki", "en": "Ibaraki (place name)" },
+    "meanings": {
+      "id": "(nama tempat) Ibaraki",
+      "en": "Ibaraki (place name)"
+    },
     "examples": [
       {
         "word": "茨城",
@@ -118,7 +188,8 @@
         "meanings": {
           "id": "(nama tempat) Ibaraki",
           "en": "Ibaraki (place name)"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -128,10 +199,21 @@
     "strokes": 9,
     "readings": {
       "kun": [
-        { "furigana": "あ", "romanji": "a" },
-        { "furigana": "あら", "romanji": "ara" }
+        {
+          "furigana": "あ",
+          "romanji": "a"
+        },
+        {
+          "furigana": "あら",
+          "romanji": "ara"
+        }
       ],
-      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      "on": [
+        {
+          "furigana": "コウ",
+          "romanji": "kou"
+        }
+      ]
     },
     "meanings": {
       "id": "bergelombang, kasar, keras, benteng terbengkalai",
@@ -142,19 +224,31 @@
         "word": "荒れる",
         "furigana": "あれる",
         "romanji": "areru",
-        "meanings": { "id": "bergelombang", "en": "to be stormy, to be rough" }
+        "meanings": {
+          "id": "bergelombang",
+          "en": "to be stormy, to be rough"
+        },
+        "id": 1
       },
       {
         "word": "荒い",
         "furigana": "あらい",
         "romanji": "arai",
-        "meanings": { "id": "kasar, keras", "en": "rough, harsh" }
+        "meanings": {
+          "id": "kasar, keras",
+          "en": "rough, harsh"
+        },
+        "id": 2
       },
       {
         "word": "荒城",
         "furigana": "こうじょう",
         "romanji": "koujou",
-        "meanings": { "id": "benteng terbengkalai", "en": "abandoned castle" }
+        "meanings": {
+          "id": "benteng terbengkalai",
+          "en": "abandoned castle"
+        },
+        "id": 3
       }
     ]
   },
@@ -164,15 +258,27 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
+      "on": [
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
+      ]
     },
-    "meanings": { "id": "vila, bungalo", "en": "villa, bungalow" },
+    "meanings": {
+      "id": "vila, bungalo",
+      "en": "villa, bungalow"
+    },
     "examples": [
       {
         "word": "別荘",
         "furigana": "べっそう",
         "romanji": "bessou",
-        "meanings": { "id": "vila, bungalo", "en": "villa, bungalow" }
+        "meanings": {
+          "id": "vila, bungalo",
+          "en": "villa, bungalow"
+        },
+        "id": 1
       }
     ]
   },
@@ -182,10 +288,21 @@
     "strokes": 9,
     "readings": {
       "kun": [
-        { "furigana": "せま", "romanji": "sema" },
-        { "furigana": "せば", "romanji": "seba" }
+        {
+          "furigana": "せま",
+          "romanji": "sema"
+        },
+        {
+          "furigana": "せば",
+          "romanji": "seba"
+        }
       ],
-      "on": [{ "furigana": "キョウ", "romanji": "kyou" }]
+      "on": [
+        {
+          "furigana": "キョウ",
+          "romanji": "kyou"
+        }
+      ]
     },
     "meanings": {
       "id": "mempersempit, kepicikan",
@@ -193,7 +310,7 @@
     },
     "examples": [
       {
-        "id": 192,
+        "id": 1,
         "word": "狭い",
         "furigana": "せまい",
         "romanji": "semai",
@@ -206,13 +323,21 @@
         "word": "狭める",
         "furigana": "せばめる",
         "romanji": "sebameru",
-        "meanings": { "id": "mempersempit", "en": "to narrow, to constrict" }
+        "meanings": {
+          "id": "mempersempit",
+          "en": "to narrow, to constrict"
+        },
+        "id": 2
       },
       {
         "word": "狭量",
         "furigana": "きょうりょう",
         "romanji": "kyouryou",
-        "meanings": { "id": "kepicikan", "en": "narrow-mindedness" }
+        "meanings": {
+          "id": "kepicikan",
+          "en": "narrow-mindedness"
+        },
+        "id": 3
       }
     ]
   },
@@ -221,8 +346,18 @@
     "character": "独",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "ひと", "romanji": "hito" }],
-      "on": [{ "furigana": "ドク", "romanji": "doku" }]
+      "kun": [
+        {
+          "furigana": "ひと",
+          "romanji": "hito"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ドク",
+          "romanji": "doku"
+        }
+      ]
     },
     "meanings": {
       "id": "bicara sendiri, merdeka, mandiri",
@@ -233,13 +368,21 @@
         "word": "独り言",
         "furigana": "ひとりごと",
         "romanji": "hitorigoto",
-        "meanings": { "id": "bicara sendiri", "en": "talking to oneself" }
+        "meanings": {
+          "id": "bicara sendiri",
+          "en": "talking to oneself"
+        },
+        "id": 1
       },
       {
         "word": "独立",
         "furigana": "どくりつ",
         "romanji": "dokuritsu",
-        "meanings": { "id": "merdeka, mandiri", "en": "independence" }
+        "meanings": {
+          "id": "merdeka, mandiri",
+          "en": "independence"
+        },
+        "id": 2
       }
     ]
   },
@@ -248,8 +391,18 @@
     "character": "枯",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "か", "romanji": "ka" }],
-      "on": [{ "furigana": "コ", "romanji": "ko" }]
+      "kun": [
+        {
+          "furigana": "か",
+          "romanji": "ka"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "コ",
+          "romanji": "ko"
+        }
+      ]
     },
     "meanings": {
       "id": "layu, menguning, mati layu",
@@ -263,13 +416,18 @@
         "meanings": {
           "id": "layu, menguning",
           "en": "to wither, to turn yellow"
-        }
+        },
+        "id": 1
       },
       {
         "word": "枯死する",
         "furigana": "こしする",
         "romanji": "koshisuru",
-        "meanings": { "id": "mati layu", "en": "to die withered" }
+        "meanings": {
+          "id": "mati layu",
+          "en": "to die withered"
+        },
+        "id": 2
       }
     ]
   },
@@ -279,10 +437,21 @@
     "strokes": 9,
     "readings": {
       "kun": [
-        { "furigana": "がら", "romanji": "gara" },
-        { "furigana": "え", "romanji": "e" }
+        {
+          "furigana": "がら",
+          "romanji": "gara"
+        },
+        {
+          "furigana": "え",
+          "romanji": "e"
+        }
       ],
-      "on": [{ "furigana": "ヘイ", "romanji": "hei" }]
+      "on": [
+        {
+          "furigana": "ヘイ",
+          "romanji": "hei"
+        }
+      ]
     },
     "meanings": {
       "id": "motif bunga, tangkai, sombong, angkuh",
@@ -293,19 +462,31 @@
         "word": "花柄",
         "furigana": "はながら",
         "romanji": "hanagara",
-        "meanings": { "id": "motif bunga", "en": "flower pattern" }
+        "meanings": {
+          "id": "motif bunga",
+          "en": "flower pattern"
+        },
+        "id": 1
       },
       {
         "word": "長柄",
         "furigana": "ながえ",
         "romanji": "nagae",
-        "meanings": { "id": "tangkai", "en": "long stem" }
+        "meanings": {
+          "id": "tangkai",
+          "en": "long stem"
+        },
+        "id": 2
       },
       {
         "word": "横柄",
         "furigana": "おうへい",
         "romanji": "ouhei",
-        "meanings": { "id": "sombong, angkuh", "en": "arrogant, haughty" }
+        "meanings": {
+          "id": "sombong, angkuh",
+          "en": "arrogant, haughty"
+        },
+        "id": 3
       }
     ]
   },
@@ -314,10 +495,18 @@
     "character": "栃",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "とち", "romanji": "tochi" }],
+      "kun": [
+        {
+          "furigana": "とち",
+          "romanji": "tochi"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "(nama tempat) Tochigi", "en": "Tochigi (place name)" },
+    "meanings": {
+      "id": "(nama tempat) Tochigi",
+      "en": "Tochigi (place name)"
+    },
     "examples": [
       {
         "word": "栃木",
@@ -326,7 +515,8 @@
         "meanings": {
           "id": "(nama tempat) Tochigi",
           "en": "Tochigi (place name)"
-        }
+        },
+        "id": 1
       }
     ]
   }

@@ -4,8 +4,18 @@
     "character": "兼",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "か", "romanji": "ka" }],
-      "on": [{ "furigana": "ケン", "romanji": "ken" }]
+      "kun": [
+        {
+          "furigana": "か",
+          "romanji": "ka"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケン",
+          "romanji": "ken"
+        }
+      ]
     },
     "meanings": {
       "id": "mustahil, pekerjaan sampingan",
@@ -16,13 +26,21 @@
         "word": "兼ねる",
         "furigana": "かねる",
         "romanji": "kaneru",
-        "meanings": { "id": "mustahil", "en": "impossible" }
+        "meanings": {
+          "id": "mustahil",
+          "en": "impossible"
+        },
+        "id": 1
       },
       {
         "word": "兼業",
         "furigana": "けんぎょう",
         "romanji": "kengyou",
-        "meanings": { "id": "pekerjaan sampingan", "en": "side job" }
+        "meanings": {
+          "id": "pekerjaan sampingan",
+          "en": "side job"
+        },
+        "id": 2
       }
     ]
   },
@@ -32,15 +50,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "トウ", "romanji": "tou" }]
+      "on": [
+        {
+          "furigana": "トウ",
+          "romanji": "tou"
+        }
+      ]
     },
-    "meanings": { "id": "anggota partai", "en": "party member" },
+    "meanings": {
+      "id": "anggota partai",
+      "en": "party member"
+    },
     "examples": [
       {
         "word": "党員",
         "furigana": "とういん",
         "romanji": "touin",
-        "meanings": { "id": "anggota partai", "en": "party member" }
+        "meanings": {
+          "id": "anggota partai",
+          "en": "party member"
+        },
+        "id": 1
       }
     ]
   },
@@ -49,8 +79,18 @@
     "character": "軒",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "のき", "romanji": "noki" }],
-      "on": [{ "furigana": "ケン", "romanji": "ken" }]
+      "kun": [
+        {
+          "furigana": "のき",
+          "romanji": "noki"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケン",
+          "romanji": "ken"
+        }
+      ]
     },
     "meanings": {
       "id": "di bawah atap emperan rumah, 1 bangunan rumah",
@@ -64,13 +104,18 @@
         "meanings": {
           "id": "di bawah atap emperan rumah",
           "en": "under the eaves"
-        }
+        },
+        "id": 1
       },
       {
         "word": "一軒屋",
         "furigana": "いっけんや",
         "romanji": "ikkenya",
-        "meanings": { "id": "1 bangunan rumah", "en": "one building" }
+        "meanings": {
+          "id": "1 bangunan rumah",
+          "en": "one building"
+        },
+        "id": 2
       }
     ]
   },
@@ -79,8 +124,18 @@
     "character": "致",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "いた", "romanji": "ita" }],
-      "on": [{ "furigana": "チ", "romanji": "chi" }]
+      "kun": [
+        {
+          "furigana": "いた",
+          "romanji": "ita"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "チ",
+          "romanji": "chi"
+        }
+      ]
     },
     "meanings": {
       "id": "melakukan, berbuat, fatal, mematikan",
@@ -91,13 +146,21 @@
         "word": "致す",
         "furigana": "いたす",
         "romanji": "itasu",
-        "meanings": { "id": "melakukan, berbuat", "en": "to do, to perform" }
+        "meanings": {
+          "id": "melakukan, berbuat",
+          "en": "to do, to perform"
+        },
+        "id": 1
       },
       {
         "word": "致命的",
         "furigana": "ちめいてき",
         "romanji": "chimeiteki",
-        "meanings": { "id": "fatal, mematikan", "en": "fatal, deadly" }
+        "meanings": {
+          "id": "fatal, mematikan",
+          "en": "fatal, deadly"
+        },
+        "id": 2
       }
     ]
   },
@@ -107,15 +170,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "チツ", "romanji": "chitsu" }]
+      "on": [
+        {
+          "furigana": "チツ",
+          "romanji": "chitsu"
+        }
+      ]
     },
-    "meanings": { "id": "kedisiplinan", "en": "discipline, order" },
+    "meanings": {
+      "id": "kedisiplinan",
+      "en": "discipline, order"
+    },
     "examples": [
       {
         "word": "秩序",
         "furigana": "ちつじょ",
         "romanji": "chitsujo",
-        "meanings": { "id": "kedisiplinan", "en": "order, discipline" }
+        "meanings": {
+          "id": "kedisiplinan",
+          "en": "order, discipline"
+        },
+        "id": 1
       }
     ]
   },
@@ -125,15 +200,27 @@
     "strokes": 10,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "テン", "romanji": "ten" }]
+      "on": [
+        {
+          "furigana": "テン",
+          "romanji": "ten"
+        }
+      ]
     },
-    "meanings": { "id": "pameran, eksibisi", "en": "exhibition, display" },
+    "meanings": {
+      "id": "pameran, eksibisi",
+      "en": "exhibition, display"
+    },
     "examples": [
       {
         "word": "展示会",
         "furigana": "てんじかい",
         "romanji": "tenjikai",
-        "meanings": { "id": "pameran, eksibisi", "en": "exhibition" }
+        "meanings": {
+          "id": "pameran, eksibisi",
+          "en": "exhibition"
+        },
+        "id": 1
       }
     ]
   },
@@ -142,8 +229,18 @@
     "character": "被",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "こうむ", "romanji": "koumu" }],
-      "on": [{ "furigana": "ヒ", "romanji": "hi" }]
+      "kun": [
+        {
+          "furigana": "こうむ",
+          "romanji": "koumu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ヒ",
+          "romanji": "hi"
+        }
+      ]
     },
     "meanings": {
       "id": "menderita, mendapat, korban, penderita",
@@ -154,7 +251,11 @@
         "word": "被害者",
         "furigana": "ひがいしゃ",
         "romanji": "higaisha",
-        "meanings": { "id": "korban, penderita", "en": "victim" }
+        "meanings": {
+          "id": "korban, penderita",
+          "en": "victim"
+        },
+        "id": 1
       },
       {
         "word": "被る",
@@ -163,7 +264,8 @@
         "meanings": {
           "id": "menderita, mendapat",
           "en": "to suffer, to receive"
-        }
+        },
+        "id": 2
       }
     ]
   },
@@ -173,10 +275,21 @@
     "strokes": 10,
     "readings": {
       "kun": [
-        { "furigana": "ホウ", "romanji": "hou" },
-        { "furigana": "ボウ", "romanji": "bou" }
+        {
+          "furigana": "ホウ",
+          "romanji": "hou"
+        },
+        {
+          "furigana": "ボウ",
+          "romanji": "bou"
+        }
       ],
-      "on": [{ "furigana": "ジュウ", "romanji": "juu" }]
+      "on": [
+        {
+          "furigana": "ジュウ",
+          "romanji": "juu"
+        }
+      ]
     },
     "meanings": {
       "id": "senapan, pistol",
@@ -184,7 +297,7 @@
     },
     "examples": [
       {
-        "id": 200,
+        "id": 1,
         "character": "銃",
         "word": "砲撃",
         "furigana": "ほうげき",
@@ -195,7 +308,7 @@
         }
       },
       {
-        "id": 202,
+        "id": 2,
         "character": "鉄砲",
         "word": "鉄砲",
         "furigana": "てっぽう",
@@ -214,8 +327,14 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "エキ", "romanji": "eki" },
-        { "furigana": "ヤク", "romanji": "yaku" }
+        {
+          "furigana": "エキ",
+          "romanji": "eki"
+        },
+        {
+          "furigana": "ヤク",
+          "romanji": "yaku"
+        }
       ]
     },
     "meanings": {
@@ -227,13 +346,21 @@
         "word": "利益",
         "furigana": "りえき",
         "romanji": "rieki",
-        "meanings": { "id": "keuntungan", "en": "profit" }
+        "meanings": {
+          "id": "keuntungan",
+          "en": "profit"
+        },
+        "id": 1
       },
       {
         "word": "有益",
         "furigana": "ゆうえき",
         "romanji": "yuu'eki",
-        "meanings": { "id": "kegunaan", "en": "usefulness" }
+        "meanings": {
+          "id": "kegunaan",
+          "en": "usefulness"
+        },
+        "id": 2
       }
     ]
   },
@@ -242,8 +369,18 @@
     "character": "埋",
     "strokes": 10,
     "readings": {
-      "kun": [{ "furigana": "う", "romanji": "u" }],
-      "on": [{ "furigana": "マイ", "romanji": "mai" }]
+      "kun": [
+        {
+          "furigana": "う",
+          "romanji": "u"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "マイ",
+          "romanji": "mai"
+        }
+      ]
     },
     "meanings": {
       "id": "menguburkan, penguburan, pemakaman",
@@ -254,13 +391,21 @@
         "word": "埋める",
         "furigana": "うめる",
         "romanji": "umeru",
-        "meanings": { "id": "menguburkan", "en": "to bury" }
+        "meanings": {
+          "id": "menguburkan",
+          "en": "to bury"
+        },
+        "id": 1
       },
       {
         "word": "埋葬",
         "furigana": "まいそう",
         "romanji": "maisou",
-        "meanings": { "id": "penguburan, pemakaman", "en": "burial, funeral" }
+        "meanings": {
+          "id": "penguburan, pemakaman",
+          "en": "burial, funeral"
+        },
+        "id": 2
       }
     ]
   },
@@ -269,8 +414,18 @@
     "character": "異",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "こと", "romanji": "koto" }],
-      "on": [{ "furigana": "イ", "romanji": "i" }]
+      "kun": [
+        {
+          "furigana": "こと",
+          "romanji": "koto"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "イ",
+          "romanji": "i"
+        }
+      ]
     },
     "meanings": {
       "id": "berbeda, berlainan, kebudayaan berbeda",
@@ -281,13 +436,21 @@
         "word": "異なる",
         "furigana": "ことなる",
         "romanji": "kotonaru",
-        "meanings": { "id": "berbeda, berlainan", "en": "different, various" }
+        "meanings": {
+          "id": "berbeda, berlainan",
+          "en": "different, various"
+        },
+        "id": 1
       },
       {
         "word": "異文化",
         "furigana": "いぶんか",
         "romanji": "ibunka",
-        "meanings": { "id": "kebudayaan berbeda", "en": "different culture" }
+        "meanings": {
+          "id": "kebudayaan berbeda",
+          "en": "different culture"
+        },
+        "id": 2
       }
     ]
   },
@@ -297,15 +460,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "リャク", "romanji": "ryaku" }]
+      "on": [
+        {
+          "furigana": "リャク",
+          "romanji": "ryaku"
+        }
+      ]
     },
-    "meanings": { "id": "nama singkatan", "en": "abbreviation, short name" },
+    "meanings": {
+      "id": "nama singkatan",
+      "en": "abbreviation, short name"
+    },
     "examples": [
       {
         "word": "略称",
         "furigana": "りゃくしょう",
         "romanji": "ryakushou",
-        "meanings": { "id": "nama singkatan", "en": "abbreviation" }
+        "meanings": {
+          "id": "nama singkatan",
+          "en": "abbreviation"
+        },
+        "id": 1
       }
     ]
   },
@@ -315,7 +490,12 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ドウ", "romanji": "dou" }]
+      "on": [
+        {
+          "furigana": "ドウ",
+          "romanji": "dou"
+        }
+      ]
     },
     "meanings": {
       "id": "gedung parlemen",
@@ -326,7 +506,11 @@
         "word": "議事堂",
         "furigana": "ぎじどう",
         "romanji": "gijidou",
-        "meanings": { "id": "gedung parlemen", "en": "parliament building" }
+        "meanings": {
+          "id": "gedung parlemen",
+          "en": "parliament building"
+        },
+        "id": 1
       }
     ]
   },
@@ -335,16 +519,28 @@
     "character": "梨",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "なし", "romanji": "nashi" }],
+      "kun": [
+        {
+          "furigana": "なし",
+          "romanji": "nashi"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "buah per", "en": "pear" },
+    "meanings": {
+      "id": "buah per",
+      "en": "pear"
+    },
     "examples": [
       {
         "word": "梨",
         "furigana": "なし",
         "romanji": "nashi",
-        "meanings": { "id": "buah per", "en": "pear" }
+        "meanings": {
+          "id": "buah per",
+          "en": "pear"
+        },
+        "id": 1
       }
     ]
   },
@@ -353,8 +549,18 @@
     "character": "巣",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "す", "romanji": "su" }],
-      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
+      "kun": [
+        {
+          "furigana": "す",
+          "romanji": "su"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
+      ]
     },
     "meanings": {
       "id": "sarang burung, induk telur",
@@ -365,13 +571,21 @@
         "word": "鳥の巣",
         "furigana": "とりのす",
         "romanji": "tori no su",
-        "meanings": { "id": "sarang burung", "en": "bird's nest" }
+        "meanings": {
+          "id": "sarang burung",
+          "en": "bird's nest"
+        },
+        "id": 1
       },
       {
         "word": "卵巣",
         "furigana": "らんそう",
         "romanji": "ransou",
-        "meanings": { "id": "indung telur", "en": "ovary" }
+        "meanings": {
+          "id": "indung telur",
+          "en": "ovary"
+        },
+        "id": 2
       }
     ]
   }

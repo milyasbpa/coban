@@ -5,10 +5,21 @@
     "strokes": 13,
     "readings": {
       "kun": [
-        { "furigana": "つ", "romanji": "tsu" },
-        { "furigana": "づめ", "romanji": "zume" }
+        {
+          "furigana": "つ",
+          "romanji": "tsu"
+        },
+        {
+          "furigana": "づめ",
+          "romanji": "zume"
+        }
       ],
-      "on": [{ "furigana": "キツ", "romanji": "kitsu" }]
+      "on": [
+        {
+          "furigana": "キツ",
+          "romanji": "kitsu"
+        }
+      ]
     },
     "meanings": {
       "id": "tersumbat, menyusut, makanan kalengan, pertanyaan memojokkan, kecaman, celaan",
@@ -19,13 +30,21 @@
         "word": "詰まる",
         "furigana": "つまる",
         "romanji": "tsumaru",
-        "meanings": { "id": "tersumbat, menyusut", "en": "blocked, shrunk" }
+        "meanings": {
+          "id": "tersumbat, menyusut",
+          "en": "blocked, shrunk"
+        },
+        "id": 1
       },
       {
         "word": "缶詰",
         "furigana": "かんづめ",
         "romanji": "kanzume",
-        "meanings": { "id": "makanan kalengan", "en": "canned food" }
+        "meanings": {
+          "id": "makanan kalengan",
+          "en": "canned food"
+        },
+        "id": 2
       },
       {
         "word": "詰問",
@@ -34,13 +53,18 @@
         "meanings": {
           "id": "pertanyaan memojokkan",
           "en": "cornering question"
-        }
+        },
+        "id": 3
       },
       {
         "word": "詰責",
         "furigana": "きっせき",
         "romanji": "kisseki",
-        "meanings": { "id": "kecaman, celaan", "en": "criticism" }
+        "meanings": {
+          "id": "kecaman, celaan",
+          "en": "criticism"
+        },
+        "id": 4
       }
     ]
   },
@@ -50,15 +74,27 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "シ", "romanji": "shi" }]
+      "on": [
+        {
+          "furigana": "シ",
+          "romanji": "shi"
+        }
+      ]
     },
-    "meanings": { "id": "syair", "en": "poem" },
+    "meanings": {
+      "id": "syair",
+      "en": "poem"
+    },
     "examples": [
       {
         "word": "詩",
         "furigana": "し",
         "romanji": "shi",
-        "meanings": { "id": "syair", "en": "poem" }
+        "meanings": {
+          "id": "syair",
+          "en": "poem"
+        },
+        "id": 1
       }
     ]
   },
@@ -67,22 +103,43 @@
     "character": "詳",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "くわ", "romanji": "kuwa" }],
-      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      "kun": [
+        {
+          "furigana": "くわ",
+          "romanji": "kuwa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
+      ]
     },
-    "meanings": { "id": "terperinci, detil", "en": "detailed, precise" },
+    "meanings": {
+      "id": "terperinci, detil",
+      "en": "detailed, precise"
+    },
     "examples": [
       {
         "word": "詳しい",
         "furigana": "くわしい",
         "romanji": "kuwashii",
-        "meanings": { "id": "terperinci, detil", "en": "detailed, precise" }
+        "meanings": {
+          "id": "terperinci, detil",
+          "en": "detailed, precise"
+        },
+        "id": 1
       },
       {
         "word": "詳細",
         "furigana": "しょうさい",
         "romanji": "shousai",
-        "meanings": { "id": "terperinci, detil", "en": "details" }
+        "meanings": {
+          "id": "terperinci, detil",
+          "en": "details"
+        },
+        "id": 2
       }
     ]
   },
@@ -91,8 +148,18 @@
     "character": "群",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "む", "romanji": "mu" }],
-      "on": [{ "furigana": "グン", "romanji": "gun" }]
+      "kun": [
+        {
+          "furigana": "む",
+          "romanji": "mu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "グン",
+          "romanji": "gun"
+        }
+      ]
     },
     "meanings": {
       "id": "kerumunan, gerombol, (nama tempat) Gunma",
@@ -103,13 +170,21 @@
         "word": "群れ",
         "furigana": "むれ",
         "romanji": "mure",
-        "meanings": { "id": "kerumunan, gerombol", "en": "crowd, group" }
+        "meanings": {
+          "id": "kerumunan, gerombol",
+          "en": "crowd, group"
+        },
+        "id": 1
       },
       {
         "word": "群馬",
         "furigana": "ぐんま",
         "romanji": "gunma",
-        "meanings": { "id": "(nama tempat) Gunma", "en": "Gunma (place name)" }
+        "meanings": {
+          "id": "(nama tempat) Gunma",
+          "en": "Gunma (place name)"
+        },
+        "id": 2
       }
     ]
   },
@@ -119,15 +194,27 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ガン", "romanji": "gan" }]
+      "on": [
+        {
+          "furigana": "ガン",
+          "romanji": "gan"
+        }
+      ]
     },
-    "meanings": { "id": "keras kepala", "en": "stubborn" },
+    "meanings": {
+      "id": "keras kepala",
+      "en": "stubborn"
+    },
     "examples": [
       {
         "word": "頑固",
         "furigana": "がんこ",
         "romanji": "ganko",
-        "meanings": { "id": "keras kepala", "en": "stubborn" }
+        "meanings": {
+          "id": "keras kepala",
+          "en": "stubborn"
+        },
+        "id": 1
       }
     ]
   },
@@ -136,8 +223,18 @@
     "character": "傾",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "かた", "romanji": "kata" }],
-      "on": [{ "furigana": "ケイ", "romanji": "kei" }]
+      "kun": [
+        {
+          "furigana": "かた",
+          "romanji": "kata"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケイ",
+          "romanji": "kei"
+        }
+      ]
     },
     "meanings": {
       "id": "mencondongkan, kecenderungan",
@@ -148,13 +245,21 @@
         "word": "傾ける",
         "furigana": "かたむける",
         "romanji": "katamukeru",
-        "meanings": { "id": "mencondongkan", "en": "to incline" }
+        "meanings": {
+          "id": "mencondongkan",
+          "en": "to incline"
+        },
+        "id": 1
       },
       {
         "word": "傾向",
         "furigana": "けいこう",
         "romanji": "keikou",
-        "meanings": { "id": "kecenderungan", "en": "tendency" }
+        "meanings": {
+          "id": "kecenderungan",
+          "en": "tendency"
+        },
+        "id": 2
       }
     ]
   },
@@ -164,15 +269,27 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "サイ", "romanji": "sai" }]
+      "on": [
+        {
+          "furigana": "サイ",
+          "romanji": "sai"
+        }
+      ]
     },
-    "meanings": { "id": "hutang, upah, gaji", "en": "debt, wage, salary" },
+    "meanings": {
+      "id": "hutang, upah, gaji",
+      "en": "debt, wage, salary"
+    },
     "examples": [
       {
         "word": "債務",
         "furigana": "さいむ",
         "romanji": "saimu",
-        "meanings": { "id": "hutang", "en": "debt" }
+        "meanings": {
+          "id": "hutang",
+          "en": "debt"
+        },
+        "id": 1
       }
     ]
   },
@@ -182,7 +299,12 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "チン", "romanji": "chin" }]
+      "on": [
+        {
+          "furigana": "チン",
+          "romanji": "chin"
+        }
+      ]
     },
     "meanings": {
       "id": "upah, gaji, sewa",
@@ -196,7 +318,8 @@
         "meanings": {
           "id": "upah, gaji",
           "en": "wage, salary"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -205,8 +328,18 @@
     "character": "催",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "もよお", "romanji": "moyoo" }],
-      "on": [{ "furigana": "サイ", "romanji": "sai" }]
+      "kun": [
+        {
+          "furigana": "もよお",
+          "romanji": "moyoo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "サイ",
+          "romanji": "sai"
+        }
+      ]
     },
     "meanings": {
       "id": "mengadakan acara, ilmu hipnotis",
@@ -217,13 +350,21 @@
         "word": "催す",
         "furigana": "もよおす",
         "romanji": "moyoosu",
-        "meanings": { "id": "mengadakan acara", "en": "to hold an event" }
+        "meanings": {
+          "id": "mengadakan acara",
+          "en": "to hold an event"
+        },
+        "id": 1
       },
       {
         "word": "催眠術",
         "furigana": "さいみんじゅつ",
         "romanji": "saiminjutsu",
-        "meanings": { "id": "ilmu hipnotis", "en": "hypnosis" }
+        "meanings": {
+          "id": "ilmu hipnotis",
+          "en": "hypnosis"
+        },
+        "id": 2
       }
     ]
   },
@@ -233,10 +374,21 @@
     "strokes": 13,
     "readings": {
       "kun": [
-        { "furigana": "いた", "romanji": "ita" },
-        { "furigana": "きず", "romanji": "kizu" }
+        {
+          "furigana": "いた",
+          "romanji": "ita"
+        },
+        {
+          "furigana": "きず",
+          "romanji": "kizu"
+        }
       ],
-      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      "on": [
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
+      ]
     },
     "meanings": {
       "id": "luka, koyak, melukai, luka parah",
@@ -247,19 +399,31 @@
         "word": "傷む",
         "furigana": "いたむ",
         "romanji": "itamu",
-        "meanings": { "id": "luka, koyak", "en": "wound, tear" }
+        "meanings": {
+          "id": "luka, koyak",
+          "en": "wound, tear"
+        },
+        "id": 1
       },
       {
         "word": "傷つける",
         "furigana": "きずつける",
         "romanji": "kizutsukeru",
-        "meanings": { "id": "melukai", "en": "to injure" }
+        "meanings": {
+          "id": "melukai",
+          "en": "to injure"
+        },
+        "id": 2
       },
       {
         "word": "重傷",
         "furigana": "じゅうしょう",
         "romanji": "juushou",
-        "meanings": { "id": "luka parah", "en": "serious wound" }
+        "meanings": {
+          "id": "luka parah",
+          "en": "serious wound"
+        },
+        "id": 3
       }
     ]
   },
@@ -268,8 +432,18 @@
     "character": "携",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "たずさ", "romanji": "tazusa" }],
-      "on": [{ "furigana": "ケイ", "romanji": "kei" }]
+      "kun": [
+        {
+          "furigana": "たずさ",
+          "romanji": "tazusa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケイ",
+          "romanji": "kei"
+        }
+      ]
     },
     "meanings": {
       "id": "mengambil bagian, bawa",
@@ -280,13 +454,21 @@
         "word": "携わる",
         "furigana": "たずさわる",
         "romanji": "tazusawaru",
-        "meanings": { "id": "mengambil bagian", "en": "to participate" }
+        "meanings": {
+          "id": "mengambil bagian",
+          "en": "to participate"
+        },
+        "id": 1
       },
       {
         "word": "携帯",
         "furigana": "けいたい",
         "romanji": "keitai",
-        "meanings": { "id": "bawa", "en": "to carry" }
+        "meanings": {
+          "id": "bawa",
+          "en": "to carry"
+        },
+        "id": 2
       }
     ]
   },
@@ -295,8 +477,18 @@
     "character": "損",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "そこ", "romanji": "soko" }],
-      "on": [{ "furigana": "ソン", "romanji": "son" }]
+      "kun": [
+        {
+          "furigana": "そこ",
+          "romanji": "soko"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ソン",
+          "romanji": "son"
+        }
+      ]
     },
     "meanings": {
       "id": "merugikan, kerugian, kerusakan",
@@ -307,13 +499,21 @@
         "word": "損なう",
         "furigana": "そこなう",
         "romanji": "sokonau",
-        "meanings": { "id": "merugikan", "en": "to harm" }
+        "meanings": {
+          "id": "merugikan",
+          "en": "to harm"
+        },
+        "id": 1
       },
       {
         "word": "損害",
         "furigana": "そんがい",
         "romanji": "songai",
-        "meanings": { "id": "kerugian, kerusakan", "en": "loss, damage" }
+        "meanings": {
+          "id": "kerugian, kerusakan",
+          "en": "loss, damage"
+        },
+        "id": 2
       }
     ]
   }

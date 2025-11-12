@@ -5,16 +5,27 @@
     "strokes": 7,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
+      "on": [
+        {
+          "furigana": "ジョウ",
+          "romanji": "jou"
+        }
+      ]
     },
-    "meanings": { "id": "syarat, kondisi", "en": "condition, requirement" },
+    "meanings": {
+      "id": "syarat, kondisi",
+      "en": "condition, requirement"
+    },
     "examples": [
       {
         "word": "条件",
         "furigana": "じょうけん",
         "romanji": "jouken",
-        "id": 70,
-        "meanings": { "id": "syarat, kondisi", "en": "condition, requirement" }
+        "id": 1,
+        "meanings": {
+          "id": "syarat, kondisi",
+          "en": "condition, requirement"
+        }
       }
     ]
   },
@@ -23,8 +34,18 @@
     "character": "辛",
     "strokes": 7,
     "readings": {
-      "kun": [{ "furigana": "から", "romanji": "kara" }],
-      "on": [{ "furigana": "シン", "romanji": "shin" }]
+      "kun": [
+        {
+          "furigana": "から",
+          "romanji": "kara"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シン",
+          "romanji": "shin"
+        }
+      ]
     },
     "meanings": {
       "id": "pedas, asin, derita, susah payah",
@@ -35,15 +56,21 @@
         "word": "辛い",
         "furigana": "からい",
         "romanji": "karai",
-        "id": 71,
-        "meanings": { "id": "pedas, asin", "en": "spicy, salty" }
+        "id": 1,
+        "meanings": {
+          "id": "pedas, asin",
+          "en": "spicy, salty"
+        }
       },
       {
         "word": "辛苦",
         "furigana": "しんく",
         "romanji": "shinku",
-        "id": 71,
-        "meanings": { "id": "derita, susah payah", "en": "suffering, hardship" }
+        "id": 2,
+        "meanings": {
+          "id": "derita, susah payah",
+          "en": "suffering, hardship"
+        }
       }
     ]
   },
@@ -52,8 +79,18 @@
     "character": "麦",
     "strokes": 7,
     "readings": {
-      "kun": [{ "furigana": "むぎ", "romanji": "mugi" }],
-      "on": [{ "furigana": "バク", "romanji": "baku" }]
+      "kun": [
+        {
+          "furigana": "むぎ",
+          "romanji": "mugi"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "バク",
+          "romanji": "baku"
+        }
+      ]
     },
     "meanings": {
       "id": "ladang gandum, gula gandum",
@@ -64,15 +101,21 @@
         "word": "麦畑",
         "furigana": "むぎばたけ",
         "romanji": "mugibatake",
-        "id": 72,
-        "meanings": { "id": "ladang gandum", "en": "wheat field" }
+        "id": 1,
+        "meanings": {
+          "id": "ladang gandum",
+          "en": "wheat field"
+        }
       },
       {
         "word": "麦芽糖",
         "furigana": "ばくがとう",
         "romanji": "bakugatou",
-        "id": 72,
-        "meanings": { "id": "gula gandum", "en": "malt sugar" }
+        "id": 2,
+        "meanings": {
+          "id": "gula gandum",
+          "en": "malt sugar"
+        }
       }
     ]
   },
@@ -83,8 +126,14 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "ジ", "romanji": "ji" },
-        { "furigana": "ニ", "romanji": "ni" }
+        {
+          "furigana": "ジ",
+          "romanji": "ji"
+        },
+        {
+          "furigana": "ニ",
+          "romanji": "ni"
+        }
       ]
     },
     "meanings": {
@@ -96,15 +145,21 @@
         "word": "児童",
         "furigana": "じどう",
         "romanji": "jidou",
-        "id": 73,
-        "meanings": { "id": "kanak-kanak", "en": "child" }
+        "id": 1,
+        "meanings": {
+          "id": "kanak-kanak",
+          "en": "child"
+        }
       },
       {
         "word": "小児科",
         "furigana": "しょうにか",
         "romanji": "shounika",
-        "id": 73,
-        "meanings": { "id": "ilmu kedokteran", "en": "pediatrics" }
+        "id": 2,
+        "meanings": {
+          "id": "ilmu kedokteran",
+          "en": "pediatrics"
+        }
       }
     ]
   },
@@ -114,7 +169,12 @@
     "strokes": 7,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ソク", "romanji": "soku" }]
+      "on": [
+        {
+          "furigana": "ソク",
+          "romanji": "soku"
+        }
+      ]
     },
     "meanings": {
       "id": "instan, tanpa persiapan",
@@ -125,15 +185,21 @@
         "word": "即席",
         "furigana": "そくせき",
         "romanji": "sokuseki",
-        "id": 74,
-        "meanings": { "id": "instan", "en": "instant" }
+        "id": 1,
+        "meanings": {
+          "id": "instan",
+          "en": "instant"
+        }
       },
       {
         "word": "即席",
         "furigana": "そくせき",
         "romanji": "sokuseki",
-        "id": 74,
-        "meanings": { "id": "tanpa persiapan", "en": "without preparation" }
+        "id": 2,
+        "meanings": {
+          "id": "tanpa persiapan",
+          "en": "without preparation"
+        }
       }
     ]
   },
@@ -142,8 +208,18 @@
     "character": "低",
     "strokes": 7,
     "readings": {
-      "kun": [{ "furigana": "ひく", "romanji": "hiku" }],
-      "on": [{ "furigana": "テイ", "romanji": "tei" }]
+      "kun": [
+        {
+          "furigana": "ひく",
+          "romanji": "hiku"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "テイ",
+          "romanji": "tei"
+        }
+      ]
     },
     "meanings": {
       "id": "rendah, pendek, penurunan",
@@ -154,15 +230,21 @@
         "word": "低い",
         "furigana": "ひくい",
         "romanji": "hikui",
-        "id": 75,
-        "meanings": { "id": "rendah, pendek", "en": "low, short" }
+        "id": 1,
+        "meanings": {
+          "id": "rendah, pendek",
+          "en": "low, short"
+        }
       },
       {
         "word": "低下",
         "furigana": "ていか",
         "romanji": "teika",
-        "id": 75,
-        "meanings": { "id": "penurunan", "en": "decline" }
+        "id": 2,
+        "meanings": {
+          "id": "penurunan",
+          "en": "decline"
+        }
       }
     ]
   },
@@ -171,16 +253,29 @@
     "character": "含",
     "strokes": 7,
     "readings": {
-      "kun": [{ "furigana": "ふく", "romanji": "fuku" }],
-      "on": [{ "furigana": "ガン", "romanji": "gan" }]
+      "kun": [
+        {
+          "furigana": "ふく",
+          "romanji": "fuku"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ガン",
+          "romanji": "gan"
+        }
+      ]
     },
-    "meanings": { "id": "mengandung, termasuk", "en": "to contain, include" },
+    "meanings": {
+      "id": "mengandung, termasuk",
+      "en": "to contain, include"
+    },
     "examples": [
       {
         "word": "含む",
         "furigana": "ふくむ",
         "romanji": "fukumu",
-        "id": 76,
+        "id": 1,
         "meanings": {
           "id": "mengandung, termasuk",
           "en": "to contain, include"
@@ -193,8 +288,18 @@
     "character": "別",
     "strokes": 7,
     "readings": {
-      "kun": [{ "furigana": "わか", "romanji": "waka" }],
-      "on": [{ "furigana": "ベツ", "romanji": "betsu" }]
+      "kun": [
+        {
+          "furigana": "わか",
+          "romanji": "waka"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ベツ",
+          "romanji": "betsu"
+        }
+      ]
     },
     "meanings": {
       "id": "berpisah, bercerai, istimewa, khusus",
@@ -205,15 +310,21 @@
         "word": "別れる",
         "furigana": "わかれる",
         "romanji": "wakareru",
-        "id": 77,
-        "meanings": { "id": "berpisah, bercerai", "en": "to separate, divorce" }
+        "id": 1,
+        "meanings": {
+          "id": "berpisah, bercerai",
+          "en": "to separate, divorce"
+        }
       },
       {
         "word": "特別",
         "furigana": "とくべつ",
         "romanji": "tokubetsu",
-        "id": 77,
-        "meanings": { "id": "istimewa, khusus", "en": "special" }
+        "id": 2,
+        "meanings": {
+          "id": "istimewa, khusus",
+          "en": "special"
+        }
       }
     ]
   },
@@ -222,8 +333,18 @@
     "character": "乱",
     "strokes": 7,
     "readings": {
-      "kun": [{ "furigana": "みだ", "romanji": "mida" }],
-      "on": [{ "furigana": "ラン", "romanji": "ran" }]
+      "kun": [
+        {
+          "furigana": "みだ",
+          "romanji": "mida"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ラン",
+          "romanji": "ran"
+        }
+      ]
     },
     "meanings": {
       "id": "kacau, berantakan, brutal, kasar",
@@ -234,15 +355,21 @@
         "word": "乱れる",
         "furigana": "みだれる",
         "romanji": "midareru",
-        "id": 78,
-        "meanings": { "id": "kacau, berantakan", "en": "chaotic, disorderly" }
+        "id": 1,
+        "meanings": {
+          "id": "kacau, berantakan",
+          "en": "chaotic, disorderly"
+        }
       },
       {
         "word": "乱暴",
         "furigana": "らんぼう",
         "romanji": "ranbou",
-        "id": 78,
-        "meanings": { "id": "brutal, kasar", "en": "brutal, rough" }
+        "id": 2,
+        "meanings": {
+          "id": "brutal, kasar",
+          "en": "brutal, rough"
+        }
       }
     ]
   },
@@ -252,16 +379,27 @@
     "strokes": 7,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ニン", "romanji": "nin" }]
+      "on": [
+        {
+          "furigana": "ニン",
+          "romanji": "nin"
+        }
+      ]
     },
-    "meanings": { "id": "kehamilan", "en": "pregnancy" },
+    "meanings": {
+      "id": "kehamilan",
+      "en": "pregnancy"
+    },
     "examples": [
       {
         "word": "妊娠",
         "furigana": "にんしん",
         "romanji": "ninshin",
-        "id": 79,
-        "meanings": { "id": "kehamilan", "en": "pregnancy" }
+        "id": 1,
+        "meanings": {
+          "id": "kehamilan",
+          "en": "pregnancy"
+        }
       }
     ]
   },
@@ -270,17 +408,28 @@
     "character": "宛",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "あ", "romanji": "a" }],
+      "kun": [
+        {
+          "furigana": "あ",
+          "romanji": "a"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "mengalamatkan", "en": "to address (mail)" },
+    "meanings": {
+      "id": "mengalamatkan",
+      "en": "to address (mail)"
+    },
     "examples": [
       {
         "word": "宛てる",
         "furigana": "あてる",
         "romanji": "ateru",
-        "id": 80,
-        "meanings": { "id": "mengalamatkan", "en": "to address (mail)" }
+        "id": 1,
+        "meanings": {
+          "id": "mengalamatkan",
+          "en": "to address (mail)"
+        }
       }
     ]
   },
@@ -291,8 +440,14 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "シュウ", "romanji": "shuu" },
-        { "furigana": "ソウ", "romanji": "sou" }
+        {
+          "furigana": "シュウ",
+          "romanji": "shuu"
+        },
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
       ]
     },
     "meanings": {
@@ -304,15 +459,21 @@
         "word": "宗教",
         "furigana": "しゅうきょう",
         "romanji": "shuukyou",
-        "id": 81,
-        "meanings": { "id": "agama", "en": "religion" }
+        "id": 1,
+        "meanings": {
+          "id": "agama",
+          "en": "religion"
+        }
       },
       {
         "word": "宗家",
         "furigana": "そうけ",
         "romanji": "souke",
-        "id": 81,
-        "meanings": { "id": "pimpinan aliran kesenian", "en": "sect leader" }
+        "id": 2,
+        "meanings": {
+          "id": "pimpinan aliran kesenian",
+          "en": "sect leader"
+        }
       }
     ]
   },
@@ -322,16 +483,27 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "チュウ", "romanji": "chuu" }]
+      "on": [
+        {
+          "furigana": "チュウ",
+          "romanji": "chuu"
+        }
+      ]
     },
-    "meanings": { "id": "udara, ruang", "en": "air, space" },
+    "meanings": {
+      "id": "udara, ruang",
+      "en": "air, space"
+    },
     "examples": [
       {
         "word": "宙",
         "furigana": "ちゅう",
         "romanji": "chuu",
-        "id": 82,
-        "meanings": { "id": "udara, ruang", "en": "air, space" }
+        "id": 1,
+        "meanings": {
+          "id": "udara, ruang",
+          "en": "air, space"
+        }
       }
     ]
   }

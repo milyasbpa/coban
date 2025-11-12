@@ -5,7 +5,12 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "クツ", "romanji": "kutsu" }]
+      "on": [
+        {
+          "furigana": "クツ",
+          "romanji": "kutsu"
+        }
+      ]
     },
     "meanings": {
       "id": "membosankan, pengakuan kalah",
@@ -16,15 +21,21 @@
         "word": "退屈",
         "furigana": "たいくつ",
         "romanji": "taikutsu",
-        "id": 107,
-        "meanings": { "id": "membosankan", "en": "boring" }
+        "id": 1,
+        "meanings": {
+          "id": "membosankan",
+          "en": "boring"
+        }
       },
       {
         "word": "屈伏",
         "furigana": "くっぷく",
         "romanji": "kuppuku",
-        "id": 107,
-        "meanings": { "id": "pengakuan kalah", "en": "admission of defeat" }
+        "id": 2,
+        "meanings": {
+          "id": "pengakuan kalah",
+          "en": "admission of defeat"
+        }
       }
     ]
   },
@@ -33,24 +44,43 @@
     "character": "刷",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "す", "romanji": "su" }],
-      "on": [{ "furigana": "サツ", "romanji": "satsu" }]
+      "kun": [
+        {
+          "furigana": "す",
+          "romanji": "su"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "サツ",
+          "romanji": "satsu"
+        }
+      ]
     },
-    "meanings": { "id": "menyetak, cetakan", "en": "to print, print" },
+    "meanings": {
+      "id": "menyetak, cetakan",
+      "en": "to print, print"
+    },
     "examples": [
       {
         "word": "刷る",
         "furigana": "する",
         "romanji": "suru",
-        "id": 108,
-        "meanings": { "id": "menyetak", "en": "to print" }
+        "id": 1,
+        "meanings": {
+          "id": "menyetak",
+          "en": "to print"
+        }
       },
       {
         "word": "印刷",
         "furigana": "いんさつ",
         "romanji": "insatsu",
-        "id": 108,
-        "meanings": { "id": "cetakan", "en": "print" }
+        "id": 2,
+        "meanings": {
+          "id": "cetakan",
+          "en": "print"
+        }
       }
     ]
   },
@@ -59,8 +89,18 @@
     "character": "刺",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "さ", "romanji": "sa" }],
-      "on": [{ "furigana": "シ", "romanji": "shi" }]
+      "kun": [
+        {
+          "furigana": "さ",
+          "romanji": "sa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シ",
+          "romanji": "shi"
+        }
+      ]
     },
     "meanings": {
       "id": "menusuk, menikam, sulaman, bordir",
@@ -71,15 +111,21 @@
         "word": "刺す",
         "furigana": "さす",
         "romanji": "sasu",
-        "id": 109,
-        "meanings": { "id": "menusuk, menikam", "en": "to stab" }
+        "id": 1,
+        "meanings": {
+          "id": "menusuk, menikam",
+          "en": "to stab"
+        }
       },
       {
         "word": "刺繍",
         "furigana": "ししゅう",
         "romanji": "shishuu",
-        "id": 109,
-        "meanings": { "id": "sulaman, bordir", "en": "embroidery" }
+        "id": 2,
+        "meanings": {
+          "id": "sulaman, bordir",
+          "en": "embroidery"
+        }
       }
     ]
   },
@@ -89,16 +135,27 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "エイ", "romanji": "ei" }]
+      "on": [
+        {
+          "furigana": "エイ",
+          "romanji": "ei"
+        }
+      ]
     },
-    "meanings": { "id": "bahasa Inggris", "en": "English" },
+    "meanings": {
+      "id": "bahasa Inggris",
+      "en": "English"
+    },
     "examples": [
       {
         "word": "英語",
         "furigana": "えいご",
         "romanji": "eigo",
-        "id": 110,
-        "meanings": { "id": "bahasa Inggris", "en": "English" }
+        "id": 1,
+        "meanings": {
+          "id": "bahasa Inggris",
+          "en": "English"
+        }
       }
     ]
   },
@@ -107,8 +164,18 @@
     "character": "延",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "の", "romanji": "no" }],
-      "on": [{ "furigana": "エン", "romanji": "en" }]
+      "kun": [
+        {
+          "furigana": "の",
+          "romanji": "no"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "エン",
+          "romanji": "en"
+        }
+      ]
     },
     "meanings": {
       "id": "menunda, penundaan",
@@ -119,15 +186,21 @@
         "word": "延ばす",
         "furigana": "のばす",
         "romanji": "nobasu",
-        "id": 111,
-        "meanings": { "id": "menunda", "en": "to postpone" }
+        "id": 1,
+        "meanings": {
+          "id": "menunda",
+          "en": "to postpone"
+        }
       },
       {
         "word": "延期",
         "furigana": "えんき",
         "romanji": "enki",
-        "id": 111,
-        "meanings": { "id": "penundaan", "en": "postponement" }
+        "id": 2,
+        "meanings": {
+          "id": "penundaan",
+          "en": "postponement"
+        }
       }
     ]
   },
@@ -136,24 +209,43 @@
     "character": "述",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "の", "romanji": "no" }],
-      "on": [{ "furigana": "ジュツ", "romanji": "jutsu" }]
+      "kun": [
+        {
+          "furigana": "の",
+          "romanji": "no"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ジュツ",
+          "romanji": "jutsu"
+        }
+      ]
     },
-    "meanings": { "id": "mengutarakan, predikat", "en": "to state, predicate" },
+    "meanings": {
+      "id": "mengutarakan, predikat",
+      "en": "to state, predicate"
+    },
     "examples": [
       {
         "word": "述べる",
         "furigana": "のべる",
         "romanji": "noberu",
-        "id": 112,
-        "meanings": { "id": "mengutarakan", "en": "to state" }
+        "id": 1,
+        "meanings": {
+          "id": "mengutarakan",
+          "en": "to state"
+        }
       },
       {
         "word": "述語",
         "furigana": "じゅつご",
         "romanji": "jutsugo",
-        "id": 112,
-        "meanings": { "id": "predikat", "en": "predicate" }
+        "id": 2,
+        "meanings": {
+          "id": "predikat",
+          "en": "predicate"
+        }
       }
     ]
   },
@@ -162,17 +254,28 @@
     "character": "岡",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "おか", "romanji": "oka" }],
+      "kun": [
+        {
+          "furigana": "おか",
+          "romanji": "oka"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "(nama tempat) Okayama", "en": "Okayama (place name)" },
+    "meanings": {
+      "id": "(nama tempat) Okayama",
+      "en": "Okayama (place name)"
+    },
     "examples": [
       {
         "word": "岡山",
         "furigana": "おかやま",
         "romanji": "okayama",
-        "id": 113,
-        "meanings": { "id": "Okayama", "en": "Okayama" }
+        "id": 1,
+        "meanings": {
+          "id": "Okayama",
+          "en": "Okayama"
+        }
       }
     ]
   },
@@ -181,8 +284,18 @@
     "character": "固",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "かた", "romanji": "kata" }],
-      "on": [{ "furigana": "コ", "romanji": "ko" }]
+      "kun": [
+        {
+          "furigana": "かた",
+          "romanji": "kata"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "コ",
+          "romanji": "ko"
+        }
+      ]
     },
     "meanings": {
       "id": "keras, menjadikan tetap",
@@ -193,15 +306,21 @@
         "word": "固い",
         "furigana": "かたい",
         "romanji": "katai",
-        "id": 114,
-        "meanings": { "id": "keras", "en": "hard" }
+        "id": 1,
+        "meanings": {
+          "id": "keras",
+          "en": "hard"
+        }
       },
       {
         "word": "固定する",
         "furigana": "こていする",
         "romanji": "koteisuru",
-        "id": 114,
-        "meanings": { "id": "menjadikan tetap", "en": "to make fixed" }
+        "id": 2,
+        "meanings": {
+          "id": "menjadikan tetap",
+          "en": "to make fixed"
+        }
       }
     ]
   },
@@ -210,8 +329,18 @@
     "character": "周",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "まわ", "romanji": "mawa" }],
-      "on": [{ "furigana": "シュウ", "romanji": "shuu" }]
+      "kun": [
+        {
+          "furigana": "まわ",
+          "romanji": "mawa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シュウ",
+          "romanji": "shuu"
+        }
+      ]
     },
     "meanings": {
       "id": "keliling, putaran, lingkaran, lingkungan",
@@ -222,7 +351,7 @@
         "word": "周り",
         "furigana": "まわり",
         "romanji": "mawari",
-        "id": 115,
+        "id": 1,
         "meanings": {
           "id": "keliling, putaran",
           "en": "circumference, rotation"
@@ -232,7 +361,7 @@
         "word": "周囲",
         "furigana": "しゅうい",
         "romanji": "shuui",
-        "id": 115,
+        "id": 2,
         "meanings": {
           "id": "lingkaran, lingkungan",
           "en": "circle, environment"
@@ -246,16 +375,27 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ドク", "romanji": "doku" }]
+      "on": [
+        {
+          "furigana": "ドク",
+          "romanji": "doku"
+        }
+      ]
     },
-    "meanings": { "id": "racun", "en": "poison" },
+    "meanings": {
+      "id": "racun",
+      "en": "poison"
+    },
     "examples": [
       {
         "word": "毒薬",
         "furigana": "どくやく",
         "romanji": "dokuyaku",
-        "id": 116,
-        "meanings": { "id": "racun", "en": "poison" }
+        "id": 1,
+        "meanings": {
+          "id": "racun",
+          "en": "poison"
+        }
       }
     ]
   },
@@ -264,8 +404,18 @@
     "character": "委",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "ゆだ", "romanji": "yuda" }],
-      "on": [{ "furigana": "イ", "romanji": "i" }]
+      "kun": [
+        {
+          "furigana": "ゆだ",
+          "romanji": "yuda"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "イ",
+          "romanji": "i"
+        }
+      ]
     },
     "meanings": {
       "id": "mempercayakan, konsinyasi, pendelegasian",
@@ -276,14 +426,17 @@
         "word": "委ねる",
         "furigana": "ゆだねる",
         "romanji": "yudaneru",
-        "id": 117,
-        "meanings": { "id": "mempercayakan", "en": "to entrust" }
+        "id": 1,
+        "meanings": {
+          "id": "mempercayakan",
+          "en": "to entrust"
+        }
       },
       {
         "word": "委託",
         "furigana": "いたく",
         "romanji": "itaku",
-        "id": 117,
+        "id": 2,
         "meanings": {
           "id": "konsinyasi, pendelegasian",
           "en": "consignment, delegation"
@@ -296,8 +449,18 @@
     "character": "炎",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "ほのお", "romanji": "honoo" }],
-      "on": [{ "furigana": "エン", "romanji": "en" }]
+      "kun": [
+        {
+          "furigana": "ほのお",
+          "romanji": "honoo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "エン",
+          "romanji": "en"
+        }
+      ]
     },
     "meanings": {
       "id": "lidah/bara api, peradangan",
@@ -308,15 +471,21 @@
         "word": "炎",
         "furigana": "ほのお",
         "romanji": "honoo",
-        "id": 118,
-        "meanings": { "id": "lidah/bara api", "en": "flame" }
+        "id": 1,
+        "meanings": {
+          "id": "lidah/bara api",
+          "en": "flame"
+        }
       },
       {
         "word": "炎症",
         "furigana": "えんしょう",
         "romanji": "enshou",
-        "id": 118,
-        "meanings": { "id": "peradangan", "en": "inflammation" }
+        "id": 2,
+        "meanings": {
+          "id": "peradangan",
+          "en": "inflammation"
+        }
       }
     ]
   },
@@ -326,16 +495,27 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ナ", "romanji": "na" }]
+      "on": [
+        {
+          "furigana": "ナ",
+          "romanji": "na"
+        }
+      ]
     },
-    "meanings": { "id": "(nama kota) Nara", "en": "Nara (city name)" },
+    "meanings": {
+      "id": "(nama kota) Nara",
+      "en": "Nara (city name)"
+    },
     "examples": [
       {
         "word": "奈良",
         "furigana": "なら",
         "romanji": "nara",
-        "id": 119,
-        "meanings": { "id": "Nara", "en": "Nara" }
+        "id": 1,
+        "meanings": {
+          "id": "Nara",
+          "en": "Nara"
+        }
       }
     ]
   },
@@ -344,24 +524,43 @@
     "character": "承",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "うけたまわ", "romanji": "uketamawa" }],
-      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      "kun": [
+        {
+          "furigana": "うけたまわ",
+          "romanji": "uketamawa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
+      ]
     },
-    "meanings": { "id": "mengerti", "en": "to understand" },
+    "meanings": {
+      "id": "mengerti",
+      "en": "to understand"
+    },
     "examples": [
       {
         "word": "承る",
         "furigana": "うけたまわる",
         "romanji": "uketamawaru",
-        "id": 120,
-        "meanings": { "id": "mengerti", "en": "to understand" }
+        "id": 1,
+        "meanings": {
+          "id": "mengerti",
+          "en": "to understand"
+        }
       },
       {
         "word": "承知する",
         "furigana": "しょうちする",
         "romanji": "shouchisuru",
-        "id": 120,
-        "meanings": { "id": "mengerti", "en": "to understand" }
+        "id": 2,
+        "meanings": {
+          "id": "mengerti",
+          "en": "to understand"
+        }
       }
     ]
   }

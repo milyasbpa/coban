@@ -4,22 +4,43 @@
     "character": "誘",
     "strokes": 14,
     "readings": {
-      "kun": [{ "furigana": "さそ", "romanji": "saso" }],
-      "on": [{ "furigana": "ユウ", "romanji": "yuu" }]
+      "kun": [
+        {
+          "furigana": "さそ",
+          "romanji": "saso"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ユウ",
+          "romanji": "yuu"
+        }
+      ]
     },
-    "meanings": { "id": "mengundang, mengajak, godaan", "en": "invite, tempt" },
+    "meanings": {
+      "id": "mengundang, mengajak, godaan",
+      "en": "invite, tempt"
+    },
     "examples": [
       {
         "word": "誘う",
         "furigana": "さそう",
         "romanji": "sasou",
-        "meanings": { "id": "mengundang, mengajak", "en": "invite, tempt" }
+        "meanings": {
+          "id": "mengundang, mengajak",
+          "en": "invite, tempt"
+        },
+        "id": 1
       },
       {
         "word": "誘惑",
         "furigana": "ゆうわく",
         "romanji": "yuuwaku",
-        "meanings": { "id": "godaan", "en": "temptation" }
+        "meanings": {
+          "id": "godaan",
+          "en": "temptation"
+        },
+        "id": 2
       }
     ]
   },
@@ -30,8 +51,14 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "バツ", "romanji": "batsu" },
-        { "furigana": "バチ", "romanji": "bachi" }
+        {
+          "furigana": "バツ",
+          "romanji": "batsu"
+        },
+        {
+          "furigana": "バチ",
+          "romanji": "bachi"
+        }
       ]
     },
     "meanings": {
@@ -43,19 +70,31 @@
         "word": "重罰",
         "furigana": "じゅうばつ",
         "romanji": "juubatsu",
-        "meanings": { "id": "hukuman berat", "en": "severe punishment" }
+        "meanings": {
+          "id": "hukuman berat",
+          "en": "severe punishment"
+        },
+        "id": 1
       },
       {
         "word": "罰金",
         "furigana": "ばっきん",
         "romanji": "bakkin",
-        "meanings": { "id": "denda", "en": "fine" }
+        "meanings": {
+          "id": "denda",
+          "en": "fine"
+        },
+        "id": 2
       },
       {
         "word": "仏罰",
         "furigana": "ぶつばち",
         "romanji": "butsubachi",
-        "meanings": { "id": "hukuman Buddha", "en": "Buddhist penalty" }
+        "meanings": {
+          "id": "hukuman Buddha",
+          "en": "Buddhist penalty"
+        },
+        "id": 3
       }
     ]
   },
@@ -65,9 +104,17 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
+      "on": [
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
+      ]
     },
-    "meanings": { "id": "gabungan, perpaduan", "en": "total, synthesis" },
+    "meanings": {
+      "id": "gabungan, perpaduan",
+      "en": "total, synthesis"
+    },
     "examples": [
       {
         "word": "総合",
@@ -76,7 +123,8 @@
         "meanings": {
           "id": "gabungan, perpaduan",
           "en": "synthesis, integration"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -86,15 +134,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "タイ", "romanji": "tai" }]
+      "on": [
+        {
+          "furigana": "タイ",
+          "romanji": "tai"
+        }
+      ]
     },
-    "meanings": { "id": "sikap", "en": "attitude" },
+    "meanings": {
+      "id": "sikap",
+      "en": "attitude"
+    },
     "examples": [
       {
         "word": "態度",
         "furigana": "たいど",
         "romanji": "taido",
-        "meanings": { "id": "sikap", "en": "attitude" }
+        "meanings": {
+          "id": "sikap",
+          "en": "attitude"
+        },
+        "id": 1
       }
     ]
   },
@@ -105,23 +165,40 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "ギョ", "romanji": "gyo" },
-        { "furigana": "リョウ", "romanji": "ryou" }
+        {
+          "furigana": "ギョ",
+          "romanji": "gyo"
+        },
+        {
+          "furigana": "リョウ",
+          "romanji": "ryou"
+        }
       ]
     },
-    "meanings": { "id": "perikanan, nelayan", "en": "fishing, fisherman" },
+    "meanings": {
+      "id": "perikanan, nelayan",
+      "en": "fishing, fisherman"
+    },
     "examples": [
       {
         "word": "漁業",
         "furigana": "ぎょぎょう",
         "romanji": "gyogyou",
-        "meanings": { "id": "perikanan", "en": "fishing industry" }
+        "meanings": {
+          "id": "perikanan",
+          "en": "fishing industry"
+        },
+        "id": 1
       },
       {
         "word": "漁師",
         "furigana": "りょうし",
         "romanji": "ryoushi",
-        "meanings": { "id": "nelayan", "en": "fisherman" }
+        "meanings": {
+          "id": "nelayan",
+          "en": "fisherman"
+        },
+        "id": 2
       }
     ]
   },
@@ -131,10 +208,21 @@
     "strokes": 14,
     "readings": {
       "kun": [
-        { "furigana": "したた", "romanji": "shitata" },
-        { "furigana": "しずく", "romanji": "shizuku" }
+        {
+          "furigana": "したた",
+          "romanji": "shitata"
+        },
+        {
+          "furigana": "しずく",
+          "romanji": "shizuku"
+        }
       ],
-      "on": [{ "furigana": "テキ", "romanji": "teki" }]
+      "on": [
+        {
+          "furigana": "テキ",
+          "romanji": "teki"
+        }
+      ]
     },
     "meanings": {
       "id": "menetes, tetesan, tetesan air",
@@ -145,19 +233,31 @@
         "word": "滴る",
         "furigana": "したたる",
         "romanji": "shitataru",
-        "meanings": { "id": "menetes", "en": "to drip" }
+        "meanings": {
+          "id": "menetes",
+          "en": "to drip"
+        },
+        "id": 1
       },
       {
         "word": "滴",
         "furigana": "しずく",
         "romanji": "shizuku",
-        "meanings": { "id": "tetesan", "en": "drop" }
+        "meanings": {
+          "id": "tetesan",
+          "en": "drop"
+        },
+        "id": 2
       },
       {
         "word": "水滴",
         "furigana": "すいてき",
         "romanji": "suiteki",
-        "meanings": { "id": "tetesan air", "en": "water drop" }
+        "meanings": {
+          "id": "tetesan air",
+          "en": "water drop"
+        },
+        "id": 3
       }
     ]
   },
@@ -166,10 +266,21 @@
     "character": "境",
     "strokes": 14,
     "readings": {
-      "kun": [{ "furigana": "さかい", "romanji": "sakai" }],
+      "kun": [
+        {
+          "furigana": "さかい",
+          "romanji": "sakai"
+        }
+      ],
       "on": [
-        { "furigana": "キョウ", "romanji": "kyou" },
-        { "furigana": "ケイ", "romanji": "kei" }
+        {
+          "furigana": "キョウ",
+          "romanji": "kyou"
+        },
+        {
+          "furigana": "ケイ",
+          "romanji": "kei"
+        }
       ]
     },
     "meanings": {
@@ -178,7 +289,7 @@
     },
     "examples": [
       {
-        "id": 216,
+        "id": 1,
         "word": "境",
         "furigana": "さかい",
         "romanji": "sakai",
@@ -191,7 +302,11 @@
         "word": "境界",
         "furigana": "きょうかい",
         "romanji": "kyoukai",
-        "meanings": { "id": "batas, perbatasan", "en": "border, boundary" }
+        "meanings": {
+          "id": "batas, perbatasan",
+          "en": "border, boundary"
+        },
+        "id": 2
       },
       {
         "word": "寺境",
@@ -200,7 +315,8 @@
         "meanings": {
           "id": "dalam lingkungan rumah ibadah",
           "en": "temple precinct"
-        }
+        },
+        "id": 3
       }
     ]
   },
@@ -210,15 +326,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ジュク", "romanji": "juku" }]
+      "on": [
+        {
+          "furigana": "ジュク",
+          "romanji": "juku"
+        }
+      ]
     },
-    "meanings": { "id": "tempat les", "en": "cram school" },
+    "meanings": {
+      "id": "tempat les",
+      "en": "cram school"
+    },
     "examples": [
       {
         "word": "塾",
         "furigana": "じゅく",
         "romanji": "juku",
-        "meanings": { "id": "tempat les", "en": "cram school" }
+        "meanings": {
+          "id": "tempat les",
+          "en": "cram school"
+        },
+        "id": 1
       }
     ]
   },
@@ -228,9 +356,17 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ジュ", "romanji": "ju" }]
+      "on": [
+        {
+          "furigana": "ジュ",
+          "romanji": "ju"
+        }
+      ]
     },
-    "meanings": { "id": "kebutuhan, permintaan", "en": "demand, requirement" },
+    "meanings": {
+      "id": "kebutuhan, permintaan",
+      "en": "demand, requirement"
+    },
     "examples": [
       {
         "word": "需要",
@@ -239,7 +375,8 @@
         "meanings": {
           "id": "kebutuhan, permintaan",
           "en": "demand, requirement"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -249,12 +386,29 @@
     "strokes": 14,
     "readings": {
       "kun": [
-        { "furigana": "はし", "romanji": "hashi" },
-        { "furigana": "ば", "romanji": "ba" },
-        { "furigana": "は", "romanji": "ha" },
-        { "furigana": "ぱ", "romanji": "pa" }
+        {
+          "furigana": "はし",
+          "romanji": "hashi"
+        },
+        {
+          "furigana": "ば",
+          "romanji": "ba"
+        },
+        {
+          "furigana": "は",
+          "romanji": "ha"
+        },
+        {
+          "furigana": "ぱ",
+          "romanji": "pa"
+        }
       ],
-      "on": [{ "furigana": "タン", "romanji": "tan" }]
+      "on": [
+        {
+          "furigana": "タン",
+          "romanji": "tan"
+        }
+      ]
     },
     "meanings": {
       "id": "kedua ujung, pinggir jalan, angka pecahan, kepalang-tanggung, tepi lisplang, ekstrim, radikal",
@@ -265,37 +419,61 @@
         "word": "両端",
         "furigana": "りょうたん",
         "romanji": "ryoutan",
-        "meanings": { "id": "kedua ujung", "en": "both ends" }
+        "meanings": {
+          "id": "kedua ujung",
+          "en": "both ends"
+        },
+        "id": 1
       },
       {
         "word": "道端",
         "furigana": "みちばた",
         "romanji": "michibata",
-        "meanings": { "id": "pinggir jalan", "en": "roadside" }
+        "meanings": {
+          "id": "pinggir jalan",
+          "en": "roadside"
+        },
+        "id": 2
       },
       {
         "word": "端数",
         "furigana": "はすう",
         "romanji": "hasuu",
-        "meanings": { "id": "angka pecahan", "en": "fraction" }
+        "meanings": {
+          "id": "angka pecahan",
+          "en": "fraction"
+        },
+        "id": 3
       },
       {
         "word": "半端",
         "furigana": "はんぱ",
         "romanji": "hanpa",
-        "meanings": { "id": "kepalang-tanggung", "en": "half-hearted" }
+        "meanings": {
+          "id": "kepalang-tanggung",
+          "en": "half-hearted"
+        },
+        "id": 4
       },
       {
         "word": "軒端",
         "furigana": "のきば",
         "romanji": "nokiba",
-        "meanings": { "id": "tepi lisplang", "en": "eaves" }
+        "meanings": {
+          "id": "tepi lisplang",
+          "en": "eaves"
+        },
+        "id": 5
       },
       {
         "word": "極端",
         "furigana": "きょくたん",
         "romanji": "kyokutan",
-        "meanings": { "id": "ekstrim, radikal", "en": "extreme, radical" }
+        "meanings": {
+          "id": "ekstrim, radikal",
+          "en": "extreme, radical"
+        },
+        "id": 6
       }
     ]
   },
@@ -305,15 +483,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ジュウ", "romanji": "juu" }]
+      "on": [
+        {
+          "furigana": "ジュウ",
+          "romanji": "juu"
+        }
+      ]
     },
-    "meanings": { "id": "pistol", "en": "gun, pistol" },
+    "meanings": {
+      "id": "pistol",
+      "en": "gun, pistol"
+    },
     "examples": [
       {
         "word": "短銃",
         "furigana": "たんじゅう",
         "romanji": "tanjuu",
-        "meanings": { "id": "pistol", "en": "pistol" }
+        "meanings": {
+          "id": "pistol",
+          "en": "pistol"
+        },
+        "id": 1
       }
     ]
   }

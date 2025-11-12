@@ -5,9 +5,17 @@
     "strokes": 16,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "エイ", "romanji": "ei" }]
+      "on": [
+        {
+          "furigana": "エイ",
+          "romanji": "ei"
+        }
+      ]
     },
-    "meanings": { "id": "kebersihan, sanitasi", "en": "sanitation, hygiene" },
+    "meanings": {
+      "id": "kebersihan, sanitasi",
+      "en": "sanitation, hygiene"
+    },
     "examples": [
       {
         "word": "衛生",
@@ -16,7 +24,8 @@
         "meanings": {
           "id": "kebersihan, sanitasi",
           "en": "sanitation, hygiene"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -26,15 +35,27 @@
     "strokes": 16,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "オク", "romanji": "oku" }]
+      "on": [
+        {
+          "furigana": "オク",
+          "romanji": "oku"
+        }
+      ]
     },
-    "meanings": { "id": "ingatan, memori", "en": "memory, recollection" },
+    "meanings": {
+      "id": "ingatan, memori",
+      "en": "memory, recollection"
+    },
     "examples": [
       {
         "word": "記憶",
         "furigana": "きおく",
         "romanji": "kioku",
-        "meanings": { "id": "ingatan, memori", "en": "memory, recollection" }
+        "meanings": {
+          "id": "ingatan, memori",
+          "en": "memory, recollection"
+        },
+        "id": 1
       }
     ]
   },
@@ -43,8 +64,18 @@
     "character": "賢",
     "strokes": 16,
     "readings": {
-      "kun": [{ "furigana": "かしこ", "romanji": "kashiko" }],
-      "on": [{ "furigana": "ケン", "romanji": "ken" }]
+      "kun": [
+        {
+          "furigana": "かしこ",
+          "romanji": "kashiko"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケン",
+          "romanji": "ken"
+        }
+      ]
     },
     "meanings": {
       "id": "cerdik, pandai, bijaksana, arif",
@@ -55,13 +86,21 @@
         "word": "賢い",
         "furigana": "かしこい",
         "romanji": "kashikoi",
-        "meanings": { "id": "cerdik, pandai", "en": "wise, clever" }
+        "meanings": {
+          "id": "cerdik, pandai",
+          "en": "wise, clever"
+        },
+        "id": 1
       },
       {
         "word": "賢明",
         "furigana": "けんめい",
         "romanji": "kenmei",
-        "meanings": { "id": "bijaksana, arif", "en": "intelligent, wise" }
+        "meanings": {
+          "id": "bijaksana, arif",
+          "en": "intelligent, wise"
+        },
+        "id": 2
       }
     ]
   },
@@ -70,8 +109,18 @@
     "character": "縦",
     "strokes": 16,
     "readings": {
-      "kun": [{ "furigana": "たて", "romanji": "tate" }],
-      "on": [{ "furigana": "ジュウ", "romanji": "juu" }]
+      "kun": [
+        {
+          "furigana": "たて",
+          "romanji": "tate"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ジュウ",
+          "romanji": "juu"
+        }
+      ]
     },
     "meanings": {
       "id": "garis tegak, vertikal, bebas menyaksikan",
@@ -82,13 +131,21 @@
         "word": "縦線",
         "furigana": "じゅうせん",
         "romanji": "juusen",
-        "meanings": { "id": "garis tegak, vertikal", "en": "vertical line" }
+        "meanings": {
+          "id": "garis tegak, vertikal",
+          "en": "vertical line"
+        },
+        "id": 1
       },
       {
         "word": "縦覧",
         "furigana": "じゅうらん",
         "romanji": "juuran",
-        "meanings": { "id": "bebas menyaksikan", "en": "to view freely" }
+        "meanings": {
+          "id": "bebas menyaksikan",
+          "en": "to view freely"
+        },
+        "id": 2
       }
     ]
   },
@@ -98,15 +155,27 @@
     "strokes": 16,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "トウ", "romanji": "tou" }]
+      "on": [
+        {
+          "furigana": "トウ",
+          "romanji": "tou"
+        }
+      ]
     },
-    "meanings": { "id": "penyakit diabetes", "en": "diabetes" },
+    "meanings": {
+      "id": "penyakit diabetes",
+      "en": "diabetes"
+    },
     "examples": [
       {
         "word": "糖尿病",
         "furigana": "とうにょうびょう",
         "romanji": "tounyoubyou",
-        "meanings": { "id": "penyakit diabetes", "en": "diabetes" }
+        "meanings": {
+          "id": "penyakit diabetes",
+          "en": "diabetes"
+        },
+        "id": 1
       }
     ]
   },
@@ -116,10 +185,21 @@
     "strokes": 16,
     "readings": {
       "kun": [
-        { "furigana": "あやつ", "romanji": "ayatsu" },
-        { "furigana": "みさお", "romanji": "misao" }
+        {
+          "furigana": "あやつ",
+          "romanji": "ayatsu"
+        },
+        {
+          "furigana": "みさお",
+          "romanji": "misao"
+        }
       ],
-      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
+      "on": [
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
+      ]
     },
     "meanings": {
       "id": "menangani, kesucian, penanganan",
@@ -130,19 +210,31 @@
         "word": "操る",
         "furigana": "あやつる",
         "romanji": "ayatsuru",
-        "meanings": { "id": "menangani", "en": "to handle" }
+        "meanings": {
+          "id": "menangani",
+          "en": "to handle"
+        },
+        "id": 1
       },
       {
         "word": "操",
         "furigana": "みさお",
         "romanji": "misao",
-        "meanings": { "id": "kesucian", "en": "chastity" }
+        "meanings": {
+          "id": "kesucian",
+          "en": "chastity"
+        },
+        "id": 2
       },
       {
         "word": "操作",
         "furigana": "そうさ",
         "romanji": "sousa",
-        "meanings": { "id": "penanganan", "en": "operation" }
+        "meanings": {
+          "id": "penanganan",
+          "en": "operation"
+        },
+        "id": 3
       }
     ]
   },
@@ -152,12 +244,20 @@
     "strokes": 17,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
+      "on": [
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
+      ]
     },
-    "meanings": { "id": "kering", "en": "dry" },
+    "meanings": {
+      "id": "kering",
+      "en": "dry"
+    },
     "examples": [
       {
-        "id": 220,
+        "id": 1,
         "word": "乾燥",
         "furigana": "かんそう",
         "romanji": "kansou",
@@ -173,19 +273,36 @@
     "character": "謝",
     "strokes": 17,
     "readings": {
-      "kun": [{ "furigana": "あやま", "romanji": "ayama" }],
-      "on": [{ "furigana": "シャ", "romanji": "sha" }]
+      "kun": [
+        {
+          "furigana": "あやま",
+          "romanji": "ayama"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シャ",
+          "romanji": "sha"
+        }
+      ]
     },
-    "meanings": { "id": "meminta maaf", "en": "to apologize" },
+    "meanings": {
+      "id": "meminta maaf",
+      "en": "to apologize"
+    },
     "examples": [
       {
         "word": "謝る",
         "furigana": "あやまる",
         "romanji": "ayamaru",
-        "meanings": { "id": "meminta maaf", "en": "to apologize" }
+        "meanings": {
+          "id": "meminta maaf",
+          "en": "to apologize"
+        },
+        "id": 1
       },
       {
-        "id": 221,
+        "id": 2,
         "word": "謝罪する",
         "furigana": "しゃざいする",
         "romanji": "shazai suru",
@@ -202,15 +319,27 @@
     "strokes": 17,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      "on": [
+        {
+          "furigana": "コウ",
+          "romanji": "kou"
+        }
+      ]
     },
-    "meanings": { "id": "penceramah, dosen", "en": "lecturer, speaker" },
+    "meanings": {
+      "id": "penceramah, dosen",
+      "en": "lecturer, speaker"
+    },
     "examples": [
       {
         "word": "講師",
         "furigana": "こうし",
         "romanji": "koushi",
-        "meanings": { "id": "penceramah, dosen", "en": "lecturer, speaker" }
+        "meanings": {
+          "id": "penceramah, dosen",
+          "en": "lecturer, speaker"
+        },
+        "id": 1
       }
     ]
   },
@@ -220,15 +349,27 @@
     "strokes": 17,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      "on": [
+        {
+          "furigana": "コウ",
+          "romanji": "kou"
+        }
+      ]
     },
-    "meanings": { "id": "pembelian", "en": "purchase" },
+    "meanings": {
+      "id": "pembelian",
+      "en": "purchase"
+    },
     "examples": [
       {
         "word": "購入",
         "furigana": "こうにゅう",
         "romanji": "kounyuu",
-        "meanings": { "id": "pembelian", "en": "purchase" }
+        "meanings": {
+          "id": "pembelian",
+          "en": "purchase"
+        },
+        "id": 1
       }
     ]
   },
@@ -238,15 +379,27 @@
     "strokes": 17,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ラン", "romanji": "ran" }]
+      "on": [
+        {
+          "furigana": "ラン",
+          "romanji": "ran"
+        }
+      ]
     },
-    "meanings": { "id": "tontonan", "en": "viewing, spectacle" },
+    "meanings": {
+      "id": "tontonan",
+      "en": "viewing, spectacle"
+    },
     "examples": [
       {
         "word": "観覧",
         "furigana": "かんらん",
         "romanji": "kanran",
-        "meanings": { "id": "tontonan", "en": "viewing, spectacle" }
+        "meanings": {
+          "id": "tontonan",
+          "en": "viewing, spectacle"
+        },
+        "id": 1
       }
     ]
   },
@@ -256,12 +409,24 @@
     "strokes": 17,
     "readings": {
       "kun": [
-        { "furigana": "きび", "romanji": "kibi" },
-        { "furigana": "おごそ", "romanji": "ogoso" }
+        {
+          "furigana": "きび",
+          "romanji": "kibi"
+        },
+        {
+          "furigana": "おごそ",
+          "romanji": "ogoso"
+        }
       ],
       "on": [
-        { "furigana": "ゲン", "romanji": "gen" },
-        { "furigana": "ゴン", "romanji": "gon" }
+        {
+          "furigana": "ゲン",
+          "romanji": "gen"
+        },
+        {
+          "furigana": "ゴン",
+          "romanji": "gon"
+        }
       ]
     },
     "meanings": {
@@ -273,13 +438,21 @@
         "word": "厳しい",
         "furigana": "きびしい",
         "romanji": "kibishii",
-        "meanings": { "id": "ketat, tegas", "en": "strict, stern" }
+        "meanings": {
+          "id": "ketat, tegas",
+          "en": "strict, stern"
+        },
+        "id": 1
       },
       {
         "word": "厳か",
         "furigana": "おごそか",
         "romanji": "ogosoka",
-        "meanings": { "id": "khidmat, serius", "en": "solemn, serious" }
+        "meanings": {
+          "id": "khidmat, serius",
+          "en": "solemn, serious"
+        },
+        "id": 2
       },
       {
         "word": "厳重",
@@ -288,10 +461,11 @@
         "meanings": {
           "id": "berat, keras, serius",
           "en": "heavy, hard, serious"
-        }
+        },
+        "id": 3
       },
       {
-        "id": 223,
+        "id": 4,
         "word": "荘厳",
         "furigana": "そうごん",
         "romanji": "shougon",
@@ -308,15 +482,27 @@
     "strokes": 17,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "リョウ", "romanji": "ryou" }]
+      "on": [
+        {
+          "furigana": "リョウ",
+          "romanji": "ryou"
+        }
+      ]
     },
-    "meanings": { "id": "pengobatan", "en": "medical treatment" },
+    "meanings": {
+      "id": "pengobatan",
+      "en": "medical treatment"
+    },
     "examples": [
       {
         "word": "治療",
         "furigana": "ちりょう",
         "romanji": "chiryou",
-        "meanings": { "id": "pengobatan", "en": "medical treatment" }
+        "meanings": {
+          "id": "pengobatan",
+          "en": "medical treatment"
+        },
+        "id": 1
       }
     ]
   },
@@ -325,22 +511,43 @@
     "character": "濯",
     "strokes": 17,
     "readings": {
-      "kun": [{ "furigana": "すす", "romanji": "susu" }],
-      "on": [{ "furigana": "タク", "romanji": "taku" }]
+      "kun": [
+        {
+          "furigana": "すす",
+          "romanji": "susu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "タク",
+          "romanji": "taku"
+        }
+      ]
     },
-    "meanings": { "id": "membilas, cucian", "en": "to rinse, laundry" },
+    "meanings": {
+      "id": "membilas, cucian",
+      "en": "to rinse, laundry"
+    },
     "examples": [
       {
         "word": "濯ぐ",
         "furigana": "すすぐ",
         "romanji": "susugu",
-        "meanings": { "id": "membilas", "en": "to rinse" }
+        "meanings": {
+          "id": "membilas",
+          "en": "to rinse"
+        },
+        "id": 1
       },
       {
         "word": "洗濯",
         "furigana": "せんたく",
         "romanji": "sentaku",
-        "meanings": { "id": "cucian", "en": "laundry" }
+        "meanings": {
+          "id": "cucian",
+          "en": "laundry"
+        },
+        "id": 2
       }
     ]
   }

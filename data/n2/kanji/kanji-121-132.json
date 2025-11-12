@@ -4,16 +4,33 @@
     "character": "昇",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "のぼ", "romanji": "nobo" }],
-      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      "kun": [
+        {
+          "furigana": "のぼ",
+          "romanji": "nobo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
+      ]
     },
-    "meanings": { "id": "menanjak, naik", "en": "to climb, to rise" },
+    "meanings": {
+      "id": "menanjak, naik",
+      "en": "to climb, to rise"
+    },
     "examples": [
       {
         "word": "昇る",
         "furigana": "のぼる",
         "romanji": "noboru",
-        "meanings": { "id": "menanjak, naik", "en": "to climb, to rise" }
+        "meanings": {
+          "id": "menanjak, naik",
+          "en": "to climb, to rise"
+        },
+        "id": 1
       },
       {
         "word": "昇進",
@@ -22,7 +39,8 @@
         "meanings": {
           "id": "promosi, naik pangkat",
           "en": "promotion, advancement"
-        }
+        },
+        "id": 2
       }
     ]
   },
@@ -31,22 +49,43 @@
     "character": "殴",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "なぐ", "romanji": "nagu" }],
-      "on": [{ "furigana": "オウ", "romanji": "ou" }]
+      "kun": [
+        {
+          "furigana": "なぐ",
+          "romanji": "nagu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "オウ",
+          "romanji": "ou"
+        }
+      ]
     },
-    "meanings": { "id": "memukul, menonjok", "en": "to hit, to punch" },
+    "meanings": {
+      "id": "memukul, menonjok",
+      "en": "to hit, to punch"
+    },
     "examples": [
       {
         "word": "殴る",
         "furigana": "なぐる",
         "romanji": "naguru",
-        "meanings": { "id": "memukul, menonjok", "en": "to hit, to punch" }
+        "meanings": {
+          "id": "memukul, menonjok",
+          "en": "to hit, to punch"
+        },
+        "id": 1
       },
       {
         "word": "殴打",
         "furigana": "おうだ",
         "romanji": "ouda",
-        "meanings": { "id": "pukulan, tonjokan", "en": "blow, strike" }
+        "meanings": {
+          "id": "pukulan, tonjokan",
+          "en": "blow, strike"
+        },
+        "id": 2
       }
     ]
   },
@@ -57,8 +96,14 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "ハン", "romanji": "han" },
-        { "furigana": "パン", "romanji": "pan" }
+        {
+          "furigana": "ハン",
+          "romanji": "han"
+        },
+        {
+          "furigana": "パン",
+          "romanji": "pan"
+        }
       ]
     },
     "meanings": {
@@ -70,13 +115,21 @@
         "word": "版画",
         "furigana": "はんが",
         "romanji": "hanga",
-        "meanings": { "id": "grafir", "en": "engraving" }
+        "meanings": {
+          "id": "grafir",
+          "en": "engraving"
+        },
+        "id": 1
       },
       {
         "word": "石版",
         "furigana": "せきばん",
         "romanji": "sekiban",
-        "meanings": { "id": "litograf", "en": "lithograph" }
+        "meanings": {
+          "id": "litograf",
+          "en": "lithograph"
+        },
+        "id": 2
       },
       {
         "word": "出版",
@@ -85,7 +138,8 @@
         "meanings": {
           "id": "penerbitan, publikasi",
           "en": "publishing, publication"
-        }
+        },
+        "id": 3
       }
     ]
   },
@@ -95,15 +149,27 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "フ", "romanji": "fu" }]
+      "on": [
+        {
+          "furigana": "フ",
+          "romanji": "fu"
+        }
+      ]
     },
-    "meanings": { "id": "(nama tempat) Gifu", "en": "Gifu (place name)" },
+    "meanings": {
+      "id": "(nama tempat) Gifu",
+      "en": "Gifu (place name)"
+    },
     "examples": [
       {
         "word": "岐阜",
         "furigana": "ぎふ",
         "romanji": "gifu",
-        "meanings": { "id": "(nama tempat) Gifu", "en": "Gifu (place name)" }
+        "meanings": {
+          "id": "(nama tempat) Gifu",
+          "en": "Gifu (place name)"
+        },
+        "id": 1
       }
     ]
   },
@@ -112,22 +178,43 @@
     "character": "免",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "まぬか", "romanji": "manuka" }],
-      "on": [{ "furigana": "メン", "romanji": "men" }]
+      "kun": [
+        {
+          "furigana": "まぬか",
+          "romanji": "manuka"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "メン",
+          "romanji": "men"
+        }
+      ]
     },
-    "meanings": { "id": "terhindar, surat izin", "en": "to avoid, license" },
+    "meanings": {
+      "id": "terhindar, surat izin",
+      "en": "to avoid, license"
+    },
     "examples": [
       {
         "word": "免れる",
         "furigana": "まぬかれる",
         "romanji": "manukareru",
-        "meanings": { "id": "terhindar", "en": "to avoid" }
+        "meanings": {
+          "id": "terhindar",
+          "en": "to avoid"
+        },
+        "id": 1
       },
       {
         "word": "免許証",
         "furigana": "めんきょしょう",
         "romanji": "menkyoshou",
-        "meanings": { "id": "surat izin", "en": "license, permit" }
+        "meanings": {
+          "id": "surat izin",
+          "en": "license, permit"
+        },
+        "id": 2
       }
     ]
   },
@@ -137,7 +224,12 @@
     "strokes": 8,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ブ", "romanji": "bu" }]
+      "on": [
+        {
+          "furigana": "ブ",
+          "romanji": "bu"
+        }
+      ]
     },
     "meanings": {
       "id": "samurai, pendekar, kesatria, pejuang",
@@ -148,13 +240,21 @@
         "word": "武士",
         "furigana": "ぶし",
         "romanji": "bushi",
-        "meanings": { "id": "samurai, pendekar", "en": "samurai, warrior" }
+        "meanings": {
+          "id": "samurai, pendekar",
+          "en": "samurai, warrior"
+        },
+        "id": 1
       },
       {
         "word": "武者",
         "furigana": "むしゃ",
         "romanji": "musha",
-        "meanings": { "id": "kesatria, pejuang", "en": "knight, fighter" }
+        "meanings": {
+          "id": "kesatria, pejuang",
+          "en": "knight, fighter"
+        },
+        "id": 2
       }
     ]
   },
@@ -163,16 +263,33 @@
     "character": "効",
     "strokes": 8,
     "readings": {
-      "kun": [{ "furigana": "き", "romanji": "ki" }],
-      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      "kun": [
+        {
+          "furigana": "き",
+          "romanji": "ki"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "コウ",
+          "romanji": "kou"
+        }
+      ]
     },
-    "meanings": { "id": "berkhasiat", "en": "effective, efficacious" },
+    "meanings": {
+      "id": "berkhasiat",
+      "en": "effective, efficacious"
+    },
     "examples": [
       {
         "word": "効果",
         "furigana": "こうか",
         "romanji": "kouka",
-        "meanings": { "id": "khasiat", "en": "effect, efficacy" }
+        "meanings": {
+          "id": "khasiat",
+          "en": "effect, efficacy"
+        },
+        "id": 1
       }
     ]
   },
@@ -182,15 +299,27 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      "on": [
+        {
+          "furigana": "コウ",
+          "romanji": "kou"
+        }
+      ]
     },
-    "meanings": { "id": "luar kota", "en": "suburbs, outskirts" },
+    "meanings": {
+      "id": "luar kota",
+      "en": "suburbs, outskirts"
+    },
     "examples": [
       {
         "word": "郊外",
         "furigana": "こうがい",
         "romanji": "kougai",
-        "meanings": { "id": "luar kota", "en": "suburbs, outskirts" }
+        "meanings": {
+          "id": "luar kota",
+          "en": "suburbs, outskirts"
+        },
+        "id": 1
       }
     ]
   },
@@ -199,8 +328,18 @@
     "character": "首",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "くび", "romanji": "kubi" }],
-      "on": [{ "furigana": "シュ", "romanji": "shu" }]
+      "kun": [
+        {
+          "furigana": "くび",
+          "romanji": "kubi"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シュ",
+          "romanji": "shu"
+        }
+      ]
     },
     "meanings": {
       "id": "rantai leher (binatang), ibu kota",
@@ -211,13 +350,21 @@
         "word": "首輪",
         "furigana": "くびわ",
         "romanji": "kubiwa",
-        "meanings": { "id": "rantai leher (binatang)", "en": "collar (animal)" }
+        "meanings": {
+          "id": "rantai leher (binatang)",
+          "en": "collar (animal)"
+        },
+        "id": 1
       },
       {
         "word": "首都",
         "furigana": "しゅと",
         "romanji": "shuto",
-        "meanings": { "id": "ibu kota", "en": "capital city" }
+        "meanings": {
+          "id": "ibu kota",
+          "en": "capital city"
+        },
+        "id": 2
       }
     ]
   },
@@ -227,7 +374,12 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ケン", "romanji": "ken" }]
+      "on": [
+        {
+          "furigana": "ケン",
+          "romanji": "ken"
+        }
+      ]
     },
     "meanings": {
       "id": "didirikan oleh pemerintah daerah",
@@ -241,7 +393,8 @@
         "meanings": {
           "id": "didirikan oleh pemerintah daerah",
           "en": "established by local government"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -251,12 +404,24 @@
     "strokes": 9,
     "readings": {
       "kun": [
-        { "furigana": "はぶ", "romanji": "habu" },
-        { "furigana": "かえり", "romanji": "kaeri" }
+        {
+          "furigana": "はぶ",
+          "romanji": "habu"
+        },
+        {
+          "furigana": "かえり",
+          "romanji": "kaeri"
+        }
       ],
       "on": [
-        { "furigana": "ショウ", "romanji": "shou" },
-        { "furigana": "セイ", "romanji": "sei" }
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        },
+        {
+          "furigana": "セイ",
+          "romanji": "sei"
+        }
       ]
     },
     "meanings": {
@@ -271,19 +436,28 @@
         "meanings": {
           "id": "menghemat, meniadakan",
           "en": "to economize, to omit"
-        }
+        },
+        "id": 1
       },
       {
         "word": "省みる",
         "furigana": "かえりみる",
         "romanji": "kaerimiru",
-        "meanings": { "id": "mengintrospeksi", "en": "to introspect" }
+        "meanings": {
+          "id": "mengintrospeksi",
+          "en": "to introspect"
+        },
+        "id": 2
       },
       {
         "word": "省略",
         "furigana": "しょうりゃく",
         "romanji": "shouryaku",
-        "meanings": { "id": "singkatan", "en": "abbreviation" }
+        "meanings": {
+          "id": "singkatan",
+          "en": "abbreviation"
+        },
+        "id": 3
       },
       {
         "word": "反省する",
@@ -292,7 +466,8 @@
         "meanings": {
           "id": "mengintrospeksi",
           "en": "to reflect, to introspect"
-        }
+        },
+        "id": 4
       }
     ]
   },
@@ -302,15 +477,27 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "カン", "romanji": "kan" }]
+      "on": [
+        {
+          "furigana": "カン",
+          "romanji": "kan"
+        }
+      ]
     },
-    "meanings": { "id": "perawat", "en": "nurse" },
+    "meanings": {
+      "id": "perawat",
+      "en": "nurse"
+    },
     "examples": [
       {
         "word": "看護師",
         "furigana": "かんごし",
         "romanji": "kangoshi",
-        "meanings": { "id": "perawat", "en": "nurse" }
+        "meanings": {
+          "id": "perawat",
+          "en": "nurse"
+        },
+        "id": 1
       }
     ]
   }

@@ -4,8 +4,18 @@
     "character": "握",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "にぎ", "romanji": "nigi" }],
-      "on": [{ "furigana": "アク", "romanji": "aku" }]
+      "kun": [
+        {
+          "furigana": "にぎ",
+          "romanji": "nigi"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "アク",
+          "romanji": "aku"
+        }
+      ]
     },
     "meanings": {
       "id": "menggenggam kuat, jabatan tangan",
@@ -16,13 +26,21 @@
         "word": "握る",
         "furigana": "にぎる",
         "romanji": "nigiru",
-        "meanings": { "id": "menggenggam kuat", "en": "to grip tightly" }
+        "meanings": {
+          "id": "menggenggam kuat",
+          "en": "to grip tightly"
+        },
+        "id": 1
       },
       {
         "word": "握手",
         "furigana": "あくしゅ",
         "romanji": "akushu",
-        "meanings": { "id": "jabatan tangan", "en": "handshake" }
+        "meanings": {
+          "id": "jabatan tangan",
+          "en": "handshake"
+        },
+        "id": 2
       }
     ]
   },
@@ -32,15 +50,27 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "エン", "romanji": "en" }]
+      "on": [
+        {
+          "furigana": "エン",
+          "romanji": "en"
+        }
+      ]
     },
-    "meanings": { "id": "bantuan, pertolongan", "en": "help, assistance" },
+    "meanings": {
+      "id": "bantuan, pertolongan",
+      "en": "help, assistance"
+    },
     "examples": [
       {
         "word": "援助",
         "furigana": "えんじょ",
         "romanji": "enjo",
-        "meanings": { "id": "bantuan, pertolongan", "en": "help, assistance" }
+        "meanings": {
+          "id": "bantuan, pertolongan",
+          "en": "help, assistance"
+        },
+        "id": 1
       }
     ]
   },
@@ -49,10 +79,21 @@
     "character": "極",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "きわ", "romanji": "kiwa" }],
+      "kun": [
+        {
+          "furigana": "きわ",
+          "romanji": "kiwa"
+        }
+      ],
       "on": [
-        { "furigana": "キョク", "romanji": "kyoku" },
-        { "furigana": "ゴク", "romanji": "goku" }
+        {
+          "furigana": "キョク",
+          "romanji": "kyoku"
+        },
+        {
+          "furigana": "ゴク",
+          "romanji": "goku"
+        }
       ]
     },
     "meanings": {
@@ -64,19 +105,31 @@
         "word": "極める",
         "furigana": "きわめる",
         "romanji": "kiwameru",
-        "meanings": { "id": "amat sangat", "en": "extremely" }
+        "meanings": {
+          "id": "amat sangat",
+          "en": "extremely"
+        },
+        "id": 1
       },
       {
         "word": "極端",
         "furigana": "きょくたん",
         "romanji": "kyokutan",
-        "meanings": { "id": "ekstrim, radikal", "en": "extreme, radical" }
+        "meanings": {
+          "id": "ekstrim, radikal",
+          "en": "extreme, radical"
+        },
+        "id": 2
       },
       {
         "word": "極楽",
         "furigana": "ごくらく",
         "romanji": "gokuraku",
-        "meanings": { "id": "kayangan, nirwana", "en": "paradise, nirvana" }
+        "meanings": {
+          "id": "kayangan, nirwana",
+          "en": "paradise, nirvana"
+        },
+        "id": 3
       }
     ]
   },
@@ -85,22 +138,43 @@
     "character": "植",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "う", "romanji": "u" }],
-      "on": [{ "furigana": "ショク", "romanji": "shoku" }]
+      "kun": [
+        {
+          "furigana": "う",
+          "romanji": "u"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ショク",
+          "romanji": "shoku"
+        }
+      ]
     },
-    "meanings": { "id": "menanam, tanaman", "en": "to plant, plant" },
+    "meanings": {
+      "id": "menanam, tanaman",
+      "en": "to plant, plant"
+    },
     "examples": [
       {
         "word": "植える",
         "furigana": "うえる",
         "romanji": "ueru",
-        "meanings": { "id": "menanam", "en": "to plant" }
+        "meanings": {
+          "id": "menanam",
+          "en": "to plant"
+        },
+        "id": 1
       },
       {
         "word": "植物",
         "furigana": "しょくぶつ",
         "romanji": "shokubutsu",
-        "meanings": { "id": "tanaman", "en": "plant" }
+        "meanings": {
+          "id": "tanaman",
+          "en": "plant"
+        },
+        "id": 2
       }
     ]
   },
@@ -110,15 +184,27 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ケン", "romanji": "ken" }]
+      "on": [
+        {
+          "furigana": "ケン",
+          "romanji": "ken"
+        }
+      ]
     },
-    "meanings": { "id": "pertimbangan", "en": "consideration, examination" },
+    "meanings": {
+      "id": "pertimbangan",
+      "en": "consideration, examination"
+    },
     "examples": [
       {
         "word": "検討",
         "furigana": "けんとう",
         "romanji": "kentou",
-        "meanings": { "id": "pertimbangan", "en": "consideration, examination" }
+        "meanings": {
+          "id": "pertimbangan",
+          "en": "consideration, examination"
+        },
+        "id": 1
       }
     ]
   },
@@ -127,22 +213,43 @@
     "character": "森",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "もり", "romanji": "mori" }],
-      "on": [{ "furigana": "しん", "romanji": "shin" }]
+      "kun": [
+        {
+          "furigana": "もり",
+          "romanji": "mori"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "しん",
+          "romanji": "shin"
+        }
+      ]
     },
-    "meanings": { "id": "hutan rimba, hutan", "en": "forest, jungle" },
+    "meanings": {
+      "id": "hutan rimba, hutan",
+      "en": "forest, jungle"
+    },
     "examples": [
       {
         "word": "森林",
         "furigana": "しんりん",
         "romanji": "shinrin",
-        "meanings": { "id": "hutan rimba", "en": "forest, jungle" }
+        "meanings": {
+          "id": "hutan rimba",
+          "en": "forest, jungle"
+        },
+        "id": 1
       },
       {
         "word": "森",
         "furigana": "もり",
         "romanji": "mori",
-        "meanings": { "id": "hutan", "en": "forest" }
+        "meanings": {
+          "id": "hutan",
+          "en": "forest"
+        },
+        "id": 2
       }
     ]
   },
@@ -151,8 +258,18 @@
     "character": "筋",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "すじ", "romanji": "suji" }],
-      "on": [{ "furigana": "キン", "romanji": "kin" }]
+      "kun": [
+        {
+          "furigana": "すじ",
+          "romanji": "suji"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "キン",
+          "romanji": "kin"
+        }
+      ]
     },
     "meanings": {
       "id": "otot kaki, otot, urat",
@@ -163,13 +280,21 @@
         "word": "脚筋",
         "furigana": "きゃくきん",
         "romanji": "kyakukin",
-        "meanings": { "id": "otot kaki", "en": "leg muscle" }
+        "meanings": {
+          "id": "otot kaki",
+          "en": "leg muscle"
+        },
+        "id": 1
       },
       {
         "word": "筋肉",
         "furigana": "きんにく",
         "romanji": "kinniku",
-        "meanings": { "id": "otot, urat", "en": "muscle, tendon" }
+        "meanings": {
+          "id": "otot, urat",
+          "en": "muscle, tendon"
+        },
+        "id": 2
       }
     ]
   },
@@ -179,7 +304,12 @@
     "strokes": 12,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "サク", "romanji": "saku" }]
+      "on": [
+        {
+          "furigana": "サク",
+          "romanji": "saku"
+        }
+      ]
     },
     "meanings": {
       "id": "taktik, siasat, jebakan",
@@ -193,7 +323,8 @@
         "meanings": {
           "id": "taktik, siasat, jebakan",
           "en": "tactic, strategy, trap"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -202,8 +333,18 @@
     "character": "筒",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "つつ", "romanji": "tsutsu" }],
-      "on": [{ "furigana": "トウ", "romanji": "tou" }]
+      "kun": [
+        {
+          "furigana": "つつ",
+          "romanji": "tsutsu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "トウ",
+          "romanji": "tou"
+        }
+      ]
     },
     "meanings": {
       "id": "pipa, tabung, termos, botol air",
@@ -211,7 +352,7 @@
     },
     "examples": [
       {
-        "id": 208,
+        "id": 1,
         "word": "筒",
         "furigana": "つつ",
         "romanji": "tsutsu",
@@ -224,7 +365,11 @@
         "word": "水筒",
         "furigana": "すいとう",
         "romanji": "suitou",
-        "meanings": { "id": "termos, botol air", "en": "thermos, water bottle" }
+        "meanings": {
+          "id": "termos, botol air",
+          "en": "thermos, water bottle"
+        },
+        "id": 2
       }
     ]
   },
@@ -233,11 +378,25 @@
     "character": "筆",
     "strokes": 12,
     "readings": {
-      "kun": [{ "furigana": "ふで", "romanji": "fude" }],
+      "kun": [
+        {
+          "furigana": "ふで",
+          "romanji": "fude"
+        }
+      ],
       "on": [
-        { "furigana": "ヒツ", "romanji": "hitsu" },
-        { "furigana": "ヒッ", "romanji": "hitsu" },
-        { "furigana": "ピツ", "romanji": "pitsu" }
+        {
+          "furigana": "ヒツ",
+          "romanji": "hitsu"
+        },
+        {
+          "furigana": "ヒッ",
+          "romanji": "hitsu"
+        },
+        {
+          "furigana": "ピツ",
+          "romanji": "pitsu"
+        }
       ]
     },
     "meanings": {
@@ -249,25 +408,41 @@
         "word": "筆箱",
         "furigana": "ふでばこ",
         "romanji": "fudebako",
-        "meanings": { "id": "kotak pensil", "en": "pencil case" }
+        "meanings": {
+          "id": "kotak pensil",
+          "en": "pencil case"
+        },
+        "id": 1
       },
       {
         "word": "毛筆",
         "furigana": "もうひつ",
         "romanji": "mouhitsu",
-        "meanings": { "id": "kuas gambar/tulis", "en": "brush" }
+        "meanings": {
+          "id": "kuas gambar/tulis",
+          "en": "brush"
+        },
+        "id": 2
       },
       {
         "word": "筆記",
         "furigana": "ひっき",
         "romanji": "hikki",
-        "meanings": { "id": "pencatatan", "en": "writing" }
+        "meanings": {
+          "id": "pencatatan",
+          "en": "writing"
+        },
+        "id": 3
       },
       {
         "word": "鉛筆",
         "furigana": "えんぴつ",
         "romanji": "enpitsu",
-        "meanings": { "id": "pensil", "en": "pencil" }
+        "meanings": {
+          "id": "pensil",
+          "en": "pencil"
+        },
+        "id": 4
       }
     ]
   },
@@ -277,10 +452,21 @@
     "strokes": 12,
     "readings": {
       "kun": [
-        { "furigana": "たた", "romanji": "tata" },
-        { "furigana": "たたみ", "romanji": "tatami" }
+        {
+          "furigana": "たた",
+          "romanji": "tata"
+        },
+        {
+          "furigana": "たたみ",
+          "romanji": "tatami"
+        }
       ],
-      "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
+      "on": [
+        {
+          "furigana": "ジョウ",
+          "romanji": "jou"
+        }
+      ]
     },
     "meanings": {
       "id": "melipat, mengakhiri, alas ruang ala Jepang, ukuran ruangan (6-tatami)",
@@ -291,13 +477,21 @@
         "word": "畳む",
         "furigana": "たたむ",
         "romanji": "tatamu",
-        "meanings": { "id": "melipat, mengakhiri", "en": "to fold, to finish" }
+        "meanings": {
+          "id": "melipat, mengakhiri",
+          "en": "to fold, to finish"
+        },
+        "id": 1
       },
       {
         "word": "畳",
         "furigana": "たたみ",
         "romanji": "tatami",
-        "meanings": { "id": "alas ruang ala Jepang", "en": "Japanese mat" }
+        "meanings": {
+          "id": "alas ruang ala Jepang",
+          "en": "Japanese mat"
+        },
+        "id": 2
       },
       {
         "word": "六畳",
@@ -306,7 +500,8 @@
         "meanings": {
           "id": "ukuran ruangan (6-tatami)",
           "en": "room size (6-tatami)"
-        }
+        },
+        "id": 3
       }
     ]
   }

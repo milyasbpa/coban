@@ -4,8 +4,18 @@
     "character": "拾",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "ひろ", "romanji": "hiro" }],
-      "on": [{ "furigana": "ジュウ", "romanji": "juu" }]
+      "kun": [
+        {
+          "furigana": "ひろ",
+          "romanji": "hiro"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ジュウ",
+          "romanji": "juu"
+        }
+      ]
     },
     "meanings": {
       "id": "memungut, pungut kembali, seratus ribu yen",
@@ -16,19 +26,31 @@
         "word": "拾う",
         "furigana": "ひろう",
         "romanji": "hirou",
-        "meanings": { "id": "memungut", "en": "to pick up" }
+        "meanings": {
+          "id": "memungut",
+          "en": "to pick up"
+        },
+        "id": 1
       },
       {
         "word": "拾得",
         "furigana": "しゅうとく",
         "romanji": "shuutoku",
-        "meanings": { "id": "pungut kembali", "en": "to recover, to collect" }
+        "meanings": {
+          "id": "pungut kembali",
+          "en": "to recover, to collect"
+        },
+        "id": 2
       },
       {
         "word": "拾万円",
         "furigana": "じゅうまんえん",
         "romanji": "juuman'en",
-        "meanings": { "id": "seratus ribu yen", "en": "hundred thousand yen" }
+        "meanings": {
+          "id": "seratus ribu yen",
+          "en": "hundred thousand yen"
+        },
+        "id": 3
       }
     ]
   },
@@ -37,10 +59,18 @@
     "character": "咲",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "さ", "romanji": "sa" }],
+      "kun": [
+        {
+          "furigana": "さ",
+          "romanji": "sa"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "berbunga, berkembang", "en": "to bloom, to blossom" },
+    "meanings": {
+      "id": "berbunga, berkembang",
+      "en": "to bloom, to blossom"
+    },
     "examples": [
       {
         "word": "咲く",
@@ -49,7 +79,8 @@
         "meanings": {
           "id": "berbunga, berkembang",
           "en": "to bloom, to blossom"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -58,8 +89,18 @@
     "character": "城",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "しろ", "romanji": "shiro" }],
-      "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
+      "kun": [
+        {
+          "furigana": "しろ",
+          "romanji": "shiro"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ジョウ",
+          "romanji": "jou"
+        }
+      ]
     },
     "meanings": {
       "id": "benteng, benteng pelindung",
@@ -70,13 +111,21 @@
         "word": "城",
         "furigana": "しろ",
         "romanji": "shiro",
-        "meanings": { "id": "benteng", "en": "castle" }
+        "meanings": {
+          "id": "benteng",
+          "en": "castle"
+        },
+        "id": 1
       },
       {
         "word": "城塞",
         "furigana": "じょうさい",
         "romanji": "jousai",
-        "meanings": { "id": "benteng pelindung", "en": "fortress" }
+        "meanings": {
+          "id": "benteng pelindung",
+          "en": "fortress"
+        },
+        "id": 2
       }
     ]
   },
@@ -85,22 +134,43 @@
     "character": "炭",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "すみ", "romanji": "sumi" }],
-      "on": [{ "furigana": "タン", "romanji": "tan" }]
+      "kun": [
+        {
+          "furigana": "すみ",
+          "romanji": "sumi"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "タン",
+          "romanji": "tan"
+        }
+      ]
     },
-    "meanings": { "id": "api arang, arang, batu bara", "en": "charcoal, coal" },
+    "meanings": {
+      "id": "api arang, arang, batu bara",
+      "en": "charcoal, coal"
+    },
     "examples": [
       {
         "word": "炭火",
         "furigana": "すみび",
         "romanji": "sumibi",
-        "meanings": { "id": "api arang", "en": "charcoal fire" }
+        "meanings": {
+          "id": "api arang",
+          "en": "charcoal fire"
+        },
+        "id": 1
       },
       {
         "word": "石炭",
         "furigana": "せきたん",
         "romanji": "sekitan",
-        "meanings": { "id": "arang, batu bara", "en": "coal" }
+        "meanings": {
+          "id": "arang, batu bara",
+          "en": "coal"
+        },
+        "id": 2
       }
     ]
   },
@@ -109,8 +179,18 @@
     "character": "珍",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "めずら", "romanji": "mezura" }],
-      "on": [{ "furigana": "チン", "romanji": "chin" }]
+      "kun": [
+        {
+          "furigana": "めずら",
+          "romanji": "mezura"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "チン",
+          "romanji": "chin"
+        }
+      ]
     },
     "meanings": {
       "id": "langka, makanan lezat yg langka",
@@ -121,13 +201,21 @@
         "word": "珍しい",
         "furigana": "めずらしい",
         "romanji": "mezurashii",
-        "meanings": { "id": "langka", "en": "rare" }
+        "meanings": {
+          "id": "langka",
+          "en": "rare"
+        },
+        "id": 1
       },
       {
         "word": "珍味",
         "furigana": "ちんみ",
         "romanji": "chinmi",
-        "meanings": { "id": "makanan lezat yg langka", "en": "delicacy" }
+        "meanings": {
+          "id": "makanan lezat yg langka",
+          "en": "delicacy"
+        },
+        "id": 2
       }
     ]
   },
@@ -138,20 +226,33 @@
     "readings": {
       "kun": [],
       "on": [
-        { "furigana": "フウ", "romanji": "fuu" },
-        { "furigana": "ホウ", "romanji": "hou" }
+        {
+          "furigana": "フウ",
+          "romanji": "fuu"
+        },
+        {
+          "furigana": "ホウ",
+          "romanji": "hou"
+        }
       ]
     },
-    "meanings": { "id": "amplop", "en": "envelope" },
+    "meanings": {
+      "id": "amplop",
+      "en": "envelope"
+    },
     "examples": [
       {
         "word": "封筒",
         "furigana": "ふうとう",
         "romanji": "fuutou",
-        "meanings": { "id": "amplop", "en": "envelope" }
+        "meanings": {
+          "id": "amplop",
+          "en": "envelope"
+        },
+        "id": 1
       },
       {
-        "id": 195,
+        "id": 2,
         "word": "封建的",
         "furigana": "ほうけんてき",
         "romanji": "houkenteki",
@@ -168,15 +269,27 @@
     "strokes": 9,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "キ", "romanji": "ki" }]
+      "on": [
+        {
+          "furigana": "キ",
+          "romanji": "ki"
+        }
+      ]
     },
-    "meanings": { "id": "abad", "en": "era, age" },
+    "meanings": {
+      "id": "abad",
+      "en": "era, age"
+    },
     "examples": [
       {
         "word": "世紀",
         "furigana": "せいき",
         "romanji": "seiki",
-        "meanings": { "id": "abad", "en": "century" }
+        "meanings": {
+          "id": "abad",
+          "en": "century"
+        },
+        "id": 1
       }
     ]
   },
@@ -185,22 +298,43 @@
     "character": "革",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "かわ", "romanji": "kawa" }],
-      "on": [{ "furigana": "カク", "romanji": "kaku" }]
+      "kun": [
+        {
+          "furigana": "かわ",
+          "romanji": "kawa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "カク",
+          "romanji": "kaku"
+        }
+      ]
     },
-    "meanings": { "id": "sepatu kulit, revolusi", "en": "leather, revolution" },
+    "meanings": {
+      "id": "sepatu kulit, revolusi",
+      "en": "leather, revolution"
+    },
     "examples": [
       {
         "word": "革靴",
         "furigana": "かわぐつ",
         "romanji": "kawagutsu",
-        "meanings": { "id": "sepatu kulit", "en": "leather shoes" }
+        "meanings": {
+          "id": "sepatu kulit",
+          "en": "leather shoes"
+        },
+        "id": 1
       },
       {
         "word": "革命",
         "furigana": "かくめい",
         "romanji": "kakumei",
-        "meanings": { "id": "revolusi", "en": "revolution" }
+        "meanings": {
+          "id": "revolusi",
+          "en": "revolution"
+        },
+        "id": 2
       }
     ]
   },
@@ -209,8 +343,18 @@
     "character": "巻",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "ま", "romanji": "ma" }],
-      "on": [{ "furigana": "カン", "romanji": "kan" }]
+      "kun": [
+        {
+          "furigana": "ま",
+          "romanji": "ma"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "カン",
+          "romanji": "kan"
+        }
+      ]
     },
     "meanings": {
       "id": "menggulung, membalut, seluruh jilid",
@@ -224,13 +368,18 @@
         "meanings": {
           "id": "menggulung, membalut",
           "en": "to roll up, to wrap"
-        }
+        },
+        "id": 1
       },
       {
         "word": "全巻",
         "furigana": "ぜんかん",
         "romanji": "zenkan",
-        "meanings": { "id": "seluruh jilid", "en": "all volumes" }
+        "meanings": {
+          "id": "seluruh jilid",
+          "en": "all volumes"
+        },
+        "id": 2
       }
     ]
   },
@@ -239,8 +388,18 @@
     "character": "逆",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "さか", "romanji": "saka" }],
-      "on": [{ "furigana": "ギャク", "romanji": "gyaku" }]
+      "kun": [
+        {
+          "furigana": "さか",
+          "romanji": "saka"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ギャク",
+          "romanji": "gyaku"
+        }
+      ]
     },
     "meanings": {
       "id": "terbalik, berlawanan arus, gerakan mundur",
@@ -251,19 +410,31 @@
         "word": "逆線",
         "furigana": "ぎゃくせん",
         "romanji": "gyakusen",
-        "meanings": { "id": "terbalik", "en": "reverse" }
+        "meanings": {
+          "id": "terbalik",
+          "en": "reverse"
+        },
+        "id": 1
       },
       {
         "word": "逆流",
         "furigana": "ぎゃくりゅう",
         "romanji": "gyakuryuu",
-        "meanings": { "id": "berlawanan arus", "en": "countercurrent" }
+        "meanings": {
+          "id": "berlawanan arus",
+          "en": "countercurrent"
+        },
+        "id": 2
       },
       {
         "word": "逆行",
         "furigana": "ぎゃっこう",
         "romanji": "gyakkou",
-        "meanings": { "id": "gerakan mundur", "en": "retreat, retrograde" }
+        "meanings": {
+          "id": "gerakan mundur",
+          "en": "retreat, retrograde"
+        },
+        "id": 3
       }
     ]
   },
@@ -272,8 +443,18 @@
     "character": "契",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "ちぎ", "romanji": "chigi" }],
-      "on": [{ "furigana": "ケイ", "romanji": "kei" }]
+      "kun": [
+        {
+          "furigana": "ちぎ",
+          "romanji": "chigi"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケイ",
+          "romanji": "kei"
+        }
+      ]
     },
     "meanings": {
       "id": "bersumpah, berjanji, surat kontrak",
@@ -284,13 +465,21 @@
         "word": "契る",
         "furigana": "ちぎる",
         "romanji": "chigiru",
-        "meanings": { "id": "bersumpah, berjanji", "en": "to vow, to promise" }
+        "meanings": {
+          "id": "bersumpah, berjanji",
+          "en": "to vow, to promise"
+        },
+        "id": 1
       },
       {
         "word": "契約書",
         "furigana": "けいやくしょ",
         "romanji": "keiyakusho",
-        "meanings": { "id": "surat kontrak", "en": "contract document" }
+        "meanings": {
+          "id": "surat kontrak",
+          "en": "contract document"
+        },
+        "id": 2
       }
     ]
   },
@@ -299,10 +488,21 @@
     "character": "柔",
     "strokes": 9,
     "readings": {
-      "kun": [{ "furigana": "やわ", "romanji": "yawa" }],
+      "kun": [
+        {
+          "furigana": "やわ",
+          "romanji": "yawa"
+        }
+      ],
       "on": [
-        { "furigana": "ジュウ", "romanji": "juu" },
-        { "furigana": "ニュウ", "romanji": "nyuu" }
+        {
+          "furigana": "ジュウ",
+          "romanji": "juu"
+        },
+        {
+          "furigana": "ニュウ",
+          "romanji": "nyuu"
+        }
       ]
     },
     "meanings": {
@@ -314,19 +514,31 @@
         "word": "柔らかい",
         "furigana": "やわらかい",
         "romanji": "yawarakai",
-        "meanings": { "id": "lunak, empuk", "en": "soft, tender" }
+        "meanings": {
+          "id": "lunak, empuk",
+          "en": "soft, tender"
+        },
+        "id": 1
       },
       {
         "word": "柔道",
         "furigana": "じゅうどう",
         "romanji": "juudou",
-        "meanings": { "id": "judo", "en": "judo" }
+        "meanings": {
+          "id": "judo",
+          "en": "judo"
+        },
+        "id": 2
       },
       {
         "word": "柔術",
         "furigana": "じゅうじゅつ",
         "romanji": "juujutsu",
-        "meanings": { "id": "lemah-lembut", "en": "gentle art" }
+        "meanings": {
+          "id": "lemah-lembut",
+          "en": "gentle art"
+        },
+        "id": 3
       }
     ]
   }

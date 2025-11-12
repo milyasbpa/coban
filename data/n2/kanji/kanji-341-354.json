@@ -4,8 +4,18 @@
     "character": "源",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "みなもと", "romanji": "minamoto" }],
-      "on": [{ "furigana": "ゲン", "romanji": "gen" }]
+      "kun": [
+        {
+          "furigana": "みなもと",
+          "romanji": "minamoto"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ゲン",
+          "romanji": "gen"
+        }
+      ]
     },
     "meanings": {
       "id": "sumber, muara, sumber air",
@@ -13,7 +23,7 @@
     },
     "examples": [
       {
-        "id": 209,
+        "id": 1,
         "word": "源",
         "furigana": "みなもと",
         "romanji": "minamoto",
@@ -26,7 +36,11 @@
         "word": "水源",
         "furigana": "すいげん",
         "romanji": "suigen",
-        "meanings": { "id": "sumber air", "en": "water source" }
+        "meanings": {
+          "id": "sumber air",
+          "en": "water source"
+        },
+        "id": 2
       }
     ]
   },
@@ -35,22 +49,43 @@
     "character": "溶",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "と", "romanji": "to" }],
-      "on": [{ "furigana": "ヨウ", "romanji": "you" }]
+      "kun": [
+        {
+          "furigana": "と",
+          "romanji": "to"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ヨウ",
+          "romanji": "you"
+        }
+      ]
     },
-    "meanings": { "id": "mencair, larut", "en": "melt, dissolve" },
+    "meanings": {
+      "id": "mencair, larut",
+      "en": "melt, dissolve"
+    },
     "examples": [
       {
         "word": "溶ける",
         "furigana": "とける",
         "romanji": "tokeru",
-        "meanings": { "id": "mencair, larut", "en": "melt, dissolve" }
+        "meanings": {
+          "id": "mencair, larut",
+          "en": "melt, dissolve"
+        },
+        "id": 1
       },
       {
         "word": "溶岩",
         "furigana": "ようがん",
         "romanji": "yougan",
-        "meanings": { "id": "lahar gunung api", "en": "volcanic lava" }
+        "meanings": {
+          "id": "lahar gunung api",
+          "en": "volcanic lava"
+        },
+        "id": 2
       }
     ]
   },
@@ -59,22 +94,43 @@
     "character": "滞",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "とどこお", "romanji": "todokoo" }],
-      "on": [{ "furigana": "タイ", "romanji": "tai" }]
+      "kun": [
+        {
+          "furigana": "とどこお",
+          "romanji": "todokoo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "タイ",
+          "romanji": "tai"
+        }
+      ]
     },
-    "meanings": { "id": "tertunggak, menetap", "en": "overdue, stay" },
+    "meanings": {
+      "id": "tertunggak, menetap",
+      "en": "overdue, stay"
+    },
     "examples": [
       {
         "word": "滞る",
         "furigana": "とどこおる",
         "romanji": "todokooru",
-        "meanings": { "id": "tertunggak", "en": "overdue" }
+        "meanings": {
+          "id": "tertunggak",
+          "en": "overdue"
+        },
+        "id": 1
       },
       {
         "word": "滞在する",
         "furigana": "たいざいする",
         "romanji": "taizai suru",
-        "meanings": { "id": "menetap", "en": "to stay" }
+        "meanings": {
+          "id": "menetap",
+          "en": "to stay"
+        },
+        "id": 2
       }
     ]
   },
@@ -83,16 +139,28 @@
     "character": "滝",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "たき", "romanji": "taki" }],
+      "kun": [
+        {
+          "furigana": "たき",
+          "romanji": "taki"
+        }
+      ],
       "on": []
     },
-    "meanings": { "id": "air terjun", "en": "waterfall" },
+    "meanings": {
+      "id": "air terjun",
+      "en": "waterfall"
+    },
     "examples": [
       {
         "word": "滝",
         "furigana": "たき",
         "romanji": "taki",
-        "meanings": { "id": "air terjun", "en": "waterfall" }
+        "meanings": {
+          "id": "air terjun",
+          "en": "waterfall"
+        },
+        "id": 1
       }
     ]
   },
@@ -101,22 +169,43 @@
     "character": "飼",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "か", "romanji": "ka" }],
-      "on": [{ "furigana": "シ", "romanji": "shi" }]
+      "kun": [
+        {
+          "furigana": "か",
+          "romanji": "ka"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "シ",
+          "romanji": "shi"
+        }
+      ]
     },
-    "meanings": { "id": "memelihara, pemeliharaan", "en": "to keep, breeding" },
+    "meanings": {
+      "id": "memelihara, pemeliharaan",
+      "en": "to keep, breeding"
+    },
     "examples": [
       {
         "word": "飼う",
         "furigana": "かう",
         "romanji": "kau",
-        "meanings": { "id": "memelihara", "en": "to keep" }
+        "meanings": {
+          "id": "memelihara",
+          "en": "to keep"
+        },
+        "id": 1
       },
       {
         "word": "飼育",
         "furigana": "しいく",
         "romanji": "shiiku",
-        "meanings": { "id": "pemeliharaan", "en": "breeding" }
+        "meanings": {
+          "id": "pemeliharaan",
+          "en": "breeding"
+        },
+        "id": 2
       }
     ]
   },
@@ -125,8 +214,18 @@
     "character": "飾",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "かざ", "romanji": "kaza" }],
-      "on": [{ "furigana": "ショク", "romanji": "shoku" }]
+      "kun": [
+        {
+          "furigana": "かざ",
+          "romanji": "kaza"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ショク",
+          "romanji": "shoku"
+        }
+      ]
     },
     "meanings": {
       "id": "menghias, mendekorasi, hiasan, dekorasi",
@@ -137,13 +236,21 @@
         "word": "飾る",
         "furigana": "かざる",
         "romanji": "kazaru",
-        "meanings": { "id": "menghias, mendekorasi", "en": "to decorate" }
+        "meanings": {
+          "id": "menghias, mendekorasi",
+          "en": "to decorate"
+        },
+        "id": 1
       },
       {
         "word": "装飾",
         "furigana": "そうしょく",
         "romanji": "soushoku",
-        "meanings": { "id": "hiasan, dekorasi", "en": "decoration" }
+        "meanings": {
+          "id": "hiasan, dekorasi",
+          "en": "decoration"
+        },
+        "id": 2
       }
     ]
   },
@@ -153,15 +260,27 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ノウ", "romanji": "nou" }]
+      "on": [
+        {
+          "furigana": "ノウ",
+          "romanji": "nou"
+        }
+      ]
     },
-    "meanings": { "id": "pertanian", "en": "agriculture" },
+    "meanings": {
+      "id": "pertanian",
+      "en": "agriculture"
+    },
     "examples": [
       {
         "word": "農業",
         "furigana": "のうぎょう",
         "romanji": "nougyou",
-        "meanings": { "id": "pertanian", "en": "agriculture" }
+        "meanings": {
+          "id": "pertanian",
+          "en": "agriculture"
+        },
+        "id": 1
       }
     ]
   },
@@ -171,12 +290,20 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ホウ", "romanji": "hou" }]
+      "on": [
+        {
+          "furigana": "ホウ",
+          "romanji": "hou"
+        }
+      ]
     },
-    "meanings": { "id": "kaya, berkelimpahan", "en": "rich, abundant" },
+    "meanings": {
+      "id": "kaya, berkelimpahan",
+      "en": "rich, abundant"
+    },
     "examples": [
       {
-        "id": 210,
+        "id": 1,
         "word": "豊か",
         "furigana": "ゆたか",
         "romanji": "yutaka",
@@ -189,7 +316,11 @@
         "word": "豊富",
         "furigana": "ほうふ",
         "romanji": "houfu",
-        "meanings": { "id": "kaya, berkelimpahan", "en": "rich, abundant" }
+        "meanings": {
+          "id": "kaya, berkelimpahan",
+          "en": "rich, abundant"
+        },
+        "id": 2
       }
     ]
   },
@@ -199,15 +330,27 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ショ", "romanji": "sho" }]
+      "on": [
+        {
+          "furigana": "ショ",
+          "romanji": "sho"
+        }
+      ]
     },
-    "meanings": { "id": "menandatangani", "en": "to sign" },
+    "meanings": {
+      "id": "menandatangani",
+      "en": "to sign"
+    },
     "examples": [
       {
         "word": "署名する",
         "furigana": "しょめいする",
         "romanji": "shomei suru",
-        "meanings": { "id": "menandatangani", "en": "to sign" }
+        "meanings": {
+          "id": "menandatangani",
+          "en": "to sign"
+        },
+        "id": 1
       }
     ]
   },
@@ -217,12 +360,20 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "レイ", "romanji": "rei" }]
+      "on": [
+        {
+          "furigana": "レイ",
+          "romanji": "rei"
+        }
+      ]
     },
-    "meanings": { "id": "di bawah 0°C", "en": "below 0°C" },
+    "meanings": {
+      "id": "di bawah 0°C",
+      "en": "below 0°C"
+    },
     "examples": [
       {
-        "id": 211,
+        "id": 1,
         "word": "零下",
         "furigana": "れいか",
         "romanji": "reika",
@@ -238,22 +389,43 @@
     "character": "雷",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "かみなり", "romanji": "kaminari" }],
-      "on": [{ "furigana": "ライ", "romanji": "rai" }]
+      "kun": [
+        {
+          "furigana": "かみなり",
+          "romanji": "kaminari"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ライ",
+          "romanji": "rai"
+        }
+      ]
     },
-    "meanings": { "id": "guntur, hujan guntur", "en": "thunder, thunderstorm" },
+    "meanings": {
+      "id": "guntur, hujan guntur",
+      "en": "thunder, thunderstorm"
+    },
     "examples": [
       {
         "word": "雷",
         "furigana": "かみなり",
         "romanji": "kaminari",
-        "meanings": { "id": "guntur", "en": "thunder" }
+        "meanings": {
+          "id": "guntur",
+          "en": "thunder"
+        },
+        "id": 1
       },
       {
         "word": "雷雨",
         "furigana": "らいう",
         "romanji": "raiu",
-        "meanings": { "id": "hujan guntur", "en": "thunderstorm" }
+        "meanings": {
+          "id": "hujan guntur",
+          "en": "thunderstorm"
+        },
+        "id": 2
       }
     ]
   },
@@ -263,12 +435,20 @@
     "strokes": 13,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "メイ", "romanji": "mei" }]
+      "on": [
+        {
+          "furigana": "メイ",
+          "romanji": "mei"
+        }
+      ]
     },
-    "meanings": { "id": "tenaga inti", "en": "core energy, alliance" },
+    "meanings": {
+      "id": "tenaga inti",
+      "en": "core energy, alliance"
+    },
     "examples": [
       {
-        "id": 212,
+        "id": 1,
         "word": "盟主",
         "furigana": "めいしゅ",
         "romanji": "meishu",
@@ -284,8 +464,18 @@
     "character": "照",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "て", "romanji": "te" }],
-      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      "kun": [
+        {
+          "furigana": "て",
+          "romanji": "te"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
+      ]
     },
     "meanings": {
       "id": "menerangi, penerangan",
@@ -296,13 +486,21 @@
         "word": "照らす",
         "furigana": "てらす",
         "romanji": "terasu",
-        "meanings": { "id": "menerangi", "en": "to illuminate" }
+        "meanings": {
+          "id": "menerangi",
+          "en": "to illuminate"
+        },
+        "id": 1
       },
       {
         "word": "照明",
         "furigana": "しょうめい",
         "romanji": "shoumei",
-        "meanings": { "id": "penerangan", "en": "illumination" }
+        "meanings": {
+          "id": "penerangan",
+          "en": "illumination"
+        },
+        "id": 2
       }
     ]
   },
@@ -311,22 +509,43 @@
     "character": "蒸",
     "strokes": 13,
     "readings": {
-      "kun": [{ "furigana": "む", "romanji": "mu" }],
-      "on": [{ "furigana": "ジョウ", "romanji": "jou" }]
+      "kun": [
+        {
+          "furigana": "む",
+          "romanji": "mu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ジョウ",
+          "romanji": "jou"
+        }
+      ]
     },
-    "meanings": { "id": "mengukus, uap air", "en": "to steam, steam" },
+    "meanings": {
+      "id": "mengukus, uap air",
+      "en": "to steam, steam"
+    },
     "examples": [
       {
         "word": "蒸す",
         "furigana": "むす",
         "romanji": "musu",
-        "meanings": { "id": "mengukus", "en": "to steam" }
+        "meanings": {
+          "id": "mengukus",
+          "en": "to steam"
+        },
+        "id": 1
       },
       {
         "word": "蒸気",
         "furigana": "じょうき",
         "romanji": "jouki",
-        "meanings": { "id": "uap air", "en": "steam" }
+        "meanings": {
+          "id": "uap air",
+          "en": "steam"
+        },
+        "id": 2
       }
     ]
   }

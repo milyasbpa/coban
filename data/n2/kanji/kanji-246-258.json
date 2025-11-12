@@ -5,15 +5,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ノウ", "romanji": "nou" }]
+      "on": [
+        {
+          "furigana": "ノウ",
+          "romanji": "nou"
+        }
+      ]
     },
-    "meanings": { "id": "otak besar", "en": "brain" },
+    "meanings": {
+      "id": "otak besar",
+      "en": "brain"
+    },
     "examples": [
       {
         "word": "大脳",
         "furigana": "だいのう",
         "romanji": "dainou",
-        "meanings": { "id": "otak besar", "en": "cerebrum" }
+        "meanings": {
+          "id": "otak besar",
+          "en": "cerebrum"
+        },
+        "id": 1
       }
     ]
   },
@@ -22,8 +34,18 @@
     "character": "掘",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "ほ", "romanji": "ho" }],
-      "on": [{ "furigana": "クツ", "romanji": "kutsu" }]
+      "kun": [
+        {
+          "furigana": "ほ",
+          "romanji": "ho"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "クツ",
+          "romanji": "kutsu"
+        }
+      ]
     },
     "meanings": {
       "id": "menggali, penggalian tambang, penggalian",
@@ -34,19 +56,31 @@
         "word": "掘る",
         "furigana": "ほる",
         "romanji": "horu",
-        "meanings": { "id": "menggali", "en": "to dig" }
+        "meanings": {
+          "id": "menggali",
+          "en": "to dig"
+        },
+        "id": 1
       },
       {
         "word": "採掘",
         "furigana": "さいくつ",
         "romanji": "saikutsu",
-        "meanings": { "id": "penggalian tambang", "en": "mining" }
+        "meanings": {
+          "id": "penggalian tambang",
+          "en": "mining"
+        },
+        "id": 2
       },
       {
         "word": "掘削",
         "furigana": "くっさく",
         "romanji": "kussaku",
-        "meanings": { "id": "penggalian", "en": "excavation" }
+        "meanings": {
+          "id": "penggalian",
+          "en": "excavation"
+        },
+        "id": 3
       }
     ]
   },
@@ -55,8 +89,18 @@
     "character": "採",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "と", "romanji": "to" }],
-      "on": [{ "furigana": "サイ", "romanji": "sai" }]
+      "kun": [
+        {
+          "furigana": "と",
+          "romanji": "to"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "サイ",
+          "romanji": "sai"
+        }
+      ]
     },
     "meanings": {
       "id": "menggunakan, mempekerjakan",
@@ -67,13 +111,21 @@
         "word": "採る",
         "furigana": "とる",
         "romanji": "toru",
-        "meanings": { "id": "menggunakan", "en": "to use, to take" }
+        "meanings": {
+          "id": "menggunakan",
+          "en": "to use, to take"
+        },
+        "id": 1
       },
       {
         "word": "採用する",
         "furigana": "さいようする",
         "romanji": "saiyou suru",
-        "meanings": { "id": "mempekerjakan", "en": "to employ" }
+        "meanings": {
+          "id": "mempekerjakan",
+          "en": "to employ"
+        },
+        "id": 2
       }
     ]
   },
@@ -82,22 +134,43 @@
     "character": "掃",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "は", "romanji": "ha" }],
-      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
+      "kun": [
+        {
+          "furigana": "は",
+          "romanji": "ha"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
+      ]
     },
-    "meanings": { "id": "menyapu, berbenah", "en": "to sweep, to clean up" },
+    "meanings": {
+      "id": "menyapu, berbenah",
+      "en": "to sweep, to clean up"
+    },
     "examples": [
       {
         "word": "掃く",
         "furigana": "はく",
         "romanji": "haku",
-        "meanings": { "id": "menyapu", "en": "to sweep" }
+        "meanings": {
+          "id": "menyapu",
+          "en": "to sweep"
+        },
+        "id": 1
       },
       {
         "word": "掃除する",
         "furigana": "そうじする",
         "romanji": "souji suru",
-        "meanings": { "id": "berbenah", "en": "to clean up" }
+        "meanings": {
+          "id": "berbenah",
+          "en": "to clean up"
+        },
+        "id": 2
       }
     ]
   },
@@ -107,15 +180,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "カ", "romanji": "ka" }]
+      "on": [
+        {
+          "furigana": "カ",
+          "romanji": "ka"
+        }
+      ]
     },
-    "meanings": { "id": "bagasi, muatan", "en": "cargo, load" },
+    "meanings": {
+      "id": "bagasi, muatan",
+      "en": "cargo, load"
+    },
     "examples": [
       {
         "word": "貨物",
         "furigana": "かもつ",
         "romanji": "kamotsu",
-        "meanings": { "id": "bagasi, muatan", "en": "cargo, freight" }
+        "meanings": {
+          "id": "bagasi, muatan",
+          "en": "cargo, freight"
+        },
+        "id": 1
       }
     ]
   },
@@ -124,8 +209,18 @@
     "character": "健",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "すこ", "romanji": "suko" }],
-      "on": [{ "furigana": "ケン", "romanji": "ken" }]
+      "kun": [
+        {
+          "furigana": "すこ",
+          "romanji": "suko"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ケン",
+          "romanji": "ken"
+        }
+      ]
     },
     "meanings": {
       "id": "sehat, sehat dan sempurna",
@@ -136,13 +231,21 @@
         "word": "健やか",
         "furigana": "すこやか",
         "romanji": "sukoyaka",
-        "meanings": { "id": "sehat", "en": "healthy" }
+        "meanings": {
+          "id": "sehat",
+          "en": "healthy"
+        },
+        "id": 1
       },
       {
         "word": "健康",
         "furigana": "けんこう",
         "romanji": "kenkou",
-        "meanings": { "id": "sehat dan sempurna", "en": "perfect health" }
+        "meanings": {
+          "id": "sehat dan sempurna",
+          "en": "perfect health"
+        },
+        "id": 2
       }
     ]
   },
@@ -152,15 +255,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "コウ", "romanji": "kou" }]
+      "on": [
+        {
+          "furigana": "コウ",
+          "romanji": "kou"
+        }
+      ]
     },
-    "meanings": { "id": "kesehatan", "en": "health" },
+    "meanings": {
+      "id": "kesehatan",
+      "en": "health"
+    },
     "examples": [
       {
         "word": "健康",
         "furigana": "けんこう",
         "romanji": "kenkou",
-        "meanings": { "id": "kesehatan", "en": "health" }
+        "meanings": {
+          "id": "kesehatan",
+          "en": "health"
+        },
+        "id": 1
       }
     ]
   },
@@ -169,7 +284,12 @@
     "character": "鹿",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "しか", "romanji": "shika" }],
+      "kun": [
+        {
+          "furigana": "しか",
+          "romanji": "shika"
+        }
+      ],
       "on": []
     },
     "meanings": {
@@ -181,7 +301,11 @@
         "word": "鹿",
         "furigana": "しか",
         "romanji": "shika",
-        "meanings": { "id": "rusa, kijang", "en": "deer" }
+        "meanings": {
+          "id": "rusa, kijang",
+          "en": "deer"
+        },
+        "id": 1
       },
       {
         "word": "鹿児島",
@@ -190,7 +314,8 @@
         "meanings": {
           "id": "(nama tempat) Kagoshima",
           "en": "Kagoshima (place name)"
-        }
+        },
+        "id": 2
       }
     ]
   },
@@ -200,10 +325,21 @@
     "strokes": 11,
     "readings": {
       "kun": [
-        { "furigana": "う", "romanji": "u" },
-        { "furigana": "うぶ", "romanji": "ubu" }
+        {
+          "furigana": "う",
+          "romanji": "u"
+        },
+        {
+          "furigana": "うぶ",
+          "romanji": "ubu"
+        }
       ],
-      "on": [{ "furigana": "サン", "romanji": "san" }]
+      "on": [
+        {
+          "furigana": "サン",
+          "romanji": "san"
+        }
+      ]
     },
     "meanings": {
       "id": "melahirkan, menelurkan, masih hijau, naif, industri",
@@ -217,19 +353,28 @@
         "meanings": {
           "id": "melahirkan, menelurkan",
           "en": "to give birth, to lay eggs"
-        }
+        },
+        "id": 1
       },
       {
         "word": "未産",
         "furigana": "みさん",
         "romanji": "misan",
-        "meanings": { "id": "masih hijau, naif", "en": "naive, inexperienced" }
+        "meanings": {
+          "id": "masih hijau, naif",
+          "en": "naive, inexperienced"
+        },
+        "id": 2
       },
       {
         "word": "産業",
         "furigana": "さんぎょう",
         "romanji": "sangyou",
-        "meanings": { "id": "industri", "en": "industry" }
+        "meanings": {
+          "id": "industri",
+          "en": "industry"
+        },
+        "id": 3
       }
     ]
   },
@@ -239,15 +384,27 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ショウ", "romanji": "shou" }]
+      "on": [
+        {
+          "furigana": "ショウ",
+          "romanji": "shou"
+        }
+      ]
     },
-    "meanings": { "id": "karangan, tulisan", "en": "chapter, writing" },
+    "meanings": {
+      "id": "karangan, tulisan",
+      "en": "chapter, writing"
+    },
     "examples": [
       {
         "word": "文章",
         "furigana": "ぶんしょう",
         "romanji": "bunshou",
-        "meanings": { "id": "karangan, tulisan", "en": "writing, composition" }
+        "meanings": {
+          "id": "karangan, tulisan",
+          "en": "writing, composition"
+        },
+        "id": 1
       }
     ]
   },
@@ -256,22 +413,43 @@
     "character": "乾",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "かわ", "romanji": "kawa" }],
-      "on": [{ "furigana": "カン", "romanji": "kan" }]
+      "kun": [
+        {
+          "furigana": "かわ",
+          "romanji": "kawa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "カン",
+          "romanji": "kan"
+        }
+      ]
     },
-    "meanings": { "id": "kering, keadaan kering", "en": "dry, dryness" },
+    "meanings": {
+      "id": "kering, keadaan kering",
+      "en": "dry, dryness"
+    },
     "examples": [
       {
         "word": "乾く",
         "furigana": "かわく",
         "romanji": "kawaku",
-        "meanings": { "id": "kering", "en": "to dry" }
+        "meanings": {
+          "id": "kering",
+          "en": "to dry"
+        },
+        "id": 1
       },
       {
         "word": "乾燥",
         "furigana": "かんそう",
         "romanji": "kansou",
-        "meanings": { "id": "keadaan kering", "en": "dryness" }
+        "meanings": {
+          "id": "keadaan kering",
+          "en": "dryness"
+        },
+        "id": 2
       }
     ]
   },
@@ -280,8 +458,18 @@
     "character": "軟",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "やわ", "romanji": "yawa" }],
-      "on": [{ "furigana": "ナン", "romanji": "nan" }]
+      "kun": [
+        {
+          "furigana": "やわ",
+          "romanji": "yawa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ナン",
+          "romanji": "nan"
+        }
+      ]
     },
     "meanings": {
       "id": "lunak, empuk, tulang rawan",
@@ -292,13 +480,21 @@
         "word": "軟らかい",
         "furigana": "やわらかい",
         "romanji": "yawarakai",
-        "meanings": { "id": "lunak, empuk", "en": "soft, tender" }
+        "meanings": {
+          "id": "lunak, empuk",
+          "en": "soft, tender"
+        },
+        "id": 1
       },
       {
         "word": "軟骨",
         "furigana": "なんこつ",
         "romanji": "nankotsu",
-        "meanings": { "id": "tulang rawan", "en": "cartilage" }
+        "meanings": {
+          "id": "tulang rawan",
+          "en": "cartilage"
+        },
+        "id": 2
       }
     ]
   },
@@ -307,8 +503,18 @@
     "character": "帳",
     "strokes": 11,
     "readings": {
-      "kun": [{ "furigana": "とばり", "romanji": "tobari" }],
-      "on": [{ "furigana": "チョウ", "romanji": "chou" }]
+      "kun": [
+        {
+          "furigana": "とばり",
+          "romanji": "tobari"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "チョウ",
+          "romanji": "chou"
+        }
+      ]
     },
     "meanings": {
       "id": "buku besar (akunting)",
@@ -322,7 +528,8 @@
         "meanings": {
           "id": "buku besar (akunting)",
           "en": "ledger, accounting book"
-        }
+        },
+        "id": 1
       }
     ]
   }

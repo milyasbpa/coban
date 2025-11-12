@@ -5,15 +5,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ドウ", "romanji": "dou" }]
+      "on": [
+        {
+          "furigana": "ドウ",
+          "romanji": "dou"
+        }
+      ]
     },
-    "meanings": { "id": "patung perunggu", "en": "bronze statue" },
+    "meanings": {
+      "id": "patung perunggu",
+      "en": "bronze statue"
+    },
     "examples": [
       {
         "word": "銅像",
         "furigana": "どうぞう",
         "romanji": "douzou",
-        "meanings": { "id": "patung perunggu", "en": "bronze statue" }
+        "meanings": {
+          "id": "patung perunggu",
+          "en": "bronze statue"
+        },
+        "id": 1
       }
     ]
   },
@@ -23,7 +35,12 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ソウ", "romanji": "sou" }]
+      "on": [
+        {
+          "furigana": "ソウ",
+          "romanji": "sou"
+        }
+      ]
     },
     "meanings": {
       "id": "lapisan, tingkatan, kelas",
@@ -37,7 +54,8 @@
         "meanings": {
           "id": "lapisan, tingkatan, kelas",
           "en": "layer, class, rank"
-        }
+        },
+        "id": 1
       }
     ]
   },
@@ -46,8 +64,18 @@
     "character": "憎",
     "strokes": 14,
     "readings": {
-      "kun": [{ "furigana": "にく", "romanji": "niku" }],
-      "on": [{ "furigana": "ゾウ", "romanji": "zou" }]
+      "kun": [
+        {
+          "furigana": "にく",
+          "romanji": "niku"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ゾウ",
+          "romanji": "zou"
+        }
+      ]
     },
     "meanings": {
       "id": "membenci, memusuhi, kebencian",
@@ -61,13 +89,18 @@
         "meanings": {
           "id": "membenci, memusuhi",
           "en": "to hate, to be hostile"
-        }
+        },
+        "id": 1
       },
       {
         "word": "憎悪",
         "furigana": "ぞうお",
         "romanji": "zouo",
-        "meanings": { "id": "kebencian", "en": "hatred" }
+        "meanings": {
+          "id": "kebencian",
+          "en": "hatred"
+        },
+        "id": 2
       }
     ]
   },
@@ -77,15 +110,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ゾウ", "romanji": "zou" }]
+      "on": [
+        {
+          "furigana": "ゾウ",
+          "romanji": "zou"
+        }
+      ]
     },
-    "meanings": { "id": "patung Buddha", "en": "Buddha statue" },
+    "meanings": {
+      "id": "patung Buddha",
+      "en": "Buddha statue"
+    },
     "examples": [
       {
         "word": "仏像",
         "furigana": "ぶつぞう",
         "romanji": "butsuzou",
-        "meanings": { "id": "patung Buddha", "en": "Buddha statue" }
+        "meanings": {
+          "id": "patung Buddha",
+          "en": "Buddha statue"
+        },
+        "id": 1
       }
     ]
   },
@@ -95,15 +140,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "ボク", "romanji": "boku" }]
+      "on": [
+        {
+          "furigana": "ボク",
+          "romanji": "boku"
+        }
+      ]
     },
-    "meanings": { "id": "aku (ucapan laki-laki)", "en": "I (male speech)" },
+    "meanings": {
+      "id": "aku (ucapan laki-laki)",
+      "en": "I (male speech)"
+    },
     "examples": [
       {
         "word": "僕",
         "furigana": "ぼく",
         "romanji": "boku",
-        "meanings": { "id": "aku (ucapan laki-laki)", "en": "I (male speech)" }
+        "meanings": {
+          "id": "aku (ucapan laki-laki)",
+          "en": "I (male speech)"
+        },
+        "id": 1
       }
     ]
   },
@@ -113,15 +170,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "リョウ", "romanji": "ryou" }]
+      "on": [
+        {
+          "furigana": "リョウ",
+          "romanji": "ryou"
+        }
+      ]
     },
-    "meanings": { "id": "teman sejawat", "en": "colleague" },
+    "meanings": {
+      "id": "teman sejawat",
+      "en": "colleague"
+    },
     "examples": [
       {
         "word": "同僚",
         "furigana": "どうりょう",
         "romanji": "douryou",
-        "meanings": { "id": "teman sejawat", "en": "colleague" }
+        "meanings": {
+          "id": "teman sejawat",
+          "en": "colleague"
+        },
+        "id": 1
       }
     ]
   },
@@ -130,8 +199,18 @@
     "character": "暮",
     "strokes": 14,
     "readings": {
-      "kun": [{ "furigana": "く", "romanji": "ku" }],
-      "on": [{ "furigana": "ボ", "romanji": "bo" }]
+      "kun": [
+        {
+          "furigana": "く",
+          "romanji": "ku"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ボ",
+          "romanji": "bo"
+        }
+      ]
     },
     "meanings": {
       "id": "hidup, tinggal, hantaran akhir tahun",
@@ -142,13 +221,21 @@
         "word": "暮らす",
         "furigana": "くらす",
         "romanji": "kurasu",
-        "meanings": { "id": "hidup, tinggal", "en": "live, reside" }
+        "meanings": {
+          "id": "hidup, tinggal",
+          "en": "live, reside"
+        },
+        "id": 1
       },
       {
         "word": "お歳暮",
         "furigana": "おせいぼ",
         "romanji": "oseibo",
-        "meanings": { "id": "hantaran akhir tahun", "en": "year-end gift" }
+        "meanings": {
+          "id": "hantaran akhir tahun",
+          "en": "year-end gift"
+        },
+        "id": 2
       }
     ]
   },
@@ -158,7 +245,12 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "サン", "romanji": "san" }]
+      "on": [
+        {
+          "furigana": "サン",
+          "romanji": "san"
+        }
+      ]
     },
     "meanings": {
       "id": "ilmu hitung, berhitung",
@@ -169,7 +261,11 @@
         "word": "算数",
         "furigana": "さんすう",
         "romanji": "sansuu",
-        "meanings": { "id": "ilmu hitung, berhitung", "en": "arithmetic" }
+        "meanings": {
+          "id": "ilmu hitung, berhitung",
+          "en": "arithmetic"
+        },
+        "id": 1
       }
     ]
   },
@@ -178,8 +274,18 @@
     "character": "管",
     "strokes": 14,
     "readings": {
-      "kun": [{ "furigana": "くだ", "romanji": "kuda" }],
-      "on": [{ "furigana": "カン", "romanji": "kan" }]
+      "kun": [
+        {
+          "furigana": "くだ",
+          "romanji": "kuda"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "カン",
+          "romanji": "kan"
+        }
+      ]
     },
     "meanings": {
       "id": "pipa, slang, pengelolaan",
@@ -190,13 +296,21 @@
         "word": "管",
         "furigana": "くだ",
         "romanji": "kuda",
-        "meanings": { "id": "pipa, slang", "en": "pipe, tube" }
+        "meanings": {
+          "id": "pipa, slang",
+          "en": "pipe, tube"
+        },
+        "id": 1
       },
       {
         "word": "管理",
         "furigana": "かんり",
         "romanji": "kanri",
-        "meanings": { "id": "pengelolaan", "en": "management" }
+        "meanings": {
+          "id": "pengelolaan",
+          "en": "management"
+        },
+        "id": 2
       }
     ]
   },
@@ -206,12 +320,20 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "カク", "romanji": "kaku" }]
+      "on": [
+        {
+          "furigana": "カク",
+          "romanji": "kaku"
+        }
+      ]
     },
-    "meanings": { "id": "masuk anggota kabinet", "en": "cabinet member" },
+    "meanings": {
+      "id": "masuk anggota kabinet",
+      "en": "cabinet member"
+    },
     "examples": [
       {
-        "id": 217,
+        "id": 1,
         "word": "入閣",
         "furigana": "にゅうかく",
         "romanji": "nyuukaku",
@@ -227,8 +349,18 @@
     "character": "踊",
     "strokes": 14,
     "readings": {
-      "kun": [{ "furigana": "おど", "romanji": "odo" }],
-      "on": [{ "furigana": "ヨウ", "romanji": "you" }]
+      "kun": [
+        {
+          "furigana": "おど",
+          "romanji": "odo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "ヨウ",
+          "romanji": "you"
+        }
+      ]
     },
     "meanings": {
       "id": "tarian, dansa, tarian rakyat",
@@ -239,13 +371,21 @@
         "word": "踊る",
         "furigana": "おどる",
         "romanji": "odoru",
-        "meanings": { "id": "tarian, dansa", "en": "dance" }
+        "meanings": {
+          "id": "tarian, dansa",
+          "en": "dance"
+        },
+        "id": 1
       },
       {
         "word": "民踊",
         "furigana": "みんよう",
         "romanji": "minyou",
-        "meanings": { "id": "tarian rakyat", "en": "folk dance" }
+        "meanings": {
+          "id": "tarian rakyat",
+          "en": "folk dance"
+        },
+        "id": 2
       }
     ]
   },
@@ -255,15 +395,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "リョウ", "romanji": "ryou" }]
+      "on": [
+        {
+          "furigana": "リョウ",
+          "romanji": "ryou"
+        }
+      ]
     },
-    "meanings": { "id": "kuitansi", "en": "receipt" },
+    "meanings": {
+      "id": "kuitansi",
+      "en": "receipt"
+    },
     "examples": [
       {
         "word": "領収証",
         "furigana": "りょうしゅうしょう",
         "romanji": "ryoushuushou",
-        "meanings": { "id": "kuitansi", "en": "receipt" }
+        "meanings": {
+          "id": "kuitansi",
+          "en": "receipt"
+        },
+        "id": 1
       }
     ]
   },
@@ -273,15 +425,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "フク", "romanji": "fuku" }]
+      "on": [
+        {
+          "furigana": "フク",
+          "romanji": "fuku"
+        }
+      ]
     },
-    "meanings": { "id": "rumit, ruwet", "en": "complex, complicated" },
+    "meanings": {
+      "id": "rumit, ruwet",
+      "en": "complex, complicated"
+    },
     "examples": [
       {
         "word": "複雑",
         "furigana": "ふくざつ",
         "romanji": "fukuzatsu",
-        "meanings": { "id": "rumit, ruwet", "en": "complex, complicated" }
+        "meanings": {
+          "id": "rumit, ruwet",
+          "en": "complex, complicated"
+        },
+        "id": 1
       }
     ]
   },
@@ -291,15 +455,27 @@
     "strokes": 14,
     "readings": {
       "kun": [],
-      "on": [{ "furigana": "レキ", "romanji": "reki" }]
+      "on": [
+        {
+          "furigana": "レキ",
+          "romanji": "reki"
+        }
+      ]
     },
-    "meanings": { "id": "sejarah", "en": "history" },
+    "meanings": {
+      "id": "sejarah",
+      "en": "history"
+    },
     "examples": [
       {
         "word": "歴史",
         "furigana": "れきし",
         "romanji": "rekishi",
-        "meanings": { "id": "sejarah", "en": "history" }
+        "meanings": {
+          "id": "sejarah",
+          "en": "history"
+        },
+        "id": 1
       }
     ]
   },
@@ -308,22 +484,43 @@
     "character": "器",
     "strokes": 15,
     "readings": {
-      "kun": [{ "furigana": "うつわ", "romanji": "utsuwa" }],
-      "on": [{ "furigana": "キ", "romanji": "ki" }]
+      "kun": [
+        {
+          "furigana": "うつわ",
+          "romanji": "utsuwa"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "キ",
+          "romanji": "ki"
+        }
+      ]
     },
-    "meanings": { "id": "wadah, mesin", "en": "container, machine" },
+    "meanings": {
+      "id": "wadah, mesin",
+      "en": "container, machine"
+    },
     "examples": [
       {
         "word": "器",
         "furigana": "うつわ",
         "romanji": "utsuwa",
-        "meanings": { "id": "wadah", "en": "container" }
+        "meanings": {
+          "id": "wadah",
+          "en": "container"
+        },
+        "id": 1
       },
       {
         "word": "器械",
         "furigana": "きかい",
         "romanji": "kikai",
-        "meanings": { "id": "mesin", "en": "machine" }
+        "meanings": {
+          "id": "mesin",
+          "en": "machine"
+        },
+        "id": 2
       }
     ]
   },
@@ -332,22 +529,43 @@
     "character": "噴",
     "strokes": 15,
     "readings": {
-      "kun": [{ "furigana": "ふ", "romanji": "fu" }],
-      "on": [{ "furigana": "フン", "romanji": "fun" }]
+      "kun": [
+        {
+          "furigana": "ふ",
+          "romanji": "fu"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "フン",
+          "romanji": "fun"
+        }
+      ]
     },
-    "meanings": { "id": "menyemprotkan, semprotan", "en": "to spray, spray" },
+    "meanings": {
+      "id": "menyemprotkan, semprotan",
+      "en": "to spray, spray"
+    },
     "examples": [
       {
         "word": "噴く",
         "furigana": "ふく",
         "romanji": "fuku",
-        "meanings": { "id": "menyemprotkan", "en": "to spray" }
+        "meanings": {
+          "id": "menyemprotkan",
+          "en": "to spray"
+        },
+        "id": 1
       },
       {
         "word": "噴射",
         "furigana": "ふんしゃ",
         "romanji": "funsha",
-        "meanings": { "id": "semprotan", "en": "spray" }
+        "meanings": {
+          "id": "semprotan",
+          "en": "spray"
+        },
+        "id": 2
       }
     ]
   },
@@ -356,8 +574,18 @@
     "character": "鋭",
     "strokes": 15,
     "readings": {
-      "kun": [{ "furigana": "するど", "romanji": "surudo" }],
-      "on": [{ "furigana": "エイ", "romanji": "ei" }]
+      "kun": [
+        {
+          "furigana": "するど",
+          "romanji": "surudo"
+        }
+      ],
+      "on": [
+        {
+          "furigana": "エイ",
+          "romanji": "ei"
+        }
+      ]
     },
     "meanings": {
       "id": "tajam, runcing, sudut lancip",
@@ -368,13 +596,21 @@
         "word": "鋭い",
         "furigana": "するどい",
         "romanji": "surudoi",
-        "meanings": { "id": "tajam, runcing", "en": "sharp, pointed" }
+        "meanings": {
+          "id": "tajam, runcing",
+          "en": "sharp, pointed"
+        },
+        "id": 1
       },
       {
         "word": "鋭角",
         "furigana": "えいかく",
         "romanji": "eikaku",
-        "meanings": { "id": "sudut lancip", "en": "acute angle" }
+        "meanings": {
+          "id": "sudut lancip",
+          "en": "acute angle"
+        },
+        "id": 2
       }
     ]
   }
