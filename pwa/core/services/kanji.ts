@@ -1,9 +1,11 @@
 import n5KanjiData from "@/data/n5/kanji/kanji.json";
 import n4KanjiData from "@/data/n4/kanji/kanji.json";
 import n3KanjiData from "@/data/n3/kanji/kanji.json";
+import n2KanjiData from "@/data/n2/kanji/kanji.json";
 import n5TopicMapping from "@/data/n5/kanji/kanji_topic_mapping.json";
 import n4TopicMapping from "@/data/n4/kanji/kanji_topic_mapping.json";
 import n3TopicMapping from "@/data/n3/kanji/kanji_topic_mapping.json";
+import n2TopicMapping from "@/data/n2/kanji/kanji_topic_mapping.json";
 import { getLessonsByLevel } from "@/pwa/features/home/utils/lesson";
 
 interface KanjiReading {
@@ -60,6 +62,8 @@ export class KanjiService {
         return n4KanjiData;
       case "N3":
         return n3KanjiData;
+      case "N2":
+        return n2KanjiData;
       default:
         return null;
     }
@@ -77,6 +81,7 @@ export class KanjiService {
       case "N3":
         return n3TopicMapping;
       case "N2":
+        return n2TopicMapping;
       case "N1":
         // Return empty structure for levels that don't have topic mapping yet
         return { topic_categories: {} };
