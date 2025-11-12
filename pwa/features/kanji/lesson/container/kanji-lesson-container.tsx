@@ -52,7 +52,7 @@ export function KanjiLessonContainer() {
         {/* Lesson Title */}
         {lessonTitle && (
           <div className="mb-6">
-            <h1 className="text-2xl font-bold text-foreground mb-2">
+            <h1 className="text-xl font-bold text-foreground mb-2">
               {lessonTitle}
             </h1>
           </div>
