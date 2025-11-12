@@ -1,36 +1,29 @@
-import n5KanjiData from "@/data/n5/kanji/kanji.json";
-import n4KanjiData from "@/data/n4/kanji/kanji.json";
+import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
 
-interface Lesson {
+export interface Lesson {
   id: number;
   level: string;
   lessonNumber: number;
   progress: number;
-  kanjiList: string[];
+  kanji: KanjiDetail[];  // Single source of truth - full kanji objects
 }
 
-interface KanjiItem {
-  id: number;
-  character: string;
-  strokes: number;
-}
-
-// Mengelompokkan kanji berdasarkan stroke count
+// Mengelompokkan kanji berdasarkan stroke count menggunakan KanjiService
 const groupKanjiByStrokes = (
-  kanjiItems: KanjiItem[]
-): { [key: number]: string[] } => {
+  kanjiItems: KanjiDetail[]
+): { [key: number]: KanjiDetail[] } => {
   return kanjiItems.reduce((acc, kanji) => {
     if (!acc[kanji.strokes]) {
       acc[kanji.strokes] = [];
     }
-    acc[kanji.strokes].push(kanji.character);
+    acc[kanji.strokes].push(kanji);
     return acc;
-  }, {} as { [key: number]: string[] });
+  }, {} as { [key: number]: KanjiDetail[] });
 };
 
 // Membuat lesson dengan maksimal 5 kanji per lesson
 const createLessonsFromKanjiGroups = (
-  kanjiGroups: { [key: number]: string[] },
+  kanjiGroups: { [key: number]: KanjiDetail[] },
   level: string
 ): Lesson[] => {
   const lessons: Lesson[] = [];
@@ -43,7 +36,7 @@ const createLessonsFromKanjiGroups = (
     .sort((a, b) => a - b);
 
   // Kumpulkan semua kanji dalam urutan stroke count
-  const allKanji: string[] = [];
+  const allKanji: KanjiDetail[] = [];
   sortedStrokes.forEach((strokes) => {
     allKanji.push(...kanjiGroups[strokes]);
   });
@@ -58,25 +51,25 @@ const createLessonsFromKanjiGroups = (
       level: level,
       lessonNumber: lessonNumber++,
       progress: Math.floor(Math.random() * 100), // Random progress untuk sekarang
-      kanjiList: kanjiChunk,
+      kanji: kanjiChunk,
     });
   }
 
   return lessons;
 };
 
-// Helper function untuk mendapatkan lessons berdasarkan level
+// Helper function untuk mendapatkan lessons berdasarkan level - menggunakan KanjiService
 export const getLessonsByLevel = (level: string): Lesson[] => {
-  switch (level.toUpperCase()) {
-    case "N5":
-      const n5KanjiGroups = groupKanjiByStrokes(n5KanjiData.items);
-      return createLessonsFromKanjiGroups(n5KanjiGroups, "N5");
-
-    case "N4":
-      const n4KanjiGroups = groupKanjiByStrokes(n4KanjiData.items);
-      return createLessonsFromKanjiGroups(n4KanjiGroups, "N4");
-
-    default:
-      return [];
+  // Get all kanji for the level using KanjiService (single source of truth)
+  const allKanji = KanjiService.getAllKanjiByLevel(level);
+  
+  if (allKanji.length === 0) {
+    return [];
   }
+
+  // Group kanji by stroke count
+  const kanjiGroups = groupKanjiByStrokes(allKanji);
+  
+  // Create lessons from grouped kanji
+  return createLessonsFromKanjiGroups(kanjiGroups, level.toUpperCase());
 };

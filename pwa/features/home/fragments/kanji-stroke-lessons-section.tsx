@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { KanjiStrokeLessonCard } from "../components/kanji-stroke-lesson-card";
-import { getLessonsByLevel } from "../utils/lesson";
+import { getLessonsByLevel, Lesson } from "../utils/lesson";
 import { useHomeStore } from "../store/home-store";
 import { KanjiExerciseModal } from "./kanji-exercise-modal";
 import {
@@ -14,15 +14,6 @@ import {
 } from "@/pwa/core/components/tabs";
 import { useHomeSettingsStore } from "../store/home-settings.store";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
-
-// Interface untuk Lesson
-interface Lesson {
-  id: number;
-  level: string;
-  lessonNumber: number;
-  progress: number;
-  kanjiList: string[];
-}
 
 export function KanjiStrokeLessonsSection() {
   const { selectedLevel } = useHomeSettingsStore();
@@ -58,11 +49,14 @@ export function KanjiStrokeLessonsSection() {
   const handleExerciseClick = (lessonId: number) => {
     const lesson = strokeLessons.find((l: Lesson) => l.id === lessonId);
     if (lesson) {
+      // Extract kanji characters from the new lesson structure
+      const kanjiCharacters = lesson.kanji.map(k => k.character);
+      
       openKanjiExerciseModal({
         lessonId: lesson.id,
         lessonType: "stroke",
         lessonName: `Lesson ${lesson.lessonNumber}`,
-        kanjiList: lesson.kanjiList
+        kanjiList: kanjiCharacters
       });
     }
   };
@@ -93,7 +87,7 @@ export function KanjiStrokeLessonsSection() {
             level={lesson.level}
             lessonNumber={lesson.lessonNumber}
             progress={getLessonProgress(lesson.id.toString())}
-            kanjiList={lesson.kanjiList}
+            kanjiList={lesson.kanji.map(k => k.character)}
             onExerciseClick={() => handleExerciseClick(lesson.id)}
             onListClick={() => handleListClick(lesson.id)}
           />
@@ -126,7 +120,7 @@ export function KanjiStrokeLessonsSection() {
                 level={lesson.level}
                 lessonNumber={lesson.lessonNumber}
                 progress={getLessonProgress(lesson.id.toString())}
-                kanjiList={lesson.kanjiList}
+                kanjiList={lesson.kanji.map(k => k.character)}
                 onExerciseClick={() => handleExerciseClick(lesson.id)}
                 onListClick={() => handleListClick(lesson.id)}
               />

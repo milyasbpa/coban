@@ -8,7 +8,7 @@ import n3TopicMapping from "@/data/n3/kanji/kanji_topic_mapping.json";
 import n2TopicMapping from "@/data/n2/kanji/kanji_topic_mapping.json";
 import { getLessonsByLevel } from "@/pwa/features/home/utils/lesson";
 
-interface KanjiReading {
+export interface KanjiReading {
   furigana: string;
   romanji: string;
 }
@@ -124,7 +124,7 @@ export class KanjiService {
   }
 
   /**
-   * Get kanji details by lesson ID
+   * Get kanji details by lesson ID - simplified with new lesson structure
    */
   static getKanjiDetailsByLessonId(
     lessonId: number,
@@ -135,7 +135,8 @@ export class KanjiService {
 
     if (!lesson) return [];
 
-    return this.getKanjiDetailsByCharacters(lesson.kanjiList, level);
+    // Lesson now contains full kanji objects - just return them directly!
+    return lesson.kanji;
   }
 
   /**
