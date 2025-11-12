@@ -62,7 +62,7 @@ export class KanjiService {
         return n4KanjiData;
       case "N3":
         return n3KanjiData;
-      case "N2":
+        case "N2":
         return n2KanjiData;
       default:
         return null;
@@ -106,6 +106,24 @@ export class KanjiService {
   }
 
   /**
+   * Get kanji details by ID list and level - more efficient for topic-based queries
+   */
+  static getKanjiDetailsByIds(
+    ids: number[],
+    level: string
+  ): KanjiDetail[] {
+    const kanjiData = this.getKanjiData(level);
+    if (!kanjiData) return [];
+
+    // Create a Map for O(1) lookup instead of O(n) for each ID
+    const kanjiMap = new Map(kanjiData.items.map(kanji => [kanji.id, kanji]));
+    
+    return ids
+      .map(id => kanjiMap.get(id))
+      .filter(Boolean) as KanjiDetail[];
+  }
+
+  /**
    * Get kanji details by lesson ID
    */
   static getKanjiDetailsByLessonId(
@@ -121,7 +139,7 @@ export class KanjiService {
   }
 
   /**
-   * Get kanji details by topic ID
+   * Get kanji details by topic ID - optimized to use kanji_ids directly
    */
   static getKanjiDetailsByTopicId(
     topicId: string,
@@ -131,11 +149,12 @@ export class KanjiService {
     const category = categories[topicId];
     if (!category) return [];
 
-    return this.getKanjiDetailsByCharacters(category.kanji_characters, level);
+    // Use kanji_ids directly for better performance instead of converting characters
+    return this.getKanjiDetailsByIds(category.kanji_ids, level);
   }
 
   /**
-   * Get all available topic categories - moved from topic.ts (general function)
+   * Get all available topic categories
    */
   static getTopicCategories(
     level: string = "N5"
@@ -145,7 +164,7 @@ export class KanjiService {
   }
 
   /**
-   * Get kanji filtered by topic using kanji_ids from mapping - moved from topic.ts (general function)
+   * Get kanji filtered by topic using kanji_ids 
    */
   static getKanjiByTopic(
     allKanji: KanjiDetail[],
