@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { KanjiTopicLessonCard } from "../components/kanji-topic-lesson-card";
 import { getTopicLessons } from "../../kanji/lesson/utils/topic";
@@ -23,12 +23,17 @@ export function KanjiTopicLessonsSection() {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
 
+  // Reset to tab 1 when selected level changed
+  useEffect(() => {
+    setActiveTab("1");
+  }, [selectedLevel]);
+
   const TOPICS_PER_TAB = 10;
 
   // Ambil topic lessons berdasarkan level yang dipilih
   const topicLessons = getTopicLessons(selectedLevel);
 
-  // Bagi topic lessons ke dalam tab-tab (pagination dengan limit 10)  
+  // Bagi topic lessons ke dalam tab-tab (pagination dengan limit 10)
   const topicTabs = useMemo(() => {
     const tabs = [];
     for (let i = 0; i < topicLessons.length; i += TOPICS_PER_TAB) {
@@ -52,12 +57,12 @@ export function KanjiTopicLessonsSection() {
       const categories = KanjiService.getTopicCategories(selectedLevel);
       const category = categories[topicId];
       const kanjiList = category?.kanji_characters || [];
-      
+
       openKanjiExerciseModal({
         topicId: topicId,
         lessonType: "topic",
         lessonName: topic.name || category?.name || topicId,
-        kanjiList: kanjiList
+        kanjiList: kanjiList,
       });
     }
   };
@@ -124,15 +129,15 @@ export function KanjiTopicLessonsSection() {
               const categories = KanjiService.getTopicCategories(selectedLevel);
               const category = categories[topic.id];
               return (
-              <KanjiTopicLessonCard
-                key={topic.id}
-                level={selectedLevel}
-                name={topic.name}
-                progress={getLessonProgress(`topic_${topic.id}`)}
-                kanjiList={category?.kanji_characters || []}
-                onExerciseClick={() => handleTopicExerciseClick(topic.id)}
-                onListClick={() => handleTopicListClick(topic.id)}
-              />
+                <KanjiTopicLessonCard
+                  key={topic.id}
+                  level={selectedLevel}
+                  name={topic.name}
+                  progress={getLessonProgress(`topic_${topic.id}`)}
+                  kanjiList={category?.kanji_characters || []}
+                  onExerciseClick={() => handleTopicExerciseClick(topic.id)}
+                  onListClick={() => handleTopicListClick(topic.id)}
+                />
               );
             })}
           </TabsContent>

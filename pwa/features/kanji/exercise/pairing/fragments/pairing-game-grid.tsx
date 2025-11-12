@@ -110,14 +110,6 @@ export function PairingGameGrid() {
     incrementCorrectPairs,
   } = usePairingGameStore();
 
-  console.log(
-    globalErrorWords,
-    sectionErrorWords,
-    "errors: global and section"
-  );
-
-  // Helper function moved to language-helpers.ts for better reusability
-
   // Create shuffled meanings with mapping to PairingWord
   const shuffledMeaningsData = useMemo(() => {
     const meaningsWithWords = createMeaningsData(
@@ -183,8 +175,6 @@ export function PairingGameGrid() {
             ...matchedPairs,
             matchingWord.id, // Hanya simpan ID angka asli dari PairingWord
           ]);
-
-          console.log(newMatchedPairs, "ini new matched pairs");
 
           setMatchedPairs(newMatchedPairs);
           incrementCorrectPairs();
