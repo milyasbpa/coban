@@ -4,13 +4,23 @@
     "character": "渇",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "かわ", "romanji": "kawa" } ],
-      "on": [ { "furigana": "カツ", "romanji": "katsu" } ]
+      "kun": [{ "furigana": "かわ", "romanji": "kawa" }],
+      "on": [{ "furigana": "カツ", "romanji": "katsu" }]
     },
     "meanings": { "id": "haus, mendambakan", "en": "thirsty, to long for" },
     "examples": [
-      { "word": "渇く", "furigana": "かわく", "romanji": "kawaku", "meanings": { "id": "haus", "en": "to be thirsty" } },
-      { "word": "渇望する", "furigana": "かつぼうする", "romanji": "katsubou suru", "meanings": { "id": "mendambakan", "en": "to long for" } }
+      {
+        "word": "渇く",
+        "furigana": "かわく",
+        "romanji": "kawaku",
+        "meanings": { "id": "haus", "en": "to be thirsty" }
+      },
+      {
+        "word": "渇望する",
+        "furigana": "かつぼうする",
+        "romanji": "katsubou suru",
+        "meanings": { "id": "mendambakan", "en": "to long for" }
+      }
     ]
   },
   {
@@ -18,12 +28,30 @@
     "character": "渋",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "しぶ", "romanji": "shibu" } ],
-      "on": [ { "furigana": "ジュウ", "romanji": "juu" } ]
+      "kun": [{ "furigana": "しぶ", "romanji": "shibu" }],
+      "on": [{ "furigana": "ジュウ", "romanji": "juu" }]
     },
-    "meanings": { "id": "sepat, masam, kepedihan", "en": "astringent, sour, bitterness" },
+    "meanings": {
+      "id": "sepat, masam, kepedihan",
+      "en": "astringent, sour, bitterness"
+    },
     "examples": [
-      { "word": "苦渋", "furigana": "くじゅう", "romanji": "kujuu", "meanings": { "id": "kepedihan", "en": "bitterness, anguish" } }
+      {
+        "word": "苦渋",
+        "furigana": "くじゅう",
+        "romanji": "kujuu",
+        "meanings": { "id": "kepedihan", "en": "bitterness, anguish" }
+      },
+      {
+        "id": 207,
+        "word": "渋い",
+        "furigana": "しぶい",
+        "romanji": "shibui",
+        "meanings": {
+          "id": "sepat, masam",
+          "en": "astringent, sour"
+        }
+      }
     ]
   },
   {
@@ -31,14 +59,32 @@
     "character": "清",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "きよ", "romanji": "kiyo" } ],
-      "on": [ { "furigana": "セイ", "romanji": "sei" }, { "furigana": "ジョウ", "romanji": "jou" } ]
+      "kun": [{ "furigana": "きよ", "romanji": "kiyo" }],
+      "on": [
+        { "furigana": "セイ", "romanji": "sei" },
+        { "furigana": "ジョウ", "romanji": "jou" }
+      ]
     },
     "meanings": { "id": "menyucikan, bersih", "en": "to purify, clean" },
     "examples": [
-      { "word": "清める", "furigana": "きよめる", "romanji": "kiyomeru", "meanings": { "id": "menyucikan", "en": "to purify" } },
-      { "word": "清潔", "furigana": "せいけつ", "romanji": "seiketsu", "meanings": { "id": "bersih", "en": "clean" } },
-      { "word": "清浄", "furigana": "せいじょう", "romanji": "seijou", "meanings": { "id": "bersih", "en": "clean, pure" } }
+      {
+        "word": "清める",
+        "furigana": "きよめる",
+        "romanji": "kiyomeru",
+        "meanings": { "id": "menyucikan", "en": "to purify" }
+      },
+      {
+        "word": "清潔",
+        "furigana": "せいけつ",
+        "romanji": "seiketsu",
+        "meanings": { "id": "bersih", "en": "clean" }
+      },
+      {
+        "word": "清浄",
+        "furigana": "せいじょう",
+        "romanji": "seijou",
+        "meanings": { "id": "bersih", "en": "clean, pure" }
+      }
     ]
   },
   {
@@ -46,13 +92,23 @@
     "character": "涼",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "すず", "romanji": "suzu" } ],
-      "on": [ { "furigana": "リョウ", "romanji": "ryou" } ]
+      "kun": [{ "furigana": "すず", "romanji": "suzu" }],
+      "on": [{ "furigana": "リョウ", "romanji": "ryou" }]
     },
     "meanings": { "id": "sejuk, angin sejuk", "en": "cool, breeze" },
     "examples": [
-      { "word": "涼しい", "furigana": "すずしい", "romanji": "suzushii", "meanings": { "id": "sejuk", "en": "cool" } },
-      { "word": "涼風", "furigana": "りょうふう", "romanji": "ryoufuu", "meanings": { "id": "angin sejuk", "en": "cool breeze" } }
+      {
+        "word": "涼しい",
+        "furigana": "すずしい",
+        "romanji": "suzushii",
+        "meanings": { "id": "sejuk", "en": "cool" }
+      },
+      {
+        "word": "涼風",
+        "furigana": "りょうふう",
+        "romanji": "ryoufuu",
+        "meanings": { "id": "angin sejuk", "en": "cool breeze" }
+      }
     ]
   },
   {
@@ -61,11 +117,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "エキ", "romanji": "eki" } ]
+      "on": [{ "furigana": "エキ", "romanji": "eki" }]
     },
     "meanings": { "id": "bentuk cairan", "en": "liquid, fluid" },
     "examples": [
-      { "word": "液体", "furigana": "えきたい", "romanji": "ekitai", "meanings": { "id": "bentuk cairan", "en": "liquid" } }
+      {
+        "word": "液体",
+        "furigana": "えきたい",
+        "romanji": "ekitai",
+        "meanings": { "id": "bentuk cairan", "en": "liquid" }
+      }
     ]
   },
   {
@@ -74,11 +135,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "シャ", "romanji": "sha" } ]
+      "on": [{ "furigana": "シャ", "romanji": "sha" }]
     },
     "meanings": { "id": "pengampunan", "en": "forgiveness, pardon" },
     "examples": [
-      { "word": "赦免", "furigana": "しゃめん", "romanji": "shamen", "meanings": { "id": "pengampunan", "en": "pardon, forgiveness" } }
+      {
+        "word": "赦免",
+        "furigana": "しゃめん",
+        "romanji": "shamen",
+        "meanings": { "id": "pengampunan", "en": "pardon, forgiveness" }
+      }
     ]
   },
   {
@@ -86,13 +152,23 @@
     "character": "救",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "すく", "romanji": "suku" } ],
-      "on": [ { "furigana": "キュウ", "romanji": "kyuu" } ]
+      "kun": [{ "furigana": "すく", "romanji": "suku" }],
+      "on": [{ "furigana": "キュウ", "romanji": "kyuu" }]
     },
     "meanings": { "id": "menolong, pertolongan", "en": "to help, rescue" },
     "examples": [
-      { "word": "救う", "furigana": "すくう", "romanji": "sukuu", "meanings": { "id": "menolong", "en": "to help, to rescue" } },
-      { "word": "救助", "furigana": "きゅうじょ", "romanji": "kyuujo", "meanings": { "id": "pertolongan", "en": "rescue, aid" } }
+      {
+        "word": "救う",
+        "furigana": "すくう",
+        "romanji": "sukuu",
+        "meanings": { "id": "menolong", "en": "to help, to rescue" }
+      },
+      {
+        "word": "救助",
+        "furigana": "きゅうじょ",
+        "romanji": "kyuujo",
+        "meanings": { "id": "pertolongan", "en": "rescue, aid" }
+      }
     ]
   },
   {
@@ -101,11 +177,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "コン", "romanji": "kon" } ]
+      "on": [{ "furigana": "コン", "romanji": "kon" }]
     },
     "meanings": { "id": "warna biru tua", "en": "dark blue, navy" },
     "examples": [
-      { "word": "紺色", "furigana": "こんいろ", "romanji": "kon'iro", "meanings": { "id": "warna biru tua", "en": "dark blue, navy" } }
+      {
+        "word": "紺色",
+        "furigana": "こんいろ",
+        "romanji": "kon'iro",
+        "meanings": { "id": "warna biru tua", "en": "dark blue, navy" }
+      }
     ]
   },
   {
@@ -113,13 +194,32 @@
     "character": "崩",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "くず", "romanji": "kuzu" } ],
-      "on": [ { "furigana": "ホウ", "romanji": "hou" } ]
+      "kun": [{ "furigana": "くず", "romanji": "kuzu" }],
+      "on": [{ "furigana": "ホウ", "romanji": "hou" }]
     },
-    "meanings": { "id": "runtuh, longsor, rusak, roboh", "en": "collapse, landslide, broken, ruined" },
+    "meanings": {
+      "id": "runtuh, longsor, rusak, roboh",
+      "en": "collapse, landslide, broken, ruined"
+    },
     "examples": [
-      { "word": "崩れる", "furigana": "くずれる", "romanji": "kuzureru", "meanings": { "id": "runtuh, longsor", "en": "to collapse, to landslide" } },
-      { "word": "崩壊する", "furigana": "ほうかいする", "romanji": "houkai suru", "meanings": { "id": "rusak, roboh", "en": "to break down, to fall apart" } }
+      {
+        "word": "崩れる",
+        "furigana": "くずれる",
+        "romanji": "kuzureru",
+        "meanings": {
+          "id": "runtuh, longsor",
+          "en": "to collapse, to landslide"
+        }
+      },
+      {
+        "word": "崩壊する",
+        "furigana": "ほうかいする",
+        "romanji": "houkai suru",
+        "meanings": {
+          "id": "rusak, roboh",
+          "en": "to break down, to fall apart"
+        }
+      }
     ]
   },
   {
@@ -127,14 +227,32 @@
     "character": "脚",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "あし", "romanji": "ashi" } ],
-      "on": [ { "furigana": "キャク", "romanji": "kyaku" } ]
+      "kun": [{ "furigana": "あし", "romanji": "ashi" }],
+      "on": [{ "furigana": "キャク", "romanji": "kyaku" }]
     },
-    "meanings": { "id": "kaki meja, tripod, penyangga kaki", "en": "table leg, tripod, leg support" },
+    "meanings": {
+      "id": "kaki meja, tripod, penyangga kaki",
+      "en": "table leg, tripod, leg support"
+    },
     "examples": [
-      { "word": "机の脚", "furigana": "つくえのあし", "romanji": "tsukue no ashi", "meanings": { "id": "kaki meja", "en": "table leg" } },
-      { "word": "三脚", "furigana": "さんきゃく", "romanji": "sankyaku", "meanings": { "id": "tripod", "en": "tripod" } },
-      { "word": "脚立", "furigana": "きゃたつ", "romanji": "kyatatsu", "meanings": { "id": "penyangga kaki", "en": "leg support, stepladder" } }
+      {
+        "word": "机の脚",
+        "furigana": "つくえのあし",
+        "romanji": "tsukue no ashi",
+        "meanings": { "id": "kaki meja", "en": "table leg" }
+      },
+      {
+        "word": "三脚",
+        "furigana": "さんきゃく",
+        "romanji": "sankyaku",
+        "meanings": { "id": "tripod", "en": "tripod" }
+      },
+      {
+        "word": "脚立",
+        "furigana": "きゃたつ",
+        "romanji": "kyatatsu",
+        "meanings": { "id": "penyangga kaki", "en": "leg support, stepladder" }
+      }
     ]
   },
   {
@@ -142,14 +260,32 @@
     "character": "脱",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "ぬ", "romanji": "nu" } ],
-      "on": [ { "furigana": "ダツ", "romanji": "datsu" } ]
+      "kun": [{ "furigana": "ぬ", "romanji": "nu" }],
+      "on": [{ "furigana": "ダツ", "romanji": "datsu" }]
     },
-    "meanings": { "id": "melepas (pakaian), penghindaran pajak, keluar dari rel, anjlok", "en": "to take off (clothes), tax evasion, derail, plummet" },
+    "meanings": {
+      "id": "melepas (pakaian), penghindaran pajak, keluar dari rel, anjlok",
+      "en": "to take off (clothes), tax evasion, derail, plummet"
+    },
     "examples": [
-      { "word": "脱ぐ", "furigana": "ぬぐ", "romanji": "nugu", "meanings": { "id": "melepas (pakaian)", "en": "to take off (clothes)" } },
-      { "word": "脱税", "furigana": "だつぜい", "romanji": "datsuzei", "meanings": { "id": "penghindaran pajak", "en": "tax evasion" } },
-      { "word": "脱線", "furigana": "だっせん", "romanji": "dassen", "meanings": { "id": "keluar dari rel, anjlok", "en": "derail, plummet" } }
+      {
+        "word": "脱ぐ",
+        "furigana": "ぬぐ",
+        "romanji": "nugu",
+        "meanings": { "id": "melepas (pakaian)", "en": "to take off (clothes)" }
+      },
+      {
+        "word": "脱税",
+        "furigana": "だつぜい",
+        "romanji": "datsuzei",
+        "meanings": { "id": "penghindaran pajak", "en": "tax evasion" }
+      },
+      {
+        "word": "脱線",
+        "furigana": "だっせん",
+        "romanji": "dassen",
+        "meanings": { "id": "keluar dari rel, anjlok", "en": "derail, plummet" }
+      }
     ]
   },
   {
@@ -157,13 +293,23 @@
     "character": "豚",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "ぶた", "romanji": "buta" } ],
-      "on": [ { "furigana": "トン", "romanji": "ton" } ]
+      "kun": [{ "furigana": "ぶた", "romanji": "buta" }],
+      "on": [{ "furigana": "トン", "romanji": "ton" }]
     },
     "meanings": { "id": "daging babi, tulang babi", "en": "pork, pig bone" },
     "examples": [
-      { "word": "豚肉", "furigana": "ぶたにく", "romanji": "butaniku", "meanings": { "id": "daging babi", "en": "pork" } },
-      { "word": "豚骨", "furigana": "とんこつ", "romanji": "tonkotsu", "meanings": { "id": "tulang babi", "en": "pig bone" } }
+      {
+        "word": "豚肉",
+        "furigana": "ぶたにく",
+        "romanji": "butaniku",
+        "meanings": { "id": "daging babi", "en": "pork" }
+      },
+      {
+        "word": "豚骨",
+        "furigana": "とんこつ",
+        "romanji": "tonkotsu",
+        "meanings": { "id": "tulang babi", "en": "pig bone" }
+      }
     ]
   }
 ]

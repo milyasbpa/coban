@@ -5,11 +5,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "カ", "romanji": "ka" } ]
+      "on": [{ "furigana": "カ", "romanji": "ka" }]
     },
     "meanings": { "id": "makanan ringan", "en": "snack, confectionery" },
     "examples": [
-      { "word": "お菓子", "furigana": "おかし", "romanji": "okashi", "meanings": { "id": "makanan ringan", "en": "snack, confectionery" } }
+      {
+        "word": "お菓子",
+        "furigana": "おかし",
+        "romanji": "okashi",
+        "meanings": { "id": "makanan ringan", "en": "snack, confectionery" }
+      }
     ]
   },
   {
@@ -17,14 +22,38 @@
     "character": "著",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "あらわ", "romanji": "arawa" }, { "furigana": "いちじる", "romanji": "ichijiru" } ],
-      "on": [ { "furigana": "チョ", "romanji": "cho" } ]
+      "kun": [
+        { "furigana": "あらわ", "romanji": "arawa" },
+        { "furigana": "いちじる", "romanji": "ichijiru" }
+      ],
+      "on": [{ "furigana": "チョ", "romanji": "cho" }]
     },
-    "meanings": { "id": "mengarang, menerbitkan, hebat sekali, pengarang, penulis", "en": "to write, to publish, remarkable, author" },
+    "meanings": {
+      "id": "mengarang, menerbitkan, hebat sekali, pengarang, penulis",
+      "en": "to write, to publish, remarkable, author"
+    },
     "examples": [
-      { "word": "著す", "furigana": "あらわす", "romanji": "arawasu", "meanings": { "id": "mengarang, menerbitkan", "en": "to write, to publish" } },
-      { "word": "著しい", "furigana": "いちじるしい", "romanji": "ichijirushii", "meanings": { "id": "hebat sekali", "en": "remarkable" } },
-      { "word": "著者", "furigana": "ちょしゃ", "romanji": "chosha", "meanings": { "id": "pengarang, penulis", "en": "author, writer" } }
+      {
+        "word": "著す",
+        "furigana": "あらわす",
+        "romanji": "arawasu",
+        "meanings": {
+          "id": "mengarang, menerbitkan",
+          "en": "to write, to publish"
+        }
+      },
+      {
+        "word": "著しい",
+        "furigana": "いちじるしい",
+        "romanji": "ichijirushii",
+        "meanings": { "id": "hebat sekali", "en": "remarkable" }
+      },
+      {
+        "word": "著者",
+        "furigana": "ちょしゃ",
+        "romanji": "chosha",
+        "meanings": { "id": "pengarang, penulis", "en": "author, writer" }
+      }
     ]
   },
   {
@@ -33,11 +62,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "キン", "romanji": "kin" } ]
+      "on": [{ "furigana": "キン", "romanji": "kin" }]
     },
     "meanings": { "id": "kuman, bakteri", "en": "germ, bacteria" },
     "examples": [
-      { "word": "ばい菌", "furigana": "ばいきん", "romanji": "baikin", "meanings": { "id": "kuman, bakteri", "en": "germ, bacteria" } }
+      {
+        "word": "ばい菌",
+        "furigana": "ばいきん",
+        "romanji": "baikin",
+        "meanings": { "id": "kuman, bakteri", "en": "germ, bacteria" }
+      }
     ]
   },
   {
@@ -46,11 +80,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "キク", "romanji": "kiku" } ]
+      "on": [{ "furigana": "キク", "romanji": "kiku" }]
     },
     "meanings": { "id": "bunga krisan", "en": "chrysanthemum" },
     "examples": [
-      { "word": "菊の花", "furigana": "きくのはな", "romanji": "kiku no hana", "meanings": { "id": "bunga krisan", "en": "chrysanthemum" } }
+      {
+        "word": "菊の花",
+        "furigana": "きくのはな",
+        "romanji": "kiku no hana",
+        "meanings": { "id": "bunga krisan", "en": "chrysanthemum" }
+      }
     ]
   },
   {
@@ -59,11 +98,22 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "フ", "romanji": "fu" } ]
+      "on": [{ "furigana": "フ", "romanji": "fu" }]
     },
     "meanings": { "id": "kode, tanda, symbol", "en": "code, symbol, sign" },
     "examples": [
-      { "word": "符号", "furigana": "ふごう", "romanji": "fugou", "meanings": { "id": "kode, tanda, symbol", "en": "code, symbol" } }
+      {
+        "word": "符号",
+        "furigana": "ふごう",
+        "romanji": "fugou",
+        "meanings": { "id": "kode, tanda, symbol", "en": "code, symbol" }
+      },
+      {
+        "word": "切符",
+        "furigana": "きっぷ",
+        "romanji": "kippu",
+        "meanings": { "id": "tiket, karcis", "en": "ticket" }
+      }
     ]
   },
   {
@@ -72,11 +122,20 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ケン", "romanji": "ken" } ]
+      "on": [{ "furigana": "ケン", "romanji": "ken" }]
     },
     "meanings": { "id": "tiket, karcis", "en": "ticket, coupon" },
     "examples": [
-      { "word": "切符", "furigana": "きっぷ", "romanji": "kippu", "meanings": { "id": "tiket, karcis", "en": "ticket" } }
+      {
+        "id": 205,
+        "word": "第一",
+        "furigana": "だいいち",
+        "romanji": "daiichi",
+        "meanings": {
+          "id": "nomor satu, yang pertama",
+          "en": "number one, first"
+        }
+      }
     ]
   },
   {
@@ -85,12 +144,28 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "ヒョウ", "romanji": "hyou" }, { "furigana": "ピョウ", "romanji": "pyou" } ]
+      "on": [
+        { "furigana": "ヒョウ", "romanji": "hyou" },
+        { "furigana": "ピョウ", "romanji": "pyou" }
+      ]
     },
-    "meanings": { "id": "pemberian suara, formulir, slip", "en": "vote, ballot, slip" },
+    "meanings": {
+      "id": "pemberian suara, formulir, slip",
+      "en": "vote, ballot, slip"
+    },
     "examples": [
-      { "word": "投票", "furigana": "とうひょう", "romanji": "touhyou", "meanings": { "id": "pemberian suara", "en": "vote" } },
-      { "word": "伝票", "furigana": "でんぴょう", "romanji": "denpyou", "meanings": { "id": "formulir, slip", "en": "slip, form" } }
+      {
+        "word": "投票",
+        "furigana": "とうひょう",
+        "romanji": "touhyou",
+        "meanings": { "id": "pemberian suara", "en": "vote" }
+      },
+      {
+        "word": "伝票",
+        "furigana": "でんぴょう",
+        "romanji": "denpyou",
+        "meanings": { "id": "formulir, slip", "en": "slip, form" }
+      }
     ]
   },
   {
@@ -98,13 +173,26 @@
     "character": "祭",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "まつ", "romanji": "matsu" } ],
-      "on": [ { "furigana": "サイ", "romanji": "sai" } ]
+      "kun": [{ "furigana": "まつ", "romanji": "matsu" }],
+      "on": [{ "furigana": "サイ", "romanji": "sai" }]
     },
-    "meanings": { "id": "perayaan festival, hari raya nasional", "en": "festival, national holiday" },
+    "meanings": {
+      "id": "perayaan festival, hari raya nasional",
+      "en": "festival, national holiday"
+    },
     "examples": [
-      { "word": "祭り", "furigana": "まつり", "romanji": "matsuri", "meanings": { "id": "perayaan festival", "en": "festival" } },
-      { "word": "祭日", "furigana": "さいじつ", "romanji": "saijitsu", "meanings": { "id": "hari raya nasional", "en": "national holiday" } }
+      {
+        "word": "祭り",
+        "furigana": "まつり",
+        "romanji": "matsuri",
+        "meanings": { "id": "perayaan festival", "en": "festival" }
+      },
+      {
+        "word": "祭日",
+        "furigana": "さいじつ",
+        "romanji": "saijitsu",
+        "meanings": { "id": "hari raya nasional", "en": "national holiday" }
+      }
     ]
   },
   {
@@ -112,14 +200,38 @@
     "character": "都",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "みやこ", "romanji": "miyako" } ],
-      "on": [ { "furigana": "ト", "romanji": "to" }, { "furigana": "ツ", "romanji": "tsu" } ]
+      "kun": [{ "furigana": "みやこ", "romanji": "miyako" }],
+      "on": [
+        { "furigana": "ト", "romanji": "to" },
+        { "furigana": "ツ", "romanji": "tsu" }
+      ]
     },
-    "meanings": { "id": "ibu kota, kota, kesempatan, keadaan", "en": "capital, city, opportunity, condition" },
+    "meanings": {
+      "id": "ibu kota, kota, kesempatan, keadaan",
+      "en": "capital, city, opportunity, condition"
+    },
     "examples": [
-      { "word": "都", "furigana": "みやこ", "romanji": "miyako", "meanings": { "id": "ibu kota", "en": "capital" } },
-      { "word": "都市", "furigana": "とし", "romanji": "toshi", "meanings": { "id": "kota", "en": "city" } },
-      { "word": "都合", "furigana": "つごう", "romanji": "tsugou", "meanings": { "id": "kesempatan, keadaan", "en": "opportunity, condition" } }
+      {
+        "word": "都",
+        "furigana": "みやこ",
+        "romanji": "miyako",
+        "meanings": { "id": "ibu kota", "en": "capital" }
+      },
+      {
+        "word": "都市",
+        "furigana": "とし",
+        "romanji": "toshi",
+        "meanings": { "id": "kota", "en": "city" }
+      },
+      {
+        "word": "都合",
+        "furigana": "つごう",
+        "romanji": "tsugou",
+        "meanings": {
+          "id": "kesempatan, keadaan",
+          "en": "opportunity, condition"
+        }
+      }
     ]
   },
   {
@@ -128,11 +240,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "リク", "romanji": "riku" } ]
+      "on": [{ "furigana": "リク", "romanji": "riku" }]
     },
     "meanings": { "id": "tanah daratan", "en": "land, continent" },
     "examples": [
-      { "word": "大陸", "furigana": "たいりく", "romanji": "tairiku", "meanings": { "id": "tanah daratan", "en": "continent" } }
+      {
+        "word": "大陸",
+        "furigana": "たいりく",
+        "romanji": "tairiku",
+        "meanings": { "id": "tanah daratan", "en": "continent" }
+      }
     ]
   },
   {
@@ -140,14 +257,35 @@
     "character": "基",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "もと", "romanji": "moto" }, { "furigana": "もとい", "romanji": "motoi" } ],
-      "on": [ { "furigana": "キ", "romanji": "ki" } ]
+      "kun": [
+        { "furigana": "もと", "romanji": "moto" },
+        { "furigana": "もとい", "romanji": "motoi" }
+      ],
+      "on": [{ "furigana": "キ", "romanji": "ki" }]
     },
-    "meanings": { "id": "berdasarkan, basis Negara, fondasi, dasar", "en": "based on, foundation, basis" },
+    "meanings": {
+      "id": "berdasarkan, basis Negara, fondasi, dasar",
+      "en": "based on, foundation, basis"
+    },
     "examples": [
-      { "word": "基づく", "furigana": "もとづく", "romanji": "motoduku", "meanings": { "id": "berdasarkan", "en": "based on" } },
-      { "word": "国の基", "furigana": "くにのもとい", "romanji": "kuni no motoi", "meanings": { "id": "basis Negara", "en": "foundation of the country" } },
-      { "word": "基礎", "furigana": "きそ", "romanji": "kiso", "meanings": { "id": "fondasi, dasar", "en": "foundation, basis" } }
+      {
+        "word": "基づく",
+        "furigana": "もとづく",
+        "romanji": "motoduku",
+        "meanings": { "id": "berdasarkan", "en": "based on" }
+      },
+      {
+        "word": "国の基",
+        "furigana": "くにのもとい",
+        "romanji": "kuni no motoi",
+        "meanings": { "id": "basis Negara", "en": "foundation of the country" }
+      },
+      {
+        "word": "基礎",
+        "furigana": "きそ",
+        "romanji": "kiso",
+        "meanings": { "id": "fondasi, dasar", "en": "foundation, basis" }
+      }
     ]
   },
   {
@@ -156,11 +294,16 @@
     "strokes": 11,
     "readings": {
       "kun": [],
-      "on": [ { "furigana": "イキ", "romanji": "iki" } ]
+      "on": [{ "furigana": "イキ", "romanji": "iki" }]
     },
     "meanings": { "id": "zona, area, wilayah", "en": "zone, area, region" },
     "examples": [
-      { "word": "地域", "furigana": "ちいき", "romanji": "chiiki", "meanings": { "id": "zona, area, wilayah", "en": "zone, area, region" } }
+      {
+        "word": "地域",
+        "furigana": "ちいき",
+        "romanji": "chiiki",
+        "meanings": { "id": "zona, area, wilayah", "en": "zone, area, region" }
+      }
     ]
   },
   {
@@ -168,12 +311,20 @@
     "character": "埼",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "さい", "romanji": "sai" } ],
+      "kun": [{ "furigana": "さい", "romanji": "sai" }],
       "on": []
     },
     "meanings": { "id": "(nama tempat) Saitama", "en": "Saitama (place name)" },
     "examples": [
-      { "word": "埼玉", "furigana": "さいたま", "romanji": "saitama", "meanings": { "id": "(nama tempat) Saitama", "en": "Saitama (place name)" } }
+      {
+        "word": "埼玉",
+        "furigana": "さいたま",
+        "romanji": "saitama",
+        "meanings": {
+          "id": "(nama tempat) Saitama",
+          "en": "Saitama (place name)"
+        }
+      }
     ]
   },
   {
@@ -181,13 +332,32 @@
     "character": "崎",
     "strokes": 11,
     "readings": {
-      "kun": [ { "furigana": "さき", "romanji": "saki" }, { "furigana": "ざき", "romanji": "zaki" } ],
+      "kun": [
+        { "furigana": "さき", "romanji": "saki" },
+        { "furigana": "ざき", "romanji": "zaki" }
+      ],
       "on": []
     },
-    "meanings": { "id": "(nama kota) Takasaki, (nama tempat) Miyazaki", "en": "Takasaki (city), Miyazaki (place name)" },
+    "meanings": {
+      "id": "(nama kota) Takasaki, (nama tempat) Miyazaki",
+      "en": "Takasaki (city), Miyazaki (place name)"
+    },
     "examples": [
-      { "word": "高崎市", "furigana": "たかさきし", "romanji": "takasaki-shi", "meanings": { "id": "(nama kota) Takasaki", "en": "Takasaki (city)" } },
-      { "word": "宮崎", "furigana": "みやざき", "romanji": "miyazaki", "meanings": { "id": "(nama tempat) Miyazaki", "en": "Miyazaki (place name)" } }
+      {
+        "word": "高崎市",
+        "furigana": "たかさきし",
+        "romanji": "takasaki-shi",
+        "meanings": { "id": "(nama kota) Takasaki", "en": "Takasaki (city)" }
+      },
+      {
+        "word": "宮崎",
+        "furigana": "みやざき",
+        "romanji": "miyazaki",
+        "meanings": {
+          "id": "(nama tempat) Miyazaki",
+          "en": "Miyazaki (place name)"
+        }
+      }
     ]
   }
 ]
