@@ -8,8 +8,19 @@ def fix_example_ids(file_path):
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
+        # Check if data has 'items' key (N4/N5 structure) or is direct array (N2 structure)
+        if isinstance(data, dict) and 'items' in data:
+            # Handle N4/N5 structure
+            kanji_list = data['items']
+        elif isinstance(data, list):
+            # Handle N2 structure
+            kanji_list = data
+        else:
+            print(f"Unknown structure in {file_path}")
+            return False
+        
         # Fix each kanji's example IDs
-        for kanji in data:
+        for kanji in kanji_list:
             if 'examples' in kanji:
                 for i, example in enumerate(kanji['examples']):
                     example['id'] = i + 1
@@ -26,34 +37,6 @@ def fix_example_ids(file_path):
 
 # List of files to fix
 files_to_fix = [
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-11-25.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-26-35.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-107-120.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-121-132.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-133-144.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-145-156.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-157-168.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-145-156.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-169-179.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-180-190.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-191-204.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-205-219.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-220-233.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-234-245.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-246-258.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-259-269.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-270-280.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-307-317.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-318-328.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-329-340.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-341-354.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-355-365.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-366-376.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-377-393.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-394-407.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-408-420.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-421-434.json',
-    '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n2/kanji/kanji-435-448.json',
     '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n3/kanji/kanji.json',
     '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n4/kanji/kanji.json',
     '/Users/ilyasbashirah/Documents/kerja/bas.co/coban/data/n5/kanji/kanji.json'
