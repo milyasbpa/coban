@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { KanjiStrokeLessonCard } from "../components/kanji-stroke-lesson-card";
 import { getLessonsByLevel, Lesson } from "../utils/lesson";
@@ -21,6 +21,11 @@ export function KanjiStrokeLessonsSection() {
   const { getLessonProgress } = useKanjiScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
+
+  // Reset to tab 1 when selected level changed
+  useEffect(() => {
+    setActiveTab("1");
+  }, [selectedLevel]);
 
   const LESSONS_PER_TAB = 10;
 
@@ -50,13 +55,13 @@ export function KanjiStrokeLessonsSection() {
     const lesson = strokeLessons.find((l: Lesson) => l.id === lessonId);
     if (lesson) {
       // Extract kanji characters from the new lesson structure
-      const kanjiCharacters = lesson.kanji.map(k => k.character);
-      
+      const kanjiCharacters = lesson.kanji.map((k) => k.character);
+
       openKanjiExerciseModal({
         lessonId: lesson.id,
         lessonType: "stroke",
         lessonName: `Lesson ${lesson.lessonNumber}`,
-        kanjiList: kanjiCharacters
+        kanjiList: kanjiCharacters,
       });
     }
   };
@@ -87,7 +92,7 @@ export function KanjiStrokeLessonsSection() {
             level={lesson.level}
             lessonNumber={lesson.lessonNumber}
             progress={getLessonProgress(lesson.id.toString())}
-            kanjiList={lesson.kanji.map(k => k.character)}
+            kanjiList={lesson.kanji.map((k) => k.character)}
             onExerciseClick={() => handleExerciseClick(lesson.id)}
             onListClick={() => handleListClick(lesson.id)}
           />
@@ -101,16 +106,31 @@ export function KanjiStrokeLessonsSection() {
   return (
     <div className="space-y-4">
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList
-          className="grid w-full"
-          style={{ gridTemplateColumns: `repeat(${lessonTabs.length}, 1fr)` }}
-        >
-          {lessonTabs.map((tab) => (
-            <TabsTrigger key={tab.id} value={tab.id} className="text-xs">
-              Lessons {tab.label}
-            </TabsTrigger>
-          ))}
-        </TabsList>
+        <div className="w-full overflow-x-auto">
+          <TabsList
+            className={`
+              ${lessonTabs.length <= 4 ? "grid w-full" : "flex gap-1 w-max"}
+            `}
+            style={
+              lessonTabs.length <= 4
+                ? { gridTemplateColumns: `repeat(${lessonTabs.length}, 1fr)` }
+                : undefined
+            }
+          >
+            {lessonTabs.map((tab) => (
+              <TabsTrigger
+                key={tab.id}
+                value={tab.id}
+                className={`
+                  text-xs whitespace-nowrap
+                  ${lessonTabs.length > 4 ? "min-w-[100px] px-4" : ""}
+                `}
+              >
+                Lessons {tab.label}
+              </TabsTrigger>
+            ))}
+          </TabsList>
+        </div>
 
         {lessonTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
@@ -120,7 +140,7 @@ export function KanjiStrokeLessonsSection() {
                 level={lesson.level}
                 lessonNumber={lesson.lessonNumber}
                 progress={getLessonProgress(lesson.id.toString())}
-                kanjiList={lesson.kanji.map(k => k.character)}
+                kanjiList={lesson.kanji.map((k) => k.character)}
                 onExerciseClick={() => handleExerciseClick(lesson.id)}
                 onListClick={() => handleListClick(lesson.id)}
               />

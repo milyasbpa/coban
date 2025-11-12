@@ -112,16 +112,33 @@ export function KanjiTopicLessonsSection() {
   return (
     <div className="space-y-4">
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList
-          className="grid w-full"
-          style={{ gridTemplateColumns: `repeat(${topicTabs.length}, 1fr)` }}
-        >
-          {topicTabs.map((tab) => (
-            <TabsTrigger key={tab.id} value={tab.id} className="text-xs">
-              {tab.label}
-            </TabsTrigger>
-          ))}
-        </TabsList>
+        <div className="w-full overflow-x-auto">
+          <TabsList
+            className={`
+              ${topicTabs.length <= 4 
+                ? 'grid w-full' 
+                : 'flex gap-1 w-max'
+              }
+            `}
+            style={topicTabs.length <= 4 
+              ? { gridTemplateColumns: `repeat(${topicTabs.length}, 1fr)` }
+              : undefined
+            }
+          >
+            {topicTabs.map((tab) => (
+              <TabsTrigger 
+                key={tab.id} 
+                value={tab.id} 
+                className={`
+                  text-xs whitespace-nowrap
+                  ${topicTabs.length > 4 ? 'min-w-[100px] px-4' : ''}
+                `}
+              >
+                {tab.label}
+              </TabsTrigger>
+            ))}
+          </TabsList>
+        </div>
 
         {topicTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
