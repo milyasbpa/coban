@@ -12,6 +12,7 @@ import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
 export function KanjiLessonContainer() {
   const searchParams = useSearchParams();
   const [kanjiList, setKanjiList] = useState<KanjiDetail[]>([]);
+  const [lessonTitle, setLessonTitle] = useState<string>("");
   const { isSelectionMode } = useKanjiSelection();
 
   const lessonId = searchParams.get("lessonId");
@@ -23,10 +24,21 @@ export function KanjiLessonContainer() {
       // Handle topic-based lesson
       const kanji = KanjiService.getKanjiDetailsByTopicId(topicId, level);
       setKanjiList(kanji);
+
+      // Get topic name for title
+      const categories = KanjiService.getTopicCategories(level);
+      const category = categories[topicId];
+      if (category) {
+        setLessonTitle(category.name);
+      }
     } else if (lessonId) {
       // Handle stroke-based lesson
-      const kanji = KanjiService.getKanjiDetailsByLessonId(parseInt(lessonId), level);
+      const kanji = KanjiService.getKanjiDetailsByLessonId(
+        parseInt(lessonId),
+        level
+      );
       setKanjiList(kanji);
+      setLessonTitle(`Lesson ${lessonId}`);
     }
   }, [lessonId, topicId, level]);
 
@@ -37,12 +49,17 @@ export function KanjiLessonContainer() {
 
       {/* Kanji List */}
       <div className="px-4 pt-6 pb-24 space-y-4">
+        {/* Lesson Title */}
+        {lessonTitle && (
+          <div className="mb-6">
+            <h1 className="text-2xl font-bold text-foreground mb-2">
+              {lessonTitle}
+            </h1>
+          </div>
+        )}
+
         {kanjiList.map((kanji, index) => (
-          <KanjiCard
-            key={kanji.id}
-            kanji={kanji}
-            index={index + 1}
-          />
+          <KanjiCard key={kanji.id} kanji={kanji} index={index + 1} />
         ))}
       </div>
 
