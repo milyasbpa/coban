@@ -72,7 +72,7 @@ export function PairingGameGrid() {
       );
 
       // Generate simple word ID
-      const wordId = `${word.kanji}_${kanjiInfo.kanjiId}_0`;
+      const wordId = `${kanjiInfo.kanjiId}_${word.id}`;
 
       const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,
@@ -101,13 +101,12 @@ export function PairingGameGrid() {
       allSections,
       currentSectionIndex,
     },
+    gameState: { isRetryMode, errorWords: globalErrorWords },
     addWordError,
     setSelectedCards,
     setMatchedPairs,
     setErrorCards,
     removeWordError,
-    gameState: { isRetryMode, errorWords: globalErrorWords },
-    sectionState: { errorWords: sectionErrorWords },
     finishRetryMode,
     moveToNextSection,
     calculateAndSetScore,
@@ -158,8 +157,7 @@ export function PairingGameGrid() {
         // Direct matching using pairingWord references
         let matchingWord: PairingWord | undefined;
 
-        // Since SelectedCard extends PairingWord, we can check if they reference the same word
-        // by comparing their PairingWord IDs
+        // Since SelectedCard extends PairingWord, we can check if they reference the same word by comparing their PairingWord IDs
         if (kanjiCard.id === meaningCard.id) {
           matchingWord = kanjiCard; // Both reference the same PairingWord
         } else {
@@ -214,10 +212,6 @@ export function PairingGameGrid() {
                   // Game complete
                   calculateAndSetScore();
                   setGameComplete(true);
-
-                  console.log(
-                    "Pairing exercise completed - all word scores already integrated in real-time"
-                  );
                 }
               }
             }, 500);
@@ -268,7 +262,7 @@ export function PairingGameGrid() {
           return (
             <PairingCard
               key={gameWord.kanji}
-              id={gameWord.kanji}
+              id={`kanji-${gameWord.id}`}
               content={gameWord.kanji}
               furigana={gameWord.furigana}
               romanji={gameWord.reading}
@@ -291,7 +285,7 @@ export function PairingGameGrid() {
       <div className="space-y-3">
         {shuffledMeaningsData.map(({ meaning, word }) => (
           <PairingCard
-            key={`meaning-${meaning}-${language}`}
+            key={`meaning-${word.id}`}
             id={meaning}
             content={meaning}
             type="meaning"

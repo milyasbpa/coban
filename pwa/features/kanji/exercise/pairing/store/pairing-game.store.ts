@@ -9,7 +9,6 @@ import {
   SectionState,
   PairingWord,
   SelectedCard,
-  RetryResults,
   GameInitializationParams,
 } from "../types";
 import { GameDataService, WordErrorService } from "../services";
