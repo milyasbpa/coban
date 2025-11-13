@@ -7,16 +7,19 @@ import { getScoreTextColor } from "../utils/score-colors";
 export function PairingScoreHeader() {
   const {
     gameState: { score, correctPairs },
-    getSectionTotalWords
+    getGameTotalWords,
   } = usePairingGameStore();
-  const totalWords = getSectionTotalWords();  const scoreTextColor = getScoreTextColor(score);
+  const totalWords = getGameTotalWords();
+  const scoreTextColor = getScoreTextColor(score);
 
   return (
     <div className="flex justify-between items-center mb-6">
       {/* Score Card */}
       <Card className="p-4 bg-card">
         <div className="text-center">
-          <div className="text-xs font-semibold text-muted-foreground mb-1">Score</div>
+          <div className="text-xs font-semibold text-muted-foreground mb-1">
+            Score
+          </div>
           <div className={`text-lg font-bold ${scoreTextColor}`}>{score}</div>
         </div>
       </Card>
@@ -24,7 +27,9 @@ export function PairingScoreHeader() {
       {/* Progress Card */}
       <Card className="p-4 bg-card">
         <div className="text-center">
-          <div className="text-xs font-semibold text-muted-foreground mb-1">Progress</div>
+          <div className="text-xs font-semibold text-muted-foreground mb-1">
+            Progress
+          </div>
           <div className="text-lg font-bold text-foreground">
             {correctPairs}/{totalWords}
           </div>

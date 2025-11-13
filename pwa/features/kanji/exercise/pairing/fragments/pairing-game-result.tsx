@@ -71,6 +71,17 @@ export function PairingGameResult() {
     }
   };
 
+  // Determine back URL based on route context
+  const getBackUrl = () => {
+    // If coming from exercise with selectedKanji, go back to lesson
+    if (selectedKanjiParam && topicId && level) {
+      return `/kanji/lesson?topicId=${topicId}&level=${level}`;
+    }
+
+    // Default back to home
+    return "/";
+  };
+
   return (
     <div className="min-h-screen bg-background p-4">
       {/* Confetti for perfect scores */}
@@ -128,7 +139,7 @@ export function PairingGameResult() {
             >
               Play Again
             </Button>
-            <Link href="/" className="w-full">
+            <Link href={getBackUrl()} className="w-full">
               <Button variant="outline" className="w-full">
                 Back to Home
               </Button>

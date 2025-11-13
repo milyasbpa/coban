@@ -155,7 +155,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   addWordError: (kanjiWord: string) => {
     const {
       sectionState: { errorWords },
-      gameState,
     } = get();
     const { newErrorSet, isFirstError } = WordErrorService.addWordError(
       errorWords,
@@ -446,7 +445,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   generateRetrySession: () => {
     const {
-      gameState: { errorWords, allGameWords, score },
+      gameState: { errorWords, allGameWords },
     } = get();
     const wrongWords = Array.from(errorWords);
 
@@ -471,7 +470,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     }));
   },
 
-  finishRetryMode: (retryResults: RetryResults) => {
+  finishRetryMode: () => {
     const {
       gameState,
       sectionState: { errorWords: sectionErrorWords },
