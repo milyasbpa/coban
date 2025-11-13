@@ -94,8 +94,13 @@ export function PairingGameGrid() {
 
   // Store - get all game grid state from store
   const {
-    sectionState: { gameWords },
-    sectionState: { selectedCards, matchedPairs, errorCards },
+    sectionState: {
+      selectedCards,
+      matchedPairs,
+      errorCards,
+      allSections,
+      currentSectionIndex,
+    },
     addWordError,
     setSelectedCards,
     setMatchedPairs,
@@ -110,15 +115,20 @@ export function PairingGameGrid() {
     incrementCorrectPairs,
   } = usePairingGameStore();
 
+  const sectionWords = useMemo(() => {
+    if (!allSections.length) return [];
+    return allSections[currentSectionIndex];
+  }, [allSections, currentSectionIndex]);
+
   // Create shuffled meanings with mapping to PairingWord
   const shuffledMeaningsData = useMemo(() => {
     const meaningsWithWords = createMeaningsData(
-      gameWords,
+      sectionWords,
       language as SupportedLanguage
     );
     const shuffled = shuffleArray(meaningsWithWords);
     return shuffled;
-  }, [gameWords, language]);
+  }, [sectionWords, language]);
 
   const handleCardClick = (
     type: "kanji" | "meaning",
@@ -185,14 +195,14 @@ export function PairingGameGrid() {
           integrateWordScore(matchingWord, true);
 
           // Check if section is complete - sekarang 1 ID per word (bukan 2)
-          if (newMatchedPairs.size >= gameWords.length) {
+          if (newMatchedPairs.size >= sectionWords.length) {
             setTimeout(() => {
               if (isRetryMode) {
                 // Calculate retry results
                 // newMatchedPairs berisi ID angka, perlu convert ke kanji untuk check error
                 const correctOriginalWords = Array.from(newMatchedPairs).filter(
                   (wordId) => {
-                    const word = gameWords.find((w) => w.id === wordId);
+                    const word = sectionWords.find((w) => w.id === wordId);
                     return word && globalErrorWords.has(word.kanji);
                   }
                 ).length;
@@ -254,7 +264,7 @@ export function PairingGameGrid() {
     <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
       {/* Left Column - Kanji */}
       <div className="space-y-3">
-        {gameWords.map((gameWord: PairingWord) => {
+        {sectionWords.map((gameWord: PairingWord) => {
           return (
             <PairingCard
               key={gameWord.kanji}

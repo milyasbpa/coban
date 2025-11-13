@@ -5,13 +5,11 @@ import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreTextColor } from "../utils/score-colors";
 
 export function PairingScoreHeader() {
-  const {
-    gameState: { score, correctPairs },
-    getGameTotalWords,
-  } = usePairingGameStore();
-  const totalWords = getGameTotalWords();
-  const scoreTextColor = getScoreTextColor(score);
-
+  const { gameState, sectionState, getSectionTotalWords } =
+    usePairingGameStore();
+  const totalWords = getSectionTotalWords();
+  const scoreTextColor = getScoreTextColor(gameState.score);
+  console.log(gameState, sectionState, "ini apa");
   return (
     <div className="flex justify-between items-center mb-6">
       {/* Score Card */}
@@ -20,7 +18,9 @@ export function PairingScoreHeader() {
           <div className="text-xs font-semibold text-muted-foreground mb-1">
             Score
           </div>
-          <div className={`text-lg font-bold ${scoreTextColor}`}>{score}</div>
+          <div className={`text-lg font-bold ${scoreTextColor}`}>
+            {gameState.score}
+          </div>
         </div>
       </Card>
 
@@ -31,7 +31,7 @@ export function PairingScoreHeader() {
             Progress
           </div>
           <div className="text-lg font-bold text-foreground">
-            {correctPairs}/{totalWords}
+            {gameState.correctPairs}/{totalWords}
           </div>
         </div>
       </Card>

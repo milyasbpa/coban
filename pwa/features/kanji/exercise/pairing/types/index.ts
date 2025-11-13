@@ -21,8 +21,7 @@ export interface GameState {
 
 export interface SectionState {
   currentSectionIndex: number;
-  allSections: PairingWord[][];
-  gameWords: PairingWord[]; // Current section words for UI rendering
+  allSections: PairingWord[][]; // Section words in session (normal and retry mode)
   selectedCards: SelectedCard[]; // Current section UI interaction state
   matchedPairs: Set<string>; // Current section matched pairs
   errorCards: Set<string>; // Current section error cards

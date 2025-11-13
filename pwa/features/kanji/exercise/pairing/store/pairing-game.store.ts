@@ -42,7 +42,7 @@ interface PairingGameState {
   initializeGame: (params: GameInitializationParams) => void;
 
   // Game Grid Actions
-  loadSection: (sectionWords: PairingWord[]) => void;
+  loadSection: () => void;
   setAllGameWords: (allWords: PairingWord[]) => void;
   setSelectedCards: (cards: SelectedCard[]) => void;
   setMatchedPairs: (pairs: Set<string>) => void;
@@ -70,7 +70,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
   sectionState: {
     currentSectionIndex: 0,
     allSections: [],
-    gameWords: [],
     selectedCards: [],
     matchedPairs: new Set<string>(),
     errorCards: new Set<string>(),
@@ -79,7 +78,10 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   // Computed functions
   getGameTotalWords: () => get().gameState.allGameWords.length,
-  getSectionTotalWords: () => get().sectionState.gameWords.length,
+  getSectionTotalWords: () =>
+    get().sectionState.allSections.reduce((acc, word) => {
+      return acc + word.length;
+    }, 0),
 
   // Helper functions for updating specific values
   incrementCorrectPairs: () =>
@@ -98,7 +100,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       },
     })),
 
-  resetGame: (totalWords: number) =>
+  resetGame: () =>
     set({
       gameState: {
         allGameWords: [],
@@ -111,7 +113,6 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       sectionState: {
         currentSectionIndex: 0,
         allSections: [],
-        gameWords: [],
         selectedCards: [],
         matchedPairs: new Set<string>(),
         errorCards: new Set<string>(),
@@ -121,7 +122,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
   calculateAndSetScore: () => {
     const {
-      gameState: { isRetryMode, score, allGameWords, errorWords },
+      gameState: { isRetryMode, allGameWords, errorWords },
       sectionState: { errorWords: sectionErrorWords },
     } = get();
 
@@ -294,7 +295,7 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
           currentSectionIndex: nextIndex,
         },
       }));
-      loadSection(allSections[nextIndex]);
+      loadSection();
       return true; // Successfully moved to next section
     } else {
       // Game complete
@@ -352,16 +353,15 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
 
     // Load first section
     if (sections.length > 0) {
-      loadSection(sections[0]);
+      loadSection();
     }
   },
 
   // Game Grid Actions
-  loadSection: (sectionWords: PairingWord[]) => {
+  loadSection: () => {
     set((state) => ({
       sectionState: {
         ...state.sectionState,
-        gameWords: sectionWords,
         selectedCards: [],
         matchedPairs: new Set(),
         errorCards: new Set(),
@@ -402,11 +402,16 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
     })),
   checkSectionComplete: () => {
     const {
-      sectionState: { matchedPairs, gameWords },
+      // sectionState: { matchedPairs, gameWords },
+      sectionState: { matchedPairs, allSections },
     } = get();
+    const totalSectionWords = allSections.reduce((acc, word) => {
+      return acc + word.length;
+    }, 0);
     return GameDataService.isSectionComplete(
       matchedPairs.size,
-      gameWords.length
+      // gameWords.length
+      totalSectionWords
     );
   },
 
@@ -454,10 +459,11 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       allGameWords,
       wrongWords
     );
+    const retrySections = getSections(retryWords);
     set((state) => ({
       sectionState: {
         ...state.sectionState,
-        gameWords: retryWords,
+        allSections: retrySections,
         selectedCards: [],
         matchedPairs: new Set(),
         errorCards: new Set(),
