@@ -7,7 +7,9 @@ import {
   KanjiWordLevel,
   KanjiMasteryLevel,
   KanjiExerciseResult,
+  ExerciseType,
 } from "../model/score";
+import { KanjiService } from "@/pwa/core/services/kanji";
 
 // Simplified state untuk kanji store
 interface KanjiScoreState {
@@ -47,6 +49,89 @@ interface KanjiScoreState {
   resetStatistics: () => Promise<void>;
 }
 
+// Helper functions for topic-aware scoring calculations
+const getTotalWordsInTopic = (topicId: string, level: string): number => {
+  const categories = KanjiService.getTopicCategories(level);
+  const category = categories[topicId];
+  if (!category) return 0;
+
+  let totalWords = 0;
+  category.kanji_ids.forEach((kanjiId) => {
+    const kanji = KanjiService.getKanjiById(kanjiId, level);
+    if (kanji?.examples) {
+      totalWords += kanji.examples.length;
+    }
+  });
+  return totalWords;
+};
+
+const getTotalWordsInLesson = (lessonId: number, level: string): number => {
+  const kanjiList = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
+  let totalWords = 0;
+  kanjiList.forEach((kanji) => {
+    if (kanji.examples) {
+      totalWords += kanji.examples.length;
+    }
+  });
+  return totalWords;
+};
+
+const getCorrectWordsInScope = (
+  currentUserScore: KanjiUserScore,
+  lessonId: string,
+  exerciseType?: ExerciseType
+): number => {
+  let correctWords = 0;
+
+  // Determine scope - get kanji IDs that belong to this lesson/topic
+  let scopeKanjiIds: string[] = [];
+
+  if (lessonId.startsWith("topic_")) {
+    const topicId = lessonId.replace("topic_", "");
+    const categories = KanjiService.getTopicCategories(currentUserScore.level);
+    const category = categories[topicId];
+    if (category) {
+      scopeKanjiIds = category.kanji_ids.map((id) => id.toString());
+    }
+  } else {
+    const numericLessonId = parseInt(lessonId);
+    const kanjiList = KanjiService.getKanjiDetailsByLessonId(
+      numericLessonId,
+      currentUserScore.level
+    );
+    scopeKanjiIds = kanjiList.map((kanji) => kanji.id.toString());
+  }
+
+  // Count correct words in scope
+  scopeKanjiIds.forEach((kanjiId) => {
+    const kanjiMastery = currentUserScore.kanjiMastery[kanjiId];
+    if (kanjiMastery) {
+      Object.values(kanjiMastery.words).forEach((word) => {
+        if (exerciseType) {
+          // Count for specific exercise type
+          if (word.exerciseScores[exerciseType] > 0) {
+            correctWords++;
+          }
+        } else {
+          // Count for all exercise types (for topic progress)
+          const exerciseTypes: ExerciseType[] = [
+            "writing",
+            "reading",
+            "pairing",
+          ];
+          exerciseTypes.forEach((exType) => {
+            if (word.exerciseScores[exType] > 0) {
+              correctWords++;
+            }
+          });
+        }
+      });
+    }
+  });
+
+  return correctWords;
+};
+
 export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
   // Initial state
   currentUserScore: null,
@@ -64,7 +149,7 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     try {
       // Initialize storage system first
       const initResult = await KanjiStorageInitializer.initialize();
-      
+
       if (!initResult.success) {
         throw new Error(initResult.message);
       }
@@ -74,7 +159,10 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
 
       // Create default if doesn't exist
       if (!userScore) {
-        userScore = await KanjiStorageManager.createDefaultKanjiScore(userId, level);
+        userScore = await KanjiStorageManager.createDefaultKanjiScore(
+          userId,
+          level
+        );
       }
 
       set({
@@ -106,10 +194,15 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
 
     try {
       // Use new storage method to handle exercise results
-      await KanjiStorageManager.saveExerciseResults(currentUserScore.userId, results);
-      
+      await KanjiStorageManager.saveExerciseResults(
+        currentUserScore.userId,
+        results
+      );
+
       // Refresh the user score to get updated data
-      const refreshedScore = await KanjiStorageManager.getKanjiScore(currentUserScore.userId);
+      const refreshedScore = await KanjiStorageManager.getKanjiScore(
+        currentUserScore.userId
+      );
       if (refreshedScore) {
         set({ currentUserScore: refreshedScore });
       }
@@ -118,45 +211,67 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     }
   },
 
-  // Get lesson progress (simplified)
+  // Get lesson progress (topic-aware)
   getLessonProgress: (lessonId: string): number => {
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
-    // Simple calculation - can be enhanced later
-    const kanjiArray = Object.values(currentUserScore.kanjiMastery);
-    if (kanjiArray.length === 0) return 0;
+    // Calculate total words in scope (topic or lesson)
+    let totalWords = 0;
+    if (lessonId.startsWith("topic_")) {
+      const topicId = lessonId.replace("topic_", "");
+      totalWords = getTotalWordsInTopic(topicId, currentUserScore.level);
+    } else {
+      const numericLessonId = parseInt(lessonId);
+      totalWords = getTotalWordsInLesson(
+        numericLessonId,
+        currentUserScore.level
+      );
+    }
 
-    const totalProgress = kanjiArray.reduce((sum, kanji) => {
-      return sum + (kanji.overallScore / 100) * 100;
-    }, 0);
+    if (totalWords === 0) return 0;
 
-    return Math.round(totalProgress / kanjiArray.length);
+    // Calculate total correct words from all exercise types
+    const totalCorrectWords = getCorrectWordsInScope(
+      currentUserScore,
+      lessonId
+    );
+    const totalPossibleWords = totalWords * 3; // 3 exercise types (writing, reading, pairing)
+
+    return Math.round((totalCorrectWords / totalPossibleWords) * 100 * 10) / 10;
   },
 
-  // Get exercise progress (simplified)
+  // Get exercise progress (topic-aware)
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
     lessonId?: string
   ): number => {
     const { currentUserScore } = get();
-    if (!currentUserScore) return 0;
+    if (!currentUserScore || !lessonId) return 0;
 
-    let totalProgress = 0;
+    // Calculate total words in scope (topic or lesson)
     let totalWords = 0;
+    if (lessonId.startsWith("topic_")) {
+      const topicId = lessonId.replace("topic_", "");
+      totalWords = getTotalWordsInTopic(topicId, currentUserScore.level);
+    } else {
+      const numericLessonId = parseInt(lessonId);
+      totalWords = getTotalWordsInLesson(
+        numericLessonId,
+        currentUserScore.level
+      );
+    }
 
-    Object.values(currentUserScore.kanjiMastery).forEach(kanji => {
-      Object.values(kanji.words).forEach(word => {
-        const maxScore = KanjiScoreCalculator.calculateMaxScorePerExercise(
-          Object.values(kanji.words).length
-        );
-        const exerciseScore = word.exerciseScores[exerciseType];
-        totalProgress += (exerciseScore / maxScore) * 100;
-        totalWords++;
-      });
-    });
+    if (totalWords === 0) return 0;
 
-    return totalWords > 0 ? Math.round(totalProgress / totalWords) : 0;
+    // Calculate correct words for specific exercise type
+    const correctWords = getCorrectWordsInScope(
+      currentUserScore,
+      lessonId,
+      exerciseType
+    );
+
+    return Math.round((correctWords / totalWords) * 100 * 10) / 10;
   },
 
   // Get overall progress
@@ -169,8 +284,8 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     if (!currentUserScore) return null;
 
     const kanjiArray = Object.values(currentUserScore.kanjiMastery);
-    const masteredKanji = kanjiArray.filter(kanji => 
-      (kanji.overallScore / 100) >= 0.9
+    const masteredKanji = kanjiArray.filter(
+      (kanji) => kanji.overallScore / 100 >= 0.9
     ).length;
 
     return {
@@ -194,7 +309,9 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     if (!currentUserScore) return;
 
     try {
-      const refreshedScore = await KanjiStorageManager.getKanjiScore(currentUserScore.userId);
+      const refreshedScore = await KanjiStorageManager.getKanjiScore(
+        currentUserScore.userId
+      );
       if (refreshedScore) {
         set({ currentUserScore: refreshedScore });
       }
@@ -226,13 +343,13 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
 
     try {
       await KanjiStorageManager.clearKanjiData(currentUserScore.userId);
-      
+
       // Reinitialize with fresh data
       const freshScore = await KanjiStorageManager.createDefaultKanjiScore(
         currentUserScore.userId,
         currentUserScore.level
       );
-      
+
       set({ currentUserScore: freshScore });
     } catch (error) {
       console.error("KanjiScoreStore: Failed to reset statistics", error);

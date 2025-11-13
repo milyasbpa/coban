@@ -48,7 +48,7 @@ export function ExerciseCard({
           </span>
         </div>
         <div className="text-right text-sm font-medium text-foreground">
-          {Math.round(progress)}%
+          {progress}%
         </div>
       </div>
       <Progress
