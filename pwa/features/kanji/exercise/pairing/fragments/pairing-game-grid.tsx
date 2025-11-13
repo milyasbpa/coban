@@ -17,6 +17,7 @@ import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
 import { KanjiService } from "@/pwa/core/services/kanji";
+import { integratePairingGameScore } from "../utils/scoring-integration";
 
 export function PairingGameGrid() {
   const { language } = useLanguage();
@@ -27,67 +28,17 @@ export function PairingGameGrid() {
     isInitialized,
   } = useKanjiScoreStore();
 
-  // Session-based tracking for first-attempt-only integration
-  const [attemptedWordsInSession, setAttemptedWordsInSession] = useState<
-    Set<string>
-  >(new Set());
-
-  // Helper functions for first-attempt tracking
-  const hasAttemptedWord = (wordKey: string): boolean => {
-    return attemptedWordsInSession.has(wordKey);
-  };
-
-  const markWordAsAttempted = (wordKey: string): void => {
-    setAttemptedWordsInSession((prev) => new Set([...prev, wordKey]));
-  };
-
-  // Real-time per-word score integration (first-attempt-only)
-  const integrateWordScore = async (word: PairingWord, isCorrect: boolean) => {
-    try {
-      // ✅ FIRST-ATTEMPT-ONLY: Check if word has been attempted in this session
-      if (hasAttemptedWord(word.kanji)) {
-        return; // Skip integration for subsequent attempts
-      }
-
-      // Mark word as attempted to prevent future integrations in this session
-      markWordAsAttempted(word.kanji);
-
-      // Auto-initialize user if not already initialized
-      if (!isInitialized || !currentUserScore) {
-        await initializeUser(
-          "default-user",
-          level as "N5" | "N4" | "N3" | "N2" | "N1"
-        );
-      }
-
-      // Use imported utilities for word-based scoring
-
-      // Extract kanji character from the word
-      const kanjiCharacter = word.kanji.charAt(0);
-
-      // Get accurate kanji information using the extracted kanji character
-      const kanjiInfo = KanjiService.getKanjiInfoForScoring(
-        kanjiCharacter,
-        level
-      );
-
-      // Generate simple word ID
-      const wordId = `${kanjiInfo.kanjiId}_${word.id}`;
-
-      const exerciseResult: KanjiExerciseResult = {
-        kanjiId: kanjiInfo.kanjiId,
-        kanji: kanjiCharacter,
-        isCorrect,
-        wordId,
-        word: word.kanji,
-        exerciseType: "pairing" as const,
-      };
-
-      // Update word mastery immediately (first attempt only)
-      updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [exerciseResult]);
-    } catch (error) {
-      console.error("Error in first-attempt word score integration:", error);
-    }
+  // Kanji scoring integration at game completion
+  const integrateGameScore = async () => {
+    await integratePairingGameScore(
+      allGameWords,
+      globalErrorWords,
+      level,
+      updateKanjiMastery,
+      initializeUser,
+      isInitialized,
+      currentUserScore
+    );
   };
 
   const { level } = useExerciseSearchParams();
@@ -101,7 +52,7 @@ export function PairingGameGrid() {
       allSections,
       currentSectionIndex,
     },
-    gameState: { isRetryMode, errorWords: globalErrorWords },
+    gameState: { isRetryMode, errorWords: globalErrorWords, allGameWords },
     addWordError,
     setSelectedCards,
     setMatchedPairs,
@@ -189,8 +140,7 @@ export function PairingGameGrid() {
           setSelectedCards([]);
           removeWordError(kanjiCard.kanji);
 
-          // REAL-TIME Per-Word Score Integration
-          integrateWordScore(matchingWord, true);
+          // Score will be integrated at game completion
 
           // Check if section is complete - sekarang 1 ID per word (bukan 2)
           if (newMatchedPairs.size >= sectionWords.length) {
@@ -206,12 +156,18 @@ export function PairingGameGrid() {
                 ).length;
 
                 finishRetryMode({ correctCount: correctOriginalWords });
+                
+                // Integrate kanji scoring for retry completion
+                integrateGameScore();
               } else {
                 const hasMoreSections = moveToNextSection();
                 if (!hasMoreSections) {
                   // Game complete
                   calculateAndSetScore();
                   setGameComplete(true);
+                  
+                  // Integrate kanji scoring at game completion
+                  integrateGameScore();
                 }
               }
             }, 500);
@@ -237,9 +193,7 @@ export function PairingGameGrid() {
           // Update wrong attempts count (selalu bertambah untuk tracking)
           // Remove wrongAttempts tracking as per architecture optimization
 
-          // REAL-TIME Per-Word Score Integration for Wrong Match
-          // Use kanjiCard directly since it now extends PairingWord
-          integrateWordScore(kanjiCard, false);
+          // Score will be integrated at game completion
 
           // Clear error state after animation
           setTimeout(() => {
