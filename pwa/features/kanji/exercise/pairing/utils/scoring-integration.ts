@@ -59,6 +59,7 @@ export const integratePairingGameScore = async (
         wordId,
         word: word.kanji,
         exerciseType: "pairing" as const,
+        level: level as "N5" | "N4" | "N3" | "N2" | "N1", // Level from exercise context
       };
 
       exerciseResults.push(exerciseResult);

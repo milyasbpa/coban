@@ -17,6 +17,7 @@ export interface KanjiExerciseResult {
   word: string; // Actual word being tested (e.g., "一つ")
   exerciseType: ExerciseType;
   isCorrect: boolean;
+  level: "N5" | "N4" | "N3" | "N2" | "N1"; // Level context for per-kanji scoring
 }
 
 // Individual kanji word tracking - the core unit of kanji scoring system

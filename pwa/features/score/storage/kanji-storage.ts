@@ -115,7 +115,7 @@ export class KanjiStorageManager {
         userScore.kanjiMastery[kanjiId] = {
           kanjiId,
           character: kanjiResults[0].kanji,
-          level: userScore.level,
+          level: kanjiResults[0].level, // ✅ Use level from exercise result context
           ...DEFAULT_KANJI_MASTERY,
           words: {},
         };

@@ -140,6 +140,7 @@ export function WritingExerciseContainer() {
               wordId,
               word: question.word,
               exerciseType: "writing" as const,
+              level: level as "N5" | "N4" | "N3" | "N2" | "N1", // Level from exercise context
             };
           }
         );
