@@ -52,17 +52,18 @@ export function ReadingCheckButton() {
       // Generate simple word ID
       const wordId = `${question.question.word}_${kanjiInfo.kanjiId}_${getCurrentQuestionNumber() - 1}`;
 
-      const exerciseResult: KanjiExerciseResult = {
-        kanjiId: kanjiInfo.kanjiId,
-        kanji: kanjiCharacter,
-        isCorrect,
-        wordId,
-        word: question.question.word,
-        exerciseType: "reading" as const,
-      };
+      // const exerciseResult: KanjiExerciseResult = {
+      //   kanjiId: kanjiInfo.kanjiId,
+      //   kanji: kanjiCharacter,
+      //   isCorrect,
+      //   wordId,
+      //   word: question.question.word,
+      //   exerciseType: "reading" as const,
+      //   level:level
+      // };
 
       // Update kanji mastery immediately (first attempt only)
-      updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [exerciseResult]);
+      // updateKanjiMastery(kanjiInfo.kanjiId, kanjiCharacter, [exerciseResult]);
     } catch (error) {
       console.error(
         "Error in first-attempt question score integration:",
