@@ -117,12 +117,36 @@
   }
 }
 
+@keyframes glow-pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
 .progress-bar {
   animation: progressLoad 2s ease-in-out infinite;
 }
 
 .animate-bounce-slow {
   animation: bounce-slow 3s ease-in-out infinite;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* Dark mode specific enhancements */
+.dark .splash-character-glow {
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.1));
+}
+
+.dark .splash-backdrop {
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.02) 0%, transparent 70%);
 }
 
 /* PWA specific styles */
