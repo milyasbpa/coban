@@ -5,6 +5,7 @@ import {
   isAnswerCorrect
 } from "../utils/reading-game";
 import { KanjiExample } from "@/pwa/core/services/kanji";
+import { integrateReadingGameScore } from "../utils/scoring-integration";
 
 export interface GameState {
   questions: ReadingQuestion[];
@@ -65,7 +66,14 @@ export interface ReadingExerciseState {
   addCorrectQuestion: (question: ReadingQuestion) => void;
   
   // Handler for next question with score calculation
-  handleNextQuestion: (calculateReadingScore: (correctQuestions: ReadingQuestion[], totalQuestions: number) => number) => void;
+  handleNextQuestion: (
+    calculateReadingScore: (correctQuestions: ReadingQuestion[], totalQuestions: number) => number,
+    level: string,
+    updateKanjiMastery: (kanjiId: string, character: string, results: any[]) => Promise<void>,
+    initializeUser: (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>,
+    isInitialized: boolean,
+    currentUserScore: any
+  ) => void;
 }
 
 export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) => ({
@@ -319,9 +327,9 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     }));
   },
 
-  handleNextQuestion: (calculateReadingScore) => {
+  handleNextQuestion: (calculateReadingScore, level, updateKanjiMastery, initializeUser, isInitialized, currentUserScore) => {
     const { 
-      gameState: { correctQuestions, isRetryMode, score, questions }, 
+      gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
       getTotalQuestions,
       getCurrentQuestionNumber,
       nextQuestion: next 
@@ -352,6 +360,23 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
           score: Math.round(finalScore)
         }
       }));
+
+      // Integrate kanji scoring at game completion
+      (async () => {
+        try {
+          await integrateReadingGameScore(
+            questions,
+            wrongQuestions,
+            level,
+            updateKanjiMastery,
+            initializeUser,
+            isInitialized,
+            currentUserScore
+          );
+        } catch (error) {
+          console.error("Error integrating reading game score:", error);
+        }
+      })();
     }
     
     next();

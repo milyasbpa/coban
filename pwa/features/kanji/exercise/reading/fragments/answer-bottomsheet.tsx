@@ -10,6 +10,8 @@ import { Button } from "@/pwa/core/components/button";
 import { cn } from "@/pwa/core/lib/utils";
 import { useReadingExerciseStore } from "../store";
 import { calculateReadingScore } from "../utils/reading-game";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function AnswerBottomSheet() {
   const {
@@ -19,11 +21,27 @@ export function AnswerBottomSheet() {
     handleNextQuestion,
   } = useReadingExerciseStore();
 
+  const {
+    updateKanjiMastery,
+    initializeUser,
+    currentUserScore,
+    isInitialized,
+  } = useKanjiScoreStore();
+
+  const { level } = useExerciseSearchParams();
+
   const currentQuestion = getCurrentQuestion();
   const isCorrect = getIsCurrentAnswerCorrect();
 
   const onNext = () => {
-    handleNextQuestion(calculateReadingScore);
+    handleNextQuestion(
+      calculateReadingScore,
+      level,
+      updateKanjiMastery,
+      initializeUser,
+      isInitialized,
+      currentUserScore
+    );
   };
   if (!currentResult || !currentQuestion) return null;
 
