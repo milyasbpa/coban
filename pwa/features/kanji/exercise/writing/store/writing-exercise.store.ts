@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { KanjiExample } from "@/pwa/core/services/kanji";
+import { integrateWritingGameScore } from "../utils/scoring-integration";
 
 export interface GameState {
   questions: KanjiExample[];
@@ -44,6 +45,14 @@ interface WritingExerciseState {
   setAvailableKanji: (kanji: string[]) => void;
   checkAnswer: () => boolean;
   nextQuestion: () => void;
+  handleNextQuestion: (
+    calculateWritingScore: (correctQuestions: number | any[], totalQuestions: number) => number,
+    level: string,
+    updateKanjiMastery: any,
+    initializeUser: any,
+    isInitialized: boolean,
+    currentUserScore: any
+  ) => void;
   resetExercise: () => void;
   resetExerciseProgress: () => void;
   setShowAnswer: (show: boolean) => void;
@@ -213,16 +222,89 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
     },
 
     nextQuestion: () => {
+      const { gameState: { questions, isRetryMode, wrongQuestions }, questionState: { currentQuestionIndex } } = get();
+      const questionsToUse = isRetryMode ? wrongQuestions : questions;
+      
       set((state) => ({
         questionState: {
           ...state.questionState,
-          currentQuestionIndex: state.questionState.currentQuestionIndex + 1,
           selectedKanji: [],
           showAnswer: false,
           usedKanji: [],
           showFeedback: false,
         }
       }));
+
+      if (currentQuestionIndex + 1 < questionsToUse.length) {
+        // Move to next question
+        set((state) => ({
+          questionState: {
+            ...state.questionState,
+            currentQuestionIndex: state.questionState.currentQuestionIndex + 1,
+          }
+        }));
+      } else {
+        // Game complete
+        set((state) => ({
+          gameState: { ...state.gameState, isComplete: true }
+        }));
+      }
+    },
+
+    handleNextQuestion: (calculateWritingScore, level, updateKanjiMastery, initializeUser, isInitialized, currentUserScore) => {
+      const { 
+        gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
+        getTotalQuestions,
+        questionState: { currentQuestionIndex },
+        nextQuestion: next 
+      } = get();
+      
+      // Calculate final score before moving to next question if this is the last question
+      const totalQuestions = getTotalQuestions();
+      const questionsToUse = isRetryMode ? wrongQuestions : questions;
+      const currentQuestionNumber = currentQuestionIndex + 1;
+      const isLastQuestion = currentQuestionNumber === questionsToUse.length;
+      
+      if (isLastQuestion) {
+        let finalScore;
+        
+        if (isRetryMode) {
+          // Retry mode scoring: current score + (correct answers * points per original question)
+          const pointsPerOriginalQuestion = 100 / questions.length;
+          const bonusPoints = correctQuestions.length * pointsPerOriginalQuestion;
+          finalScore = Math.min(100, score + bonusPoints);
+        } else {
+          // Normal mode scoring  
+          finalScore = calculateWritingScore(score, totalQuestions);
+        }
+        
+        // Update score directly to gameState
+        set((state) => ({
+          gameState: {
+            ...state.gameState,
+            score: Math.round(finalScore)
+          }
+        }));
+
+        // Integrate kanji scoring at game completion
+        (async () => {
+          try {
+            await integrateWritingGameScore(
+              questions,
+              wrongQuestions,
+              level,
+              updateKanjiMastery,
+              initializeUser,
+              isInitialized,
+              currentUserScore
+            );
+          } catch (error) {
+            console.error("Error integrating writing game score:", error);
+          }
+        })();
+      }
+      
+      next();
     },
 
     resetExercise: () =>

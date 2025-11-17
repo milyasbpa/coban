@@ -2,21 +2,41 @@ import { Button } from '@/pwa/core/components/button';
 import { CheckCircle2, XCircle } from 'lucide-react';
 import { cn } from '@/pwa/core/lib/utils';
 import { useWritingExerciseStore } from '../store/writing-exercise.store';
+import { calculateWritingScore } from '../utils/writing-game';
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function AnswerFeedback() {
-  const { gameState, questionState, nextQuestion } = useWritingExerciseStore();
+  const { gameState, questionState, handleNextQuestion } = useWritingExerciseStore();
+  
+  const {
+    updateKanjiMastery,
+    initializeUser,
+    currentUserScore,
+    isInitialized,
+  } = useKanjiScoreStore();
+
+  const { level } = useExerciseSearchParams();
+  
   const isCorrect = questionState.isCorrect;
   const currentQuestionIndex = questionState.currentQuestionIndex;
   const questions = gameState.questions;
+  const wrongQuestions = gameState.wrongQuestions;
+  const isRetryMode = gameState.isRetryMode;
   
-  const isLastQuestion = currentQuestionIndex >= questions.length - 1;
+  // Use appropriate question set based on mode
+  const questionsToUse = isRetryMode ? wrongQuestions : questions;
+  const isLastQuestion = currentQuestionIndex >= questionsToUse.length - 1;
   
   const handleNext = () => {
-    if (isLastQuestion) {
-      // Exercise complete - handled by container logic
-      return;
-    }
-    nextQuestion();
+    handleNextQuestion(
+      calculateWritingScore,
+      level,
+      updateKanjiMastery,
+      initializeUser,
+      isInitialized,
+      currentUserScore
+    );
   };
   
   return (

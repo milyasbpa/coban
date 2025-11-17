@@ -26,7 +26,6 @@ import { AssemblyArea } from "../fragments/assembly-area";
 import { SubmitButton } from "../components";
 import { getWritingQuestions } from "../utils";
 import { useExerciseSearchParams } from "../../utils/hooks";
-import { integrateWritingGameScore } from "../utils/scoring-integration";
 
 export function WritingExerciseContainer() {
   const router = useRouter();
@@ -57,7 +56,6 @@ export function WritingExerciseContainer() {
     setQuestions,
     setShowFeedback,
     setIsCorrect,
-    setScoreIntegrated,
     setActiveKanji,
     reorderKanji,
     resetExerciseProgress,
@@ -71,8 +69,7 @@ export function WritingExerciseContainer() {
   const questions = gameState.questions;
   const wrongQuestions = gameState.wrongQuestions;
   const showFeedback = questionState.showFeedback;
-  const scoreIntegrated = questionState.scoreIntegrated;
-  const score = gameState.score;
+  const isComplete = gameState.isComplete;
 
   // Configure @dnd-kit sensors with easier drag activation
   const sensors = useSensors(
@@ -98,47 +95,6 @@ export function WritingExerciseContainer() {
       setupCurrentQuestionStore(questions, currentQuestionIndex);
     }
   }, [questions, currentQuestionIndex, setupCurrentQuestionStore]);
-
-  // Score management integration when exercise is complete
-  useEffect(() => {
-    const integrateScoreManagement = async () => {
-      if (
-        currentQuestionIndex >= questions.length &&
-        questions.length > 0 &&
-        !scoreIntegrated
-      ) {
-        setScoreIntegrated(true);
-
-        // Integrate kanji scoring at exercise completion
-        try {
-          await integrateWritingGameScore(
-            questions,
-            wrongQuestions,
-            level,
-            updateKanjiMastery,
-            initializeUser,
-            isInitialized,
-            currentUserScore
-          );
-        } catch (error) {
-          console.error("Error integrating writing game score:", error);
-        }
-      }
-    };
-
-    integrateScoreManagement();
-  }, [
-    currentQuestionIndex,
-    questions.length,
-    scoreIntegrated,
-    isInitialized,
-    currentUserScore,
-    initializeUser,
-    updateKanjiMastery,
-    level,
-    questions,
-    wrongQuestions,
-  ]);
 
   const loadQuestions = () => {
     if (!lessonId && !topicId) {
@@ -216,11 +172,11 @@ export function WritingExerciseContainer() {
   };
 
   // Show completion screen
-  if (currentQuestionIndex >= questions.length) {
+  if (isComplete) {
     return <WritingGameResult />;
   }
 
-  const currentQuestion = questions[currentQuestionIndex];
+  const currentQuestion = getCurrentQuestion();
   const canSubmit = selectedKanji.length > 0 && !showAnswer;
 
   return (
