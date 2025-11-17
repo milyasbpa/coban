@@ -32,6 +32,8 @@ interface WritingExerciseState {
   // Computed values
   getCurrentQuestion: () => KanjiExample | null;
   getProgress: () => number;
+  getCorrectAnswers: () => number;
+  getWrongAnswers: () => number;
 
   // Actions
   setCurrentQuestionIndex: (index: number) => void;
@@ -114,6 +116,17 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       const { gameState: { questions, isRetryMode, wrongQuestions }, questionState: { currentQuestionIndex } } = get();
       const questionsToUse = isRetryMode ? wrongQuestions : questions;
       return questionsToUse.length > 0 ? (currentQuestionIndex / questionsToUse.length) * 100 : 0;
+    },
+
+    getCorrectAnswers: () => {
+      const { gameState: { score } } = get();
+      return score;
+    },
+
+    getWrongAnswers: () => {
+      const { gameState: { score } } = get();
+      const totalQuestions = get().getTotalQuestions();
+      return totalQuestions - score;
     },
 
     // Actions

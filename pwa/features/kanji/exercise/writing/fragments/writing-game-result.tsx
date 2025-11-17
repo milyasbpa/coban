@@ -16,9 +16,9 @@ export function WritingGameResult() {
   const {
     gameState: { isRetryMode, score },
     getTotalQuestions,
+    getWrongAnswers,
+    getCorrectAnswers,
     resetExercise,
-    setScoreIntegrated,
-    setupCurrentQuestion,
     canRetry,
     startRetryMode,
     getWrongQuestions,
@@ -26,37 +26,19 @@ export function WritingGameResult() {
 
   const handleRestart = () => {
     resetExercise();
-    setScoreIntegrated(false);
-    const { gameState } = useWritingExerciseStore.getState();
-    if (gameState.questions.length > 0) {
-      setupCurrentQuestion(gameState.questions, 0);
-    }
   };
 
-  const handleBackToLesson = () => {
-    // Get current URL params to determine how to navigate back
-    const searchParams = new URLSearchParams(window.location.search);
-    const topicId = searchParams.get('topicId');
-    const lessonId = searchParams.get('lessonId');
-    const level = searchParams.get('level');
-    
-    if (topicId) {
-      router.push(`/kanji/lesson?topicId=${topicId}&level=${level}`);
-    } else if (lessonId) {
-      router.push(`/kanji/lesson?lessonId=${lessonId}&level=${level}`);
-    } else {
-      router.back();
-    }
+  const handleBackToHome = () => {
+    router.back();
   };
 
   const handleRetry = () => {
     startRetryMode();
   };
 
+  const correctAnswers = getCorrectAnswers();
+  const wrongAnswers = getWrongAnswers();
   const totalQuestions = getTotalQuestions();
-  const wrongQuestions = getWrongQuestions();
-  const correctAnswers = score;
-  const wrongAnswers = totalQuestions - score;
   const accuracy = Math.round((correctAnswers / totalQuestions) * 100);
   const scoreColors = getScoreColor(score);
 
@@ -104,7 +86,7 @@ export function WritingGameResult() {
                 className="w-full bg-orange-600 hover:bg-orange-700 text-white"
               >
                 <RotateCcw className="w-4 h-4 mr-2" />
-                Retry Wrong Questions ({wrongQuestions.length})
+                Retry Wrong Questions ({getWrongQuestions().length})
               </Button>
             )}
 
@@ -118,12 +100,12 @@ export function WritingGameResult() {
             </Button>
 
             <Button
-              onClick={handleBackToLesson}
+              onClick={handleBackToHome}
               variant="outline"
               className="w-full"
             >
               <Home className="w-4 h-4 mr-2" />
-              Back to Lesson
+              Back to Home
             </Button>
           </div>
         </Card>
