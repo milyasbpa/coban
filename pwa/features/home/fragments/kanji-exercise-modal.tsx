@@ -7,11 +7,13 @@ import {
   DialogTitle,
 } from "@/pwa/core/components/dialog";
 import { useHomeStore } from "../store/home-store";
+import { useHomeSettingsStore } from "../store/home-settings.store";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { ExerciseCard } from "../components/exercise-card";
 import { Edit3, Book, Users } from "lucide-react";
 
 export function KanjiExerciseModal() {
+  const { selectedLevel } = useHomeSettingsStore();
   const { kanjiExerciseModal, closeKanjiExerciseModal } = useHomeStore();
   const { getExerciseProgress } = useKanjiScoreStore();
   const { isOpen, lessonName, lessonId, topicId, lessonType, kanjiList } =
@@ -23,7 +25,7 @@ export function KanjiExerciseModal() {
     // Build URL based on lesson type
     const buildExerciseUrl = (exercise: string) => {
       const baseUrl = `/kanji/exercise/${exercise}`;
-      const level = "N5"; // Could be dynamic based on selected level
+      const level = selectedLevel; // Use selected level from settings
 
       if (lessonType === "stroke" && lessonId) {
         return `${baseUrl}?lessonId=${lessonId}&level=${level}`;
@@ -70,8 +72,9 @@ export function KanjiExerciseModal() {
             progress={getExerciseProgress(
               "writing",
               lessonType === "stroke"
-                ? lessonId?.toString()
-                : `topic_${topicId}`
+                ? lessonId?.toString() || ""
+                : `topic_${topicId}`,
+              selectedLevel
             )}
             onClick={handleExerciseStart}
           />
@@ -84,8 +87,9 @@ export function KanjiExerciseModal() {
             progress={getExerciseProgress(
               "reading",
               lessonType === "stroke"
-                ? lessonId?.toString()
-                : `topic_${topicId}`
+                ? lessonId?.toString() || ""
+                : `topic_${topicId}`,
+              selectedLevel
             )}
             onClick={handleExerciseStart}
           />
@@ -98,8 +102,9 @@ export function KanjiExerciseModal() {
             progress={getExerciseProgress(
               "pairing",
               lessonType === "stroke"
-                ? lessonId?.toString()
-                : `topic_${topicId}`
+                ? lessonId?.toString() || ""
+                : `topic_${topicId}`,
+              selectedLevel
             )}
             onClick={handleExerciseStart}
           />

@@ -91,7 +91,7 @@ export function KanjiStrokeLessonsSection() {
             key={lesson.id}
             level={lesson.level}
             lessonNumber={lesson.lessonNumber}
-            progress={getLessonProgress(lesson.id.toString())}
+            progress={getLessonProgress(lesson.id.toString(), selectedLevel)}
             kanjiList={lesson.kanji.map((k) => k.character)}
             onExerciseClick={() => handleExerciseClick(lesson.id)}
             onListClick={() => handleListClick(lesson.id)}
@@ -139,7 +139,7 @@ export function KanjiStrokeLessonsSection() {
                 key={lesson.id}
                 level={lesson.level}
                 lessonNumber={lesson.lessonNumber}
-                progress={getLessonProgress(lesson.id.toString())}
+                progress={getLessonProgress(lesson.id.toString(), selectedLevel)}
                 kanjiList={lesson.kanji.map((k) => k.character)}
                 onExerciseClick={() => handleExerciseClick(lesson.id)}
                 onListClick={() => handleListClick(lesson.id)}

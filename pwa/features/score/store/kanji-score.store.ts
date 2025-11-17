@@ -31,10 +31,11 @@ interface KanjiScoreState {
   ) => Promise<void>;
 
   // Getters (untuk UI compatibility)
-  getLessonProgress: (lessonId: string) => number;
+  getLessonProgress: (lessonId: string, level: string) => number;
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
-    lessonId?: string
+    lessonId: string,
+    level: string
   ) => number;
   getOverallProgress: () => {
     currentLevel: string;
@@ -79,6 +80,7 @@ const getTotalWordsInLesson = (lessonId: number, level: string): number => {
 const getCorrectWordsInScope = (
   currentUserScore: KanjiUserScore,
   lessonId: string,
+  level: string,
   exerciseType?: ExerciseType
 ): number => {
   let correctWords = 0;
@@ -88,7 +90,7 @@ const getCorrectWordsInScope = (
 
   if (lessonId.startsWith("topic_")) {
     const topicId = lessonId.replace("topic_", "");
-    const categories = KanjiService.getTopicCategories(currentUserScore.level);
+    const categories = KanjiService.getTopicCategories(level);
     const category = categories[topicId];
     if (category) {
       scopeKanjiIds = category.kanji_ids.map((id) => id.toString());
@@ -97,7 +99,7 @@ const getCorrectWordsInScope = (
     const numericLessonId = parseInt(lessonId);
     const kanjiList = KanjiService.getKanjiDetailsByLessonId(
       numericLessonId,
-      currentUserScore.level
+      level
     );
     scopeKanjiIds = kanjiList.map((kanji) => kanji.id.toString());
   }
@@ -212,7 +214,7 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
   },
 
   // Get lesson progress (topic-aware)
-  getLessonProgress: (lessonId: string): number => {
+  getLessonProgress: (lessonId: string, level: string): number => {
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
@@ -220,13 +222,10 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     let totalWords = 0;
     if (lessonId.startsWith("topic_")) {
       const topicId = lessonId.replace("topic_", "");
-      totalWords = getTotalWordsInTopic(topicId, currentUserScore.level);
+      totalWords = getTotalWordsInTopic(topicId, level);
     } else {
       const numericLessonId = parseInt(lessonId);
-      totalWords = getTotalWordsInLesson(
-        numericLessonId,
-        currentUserScore.level
-      );
+      totalWords = getTotalWordsInLesson(numericLessonId, level);
     }
 
     if (totalWords === 0) return 0;
@@ -234,7 +233,8 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     // Calculate total correct words from all exercise types
     const totalCorrectWords = getCorrectWordsInScope(
       currentUserScore,
-      lessonId
+      lessonId,
+      level
     );
     const totalPossibleWords = totalWords * 3; // 3 exercise types (writing, reading, pairing)
 
@@ -244,22 +244,20 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
   // Get exercise progress (topic-aware)
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
-    lessonId?: string
+    lessonId: string,
+    level: string
   ): number => {
     const { currentUserScore } = get();
-    if (!currentUserScore || !lessonId) return 0;
+    if (!currentUserScore) return 0;
 
     // Calculate total words in scope (topic or lesson)
     let totalWords = 0;
     if (lessonId.startsWith("topic_")) {
       const topicId = lessonId.replace("topic_", "");
-      totalWords = getTotalWordsInTopic(topicId, currentUserScore.level);
+      totalWords = getTotalWordsInTopic(topicId, level);
     } else {
       const numericLessonId = parseInt(lessonId);
-      totalWords = getTotalWordsInLesson(
-        numericLessonId,
-        currentUserScore.level
-      );
+      totalWords = getTotalWordsInLesson(numericLessonId, level);
     }
 
     if (totalWords === 0) return 0;
@@ -268,6 +266,7 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     const correctWords = getCorrectWordsInScope(
       currentUserScore,
       lessonId,
+      level,
       exerciseType
     );
 

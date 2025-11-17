@@ -96,7 +96,7 @@ export function KanjiTopicLessonsSection() {
               key={topic.id}
               level={selectedLevel}
               name={topic.name}
-              progress={getLessonProgress(`topic_${topic.id}`)}
+              progress={getLessonProgress(`topic_${topic.id}`, selectedLevel)}
               kanjiList={category?.kanji_characters || []}
               onExerciseClick={() => handleTopicExerciseClick(topic.id)}
               onListClick={() => handleTopicListClick(topic.id)}
@@ -150,7 +150,7 @@ export function KanjiTopicLessonsSection() {
                   key={topic.id}
                   level={selectedLevel}
                   name={topic.name}
-                  progress={getLessonProgress(`topic_${topic.id}`)}
+                  progress={getLessonProgress(`topic_${topic.id}`, selectedLevel)}
                   kanjiList={category?.kanji_characters || []}
                   onExerciseClick={() => handleTopicExerciseClick(topic.id)}
                   onListClick={() => handleTopicListClick(topic.id)}
