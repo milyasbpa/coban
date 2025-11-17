@@ -36,6 +36,29 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
 
   const kanjiMeaning = getMeaning(kanji, language as SupportedLanguage);
 
+  // Helper function to highlight matching kanji characters
+  const highlightMatchingKanji = (word: string, targetKanji: string) => {
+    const parts = word.split('').map((char, index) => {
+      if (char === targetKanji) {
+        return (
+          <span 
+            key={index}
+            className={cn(
+              "font-bold transition-colors rounded px-0.5",
+              isSelected 
+                ? "text-primary bg-primary/20" 
+                : "text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/30"
+            )}
+          >
+            {char}
+          </span>
+        );
+      }
+      return char;
+    });
+    return parts;
+  };
+
   return (
     <Card
       className={cn(
@@ -173,7 +196,7 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
               <div className="flex items-baseline gap-1 shrink-0">
                 {displayOptions.japanese && (
                   <span className="font-semibold text-foreground">
-                    {example.word}
+                    {highlightMatchingKanji(example.word, kanji.character)}
                   </span>
                 )}
                 {displayOptions.furigana && (
