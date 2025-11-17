@@ -14,9 +14,7 @@ import {
 } from "@/pwa/features/kanji/shared/utils/language-helpers";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
-import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
 import { useExerciseSearchParams } from "../../utils/hooks";
-import { KanjiService } from "@/pwa/core/services/kanji";
 import { integratePairingGameScore } from "../utils/scoring-integration";
 
 export function PairingGameGrid() {

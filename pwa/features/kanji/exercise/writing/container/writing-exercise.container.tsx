@@ -3,9 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
-import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
-import { KanjiService } from "@/pwa/core/services/kanji";
 import {
   DndContext,
   DragEndEvent,
@@ -28,6 +26,7 @@ import { AssemblyArea } from "../fragments/assembly-area";
 import { SubmitButton } from "../components";
 import { getWritingQuestions } from "../utils";
 import { useExerciseSearchParams } from "../../utils/hooks";
+import { integrateWritingGameScore } from "../utils/scoring-integration";
 
 export function WritingExerciseContainer() {
   const router = useRouter();
@@ -70,6 +69,7 @@ export function WritingExerciseContainer() {
   const selectedKanji = questionState.selectedKanji;
   const showAnswer = questionState.showAnswer;
   const questions = gameState.questions;
+  const wrongQuestions = gameState.wrongQuestions;
   const showFeedback = questionState.showFeedback;
   const scoreIntegrated = questionState.scoreIntegrated;
   const score = gameState.score;
@@ -109,64 +109,20 @@ export function WritingExerciseContainer() {
       ) {
         setScoreIntegrated(true);
 
-        // Auto-initialize user if not already initialized
-        if (!isInitialized || !currentUserScore) {
-          await initializeUser(
-            "default-user",
-            level as "N5" | "N4" | "N3" | "N2" | "N1"
+        // Integrate kanji scoring at exercise completion
+        try {
+          await integrateWritingGameScore(
+            questions,
+            wrongQuestions,
+            level,
+            updateKanjiMastery,
+            initializeUser,
+            isInitialized,
+            currentUserScore
           );
+        } catch (error) {
+          console.error("Error integrating writing game score:", error);
         }
-
-        // Use imported utilities for word-based scoring
-
-        // Create kanji exercise results using accurate kanji mapping
-        const exerciseResults: KanjiExerciseResult[] = questions.map(
-          (question, index) => {
-            const isCorrect = index < score; // Simple estimation based on score
-
-            // Get accurate kanji information using KanjiService
-            const kanjiInfo = KanjiService.getKanjiInfoForScoring(
-              question.word,
-              level
-            );
-
-            // Generate simple word ID
-            const wordId = `${question.word}_${kanjiInfo.kanjiId}_${index}`;
-
-            return {
-              kanjiId: kanjiInfo.kanjiId,
-              kanji: kanjiInfo.kanjiCharacter,
-              isCorrect,
-              wordId,
-              word: question.word,
-              exerciseType: "writing" as const,
-              level: level as "N5" | "N4" | "N3" | "N2" | "N1", // Level from exercise context
-            };
-          }
-        );
-
-        // Group results by kanji for processing
-        const resultsByKanji = exerciseResults.reduce((acc, result) => {
-          if (!acc[result.kanjiId]) {
-            acc[result.kanjiId] = [];
-          }
-          acc[result.kanjiId].push(result);
-          return acc;
-        }, {} as Record<string, KanjiExerciseResult[]>);
-
-        // Update kanji scoring for each kanji
-        Object.entries(resultsByKanji).forEach(([kanjiId, results]) => {
-          // Get accurate total words for this kanji
-          const firstWord = results[0]?.word;
-          const totalWordsInKanji = firstWord
-            ? KanjiService.getTotalWordsForKanji(firstWord, level)
-            : 1;
-
-          // Update kanji mastery
-          results.forEach((result) => {
-            updateKanjiMastery(kanjiId, result.kanji, [result]);
-          });
-        });
       }
     };
 
@@ -174,16 +130,14 @@ export function WritingExerciseContainer() {
   }, [
     currentQuestionIndex,
     questions.length,
-    score,
     scoreIntegrated,
     isInitialized,
     currentUserScore,
     initializeUser,
     updateKanjiMastery,
     level,
-    lessonId,
-    topicId,
     questions,
+    wrongQuestions,
   ]);
 
   const loadQuestions = () => {
