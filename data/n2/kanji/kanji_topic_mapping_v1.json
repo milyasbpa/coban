@@ -2,13 +2,28 @@
   "topic_categories": {
     "abstract_logic_reasoning": {
       "name": "Abstract, Logic & Reasoning",
-      "kanji_ids": [1],
-      "kanji_characters": ["丁"],
+      "kanji_ids": [
+        1
+      ],
+      "kanji_characters": [
+        "丁"
+      ],
       "description": "Reason, cause, explanation, theory."
     },
     "actions_operations": {
       "name": "Actions & Operations",
-      "kanji_ids": [37, 38, 39, 45, 61, 76, 80, 89, 90, 92],
+      "kanji_ids": [
+        37,
+        38,
+        39,
+        45,
+        61,
+        76,
+        80,
+        89,
+        90,
+        92
+      ],
       "kanji_characters": [
         "叫",
         "吐",
@@ -25,7 +40,18 @@
     },
     "actions_operations_2": {
       "name": "Actions & Operations 2",
-      "kanji_ids": [93, 95, 122, 142, 157, 180, 211, 239, 248, 254],
+      "kanji_ids": [
+        93,
+        95,
+        122,
+        142,
+        157,
+        180,
+        211,
+        239,
+        248,
+        254
+      ],
       "kanji_characters": [
         "担",
         "祈",
@@ -42,25 +68,72 @@
     },
     "actions_operations_3": {
       "name": "Actions & Operations 3",
-      "kanji_ids": [339, 391, 392, 393, 403, 422, 436, 440],
-      "kanji_characters": ["携", "器", "噴", "鋭", "撃", "憶", "縮", "贈"],
+      "kanji_ids": [
+        339,
+        391,
+        392,
+        393,
+        403,
+        422,
+        436,
+        440
+      ],
+      "kanji_characters": [
+        "携",
+        "器",
+        "噴",
+        "鋭",
+        "撃",
+        "憶",
+        "縮",
+        "贈"
+      ],
       "description": "Common verbs and operations."
     },
     "arts_culture_religion": {
       "name": "Arts, Culture & Religion",
-      "kanji_ids": [81, 206, 215, 300, 330, 347],
-      "kanji_characters": ["宗", "党", "異", "湾", "詩", "農"],
+      "kanji_ids": [
+        81,
+        206,
+        215,
+        300,
+        330,
+        347
+      ],
+      "kanji_characters": [
+        "宗",
+        "党",
+        "異",
+        "湾",
+        "詩",
+        "農"
+      ],
       "description": "Arts, culture, religion/temple."
     },
     "assistance_support_help": {
       "name": "Assistance, Support & Help",
-      "kanji_ids": [271],
-      "kanji_characters": ["援"],
+      "kanji_ids": [
+        271
+      ],
+      "kanji_characters": [
+        "援"
+      ],
       "description": "Help, assistance, support."
     },
     "body_senses_self": {
       "name": "Body, Senses & Self",
-      "kanji_ids": [21, 40, 48, 68, 102, 145, 170, 171, 175, 212],
+      "kanji_ids": [
+        21,
+        40,
+        48,
+        68,
+        102,
+        145,
+        170,
+        171,
+        175,
+        212
+      ],
       "kanji_characters": [
         "圧",
         "舌",
@@ -77,13 +150,37 @@
     },
     "body_senses_self_2": {
       "name": "Body, Senses & Self 2",
-      "kanji_ids": [218, 296, 338, 394, 397, 443],
-      "kanji_characters": ["梨", "診", "傷", "稼", "膚", "臓"],
+      "kanji_ids": [
+        218,
+        296,
+        338,
+        394,
+        397,
+        443
+      ],
+      "kanji_characters": [
+        "梨",
+        "診",
+        "傷",
+        "稼",
+        "膚",
+        "臓"
+      ],
       "description": "Body parts, senses, self."
     },
     "business_commerce_trade": {
       "name": "Business, Commerce & Trade",
-      "kanji_ids": [53, 71, 83, 91, 228, 243, 314, 412, 418],
+      "kanji_ids": [
+        53,
+        71,
+        83,
+        91,
+        228,
+        243,
+        314,
+        412,
+        418
+      ],
       "kanji_characters": [
         "応",
         "辛",
@@ -99,13 +196,30 @@
     },
     "change_and_transformation": {
       "name": "Change & Transformation",
-      "kanji_ids": [242, 414],
-      "kanji_characters": ["崩", "壊"],
+      "kanji_ids": [
+        242,
+        414
+      ],
+      "kanji_characters": [
+        "崩",
+        "壊"
+      ],
       "description": "Change, modify, reform, replace."
     },
     "cleanliness_quality_intensity": {
       "name": "Cleanliness, Quality & Intensity",
-      "kanji_ids": [25, 103, 152, 161, 236, 241, 249, 287, 288, 437],
+      "kanji_ids": [
+        25,
+        103,
+        152,
+        161,
+        236,
+        241,
+        249,
+        287,
+        288,
+        437
+      ],
       "kanji_characters": [
         "甘",
         "泡",
@@ -122,25 +236,68 @@
     },
     "comfort_risk_safety": {
       "name": "Comfort, Risk & Safety",
-      "kanji_ids": [148, 281, 299],
-      "kanji_characters": ["泉", "暑", "温"],
+      "kanji_ids": [
+        148,
+        281,
+        299
+      ],
+      "kanji_characters": [
+        "泉",
+        "暑",
+        "温"
+      ],
       "description": "Comfort, discomfort, danger, safety."
     },
     "communication_expression": {
       "name": "Communication & Expression",
-      "kanji_ids": [12, 147, 429],
-      "kanji_characters": ["句", "昭", "講"],
+      "kanji_ids": [
+        12,
+        147,
+        429
+      ],
+      "kanji_characters": [
+        "句",
+        "昭",
+        "講"
+      ],
       "description": "Say, report, request, warn, announce."
     },
     "counters_and_quantifiers": {
       "name": "Counters & Quantifiers",
-      "kanji_ids": [10, 15, 28, 129, 166, 258, 442],
-      "kanji_characters": ["匹", "占", "皮", "首", "逆", "帳", "簿"],
+      "kanji_ids": [
+        10,
+        15,
+        28,
+        129,
+        166,
+        258,
+        442
+      ],
+      "kanji_characters": [
+        "匹",
+        "占",
+        "皮",
+        "首",
+        "逆",
+        "帳",
+        "簿"
+      ],
       "description": "Counters and quantifiers."
     },
     "documentation_forms_identifiers": {
       "name": "Documentation, Forms & Identifiers",
-      "kanji_ids": [33, 109, 167, 169, 224, 227, 238, 240, 297, 298],
+      "kanji_ids": [
+        33,
+        109,
+        167,
+        169,
+        224,
+        227,
+        238,
+        240,
+        297,
+        298
+      ],
       "kanji_characters": [
         "刊",
         "刺",
@@ -157,25 +314,58 @@
     },
     "documentation_forms_identifiers_2": {
       "name": "Documentation, Forms & Identifiers 2",
-      "kanji_ids": [323, 326, 408, 427],
-      "kanji_characters": ["酢", "廊", "導", "燥"],
+      "kanji_ids": [
+        323,
+        326,
+        408,
+        427
+      ],
+      "kanji_characters": [
+        "酢",
+        "廊",
+        "導",
+        "燥"
+      ],
       "description": "Docs, IDs, records."
     },
     "errors_faults_corrections": {
       "name": "Errors, Faults & Corrections",
-      "kanji_ids": [34, 367],
-      "kanji_characters": ["刑", "罰"],
+      "kanji_ids": [
+        34,
+        367
+      ],
+      "kanji_characters": [
+        "刑",
+        "罰"
+      ],
       "description": "Mistakes, faults, corrections."
     },
     "food_drink_cooking": {
       "name": "Food, Drink & Cooking",
-      "kanji_ids": [20, 182],
-      "kanji_characters": ["汁", "酌"],
+      "kanji_ids": [
+        20,
+        182
+      ],
+      "kanji_characters": [
+        "汁",
+        "酌"
+      ],
       "description": "Food, drink, cooking."
     },
     "governance_law_order": {
       "name": "Governance, Law & Order",
-      "kanji_ids": [2, 30, 133, 138, 141, 155, 190, 193, 291, 293],
+      "kanji_ids": [
+        2,
+        30,
+        133,
+        138,
+        141,
+        155,
+        190,
+        193,
+        291,
+        293
+      ],
       "kanji_characters": [
         "士",
         "札",
@@ -192,13 +382,28 @@
     },
     "governance_law_order_2": {
       "name": "Governance, Law & Order 2",
-      "kanji_ids": [355],
-      "kanji_characters": ["節"],
+      "kanji_ids": [
+        355
+      ],
+      "kanji_characters": [
+        "節"
+      ],
       "description": "Law, institutions, permissions, rules, crime."
     },
     "health_medicine": {
       "name": "Health & Medicine",
-      "kanji_ids": [35, 79, 132, 199, 251, 252, 263, 364, 433, 448],
+      "kanji_ids": [
+        35,
+        79,
+        132,
+        199,
+        251,
+        252,
+        263,
+        364,
+        433,
+        448
+      ],
       "kanji_characters": [
         "仮",
         "妊",
@@ -215,13 +420,32 @@
     },
     "household_home_life": {
       "name": "Household, Home & Life",
-      "kanji_ids": [17, 29, 55],
-      "kanji_characters": ["玄", "布", "床"],
+      "kanji_ids": [
+        17,
+        29,
+        55
+      ],
+      "kanji_characters": [
+        "玄",
+        "布",
+        "床"
+      ],
       "description": "House, fixtures, everyday items."
     },
     "human_relationships_society": {
       "name": "Human Relationships & Society",
-      "kanji_ids": [3, 4, 13, 18, 26, 32, 73, 87, 123, 186],
+      "kanji_ids": [
+        3,
+        4,
+        13,
+        18,
+        26,
+        32,
+        73,
+        87,
+        123,
+        186
+      ],
       "kanji_characters": [
         "及",
         "双",
@@ -238,7 +462,17 @@
     },
     "human_relationships_society_2": {
       "name": "Human Relationships & Society 2",
-      "kanji_ids": [188, 189, 197, 204, 280, 282, 315, 337, 375],
+      "kanji_ids": [
+        188,
+        189,
+        197,
+        204,
+        280,
+        282,
+        315,
+        337,
+        375
+      ],
       "kanji_characters": [
         "孫",
         "畜",
@@ -254,31 +488,74 @@
     },
     "incidents_accidents_emergencies": {
       "name": "Incidents, Accidents & Emergencies",
-      "kanji_ids": [69],
-      "kanji_characters": ["災"],
+      "kanji_ids": [
+        69
+      ],
+      "kanji_characters": [
+        "災"
+      ],
       "description": "Incidents, accidents, emergencies."
     },
     "learning_knowledge_research": {
       "name": "Learning, Knowledge & Research",
-      "kanji_ids": [14, 195, 196, 390],
-      "kanji_characters": ["史", "討", "訓", "歴"],
+      "kanji_ids": [
+        14,
+        195,
+        196,
+        390
+      ],
+      "kanji_characters": [
+        "史",
+        "討",
+        "訓",
+        "歴"
+      ],
       "description": "Learning, study, theory, debate."
     },
     "leisure_sports_entertainment": {
       "name": "Leisure, Sports & Entertainment",
-      "kanji_ids": [210],
-      "kanji_characters": ["展"],
+      "kanji_ids": [
+        210
+      ],
+      "kanji_characters": [
+        "展"
+      ],
       "description": "Play, sports, recreation."
     },
     "manufacturing_industry_production": {
       "name": "Manufacturing, Industry & Production",
-      "kanji_ids": [44, 114, 207, 217, 319, 407],
-      "kanji_characters": ["缶", "固", "軒", "堂", "靴", "敷"],
+      "kanji_ids": [
+        44,
+        114,
+        207,
+        217,
+        319,
+        407
+      ],
+      "kanji_characters": [
+        "缶",
+        "固",
+        "軒",
+        "堂",
+        "靴",
+        "敷"
+      ],
       "description": "Make/build, production, factories."
     },
     "materials_substances": {
       "name": "Materials & Substances",
-      "kanji_ids": [8, 31, 42, 57, 64, 115, 125, 150, 245, 269],
+      "kanji_ids": [
+        8,
+        31,
+        42,
+        57,
+        64,
+        115,
+        125,
+        150,
+        245,
+        269
+      ],
       "kanji_characters": [
         "井",
         "井",
@@ -295,13 +572,40 @@
     },
     "materials_substances_2": {
       "name": "Materials & Substances 2",
-      "kanji_ids": [278, 341, 344, 370, 371, 432, 435],
-      "kanji_characters": ["筒", "源", "滝", "漁", "滴", "厳", "環"],
+      "kanji_ids": [
+        278,
+        341,
+        344,
+        370,
+        371,
+        432,
+        435
+      ],
+      "kanji_characters": [
+        "筒",
+        "源",
+        "滝",
+        "漁",
+        "滴",
+        "厳",
+        "環"
+      ],
       "description": "Materials, substances, resources."
     },
     "measurements_numbers_units": {
       "name": "Measurements, Numbers & Units",
-      "kanji_ids": [74, 77, 184, 192, 208, 225, 226, 274, 277, 301],
+      "kanji_ids": [
+        74,
+        77,
+        184,
+        192,
+        208,
+        225,
+        226,
+        274,
+        277,
+        301
+      ],
       "kanji_characters": [
         "即",
         "別",
@@ -318,7 +622,17 @@
     },
     "measurements_numbers_units_2": {
       "name": "Measurements, Numbers & Units 2",
-      "kanji_ids": [302, 309, 310, 311, 346, 368, 409, 426, 446],
+      "kanji_ids": [
+        302,
+        309,
+        310,
+        311,
+        346,
+        368,
+        409,
+        426,
+        446
+      ],
       "kanji_characters": [
         "敬",
         "統",
@@ -334,7 +648,18 @@
     },
     "money_finance_economy": {
       "name": "Money, Finance & Economy",
-      "kanji_ids": [158, 172, 173, 174, 179, 187, 213, 244, 259, 292],
+      "kanji_ids": [
+        158,
+        172,
+        173,
+        174,
+        179,
+        187,
+        213,
+        244,
+        259,
+        292
+      ],
       "kanji_characters": [
         "咲",
         "株",
@@ -351,19 +676,48 @@
     },
     "money_finance_economy_2": {
       "name": "Money, Finance & Economy 2",
-      "kanji_ids": [335, 336, 340, 357, 359],
-      "kanji_characters": ["債", "賃", "損", "嫌", "触"],
+      "kanji_ids": [
+        335,
+        336,
+        340,
+        357,
+        359
+      ],
+      "kanji_characters": [
+        "債",
+        "賃",
+        "損",
+        "嫌",
+        "触"
+      ],
       "description": "Money, prices, income/expense, tax."
     },
     "movement_travel_transport": {
       "name": "Movement, Travel & Transport",
-      "kanji_ids": [86, 430],
-      "kanji_characters": ["往", "購"],
+      "kanji_ids": [
+        86,
+        430
+      ],
+      "kanji_characters": [
+        "往",
+        "購"
+      ],
       "description": "Move, pass, travel, transport."
     },
     "nature_environment_animals_plants": {
       "name": "Nature, Environment, Animals & Plants",
-      "kanji_ids": [50, 66, 67, 70, 72, 94, 96, 100, 112, 389],
+      "kanji_ids": [
+        50,
+        66,
+        67,
+        70,
+        72,
+        94,
+        96,
+        100,
+        112,
+        389
+      ],
       "kanji_characters": [
         "羊",
         "杉",
@@ -380,37 +734,86 @@
     },
     "packaging_storage_containers": {
       "name": "Packaging, Storage & Containers",
-      "kanji_ids": [342],
-      "kanji_characters": ["溶"],
+      "kanji_ids": [
+        342
+      ],
+      "kanji_characters": [
+        "溶"
+      ],
       "description": "Boxes, storage, packing."
     },
     "path_progress_transition": {
       "name": "Path, Progress & Transition",
-      "kanji_ids": [131, 216, 264],
-      "kanji_characters": ["省", "略", "進"],
+      "kanji_ids": [
+        131,
+        216,
+        264
+      ],
+      "kanji_characters": [
+        "省",
+        "略",
+        "進"
+      ],
       "description": "Progress, transition, via."
     },
     "performance_results_effects": {
       "name": "Performance, Results & Effects",
-      "kanji_ids": [16, 127, 431],
-      "kanji_characters": ["功", "効", "覧"],
+      "kanji_ids": [
+        16,
+        127,
+        431
+      ],
+      "kanji_characters": [
+        "功",
+        "効",
+        "覧"
+      ],
       "description": "Results, effects, success/failure."
     },
     "planning_management_process": {
       "name": "Planning, Management & Process",
-      "kanji_ids": [43, 202, 265, 267, 273, 385],
-      "kanji_characters": ["企", "華", "設", "斜", "植", "管"],
+      "kanji_ids": [
+        43,
+        202,
+        265,
+        267,
+        273,
+        385
+      ],
+      "kanji_characters": [
+        "企",
+        "華",
+        "設",
+        "斜",
+        "植",
+        "管"
+      ],
       "description": "Plans, projects, management, workflow."
     },
     "safety_rules_permissions": {
       "name": "Safety, Rules & Permissions",
-      "kanji_ids": [105],
-      "kanji_characters": ["背"],
+      "kanji_ids": [
+        105
+      ],
+      "kanji_characters": [
+        "背"
+      ],
       "description": "Permissions, approvals, prohibitions."
     },
     "space_direction_location": {
       "name": "Space, Direction & Location",
-      "kanji_ids": [9, 23, 24, 59, 88, 113, 124, 137, 144, 151],
+      "kanji_ids": [
+        9,
+        23,
+        24,
+        59,
+        88,
+        113,
+        124,
+        137,
+        144,
+        151
+      ],
       "kanji_characters": [
         "片",
         "穴",
@@ -427,13 +830,42 @@
     },
     "space_direction_location_2": {
       "name": "Space, Direction & Location 2",
-      "kanji_ids": [232, 233, 253, 283, 285, 325, 329, 415],
-      "kanji_characters": ["埼", "崎", "鹿", "隅", "塚", "媛", "詰", "壁"],
+      "kanji_ids": [
+        232,
+        233,
+        253,
+        283,
+        285,
+        325,
+        329,
+        415
+      ],
+      "kanji_characters": [
+        "埼",
+        "崎",
+        "鹿",
+        "隅",
+        "塚",
+        "媛",
+        "詰",
+        "壁"
+      ],
       "description": "Space, direction, places, facilities."
     },
     "states_conditions": {
       "name": "States & Conditions",
-      "kanji_ids": [5, 6, 7, 11, 19, 41, 47, 51, 52, 56],
+      "kanji_ids": [
+        5,
+        6,
+        7,
+        11,
+        19,
+        41,
+        47,
+        51,
+        52,
+        56
+      ],
       "kanji_characters": [
         "氏",
         "冗",
@@ -450,7 +882,18 @@
     },
     "states_conditions_10": {
       "name": "States & Conditions 10",
-      "kanji_ids": [308, 312, 313, 316, 317, 320, 324, 328, 331, 333],
+      "kanji_ids": [
+        308,
+        312,
+        313,
+        316,
+        317,
+        320,
+        324,
+        328,
+        331,
+        333
+      ],
       "kanji_characters": [
         "紫",
         "帽",
@@ -467,7 +910,18 @@
     },
     "states_conditions_11": {
       "name": "States & Conditions 11",
-      "kanji_ids": [343, 345, 348, 349, 350, 351, 352, 353, 354, 358],
+      "kanji_ids": [
+        343,
+        345,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        358
+      ],
       "kanji_characters": [
         "滞",
         "飼",
@@ -484,7 +938,18 @@
     },
     "states_conditions_12": {
       "name": "States & Conditions 12",
-      "kanji_ids": [360, 361, 362, 363, 365, 366, 369, 373, 374, 376],
+      "kanji_ids": [
+        360,
+        361,
+        362,
+        363,
+        365,
+        366,
+        369,
+        373,
+        374,
+        376
+      ],
       "kanji_characters": [
         "睡",
         "跡",
@@ -501,7 +966,18 @@
     },
     "states_conditions_13": {
       "name": "States & Conditions 13",
-      "kanji_ids": [377, 378, 379, 380, 381, 382, 384, 386, 387, 388],
+      "kanji_ids": [
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        384,
+        386,
+        387,
+        388
+      ],
       "kanji_characters": [
         "銅",
         "層",
@@ -518,7 +994,18 @@
     },
     "states_conditions_14": {
       "name": "States & Conditions 14",
-      "kanji_ids": [395, 396, 398, 400, 401, 402, 404, 405, 406, 410],
+      "kanji_ids": [
+        395,
+        396,
+        398,
+        400,
+        401,
+        402,
+        404,
+        405,
+        406,
+        410
+      ],
       "kanji_characters": [
         "億",
         "劇",
@@ -535,7 +1022,18 @@
     },
     "states_conditions_15": {
       "name": "States & Conditions 15",
-      "kanji_ids": [411, 413, 416, 417, 419, 421, 423, 425, 428, 434],
+      "kanji_ids": [
+        411,
+        413,
+        416,
+        417,
+        419,
+        421,
+        423,
+        425,
+        428,
+        434
+      ],
       "kanji_characters": [
         "暴",
         "寮",
@@ -552,13 +1050,38 @@
     },
     "states_conditions_16": {
       "name": "States & Conditions 16",
-      "kanji_ids": [438, 439, 441, 444, 445, 447],
-      "kanji_characters": ["騒", "験", "瀬", "鏡", "爆", "競"],
+      "kanji_ids": [
+        438,
+        439,
+        441,
+        444,
+        445,
+        447
+      ],
+      "kanji_characters": [
+        "騒",
+        "験",
+        "瀬",
+        "鏡",
+        "爆",
+        "競"
+      ],
       "description": "States, existence, necessity, completion."
     },
     "states_conditions_2": {
       "name": "States & Conditions 2",
-      "kanji_ids": [58, 60, 62, 65, 82, 84, 97, 98, 99, 101],
+      "kanji_ids": [
+        58,
+        60,
+        62,
+        65,
+        82,
+        84,
+        97,
+        98,
+        99,
+        101
+      ],
       "kanji_characters": [
         "坊",
         "阪",
@@ -575,7 +1098,18 @@
     },
     "states_conditions_3": {
       "name": "States & Conditions 3",
-      "kanji_ids": [104, 106, 108, 110, 111, 116, 117, 118, 119, 120],
+      "kanji_ids": [
+        104,
+        106,
+        108,
+        110,
+        111,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
       "kanji_characters": [
         "防",
         "肩",
@@ -592,7 +1126,18 @@
     },
     "states_conditions_4": {
       "name": "States & Conditions 4",
-      "kanji_ids": [121, 126, 128, 130, 134, 135, 136, 139, 143, 149],
+      "kanji_ids": [
+        121,
+        126,
+        128,
+        130,
+        134,
+        135,
+        136,
+        139,
+        143,
+        149
+      ],
       "kanji_characters": [
         "昇",
         "武",
@@ -609,7 +1154,18 @@
     },
     "states_conditions_5": {
       "name": "States & Conditions 5",
-      "kanji_ids": [153, 154, 156, 159, 160, 162, 163, 164, 165, 176],
+      "kanji_ids": [
+        153,
+        154,
+        156,
+        159,
+        160,
+        162,
+        163,
+        164,
+        165,
+        176
+      ],
       "kanji_characters": [
         "染",
         "津",
@@ -626,7 +1182,18 @@
     },
     "states_conditions_6": {
       "name": "States & Conditions 6",
-      "kanji_ids": [177, 178, 185, 191, 194, 200, 201, 203, 214, 219],
+      "kanji_ids": [
+        177,
+        178,
+        185,
+        191,
+        194,
+        200,
+        201,
+        203,
+        214,
+        219
+      ],
       "kanji_characters": [
         "脈",
         "恵",
@@ -643,7 +1210,18 @@
     },
     "states_conditions_7": {
       "name": "States & Conditions 7",
-      "kanji_ids": [220, 222, 223, 229, 230, 231, 234, 235, 237, 247],
+      "kanji_ids": [
+        220,
+        222,
+        223,
+        229,
+        230,
+        231,
+        234,
+        235,
+        237,
+        247
+      ],
       "kanji_characters": [
         "菓",
         "菌",
@@ -660,7 +1238,18 @@
     },
     "states_conditions_8": {
       "name": "States & Conditions 8",
-      "kanji_ids": [250, 255, 256, 261, 262, 266, 268, 270, 272, 275],
+      "kanji_ids": [
+        250,
+        255,
+        256,
+        261,
+        262,
+        266,
+        268,
+        270,
+        272,
+        275
+      ],
       "kanji_characters": [
         "貨",
         "章",
@@ -677,7 +1266,18 @@
     },
     "states_conditions_9": {
       "name": "States & Conditions 9",
-      "kanji_ids": [279, 284, 289, 290, 294, 295, 303, 304, 305, 307],
+      "kanji_ids": [
+        279,
+        284,
+        289,
+        290,
+        294,
+        295,
+        303,
+        304,
+        305,
+        307
+      ],
       "kanji_characters": [
         "筆",
         "隊",
@@ -694,13 +1294,36 @@
     },
     "technology_tools_devices": {
       "name": "Technology, Tools & Devices",
-      "kanji_ids": [46, 146, 181, 221, 286],
-      "kanji_characters": ["光", "星", "航", "著", "軽"],
+      "kanji_ids": [
+        46,
+        146,
+        181,
+        221,
+        286
+      ],
+      "kanji_characters": [
+        "光",
+        "星",
+        "航",
+        "著",
+        "軽"
+      ],
       "description": "Tools, devices, equipment."
     },
     "time_sequence": {
       "name": "Time & Sequence",
-      "kanji_ids": [27, 36, 49, 54, 63, 75, 78, 85, 140, 168],
+      "kanji_ids": [
+        27,
+        36,
+        49,
+        54,
+        63,
+        75,
+        78,
+        85,
+        140,
+        168
+      ],
       "kanji_characters": [
         "令",
         "江",
@@ -717,7 +1340,18 @@
     },
     "time_sequence_2": {
       "name": "Time & Sequence 2",
-      "kanji_ids": [183, 198, 209, 257, 276, 306, 322, 327, 332, 334],
+      "kanji_ids": [
+        183,
+        198,
+        209,
+        257,
+        276,
+        306,
+        322,
+        327,
+        332,
+        334
+      ],
       "kanji_characters": [
         "修",
         "将",
@@ -734,26 +1368,60 @@
     },
     "time_sequence_3": {
       "name": "Time & Sequence 3",
-      "kanji_ids": [372, 383, 399, 420, 424],
-      "kanji_characters": ["境", "暮", "潔", "隣", "縦"],
+      "kanji_ids": [
+        372,
+        383,
+        399,
+        420,
+        424
+      ],
+      "kanji_characters": [
+        "境",
+        "暮",
+        "潔",
+        "隣",
+        "縦"
+      ],
       "description": "Time, order, sequence."
     },
     "travel_documents_tickets": {
       "name": "Travel Documents & Tickets",
-      "kanji_ids": [107],
-      "kanji_characters": ["屈"],
+      "kanji_ids": [
+        107
+      ],
+      "kanji_characters": [
+        "屈"
+      ],
       "description": "Tickets, passes, travel docs."
     },
     "weather_season_climate": {
       "name": "Weather, Season & Climate",
-      "kanji_ids": [246, 260, 318],
-      "kanji_characters": ["脳", "粒", "傘"],
+      "kanji_ids": [
+        246,
+        260,
+        318
+      ],
+      "kanji_characters": [
+        "脳",
+        "粒",
+        "傘"
+      ],
       "description": "Weather and climate."
     },
     "work_jobs_professions": {
       "name": "Work, Jobs & Professions",
-      "kanji_ids": [22, 205, 321, 356],
-      "kanji_characters": ["庁", "兼", "就", "義"],
+      "kanji_ids": [
+        22,
+        205,
+        321,
+        356
+      ],
+      "kanji_characters": [
+        "庁",
+        "兼",
+        "就",
+        "義"
+      ],
       "description": "Workplaces, jobs, roles, employment."
     }
   },
