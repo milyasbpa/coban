@@ -15,6 +15,8 @@ import {
 import { useDisplayOptions } from "../store/display-options.store";
 import { cn } from "@/pwa/core/lib/utils";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
+import { KanjiStrokeAnimator } from "./kanji-stroke-animator";
+import { useState } from "react";
 
 interface KanjiCardProps {
   kanji: KanjiDetail;
@@ -27,11 +29,23 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
     useKanjiSelection();
   const { displayOptions } = useDisplayOptions();
   const isSelected = selectedKanjiIds.has(kanji.id);
+  const [isAnimating, setIsAnimating] = useState(false);
 
   const handleCardClick = () => {
     if (isSelectionMode) {
       toggleKanjiSelection(kanji.id);
     }
+  };
+
+  const handleKanjiClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent card click
+    if (!isSelectionMode && !isAnimating) {
+      setIsAnimating(true);
+    }
+  };
+
+  const handleAnimationComplete = () => {
+    setIsAnimating(false);
   };
 
   const kanjiMeaning = getMeaning(kanji, language as SupportedLanguage);
@@ -93,21 +107,34 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
             <div
               className={cn(
                 "w-16 h-16 rounded-lg flex items-center justify-center border shadow-inner transition-colors",
+                !isSelectionMode && !isAnimating && "cursor-pointer hover:shadow-lg",
                 isSelected
                   ? "bg-linear-to-br from-primary/20 to-primary/30 border-primary/50"
                   : "bg-linear-to-br from-amber-100 to-amber-200 dark:from-amber-200/20 dark:to-amber-300/20 border-amber-200/50"
               )}
+              onClick={handleKanjiClick}
             >
-              <span
-                className={cn(
-                  "text-2xl font-bold select-none transition-colors",
-                  isSelected
-                    ? "text-primary"
-                    : "text-amber-900 dark:text-amber-100"
-                )}
-              >
-                {kanji.character}
-              </span>
+              {isAnimating ? (
+                <KanjiStrokeAnimator
+                  character={kanji.character}
+                  isAnimating={isAnimating}
+                  onAnimationComplete={handleAnimationComplete}
+                  showStrokeOrder={true}
+                  animationSpeed="normal"
+                  isSelected={isSelected}
+                />
+              ) : (
+                <span
+                  className={cn(
+                    "text-2xl font-bold select-none transition-colors",
+                    isSelected
+                      ? "text-primary"
+                      : "text-amber-900 dark:text-amber-100"
+                  )}
+                >
+                  {kanji.character}
+                </span>
+              )}
             </div>
 
             {/* Kanji meaning */}
