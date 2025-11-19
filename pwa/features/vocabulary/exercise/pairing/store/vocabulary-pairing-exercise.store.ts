@@ -25,8 +25,8 @@ export interface VocabularySectionState {
   allSections: VocabularyPairingWord[][];
   gameWords: VocabularyPairingWord[]; // Current section words for UI rendering
   selectedCards: VocabularySelectedCard[]; // Current section UI interaction state
-  matchedPairs: Set<string>; // Current section matched pairs
-  errorCards: Set<string>; // Current section error cards
+  matchedPairs: Set<number>; // Current section matched pairs (use numeric ID like kanji)
+  errorCards: Set<string>; // Current section error cards (use string ID for display)
   errorWords: Set<string>; // Current section error words
 }
 
@@ -74,7 +74,7 @@ export interface VocabularyPairingExerciseState {
   loadSection: (sectionWords: VocabularyPairingWord[]) => void;
   setAllGameWords: (allWords: VocabularyPairingWord[]) => void;
   setSelectedCards: (cards: VocabularySelectedCard[]) => void;
-  setMatchedPairs: (pairs: Set<string>) => void;
+  setMatchedPairs: (pairs: Set<number>) => void;
   setErrorCards: (errors: Set<string>) => void;
   checkSectionComplete: () => boolean;
 
@@ -463,9 +463,9 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
     );
 
     if (isMatch) {
-      // Correct pair
+      // Correct pair - use numeric ID like kanji
       const newMatchedPairs = new Set(matchedPairs);
-      newMatchedPairs.add(card1.id.toString());
+      newMatchedPairs.add(card1.id);
       
       set((state) => ({
         sectionState: {
