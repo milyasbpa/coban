@@ -7,14 +7,15 @@ export function generateReadingQuestions(
   words: VocabularyExerciseWord[],
   questionType: "hiragana-to-meaning" | "kanji-to-meaning" = "kanji-to-meaning"
 ): VocabularyQuestion[] {
-  if (words.length < 4) {
-    throw new Error("Need at least 4 words to generate questions");
+  if (words.length === 0) {
+    throw new Error("Need at least 1 word to generate questions");
   }
 
   return words.map((word, index) => {
-    // Get 3 random wrong answers from other words
+    // Get wrong answers from other words (up to 3, or less if not enough words)
     const otherWords = words.filter(w => w.id !== word.id);
-    const wrongAnswers = getRandomItems(otherWords, 3).map(w => w.meanings.id);
+    const wrongAnswersCount = Math.min(3, otherWords.length);
+    const wrongAnswers = getRandomItems(otherWords, wrongAnswersCount).map(w => w.meanings.id);
     
     // Create options array with correct answer
     const correctAnswer = word.meanings.id;

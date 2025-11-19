@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-exercise.store";
 import { VocabularyReadingHeader } from "../fragments/vocabulary-reading-header";
 import { VocabularyReadingGameResult } from "../fragments/vocabulary-reading-game-result";
@@ -8,21 +8,13 @@ import { VocabularyReadingQuestion } from "../fragments/vocabulary-reading-quest
 import { VocabularyReadingDisplayOptionsControl } from "../fragments/vocabulary-reading-display-options-control";
 import { AnswerSection } from "../fragments/answer-section";
 import { VocabularyReadingCheckButton } from "../fragments/vocabulary-reading-check-button";
+import { useInitializeVocabularyReadingGame } from "../utils/use-initialize-vocabulary-reading-game";
 
-interface VocabularyReadingExerciseContainerProps {
-  level: string;
-  categoryId: string;
-}
-
-export const VocabularyReadingExerciseContainer: React.FC<VocabularyReadingExerciseContainerProps> = ({
-  level,
-  categoryId,
-}) => {
+export const VocabularyReadingExerciseContainer: React.FC = () => {
   const store = useVocabularyReadingExerciseStore();
-
-  useEffect(() => {
-    store.initializeExercise(level, categoryId);
-  }, [level, categoryId]);
+  
+  // Initialize game using custom hook (supports selectedVocabulary from searchParams)
+  useInitializeVocabularyReadingGame();
 
   if (store.gameState.isComplete) {
     return <VocabularyReadingGameResult />;

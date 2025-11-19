@@ -70,10 +70,17 @@ export class VocabularyService {
   ): VocabularyCategory | null {
     const categories = this.getVocabularyCategories(level);
 
-    // First, try to find by category.id string match
+    // First, try to find by numeric id (e.g., "1")
     let category = categories.find(
       (cat) => String(cat.id) === categoryStringId
     );
+
+    // If not found, try to find by category.id string match (e.g., "ANGKA")
+    if (!category) {
+      category = categories.find(
+        (cat) => cat.category.id === categoryStringId
+      );
+    }
 
     return category || null;
   }

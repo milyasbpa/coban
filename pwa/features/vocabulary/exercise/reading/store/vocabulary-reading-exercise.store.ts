@@ -65,7 +65,7 @@ export interface VocabularyReadingExerciseState {
   handleNextQuestion: (calculateScore: (correctQuestions: VocabularyQuestion[], totalQuestions: number) => number) => void;
 
   // Initialize exercise function
-  initializeExercise: (level: string, categoryId: string) => Promise<void>;
+  initializeExercise: (level: string, categoryId: string, selectedVocabularyIds?: number[]) => Promise<void>;
   
   // Check answer function 
   handleCheckAnswer: () => void;
@@ -354,18 +354,31 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
   },
 
   // Initialize exercise function
-  initializeExercise: async (level: string, categoryId: string) => {
+  initializeExercise: async (level: string, categoryId: string, selectedVocabularyIds?: number[]) => {
     try {
       // Get vocabulary category
       const vocabularyCategory = VocabularyService.getVocabularyByCategoryString(categoryId, level);
       
-      if (!vocabularyCategory || vocabularyCategory.vocabulary.length < 4) {
-        console.error("Not enough vocabulary words for exercise");
+      if (!vocabularyCategory || vocabularyCategory.vocabulary.length === 0) {
+        console.error("No vocabulary words found for exercise");
+        return;
+      }
+
+      // Filter vocabulary if selectedVocabularyIds provided (from selection mode)
+      let vocabularyWords = vocabularyCategory.vocabulary;
+      if (selectedVocabularyIds && selectedVocabularyIds.length > 0) {
+        vocabularyWords = vocabularyWords.filter((word) =>
+          selectedVocabularyIds.includes(word.id)
+        );
+      }
+
+      if (vocabularyWords.length === 0) {
+        console.error("No vocabulary words found after filtering");
         return;
       }
 
       // Generate questions from vocabulary words
-      const questions = generateReadingQuestions(vocabularyCategory.vocabulary, "kanji-to-meaning");
+      const questions = generateReadingQuestions(vocabularyWords, "kanji-to-meaning");
       
       // Initialize the game
       get().initializeGame(questions);
