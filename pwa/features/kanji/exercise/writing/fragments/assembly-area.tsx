@@ -102,7 +102,7 @@ export function AssemblyArea() {
             >
               {selectedKanji.map((kanji, index) => (
                 <SortableKanjiTile
-                  key={index}
+                  key={`assembly-${index}-${kanji}`}
                   kanji={kanji}
                   index={index}
                   onRemove={() => handleRemoveKanji(index)}
