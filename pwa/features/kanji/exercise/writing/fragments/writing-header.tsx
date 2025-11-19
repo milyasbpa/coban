@@ -27,10 +27,10 @@ export function WritingHeader() {
         <div className="flex-1">
           <div className="flex items-center justify-between mb-2">
             <span className="text-sm font-medium">
-              Soal {currentQuestionIndex + 1} dari {totalQuestions}
+              Question {currentQuestionIndex + 1} of {totalQuestions}
             </span>
             <span className="text-sm text-muted-foreground">
-              Skor: {score}/{totalQuestions}
+              Score: {score}/{totalQuestions}
             </span>
           </div>
           <Progress value={progress} className="h-2" />

@@ -48,12 +48,9 @@ export function WritingExerciseContainer() {
     getProgress,
 
     // Actions for container logic
-    checkAnswer,
     addKanji,
     addUsedKanji,
     setQuestions,
-    setShowFeedback,
-    setIsCorrect,
     setActiveKanji,
     reorderKanji,
     resetExerciseProgress,
@@ -165,21 +162,12 @@ export function WritingExerciseContainer() {
     }
   };
 
-  const handleSubmitAnswer = () => {
-    if (selectedKanji.length === 0) return;
-
-    const result = checkAnswer();
-    setIsCorrect(result);
-    setShowFeedback(true);
-  };
-
   // Show completion screen
   if (isComplete) {
     return <WritingGameResult />;
   }
 
   const currentQuestion = getCurrentQuestion();
-  const canSubmit = selectedKanji.length > 0 && !showAnswer;
 
   return (
     <DndContext
@@ -199,16 +187,11 @@ export function WritingExerciseContainer() {
 
             {/* Assembly Area with Kanji Selection Grid */}
             <AssemblyArea />
-
-            {/* Submit Button */}
-            {!showAnswer && (
-              <SubmitButton
-                onSubmit={handleSubmitAnswer}
-                canSubmit={canSubmit}
-              />
-            )}
           </div>
         </div>
+
+        {/* Submit Button */}
+        {!showAnswer && <SubmitButton />}
 
         {/* Answer Feedback */}
         {showFeedback && <AnswerFeedback />}

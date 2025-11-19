@@ -56,12 +56,12 @@ export function AnswerFeedback() {
               'font-medium',
               isCorrect ? 'text-green-700' : 'text-red-700'
             )}>
-              {isCorrect ? 'Benar!' : 'Salah!'}
+              {isCorrect ? 'Correct!' : 'Incorrect!'}
             </p>
             <p className="text-sm text-muted-foreground">
               {isCorrect 
-                ? 'Jawaban Anda tepat!' 
-                : 'Coba perhatikan urutan kanji yang benar.'
+                ? 'Your answer is correct!' 
+                : 'Try to pay attention to the correct kanji order.'
               }
             </p>
           </div>
@@ -72,7 +72,7 @@ export function AnswerFeedback() {
           className="w-full"
           variant={isCorrect ? "default" : "secondary"}
         >
-          {isLastQuestion ? 'Selesai' : 'Lanjut'}
+          {isLastQuestion ? 'Finish' : 'Continue'}
         </Button>
       </div>
     </div>
