@@ -13,6 +13,11 @@ export interface VocabularyScoreState {
   // Actions
   initializeUser: (userId: string, level?: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>;
   getCategoryProgress: (categoryId: string, level: string) => number;
+  getExerciseProgress: (
+    exerciseType: "writing" | "reading" | "pairing",
+    categoryId: string,
+    level: string
+  ) => number;
   getOverallProgress: () => number;
   refreshUserScore: () => Promise<void>;
   resetProgress: () => Promise<void>;
@@ -49,6 +54,32 @@ const getCorrectWordsInCategory = (
           correctWords++;
         }
       });
+    }
+  });
+  
+  return correctWords;
+};
+
+// Helper: Get correct words in category for specific exercise type
+const getCorrectWordsInCategoryByExercise = (
+  currentUserScore: VocabularyUserScore,
+  categoryId: string,
+  level: string,
+  exerciseType: 'writing' | 'reading' | 'pairing'
+): number => {
+  let correctWords = 0;
+  
+  // Get all vocabulary IDs in this category
+  const category = VocabularyService.getVocabularyByCategory(parseInt(categoryId), level);
+  if (!category) return 0;
+  
+  const vocabularyIds = category.vocabulary.map(v => v.id.toString());
+  
+  // Count words that have been completed for this specific exercise type
+  vocabularyIds.forEach((vocabId) => {
+    const mastery = currentUserScore.vocabularyMastery[vocabId];
+    if (mastery && mastery.exerciseScores[exerciseType] > 0) {
+      correctWords++;
     }
   });
   
@@ -108,6 +139,30 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
     const totalPossibleWords = totalWords * 3; // 3 exercise types (writing, reading, pairing)
 
     return Math.round((totalCorrectWords / totalPossibleWords) * 100 * 10) / 10;
+  },
+
+  // Get exercise progress for specific exercise type in category
+  getExerciseProgress: (
+    exerciseType: "writing" | "reading" | "pairing",
+    categoryId: string,
+    level: string
+  ): number => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return 0;
+
+    // Calculate total words in category
+    const totalWords = getTotalWordsInCategory(categoryId, level);
+    if (totalWords === 0) return 0;
+
+    // Calculate correct words for specific exercise type
+    const correctWords = getCorrectWordsInCategoryByExercise(
+      currentUserScore,
+      categoryId,
+      level,
+      exerciseType
+    );
+
+    return Math.round((correctWords / totalWords) * 100 * 10) / 10;
   },
 
   // Get overall progress across all categories
