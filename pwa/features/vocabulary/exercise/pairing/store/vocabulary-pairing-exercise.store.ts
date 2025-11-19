@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { VocabularyExerciseWord } from "../../shared/types";
+import { VocabularyService } from "@/pwa/core/services/vocabulary";
 
 export interface VocabularyPairingWord extends VocabularyExerciseWord {
   // Additional pairing-specific fields if needed
@@ -63,7 +64,11 @@ export interface VocabularyPairingExerciseState {
   resetSectionIndex: () => void;
 
   // Game Initialization Actions
-  initializeGame: (words: VocabularyPairingWord[]) => void;
+  initializeGame: (params: {
+    categoryId: string;
+    level: string;
+    selectedVocabularyIds?: number[];
+  }) => void;
 
   // Game Grid Actions
   loadSection: (sectionWords: VocabularyPairingWord[]) => void;
@@ -308,7 +313,33 @@ export const useVocabularyPairingExerciseStore = create<VocabularyPairingExercis
     })),
 
   // Game Initialization Actions
-  initializeGame: (words) => {
+  initializeGame: (params) => {
+    const { categoryId, level, selectedVocabularyIds } = params;
+    
+    // Get vocabulary category
+    const vocabularyCategory = VocabularyService.getVocabularyByCategoryString(
+      categoryId,
+      level
+    );
+
+    if (!vocabularyCategory) {
+      console.error("Vocabulary category not found");
+      return;
+    }
+
+    // Filter vocabulary if selectedVocabularyIds provided (from selection mode)
+    let words = vocabularyCategory.vocabulary;
+    if (selectedVocabularyIds && selectedVocabularyIds.length > 0) {
+      words = words.filter((word: VocabularyPairingWord) =>
+        selectedVocabularyIds.includes(word.id)
+      );
+    }
+
+    if (words.length === 0) {
+      console.error("No vocabulary words available for exercise");
+      return;
+    }
+
     // Create sections of 5 pairs each (10 cards per section)
     const sections = createSections(words, 5);
     

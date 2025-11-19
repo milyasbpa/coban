@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
+import { useInitializeVocabularyPairingGame } from "../utils/use-initialize-vocabulary-pairing-game";
 import { useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
 import { VocabularyPairingHeader } from "../fragments/vocabulary-pairing-header";
 import { VocabularyPairingScoreHeader } from "../fragments/vocabulary-pairing-score-header";
 import { VocabularyPairingDisplayOptionsControl } from "../fragments/vocabulary-pairing-display-options-control";
 import { VocabularyPairingGrid } from "../fragments/vocabulary-pairing-grid";
 import { VocabularyPairingGameResult } from "../fragments/vocabulary-pairing-game-result";
-import { VocabularyService } from "@/pwa/core/services/vocabulary";
 
 interface VocabularyPairingExerciseContainerProps {
   level: string;
@@ -19,37 +19,8 @@ export const VocabularyPairingExerciseContainer: React.FC<
 > = ({ level, categoryId }) => {
   const store = useVocabularyPairingExerciseStore();
 
-  useEffect(() => {
-    initializeExercise();
-  }, [level, categoryId]);
-
-  const initializeExercise = async () => {
-    try {
-      // Get vocabulary category
-      const vocabularyCategory =
-        VocabularyService.getVocabularyByCategoryString(categoryId, level);
-        console.log(vocabularyCategory,'ini apa')
-      if (!vocabularyCategory) {
-        console.error("Not enough vocabulary words for exercise");
-        return;
-      }
-
-      // Initialize the game with vocabulary words
-      store.initializeGame(vocabularyCategory.vocabulary);
-    } catch (error) {
-      console.error("Failed to initialize vocabulary pairing exercise:", error);
-    }
-  };
-
-  const handleCardClick = (card: any) => {
-    // This is now handled in fragments via store
-    // Remove this handler as fragments manage their own state
-  };
-
-  const handleRestart = () => {
-    store.resetGame(store.gameState.allGameWords.length);
-    initializeExercise();
-  };
+  // Initialize game using custom hook
+  useInitializeVocabularyPairingGame();
 
   if (store.gameState.isComplete) {
     return <VocabularyPairingGameResult />;
