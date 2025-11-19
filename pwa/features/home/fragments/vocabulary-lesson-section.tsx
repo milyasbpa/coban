@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { VocabularyLessonCard } from "../components/vocabulary-lesson-card";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
@@ -19,9 +19,16 @@ import { titleCase } from "@/pwa/core/lib/utils/titleCase";
 export function VocabularyLessonSection() {
   const { selectedLevel } = useHomeSettingsStore();
   const { openVocabularyExerciseModal } = useHomeStore();
-  const { getCategoryProgress } = useVocabularyScoreStore();
+  const { getCategoryProgress, initializeUser, isInitialized } = useVocabularyScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
+
+  // Initialize vocabulary score store
+  useEffect(() => {
+    if (!isInitialized) {
+      initializeUser("default-user", selectedLevel as "N5" | "N4" | "N3" | "N2" | "N1");
+    }
+  }, [isInitialized, initializeUser, selectedLevel]);
 
   const CATEGORIES_PER_TAB = 10;
 
@@ -91,7 +98,7 @@ export function VocabularyLessonSection() {
             lessonNumber={index + 1}
             title={titleCase(category.category.en)}
             wordCount={category.vocabulary.length}
-            progress={getCategoryProgress(category.id.toString())}
+            progress={getCategoryProgress(category.id.toString(), selectedLevel)}
             onExerciseClick={() => handleVocabularyExerciseClick(category.id)}
             onListClick={() => handleVocabularyListClick(category.id)}
           />
@@ -130,7 +137,7 @@ export function VocabularyLessonSection() {
                   lessonNumber={lessonNumber}
                   title={category.category.en}
                   wordCount={category.vocabulary.length}
-                  progress={getCategoryProgress(category.id.toString())}
+                  progress={getCategoryProgress(category.id.toString(), selectedLevel)}
                   onExerciseClick={() =>
                     handleVocabularyExerciseClick(category.id)
                   }

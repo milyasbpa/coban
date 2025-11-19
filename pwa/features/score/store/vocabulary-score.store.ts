@@ -1,99 +1,158 @@
 import { create } from 'zustand';
-import { persist, createJSONStorage } from 'zustand/middleware';
-
-export interface VocabularyProgress {
-  categoryId: string;
-  categoryName: string;
-  level: string;
-  completedWords: number;
-  totalWords: number;
-  lastSeen: string;
-  progressPercentage: number;
-}
+import { VocabularyStorageManager } from '../storage/vocabulary-storage';
+import { VocabularyService } from '@/pwa/core/services/vocabulary';
+import { VocabularyUserScore } from '../model/vocabulary-score';
 
 export interface VocabularyScoreState {
-  // User progress data
-  userId: string;
-  level: "N5" | "N4" | "N3" | "N2" | "N1";
-  categoryProgress: Record<string, VocabularyProgress>;
+  // State
+  currentUserScore: VocabularyUserScore | null;
+  isLoading: boolean;
+  isInitialized: boolean;
+  error: string | null;
   
   // Actions
-  initializeUser: (userId: string, level?: "N5" | "N4" | "N3" | "N2" | "N1") => void;
-  updateCategoryProgress: (categoryId: string, categoryName: string, completedWords: number, totalWords: number) => void;
-  getCategoryProgress: (categoryId: string) => number;
+  initializeUser: (userId: string, level?: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>;
+  getCategoryProgress: (categoryId: string, level: string) => number;
   getOverallProgress: () => number;
-  resetProgress: () => void;
+  refreshUserScore: () => Promise<void>;
+  resetProgress: () => Promise<void>;
 }
 
-/**
- * Vocabulary Score Store - Simplified progress tracking for vocabulary learning
- * Currently tracks basic progress, can be expanded later for detailed scoring
- */
-export const useVocabularyScoreStore = create<VocabularyScoreState>()(
-  persist(
-    (set, get) => ({
-      // Initial state
-      userId: 'default',
-      level: 'N5',
-      categoryProgress: {},
+// Helper: Get total words in a category
+const getTotalWordsInCategory = (categoryId: string, level: string): number => {
+  const category = VocabularyService.getVocabularyByCategory(parseInt(categoryId), level);
+  return category ? category.vocabulary.length : 0;
+};
 
-      // Initialize user with default data
-      initializeUser: (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1" = 'N5') => {
-        set({
-          userId,
-          level,
-          categoryProgress: {},
-        });
-      },
-
-      // Update progress for a specific category
-      updateCategoryProgress: (categoryId: string, categoryName: string, completedWords: number, totalWords: number) => {
-        const progressPercentage = totalWords > 0 ? Math.round((completedWords / totalWords) * 100) : 0;
-        
-        set((state) => ({
-          categoryProgress: {
-            ...state.categoryProgress,
-            [categoryId]: {
-              categoryId,
-              categoryName,
-              level: state.level,
-              completedWords,
-              totalWords,
-              lastSeen: new Date().toISOString(),
-              progressPercentage,
-            },
-          },
-        }));
-      },
-
-      // Get progress percentage for a specific category
-      getCategoryProgress: (categoryId: string): number => {
-        const progress = get().categoryProgress[categoryId];
-        return progress ? progress.progressPercentage : 0;
-      },
-
-      // Get overall progress across all categories
-      getOverallProgress: (): number => {
-        const { categoryProgress } = get();
-        const progressValues = Object.values(categoryProgress);
-        
-        if (progressValues.length === 0) return 0;
-        
-        const totalProgress = progressValues.reduce((sum, progress) => sum + progress.progressPercentage, 0);
-        return Math.round(totalProgress / progressValues.length);
-      },
-
-      // Reset all progress
-      resetProgress: () => {
-        set((state) => ({
-          categoryProgress: {},
-        }));
-      },
-    }),
-    {
-      name: 'vocabulary-score-storage',
-      storage: createJSONStorage(() => localStorage),
-      version: 1,
+// Helper: Get correct words in category from user score
+const getCorrectWordsInCategory = (
+  currentUserScore: VocabularyUserScore,
+  categoryId: string,
+  level: string
+): number => {
+  let correctWords = 0;
+  
+  // Get all vocabulary IDs in this category
+  const category = VocabularyService.getVocabularyByCategory(parseInt(categoryId), level);
+  if (!category) return 0;
+  
+  const vocabularyIds = category.vocabulary.map(v => v.id.toString());
+  
+  // Count words that have been mastered (from all 3 exercise types)
+  vocabularyIds.forEach((vocabId) => {
+    const mastery = currentUserScore.vocabularyMastery[vocabId];
+    if (mastery) {
+      // Count how many exercise types have been completed
+      const exerciseTypes: ('writing' | 'reading' | 'pairing')[] = ['writing', 'reading', 'pairing'];
+      exerciseTypes.forEach((type) => {
+        if (mastery.exerciseScores[type] > 0) {
+          correctWords++;
+        }
+      });
     }
-  )
-);
+  });
+  
+  return correctWords;
+};
+
+/**
+ * Vocabulary Score Store - Calculate progress from actual exercise results
+ */
+export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) => ({
+  // Initial state
+  currentUserScore: null,
+  isLoading: false,
+  isInitialized: false,
+  error: null,
+
+  // Initialize user with IndexedDB data
+  initializeUser: async (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1" = 'N5') => {
+    try {
+      set({ isLoading: true, error: null });
+      
+      let userScore = await VocabularyStorageManager.getVocabularyScore(userId);
+      
+      if (!userScore) {
+        userScore = await VocabularyStorageManager.createDefaultVocabularyScore(userId, level);
+      }
+      
+      set({ 
+        currentUserScore: userScore, 
+        isLoading: false, 
+        isInitialized: true 
+      });
+    } catch (error) {
+      console.error('Failed to initialize vocabulary user:', error);
+      set({ 
+        error: 'Failed to initialize user', 
+        isLoading: false 
+      });
+    }
+  },
+
+  // Get progress percentage for a specific category (calculated from actual results)
+  getCategoryProgress: (categoryId: string, level: string): number => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return 0;
+
+    // Calculate total words in category
+    const totalWords = getTotalWordsInCategory(categoryId, level);
+    if (totalWords === 0) return 0;
+
+    // Calculate total correct words from all exercise types
+    const totalCorrectWords = getCorrectWordsInCategory(
+      currentUserScore,
+      categoryId,
+      level
+    );
+    const totalPossibleWords = totalWords * 3; // 3 exercise types (writing, reading, pairing)
+
+    return Math.round((totalCorrectWords / totalPossibleWords) * 100 * 10) / 10;
+  },
+
+  // Get overall progress across all categories
+  getOverallProgress: (): number => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return 0;
+    
+    const allMastery = Object.values(currentUserScore.vocabularyMastery);
+    if (allMastery.length === 0) return 0;
+    
+    const totalScore = allMastery.reduce((sum, vocab) => sum + vocab.masteryScore, 0);
+    const maxPossibleScore = allMastery.length * 100; // 100 points per vocabulary
+    
+    return Math.round((totalScore / maxPossibleScore) * 100);
+  },
+
+  // Refresh user score from storage
+  refreshUserScore: async () => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return;
+    
+    try {
+      const updatedScore = await VocabularyStorageManager.getVocabularyScore(currentUserScore.userId);
+      if (updatedScore) {
+        set({ currentUserScore: updatedScore });
+      }
+    } catch (error) {
+      console.error('Failed to refresh vocabulary score:', error);
+    }
+  },
+
+  // Reset all progress
+  resetProgress: async () => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return;
+    
+    try {
+      await VocabularyStorageManager.clearVocabularyData(currentUserScore.userId);
+      const newScore = await VocabularyStorageManager.createDefaultVocabularyScore(
+        currentUserScore.userId,
+        currentUserScore.level
+      );
+      set({ currentUserScore: newScore });
+    } catch (error) {
+      console.error('Failed to reset vocabulary progress:', error);
+    }
+  },
+}));

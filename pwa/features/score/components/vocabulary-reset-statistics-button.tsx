@@ -20,37 +20,35 @@ export const VocabularyResetStatisticsButton: React.FC = () => {
   const [storageInfo, setStorageInfo] = useState<any>(null);
 
   const {
-    userId,
-    level,
-    categoryProgress,
+    currentUserScore,
     resetProgress,
+    isInitialized,
   } = useVocabularyScoreStore();
 
   const handleOpenDialog = async () => {
-    if (!userId) return;
+    if (!currentUserScore || !isInitialized) return;
 
     setIsDialogOpen(true);
     setIsLoading(true);
 
     try {
-      // Get analytics data from current state
-      const totalVocabulary = Object.values(categoryProgress).reduce(
-        (sum, cat) => sum + cat.totalWords,
-        0
-      );
-      const completedVocabulary = Object.values(categoryProgress).reduce(
-        (sum, cat) => sum + cat.completedWords,
-        0
-      );
-      const overallProgress = totalVocabulary > 0
-        ? Math.round((completedVocabulary / totalVocabulary) * 100)
+      // Get analytics data from current user score
+      const allMastery = Object.values(currentUserScore.vocabularyMastery);
+      const totalVocabulary = allMastery.length;
+      const masteredVocabulary = allMastery.filter(
+        (vocab) => vocab.masteryScore >= 90 // 90% or more is considered mastered
+      ).length;
+      
+      // Calculate average progress
+      const totalScore = allMastery.reduce((sum, vocab) => sum + vocab.masteryScore, 0);
+      const averageProgress = totalVocabulary > 0 
+        ? Math.round((totalScore / (totalVocabulary * 100)) * 100)
         : 0;
 
       setAnalyticsData({
-        totalVocabulary: Object.keys(categoryProgress).length,
-        totalWords: totalVocabulary,
-        completedWords: completedVocabulary,
-        averageProgress: overallProgress,
+        totalVocabulary,
+        masteredVocabulary,
+        averageProgress,
       });
 
       // Get storage info
@@ -64,16 +62,11 @@ export const VocabularyResetStatisticsButton: React.FC = () => {
   };
 
   const handleReset = async () => {
-    if (!userId) return;
+    if (!currentUserScore) return;
 
     setIsLoading(true);
     try {
-      // Clear from localStorage store
-      resetProgress();
-      
-      // Clear from IndexedDB storage
-      await VocabularyStorageManager.clearVocabularyData(userId);
-      
+      await resetProgress();
       setIsDialogOpen(false);
     } catch (error) {
       console.error("Failed to reset statistics:", error);
@@ -82,7 +75,7 @@ export const VocabularyResetStatisticsButton: React.FC = () => {
     }
   };
 
-  if (!userId) {
+  if (!currentUserScore || !isInitialized) {
     return null;
   }
 
@@ -119,16 +112,12 @@ export const VocabularyResetStatisticsButton: React.FC = () => {
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
-                    <span>Total Categories:</span>
+                    <span>Total Vocabulary:</span>
                     <span className="font-medium">{analyticsData.totalVocabulary}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Total Words:</span>
-                    <span className="font-medium">{analyticsData.totalWords}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Completed Words:</span>
-                    <span className="font-medium">{analyticsData.completedWords}</span>
+                    <span>Mastered Vocabulary:</span>
+                    <span className="font-medium">{analyticsData.masteredVocabulary}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Average Progress:</span>
