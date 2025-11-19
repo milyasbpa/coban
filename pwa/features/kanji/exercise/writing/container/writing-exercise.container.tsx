@@ -11,7 +11,6 @@ import {
   DragStartEvent,
   DragOverlay,
   closestCenter,
-  closestCorners,
   KeyboardSensor,
   PointerSensor,
   useSensor,
@@ -26,6 +25,7 @@ import { AssemblyArea } from "../fragments/assembly-area";
 import { SubmitButton } from "../components";
 import { getWritingQuestions } from "../utils";
 import { useExerciseSearchParams } from "../../utils/hooks";
+import { KanjiTile } from "../components/kanji-tile";
 
 export function WritingExerciseContainer() {
   const router = useRouter();
@@ -75,9 +75,7 @@ export function WritingExerciseContainer() {
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 5, // Reduced distance for easier drag
-        delay: 0, // No delay for immediate response
-        tolerance: 8, // Increased tolerance
+        distance: 8, // Reasonable distance to differentiate click vs drag
       },
     }),
     useSensor(KeyboardSensor, {
@@ -146,8 +144,14 @@ export function WritingExerciseContainer() {
     if (activeData?.variant === "available" && overId === "assembly-area") {
       const kanjiToAdd = activeData.kanji;
       addKanji(kanjiToAdd);
+      addUsedKanji(kanjiToAdd);
+      return;
+    }
 
-      // Mark kanji as used so it disappears from selection grid
+    // If dragging from selection grid to a position in assembly (drop on existing item)
+    if (activeData?.variant === "available" && overId.startsWith("assembly-")) {
+      const kanjiToAdd = activeData.kanji;
+      addKanji(kanjiToAdd);
       addUsedKanji(kanjiToAdd);
       return;
     }
@@ -182,7 +186,7 @@ export function WritingExerciseContainer() {
   return (
     <DndContext
       sensors={sensors}
-      collisionDetection={closestCorners}
+      collisionDetection={closestCenter}
       onDragStart={handleDragStart}
       onDragOver={handleDragOver}
       onDragEnd={handleDragEnd}
@@ -210,6 +214,19 @@ export function WritingExerciseContainer() {
 
         {/* Answer Feedback */}
         {showFeedback && <AnswerFeedback />}
+
+        {/* Drag Overlay */}
+        <DragOverlay>
+          {questionState.activeKanji ? (
+            <KanjiTile
+              id="drag-overlay"
+              kanji={questionState.activeKanji}
+              onClick={() => {}}
+              variant="selected"
+              draggable={false}
+            />
+          ) : null}
+        </DragOverlay>
       </div>
     </DndContext>
   );

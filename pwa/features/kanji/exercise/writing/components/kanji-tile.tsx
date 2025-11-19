@@ -38,15 +38,11 @@ export function KanjiTile({
 
   // Handle click vs drag conflict
   const handleInteraction = (e: React.MouseEvent) => {
-    // Prevent default to avoid conflicts
-    e.preventDefault();
-    e.stopPropagation();
-    
-    console.log("Interaction triggered for:", kanji, "variant:", variant, "draggable:", draggable);
-    onClick();
+    // Only trigger click if not dragging
+    if (!isDragging) {
+      onClick();
+    }
   };
-
-  console.log("Rendering KanjiTile:", kanji, "draggable:", draggable, "disabled:", disabled, "variant:", variant);
   
   return (
     <button
@@ -55,7 +51,7 @@ export function KanjiTile({
       onClick={handleInteraction}
       disabled={disabled}
       {...attributes}
-      // {...(draggable && !disabled ? listeners : {})}
+      {...(draggable && !disabled ? listeners : {})}
       className={cn(
         // Base styles - smaller size for better fit
         "min-w-[40px] h-10 rounded-md border-2 flex items-center justify-center text-base font-medium transition-all duration-200 select-none",
@@ -71,13 +67,13 @@ export function KanjiTile({
           "min-w-[44px] h-11 border-primary bg-primary/10 text-primary hover:bg-primary/15",
         // State styles
         disabled && "hidden cursor-not-allowed",
-        isDragging && "opacity-50 scale-95 rotate-2 shadow-lg",
+        isDragging && "opacity-30 scale-90",
         draggable &&
           !disabled &&
-          "cursor-grab active:cursor-grabbing touch-none hover:shadow-md",
+          "cursor-grab active:cursor-grabbing touch-none hover:shadow-md hover:scale-105",
         // Drag overlay special styles
         id === "drag-overlay" &&
-          "shadow-2xl border-primary bg-primary/25 scale-110 rotate-3 ring-2 ring-primary/30 min-w-[44px] h-11"
+          "shadow-2xl border-primary bg-primary/20 scale-110 rotate-2 ring-2 ring-primary/50"
       )}
     >
       {kanji}

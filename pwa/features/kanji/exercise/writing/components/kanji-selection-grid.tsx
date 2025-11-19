@@ -14,9 +14,10 @@ export function KanjiSelectionGrid({
   onKanjiClick,
 }: KanjiSelectionGridProps) {
   const handleKanjiClick = (kanji: string) => {
-    // if (showAnswer || usedKanji.includes(kanji)) return;
+    if (showAnswer || usedKanji.includes(kanji)) return;
     onKanjiClick(kanji);
   };
+  
   return (
     <div className="space-y-4">
       <p className="text-sm text-muted-foreground font-medium">
@@ -25,7 +26,6 @@ export function KanjiSelectionGrid({
       <div className="grid grid-cols-5 gap-2.5 p-2 rounded-lg bg-muted/10 sm:grid-cols-6 md:grid-cols-8">
         {shuffledKanji.map((kanji, index) => {
           const isUsed = usedKanji.includes(kanji);
-          console.log(isUsed, kanji, !showAnswer && !isUsed, "ini apasih");
           return (
             <KanjiTile
               key={index}
