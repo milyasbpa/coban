@@ -2,6 +2,7 @@ import { create } from "zustand";
 import { VocabularyQuestion, VocabularyExerciseWord } from "../../shared/types";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
 import { generateReadingQuestions, calculateScore, checkAnswer } from "../utils/vocabulary-reading.utils";
+import { integrateVocabularyReadingGameScore } from "../utils/scoring-integration";
 
 export interface VocabularyGameState {
   questions: VocabularyQuestion[];
@@ -61,8 +62,12 @@ export interface VocabularyReadingExerciseState {
   addWrongQuestion: (question: VocabularyQuestion) => void;
   addCorrectQuestion: (question: VocabularyQuestion) => void;
   
-  // Handler for next question with score calculation
-  handleNextQuestion: (calculateScore: (correctQuestions: VocabularyQuestion[], totalQuestions: number) => number) => void;
+  // Handler for next question with score calculation and integration
+  handleNextQuestion: (
+    calculateScore: (correctQuestions: VocabularyQuestion[], totalQuestions: number) => number,
+    level: string,
+    categoryId: string
+  ) => void;
 
   // Initialize exercise function
   initializeExercise: (level: string, categoryId: string, selectedVocabularyIds?: number[]) => Promise<void>;
@@ -319,9 +324,9 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
     }));
   },
 
-  handleNextQuestion: (calculateScore) => {
+  handleNextQuestion: (calculateScore, level, categoryId) => {
     const { 
-      gameState: { correctQuestions, isRetryMode, score, questions }, 
+      gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
       getTotalQuestions,
       getCurrentQuestionNumber,
       nextQuestion: next 
@@ -348,6 +353,22 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
           score: Math.round(finalScore)
         }
       }));
+
+      // Integrate vocabulary scoring at game completion (only for non-retry mode)
+      if (!isRetryMode) {
+        (async () => {
+          try {
+            await integrateVocabularyReadingGameScore(
+              questions,
+              wrongQuestions,
+              level,
+              categoryId
+            );
+          } catch (error) {
+            console.error("Error integrating vocabulary reading game score:", error);
+          }
+        })();
+      }
     }
     
     next();

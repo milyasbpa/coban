@@ -1,6 +1,5 @@
 "use client";
 
-import { useMemo } from "react";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
 import { Confetti } from "@/pwa/core/components/confetti";

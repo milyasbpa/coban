@@ -8,6 +8,7 @@ import { VocabularyReadingQuestion } from "../fragments/vocabulary-reading-quest
 import { VocabularyReadingDisplayOptionsControl } from "../fragments/vocabulary-reading-display-options-control";
 import { AnswerSection } from "../fragments/answer-section";
 import { VocabularyReadingCheckButton } from "../fragments/vocabulary-reading-check-button";
+import { VocabularyAnswerBottomSheet } from "../fragments/vocabulary-answer-bottomsheet";
 import { useInitializeVocabularyReadingGame } from "../utils/use-initialize-vocabulary-reading-game";
 
 export const VocabularyReadingExerciseContainer: React.FC = () => {
@@ -43,8 +44,11 @@ export const VocabularyReadingExerciseContainer: React.FC = () => {
         <AnswerSection />
       </div>
 
-      {/* Floating Check/Next Button */}
+      {/* Floating Check Button */}
       <VocabularyReadingCheckButton />
+
+      {/* Answer Bottom Sheet */}
+      <VocabularyAnswerBottomSheet />
 
       {/* Display Options Control */}
       <VocabularyReadingDisplayOptionsControl />
