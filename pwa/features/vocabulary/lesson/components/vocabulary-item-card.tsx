@@ -6,7 +6,9 @@ import { Volume2 } from "lucide-react";
 import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useVocabularyDisplayOptions } from "../store/display-options.store";
+import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { cn } from "@/pwa/core/lib/utils";
 
 interface VocabularyItemCardProps {
   vocabulary: VocabularyWord;
@@ -21,9 +23,14 @@ export function VocabularyItemCard({
 }: VocabularyItemCardProps) {
   const { displayOptions } = useVocabularyDisplayOptions();
   const { language } = useLanguage();
+  const { isSelectionMode, selectedVocabularyIds, toggleVocabularySelection } =
+    useVocabularySelection();
+  const isSelected = selectedVocabularyIds.has(vocabulary.id);
 
   const handleClick = () => {
-    if (onClick) {
+    if (isSelectionMode) {
+      toggleVocabularySelection(vocabulary.id);
+    } else if (onClick) {
       onClick(vocabulary);
     }
   };
@@ -40,14 +47,30 @@ export function VocabularyItemCard({
 
   return (
     <Card
-      className="p-4 hover:shadow-md transition-all duration-200 cursor-pointer border border-border/50 hover:border-border"
+      className={cn(
+        "p-4 transition-all duration-200 cursor-pointer border",
+        isSelectionMode && "hover:shadow-md",
+        isSelected &&
+          "border-primary bg-primary/10 shadow-lg ring-2 ring-primary/20",
+        !isSelected &&
+          isSelectionMode &&
+          "border-border/50 hover:shadow-md hover:border-primary/30",
+        !isSelectionMode && "border-border/50 hover:border-border hover:shadow-md"
+      )}
       onClick={handleClick}
     >
       <div className="flex items-start gap-4">
         {/* Index Number */}
         <div className="shrink-0">
-          <span className="text-sm font-medium text-muted-foreground w-6 inline-block">
-            {index}.
+          <span
+            className={cn(
+              "text-sm font-medium px-2 py-1 rounded-md transition-colors",
+              isSelected
+                ? "text-primary-foreground bg-primary"
+                : "text-muted-foreground bg-muted"
+            )}
+          >
+            {index}
           </span>
         </div>
 

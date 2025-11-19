@@ -5,12 +5,15 @@ import { useSearchParams } from "next/navigation";
 import { VocabularyItemCard } from "../components/vocabulary-item-card";
 import { LessonHeader } from "../fragments/lesson-header";
 import { LessonDisplayOptionsControl } from "../fragments/lesson-display-options-control";
+import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
+import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { VocabularyService, VocabularyWord } from "@/pwa/core/services/vocabulary";
 
 export function VocabularyLessonContainer() {
   const searchParams = useSearchParams();
   const [vocabularyList, setVocabularyList] = useState<VocabularyWord[]>([]);
   const [loading, setLoading] = useState(true);
+  const { isSelectionMode } = useVocabularySelection();
 
   const categoryId = searchParams.get("categoryId");
   const level = searchParams.get("level") || "N5";
@@ -66,6 +69,9 @@ export function VocabularyLessonContainer() {
 
       {/* Display Options Control */}
       <LessonDisplayOptionsControl />
+
+      {/* Selection Bottom Nav */}
+      {isSelectionMode && <SelectionBottomNav />}
     </div>
   );
 }
