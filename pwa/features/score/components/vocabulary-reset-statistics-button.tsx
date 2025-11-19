@@ -10,34 +10,51 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/pwa/core/components/dialog";
-import { useKanjiScoreStore } from "../store/kanji-score.store";
-import { KanjiStorageManager } from "../storage/kanji-storage";
+import { useVocabularyScoreStore } from "../store/vocabulary-score.store";
+import { VocabularyStorageManager } from "../storage/vocabulary-storage";
 
-export const KanjiResetStatisticsButton: React.FC = () => {
+export const VocabularyResetStatisticsButton: React.FC = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [analyticsData, setAnalyticsData] = useState<any>(null);
   const [storageInfo, setStorageInfo] = useState<any>(null);
 
   const {
-    currentUserScore,
-    resetStatistics,
-    isInitialized,
-  } = useKanjiScoreStore();
+    userId,
+    level,
+    categoryProgress,
+    resetProgress,
+  } = useVocabularyScoreStore();
 
   const handleOpenDialog = async () => {
-    if (!currentUserScore || !isInitialized) return;
+    if (!userId) return;
 
     setIsDialogOpen(true);
     setIsLoading(true);
 
     try {
-      // Get analytics data
-      const analytics = await KanjiStorageManager.getKanjiAnalytics(currentUserScore.userId);
-      setAnalyticsData(analytics);
+      // Get analytics data from current state
+      const totalVocabulary = Object.values(categoryProgress).reduce(
+        (sum, cat) => sum + cat.totalWords,
+        0
+      );
+      const completedVocabulary = Object.values(categoryProgress).reduce(
+        (sum, cat) => sum + cat.completedWords,
+        0
+      );
+      const overallProgress = totalVocabulary > 0
+        ? Math.round((completedVocabulary / totalVocabulary) * 100)
+        : 0;
+
+      setAnalyticsData({
+        totalVocabulary: Object.keys(categoryProgress).length,
+        totalWords: totalVocabulary,
+        completedWords: completedVocabulary,
+        averageProgress: overallProgress,
+      });
 
       // Get storage info
-      const storage = await KanjiStorageManager.getStorageInfo();
+      const storage = await VocabularyStorageManager.getStorageInfo();
       setStorageInfo(storage);
     } catch (error) {
       console.error("Failed to load analytics:", error);
@@ -47,11 +64,16 @@ export const KanjiResetStatisticsButton: React.FC = () => {
   };
 
   const handleReset = async () => {
-    if (!currentUserScore) return;
+    if (!userId) return;
 
     setIsLoading(true);
     try {
-      await resetStatistics();
+      // Clear from localStorage store
+      resetProgress();
+      
+      // Clear from IndexedDB storage
+      await VocabularyStorageManager.clearVocabularyData(userId);
+      
       setIsDialogOpen(false);
     } catch (error) {
       console.error("Failed to reset statistics:", error);
@@ -60,7 +82,7 @@ export const KanjiResetStatisticsButton: React.FC = () => {
     }
   };
 
-  if (!currentUserScore || !isInitialized) {
+  if (!userId) {
     return null;
   }
 
@@ -72,14 +94,14 @@ export const KanjiResetStatisticsButton: React.FC = () => {
           size="sm"
           onClick={handleOpenDialog}
         >
-          Reset Kanji
+          Reset Vocabulary
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[600px]">
         <DialogHeader>
-          <DialogTitle>Reset Kanji Statistics</DialogTitle>
+          <DialogTitle>Reset Vocabulary Statistics</DialogTitle>
           <DialogDescription>
-            This will permanently delete all your kanji learning progress. This action cannot be undone.
+            This will permanently delete all your vocabulary learning progress. This action cannot be undone.
           </DialogDescription>
         </DialogHeader>
 
@@ -97,16 +119,16 @@ export const KanjiResetStatisticsButton: React.FC = () => {
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
-                    <span>Total Kanji:</span>
-                    <span className="font-medium">{analyticsData.totalKanji}</span>
+                    <span>Total Categories:</span>
+                    <span className="font-medium">{analyticsData.totalVocabulary}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Total Words:</span>
                     <span className="font-medium">{analyticsData.totalWords}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Mastered Words:</span>
-                    <span className="font-medium">{analyticsData.masteredWords}</span>
+                    <span>Completed Words:</span>
+                    <span className="font-medium">{analyticsData.completedWords}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Average Progress:</span>
@@ -123,8 +145,8 @@ export const KanjiResetStatisticsButton: React.FC = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="flex justify-between">
-                    <span>Kanji Records:</span>
-                    <span className="font-medium">{storageInfo.kanjiStorageLength} records</span>
+                    <span>Vocabulary Records:</span>
+                    <span className="font-medium">{storageInfo.vocabularyStorageLength} records</span>
                   </div>
                 </CardContent>
               </Card>

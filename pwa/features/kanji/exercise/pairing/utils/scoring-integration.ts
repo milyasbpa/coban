@@ -1,5 +1,5 @@
 import { KanjiService } from "@/pwa/core/services/kanji";
-import type { KanjiExerciseResult } from "@/pwa/features/score/model/score";
+import type { KanjiExerciseResult } from "@/pwa/features/score/model/kanji-score";
 import type { PairingWord } from "../types";
 
 /**

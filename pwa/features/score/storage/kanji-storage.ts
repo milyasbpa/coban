@@ -6,7 +6,7 @@ import {
   KanjiExerciseResult,
   DEFAULT_KANJI_WORD,
   DEFAULT_KANJI_MASTERY,
-} from "../model/score";
+} from "../model/kanji-score";
 import { KanjiScoreCalculator } from "../utils/score-calculator";
 
 // Simple storage for kanji scores only
