@@ -1,5 +1,6 @@
 // Utility functions for loading kanji data
 import { KanjiService, KanjiDetail, KanjiExample } from "@/pwa/core/services/kanji";
+import { shuffleArray } from "../../pairing/utils/pairing-game";
 
 /**
  * Get all kanji details for a specific level using KanjiService
@@ -67,7 +68,8 @@ export function getWritingQuestions(
     });
   }
 
-  return questions;
+  // Shuffle questions before returning
+  return shuffleArray(questions);
 }
 
 /**
