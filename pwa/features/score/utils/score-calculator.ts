@@ -5,7 +5,7 @@ import {
   KanjiUserScore,
   MAX_SCORE,
   EXERCISE_TYPES,
-} from "../model/score";
+} from "../model/kanji-score";
 
 export class KanjiScoreCalculator {
   // ============ Core Scoring Methods ============
