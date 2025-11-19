@@ -70,7 +70,7 @@ export interface VocabularyReadingExerciseState {
   ) => void;
 
   // Initialize exercise function
-  initializeExercise: (level: string, categoryId: string, selectedVocabularyIds?: number[]) => Promise<void>;
+  initializeExercise: (level: string, categoryId: string, selectedVocabularyIds?: number[], language?: "id" | "en") => Promise<void>;
   
   // Check answer function 
   handleCheckAnswer: () => void;
@@ -375,7 +375,7 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
   },
 
   // Initialize exercise function
-  initializeExercise: async (level: string, categoryId: string, selectedVocabularyIds?: number[]) => {
+  initializeExercise: async (level: string, categoryId: string, selectedVocabularyIds?: number[], language: "id" | "en" = "id") => {
     try {
       // Get vocabulary category
       const vocabularyCategory = VocabularyService.getVocabularyByCategoryString(categoryId, level);
@@ -398,8 +398,8 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
         return;
       }
 
-      // Generate questions from vocabulary words
-      const questions = generateReadingQuestions(vocabularyWords, "kanji-to-meaning");
+      // Generate questions from vocabulary words with language support
+      const questions = generateReadingQuestions(vocabularyWords, "kanji-to-meaning", language);
       
       // Initialize the game
       get().initializeGame(questions);

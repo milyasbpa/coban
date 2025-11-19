@@ -11,6 +11,7 @@ import { cn } from "@/pwa/core/lib/utils";
 import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-exercise.store";
 import { calculateScore } from "../utils/vocabulary-reading.utils";
 import { useVocabularyExerciseSearchParams } from "../../utils/hooks";
+import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
 export function VocabularyAnswerBottomSheet() {
   const {
@@ -21,6 +22,7 @@ export function VocabularyAnswerBottomSheet() {
   } = useVocabularyReadingExerciseStore();
 
   const { level, categoryId } = useVocabularyExerciseSearchParams();
+  const { language } = useLanguage();
 
   const currentQuestion = getCurrentQuestion();
   const isCorrect = getIsCurrentAnswerCorrect();
@@ -31,6 +33,11 @@ export function VocabularyAnswerBottomSheet() {
   };
 
   if (!currentResult || !currentQuestion) return null;
+
+  // Get meaning based on current language
+  const meaning = language === 'id' 
+    ? currentQuestion.word.meanings.id 
+    : currentQuestion.word.meanings.en;
 
   return (
     <Sheet open={showBottomSheet} onOpenChange={() => {}}>
@@ -83,7 +90,7 @@ export function VocabularyAnswerBottomSheet() {
             <div className="flex justify-between items-center">
               <span className="text-muted-foreground">Meaning:</span>
               <span className="font-semibold text-foreground">
-                {currentQuestion.correctAnswer}
+                {meaning}
               </span>
             </div>
           </div>

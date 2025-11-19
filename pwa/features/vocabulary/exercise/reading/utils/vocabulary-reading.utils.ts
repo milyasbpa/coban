@@ -5,7 +5,8 @@ import { VocabularyQuestion, VocabularyExerciseWord } from "../../shared/types";
  */
 export function generateReadingQuestions(
   words: VocabularyExerciseWord[],
-  questionType: "hiragana-to-meaning" | "kanji-to-meaning" = "kanji-to-meaning"
+  questionType: "hiragana-to-meaning" | "kanji-to-meaning" = "kanji-to-meaning",
+  language: "id" | "en" = "id"
 ): VocabularyQuestion[] {
   if (words.length === 0) {
     throw new Error("Need at least 1 word to generate questions");
@@ -15,10 +16,12 @@ export function generateReadingQuestions(
     // Get wrong answers from other words (up to 3, or less if not enough words)
     const otherWords = words.filter(w => w.id !== word.id);
     const wrongAnswersCount = Math.min(3, otherWords.length);
-    const wrongAnswers = getRandomItems(otherWords, wrongAnswersCount).map(w => w.meanings.id);
+    const wrongAnswers = getRandomItems(otherWords, wrongAnswersCount).map(w => 
+      language === "id" ? w.meanings.id : w.meanings.en
+    );
     
-    // Create options array with correct answer
-    const correctAnswer = word.meanings.id;
+    // Create options array with correct answer based on language
+    const correctAnswer = language === "id" ? word.meanings.id : word.meanings.en;
     const options = shuffleArray([correctAnswer, ...wrongAnswers]);
 
     // Set display properties based on question type

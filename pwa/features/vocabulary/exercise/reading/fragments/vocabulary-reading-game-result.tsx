@@ -8,6 +8,7 @@ import { RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
+import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
 function getScoreColor(score: number) {
   if (score >= 90) {
@@ -39,6 +40,7 @@ export function VocabularyReadingGameResult() {
   const searchParams = useSearchParams();
   const categoryId = searchParams.get("categoryId");
   const level = searchParams.get("level") || "N5";
+  const { language } = useLanguage();
 
   const {
     gameState: { score, isRetryMode },
@@ -66,7 +68,7 @@ export function VocabularyReadingGameResult() {
     if (!categoryId) return;
     
     restartGame();
-    await initializeExercise(level, categoryId);
+    await initializeExercise(level, categoryId, undefined, language);
   };
 
   const handleBackToHome = () => {
