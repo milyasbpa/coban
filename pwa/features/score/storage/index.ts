@@ -12,4 +12,4 @@ export type {
   KanjiWordLevel,
   KanjiMasteryLevel,
   KanjiExerciseResult,
-} from '../model/score';
+} from '../model/kanji-score';

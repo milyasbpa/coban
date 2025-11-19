@@ -8,7 +8,7 @@ import {
   KanjiMasteryLevel,
   KanjiExerciseResult,
   ExerciseType,
-} from "../model/score";
+} from "../model/kanji-score";
 import { KanjiService } from "@/pwa/core/services/kanji";
 
 // Simplified state untuk kanji store

@@ -24,7 +24,7 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
     selected.id === card.id && selected.type === card.type
   );
 
-  const isMatched = matchedPairs.has(card.id.toString());
+  const isMatched = matchedPairs.has(card.id);
 
   const isError = errorCards.has(`${card.id}-${card.type}`);
 
