@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "PROFESI, PEKERJAAN & KEDUDUKAN",
+        "en": "PROFESSION, JOBS & POSITION"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "アナウンサー", "hiragana": "アナウンサー", "romaji": "anunsaa", "meanings": {"en": "announcer", "id": "penyiar"}},
+        {"id": 2, "kanji": "アルバイト", "hiragana": "アルバイト", "romaji": "arubaito", "meanings": {"en": "part-time job", "id": "kerja paruh waktu"}},
+        {"id": 3, "kanji": "部長", "hiragana": "ぶちょう", "romaji": "buchou", "meanings": {"en": "director, head of department", "id": "direktur, kepala bagian"}},
+        {"id": 4, "kanji": "大学生", "hiragana": "だいがくせい", "romaji": "daigakusei", "meanings": {"en": "university student", "id": "mahasiswa"}},
+        {"id": 5, "kanji": "泥棒", "hiragana": "どろぼう", "romaji": "dorobou", "meanings": {"en": "thief, robber", "id": "pencuri, maling, perampok"}},
+        {"id": 6, "kanji": "歯医者", "hiragana": "はいしゃ", "romaji": "ha'isha", "meanings": {"en": "dentist", "id": "dokter gigi"}},
+        {"id": 7, "kanji": "看護婦", "hiragana": "かんごふ", "romaji": "kangofu", "meanings": {"en": "nurse", "id": "kepala kelompok, manager"}},
+        {"id": 8, "kanji": "警察", "hiragana": "けいさつ", "romaji": "keisatsu", "meanings": {"en": "police", "id": "suster, perawat"}},
+        {"id": 9, "kanji": "校長", "hiragana": "こうちょう", "romaji": "kouchou", "meanings": {"en": "principal", "id": "polisi"}},
+        {"id": 10, "kanji": "高校生", "hiragana": "こうこうせい", "romaji": "koukousei", "meanings": {"en": "high school student", "id": "kepala sekolah"}},
+        {"id": 11, "kanji": "公務員", "hiragana": "こうむいん", "romaji": "koumuin", "meanings": {"en": "civil servant", "id": "siswa SMU"}},
+        {"id": 12, "kanji": "パート", "hiragana": "パート", "romaji": "paato", "meanings": {"en": "part-time", "id": "pegawai negeri"}},
+        {"id": 13, "kanji": "シニア", "hiragana": "シニア", "romaji": "shinia", "meanings": {"en": "senior", "id": "paruh waktu"}},
+        {"id": 14, "kanji": "社長", "hiragana": "しゃちょう", "romaji": "shachou", "meanings": {"en": "president director", "id": "senior"}},
+        {"id": 15, "kanji": "すり", "hiragana": "すり", "romaji": "suri", "meanings": {"en": "pickpocket", "id": "presiden direktur"}},
+        {"id": 16, "kanji": "店員", "hiragana": "てんいん", "romaji": "ten'in", "meanings": {"en": "shop assistant", "id": "pencopet"}},
+        {"id": 17, "kanji": "とこや", "hiragana": "とこや", "romaji": "tokoya", "meanings": {"en": "barber", "id": "pegawai toko"}},
+        {"id": 18, "kanji": "運転手", "hiragana": "うんてんしゅ", "romaji": "untenshu", "meanings": {"en": "driver", "id": "pemangkas rambut"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KANTOR, PERUSAHAAN",
+        "en": "OFFICE, COMPANY"
+      },
+      "vocabulary": [
+        {"id": 19, "kanji": "貿易", "hiragana": "ぼうえき", "romaji": "boueki", "meanings": {"en": "trade", "id": "perdagangan"}},
+        {"id": 20, "kanji": "電報", "hiragana": "でんぽう", "romaji": "denpou", "meanings": {"en": "telegram", "id": "telegram"}},
+        {"id": 21, "kanji": "ファックス", "hiragana": "ファックス", "romaji": "fakkusu", "meanings": {"en": "fax", "id": "faksimili"}},
+        {"id": 22, "kanji": "事務所", "hiragana": "じむしょ", "romaji": "jimusho", "meanings": {"en": "office", "id": "tata-usaha, kantor"}},
+        {"id": 23, "kanji": "会議", "hiragana": "かいぎ", "romaji": "kaigi", "meanings": {"en": "meeting, conference", "id": "rapat, pertemuan"}}
+      ]
+    }
+  ]
+}

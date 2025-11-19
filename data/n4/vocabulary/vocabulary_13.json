@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "BANGUNAN & BAGIANNYA",
+        "en": "BUILDINGS & PARTS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ビル", "hiragana": "ビル", "romaji": "biru", "meanings": {"en": "building", "id": "bangunan"}},
+        {"id": 2, "kanji": "暖房", "hiragana": "だんぼう", "romaji": "danbou", "meanings": {"en": "heater", "id": "pemanas ruangan"}},
+        {"id": 3, "kanji": "電灯", "hiragana": "でんとう", "romaji": "dentou", "meanings": {"en": "lamp", "id": "lampu"}},
+        {"id": 4, "kanji": "エスカレーター", "hiragana": "エスカレーター", "romaji": "esukareetaa", "meanings": {"en": "escalator", "id": "eskalator, tangga jalan"}},
+        {"id": 5, "kanji": "ガラス", "hiragana": "ガラス", "romaji": "garasu", "meanings": {"en": "glass", "id": "gelas, kaca"}},
+        {"id": 6, "kanji": "壁", "hiragana": "かべ", "romaji": "kabe", "meanings": {"en": "wall", "id": "dinding"}},
+        {"id": 7, "kanji": "講堂", "hiragana": "こうどう", "romaji": "koudou", "meanings": {"en": "auditorium", "id": "auditorium, aula"}},
+        {"id": 8, "kanji": "二階建て", "hiragana": "にかいだて", "romaji": "nikaidate", "meanings": {"en": "two-story building", "id": "bangunan 2 lantai"}},
+        {"id": 9, "kanji": "屋上", "hiragana": "おくじょう", "romaji": "okujyou", "meanings": {"en": "rooftop", "id": "di atas atap"}},
+        {"id": 10, "kanji": "冷房", "hiragana": "れいぼう", "romaji": "reibou", "meanings": {"en": "air conditioner", "id": "pendingin ruangan, AC"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "TEMPAT TINGGAL & PERALATAN",
+        "en": "RESIDENCE & EQUIPMENT"
+      },
+      "vocabulary": [
+        {"id": 11, "kanji": "ベル", "hiragana": "ベル", "romaji": "beru", "meanings": {"en": "bell", "id": "bel, lonceng"}},
+        {"id": 12, "kanji": "道具", "hiragana": "どうぐ", "romaji": "dougu", "meanings": {"en": "tool, instrument", "id": "alat, perkakas"}},
+        {"id": 13, "kanji": "布団", "hiragana": "ふとん", "romaji": "futon", "meanings": {"en": "futon", "id": "kasur tipis (alas tidur gaya Jepang)"}},
+        {"id": 14, "kanji": "下宿", "hiragana": "げしゅく", "romaji": "geshuku", "meanings": {"en": "boarding house", "id": "indekos"}},
+        {"id": 15, "kanji": "引き出し", "hiragana": "ひきだし", "romaji": "hikidashi", "meanings": {"en": "drawer", "id": "laci"}},
+        {"id": 16, "kanji": "住所", "hiragana": "じゅうしょ", "romaji": "jyuusho", "meanings": {"en": "address", "id": "alamat"}},
+        {"id": 17, "kanji": "鏡", "hiragana": "かがみ", "romaji": "kagami", "meanings": {"en": "mirror", "id": "cermin"}},
+        {"id": 18, "kanji": "カーテン", "hiragana": "カーテン", "romaji": "kaaten", "meanings": {"en": "curtain", "id": "tirai"}},
+        {"id": 19, "kanji": "人形", "hiragana": "にんぎょう", "romaji": "ningyou", "meanings": {"en": "doll", "id": "boneka"}},
+        {"id": 20, "kanji": "押し入れ", "hiragana": "おしいれ", "romaji": "oshi'ire", "meanings": {"en": "closet", "id": "lemari pakaian"}},
+        {"id": 21, "kanji": "お宅", "hiragana": "おたく", "romaji": "otaku", "meanings": {"en": "house (polite)", "id": "rumah (orang lain)"}},
+        {"id": 22, "kanji": "ピアノ", "hiragana": "ピアノ", "romaji": "piano", "meanings": {"en": "piano", "id": "piano"}},
+        {"id": 23, "kanji": "水道", "hiragana": "すいどう", "romaji": "suidou", "meanings": {"en": "water supply", "id": "saluran air, ledeng"}},
+        {"id": 24, "kanji": "ステレオ", "hiragana": "ステレオ", "romaji": "sutereo", "meanings": {"en": "stereo", "id": "stereo"}},
+        {"id": 25, "kanji": "棚", "hiragana": "たな", "romaji": "tana", "meanings": {"en": "shelf", "id": "rak"}},
+        {"id": 26, "kanji": "畳", "hiragana": "たたみ", "romaji": "tatami", "meanings": {"en": "tatami", "id": "tatami, alas lantai gaya Jepang"}}
+      ]
+    }
+  ]
+}

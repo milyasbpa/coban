@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "残る", "hiragana": "のこる", "romaji": "nokoru", "meanings": {"en": "to remain", "id": "terisisa, tertinggal"}},
+        {"id": 2, "kanji": "乗り換える", "hiragana": "のりかえる", "romaji": "norikaeru", "meanings": {"en": "to transfer (transport)", "id": "tukar kendaraan"}},
+        {"id": 3, "kanji": "濡れる", "hiragana": "ぬれる", "romaji": "nureru", "meanings": {"en": "to get wet", "id": "basah"}},
+        {"id": 4, "kanji": "塗る", "hiragana": "ぬる", "romaji": "nuru", "meanings": {"en": "to paint, spread", "id": "mengecat, mengoles"}},
+        {"id": 5, "kanji": "盗む", "hiragana": "ぬすむ", "romaji": "nusumu", "meanings": {"en": "to steal", "id": "mencuri"}},
+        {"id": 6, "kanji": "入学する", "hiragana": "にゅうがくする", "romaji": "nyuugaku suru", "meanings": {"en": "to enter school", "id": "masuk sekolah"}},
+        {"id": 7, "kanji": "入院する", "hiragana": "にゅういんする", "romaji": "nyuuin suru", "meanings": {"en": "to be hospitalized", "id": "masuk rumah sakit"}},
+        {"id": 8, "kanji": "驚く", "hiragana": "おどろく", "romaji": "odoroku", "meanings": {"en": "to be surprised", "id": "kaget, terkejut, heran"}},
+        {"id": 9, "kanji": "踊る", "hiragana": "おどる", "romaji": "odoru", "meanings": {"en": "to dance", "id": "menari, berdansa"}},
+        {"id": 10, "kanji": "行う", "hiragana": "おこなう", "romaji": "okonau", "meanings": {"en": "to carry out, perform", "id": "mengadakan, melaksanakan"}},
+        {"id": 11, "kanji": "怒る", "hiragana": "おこる", "romaji": "okoru", "meanings": {"en": "to get angry", "id": "marah, gusar"}},
+        {"id": 12, "kanji": "起こす", "hiragana": "おこす", "romaji": "okosu", "meanings": {"en": "to cause, bring about", "id": "mengakibatkan, menimbulkan"}},
+        {"id": 13, "kanji": "遅れる", "hiragana": "おくれる", "romaji": "okureru", "meanings": {"en": "to be late", "id": "terlambat"}},
+        {"id": 14, "kanji": "送る", "hiragana": "おくる", "romaji": "okuru", "meanings": {"en": "to send", "id": "mengirim, mengantar"}},
+        {"id": 15, "kanji": "思う", "hiragana": "おもう", "romaji": "omou", "meanings": {"en": "to think, feel", "id": "berpikir, merasa"}},
+        {"id": 16, "kanji": "泳ぐ", "hiragana": "およぐ", "romaji": "oyogu", "meanings": {"en": "to swim", "id": "berenang"}},
+        {"id": 17, "kanji": "連絡する", "hiragana": "れんらくする", "romaji": "renraku suru", "meanings": {"en": "to contact", "id": "menghubungi"}},
+        {"id": 18, "kanji": "利用する", "hiragana": "りようする", "romaji": "riyou suru", "meanings": {"en": "to use", "id": "menggunakan"}},
+        {"id": 19, "kanji": "留守する", "hiragana": "るすする", "romaji": "rusu suru", "meanings": {"en": "to be away, house-sit", "id": "tidak ada di tempat, menjaga rumah"}},
+        {"id": 20, "kanji": "探す", "hiragana": "さがす", "romaji": "sagasu", "meanings": {"en": "to search", "id": "mencari"}},
+        {"id": 21, "kanji": "騒ぐ", "hiragana": "さわぐ", "romaji": "sawagu", "meanings": {"en": "to make noise", "id": "ramai, bersorak"}},
+        {"id": 22, "kanji": "触る", "hiragana": "さわる", "romaji": "sawaru", "meanings": {"en": "to touch", "id": "menyentuh, meraba"}},
+        {"id": 23, "kanji": "生活する", "hiragana": "せいかつする", "romaji": "seikatsu suru", "meanings": {"en": "to live", "id": "hidup"}},
+        {"id": 24, "kanji": "生産する", "hiragana": "せいさんする", "romaji": "seisan suru", "meanings": {"en": "to produce", "id": "memproduksi"}},
+        {"id": 25, "kanji": "説明する", "hiragana": "せつめいする", "romaji": "setsumei suru", "meanings": {"en": "to explain", "id": "menerangkan, menjelaskan"}},
+        {"id": 26, "kanji": "世話する", "hiragana": "せわする", "romaji": "sewa suru", "meanings": {"en": "to take care of", "id": "mengasuh, mengurus"}},
+        {"id": 27, "kanji": "叱る", "hiragana": "しかる", "romaji": "shikaru", "meanings": {"en": "to scold", "id": "memarahi, mengomeli"}},
+        {"id": 28, "kanji": "失敗する", "hiragana": "しっぱいする", "romaji": "shippai suru", "meanings": {"en": "to fail", "id": "gagal, keliru"}},
+        {"id": 29, "kanji": "調べる", "hiragana": "しらべる", "romaji": "shiraberu", "meanings": {"en": "to check, investigate", "id": "memeriksa"}}
+      ]
+    }
+  ]
+}

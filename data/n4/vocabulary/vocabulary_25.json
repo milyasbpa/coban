@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA TRANSITIF",
+        "en": "TRANSITIVE VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "逃がす", "hiragana": "にがす", "romaji": "nigasu", "meanings": {"en": "to let escape", "id": "melarikan"}},
+        {"id": 2, "kanji": "上げる", "hiragana": "あげる", "romaji": "ageru", "meanings": {"en": "to raise", "id": "menaikkan"}},
+        {"id": 3, "kanji": "乗せる", "hiragana": "のせる", "romaji": "noseru", "meanings": {"en": "to put on, to let ride", "id": "melepas, mencabut"}},
+        {"id": 4, "kanji": "抜く", "hiragana": "ぬく", "romaji": "nuku", "meanings": {"en": "to pull out", "id": "menurunkan"}},
+        {"id": 5, "kanji": "降ろす", "hiragana": "おろす", "romaji": "orosu", "meanings": {"en": "to take down", "id": "melipat, mematahkan"}},
+        {"id": 6, "kanji": "折る", "hiragana": "おる", "romaji": "oru", "meanings": {"en": "to fold, break", "id": "menjatuhkan"}},
+        {"id": 7, "kanji": "落とす", "hiragana": "おとす", "romaji": "otosu", "meanings": {"en": "to drop", "id": "menurunkan"}},
+        {"id": 8, "kanji": "下げる", "hiragana": "さげる", "romaji": "sageru", "meanings": {"en": "to lower", "id": "menurunkan"}},
+        {"id": 9, "kanji": "閉める", "hiragana": "しめる", "romaji": "shimeru", "meanings": {"en": "to close", "id": "menutup"}},
+        {"id": 10, "kanji": "育てる", "hiragana": "そだてる", "romaji": "sodateru", "meanings": {"en": "to raise, bring up", "id": "memelihara, menumbuhkan, merawat"}},
+        {"id": 11, "kanji": "過ごす", "hiragana": "すごす", "romaji": "sugosu", "meanings": {"en": "to pass (time)", "id": "melewatkan, menghabiskan"}},
+        {"id": 12, "kanji": "建てる", "hiragana": "たてる", "romaji": "tateru", "meanings": {"en": "to build", "id": "mendirikan"}},
+        {"id": 13, "kanji": "届ける", "hiragana": "とどける", "romaji": "todokeru", "meanings": {"en": "to deliver", "id": "menyampaikan, mengirim, melaporkan"}},
+        {"id": 14, "kanji": "付ける", "hiragana": "つける", "romaji": "tsukeru", "meanings": {"en": "to attach, turn on", "id": "menyalakan, memasangkan"}},
+        {"id": 15, "kanji": "続ける", "hiragana": "つづける", "romaji": "tsuzukeru", "meanings": {"en": "to continue", "id": "meneruskan, melanjutkan"}},
+        {"id": 16, "kanji": "売る", "hiragana": "うる", "romaji": "uru", "meanings": {"en": "to sell", "id": "menjual"}},
+        {"id": 17, "kanji": "映す", "hiragana": "うつす", "romaji": "utsusu", "meanings": {"en": "to reflect", "id": "memantulkan"}},
+        {"id": 18, "kanji": "沸かす", "hiragana": "わかす", "romaji": "wakasu", "meanings": {"en": "to boil", "id": "mendidihkan"}},
+        {"id": 19, "kanji": "割る", "hiragana": "わる", "romaji": "waru", "meanings": {"en": "to break", "id": "memecahkan"}},
+        {"id": 20, "kanji": "破る", "hiragana": "やぶる", "romaji": "yaburu", "meanings": {"en": "to tear", "id": "merobek, menyobek"}},
+        {"id": 21, "kanji": "焼く", "hiragana": "やく", "romaji": "yaku", "meanings": {"en": "to burn, grill", "id": "membakar, memanggang"}},
+        {"id": 22, "kanji": "止める", "hiragana": "やめる", "romaji": "yameru", "meanings": {"en": "to stop", "id": "menghentikan, memberhentikan"}},
+        {"id": 23, "kanji": "汚す", "hiragana": "よごす", "romaji": "yogosu", "meanings": {"en": "to dirty", "id": "mengotori"}},
+        {"id": 24, "kanji": "揺らす", "hiragana": "ゆらす", "romaji": "yurasu", "meanings": {"en": "to shake", "id": "menggoyangkan, mengayunkan"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA GANTI PENUNJUK",
+        "en": "DEMONSTRATIVE PRONOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "こんな", "hiragana": "こんな", "romaji": "konna", "meanings": {"en": "like this", "id": "seperti ini, begini"}},
+        {"id": 2, "kanji": "そんな", "hiragana": "そんな", "romaji": "sonna", "meanings": {"en": "like that", "id": "seperti itu, begitu"}},
+        {"id": 3, "kanji": "あんな", "hiragana": "あんな", "romaji": "anna", "meanings": {"en": "like that (far)", "id": "seperti itu, demikian"}}
+      ]
+    }
+  ]
+}

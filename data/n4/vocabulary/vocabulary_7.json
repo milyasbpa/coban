@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KANTOR, PERUSAHAAN",
+        "en": "OFFICE, COMPANY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "会議室", "hiragana": "かいぎしつ", "romaji": "kaigishitsu", "meanings": {"en": "meeting room", "id": "ruang rapat/pertemuan"}},
+        {"id": 2, "kanji": "計画", "hiragana": "けいかく", "romaji": "keikaku", "meanings": {"en": "plan", "id": "rencana"}},
+        {"id": 3, "kanji": "経験", "hiragana": "けいけん", "romaji": "keiken", "meanings": {"en": "experience", "id": "pengalaman"}},
+        {"id": 4, "kanji": "規則", "hiragana": "きそく", "romaji": "kisoku", "meanings": {"en": "rule, regulation", "id": "peraturan, undang-undang"}},
+        {"id": 5, "kanji": "工業", "hiragana": "こうぎょう", "romaji": "kougyou", "meanings": {"en": "industry, factory", "id": "pabrik, pabrik produksi"}},
+        {"id": 6, "kanji": "客", "hiragana": "きゃく", "romaji": "kyaku", "meanings": {"en": "guest, customer", "id": "tamu"}},
+        {"id": 7, "kanji": "レポート", "hiragana": "レポート", "romaji": "repooto", "meanings": {"en": "report", "id": "laporan"}},
+        {"id": 8, "kanji": "リポート", "hiragana": "リポート", "romaji": "ripooto", "meanings": {"en": "report", "id": "laporan"}},
+        {"id": 9, "kanji": "産業", "hiragana": "さんぎょう", "romaji": "sangyou", "meanings": {"en": "industry", "id": "perindustrian"}},
+        {"id": 10, "kanji": "席", "hiragana": "せき", "romaji": "seki", "meanings": {"en": "seat", "id": "tempat duduk"}},
+        {"id": 11, "kanji": "新聞社", "hiragana": "しんぶんしゃ", "romaji": "shinbunsha", "meanings": {"en": "newspaper company", "id": "perusahaan surat kabar"}},
+        {"id": 12, "kanji": "受付", "hiragana": "うけつけ", "romaji": "uketsuke", "meanings": {"en": "reception", "id": "penerimaan tamu, resepsionis"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "MANUSIA & BAGIAN TUBUH",
+        "en": "HUMAN & BODY PARTS"
+      },
+      "vocabulary": [
+        {"id": 13, "kanji": "赤ちゃん", "hiragana": "あかちゃん", "romaji": "akachan", "meanings": {"en": "baby", "id": "bayi"}},
+        {"id": 14, "kanji": "赤ん坊", "hiragana": "あかんぼう", "romaji": "akanbou", "meanings": {"en": "baby", "id": "bayi"}},
+        {"id": 15, "kanji": "血", "hiragana": "ち", "romaji": "chi", "meanings": {"en": "blood", "id": "darah"}},
+        {"id": 16, "kanji": "力", "hiragana": "ちから", "romaji": "chikara", "meanings": {"en": "strength", "id": "tenaga"}},
+        {"id": 17, "kanji": "男性", "hiragana": "だんせい", "romaji": "dansei", "meanings": {"en": "man, male", "id": "pria, laki-laki"}},
+        {"id": 18, "kanji": "ひげ", "hiragana": "ひげ", "romaji": "hige", "meanings": {"en": "beard, mustache", "id": "kumis, jenggot"}},
+        {"id": 19, "kanji": "女性", "hiragana": "じょせい", "romaji": "jyosei", "meanings": {"en": "woman, female", "id": "perempuan, wanita"}},
+        {"id": 20, "kanji": "髪", "hiragana": "かみ", "romaji": "kami", "meanings": {"en": "hair", "id": "rambut"}},
+        {"id": 21, "kanji": "毛", "hiragana": "け", "romaji": "ke", "meanings": {"en": "fur, hair", "id": "bulu"}},
+        {"id": 22, "kanji": "心", "hiragana": "こころ", "romaji": "kokoro", "meanings": {"en": "heart, mind", "id": "hati"}},
+        {"id": 23, "kanji": "首", "hiragana": "くび", "romaji": "kubi", "meanings": {"en": "neck", "id": "leher"}},
+        {"id": 24, "kanji": "のど", "hiragana": "のど", "romaji": "nodo", "meanings": {"en": "throat", "id": "kerongkongan, tenggorokan"}},
+        {"id": 25, "kanji": "背中", "hiragana": "せなか", "romaji": "senaka", "meanings": {"en": "back", "id": "punggung"}},
+        {"id": 26, "kanji": "腕", "hiragana": "うで", "romaji": "ude", "meanings": {"en": "arm", "id": "lengan"}},
+        {"id": 27, "kanji": "指", "hiragana": "ゆび", "romaji": "yubi", "meanings": {"en": "finger", "id": "jari"}}
+      ]
+    }
+  ]
+}

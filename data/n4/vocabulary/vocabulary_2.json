@@ -1,0 +1,230 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "PETA & LOKASI",
+        "en": "MAPS & LOCATIONS"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "工場",
+          "hiragana": "こうじょう",
+          "romaji": "koujou",
+          "meanings": {
+            "en": "factory",
+            "id": "pabrik"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "空港",
+          "hiragana": "くうこう",
+          "romaji": "kuukou",
+          "meanings": {
+            "en": "airport",
+            "id": "bandara udara, lapangan terbang"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "港",
+          "hiragana": "みなと",
+          "romaji": "minato",
+          "meanings": {
+            "en": "port, harbor",
+            "id": "pelabuhan"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "旅館",
+          "hiragana": "りょかん",
+          "romaji": "ryokan",
+          "meanings": {
+            "en": "Japanese inn",
+            "id": "penginapan gaya Jepang"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "市",
+          "hiragana": "し",
+          "romaji": "shi",
+          "meanings": {
+            "en": "city",
+            "id": "kota"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "展覧会",
+          "hiragana": "てんらんかい",
+          "romaji": "tenrankai",
+          "meanings": {
+            "en": "exhibition",
+            "id": "pameran"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "都",
+          "hiragana": "と",
+          "romaji": "to",
+          "meanings": {
+            "en": "metropolitan city, capital",
+            "id": "kota metropolitan, ibu-kota"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "売り場",
+          "hiragana": "うりば",
+          "romaji": "uriba",
+          "meanings": {
+            "en": "sales area, counter",
+            "id": "tempat penjualan"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "BENTUK & JENIS",
+        "en": "SHAPES & TYPES"
+      },
+      "vocabulary": [
+        {
+          "id": 9,
+          "kanji": "かっこう",
+          "hiragana": "かっこう",
+          "romaji": "kakkou",
+          "meanings": {
+            "en": "appearance, shape",
+            "id": "wujud, bentuk"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "形",
+          "hiragana": "かたち",
+          "romaji": "katachi",
+          "meanings": {
+            "en": "form, shape",
+            "id": "bentuk"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "タイプ",
+          "hiragana": "タイプ",
+          "romaji": "taipu",
+          "meanings": {
+            "en": "type, kind",
+            "id": "tipe, jenis"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "ARAH",
+        "en": "DIRECTIONS"
+      },
+      "vocabulary": [
+        {
+          "id": 12,
+          "kanji": "帰り",
+          "hiragana": "かえり",
+          "romaji": "kaeri",
+          "meanings": {
+            "en": "return, way back",
+            "id": "arah pulang, kepulangan"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "向こう",
+          "hiragana": "むこう",
+          "romaji": "mukou",
+          "meanings": {
+            "en": "over there, opposite side",
+            "id": "seberang sana"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "遠く",
+          "hiragana": "とおく",
+          "romaji": "tooku",
+          "meanings": {
+            "en": "far away",
+            "id": "yang jauh"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": "BATASAN & BAGIAN",
+        "en": "LIMITS & PARTS"
+      },
+      "vocabulary": [
+        {
+          "id": 15,
+          "kanji": "間",
+          "hiragana": "あいだ",
+          "romaji": "aida",
+          "meanings": {
+            "en": "between, interval, while",
+            "id": "antara, sementara, selama"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "できるだけ",
+          "hiragana": "できるだけ",
+          "romaji": "dekirudake",
+          "meanings": {
+            "en": "as much as possible",
+            "id": "sedapat mungkin, sebisanya"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "非常に",
+          "hiragana": "ひじょうに",
+          "romaji": "hijyou ni",
+          "meanings": {
+            "en": "extremely, very",
+            "id": "amat sangat, terlampau"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "ほど",
+          "hiragana": "ほど",
+          "romaji": "hodo",
+          "meanings": {
+            "en": "about, limit",
+            "id": "kira-kira, batasan"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "以外",
+          "hiragana": "いがい",
+          "romaji": "igai",
+          "meanings": {
+            "en": "except, other than",
+            "id": "selain"
+          }
+        }
+      ]
+    }
+  ]
+}

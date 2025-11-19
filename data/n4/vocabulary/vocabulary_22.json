@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "包む", "hiragana": "つつむ", "romaji": "tsutsumu", "meanings": {"en": "to wrap", "id": "membungkus"}},
+        {"id": 2, "kanji": "植える", "hiragana": "うえる", "romaji": "ueru", "meanings": {"en": "to plant", "id": "menanam"}},
+        {"id": 3, "kanji": "動く", "hiragana": "うごく", "romaji": "ugoku", "meanings": {"en": "to move", "id": "bergerak"}},
+        {"id": 4, "kanji": "受ける", "hiragana": "うける", "romaji": "ukeru", "meanings": {"en": "to receive", "id": "menerima, mendapat"}},
+        {"id": 5, "kanji": "運動する", "hiragana": "うんどうする", "romaji": "undou suru", "meanings": {"en": "to exercise", "id": "berolahraga"}},
+        {"id": 6, "kanji": "運転する", "hiragana": "うんてんする", "romaji": "unten suru", "meanings": {"en": "to drive", "id": "mengemudi, menyetir"}},
+        {"id": 7, "kanji": "打つ", "hiragana": "うつ", "romaji": "utsu", "meanings": {"en": "to hit", "id": "memukul"}},
+        {"id": 8, "kanji": "移る", "hiragana": "うつる", "romaji": "utsuru", "meanings": {"en": "to move", "id": "pindah, menular"}},
+        {"id": 9, "kanji": "写す", "hiragana": "うつす", "romaji": "utsusu", "meanings": {"en": "to copy, photograph", "id": "menyalin, mengkopi, memotret"}},
+        {"id": 10, "kanji": "別れる", "hiragana": "わかれる", "romaji": "wakareru", "meanings": {"en": "to part, separate", "id": "berpisah, bercerai"}},
+        {"id": 11, "kanji": "笑う", "hiragana": "わらう", "romaji": "warau", "meanings": {"en": "to laugh", "id": "tertawa"}},
+        {"id": 12, "kanji": "役に立つ", "hiragana": "やくにたつ", "romaji": "yaku ni tatsu", "meanings": {"en": "to be useful", "id": "berguna"}},
+        {"id": 13, "kanji": "約束する", "hiragana": "やくそくする", "romaji": "yakusoku suru", "meanings": {"en": "to promise", "id": "berjanji"}},
+        {"id": 14, "kanji": "痩せる", "hiragana": "やせる", "romaji": "yaseru", "meanings": {"en": "to become thin", "id": "menjadi kurus"}},
+        {"id": 15, "kanji": "喜ぶ", "hiragana": "よろこぶ", "romaji": "yorokobu", "meanings": {"en": "to be glad", "id": "senang, gembira"}},
+        {"id": 16, "kanji": "寄る", "hiragana": "よる", "romaji": "yoru", "meanings": {"en": "to stop by", "id": "mampir, singgah"}},
+        {"id": 17, "kanji": "予習する", "hiragana": "よしゅうする", "romaji": "yoshuu suru", "meanings": {"en": "to prepare lesson", "id": "mempersiapkan pelajaran"}},
+        {"id": 18, "kanji": "予定する", "hiragana": "よていする", "romaji": "yotei suru", "meanings": {"en": "to plan", "id": "merencanakan"}},
+        {"id": 19, "kanji": "予約する", "hiragana": "よやくする", "romaji": "yoyaku suru", "meanings": {"en": "to reserve", "id": "memesan"}},
+        {"id": 20, "kanji": "輸入する", "hiragana": "ゆにゅうする", "romaji": "yunyuu suru", "meanings": {"en": "to import", "id": "mengimpor"}},
+        {"id": 21, "kanji": "輸出する", "hiragana": "ゆしゅつする", "romaji": "yushutsu suru", "meanings": {"en": "to export", "id": "mengekspor"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA KERJA INTRANSITIF",
+        "en": "INTRANSITIVE VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "上がる", "hiragana": "あがる", "romaji": "agaru", "meanings": {"en": "to go up, climb", "id": "naik, mendaki"}},
+        {"id": 2, "kanji": "開く", "hiragana": "あく", "romaji": "aku", "meanings": {"en": "to open", "id": "buka"}},
+        {"id": 3, "kanji": "集まる", "hiragana": "あつまる", "romaji": "atsumaru", "meanings": {"en": "to gather", "id": "berkumpul"}},
+        {"id": 4, "kanji": "違う", "hiragana": "ちがう", "romaji": "chigau", "meanings": {"en": "to be wrong", "id": "salah"}},
+        {"id": 5, "kanji": "出る", "hiragana": "でる", "romaji": "deru", "meanings": {"en": "to go out", "id": "keluar"}},
+        {"id": 6, "kanji": "増える", "hiragana": "ふえる", "romaji": "fueru", "meanings": {"en": "to increase", "id": "bertambah, meningkat"}},
+        {"id": 7, "kanji": "入る", "hiragana": "はいる", "romaji": "hairu", "meanings": {"en": "to enter", "id": "masuk"}},
+        {"id": 8, "kanji": "始まる", "hiragana": "はじまる", "romaji": "hajimaru", "meanings": {"en": "to begin", "id": "mulai"}},
+        {"id": 9, "kanji": "減る", "hiragana": "へる", "romaji": "heru", "meanings": {"en": "to decrease", "id": "kurang, berkurang"}},
+        {"id": 10, "kanji": "冷える", "hiragana": "ひえる", "romaji": "hieru", "meanings": {"en": "to get cold", "id": "dingin (menjadi dingin)"}},
+        {"id": 11, "kanji": "掛かる", "hiragana": "かかる", "romaji": "kakaru", "meanings": {"en": "to hang, to take", "id": "gantung, pasang"}}
+      ]
+    }
+  ]
+}

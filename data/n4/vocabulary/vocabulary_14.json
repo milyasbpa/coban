@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "BUKU & ALAT TULIS",
+        "en": "BOOKS & STATIONERY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "辞典", "hiragana": "じてん", "romaji": "jiten", "meanings": {"en": "dictionary", "id": "kamus"}},
+        {"id": 2, "kanji": "消しゴム", "hiragana": "けしごむ", "romaji": "keshigomu", "meanings": {"en": "eraser", "id": "penghapus"}},
+        {"id": 3, "kanji": "日記", "hiragana": "にっき", "romaji": "nikki", "meanings": {"en": "diary", "id": "buku harian"}},
+        {"id": 4, "kanji": "説明書", "hiragana": "せつめいしょ", "romaji": "setsumeisho", "meanings": {"en": "manual, guidebook", "id": "buku petunjuk"}},
+        {"id": 5, "kanji": "テキスト", "hiragana": "テキスト", "romaji": "tekisuto", "meanings": {"en": "textbook", "id": "buku pelajaran"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "TRANSPORTASI & LALU-LINTAS",
+        "en": "TRANSPORTATION & TRAFFIC"
+      },
+      "vocabulary": [
+        {"id": 6, "kanji": "船", "hiragana": "ふね", "romaji": "fune", "meanings": {"en": "ship", "id": "kapal laut"}},
+        {"id": 7, "kanji": "ガソリン", "hiragana": "ガソリン", "romaji": "gasorin", "meanings": {"en": "gasoline", "id": "bensin"}},
+        {"id": 8, "kanji": "ガス", "hiragana": "ガス", "romaji": "gasu", "meanings": {"en": "gas", "id": "gas"}},
+        {"id": 9, "kanji": "汽車", "hiragana": "きしゃ", "romaji": "kisha", "meanings": {"en": "train, steam train", "id": "kereta api, kereta uap"}},
+        {"id": 10, "kanji": "交通", "hiragana": "こうつう", "romaji": "koutsuu", "meanings": {"en": "traffic, transportation", "id": "transportasi, lalu-lintas"}},
+        {"id": 11, "kanji": "急行", "hiragana": "きゅうこう", "romaji": "kyuukou", "meanings": {"en": "express", "id": "ekspres, kilat, cepat"}},
+        {"id": 12, "kanji": "乗り物", "hiragana": "のりもの", "romaji": "norimono", "meanings": {"en": "vehicle", "id": "kendaraan"}},
+        {"id": 13, "kanji": "オートバイ", "hiragana": "オートバイ", "romaji": "ootobai", "meanings": {"en": "motorcycle", "id": "sepeda motor"}},
+        {"id": 14, "kanji": "特急", "hiragana": "とっきゅう", "romaji": "tokkyuu", "meanings": {"en": "super express", "id": "super ekspres, super cepat"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "REKREASI, OLAH-RAGA & PERTANDINGAN",
+        "en": "RECREATION, SPORTS & COMPETITION"
+      },
+      "vocabulary": [
+        {"id": 15, "kanji": "遊び", "hiragana": "あそび", "romaji": "asobi", "meanings": {"en": "play, amusement", "id": "permainan, hiburan"}},
+        {"id": 16, "kanji": "番組", "hiragana": "ばんぐみ", "romaji": "bangumi", "meanings": {"en": "program, event", "id": "acara"}},
+        {"id": 17, "kanji": "柔道", "hiragana": "じゅうどう", "romaji": "jyuudou", "meanings": {"en": "judo", "id": "judo"}},
+        {"id": 18, "kanji": "見物", "hiragana": "けんぶつ", "romaji": "kenbutsu", "meanings": {"en": "sightseeing", "id": "lihat-lihat, melancong"}},
+        {"id": 19, "kanji": "コンサート", "hiragana": "コンサート", "romaji": "konsato", "meanings": {"en": "concert", "id": "konser"}},
+        {"id": 20, "kanji": "興味", "hiragana": "きょうみ", "romaji": "kyoumi", "meanings": {"en": "interest", "id": "minat"}},
+        {"id": 21, "kanji": "競争", "hiragana": "きょうそう", "romaji": "kyousou", "meanings": {"en": "competition", "id": "persaingan"}},
+        {"id": 22, "kanji": "漫画", "hiragana": "まんが", "romaji": "manga", "meanings": {"en": "manga, comic", "id": "manga, komik Jepang"}}
+      ]
+    }
+  ]
+}

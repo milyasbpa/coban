@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT-I",
+        "en": "I-ADJECTIVES"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "浅い", "hiragana": "あさい", "romaji": "asai", "meanings": {"en": "shallow", "id": "dangkal"}},
+        {"id": 2, "kanji": "深い", "hiragana": "ふかい", "romaji": "fukai", "meanings": {"en": "deep", "id": "mendalam, dalam"}},
+        {"id": 3, "kanji": "恥ずかしい", "hiragana": "はずかしい", "romaji": "hazukashii", "meanings": {"en": "embarrassed, shy", "id": "malu"}},
+        {"id": 4, "kanji": "ひどい", "hiragana": "ひどい", "romaji": "hidoi", "meanings": {"en": "cruel, terrible", "id": "kejam, parah"}},
+        {"id": 5, "kanji": "悲しい", "hiragana": "かなしい", "romaji": "kanashii", "meanings": {"en": "sad", "id": "sedih, pilu"}},
+        {"id": 6, "kanji": "硬い/堅い/固い", "hiragana": "かたい", "romaji": "katai", "meanings": {"en": "hard, solid", "id": "keras, kokoh"}},
+        {"id": 7, "kanji": "厳しい", "hiragana": "きびしい", "romaji": "kibishii", "meanings": {"en": "strict, severe", "id": "ketat, keras, tegas"}},
+        {"id": 8, "kanji": "細かい", "hiragana": "こまかい", "romaji": "komakai", "meanings": {"en": "fine, detailed", "id": "halus, rinci"}},
+        {"id": 9, "kanji": "怖い", "hiragana": "こわい", "romaji": "kowai", "meanings": {"en": "scary, afraid", "id": "takut"}},
+        {"id": 10, "kanji": "珍しい", "hiragana": "めずらしい", "romaji": "mezurashii", "meanings": {"en": "rare", "id": "langka"}},
+        {"id": 11, "kanji": "眠い", "hiragana": "ねむい", "romaji": "nemui", "meanings": {"en": "sleepy", "id": "mengantuk"}},
+        {"id": 12, "kanji": "苦い", "hiragana": "にがい", "romaji": "nigai", "meanings": {"en": "bitter", "id": "pahit"}},
+        {"id": 13, "kanji": "おかしい", "hiragana": "おかしい", "romaji": "okashii", "meanings": {"en": "strange, funny", "id": "aneh, menggelikan"}},
+        {"id": 14, "kanji": "寂しい", "hiragana": "さびしい", "romaji": "sabishii", "meanings": {"en": "lonely", "id": "sepi, sunyi"}},
+        {"id": 15, "kanji": "素晴らしい", "hiragana": "すばらしい", "romaji": "subarashii", "meanings": {"en": "wonderful", "id": "bagus sekali, sangat indah"}},
+        {"id": 16, "kanji": "すごい", "hiragana": "すごい", "romaji": "sugoi", "meanings": {"en": "amazing", "id": "hebat, dahsyat"}},
+        {"id": 17, "kanji": "正しい", "hiragana": "ただしい", "romaji": "tadashii", "meanings": {"en": "correct, right", "id": "betul, benar"}},
+        {"id": 18, "kanji": "うまい", "hiragana": "うまい", "romaji": "umai", "meanings": {"en": "delicious, skillful", "id": "enak, sedap"}},
+        {"id": 19, "kanji": "嬉しい", "hiragana": "うれしい", "romaji": "ureshii", "meanings": {"en": "happy, glad", "id": "senang, gembira"}},
+        {"id": 20, "kanji": "美しい", "hiragana": "うつくしい", "romaji": "utsukushii", "meanings": {"en": "beautiful", "id": "cantik, indah"}},
+        {"id": 21, "kanji": "優しい", "hiragana": "やさしい", "romaji": "yasashii", "meanings": {"en": "gentle, kind", "id": "lembut, ramah"}},
+        {"id": 22, "kanji": "柔らかい", "hiragana": "やわらかい", "romaji": "yawarakai", "meanings": {"en": "soft", "id": "lunak"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KELUARGA",
+        "en": "FAMILY"
+      },
+      "vocabulary": [
+        {"id": 23, "kanji": "ご主人", "hiragana": "ごしゅじん", "romaji": "goshujin", "meanings": {"en": "husband", "id": "suami anda, tuan"}},
+        {"id": 24, "kanji": "家内", "hiragana": "かない", "romaji": "kanai", "meanings": {"en": "wife", "id": "istri (saya)"}}
+      ]
+    }
+  ]
+}

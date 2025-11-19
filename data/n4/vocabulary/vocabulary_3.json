@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "BATASAN & BAGIAN",
+        "en": "LIMITS & PARTS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "以上", "hiragana": "いじょう", "romaji": "ijyou", "meanings": {"en": "more than, above", "id": "lebih, di atas"}},
+        {"id": 2, "kanji": "以下", "hiragana": "いか", "romaji": "ika", "meanings": {"en": "less than, below", "id": "kurang, di bawah"}},
+        {"id": 3, "kanji": "以内", "hiragana": "いない", "romaji": "inai", "meanings": {"en": "within, less than", "id": "dalam, kurang dari"}},
+        {"id": 4, "kanji": "一杯", "hiragana": "いっぱい", "romaji": "ippai", "meanings": {"en": "full, plenty", "id": "penuh, kenyang"}},
+        {"id": 5, "kanji": "国際", "hiragana": "こくさい", "romaji": "kokusai", "meanings": {"en": "international", "id": "internasional"}},
+        {"id": 6, "kanji": "真ん中", "hiragana": "まんなか", "romaji": "mannaka", "meanings": {"en": "middle, center", "id": "tengah-tengah"}},
+        {"id": 7, "kanji": "周り", "hiragana": "まわり", "romaji": "mawari", "meanings": {"en": "around, surroundings", "id": "sekeliling"}},
+        {"id": 8, "kanji": "表", "hiragana": "おもて", "romaji": "omote", "meanings": {"en": "surface, front", "id": "permukaan"}},
+        {"id": 9, "kanji": "終わり", "hiragana": "おわり", "romaji": "owari", "meanings": {"en": "end, finish", "id": "selesai, akhir"}},
+        {"id": 10, "kanji": "両方", "hiragana": "りょうほう", "romaji": "ryouhou", "meanings": {"en": "both", "id": "ke dua-duanya"}},
+        {"id": 11, "kanji": "最後", "hiragana": "さいご", "romaji": "saigo", "meanings": {"en": "last, end", "id": "terakhir, penghabisan"}},
+        {"id": 12, "kanji": "最初", "hiragana": "さいしょ", "romaji": "saisho", "meanings": {"en": "first, beginning", "id": "mula-mula, pertama"}},
+        {"id": 13, "kanji": "隅", "hiragana": "すみ", "romaji": "sumi", "meanings": {"en": "corner", "id": "pojok, sudut"}},
+        {"id": 14, "kanji": "途中", "hiragana": "とちゅう", "romaji": "tochuu", "meanings": {"en": "on the way, midway", "id": "pertengahan (jalan)"}},
+        {"id": 15, "kanji": "内", "hiragana": "うち", "romaji": "uchi", "meanings": {"en": "inside", "id": "bagian dalam"}},
+        {"id": 16, "kanji": "裏", "hiragana": "うら", "romaji": "ura", "meanings": {"en": "back, reverse side", "id": "bagian belakang"}},
+        {"id": 17, "kanji": "割合", "hiragana": "わりあい", "romaji": "wariai", "meanings": {"en": "ratio, proportion", "id": "bagian, perbandingan"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KETERANGAN WAKTU",
+        "en": "TIME INFORMATION"
+      },
+      "vocabulary": [
+        {"id": 18, "kanji": "明日", "hiragana": "あした", "romaji": "asu", "meanings": {"en": "tomorrow", "id": "besok, esok hari"}},
+        {"id": 19, "kanji": "場合", "hiragana": "ばあい", "romaji": "baai", "meanings": {"en": "case, situation", "id": "situasi, keadaan"}},
+        {"id": 20, "kanji": "昼間", "hiragana": "ひるま", "romaji": "hiruma", "meanings": {"en": "daytime", "id": "siang hari"}},
+        {"id": 21, "kanji": "昼休み", "hiragana": "ひるやすみ", "romaji": "hiruyasumi", "meanings": {"en": "lunch break", "id": "istirahat siang"}},
+        {"id": 22, "kanji": "久しぶり", "hiragana": "ひさしぶり", "romaji": "hisashiburi", "meanings": {"en": "after a long time", "id": "sudah lama"}},
+        {"id": 23, "kanji": "時代", "hiragana": "じだい", "romaji": "jidai", "meanings": {"en": "era, period", "id": "zaman"}},
+        {"id": 24, "kanji": "今度", "hiragana": "こんど", "romaji": "kondo", "meanings": {"en": "next time", "id": "nanti, lain kali, yang akan datang"}},
+        {"id": 25, "kanji": "この間", "hiragana": "このあいだ", "romaji": "kono aida", "meanings": {"en": "the other day", "id": "waktu itu"}},
+        {"id": 26, "kanji": "この頃", "hiragana": "このごろ", "romaji": "kono goro", "meanings": {"en": "these days", "id": "akhir-akhir ini"}}
+      ]
+    }
+  ]
+}

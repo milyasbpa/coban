@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "MAKANAN & MINUMAN",
+        "en": "FOOD & DRINKS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ジャム", "hiragana": "ジャム", "romaji": "jyamu", "meanings": {"en": "jam", "id": "jem, selai buah"}},
+        {"id": 2, "kanji": "米", "hiragana": "こめ", "romaji": "kome", "meanings": {"en": "rice", "id": "beras"}},
+        {"id": 3, "kanji": "ケーキ", "hiragana": "ケーキ", "romaji": "keki", "meanings": {"en": "cake", "id": "kue"}},
+        {"id": 4, "kanji": "味噌", "hiragana": "みそ", "romaji": "miso", "meanings": {"en": "miso", "id": "sup tauco"}},
+        {"id": 5, "kanji": "におい", "hiragana": "におい", "romaji": "nioi", "meanings": {"en": "smell, aroma", "id": "aroma, bau"}},
+        {"id": 6, "kanji": "サンドイッチ", "hiragana": "サンドイッチ", "romaji": "sandoicchi", "meanings": {"en": "sandwich", "id": "sandwich, roti lapis"}},
+        {"id": 7, "kanji": "サラダ", "hiragana": "サラダ", "romaji": "sarada", "meanings": {"en": "salad", "id": "salad"}},
+        {"id": 8, "kanji": "食事", "hiragana": "しょくじ", "romaji": "shokuji", "meanings": {"en": "meal", "id": "makanan"}},
+        {"id": 9, "kanji": "食料品", "hiragana": "しょくりょうひん", "romaji": "shokuryouhin", "meanings": {"en": "foodstuff", "id": "bahan makanan"}},
+        {"id": 10, "kanji": "ステーキ", "hiragana": "ステーキ", "romaji": "suteki", "meanings": {"en": "steak", "id": "steak, daging panggang"}},
+        {"id": 11, "kanji": "湯", "hiragana": "ゆ", "romaji": "yu", "meanings": {"en": "hot water", "id": "air panas"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "PAKAIAN, BAHAN PAKAIAN & PERHIASAN",
+        "en": "CLOTHING, MATERIALS & ACCESSORIES"
+      },
+      "vocabulary": [
+        {"id": 12, "kanji": "アクセサリー", "hiragana": "アクセサリー", "romaji": "akusesarii", "meanings": {"en": "accessory", "id": "aksesoris, perhiasan"}},
+        {"id": 13, "kanji": "ハンドバッグ", "hiragana": "ハンドバッグ", "romaji": "handobaggu", "meanings": {"en": "handbag", "id": "tas tangan"}},
+        {"id": 14, "kanji": "糸", "hiragana": "いと", "romaji": "ito", "meanings": {"en": "thread, string", "id": "benang, tali"}},
+        {"id": 15, "kanji": "着物", "hiragana": "きもの", "romaji": "kimono", "meanings": {"en": "kimono", "id": "pakaian, kimono"}},
+        {"id": 16, "kanji": "絹", "hiragana": "きぬ", "romaji": "kinu", "meanings": {"en": "silk", "id": "sutera"}},
+        {"id": 17, "kanji": "木綿", "hiragana": "もめん", "romaji": "momen", "meanings": {"en": "cotton", "id": "katun"}},
+        {"id": 18, "kanji": "サンダル", "hiragana": "サンダル", "romaji": "sandaru", "meanings": {"en": "sandal", "id": "sandal"}},
+        {"id": 19, "kanji": "下着", "hiragana": "したぎ", "romaji": "shitagi", "meanings": {"en": "underwear", "id": "pakaian dalam"}},
+        {"id": 20, "kanji": "スーツ", "hiragana": "スーツ", "romaji": "suutsu", "meanings": {"en": "suit", "id": "pakaian setelan"}},
+        {"id": 21, "kanji": "スーツケース", "hiragana": "スーツケース", "romaji": "suutsukesu", "meanings": {"en": "suitcase", "id": "koper"}},
+        {"id": 22, "kanji": "手袋", "hiragana": "てぶくろ", "romaji": "tebukuro", "meanings": {"en": "glove", "id": "sarung tangan"}},
+        {"id": 23, "kanji": "指輪", "hiragana": "ゆびわ", "romaji": "yubiwa", "meanings": {"en": "ring", "id": "cincin"}}
+      ]
+    }
+  ]
+}

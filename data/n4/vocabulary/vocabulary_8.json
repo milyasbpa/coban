@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT NON-I",
+        "en": "NON-I ADJECTIVES"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "安心", "hiragana": "あんしん", "romaji": "anshin", "meanings": {"en": "relieved, calm, peaceful", "id": "lega, tenang, tenteram"}},
+        {"id": 2, "kanji": "安全", "hiragana": "あんぜん", "romaji": "anzen", "meanings": {"en": "safe, secure", "id": "aman, selamat"}},
+        {"id": 3, "kanji": "別", "hiragana": "べつ", "romaji": "betsu", "meanings": {"en": "different, another", "id": "lain, beda"}},
+        {"id": 4, "kanji": "大事", "hiragana": "だいじ", "romaji": "daiji", "meanings": {"en": "important, valuable", "id": "penting, berharga, bernilai"}},
+        {"id": 5, "kanji": "だめ", "hiragana": "だめ", "romaji": "dame", "meanings": {"en": "no good, not allowed", "id": "jangan, tidak boleh, jelek"}},
+        {"id": 6, "kanji": "不便", "hiragana": "ふべん", "romaji": "fuben", "meanings": {"en": "inconvenient", "id": "tidak praktis"}},
+        {"id": 7, "kanji": "複雑", "hiragana": "ふくざつ", "romaji": "fukuzatsu", "meanings": {"en": "complicated", "id": "rumit"}},
+        {"id": 8, "kanji": "変", "hiragana": "へん", "romaji": "hen", "meanings": {"en": "strange, odd", "id": "aneh"}},
+        {"id": 9, "kanji": "必要", "hiragana": "ひつよう", "romaji": "hitsuyou", "meanings": {"en": "necessary", "id": "penting, perlu"}},
+        {"id": 10, "kanji": "一生懸命", "hiragana": "いっしょうけんめい", "romaji": "isshoukenmei", "meanings": {"en": "with all one's might", "id": "sekuat tenaga, mati-matian"}},
+        {"id": 11, "kanji": "自由", "hiragana": "じゆう", "romaji": "jiyuu", "meanings": {"en": "free", "id": "bebas"}},
+        {"id": 12, "kanji": "邪魔", "hiragana": "じゃま", "romaji": "jyama", "meanings": {"en": "hindrance, obstacle", "id": "gangguan, rintangan"}},
+        {"id": 13, "kanji": "簡単", "hiragana": "かんたん", "romaji": "kantan", "meanings": {"en": "simple, easy", "id": "sederhana, mudah"}},
+        {"id": 14, "kanji": "急", "hiragana": "きゅう", "romaji": "kyuu", "meanings": {"en": "urgent, sudden", "id": "tiba-tiba, darurat"}},
+        {"id": 15, "kanji": "まじめ", "hiragana": "まじめ", "romaji": "majime", "meanings": {"en": "serious, earnest", "id": "sungguh-sungguh, jujur, tekun"}},
+        {"id": 16, "kanji": "もっとも", "hiragana": "もっとも", "romaji": "mottomo", "meanings": {"en": "most", "id": "paling"}},
+        {"id": 17, "kanji": "無理", "hiragana": "むり", "romaji": "muri", "meanings": {"en": "impossible, forced", "id": "tidak mungkin, memaksa"}},
+        {"id": 18, "kanji": "寝坊", "hiragana": "ねぼう", "romaji": "nebou", "meanings": {"en": "oversleeping", "id": "terlambat bangun"}},
+        {"id": 19, "kanji": "熱心", "hiragana": "ねっしん", "romaji": "nesshin", "meanings": {"en": "enthusiastic, diligent", "id": "tekun, ulet"}},
+        {"id": 20, "kanji": "盛ん", "hiragana": "さかん", "romaji": "sakan", "meanings": {"en": "prosperous, active", "id": "makmur, bersemangat, terkenal"}},
+        {"id": 21, "kanji": "心配", "hiragana": "しんぱい", "romaji": "shinpai", "meanings": {"en": "worry", "id": "khawatir"}},
+        {"id": 22, "kanji": "親切", "hiragana": "しんせつ", "romaji": "shinsetsu", "meanings": {"en": "kind", "id": "ramah"}},
+        {"id": 23, "kanji": "失礼", "hiragana": "しつれい", "romaji": "shitsurei", "meanings": {"en": "rude", "id": "tidak sopan"}},
+        {"id": 24, "kanji": "ソフト", "hiragana": "ソフト", "romaji": "sofuto", "meanings": {"en": "soft", "id": "lembut"}},
+        {"id": 25, "kanji": "丁寧", "hiragana": "ていねい", "romaji": "teinei", "meanings": {"en": "polite, courteous", "id": "sopan, santun"}},
+        {"id": 26, "kanji": "適当", "hiragana": "てきとう", "romaji": "tekitou", "meanings": {"en": "suitable, appropriate", "id": "layak, pantas, cukup"}},
+        {"id": 27, "kanji": "特別", "hiragana": "とくべつ", "romaji": "tokubetsu", "meanings": {"en": "special, extraordinary", "id": "spesial, istimewa"}},
+        {"id": 28, "kanji": "残念", "hiragana": "ざんねん", "romaji": "zannen", "meanings": {"en": "regrettable, unfortunate", "id": "disayangkan, disesalkan"}},
+        {"id": 29, "kanji": "ずいぶん", "hiragana": "ずいぶん", "romaji": "zuibun", "meanings": {"en": "very, extremely", "id": "sangat, luar biasa"}}
+      ]
+    }
+  ]
+}
