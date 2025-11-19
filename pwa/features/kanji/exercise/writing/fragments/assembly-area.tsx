@@ -79,19 +79,15 @@ export function AssemblyArea() {
 
         <div
           ref={setNodeRef}
-          className={`transition-all duration-200 ease-in-out border-2 border-dashed rounded-lg flex items-center gap-2 flex-wrap relative ${
+          className={`border-2 border-dashed rounded-lg flex items-center gap-2 flex-wrap relative ${
             isOver
-              ? "min-h-[80px] p-4 border-primary bg-primary/10 shadow-lg border-solid ring-2 ring-primary/20"
-              : "min-h-[80px] p-4 border-muted-foreground/30 bg-muted/20 hover:border-muted-foreground/50 hover:bg-muted/30"
+              ? "min-h-[80px] p-4 border-primary bg-primary/10 border-solid"
+              : "min-h-[80px] p-4 border-muted-foreground/30 bg-muted/20"
           }`}
         >
           {selectedKanji.length === 0 ? (
             <div className="w-full text-center">
-              <p
-                className={`text-sm transition-colors duration-200 ${
-                  isOver ? "text-primary font-medium" : "text-muted-foreground"
-                }`}
-              >
+              <p className={`text-sm ${isOver ? "text-primary font-medium" : "text-muted-foreground"}`}>
                 {isOver ? "Drop kanji here!" : "Click or drag kanji here..."}
               </p>
             </div>

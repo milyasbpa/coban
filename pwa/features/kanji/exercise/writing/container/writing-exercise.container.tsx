@@ -70,7 +70,7 @@ export function WritingExerciseContainer() {
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 8, // Reasonable distance to differentiate click vs drag
+        distance: 8,
       },
     }),
     useSensor(KeyboardSensor, {

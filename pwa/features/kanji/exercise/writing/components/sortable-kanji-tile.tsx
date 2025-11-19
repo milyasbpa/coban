@@ -33,10 +33,10 @@ export function SortableKanjiTile({
     },
   });
 
-  const style = {
+  const style = transform ? {
     transform: CSS.Transform.toString(transform),
     transition,
-  };
+  } : undefined;
 
   return (
     <div 
@@ -53,10 +53,10 @@ export function SortableKanjiTile({
         {...listeners}
         disabled={showAnswer}
         className={cn(
-          "min-w-[44px] h-11 rounded-md border-2 flex items-center justify-center text-base font-medium transition-all duration-200 select-none",
+          "min-w-[44px] h-11 rounded-md border-2 flex items-center justify-center text-base font-medium select-none",
           "border-primary bg-primary/10 text-primary hover:bg-primary/15",
-          !showAnswer && "cursor-grab active:cursor-grabbing touch-none hover:shadow-md hover:scale-105",
-          isDragging && "opacity-50 scale-105 shadow-xl",
+          !showAnswer && "cursor-grab active:cursor-grabbing touch-none",
+          isDragging && "opacity-40",
           showAnswer && "cursor-default"
         )}
       >
