@@ -12,6 +12,7 @@ import {
 } from "@/pwa/core/components/dialog";
 import { useKanjiScoreStore } from "../store/kanji-score.store";
 import { KanjiStorageManager } from "../storage/kanji-storage";
+import { RotateCcw } from "lucide-react";
 
 export const KanjiResetStatisticsButton: React.FC = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -68,11 +69,13 @@ export const KanjiResetStatisticsButton: React.FC = () => {
     <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
       <DialogTrigger asChild>
         <Button 
-          variant="destructive" 
+          variant="ghost" 
           size="sm"
           onClick={handleOpenDialog}
+          className="gap-1.5"
         >
-          Reset Kanji
+          <RotateCcw className="h-4 w-4" />
+          <span className="text-xs">Kanji</span>
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[600px]">

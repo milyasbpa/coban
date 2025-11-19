@@ -2,6 +2,7 @@
 
 import { ThemeToggleButton } from "@/pwa/core/components/theme-toggle-button";
 import { KanjiResetStatisticsButton } from "@/pwa/features/score/components/kanji-reset-statistics-button";
+import { VocabularyResetStatisticsButton } from "@/pwa/features/score/components/vocabulary-reset-statistics-button";
 import Image from "next/image";
 
 export function Header() {
@@ -21,6 +22,7 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-2">
+          <VocabularyResetStatisticsButton />
           <KanjiResetStatisticsButton />
           <ThemeToggleButton />
         </div>

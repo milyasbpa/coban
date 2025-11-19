@@ -12,6 +12,7 @@ import {
 } from "@/pwa/core/components/dialog";
 import { useVocabularyScoreStore } from "../store/vocabulary-score.store";
 import { VocabularyStorageManager } from "../storage/vocabulary-storage";
+import { RotateCcw } from "lucide-react";
 
 export const VocabularyResetStatisticsButton: React.FC = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -83,11 +84,13 @@ export const VocabularyResetStatisticsButton: React.FC = () => {
     <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
       <DialogTrigger asChild>
         <Button 
-          variant="destructive" 
+          variant="ghost" 
           size="sm"
           onClick={handleOpenDialog}
+          className="gap-1.5"
         >
-          Reset Vocabulary
+          <RotateCcw className="h-4 w-4" />
+          <span className="text-xs">Vocab</span>
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[600px]">
