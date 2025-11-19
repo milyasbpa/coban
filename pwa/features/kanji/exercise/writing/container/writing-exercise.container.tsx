@@ -9,7 +9,6 @@ import {
   DragEndEvent,
   DragOverEvent,
   DragStartEvent,
-  DragOverlay,
   closestCenter,
   KeyboardSensor,
   PointerSensor,
@@ -25,7 +24,6 @@ import { AssemblyArea } from "../fragments/assembly-area";
 import { SubmitButton } from "../components";
 import { getWritingQuestions } from "../utils";
 import { useExerciseSearchParams } from "../../utils/hooks";
-import { KanjiTile } from "../components/kanji-tile";
 
 export function WritingExerciseContainer() {
   const router = useRouter();
@@ -214,19 +212,6 @@ export function WritingExerciseContainer() {
 
         {/* Answer Feedback */}
         {showFeedback && <AnswerFeedback />}
-
-        {/* Drag Overlay */}
-        <DragOverlay>
-          {questionState.activeKanji ? (
-            <KanjiTile
-              id="drag-overlay"
-              kanji={questionState.activeKanji}
-              onClick={() => {}}
-              variant="selected"
-              draggable={false}
-            />
-          ) : null}
-        </DragOverlay>
       </div>
     </DndContext>
   );

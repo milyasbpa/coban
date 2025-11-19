@@ -67,13 +67,11 @@ export function KanjiTile({
           "min-w-[44px] h-11 border-primary bg-primary/10 text-primary hover:bg-primary/15",
         // State styles
         disabled && "hidden cursor-not-allowed",
-        isDragging && "opacity-30 scale-90",
+        isDragging && "opacity-50 scale-105 shadow-xl z-50",
         draggable &&
           !disabled &&
-          "cursor-grab active:cursor-grabbing touch-none hover:shadow-md hover:scale-105",
-        // Drag overlay special styles
-        id === "drag-overlay" &&
-          "shadow-2xl border-primary bg-primary/20 scale-110 rotate-2 ring-2 ring-primary/50"
+          "cursor-grab active:cursor-grabbing touch-none hover:shadow-md hover:scale-105 transition-transform",
+        // Remove drag overlay special styles since we're not using overlay anymore
       )}
     >
       {kanji}
