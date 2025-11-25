@@ -1280,6 +1280,803 @@
           "hiragana": "かいぎ",
           "romaji": "kaigi",
           "meanings": { "en": "meeting, conference", "id": "rapat, pertemuan" }
+        },
+        {
+          "id": 1,
+          "kanji": "会議室",
+          "hiragana": "かいぎしつ",
+          "romaji": "kaigishitsu",
+          "meanings": { "en": "meeting room", "id": "ruang rapat/pertemuan" }
+        },
+        {
+          "id": 2,
+          "kanji": "計画",
+          "hiragana": "けいかく",
+          "romaji": "keikaku",
+          "meanings": { "en": "plan", "id": "rencana" }
+        },
+        {
+          "id": 3,
+          "kanji": "経験",
+          "hiragana": "けいけん",
+          "romaji": "keiken",
+          "meanings": { "en": "experience", "id": "pengalaman" }
+        },
+        {
+          "id": 4,
+          "kanji": "規則",
+          "hiragana": "きそく",
+          "romaji": "kisoku",
+          "meanings": {
+            "en": "rule, regulation",
+            "id": "peraturan, undang-undang"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "工業",
+          "hiragana": "こうぎょう",
+          "romaji": "kougyou",
+          "meanings": {
+            "en": "industry, factory",
+            "id": "pabrik, pabrik produksi"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "客",
+          "hiragana": "きゃく",
+          "romaji": "kyaku",
+          "meanings": { "en": "guest, customer", "id": "tamu" }
+        },
+        {
+          "id": 7,
+          "kanji": "レポート",
+          "hiragana": "レポート",
+          "romaji": "repooto",
+          "meanings": { "en": "report", "id": "laporan" }
+        },
+        {
+          "id": 8,
+          "kanji": "リポート",
+          "hiragana": "リポート",
+          "romaji": "ripooto",
+          "meanings": { "en": "report", "id": "laporan" }
+        },
+        {
+          "id": 9,
+          "kanji": "産業",
+          "hiragana": "さんぎょう",
+          "romaji": "sangyou",
+          "meanings": { "en": "industry", "id": "perindustrian" }
+        },
+        {
+          "id": 10,
+          "kanji": "席",
+          "hiragana": "せき",
+          "romaji": "seki",
+          "meanings": { "en": "seat", "id": "tempat duduk" }
+        },
+        {
+          "id": 11,
+          "kanji": "新聞社",
+          "hiragana": "しんぶんしゃ",
+          "romaji": "shinbunsha",
+          "meanings": {
+            "en": "newspaper company",
+            "id": "perusahaan surat kabar"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "受付",
+          "hiragana": "うけつけ",
+          "romaji": "uketsuke",
+          "meanings": {
+            "en": "reception",
+            "id": "penerimaan tamu, resepsionis"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "MANUSIA & BAGIAN TUBUH",
+        "en": "HUMAN & BODY PARTS"
+      },
+      "vocabulary": [
+        {
+          "id": 13,
+          "kanji": "赤ちゃん",
+          "hiragana": "あかちゃん",
+          "romaji": "akachan",
+          "meanings": { "en": "baby", "id": "bayi" }
+        },
+        {
+          "id": 14,
+          "kanji": "赤ん坊",
+          "hiragana": "あかんぼう",
+          "romaji": "akanbou",
+          "meanings": { "en": "baby", "id": "bayi" }
+        },
+        {
+          "id": 15,
+          "kanji": "血",
+          "hiragana": "ち",
+          "romaji": "chi",
+          "meanings": { "en": "blood", "id": "darah" }
+        },
+        {
+          "id": 16,
+          "kanji": "力",
+          "hiragana": "ちから",
+          "romaji": "chikara",
+          "meanings": { "en": "strength", "id": "tenaga" }
+        },
+        {
+          "id": 17,
+          "kanji": "男性",
+          "hiragana": "だんせい",
+          "romaji": "dansei",
+          "meanings": { "en": "man, male", "id": "pria, laki-laki" }
+        },
+        {
+          "id": 18,
+          "kanji": "ひげ",
+          "hiragana": "ひげ",
+          "romaji": "hige",
+          "meanings": { "en": "beard, mustache", "id": "kumis, jenggot" }
+        },
+        {
+          "id": 19,
+          "kanji": "女性",
+          "hiragana": "じょせい",
+          "romaji": "jyosei",
+          "meanings": { "en": "woman, female", "id": "perempuan, wanita" }
+        },
+        {
+          "id": 20,
+          "kanji": "髪",
+          "hiragana": "かみ",
+          "romaji": "kami",
+          "meanings": { "en": "hair", "id": "rambut" }
+        },
+        {
+          "id": 21,
+          "kanji": "毛",
+          "hiragana": "け",
+          "romaji": "ke",
+          "meanings": { "en": "fur, hair", "id": "bulu" }
+        },
+        {
+          "id": 22,
+          "kanji": "心",
+          "hiragana": "こころ",
+          "romaji": "kokoro",
+          "meanings": { "en": "heart, mind", "id": "hati" }
+        },
+        {
+          "id": 23,
+          "kanji": "首",
+          "hiragana": "くび",
+          "romaji": "kubi",
+          "meanings": { "en": "neck", "id": "leher" }
+        },
+        {
+          "id": 24,
+          "kanji": "のど",
+          "hiragana": "のど",
+          "romaji": "nodo",
+          "meanings": { "en": "throat", "id": "kerongkongan, tenggorokan" }
+        },
+        {
+          "id": 25,
+          "kanji": "背中",
+          "hiragana": "せなか",
+          "romaji": "senaka",
+          "meanings": { "en": "back", "id": "punggung" }
+        },
+        {
+          "id": 26,
+          "kanji": "腕",
+          "hiragana": "うで",
+          "romaji": "ude",
+          "meanings": { "en": "arm", "id": "lengan" }
+        },
+        {
+          "id": 27,
+          "kanji": "指",
+          "hiragana": "ゆび",
+          "romaji": "yubi",
+          "meanings": { "en": "finger", "id": "jari" }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT NON-I",
+        "en": "NON-I ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "安心",
+          "hiragana": "あんしん",
+          "romaji": "anshin",
+          "meanings": {
+            "en": "relieved, calm, peaceful",
+            "id": "lega, tenang, tenteram"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "安全",
+          "hiragana": "あんぜん",
+          "romaji": "anzen",
+          "meanings": { "en": "safe, secure", "id": "aman, selamat" }
+        },
+        {
+          "id": 3,
+          "kanji": "別",
+          "hiragana": "べつ",
+          "romaji": "betsu",
+          "meanings": { "en": "different, another", "id": "lain, beda" }
+        },
+        {
+          "id": 4,
+          "kanji": "大事",
+          "hiragana": "だいじ",
+          "romaji": "daiji",
+          "meanings": {
+            "en": "important, valuable",
+            "id": "penting, berharga, bernilai"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "だめ",
+          "hiragana": "だめ",
+          "romaji": "dame",
+          "meanings": {
+            "en": "no good, not allowed",
+            "id": "jangan, tidak boleh, jelek"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "不便",
+          "hiragana": "ふべん",
+          "romaji": "fuben",
+          "meanings": { "en": "inconvenient", "id": "tidak praktis" }
+        },
+        {
+          "id": 7,
+          "kanji": "複雑",
+          "hiragana": "ふくざつ",
+          "romaji": "fukuzatsu",
+          "meanings": { "en": "complicated", "id": "rumit" }
+        },
+        {
+          "id": 8,
+          "kanji": "変",
+          "hiragana": "へん",
+          "romaji": "hen",
+          "meanings": { "en": "strange, odd", "id": "aneh" }
+        },
+        {
+          "id": 9,
+          "kanji": "必要",
+          "hiragana": "ひつよう",
+          "romaji": "hitsuyou",
+          "meanings": { "en": "necessary", "id": "penting, perlu" }
+        },
+        {
+          "id": 10,
+          "kanji": "一生懸命",
+          "hiragana": "いっしょうけんめい",
+          "romaji": "isshoukenmei",
+          "meanings": {
+            "en": "with all one's might",
+            "id": "sekuat tenaga, mati-matian"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "自由",
+          "hiragana": "じゆう",
+          "romaji": "jiyuu",
+          "meanings": { "en": "free", "id": "bebas" }
+        },
+        {
+          "id": 12,
+          "kanji": "邪魔",
+          "hiragana": "じゃま",
+          "romaji": "jyama",
+          "meanings": {
+            "en": "hindrance, obstacle",
+            "id": "gangguan, rintangan"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "簡単",
+          "hiragana": "かんたん",
+          "romaji": "kantan",
+          "meanings": { "en": "simple, easy", "id": "sederhana, mudah" }
+        },
+        {
+          "id": 14,
+          "kanji": "急",
+          "hiragana": "きゅう",
+          "romaji": "kyuu",
+          "meanings": { "en": "urgent, sudden", "id": "tiba-tiba, darurat" }
+        },
+        {
+          "id": 15,
+          "kanji": "まじめ",
+          "hiragana": "まじめ",
+          "romaji": "majime",
+          "meanings": {
+            "en": "serious, earnest",
+            "id": "sungguh-sungguh, jujur, tekun"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "もっとも",
+          "hiragana": "もっとも",
+          "romaji": "mottomo",
+          "meanings": { "en": "most", "id": "paling" }
+        },
+        {
+          "id": 17,
+          "kanji": "無理",
+          "hiragana": "むり",
+          "romaji": "muri",
+          "meanings": {
+            "en": "impossible, forced",
+            "id": "tidak mungkin, memaksa"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "寝坊",
+          "hiragana": "ねぼう",
+          "romaji": "nebou",
+          "meanings": { "en": "oversleeping", "id": "terlambat bangun" }
+        },
+        {
+          "id": 19,
+          "kanji": "熱心",
+          "hiragana": "ねっしん",
+          "romaji": "nesshin",
+          "meanings": { "en": "enthusiastic, diligent", "id": "tekun, ulet" }
+        },
+        {
+          "id": 20,
+          "kanji": "盛ん",
+          "hiragana": "さかん",
+          "romaji": "sakan",
+          "meanings": {
+            "en": "prosperous, active",
+            "id": "makmur, bersemangat, terkenal"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "心配",
+          "hiragana": "しんぱい",
+          "romaji": "shinpai",
+          "meanings": { "en": "worry", "id": "khawatir" }
+        },
+        {
+          "id": 22,
+          "kanji": "親切",
+          "hiragana": "しんせつ",
+          "romaji": "shinsetsu",
+          "meanings": { "en": "kind", "id": "ramah" }
+        },
+        {
+          "id": 23,
+          "kanji": "失礼",
+          "hiragana": "しつれい",
+          "romaji": "shitsurei",
+          "meanings": { "en": "rude", "id": "tidak sopan" }
+        },
+        {
+          "id": 24,
+          "kanji": "ソフト",
+          "hiragana": "ソフト",
+          "romaji": "sofuto",
+          "meanings": { "en": "soft", "id": "lembut" }
+        },
+        {
+          "id": 25,
+          "kanji": "丁寧",
+          "hiragana": "ていねい",
+          "romaji": "teinei",
+          "meanings": { "en": "polite, courteous", "id": "sopan, santun" }
+        },
+        {
+          "id": 26,
+          "kanji": "適当",
+          "hiragana": "てきとう",
+          "romaji": "tekitou",
+          "meanings": {
+            "en": "suitable, appropriate",
+            "id": "layak, pantas, cukup"
+          }
+        },
+        {
+          "id": 27,
+          "kanji": "特別",
+          "hiragana": "とくべつ",
+          "romaji": "tokubetsu",
+          "meanings": {
+            "en": "special, extraordinary",
+            "id": "spesial, istimewa"
+          }
+        },
+        {
+          "id": 28,
+          "kanji": "残念",
+          "hiragana": "ざんねん",
+          "romaji": "zannen",
+          "meanings": {
+            "en": "regrettable, unfortunate",
+            "id": "disayangkan, disesalkan"
+          }
+        },
+        {
+          "id": 29,
+          "kanji": "ずいぶん",
+          "hiragana": "ずいぶん",
+          "romaji": "zuibun",
+          "meanings": { "en": "very, extremely", "id": "sangat, luar biasa" }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT-I",
+        "en": "I-ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "浅い",
+          "hiragana": "あさい",
+          "romaji": "asai",
+          "meanings": { "en": "shallow", "id": "dangkal" }
+        },
+        {
+          "id": 2,
+          "kanji": "深い",
+          "hiragana": "ふかい",
+          "romaji": "fukai",
+          "meanings": { "en": "deep", "id": "mendalam, dalam" }
+        },
+        {
+          "id": 3,
+          "kanji": "恥ずかしい",
+          "hiragana": "はずかしい",
+          "romaji": "hazukashii",
+          "meanings": { "en": "embarrassed, shy", "id": "malu" }
+        },
+        {
+          "id": 4,
+          "kanji": "ひどい",
+          "hiragana": "ひどい",
+          "romaji": "hidoi",
+          "meanings": { "en": "cruel, terrible", "id": "kejam, parah" }
+        },
+        {
+          "id": 5,
+          "kanji": "悲しい",
+          "hiragana": "かなしい",
+          "romaji": "kanashii",
+          "meanings": { "en": "sad", "id": "sedih, pilu" }
+        },
+        {
+          "id": 6,
+          "kanji": "硬い/堅い/固い",
+          "hiragana": "かたい",
+          "romaji": "katai",
+          "meanings": { "en": "hard, solid", "id": "keras, kokoh" }
+        },
+        {
+          "id": 7,
+          "kanji": "厳しい",
+          "hiragana": "きびしい",
+          "romaji": "kibishii",
+          "meanings": { "en": "strict, severe", "id": "ketat, keras, tegas" }
+        },
+        {
+          "id": 8,
+          "kanji": "細かい",
+          "hiragana": "こまかい",
+          "romaji": "komakai",
+          "meanings": { "en": "fine, detailed", "id": "halus, rinci" }
+        },
+        {
+          "id": 9,
+          "kanji": "怖い",
+          "hiragana": "こわい",
+          "romaji": "kowai",
+          "meanings": { "en": "scary, afraid", "id": "takut" }
+        },
+        {
+          "id": 10,
+          "kanji": "珍しい",
+          "hiragana": "めずらしい",
+          "romaji": "mezurashii",
+          "meanings": { "en": "rare", "id": "langka" }
+        },
+        {
+          "id": 11,
+          "kanji": "眠い",
+          "hiragana": "ねむい",
+          "romaji": "nemui",
+          "meanings": { "en": "sleepy", "id": "mengantuk" }
+        },
+        {
+          "id": 12,
+          "kanji": "苦い",
+          "hiragana": "にがい",
+          "romaji": "nigai",
+          "meanings": { "en": "bitter", "id": "pahit" }
+        },
+        {
+          "id": 13,
+          "kanji": "おかしい",
+          "hiragana": "おかしい",
+          "romaji": "okashii",
+          "meanings": { "en": "strange, funny", "id": "aneh, menggelikan" }
+        },
+        {
+          "id": 14,
+          "kanji": "寂しい",
+          "hiragana": "さびしい",
+          "romaji": "sabishii",
+          "meanings": { "en": "lonely", "id": "sepi, sunyi" }
+        },
+        {
+          "id": 15,
+          "kanji": "素晴らしい",
+          "hiragana": "すばらしい",
+          "romaji": "subarashii",
+          "meanings": { "en": "wonderful", "id": "bagus sekali, sangat indah" }
+        },
+        {
+          "id": 16,
+          "kanji": "すごい",
+          "hiragana": "すごい",
+          "romaji": "sugoi",
+          "meanings": { "en": "amazing", "id": "hebat, dahsyat" }
+        },
+        {
+          "id": 17,
+          "kanji": "正しい",
+          "hiragana": "ただしい",
+          "romaji": "tadashii",
+          "meanings": { "en": "correct, right", "id": "betul, benar" }
+        },
+        {
+          "id": 18,
+          "kanji": "うまい",
+          "hiragana": "うまい",
+          "romaji": "umai",
+          "meanings": { "en": "delicious, skillful", "id": "enak, sedap" }
+        },
+        {
+          "id": 19,
+          "kanji": "嬉しい",
+          "hiragana": "うれしい",
+          "romaji": "ureshii",
+          "meanings": { "en": "happy, glad", "id": "senang, gembira" }
+        },
+        {
+          "id": 20,
+          "kanji": "美しい",
+          "hiragana": "うつくしい",
+          "romaji": "utsukushii",
+          "meanings": { "en": "beautiful", "id": "cantik, indah" }
+        },
+        {
+          "id": 21,
+          "kanji": "優しい",
+          "hiragana": "やさしい",
+          "romaji": "yasashii",
+          "meanings": { "en": "gentle, kind", "id": "lembut, ramah" }
+        },
+        {
+          "id": 22,
+          "kanji": "柔らかい",
+          "hiragana": "やわらかい",
+          "romaji": "yawarakai",
+          "meanings": { "en": "soft", "id": "lunak" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KELUARGA",
+        "en": "FAMILY"
+      },
+      "vocabulary": [
+        {
+          "id": 23,
+          "kanji": "ご主人",
+          "hiragana": "ごしゅじん",
+          "romaji": "goshujin",
+          "meanings": { "en": "husband", "id": "suami anda, tuan" }
+        },
+        {
+          "id": 24,
+          "kanji": "家内",
+          "hiragana": "かない",
+          "romaji": "kanai",
+          "meanings": { "en": "wife", "id": "istri (saya)" }
+        },
+        {
+          "id": 1,
+          "kanji": "子",
+          "hiragana": "こ",
+          "romaji": "ko",
+          "meanings": { "en": "child", "id": "anak, anak kecil" }
+        },
+        {
+          "id": 2,
+          "kanji": "息子",
+          "hiragana": "むすこ",
+          "romaji": "musuko",
+          "meanings": { "en": "son", "id": "putra, anak laki-laki" }
+        },
+        {
+          "id": 3,
+          "kanji": "娘",
+          "hiragana": "むすめ",
+          "romaji": "musume",
+          "meanings": { "en": "daughter", "id": "putri, anak perempuan" }
+        },
+        {
+          "id": 4,
+          "kanji": "夫",
+          "hiragana": "おっと",
+          "romaji": "otto",
+          "meanings": { "en": "husband", "id": "suami (saya)" }
+        },
+        {
+          "id": 5,
+          "kanji": "親",
+          "hiragana": "おや",
+          "romaji": "oya",
+          "meanings": { "en": "parent", "id": "orang-tua, ayah-ibu" }
+        },
+        {
+          "id": 6,
+          "kanji": "祖母",
+          "hiragana": "そぼ",
+          "romaji": "sobo",
+          "meanings": { "en": "grandmother", "id": "nenek (saya)" }
+        },
+        {
+          "id": 7,
+          "kanji": "祖父",
+          "hiragana": "そふ",
+          "romaji": "sofu",
+          "meanings": { "en": "grandfather", "id": "kakek (saya)" }
+        },
+        {
+          "id": 8,
+          "kanji": "妻",
+          "hiragana": "つま",
+          "romaji": "tsuma",
+          "meanings": { "en": "wife", "id": "istri (pada umumnya)" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA PANGGILAN",
+        "en": "CALLING WORDS"
+      },
+      "vocabulary": [
+        {
+          "id": 9,
+          "kanji": "お嬢さん",
+          "hiragana": "おじょうさん",
+          "romaji": "ojyousan",
+          "meanings": { "en": "miss, young lady", "id": "nona" }
+        },
+        {
+          "id": 10,
+          "kanji": "～ちゃん",
+          "hiragana": "～ちゃん",
+          "romaji": "chan",
+          "meanings": {
+            "en": "-chan (suffix)",
+            "id": "panggilan untuk teman dekat atau anak-anak"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "PENYAKIT",
+        "en": "DISEASES"
+      },
+      "vocabulary": [
+        {
+          "id": 11,
+          "kanji": "けが",
+          "hiragana": "けが",
+          "romaji": "kega",
+          "meanings": { "en": "injury", "id": "luka" }
+        },
+        {
+          "id": 12,
+          "kanji": "熱",
+          "hiragana": "ねつ",
+          "romaji": "netsu",
+          "meanings": { "en": "fever", "id": "panas, demam" }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": "BENCANA & BAHAYA",
+        "en": "DISASTERS & DANGERS"
+      },
+      "vocabulary": [
+        {
+          "id": 13,
+          "kanji": "事故",
+          "hiragana": "じこ",
+          "romaji": "jiko",
+          "meanings": { "en": "accident", "id": "kecelakaan" }
+        },
+        {
+          "id": 14,
+          "kanji": "地震",
+          "hiragana": "じしん",
+          "romaji": "jishin",
+          "meanings": { "en": "earthquake", "id": "gempa" }
+        },
+        {
+          "id": 15,
+          "kanji": "火事",
+          "hiragana": "かじ",
+          "romaji": "kaji",
+          "meanings": { "en": "fire", "id": "kebakaran" }
+        },
+        {
+          "id": 16,
+          "kanji": "危険",
+          "hiragana": "きけん",
+          "romaji": "kiken",
+          "meanings": { "en": "danger", "id": "bahaya" }
+        },
+        {
+          "id": 17,
+          "kanji": "戦争",
+          "hiragana": "せんそう",
+          "romaji": "sensou",
+          "meanings": { "en": "war", "id": "peperangan" }
+        },
+        {
+          "id": 18,
+          "kanji": "台風",
+          "hiragana": "たいふう",
+          "romaji": "taifuu",
+          "meanings": { "en": "typhoon", "id": "taifun, angin topan" }
         }
       ]
     }
