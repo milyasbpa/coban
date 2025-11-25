@@ -19,7 +19,18 @@
         { "id": 10, "kanji": "左", "hiragana": "ひだり", "romaji": "hidari", "meanings": { "en": "left", "id": "kiri" } },
         { "id": 11, "kanji": "隣", "hiragana": "となり", "romaji": "tonari", "meanings": { "en": "next to", "id": "sebelah, tetangga" } },
         { "id": 12, "kanji": "横", "hiragana": "よこ", "romaji": "yoko", "meanings": { "en": "side", "id": "samping" } },
-        { "id": 13, "kanji": "近く", "hiragana": "ちかく", "romaji": "chikaku", "meanings": { "en": "nearby", "id": "sekitar" } },
+        {
+  "id": 12,
+  "kanji": "辺",
+  "hiragana": "へん",
+  "romaji": "hen",
+  "meanings": {
+    "en": "nearby",
+    "id": "sekitar"
+  }
+}
+,
+        { "id": 13, "kanji": "近く", "hiragana": "ちかく", "romaji": "chikaku", "meanings": { "en": "nearby", "id": "dekat sini, sekitar" } },
         { "id": 14, "kanji": "東", "hiragana": "ひがし", "romaji": "higashi", "meanings": { "en": "east", "id": "timur" } },
         { "id": 15, "kanji": "西", "hiragana": "にし", "romaji": "nishi", "meanings": { "en": "west", "id": "barat" } },
         { "id": 16, "kanji": "北", "hiragana": "きた", "romaji": "kita", "meanings": { "en": "north", "id": "utara" } },

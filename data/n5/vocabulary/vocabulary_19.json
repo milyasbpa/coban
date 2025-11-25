@@ -26,8 +26,8 @@
         "en": "QUESTION_WORDS"
       },
       "vocabulary": [
-        { "id": 1, "kanji": "何", "hiragana": "なに", "romaji": "nani", "meanings": { "en": "what", "id": "apa" } },
-        { "id": 2, "kanji": "誰", "hiragana": "だれ", "romaji": "dare", "meanings": { "en": "who", "id": "siapa" } },
+        { "id": 1, "kanji": "何", "hiragana": "なに", "romaji": "nan, nani", "meanings": { "en": "what", "id": "apa" } },
+        { "id": 2, "kanji": "誰, どなた", "hiragana": "だれ, どなた", "romaji": "dare, donata", "meanings": { "en": "who", "id": "siapa" } },
         { "id": 3, "kanji": "どうして, なぜ, なんで", "hiragana": "どうして, なぜ, なんで", "romaji": "doushite, naze, nande", "meanings": { "en": "why", "id": "mengapa" } },
         { "id": 4, "kanji": "どこ", "hiragana": "どこ", "romaji": "doko", "meanings": { "en": "where", "id": "(di) mana" } },
         { "id": 5, "kanji": "どちら, どっち", "hiragana": "どちら, どっち", "romaji": "dochira, docchi", "meanings": { "en": "which way, which (2)", "id": "arah mana, yang mana (pilihan 2 benda)" } },

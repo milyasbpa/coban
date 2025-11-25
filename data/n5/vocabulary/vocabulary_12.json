@@ -13,7 +13,7 @@
         { "id": 7, "kanji": "写真", "hiragana": "しゃしん", "romaji": "shashin", "meanings": { "en": "photo", "id": "foto" } },
         { "id": 8, "kanji": "カメラ", "hiragana": "かめら", "romaji": "kamera", "meanings": { "en": "camera", "id": "kamera" } },
         { "id": 9, "kanji": "スポーツ", "hiragana": "すぽーつ", "romaji": "supōtsu", "meanings": { "en": "sports", "id": "olahraga" } },
-        { "id": 10, "kanji": "パーティー", "hiragana": "ぱーてぃー", "romaji": "pātī", "meanings": { "en": "party", "id": "pesta" } }
+        { "id": 10, "kanji": "パーティー", "hiragana": "ぱーてぃー", "romaji": "pāt(e)ī", "meanings": { "en": "party", "id": "pesta" } }
       ]
     },
     {
@@ -26,7 +26,17 @@
         { "id": 1, "kanji": "村", "hiragana": "むら", "romaji": "mura", "meanings": { "en": "village", "id": "dusun, desa" } },
         { "id": 2, "kanji": "町", "hiragana": "まち", "romaji": "machi", "meanings": { "en": "town, city", "id": "kota" } },
         { "id": 3, "kanji": "道", "hiragana": "みち", "romaji": "michi", "meanings": { "en": "road", "id": "jalan" } },
-        { "id": 4, "kanji": "交差点", "hiragana": "こうさてん", "romaji": "kousaten", "meanings": { "en": "intersection", "id": "sudut, tikungan, belokan, persimpangan jalan" } },
+        {
+  "id": 12,
+  "kanji": "角",
+  "hiragana": "かど",
+  "romaji": "kado",
+  "meanings": {
+    "en": "corner, turn",
+    "id": "sudut, tikungan, belokan"
+  }
+},
+        { "id": 4, "kanji": "交差点", "hiragana": "こうさてん", "romaji": "kousaten", "meanings": { "en": "intersection", "id": "persimpangan jalan" } },
         { "id": 5, "kanji": "橋", "hiragana": "はし", "romaji": "hashi", "meanings": { "en": "bridge", "id": "jembatan" } },
         { "id": 6, "kanji": "公園", "hiragana": "こうえん", "romaji": "kouen", "meanings": { "en": "park", "id": "taman" } },
         { "id": 7, "kanji": "プール", "hiragana": "ぷーる", "romaji": "pūru", "meanings": { "en": "pool", "id": "kolam renang" } },
