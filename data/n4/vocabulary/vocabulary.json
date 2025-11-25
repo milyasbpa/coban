@@ -870,6 +870,220 @@
             "en": "firmly, properly",
             "id": "dengan tegas, dengan baik"
           }
+        },
+        {
+          "id": 1,
+          "kanji": "それほど",
+          "hiragana": "それほど",
+          "romaji": "sorehodo",
+          "meanings": {
+            "en": "to that extent",
+            "id": "sekadar, sebatas, (tidak) sedemikian"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "そろそろ",
+          "hiragana": "そろそろ",
+          "romaji": "sorosoro",
+          "meanings": {
+            "en": "soon, right away",
+            "id": "sama sekali, benar-benar"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "すっかり",
+          "hiragana": "すっかり",
+          "romaji": "sukkari",
+          "meanings": {
+            "en": "completely",
+            "id": "langsung, cepat-cepat, diam-diam"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "すっと",
+          "hiragana": "すっと",
+          "romaji": "sutto",
+          "meanings": { "en": "all at once", "id": "kebanyakan, umumnya" }
+        },
+        {
+          "id": 6,
+          "kanji": "たいてい",
+          "hiragana": "たいてい",
+          "romaji": "taitei",
+          "meanings": { "en": "mostly, usually", "id": "tepat, pasti, nyata" }
+        },
+        {
+          "id": 7,
+          "kanji": "確か",
+          "hiragana": "たしか",
+          "romaji": "tashika",
+          "meanings": { "en": "surely, certainly", "id": "misalnya, contohnya" }
+        },
+        {
+          "id": 8,
+          "kanji": "例えば",
+          "hiragana": "たとえば",
+          "romaji": "tatoeba",
+          "meanings": { "en": "for example", "id": "khususnya, terutama" }
+        },
+        {
+          "id": 9,
+          "kanji": "特に",
+          "hiragana": "とくに",
+          "romaji": "tokuni",
+          "meanings": { "en": "especially", "id": "akhirnya" }
+        },
+        {
+          "id": 10,
+          "kanji": "とうとう",
+          "hiragana": "とうとう",
+          "romaji": "toutou",
+          "meanings": { "en": "finally", "id": "betapapun, memang, masih juga" }
+        },
+        {
+          "id": 11,
+          "kanji": "やはり",
+          "hiragana": "やはり",
+          "romaji": "yahari",
+          "meanings": { "en": "as expected", "id": "akhirnya, ... juga" }
+        },
+        {
+          "id": 12,
+          "kanji": "やっぱり",
+          "hiragana": "やっぱり",
+          "romaji": "yappari",
+          "meanings": { "en": "after all", "id": "biar bagaimanapun" }
+        },
+        {
+          "id": 13,
+          "kanji": "やっと",
+          "hiragana": "やっと",
+          "romaji": "yatto",
+          "meanings": { "en": "finally", "id": "sama sekali (tidak)" }
+        },
+        {
+          "id": 14,
+          "kanji": "ぜひ",
+          "hiragana": "ぜひ",
+          "romaji": "zehi",
+          "meanings": {
+            "en": "certainly, by all means",
+            "id": "biar bagaimanapun"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "ぜんぜん",
+          "hiragana": "ぜんぜん",
+          "romaji": "zenzen",
+          "meanings": { "en": "not at all", "id": "sama sekali (tidak)" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KOMUNITAS & MASYARAKAT",
+        "en": "COMMUNITY & SOCIETY"
+      },
+      "vocabulary": [
+        {
+          "id": 16,
+          "kanji": "話し合い",
+          "hiragana": "はなしあい",
+          "romaji": "hanashiai",
+          "meanings": {
+            "en": "discussion",
+            "id": "dibicarakan, dimusyawarahkan"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "人口",
+          "hiragana": "じんこう",
+          "romaji": "jinkou",
+          "meanings": { "en": "population", "id": "jumlah penduduk, populasi" }
+        },
+        {
+          "id": 18,
+          "kanji": "社会",
+          "hiragana": "しゃかい",
+          "romaji": "shakai",
+          "meanings": { "en": "society", "id": "masyarakat" }
+        },
+        {
+          "id": 19,
+          "kanji": "市民",
+          "hiragana": "しみん",
+          "romaji": "shimin",
+          "meanings": { "en": "citizen", "id": "penduduk kota" }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "KATA SAMBUNG",
+        "en": "CONJUNCTIONS"
+      },
+      "vocabulary": [
+        {
+          "id": 20,
+          "kanji": "だから",
+          "hiragana": "だから",
+          "romaji": "dakara",
+          "meanings": {
+            "en": "so, therefore",
+            "id": "karena itu, sehingga, maka"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "けれど",
+          "hiragana": "けれど",
+          "romaji": "keredo",
+          "meanings": { "en": "but, however", "id": "tetapi, meskipun" }
+        },
+        {
+          "id": 22,
+          "kanji": "けれども",
+          "hiragana": "けれども",
+          "romaji": "keredomo",
+          "meanings": { "en": "but, however", "id": "tetapi, meskipun" }
+        },
+        {
+          "id": 23,
+          "kanji": "または",
+          "hiragana": "または",
+          "romaji": "matawa",
+          "meanings": { "en": "or", "id": "atau" }
+        },
+        {
+          "id": 24,
+          "kanji": "それで",
+          "hiragana": "それで",
+          "romaji": "sorede",
+          "meanings": { "en": "then, so", "id": "lalu" }
+        },
+        {
+          "id": 25,
+          "kanji": "それに",
+          "hiragana": "それに",
+          "romaji": "soreni",
+          "meanings": {
+            "en": "besides, moreover",
+            "id": "lagi pula, selain itu"
+          }
+        },
+        {
+          "id": 26,
+          "kanji": "すると",
+          "hiragana": "すると",
+          "romaji": "suruto",
+          "meanings": { "en": "then, thereupon", "id": "setelah itu, lantas" }
         }
       ]
     }
