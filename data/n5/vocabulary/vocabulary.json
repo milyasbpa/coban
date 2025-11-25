@@ -3679,6 +3679,1649 @@
             "en": "a little, a bit",
             "id": "agak, sedikit, sebentar"
           }
+        },
+        {
+          "id": 15,
+          "kanji": "ちょうど",
+          "hiragana": "ちょうど",
+          "romaji": "choudo",
+          "meanings": { "en": "exactly, just", "id": "tepat, pas" }
+        },
+        {
+          "id": 16,
+          "kanji": "次",
+          "hiragana": "つぎ",
+          "romaji": "tsugi",
+          "meanings": { "en": "next", "id": "berikut, selanjutnya" }
+        },
+        {
+          "id": 17,
+          "kanji": "時々",
+          "hiragana": "ときどき",
+          "romaji": "tokidoki",
+          "meanings": { "en": "sometimes", "id": "kadang-kadang" }
+        },
+        {
+          "id": 18,
+          "kanji": "いつも",
+          "hiragana": "いつも",
+          "romaji": "itsumo",
+          "meanings": { "en": "always", "id": "selalu" }
+        },
+        {
+          "id": 19,
+          "kanji": "よく",
+          "hiragana": "よく",
+          "romaji": "yoku",
+          "meanings": { "en": "often, well", "id": "sering, dengan baik" }
+        },
+        {
+          "id": 20,
+          "kanji": "じゃ, じゃあ",
+          "hiragana": "じゃ, じゃあ",
+          "romaji": "jya, jyaa",
+          "meanings": { "en": "well then", "id": "kalau begitu" }
+        },
+        {
+          "id": 21,
+          "kanji": "さあ",
+          "hiragana": "さあ",
+          "romaji": "saa",
+          "meanings": { "en": "well", "id": "nah!" }
+        },
+        {
+          "id": 22,
+          "kanji": "など",
+          "hiragana": "など",
+          "romaji": "nado",
+          "meanings": { "en": "etc.", "id": "dan lain-lain" }
+        },
+        {
+          "id": 23,
+          "kanji": "初め, 初めて",
+          "hiragana": "はじめ, はじめて",
+          "romaji": "hajime, hajimete",
+          "meanings": {
+            "en": "beginning, for the first time",
+            "id": "mula-mula, pertama-tama; pertama kali"
+          }
+        },
+        {
+          "id": 24,
+          "kanji": "最後",
+          "hiragana": "さいご",
+          "romaji": "saigo",
+          "meanings": { "en": "last", "id": "terakhir" }
+        },
+        {
+          "id": 25,
+          "kanji": "大丈夫",
+          "hiragana": "だいじょうぶ",
+          "romaji": "daijoubu",
+          "meanings": { "en": "alright", "id": "tidak apa-apa" }
+        },
+        {
+          "id": 26,
+          "kanji": "かまいません",
+          "hiragana": "かまいません",
+          "romaji": "kamaimasen",
+          "meanings": { "en": "it doesn't matter", "id": "tidak apa-apa" }
+        },
+        {
+          "id": 27,
+          "kanji": "たて",
+          "hiragana": "たて",
+          "romaji": "tate",
+          "meanings": { "en": "length", "id": "lebarnya" }
+        },
+        {
+          "id": 12,
+          "kanji": "よこ",
+          "hiragana": "よこ",
+          "romaji": "yoko",
+          "meanings": {
+            "en": "width",
+            "id": "lebarnya"
+          }
+        },
+        {
+          "id": 28,
+          "kanji": "ほか",
+          "hiragana": "ほか",
+          "romaji": "hoka",
+          "meanings": { "en": "other", "id": "yang lain" }
+        },
+        {
+          "id": 29,
+          "kanji": "ほんとうに",
+          "hiragana": "ほんとうに",
+          "romaji": "hontou ni",
+          "meanings": { "en": "really", "id": "sungguh-sungguh, benar-benar" }
+        },
+        {
+          "id": 30,
+          "kanji": "まだ",
+          "hiragana": "まだ",
+          "romaji": "mada",
+          "meanings": { "en": "not yet, still", "id": "belum, masih" }
+        },
+        {
+          "id": 31,
+          "kanji": "もう",
+          "hiragana": "もう",
+          "romaji": "mou",
+          "meanings": { "en": "already, again", "id": "sudah, lagi" }
+        },
+        {
+          "id": 32,
+          "kanji": "もっと",
+          "hiragana": "もっと",
+          "romaji": "motto",
+          "meanings": { "en": "more", "id": "lebih" }
+        },
+        {
+          "id": 33,
+          "kanji": "ゆっくり",
+          "hiragana": "ゆっくり",
+          "romaji": "yukkuri",
+          "meanings": { "en": "slowly", "id": "perlahan-lahan" }
+        },
+        {
+          "id": 34,
+          "kanji": "早く",
+          "hiragana": "はやく",
+          "romaji": "hayaku",
+          "meanings": { "en": "quickly, slowly", "id": "cepat-cepat" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA_SIFAT_I",
+        "en": "I-ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "青い",
+          "hiragana": "あおい",
+          "romaji": "aoi",
+          "meanings": { "en": "blue", "id": "biru" }
+        },
+        {
+          "id": 2,
+          "kanji": "危ない",
+          "hiragana": "あぶない",
+          "romaji": "abunai",
+          "meanings": { "en": "dangerous", "id": "bahaya" }
+        },
+        {
+          "id": 3,
+          "kanji": "赤い",
+          "hiragana": "あかい",
+          "romaji": "akai",
+          "meanings": { "en": "red", "id": "merah" }
+        },
+        {
+          "id": 4,
+          "kanji": "明るい",
+          "hiragana": "あかるい",
+          "romaji": "akarui",
+          "meanings": { "en": "bright, cheerful", "id": "terang, cerah, ceria" }
+        },
+        {
+          "id": 5,
+          "kanji": "甘い",
+          "hiragana": "あまい",
+          "romaji": "amai",
+          "meanings": { "en": "sweet", "id": "manis" }
+        },
+        {
+          "id": 6,
+          "kanji": "新しい",
+          "hiragana": "あたらしい",
+          "romaji": "atarashii",
+          "meanings": { "en": "new", "id": "baru" }
+        },
+        {
+          "id": 7,
+          "kanji": "暖かい",
+          "hiragana": "あたたかい",
+          "romaji": "atatakai",
+          "meanings": { "en": "warm", "id": "hangat" }
+        },
+        {
+          "id": 8,
+          "kanji": "厚い",
+          "hiragana": "あつい",
+          "romaji": "atsui",
+          "meanings": { "en": "thick, cordial", "id": "tebal, dalam, ramah" }
+        },
+        {
+          "id": 9,
+          "kanji": "暑い",
+          "hiragana": "あつい",
+          "romaji": "atsui",
+          "meanings": { "en": "hot (weather)", "id": "panas (cuaca)" }
+        },
+        {
+          "id": 10,
+          "kanji": "熱い",
+          "hiragana": "あつい",
+          "romaji": "atsui",
+          "meanings": { "en": "hot (object)", "id": "panas (benda)" }
+        },
+        {
+          "id": 11,
+          "kanji": "小さい",
+          "hiragana": "ちいさい",
+          "romaji": "chiisai",
+          "meanings": { "en": "small", "id": "kecil" }
+        },
+        {
+          "id": 12,
+          "kanji": "近い",
+          "hiragana": "ちかい",
+          "romaji": "chikai",
+          "meanings": { "en": "near", "id": "dekat" }
+        },
+        {
+          "id": 13,
+          "kanji": "古い",
+          "hiragana": "ふるい",
+          "romaji": "furui",
+          "meanings": { "en": "old", "id": "kuno, tua" }
+        },
+        {
+          "id": 14,
+          "kanji": "太い",
+          "hiragana": "ふとい",
+          "romaji": "futoi",
+          "meanings": { "en": "thick, fat", "id": "gemuk" }
+        },
+        {
+          "id": 15,
+          "kanji": "早い",
+          "hiragana": "はやい",
+          "romaji": "hayai",
+          "meanings": { "en": "fast (time)", "id": "cepat (waktu)" }
+        },
+        {
+          "id": 16,
+          "kanji": "速い",
+          "hiragana": "はやい",
+          "romaji": "hayai",
+          "meanings": { "en": "fast (speed)", "id": "cepat (laju)" }
+        },
+        {
+          "id": 17,
+          "kanji": "低い",
+          "hiragana": "ひくい",
+          "romaji": "hikui",
+          "meanings": { "en": "low", "id": "rendah" }
+        },
+        {
+          "id": 18,
+          "kanji": "広い",
+          "hiragana": "ひろい",
+          "romaji": "hiroi",
+          "meanings": { "en": "wide, spacious", "id": "luas, lapang" }
+        },
+        {
+          "id": 12,
+          "kanji": "欲しい",
+          "hiragana": "ほしい",
+          "romaji": "hoshii",
+          "meanings": {
+            "en": "to want, to desire",
+            "id": "ingin"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "細い",
+          "hiragana": "ほそい",
+          "romaji": "hosoi",
+          "meanings": { "en": "thin", "id": "kurus" }
+        },
+        {
+          "id": 20,
+          "kanji": "いい, よい",
+          "hiragana": "いい, よい",
+          "romaji": "ii, yoi",
+          "meanings": { "en": "good", "id": "baik, bagus" }
+        },
+        {
+          "id": 21,
+          "kanji": "忙しい",
+          "hiragana": "いそがしい",
+          "romaji": "isogashii",
+          "meanings": { "en": "busy", "id": "sibuk" }
+        },
+        {
+          "id": 22,
+          "kanji": "痛い",
+          "hiragana": "いたい",
+          "romaji": "itai",
+          "meanings": { "en": "painful", "id": "sakit" }
+        },
+        {
+          "id": 23,
+          "kanji": "辛い",
+          "hiragana": "からい",
+          "romaji": "karai",
+          "meanings": { "en": "spicy, salty", "id": "pedas, asin" }
+        },
+        {
+          "id": 24,
+          "kanji": "軽い",
+          "hiragana": "かるい",
+          "romaji": "karui",
+          "meanings": { "en": "light (weight)", "id": "ringan" }
+        },
+        {
+          "id": 25,
+          "kanji": "かわいい",
+          "hiragana": "かわいい",
+          "romaji": "kawaii",
+          "meanings": { "en": "cute", "id": "manis, mungil, lucu" }
+        },
+        {
+          "id": 26,
+          "kanji": "黄色い",
+          "hiragana": "きいろい",
+          "romaji": "kiiroi",
+          "meanings": { "en": "yellow", "id": "kuning" }
+        },
+        {
+          "id": 27,
+          "kanji": "汚い",
+          "hiragana": "きたない",
+          "romaji": "kitanai",
+          "meanings": { "en": "dirty", "id": "kotor" }
+        },
+        {
+          "id": 28,
+          "kanji": "暗い",
+          "hiragana": "くらい",
+          "romaji": "kurai",
+          "meanings": { "en": "dark", "id": "gelap" }
+        },
+        {
+          "id": 29,
+          "kanji": "黒い",
+          "hiragana": "くろい",
+          "romaji": "kuroi",
+          "meanings": { "en": "black", "id": "hitam" }
+        },
+        {
+          "id": 30,
+          "kanji": "丸い, 円い",
+          "hiragana": "まるい",
+          "romaji": "marui",
+          "meanings": { "en": "round", "id": "bulat, bundar" }
+        },
+        {
+          "id": 31,
+          "kanji": "まずい",
+          "hiragana": "まずい",
+          "romaji": "mazui",
+          "meanings": { "en": "bad tasting", "id": "tidak enak, tawar" }
+        },
+        {
+          "id": 32,
+          "kanji": "短い",
+          "hiragana": "みじかい",
+          "romaji": "mijikai",
+          "meanings": { "en": "short", "id": "pendek" }
+        },
+        {
+          "id": 33,
+          "kanji": "難しい",
+          "hiragana": "むずかしい",
+          "romaji": "muzukashii",
+          "meanings": { "en": "difficult", "id": "sukar, susah, sulit" }
+        },
+        {
+          "id": 34,
+          "kanji": "長い",
+          "hiragana": "ながい",
+          "romaji": "nagai",
+          "meanings": { "en": "long", "id": "panjang" }
+        },
+        {
+          "id": 35,
+          "kanji": "温い",
+          "hiragana": "ぬるい",
+          "romaji": "nurui",
+          "meanings": { "en": "lukewarm", "id": "tidak cukup panas/dingin" }
+        },
+        {
+          "id": 36,
+          "kanji": "美味しい",
+          "hiragana": "おいしい",
+          "romaji": "oishii",
+          "meanings": { "en": "delicious", "id": "enak" }
+        },
+        {
+          "id": 37,
+          "kanji": "重い",
+          "hiragana": "おもい",
+          "romaji": "omoi",
+          "meanings": { "en": "heavy", "id": "berat" }
+        },
+        {
+          "id": 38,
+          "kanji": "面白い",
+          "hiragana": "おもしろい",
+          "romaji": "omoshiroi",
+          "meanings": { "en": "interesting", "id": "menarik" }
+        },
+        {
+          "id": 39,
+          "kanji": "多い",
+          "hiragana": "おおい",
+          "romaji": "ooi",
+          "meanings": { "en": "many", "id": "banyak" }
+        },
+        {
+          "id": 40,
+          "kanji": "大きい",
+          "hiragana": "おおきい",
+          "romaji": "ookii",
+          "meanings": { "en": "big", "id": "besar" }
+        },
+        {
+          "id": 41,
+          "kanji": "遅い",
+          "hiragana": "おそい",
+          "romaji": "osoi",
+          "meanings": { "en": "slow", "id": "lambat, lamban" }
+        },
+        {
+          "id": 42,
+          "kanji": "寒い",
+          "hiragana": "さむい",
+          "romaji": "samui",
+          "meanings": { "en": "cold (weather)", "id": "dingin (cuaca)" }
+        },
+        {
+          "id": 43,
+          "kanji": "狭い",
+          "hiragana": "せまい",
+          "romaji": "semai",
+          "meanings": { "en": "narrow", "id": "sempit" }
+        },
+        {
+          "id": 44,
+          "kanji": "白い",
+          "hiragana": "しろい",
+          "romaji": "shiroi",
+          "meanings": { "en": "white", "id": "putih" }
+        },
+        {
+          "id": 45,
+          "kanji": "少ない",
+          "hiragana": "すくない",
+          "romaji": "sukunai",
+          "meanings": { "en": "few", "id": "sedikit, kurang" }
+        },
+        {
+          "id": 46,
+          "kanji": "涼しい",
+          "hiragana": "すずしい",
+          "romaji": "suzushii",
+          "meanings": { "en": "cool", "id": "sejuk" }
+        },
+        {
+          "id": 47,
+          "kanji": "高い",
+          "hiragana": "たかい",
+          "romaji": "takai",
+          "meanings": { "en": "expensive, tall", "id": "mahal, tinggi" }
+        },
+        {
+          "id": 48,
+          "kanji": "楽しい",
+          "hiragana": "たのしい",
+          "romaji": "tanoshii",
+          "meanings": { "en": "fun", "id": "menyenangkan" }
+        },
+        {
+          "id": 49,
+          "kanji": "遠い",
+          "hiragana": "とおい",
+          "romaji": "tooi",
+          "meanings": { "en": "far", "id": "jauh" }
+        },
+        {
+          "id": 50,
+          "kanji": "つまらない",
+          "hiragana": "つまらない",
+          "romaji": "tsumaranai",
+          "meanings": { "en": "boring", "id": "membosankan" }
+        },
+        {
+          "id": 51,
+          "kanji": "冷たい",
+          "hiragana": "つめたい",
+          "romaji": "tsumetai",
+          "meanings": { "en": "cold (object)", "id": "dingin (benda)" }
+        },
+        {
+          "id": 52,
+          "kanji": "強い",
+          "hiragana": "つよい",
+          "romaji": "tsuyoi",
+          "meanings": { "en": "strong", "id": "kuat" }
+        },
+        {
+          "id": 53,
+          "kanji": "うるさい",
+          "hiragana": "うるさい",
+          "romaji": "urusai",
+          "meanings": { "en": "noisy", "id": "berisik, gaduh, bawel" }
+        },
+        {
+          "id": 54,
+          "kanji": "薄い",
+          "hiragana": "うすい",
+          "romaji": "usui",
+          "meanings": { "en": "thin", "id": "tipis" }
+        },
+        {
+          "id": 55,
+          "kanji": "若い",
+          "hiragana": "わかい",
+          "romaji": "wakai",
+          "meanings": { "en": "young", "id": "muda" }
+        },
+        {
+          "id": 56,
+          "kanji": "悪い",
+          "hiragana": "わるい",
+          "romaji": "warui",
+          "meanings": { "en": "bad", "id": "jelek, buruk" }
+        },
+        {
+          "id": 57,
+          "kanji": "易しい",
+          "hiragana": "やさしい",
+          "romaji": "yasashii",
+          "meanings": { "en": "easy", "id": "mudah, gampang" }
+        },
+        {
+          "id": 58,
+          "kanji": "安い",
+          "hiragana": "やすい",
+          "romaji": "yasui",
+          "meanings": { "en": "cheap", "id": "murah" }
+        },
+        {
+          "id": 59,
+          "kanji": "弱い",
+          "hiragana": "よわい",
+          "romaji": "yowai",
+          "meanings": { "en": "weak", "id": "lemah" }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_SIFAT_NON_I",
+        "en": "NA-ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "嫌",
+          "hiragana": "いや",
+          "romaji": "iya",
+          "meanings": { "en": "dislike, hate", "id": "benci, tidak suka" }
+        },
+        {
+          "id": 2,
+          "kanji": "便利",
+          "hiragana": "べんり",
+          "romaji": "benri",
+          "meanings": { "en": "convenient, practical", "id": "praktis" }
+        },
+        {
+          "id": 3,
+          "kanji": "小さ(な)",
+          "hiragana": "ちいさ(な)",
+          "romaji": "chiisa(na)",
+          "meanings": { "en": "small", "id": "kecil" }
+        },
+        {
+          "id": 4,
+          "kanji": "大好き",
+          "hiragana": "だいすき",
+          "romaji": "daisuki",
+          "meanings": { "en": "like very much", "id": "sangat suka" }
+        },
+        {
+          "id": 5,
+          "kanji": "元気",
+          "hiragana": "げんき",
+          "romaji": "genki",
+          "meanings": { "en": "healthy, spirited", "id": "sehat, bersemangat" }
+        },
+        {
+          "id": 6,
+          "kanji": "下手",
+          "hiragana": "へた",
+          "romaji": "heta",
+          "meanings": { "en": "unskilled, poor at", "id": "tidak mahir, bodoh" }
+        },
+        {
+          "id": 7,
+          "kanji": "暇",
+          "hiragana": "ひま",
+          "romaji": "hima",
+          "meanings": { "en": "free time", "id": "senggang" }
+        },
+        {
+          "id": 8,
+          "kanji": "いろいろ",
+          "hiragana": "いろいろ",
+          "romaji": "iroiro",
+          "meanings": { "en": "various", "id": "macam-macam" }
+        },
+        {
+          "id": 9,
+          "kanji": "丈夫",
+          "hiragana": "じょうぶ",
+          "romaji": "jyoubu",
+          "meanings": { "en": "strong, durable", "id": "kuat, tahan lama" }
+        },
+        {
+          "id": 10,
+          "kanji": "上手",
+          "hiragana": "じょうず",
+          "romaji": "jyouzu",
+          "meanings": { "en": "skilled, good at", "id": "mahir" }
+        },
+        {
+          "id": 11,
+          "kanji": "嫌い",
+          "hiragana": "きらい",
+          "romaji": "kirai",
+          "meanings": { "en": "dislike, hate", "id": "benci, tidak suka" }
+        },
+        {
+          "id": 12,
+          "kanji": "きれい",
+          "hiragana": "きれい",
+          "romaji": "kirei",
+          "meanings": { "en": "pretty, clean", "id": "cantik, bersih" }
+        },
+        {
+          "id": 13,
+          "kanji": "にぎやか",
+          "hiragana": "にぎやか",
+          "romaji": "nigiyaka",
+          "meanings": { "en": "lively, bustling", "id": "ramai, bising" }
+        },
+        {
+          "id": 14,
+          "kanji": "大き(な)",
+          "hiragana": "おおき(な)",
+          "romaji": "ooki(na)",
+          "meanings": { "en": "big", "id": "besar" }
+        },
+        {
+          "id": 15,
+          "kanji": "立派",
+          "hiragana": "りっぱ",
+          "romaji": "rippa",
+          "meanings": { "en": "splendid, fine", "id": "megah" }
+        },
+        {
+          "id": 16,
+          "kanji": "親切",
+          "hiragana": "しんせつ",
+          "romaji": "shinsetsu",
+          "meanings": { "en": "kind, gentle", "id": "ramah, baik hati" }
+        },
+        {
+          "id": 17,
+          "kanji": "静か",
+          "hiragana": "しずか",
+          "romaji": "shizuka",
+          "meanings": { "en": "quiet", "id": "tenang" }
+        },
+        {
+          "id": 18,
+          "kanji": "好き",
+          "hiragana": "すき",
+          "romaji": "suki",
+          "meanings": { "en": "like", "id": "suka" }
+        },
+        {
+          "id": 19,
+          "kanji": "たいへん",
+          "hiragana": "たいへん",
+          "romaji": "taihen",
+          "meanings": { "en": "difficult, hard", "id": "menyusahkan" }
+        },
+        {
+          "id": 20,
+          "kanji": "大切",
+          "hiragana": "たいせつ",
+          "romaji": "taisetsu",
+          "meanings": { "en": "important", "id": "penting" }
+        },
+        {
+          "id": 21,
+          "kanji": "有名",
+          "hiragana": "ゆうめい",
+          "romaji": "yuumei",
+          "meanings": { "en": "famous", "id": "terkenal, ternama" }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_I",
+        "en": "VERBS_GROUP_I"
+      },
+      "vocabulary": [
+        {
+          "id": 12,
+          "kanji": "開きます",
+          "hiragana": "あきます",
+          "romaji": "akimasu",
+          "meanings": {
+            "en": "to open (intransitive)",
+            "id": "buka, terbuka"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "歩きます",
+          "hiragana": "あるきます",
+          "romaji": "arukimasu",
+          "meanings": {
+            "en": "to walk",
+            "id": "berjalan kaki"
+          }
+        },
+        {
+          "id": 1,
+          "kanji": "吹きます",
+          "hiragana": "ふきます",
+          "romaji": "fukimasu",
+          "meanings": { "en": "to blow", "id": "bertiup" }
+        },
+        {
+          "id": 2,
+          "kanji": "履きます",
+          "hiragana": "はきます",
+          "romaji": "hakimasu",
+          "meanings": {
+            "en": "to wear (shoes, pants, skirt, socks)",
+            "id": "mengenakan (celana, rok, kaus kaki)"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "働きます",
+          "hiragana": "はたらきます",
+          "romaji": "hatarakimasu",
+          "meanings": { "en": "to work", "id": "bekerja" }
+        },
+        {
+          "id": 4,
+          "kanji": "引きます",
+          "hiragana": "ひきます",
+          "romaji": "hikimasu",
+          "meanings": {
+            "en": "to pull, to catch (a cold)",
+            "id": "menarik, terserang"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "弾きます",
+          "hiragana": "ひきます",
+          "romaji": "hikimasu",
+          "meanings": {
+            "en": "to play (guitar, piano)",
+            "id": "bermain (gitar, piano)"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "行きます",
+          "hiragana": "いきます",
+          "romaji": "ikimasu",
+          "meanings": { "en": "to go", "id": "pergi" }
+        },
+        {
+          "id": 7,
+          "kanji": "書きます",
+          "hiragana": "かきます",
+          "romaji": "kakimasu",
+          "meanings": { "en": "to write", "id": "menulis" }
+        },
+        {
+          "id": 8,
+          "kanji": "聞きます",
+          "hiragana": "ききます",
+          "romaji": "kikimasu",
+          "meanings": { "en": "to listen, to ask", "id": "mendengar, bertanya" }
+        },
+        {
+          "id": 9,
+          "kanji": "磨きます",
+          "hiragana": "みがきます",
+          "romaji": "migakimasu",
+          "meanings": {
+            "en": "to brush, to polish",
+            "id": "menggosok, memoles"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "鳴きます",
+          "hiragana": "なきます",
+          "romaji": "nakimasu",
+          "meanings": {
+            "en": "to sing (bird), to bark (dog)",
+            "id": "bersuara, berbunyi (binatang)"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "置きます",
+          "hiragana": "おきます",
+          "romaji": "okimasu",
+          "meanings": { "en": "to put, to place", "id": "meletakkan" }
+        },
+        {
+          "id": 12,
+          "kanji": "咲きます",
+          "hiragana": "さきます",
+          "romaji": "sakimasu",
+          "meanings": { "en": "to bloom", "id": "berkembang, berbunga" }
+        },
+        {
+          "id": 13,
+          "kanji": "着きます",
+          "hiragana": "つきます",
+          "romaji": "tsukimasu",
+          "meanings": { "en": "to arrive", "id": "tiba" }
+        },
+        {
+          "id": 14,
+          "kanji": "脱ぎます",
+          "hiragana": "ぬぎます",
+          "romaji": "nugimasu",
+          "meanings": { "en": "to take off (clothes)", "id": "menanggalkan" }
+        },
+        {
+          "id": 15,
+          "kanji": "泳ぎます",
+          "hiragana": "およぎます",
+          "romaji": "oyogimasu",
+          "meanings": { "en": "to swim", "id": "berenang" }
+        },
+        {
+          "id": 16,
+          "kanji": "遊びます",
+          "hiragana": "あそびます",
+          "romaji": "asobimasu",
+          "meanings": { "en": "to play", "id": "bermain, main-main" }
+        },
+        {
+          "id": 17,
+          "kanji": "並びます",
+          "hiragana": "ならびます",
+          "romaji": "narabimasu",
+          "meanings": { "en": "to line up", "id": "berbaris" }
+        },
+        {
+          "id": 18,
+          "kanji": "飛びます",
+          "hiragana": "とびます",
+          "romaji": "tobimasu",
+          "meanings": { "en": "to fly", "id": "terbang" }
+        },
+        {
+          "id": 19,
+          "kanji": "呼びます",
+          "hiragana": "よびます",
+          "romaji": "yobimasu",
+          "meanings": { "en": "to call", "id": "memanggil" }
+        },
+        {
+          "id": 20,
+          "kanji": "飲みます",
+          "hiragana": "のみます",
+          "romaji": "nomimasu",
+          "meanings": { "en": "to drink", "id": "minum" }
+        },
+        {
+          "id": 21,
+          "kanji": "住みます",
+          "hiragana": "すみます",
+          "romaji": "sumimasu",
+          "meanings": { "en": "to live", "id": "tinggal" }
+        },
+        {
+          "id": 22,
+          "kanji": "頼みます",
+          "hiragana": "たのみます",
+          "romaji": "tanomimasu",
+          "meanings": { "en": "to request, to ask", "id": "meminta, memohon" }
+        },
+        {
+          "id": 23,
+          "kanji": "休みます",
+          "hiragana": "やすみます",
+          "romaji": "yasumimasu",
+          "meanings": { "en": "to rest", "id": "beristirahat" }
+        },
+        {
+          "id": 24,
+          "kanji": "読みます",
+          "hiragana": "よみます",
+          "romaji": "yomimasu",
+          "meanings": { "en": "to read", "id": "membaca" }
+        },
+        {
+          "id": 25,
+          "kanji": "死にます",
+          "hiragana": "しにます",
+          "romaji": "shinimasu",
+          "meanings": { "en": "to die", "id": "mati, meninggal" }
+        },
+        {
+          "id": 26,
+          "kanji": "会います",
+          "hiragana": "あいます",
+          "romaji": "aimasu",
+          "meanings": { "en": "to meet", "id": "bertemu" }
+        },
+        {
+          "id": 27,
+          "kanji": "洗います",
+          "hiragana": "あらいます",
+          "romaji": "araimasu",
+          "meanings": { "en": "to wash", "id": "mencuci" }
+        },
+        {
+          "id": 28,
+          "kanji": "違います",
+          "hiragana": "ちがいます",
+          "romaji": "chigaimasu",
+          "meanings": { "en": "to differ, to be wrong", "id": "berbeda, salah" }
+        },
+        {
+          "id": 29,
+          "kanji": "言います",
+          "hiragana": "いいます",
+          "romaji": "iimasu",
+          "meanings": { "en": "to say", "id": "berkata" }
+        },
+        {
+          "id": 30,
+          "kanji": "買います",
+          "hiragana": "かいます",
+          "romaji": "kaimasu",
+          "meanings": { "en": "to buy", "id": "membeli" }
+        },
+        {
+          "id": 31,
+          "kanji": "習います",
+          "hiragana": "ならいます",
+          "romaji": "naraimasu",
+          "meanings": { "en": "to learn", "id": "belajar" }
+        },
+        {
+          "id": 32,
+          "kanji": "吸います",
+          "hiragana": "すいます",
+          "romaji": "suimasu",
+          "meanings": { "en": "to inhale, to smoke", "id": "menghisap" }
+        },
+        {
+          "id": 33,
+          "kanji": "使います",
+          "hiragana": "つかいます",
+          "romaji": "tsukaimasu",
+          "meanings": { "en": "to use", "id": "memakai, menggunakan" }
+        },
+        {
+          "id": 34,
+          "kanji": "歌います",
+          "hiragana": "うたいます",
+          "romaji": "utaimasu",
+          "meanings": { "en": "to sing", "id": "bernyanyi" }
+        },
+        {
+          "id": 35,
+          "kanji": "待ちます",
+          "hiragana": "まちます",
+          "romaji": "machimasu",
+          "meanings": { "en": "to wait", "id": "menunggu" }
+        },
+        {
+          "id": 36,
+          "kanji": "持ちます",
+          "hiragana": "もちます",
+          "romaji": "mochimasu",
+          "meanings": { "en": "to hold, to have", "id": "membawa, mempunyai" }
+        },
+        {
+          "id": 37,
+          "kanji": "立ちます",
+          "hiragana": "たちます",
+          "romaji": "tachimasu",
+          "meanings": { "en": "to stand", "id": "berdiri" }
+        },
+        {
+          "id": 38,
+          "kanji": "あります",
+          "hiragana": "あります",
+          "romaji": "arimasu",
+          "meanings": {
+            "en": "to be, to have (inanimate)",
+            "id": "ada, mempunyai (benda mati)"
+          }
+        },
+        {
+          "id": 39,
+          "kanji": "降ります",
+          "hiragana": "ふります",
+          "romaji": "furimasu",
+          "meanings": {
+            "en": "to fall (rain, snow)",
+            "id": "turun (hujan, salju)"
+          }
+        },
+        {
+          "id": 40,
+          "kanji": "入ります",
+          "hiragana": "はいります",
+          "romaji": "hairimasu",
+          "meanings": { "en": "to enter", "id": "masuk, isi" }
+        },
+        {
+          "id": 41,
+          "kanji": "始まります",
+          "hiragana": "はじまります",
+          "romaji": "hajimarimasu",
+          "meanings": { "en": "to begin", "id": "mulai" }
+        },
+        {
+          "id": 42,
+          "kanji": "貼ります",
+          "hiragana": "はります",
+          "romaji": "harimasu",
+          "meanings": {
+            "en": "to stick, to paste",
+            "id": "menempelkan, melekatkan"
+          }
+        },
+        {
+          "id": 43,
+          "kanji": "走ります",
+          "hiragana": "はしります",
+          "romaji": "hashirimasu",
+          "meanings": { "en": "to run", "id": "berlari" }
+        },
+        {
+          "id": 44,
+          "kanji": "要ります",
+          "hiragana": "いります",
+          "romaji": "irimasu",
+          "meanings": { "en": "to need", "id": "butuh, perlu" }
+        },
+        {
+          "id": 45,
+          "kanji": "帰ります",
+          "hiragana": "かえります",
+          "romaji": "kaerimasu",
+          "meanings": { "en": "to return, to go home", "id": "pulang" }
+        },
+        {
+          "id": 46,
+          "kanji": "かかります",
+          "hiragana": "かかります",
+          "romaji": "kakarimasu",
+          "meanings": {
+            "en": "to take (time, money)",
+            "id": "memerlukan (waktu, uang)"
+          }
+        },
+        {
+          "id": 47,
+          "kanji": "切ります",
+          "hiragana": "きります",
+          "romaji": "kirimasu",
+          "meanings": { "en": "to cut", "id": "memotong" }
+        },
+        {
+          "id": 48,
+          "kanji": "困ります",
+          "hiragana": "こまります",
+          "romaji": "komarimasu",
+          "meanings": { "en": "to be troubled", "id": "menyusahkan" }
+        },
+        {
+          "id": 49,
+          "kanji": "曇ります",
+          "hiragana": "くもります",
+          "romaji": "kumorimasu",
+          "meanings": { "en": "to become cloudy", "id": "mendung, berawan" }
+        },
+        {
+          "id": 50,
+          "kanji": "曲がります",
+          "hiragana": "まがります",
+          "romaji": "magarimasu",
+          "meanings": { "en": "to turn, to bend", "id": "membelok, melengkung" }
+        },
+        {
+          "id": 51,
+          "kanji": "なります",
+          "hiragana": "なります",
+          "romaji": "narimasu",
+          "meanings": { "en": "to become", "id": "menjadi" }
+        },
+        {
+          "id": 52,
+          "kanji": "登ります",
+          "hiragana": "のぼります",
+          "romaji": "noborimasu",
+          "meanings": { "en": "to climb", "id": "mendaki" }
+        },
+        {
+          "id": 53,
+          "kanji": "乗ります",
+          "hiragana": "のります",
+          "romaji": "norimasu",
+          "meanings": { "en": "to ride", "id": "naik (kendaraan)" }
+        },
+        {
+          "id": 54,
+          "kanji": "終わります",
+          "hiragana": "おわります",
+          "romaji": "owarimasu",
+          "meanings": { "en": "to finish", "id": "selesai, berakhir" }
+        },
+        {
+          "id": 55,
+          "kanji": "閉まります",
+          "hiragana": "しまります",
+          "romaji": "shimarimasu",
+          "meanings": { "en": "to close", "id": "tutup, tertutup" }
+        },
+        {
+          "id": 56,
+          "kanji": "知ります",
+          "hiragana": "しります",
+          "romaji": "shirimasu",
+          "meanings": { "en": "to know", "id": "mengenal, mengetahui" }
+        },
+        {
+          "id": 57,
+          "kanji": "座ります",
+          "hiragana": "すわります",
+          "romaji": "suwarimasu",
+          "meanings": { "en": "to sit", "id": "duduk" }
+        },
+        {
+          "id": 58,
+          "kanji": "止まります",
+          "hiragana": "とまります",
+          "romaji": "tomarimasu",
+          "meanings": { "en": "to stop", "id": "berhenti" }
+        },
+        {
+          "id": 59,
+          "kanji": "取ります",
+          "hiragana": "とります",
+          "romaji": "torimasu",
+          "meanings": { "en": "to take", "id": "mengambil" }
+        },
+        {
+          "id": 60,
+          "kanji": "撮ります",
+          "hiragana": "とります",
+          "romaji": "torimasu",
+          "meanings": {
+            "en": "to take (photo, film)",
+            "id": "mengambil (foto, film)"
+          }
+        },
+        {
+          "id": 61,
+          "kanji": "作ります",
+          "hiragana": "つくります",
+          "romaji": "tsukurimasu",
+          "meanings": { "en": "to make", "id": "membuat" }
+        },
+        {
+          "id": 62,
+          "kanji": "売ります",
+          "hiragana": "うります",
+          "romaji": "urimasu",
+          "meanings": { "en": "to sell", "id": "menjual" }
+        },
+        {
+          "id": 63,
+          "kanji": "分かります",
+          "hiragana": "わかります",
+          "romaji": "wakarimasu",
+          "meanings": { "en": "to understand", "id": "mengerti" }
+        },
+        {
+          "id": 64,
+          "kanji": "渡ります",
+          "hiragana": "わたります",
+          "romaji": "watarimasu",
+          "meanings": { "en": "to cross", "id": "menyeberang" }
+        },
+        {
+          "id": 65,
+          "kanji": "やります",
+          "hiragana": "やります",
+          "romaji": "yarimasu",
+          "meanings": { "en": "to do", "id": "melakukan" }
+        },
+        {
+          "id": 66,
+          "kanji": "出します",
+          "hiragana": "だします",
+          "romaji": "dashimasu",
+          "meanings": { "en": "to take out", "id": "mengeluarkan" }
+        },
+        {
+          "id": 67,
+          "kanji": "話します",
+          "hiragana": "はなします",
+          "romaji": "hanashimasu",
+          "meanings": { "en": "to speak", "id": "berbicara" }
+        },
+        {
+          "id": 68,
+          "kanji": "返します",
+          "hiragana": "かえします",
+          "romaji": "kaeshimasu",
+          "meanings": { "en": "to return (something)", "id": "mengembalikan" }
+        },
+        {
+          "id": 69,
+          "kanji": "貸します",
+          "hiragana": "かします",
+          "romaji": "kashimasu",
+          "meanings": { "en": "to lend", "id": "meminjamkan" }
+        },
+        {
+          "id": 70,
+          "kanji": "消します",
+          "hiragana": "けします",
+          "romaji": "keshimasu",
+          "meanings": {
+            "en": "to erase, to turn off",
+            "id": "menghapus, memadamkan"
+          }
+        },
+        {
+          "id": 71,
+          "kanji": "無くします",
+          "hiragana": "なくします",
+          "romaji": "nakushimasu",
+          "meanings": { "en": "to lose", "id": "menghilangkan" }
+        },
+        {
+          "id": 72,
+          "kanji": "押します",
+          "hiragana": "おします",
+          "romaji": "oshimasu",
+          "meanings": { "en": "to push", "id": "mendorong, mencap" }
+        },
+        {
+          "id": 73,
+          "kanji": "差します",
+          "hiragana": "さします",
+          "romaji": "sashimasu",
+          "meanings": {
+            "en": "to stretch out (hand), to use (umbrella)",
+            "id": "mengulurkan (tangan), memakai (payung)"
+          }
+        },
+        {
+          "id": 74,
+          "kanji": "渡します",
+          "hiragana": "わたします",
+          "romaji": "watashimasu",
+          "meanings": { "en": "to hand over", "id": "menyerahkan" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_II",
+        "en": "VERBS_GROUP_II"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "浴びます",
+          "hiragana": "あびます",
+          "romaji": "abimasu",
+          "meanings": {
+            "en": "to bathe, to pour over",
+            "id": "mandi, menyiram"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "できます",
+          "hiragana": "できます",
+          "romaji": "dekimasu",
+          "meanings": { "en": "can, be able to", "id": "bisa" }
+        },
+        {
+          "id": 3,
+          "kanji": "居ます",
+          "hiragana": "います",
+          "romaji": "imasu",
+          "meanings": {
+            "en": "to be (animate)",
+            "id": "ada (manusia, binatang)"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "借ります",
+          "hiragana": "かります",
+          "romaji": "karimasu",
+          "meanings": { "en": "to borrow", "id": "meminjam" }
+        },
+        {
+          "id": 5,
+          "kanji": "着ます",
+          "hiragana": "きます",
+          "romaji": "kimasu",
+          "meanings": {
+            "en": "to wear (clothes)",
+            "id": "mengenakan (pakaian, kemeja)"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "見ます",
+          "hiragana": "みます",
+          "romaji": "mimasu",
+          "meanings": { "en": "to see, to watch", "id": "melihat, menonton" }
+        },
+        {
+          "id": 7,
+          "kanji": "起きます",
+          "hiragana": "おきます",
+          "romaji": "okimasu",
+          "meanings": { "en": "to get up", "id": "bangun" }
+        },
+        {
+          "id": 8,
+          "kanji": "降ります",
+          "hiragana": "おります",
+          "romaji": "orimasu",
+          "meanings": { "en": "to get off, to descend", "id": "turun" }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_III",
+        "en": "VERBS_GROUP_III"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "上げます",
+          "hiragana": "あげます",
+          "romaji": "agemasu",
+          "meanings": { "en": "to give", "id": "memberi" }
+        },
+        {
+          "id": 2,
+          "kanji": "開けます",
+          "hiragana": "あけます",
+          "romaji": "akemasu",
+          "meanings": { "en": "to open", "id": "membuka" }
+        },
+        {
+          "id": 3,
+          "kanji": "出かけます",
+          "hiragana": "でかけます",
+          "romaji": "dekakemasu",
+          "meanings": { "en": "to go out", "id": "keluar rumah" }
+        },
+        {
+          "id": 4,
+          "kanji": "出ます",
+          "hiragana": "でます",
+          "romaji": "demasu",
+          "meanings": {
+            "en": "to leave, to go out",
+            "id": "keluar, meninggalkan"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "晴れます",
+          "hiragana": "はれます",
+          "romaji": "haremasu",
+          "meanings": { "en": "to clear up", "id": "cerah" }
+        },
+        {
+          "id": 6,
+          "kanji": "入れます",
+          "hiragana": "いれます",
+          "romaji": "iremasu",
+          "meanings": { "en": "to put in", "id": "memasukkan" }
+        },
+        {
+          "id": 7,
+          "kanji": "掛けます",
+          "hiragana": "かけます",
+          "romaji": "kakemasu",
+          "meanings": { "en": "to hang", "id": "menggantung" }
+        },
+        {
+          "id": 8,
+          "kanji": "消えます",
+          "hiragana": "きえます",
+          "romaji": "kiemasu",
+          "meanings": { "en": "to disappear", "id": "hilang, padam" }
+        },
+        {
+          "id": 9,
+          "kanji": "答えます",
+          "hiragana": "こたえます",
+          "romaji": "kotaemasu",
+          "meanings": { "en": "to answer", "id": "menjawab" }
+        },
+        {
+          "id": 10,
+          "kanji": "見せます",
+          "hiragana": "みせます",
+          "romaji": "misemasu",
+          "meanings": { "en": "to show", "id": "memperlihatkan" }
+        },
+        {
+          "id": 11,
+          "kanji": "並べます",
+          "hiragana": "ならべます",
+          "romaji": "narabemasu",
+          "meanings": {
+            "en": "to line up, to arrange",
+            "id": "membariskan, menyusun"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "寝ます",
+          "hiragana": "ねます",
+          "romaji": "nemasu",
+          "meanings": { "en": "to sleep", "id": "tidur" }
+        },
+        {
+          "id": 13,
+          "kanji": "覚えます",
+          "hiragana": "おぼえます",
+          "romaji": "oboemasu",
+          "meanings": { "en": "to remember", "id": "mengingat" }
+        },
+        {
+          "id": 14,
+          "kanji": "教えます",
+          "hiragana": "おしえます",
+          "romaji": "oshiemasu",
+          "meanings": {
+            "en": "to teach, to inform",
+            "id": "mengajarkan, memberitahu"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "締めます",
+          "hiragana": "しめます",
+          "romaji": "shimemasu",
+          "meanings": { "en": "to tie, to fasten", "id": "mengikat" }
+        },
+        {
+          "id": 12,
+          "kanji": "閉める",
+          "hiragana": "しめます",
+          "romaji": "shimemasu",
+          "meanings": {
+            "en": "to close",
+            "id": "menutup"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "食べます",
+          "hiragana": "たべます",
+          "romaji": "tabemasu",
+          "meanings": { "en": "to eat", "id": "makan" }
+        },
+        {
+          "id": 17,
+          "kanji": "疲れます",
+          "hiragana": "つかれます",
+          "romaji": "tsukaremasu",
+          "meanings": { "en": "to get tired", "id": "letih" }
+        },
+        {
+          "id": 18,
+          "kanji": "つけます",
+          "hiragana": "つけます",
+          "romaji": "tsukemasu",
+          "meanings": {
+            "en": "to turn on (light, etc.)",
+            "id": "menyalakan (api, listrik)"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "勤めます",
+          "hiragana": "つとめます",
+          "romaji": "tsutomemasu",
+          "meanings": { "en": "to work for", "id": "berdinas, bertugas" }
+        },
+        {
+          "id": 20,
+          "kanji": "生まれます",
+          "hiragana": "うまれます",
+          "romaji": "umaremasu",
+          "meanings": { "en": "to be born", "id": "lahir" }
+        },
+        {
+          "id": 21,
+          "kanji": "忘れます",
+          "hiragana": "わすれます",
+          "romaji": "wasuremasu",
+          "meanings": { "en": "to forget", "id": "lupa" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_IV",
+        "en": "VERBS_GROUP_IV"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "来ます",
+          "hiragana": "きます",
+          "romaji": "kimasu",
+          "meanings": { "en": "to come", "id": "datang" }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_V",
+        "en": "VERBS_GROUP_V"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "します",
+          "hiragana": "します",
+          "romaji": "shimasu",
+          "meanings": { "en": "to do", "id": "melakukan" }
+        },
+        {
+          "id": 2,
+          "kanji": "勉強します",
+          "hiragana": "べんきょうします",
+          "romaji": "benkyou shimasu",
+          "meanings": { "en": "to study", "id": "belajar" }
+        },
+        {
+          "id": 3,
+          "kanji": "コピーします",
+          "hiragana": "こぴーします",
+          "romaji": "kopī shimasu",
+          "meanings": { "en": "to copy", "id": "mengkopi" }
+        },
+        {
+          "id": 4,
+          "kanji": "練習します",
+          "hiragana": "れんしゅうします",
+          "romaji": "renshuu shimasu",
+          "meanings": { "en": "to practice", "id": "berlatih" }
+        },
+        {
+          "id": 5,
+          "kanji": "散歩します",
+          "hiragana": "さんぽします",
+          "romaji": "sanpo shimasu",
+          "meanings": { "en": "to take a walk", "id": "berjalan-jalan" }
+        },
+        {
+          "id": 6,
+          "kanji": "掃除します",
+          "hiragana": "そうじします",
+          "romaji": "souji shimasu",
+          "meanings": { "en": "to clean", "id": "membersihkan, melap" }
         }
       ]
     }

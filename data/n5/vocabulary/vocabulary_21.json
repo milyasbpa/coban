@@ -20,13 +20,23 @@
         { "id": 25, "kanji": "大丈夫", "hiragana": "だいじょうぶ", "romaji": "daijoubu", "meanings": { "en": "alright", "id": "tidak apa-apa" } },
         { "id": 26, "kanji": "かまいません", "hiragana": "かまいません", "romaji": "kamaimasen", "meanings": { "en": "it doesn't matter", "id": "tidak apa-apa" } },
         { "id": 27, "kanji": "たて", "hiragana": "たて", "romaji": "tate", "meanings": { "en": "length", "id": "lebarnya" } },
+        {
+  "id": 12,
+  "kanji": "よこ",
+  "hiragana": "よこ",
+  "romaji": "yoko",
+  "meanings": {
+    "en": "width",
+    "id": "lebarnya"
+  }
+},
         { "id": 28, "kanji": "ほか", "hiragana": "ほか", "romaji": "hoka", "meanings": { "en": "other", "id": "yang lain" } },
         { "id": 29, "kanji": "ほんとうに", "hiragana": "ほんとうに", "romaji": "hontou ni", "meanings": { "en": "really", "id": "sungguh-sungguh, benar-benar" } },
         { "id": 30, "kanji": "まだ", "hiragana": "まだ", "romaji": "mada", "meanings": { "en": "not yet, still", "id": "belum, masih" } },
         { "id": 31, "kanji": "もう", "hiragana": "もう", "romaji": "mou", "meanings": { "en": "already, again", "id": "sudah, lagi" } },
         { "id": 32, "kanji": "もっと", "hiragana": "もっと", "romaji": "motto", "meanings": { "en": "more", "id": "lebih" } },
         { "id": 33, "kanji": "ゆっくり", "hiragana": "ゆっくり", "romaji": "yukkuri", "meanings": { "en": "slowly", "id": "perlahan-lahan" } },
-        { "id": 34, "kanji": "早く, 遅く", "hiragana": "はやく, おそく", "romaji": "hayaku, osoku", "meanings": { "en": "quickly, slowly", "id": "cepat-cepat" } }
+        { "id": 34, "kanji": "早く", "hiragana": "はやく", "romaji": "hayaku", "meanings": { "en": "quickly, slowly", "id": "cepat-cepat" } }
       ]
     },
     {

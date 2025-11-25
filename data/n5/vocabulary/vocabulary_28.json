@@ -21,12 +21,22 @@
         { "id": 12, "kanji": "寝ます", "hiragana": "ねます", "romaji": "nemasu", "meanings": { "en": "to sleep", "id": "tidur" } },
         { "id": 13, "kanji": "覚えます", "hiragana": "おぼえます", "romaji": "oboemasu", "meanings": { "en": "to remember", "id": "mengingat" } },
         { "id": 14, "kanji": "教えます", "hiragana": "おしえます", "romaji": "oshiemasu", "meanings": { "en": "to teach, to inform", "id": "mengajarkan, memberitahu" } },
-        { "id": 15, "kanji": "しめます", "hiragana": "しめます", "romaji": "shimemasu", "meanings": { "en": "to tie, to fasten", "id": "mengikat" } },
+        { "id": 15, "kanji": "締めます", "hiragana": "しめます", "romaji": "shimemasu", "meanings": { "en": "to tie, to fasten", "id": "mengikat" } },
+{
+  "id": 12,
+  "kanji": "閉める",
+  "hiragana": "しめます",
+  "romaji": "shimemasu",
+  "meanings": {
+    "en": "to close",
+    "id": "menutup"
+  }
+},
         { "id": 16, "kanji": "食べます", "hiragana": "たべます", "romaji": "tabemasu", "meanings": { "en": "to eat", "id": "makan" } },
         { "id": 17, "kanji": "疲れます", "hiragana": "つかれます", "romaji": "tsukaremasu", "meanings": { "en": "to get tired", "id": "letih" } },
         { "id": 18, "kanji": "つけます", "hiragana": "つけます", "romaji": "tsukemasu", "meanings": { "en": "to turn on (light, etc.)", "id": "menyalakan (api, listrik)" } },
         { "id": 19, "kanji": "勤めます", "hiragana": "つとめます", "romaji": "tsutomemasu", "meanings": { "en": "to work for", "id": "berdinas, bertugas" } },
-        { "id": 20, "kanji": "生まれます", "hiragana": "うまれます", "romaji": "umaresu", "meanings": { "en": "to be born", "id": "lahir" } },
+        { "id": 20, "kanji": "生まれます", "hiragana": "うまれます", "romaji": "umaremasu", "meanings": { "en": "to be born", "id": "lahir" } },
         { "id": 21, "kanji": "忘れます", "hiragana": "わすれます", "romaji": "wasuremasu", "meanings": { "en": "to forget", "id": "lupa" } }
       ]
     },
