@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_I",
+        "en": "VERBS_GROUP_I"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "吹きます", "hiragana": "ふきます", "romaji": "fukimasu", "meanings": { "en": "to blow", "id": "bertiup" } },
+        { "id": 2, "kanji": "履きます", "hiragana": "はきます", "romaji": "hakimasu", "meanings": { "en": "to wear (shoes, pants, skirt, socks)", "id": "mengenakan (celana, rok, kaus kaki)" } },
+        { "id": 3, "kanji": "働きます", "hiragana": "はたらきます", "romaji": "hatarakimasu", "meanings": { "en": "to work", "id": "bekerja" } },
+        { "id": 4, "kanji": "引きます", "hiragana": "ひきます", "romaji": "hikimasu", "meanings": { "en": "to pull, to catch (a cold)", "id": "menarik, terserang" } },
+        { "id": 5, "kanji": "弾きます", "hiragana": "ひきます", "romaji": "hikimasu", "meanings": { "en": "to play (guitar, piano)", "id": "bermain (gitar, piano)" } },
+        { "id": 6, "kanji": "行きます", "hiragana": "いきます", "romaji": "ikimasu", "meanings": { "en": "to go", "id": "pergi" } },
+        { "id": 7, "kanji": "書きます", "hiragana": "かきます", "romaji": "kakimasu", "meanings": { "en": "to write", "id": "menulis" } },
+        { "id": 8, "kanji": "聞きます", "hiragana": "ききます", "romaji": "kikimasu", "meanings": { "en": "to listen, to ask", "id": "mendengar, bertanya" } },
+        { "id": 9, "kanji": "磨きます", "hiragana": "みがきます", "romaji": "migakimasu", "meanings": { "en": "to brush, to polish", "id": "menggosok, memoles" } },
+        { "id": 10, "kanji": "鳴きます", "hiragana": "なきます", "romaji": "nakimasu", "meanings": { "en": "to sing (bird), to bark (dog)", "id": "bersuara, berbunyi (binatang)" } },
+        { "id": 11, "kanji": "置きます", "hiragana": "おきます", "romaji": "okimasu", "meanings": { "en": "to put, to place", "id": "meletakkan" } },
+        { "id": 12, "kanji": "咲きます", "hiragana": "さきます", "romaji": "sakimasu", "meanings": { "en": "to bloom", "id": "berkembang, berbunga" } },
+        { "id": 13, "kanji": "着きます", "hiragana": "つきます", "romaji": "tsukimasu", "meanings": { "en": "to arrive", "id": "tiba" } },
+        { "id": 14, "kanji": "脱ぎます", "hiragana": "ぬぎます", "romaji": "nugimasu", "meanings": { "en": "to take off (clothes)", "id": "menanggalkan" } },
+        { "id": 15, "kanji": "泳ぎます", "hiragana": "およぎます", "romaji": "oyogimasu", "meanings": { "en": "to swim", "id": "berenang" } },
+        { "id": 16, "kanji": "遊びます", "hiragana": "あそびます", "romaji": "asobimasu", "meanings": { "en": "to play", "id": "bermain, main-main" } },
+        { "id": 17, "kanji": "並びます", "hiragana": "ならびます", "romaji": "narabimasu", "meanings": { "en": "to line up", "id": "berbaris" } },
+        { "id": 18, "kanji": "飛びます", "hiragana": "とびます", "romaji": "tobimasu", "meanings": { "en": "to fly", "id": "terbang" } },
+        { "id": 19, "kanji": "呼びます", "hiragana": "よびます", "romaji": "yobimasu", "meanings": { "en": "to call", "id": "memanggil" } },
+        { "id": 20, "kanji": "飲みます", "hiragana": "のみます", "romaji": "nomimasu", "meanings": { "en": "to drink", "id": "minum" } },
+        { "id": 21, "kanji": "住みます", "hiragana": "すみます", "romaji": "sumimasu", "meanings": { "en": "to live", "id": "tinggal" } },
+        { "id": 22, "kanji": "頼みます", "hiragana": "たのみます", "romaji": "tanomimasu", "meanings": { "en": "to request, to ask", "id": "meminta, memohon" } },
+        { "id": 23, "kanji": "休みます", "hiragana": "やすみます", "romaji": "yasumimasu", "meanings": { "en": "to rest", "id": "beristirahat" } },
+        { "id": 24, "kanji": "読みます", "hiragana": "よみます", "romaji": "yomimasu", "meanings": { "en": "to read", "id": "membaca" } },
+        { "id": 25, "kanji": "死にます", "hiragana": "しにます", "romaji": "shinimasu", "meanings": { "en": "to die", "id": "mati, meninggal" } },
+        { "id": 26, "kanji": "会います", "hiragana": "あいます", "romaji": "aimasu", "meanings": { "en": "to meet", "id": "bertemu" } },
+        { "id": 27, "kanji": "洗います", "hiragana": "あらいます", "romaji": "araimasu", "meanings": { "en": "to wash", "id": "mencuci" } },
+        { "id": 28, "kanji": "違います", "hiragana": "ちがいます", "romaji": "chigaimasu", "meanings": { "en": "to differ, to be wrong", "id": "berbeda, salah" } },
+        { "id": 29, "kanji": "言います", "hiragana": "いいます", "romaji": "iimasu", "meanings": { "en": "to say", "id": "berkata" } },
+        { "id": 30, "kanji": "買います", "hiragana": "かいます", "romaji": "kaimasu", "meanings": { "en": "to buy", "id": "membeli" } }
+      ]
+    }
+  ]
+}

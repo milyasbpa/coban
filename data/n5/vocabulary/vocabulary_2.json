@@ -1,0 +1,241 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "ANGKA",
+        "en": "NUMBERS"
+      },
+      "vocabulary": [
+        {
+          "id": 26,
+          "kanji": "ここのつ",
+          "hiragana": "ここのつ",
+          "romaji": "kokonotsu",
+          "meanings": {
+            "en": "nine (counter)",
+            "id": "sembilan, usia 9 tahun"
+          }
+        },
+        {
+          "id": 27,
+          "kanji": "とお",
+          "hiragana": "とお",
+          "romaji": "too",
+          "meanings": {
+            "en": "ten (counter)",
+            "id": "sepuluh"
+          }
+        },
+        {
+          "id": 28,
+          "kanji": "はたち",
+          "hiragana": "はたち",
+          "romaji": "hatachi",
+          "meanings": {
+            "en": "twenty years old",
+            "id": "usia 20 tahun"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "HARI",
+        "en": "DAYS"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "曜日",
+          "hiragana": "ようび",
+          "romaji": "youbi",
+          "meanings": {
+            "en": "day (of the week)",
+            "id": "hari"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "月曜日",
+          "hiragana": "げつようび",
+          "romaji": "getsuyoubi",
+          "meanings": {
+            "en": "Monday",
+            "id": "Senin"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "火曜日",
+          "hiragana": "かようび",
+          "romaji": "kayoubi",
+          "meanings": {
+            "en": "Tuesday",
+            "id": "Selasa"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "水曜日",
+          "hiragana": "すいようび",
+          "romaji": "suiyoubi",
+          "meanings": {
+            "en": "Wednesday",
+            "id": "Rabu"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "木曜日",
+          "hiragana": "もくようび",
+          "romaji": "mokuyoubi",
+          "meanings": {
+            "en": "Thursday",
+            "id": "Kamis"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "金曜日",
+          "hiragana": "きんようび",
+          "romaji": "kin'youbi",
+          "meanings": {
+            "en": "Friday",
+            "id": "Jumat"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "土曜日",
+          "hiragana": "どようび",
+          "romaji": "doyoubi",
+          "meanings": {
+            "en": "Saturday",
+            "id": "Sabtu"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "日曜日",
+          "hiragana": "にちようび",
+          "romaji": "nichiyoubi",
+          "meanings": {
+            "en": "Sunday",
+            "id": "Minggu"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "TANGGAL_JUMLAH_HARI",
+        "en": "DATES_AND_DAYS"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "日",
+          "hiragana": "にち",
+          "romaji": "nichi",
+          "meanings": {
+            "en": "day, date",
+            "id": "tanggal, hari"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "一日",
+          "hiragana": "ついたち",
+          "romaji": "tsuitachi",
+          "meanings": {
+            "en": "first day of the month",
+            "id": "tanggal 1"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "二日",
+          "hiragana": "ふつか",
+          "romaji": "futsuka",
+          "meanings": {
+            "en": "second day of the month",
+            "id": "tanggal 2"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "三日",
+          "hiragana": "みっか",
+          "romaji": "mikka",
+          "meanings": {
+            "en": "third day of the month",
+            "id": "tanggal 3"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "四日",
+          "hiragana": "よっか",
+          "romaji": "yokka",
+          "meanings": {
+            "en": "fourth day of the month",
+            "id": "tanggal 4"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "五日",
+          "hiragana": "いつか",
+          "romaji": "itsuka",
+          "meanings": {
+            "en": "fifth day of the month",
+            "id": "tanggal 5"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "六日",
+          "hiragana": "むいか",
+          "romaji": "muika",
+          "meanings": {
+            "en": "sixth day of the month",
+            "id": "tanggal 6"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "七日",
+          "hiragana": "なのか",
+          "romaji": "nanoka",
+          "meanings": {
+            "en": "seventh day of the month",
+            "id": "tanggal 7"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "八日",
+          "hiragana": "ようか",
+          "romaji": "youka",
+          "meanings": {
+            "en": "eighth day of the month",
+            "id": "tanggal 8"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "九日",
+          "hiragana": "ここのか",
+          "romaji": "kokonoka",
+          "meanings": {
+            "en": "ninth day of the month",
+            "id": "tanggal 9"
+          }
+        }
+      ]
+    }
+  ]
+}

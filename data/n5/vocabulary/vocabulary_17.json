@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "ALAT_TULIS",
+        "en": "STATIONERY"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "紙", "hiragana": "かみ", "romaji": "kami", "meanings": { "en": "paper", "id": "kertas" } },
+        { "id": 2, "kanji": "ペン, ボールペン", "hiragana": "ぺん, ぼーるぺん", "romaji": "pen, bōrupen", "meanings": { "en": "pen, ballpoint pen", "id": "pen, bolpen" } },
+        { "id": 3, "kanji": "万年筆", "hiragana": "まんねんひつ", "romaji": "mannenhitsu", "meanings": { "en": "fountain pen", "id": "pen tinta" } },
+        { "id": 4, "kanji": "鉛筆", "hiragana": "えんぴつ", "romaji": "enpitsu", "meanings": { "en": "pencil", "id": "pensil" } },
+        { "id": 5, "kanji": "本", "hiragana": "ほん", "romaji": "hon", "meanings": { "en": "book", "id": "buku" } },
+        { "id": 6, "kanji": "ノート", "hiragana": "のーと", "romaji": "nōto", "meanings": { "en": "notebook", "id": "buku tulis, notes" } },
+        { "id": 7, "kanji": "手紙", "hiragana": "てがみ", "romaji": "tegami", "meanings": { "en": "letter", "id": "kertas surat" } },
+        { "id": 8, "kanji": "切手", "hiragana": "きって", "romaji": "kitte", "meanings": { "en": "stamp", "id": "perangko" } },
+        { "id": 9, "kanji": "葉書", "hiragana": "はがき", "romaji": "hagaki", "meanings": { "en": "postcard", "id": "kartu pos" } },
+        { "id": 10, "kanji": "封筒", "hiragana": "ふうとう", "romaji": "fuutou", "meanings": { "en": "envelope", "id": "amplop" } },
+        { "id": 11, "kanji": "テープ", "hiragana": "てーぷ", "romaji": "tēpu", "meanings": { "en": "tape", "id": "pita, selotip" } },
+        { "id": 12, "kanji": "箱", "hiragana": "はこ", "romaji": "hako", "meanings": { "en": "box", "id": "kotak, box" } }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "JABATAN_PEKERJAAN",
+        "en": "OCCUPATIONS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "仕事", "hiragana": "しごと", "romaji": "shigoto", "meanings": { "en": "work", "id": "pekerjaan" } },
+        { "id": 2, "kanji": "医者", "hiragana": "いしゃ", "romaji": "isha", "meanings": { "en": "doctor", "id": "dokter" } },
+        { "id": 3, "kanji": "警官", "hiragana": "けいかん", "romaji": "keikan", "meanings": { "en": "police officer", "id": "polisi" } },
+        { "id": 4, "kanji": "おまわりさん", "hiragana": "おまわりさん", "romaji": "omawarisan", "meanings": { "en": "patrol police", "id": "polisi patroli" } },
+        { "id": 5, "kanji": "先生", "hiragana": "せんせい", "romaji": "sensei", "meanings": { "en": "teacher", "id": "guru, pengajar" } },
+        { "id": 6, "kanji": "生徒", "hiragana": "せいと", "romaji": "seito", "meanings": { "en": "student", "id": "murid" } },
+        { "id": 7, "kanji": "学生", "hiragana": "がくせい", "romaji": "gakusei", "meanings": { "en": "student", "id": "pelajar, mahasiswa" } },
+        { "id": 8, "kanji": "留学生", "hiragana": "りゅうがくせい", "romaji": "ryuugakusei", "meanings": { "en": "foreign student", "id": "pelajar asing" } }
+      ]
+    }
+  ]
+}

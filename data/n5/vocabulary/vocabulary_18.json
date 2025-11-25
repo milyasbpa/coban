@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "ARAH",
+        "en": "DIRECTIONS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "上", "hiragana": "うえ", "romaji": "ue", "meanings": { "en": "up", "id": "atas" } },
+        { "id": 2, "kanji": "下", "hiragana": "した", "romaji": "shita", "meanings": { "en": "down", "id": "bawah" } },
+        { "id": 3, "kanji": "前", "hiragana": "まえ", "romaji": "mae", "meanings": { "en": "front", "id": "depan" } },
+        { "id": 4, "kanji": "後", "hiragana": "うしろ", "romaji": "ushiro", "meanings": { "en": "back", "id": "belakang" } },
+        { "id": 5, "kanji": "外", "hiragana": "そと", "romaji": "soto", "meanings": { "en": "outside", "id": "luar" } },
+        { "id": 6, "kanji": "中", "hiragana": "なか", "romaji": "naka", "meanings": { "en": "inside", "id": "dalam" } },
+        { "id": 7, "kanji": "向こう", "hiragana": "むこう", "romaji": "mukou", "meanings": { "en": "over there", "id": "seberang sana" } },
+        { "id": 8, "kanji": "手前", "hiragana": "てまえ", "romaji": "temae", "meanings": { "en": "this side", "id": "sebelah sini" } },
+        { "id": 9, "kanji": "右", "hiragana": "みぎ", "romaji": "migi", "meanings": { "en": "right", "id": "kanan" } },
+        { "id": 10, "kanji": "左", "hiragana": "ひだり", "romaji": "hidari", "meanings": { "en": "left", "id": "kiri" } },
+        { "id": 11, "kanji": "隣", "hiragana": "となり", "romaji": "tonari", "meanings": { "en": "next to", "id": "sebelah, tetangga" } },
+        { "id": 12, "kanji": "横", "hiragana": "よこ", "romaji": "yoko", "meanings": { "en": "side", "id": "samping" } },
+        { "id": 13, "kanji": "近く", "hiragana": "ちかく", "romaji": "chikaku", "meanings": { "en": "nearby", "id": "sekitar" } },
+        { "id": 14, "kanji": "東", "hiragana": "ひがし", "romaji": "higashi", "meanings": { "en": "east", "id": "timur" } },
+        { "id": 15, "kanji": "西", "hiragana": "にし", "romaji": "nishi", "meanings": { "en": "west", "id": "barat" } },
+        { "id": 16, "kanji": "北", "hiragana": "きた", "romaji": "kita", "meanings": { "en": "north", "id": "utara" } },
+        { "id": 17, "kanji": "南", "hiragana": "みなみ", "romaji": "minami", "meanings": { "en": "south", "id": "selatan" } }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA_PENUNJUK",
+        "en": "DEMONSTRATIVE_WORDS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "これ", "hiragana": "これ", "romaji": "kore", "meanings": { "en": "this", "id": "ini" } },
+        { "id": 2, "kanji": "それ", "hiragana": "それ", "romaji": "sore", "meanings": { "en": "that", "id": "itu" } },
+        { "id": 3, "kanji": "あれ", "hiragana": "あれ", "romaji": "are", "meanings": { "en": "that (over there)", "id": "itu (jauh)" } },
+        { "id": 4, "kanji": "この", "hiragana": "この", "romaji": "kono", "meanings": { "en": "this (thing)", "id": "benda ini" } },
+        { "id": 5, "kanji": "その", "hiragana": "その", "romaji": "sono", "meanings": { "en": "that (thing)", "id": "benda itu" } }
+      ]
+    }
+  ]
+}

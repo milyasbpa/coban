@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "ALAM",
+        "en": "NATURE"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "天気", "hiragana": "てんき", "romaji": "tenki", "meanings": { "en": "weather, air", "id": "cuaca, udara" } },
+        { "id": 2, "kanji": "空", "hiragana": "そら", "romaji": "sora", "meanings": { "en": "sky", "id": "langit" } },
+        { "id": 3, "kanji": "曇り", "hiragana": "くもり", "romaji": "kumori", "meanings": { "en": "cloudy", "id": "berawan, mendung" } },
+        { "id": 4, "kanji": "晴れ", "hiragana": "はれ", "romaji": "hare", "meanings": { "en": "clear weather", "id": "udara cerah" } },
+        { "id": 5, "kanji": "風", "hiragana": "かぜ", "romaji": "kaze", "meanings": { "en": "wind", "id": "angin" } },
+        { "id": 6, "kanji": "雨", "hiragana": "あめ", "romaji": "ame", "meanings": { "en": "rain", "id": "hujan" } },
+        { "id": 7, "kanji": "雪", "hiragana": "ゆき", "romaji": "yuki", "meanings": { "en": "snow", "id": "salju" } },
+        { "id": 8, "kanji": "水", "hiragana": "みず", "romaji": "mizu", "meanings": { "en": "water", "id": "air" } },
+        { "id": 9, "kanji": "海", "hiragana": "うみ", "romaji": "umi", "meanings": { "en": "sea", "id": "laut" } },
+        { "id": 10, "kanji": "川, 河", "hiragana": "かわ", "romaji": "kawa", "meanings": { "en": "river", "id": "sungai, kali" } },
+        { "id": 11, "kanji": "池", "hiragana": "いけ", "romaji": "ike", "meanings": { "en": "pond", "id": "kolam" } },
+        { "id": 12, "kanji": "山", "hiragana": "やま", "romaji": "yama", "meanings": { "en": "mountain", "id": "gunung" } },
+        { "id": 13, "kanji": "木", "hiragana": "き", "romaji": "ki", "meanings": { "en": "tree, wood", "id": "pohon, kayu" } },
+        { "id": 14, "kanji": "花", "hiragana": "はな", "romaji": "hana", "meanings": { "en": "flower", "id": "bunga" } }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "MUSIM",
+        "en": "SEASONS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "春", "hiragana": "はる", "romaji": "haru", "meanings": { "en": "spring", "id": "musim semi" } },
+        { "id": 2, "kanji": "夏", "hiragana": "なつ", "romaji": "natsu", "meanings": { "en": "summer", "id": "musim panas" } },
+        { "id": 3, "kanji": "秋", "hiragana": "あき", "romaji": "aki", "meanings": { "en": "autumn", "id": "musim gugur" } },
+        { "id": 4, "kanji": "冬", "hiragana": "ふゆ", "romaji": "fuyu", "meanings": { "en": "winter", "id": "musim dingin" } }
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "BINATANG",
+        "en": "ANIMALS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "動物", "hiragana": "どうぶつ", "romaji": "doubutsu", "meanings": { "en": "animal", "id": "binatang" } }
+      ]
+    }
+  ]
+}

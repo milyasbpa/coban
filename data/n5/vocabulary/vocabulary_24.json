@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_SIFAT_NON_I",
+        "en": "NA-ADJECTIVES"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "嫌", "hiragana": "いや", "romaji": "iya", "meanings": { "en": "dislike, hate", "id": "benci, tidak suka" } },
+        { "id": 2, "kanji": "便利", "hiragana": "べんり", "romaji": "benri", "meanings": { "en": "convenient, practical", "id": "praktis" } },
+        { "id": 3, "kanji": "小さ(な)", "hiragana": "ちいさ(な)", "romaji": "chiisa(na)", "meanings": { "en": "small", "id": "kecil" } },
+        { "id": 4, "kanji": "大好き", "hiragana": "だいすき", "romaji": "daisuki", "meanings": { "en": "like very much", "id": "sangat suka" } },
+        { "id": 5, "kanji": "元気", "hiragana": "げんき", "romaji": "genki", "meanings": { "en": "healthy, spirited", "id": "sehat, bersemangat" } },
+        { "id": 6, "kanji": "下手", "hiragana": "へた", "romaji": "heta", "meanings": { "en": "unskilled, poor at", "id": "tidak mahir, bodoh" } },
+        { "id": 7, "kanji": "暇", "hiragana": "ひま", "romaji": "hima", "meanings": { "en": "free time", "id": "senggang" } },
+        { "id": 8, "kanji": "いろいろ", "hiragana": "いろいろ", "romaji": "iroiro", "meanings": { "en": "various", "id": "macam-macam" } },
+        { "id": 9, "kanji": "丈夫", "hiragana": "じょうぶ", "romaji": "joubu", "meanings": { "en": "strong, durable", "id": "kuat, tahan lama" } },
+        { "id": 10, "kanji": "上手", "hiragana": "じょうず", "romaji": "jouzu", "meanings": { "en": "skilled, good at", "id": "mahir" } },
+        { "id": 11, "kanji": "嫌い", "hiragana": "きらい", "romaji": "kirai", "meanings": { "en": "dislike, hate", "id": "benci, tidak suka" } },
+        { "id": 12, "kanji": "きれい", "hiragana": "きれい", "romaji": "kirei", "meanings": { "en": "pretty, clean", "id": "cantik, bersih" } },
+        { "id": 13, "kanji": "にぎやか", "hiragana": "にぎやか", "romaji": "nigiyaka", "meanings": { "en": "lively, bustling", "id": "ramai, bising" } },
+        { "id": 14, "kanji": "大き(な)", "hiragana": "おおき(な)", "romaji": "ooki(na)", "meanings": { "en": "big", "id": "besar" } },
+        { "id": 15, "kanji": "立派", "hiragana": "りっぱ", "romaji": "rippa", "meanings": { "en": "splendid, fine", "id": "megah" } },
+        { "id": 16, "kanji": "親切", "hiragana": "しんせつ", "romaji": "shinsetsu", "meanings": { "en": "kind, gentle", "id": "ramah, baik hati" } },
+        { "id": 17, "kanji": "静か", "hiragana": "しずか", "romaji": "shizuka", "meanings": { "en": "quiet", "id": "tenang" } },
+        { "id": 18, "kanji": "好き", "hiragana": "すき", "romaji": "suki", "meanings": { "en": "like", "id": "suka" } },
+        { "id": 19, "kanji": "たいへん", "hiragana": "たいへん", "romaji": "taihen", "meanings": { "en": "difficult, hard", "id": "menyusahkan" } },
+        { "id": 20, "kanji": "大切", "hiragana": "たいせつ", "romaji": "taisetsu", "meanings": { "en": "important", "id": "penting" } },
+        { "id": 21, "kanji": "有名", "hiragana": "ゆうめい", "romaji": "yuumei", "meanings": { "en": "famous", "id": "terkenal, ternama" } }
+      ]
+    }
+  ]
+}

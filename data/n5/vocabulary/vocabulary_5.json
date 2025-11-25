@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KETERANGAN_WAKTU",
+        "en": "TIME_INFORMATION"
+      },
+      "vocabulary": [
+        { "id": 40, "kanji": "来年", "hiragana": "らいねん", "romaji": "rainen", "meanings": { "en": "next year", "id": "tahun depan" } },
+        { "id": 41, "kanji": "さ来年", "hiragana": "さらいねん", "romaji": "sarainen", "meanings": { "en": "the year after next", "id": "2 tahun yang akan datang" } }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "WARNA",
+        "en": "COLORS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "色", "hiragana": "いろ", "romaji": "iro", "meanings": { "en": "color", "id": "warna" } },
+        { "id": 2, "kanji": "青, 青い", "hiragana": "あお, あおい", "romaji": "ao, aoi", "meanings": { "en": "blue", "id": "biru" } },
+        { "id": 3, "kanji": "赤, 赤い", "hiragana": "あか, あかい", "romaji": "aka, akai", "meanings": { "en": "red", "id": "merah" } },
+        { "id": 4, "kanji": "黄色, 黄色い", "hiragana": "きいろ, きいろい", "romaji": "kiiro, kiiroi", "meanings": { "en": "yellow", "id": "kuning" } },
+        { "id": 5, "kanji": "黒, 黒い", "hiragana": "くろ, くろい", "romaji": "kuro, kuroi", "meanings": { "en": "black", "id": "hitam" } },
+        { "id": 6, "kanji": "白, 白い", "hiragana": "しろ, しろい", "romaji": "shiro, shiroi", "meanings": { "en": "white", "id": "putih" } },
+        { "id": 7, "kanji": "茶色, 茶色い", "hiragana": "ちゃいろ, ちゃいろい", "romaji": "cha'iro, chairoi", "meanings": { "en": "brown", "id": "coklat" } },
+        { "id": 8, "kanji": "緑, 緑色", "hiragana": "みどり, みどりいろ", "romaji": "midori, midori", "meanings": { "en": "green", "id": "hijau" } }
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "SATUAN",
+        "en": "MEASUREMENTS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "キロ, キログラム", "hiragana": "きろ, きろぐらむ", "romaji": "kiro, kiroguramu", "meanings": { "en": "kilo, kilogram (kg)", "id": "kilo, kilogram (kg)" } },
+        { "id": 2, "kanji": "グラム", "hiragana": "ぐらむ", "romaji": "guramu", "meanings": { "en": "gram (gr)", "id": "gram (gr)" } },
+        { "id": 3, "kanji": "キロ, キロメートル", "hiragana": "きろ, きろめーとる", "romaji": "kiro, kiromētoru", "meanings": { "en": "kilo, kilometer (km)", "id": "kilo, kilometer (km)" } },
+        { "id": 4, "kanji": "メートル", "hiragana": "めーとる", "romaji": "mētoru", "meanings": { "en": "meter (m)", "id": "meter (m)" } },
+        { "id": 5, "kanji": "まい", "hiragana": "まい", "romaji": "mai", "meanings": { "en": "sheet, piece", "id": "lembar" } },
+        { "id": 6, "kanji": "ページ", "hiragana": "ぺーじ", "romaji": "peji", "meanings": { "en": "page", "id": "halaman" } },
+        { "id": 7, "kanji": "さつ", "hiragana": "さつ", "romaji": "satsu", "meanings": { "en": "volume, book", "id": "jilid" } },
+        { "id": 8, "kanji": "時間", "hiragana": "じかん", "romaji": "jikan", "meanings": { "en": "hour", "id": "jam" } },
+        { "id": 9, "kanji": "分", "hiragana": "ふん", "romaji": "fun, pun", "meanings": { "en": "minute", "id": "menit" } },
+        { "id": 10, "kanji": "秒", "hiragana": "びょう", "romaji": "byou", "meanings": { "en": "second", "id": "detik" } },
+        { "id": 11, "kanji": "番", "hiragana": "ばん", "romaji": "ban", "meanings": { "en": "number", "id": "nomor" } }
+      ]
+    }
+  ]
+}

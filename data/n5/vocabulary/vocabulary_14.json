@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "BANGUNAN_BAGIAN",
+        "en": "BUILDINGS_PARTS"
+      },
+      "vocabulary": [
+        { "id": 2, "kanji": "アパート", "hiragana": "あぱーと", "romaji": "apāto", "meanings": { "en": "apartment", "id": "apartemen" } },
+        { "id": 3, "kanji": "家", "hiragana": "いえ", "romaji": "ie", "meanings": { "en": "house", "id": "rumah" } },
+        { "id": 4, "kanji": "ホテル", "hiragana": "ほてる", "romaji": "hoteru", "meanings": { "en": "hotel", "id": "hotel" } },
+        { "id": 5, "kanji": "デパート", "hiragana": "でぱーと", "romaji": "depāto", "meanings": { "en": "department store", "id": "toko serba-ada" } },
+        { "id": 6, "kanji": "駅", "hiragana": "えき", "romaji": "eki", "meanings": { "en": "station", "id": "stasiun" } },
+        { "id": 7, "kanji": "病院", "hiragana": "びょういん", "romaji": "byouin", "meanings": { "en": "hospital", "id": "rumah sakit" } },
+        { "id": 8, "kanji": "映画館", "hiragana": "えいがかん", "romaji": "eigakan", "meanings": { "en": "cinema", "id": "bioskop" } },
+        { "id": 9, "kanji": "銀行", "hiragana": "ぎんこう", "romaji": "ginkou", "meanings": { "en": "bank", "id": "bank" } },
+        { "id": 10, "kanji": "郵便局", "hiragana": "ゆうびんきょく", "romaji": "yuubinkyoku", "meanings": { "en": "post office", "id": "kantor pos" } },
+        { "id": 11, "kanji": "大使館", "hiragana": "たいしかん", "romaji": "taishikan", "meanings": { "en": "embassy", "id": "kedutaan" } },
+        { "id": 12, "kanji": "交番", "hiragana": "こうばん", "romaji": "kouban", "meanings": { "en": "police box", "id": "pos polisi" } },
+        { "id": 13, "kanji": "会社", "hiragana": "かいしゃ", "romaji": "kaisha", "meanings": { "en": "company", "id": "kantor, perusahaan" } },
+        { "id": 14, "kanji": "レストラン", "hiragana": "れすとらん", "romaji": "resutoran", "meanings": { "en": "restaurant", "id": "restoran" } },
+        { "id": 15, "kanji": "喫茶店", "hiragana": "きっさてん", "romaji": "kissaten", "meanings": { "en": "coffee shop", "id": "kedai kopi" } },
+        { "id": 16, "kanji": "店", "hiragana": "みせ", "romaji": "mise", "meanings": { "en": "shop", "id": "toko" } },
+        { "id": 17, "kanji": "八百屋", "hiragana": "やおや", "romaji": "yaoya", "meanings": { "en": "greengrocer", "id": "penjual sayur-mayur" } },
+        { "id": 18, "kanji": "エスカレーター", "hiragana": "えすかれーたー", "romaji": "esukarētā", "meanings": { "en": "escalator", "id": "tangga berjalan" } },
+        { "id": 19, "kanji": "階段", "hiragana": "かいだん", "romaji": "kaidan", "meanings": { "en": "stairs", "id": "tangga" } },
+        { "id": 20, "kanji": "入口", "hiragana": "いりぐち", "romaji": "iriguchi", "meanings": { "en": "entrance", "id": "pintu masuk" } },
+        { "id": 21, "kanji": "出口", "hiragana": "でぐち", "romaji": "deguchi", "meanings": { "en": "exit", "id": "pintu keluar" } }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "RUMAH_BAGIAN",
+        "en": "HOUSE_PARTS"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "門", "hiragana": "もん", "romaji": "mon", "meanings": { "en": "gate", "id": "pintu gerbang" } },
+        { "id": 2, "kanji": "庭", "hiragana": "にわ", "romaji": "niwa", "meanings": { "en": "garden", "id": "pekarangan" } },
+        { "id": 3, "kanji": "玄関", "hiragana": "げんかん", "romaji": "genkan", "meanings": { "en": "entrance hall", "id": "pintu gerbang, pintu depan" } },
+        { "id": 4, "kanji": "ドア, 戸", "hiragana": "どあ, と", "romaji": "doa, to", "meanings": { "en": "door", "id": "pintu" } }
+      ]
+    }
+  ]
+}

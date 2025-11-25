@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_V",
+        "en": "VERBS_GROUP_V"
+      },
+      "vocabulary": [
+        { "id": 1, "kanji": "します", "hiragana": "します", "romaji": "shimasu", "meanings": { "en": "to do", "id": "melakukan" } },
+        { "id": 2, "kanji": "勉強します", "hiragana": "べんきょうします", "romaji": "benkyou shimasu", "meanings": { "en": "to study", "id": "belajar" } },
+        { "id": 3, "kanji": "コピーします", "hiragana": "こぴーします", "romaji": "kopī shimasu", "meanings": { "en": "to copy", "id": "mengkopi" } },
+        { "id": 4, "kanji": "練習します", "hiragana": "れんしゅうします", "romaji": "renshuu shimasu", "meanings": { "en": "to practice", "id": "berlatih" } },
+        { "id": 5, "kanji": "散歩します", "hiragana": "さんぽします", "romaji": "sanpo shimasu", "meanings": { "en": "to take a walk", "id": "berjalan-jalan" } },
+        { "id": 6, "kanji": "掃除します", "hiragana": "そうじします", "romaji": "souji shimasu", "meanings": { "en": "to clean", "id": "membersihkan, melap" } }
+      ]
+    }
+  ]
+}

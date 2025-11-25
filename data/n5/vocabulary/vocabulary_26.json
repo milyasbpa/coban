@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA_KERJA_GOLONGAN_I",
+        "en": "VERBS_GROUP_I"
+      },
+      "vocabulary": [
+        { "id": 31, "kanji": "習います", "hiragana": "ならいます", "romaji": "naraimasu", "meanings": { "en": "to learn", "id": "belajar" } },
+        { "id": 32, "kanji": "吸います", "hiragana": "すいます", "romaji": "suimasu", "meanings": { "en": "to inhale, to smoke", "id": "menghisap" } },
+        { "id": 33, "kanji": "使います", "hiragana": "つかいます", "romaji": "tsukaimasu", "meanings": { "en": "to use", "id": "memakai, menggunakan" } },
+        { "id": 34, "kanji": "歌います", "hiragana": "うたいます", "romaji": "utaimasu", "meanings": { "en": "to sing", "id": "bernyanyi" } },
+        { "id": 35, "kanji": "待ちます", "hiragana": "まちます", "romaji": "machimasu", "meanings": { "en": "to wait", "id": "menunggu" } },
+        { "id": 36, "kanji": "持ちます", "hiragana": "もちます", "romaji": "mochimasu", "meanings": { "en": "to hold, to have", "id": "membawa, mempunyai" } },
+        { "id": 37, "kanji": "立ちます", "hiragana": "たちます", "romaji": "tachimasu", "meanings": { "en": "to stand", "id": "berdiri" } },
+        { "id": 38, "kanji": "あります", "hiragana": "あります", "romaji": "arimasu", "meanings": { "en": "to be, to have (inanimate)", "id": "ada, mempunyai (benda mati)" } },
+        { "id": 39, "kanji": "降ります", "hiragana": "ふります", "romaji": "furimasu", "meanings": { "en": "to fall (rain, snow)", "id": "turun (hujan, salju)" } },
+        { "id": 40, "kanji": "入ります", "hiragana": "はいります", "romaji": "hairimasu", "meanings": { "en": "to enter", "id": "masuk, isi" } },
+        { "id": 41, "kanji": "始まります", "hiragana": "はじまります", "romaji": "hajimarimasu", "meanings": { "en": "to begin", "id": "mulai" } },
+        { "id": 42, "kanji": "貼ります", "hiragana": "はります", "romaji": "harimasu", "meanings": { "en": "to stick, to paste", "id": "menempelkan, melekatkan" } },
+        { "id": 43, "kanji": "走ります", "hiragana": "はしります", "romaji": "hashirimasu", "meanings": { "en": "to run", "id": "berlari" } },
+        { "id": 44, "kanji": "要ります", "hiragana": "いります", "romaji": "irimasu", "meanings": { "en": "to need", "id": "butuh, perlu" } },
+        { "id": 45, "kanji": "帰ります", "hiragana": "かえります", "romaji": "kaerimasu", "meanings": { "en": "to return, to go home", "id": "pulang" } },
+        { "id": 46, "kanji": "かかります", "hiragana": "かかります", "romaji": "kakarimasu", "meanings": { "en": "to take (time, money)", "id": "memerlukan (waktu, uang)" } },
+        { "id": 47, "kanji": "切ります", "hiragana": "きります", "romaji": "kirimasu", "meanings": { "en": "to cut", "id": "memotong" } },
+        { "id": 48, "kanji": "困ります", "hiragana": "こまります", "romaji": "komarimasu", "meanings": { "en": "to be troubled", "id": "menyusahkan" } },
+        { "id": 49, "kanji": "曇ります", "hiragana": "くもります", "romaji": "kumorimasu", "meanings": { "en": "to become cloudy", "id": "mendung, berawan" } },
+        { "id": 50, "kanji": "曲がります", "hiragana": "まがります", "romaji": "magarimasu", "meanings": { "en": "to turn, to bend", "id": "membelok, melengkung" } },
+        { "id": 51, "kanji": "なります", "hiragana": "なります", "romaji": "narimasu", "meanings": { "en": "to become", "id": "menjadi" } },
+        { "id": 52, "kanji": "登ります", "hiragana": "のぼります", "romaji": "noborimasu", "meanings": { "en": "to climb", "id": "mendaki" } },
+        { "id": 53, "kanji": "乗ります", "hiragana": "のります", "romaji": "norimasu", "meanings": { "en": "to ride", "id": "naik (kendaraan)" } },
+        { "id": 54, "kanji": "終わります", "hiragana": "おわります", "romaji": "owarimasu", "meanings": { "en": "to finish", "id": "selesai, berakhir" } },
+        { "id": 55, "kanji": "閉まります", "hiragana": "しまります", "romaji": "shimarimasu", "meanings": { "en": "to close", "id": "tutup, tertutup" } },
+        { "id": 56, "kanji": "知ります", "hiragana": "しります", "romaji": "shirimasu", "meanings": { "en": "to know", "id": "mengenal, mengetahui" } },
+        { "id": 57, "kanji": "座ります", "hiragana": "すわります", "romaji": "suwarimasu", "meanings": { "en": "to sit", "id": "duduk" } },
+        { "id": 58, "kanji": "止まります", "hiragana": "とまります", "romaji": "tomarimasu", "meanings": { "en": "to stop", "id": "berhenti" } },
+        { "id": 59, "kanji": "取ります", "hiragana": "とります", "romaji": "torimasu", "meanings": { "en": "to take", "id": "mengambil" } },
+        { "id": 60, "kanji": "撮ります", "hiragana": "とります", "romaji": "torimasu", "meanings": { "en": "to take (photo, film)", "id": "mengambil (foto, film)" } }
+      ]
+    }
+  ]
+}
