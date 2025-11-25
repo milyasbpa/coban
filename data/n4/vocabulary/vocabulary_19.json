@@ -18,8 +18,27 @@
         {"id": 9, "kanji": "飾る", "hiragana": "かざる", "romaji": "kazaru", "meanings": {"en": "to decorate", "id": "menghias, mendekor"}},
         {"id": 10, "kanji": "けんかする", "hiragana": "けんかする", "romaji": "kenka suru", "meanings": {"en": "to fight", "id": "bertengkar, berkelahi"}},
         {"id": 11, "kanji": "聞こえる", "hiragana": "きこえる", "romaji": "kikoeru", "meanings": {"en": "to be heard", "id": "terdengar"}},
-        {"id": 12, "kanji": "固まる", "hiragana": "かたまる", "romaji": "katamaru", "meanings": {"en": "to harden", "id": "padat, meresap"}},
-        {"id": 13, "kanji": "壊す", "hiragana": "こわす", "romaji": "kowasu", "meanings": {"en": "to break", "id": "rusak"}},
+       {
+  "id": 12,
+  "kanji": "込む",
+  "hiragana": "こむ",
+  "romaji": "komu",
+  "meanings": {
+    "en": "to be crowded, to be packed; to go into, to be filled",
+    "id": "padat, meresap"
+  }
+},
+        {
+  "id": 12,
+  "kanji": "故障する",
+  "hiragana": "こしょうする",
+  "romaji": "koshou suru",
+  "meanings": {
+    "en": "to break down, to malfunction",
+    "id": "rusak"
+  }
+}
+,
         {"id": 14, "kanji": "答える", "hiragana": "こたえる", "romaji": "kotaeru", "meanings": {"en": "to answer", "id": "menjawab"}},
         {"id": 15, "kanji": "比べる", "hiragana": "くらべる", "romaji": "kuraberu", "meanings": {"en": "to compare", "id": "membandingkan"}},
         {"id": 16, "kanji": "くれる", "hiragana": "くれる", "romaji": "kureru", "meanings": {"en": "to give (to me)", "id": "memberikan kepada saya"}},
