@@ -46,7 +46,8 @@ const getCorrectWordsInCategory = (
   // Count words that have been mastered (from all 3 exercise types)
   vocabularyIds.forEach((vocabId) => {
     const mastery = currentUserScore.vocabularyMastery[vocabId];
-    if (mastery) {
+    // ✅ FIX: Filter by level AND categoryId to ensure we only count vocabulary from the correct category
+    if (mastery && mastery.level === level && mastery.categoryId === categoryId) {
       // Count how many exercise types have been completed
       const exerciseTypes: ('writing' | 'reading' | 'pairing')[] = ['writing', 'reading', 'pairing'];
       exerciseTypes.forEach((type) => {
@@ -78,7 +79,8 @@ const getCorrectWordsInCategoryByExercise = (
   // Count words that have been completed for this specific exercise type
   vocabularyIds.forEach((vocabId) => {
     const mastery = currentUserScore.vocabularyMastery[vocabId];
-    if (mastery && mastery.exerciseScores[exerciseType] > 0) {
+    // ✅ FIX: Filter by level AND categoryId to ensure we only count vocabulary from the correct category
+    if (mastery && mastery.level === level && mastery.categoryId === categoryId && mastery.exerciseScores[exerciseType] > 0) {
       correctWords++;
     }
   });
