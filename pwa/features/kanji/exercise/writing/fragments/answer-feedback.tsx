@@ -42,19 +42,19 @@ export function AnswerFeedback() {
   return (
     <div className={cn(
       'fixed bottom-0 left-0 right-0 p-4 border-t bg-background/95 backdrop-blur-sm transition-all duration-300',
-      isCorrect ? 'border-green-500/20 bg-green-50/50' : 'border-red-500/20 bg-red-50/50'
+      isCorrect ? 'border-green-500/20 bg-green-50/50 dark:bg-green-950/20' : 'border-red-500/20 bg-red-50/50 dark:bg-red-950/20'
     )}>
       <div className="max-w-sm mx-auto space-y-3">
         <div className="flex items-center gap-3">
           {isCorrect ? (
-            <CheckCircle2 className="h-6 w-6 text-green-600" />
+            <CheckCircle2 className="h-6 w-6 text-green-600 dark:text-green-400" />
           ) : (
-            <XCircle className="h-6 w-6 text-red-600" />
+            <XCircle className="h-6 w-6 text-red-600 dark:text-red-400" />
           )}
           <div>
             <p className={cn(
               'font-medium',
-              isCorrect ? 'text-green-700' : 'text-red-700'
+              isCorrect ? 'text-green-700 dark:text-green-300' : 'text-red-700 dark:text-red-300'
             )}>
               {isCorrect ? 'Correct!' : 'Incorrect!'}
             </p>

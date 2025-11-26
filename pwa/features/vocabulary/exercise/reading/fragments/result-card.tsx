@@ -25,9 +25,9 @@ export const ResultCard: React.FC<ResultCardProps> = ({
   onBackToHome,
 }) => {
   const getScoreColor = (score: number) => {
-    if (score >= 80) return "text-green-600";
-    if (score >= 60) return "text-yellow-600";
-    return "text-red-600";
+    if (score >= 80) return "text-green-600 dark:text-green-400";
+    if (score >= 60) return "text-yellow-600 dark:text-yellow-400";
+    return "text-red-600 dark:text-red-400";
   };
 
   const getScoreMessage = (score: number) => {
@@ -43,7 +43,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({
       {score >= 80 && <Confetti isPerfectScore={score === 100} />}
       <Card className="p-8 text-center space-y-6">
         <div className="space-y-4">
-          <h2 className="text-2xl font-bold text-gray-900">
+          <h2 className="text-2xl font-bold text-foreground">
             Exercise Complete!
           </h2>
           
@@ -51,31 +51,31 @@ export const ResultCard: React.FC<ResultCardProps> = ({
             {score}%
           </div>
           
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-muted-foreground">
             {getScoreMessage(score)}
           </p>
         </div>
 
         <div className="grid grid-cols-3 gap-4 py-4">
           <div className="text-center">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-green-600 dark:text-green-400">
               {correctAnswers}
             </div>
-            <div className="text-sm text-gray-600">Correct</div>
+            <div className="text-sm text-muted-foreground">Correct</div>
           </div>
           
           <div className="text-center">
-            <div className="text-2xl font-bold text-red-600">
+            <div className="text-2xl font-bold text-red-600 dark:text-red-400">
               {wrongAnswers}
             </div>
-            <div className="text-sm text-gray-600">Wrong</div>
+            <div className="text-sm text-muted-foreground">Wrong</div>
           </div>
           
           <div className="text-center">
-            <div className="text-2xl font-bold text-gray-600">
+            <div className="text-2xl font-bold text-foreground">
               {totalQuestions}
             </div>
-            <div className="text-sm text-gray-600">Total</div>
+            <div className="text-sm text-muted-foreground">Total</div>
           </div>
         </div>
 

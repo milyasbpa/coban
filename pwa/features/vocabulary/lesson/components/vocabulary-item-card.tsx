@@ -94,12 +94,12 @@ export function VocabularyItemCard({
           {displayOptions.meaning && (
             <div className="space-y-0.5">
               {language === "en" && (
-                <div className="text-sm text-red-500 font-medium">
+                <div className="text-sm text-red-500 dark:text-red-400 font-medium">
                   {vocabulary.meanings.en}
                 </div>
               )}
               {language === "id" && (
-                <div className="text-xs text-red-400">
+                <div className="text-xs text-red-400 dark:text-red-300">
                   {vocabulary.meanings.id}
                 </div>
               )}
@@ -120,9 +120,9 @@ export function VocabularyItemCard({
             variant="outline"
             size="sm"
             onClick={handleAudioClick}
-            className="w-10 h-10 p-0 rounded-full bg-yellow-400 hover:bg-yellow-500 border-yellow-400 hover:border-yellow-500"
+            className="w-10 h-10 p-0 rounded-full bg-yellow-400 hover:bg-yellow-500 dark:bg-yellow-500 dark:hover:bg-yellow-600 border-yellow-400 hover:border-yellow-500 dark:border-yellow-500 dark:hover:border-yellow-600 transition-colors"
           >
-            <Volume2 className="h-4 w-4 text-black" />
+            <Volume2 className="h-4 w-4 text-black dark:text-gray-900" />
           </Button>
         </div>
       </div>

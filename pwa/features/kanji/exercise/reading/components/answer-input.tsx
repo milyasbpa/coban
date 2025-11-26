@@ -60,7 +60,7 @@ export function AnswerInput({
             onClick={() => onOptionSelect(option)}
             disabled={disabled}
           >
-            <span className="bg-yellow-400 text-black rounded-full w-8 h-8 flex items-center justify-center mr-4 text-sm font-bold">
+            <span className="bg-yellow-400 dark:bg-yellow-500 text-black dark:text-gray-900 rounded-full w-8 h-8 flex items-center justify-center mr-4 text-sm font-bold">
               {index + 1}
             </span>
             {option.furigana}

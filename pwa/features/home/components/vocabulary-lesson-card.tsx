@@ -64,7 +64,7 @@ export function VocabularyLessonCard({
         </div>
 
         <Button
-          className="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-medium"
+          className="w-full bg-yellow-400 hover:bg-yellow-500 dark:bg-yellow-500 dark:hover:bg-yellow-600 text-black dark:text-gray-900 font-medium transition-colors"
           onClick={onExerciseClick}
         >
           Exercise

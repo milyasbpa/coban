@@ -115,11 +115,11 @@ export function VocabularyReadingGameResult() {
           <div className="space-y-2 text-sm text-muted-foreground">
             <div className="flex justify-between">
               <span>Correct:</span>
-              <span className="text-green-600 font-medium">{correctAnswers}</span>
+              <span className="text-green-600 dark:text-green-400 font-medium">{correctAnswers}</span>
             </div>
             <div className="flex justify-between">
               <span>Wrong:</span>
-              <span className="text-red-600 font-medium">{wrongWordsCount}</span>
+              <span className="text-red-600 dark:text-red-400 font-medium">{wrongWordsCount}</span>
             </div>
             <div className="flex justify-between">
               <span>Total:</span>
@@ -134,7 +134,7 @@ export function VocabularyReadingGameResult() {
               <Button
                 onClick={handleRetry}
                 variant="default"
-                className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                className="w-full bg-orange-600 hover:bg-orange-700 dark:bg-orange-700 dark:hover:bg-orange-800 text-white"
               >
                 <RotateCcw className="w-4 h-4 mr-2" />
                 Retry Wrong ({wrongWordsCount})

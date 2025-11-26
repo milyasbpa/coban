@@ -69,18 +69,18 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
     const baseClasses = "h-28 cursor-pointer transition-all duration-200 flex items-center justify-center text-center select-none p-3";
     
     if (isMatched) {
-      return `${baseClasses} bg-green-100 border-green-300 text-green-800`;
+      return `${baseClasses} bg-green-100 dark:bg-green-950/30 border-green-300 dark:border-green-700 text-green-800 dark:text-green-300`;
     }
     
     if (isError) {
-      return `${baseClasses} bg-red-100 border-red-300 text-red-800 animate-pulse`;
+      return `${baseClasses} bg-red-100 dark:bg-red-950/30 border-red-300 dark:border-red-700 text-red-800 dark:text-red-300 animate-pulse`;
     }
     
     if (isSelected) {
-      return `${baseClasses} bg-blue-100 border-blue-300 text-blue-800 scale-105`;
+      return `${baseClasses} bg-blue-100 dark:bg-blue-950/30 border-blue-300 dark:border-blue-700 text-blue-800 dark:text-blue-300 scale-105`;
     }
     
-    return `${baseClasses} hover:bg-gray-50 hover:border-gray-300 hover:scale-102`;
+    return `${baseClasses} hover:bg-gray-50 dark:hover:bg-gray-800/30 hover:border-gray-300 dark:hover:border-gray-600 hover:scale-102`;
   };
 
   return (

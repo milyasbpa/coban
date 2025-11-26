@@ -52,15 +52,15 @@ export function AnswerBottomSheet() {
         className={cn(
           "min-h-[300px] rounded-t-xl",
           isCorrect
-            ? "bg-green-50 border-green-200"
-            : "bg-red-50 border-red-200"
+            ? "bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-800"
+            : "bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-800"
         )}
       >
         <SheetHeader className="text-center space-y-4">
           <SheetTitle
             className={cn(
               "text-2xl font-bold",
-              isCorrect ? "text-green-800" : "text-red-800"
+              isCorrect ? "text-green-800 dark:text-green-300" : "text-red-800 dark:text-red-300"
             )}
           >
             {isCorrect ? "Correct! 🎉" : "Incorrect ❌"}
@@ -85,7 +85,7 @@ export function AnswerBottomSheet() {
               <span
                 className={cn(
                   "font-semibold",
-                  isCorrect ? "text-green-600" : "text-red-600"
+                  isCorrect ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"
                 )}
               >
                 {isCorrect ? "Correct" : "Incorrect"}

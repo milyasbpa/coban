@@ -121,10 +121,10 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
         
         {isAnswered && !isCorrect && (
           <div className="text-center space-y-2">
-            <div className="text-sm text-red-600">
+            <div className="text-sm text-red-600 dark:text-red-400">
               Your answer: <span className="font-medium">{userInput}</span>
             </div>
-            <div className="text-sm text-green-600">
+            <div className="text-sm text-green-600 dark:text-green-400">
               Correct answer: <span className="font-medium">{getExpectedAnswer()}</span>
             </div>
           </div>

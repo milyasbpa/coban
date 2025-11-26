@@ -48,10 +48,10 @@ export function PairingCard({
           "bg-primary/20 border-primary border-2": isSelected && !isError,
           
           // Matched state (success)
-          "bg-green-100 border-green-500 border-2 text-green-800": isMatched,
+          "bg-green-100 dark:bg-green-950/30 border-green-500 dark:border-green-700 border-2 text-green-800 dark:text-green-300": isMatched,
           
           // Error state
-          "bg-red-100 border-red-500 border-2 text-red-800 animate-pulse": isError,
+          "bg-red-100 dark:bg-red-950/30 border-red-500 dark:border-red-700 border-2 text-red-800 dark:text-red-300 animate-pulse": isError,
           
           // Disable hover for matched cards
           "cursor-not-allowed": isMatched,
