@@ -43,6 +43,7 @@ export const integrateVocabularyReadingGameScore = async (
         kanji: question.word.kanji || "",
         hiragana: question.word.hiragana,
         romaji: question.word.romaji || "",
+        categoryId: categoryId, // ✅ Save categoryId from game
         isCorrect: isCorrectFirstAttempt,
         exerciseType: "reading" as const,
         level: level as "N5" | "N4" | "N3" | "N2" | "N1",

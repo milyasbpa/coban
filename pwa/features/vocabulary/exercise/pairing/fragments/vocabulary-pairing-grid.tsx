@@ -3,7 +3,10 @@
 import React, { useMemo } from "react";
 import { VocabularyPairingCard } from "../components/vocabulary-pairing-card";
 import { useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
-import { VocabularySelectedCard, VocabularyPairingWord } from "../store/vocabulary-pairing-exercise.store";
+import {
+  VocabularySelectedCard,
+  VocabularyPairingWord,
+} from "../store/vocabulary-pairing-exercise.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useVocabularyExerciseSearchParams } from "../../utils/hooks";
 import { integrateVocabularyPairingGameScore } from "../utils/scoring-integration";
@@ -44,7 +47,7 @@ export const VocabularyPairingGrid: React.FC = () => {
   // Vocabulary scoring integration at game completion
   const integrateGameScore = async () => {
     if (!categoryId || !level) return;
-    
+    console.log(categoryId, "ini category id");
     await integrateVocabularyPairingGameScore(
       allGameWords,
       globalErrorWords,
@@ -68,9 +71,16 @@ export const VocabularyPairingGrid: React.FC = () => {
     return shuffled;
   }, [sectionWords, language]);
 
-  const handleCardClick = (type: "japanese" | "meaning", vocabularyWord: VocabularyPairingWord) => {
+  const handleCardClick = (
+    type: "japanese" | "meaning",
+    vocabularyWord: VocabularyPairingWord
+  ) => {
     // Get card ID using helper function
-    const cardId = getVocabularyCardId(type, vocabularyWord, language as SupportedLanguage);
+    const cardId = getVocabularyCardId(
+      type,
+      vocabularyWord,
+      language as SupportedLanguage
+    );
 
     // Check if this word is already matched (using VocabularyPairingWord.id) or has error (using card string ID)
     if (matchedPairs.has(vocabularyWord.id) || errorCards.has(cardId)) return;
@@ -87,7 +97,8 @@ export const VocabularyPairingGrid: React.FC = () => {
 
       // Check if it's a valid pair
       if (firstCard.type !== type) {
-        const japaneseCard = firstCard.type === "japanese" ? firstCard : newCard;
+        const japaneseCard =
+          firstCard.type === "japanese" ? firstCard : newCard;
         const meaningCard = firstCard.type === "meaning" ? firstCard : newCard;
 
         // Direct matching using vocabularyWord references
@@ -115,10 +126,7 @@ export const VocabularyPairingGrid: React.FC = () => {
 
         if (matchingWord) {
           // Correct match - only save numeric ID to matchedPairs
-          const newMatchedPairs = new Set([
-            ...matchedPairs,
-            matchingWord.id,
-          ]);
+          const newMatchedPairs = new Set([...matchedPairs, matchingWord.id]);
 
           setMatchedPairs(newMatchedPairs);
           incrementCorrectPairs();
@@ -135,12 +143,14 @@ export const VocabularyPairingGrid: React.FC = () => {
                 const correctOriginalWords = Array.from(newMatchedPairs).filter(
                   (wordId) => {
                     const word = sectionWords.find((w) => w.id === wordId);
-                    return word && globalErrorWords.has(word.kanji || word.hiragana);
+                    return (
+                      word && globalErrorWords.has(word.kanji || word.hiragana)
+                    );
                   }
                 ).length;
 
                 finishRetryMode({ correctCount: correctOriginalWords });
-                
+
                 // Integrate vocabulary scoring for retry completion
                 integrateGameScore();
               } else {
@@ -149,7 +159,7 @@ export const VocabularyPairingGrid: React.FC = () => {
                   // Game complete
                   calculateAndSetScore();
                   setGameComplete(true);
-                  
+
                   // Integrate vocabulary scoring at game completion
                   integrateGameScore();
                 }

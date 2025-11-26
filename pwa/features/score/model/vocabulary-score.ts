@@ -15,6 +15,7 @@ export interface VocabularyExerciseResult {
   kanji: string; // The vocabulary word (e.g., "具合")
   hiragana: string; // Reading (e.g., "ぐあい")
   romaji: string; // Romanization (e.g., "guai")
+  categoryId: string; // Category identifier (e.g., "1" or "ANGKA")
   exerciseType: VocabularyExerciseType;
   isCorrect: boolean;
   level: "N5" | "N4" | "N3" | "N2" | "N1"; // Level context for per-vocabulary scoring

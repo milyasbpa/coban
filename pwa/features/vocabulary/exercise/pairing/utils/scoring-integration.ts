@@ -43,6 +43,7 @@ export const integrateVocabularyPairingGameScore = async (
         kanji: word.kanji || "",
         hiragana: word.hiragana,
         romaji: word.romaji || "",
+        categoryId: categoryId, // ✅ Save categoryId from game
         isCorrect: isCorrectFirstAttempt,
         exerciseType: "pairing" as const,
         level: level as "N5" | "N4" | "N3" | "N2" | "N1",

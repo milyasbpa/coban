@@ -77,9 +77,7 @@ export class VocabularyService {
 
     // If not found, try to find by category.id string match (e.g., "ANGKA")
     if (!category) {
-      category = categories.find(
-        (cat) => cat.category.id === categoryStringId
-      );
+      category = categories.find((cat) => cat.category.id === categoryStringId);
     }
 
     return category || null;

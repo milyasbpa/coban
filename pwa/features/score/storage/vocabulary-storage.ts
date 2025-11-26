@@ -91,7 +91,7 @@ export class VocabularyStorageManager {
           hiragana: result.hiragana,
           romaji: result.romaji,
           level: result.level,
-          categoryId: "", // Will be set from vocabulary data if available
+          categoryId: result.categoryId, // ✅ Use categoryId from result
           ...DEFAULT_VOCABULARY_MASTERY,
         };
       }
