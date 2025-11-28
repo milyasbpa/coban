@@ -1,0 +1,83 @@
+{
+  "level": "N5",
+  "categories": [
+    {
+      "id": "COPULA_DESU",
+      "en": "Copula desu",
+      "items": [
+        {
+          "id": "WA_DESU_AFFIRM",
+          "title": "A adalah B (〜は〜です)",
+          "formula": [
+            { "type": "slot", "name": "subject" },
+            { "type": "literal", "jp": "は", "romaji": "wa" },
+            { "type": "slot", "name": "predicate" },
+            { "type": "literal", "jp": "です", "romaji": "desu" }
+          ],
+          "variants": ["affirmative"],
+          "translationTemplate": "{subject} adalah {predicate}.",
+          "examples": [
+            {
+              "id": 1,
+              "japanese": "私はインドネシア人です。",
+              "hiragana": "わたしは いんどねしあじん です。",
+              "romaji": "watashi wa indonesia-jin desu.",
+              "translation": "Saya adalah orang Indonesia.",
+              "slots": {
+                "subject": "私",
+                "predicate": "インドネシア人"
+              }
+            },
+            {
+              "id": 2,
+              "japanese": "今日は暑いです。",
+              "hiragana": "きょうは あつい です。",
+              "romaji": "kyou wa atsui desu.",
+              "translation": "Hari ini panas.",
+              "slots": {
+                "subject": "今日",
+                "predicate": "暑い"
+              }
+            }
+          ],
+          "distractors": {
+            "particles": ["が", "を", "に"],
+            "copula": ["だ", "でした", "ではありません"]
+          }
+        },
+        {
+          "id": "WA_NAN_DESU_KA",
+          "title": "Apa itu? (〜は何ですか)",
+          "formula": [
+            { "type": "slot", "name": "topic" },
+            { "type": "literal", "jp": "は", "romaji": "wa" },
+            { "type": "literal", "jp": "何", "romaji": "nan" },
+            { "type": "literal", "jp": "ですか", "romaji": "desu ka" }
+          ],
+          "variants": ["question"],
+          "translationTemplate": "Apa {topic} itu?",
+          "examples": [
+            {
+              "id": 1,
+              "japanese": "それは何ですか。",
+              "hiragana": "それは なん ですか。",
+              "romaji": "sore wa nan desu ka?",
+              "translation": "Itu apa?"
+            },
+            {
+              "id": 2,
+              "japanese": "お国はどこですか。",
+              "hiragana": "おくには どこ ですか。",
+              "romaji": "okuni wa doko desu ka?",
+              "translation": "Negara asal Anda di mana?"
+            }
+          ],
+          "distractors": {
+            "wh": ["だれ", "どれ", "どこ", "いつ"],
+            "particles": ["が", "を"]
+          }
+        }
+      ]
+    }
+  ]
+}
