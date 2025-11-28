@@ -42,6 +42,7 @@ interface KanjiScoreState {
     masteredKanji: number;
   } | null;
   getKanjiMastery: (kanjiId: string) => KanjiMasteryLevel | null;
+  getKanjiAccuracy: (kanjiId: string) => number | null;
 
   // Utility
   refreshUserScore: () => Promise<void>;
@@ -292,6 +293,26 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     if (!currentUserScore) return null;
 
     return currentUserScore.kanjiMastery[kanjiId] || null;
+  },
+
+  // Get kanji accuracy percentage (for color coding in UI)
+  getKanjiAccuracy: (kanjiId: string): number | null => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return null;
+
+    const kanjiMastery = currentUserScore.kanjiMastery[kanjiId];
+    if (!kanjiMastery) return null;
+
+    // Calculate total attempts and correct attempts across all words
+    const words = Object.values(kanjiMastery.words);
+    if (words.length === 0) return null;
+
+    const totalAttempts = words.reduce((sum, word) => sum + word.totalAttempts, 0);
+    const correctAttempts = words.reduce((sum, word) => sum + word.correctAttempts, 0);
+
+    if (totalAttempts === 0) return null;
+
+    return Math.round((correctAttempts / totalAttempts) * 100);
   },
 
   // Refresh user score from storage

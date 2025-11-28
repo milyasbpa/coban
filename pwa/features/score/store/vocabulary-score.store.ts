@@ -19,6 +19,7 @@ export interface VocabularyScoreState {
     level: string
   ) => number;
   getOverallProgress: () => number;
+  getVocabularyAccuracy: (vocabularyId: string) => number | null;
   refreshUserScore: () => Promise<void>;
   resetProgress: () => Promise<void>;
 }
@@ -179,6 +180,19 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
     const maxPossibleScore = allMastery.length * 100; // 100 points per vocabulary
     
     return Math.round((totalScore / maxPossibleScore) * 100);
+  },
+
+  // Get vocabulary accuracy percentage (for color coding in UI)
+  getVocabularyAccuracy: (vocabularyId: string): number | null => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return null;
+
+    const vocabulary = currentUserScore.vocabularyMastery[vocabularyId];
+    if (!vocabulary) return null;
+
+    if (vocabulary.totalAttempts === 0) return null;
+
+    return Math.round((vocabulary.correctAttempts / vocabulary.totalAttempts) * 100);
   },
 
   // Refresh user score from storage
