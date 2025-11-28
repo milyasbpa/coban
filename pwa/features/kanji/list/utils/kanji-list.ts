@@ -72,7 +72,7 @@ export const getAllKanjiByLevel = (level: string): KanjiItem[] => {
 
 // Get available levels (only levels with actual data)
 export const getAvailableLevels = () => {
-  return ["All", "N5", "N4"];
+  return ["All", "N5", "N4", "N3", "N2"];
 };
 
 // Get kanji by ID and level (for kanji detail navigation)

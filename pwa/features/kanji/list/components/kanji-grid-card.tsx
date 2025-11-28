@@ -17,11 +17,11 @@ export function KanjiGridCard({ kanji, onClick }: KanjiGridCardProps) {
 
   return (
     <Card 
-      className="aspect-square bg-accent hover:bg-accent/80 transition-colors cursor-pointer border-2 border-border hover:border-ring shadow-sm hover:shadow-md"
+      className="aspect-square bg-card hover:bg-muted/50 transition-all duration-200 cursor-pointer border border-border hover:border-primary/30 hover:shadow-lg"
       onClick={handleClick}
     >
-      <div className="w-full h-full flex items-center justify-center">
-        <span className="text-2xl md:text-3xl font-bold text-accent-foreground select-none">
+      <div className="w-full h-full flex items-center justify-center p-2">
+        <span className="text-2xl md:text-3xl font-bold text-foreground select-none">
           {kanji.character}
         </span>
       </div>
