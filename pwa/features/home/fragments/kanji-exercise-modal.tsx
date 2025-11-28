@@ -12,7 +12,11 @@ import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store
 import { ExerciseCard } from "../components/exercise-card";
 import { Edit3, Book, Users } from "lucide-react";
 
-export function KanjiExerciseModal() {
+interface KanjiExerciseModalProps {
+  showProgress?: boolean;
+}
+
+export function KanjiExerciseModal({ showProgress = false }: KanjiExerciseModalProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { kanjiExerciseModal, closeKanjiExerciseModal } = useHomeStore();
   const { getExerciseProgress } = useKanjiScoreStore();
@@ -77,6 +81,7 @@ export function KanjiExerciseModal() {
               selectedLevel
             )}
             onClick={handleExerciseStart}
+            showProgress={showProgress}
           />
 
           {/* Reading Exercise */}
@@ -92,6 +97,7 @@ export function KanjiExerciseModal() {
               selectedLevel
             )}
             onClick={handleExerciseStart}
+            showProgress={showProgress}
           />
 
           {/* Pairing Exercise */}
@@ -107,6 +113,7 @@ export function KanjiExerciseModal() {
               selectedLevel
             )}
             onClick={handleExerciseStart}
+            showProgress={showProgress}
           />
         </div>
       </DialogContent>

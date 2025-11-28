@@ -20,7 +20,11 @@ interface VocabularyExerciseModalData {
   level: string;
 }
 
-export function VocabularyExerciseModal() {
+interface VocabularyExerciseModalProps {
+  showProgress?: boolean;
+}
+
+export function VocabularyExerciseModal({ showProgress = false }: VocabularyExerciseModalProps) {
   const router = useRouter();
   const { vocabularyExerciseModal, closeVocabularyExerciseModal } = useHomeStore();
   const { getExerciseProgress } = useVocabularyScoreStore();
@@ -74,6 +78,7 @@ export function VocabularyExerciseModal() {
             Icon={Edit3}
             progress={getExerciseProgress("writing", categoryId, level)}
             onClick={handleExerciseStart}
+            showProgress={showProgress}
           />
 
           {/* Reading Exercise */}
@@ -83,6 +88,7 @@ export function VocabularyExerciseModal() {
             Icon={Book}
             progress={getExerciseProgress("reading", categoryId, level)}
             onClick={handleExerciseStart}
+            showProgress={showProgress}
           />
 
           {/* Pairing Exercise */}
@@ -92,6 +98,7 @@ export function VocabularyExerciseModal() {
             Icon={Users}
             progress={getExerciseProgress("pairing", categoryId, level)}
             onClick={handleExerciseStart}
+            showProgress={showProgress}
           />
         </div>
       </DialogContent>

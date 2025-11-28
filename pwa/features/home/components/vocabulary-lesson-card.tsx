@@ -12,6 +12,7 @@ interface VocabularyLessonCardProps {
   progress: number;
   onExerciseClick?: () => void;
   onListClick?: () => void;
+  showProgress?: boolean;
 }
 
 export function VocabularyLessonCard({
@@ -22,6 +23,7 @@ export function VocabularyLessonCard({
   progress,
   onExerciseClick,
   onListClick,
+  showProgress = false,
 }: VocabularyLessonCardProps) {
   return (
     <Card className="hover:shadow-xl transition-all duration-300 hover:border-ring gap-0 py-4">
@@ -35,12 +37,14 @@ export function VocabularyLessonCard({
               Lesson {lessonNumber}
             </Badge>
           </div>
-          <div className="flex items-center gap-2">
-            <Progress value={progress} className="w-32 h-2" />
-            <span className="text-foreground font-bold text-sm">
-              {progress}%
-            </span>
-          </div>
+          {showProgress && (
+            <div className="flex items-center gap-2">
+              <Progress value={progress} className="w-32 h-2" />
+              <span className="text-foreground font-bold text-sm">
+                {progress}%
+              </span>
+            </div>
+          )}
         </div>
 
         <div className="flex items-center justify-between mb-4">

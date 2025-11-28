@@ -16,7 +16,11 @@ import {
 import { useHomeSettingsStore } from "../store/home-settings.store";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 
-export function KanjiTopicLessonsSection() {
+interface KanjiTopicLessonsSectionProps {
+  showProgress?: boolean;
+}
+
+export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLessonsSectionProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { openKanjiExerciseModal } = useHomeStore();
   const { getLessonProgress } = useKanjiScoreStore();
@@ -100,10 +104,11 @@ export function KanjiTopicLessonsSection() {
               kanjiList={category?.kanji_characters || []}
               onExerciseClick={() => handleTopicExerciseClick(topic.id)}
               onListClick={() => handleTopicListClick(topic.id)}
+              showProgress={showProgress}
             />
           );
         })}
-        <KanjiExerciseModal />
+        <KanjiExerciseModal showProgress={showProgress} />
       </div>
     );
   }
@@ -154,6 +159,7 @@ export function KanjiTopicLessonsSection() {
                   kanjiList={category?.kanji_characters || []}
                   onExerciseClick={() => handleTopicExerciseClick(topic.id)}
                   onListClick={() => handleTopicListClick(topic.id)}
+                  showProgress={showProgress}
                 />
               );
             })}
@@ -161,7 +167,7 @@ export function KanjiTopicLessonsSection() {
         ))}
       </Tabs>
 
-      <KanjiExerciseModal />
+      <KanjiExerciseModal showProgress={showProgress} />
     </div>
   );
 }

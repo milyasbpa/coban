@@ -22,6 +22,10 @@ interface ExerciseCardProps {
    * Click handler when card is clicked
    */
   onClick: (exerciseType: string) => void;
+  /**
+   * Whether to show progress bar and percentage
+   */
+  showProgress?: boolean;
 }
 
 /**
@@ -34,6 +38,7 @@ export function ExerciseCard({
   Icon,
   progress,
   onClick,
+  showProgress = false,
 }: ExerciseCardProps) {
   return (
     <div
@@ -47,14 +52,18 @@ export function ExerciseCard({
             {title}
           </span>
         </div>
-        <div className="text-right text-sm font-medium text-foreground">
-          {progress}%
-        </div>
+        {showProgress && (
+          <div className="text-right text-sm font-medium text-foreground">
+            {progress}%
+          </div>
+        )}
       </div>
-      <Progress
-        value={progress}
-        className="mb-2 h-1.5"
-      />
+      {showProgress && (
+        <Progress
+          value={progress}
+          className="mb-2 h-1.5"
+        />
+      )}
     </div>
   );
 }

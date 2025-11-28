@@ -81,9 +81,9 @@ export function HomeContainer() {
 
         {/* Kanji Lessons Section */}
         {selectedCategory === "vocabulary" ? (
-          <VocabularyLessonSection />
+          <VocabularyLessonSection showProgress={isAuthenticated} />
         ) : selectedCategory === "kanji" ? (
-          <KanjiLessonsSection />
+          <KanjiLessonsSection showProgress={isAuthenticated} />
         ) : null}
       </div>
     </div>

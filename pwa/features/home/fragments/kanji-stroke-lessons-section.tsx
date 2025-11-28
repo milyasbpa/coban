@@ -15,7 +15,11 @@ import {
 import { useHomeSettingsStore } from "../store/home-settings.store";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 
-export function KanjiStrokeLessonsSection() {
+interface KanjiStrokeLessonsSectionProps {
+  showProgress?: boolean;
+}
+
+export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeLessonsSectionProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { openKanjiExerciseModal } = useHomeStore();
   const { getLessonProgress } = useKanjiScoreStore();
@@ -95,9 +99,10 @@ export function KanjiStrokeLessonsSection() {
             kanjiList={lesson.kanji.map((k) => k.character)}
             onExerciseClick={() => handleExerciseClick(lesson.id)}
             onListClick={() => handleListClick(lesson.id)}
+            showProgress={showProgress}
           />
         ))}
-        <KanjiExerciseModal />
+        <KanjiExerciseModal showProgress={showProgress} />
       </div>
     );
   }
@@ -143,13 +148,14 @@ export function KanjiStrokeLessonsSection() {
                 kanjiList={lesson.kanji.map((k) => k.character)}
                 onExerciseClick={() => handleExerciseClick(lesson.id)}
                 onListClick={() => handleListClick(lesson.id)}
+                showProgress={showProgress}
               />
             ))}
           </TabsContent>
         ))}
       </Tabs>
 
-      <KanjiExerciseModal />
+      <KanjiExerciseModal showProgress={showProgress} />
     </div>
   );
 }

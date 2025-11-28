@@ -16,7 +16,11 @@ import { useHomeSettingsStore } from "../store/home-settings.store";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 import { titleCase } from "@/pwa/core/lib/utils/titleCase";
 
-export function VocabularyLessonSection() {
+interface VocabularyLessonSectionProps {
+  showProgress?: boolean;
+}
+
+export function VocabularyLessonSection({ showProgress = false }: VocabularyLessonSectionProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { openVocabularyExerciseModal } = useHomeStore();
   const { getCategoryProgress } = useVocabularyScoreStore();
@@ -94,9 +98,10 @@ export function VocabularyLessonSection() {
             progress={getCategoryProgress(category.id.toString(), selectedLevel)}
             onExerciseClick={() => handleVocabularyExerciseClick(category.id)}
             onListClick={() => handleVocabularyListClick(category.id)}
+            showProgress={showProgress}
           />
         ))}
-        <VocabularyExerciseModal />
+        <VocabularyExerciseModal showProgress={showProgress} />
       </div>
     );
   }
@@ -135,6 +140,7 @@ export function VocabularyLessonSection() {
                     handleVocabularyExerciseClick(category.id)
                   }
                   onListClick={() => handleVocabularyListClick(category.id)}
+                  showProgress={showProgress}
                 />
               );
             })}
@@ -142,7 +148,7 @@ export function VocabularyLessonSection() {
         ))}
       </Tabs>
 
-      <VocabularyExerciseModal />
+      <VocabularyExerciseModal showProgress={showProgress} />
     </div>
   );
 }

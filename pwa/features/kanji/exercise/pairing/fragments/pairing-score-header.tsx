@@ -5,11 +5,10 @@ import { usePairingGameStore } from "../store/pairing-game.store";
 import { getScoreTextColor } from "../utils/score-colors";
 
 export function PairingScoreHeader() {
-  const { gameState, sectionState, getSectionTotalWords } =
-    usePairingGameStore();
+  const { gameState, getSectionTotalWords } = usePairingGameStore();
   const totalWords = getSectionTotalWords();
   const scoreTextColor = getScoreTextColor(gameState.score);
-  console.log(gameState, sectionState, "ini apa");
+
   return (
     <div className="flex justify-between items-center mb-6">
       {/* Score Card */}
