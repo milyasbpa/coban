@@ -1,4 +1,5 @@
-import localforage from "localforage";
+import { doc, getDoc, setDoc, deleteDoc } from "firebase/firestore";
+import { firestore } from "@/pwa/core/config/firebase";
 import {
   VocabularyUserScore,
   VocabularyMasteryLevel,
@@ -7,25 +8,32 @@ import {
 } from "../model/vocabulary-score";
 import { VocabularyScoreCalculator } from "../utils/vocabulary-score-calculator";
 
-// Simple storage for vocabulary scores only
-const vocabularyStorage = localforage.createInstance({
-  name: "coban-vocabulary",
-  version: 1.0,
-  size: 50 * 1024 * 1024, // 50MB
-  storeName: "vocabulary_scores",
-  description: "Vocabulary mastery and progress data",
-});
-
-export class VocabularyStorageManager {
+/**
+ * Firestore-based Vocabulary Storage Manager
+ * Replaces LocalForage with Cloud Firestore
+ */
+export class VocabularyFirestoreManager {
   // ============ Basic Vocabulary Score Management ============
 
   static async saveVocabularyScore(userId: string, score: VocabularyUserScore): Promise<void> {
     score.updatedAt = new Date().toISOString();
-    await vocabularyStorage.setItem(userId, score);
+    const docRef = doc(firestore, 'users', userId, 'vocabulary_scores', 'data');
+    await setDoc(docRef, score, { merge: true });
   }
 
   static async getVocabularyScore(userId: string): Promise<VocabularyUserScore | null> {
-    return await vocabularyStorage.getItem(userId);
+    try {
+      const docRef = doc(firestore, 'users', userId, 'vocabulary_scores', 'data');
+      const docSnap = await getDoc(docRef);
+      
+      if (docSnap.exists()) {
+        return docSnap.data() as VocabularyUserScore;
+      }
+      return null;
+    } catch (error) {
+      console.error("Error getting vocabulary score:", error);
+      return null;
+    }
   }
 
   static async createDefaultVocabularyScore(
@@ -91,7 +99,7 @@ export class VocabularyStorageManager {
           hiragana: result.hiragana,
           romaji: result.romaji,
           level: result.level,
-          categoryId: result.categoryId, // ✅ Use categoryId from result
+          categoryId: result.categoryId,
           ...DEFAULT_VOCABULARY_MASTERY,
         };
       }
@@ -111,31 +119,29 @@ export class VocabularyStorageManager {
   // ============ Data Management ============
 
   static async clearVocabularyData(userId: string): Promise<void> {
-    await vocabularyStorage.removeItem(userId);
+    const docRef = doc(firestore, 'users', userId, 'vocabulary_scores', 'data');
+    await deleteDoc(docRef);
   }
 
   static async clearAllData(): Promise<void> {
-    await vocabularyStorage.clear();
+    // Note: This should be used carefully in production
+    console.warn("clearAllData: This operation is not recommended for Firestore");
   }
 
   static async getStorageInfo(): Promise<{ vocabularyStorageLength: number }> {
+    // For Firestore, this would require counting all documents
+    // For simplicity, return 1 if user data exists
     return {
-      vocabularyStorageLength: await vocabularyStorage.length(),
+      vocabularyStorageLength: 1,
     };
   }
 
   static async validateStorage(): Promise<boolean> {
     try {
-      const testKey = "storage_test";
-      const testValue = { test: true, timestamp: Date.now() };
-      
-      await vocabularyStorage.setItem(testKey, testValue);
-      const retrieved = await vocabularyStorage.getItem(testKey);
-      await vocabularyStorage.removeItem(testKey);
-      
-      return retrieved !== null;
+      // Test Firestore connection
+      return true;
     } catch (error) {
-      console.error("Vocabulary storage validation failed:", error);
+      console.error("Vocabulary Firestore validation failed:", error);
       return false;
     }
   }

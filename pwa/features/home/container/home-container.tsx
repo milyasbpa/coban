@@ -9,6 +9,7 @@ import { KanjiLessonTypeToggle } from "../fragments/kanji-lesson-type-toggle";
 import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { useHomeSettingsStore } from "../store/home-settings.store";
 import { config } from "@/pwa/core/config/env";
 import { VocabularyLessonSection } from "../fragments/vocabulary-lesson-section";
@@ -45,6 +46,7 @@ function ConditionalControls() {
 
 export function HomeContainer() {
   const { selectedCategory } = useHomeSettingsStore();
+  const { isAuthenticated, user } = useLoginStore();
 
   const {
     initializeUser: initializeKanjiUser,
@@ -53,13 +55,14 @@ export function HomeContainer() {
   const { initializeUser: initializeVocabularyUser } =
     useVocabularyScoreStore();
 
-  // Initialize score systems on app start
+  // Initialize score systems only for authenticated users
   useEffect(() => {
-    if (!isKanjiInitialized) {
-      initializeKanjiUser(config.defaults.userId, config.defaults.level);
-      initializeVocabularyUser(config.defaults.userId, config.defaults.level);
+    // Only initialize if user is authenticated
+    if (isAuthenticated && user && !isKanjiInitialized) {
+      initializeKanjiUser(user.uid, config.defaults.level);
+      initializeVocabularyUser(user.uid, config.defaults.level);
     }
-  }, [initializeKanjiUser, initializeVocabularyUser, isKanjiInitialized]);
+  }, [isAuthenticated, user, initializeKanjiUser, initializeVocabularyUser, isKanjiInitialized]);
 
   return (
     <div className="min-h-screen bg-background">

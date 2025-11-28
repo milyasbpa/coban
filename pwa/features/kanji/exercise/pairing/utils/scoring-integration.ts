@@ -8,6 +8,7 @@ import type { PairingWord } from "../types";
  * @param allGameWords - All words that were played in the game
  * @param globalErrorWords - Set of words that had errors (first-attempt failed)
  * @param level - JLPT level
+ * @param userId - Firebase Auth user ID
  * @param updateKanjiMastery - Function to update kanji mastery
  * @param initializeUser - Function to initialize user if needed
  * @param isInitialized - Whether user is already initialized
@@ -17,6 +18,7 @@ export const integratePairingGameScore = async (
   allGameWords: PairingWord[],
   globalErrorWords: Set<string>,
   level: string,
+  userId: string,
   updateKanjiMastery: (kanjiId: string, character: string, results: KanjiExerciseResult[]) => Promise<void>,
   initializeUser: (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>,
   isInitialized: boolean,
@@ -26,7 +28,7 @@ export const integratePairingGameScore = async (
     // Auto-initialize user if not already initialized
     if (!isInitialized || !currentUserScore) {
       await initializeUser(
-        "default-user",
+        userId,
         level as "N5" | "N4" | "N3" | "N2" | "N1"
       );
     }

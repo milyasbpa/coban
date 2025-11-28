@@ -1,6 +1,6 @@
 import type { VocabularyExerciseResult } from "@/pwa/features/score/model/vocabulary-score";
 import type { VocabularyQuestion } from "../../shared/types";
-import { VocabularyStorageManager } from "@/pwa/features/score/storage/vocabulary-storage";
+import { VocabularyFirestoreManager } from "@/pwa/features/score/storage/vocabulary-firestore";
 
 /**
  * Integrate vocabulary reading exercise results with vocabulary scoring system
@@ -9,20 +9,21 @@ import { VocabularyStorageManager } from "@/pwa/features/score/storage/vocabular
  * @param wrongQuestions - Questions that had errors (first-attempt failed)
  * @param level - JLPT level
  * @param categoryId - Vocabulary category ID
+ * @param userId - Firebase Auth user ID
  */
 export const integrateVocabularyReadingGameScore = async (
   allQuestions: VocabularyQuestion[],
   wrongQuestions: VocabularyQuestion[],
   level: string,
-  categoryId: string
+  categoryId: string,
+  userId: string
 ) => {
   try {
     // Initialize user score if needed
-    const userId = "default-user";
-    let userScore = await VocabularyStorageManager.getVocabularyScore(userId);
+    let userScore = await VocabularyFirestoreManager.getVocabularyScore(userId);
 
     if (!userScore) {
-      userScore = await VocabularyStorageManager.createDefaultVocabularyScore(
+      userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(
         userId,
         level as "N5" | "N4" | "N3" | "N2" | "N1"
       );
@@ -53,7 +54,7 @@ export const integrateVocabularyReadingGameScore = async (
     });
 
     // Update mastery for each vocabulary word
-    await VocabularyStorageManager.saveExerciseResults(userId, exerciseResults);
+    await VocabularyFirestoreManager.saveExerciseResults(userId, exerciseResults);
 
     console.log(`✅ Successfully integrated vocabulary reading game score for ${allQuestions.length} questions`);
     

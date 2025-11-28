@@ -11,6 +11,7 @@ import { cn } from "@/pwa/core/lib/utils";
 import { useReadingExerciseStore } from "../store";
 import { calculateReadingScore } from "../utils/reading-game";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function AnswerBottomSheet() {
@@ -21,6 +22,7 @@ export function AnswerBottomSheet() {
     handleNextQuestion,
   } = useReadingExerciseStore();
 
+  const { user } = useLoginStore();
   const {
     updateKanjiMastery,
     initializeUser,
@@ -40,7 +42,8 @@ export function AnswerBottomSheet() {
       updateKanjiMastery,
       initializeUser,
       isInitialized,
-      currentUserScore
+      currentUserScore,
+      user?.uid || null
     );
   };
   if (!currentResult || !currentQuestion) return null;

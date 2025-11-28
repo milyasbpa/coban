@@ -8,6 +8,7 @@ import {
   VocabularyPairingWord,
 } from "../store/vocabulary-pairing-exercise.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { useVocabularyExerciseSearchParams } from "../../utils/hooks";
 import { integrateVocabularyPairingGameScore } from "../utils/scoring-integration";
 import {
@@ -20,6 +21,7 @@ import { playAudio } from "@/pwa/core/lib/utils/audio";
 
 export const VocabularyPairingGrid: React.FC = () => {
   const { language } = useLanguage();
+  const { isAuthenticated, user } = useLoginStore();
   const { level, categoryId } = useVocabularyExerciseSearchParams();
 
   const {
@@ -44,15 +46,22 @@ export const VocabularyPairingGrid: React.FC = () => {
     finishRetryMode,
   } = useVocabularyPairingExerciseStore();
 
-  // Vocabulary scoring integration at game completion
+  // Vocabulary scoring integration at game completion (only for authenticated users)
   const integrateGameScore = async () => {
     if (!categoryId || !level) return;
+    
+    if (!isAuthenticated || !user) {
+      console.log("⚠️ Guest user - score not saved");
+      return;
+    }
+
     console.log(categoryId, "ini category id");
     await integrateVocabularyPairingGameScore(
       allGameWords,
       globalErrorWords,
       level,
-      categoryId
+      categoryId,
+      user.uid
     );
   };
 

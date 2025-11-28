@@ -8,6 +8,7 @@ import type { KanjiExample } from "@/pwa/core/services/kanji";
  * @param allQuestions - All questions that were played in the game
  * @param wrongQuestions - Questions that had errors (first-attempt failed)
  * @param level - JLPT level
+ * @param userId - Firebase Auth user ID
  * @param updateKanjiMastery - Function to update kanji mastery
  * @param initializeUser - Function to initialize user if needed
  * @param isInitialized - Whether user is already initialized
@@ -17,6 +18,7 @@ export const integrateWritingGameScore = async (
   allQuestions: KanjiExample[],
   wrongQuestions: KanjiExample[],
   level: string,
+  userId: string,
   updateKanjiMastery: (kanjiId: string, character: string, results: KanjiExerciseResult[]) => Promise<void>,
   initializeUser: (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>,
   isInitialized: boolean,
@@ -26,7 +28,7 @@ export const integrateWritingGameScore = async (
     // Auto-initialize user if not already initialized
     if (!isInitialized || !currentUserScore) {
       await initializeUser(
-        "default-user",
+        userId,
         level as "N5" | "N4" | "N3" | "N2" | "N1"
       );
     }

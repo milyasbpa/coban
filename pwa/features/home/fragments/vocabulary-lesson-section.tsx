@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { VocabularyLessonCard } from "../components/vocabulary-lesson-card";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
@@ -19,16 +19,9 @@ import { titleCase } from "@/pwa/core/lib/utils/titleCase";
 export function VocabularyLessonSection() {
   const { selectedLevel } = useHomeSettingsStore();
   const { openVocabularyExerciseModal } = useHomeStore();
-  const { getCategoryProgress, initializeUser, isInitialized } = useVocabularyScoreStore();
+  const { getCategoryProgress } = useVocabularyScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
-
-  // Initialize vocabulary score store
-  useEffect(() => {
-    if (!isInitialized) {
-      initializeUser("default-user", selectedLevel as "N5" | "N4" | "N3" | "N2" | "N1");
-    }
-  }, [isInitialized, initializeUser, selectedLevel]);
 
   const CATEGORIES_PER_TAB = 10;
 

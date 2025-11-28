@@ -10,6 +10,7 @@ import { Button } from "@/pwa/core/components/button";
 import { cn } from "@/pwa/core/lib/utils";
 import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-exercise.store";
 import { calculateScore } from "../utils/vocabulary-reading.utils";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { useVocabularyExerciseSearchParams } from "../../utils/hooks";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
@@ -21,6 +22,7 @@ export function VocabularyAnswerBottomSheet() {
     handleNextQuestion,
   } = useVocabularyReadingExerciseStore();
 
+  const { user } = useLoginStore();
   const { level, categoryId } = useVocabularyExerciseSearchParams();
   const { language } = useLanguage();
 
@@ -29,7 +31,7 @@ export function VocabularyAnswerBottomSheet() {
 
   const onNext = () => {
     if (!categoryId) return;
-    handleNextQuestion(calculateScore, level, categoryId);
+    handleNextQuestion(calculateScore, level, categoryId, user?.uid || null);
   };
 
   if (!currentResult || !currentQuestion) return null;

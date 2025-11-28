@@ -14,11 +14,13 @@ import {
 } from "@/pwa/features/kanji/shared/utils/language-helpers";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { useExerciseSearchParams } from "../../utils/hooks";
 import { integratePairingGameScore } from "../utils/scoring-integration";
 
 export function PairingGameGrid() {
   const { language } = useLanguage();
+  const { isAuthenticated, user } = useLoginStore();
   const {
     updateKanjiMastery,
     initializeUser,
@@ -26,12 +28,18 @@ export function PairingGameGrid() {
     isInitialized,
   } = useKanjiScoreStore();
 
-  // Kanji scoring integration at game completion
+  // Kanji scoring integration at game completion (only for authenticated users)
   const integrateGameScore = async () => {
+    if (!isAuthenticated || !user) {
+      console.log("⚠️ Guest user - score not saved");
+      return;
+    }
+
     await integratePairingGameScore(
       allGameWords,
       globalErrorWords,
       level,
+      user.uid,
       updateKanjiMastery,
       initializeUser,
       isInitialized,

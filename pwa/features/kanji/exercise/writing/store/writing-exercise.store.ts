@@ -51,7 +51,8 @@ interface WritingExerciseState {
     updateKanjiMastery: any,
     initializeUser: any,
     isInitialized: boolean,
-    currentUserScore: any
+    currentUserScore: any,
+    userId: string | null
   ) => void;
   resetExercise: () => void;
   resetExerciseProgress: () => void;
@@ -251,7 +252,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       }
     },
 
-    handleNextQuestion: (calculateWritingScore, level, updateKanjiMastery, initializeUser, isInitialized, currentUserScore) => {
+    handleNextQuestion: (calculateWritingScore, level, updateKanjiMastery, initializeUser, isInitialized, currentUserScore, userId) => {
       const { 
         gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
         getTotalQuestions,
@@ -289,15 +290,21 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
         // Integrate kanji scoring at game completion
         (async () => {
           try {
-            await integrateWritingGameScore(
-              questions,
-              wrongQuestions,
-              level,
-              updateKanjiMastery,
-              initializeUser,
-              isInitialized,
-              currentUserScore
-            );
+            // Only save if userId is provided (authenticated user)
+            if (userId) {
+              await integrateWritingGameScore(
+                questions,
+                wrongQuestions,
+                level,
+                userId,
+                updateKanjiMastery,
+                initializeUser,
+                isInitialized,
+                currentUserScore
+              );
+            } else {
+              console.log("⚠️ Guest user - score not saved");
+            }
           } catch (error) {
             console.error("Error integrating writing game score:", error);
           }

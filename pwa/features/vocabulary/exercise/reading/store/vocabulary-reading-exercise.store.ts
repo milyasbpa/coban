@@ -66,7 +66,8 @@ export interface VocabularyReadingExerciseState {
   handleNextQuestion: (
     calculateScore: (correctQuestions: VocabularyQuestion[], totalQuestions: number) => number,
     level: string,
-    categoryId: string
+    categoryId: string,
+    userId: string | null
   ) => void;
 
   // Initialize exercise function
@@ -324,7 +325,7 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
     }));
   },
 
-  handleNextQuestion: (calculateScore, level, categoryId) => {
+  handleNextQuestion: (calculateScore, level, categoryId, userId) => {
     const { 
       gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
       getTotalQuestions,
@@ -358,12 +359,18 @@ export const useVocabularyReadingExerciseStore = create<VocabularyReadingExercis
       if (!isRetryMode) {
         (async () => {
           try {
-            await integrateVocabularyReadingGameScore(
-              questions,
-              wrongQuestions,
-              level,
-              categoryId
-            );
+            // Only save if userId is provided (authenticated user)
+            if (userId) {
+              await integrateVocabularyReadingGameScore(
+                questions,
+                wrongQuestions,
+                level,
+                categoryId,
+                userId
+              );
+            } else {
+              console.log("⚠️ Guest user - score not saved");
+            }
           } catch (error) {
             console.error("Error integrating vocabulary reading game score:", error);
           }

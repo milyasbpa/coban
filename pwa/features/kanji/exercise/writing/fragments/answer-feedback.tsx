@@ -4,11 +4,13 @@ import { cn } from '@/pwa/core/lib/utils';
 import { useWritingExerciseStore } from '../store/writing-exercise.store';
 import { calculateWritingScore } from '../utils/writing-game';
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { useExerciseSearchParams } from "../../utils/hooks";
 
 export function AnswerFeedback() {
   const { gameState, questionState, handleNextQuestion } = useWritingExerciseStore();
   
+  const { user } = useLoginStore();
   const {
     updateKanjiMastery,
     initializeUser,
@@ -35,7 +37,8 @@ export function AnswerFeedback() {
       updateKanjiMastery,
       initializeUser,
       isInitialized,
-      currentUserScore
+      currentUserScore,
+      user?.uid || null
     );
   };
   

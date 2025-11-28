@@ -72,7 +72,8 @@ export interface ReadingExerciseState {
     updateKanjiMastery: (kanjiId: string, character: string, results: any[]) => Promise<void>,
     initializeUser: (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>,
     isInitialized: boolean,
-    currentUserScore: any
+    currentUserScore: any,
+    userId: string | null
   ) => void;
 }
 
@@ -327,7 +328,7 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
     }));
   },
 
-  handleNextQuestion: (calculateReadingScore, level, updateKanjiMastery, initializeUser, isInitialized, currentUserScore) => {
+  handleNextQuestion: (calculateReadingScore, level, updateKanjiMastery, initializeUser, isInitialized, currentUserScore, userId) => {
     const { 
       gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
       getTotalQuestions,
@@ -364,15 +365,21 @@ export const useReadingExerciseStore = create<ReadingExerciseState>((set, get) =
       // Integrate kanji scoring at game completion
       (async () => {
         try {
-          await integrateReadingGameScore(
-            questions,
-            wrongQuestions,
-            level,
-            updateKanjiMastery,
-            initializeUser,
-            isInitialized,
-            currentUserScore
-          );
+          // Only save if userId is provided (authenticated user)
+          if (userId) {
+            await integrateReadingGameScore(
+              questions,
+              wrongQuestions,
+              level,
+              userId,
+              updateKanjiMastery,
+              initializeUser,
+              isInitialized,
+              currentUserScore
+            );
+          } else {
+            console.log("⚠️ Guest user - score not saved");
+          }
         } catch (error) {
           console.error("Error integrating reading game score:", error);
         }

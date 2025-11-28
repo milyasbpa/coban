@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { VocabularyStorageManager } from '../storage/vocabulary-storage';
+import { VocabularyFirestoreManager } from '../storage/vocabulary-firestore';
 import { VocabularyService } from '@/pwa/core/services/vocabulary';
 import { VocabularyUserScore } from '../model/vocabulary-score';
 
@@ -98,15 +98,15 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
   isInitialized: false,
   error: null,
 
-  // Initialize user with IndexedDB data
+  // Initialize user with Firestore data
   initializeUser: async (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1" = 'N5') => {
     try {
       set({ isLoading: true, error: null });
       
-      let userScore = await VocabularyStorageManager.getVocabularyScore(userId);
+      let userScore = await VocabularyFirestoreManager.getVocabularyScore(userId);
       
       if (!userScore) {
-        userScore = await VocabularyStorageManager.createDefaultVocabularyScore(userId, level);
+        userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(userId, level);
       }
       
       set({ 
@@ -187,7 +187,7 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
     if (!currentUserScore) return;
     
     try {
-      const updatedScore = await VocabularyStorageManager.getVocabularyScore(currentUserScore.userId);
+      const updatedScore = await VocabularyFirestoreManager.getVocabularyScore(currentUserScore.userId);
       if (updatedScore) {
         set({ currentUserScore: updatedScore });
       }
@@ -202,8 +202,8 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
     if (!currentUserScore) return;
     
     try {
-      await VocabularyStorageManager.clearVocabularyData(currentUserScore.userId);
-      const newScore = await VocabularyStorageManager.createDefaultVocabularyScore(
+      await VocabularyFirestoreManager.clearVocabularyData(currentUserScore.userId);
+      const newScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(
         currentUserScore.userId,
         currentUserScore.level
       );

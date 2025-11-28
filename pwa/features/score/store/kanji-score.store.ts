@@ -1,7 +1,6 @@
 import { create } from "zustand";
-import { KanjiStorageManager } from "../storage/kanji-storage";
+import { KanjiFirestoreManager } from "../storage/kanji-firestore";
 import { KanjiScoreCalculator } from "../utils/score-calculator";
-import { KanjiStorageInitializer } from "../storage/kanji-initializer";
 import {
   KanjiUserScore,
   KanjiWordLevel,
@@ -149,19 +148,12 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     set({ isLoading: true, error: null });
 
     try {
-      // Initialize storage system first
-      const initResult = await KanjiStorageInitializer.initialize();
-
-      if (!initResult.success) {
-        throw new Error(initResult.message);
-      }
-
-      // Try to get existing user score
-      let userScore = await KanjiStorageManager.getKanjiScore(userId);
+      // Try to get existing user score from Firestore
+      let userScore = await KanjiFirestoreManager.getKanjiScore(userId);
 
       // Create default if doesn't exist
       if (!userScore) {
-        userScore = await KanjiStorageManager.createDefaultKanjiScore(
+        userScore = await KanjiFirestoreManager.createDefaultKanjiScore(
           userId,
           level
         );
@@ -196,13 +188,13 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
 
     try {
       // Use new storage method to handle exercise results
-      await KanjiStorageManager.saveExerciseResults(
+      await KanjiFirestoreManager.saveExerciseResults(
         currentUserScore.userId,
         results
       );
 
       // Refresh the user score to get updated data
-      const refreshedScore = await KanjiStorageManager.getKanjiScore(
+      const refreshedScore = await KanjiFirestoreManager.getKanjiScore(
         currentUserScore.userId
       );
       if (refreshedScore) {
@@ -308,7 +300,7 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     if (!currentUserScore) return;
 
     try {
-      const refreshedScore = await KanjiStorageManager.getKanjiScore(
+      const refreshedScore = await KanjiFirestoreManager.getKanjiScore(
         currentUserScore.userId
       );
       if (refreshedScore) {
@@ -323,7 +315,7 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
   // Clear all data
   clearAllData: async () => {
     try {
-      await KanjiStorageManager.clearAllData();
+      await KanjiFirestoreManager.clearAllData();
       set({
         currentUserScore: null,
         isInitialized: false,
@@ -341,10 +333,10 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     if (!currentUserScore) return;
 
     try {
-      await KanjiStorageManager.clearKanjiData(currentUserScore.userId);
+      await KanjiFirestoreManager.clearKanjiData(currentUserScore.userId);
 
       // Reinitialize with fresh data
-      const freshScore = await KanjiStorageManager.createDefaultKanjiScore(
+      const freshScore = await KanjiFirestoreManager.createDefaultKanjiScore(
         currentUserScore.userId,
         currentUserScore.level
       );

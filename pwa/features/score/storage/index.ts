@@ -1,10 +1,10 @@
 /**
- * Kanji storage module exports
- * Provides kanji scoring storage management
+ * Storage module exports
+ * Provides Firestore-based scoring storage management
  */
 
-export { KanjiStorageManager } from './kanji-storage';
-export { KanjiStorageInitializer } from './kanji-initializer';
+export { KanjiFirestoreManager } from './kanji-firestore';
+export { VocabularyFirestoreManager } from './vocabulary-firestore';
 
 // Re-export types for convenience
 export type {
@@ -13,3 +13,9 @@ export type {
   KanjiMasteryLevel,
   KanjiExerciseResult,
 } from '../model/kanji-score';
+
+export type {
+  VocabularyUserScore,
+  VocabularyMasteryLevel,
+  VocabularyExerciseResult,
+} from '../model/vocabulary-score';
