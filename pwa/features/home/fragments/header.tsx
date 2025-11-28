@@ -1,10 +1,7 @@
 "use client";
 
 import { ThemeToggleButton } from "@/pwa/core/components/theme-toggle-button";
-import { KanjiResetStatisticsButton } from "@/pwa/features/score/components/kanji-reset-statistics-button";
-import { VocabularyResetStatisticsButton } from "@/pwa/features/score/components/vocabulary-reset-statistics-button";
 import { UserDropdown } from "@/pwa/features/home/components/user-dropdown";
-import { Avatar } from "@/pwa/core/components/avatar";
 import { useLoginStore } from "@/pwa/features/login/store";
 import { signOut } from "firebase/auth";
 import { auth } from "@/pwa/core/config/firebase";
@@ -47,8 +44,6 @@ export function Header() {
         <div className="flex items-center gap-2">
           {isAuthenticated ? (
             <>
-              <VocabularyResetStatisticsButton />
-              <KanjiResetStatisticsButton />
               <ThemeToggleButton />
               <UserDropdown user={user} onLogout={handleLogout} />
             </>
