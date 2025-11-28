@@ -221,7 +221,7 @@ export function PairingGameGrid() {
         {sectionWords.map((gameWord: PairingWord) => {
           return (
             <PairingCard
-              key={gameWord.kanji}
+              key={`kanji-${gameWord.kanjiId}-${gameWord.id}`}
               id={`kanji-${gameWord.id}`}
               content={gameWord.kanji}
               furigana={gameWord.furigana}
@@ -245,7 +245,7 @@ export function PairingGameGrid() {
       <div className="space-y-3">
         {shuffledMeaningsData.map(({ meaning, word }) => (
           <PairingCard
-            key={`meaning-${word.id}`}
+            key={`meaning-${word.kanjiId}-${word.id}`}
             id={meaning}
             content={meaning}
             type="meaning"

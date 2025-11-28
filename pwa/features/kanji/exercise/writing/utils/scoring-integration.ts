@@ -50,8 +50,8 @@ export const integrateWritingGameScore = async (
         level
       );
 
-      // Generate simple word ID
-      const wordId = `${kanjiInfo.kanjiId}_${question.word}`;
+      // Use simple numeric ID from question
+      const wordId = question.id.toString();
 
       // Determine if this question was correct on first attempt
       // If question word is NOT in errorWords, it means it was answered correctly on first attempt

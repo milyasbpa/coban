@@ -12,7 +12,8 @@ export const createPairingWords = (
     // Use examples from kanji data
     kanji.examples.forEach((example) => {
       words.push({
-        id: `${kanji.id}-${example.id}`, // Use example.id from new structure
+        id: example.id.toString(), // Simple numeric ID for consistency with other exercises
+        kanjiId: kanji.id, // Add kanji ID for composite key generation
         kanji: example.word,
         reading: example.romanji,
         meanings: example.meanings, // Use new meanings structure

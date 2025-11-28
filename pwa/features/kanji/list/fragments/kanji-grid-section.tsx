@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { KanjiGridCard } from "../components/kanji-grid-card";
 import { getAllKanjiByLevel, KanjiItem } from "../utils/kanji-list";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
@@ -9,6 +9,7 @@ import { useLoginStore } from "@/pwa/features/login/store/login.store";
 
 export function KanjiGridSection() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const selectedLevel = searchParams.get('level') || 'N5';
   const [kanjiList, setKanjiList] = useState<KanjiItem[]>([]);
   
@@ -29,8 +30,8 @@ export function KanjiGridSection() {
   }, [user, isInitialized, selectedLevel, initializeUser]);
 
   const handleKanjiClick = (kanji: KanjiItem) => {
-    console.log(`Clicked kanji: ${kanji.character}`);
-    // TODO: Navigate to kanji detail page or show modal
+    // Navigate to kanji character detail page with id and level
+    router.push(`/kanji/character?id=${kanji.id}&level=${selectedLevel}`);
   };
 
   return (

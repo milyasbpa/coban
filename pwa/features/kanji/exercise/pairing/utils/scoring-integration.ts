@@ -47,8 +47,8 @@ export const integratePairingGameScore = async (
         level
       );
 
-      // Generate simple word ID
-      const wordId = `${kanjiInfo.kanjiId}_${word.id}`;
+      // Use simple numeric ID from word
+      const wordId = word.id.toString();
 
       // Determine if this word was correct on first attempt
       // If word is NOT in globalErrorWords, it means it was answered correctly on first attempt

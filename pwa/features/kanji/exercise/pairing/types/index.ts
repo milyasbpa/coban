@@ -1,6 +1,7 @@
 // Types untuk pairing game
 export interface PairingWord {
   id: string;
+  kanjiId: number; // Kanji ID for composite key
   kanji: string;
   reading: string;
   meanings: {

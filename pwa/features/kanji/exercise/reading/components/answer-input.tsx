@@ -51,7 +51,7 @@ export function AnswerInput({
       <div className="space-y-3">
         {options.map((option, index) => (
           <Button
-            key={option.id}
+            key={`${option.word}-${option.furigana}-${index}`}
             variant="outline"
             className={cn(
               "w-full h-16 text-left justify-start text-lg",
