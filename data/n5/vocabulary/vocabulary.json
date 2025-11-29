@@ -19,12 +19,32 @@
           "examples": [
             {
               "id": 1,
-              "sentence": "",
-              "furigana": "",
-              "romaji": "",
+              "sentence": "電話番号を教えてください。",
+              "furigana": "でんわばんごうをおしえてください。",
+              "romaji": "denwa bangou wo oshiete kudasai.",
               "meanings": {
-                "id": "",
-                "en": ""
+                "id": "Tolong beritahu saya nomor teleponnya.",
+                "en": "Please tell me your phone number."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この番号は何ですか。",
+              "furigana": "このばんごうはなんですか。",
+              "romaji": "kono bangou wa nan desu ka.",
+              "meanings": {
+                "id": "Nomor ini apa?",
+                "en": "What is this number?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部屋の番号は205です。",
+              "furigana": "へやのばんごうは205です。",
+              "romaji": "heya no bangou wa 205 desu.",
+              "meanings": {
+                "id": "Nomor kamarnya adalah 205.",
+                "en": "The room number is 205."
               }
             }
           ]
@@ -37,7 +57,39 @@
           "meanings": {
             "en": "zero",
             "id": "nol"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "温度は零度です。",
+              "furigana": "おんどはれいどです。",
+              "romaji": "ondo wa rei do desu.",
+              "meanings": {
+                "id": "Suhunya nol derajat.",
+                "en": "The temperature is zero degrees."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "点数は零点でした。",
+              "furigana": "てんすうはれいてんでした。",
+              "romaji": "tensuu wa rei ten deshita.",
+              "meanings": {
+                "id": "Nilainya nol poin.",
+                "en": "The score was zero points."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "零から始めます。",
+              "furigana": "れいからはじめます。",
+              "romaji": "rei kara hajimemasu.",
+              "meanings": {
+                "id": "Saya mulai dari nol.",
+                "en": "I'll start from zero."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -47,7 +99,39 @@
           "meanings": {
             "en": "zero",
             "id": "nol"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "答えはゼロです。",
+              "furigana": "こたえはゼロです。",
+              "romaji": "kotae wa zero desu.",
+              "meanings": {
+                "id": "Jawabannya nol.",
+                "en": "The answer is zero."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ゼロから勉強します。",
+              "furigana": "ゼロからべんきょうします。",
+              "romaji": "zero kara benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar dari nol.",
+                "en": "I'll study from zero."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今日の売上はゼロでした。",
+              "furigana": "きょうのうりあげはゼロでした。",
+              "romaji": "kyou no uriage wa zero deshita.",
+              "meanings": {
+                "id": "Penjualan hari ini nol.",
+                "en": "Today's sales were zero."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -57,7 +141,39 @@
           "meanings": {
             "en": "half",
             "id": "setengah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今、三時半です。",
+              "furigana": "いま、さんじはんです。",
+              "romaji": "ima, sanji han desu.",
+              "meanings": {
+                "id": "Sekarang jam setengah empat.",
+                "en": "It's three thirty now."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "半分食べました。",
+              "furigana": "はんぶんたべました。",
+              "romaji": "hanbun tabemashita.",
+              "meanings": {
+                "id": "Saya makan setengahnya.",
+                "en": "I ate half of it."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "授業は一時間半です。",
+              "furigana": "じゅぎょうはいちじかんはんです。",
+              "romaji": "jugyou wa ichi jikan han desu.",
+              "meanings": {
+                "id": "Kelasnya satu setengah jam.",
+                "en": "The class is one and a half hours."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -67,7 +183,39 @@
           "meanings": {
             "en": "one",
             "id": "satu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一番好きな食べ物は何ですか。",
+              "furigana": "いちばんすきなたべものはなんですか。",
+              "romaji": "ichiban suki na tabemono wa nan desu ka.",
+              "meanings": {
+                "id": "Makanan favorit Anda apa?",
+                "en": "What is your favorite food?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一時に会いましょう。",
+              "furigana": "いちじにあいましょう。",
+              "romaji": "ichiji ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu jam satu.",
+                "en": "Let's meet at one o'clock."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "りんごを一つください。",
+              "furigana": "りんごをひとつください。",
+              "romaji": "ringo wo hitotsu kudasai.",
+              "meanings": {
+                "id": "Tolong satu apel.",
+                "en": "One apple, please."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -77,7 +225,39 @@
           "meanings": {
             "en": "two",
             "id": "dua"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "私は二時に起きます。",
+              "furigana": "わたしはにじにおきます。",
+              "romaji": "watashi wa niji ni okimasu.",
+              "meanings": {
+                "id": "Saya bangun jam dua.",
+                "en": "I wake up at two o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "二階に行きます。",
+              "furigana": "にかいにいきます。",
+              "romaji": "nikai ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke lantai dua.",
+                "en": "I'm going to the second floor."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "兄弟は二人います。",
+              "furigana": "きょうだいはふたりいます。",
+              "romaji": "kyoudai wa futari imasu.",
+              "meanings": {
+                "id": "Saya punya dua saudara.",
+                "en": "I have two siblings."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -87,7 +267,39 @@
           "meanings": {
             "en": "three",
             "id": "tiga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "三日後に会いましょう。",
+              "furigana": "みっかごにあいましょう。",
+              "romaji": "mikka go ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu tiga hari lagi.",
+                "en": "Let's meet in three days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "私は三時に昼ごはんを食べます。",
+              "furigana": "わたしはさんじにひるごはんをたべます。",
+              "romaji": "watashi wa sanji ni hirugohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan siang jam tiga.",
+                "en": "I eat lunch at three o'clock."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "三月は春です。",
+              "furigana": "さんがつははるです。",
+              "romaji": "sangatsu wa haru desu.",
+              "meanings": {
+                "id": "Bulan Maret adalah musim semi.",
+                "en": "March is spring."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -97,7 +309,39 @@
           "meanings": {
             "en": "four",
             "id": "empat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "四時に帰ります。",
+              "furigana": "よじにかえります。",
+              "romaji": "yoji ni kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang jam empat.",
+                "en": "I'll go home at four o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "四月に入学します。",
+              "furigana": "しがつににゅうがくします。",
+              "romaji": "shigatsu ni nyuugaku shimasu.",
+              "meanings": {
+                "id": "Saya masuk sekolah di bulan April.",
+                "en": "I'll enter school in April."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "家族は四人です。",
+              "furigana": "かぞくはよにんです。",
+              "romaji": "kazoku wa yonin desu.",
+              "meanings": {
+                "id": "Keluarga saya empat orang.",
+                "en": "My family has four people."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -107,7 +351,39 @@
           "meanings": {
             "en": "five",
             "id": "lima"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "五時に晩ごはんを食べます。",
+              "furigana": "ごじにばんごはんをたべます。",
+              "romaji": "goji ni bangohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan malam jam lima.",
+                "en": "I eat dinner at five o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "五月は暖かいです。",
+              "furigana": "ごがつはあたたかいです。",
+              "romaji": "gogatsu wa atatakai desu.",
+              "meanings": {
+                "id": "Bulan Mei hangat.",
+                "en": "May is warm."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五人で行きます。",
+              "furigana": "ごにんでいきます。",
+              "romaji": "gonin de ikimasu.",
+              "meanings": {
+                "id": "Pergi berlima.",
+                "en": "We'll go with five people."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -117,7 +393,39 @@
           "meanings": {
             "en": "six",
             "id": "enam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "朝六時に起きます。",
+              "furigana": "あさろくじにおきます。",
+              "romaji": "asa rokuji ni okimasu.",
+              "meanings": {
+                "id": "Saya bangun jam enam pagi.",
+                "en": "I wake up at six in the morning."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "六月は雨が多いです。",
+              "furigana": "ろくがつはあめがおおいです。",
+              "romaji": "rokugatsu wa ame ga ooi desu.",
+              "meanings": {
+                "id": "Bulan Juni banyak hujan.",
+                "en": "June has a lot of rain."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "六階に住んでいます。",
+              "furigana": "ろっかいにすんでいます。",
+              "romaji": "rokkai ni sunde imasu.",
+              "meanings": {
+                "id": "Saya tinggal di lantai enam.",
+                "en": "I live on the sixth floor."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -127,7 +435,39 @@
           "meanings": {
             "en": "seven",
             "id": "tujuh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "七時に学校へ行きます。",
+              "furigana": "しちじにがっこうへいきます。",
+              "romaji": "shichiji ni gakkou e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke sekolah jam tujuh.",
+                "en": "I go to school at seven o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "七月は夏休みです。",
+              "furigana": "しちがつはなつやすみです。",
+              "romaji": "shichigatsu wa natsuyasumi desu.",
+              "meanings": {
+                "id": "Bulan Juli adalah liburan musim panas.",
+                "en": "July is summer vacation."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "七人で食事をしました。",
+              "furigana": "しちにんでしょくじをしました。",
+              "romaji": "shichinin de shokuji wo shimashita.",
+              "meanings": {
+                "id": "Kami makan bertujuh.",
+                "en": "We had a meal with seven people."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -137,7 +477,39 @@
           "meanings": {
             "en": "eight",
             "id": "delapan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "八時に会社に着きます。",
+              "furigana": "はちじにかいしゃにつきます。",
+              "romaji": "hachiji ni kaisha ni tsukimasu.",
+              "meanings": {
+                "id": "Saya tiba di kantor jam delapan.",
+                "en": "I arrive at the office at eight o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "八月は暑いです。",
+              "furigana": "はちがつはあついです。",
+              "romaji": "hachigatsu wa atsui desu.",
+              "meanings": {
+                "id": "Bulan Agustus panas.",
+                "en": "August is hot."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "バスは八番です。",
+              "furigana": "バスははちばんです。",
+              "romaji": "basu wa hachiban desu.",
+              "meanings": {
+                "id": "Busnya nomor delapan.",
+                "en": "The bus is number eight."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -147,7 +519,39 @@
           "meanings": {
             "en": "nine",
             "id": "sembilan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "九時に寝ます。",
+              "furigana": "くじにねます。",
+              "romaji": "kuji ni nemasu.",
+              "meanings": {
+                "id": "Saya tidur jam sembilan.",
+                "en": "I go to bed at nine o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "九月は秋です。",
+              "furigana": "くがつはあきです。",
+              "romaji": "kugatsu wa aki desu.",
+              "meanings": {
+                "id": "Bulan September adalah musim gugur.",
+                "en": "September is autumn."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "九人のクラスメートがいます。",
+              "furigana": "きゅうにんのクラスメートがいます。",
+              "romaji": "kyuunin no kurasume-to ga imasu.",
+              "meanings": {
+                "id": "Ada sembilan teman sekelas.",
+                "en": "There are nine classmates."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -157,7 +561,39 @@
           "meanings": {
             "en": "ten",
             "id": "sepuluh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "十時に会議があります。",
+              "furigana": "じゅうじにかいぎがあります。",
+              "romaji": "juuji ni kaigi ga arimasu.",
+              "meanings": {
+                "id": "Ada rapat jam sepuluh.",
+                "en": "There is a meeting at ten o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "十月は涼しいです。",
+              "furigana": "じゅうがつはすずしいです。",
+              "romaji": "juugatsu wa suzushii desu.",
+              "meanings": {
+                "id": "Bulan Oktober sejuk.",
+                "en": "October is cool."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "十人の友達がいます。",
+              "furigana": "じゅうにんのともだちがいます。",
+              "romaji": "juunin no tomodachi ga imasu.",
+              "meanings": {
+                "id": "Saya punya sepuluh teman.",
+                "en": "I have ten friends."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -167,7 +603,39 @@
           "meanings": {
             "en": "hundred",
             "id": "ratus, seratus"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この本は百円です。",
+              "furigana": "このほんはひゃくえんです。",
+              "romaji": "kono hon wa hyaku en desu.",
+              "meanings": {
+                "id": "Buku ini seratus yen.",
+                "en": "This book is one hundred yen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "百点を取りました。",
+              "furigana": "ひゃくてんをとりました。",
+              "romaji": "hyakuten wo torimashita.",
+              "meanings": {
+                "id": "Saya dapat nilai seratus.",
+                "en": "I got one hundred points."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "百メートル走ります。",
+              "furigana": "ひゃくメートルはしります。",
+              "romaji": "hyaku me-toru hashirimasu.",
+              "meanings": {
+                "id": "Saya lari seratus meter.",
+                "en": "I run one hundred meters."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -177,7 +645,39 @@
           "meanings": {
             "en": "thousand",
             "id": "seribu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "千円あります。",
+              "furigana": "せんえんあります。",
+              "romaji": "sen en arimasu.",
+              "meanings": {
+                "id": "Ada seribu yen.",
+                "en": "I have one thousand yen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "千人が来ました。",
+              "furigana": "せんにんがきました。",
+              "romaji": "sennin ga kimashita.",
+              "meanings": {
+                "id": "Seribu orang datang.",
+                "en": "One thousand people came."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "千メートル歩きました。",
+              "furigana": "せんメートルあるきました。",
+              "romaji": "sen me-toru arukimashita.",
+              "meanings": {
+                "id": "Saya berjalan seribu meter.",
+                "en": "I walked one thousand meters."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -187,7 +687,39 @@
           "meanings": {
             "en": "ten thousand",
             "id": "sepuluh ribu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一万円で買いました。",
+              "furigana": "いちまんえんでかいました。",
+              "romaji": "ichiman en de kaimashita.",
+              "meanings": {
+                "id": "Saya beli dengan sepuluh ribu yen.",
+                "en": "I bought it for ten thousand yen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "三万人が見ました。",
+              "furigana": "さんまんにんがみました。",
+              "romaji": "sanman nin ga mimashita.",
+              "meanings": {
+                "id": "Tiga puluh ribu orang menonton.",
+                "en": "Thirty thousand people watched."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五万円貯金しました。",
+              "furigana": "ごまんえんちょきんしました。",
+              "romaji": "goman en chokin shimashita.",
+              "meanings": {
+                "id": "Saya menabung lima puluh ribu yen.",
+                "en": "I saved fifty thousand yen."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -197,7 +729,39 @@
           "meanings": {
             "en": "one (counter)",
             "id": "satu, usia 1 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "みかんを一つください。",
+              "furigana": "みかんをひとつください。",
+              "romaji": "mikan wo hitotsu kudasai.",
+              "meanings": {
+                "id": "Tolong satu jeruk mandarin.",
+                "en": "One orange, please."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "質問が一つあります。",
+              "furigana": "しつもんがひとつあります。",
+              "romaji": "shitsumon ga hitotsu arimasu.",
+              "meanings": {
+                "id": "Ada satu pertanyaan.",
+                "en": "I have one question."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "弟は一つです。",
+              "furigana": "おとうとはひとつです。",
+              "romaji": "otouto wa hitotsu desu.",
+              "meanings": {
+                "id": "Adik laki-laki saya berumur satu tahun.",
+                "en": "My younger brother is one year old."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -207,7 +771,39 @@
           "meanings": {
             "en": "two (counter)",
             "id": "dua, usia 2 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ケーキを二つ買いました。",
+              "furigana": "ケーキをふたつかいました。",
+              "romaji": "ke-ki wo futatsu kaimashita.",
+              "meanings": {
+                "id": "Saya membeli dua kue.",
+                "en": "I bought two cakes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "かばんが二つあります。",
+              "furigana": "かばんがふたつあります。",
+              "romaji": "kaban ga futatsu arimasu.",
+              "meanings": {
+                "id": "Ada dua tas.",
+                "en": "There are two bags."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "妹は二つです。",
+              "furigana": "いもうとはふたつです。",
+              "romaji": "imouto wa futatsu desu.",
+              "meanings": {
+                "id": "Adik perempuan saya berumur dua tahun.",
+                "en": "My younger sister is two years old."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -217,7 +813,39 @@
           "meanings": {
             "en": "three (counter)",
             "id": "tiga, usia 3 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "りんごを三つ食べました。",
+              "furigana": "りんごをみっつたべました。",
+              "romaji": "ringo wo mittsu tabemashita.",
+              "meanings": {
+                "id": "Saya makan tiga apel.",
+                "en": "I ate three apples."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "問題が三つあります。",
+              "furigana": "もんだいがみっつあります。",
+              "romaji": "mondai ga mittsu arimasu.",
+              "meanings": {
+                "id": "Ada tiga masalah.",
+                "en": "There are three problems."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "息子は三つです。",
+              "furigana": "むすこはみっつです。",
+              "romaji": "musuko wa mittsu desu.",
+              "meanings": {
+                "id": "Anak laki-laki saya berumur tiga tahun.",
+                "en": "My son is three years old."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -227,7 +855,39 @@
           "meanings": {
             "en": "four (counter)",
             "id": "empat, usia 4 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "チョコレートを四つもらいました。",
+              "furigana": "チョコレートをよっつもらいました。",
+              "romaji": "chokore-to wo yottsu moraimashita.",
+              "meanings": {
+                "id": "Saya mendapat empat cokelat.",
+                "en": "I received four chocolates."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "机が四つあります。",
+              "furigana": "つくえがよっつあります。",
+              "romaji": "tsukue ga yottsu arimasu.",
+              "meanings": {
+                "id": "Ada empat meja.",
+                "en": "There are four desks."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "娘は四つです。",
+              "furigana": "むすめはよっつです。",
+              "romaji": "musume wa yottsu desu.",
+              "meanings": {
+                "id": "Anak perempuan saya berumur empat tahun.",
+                "en": "My daughter is four years old."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -237,7 +897,39 @@
           "meanings": {
             "en": "five (counter)",
             "id": "lima, usia 5 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おにぎりを五つ作りました。",
+              "furigana": "おにぎりをいつつつくりました。",
+              "romaji": "onigiri wo itsutsu tsukurimashita.",
+              "meanings": {
+                "id": "Saya membuat lima onigiri.",
+                "en": "I made five rice balls."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "椅子が五つあります。",
+              "furigana": "いすがいつつあります。",
+              "romaji": "isu ga itsutsu arimasu.",
+              "meanings": {
+                "id": "Ada lima kursi.",
+                "en": "There are five chairs."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "甥は五つです。",
+              "furigana": "おいはいつつです。",
+              "romaji": "oi wa itsutsu desu.",
+              "meanings": {
+                "id": "Keponakan laki-laki saya berumur lima tahun.",
+                "en": "My nephew is five years old."
+              }
+            }
+          ]
         },
         {
           "id": 23,
@@ -247,7 +939,39 @@
           "meanings": {
             "en": "six (counter)",
             "id": "enam, usia 6 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "クッキーを六つ焼きました。",
+              "furigana": "クッキーをむっつやきました。",
+              "romaji": "kukki- wo muttsu yakimashita.",
+              "meanings": {
+                "id": "Saya memanggang enam kue kering.",
+                "en": "I baked six cookies."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "箱が六つあります。",
+              "furigana": "はこがむっつあります。",
+              "romaji": "hako ga muttsu arimasu.",
+              "meanings": {
+                "id": "Ada enam kotak.",
+                "en": "There are six boxes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "姪は六つです。",
+              "furigana": "めいはむっつです。",
+              "romaji": "mei wa muttsu desu.",
+              "meanings": {
+                "id": "Keponakan perempuan saya berumur enam tahun.",
+                "en": "My niece is six years old."
+              }
+            }
+          ]
         },
         {
           "id": 24,
@@ -257,7 +981,39 @@
           "meanings": {
             "en": "seven (counter)",
             "id": "tujuh, usia 7 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ノートを七つ買いました。",
+              "furigana": "ノートをななつかいました。",
+              "romaji": "no-to wo nanatsu kaimashita.",
+              "meanings": {
+                "id": "Saya membeli tujuh buku catatan.",
+                "en": "I bought seven notebooks."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "窓が七つあります。",
+              "furigana": "まどがななつあります。",
+              "romaji": "mado ga nanatsu arimasu.",
+              "meanings": {
+                "id": "Ada tujuh jendela.",
+                "en": "There are seven windows."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "従弟は七つです。",
+              "furigana": "いとこはななつです。",
+              "romaji": "itoko wa nanatsu desu.",
+              "meanings": {
+                "id": "Sepupu saya berumur tujuh tahun.",
+                "en": "My cousin is seven years old."
+              }
+            }
+          ]
         },
         {
           "id": 25,
@@ -267,7 +1023,39 @@
           "meanings": {
             "en": "eight (counter)",
             "id": "delapan, usia 8 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ペンを八つ持っています。",
+              "furigana": "ペンをやっつもっています。",
+              "romaji": "pen wo yattsu motte imasu.",
+              "meanings": {
+                "id": "Saya punya delapan pulpen.",
+                "en": "I have eight pens."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "部屋が八つあります。",
+              "furigana": "へやがやっつあります。",
+              "romaji": "heya ga yattsu arimasu.",
+              "meanings": {
+                "id": "Ada delapan kamar.",
+                "en": "There are eight rooms."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "兄は八つです。",
+              "furigana": "あにはやっつです。",
+              "romaji": "ani wa yattsu desu.",
+              "meanings": {
+                "id": "Kakak laki-laki saya berumur delapan tahun.",
+                "en": "My older brother is eight years old."
+              }
+            }
+          ]
         },
         {
           "id": 26,
@@ -277,7 +1065,39 @@
           "meanings": {
             "en": "nine (counter)",
             "id": "sembilan, usia 9 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "消しゴムをここのつ買いました。",
+              "furigana": "けしゴムをここのつかいました。",
+              "romaji": "keshi-gomu wo kokonotsu kaimashita.",
+              "meanings": {
+                "id": "Saya membeli sembilan penghapus.",
+                "en": "I bought nine erasers."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "花がここのつあります。",
+              "furigana": "はながここのつあります。",
+              "romaji": "hana ga kokonotsu arimasu.",
+              "meanings": {
+                "id": "Ada sembilan bunga.",
+                "en": "There are nine flowers."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "姉はここのつです。",
+              "furigana": "あねはここのつです。",
+              "romaji": "ane wa kokonotsu desu.",
+              "meanings": {
+                "id": "Kakak perempuan saya berumur sembilan tahun.",
+                "en": "My older sister is nine years old."
+              }
+            }
+          ]
         },
         {
           "id": 27,
@@ -287,7 +1107,39 @@
           "meanings": {
             "en": "ten (counter)",
             "id": "sepuluh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鉛筆をとお買いました。",
+              "furigana": "えんぴつをとおかいました。",
+              "romaji": "enpitsu wo too kaimashita.",
+              "meanings": {
+                "id": "Saya membeli sepuluh pensil.",
+                "en": "I bought ten pencils."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "本がとおあります。",
+              "furigana": "ほんがとおあります。",
+              "romaji": "hon ga too arimasu.",
+              "meanings": {
+                "id": "Ada sepuluh buku.",
+                "en": "There are ten books."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今日で十日です。",
+              "furigana": "きょうでとおかです。",
+              "romaji": "kyou de tooka desu.",
+              "meanings": {
+                "id": "Hari ini tanggal sepuluh.",
+                "en": "Today is the tenth."
+              }
+            }
+          ]
         },
         {
           "id": 28,
@@ -297,7 +1149,39 @@
           "meanings": {
             "en": "twenty years old",
             "id": "usia 20 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "私ははたちです。",
+              "furigana": "わたしははたちです。",
+              "romaji": "watashi wa hatachi desu.",
+              "meanings": {
+                "id": "Saya berumur dua puluh tahun.",
+                "en": "I am twenty years old."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "はたちになりました。",
+              "furigana": "はたちになりました。",
+              "romaji": "hatachi ni narimashita.",
+              "meanings": {
+                "id": "Saya sudah berumur dua puluh tahun.",
+                "en": "I turned twenty years old."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "兄ははたちで結婚しました。",
+              "furigana": "あにははたちでけっこんしました。",
+              "romaji": "ani wa hatachi de kekkon shimashita.",
+              "meanings": {
+                "id": "Kakak laki-laki saya menikah di usia dua puluh tahun.",
+                "en": "My older brother got married at twenty."
+              }
+            }
+          ]
         }
       ]
     },
