@@ -16703,7 +16703,39 @@
           "meanings": {
             "en": "opportunity",
             "id": "kesempatan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "機会があります。",
+              "furigana": "きかいが あります。",
+              "romaji": "kikai ga arimasu.",
+              "meanings": {
+                "id": "Ada kesempatan.",
+                "en": "There is an opportunity."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい機会です。",
+              "furigana": "いい きかい です。",
+              "romaji": "ii kikai desu.",
+              "meanings": {
+                "id": "Kesempatan yang bagus.",
+                "en": "It's a good opportunity."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "機会がありません。",
+              "furigana": "きかいが ありません。",
+              "romaji": "kikai ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada kesempatan.",
+                "en": "There is no opportunity."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -16713,7 +16745,39 @@
           "meanings": {
             "en": "future",
             "id": "masa depan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "将来の夢です。",
+              "furigana": "しょうらいの ゆめ です。",
+              "romaji": "shourai no yume desu.",
+              "meanings": {
+                "id": "Impian masa depan.",
+                "en": "It's a future dream."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "将来は医者になります。",
+              "furigana": "しょうらいは いしゃに なります。",
+              "romaji": "shourai wa isha ni narimasu.",
+              "meanings": {
+                "id": "Di masa depan saya akan menjadi dokter.",
+                "en": "In the future, I will become a doctor."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "将来が楽しみです。",
+              "furigana": "しょうらいが たのしみ です。",
+              "romaji": "shourai ga tanoshimi desu.",
+              "meanings": {
+                "id": "Saya menantikan masa depan.",
+                "en": "I'm looking forward to the future."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -16723,7 +16787,39 @@
           "meanings": {
             "en": "intention, plan",
             "id": "bermaksud, percaya bahwa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "行くつもりです。",
+              "furigana": "いく つもり です。",
+              "romaji": "iku tsumori desu.",
+              "meanings": {
+                "id": "Saya bermaksud pergi.",
+                "en": "I intend to go."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "買うつもりです。",
+              "furigana": "かう つもり です。",
+              "romaji": "kau tsumori desu.",
+              "meanings": {
+                "id": "Saya bermaksud membeli.",
+                "en": "I plan to buy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "勉強するつもりです。",
+              "furigana": "べんきょう する つもり です。",
+              "romaji": "benkyou suru tsumori desu.",
+              "meanings": {
+                "id": "Saya bermaksud belajar.",
+                "en": "I intend to study."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -16733,7 +16829,39 @@
           "meanings": {
             "en": "forecast",
             "id": "ramalan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "天気予報を見ます。",
+              "furigana": "てんき よほうを みます。",
+              "romaji": "tenki yohou wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat ramalan cuaca.",
+                "en": "I watch the weather forecast."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "予報が当たりました。",
+              "furigana": "よほうが あたりました。",
+              "romaji": "yohou ga atarimashita.",
+              "meanings": {
+                "id": "Ramalannya tepat.",
+                "en": "The forecast was correct."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "天気予報です。",
+              "furigana": "てんき よほう です。",
+              "romaji": "tenki yohou desu.",
+              "meanings": {
+                "id": "Ramalan cuaca.",
+                "en": "It's the weather forecast."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -16743,7 +16871,39 @@
           "meanings": {
             "en": "dream",
             "id": "mimpi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "夢を見ました。",
+              "furigana": "ゆめを みました。",
+              "romaji": "yume wo mimashita.",
+              "meanings": {
+                "id": "Saya bermimpi.",
+                "en": "I had a dream."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夢があります。",
+              "furigana": "ゆめが あります。",
+              "romaji": "yume ga arimasu.",
+              "meanings": {
+                "id": "Saya punya mimpi.",
+                "en": "I have a dream."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いい夢です。",
+              "furigana": "いい ゆめ です。",
+              "romaji": "ii yume desu.",
+              "meanings": {
+                "id": "Mimpi yang bagus.",
+                "en": "It's a good dream."
+              }
+            }
+          ]
         }
       ]
     },
@@ -16762,7 +16922,39 @@
           "meanings": {
             "en": "cause",
             "id": "penyebab"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "原因が分かりません。",
+              "furigana": "げんいんが わかりません。",
+              "romaji": "gen'in ga wakarimasen.",
+              "meanings": {
+                "id": "Saya tidak tahu penyebabnya.",
+                "en": "I don't know the cause."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "原因を調べます。",
+              "furigana": "げんいんを しらべます。",
+              "romaji": "gen'in wo shirabemasu.",
+              "meanings": {
+                "id": "Saya menyelidiki penyebabnya.",
+                "en": "I investigate the cause."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "病気の原因です。",
+              "furigana": "びょうきの げんいん です。",
+              "romaji": "byouki no gen'in desu.",
+              "meanings": {
+                "id": "Penyebab penyakit.",
+                "en": "It's the cause of the illness."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -16772,7 +16964,39 @@
           "meanings": {
             "en": "reason",
             "id": "alasan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "理由を聞きます。",
+              "furigana": "りゆうを ききます。",
+              "romaji": "riyuu wo kikimasu.",
+              "meanings": {
+                "id": "Saya menanyakan alasannya.",
+                "en": "I ask the reason."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "理由があります。",
+              "furigana": "りゆうが あります。",
+              "romaji": "riyuu ga arimasu.",
+              "meanings": {
+                "id": "Ada alasan.",
+                "en": "There is a reason."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "理由が分かりました。",
+              "furigana": "りゆうが わかりました。",
+              "romaji": "riyuu ga wakarimashita.",
+              "meanings": {
+                "id": "Saya mengerti alasannya.",
+                "en": "I understood the reason."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -16782,7 +17006,39 @@
           "meanings": {
             "en": "reason, meaning",
             "id": "alasan, pengertian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "訳が分かりません。",
+              "furigana": "わけが わかりません。",
+              "romaji": "wake ga wakarimasen.",
+              "meanings": {
+                "id": "Saya tidak mengerti alasannya.",
+                "en": "I don't understand the reason."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どんな訳ですか。",
+              "furigana": "どんな わけ ですか。",
+              "romaji": "donna wake desuka.",
+              "meanings": {
+                "id": "Apa alasannya?",
+                "en": "What's the reason?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "訳があります。",
+              "furigana": "わけが あります。",
+              "romaji": "wake ga arimasu.",
+              "meanings": {
+                "id": "Ada alasannya.",
+                "en": "There is a reason."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -16792,7 +17048,39 @@
           "meanings": {
             "en": "business, use",
             "id": "urusan, keperluan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "用があります。",
+              "furigana": "ようが あります。",
+              "romaji": "you ga arimasu.",
+              "meanings": {
+                "id": "Saya ada urusan.",
+                "en": "I have business."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "用がありません。",
+              "furigana": "ようが ありません。",
+              "romaji": "you ga arimasen.",
+              "meanings": {
+                "id": "Saya tidak ada urusan.",
+                "en": "I don't have business."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "何の用ですか。",
+              "furigana": "なんの よう ですか。",
+              "romaji": "nan no you desuka.",
+              "meanings": {
+                "id": "Ada keperluan apa?",
+                "en": "What business do you have?"
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -16802,7 +17090,39 @@
           "meanings": {
             "en": "errand, business",
             "id": "urusan, keperluan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "用事があります。",
+              "furigana": "ようじが あります。",
+              "romaji": "youji ga arimasu.",
+              "meanings": {
+                "id": "Saya ada urusan.",
+                "en": "I have an errand."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "用事が終わりました。",
+              "furigana": "ようじが おわりました。",
+              "romaji": "youji ga owarimashita.",
+              "meanings": {
+                "id": "Urusan saya selesai.",
+                "en": "My errand is finished."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大切な用事です。",
+              "furigana": "たいせつな ようじ です。",
+              "romaji": "taisetsuna youji desu.",
+              "meanings": {
+                "id": "Urusan penting.",
+                "en": "It's an important errand."
+              }
+            }
+          ]
         }
       ]
     },
