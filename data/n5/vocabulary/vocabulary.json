@@ -6481,7 +6481,39 @@
           "meanings": {
             "en": "family",
             "id": "keluarga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "家族は五人です。",
+              "furigana": "かぞくはごにんです。",
+              "romaji": "kazoku wa gonin desu.",
+              "meanings": {
+                "id": "Keluarga lima orang.",
+                "en": "My family has five people."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家族で旅行に行きます。",
+              "furigana": "かぞくでりょこうにいきます。",
+              "romaji": "kazoku de ryokou ni ikimasu.",
+              "meanings": {
+                "id": "Pergi traveling bersama keluarga.",
+                "en": "I go on a trip with my family."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "家族が好きです。",
+              "furigana": "かぞくがすきです。",
+              "romaji": "kazoku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka keluarga.",
+                "en": "I love my family."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -6491,7 +6523,39 @@
           "meanings": {
             "en": "household",
             "id": "rumah tangga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "家庭を持ちたいです。",
+              "furigana": "かていをもちたいです。",
+              "romaji": "katei wo mochitai desu.",
+              "meanings": {
+                "id": "Ingin memiliki rumah tangga.",
+                "en": "I want to have a household."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家庭が大切です。",
+              "furigana": "かていがたいせつです。",
+              "romaji": "katei ga taisetsu desu.",
+              "meanings": {
+                "id": "Rumah tangga penting.",
+                "en": "Household is important."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いい家庭ですね。",
+              "furigana": "いいかていですね。",
+              "romaji": "ii katei desu ne.",
+              "meanings": {
+                "id": "Rumah tangga yang baik ya.",
+                "en": "It's a good household."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -6501,7 +6565,39 @@
           "meanings": {
             "en": "grandfather",
             "id": "kakek"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おじいさんは元気です。",
+              "furigana": "おじいさんはげんきです。",
+              "romaji": "ojiisan wa genki desu.",
+              "meanings": {
+                "id": "Kakek sehat.",
+                "en": "Grandfather is healthy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おじいさんと話します。",
+              "furigana": "おじいさんとはなします。",
+              "romaji": "ojiisan to hanashimasu.",
+              "meanings": {
+                "id": "Berbicara dengan kakek.",
+                "en": "I talk with grandfather."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おじいさんが好きです。",
+              "furigana": "おじいさんがすきです。",
+              "romaji": "ojiisan ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kakek.",
+                "en": "I love grandfather."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -6511,7 +6607,39 @@
           "meanings": {
             "en": "grandmother",
             "id": "nenek"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おばあさんは優しいです。",
+              "furigana": "おばあさんはやさしいです。",
+              "romaji": "obaasan wa yasashii desu.",
+              "meanings": {
+                "id": "Nenek baik hati.",
+                "en": "Grandmother is kind."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おばあさんと料理をします。",
+              "furigana": "おばあさんとりょうりをします。",
+              "romaji": "obaasan to ryouri wo shimasu.",
+              "meanings": {
+                "id": "Memasak dengan nenek.",
+                "en": "I cook with grandmother."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おばあさんが大好きです。",
+              "furigana": "おばあさんがだいすきです。",
+              "romaji": "obaasan ga daisuki desu.",
+              "meanings": {
+                "id": "Saya sangat suka nenek.",
+                "en": "I love grandmother very much."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -6521,7 +6649,39 @@
           "meanings": {
             "en": "father",
             "id": "ayah, bapak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お父さんは会社員です。",
+              "furigana": "おとうさんはかいしゃいんです。",
+              "romaji": "otousan wa kaishain desu.",
+              "meanings": {
+                "id": "Ayah adalah karyawan.",
+                "en": "My father is a company employee."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "父は背が高いです。",
+              "furigana": "ちちはせがたかいです。",
+              "romaji": "chichi wa se ga takai desu.",
+              "meanings": {
+                "id": "Ayah saya tinggi.",
+                "en": "My father is tall."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お父さんと遊びます。",
+              "furigana": "おとうさんとあそびます。",
+              "romaji": "otousan to asobimasu.",
+              "meanings": {
+                "id": "Bermain dengan ayah.",
+                "en": "I play with my father."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -6531,7 +6691,39 @@
           "meanings": {
             "en": "mother",
             "id": "ibu, bunda"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お母さんは料理が上手です。",
+              "furigana": "おかあさんはりょうりがじょうずです。",
+              "romaji": "okaasan wa ryouri ga jouzu desu.",
+              "meanings": {
+                "id": "Ibu pandai memasak.",
+                "en": "My mother is good at cooking."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "母は優しいです。",
+              "furigana": "ははやさしいです。",
+              "romaji": "haha wa yasashii desu.",
+              "meanings": {
+                "id": "Ibu saya baik hati.",
+                "en": "My mother is kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お母さんと買い物に行きます。",
+              "furigana": "おかあさんとかいものにいきます。",
+              "romaji": "okaasan to kaimono ni ikimasu.",
+              "meanings": {
+                "id": "Pergi belanja dengan ibu.",
+                "en": "I go shopping with my mother."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -6541,7 +6733,39 @@
           "meanings": {
             "en": "parents",
             "id": "ibu dan ayah, orang tua"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "両親は元気です。",
+              "furigana": "りょうしんはげんきです。",
+              "romaji": "ryoushin wa genki desu.",
+              "meanings": {
+                "id": "Orang tua sehat.",
+                "en": "My parents are healthy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "両親と住んでいます。",
+              "furigana": "りょうしんとすんでいます。",
+              "romaji": "ryoushin to sunde imasu.",
+              "meanings": {
+                "id": "Tinggal dengan orang tua.",
+                "en": "I live with my parents."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "両親が大好きです。",
+              "furigana": "りょうしんがだいすきです。",
+              "romaji": "ryoushin ga daisuki desu.",
+              "meanings": {
+                "id": "Sangat sayang orang tua.",
+                "en": "I love my parents very much."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -6551,7 +6775,39 @@
           "meanings": {
             "en": "uncle",
             "id": "paman, om"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おじさんは医者です。",
+              "furigana": "おじさんはいしゃです。",
+              "romaji": "ojisan wa isha desu.",
+              "meanings": {
+                "id": "Paman adalah dokter.",
+                "en": "My uncle is a doctor."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おじさんに会いました。",
+              "furigana": "おじさんにあいました。",
+              "romaji": "ojisan ni aimashita.",
+              "meanings": {
+                "id": "Bertemu paman.",
+                "en": "I met my uncle."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おじさんと遊びます。",
+              "furigana": "おじさんとあそびます。",
+              "romaji": "ojisan to asobimasu.",
+              "meanings": {
+                "id": "Bermain dengan paman.",
+                "en": "I play with my uncle."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -6561,7 +6817,39 @@
           "meanings": {
             "en": "aunt",
             "id": "bibi, tante"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おばさんは先生です。",
+              "furigana": "おばさんはせんせいです。",
+              "romaji": "obasan wa sensei desu.",
+              "meanings": {
+                "id": "Bibi adalah guru.",
+                "en": "My aunt is a teacher."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おばさんと話しました。",
+              "furigana": "おばさんとはなしました。",
+              "romaji": "obasan to hanashimashita.",
+              "meanings": {
+                "id": "Berbicara dengan bibi.",
+                "en": "I talked with my aunt."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おばさんが来ます。",
+              "furigana": "おばさんがきます。",
+              "romaji": "obasan ga kimasu.",
+              "meanings": {
+                "id": "Bibi datang.",
+                "en": "My aunt will come."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -6571,7 +6859,39 @@
           "meanings": {
             "en": "siblings",
             "id": "abang adik, saudara"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "兄弟は三人です。",
+              "furigana": "きょうだいはさんにんです。",
+              "romaji": "kyoudai wa sannin desu.",
+              "meanings": {
+                "id": "Saudara tiga orang.",
+                "en": "I have three siblings."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "兄弟がいますか。",
+              "furigana": "きょうだいがいますか。",
+              "romaji": "kyoudai ga imasu ka.",
+              "meanings": {
+                "id": "Apakah ada saudara?",
+                "en": "Do you have siblings?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "兄弟と遊びます。",
+              "furigana": "きょうだいとあそびます。",
+              "romaji": "kyoudai to asobimasu.",
+              "meanings": {
+                "id": "Bermain dengan saudara.",
+                "en": "I play with my siblings."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -6581,7 +6901,39 @@
           "meanings": {
             "en": "older brother",
             "id": "kakak laki-laki"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お兄さんは大学生です。",
+              "furigana": "おにいさんはだいがくせいです。",
+              "romaji": "oniisan wa daigakusei desu.",
+              "meanings": {
+                "id": "Kakak laki-laki mahasiswa.",
+                "en": "My older brother is a university student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "兄は背が高いです。",
+              "furigana": "あにはせがたかいです。",
+              "romaji": "ani wa se ga takai desu.",
+              "meanings": {
+                "id": "Kakak laki-laki saya tinggi.",
+                "en": "My older brother is tall."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お兄さんと遊びます。",
+              "furigana": "おにいさんとあそびます。",
+              "romaji": "oniisan to asobimasu.",
+              "meanings": {
+                "id": "Bermain dengan kakak laki-laki.",
+                "en": "I play with my older brother."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -6591,7 +6943,39 @@
           "meanings": {
             "en": "older sister",
             "id": "kakak perempuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お姉さんはきれいです。",
+              "furigana": "おねえさんはきれいです。",
+              "romaji": "oneesan wa kirei desu.",
+              "meanings": {
+                "id": "Kakak perempuan cantik.",
+                "en": "My older sister is beautiful."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "姉は看護師です。",
+              "furigana": "あねはかんごしです。",
+              "romaji": "ane wa kangoshi desu.",
+              "meanings": {
+                "id": "Kakak perempuan saya perawat.",
+                "en": "My older sister is a nurse."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お姉さんと買い物をします。",
+              "furigana": "おねえさんとかいものをします。",
+              "romaji": "oneesan to kaimono wo shimasu.",
+              "meanings": {
+                "id": "Belanja dengan kakak perempuan.",
+                "en": "I go shopping with my older sister."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -6601,7 +6985,39 @@
           "meanings": {
             "en": "younger brother",
             "id": "adik laki-laki"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "弟は高校生です。",
+              "furigana": "おとうとはこうこうせいです。",
+              "romaji": "otouto wa koukousei desu.",
+              "meanings": {
+                "id": "Adik laki-laki siswa SMA.",
+                "en": "My younger brother is a high school student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "弟とサッカーをします。",
+              "furigana": "おとうととサッカーをします。",
+              "romaji": "otouto to sakkaa wo shimasu.",
+              "meanings": {
+                "id": "Bermain sepak bola dengan adik laki-laki.",
+                "en": "I play soccer with my younger brother."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "弟は元気です。",
+              "furigana": "おとうとはげんきです。",
+              "romaji": "otouto wa genki desu.",
+              "meanings": {
+                "id": "Adik laki-laki sehat.",
+                "en": "My younger brother is healthy."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -6611,7 +7027,39 @@
           "meanings": {
             "en": "younger sister",
             "id": "adik perempuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "妹は中学生です。",
+              "furigana": "いもうとはちゅうがくせいです。",
+              "romaji": "imouto wa chuugakusei desu.",
+              "meanings": {
+                "id": "Adik perempuan siswa SMP.",
+                "en": "My younger sister is a junior high school student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "妹はかわいいです。",
+              "furigana": "いもうとはかわいいです。",
+              "romaji": "imouto wa kawaii desu.",
+              "meanings": {
+                "id": "Adik perempuan lucu.",
+                "en": "My younger sister is cute."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "妹と遊びます。",
+              "furigana": "いもうととあそびます。",
+              "romaji": "imouto to asobimasu.",
+              "meanings": {
+                "id": "Bermain dengan adik perempuan.",
+                "en": "I play with my younger sister."
+              }
+            }
+          ]
         }
       ]
     },
@@ -6630,7 +7078,39 @@
           "meanings": {
             "en": "weather, air",
             "id": "cuaca, udara"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は天気がいいです。",
+              "furigana": "きょうはてんきがいいです。",
+              "romaji": "kyou wa tenki ga ii desu.",
+              "meanings": {
+                "id": "Hari ini cuaca bagus.",
+                "en": "The weather is good today."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "天気が悪いです。",
+              "furigana": "てんきがわるいです。",
+              "romaji": "tenki ga warui desu.",
+              "meanings": {
+                "id": "Cuaca buruk.",
+                "en": "The weather is bad."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日の天気はどうですか。",
+              "furigana": "あしたのてんきはどうですか。",
+              "romaji": "ashita no tenki wa dou desu ka.",
+              "meanings": {
+                "id": "Bagaimana cuaca besok?",
+                "en": "How is the weather tomorrow?"
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -6640,7 +7120,39 @@
           "meanings": {
             "en": "sky",
             "id": "langit"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "空が青いです。",
+              "furigana": "そらがあおいです。",
+              "romaji": "sora ga aoi desu.",
+              "meanings": {
+                "id": "Langit biru.",
+                "en": "The sky is blue."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "空を見ます。",
+              "furigana": "そらをみます。",
+              "romaji": "sora wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat langit.",
+                "en": "I look at the sky."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "空がきれいです。",
+              "furigana": "そらがきれいです。",
+              "romaji": "sora ga kirei desu.",
+              "meanings": {
+                "id": "Langit indah.",
+                "en": "The sky is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -6650,7 +7162,39 @@
           "meanings": {
             "en": "cloudy",
             "id": "berawan, mendung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は曇りです。",
+              "furigana": "きょうはくもりです。",
+              "romaji": "kyou wa kumori desu.",
+              "meanings": {
+                "id": "Hari ini berawan.",
+                "en": "It's cloudy today."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "曇りの日が好きです。",
+              "furigana": "くもりのひがすきです。",
+              "romaji": "kumori no hi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka hari berawan.",
+                "en": "I like cloudy days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日は曇りでしょう。",
+              "furigana": "あしたはくもりでしょう。",
+              "romaji": "ashita wa kumori deshou.",
+              "meanings": {
+                "id": "Besok mungkin berawan.",
+                "en": "It will probably be cloudy tomorrow."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -6660,7 +7204,39 @@
           "meanings": {
             "en": "clear weather",
             "id": "udara cerah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は晴れです。",
+              "furigana": "きょうははれです。",
+              "romaji": "kyou wa hare desu.",
+              "meanings": {
+                "id": "Hari ini cerah.",
+                "en": "It's sunny today."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "晴れの日が好きです。",
+              "furigana": "はれのひがすきです。",
+              "romaji": "hare no hi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka hari cerah.",
+                "en": "I like sunny days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日は晴れでしょう。",
+              "furigana": "あしたははれでしょう。",
+              "romaji": "ashita wa hare deshou.",
+              "meanings": {
+                "id": "Besok mungkin cerah.",
+                "en": "It will probably be sunny tomorrow."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -6670,7 +7246,39 @@
           "meanings": {
             "en": "wind",
             "id": "angin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "風が強いです。",
+              "furigana": "かぜがつよいです。",
+              "romaji": "kaze ga tsuyoi desu.",
+              "meanings": {
+                "id": "Angin kencang.",
+                "en": "The wind is strong."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "風が吹いています。",
+              "furigana": "かぜがふいています。",
+              "romaji": "kaze ga fuiteimasu.",
+              "meanings": {
+                "id": "Angin bertiup.",
+                "en": "The wind is blowing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "風が気持ちいいです。",
+              "furigana": "かぜがきもちいいです。",
+              "romaji": "kaze ga kimochi ii desu.",
+              "meanings": {
+                "id": "Angin terasa enak.",
+                "en": "The wind feels nice."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -6680,7 +7288,39 @@
           "meanings": {
             "en": "rain",
             "id": "hujan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "雨が降っています。",
+              "furigana": "あめがふっています。",
+              "romaji": "ame ga futteimasu.",
+              "meanings": {
+                "id": "Hujan turun.",
+                "en": "It's raining."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "雨が好きです。",
+              "furigana": "あめがすきです。",
+              "romaji": "ame ga suki desu.",
+              "meanings": {
+                "id": "Saya suka hujan.",
+                "en": "I like rain."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日は雨でしょう。",
+              "furigana": "あしたはあめでしょう。",
+              "romaji": "ashita wa ame deshou.",
+              "meanings": {
+                "id": "Besok mungkin hujan.",
+                "en": "It will probably rain tomorrow."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -6690,7 +7330,39 @@
           "meanings": {
             "en": "snow",
             "id": "salju"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "雪が降っています。",
+              "furigana": "ゆきがふっています。",
+              "romaji": "yuki ga futteimasu.",
+              "meanings": {
+                "id": "Salju turun.",
+                "en": "It's snowing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "雪がきれいです。",
+              "furigana": "ゆきがきれいです。",
+              "romaji": "yuki ga kirei desu.",
+              "meanings": {
+                "id": "Salju indah.",
+                "en": "The snow is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "雪が好きです。",
+              "furigana": "ゆきがすきです。",
+              "romaji": "yuki ga suki desu.",
+              "meanings": {
+                "id": "Saya suka salju.",
+                "en": "I like snow."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -6700,7 +7372,39 @@
           "meanings": {
             "en": "water",
             "id": "air"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "水を飲みます。",
+              "furigana": "みずをのみます。",
+              "romaji": "mizu wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum air.",
+                "en": "I drink water."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "水がおいしいです。",
+              "furigana": "みずがおいしいです。",
+              "romaji": "mizu ga oishii desu.",
+              "meanings": {
+                "id": "Airnya enak.",
+                "en": "The water is delicious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水が冷たいです。",
+              "furigana": "みずがつめたいです。",
+              "romaji": "mizu ga tsumetai desu.",
+              "meanings": {
+                "id": "Airnya dingin.",
+                "en": "The water is cold."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -6710,7 +7414,39 @@
           "meanings": {
             "en": "sea",
             "id": "laut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "海に行きます。",
+              "furigana": "うみにいきます。",
+              "romaji": "umi ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke laut.",
+                "en": "I go to the sea."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "海がきれいです。",
+              "furigana": "うみがきれいです。",
+              "romaji": "umi ga kirei desu.",
+              "meanings": {
+                "id": "Lautnya indah.",
+                "en": "The sea is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "海で泳ぎます。",
+              "furigana": "うみでおよぎます。",
+              "romaji": "umi de oyogimasu.",
+              "meanings": {
+                "id": "Saya berenang di laut.",
+                "en": "I swim in the sea."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -6720,7 +7456,39 @@
           "meanings": {
             "en": "river",
             "id": "sungai, kali"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "川で遊びます。",
+              "furigana": "かわであそびます。",
+              "romaji": "kawa de asobimasu.",
+              "meanings": {
+                "id": "Saya bermain di sungai.",
+                "en": "I play at the river."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "川がきれいです。",
+              "furigana": "かわがきれいです。",
+              "romaji": "kawa ga kirei desu.",
+              "meanings": {
+                "id": "Sungainya bersih.",
+                "en": "The river is clean."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "川に魚がいます。",
+              "furigana": "かわにさかながいます。",
+              "romaji": "kawa ni sakana ga imasu.",
+              "meanings": {
+                "id": "Ada ikan di sungai.",
+                "en": "There are fish in the river."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -6730,7 +7498,39 @@
           "meanings": {
             "en": "pond",
             "id": "kolam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "池に魚がいます。",
+              "furigana": "いけにさかながいます。",
+              "romaji": "ike ni sakana ga imasu.",
+              "meanings": {
+                "id": "Ada ikan di kolam.",
+                "en": "There are fish in the pond."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "池がきれいです。",
+              "furigana": "いけがきれいです。",
+              "romaji": "ike ga kirei desu.",
+              "meanings": {
+                "id": "Kolamnya indah.",
+                "en": "The pond is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "池の近くに家があります。",
+              "furigana": "いけのちかくにいえがあります。",
+              "romaji": "ike no chikaku ni ie ga arimasu.",
+              "meanings": {
+                "id": "Ada rumah dekat kolam.",
+                "en": "There is a house near the pond."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -6740,7 +7540,39 @@
           "meanings": {
             "en": "mountain",
             "id": "gunung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "山に登ります。",
+              "furigana": "やまにのぼります。",
+              "romaji": "yama ni noborimasu.",
+              "meanings": {
+                "id": "Saya mendaki gunung.",
+                "en": "I climb the mountain."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "山が高いです。",
+              "furigana": "やまがたかいです。",
+              "romaji": "yama ga takai desu.",
+              "meanings": {
+                "id": "Gunungnya tinggi.",
+                "en": "The mountain is high."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "山がきれいです。",
+              "furigana": "やまがきれいです。",
+              "romaji": "yama ga kirei desu.",
+              "meanings": {
+                "id": "Gunungnya indah.",
+                "en": "The mountain is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -6750,7 +7582,39 @@
           "meanings": {
             "en": "tree, wood",
             "id": "pohon, kayu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "木が多いです。",
+              "furigana": "きがおおいです。",
+              "romaji": "ki ga ooi desu.",
+              "meanings": {
+                "id": "Pohonnya banyak.",
+                "en": "There are many trees."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "木の下で休みます。",
+              "furigana": "きのしたでやすみます。",
+              "romaji": "ki no shita de yasumimasu.",
+              "meanings": {
+                "id": "Saya istirahat di bawah pohon.",
+                "en": "I rest under the tree."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "木が高いです。",
+              "furigana": "きがたかいです。",
+              "romaji": "ki ga takai desu.",
+              "meanings": {
+                "id": "Pohonnya tinggi.",
+                "en": "The tree is tall."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -6760,7 +7624,39 @@
           "meanings": {
             "en": "flower",
             "id": "bunga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "花がきれいです。",
+              "furigana": "はながきれいです。",
+              "romaji": "hana ga kirei desu.",
+              "meanings": {
+                "id": "Bunganya indah.",
+                "en": "The flowers are beautiful."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "花を買います。",
+              "furigana": "はなをかいます。",
+              "romaji": "hana wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli bunga.",
+                "en": "I buy flowers."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "花が好きです。",
+              "furigana": "はながすきです。",
+              "romaji": "hana ga suki desu.",
+              "meanings": {
+                "id": "Saya suka bunga.",
+                "en": "I like flowers."
+              }
+            }
+          ]
         }
       ]
     },
