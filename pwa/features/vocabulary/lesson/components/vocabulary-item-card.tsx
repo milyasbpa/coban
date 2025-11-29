@@ -67,6 +67,50 @@ export function VocabularyItemCard({
     }
   };
 
+  // Helper function to highlight matching consecutive characters from vocabulary word
+  const highlightMatchingCharacters = (text: string, targetWord: string) => {
+    if (!text || !targetWord) return text;
+
+    const index = text.indexOf(targetWord);
+    if (index === -1) return text;
+
+    const result: React.ReactNode[] = [];
+    let currentIndex = 0;
+    let searchIndex = text.indexOf(targetWord, currentIndex);
+
+    while (searchIndex !== -1) {
+      // Add text before match
+      if (searchIndex > currentIndex) {
+        result.push(text.slice(currentIndex, searchIndex));
+      }
+
+      // Add highlighted match
+      result.push(
+        <span 
+          key={`${searchIndex}-${targetWord}`}
+          className={cn(
+            "font-bold transition-colors rounded px-0.5",
+            isSelected 
+              ? "text-primary bg-primary/20" 
+              : "text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/30"
+          )}
+        >
+          {text.slice(searchIndex, searchIndex + targetWord.length)}
+        </span>
+      );
+
+      currentIndex = searchIndex + targetWord.length;
+      searchIndex = text.indexOf(targetWord, currentIndex);
+    }
+
+    // Add remaining text
+    if (currentIndex < text.length) {
+      result.push(text.slice(currentIndex));
+    }
+
+    return result.length > 0 ? result : text;
+  };
+
   return (
     <Card
       className={cn(
@@ -188,13 +232,13 @@ export function VocabularyItemCard({
                     {/* Sentence */}
                     {displayOptions.japanese && (
                       <div className="text-sm font-bold text-foreground leading-relaxed">
-                        {example.sentence}
+                        {highlightMatchingCharacters(example.sentence, vocabulary.kanji)}
                       </div>
                     )}
                     {/* Furigana */}
                     {displayOptions.hiragana && (
                       <div className="text-[10px] text-muted-foreground font-normal leading-relaxed">
-                        {example.furigana}
+                        {highlightMatchingCharacters(example.furigana, vocabulary.hiragana)}
                       </div>
                     )}
 
@@ -202,15 +246,15 @@ export function VocabularyItemCard({
                     {displayOptions.meaning && (
                       <div className="text-xs text-foreground/90 font-semibold leading-relaxed">
                         {language === "en"
-                          ? example.meanings.en
-                          : example.meanings.id}
+                          ? highlightMatchingCharacters(example.meanings.en, vocabulary.meanings.en)
+                          : highlightMatchingCharacters(example.meanings.id, vocabulary.meanings.id)}
                       </div>
                     )}
 
                     {/* Romaji */}
                     {displayOptions.romanji && (
                       <div className="text-xs text-muted-foreground font-medium leading-relaxed">
-                        {example.romaji}
+                        {highlightMatchingCharacters(example.romaji, vocabulary.romaji)}
                       </div>
                     )}
                   </div>
