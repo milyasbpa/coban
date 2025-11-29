@@ -54,6 +54,45 @@ export function GrammarExerciseModal({ showProgress = false }: GrammarExerciseMo
           <Button
             variant="outline"
             className="w-full justify-start h-auto py-4"
+            onClick={() => handleExerciseTypeSelect("filling")}
+          >
+            <div className="text-left">
+              <div className="font-semibold mb-1">📝 Fill in the Blank</div>
+              <div className="text-xs text-muted-foreground">
+                Complete sentences with correct particles and words
+              </div>
+            </div>
+          </Button>
+
+          <Button
+            variant="outline"
+            className="w-full justify-start h-auto py-4"
+            onClick={() => handleExerciseTypeSelect("construction")}
+          >
+            <div className="text-left">
+              <div className="font-semibold mb-1">🏗️ Sentence Construction</div>
+              <div className="text-xs text-muted-foreground">
+                Build sentences by arranging words in correct order
+              </div>
+            </div>
+          </Button>
+
+          <Button
+            variant="outline"
+            className="w-full justify-start h-auto py-4"
+            onClick={() => handleExerciseTypeSelect("recognition")}
+          >
+            <div className="text-left">
+              <div className="font-semibold mb-1">🎯 Pattern Recognition</div>
+              <div className="text-xs text-muted-foreground">
+                Identify grammar patterns used in sentences
+              </div>
+            </div>
+          </Button>
+
+          <Button
+            variant="outline"
+            className="w-full justify-start h-auto py-4"
             onClick={() => handleExerciseTypeSelect("reading")}
           >
             <div className="text-left">
