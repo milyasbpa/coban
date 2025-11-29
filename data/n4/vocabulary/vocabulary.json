@@ -15,7 +15,39 @@
           "meanings": {
             "en": "condition, situation",
             "id": "keadaan, kondisi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "体の具合が悪いです。",
+              "furigana": "からだの ぐあいが わるいです。",
+              "romaji": "karada no guai ga warui desu.",
+              "meanings": {
+                "id": "Kondisi tubuh sedang tidak baik.",
+                "en": "My physical condition is bad."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "具合はどうですか。",
+              "furigana": "ぐあいは どうですか。",
+              "romaji": "guai wa dou desu ka.",
+              "meanings": {
+                "id": "Bagaimana keadaannya?",
+                "en": "How is the condition?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "機械の具合が良くないです。",
+              "furigana": "きかいの ぐあいが よくないです。",
+              "romaji": "kikai no guai ga yokunai desu.",
+              "meanings": {
+                "id": "Kondisi mesin tidak bagus.",
+                "en": "The machine's condition is not good."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -25,7 +57,39 @@
           "meanings": {
             "en": "relationship, connection",
             "id": "hubungan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "彼とは関係がありません。",
+              "furigana": "かれとは かんけいが ありません。",
+              "romaji": "kare to wa kankei ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada hubungan dengan dia.",
+                "en": "I have no relationship with him."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "仕事と関係がある話です。",
+              "furigana": "しごとと かんけいが ある はなしです。",
+              "romaji": "shigoto to kankei ga aru hanashi desu.",
+              "meanings": {
+                "id": "Ini pembicaraan yang berhubungan dengan pekerjaan.",
+                "en": "This is a story related to work."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二人の関係は良いです。",
+              "furigana": "ふたりの かんけいは いいです。",
+              "romaji": "futari no kankei wa ii desu.",
+              "meanings": {
+                "id": "Hubungan kedua orang itu baik.",
+                "en": "Their relationship is good."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -35,7 +99,39 @@
           "meanings": {
             "en": "air, spirit, atmosphere",
             "id": "udara, semangat, suasana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "気が付きませんでした。",
+              "furigana": "きが つきませんでした。",
+              "romaji": "ki ga tsukimasen deshita.",
+              "meanings": {
+                "id": "Saya tidak menyadari.",
+                "en": "I didn't notice."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "気を付けてください。",
+              "furigana": "きを つけてください。",
+              "romaji": "ki wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong hati-hati.",
+                "en": "Please be careful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "気になっています。",
+              "furigana": "きに なっています。",
+              "romaji": "ki ni natteimasu.",
+              "meanings": {
+                "id": "Saya sedang mengkhawatirkannya.",
+                "en": "I'm concerned about it."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -45,7 +141,39 @@
           "meanings": {
             "en": "feeling, mood, health condition",
             "id": "perasaan, suasana, keadaan kesehatan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "気分が悪いので休みます。",
+              "furigana": "きぶんが わるいので やすみます。",
+              "romaji": "kibun ga warui node yasumimasu.",
+              "meanings": {
+                "id": "Karena kondisi tidak enak, saya istirahat.",
+                "en": "I'll rest because I feel unwell."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今日は気分が良いです。",
+              "furigana": "きょうは きぶんが いいです。",
+              "romaji": "kyou wa kibun ga ii desu.",
+              "meanings": {
+                "id": "Hari ini perasaan saya baik.",
+                "en": "I feel good today."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "気分転換に散歩します。",
+              "furigana": "きぶんてんかんに さんぽします。",
+              "romaji": "kibun tenkan ni sanpo shimasu.",
+              "meanings": {
+                "id": "Jalan-jalan untuk menyegarkan pikiran.",
+                "en": "I take a walk to refresh my mood."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -55,7 +183,39 @@
           "meanings": {
             "en": "feeling, mood",
             "id": "perasaan, suasana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "気持ちが分かります。",
+              "furigana": "きもちが わかります。",
+              "romaji": "kimochi ga wakarimasu.",
+              "meanings": {
+                "id": "Saya mengerti perasaannya.",
+                "en": "I understand the feeling."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "嬉しい気持ちでいっぱいです。",
+              "furigana": "うれしい きもちで いっぱいです。",
+              "romaji": "ureshii kimochi de ippai desu.",
+              "meanings": {
+                "id": "Dipenuhi dengan perasaan senang.",
+                "en": "I'm filled with happy feelings."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "その気持ちはよく分かります。",
+              "furigana": "その きもちは よく わかります。",
+              "romaji": "sono kimochi wa yoku wakarimasu.",
+              "meanings": {
+                "id": "Saya sangat mengerti perasaan itu.",
+                "en": "I understand that feeling well."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -65,7 +225,39 @@
           "meanings": {
             "en": "thanks to, because of",
             "id": "berkat, karena"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先生のお陰で合格しました。",
+              "furigana": "せんせいの おかげで ごうかくしました。",
+              "romaji": "sensei no okage de goukaku shimashita.",
+              "meanings": {
+                "id": "Berkat guru, saya lulus.",
+                "en": "Thanks to my teacher, I passed."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "皆さんのお陰です。",
+              "furigana": "みなさんの おかげです。",
+              "romaji": "minasan no okage desu.",
+              "meanings": {
+                "id": "Berkat semuanya.",
+                "en": "It's thanks to everyone."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あなたのお陰で助かりました。",
+              "furigana": "あなたの おかげで たすかりました。",
+              "romaji": "anata no okage de tasukarimashita.",
+              "meanings": {
+                "id": "Berkat Anda, saya tertolong.",
+                "en": "Thanks to you, I was saved."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -75,7 +267,39 @@
           "meanings": {
             "en": "visit, inquiry after someone's health",
             "id": "kunjungan, jengukan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "友達のお見舞いに行きます。",
+              "furigana": "ともだちの おみまいに いきます。",
+              "romaji": "tomodachi no omimai ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi menjenguk teman.",
+                "en": "I go to visit my friend."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お見舞いに来てくれました。",
+              "furigana": "おみまいに きてくれました。",
+              "romaji": "omimai ni kite kuremashita.",
+              "meanings": {
+                "id": "Dia datang menjenguk saya.",
+                "en": "He came to visit me."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "病院にお見舞いに行きたいです。",
+              "furigana": "びょういんに おみまいに いきたいです。",
+              "romaji": "byouin ni omimai ni ikitai desu.",
+              "meanings": {
+                "id": "Saya ingin pergi menjenguk ke rumah sakit.",
+                "en": "I want to go visit at the hospital."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -85,7 +309,39 @@
           "meanings": {
             "en": "souvenir, gift from a trip",
             "id": "oleh-oleh, souvenir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "京都でお土産を買いました。",
+              "furigana": "きょうとで おみやげを かいました。",
+              "romaji": "kyouto de omiyage wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli oleh-oleh di Kyoto.",
+                "en": "I bought souvenirs in Kyoto."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これはお土産です。",
+              "furigana": "これは おみやげです。",
+              "romaji": "kore wa omiyage desu.",
+              "meanings": {
+                "id": "Ini adalah oleh-oleh.",
+                "en": "This is a souvenir."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お土産を持って帰ります。",
+              "furigana": "おみやげを もって かえります。",
+              "romaji": "omiyage wo motte kaerimasu.",
+              "meanings": {
+                "id": "Saya membawa pulang oleh-oleh.",
+                "en": "I bring back souvenirs."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -95,7 +351,39 @@
           "meanings": {
             "en": "gratitude, thanks",
             "id": "hormat, terima kasih"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お礼を言いたいです。",
+              "furigana": "おれいを いいたいです。",
+              "romaji": "orei wo iitai desu.",
+              "meanings": {
+                "id": "Saya ingin mengucapkan terima kasih.",
+                "en": "I want to say thanks."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お礼の手紙を書きました。",
+              "furigana": "おれいの てがみを かきました。",
+              "romaji": "orei no tegami wo kakimashita.",
+              "meanings": {
+                "id": "Saya menulis surat ucapan terima kasih.",
+                "en": "I wrote a thank-you letter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "これはお礼の品です。",
+              "furigana": "これは おれいの しなです。",
+              "romaji": "kore wa orei no shina desu.",
+              "meanings": {
+                "id": "Ini adalah hadiah ucapan terima kasih.",
+                "en": "This is a thank-you gift."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -105,7 +393,39 @@
           "meanings": {
             "en": "convenience, circumstances",
             "id": "keadaan, urusan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "都合が悪いので行けません。",
+              "furigana": "つごうが わるいので いけません。",
+              "romaji": "tsugou ga warui node ikemasen.",
+              "meanings": {
+                "id": "Karena ada urusan, saya tidak bisa pergi.",
+                "en": "I can't go because it's inconvenient."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "都合はどうですか。",
+              "furigana": "つごうは どうですか。",
+              "romaji": "tsugou wa dou desu ka.",
+              "meanings": {
+                "id": "Bagaimana urusannya?",
+                "en": "How is your schedule?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "都合が良ければ来てください。",
+              "furigana": "つごうが よければ きてください。",
+              "romaji": "tsugou ga yokereba kite kudasai.",
+              "meanings": {
+                "id": "Jika memungkinkan, tolong datang.",
+                "en": "Please come if it's convenient."
+              }
+            }
+          ]
         }
       ]
     },
@@ -124,7 +444,39 @@
           "meanings": {
             "en": "place, location",
             "id": "tempat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "待ち合わせの場所を決めました。",
+              "furigana": "まちあわせの ばしょを きめました。",
+              "romaji": "machiawase no basho wo kimemashita.",
+              "meanings": {
+                "id": "Saya menentukan tempat bertemu.",
+                "en": "I decided on the meeting place."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この場所が好きです。",
+              "furigana": "この ばしょが すきです。",
+              "romaji": "kono basho ga suki desu.",
+              "meanings": {
+                "id": "Saya suka tempat ini.",
+                "en": "I like this place."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "静かな場所を探しています。",
+              "furigana": "しずかな ばしょを さがしています。",
+              "romaji": "shizukana basho wo sagashiteimasu.",
+              "meanings": {
+                "id": "Saya sedang mencari tempat yang tenang.",
+                "en": "I'm looking for a quiet place."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -134,7 +486,39 @@
           "meanings": {
             "en": "art museum, art gallery",
             "id": "gedung kesenian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "美術館で絵を見ました。",
+              "furigana": "びじゅつかんで えを みました。",
+              "romaji": "bijyutsukan de e wo mimashita.",
+              "meanings": {
+                "id": "Saya melihat lukisan di museum seni.",
+                "en": "I saw paintings at the art museum."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "週末に美術館に行きたいです。",
+              "furigana": "しゅうまつに びじゅつかんに いきたいです。",
+              "romaji": "shuumatsu ni bijyutsukan ni ikitai desu.",
+              "meanings": {
+                "id": "Saya ingin pergi ke museum seni di akhir pekan.",
+                "en": "I want to go to the art museum on the weekend."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この美術館は有名です。",
+              "furigana": "この びじゅつかんは ゆうめいです。",
+              "romaji": "kono bijyutsukan wa yuumei desu.",
+              "meanings": {
+                "id": "Museum seni ini terkenal.",
+                "en": "This art museum is famous."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -144,7 +528,39 @@
           "meanings": {
             "en": "geography",
             "id": "ilmu bumi, geografi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地理の勉強が好きです。",
+              "furigana": "ちりの べんきょうが すきです。",
+              "romaji": "chiri no benkyou ga suki desu.",
+              "meanings": {
+                "id": "Saya suka belajar geografi.",
+                "en": "I like studying geography."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "地理のテストがあります。",
+              "furigana": "ちりの てすとが あります。",
+              "romaji": "chiri no tesuto ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian geografi.",
+                "en": "There is a geography test."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本の地理を学んでいます。",
+              "furigana": "にほんの ちりを まなんでいます。",
+              "romaji": "nihon no chiri wo mamandeimasu.",
+              "meanings": {
+                "id": "Saya sedang mempelajari geografi Jepang.",
+                "en": "I'm learning Japanese geography."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -154,7 +570,39 @@
           "meanings": {
             "en": "parking lot, parking space",
             "id": "tempat parkir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "駐車場はどこですか。",
+              "furigana": "ちゅうしゃじょうは どこですか。",
+              "romaji": "chuushajyou wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana tempat parkirnya?",
+                "en": "Where is the parking lot?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駐車場に車を止めました。",
+              "furigana": "ちゅうしゃじょうに くるまを とめました。",
+              "romaji": "chuushajyou ni kuruma wo tomemashita.",
+              "meanings": {
+                "id": "Saya parkir mobil di tempat parkir.",
+                "en": "I parked the car in the parking lot."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "駐車場がいっぱいです。",
+              "furigana": "ちゅうしゃじょうが いっぱいです。",
+              "romaji": "chuushajyou ga ippai desu.",
+              "meanings": {
+                "id": "Tempat parkir penuh.",
+                "en": "The parking lot is full."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -164,7 +612,39 @@
           "meanings": {
             "en": "zoo",
             "id": "kebun binatang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "子供を動物園に連れて行きます。",
+              "furigana": "こどもを どうぶつえんに つれて いきます。",
+              "romaji": "kodomo wo doubutsuen ni tsurete ikimasu.",
+              "meanings": {
+                "id": "Saya membawa anak ke kebun binatang.",
+                "en": "I take the children to the zoo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "動物園でパンダを見ました。",
+              "furigana": "どうぶつえんで ぱんだを みました。",
+              "romaji": "doubutsuen de panda wo mimashita.",
+              "meanings": {
+                "id": "Saya melihat panda di kebun binatang.",
+                "en": "I saw pandas at the zoo."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "週末は動物園が混んでいます。",
+              "furigana": "しゅうまつは どうぶつえんが こんでいます。",
+              "romaji": "shuumatsu wa doubutsuen ga kondeimasu.",
+              "meanings": {
+                "id": "Kebun binatang ramai di akhir pekan.",
+                "en": "The zoo is crowded on weekends."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -174,7 +654,39 @@
           "meanings": {
             "en": "gas station, petrol station",
             "id": "pompa bensin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ガソリンスタンドで給油します。",
+              "furigana": "がそりんすたんどで きゅうゆします。",
+              "romaji": "gasorin sutando de kyuuyu shimasu.",
+              "meanings": {
+                "id": "Saya mengisi bensin di pompa bensin.",
+                "en": "I refuel at the gas station."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "近くにガソリンスタンドがあります。",
+              "furigana": "ちかくに がそりんすたんどが あります。",
+              "romaji": "chikaku ni gasorin sutando ga arimasu.",
+              "meanings": {
+                "id": "Ada pompa bensin di dekat sini.",
+                "en": "There is a gas station nearby."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ガソリンスタンドを探しています。",
+              "furigana": "がそりんすたんどを さがしています。",
+              "romaji": "gasorin sutando wo sagashiteimasu.",
+              "meanings": {
+                "id": "Saya sedang mencari pompa bensin.",
+                "en": "I'm looking for a gas station."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -184,7 +696,39 @@
           "meanings": {
             "en": "airport, airfield",
             "id": "bandara udara, lapangan terbang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "飛行場まで送ります。",
+              "furigana": "ひこうじょうまで おくります。",
+              "romaji": "hikoujyou made okurimasu.",
+              "meanings": {
+                "id": "Saya mengantar sampai bandara.",
+                "en": "I'll take you to the airport."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "飛行場に着きました。",
+              "furigana": "ひこうじょうに つきました。",
+              "romaji": "hikoujyou ni tsukimashita.",
+              "meanings": {
+                "id": "Saya tiba di bandara.",
+                "en": "I arrived at the airport."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "飛行場で友達を待っています。",
+              "furigana": "ひこうじょうで ともだちを まっています。",
+              "romaji": "hikoujyou de tomodachi wo matteimasu.",
+              "meanings": {
+                "id": "Saya sedang menunggu teman di bandara.",
+                "en": "I'm waiting for my friend at the airport."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -194,7 +738,39 @@
           "meanings": {
             "en": "countryside, rural area, village",
             "id": "desa, dusun, kampung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "夏休みに田舎に帰ります。",
+              "furigana": "なつやすみに いなかに かえります。",
+              "romaji": "natsuyasumi ni inaka ni kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang kampung saat liburan musim panas.",
+                "en": "I return to the countryside during summer vacation."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "田舎は静かで空気がきれいです。",
+              "furigana": "いなかは しずかで くうきが きれいです。",
+              "romaji": "inaka wa shizuka de kuuki ga kirei desu.",
+              "meanings": {
+                "id": "Desa tenang dan udaranya bersih.",
+                "en": "The countryside is quiet and the air is clean."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "祖父母が田舎に住んでいます。",
+              "furigana": "そふぼが いなかに すんでいます。",
+              "romaji": "sofubo ga inaka ni sundeimasu.",
+              "meanings": {
+                "id": "Kakek nenek tinggal di kampung.",
+                "en": "My grandparents live in the countryside."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -204,7 +780,39 @@
           "meanings": {
             "en": "seashore, coast",
             "id": "pantai, tepi laut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "海岸を散歩しました。",
+              "furigana": "かいがんを さんぽしました。",
+              "romaji": "kaigan wo sanpo shimashita.",
+              "meanings": {
+                "id": "Saya berjalan-jalan di pantai.",
+                "en": "I took a walk along the coast."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この海岸は景色がきれいです。",
+              "furigana": "この かいがんは けしきが きれいです。",
+              "romaji": "kono kaigan wa keshiki ga kirei desu.",
+              "meanings": {
+                "id": "Pemandangan pantai ini indah.",
+                "en": "The scenery of this coast is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "海岸で貝を拾いました。",
+              "furigana": "かいがんで かいを ひろいました。",
+              "romaji": "kaigan de kai wo hiroimashita.",
+              "meanings": {
+                "id": "Saya mengumpulkan kerang di pantai.",
+                "en": "I picked up shells at the seashore."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -214,7 +822,39 @@
           "meanings": {
             "en": "meeting place, venue, hall",
             "id": "ruang rapat, tempat pertemuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "会場は二階です。",
+              "furigana": "かいじょうは にかいです。",
+              "romaji": "kaijyou wa nikai desu.",
+              "meanings": {
+                "id": "Tempatnya di lantai dua.",
+                "en": "The venue is on the second floor."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "会場に着きました。",
+              "furigana": "かいじょうに つきました。",
+              "romaji": "kaijyou ni tsukimashita.",
+              "meanings": {
+                "id": "Saya tiba di tempat pertemuan.",
+                "en": "I arrived at the venue."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "会場には多くの人がいます。",
+              "furigana": "かいじょうには おおくの ひとが います。",
+              "romaji": "kaijyou ni wa ooku no hito ga imasu.",
+              "meanings": {
+                "id": "Ada banyak orang di tempat pertemuan.",
+                "en": "There are many people at the venue."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -224,7 +864,39 @@
           "meanings": {
             "en": "neighborhood, vicinity",
             "id": "daerah sekitar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "近所の人と話しました。",
+              "furigana": "きんじょの ひとと はなしました。",
+              "romaji": "kinjyo no hito to hanashimashita.",
+              "meanings": {
+                "id": "Saya berbicara dengan orang sekitar.",
+                "en": "I talked with the neighbors."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "近所に新しいお店ができました。",
+              "furigana": "きんじょに あたらしい おみせが できました。",
+              "romaji": "kinjyo ni atarashii omise ga dekimashita.",
+              "meanings": {
+                "id": "Toko baru dibuka di sekitar sini.",
+                "en": "A new shop opened in the neighborhood."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "近所を散歩するのが好きです。",
+              "furigana": "きんじょを さんぽするのが すきです。",
+              "romaji": "kinjyo wo sanpo suru no ga suki desu.",
+              "meanings": {
+                "id": "Saya suka jalan-jalan di sekitar rumah.",
+                "en": "I like walking around the neighborhood."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -234,7 +906,39 @@
           "meanings": {
             "en": "suburbs, outskirts",
             "id": "luar kota"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "郊外に住んでいます。",
+              "furigana": "こうがいに すんでいます。",
+              "romaji": "kougai ni sundeimasu.",
+              "meanings": {
+                "id": "Saya tinggal di pinggiran kota.",
+                "en": "I live in the suburbs."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "郊外は静かで住みやすいです。",
+              "furigana": "こうがいは しずかで すみやすいです。",
+              "romaji": "kougai wa shizuka de sumiyasui desu.",
+              "meanings": {
+                "id": "Pinggiran kota tenang dan nyaman untuk tinggal.",
+                "en": "The suburbs are quiet and comfortable to live in."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "郊外に引っ越しました。",
+              "furigana": "こうがいに ひっこしました。",
+              "romaji": "kougai ni hikkoshimashita.",
+              "meanings": {
+                "id": "Saya pindah ke pinggiran kota.",
+                "en": "I moved to the suburbs."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -244,7 +948,39 @@
           "meanings": {
             "en": "factory",
             "id": "pabrik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "父は工場で働いています。",
+              "furigana": "ちちは こうじょうで はたらいています。",
+              "romaji": "chichi wa koujyou de hataraiteimasu.",
+              "meanings": {
+                "id": "Ayah saya bekerja di pabrik.",
+                "en": "My father works at a factory."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この工場は大きいです。",
+              "furigana": "この こうじょうは おおきいです。",
+              "romaji": "kono koujyou wa ookii desu.",
+              "meanings": {
+                "id": "Pabrik ini besar.",
+                "en": "This factory is big."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "工場を見学しました。",
+              "furigana": "こうじょうを けんがくしました。",
+              "romaji": "koujyou wo kengaku shimashita.",
+              "meanings": {
+                "id": "Saya mengunjungi pabrik.",
+                "en": "I toured the factory."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -254,7 +990,39 @@
           "meanings": {
             "en": "airport",
             "id": "bandara udara, lapangan terbang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "空港に迎えに行きます。",
+              "furigana": "くうこうに むかえに いきます。",
+              "romaji": "kuukou ni mukae ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi menjemput ke bandara.",
+                "en": "I go to pick someone up at the airport."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "空港まで三時間かかります。",
+              "furigana": "くうこうまで さんじかん かかります。",
+              "romaji": "kuukou made sanjikan kakarimasu.",
+              "meanings": {
+                "id": "Butuh tiga jam sampai bandara.",
+                "en": "It takes three hours to the airport."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "空港で買い物をしました。",
+              "furigana": "くうこうで かいものを しました。",
+              "romaji": "kuukou de kaimono wo shimashita.",
+              "meanings": {
+                "id": "Saya berbelanja di bandara.",
+                "en": "I shopped at the airport."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -264,7 +1032,39 @@
           "meanings": {
             "en": "port, harbor",
             "id": "pelabuhan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "港で船を見ました。",
+              "furigana": "みなとで ふねを みました。",
+              "romaji": "minato de fune wo mimashita.",
+              "meanings": {
+                "id": "Saya melihat kapal di pelabuhan.",
+                "en": "I saw ships at the port."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この港は有名です。",
+              "furigana": "この みなとは ゆうめいです。",
+              "romaji": "kono minato wa yuumei desu.",
+              "meanings": {
+                "id": "Pelabuhan ini terkenal.",
+                "en": "This port is famous."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "港の近くに住んでいます。",
+              "furigana": "みなとの ちかくに すんでいます。",
+              "romaji": "minato no chikaku ni sundeimasu.",
+              "meanings": {
+                "id": "Saya tinggal dekat pelabuhan.",
+                "en": "I live near the port."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -274,7 +1074,39 @@
           "meanings": {
             "en": "Japanese inn",
             "id": "penginapan gaya Jepang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "温泉旅館に泊まりました。",
+              "furigana": "おんせんりょかんに とまりました。",
+              "romaji": "onsen ryokan ni tomarimashita.",
+              "meanings": {
+                "id": "Saya menginap di penginapan pemandian air panas.",
+                "en": "I stayed at a hot spring inn."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "旅館の料理はおいしかったです。",
+              "furigana": "りょかんの りょうりは おいしかったです。",
+              "romaji": "ryokan no ryouri wa oishikatta desu.",
+              "meanings": {
+                "id": "Masakan penginapan itu enak.",
+                "en": "The inn's food was delicious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "旅館を予約しました。",
+              "furigana": "りょかんを よやくしました。",
+              "romaji": "ryokan wo yoyaku shimashita.",
+              "meanings": {
+                "id": "Saya memesan penginapan.",
+                "en": "I booked a ryokan."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -284,7 +1116,39 @@
           "meanings": {
             "en": "city",
             "id": "kota"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この市は人口が多いです。",
+              "furigana": "この しは じんこうが おおいです。",
+              "romaji": "kono shi wa jinkou ga ooi desu.",
+              "meanings": {
+                "id": "Kota ini populasinya banyak.",
+                "en": "This city has a large population."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "市の中心に住んでいます。",
+              "furigana": "しの ちゅうしんに すんでいます。",
+              "romaji": "shi no chuushin ni sundeimasu.",
+              "meanings": {
+                "id": "Saya tinggal di pusat kota.",
+                "en": "I live in the city center."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい市ができました。",
+              "furigana": "あたらしい しが できました。",
+              "romaji": "atarashii shi ga dekimashita.",
+              "meanings": {
+                "id": "Kota baru terbentuk.",
+                "en": "A new city was established."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -294,7 +1158,39 @@
           "meanings": {
             "en": "exhibition",
             "id": "pameran"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "美術展覧会に行きました。",
+              "furigana": "びじゅつてんらんかいに いきました。",
+              "romaji": "bijyutsu tenrankai ni ikimashita.",
+              "meanings": {
+                "id": "Saya pergi ke pameran seni.",
+                "en": "I went to an art exhibition."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "展覧会は来月開かれます。",
+              "furigana": "てんらんかいは らいげつ ひらかれます。",
+              "romaji": "tenrankai wa raigetsu hirakaremasu.",
+              "meanings": {
+                "id": "Pameran diadakan bulan depan.",
+                "en": "The exhibition will be held next month."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "展覧会を見たいです。",
+              "furigana": "てんらんかいを みたいです。",
+              "romaji": "tenrankai wo mitai desu.",
+              "meanings": {
+                "id": "Saya ingin melihat pameran.",
+                "en": "I want to see the exhibition."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -304,7 +1200,39 @@
           "meanings": {
             "en": "metropolitan city, capital",
             "id": "kota metropolitan, ibu-kota"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "東京都に住んでいます。",
+              "furigana": "とうきょうとに すんでいます。",
+              "romaji": "toukyouto ni sundeimasu.",
+              "meanings": {
+                "id": "Saya tinggal di Tokyo.",
+                "en": "I live in Tokyo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "京都は昔の都でした。",
+              "furigana": "きょうとは むかしの とでした。",
+              "romaji": "kyouto wa mukashi no to deshita.",
+              "meanings": {
+                "id": "Kyoto adalah ibu kota zaman dulu.",
+                "en": "Kyoto was the old capital."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "都の生活は便利です。",
+              "furigana": "との せいかつは べんりです。",
+              "romaji": "to no seikatsu wa benri desu.",
+              "meanings": {
+                "id": "Kehidupan di kota metropolitan nyaman.",
+                "en": "Life in the metropolis is convenient."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -314,7 +1242,39 @@
           "meanings": {
             "en": "sales area, counter",
             "id": "tempat penjualan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "靴売り場は三階です。",
+              "furigana": "くつうりばは さんがいです。",
+              "romaji": "kutsu uriba wa sangai desu.",
+              "meanings": {
+                "id": "Tempat penjualan sepatu di lantai tiga.",
+                "en": "The shoe department is on the third floor."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "売り場で店員に聞きました。",
+              "furigana": "うりばで てんいんに ききました。",
+              "romaji": "uriba de ten'in ni kikimashita.",
+              "meanings": {
+                "id": "Saya bertanya kepada pegawai di tempat penjualan.",
+                "en": "I asked the clerk at the sales counter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "食品売り場を探しています。",
+              "furigana": "しょくひんうりばを さがしています。",
+              "romaji": "shokuhin uriba wo sagashiteimasu.",
+              "meanings": {
+                "id": "Saya sedang mencari tempat penjualan makanan.",
+                "en": "I'm looking for the food section."
+              }
+            }
+          ]
         }
       ]
     },
