@@ -9317,7 +9317,39 @@
           "meanings": {
             "en": "husband",
             "id": "suami anda, tuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ご主人は元気ですか。",
+              "furigana": "ごしゅじんは げんき ですか。",
+              "romaji": "goshujin wa genki desu ka.",
+              "meanings": {
+                "id": "Apakah suami Anda sehat?",
+                "en": "Is your husband well?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ご主人はどこですか。",
+              "furigana": "ごしゅじんは どこ ですか。",
+              "romaji": "goshujin wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana suami Anda?",
+                "en": "Where is your husband?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ご主人と一緒に来ました。",
+              "furigana": "ごしゅじんと いっしょに きました。",
+              "romaji": "goshujin to issho ni kimashita.",
+              "meanings": {
+                "id": "Saya datang bersama suami Anda.",
+                "en": "I came with your husband."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -9327,7 +9359,39 @@
           "meanings": {
             "en": "wife",
             "id": "istri (saya)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "家内です。",
+              "furigana": "かない です。",
+              "romaji": "kanai desu.",
+              "meanings": {
+                "id": "Ini istri saya.",
+                "en": "This is my wife."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家内と買い物に行きます。",
+              "furigana": "かないと かいものに いきます。",
+              "romaji": "kanai to kaimono ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi belanja dengan istri saya.",
+                "en": "I go shopping with my wife."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "家内は料理が上手です。",
+              "furigana": "かないは りょうりが じょうず です。",
+              "romaji": "kanai wa ryouri ga jouzu desu.",
+              "meanings": {
+                "id": "Istri saya pandai memasak.",
+                "en": "My wife is good at cooking."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -9337,7 +9401,39 @@
           "meanings": {
             "en": "child",
             "id": "anak, anak kecil"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "子がいます。",
+              "furigana": "こが います。",
+              "romaji": "ko ga imasu.",
+              "meanings": {
+                "id": "Saya punya anak.",
+                "en": "I have a child."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "子は三人です。",
+              "furigana": "こは さんにん です。",
+              "romaji": "ko wa sannin desu.",
+              "meanings": {
+                "id": "Anak saya tiga orang.",
+                "en": "I have three children."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "子と遊びます。",
+              "furigana": "こと あそびます。",
+              "romaji": "ko to asobimasu.",
+              "meanings": {
+                "id": "Saya bermain dengan anak.",
+                "en": "I play with my child."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -9347,7 +9443,39 @@
           "meanings": {
             "en": "son",
             "id": "putra, anak laki-laki"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "息子は学生です。",
+              "furigana": "むすこは がくせい です。",
+              "romaji": "musuko wa gakusei desu.",
+              "meanings": {
+                "id": "Anak laki-laki saya adalah pelajar.",
+                "en": "My son is a student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "息子が二人います。",
+              "furigana": "むすこが ふたり います。",
+              "romaji": "musuko ga futari imasu.",
+              "meanings": {
+                "id": "Saya punya dua anak laki-laki.",
+                "en": "I have two sons."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "息子は東京で働いています。",
+              "furigana": "むすこは とうきょうで はたらいて います。",
+              "romaji": "musuko wa toukyou de hataraite imasu.",
+              "meanings": {
+                "id": "Anak laki-laki saya bekerja di Tokyo.",
+                "en": "My son works in Tokyo."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -9357,7 +9485,39 @@
           "meanings": {
             "en": "daughter",
             "id": "putri, anak perempuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "娘は高校生です。",
+              "furigana": "むすめは こうこうせい です。",
+              "romaji": "musume wa koukousei desu.",
+              "meanings": {
+                "id": "Anak perempuan saya adalah siswa SMA.",
+                "en": "My daughter is a high school student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "娘が一人います。",
+              "furigana": "むすめが ひとり います。",
+              "romaji": "musume ga hitori imasu.",
+              "meanings": {
+                "id": "Saya punya satu anak perempuan.",
+                "en": "I have one daughter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "娘はピアノが上手です。",
+              "furigana": "むすめは ピアノが じょうず です。",
+              "romaji": "musume wa piano ga jouzu desu.",
+              "meanings": {
+                "id": "Anak perempuan saya pandai piano.",
+                "en": "My daughter is good at piano."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -9367,7 +9527,39 @@
           "meanings": {
             "en": "husband",
             "id": "suami (saya)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "夫です。",
+              "furigana": "おっと です。",
+              "romaji": "otto desu.",
+              "meanings": {
+                "id": "Ini suami saya.",
+                "en": "This is my husband."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夫は会社員です。",
+              "furigana": "おっとは かいしゃいん です。",
+              "romaji": "otto wa kaishain desu.",
+              "meanings": {
+                "id": "Suami saya adalah karyawan perusahaan.",
+                "en": "My husband is a company employee."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "夫と旅行に行きました。",
+              "furigana": "おっとと りょこうに いきました。",
+              "romaji": "otto to ryokou ni ikimashita.",
+              "meanings": {
+                "id": "Saya pergi liburan dengan suami saya.",
+                "en": "I went on a trip with my husband."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -9377,7 +9569,39 @@
           "meanings": {
             "en": "parent",
             "id": "orang-tua, ayah-ibu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "親と住んでいます。",
+              "furigana": "おやと すんで います。",
+              "romaji": "oya to sunde imasu.",
+              "meanings": {
+                "id": "Saya tinggal bersama orang tua.",
+                "en": "I live with my parents."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "親は元気です。",
+              "furigana": "おやは げんき です。",
+              "romaji": "oya wa genki desu.",
+              "meanings": {
+                "id": "Orang tua saya sehat.",
+                "en": "My parents are well."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "親に電話します。",
+              "furigana": "おやに でんわ します。",
+              "romaji": "oya ni denwa shimasu.",
+              "meanings": {
+                "id": "Saya menelepon orang tua.",
+                "en": "I call my parents."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -9387,7 +9611,39 @@
           "meanings": {
             "en": "grandmother",
             "id": "nenek (saya)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "祖母は八十歳です。",
+              "furigana": "そぼは はちじゅっさい です。",
+              "romaji": "sobo wa hachijussai desu.",
+              "meanings": {
+                "id": "Nenek saya berumur 80 tahun.",
+                "en": "My grandmother is 80 years old."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "祖母に会いに行きます。",
+              "furigana": "そぼに あいに いきます。",
+              "romaji": "sobo ni ai ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi menemui nenek.",
+                "en": "I go to see my grandmother."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "祖母は優しいです。",
+              "furigana": "そぼは やさしいです。",
+              "romaji": "sobo wa yasashii desu.",
+              "meanings": {
+                "id": "Nenek saya baik.",
+                "en": "My grandmother is kind."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -9397,7 +9653,39 @@
           "meanings": {
             "en": "grandfather",
             "id": "kakek (saya)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "祖父は元気です。",
+              "furigana": "そふは げんき です。",
+              "romaji": "sofu wa genki desu.",
+              "meanings": {
+                "id": "Kakek saya sehat.",
+                "en": "My grandfather is well."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "祖父と散歩します。",
+              "furigana": "そふと さんぽ します。",
+              "romaji": "sofu to sanpo shimasu.",
+              "meanings": {
+                "id": "Saya jalan-jalan dengan kakek.",
+                "en": "I take a walk with my grandfather."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "祖父は九十歳です。",
+              "furigana": "そふは きゅうじゅっさい です。",
+              "romaji": "sofu wa kyuujussai desu.",
+              "meanings": {
+                "id": "Kakek saya berumur 90 tahun.",
+                "en": "My grandfather is 90 years old."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -9407,7 +9695,39 @@
           "meanings": {
             "en": "wife",
             "id": "istri (pada umumnya)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "妻です。",
+              "furigana": "つま です。",
+              "romaji": "tsuma desu.",
+              "meanings": {
+                "id": "Ini istri saya.",
+                "en": "This is my wife."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "妻は先生です。",
+              "furigana": "つまは せんせい です。",
+              "romaji": "tsuma wa sensei desu.",
+              "meanings": {
+                "id": "Istri saya adalah guru.",
+                "en": "My wife is a teacher."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "妻と映画を見ました。",
+              "furigana": "つまと えいがを みました。",
+              "romaji": "tsuma to eiga wo mimashita.",
+              "meanings": {
+                "id": "Saya menonton film dengan istri saya.",
+                "en": "I watched a movie with my wife."
+              }
+            }
+          ]
         }
       ]
     },
@@ -9426,7 +9746,39 @@
           "meanings": {
             "en": "miss, young lady",
             "id": "nona"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お嬢さんは何歳ですか。",
+              "furigana": "おじょうさんは なんさい ですか。",
+              "romaji": "ojyousan wa nansai desu ka.",
+              "meanings": {
+                "id": "Berapa umur putri Anda?",
+                "en": "How old is your daughter?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お嬢さんは学生ですか。",
+              "furigana": "おじょうさんは がくせい ですか。",
+              "romaji": "ojyousan wa gakusei desu ka.",
+              "meanings": {
+                "id": "Apakah putri Anda seorang pelajar?",
+                "en": "Is your daughter a student?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お嬢さんはきれいですね。",
+              "furigana": "おじょうさんは きれい ですね。",
+              "romaji": "ojyousan wa kirei desu ne.",
+              "meanings": {
+                "id": "Putri Anda cantik ya.",
+                "en": "Your daughter is pretty, isn't she?"
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -9436,7 +9788,39 @@
           "meanings": {
             "en": "-chan (suffix)",
             "id": "panggilan untuk teman dekat atau anak-anak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "花子ちゃん、元気？",
+              "furigana": "はなこちゃん、げんき？",
+              "romaji": "hanako chan, genki?",
+              "meanings": {
+                "id": "Hanako, apa kabar?",
+                "en": "Hanako, how are you?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "赤ちゃんはかわいいです。",
+              "furigana": "あかちゃんは かわいいです。",
+              "romaji": "akachan wa kawaii desu.",
+              "meanings": {
+                "id": "Bayinya lucu.",
+                "en": "The baby is cute."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "太郎ちゃんと遊びました。",
+              "furigana": "たろうちゃんと あそびました。",
+              "romaji": "tarou chan to asobimashita.",
+              "meanings": {
+                "id": "Saya bermain dengan Taro.",
+                "en": "I played with Taro."
+              }
+            }
+          ]
         }
       ]
     },
