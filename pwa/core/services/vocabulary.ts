@@ -1,6 +1,17 @@
 import n5VocabularyData from "@/data/n5/vocabulary/vocabulary.json";
 import n4VocabularyData from "@/data/n4/vocabulary/vocabulary.json";
 
+export interface VocabularyExample {
+  id: number;
+  sentence: string;
+  furigana: string;
+  romaji: string;
+  meanings: {
+    en: string;
+    id: string;
+  };
+}
+
 export interface VocabularyWord {
   id: number;
   kanji: string;
@@ -10,6 +21,7 @@ export interface VocabularyWord {
     en: string;
     id: string;
   };
+  examples?: VocabularyExample[];
 }
 
 export interface VocabularyCategory {
