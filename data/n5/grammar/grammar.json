@@ -1,0 +1,637 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "pattern": "...wa...desu",
+      "romanji": "wa desu",
+      "japanese": "〜は〜です",
+      "structure": {
+        "components": [
+          {
+            "type": "subject",
+            "label": {
+              "en": "Subject",
+              "id": "Subjek"
+            },
+            "placeholder": "...",
+            "example": "私"
+          },
+          {
+            "type": "particle",
+            "value": "は",
+            "label": {
+              "en": "topic marker",
+              "id": "penanda topik"
+            },
+            "romanji": "wa"
+          },
+          {
+            "type": "predicate",
+            "label": {
+              "en": "Description",
+              "id": "Keterangan"
+            },
+            "placeholder": "...",
+            "example": "インドネシア人"
+          },
+          {
+            "type": "copula",
+            "value": "です",
+            "label": {
+              "en": "is/am/are",
+              "id": "adalah"
+            },
+            "romanji": "desu"
+          }
+        ]
+      },
+      "type": "sentence",
+      "subtype": "positive",
+      "category": {
+        "id": "basic_sentence",
+        "name": {
+          "en": "Basic Sentence Patterns",
+          "id": "Pola Kalimat Dasar"
+        }
+      },
+      "meanings": {
+        "id": "Kalimat Positif",
+        "en": "Positive Sentence"
+      },
+      "function": {
+        "id": "Menyatakan identitas atau keadaan subjek",
+        "en": "States the identity or condition of the subject"
+      },
+      "examples": [
+        {
+          "id": 1,
+          "japanese": "私は インドネシア人 です。",
+          "furigana": "わたし は インドネシアじん です。",
+          "romanji": "Watashi wa Indonesia-jin desu.",
+          "meanings": {
+            "id": "Saya adalah orang Indonesia.",
+            "en": "I am Indonesian."
+          }
+        },
+        {
+          "id": 2,
+          "japanese": "今日は 暑い です。",
+          "furigana": "きょう は あつい です。",
+          "romanji": "Kyou wa atsui desu.",
+          "meanings": {
+            "id": "Hari ini panas.",
+            "en": "Today is hot."
+          }
+        },
+        {
+          "id": 3,
+          "japanese": "これは 本 です。",
+          "furigana": "これ は ほん です。",
+          "romanji": "Kore wa hon desu.",
+          "meanings": {
+            "id": "Ini adalah buku.",
+            "en": "This is a book."
+          }
+        },
+        {
+          "id": 4,
+          "japanese": "彼は 九時 です。",
+          "furigana": "かれ は くじ です。",
+          "romanji": "Kare wa kuji desu.",
+          "meanings": {
+            "id": "Dia jam sembilan.",
+            "en": "He is at nine o'clock."
+          }
+        }
+      ],
+      "related_patterns": [2, 3, 5],
+      "usage_notes": {
+        "id": "Digunakan untuk menyatakan identitas atau keadaan subjek dengan sopan",
+        "en": "Used to state the identity or condition of the subject politely"
+      },
+      "common_mistakes": [
+        {
+          "incorrect": "私 です インドネシア人",
+          "correct": "私は インドネシア人 です",
+          "explanation": {
+            "id": "Partikel 'は' harus ditempatkan setelah subjek",
+            "en": "Particle 'wa' must be placed after the subject"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pattern": "...wa...desu ka",
+      "romanji": "wa desu ka",
+      "japanese": "〜は〜ですか",
+      "structure": {
+        "components": [
+          {
+            "type": "subject",
+            "label": {
+              "en": "Subject",
+              "id": "Subjek"
+            },
+            "placeholder": "...",
+            "example": "それ"
+          },
+          {
+            "type": "particle",
+            "value": "は",
+            "label": {
+              "en": "topic marker",
+              "id": "penanda topik"
+            },
+            "romanji": "wa"
+          },
+          {
+            "type": "predicate",
+            "label": {
+              "en": "Description",
+              "id": "Keterangan"
+            },
+            "placeholder": "...",
+            "example": "何"
+          },
+          {
+            "type": "copula",
+            "value": "です",
+            "label": {
+              "en": "is/am/are",
+              "id": "adalah"
+            },
+            "romanji": "desu"
+          },
+          {
+            "type": "particle",
+            "value": "か",
+            "label": {
+              "en": "question marker",
+              "id": "penanda tanya"
+            },
+            "romanji": "ka"
+          }
+        ]
+      },
+      "type": "sentence",
+      "subtype": "question",
+      "category": {
+        "id": "question_sentence",
+        "name": {
+          "en": "Question Sentence Patterns",
+          "id": "Pola Kalimat Tanya"
+        }
+      },
+      "meanings": {
+        "id": "Kalimat Tanya - Apakah? Dimana? Siapa?",
+        "en": "Question Sentence"
+      },
+      "function": {
+        "id": "Membuat pertanyaan tentang identitas atau keadaan",
+        "en": "Creates questions about identity or condition"
+      },
+      "examples": [
+        {
+          "id": 1,
+          "japanese": "それは 何 ですか。",
+          "furigana": "それ は なに ですか。",
+          "romanji": "Sore wa nan desu ka?",
+          "meanings": {
+            "id": "Itu apa?",
+            "en": "What is that?"
+          }
+        },
+        {
+          "id": 2,
+          "japanese": "お国は どこ ですか。",
+          "furigana": "おくに は どこ ですか。",
+          "romanji": "Okuni wa doko desu ka?",
+          "meanings": {
+            "id": "Negara (Anda) dimana?",
+            "en": "Where is your country?"
+          }
+        },
+        {
+          "id": 3,
+          "japanese": "日本語は おもしろい ですか。",
+          "furigana": "にほんご は おもしろい ですか。",
+          "romanji": "Nihon-go wa omoshiroi desu ka?",
+          "meanings": {
+            "id": "Bahasa Jepang menarik?",
+            "en": "Is Japanese interesting?"
+          }
+        },
+        {
+          "id": 4,
+          "japanese": "お名前は 何 ですか。",
+          "furigana": "おなまえ は なん ですか。",
+          "romanji": "Onamae wa nan desu ka?",
+          "meanings": {
+            "id": "Nama Anda siapa?",
+            "en": "What is your name?"
+          }
+        }
+      ],
+      "related_patterns": [1, 3],
+      "usage_notes": {
+        "id": "Partikel 'か' di akhir kalimat menandakan kalimat tanya",
+        "en": "Particle 'ka' at the end of sentence indicates a question"
+      },
+      "common_mistakes": [
+        {
+          "incorrect": "それは 何 です",
+          "correct": "それは 何 ですか",
+          "explanation": {
+            "id": "Kalimat tanya harus diakhiri dengan partikel 'か'",
+            "en": "Question sentences must end with particle 'ka'"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pattern": "...wa...dewa arimasen",
+      "romanji": "wa dewa arimasen",
+      "japanese": "〜は〜ではありません",
+      "structure": {
+        "components": [
+          {
+            "type": "subject",
+            "label": {
+              "en": "Subject",
+              "id": "Subjek"
+            },
+            "placeholder": "...",
+            "example": "彼"
+          },
+          {
+            "type": "particle",
+            "value": "は",
+            "label": {
+              "en": "topic marker",
+              "id": "penanda topik"
+            },
+            "romanji": "wa"
+          },
+          {
+            "type": "predicate",
+            "label": {
+              "en": "Description",
+              "id": "Keterangan"
+            },
+            "placeholder": "...",
+            "example": "先生"
+          },
+          {
+            "type": "copula",
+            "value": "ではありません",
+            "label": {
+              "en": "is not/am not/are not",
+              "id": "bukan"
+            },
+            "romanji": "dewa arimasen",
+            "variants": [
+              {
+                "value": "じゃありません",
+                "romanji": "ja arimasen",
+                "formality": "casual"
+              },
+              {
+                "value": "じゃないです",
+                "romanji": "ja nai desu",
+                "formality": "casual"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "sentence",
+      "subtype": "negative",
+      "category": {
+        "id": "negative_sentence",
+        "name": {
+          "en": "Negative Sentence Patterns",
+          "id": "Pola Kalimat Negatif"
+        }
+      },
+      "meanings": {
+        "id": "Kalimat Negatif - bukan, tidak",
+        "en": "Negative Sentence"
+      },
+      "function": {
+        "id": "Menyangkal identitas atau keadaan",
+        "en": "Negates identity or condition"
+      },
+      "examples": [
+        {
+          "id": 1,
+          "japanese": "彼は 先生 では ありません。",
+          "furigana": "かれ は せんせい では ありません。",
+          "romanji": "Kare wa sensei dewa arimasen.",
+          "meanings": {
+            "id": "Dia bukan guru.",
+            "en": "He is not a teacher."
+          }
+        },
+        {
+          "id": 2,
+          "japanese": "今日は 雨 じゃ ありません。",
+          "furigana": "きょう は あめ じゃ ありません。",
+          "romanji": "Kyou wa ame jya arimasen.",
+          "meanings": {
+            "id": "Hari ini bukan hujan.",
+            "en": "Today it's not raining."
+          }
+        },
+        {
+          "id": 3,
+          "japanese": "これは 日本料理 じゃない です。",
+          "furigana": "これ は にほんりょうり じゃない です。",
+          "romanji": "Kore wa Nihon ryouri jya nai desu.",
+          "meanings": {
+            "id": "Ini bukan masakan Jepang.",
+            "en": "This is not Japanese food."
+          }
+        },
+        {
+          "id": 4,
+          "japanese": "明日は 休み じゃない です。",
+          "furigana": "あした は やすみ じゃない です。",
+          "romanji": "Ashita wa yasumi jya nai desu.",
+          "meanings": {
+            "id": "Besok bukan libur.",
+            "en": "Tomorrow is not a holiday."
+          }
+        }
+      ],
+      "related_patterns": [1, 2],
+      "usage_notes": {
+        "id": "じゃありません lebih kasual dibanding ではありません, じゃないです paling kasual. Alternatif: じゃありません (polite), じゃないです (casual-polite)",
+        "en": "じゃありません is more casual than ではありません, じゃないです is the most casual. Alternatives: じゃありません (polite), じゃないです (casual-polite)"
+      },
+      "common_mistakes": [
+        {
+          "incorrect": "彼は 先生 ない です",
+          "correct": "彼は 先生 じゃない です",
+          "explanation": {
+            "id": "Gunakan じゃない untuk menyangkal kata benda",
+            "en": "Use じゃない to negate nouns"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pattern": "...mo...",
+      "romanji": "mo",
+      "japanese": "〜も〜",
+      "structure": {
+        "components": [
+          {
+            "type": "subject",
+            "label": {
+              "en": "Subject",
+              "id": "Subjek"
+            },
+            "placeholder": "...",
+            "example": "私"
+          },
+          {
+            "type": "particle",
+            "value": "も",
+            "label": {
+              "en": "also/too",
+              "id": "juga"
+            },
+            "romanji": "mo",
+            "replaces": "は"
+          },
+          {
+            "type": "predicate",
+            "label": {
+              "en": "Description",
+              "id": "Keterangan"
+            },
+            "placeholder": "...",
+            "example": "学生"
+          },
+          {
+            "type": "copula",
+            "value": "です",
+            "label": {
+              "en": "is/am/are",
+              "id": "adalah"
+            },
+            "romanji": "desu",
+            "optional": true
+          }
+        ]
+      },
+      "type": "particle",
+      "subtype": "additive",
+      "category": {
+        "id": "particle",
+        "name": {
+          "en": "Particles",
+          "id": "Partikel"
+        }
+      },
+      "meanings": {
+        "id": "juga",
+        "en": "also, too"
+      },
+      "function": {
+        "id": "Menunjukkan kesamaan atau penambahan",
+        "en": "Shows similarity or addition"
+      },
+      "examples": [
+        {
+          "id": 1,
+          "japanese": "私も 学生 です。",
+          "furigana": "わたし も がくせい です。",
+          "romanji": "Watashi mo gakusei desu.",
+          "meanings": {
+            "id": "Saya juga murid.",
+            "en": "I am also a student."
+          }
+        },
+        {
+          "id": 2,
+          "japanese": "友達も 来ます。",
+          "furigana": "ともだち も きます。",
+          "romanji": "Tomodachi mo kimasu.",
+          "meanings": {
+            "id": "Teman juga datang.",
+            "en": "My friend will also come."
+          }
+        },
+        {
+          "id": 3,
+          "japanese": "彼も 行きます。",
+          "furigana": "かれ も いきます。",
+          "romanji": "Kare mo ikimasu.",
+          "meanings": {
+            "id": "Dia juga pergi.",
+            "en": "He will also go."
+          }
+        }
+      ],
+      "related_patterns": [1, 5],
+      "usage_notes": {
+        "id": "Partikel も menggantikan partikel は untuk menunjukkan kesamaan",
+        "en": "Particle も replaces particle は to show similarity"
+      },
+      "common_mistakes": [
+        {
+          "incorrect": "私は も 学生 です",
+          "correct": "私も 学生 です",
+          "explanation": {
+            "id": "Partikel も menggantikan は, tidak ditambahkan setelahnya",
+            "en": "Particle も replaces は, not added after it"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pattern": "...de...",
+      "romanji": "de",
+      "japanese": "〜で〜",
+      "structure": {
+        "components": [
+          {
+            "type": "subject",
+            "label": {
+              "en": "Subject",
+              "id": "Subjek"
+            },
+            "placeholder": "...",
+            "example": "私"
+          },
+          {
+            "type": "particle",
+            "value": "は",
+            "label": {
+              "en": "topic marker",
+              "id": "penanda topik"
+            },
+            "romanji": "wa"
+          },
+          {
+            "type": "object",
+            "label": {
+              "en": "Place/Thing/Method",
+              "id": "Tempat/Benda/Cara"
+            },
+            "placeholder": "...",
+            "example": "インドネシア人"
+          },
+          {
+            "type": "particle",
+            "value": "で",
+            "label": {
+              "en": "at/with/by",
+              "id": "di/dengan"
+            },
+            "romanji": "de",
+            "functions": ["location", "method", "means"]
+          },
+          {
+            "type": "predicate",
+            "label": {
+              "en": "Action/Description",
+              "id": "Aksi/Keterangan"
+            },
+            "placeholder": "...",
+            "example": "学生"
+          },
+          {
+            "type": "copula",
+            "value": "です",
+            "label": {
+              "en": "is/am/are",
+              "id": "adalah"
+            },
+            "romanji": "desu",
+            "optional": true
+          }
+        ]
+      },
+      "type": "particle",
+      "subtype": "location_method",
+      "category": {
+        "id": "particle_location",
+        "name": {
+          "en": "Location & Method Particles",
+          "id": "Partikel Tempat & Cara"
+        }
+      },
+      "meanings": {
+        "id": "di, dengan, dan",
+        "en": "at, with, by means of, and"
+      },
+      "function": {
+        "id": "Menunjukkan tempat aktivitas, alat/cara, atau penghubung",
+        "en": "Indicates location of activity, tool/method, or connector"
+      },
+      "examples": [
+        {
+          "id": 1,
+          "japanese": "私は インドネシア人 で 学生 です。",
+          "furigana": "わたし は インドネシアじん で がくせい です。",
+          "romanji": "Watashi wa Indonesia-jin de gakusei desu.",
+          "meanings": {
+            "id": "Saya adalah orang Indonesia dan murid.",
+            "en": "I am Indonesian and a student."
+          }
+        },
+        {
+          "id": 2,
+          "japanese": "友達は 日本人 で 先生 です。",
+          "furigana": "ともだち は にほんじん で せんせい です。",
+          "romanji": "Tomodachi wa Nihon-jin de sensei desu.",
+          "meanings": {
+            "id": "Teman saya orang Jepang dan guru.",
+            "en": "My friend is Japanese and a teacher."
+          }
+        },
+        {
+          "id": 3,
+          "japanese": "図書館 で 勉強します。",
+          "furigana": "としょかん で べんきょうします。",
+          "romanji": "Toshokan de benkyou shimasu.",
+          "meanings": {
+            "id": "Belajar di perpustakaan.",
+            "en": "Study at the library."
+          }
+        },
+        {
+          "id": 4,
+          "japanese": "バス で 行きます。",
+          "furigana": "バス で いきます。",
+          "romanji": "Basu de ikimasu.",
+          "meanings": {
+            "id": "Pergi dengan bus.",
+            "en": "Go by bus."
+          }
+        }
+      ],
+      "related_patterns": [1, 4],
+      "usage_notes": {
+        "id": "Partikel で memiliki banyak fungsi: 1) Tempat aktivitas (学校で勉強します), 2) Alat/cara (バスで行きます), 3) Penghubung/dan (日本人で先生です)",
+        "en": "Particle で has multiple functions: 1) Location of activity (学校で勉強します), 2) Tool/method (バスで行きます), 3) Connector/and (日本人で先生です)"
+      },
+      "common_mistakes": [
+        {
+          "incorrect": "図書館に勉強します",
+          "correct": "図書館で勉強します",
+          "explanation": {
+            "id": "Gunakan で untuk tempat aktivitas, bukan に",
+            "en": "Use で for location of activity, not に"
+          }
+        }
+      ]
+    }
+  ]
+}
