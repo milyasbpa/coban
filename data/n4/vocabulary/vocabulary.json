@@ -27383,7 +27383,39 @@
           "meanings": {
             "en": "I (male)",
             "id": "aku (ucapan laki-laki)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "僕は学生です。",
+              "furigana": "ぼくは がくせいです。",
+              "romaji": "boku wa gakusei desu.",
+              "meanings": {
+                "id": "Saya (laki-laki) adalah pelajar.",
+                "en": "I am a student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "僕の名前は田中です。",
+              "furigana": "ぼくの なまえは たなかです。",
+              "romaji": "boku no namae wa tanaka desu.",
+              "meanings": {
+                "id": "Nama saya Tanaka.",
+                "en": "My name is Tanaka."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "僕も行きます。",
+              "furigana": "ぼくも いきます。",
+              "romaji": "boku mo ikimasu.",
+              "meanings": {
+                "id": "Saya juga pergi.",
+                "en": "I will go too."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -27393,7 +27425,39 @@
           "meanings": {
             "en": "you",
             "id": "kamu (ucapan kepada anak muda)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "君は誰ですか。",
+              "furigana": "きみは だれですか。",
+              "romaji": "kimi wa dare desu ka.",
+              "meanings": {
+                "id": "Kamu siapa?",
+                "en": "Who are you?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "君の本を借りてもいいですか。",
+              "furigana": "きみの ほんを かりても いいですか。",
+              "romaji": "kimi no hon o karite mo ii desu ka.",
+              "meanings": {
+                "id": "Boleh pinjam buku kamu?",
+                "en": "May I borrow your book?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "君も来てください。",
+              "furigana": "きみも きてください。",
+              "romaji": "kimi mo kite kudasai.",
+              "meanings": {
+                "id": "Kamu juga tolong datang.",
+                "en": "Please come too."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -27403,7 +27467,39 @@
           "meanings": {
             "en": "friend (junior)",
             "id": "saudara/ku (ucapan untuk teman dekat/junior)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "田中君はどこですか。",
+              "furigana": "たなかくんは どこですか。",
+              "romaji": "tanaka kun wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana Tanaka?",
+                "en": "Where is Tanaka?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "山田君、おはよう。",
+              "furigana": "やまだくん、おはよう。",
+              "romaji": "yamada kun, ohayou.",
+              "meanings": {
+                "id": "Yamada, selamat pagi.",
+                "en": "Good morning, Yamada."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "佐藤君と話しました。",
+              "furigana": "さとうくんと はなしました。",
+              "romaji": "satou kun to hanashimashita.",
+              "meanings": {
+                "id": "Saya berbicara dengan Satou.",
+                "en": "I talked with Satou."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -27413,7 +27509,39 @@
           "meanings": {
             "en": "everyone",
             "id": "bapak-ibu- sekalian, semuanya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "皆さん、おはようございます。",
+              "furigana": "みなさん、おはようございます。",
+              "romaji": "minasan, ohayou gozaimasu.",
+              "meanings": {
+                "id": "Selamat pagi semuanya.",
+                "en": "Good morning everyone."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "みんなで行きましょう。",
+              "furigana": "みんなで いきましょう。",
+              "romaji": "minna de ikimashou.",
+              "meanings": {
+                "id": "Mari pergi bersama-sama.",
+                "en": "Let's go together."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "みんな元気ですか。",
+              "furigana": "みんな げんきですか。",
+              "romaji": "minna genki desu ka.",
+              "meanings": {
+                "id": "Apa semuanya sehat?",
+                "en": "Is everyone well?"
+              }
+            }
+          ]
         }
       ]
     },
@@ -27432,7 +27560,39 @@
           "meanings": {
             "en": "times, fold",
             "id": "berlipat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "二倍になりました。",
+              "furigana": "にばいに なりました。",
+              "romaji": "nibai ni narimashita.",
+              "meanings": {
+                "id": "Menjadi dua kali lipat.",
+                "en": "It became double."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "三倍大きいです。",
+              "furigana": "さんばい おおきいです。",
+              "romaji": "sanbai ookii desu.",
+              "meanings": {
+                "id": "Tiga kali lebih besar.",
+                "en": "It's three times bigger."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "値段が二倍になりました。",
+              "furigana": "ねだんが にばいに なりました。",
+              "romaji": "nedan ga nibai ni narimashita.",
+              "meanings": {
+                "id": "Harganya menjadi dua kali lipat.",
+                "en": "The price became double."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -27442,7 +27602,39 @@
           "meanings": {
             "en": "once",
             "id": "satu kali, sekali"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一度行ったことがあります。",
+              "furigana": "いちど いった ことが あります。",
+              "romaji": "ichido itta koto ga arimasu.",
+              "meanings": {
+                "id": "Pernah pergi sekali.",
+                "en": "I have been there once."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一度会いましょう。",
+              "furigana": "いちど あいましょう。",
+              "romaji": "ichido aimashou.",
+              "meanings": {
+                "id": "Mari bertemu sekali.",
+                "en": "Let's meet once."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一度も見たことがないです。",
+              "furigana": "いちども みた ことが ないです。",
+              "romaji": "ichido mo mita koto ga nai desu.",
+              "meanings": {
+                "id": "Tidak pernah melihat sama sekali.",
+                "en": "I have never seen it."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -27452,7 +27644,39 @@
           "meanings": {
             "en": "enough, plenty",
             "id": "banyak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "時間が十分あります。",
+              "furigana": "じかんが じゅうぶん あります。",
+              "romaji": "jikan ga juubun arimasu.",
+              "meanings": {
+                "id": "Waktunya cukup banyak.",
+                "en": "There is enough time."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これで十分です。",
+              "furigana": "これで じゅうぶんです。",
+              "romaji": "kore de juubun desu.",
+              "meanings": {
+                "id": "Ini sudah cukup.",
+                "en": "This is enough."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お金が十分ありません。",
+              "furigana": "おかねが じゅうぶん ありません。",
+              "romaji": "okane ga juubun arimasen.",
+              "meanings": {
+                "id": "Uangnya tidak cukup.",
+                "en": "There is not enough money."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -27462,7 +27686,39 @@
           "meanings": {
             "en": "hundred million",
             "id": "ratus juta"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一億円です。",
+              "furigana": "いちおくえんです。",
+              "romaji": "ichioku en desu.",
+              "meanings": {
+                "id": "Seratus juta yen.",
+                "en": "It's one hundred million yen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "世界には七十億人います。",
+              "furigana": "せかいには ななじゅうおくにん います。",
+              "romaji": "sekai ni wa nanajuuoku nin imasu.",
+              "meanings": {
+                "id": "Di dunia ada tujuh miliar orang.",
+                "en": "There are seven billion people in the world."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二億円かかりました。",
+              "furigana": "におくえん かかりました。",
+              "romaji": "nioku en kakarimashita.",
+              "meanings": {
+                "id": "Menghabiskan dua ratus juta yen.",
+                "en": "It cost two hundred million yen."
+              }
+            }
+          ]
         }
       ]
     },
