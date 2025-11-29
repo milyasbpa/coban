@@ -3261,7 +3261,39 @@
           "meanings": {
             "en": "not at all",
             "id": "sedikitpun (tidak), sama sekali (tidak)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ちっとも分かりません。",
+              "furigana": "ちっとも わかりません。",
+              "romaji": "chittomo wakarimasen.",
+              "meanings": {
+                "id": "Saya tidak mengerti sama sekali.",
+                "en": "I don't understand at all."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ちっとも眠くないです。",
+              "furigana": "ちっとも ねむくないです。",
+              "romaji": "chittomo nemukunai desu.",
+              "meanings": {
+                "id": "Tidak mengantuk sama sekali.",
+                "en": "I'm not sleepy at all."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ちっとも面白くありませんでした。",
+              "furigana": "ちっとも おもしろく ありませんでした。",
+              "romaji": "chittomo omoshiroku arimasendeshita.",
+              "meanings": {
+                "id": "Tidak menarik sama sekali.",
+                "en": "It wasn't interesting at all."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -3271,7 +3303,39 @@
           "meanings": {
             "en": "a lot, considerably",
             "id": "sebagian besar, banyak, lumayan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大分暖かくなりました。",
+              "furigana": "だいぶ あたたかく なりました。",
+              "romaji": "daibu atatakaku narimashita.",
+              "meanings": {
+                "id": "Sudah menjadi cukup hangat.",
+                "en": "It has gotten quite warm."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大分遅れました。",
+              "furigana": "だいぶ おくれました。",
+              "romaji": "daibu okuremashita.",
+              "meanings": {
+                "id": "Saya cukup terlambat.",
+                "en": "I was quite late."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大分上手になりました。",
+              "furigana": "だいぶ じょうずに なりました。",
+              "romaji": "daibu jouzu ni narimashita.",
+              "meanings": {
+                "id": "Sudah menjadi cukup pandai.",
+                "en": "You've gotten quite good."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -3281,7 +3345,39 @@
           "meanings": {
             "en": "about, almost",
             "id": "kira-kira, hampir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大体分かりました。",
+              "furigana": "だいたい わかりました。",
+              "romaji": "daitai wakarimashita.",
+              "meanings": {
+                "id": "Saya kira-kira mengerti.",
+                "en": "I understood for the most part."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大体三時間かかります。",
+              "furigana": "だいたい さんじかん かかります。",
+              "romaji": "daitai sanjikan kakarimasu.",
+              "meanings": {
+                "id": "Kira-kira butuh tiga jam.",
+                "en": "It takes about three hours."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大体終わりました。",
+              "furigana": "だいたい おわりました。",
+              "romaji": "daitai owarimashita.",
+              "meanings": {
+                "id": "Hampir selesai.",
+                "en": "It's almost finished."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -3291,7 +3387,39 @@
           "meanings": {
             "en": "rapidly, one after another",
             "id": "bertubi-tubi, lagi dan lagi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どんどん質問してください。",
+              "furigana": "どんどん しつもんして ください。",
+              "romaji": "dondon shitsumon shite kudasai.",
+              "meanings": {
+                "id": "Tolong tanya terus.",
+                "en": "Please ask questions freely."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "日本語がどんどん上手になります。",
+              "furigana": "にほんごが どんどん じょうずに なります。",
+              "romaji": "nihongo ga dondon jouzu ni narimasu.",
+              "meanings": {
+                "id": "Bahasa Jepang saya semakin pandai.",
+                "en": "My Japanese is getting better and better."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "時間がどんどん過ぎます。",
+              "furigana": "じかんが どんどん すぎます。",
+              "romaji": "jikan ga dondon sugimasu.",
+              "meanings": {
+                "id": "Waktu berlalu dengan cepat.",
+                "en": "Time passes quickly."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -3301,7 +3429,39 @@
           "meanings": {
             "en": "usually, generally",
             "id": "biasa, umum"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "普通は八時に起きます。",
+              "furigana": "ふつうは はちじに おきます。",
+              "romaji": "futsuu wa hachiji ni okimasu.",
+              "meanings": {
+                "id": "Biasanya saya bangun jam 8.",
+                "en": "I usually wake up at 8 o'clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "普通列車に乗ります。",
+              "furigana": "ふつうれっしゃに のります。",
+              "romaji": "futsuuressha ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta lokal.",
+                "en": "I take the local train."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "これは普通のことです。",
+              "furigana": "これは ふつうの ことです。",
+              "romaji": "kore wa futsuu no koto desu.",
+              "meanings": {
+                "id": "Ini hal yang biasa.",
+                "en": "This is an ordinary thing."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -3311,7 +3471,39 @@
           "meanings": {
             "en": "clearly",
             "id": "nyata, jelas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "はっきり言ってください。",
+              "furigana": "はっきり いって ください。",
+              "romaji": "hakkiri itte kudasai.",
+              "meanings": {
+                "id": "Tolong katakan dengan jelas.",
+                "en": "Please say it clearly."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "はっきり見えます。",
+              "furigana": "はっきり みえます。",
+              "romaji": "hakkiri miemasu.",
+              "meanings": {
+                "id": "Terlihat dengan jelas.",
+                "en": "I can see it clearly."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "はっきり分かりません。",
+              "furigana": "はっきり わかりません。",
+              "romaji": "hakkiri wakarimasen.",
+              "meanings": {
+                "id": "Saya tidak tahu dengan jelas.",
+                "en": "I don't know clearly."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -3321,7 +3513,39 @@
           "meanings": {
             "en": "almost, nearly",
             "id": "hampir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ほとんど終わりました。",
+              "furigana": "ほとんど おわりました。",
+              "romaji": "hotondo owarimashita.",
+              "meanings": {
+                "id": "Hampir selesai.",
+                "en": "It's almost finished."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ほとんど毎日運動します。",
+              "furigana": "ほとんど まいにち うんどうします。",
+              "romaji": "hotondo mainichi undou shimasu.",
+              "meanings": {
+                "id": "Saya berolahraga hampir setiap hari.",
+                "en": "I exercise almost every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ほとんど分かりません。",
+              "furigana": "ほとんど わかりません。",
+              "romaji": "hotondo wakarimasen.",
+              "meanings": {
+                "id": "Hampir tidak mengerti.",
+                "en": "I hardly understand."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -3331,7 +3555,39 @@
           "meanings": {
             "en": "certainly, surely",
             "id": "pasti, tentu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "必ず行きます。",
+              "furigana": "かならず いきます。",
+              "romaji": "kanarazu ikimasu.",
+              "meanings": {
+                "id": "Saya pasti pergi.",
+                "en": "I will definitely go."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "必ず宿題をしてください。",
+              "furigana": "かならず しゅくだいを して ください。",
+              "romaji": "kanarazu shukudai wo shite kudasai.",
+              "meanings": {
+                "id": "Tolong pasti kerjakan PR.",
+                "en": "Please be sure to do your homework."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "必ず成功します。",
+              "furigana": "かならず せいこうします。",
+              "romaji": "kanarazu seikou shimasu.",
+              "meanings": {
+                "id": "Pasti berhasil.",
+                "en": "I will certainly succeed."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -3341,7 +3597,39 @@
           "meanings": {
             "en": "never (with negative)",
             "id": "sama sekali (tidak)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "決して忘れません。",
+              "furigana": "けっして わすれません。",
+              "romaji": "kesshite wasuremasen.",
+              "meanings": {
+                "id": "Tidak akan pernah lupa.",
+                "en": "I will never forget."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "決して諦めません。",
+              "furigana": "けっして あきらめません。",
+              "romaji": "kesshite akiramemasen.",
+              "meanings": {
+                "id": "Tidak akan pernah menyerah.",
+                "en": "I will never give up."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "決して悪いことではありません。",
+              "furigana": "けっして わるい ことでは ありません。",
+              "romaji": "kesshite warui kotodewa arimasen.",
+              "meanings": {
+                "id": "Sama sekali bukan hal yang buruk.",
+                "en": "It's not a bad thing at all."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -3351,7 +3639,39 @@
           "meanings": {
             "en": "surely, certainly",
             "id": "pasti, tentu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "きっと来ますよ。",
+              "furigana": "きっと きますよ。",
+              "romaji": "kitto kimasuyo.",
+              "meanings": {
+                "id": "Pasti datang loh.",
+                "en": "He will surely come."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "きっと大丈夫です。",
+              "furigana": "きっと だいじょうぶです。",
+              "romaji": "kitto daijoubu desu.",
+              "meanings": {
+                "id": "Pasti tidak apa-apa.",
+                "en": "It will surely be okay."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きっと成功しますよ。",
+              "furigana": "きっと せいこうしますよ。",
+              "romaji": "kitto seikou shimasuyo.",
+              "meanings": {
+                "id": "Pasti berhasil loh.",
+                "en": "You will surely succeed."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -3361,7 +3681,39 @@
           "meanings": {
             "en": "thing, matter",
             "id": "hal, urusan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大切なことがあります。",
+              "furigana": "たいせつな ことが あります。",
+              "romaji": "taisetsu na koto ga arimasu.",
+              "meanings": {
+                "id": "Ada hal yang penting.",
+                "en": "There is something important."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "読書が好きなことです。",
+              "furigana": "どくしょが すきな ことです。",
+              "romaji": "dokusho ga suki na koto desu.",
+              "meanings": {
+                "id": "Saya suka membaca.",
+                "en": "I like reading."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いいことを聞きました。",
+              "furigana": "いい ことを ききました。",
+              "romaji": "ii koto wo kikimashita.",
+              "meanings": {
+                "id": "Saya mendengar hal baik.",
+                "en": "I heard something good."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -3371,7 +3723,39 @@
           "meanings": {
             "en": "of course",
             "id": "sudah tentu, sewajarnya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "もちろん行きます。",
+              "furigana": "もちろん いきます。",
+              "romaji": "mochiron ikimasu.",
+              "meanings": {
+                "id": "Tentu saja saya pergi.",
+                "en": "Of course I'll go."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "もちろん知っています。",
+              "furigana": "もちろん しっています。",
+              "romaji": "mochiron shitteimasu.",
+              "meanings": {
+                "id": "Tentu saja saya tahu.",
+                "en": "Of course I know."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "もちろん大丈夫です。",
+              "furigana": "もちろん だいじょうぶです。",
+              "romaji": "mochiron daijoubu desu.",
+              "meanings": {
+                "id": "Tentu saja tidak apa-apa.",
+                "en": "Of course it's okay."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -3381,7 +3765,39 @@
           "meanings": {
             "en": "if",
             "id": "kalau, jika"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "もし雨なら行きません。",
+              "furigana": "もし あめなら いきません。",
+              "romaji": "moshi amenara ikimasen.",
+              "meanings": {
+                "id": "Jika hujan, saya tidak pergi.",
+                "en": "If it rains, I won't go."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "もし時間があれば来てください。",
+              "furigana": "もし じかんが あれば きて ください。",
+              "romaji": "moshi jikan ga areba kite kudasai.",
+              "meanings": {
+                "id": "Jika ada waktu, tolong datang.",
+                "en": "If you have time, please come."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "もし分からなければ聞いてください。",
+              "furigana": "もし わからなければ きいて ください。",
+              "romaji": "moshi wakaranakereba kiite kudasai.",
+              "meanings": {
+                "id": "Jika tidak mengerti, tolong tanya.",
+                "en": "If you don't understand, please ask."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -3391,7 +3807,39 @@
           "meanings": {
             "en": "quite, considerably",
             "id": "cukup, lumayan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "なかなか面白いです。",
+              "furigana": "なかなか おもしろいです。",
+              "romaji": "nakanaka omoshiroi desu.",
+              "meanings": {
+                "id": "Cukup menarik.",
+                "en": "It's quite interesting."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "なかなか来ません。",
+              "furigana": "なかなか きません。",
+              "romaji": "nakanaka kimasen.",
+              "meanings": {
+                "id": "Tidak kunjung datang.",
+                "en": "He doesn't come easily."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "なかなか上手ですね。",
+              "furigana": "なかなか じょうずですね。",
+              "romaji": "nakanaka jouzu desune.",
+              "meanings": {
+                "id": "Cukup pandai ya.",
+                "en": "You're quite good."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -3401,7 +3849,39 @@
           "meanings": {
             "en": "as much as possible",
             "id": "sebisa mungkin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "なるべく早く来てください。",
+              "furigana": "なるべく はやく きて ください。",
+              "romaji": "narubeku hayaku kite kudasai.",
+              "meanings": {
+                "id": "Tolong datang secepat mungkin.",
+                "en": "Please come as soon as possible."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "なるべく頑張ります。",
+              "furigana": "なるべく がんばります。",
+              "romaji": "narubeku ganbarimasu.",
+              "meanings": {
+                "id": "Saya berusaha sebisa mungkin.",
+                "en": "I'll try as hard as possible."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "なるべく安いのを買います。",
+              "furigana": "なるべく やすいのを かいます。",
+              "romaji": "narubeku yasui no wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli yang semurah mungkin.",
+                "en": "I'll buy as cheap as possible."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -3411,7 +3891,39 @@
           "meanings": {
             "en": "I see, indeed",
             "id": "memang, wajar, pantas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "なるほど、分かりました。",
+              "furigana": "なるほど、わかりました。",
+              "romaji": "naruhodo, wakarimashita.",
+              "meanings": {
+                "id": "Begitu, saya mengerti.",
+                "en": "I see, I understand."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "なるほど、そうですね。",
+              "furigana": "なるほど、そうですね。",
+              "romaji": "naruhodo, soudesune.",
+              "meanings": {
+                "id": "Memang begitu ya.",
+                "en": "Indeed, that's right."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "なるほど面白いです。",
+              "furigana": "なるほど おもしろいです。",
+              "romaji": "naruhodo omoshiroi desu.",
+              "meanings": {
+                "id": "Memang menarik.",
+                "en": "It's indeed interesting."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -3421,7 +3933,39 @@
           "meanings": {
             "en": "firmly, properly",
             "id": "dengan tegas, dengan baik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "しっかり勉強してください。",
+              "furigana": "しっかり べんきょうして ください。",
+              "romaji": "shikkari benkyou shite kudasai.",
+              "meanings": {
+                "id": "Tolong belajar dengan baik.",
+                "en": "Please study properly."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "しっかり持ってください。",
+              "furigana": "しっかり もって ください。",
+              "romaji": "shikkari motte kudasai.",
+              "meanings": {
+                "id": "Tolong pegang dengan erat.",
+                "en": "Please hold it firmly."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "しっかりしてください。",
+              "furigana": "しっかりして ください。",
+              "romaji": "shikkari shite kudasai.",
+              "meanings": {
+                "id": "Tolong kuatkan dirimu.",
+                "en": "Please pull yourself together."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -3431,7 +3975,39 @@
           "meanings": {
             "en": "to that extent",
             "id": "sekadar, sebatas, (tidak) sedemikian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "それほど難しくないです。",
+              "furigana": "それほど むずかしくないです。",
+              "romaji": "sorehodo muzukashikunai desu.",
+              "meanings": {
+                "id": "Tidak sedemikian sulit.",
+                "en": "It's not that difficult."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "それほど遠くありません。",
+              "furigana": "それほど とおく ありません。",
+              "romaji": "sorehodo tooku arimasen.",
+              "meanings": {
+                "id": "Tidak sejauh itu.",
+                "en": "It's not that far."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "それほど高くないです。",
+              "furigana": "それほど たかくないです。",
+              "romaji": "sorehodo takakunai desu.",
+              "meanings": {
+                "id": "Tidak semahal itu.",
+                "en": "It's not that expensive."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -3441,7 +4017,39 @@
           "meanings": {
             "en": "soon, right away",
             "id": "sama sekali, benar-benar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "そろそろ帰ります。",
+              "furigana": "そろそろ かえります。",
+              "romaji": "sorosoro kaerimasu.",
+              "meanings": {
+                "id": "Saya segera pulang.",
+                "en": "I'll be going home soon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "そろそろ時間です。",
+              "furigana": "そろそろ じかんです。",
+              "romaji": "sorosoro jikan desu.",
+              "meanings": {
+                "id": "Sudah waktunya.",
+                "en": "It's about time."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "そろそろ始めましょう。",
+              "furigana": "そろそろ はじめましょう。",
+              "romaji": "sorosoro hajimemashou.",
+              "meanings": {
+                "id": "Mari kita mulai sekarang.",
+                "en": "Let's start soon."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -3451,7 +4059,39 @@
           "meanings": {
             "en": "completely",
             "id": "langsung, cepat-cepat, diam-diam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "すっかり忘れました。",
+              "furigana": "すっかり わすれました。",
+              "romaji": "sukkari wasuremashita.",
+              "meanings": {
+                "id": "Saya lupa sepenuhnya.",
+                "en": "I completely forgot."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "すっかり暗くなりました。",
+              "furigana": "すっかり くらく なりました。",
+              "romaji": "sukkari kuraku narimashita.",
+              "meanings": {
+                "id": "Sudah menjadi gelap sepenuhnya.",
+                "en": "It has become completely dark."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "すっかり元気になりました。",
+              "furigana": "すっかり げんきに なりました。",
+              "romaji": "sukkari genki ni narimashita.",
+              "meanings": {
+                "id": "Sudah sepenuhnya sembuh.",
+                "en": "I've completely recovered."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -3461,7 +4101,39 @@
           "meanings": {
             "en": "all at once",
             "id": "kebanyakan, umumnya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "すっと立ち上がりました。",
+              "furigana": "すっと たちあがりました。",
+              "romaji": "sutto tachiagari mashita.",
+              "meanings": {
+                "id": "Berdiri dengan cepat.",
+                "en": "I stood up quickly."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "すっと入って来ました。",
+              "furigana": "すっと はいって きました。",
+              "romaji": "sutto haitte kimashita.",
+              "meanings": {
+                "id": "Masuk dengan cepat.",
+                "en": "He came in swiftly."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "すっと通り過ぎました。",
+              "furigana": "すっと とおりすぎました。",
+              "romaji": "sutto toorisugimashita.",
+              "meanings": {
+                "id": "Lewat dengan cepat.",
+                "en": "I passed by quickly."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -3471,7 +4143,39 @@
           "meanings": {
             "en": "mostly, usually",
             "id": "tepat, pasti, nyata"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "たいてい家にいます。",
+              "furigana": "たいてい いえに います。",
+              "romaji": "taitei ie ni imasu.",
+              "meanings": {
+                "id": "Biasanya saya di rumah.",
+                "en": "I'm usually at home."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "たいてい七時に起きます。",
+              "furigana": "たいてい しちじに おきます。",
+              "romaji": "taitei shichiji ni okimasu.",
+              "meanings": {
+                "id": "Biasanya saya bangun jam 7.",
+                "en": "I usually wake up at 7 o'clock."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "たいてい電車で行きます。",
+              "furigana": "たいてい でんしゃで いきます。",
+              "romaji": "taitei densha de ikimasu.",
+              "meanings": {
+                "id": "Biasanya saya pergi dengan kereta.",
+                "en": "I usually go by train."
+              }
+            }
+          ]
         },
         {
           "id": 23,
@@ -3481,7 +4185,39 @@
           "meanings": {
             "en": "surely, certainly",
             "id": "misalnya, contohnya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "確か明日だと思います。",
+              "furigana": "たしか あした だと おもいます。",
+              "romaji": "tashika ashita dato omoimasu.",
+              "meanings": {
+                "id": "Saya rasa pasti besok.",
+                "en": "I think it's surely tomorrow."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "確かにそう言いました。",
+              "furigana": "たしかに そう いいました。",
+              "romaji": "tashika ni sou iimashita.",
+              "meanings": {
+                "id": "Saya pasti mengatakan begitu.",
+                "en": "I certainly said so."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "確かな情報です。",
+              "furigana": "たしかな じょうほうです。",
+              "romaji": "tashika na jouhou desu.",
+              "meanings": {
+                "id": "Ini informasi yang pasti.",
+                "en": "This is reliable information."
+              }
+            }
+          ]
         },
         {
           "id": 24,
@@ -3491,7 +4227,39 @@
           "meanings": {
             "en": "for example",
             "id": "khususnya, terutama"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "例えば、これはどうですか。",
+              "furigana": "たとえば、これは どうですか。",
+              "romaji": "tatoeba, kore wa doudesuka.",
+              "meanings": {
+                "id": "Misalnya, bagaimana dengan ini?",
+                "en": "For example, how about this?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "例えば日本の料理が好きです。",
+              "furigana": "たとえば にほんの りょうりが すきです。",
+              "romaji": "tatoeba nihon no ryouri ga suki desu.",
+              "meanings": {
+                "id": "Misalnya, saya suka masakan Jepang.",
+                "en": "For example, I like Japanese food."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "例えばこんな時どうしますか。",
+              "furigana": "たとえば こんな とき どうしますか。",
+              "romaji": "tatoeba konna toki doushimasuka.",
+              "meanings": {
+                "id": "Misalnya, apa yang Anda lakukan di saat seperti ini?",
+                "en": "For example, what would you do at a time like this?"
+              }
+            }
+          ]
         },
         {
           "id": 25,
@@ -3501,7 +4269,39 @@
           "meanings": {
             "en": "especially",
             "id": "akhirnya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "特に好きな食べ物はありません。",
+              "furigana": "とくに すきな たべものは ありません。",
+              "romaji": "tokuni suki na tabemono wa arimasen.",
+              "meanings": {
+                "id": "Tidak ada makanan yang khusus saya suka.",
+                "en": "There's no food I especially like."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "特に問題はありません。",
+              "furigana": "とくに もんだいは ありません。",
+              "romaji": "tokuni mondai wa arimasen.",
+              "meanings": {
+                "id": "Tidak ada masalah khusus.",
+                "en": "There's no particular problem."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "特に夏が好きです。",
+              "furigana": "とくに なつが すきです。",
+              "romaji": "tokuni natsu ga suki desu.",
+              "meanings": {
+                "id": "Khususnya saya suka musim panas.",
+                "en": "I especially like summer."
+              }
+            }
+          ]
         },
         {
           "id": 26,
@@ -3511,7 +4311,39 @@
           "meanings": {
             "en": "finally",
             "id": "betapapun, memang, masih juga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "とうとう雨が降りました。",
+              "furigana": "とうとう あめが ふりました。",
+              "romaji": "toutou ame ga furimashita.",
+              "meanings": {
+                "id": "Akhirnya hujan turun.",
+                "en": "It finally rained."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とうとう終わりました。",
+              "furigana": "とうとう おわりました。",
+              "romaji": "toutou owarimashita.",
+              "meanings": {
+                "id": "Akhirnya selesai.",
+                "en": "It finally finished."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とうとう来ませんでした。",
+              "furigana": "とうとう きませんでした。",
+              "romaji": "toutou kimasendeshita.",
+              "meanings": {
+                "id": "Akhirnya tidak datang.",
+                "en": "He didn't come after all."
+              }
+            }
+          ]
         },
         {
           "id": 27,
@@ -3521,7 +4353,39 @@
           "meanings": {
             "en": "as expected",
             "id": "akhirnya, ... juga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "やはり難しいです。",
+              "furigana": "やはり むずかしいです。",
+              "romaji": "yahari muzukashii desu.",
+              "meanings": {
+                "id": "Memang sulit.",
+                "en": "It's difficult as expected."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "やはり来ませんでした。",
+              "furigana": "やはり きませんでした。",
+              "romaji": "yahari kimasendeshita.",
+              "meanings": {
+                "id": "Memang tidak datang.",
+                "en": "He didn't come as expected."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "やはり日本料理が好きです。",
+              "furigana": "やはり にほんりょうりが すきです。",
+              "romaji": "yahari nihonryouri ga suki desu.",
+              "meanings": {
+                "id": "Memang saya suka masakan Jepang.",
+                "en": "I do like Japanese food after all."
+              }
+            }
+          ]
         },
         {
           "id": 28,
@@ -3531,7 +4395,39 @@
           "meanings": {
             "en": "after all",
             "id": "biar bagaimanapun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "やっぱり行きます。",
+              "furigana": "やっぱり いきます。",
+              "romaji": "yappari ikimasu.",
+              "meanings": {
+                "id": "Tetap saya pergi.",
+                "en": "I'll go after all."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "やっぱりそうでしたか。",
+              "furigana": "やっぱり そうでしたか。",
+              "romaji": "yappari soudeshitaka.",
+              "meanings": {
+                "id": "Memang begitu ya.",
+                "en": "So it was as I thought."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "やっぱり難しいですね。",
+              "furigana": "やっぱり むずかしいですね。",
+              "romaji": "yappari muzukashii desune.",
+              "meanings": {
+                "id": "Memang sulit ya.",
+                "en": "It's difficult after all."
+              }
+            }
+          ]
         },
         {
           "id": 29,
@@ -3541,7 +4437,39 @@
           "meanings": {
             "en": "finally",
             "id": "sama sekali (tidak)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "やっと着きました。",
+              "furigana": "やっと つきました。",
+              "romaji": "yatto tsukimashita.",
+              "meanings": {
+                "id": "Akhirnya sampai.",
+                "en": "We finally arrived."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "やっと分かりました。",
+              "furigana": "やっと わかりました。",
+              "romaji": "yatto wakarimashita.",
+              "meanings": {
+                "id": "Akhirnya mengerti.",
+                "en": "I finally understood."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "やっと会えましたね。",
+              "furigana": "やっと あえましたね。",
+              "romaji": "yatto aemashitane.",
+              "meanings": {
+                "id": "Akhirnya bisa bertemu ya.",
+                "en": "We finally met."
+              }
+            }
+          ]
         },
         {
           "id": 30,
@@ -3580,7 +4508,39 @@
           "meanings": {
             "en": "discussion",
             "id": "dibicarakan, dimusyawarahkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "話し合いをしましょう。",
+              "furigana": "はなしあいを しましょう。",
+              "romaji": "hanashiai wo shimashou.",
+              "meanings": {
+                "id": "Mari kita lakukan diskusi.",
+                "en": "Let's have a discussion."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "話し合いで決めます。",
+              "furigana": "はなしあいで きめます。",
+              "romaji": "hanashiai de kimemasu.",
+              "meanings": {
+                "id": "Kami memutuskan melalui diskusi.",
+                "en": "We decide through discussion."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "話し合いが必要です。",
+              "furigana": "はなしあいが ひつようです。",
+              "romaji": "hanashiai ga hitsuyou desu.",
+              "meanings": {
+                "id": "Diskusi diperlukan.",
+                "en": "Discussion is necessary."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -3590,7 +4550,39 @@
           "meanings": {
             "en": "population",
             "id": "jumlah penduduk, populasi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "人口が増えています。",
+              "furigana": "じんこうが ふえて います。",
+              "romaji": "jinkou ga fueteimasu.",
+              "meanings": {
+                "id": "Populasi sedang bertambah.",
+                "en": "The population is increasing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この市の人口は百万人です。",
+              "furigana": "この しの じんこうは ひゃくまんにんです。",
+              "romaji": "kono shi no jinkou wa hyakumannin desu.",
+              "meanings": {
+                "id": "Populasi kota ini satu juta orang.",
+                "en": "This city's population is one million."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "人口が減っています。",
+              "furigana": "じんこうが へって います。",
+              "romaji": "jinkou ga hetteimasu.",
+              "meanings": {
+                "id": "Populasi sedang berkurang.",
+                "en": "The population is decreasing."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -3600,7 +4592,39 @@
           "meanings": {
             "en": "society",
             "id": "masyarakat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "社会のルールを守ります。",
+              "furigana": "しゃかいの るーるを まもります。",
+              "romaji": "shakai no ruuru wo mamorimasu.",
+              "meanings": {
+                "id": "Saya mematuhi aturan masyarakat.",
+                "en": "I follow society's rules."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "社会に出ます。",
+              "furigana": "しゃかいに でます。",
+              "romaji": "shakai ni demasu.",
+              "meanings": {
+                "id": "Saya terjun ke masyarakat.",
+                "en": "I enter society."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "社会問題を勉強します。",
+              "furigana": "しゃかいもんだいを べんきょうします。",
+              "romaji": "shakaimondai wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar masalah sosial.",
+                "en": "I study social issues."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -3610,7 +4634,39 @@
           "meanings": {
             "en": "citizen",
             "id": "penduduk kota"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "市民として責任があります。",
+              "furigana": "しみんとして せきにんが あります。",
+              "romaji": "shimin toshite sekinin ga arimasu.",
+              "meanings": {
+                "id": "Sebagai warga kota ada tanggung jawab.",
+                "en": "As a citizen, I have responsibility."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "市民の意見を聞きます。",
+              "furigana": "しみんの いけんを ききます。",
+              "romaji": "shimin no iken wo kikimasu.",
+              "meanings": {
+                "id": "Kami mendengar pendapat warga kota.",
+                "en": "We listen to citizens' opinions."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "市民が集まりました。",
+              "furigana": "しみんが あつまりました。",
+              "romaji": "shimin ga atsumarimashita.",
+              "meanings": {
+                "id": "Para warga kota berkumpul.",
+                "en": "The citizens gathered."
+              }
+            }
+          ]
         }
       ]
     },
