@@ -13561,7 +13561,39 @@
           "meanings": {
             "en": "gate",
             "id": "pintu gerbang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "門を開けます。",
+              "furigana": "もんを あけます。",
+              "romaji": "mon wo akemasu.",
+              "meanings": {
+                "id": "Saya membuka pintu gerbang.",
+                "en": "I open the gate."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "門があります。",
+              "furigana": "もんが あります。",
+              "romaji": "mon ga arimasu.",
+              "meanings": {
+                "id": "Ada pintu gerbang.",
+                "en": "There is a gate."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "門が大きいです。",
+              "furigana": "もんが おおきいです。",
+              "romaji": "mon ga ookii desu.",
+              "meanings": {
+                "id": "Pintu gerbangnya besar.",
+                "en": "The gate is big."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -13571,7 +13603,39 @@
           "meanings": {
             "en": "garden",
             "id": "pekarangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "庭で遊びます。",
+              "furigana": "にわで あそびます。",
+              "romaji": "niwa de asobimasu.",
+              "meanings": {
+                "id": "Saya bermain di halaman.",
+                "en": "I play in the garden."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "庭があります。",
+              "furigana": "にわが あります。",
+              "romaji": "niwa ga arimasu.",
+              "meanings": {
+                "id": "Ada halaman.",
+                "en": "There is a garden."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "庭がきれいです。",
+              "furigana": "にわが きれいです。",
+              "romaji": "niwa ga kirei desu.",
+              "meanings": {
+                "id": "Halamannya indah.",
+                "en": "The garden is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -13581,7 +13645,39 @@
           "meanings": {
             "en": "entrance hall",
             "id": "pintu gerbang, pintu depan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "玄関で靴を脱ぎます。",
+              "furigana": "げんかんで くつを ぬぎます。",
+              "romaji": "genkan de kutsu wo nugimasu.",
+              "meanings": {
+                "id": "Saya melepas sepatu di pintu masuk.",
+                "en": "I take off my shoes at the entrance."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "玄関があります。",
+              "furigana": "げんかんが あります。",
+              "romaji": "genkan ga arimasu.",
+              "meanings": {
+                "id": "Ada pintu masuk.",
+                "en": "There is an entrance hall."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "玄関が広いです。",
+              "furigana": "げんかんが ひろいです。",
+              "romaji": "genkan ga hiroi desu.",
+              "meanings": {
+                "id": "Pintu masuknya luas.",
+                "en": "The entrance hall is spacious."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -13591,7 +13687,39 @@
           "meanings": {
             "en": "door",
             "id": "pintu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ドアを開けます。",
+              "furigana": "どあを あけます。",
+              "romaji": "doa wo akemasu.",
+              "meanings": {
+                "id": "Saya membuka pintu.",
+                "en": "I open the door."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ドアを閉めます。",
+              "furigana": "どあを しめます。",
+              "romaji": "doa wo shimemasu.",
+              "meanings": {
+                "id": "Saya menutup pintu.",
+                "en": "I close the door."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "戸があります。",
+              "furigana": "とが あります。",
+              "romaji": "to ga arimasu.",
+              "meanings": {
+                "id": "Ada pintu.",
+                "en": "There is a door."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -13601,7 +13729,39 @@
           "meanings": {
             "en": "window",
             "id": "jendela"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "窓を開けます。",
+              "furigana": "まどを あけます。",
+              "romaji": "mado wo akemasu.",
+              "meanings": {
+                "id": "Saya membuka jendela.",
+                "en": "I open the window."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "窓を閉めます。",
+              "furigana": "まどを しめます。",
+              "romaji": "mado wo shimemasu.",
+              "meanings": {
+                "id": "Saya menutup jendela.",
+                "en": "I close the window."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "窓が大きいです。",
+              "furigana": "まどが おおきいです。",
+              "romaji": "mado ga ookii desu.",
+              "meanings": {
+                "id": "Jendelanya besar.",
+                "en": "The window is big."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -13611,7 +13771,39 @@
           "meanings": {
             "en": "living room",
             "id": "ruang tamu, ruang duduk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "居間でテレビを見ます。",
+              "furigana": "いまで てれびを みます。",
+              "romaji": "ima de terebi wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton TV di ruang tamu.",
+                "en": "I watch TV in the living room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "居間にいます。",
+              "furigana": "いまに います。",
+              "romaji": "ima ni imasu.",
+              "meanings": {
+                "id": "Saya ada di ruang tamu.",
+                "en": "I'm in the living room."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "居間が広いです。",
+              "furigana": "いまが ひろいです。",
+              "romaji": "ima ga hiroi desu.",
+              "meanings": {
+                "id": "Ruang tamunya luas.",
+                "en": "The living room is spacious."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -13621,7 +13813,39 @@
           "meanings": {
             "en": "kitchen",
             "id": "dapur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "台所で料理を作ります。",
+              "furigana": "だいどころで りょうりを つくります。",
+              "romaji": "daidokoro de ryouri wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat masakan di dapur.",
+                "en": "I cook in the kitchen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "台所があります。",
+              "furigana": "だいどころが あります。",
+              "romaji": "daidokoro ga arimasu.",
+              "meanings": {
+                "id": "Ada dapur.",
+                "en": "There is a kitchen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "台所がきれいです。",
+              "furigana": "だいどころが きれいです。",
+              "romaji": "daidokoro ga kirei desu.",
+              "meanings": {
+                "id": "Dapurnya bersih.",
+                "en": "The kitchen is clean."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -13631,7 +13855,39 @@
           "meanings": {
             "en": "dining room, canteen",
             "id": "ruang makan, kantin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "食堂で食べます。",
+              "furigana": "しょくどうで たべます。",
+              "romaji": "shokudou de tabemasu.",
+              "meanings": {
+                "id": "Saya makan di ruang makan.",
+                "en": "I eat in the dining room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "食堂があります。",
+              "furigana": "しょくどうが あります。",
+              "romaji": "shokudou ga arimasu.",
+              "meanings": {
+                "id": "Ada ruang makan.",
+                "en": "There is a dining room."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "食堂で昼ご飯を食べます。",
+              "furigana": "しょくどうで ひるごはんを たべます。",
+              "romaji": "shokudou de hiru gohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan siang di ruang makan.",
+                "en": "I eat lunch in the dining room."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -13641,7 +13897,39 @@
           "meanings": {
             "en": "room",
             "id": "kamar, ruang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋にいます。",
+              "furigana": "へやに います。",
+              "romaji": "heya ni imasu.",
+              "meanings": {
+                "id": "Saya ada di kamar.",
+                "en": "I'm in the room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "部屋が広いです。",
+              "furigana": "へやが ひろいです。",
+              "romaji": "heya ga hiroi desu.",
+              "meanings": {
+                "id": "Kamarnya luas.",
+                "en": "The room is spacious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部屋をそうじします。",
+              "furigana": "へやを そうじします。",
+              "romaji": "heya wo souji shimasu.",
+              "meanings": {
+                "id": "Saya membersihkan kamar.",
+                "en": "I clean the room."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -13651,7 +13939,39 @@
           "meanings": {
             "en": "bathroom",
             "id": "kamar mandi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "風呂場でシャワーを浴びます。",
+              "furigana": "ふろばで しゃわーを あびます。",
+              "romaji": "furoba de shawaa wo abimasu.",
+              "meanings": {
+                "id": "Saya mandi di kamar mandi.",
+                "en": "I take a shower in the bathroom."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "風呂場があります。",
+              "furigana": "ふろばが あります。",
+              "romaji": "furoba ga arimasu.",
+              "meanings": {
+                "id": "Ada kamar mandi.",
+                "en": "There is a bathroom."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "風呂場がきれいです。",
+              "furigana": "ふろばが きれいです。",
+              "romaji": "furoba ga kirei desu.",
+              "meanings": {
+                "id": "Kamar mandinya bersih.",
+                "en": "The bathroom is clean."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -13661,7 +13981,39 @@
           "meanings": {
             "en": "shower",
             "id": "pancuran (mandi), shower"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "シャワーを浴びます。",
+              "furigana": "しゃわーを あびます。",
+              "romaji": "shawā wo abimasu.",
+              "meanings": {
+                "id": "Saya mandi shower.",
+                "en": "I take a shower."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "シャワーがあります。",
+              "furigana": "しゃわーが あります。",
+              "romaji": "shawā ga arimasu.",
+              "meanings": {
+                "id": "Ada shower.",
+                "en": "There is a shower."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎日シャワーを浴びます。",
+              "furigana": "まいにち しゃわーを あびます。",
+              "romaji": "mainichi shawā wo abimasu.",
+              "meanings": {
+                "id": "Saya mandi shower setiap hari.",
+                "en": "I take a shower every day."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -13671,7 +14023,39 @@
           "meanings": {
             "en": "toilet",
             "id": "kamar kecil, toilet"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お手洗いに行きます。",
+              "furigana": "おてあらいに いきます。",
+              "romaji": "otearai ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke toilet.",
+                "en": "I go to the toilet."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "トイレがあります。",
+              "furigana": "といれが あります。",
+              "romaji": "toire ga arimasu.",
+              "meanings": {
+                "id": "Ada toilet.",
+                "en": "There is a toilet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "トイレはどこですか。",
+              "furigana": "といれは どこですか。",
+              "romaji": "toire wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana toiletnya?",
+                "en": "Where is the toilet?"
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -13681,7 +14065,39 @@
           "meanings": {
             "en": "corridor",
             "id": "lorong"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "廊下を歩きます。",
+              "furigana": "ろうかを あるきます。",
+              "romaji": "rouka wo arukimasu.",
+              "meanings": {
+                "id": "Saya berjalan di koridor.",
+                "en": "I walk in the corridor."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "廊下があります。",
+              "furigana": "ろうかが あります。",
+              "romaji": "rouka ga arimasu.",
+              "meanings": {
+                "id": "Ada koridor.",
+                "en": "There is a corridor."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "廊下が長いです。",
+              "furigana": "ろうかが ながいです。",
+              "romaji": "rouka ga nagai desu.",
+              "meanings": {
+                "id": "Koridornya panjang.",
+                "en": "The corridor is long."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -13691,7 +14107,39 @@
           "meanings": {
             "en": "electricity",
             "id": "listrik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電気をつけます。",
+              "furigana": "でんきを つけます。",
+              "romaji": "denki wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan lampu.",
+                "en": "I turn on the light."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電気を消します。",
+              "furigana": "でんきを けします。",
+              "romaji": "denki wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan lampu.",
+                "en": "I turn off the light."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電気があります。",
+              "furigana": "でんきが あります。",
+              "romaji": "denki ga arimasu.",
+              "meanings": {
+                "id": "Ada listrik.",
+                "en": "There is electricity."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -13701,7 +14149,39 @@
           "meanings": {
             "en": "water supply",
             "id": "saluran air, ledeng"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "水道を使います。",
+              "furigana": "すいどうを つかいます。",
+              "romaji": "suidou wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan air kran.",
+                "en": "I use tap water."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "水道があります。",
+              "furigana": "すいどうが あります。",
+              "romaji": "suidou ga arimasu.",
+              "meanings": {
+                "id": "Ada air kran.",
+                "en": "There is tap water."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水道を止めます。",
+              "furigana": "すいどうを とめます。",
+              "romaji": "suidou wo tomemasu.",
+              "meanings": {
+                "id": "Saya menutup kran air.",
+                "en": "I turn off the tap."
+              }
+            }
+          ]
         }
       ]
     },
@@ -13720,7 +14200,39 @@
           "meanings": {
             "en": "sofa",
             "id": "sofa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ソファに座ります。",
+              "furigana": "そふぁに すわります。",
+              "romaji": "sofa ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di sofa.",
+                "en": "I sit on the sofa."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ソファがあります。",
+              "furigana": "そふぁが あります。",
+              "romaji": "sofa ga arimasu.",
+              "meanings": {
+                "id": "Ada sofa.",
+                "en": "There is a sofa."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ソファで休みます。",
+              "furigana": "そふぁで やすみます。",
+              "romaji": "sofa de yasumimasu.",
+              "meanings": {
+                "id": "Saya beristirahat di sofa.",
+                "en": "I rest on the sofa."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -13730,7 +14242,39 @@
           "meanings": {
             "en": "chair",
             "id": "kursi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "椅子に座ります。",
+              "furigana": "いすに すわります。",
+              "romaji": "isu ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di kursi.",
+                "en": "I sit on the chair."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "椅子があります。",
+              "furigana": "いすが あります。",
+              "romaji": "isu ga arimasu.",
+              "meanings": {
+                "id": "Ada kursi.",
+                "en": "There is a chair."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "椅子が三つあります。",
+              "furigana": "いすが みっつあります。",
+              "romaji": "isu ga mittsu arimasu.",
+              "meanings": {
+                "id": "Ada tiga kursi.",
+                "en": "There are three chairs."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -13740,7 +14284,39 @@
           "meanings": {
             "en": "desk, table",
             "id": "meja"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "机で勉強します。",
+              "furigana": "つくえで べんきょうします。",
+              "romaji": "tsukue de benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar di meja.",
+                "en": "I study at the desk."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テーブルがあります。",
+              "furigana": "てーぶるが あります。",
+              "romaji": "tēburu ga arimasu.",
+              "meanings": {
+                "id": "Ada meja.",
+                "en": "There is a table."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "机の上に本があります。",
+              "furigana": "つくえの うえに ほんが あります。",
+              "romaji": "tsukue no ue ni hon ga arimasu.",
+              "meanings": {
+                "id": "Ada buku di atas meja.",
+                "en": "There is a book on the desk."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -13750,7 +14326,39 @@
           "meanings": {
             "en": "bookshelf",
             "id": "rak buku"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "本棚に本があります。",
+              "furigana": "ほんだなに ほんが あります。",
+              "romaji": "hondana ni hon ga arimasu.",
+              "meanings": {
+                "id": "Ada buku di rak buku.",
+                "en": "There are books on the bookshelf."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "本棚があります。",
+              "furigana": "ほんだなが あります。",
+              "romaji": "hondana ga arimasu.",
+              "meanings": {
+                "id": "Ada rak buku.",
+                "en": "There is a bookshelf."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "本棚が大きいです。",
+              "furigana": "ほんだなが おおきいです。",
+              "romaji": "hondana ga ookii desu.",
+              "meanings": {
+                "id": "Rak bukunya besar.",
+                "en": "The bookshelf is big."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -13760,7 +14368,39 @@
           "meanings": {
             "en": "bed",
             "id": "ranjang, tempat tidur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ベッドで寝ます。",
+              "furigana": "べっどで ねます。",
+              "romaji": "beddo de nemasu.",
+              "meanings": {
+                "id": "Saya tidur di ranjang.",
+                "en": "I sleep in bed."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ベッドがあります。",
+              "furigana": "べっどが あります。",
+              "romaji": "beddo ga arimasu.",
+              "meanings": {
+                "id": "Ada ranjang.",
+                "en": "There is a bed."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ベッドが小さいです。",
+              "furigana": "べっどが ちいさいです。",
+              "romaji": "beddo ga chiisai desu.",
+              "meanings": {
+                "id": "Ranjangnya kecil.",
+                "en": "The bed is small."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -13770,7 +14410,39 @@
           "meanings": {
             "en": "futon",
             "id": "tempat tidur ala Jepang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "布団で寝ます。",
+              "furigana": "ふとんで ねます。",
+              "romaji": "futon de nemasu.",
+              "meanings": {
+                "id": "Saya tidur di futon.",
+                "en": "I sleep on a futon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "布団があります。",
+              "furigana": "ふとんが あります。",
+              "romaji": "futon ga arimasu.",
+              "meanings": {
+                "id": "Ada futon.",
+                "en": "There is a futon."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "布団をしきます。",
+              "furigana": "ふとんを しきます。",
+              "romaji": "futon wo shikimasu.",
+              "meanings": {
+                "id": "Saya menggelar futon.",
+                "en": "I lay out the futon."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -13780,7 +14452,39 @@
           "meanings": {
             "en": "air conditioner",
             "id": "AC, pendingin ruangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "冷房をつけます。",
+              "furigana": "れいぼうを つけます。",
+              "romaji": "reibou wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan AC.",
+                "en": "I turn on the air conditioner."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "冷房を消します。",
+              "furigana": "れいぼうを けします。",
+              "romaji": "reibou wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan AC.",
+                "en": "I turn off the air conditioner."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "冷房があります。",
+              "furigana": "れいぼうが あります。",
+              "romaji": "reibou ga arimasu.",
+              "meanings": {
+                "id": "Ada AC.",
+                "en": "There is an air conditioner."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -13790,7 +14494,39 @@
           "meanings": {
             "en": "heater",
             "id": "pemanas ruangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "だんぼうをつけます。",
+              "furigana": "だんぼうを つけます。",
+              "romaji": "danbou wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan pemanas.",
+                "en": "I turn on the heater."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ストーブがあります。",
+              "furigana": "すとーぶが あります。",
+              "romaji": "sutōbu ga arimasu.",
+              "meanings": {
+                "id": "Ada pemanas.",
+                "en": "There is a heater."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "だんぼうを消します。",
+              "furigana": "だんぼうを けします。",
+              "romaji": "danbou wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan pemanas.",
+                "en": "I turn off the heater."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -13800,7 +14536,39 @@
           "meanings": {
             "en": "air conditioner (hot/cold)",
             "id": "pengatur suhu udara panas dan dingin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "冷暖房をつけます。",
+              "furigana": "れいだんぼうを つけます。",
+              "romaji": "reidanbou wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan AC.",
+                "en": "I turn on the air conditioner."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "冷暖房があります。",
+              "furigana": "れいだんぼうが あります。",
+              "romaji": "reidanbou ga arimasu.",
+              "meanings": {
+                "id": "Ada AC.",
+                "en": "There is an air conditioner."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "冷暖房を消します。",
+              "furigana": "れいだんぼうを けします。",
+              "romaji": "reidanbou wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan AC.",
+                "en": "I turn off the air conditioner."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -13810,7 +14578,39 @@
           "meanings": {
             "en": "refrigerator",
             "id": "kulkas, lemari es"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "冷蔵庫に入れます。",
+              "furigana": "れいぞうこに いれます。",
+              "romaji": "reizouko ni iremasu.",
+              "meanings": {
+                "id": "Saya menaruh di kulkas.",
+                "en": "I put it in the refrigerator."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "冷蔵庫があります。",
+              "furigana": "れいぞうこが あります。",
+              "romaji": "reizouko ga arimasu.",
+              "meanings": {
+                "id": "Ada kulkas.",
+                "en": "There is a refrigerator."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "冷蔵庫が大きいです。",
+              "furigana": "れいぞうこが おおきいです。",
+              "romaji": "reizouko ga ookii desu.",
+              "meanings": {
+                "id": "Kulkasnya besar.",
+                "en": "The refrigerator is big."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -13820,7 +14620,39 @@
           "meanings": {
             "en": "television",
             "id": "televisi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テレビを見ます。",
+              "furigana": "てれびを みます。",
+              "romaji": "terebi wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton TV.",
+                "en": "I watch TV."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テレビがあります。",
+              "furigana": "てれびが あります。",
+              "romaji": "terebi ga arimasu.",
+              "meanings": {
+                "id": "Ada TV.",
+                "en": "There is a TV."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テレビをつけます。",
+              "furigana": "てれびを つけます。",
+              "romaji": "terebi wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan TV.",
+                "en": "I turn on the TV."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -13830,7 +14662,39 @@
           "meanings": {
             "en": "tape recorder",
             "id": "tape recorder"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テープレコーダーを使います。",
+              "furigana": "てーぷれこーだーを つかいます。",
+              "romaji": "tēpurekōdā wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan tape recorder.",
+                "en": "I use the tape recorder."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テープレコーダーがあります。",
+              "furigana": "てーぷれこーだーが あります。",
+              "romaji": "tēpurekōdā ga arimasu.",
+              "meanings": {
+                "id": "Ada tape recorder.",
+                "en": "There is a tape recorder."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テープレコーダーで音楽を聞きます。",
+              "furigana": "てーぷれこーだーで おんがくを ききます。",
+              "romaji": "tēpurekōdā de ongaku wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengarkan musik dengan tape recorder.",
+                "en": "I listen to music on the tape recorder."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -13840,7 +14704,39 @@
           "meanings": {
             "en": "radio",
             "id": "radio"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ラジオを聞きます。",
+              "furigana": "らじおを ききます。",
+              "romaji": "rajio wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengarkan radio.",
+                "en": "I listen to the radio."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ラジオがあります。",
+              "furigana": "らじおが あります。",
+              "romaji": "rajio ga arimasu.",
+              "meanings": {
+                "id": "Ada radio.",
+                "en": "There is a radio."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ラジオをつけます。",
+              "furigana": "らじおを つけます。",
+              "romaji": "rajio wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan radio.",
+                "en": "I turn on the radio."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -13850,7 +14746,39 @@
           "meanings": {
             "en": "radio cassette",
             "id": "radio kaset"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ラジカセで音楽を聞きます。",
+              "furigana": "らじかせで おんがくを ききます。",
+              "romaji": "rajikase de ongaku wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengarkan musik dengan radio kaset.",
+                "en": "I listen to music on the radio cassette."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ラジカセがあります。",
+              "furigana": "らじかせが あります。",
+              "romaji": "rajikase ga arimasu.",
+              "meanings": {
+                "id": "Ada radio kaset.",
+                "en": "There is a radio cassette."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ラジオカセットを使います。",
+              "furigana": "らじおかせっとを つかいます。",
+              "romaji": "rajiokasetto wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan radio kaset.",
+                "en": "I use the radio cassette."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -13860,7 +14788,39 @@
           "meanings": {
             "en": "telephone",
             "id": "telepon"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電話をかけます。",
+              "furigana": "でんわを かけます。",
+              "romaji": "denwa wo kakemasu.",
+              "meanings": {
+                "id": "Saya menelepon.",
+                "en": "I make a phone call."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電話があります。",
+              "furigana": "でんわが あります。",
+              "romaji": "denwa ga arimasu.",
+              "meanings": {
+                "id": "Ada telepon.",
+                "en": "There is a telephone."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電話で話します。",
+              "furigana": "でんわで はなします。",
+              "romaji": "denwa de hanashimasu.",
+              "meanings": {
+                "id": "Saya berbicara di telepon.",
+                "en": "I talk on the phone."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -13870,7 +14830,39 @@
           "meanings": {
             "en": "picture, painting",
             "id": "gambar, lukisan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "絵を描きます。",
+              "furigana": "えを かきます。",
+              "romaji": "e wo kakimasu.",
+              "meanings": {
+                "id": "Saya menggambar.",
+                "en": "I draw a picture."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "絵があります。",
+              "furigana": "えが あります。",
+              "romaji": "e ga arimasu.",
+              "meanings": {
+                "id": "Ada gambar.",
+                "en": "There is a picture."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "絵がきれいです。",
+              "furigana": "えが きれいです。",
+              "romaji": "e ga kirei desu.",
+              "meanings": {
+                "id": "Gambarnya bagus.",
+                "en": "The picture is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -13880,7 +14872,39 @@
           "meanings": {
             "en": "calendar",
             "id": "kalender"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "カレンダーを見ます。",
+              "furigana": "かれんだーを みます。",
+              "romaji": "karendā wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat kalender.",
+                "en": "I look at the calendar."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "カレンダーがあります。",
+              "furigana": "かれんだーが あります。",
+              "romaji": "karendā ga arimasu.",
+              "meanings": {
+                "id": "Ada kalender.",
+                "en": "There is a calendar."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "カレンダーに書きます。",
+              "furigana": "かれんだーに かきます。",
+              "romaji": "karendā ni kakimasu.",
+              "meanings": {
+                "id": "Saya menulis di kalender.",
+                "en": "I write on the calendar."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -13890,7 +14914,39 @@
           "meanings": {
             "en": "clock (wall)",
             "id": "jam (dinding)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "時計を見ます。",
+              "furigana": "とけいを みます。",
+              "romaji": "tokei wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat jam.",
+                "en": "I look at the clock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "時計があります。",
+              "furigana": "とけいが あります。",
+              "romaji": "tokei ga arimasu.",
+              "meanings": {
+                "id": "Ada jam.",
+                "en": "There is a clock."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "時計が古いです。",
+              "furigana": "とけいが ふるいです。",
+              "romaji": "tokei ga furui desu.",
+              "meanings": {
+                "id": "Jamnya tua.",
+                "en": "The clock is old."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -13900,7 +14956,39 @@
           "meanings": {
             "en": "vase",
             "id": "vas bunga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "花瓶に花を入れます。",
+              "furigana": "かびんに はなを いれます。",
+              "romaji": "kabin ni hana wo iremasu.",
+              "meanings": {
+                "id": "Saya menaruh bunga di vas.",
+                "en": "I put flowers in the vase."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "花瓶があります。",
+              "furigana": "かびんが あります。",
+              "romaji": "kabin ga arimasu.",
+              "meanings": {
+                "id": "Ada vas bunga.",
+                "en": "There is a vase."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "花瓶がきれいです。",
+              "furigana": "かびんが きれいです。",
+              "romaji": "kabin ga kirei desu.",
+              "meanings": {
+                "id": "Vasnya cantik.",
+                "en": "The vase is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -13910,7 +14998,39 @@
           "meanings": {
             "en": "ashtray",
             "id": "asbak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "灰皿があります。",
+              "furigana": "はいざらが あります。",
+              "romaji": "haizara ga arimasu.",
+              "meanings": {
+                "id": "Ada asbak.",
+                "en": "There is an ashtray."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "灰皿を使います。",
+              "furigana": "はいざらを つかいます。",
+              "romaji": "haizara wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan asbak.",
+                "en": "I use the ashtray."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "灰皿をください。",
+              "furigana": "はいざらを ください。",
+              "romaji": "haizara wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan asbak.",
+                "en": "Please give me an ashtray."
+              }
+            }
+          ]
         }
       ]
     },
