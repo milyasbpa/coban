@@ -4685,7 +4685,39 @@
           "meanings": {
             "en": "so, therefore",
             "id": "karena itu, sehingga, maka"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "疲れました。だから休みます。",
+              "furigana": "つかれました。だから やすみます。",
+              "romaji": "tsukaremashita. dakara yasumimasu.",
+              "meanings": {
+                "id": "Saya lelah. Karena itu saya istirahat.",
+                "en": "I'm tired. So I'll rest."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "雨です。だから行きません。",
+              "furigana": "あめです。だから いきません。",
+              "romaji": "ame desu. dakara ikimasen.",
+              "meanings": {
+                "id": "Hujan. Maka saya tidak pergi.",
+                "en": "It's raining. Therefore I won't go."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "忙しいです。だから無理です。",
+              "furigana": "いそがしいです。だから むりです。",
+              "romaji": "isogashii desu. dakara muri desu.",
+              "meanings": {
+                "id": "Saya sibuk. Jadi tidak bisa.",
+                "en": "I'm busy. So it's impossible."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -4695,7 +4727,39 @@
           "meanings": {
             "en": "but, however",
             "id": "tetapi, meskipun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "高いです。けれど買います。",
+              "furigana": "たかいです。けれど かいます。",
+              "romaji": "takai desu. keredo kaimasu.",
+              "meanings": {
+                "id": "Mahal. Tetapi saya membeli.",
+                "en": "It's expensive. But I'll buy it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "難しいです。けれど頑張ります。",
+              "furigana": "むずかしいです。けれど がんばります。",
+              "romaji": "muzukashii desu. keredo ganbarimasu.",
+              "meanings": {
+                "id": "Sulit. Tapi saya berusaha.",
+                "en": "It's difficult. But I'll try hard."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "忙しいです。けれど行きます。",
+              "furigana": "いそがしいです。けれど いきます。",
+              "romaji": "isogashii desu. keredo ikimasu.",
+              "meanings": {
+                "id": "Sibuk. Namun saya pergi.",
+                "en": "I'm busy. But I'll go."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -4705,7 +4769,39 @@
           "meanings": {
             "en": "but, however",
             "id": "tetapi, meskipun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "勉強しました。けれども分かりません。",
+              "furigana": "べんきょうしました。けれども わかりません。",
+              "romaji": "benkyou shimashita. keredomo wakarimasen.",
+              "meanings": {
+                "id": "Saya belajar. Tetapi tidak mengerti.",
+                "en": "I studied. But I don't understand."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "安いです。けれども質が良いです。",
+              "furigana": "やすいです。けれども しつが いいです。",
+              "romaji": "yasui desu. keredomo shitsu ga ii desu.",
+              "meanings": {
+                "id": "Murah. Tetapi kualitasnya bagus.",
+                "en": "It's cheap. But the quality is good."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "時間がありません。けれども行きます。",
+              "furigana": "じかんが ありません。けれども いきます。",
+              "romaji": "jikan ga arimasen. keredomo ikimasu.",
+              "meanings": {
+                "id": "Tidak ada waktu. Namun saya pergi.",
+                "en": "I don't have time. But I'll go."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -4715,7 +4811,39 @@
           "meanings": {
             "en": "or",
             "id": "atau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お茶またはコーヒーをどうぞ。",
+              "furigana": "おちゃ または こーひーを どうぞ。",
+              "romaji": "ocha matawa koohii wo douzo.",
+              "meanings": {
+                "id": "Silakan teh atau kopi.",
+                "en": "Please have tea or coffee."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "土曜日または日曜日に会いましょう。",
+              "furigana": "どようび または にちようびに あいましょう。",
+              "romaji": "doyoubi matawa nichiyoubi ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu Sabtu atau Minggu.",
+                "en": "Let's meet on Saturday or Sunday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電話またはメールで連絡します。",
+              "furigana": "でんわ または めーるで れんらくします。",
+              "romaji": "denwa matawa meeru de renraku shimasu.",
+              "meanings": {
+                "id": "Saya menghubungi lewat telepon atau email.",
+                "en": "I'll contact you by phone or email."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -4725,7 +4853,39 @@
           "meanings": {
             "en": "then, so",
             "id": "lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "雨が降りました。それで行きませんでした。",
+              "furigana": "あめが ふりました。それで いきませんでした。",
+              "romaji": "ame ga furimashita. sorede ikimasendeshita.",
+              "meanings": {
+                "id": "Hujan turun. Lalu saya tidak pergi.",
+                "en": "It rained. So I didn't go."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "病気でした。それで休みました。",
+              "furigana": "びょうきでした。それで やすみました。",
+              "romaji": "byouki deshita. sorede yasumimashita.",
+              "meanings": {
+                "id": "Saya sakit. Jadi saya istirahat.",
+                "en": "I was sick. So I rested."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "財布を忘れました。それで買えませんでした。",
+              "furigana": "さいふを わすれました。それで かえませんでした。",
+              "romaji": "saifu wo wasuremashita. sorede kaemasendeshita.",
+              "meanings": {
+                "id": "Saya lupa dompet. Jadi tidak bisa membeli.",
+                "en": "I forgot my wallet. So I couldn't buy it."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -4735,7 +4895,39 @@
           "meanings": {
             "en": "besides, moreover",
             "id": "lagi pula, selain itu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "便利です。それに安いです。",
+              "furigana": "べんりです。それに やすいです。",
+              "romaji": "benri desu. soreni yasui desu.",
+              "meanings": {
+                "id": "Praktis. Selain itu murah.",
+                "en": "It's convenient. Besides, it's cheap."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "面白いです。それに勉強になります。",
+              "furigana": "おもしろいです。それに べんきょうに なります。",
+              "romaji": "omoshiroi desu. soreni benkyou ni narimasu.",
+              "meanings": {
+                "id": "Menarik. Selain itu menjadi pembelajaran.",
+                "en": "It's interesting. Moreover, it's educational."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "美味しいです。それに体にいいです。",
+              "furigana": "おいしいです。それに からだに いいです。",
+              "romaji": "oishii desu. soreni karada ni ii desu.",
+              "meanings": {
+                "id": "Enak. Selain itu baik untuk tubuh.",
+                "en": "It's delicious. Besides, it's good for the body."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -4745,7 +4937,39 @@
           "meanings": {
             "en": "then, thereupon",
             "id": "setelah itu, lantas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ドアを開けました。すると猫が入って来ました。",
+              "furigana": "どあを あけました。すると ねこが はいって きました。",
+              "romaji": "doa wo akemashita. suruto neko ga haitte kimashita.",
+              "meanings": {
+                "id": "Saya membuka pintu. Lalu kucing masuk.",
+                "en": "I opened the door. Then a cat came in."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ベルが鳴りました。すると先生が来ました。",
+              "furigana": "べるが なりました。すると せんせいが きました。",
+              "romaji": "beru ga narimashita. suruto sensei ga kimashita.",
+              "meanings": {
+                "id": "Bel berbunyi. Kemudian guru datang.",
+                "en": "The bell rang. Then the teacher came."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電話をしました。すると誰も出ませんでした。",
+              "furigana": "でんわを しました。すると だれも でませんでした。",
+              "romaji": "denwa wo shimashita. suruto daremo demasendeshita.",
+              "meanings": {
+                "id": "Saya menelepon. Lalu tidak ada yang angkat.",
+                "en": "I called. Then no one answered."
+              }
+            }
+          ]
         }
       ]
     },
@@ -4764,7 +4988,39 @@
           "meanings": {
             "en": "announcer",
             "id": "penyiar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "アナウンサーになりたいです。",
+              "furigana": "あなうんさーに なりたいです。",
+              "romaji": "anunsaa ni naritai desu.",
+              "meanings": {
+                "id": "Saya ingin menjadi penyiar.",
+                "en": "I want to become an announcer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "有名なアナウンサーです。",
+              "furigana": "ゆうめいな あなうんさーです。",
+              "romaji": "yuumei na anunsaa desu.",
+              "meanings": {
+                "id": "Dia penyiar yang terkenal.",
+                "en": "He is a famous announcer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アナウンサーの仕事は大変です。",
+              "furigana": "あなうんさーの しごとは たいへんです。",
+              "romaji": "anunsaa no shigoto wa taihen desu.",
+              "meanings": {
+                "id": "Pekerjaan penyiar itu berat.",
+                "en": "The announcer's job is tough."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -4774,7 +5030,39 @@
           "meanings": {
             "en": "part-time job",
             "id": "kerja paruh waktu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "アルバイトを探しています。",
+              "furigana": "あるばいとを さがして います。",
+              "romaji": "arubaito wo sagashiteimasu.",
+              "meanings": {
+                "id": "Saya sedang mencari kerja paruh waktu.",
+                "en": "I'm looking for a part-time job."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "週末にアルバイトをします。",
+              "furigana": "しゅうまつに あるばいとを します。",
+              "romaji": "shuumatsu ni arubaito wo shimasu.",
+              "meanings": {
+                "id": "Saya kerja paruh waktu di akhir pekan.",
+                "en": "I do a part-time job on weekends."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "コンビニでアルバイトしています。",
+              "furigana": "こんびにで あるばいとして います。",
+              "romaji": "konbini de arubaito shiteimasu.",
+              "meanings": {
+                "id": "Saya kerja paruh waktu di konbini.",
+                "en": "I work part-time at a convenience store."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -4784,7 +5072,39 @@
           "meanings": {
             "en": "director, head of department",
             "id": "direktur, kepala bagian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部長に報告します。",
+              "furigana": "ぶちょうに ほうこくします。",
+              "romaji": "buchou ni houkoku shimasu.",
+              "meanings": {
+                "id": "Saya melaporkan kepada kepala bagian.",
+                "en": "I report to the director."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "部長は忙しいです。",
+              "furigana": "ぶちょうは いそがしいです。",
+              "romaji": "buchou wa isogashii desu.",
+              "meanings": {
+                "id": "Kepala bagian sibuk.",
+                "en": "The director is busy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部長と会議があります。",
+              "furigana": "ぶちょうと かいぎが あります。",
+              "romaji": "buchou to kaigi ga arimasu.",
+              "meanings": {
+                "id": "Ada rapat dengan kepala bagian.",
+                "en": "There is a meeting with the director."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -4794,7 +5114,39 @@
           "meanings": {
             "en": "university student",
             "id": "mahasiswa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "私は大学生です。",
+              "furigana": "わたしは だいがくせいです。",
+              "romaji": "watashi wa daigakusei desu.",
+              "meanings": {
+                "id": "Saya mahasiswa.",
+                "en": "I am a university student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大学生の時、よく旅行しました。",
+              "furigana": "だいがくせいの とき、よく りょこうしました。",
+              "romaji": "daigakusei no toki, yoku ryokou shimashita.",
+              "meanings": {
+                "id": "Waktu jadi mahasiswa, sering bepergian.",
+                "en": "When I was a university student, I often traveled."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大学生はアルバイトをします。",
+              "furigana": "だいがくせいは あるばいとを します。",
+              "romaji": "daigakusei wa arubaito wo shimasu.",
+              "meanings": {
+                "id": "Mahasiswa melakukan kerja paruh waktu.",
+                "en": "University students do part-time work."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -4804,7 +5156,39 @@
           "meanings": {
             "en": "thief, robber",
             "id": "pencuri, maling, perampok"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "泥棒が入りました。",
+              "furigana": "どろぼうが はいりました。",
+              "romaji": "dorobou ga hairimashita.",
+              "meanings": {
+                "id": "Maling masuk.",
+                "en": "A thief broke in."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "泥棒を捕まえました。",
+              "furigana": "どろぼうを つかまえました。",
+              "romaji": "dorobou wo tsukamae mashita.",
+              "meanings": {
+                "id": "Menangkap maling.",
+                "en": "They caught the thief."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "泥棒に気をつけてください。",
+              "furigana": "どろぼうに きを つけて ください。",
+              "romaji": "dorobou ni ki wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong waspada terhadap maling.",
+                "en": "Please be careful of thieves."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -4814,7 +5198,39 @@
           "meanings": {
             "en": "dentist",
             "id": "dokter gigi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "歯医者に行きます。",
+              "furigana": "はいしゃに いきます。",
+              "romaji": "haisha ni ikimasu.",
+              "meanings": {
+                "id": "Pergi ke dokter gigi.",
+                "en": "I go to the dentist."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "歯医者で治療しました。",
+              "furigana": "はいしゃで ちりょう しました。",
+              "romaji": "haisha de chiryou shimashita.",
+              "meanings": {
+                "id": "Berobat di dokter gigi.",
+                "en": "I got treatment at the dentist."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "歯医者の予約があります。",
+              "furigana": "はいしゃの よやくが あります。",
+              "romaji": "haisha no yoyaku ga arimasu.",
+              "meanings": {
+                "id": "Ada janji dengan dokter gigi.",
+                "en": "I have a dentist appointment."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -4824,7 +5240,39 @@
           "meanings": {
             "en": "section chief, manager",
             "id": "kepala kelompok, manager"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "課長に相談します。",
+              "furigana": "かちょうに そうだん します。",
+              "romaji": "kachou ni soudan shimasu.",
+              "meanings": {
+                "id": "Berkonsultasi dengan kepala seksi.",
+                "en": "I consult with the section chief."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "課長は会議中です。",
+              "furigana": "かちょうは かいぎちゅう です。",
+              "romaji": "kachou wa kaigichuu desu.",
+              "meanings": {
+                "id": "Kepala seksi sedang rapat.",
+                "en": "The section chief is in a meeting."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "課長に頼まれました。",
+              "furigana": "かちょうに たのまれました。",
+              "romaji": "kachou ni tanomare mashita.",
+              "meanings": {
+                "id": "Diminta oleh kepala seksi.",
+                "en": "I was asked by the section chief."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -4834,7 +5282,39 @@
           "meanings": {
             "en": "nurse",
             "id": "suster, perawat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "看護婦になりたいです。",
+              "furigana": "かんごふに なりたいです。",
+              "romaji": "kangofu ni naritai desu.",
+              "meanings": {
+                "id": "Ingin menjadi perawat.",
+                "en": "I want to become a nurse."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "看護婦が来ました。",
+              "furigana": "かんごふが きました。",
+              "romaji": "kangofu ga kimashita.",
+              "meanings": {
+                "id": "Perawat datang.",
+                "en": "The nurse came."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "看護婦に聞いてください。",
+              "furigana": "かんごふに きいて ください。",
+              "romaji": "kangofu ni kiite kudasai.",
+              "meanings": {
+                "id": "Tolong tanya perawat.",
+                "en": "Please ask the nurse."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -4844,7 +5324,39 @@
           "meanings": {
             "en": "police",
             "id": "polisi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "警察を呼びました。",
+              "furigana": "けいさつを よびました。",
+              "romaji": "keisatsu wo yobimashita.",
+              "meanings": {
+                "id": "Memanggil polisi.",
+                "en": "I called the police."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "警察に届けます。",
+              "furigana": "けいさつに とどけます。",
+              "romaji": "keisatsu ni todokemasu.",
+              "meanings": {
+                "id": "Melaporkan ke polisi.",
+                "en": "I report to the police."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "警察が来ています。",
+              "furigana": "けいさつが きて います。",
+              "romaji": "keisatsu ga kite imasu.",
+              "meanings": {
+                "id": "Polisi sudah datang.",
+                "en": "The police have come."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -4854,7 +5366,39 @@
           "meanings": {
             "en": "principal",
             "id": "kepala sekolah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "校長先生に挨拶します。",
+              "furigana": "こうちょうせんせいに あいさつ します。",
+              "romaji": "kouchou sensei ni aisatsu shimasu.",
+              "meanings": {
+                "id": "Memberi salam kepada kepala sekolah.",
+                "en": "I greet the principal."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "校長は話しています。",
+              "furigana": "こうちょうは はなして います。",
+              "romaji": "kouchou wa hanashite imasu.",
+              "meanings": {
+                "id": "Kepala sekolah sedang berbicara.",
+                "en": "The principal is speaking."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "校長に呼ばれました。",
+              "furigana": "こうちょうに よばれました。",
+              "romaji": "kouchou ni yobare mashita.",
+              "meanings": {
+                "id": "Dipanggil kepala sekolah.",
+                "en": "I was called by the principal."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -4864,7 +5408,39 @@
           "meanings": {
             "en": "high school student",
             "id": "siswa SMU"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "高校生の時は楽しかったです。",
+              "furigana": "こうこうせいの ときは たのしかった です。",
+              "romaji": "koukousei no toki wa tanoshikatta desu.",
+              "meanings": {
+                "id": "Waktu SMU menyenangkan.",
+                "en": "When I was a high school student, it was fun."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "高校生は忙しいです。",
+              "furigana": "こうこうせいは いそがしいです。",
+              "romaji": "koukousei wa isogashii desu.",
+              "meanings": {
+                "id": "Siswa SMU sibuk.",
+                "en": "High school students are busy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "娘は高校生です。",
+              "furigana": "むすめは こうこうせい です。",
+              "romaji": "musume wa koukousei desu.",
+              "meanings": {
+                "id": "Anak perempuan saya siswa SMU.",
+                "en": "My daughter is a high school student."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -4874,7 +5450,39 @@
           "meanings": {
             "en": "civil servant",
             "id": "pegawai negeri"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "公務員になりたいです。",
+              "furigana": "こうむいんに なりたいです。",
+              "romaji": "koumuin ni naritai desu.",
+              "meanings": {
+                "id": "Ingin menjadi pegawai negeri.",
+                "en": "I want to become a civil servant."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "父は公務員です。",
+              "furigana": "ちちは こうむいん です。",
+              "romaji": "chichi wa koumuin desu.",
+              "meanings": {
+                "id": "Ayah saya pegawai negeri.",
+                "en": "My father is a civil servant."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "公務員の試験は難しいです。",
+              "furigana": "こうむいんの しけんは むずかしいです。",
+              "romaji": "koumuin no shiken wa muzukashii desu.",
+              "meanings": {
+                "id": "Ujian pegawai negeri sulit.",
+                "en": "The civil service exam is difficult."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -4884,7 +5492,39 @@
           "meanings": {
             "en": "part-time",
             "id": "paruh waktu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "パートで働いています。",
+              "furigana": "パートで はたらいて います。",
+              "romaji": "paato de hataraite imasu.",
+              "meanings": {
+                "id": "Bekerja paruh waktu.",
+                "en": "I work part-time."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "パートを探しています。",
+              "furigana": "パートを さがして います。",
+              "romaji": "paato wo sagashite imasu.",
+              "meanings": {
+                "id": "Mencari pekerjaan paruh waktu.",
+                "en": "I'm looking for a part-time job."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "母はパートをしています。",
+              "furigana": "ははは パートを して います。",
+              "romaji": "haha wa paato wo shite imasu.",
+              "meanings": {
+                "id": "Ibu bekerja paruh waktu.",
+                "en": "My mother works part-time."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -4894,7 +5534,39 @@
           "meanings": {
             "en": "senior",
             "id": "senior"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "シニアの社員です。",
+              "furigana": "シニアの しゃいん です。",
+              "romaji": "shinia no shain desu.",
+              "meanings": {
+                "id": "Karyawan senior.",
+                "en": "I am a senior employee."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "シニアに聞きます。",
+              "furigana": "シニアに ききます。",
+              "romaji": "shinia ni kikimasu.",
+              "meanings": {
+                "id": "Bertanya ke senior.",
+                "en": "I ask the senior."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "シニアは経験があります。",
+              "furigana": "シニアは けいけんが あります。",
+              "romaji": "shinia wa keiken ga arimasu.",
+              "meanings": {
+                "id": "Senior memiliki pengalaman.",
+                "en": "The senior has experience."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -4904,7 +5576,39 @@
           "meanings": {
             "en": "president director",
             "id": "presiden direktur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "社長に会いました。",
+              "furigana": "しゃちょうに あいました。",
+              "romaji": "shachou ni aimashita.",
+              "meanings": {
+                "id": "Bertemu dengan presiden direktur.",
+                "en": "I met the president."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "社長は忙しいです。",
+              "furigana": "しゃちょうは いそがしいです。",
+              "romaji": "shachou wa isogashii desu.",
+              "meanings": {
+                "id": "Presiden direktur sibuk.",
+                "en": "The president is busy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "社長が来ます。",
+              "furigana": "しゃちょうが きます。",
+              "romaji": "shachou ga kimasu.",
+              "meanings": {
+                "id": "Presiden direktur akan datang.",
+                "en": "The president will come."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -4914,7 +5618,39 @@
           "meanings": {
             "en": "pickpocket",
             "id": "pencopet"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "すりに気をつけてください。",
+              "furigana": "すりに きを つけて ください。",
+              "romaji": "suri ni ki wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong waspada terhadap pencopet.",
+                "en": "Please be careful of pickpockets."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "すりが多いです。",
+              "furigana": "すりが おおいです。",
+              "romaji": "suri ga ooi desu.",
+              "meanings": {
+                "id": "Pencopet banyak.",
+                "en": "There are many pickpockets."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "すりに財布を取られました。",
+              "furigana": "すりに さいふを とられました。",
+              "romaji": "suri ni saifu wo torare mashita.",
+              "meanings": {
+                "id": "Dompet dicuri pencopet.",
+                "en": "My wallet was stolen by a pickpocket."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -4924,7 +5660,39 @@
           "meanings": {
             "en": "shop assistant",
             "id": "pegawai toko"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "店員に聞いてください。",
+              "furigana": "てんいんに きいて ください。",
+              "romaji": "ten'in ni kiite kudasai.",
+              "meanings": {
+                "id": "Tolong tanya pegawai toko.",
+                "en": "Please ask the shop assistant."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "店員が親切です。",
+              "furigana": "てんいんが しんせつ です。",
+              "romaji": "ten'in ga shinsetsu desu.",
+              "meanings": {
+                "id": "Pegawai toko ramah.",
+                "en": "The shop assistant is kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "店員を呼びました。",
+              "furigana": "てんいんを よびました。",
+              "romaji": "ten'in wo yobimashita.",
+              "meanings": {
+                "id": "Memanggil pegawai toko.",
+                "en": "I called the shop assistant."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -4934,7 +5702,39 @@
           "meanings": {
             "en": "barber",
             "id": "pemangkas rambut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "とこやに行きました。",
+              "furigana": "とこやに いきました。",
+              "romaji": "tokoya ni ikimashita.",
+              "meanings": {
+                "id": "Pergi ke tukang cukur.",
+                "en": "I went to the barber."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とこやで髪を切ります。",
+              "furigana": "とこやで かみを きります。",
+              "romaji": "tokoya de kami wo kirimasu.",
+              "meanings": {
+                "id": "Potong rambut di tukang cukur.",
+                "en": "I cut my hair at the barber."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とこやはどこですか。",
+              "furigana": "とこやは どこですか。",
+              "romaji": "tokoya wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana tukang cukur?",
+                "en": "Where is the barber?"
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -4944,7 +5744,39 @@
           "meanings": {
             "en": "driver",
             "id": "pengemudi, sopir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "運転手に道を聞きました。",
+              "furigana": "うんてんしゅに みちを ききました。",
+              "romaji": "untenshu ni michi wo kikimashita.",
+              "meanings": {
+                "id": "Bertanya jalan ke sopir.",
+                "en": "I asked the driver for directions."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "運転手は親切です。",
+              "furigana": "うんてんしゅは しんせつ です。",
+              "romaji": "untenshu wa shinsetsu desu.",
+              "meanings": {
+                "id": "Sopir ramah.",
+                "en": "The driver is kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "運転手になりたいです。",
+              "furigana": "うんてんしゅに なりたいです。",
+              "romaji": "untenshu ni naritai desu.",
+              "meanings": {
+                "id": "Ingin menjadi sopir.",
+                "en": "I want to become a driver."
+              }
+            }
+          ]
         }
       ]
     },
