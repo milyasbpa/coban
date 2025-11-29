@@ -7675,7 +7675,39 @@
           "meanings": {
             "en": "spring",
             "id": "musim semi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "春が好きです。",
+              "furigana": "はるがすきです。",
+              "romaji": "haru ga suki desu.",
+              "meanings": {
+                "id": "Saya suka musim semi.",
+                "en": "I like spring."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "春は暖かいです。",
+              "furigana": "はるはあたたかいです。",
+              "romaji": "haru wa atatakai desu.",
+              "meanings": {
+                "id": "Musim semi hangat.",
+                "en": "Spring is warm."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "春に花が咲きます。",
+              "furigana": "はるにはながさきます。",
+              "romaji": "haru ni hana ga sakimasu.",
+              "meanings": {
+                "id": "Bunga bermekaran di musim semi.",
+                "en": "Flowers bloom in spring."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -7685,7 +7717,39 @@
           "meanings": {
             "en": "summer",
             "id": "musim panas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "夏は暑いです。",
+              "furigana": "なつはあついです。",
+              "romaji": "natsu wa atsui desu.",
+              "meanings": {
+                "id": "Musim panas panas.",
+                "en": "Summer is hot."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夏に海へ行きます。",
+              "furigana": "なつにうみへいきます。",
+              "romaji": "natsu ni umi e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke laut di musim panas.",
+                "en": "I go to the sea in summer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "夏が好きです。",
+              "furigana": "なつがすきです。",
+              "romaji": "natsu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka musim panas.",
+                "en": "I like summer."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -7695,7 +7759,39 @@
           "meanings": {
             "en": "autumn",
             "id": "musim gugur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "秋は涼しいです。",
+              "furigana": "あきはすずしいです。",
+              "romaji": "aki wa suzushii desu.",
+              "meanings": {
+                "id": "Musim gugur sejuk.",
+                "en": "Autumn is cool."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "秋が好きです。",
+              "furigana": "あきがすきです。",
+              "romaji": "aki ga suki desu.",
+              "meanings": {
+                "id": "Saya suka musim gugur.",
+                "en": "I like autumn."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "秋に紅葉がきれいです。",
+              "furigana": "あきにこうようがきれいです。",
+              "romaji": "aki ni kouyou ga kirei desu.",
+              "meanings": {
+                "id": "Daun musim gugur indah.",
+                "en": "The autumn leaves are beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -7705,7 +7801,39 @@
           "meanings": {
             "en": "winter",
             "id": "musim dingin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "冬は寒いです。",
+              "furigana": "ふゆはさむいです。",
+              "romaji": "fuyu wa samui desu.",
+              "meanings": {
+                "id": "Musim dingin dingin.",
+                "en": "Winter is cold."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "冬に雪が降ります。",
+              "furigana": "ふゆにゆきがふります。",
+              "romaji": "fuyu ni yuki ga furimasu.",
+              "meanings": {
+                "id": "Salju turun di musim dingin.",
+                "en": "It snows in winter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "冬が好きです。",
+              "furigana": "ふゆがすきです。",
+              "romaji": "fuyu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka musim dingin.",
+                "en": "I like winter."
+              }
+            }
+          ]
         }
       ]
     },
@@ -7724,7 +7852,39 @@
           "meanings": {
             "en": "animal",
             "id": "binatang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "動物が好きです。",
+              "furigana": "どうぶつがすきです。",
+              "romaji": "doubutsu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka binatang.",
+                "en": "I like animals."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "動物園に行きます。",
+              "furigana": "どうぶつえんにいきます。",
+              "romaji": "doubutsuen ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kebun binatang.",
+                "en": "I go to the zoo."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "動物がたくさんいます。",
+              "furigana": "どうぶつがたくさんいます。",
+              "romaji": "doubutsu ga takusan imasu.",
+              "meanings": {
+                "id": "Ada banyak binatang.",
+                "en": "There are many animals."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -7734,7 +7894,39 @@
           "meanings": {
             "en": "pet",
             "id": "binatang peliharaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ペットを飼っています。",
+              "furigana": "ぺっとをかっています。",
+              "romaji": "petto wo katteimasu.",
+              "meanings": {
+                "id": "Saya memelihara hewan peliharaan.",
+                "en": "I have a pet."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ペットがいますか。",
+              "furigana": "ぺっとがいますか。",
+              "romaji": "petto ga imasu ka.",
+              "meanings": {
+                "id": "Apakah kamu punya hewan peliharaan?",
+                "en": "Do you have a pet?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ペットが好きです。",
+              "furigana": "ぺっとがすきです。",
+              "romaji": "petto ga suki desu.",
+              "meanings": {
+                "id": "Saya suka hewan peliharaan.",
+                "en": "I like pets."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -7744,7 +7936,39 @@
           "meanings": {
             "en": "dog",
             "id": "anjing"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "犬を飼っています。",
+              "furigana": "いぬをかっています。",
+              "romaji": "inu wo katteimasu.",
+              "meanings": {
+                "id": "Saya memelihara anjing.",
+                "en": "I have a dog."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "犬がかわいいです。",
+              "furigana": "いぬがかわいいです。",
+              "romaji": "inu ga kawaii desu.",
+              "meanings": {
+                "id": "Anjingnya lucu.",
+                "en": "The dog is cute."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "犬が好きです。",
+              "furigana": "いぬがすきです。",
+              "romaji": "inu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka anjing.",
+                "en": "I like dogs."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -7754,7 +7978,39 @@
           "meanings": {
             "en": "cat",
             "id": "kucing"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "猫がいます。",
+              "furigana": "ねこがいます。",
+              "romaji": "neko ga imasu.",
+              "meanings": {
+                "id": "Ada kucing.",
+                "en": "There is a cat."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "猫がかわいいです。",
+              "furigana": "ねこがかわいいです。",
+              "romaji": "neko ga kawaii desu.",
+              "meanings": {
+                "id": "Kucingnya lucu.",
+                "en": "The cat is cute."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "猫が好きです。",
+              "furigana": "ねこがすきです。",
+              "romaji": "neko ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kucing.",
+                "en": "I like cats."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -7764,7 +8020,39 @@
           "meanings": {
             "en": "bird",
             "id": "burung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鳥が飛んでいます。",
+              "furigana": "とりがとんでいます。",
+              "romaji": "tori ga tondeimasu.",
+              "meanings": {
+                "id": "Burung terbang.",
+                "en": "The bird is flying."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "鳥がきれいです。",
+              "furigana": "とりがきれいです。",
+              "romaji": "tori ga kirei desu.",
+              "meanings": {
+                "id": "Burungnya indah.",
+                "en": "The bird is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鳥が鳴いています。",
+              "furigana": "とりがないています。",
+              "romaji": "tori ga naiteimasu.",
+              "meanings": {
+                "id": "Burung berkicau.",
+                "en": "The bird is singing."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -7774,7 +8062,39 @@
           "meanings": {
             "en": "chicken",
             "id": "ayam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "にわとりがいます。",
+              "furigana": "にわとりがいます。",
+              "romaji": "niwatori ga imasu.",
+              "meanings": {
+                "id": "Ada ayam.",
+                "en": "There is a chicken."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "にわとりが鳴きます。",
+              "furigana": "にわとりがなきます。",
+              "romaji": "niwatori ga nakimasu.",
+              "meanings": {
+                "id": "Ayam berkokok.",
+                "en": "The chicken crows."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "にわとりを飼っています。",
+              "furigana": "にわとりをかっています。",
+              "romaji": "niwatori wo katteimasu.",
+              "meanings": {
+                "id": "Saya memelihara ayam.",
+                "en": "I keep chickens."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -7784,7 +8104,39 @@
           "meanings": {
             "en": "fish",
             "id": "ikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "魚を食べます。",
+              "furigana": "さかなをたべます。",
+              "romaji": "sakana wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan ikan.",
+                "en": "I eat fish."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "魚が好きです。",
+              "furigana": "さかながすきです。",
+              "romaji": "sakana ga suki desu.",
+              "meanings": {
+                "id": "Saya suka ikan.",
+                "en": "I like fish."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "魚がおいしいです。",
+              "furigana": "さかながおいしいです。",
+              "romaji": "sakana ga oishii desu.",
+              "meanings": {
+                "id": "Ikannya enak.",
+                "en": "The fish is delicious."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -7794,7 +8146,39 @@
           "meanings": {
             "en": "shrimp",
             "id": "udang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "えびを食べます。",
+              "furigana": "えびをたべます。",
+              "romaji": "ebi wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan udang.",
+                "en": "I eat shrimp."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "えびが好きです。",
+              "furigana": "えびがすきです。",
+              "romaji": "ebi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka udang.",
+                "en": "I like shrimp."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "えびがおいしいです。",
+              "furigana": "えびがおいしいです。",
+              "romaji": "ebi ga oishii desu.",
+              "meanings": {
+                "id": "Udangnya enak.",
+                "en": "The shrimp is delicious."
+              }
+            }
+          ]
         }
       ]
     },
