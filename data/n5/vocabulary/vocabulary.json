@@ -1545,7 +1545,39 @@
           "meanings": {
             "en": "day, date",
             "id": "tanggal, hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は何日ですか。",
+              "furigana": "きょうはなんにちですか。",
+              "romaji": "kyou wa nan nichi desu ka.",
+              "meanings": {
+                "id": "Hari ini tanggal berapa?",
+                "en": "What date is it today?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "三月十五日に会いましょう。",
+              "furigana": "さんがつじゅうごにちにあいましょう。",
+              "romaji": "sangatsu juugo nichi ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu tanggal 15 Maret.",
+                "en": "Let's meet on March 15th."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "誕生日は七月二十日です。",
+              "furigana": "たんじょうびはしちがつはつかです。",
+              "romaji": "tanjoubi wa shichigatsu hatsuka desu.",
+              "meanings": {
+                "id": "Ulang tahun saya tanggal 20 Juli.",
+                "en": "My birthday is July 20th."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -1555,7 +1587,39 @@
           "meanings": {
             "en": "first day of the month",
             "id": "tanggal 1"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は一日です。",
+              "furigana": "きょうはついたちです。",
+              "romaji": "kyou wa tsuitachi desu.",
+              "meanings": {
+                "id": "Hari ini tanggal satu.",
+                "en": "Today is the first."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "四月一日に入学式があります。",
+              "furigana": "しがつついたちににゅうがくしきがあります。",
+              "romaji": "shigatsu tsuitachi ni nyuugakushiki ga arimasu.",
+              "meanings": {
+                "id": "Ada upacara masuk sekolah tanggal 1 April.",
+                "en": "There is an entrance ceremony on April 1st."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎月一日に給料をもらいます。",
+              "furigana": "まいつきついたちにきゅうりょうをもらいます。",
+              "romaji": "maitsuki tsuitachi ni kyuuryou wo moraimasu.",
+              "meanings": {
+                "id": "Saya menerima gaji setiap tanggal satu.",
+                "en": "I receive my salary on the first of every month."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -1565,7 +1629,39 @@
           "meanings": {
             "en": "second day of the month",
             "id": "tanggal 2"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "二日に帰ります。",
+              "furigana": "ふつかにかえります。",
+              "romaji": "futsuka ni kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang tanggal dua.",
+                "en": "I'll return on the second."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "十月二日は休みです。",
+              "furigana": "じゅうがつふつかはやすみです。",
+              "romaji": "juugatsu futsuka wa yasumi desu.",
+              "meanings": {
+                "id": "Tanggal 2 Oktober libur.",
+                "en": "October 2nd is a holiday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二日に試験があります。",
+              "furigana": "ふつかにしけんがあります。",
+              "romaji": "futsuka ni shiken ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian tanggal dua.",
+                "en": "There is an exam on the second."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -1575,7 +1671,39 @@
           "meanings": {
             "en": "third day of the month",
             "id": "tanggal 3"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "三日に出発します。",
+              "furigana": "みっかにしゅっぱつします。",
+              "romaji": "mikka ni shuppatsu shimasu.",
+              "meanings": {
+                "id": "Saya berangkat tanggal tiga.",
+                "en": "I'll depart on the third."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "来月の三日に会議があります。",
+              "furigana": "らいげつのみっかにかいぎがあります。",
+              "romaji": "raigetsu no mikka ni kaigi ga arimasu.",
+              "meanings": {
+                "id": "Ada rapat tanggal 3 bulan depan.",
+                "en": "There is a meeting on the 3rd of next month."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "三日は忙しいです。",
+              "furigana": "みっかはいそがしいです。",
+              "romaji": "mikka wa isogashii desu.",
+              "meanings": {
+                "id": "Tanggal tiga sibuk.",
+                "en": "The third is busy."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -1585,7 +1713,39 @@
           "meanings": {
             "en": "fourth day of the month",
             "id": "tanggal 4"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "四日に旅行に行きます。",
+              "furigana": "よっかにりょこうにいきます。",
+              "romaji": "yokka ni ryokou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi traveling tanggal empat.",
+                "en": "I'll go on a trip on the fourth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "八月四日は私の誕生日です。",
+              "furigana": "はちがつよっかはわたしのたんじょうびです。",
+              "romaji": "hachigatsu yokka wa watashi no tanjoubi desu.",
+              "meanings": {
+                "id": "Tanggal 4 Agustus adalah ulang tahun saya.",
+                "en": "August 4th is my birthday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "四日にパーティーがあります。",
+              "furigana": "よっかにパーティーがあります。",
+              "romaji": "yokka ni pa-ti- ga arimasu.",
+              "meanings": {
+                "id": "Ada pesta tanggal empat.",
+                "en": "There is a party on the fourth."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -1595,7 +1755,39 @@
           "meanings": {
             "en": "fifth day of the month",
             "id": "tanggal 5"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "五日に友達が来ます。",
+              "furigana": "いつかにともだちがきます。",
+              "romaji": "itsuka ni tomodachi ga kimasu.",
+              "meanings": {
+                "id": "Teman saya datang tanggal lima.",
+                "en": "My friend will come on the fifth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "五月五日は子供の日です。",
+              "furigana": "ごがついつかはこどものひです。",
+              "romaji": "gogatsu itsuka wa kodomo no hi desu.",
+              "meanings": {
+                "id": "Tanggal 5 Mei adalah hari anak-anak.",
+                "en": "May 5th is Children's Day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五日まで待ちます。",
+              "furigana": "いつかまでまちます。",
+              "romaji": "itsuka made machimasu.",
+              "meanings": {
+                "id": "Saya menunggu sampai tanggal lima.",
+                "en": "I'll wait until the fifth."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -1605,7 +1797,39 @@
           "meanings": {
             "en": "sixth day of the month",
             "id": "tanggal 6"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "六日に病院へ行きます。",
+              "furigana": "むいかにびょういんへいきます。",
+              "romaji": "muika ni byouin e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke rumah sakit tanggal enam.",
+                "en": "I'll go to the hospital on the sixth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "六日は休みです。",
+              "furigana": "むいかはやすみです。",
+              "romaji": "muika wa yasumi desu.",
+              "meanings": {
+                "id": "Tanggal enam libur.",
+                "en": "The sixth is a day off."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "十二月六日に雪が降りました。",
+              "furigana": "じゅうにがつむいかにゆきがふりました。",
+              "romaji": "juunigatsu muika ni yuki ga furimashita.",
+              "meanings": {
+                "id": "Tanggal 6 Desember turun salju.",
+                "en": "It snowed on December 6th."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -1615,7 +1839,39 @@
           "meanings": {
             "en": "seventh day of the month",
             "id": "tanggal 7"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "七日に運動会があります。",
+              "furigana": "なのかにうんどうかいがあります。",
+              "romaji": "nanoka ni undoukai ga arimasu.",
+              "meanings": {
+                "id": "Ada hari olahraga tanggal tujuh.",
+                "en": "There is a sports day on the seventh."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "七日から学校が始まります。",
+              "furigana": "なのかからがっこうがはじまります。",
+              "romaji": "nanoka kara gakkou ga hajimarimasu.",
+              "meanings": {
+                "id": "Sekolah mulai dari tanggal tujuh.",
+                "en": "School starts from the seventh."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "七月七日は七夕です。",
+              "furigana": "しちがつなのかはたなばたです。",
+              "romaji": "shichigatsu nanoka wa tanabata desu.",
+              "meanings": {
+                "id": "Tanggal 7 Juli adalah festival Tanabata.",
+                "en": "July 7th is Tanabata festival."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -1625,7 +1881,39 @@
           "meanings": {
             "en": "eighth day of the month",
             "id": "tanggal 8"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "八日に美容院へ行きます。",
+              "furigana": "ようかにびよういんへいきます。",
+              "romaji": "youka ni biyouin e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke salon tanggal delapan.",
+                "en": "I'll go to the beauty salon on the eighth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "八日に帰国します。",
+              "furigana": "ようかにきこくします。",
+              "romaji": "youka ni kikoku shimasu.",
+              "meanings": {
+                "id": "Saya pulang ke negara asal tanggal delapan.",
+                "en": "I'll return to my home country on the eighth."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今月の八日は土曜日です。",
+              "furigana": "こんげつのようかはどようびです。",
+              "romaji": "kongetsu no youka wa doyoubi desu.",
+              "meanings": {
+                "id": "Tanggal 8 bulan ini adalah hari Sabtu.",
+                "en": "The 8th of this month is Saturday."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -1635,7 +1923,39 @@
           "meanings": {
             "en": "ninth day of the month",
             "id": "tanggal 9"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "九日に歯医者に行きます。",
+              "furigana": "ここのかにはいしゃにいきます。",
+              "romaji": "kokonoka ni haisha ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke dokter gigi tanggal sembilan.",
+                "en": "I'll go to the dentist on the ninth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "九日は大事な日です。",
+              "furigana": "ここのかはだいじなひです。",
+              "romaji": "kokonoka wa daiji na hi desu.",
+              "meanings": {
+                "id": "Tanggal sembilan adalah hari penting.",
+                "en": "The ninth is an important day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "九日まで休みです。",
+              "furigana": "ここのかまでやすみです。",
+              "romaji": "kokonoka made yasumi desu.",
+              "meanings": {
+                "id": "Libur sampai tanggal sembilan.",
+                "en": "It's a holiday until the ninth."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -1645,7 +1965,39 @@
           "meanings": {
             "en": "tenth day of the month",
             "id": "tanggal 10"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "十日に試験があります。",
+              "furigana": "とおかにしけんがあります。",
+              "romaji": "tooka ni shiken ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian tanggal sepuluh.",
+                "en": "There is an exam on the tenth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "十日に荷物が届きます。",
+              "furigana": "とおかににもつがとどきます。",
+              "romaji": "tooka ni nimotsu ga todokimasu.",
+              "meanings": {
+                "id": "Paket tiba tanggal sepuluh.",
+                "en": "The package will arrive on the tenth."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎月十日に支払います。",
+              "furigana": "まいつきとおかにしはらいます。",
+              "romaji": "maitsuki tooka ni shiharaimasu.",
+              "meanings": {
+                "id": "Saya membayar setiap tanggal sepuluh.",
+                "en": "I pay on the tenth of every month."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -1655,7 +2007,39 @@
           "meanings": {
             "en": "twentieth day of the month",
             "id": "tanggal 20"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "二十日に旅行から帰ります。",
+              "furigana": "はつかにりょこうからかえります。",
+              "romaji": "hatsuka ni ryokou kara kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang dari traveling tanggal dua puluh.",
+                "en": "I'll return from my trip on the twentieth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "二十日は給料日です。",
+              "furigana": "はつかはきゅうりょうびです。",
+              "romaji": "hatsuka wa kyuuryoubi desu.",
+              "meanings": {
+                "id": "Tanggal dua puluh adalah hari gajian.",
+                "en": "The twentieth is payday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二十日まで待ってください。",
+              "furigana": "はつかまでまってください。",
+              "romaji": "hatsuka made matte kudasai.",
+              "meanings": {
+                "id": "Tolong tunggu sampai tanggal dua puluh.",
+                "en": "Please wait until the twentieth."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -1665,7 +2049,39 @@
           "meanings": {
             "en": "one day (duration)",
             "id": "1 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一日中寝ました。",
+              "furigana": "いちにちじゅうねました。",
+              "romaji": "ichinichijuu nemashita.",
+              "meanings": {
+                "id": "Saya tidur seharian.",
+                "en": "I slept all day."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一日三回薬を飲みます。",
+              "furigana": "いちにちさんかいくすりをのみます。",
+              "romaji": "ichinichi sankai kusuri wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum obat tiga kali sehari.",
+                "en": "I take medicine three times a day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一日だけ休みます。",
+              "furigana": "いちにちだけやすみます。",
+              "romaji": "ichinichi dake yasumimasu.",
+              "meanings": {
+                "id": "Saya libur hanya satu hari.",
+                "en": "I'll take a day off."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -1675,7 +2091,39 @@
           "meanings": {
             "en": "two days (duration)",
             "id": "(selama) 2 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "二日間勉強しました。",
+              "furigana": "ふつかかんべんきょうしました。",
+              "romaji": "futsukakan benkyou shimashita.",
+              "meanings": {
+                "id": "Saya belajar selama dua hari.",
+                "en": "I studied for two days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "二日休みをもらいました。",
+              "furigana": "ふつかやすみをもらいました。",
+              "romaji": "futsuka yasumi wo moraimashita.",
+              "meanings": {
+                "id": "Saya dapat libur dua hari.",
+                "en": "I got two days off."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二日かかります。",
+              "furigana": "ふつかかかります。",
+              "romaji": "futsuka kakarimasu.",
+              "meanings": {
+                "id": "Memakan waktu dua hari.",
+                "en": "It takes two days."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -1685,7 +2133,39 @@
           "meanings": {
             "en": "three days (duration)",
             "id": "(selama) 3 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "三日間東京にいました。",
+              "furigana": "みっかかんとうきょうにいました。",
+              "romaji": "mikkakan toukyou ni imashita.",
+              "meanings": {
+                "id": "Saya berada di Tokyo selama tiga hari.",
+                "en": "I was in Tokyo for three days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "三日待ちました。",
+              "furigana": "みっかまちました。",
+              "romaji": "mikka machimashita.",
+              "meanings": {
+                "id": "Saya menunggu tiga hari.",
+                "en": "I waited for three days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "三日で終わります。",
+              "furigana": "みっかでおわります。",
+              "romaji": "mikka de owarimasu.",
+              "meanings": {
+                "id": "Selesai dalam tiga hari.",
+                "en": "It will be finished in three days."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -1695,7 +2175,39 @@
           "meanings": {
             "en": "four days (duration)",
             "id": "(selama) 4 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "四日間雨が降りました。",
+              "furigana": "よっかかんあめがふりました。",
+              "romaji": "yokkakan ame ga furimashita.",
+              "meanings": {
+                "id": "Hujan turun selama empat hari.",
+                "en": "It rained for four days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "四日で作りました。",
+              "furigana": "よっかでつくりました。",
+              "romaji": "yokka de tsukurimashita.",
+              "meanings": {
+                "id": "Saya membuatnya dalam empat hari.",
+                "en": "I made it in four days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "四日休みます。",
+              "furigana": "よっかやすみます。",
+              "romaji": "yokka yasumimasu.",
+              "meanings": {
+                "id": "Saya libur empat hari.",
+                "en": "I'll take four days off."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -1705,7 +2217,39 @@
           "meanings": {
             "en": "five days (duration)",
             "id": "(selama) 5 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "五日間旅行しました。",
+              "furigana": "いつかかんりょこうしました。",
+              "romaji": "itsukakan ryokou shimashita.",
+              "meanings": {
+                "id": "Saya traveling selama lima hari.",
+                "en": "I traveled for five days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "五日かかりました。",
+              "furigana": "いつかかかりました。",
+              "romaji": "itsuka kakarimashita.",
+              "meanings": {
+                "id": "Memakan waktu lima hari.",
+                "en": "It took five days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五日で終わりました。",
+              "furigana": "いつかでおわりました。",
+              "romaji": "itsuka de owarimashita.",
+              "meanings": {
+                "id": "Selesai dalam lima hari.",
+                "en": "It finished in five days."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -1715,7 +2259,39 @@
           "meanings": {
             "en": "six days (duration)",
             "id": "(selama) 6 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "六日間入院しました。",
+              "furigana": "むいかかんにゅういんしました。",
+              "romaji": "muikakan nyuuin shimashita.",
+              "meanings": {
+                "id": "Saya dirawat di rumah sakit selama enam hari.",
+                "en": "I was hospitalized for six days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "六日で読みました。",
+              "furigana": "むいかでよみました。",
+              "romaji": "muika de yomimashita.",
+              "meanings": {
+                "id": "Saya membacanya dalam enam hari.",
+                "en": "I read it in six days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "六日働きました。",
+              "furigana": "むいかはたらきました。",
+              "romaji": "muika hatarakimashita.",
+              "meanings": {
+                "id": "Saya bekerja enam hari.",
+                "en": "I worked for six days."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -1725,7 +2301,39 @@
           "meanings": {
             "en": "seven days (duration)",
             "id": "(selama) 7 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "七日間休みました。",
+              "furigana": "なのかかんやすみました。",
+              "romaji": "nanokakan yasumimashita.",
+              "meanings": {
+                "id": "Saya istirahat selama tujuh hari.",
+                "en": "I rested for seven days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "七日で終わります。",
+              "furigana": "なのかでおわります。",
+              "romaji": "nanoka de owarimasu.",
+              "meanings": {
+                "id": "Selesai dalam tujuh hari.",
+                "en": "It will finish in seven days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "七日かかりました。",
+              "furigana": "なのかかかりました。",
+              "romaji": "nanoka kakarimashita.",
+              "meanings": {
+                "id": "Memakan waktu tujuh hari.",
+                "en": "It took seven days."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -1735,7 +2343,39 @@
           "meanings": {
             "en": "eight days (duration)",
             "id": "(selama) 8 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "八日間留学しました。",
+              "furigana": "ようかかんりゅうがくしました。",
+              "romaji": "youkakan ryuugaku shimashita.",
+              "meanings": {
+                "id": "Saya belajar di luar negeri selama delapan hari.",
+                "en": "I studied abroad for eight days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "八日で完成しました。",
+              "furigana": "ようかでかんせいしました。",
+              "romaji": "youka de kansei shimashita.",
+              "meanings": {
+                "id": "Selesai dalam delapan hari.",
+                "en": "It was completed in eight days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "八日待ちました。",
+              "furigana": "ようかまちました。",
+              "romaji": "youka machimashita.",
+              "meanings": {
+                "id": "Saya menunggu delapan hari.",
+                "en": "I waited for eight days."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -1745,7 +2385,39 @@
           "meanings": {
             "en": "nine days (duration)",
             "id": "(selama) 9 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "九日間留守にしました。",
+              "furigana": "ここのかかんるすにしました。",
+              "romaji": "kokonokakan rusu ni shimashita.",
+              "meanings": {
+                "id": "Saya tidak di rumah selama sembilan hari.",
+                "en": "I was away from home for nine days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "九日で届きます。",
+              "furigana": "ここのかでとどきます。",
+              "romaji": "kokonoka de todokimasu.",
+              "meanings": {
+                "id": "Tiba dalam sembilan hari.",
+                "en": "It will arrive in nine days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "九日かかります。",
+              "furigana": "ここのかかかります。",
+              "romaji": "kokonoka kakarimasu.",
+              "meanings": {
+                "id": "Memakan waktu sembilan hari.",
+                "en": "It takes nine days."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -1755,7 +2427,39 @@
           "meanings": {
             "en": "ten days (duration)",
             "id": "(selama) 10 hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "十日間休暇を取りました。",
+              "furigana": "とおかかんきゅうかをとりました。",
+              "romaji": "tookakan kyuuka wo torimashita.",
+              "meanings": {
+                "id": "Saya mengambil cuti selama sepuluh hari.",
+                "en": "I took a ten-day vacation."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "十日で治りました。",
+              "furigana": "とおかでなおりました。",
+              "romaji": "tooka de naorimashita.",
+              "meanings": {
+                "id": "Sembuh dalam sepuluh hari.",
+                "en": "It healed in ten days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "十日かかりました。",
+              "furigana": "とおかかかりました。",
+              "romaji": "tooka kakarimashita.",
+              "meanings": {
+                "id": "Memakan waktu sepuluh hari.",
+                "en": "It took ten days."
+              }
+            }
+          ]
         },
         {
           "id": 23,
@@ -1765,7 +2469,39 @@
           "meanings": {
             "en": "one week",
             "id": "1 minggu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一週間旅行します。",
+              "furigana": "いっしゅうかんりょこうします。",
+              "romaji": "isshuukan ryokou shimasu.",
+              "meanings": {
+                "id": "Saya traveling satu minggu.",
+                "en": "I'll travel for one week."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一週間に一回掃除します。",
+              "furigana": "いっしゅうかんにいっかいそうじします。",
+              "romaji": "isshuukan ni ikkai souji shimasu.",
+              "meanings": {
+                "id": "Saya bersih-bersih sekali seminggu.",
+                "en": "I clean once a week."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一週間後に会いましょう。",
+              "furigana": "いっしゅうかんごにあいましょう。",
+              "romaji": "isshuukango ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu seminggu lagi.",
+                "en": "Let's meet in one week."
+              }
+            }
+          ]
         },
         {
           "id": 24,
@@ -1775,7 +2511,39 @@
           "meanings": {
             "en": "one month (duration)",
             "id": "1 bulan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一か月勉強しました。",
+              "furigana": "いっかげつべんきょうしました。",
+              "romaji": "ikkagetsu benkyou shimashita.",
+              "meanings": {
+                "id": "Saya belajar satu bulan.",
+                "en": "I studied for one month."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一か月に一回病院へ行きます。",
+              "furigana": "いっかげつにいっかいびょういんへいきます。",
+              "romaji": "ikkagetsu ni ikkai byouin e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke rumah sakit sekali sebulan.",
+                "en": "I go to the hospital once a month."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一か月前に会いました。",
+              "furigana": "いっかげつまえにあいました。",
+              "romaji": "ikkagetsu mae ni aimashita.",
+              "meanings": {
+                "id": "Saya bertemu sebulan yang lalu.",
+                "en": "I met a month ago."
+              }
+            }
+          ]
         },
         {
           "id": 25,
@@ -1785,7 +2553,39 @@
           "meanings": {
             "en": "one year (duration)",
             "id": "(selama) 1 tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一年間日本にいました。",
+              "furigana": "いちねんかんにほんにいました。",
+              "romaji": "ichinenkan nihon ni imashita.",
+              "meanings": {
+                "id": "Saya berada di Jepang selama satu tahun.",
+                "en": "I was in Japan for one year."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一年に一回帰国します。",
+              "furigana": "いちねんにいっかいきこくします。",
+              "romaji": "ichinen ni ikkai kikoku shimasu.",
+              "meanings": {
+                "id": "Saya pulang ke negara asal sekali setahun.",
+                "en": "I return to my home country once a year."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一年前に結婚しました。",
+              "furigana": "いちねんまえにけっこんしました。",
+              "romaji": "ichinen mae ni kekkon shimashita.",
+              "meanings": {
+                "id": "Saya menikah setahun yang lalu.",
+                "en": "I got married a year ago."
+              }
+            }
+          ]
         }
       ]
     },
