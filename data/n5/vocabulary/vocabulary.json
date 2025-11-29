@@ -1200,7 +1200,39 @@
           "meanings": {
             "en": "day (of the week)",
             "id": "hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は何曜日ですか。",
+              "furigana": "きょうはなんようびですか。",
+              "romaji": "kyou wa nan youbi desu ka.",
+              "meanings": {
+                "id": "Hari ini hari apa?",
+                "en": "What day is it today?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "好きな曜日は金曜日です。",
+              "furigana": "すきなようびはきんようびです。",
+              "romaji": "suki na youbi wa kin'youbi desu.",
+              "meanings": {
+                "id": "Hari favorit saya adalah Jumat.",
+                "en": "My favorite day is Friday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "曜日を覚えました。",
+              "furigana": "ようびをおぼえました。",
+              "romaji": "youbi wo oboemashita.",
+              "meanings": {
+                "id": "Saya menghapal hari-hari dalam seminggu.",
+                "en": "I memorized the days of the week."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -1210,7 +1242,39 @@
           "meanings": {
             "en": "Monday",
             "id": "Senin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "月曜日は忙しいです。",
+              "furigana": "げつようびはいそがしいです。",
+              "romaji": "getsuyoubi wa isogashii desu.",
+              "meanings": {
+                "id": "Hari Senin sibuk.",
+                "en": "Monday is busy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "月曜日に会議があります。",
+              "furigana": "げつようびにかいぎがあります。",
+              "romaji": "getsuyoubi ni kaigi ga arimasu.",
+              "meanings": {
+                "id": "Ada rapat di hari Senin.",
+                "en": "There is a meeting on Monday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "月曜日から学校が始まります。",
+              "furigana": "げつようびからがっこうがはじまります。",
+              "romaji": "getsuyoubi kara gakkou ga hajimarimasu.",
+              "meanings": {
+                "id": "Sekolah dimulai dari hari Senin.",
+                "en": "School starts from Monday."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -1220,7 +1284,39 @@
           "meanings": {
             "en": "Tuesday",
             "id": "Selasa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "火曜日にテストがあります。",
+              "furigana": "かようびにテストがあります。",
+              "romaji": "kayoubi ni tesuto ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian di hari Selasa.",
+                "en": "There is a test on Tuesday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "火曜日は休みです。",
+              "furigana": "かようびはやすみです。",
+              "romaji": "kayoubi wa yasumi desu.",
+              "meanings": {
+                "id": "Hari Selasa libur.",
+                "en": "Tuesday is a day off."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎週火曜日に英語を勉強します。",
+              "furigana": "まいしゅうかようびにえいごをべんきょうします。",
+              "romaji": "maishuu kayoubi ni eigo wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar bahasa Inggris setiap hari Selasa.",
+                "en": "I study English every Tuesday."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -1230,7 +1326,39 @@
           "meanings": {
             "en": "Wednesday",
             "id": "Rabu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "水曜日に買い物をします。",
+              "furigana": "すいようびにかいものをします。",
+              "romaji": "suiyoubi ni kaimono wo shimasu.",
+              "meanings": {
+                "id": "Saya berbelanja di hari Rabu.",
+                "en": "I go shopping on Wednesday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "水曜日は早く帰ります。",
+              "furigana": "すいようびははやくかえります。",
+              "romaji": "suiyoubi wa hayaku kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang cepat di hari Rabu.",
+                "en": "I go home early on Wednesday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水曜日に友達と遊びます。",
+              "furigana": "すいようびにともだちとあそびます。",
+              "romaji": "suiyoubi ni tomodachi to asobimasu.",
+              "meanings": {
+                "id": "Saya bermain dengan teman di hari Rabu.",
+                "en": "I hang out with friends on Wednesday."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -1240,7 +1368,39 @@
           "meanings": {
             "en": "Thursday",
             "id": "Kamis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "木曜日にピアノを習います。",
+              "furigana": "もくようびにピアノをならいます。",
+              "romaji": "mokuyoubi ni piano wo naraimasu.",
+              "meanings": {
+                "id": "Saya belajar piano di hari Kamis.",
+                "en": "I learn piano on Thursday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "木曜日は図書館に行きます。",
+              "furigana": "もくようびはとしょかんにいきます。",
+              "romaji": "mokuyoubi wa toshokan ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke perpustakaan di hari Kamis.",
+                "en": "I go to the library on Thursday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎週木曜日にサッカーをします。",
+              "furigana": "まいしゅうもくようびにサッカーをします。",
+              "romaji": "maishuu mokuyoubi ni sakka- wo shimasu.",
+              "meanings": {
+                "id": "Saya bermain sepak bola setiap hari Kamis.",
+                "en": "I play soccer every Thursday."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -1250,7 +1410,39 @@
           "meanings": {
             "en": "Friday",
             "id": "Jumat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "金曜日が楽しみです。",
+              "furigana": "きんようびがたのしみです。",
+              "romaji": "kin'youbi ga tanoshimi desu.",
+              "meanings": {
+                "id": "Saya menantikan hari Jumat.",
+                "en": "I'm looking forward to Friday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "金曜日に映画を見ます。",
+              "furigana": "きんようびにえいがをみます。",
+              "romaji": "kin'youbi ni eiga wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton film di hari Jumat.",
+                "en": "I watch a movie on Friday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "金曜日の夜は友達と食事をします。",
+              "furigana": "きんようびのよるはともだちとしょくじをします。",
+              "romaji": "kin'youbi no yoru wa tomodachi to shokuji wo shimasu.",
+              "meanings": {
+                "id": "Saya makan malam dengan teman di malam Jumat.",
+                "en": "I have dinner with friends on Friday night."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -1260,7 +1452,39 @@
           "meanings": {
             "en": "Saturday",
             "id": "Sabtu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "土曜日は休みです。",
+              "furigana": "どようびはやすみです。",
+              "romaji": "doyoubi wa yasumi desu.",
+              "meanings": {
+                "id": "Hari Sabtu libur.",
+                "en": "Saturday is a day off."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "土曜日にデートをします。",
+              "furigana": "どようびにデートをします。",
+              "romaji": "doyoubi ni de-to wo shimasu.",
+              "meanings": {
+                "id": "Saya kencan di hari Sabtu.",
+                "en": "I go on a date on Saturday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "土曜日の朝は遅く起きます。",
+              "furigana": "どようびのあさはおそくおきます。",
+              "romaji": "doyoubi no asa wa osoku okimasu.",
+              "meanings": {
+                "id": "Saya bangun terlambat di pagi Sabtu.",
+                "en": "I wake up late on Saturday morning."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -1270,7 +1494,39 @@
           "meanings": {
             "en": "Sunday",
             "id": "Minggu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日曜日に家族と出かけます。",
+              "furigana": "にちようびにかぞくとでかけます。",
+              "romaji": "nichiyoubi ni kazoku to dekakemasu.",
+              "meanings": {
+                "id": "Saya pergi keluar dengan keluarga di hari Minggu.",
+                "en": "I go out with my family on Sunday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "日曜日はゆっくり休みます。",
+              "furigana": "にちようびはゆっくりやすみます。",
+              "romaji": "nichiyoubi wa yukkuri yasumimasu.",
+              "meanings": {
+                "id": "Saya beristirahat dengan santai di hari Minggu.",
+                "en": "I rest leisurely on Sunday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎週日曜日に公園へ行きます。",
+              "furigana": "まいしゅうにちようびにこうえんへいきます。",
+              "romaji": "maishuu nichiyoubi ni kouen e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke taman setiap hari Minggu.",
+                "en": "I go to the park every Sunday."
+              }
+            }
+          ]
         }
       ]
     },
