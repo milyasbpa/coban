@@ -26959,7 +26959,39 @@
           "meanings": {
             "en": "to bathe, to pour over",
             "id": "mandi, menyiram"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "シャワーを浴びます。",
+              "furigana": "シャワーを あびます。",
+              "romaji": "shawaa wo abimasu.",
+              "meanings": {
+                "id": "Mandi dengan shower.",
+                "en": "I take a shower."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝シャワーを浴びます。",
+              "furigana": "あさ シャワーを あびます。",
+              "romaji": "asa shawaa wo abimasu.",
+              "meanings": {
+                "id": "Mandi di pagi hari.",
+                "en": "I take a shower in the morning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水を浴びます。",
+              "furigana": "みずを あびます。",
+              "romaji": "mizu wo abimasu.",
+              "meanings": {
+                "id": "Menyiram dengan air.",
+                "en": "I pour water over myself."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -26969,7 +27001,39 @@
           "meanings": {
             "en": "can, be able to",
             "id": "bisa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日本語ができます。",
+              "furigana": "にほんごが できます。",
+              "romaji": "nihongo ga dekimasu.",
+              "meanings": {
+                "id": "Bisa bahasa Jepang.",
+                "en": "I can speak Japanese."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "料理ができます。",
+              "furigana": "りょうりが できます。",
+              "romaji": "ryouri ga dekimasu.",
+              "meanings": {
+                "id": "Bisa memasak.",
+                "en": "I can cook."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "泳ぐことができます。",
+              "furigana": "およぐことが できます。",
+              "romaji": "oyogu koto ga dekimasu.",
+              "meanings": {
+                "id": "Bisa berenang.",
+                "en": "I can swim."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -26979,7 +27043,39 @@
           "meanings": {
             "en": "to be (animate)",
             "id": "ada (manusia, binatang)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "家に母がいます。",
+              "furigana": "いえに ははが います。",
+              "romaji": "ie ni haha ga imasu.",
+              "meanings": {
+                "id": "Ibu ada di rumah.",
+                "en": "My mother is at home."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "犬がいます。",
+              "furigana": "いぬが います。",
+              "romaji": "inu ga imasu.",
+              "meanings": {
+                "id": "Ada anjing.",
+                "en": "There is a dog."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "友達がいます。",
+              "furigana": "ともだちが います。",
+              "romaji": "tomodachi ga imasu.",
+              "meanings": {
+                "id": "Ada teman.",
+                "en": "I have friends."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -26989,7 +27085,39 @@
           "meanings": {
             "en": "to borrow",
             "id": "meminjam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "本を借ります。",
+              "furigana": "ほんを かります。",
+              "romaji": "hon wo karimasu.",
+              "meanings": {
+                "id": "Meminjam buku.",
+                "en": "I borrow a book."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "図書館で借ります。",
+              "furigana": "としょかんで かります。",
+              "romaji": "toshokan de karimasu.",
+              "meanings": {
+                "id": "Meminjam di perpustakaan.",
+                "en": "I borrow at the library."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "友達から借ります。",
+              "furigana": "ともだちから かります。",
+              "romaji": "tomodachi kara karimasu.",
+              "meanings": {
+                "id": "Meminjam dari teman.",
+                "en": "I borrow from a friend."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -26999,7 +27127,39 @@
           "meanings": {
             "en": "to wear (clothes)",
             "id": "mengenakan (pakaian, kemeja)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "シャツを着ます。",
+              "furigana": "シャツを きます。",
+              "romaji": "shatsu wo kimasu.",
+              "meanings": {
+                "id": "Mengenakan kemeja.",
+                "en": "I wear a shirt."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "服を着ます。",
+              "furigana": "ふくを きます。",
+              "romaji": "fuku wo kimasu.",
+              "meanings": {
+                "id": "Mengenakan pakaian.",
+                "en": "I wear clothes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "着物を着ます。",
+              "furigana": "きものを きます。",
+              "romaji": "kimono wo kimasu.",
+              "meanings": {
+                "id": "Mengenakan kimono.",
+                "en": "I wear a kimono."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -27009,7 +27169,39 @@
           "meanings": {
             "en": "to see, to watch",
             "id": "melihat, menonton"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テレビを見ます。",
+              "furigana": "テレビを みます。",
+              "romaji": "terebi wo mimasu.",
+              "meanings": {
+                "id": "Menonton TV.",
+                "en": "I watch TV."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "映画を見ます。",
+              "furigana": "えいがを みます。",
+              "romaji": "eiga wo mimasu.",
+              "meanings": {
+                "id": "Menonton film.",
+                "en": "I watch a movie."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "富士山を見ます。",
+              "furigana": "ふじさんを みます。",
+              "romaji": "fujisan wo mimasu.",
+              "meanings": {
+                "id": "Melihat Gunung Fuji.",
+                "en": "I see Mount Fuji."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -27019,7 +27211,39 @@
           "meanings": {
             "en": "to get up",
             "id": "bangun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "朝六時に起きます。",
+              "furigana": "あさ ろくじに おきます。",
+              "romaji": "asa rokuji ni okimasu.",
+              "meanings": {
+                "id": "Bangun jam enam pagi.",
+                "en": "I get up at 6 a.m."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "早く起きます。",
+              "furigana": "はやく おきます。",
+              "romaji": "hayaku okimasu.",
+              "meanings": {
+                "id": "Bangun pagi.",
+                "en": "I get up early."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎日七時に起きます。",
+              "furigana": "まいにち しちじに おきます。",
+              "romaji": "mainichi shichiji ni okimasu.",
+              "meanings": {
+                "id": "Bangun jam tujuh setiap hari.",
+                "en": "I get up at seven every day."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -27029,7 +27253,39 @@
           "meanings": {
             "en": "to get off, to descend",
             "id": "turun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "バスを降ります。",
+              "furigana": "バスを おります。",
+              "romaji": "basu wo orimasu.",
+              "meanings": {
+                "id": "Turun dari bus.",
+                "en": "I get off the bus."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駅で降ります。",
+              "furigana": "えきで おります。",
+              "romaji": "eki de orimasu.",
+              "meanings": {
+                "id": "Turun di stasiun.",
+                "en": "I get off at the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電車を降ります。",
+              "furigana": "でんしゃを おります。",
+              "romaji": "densha wo orimasu.",
+              "meanings": {
+                "id": "Turun dari kereta.",
+                "en": "I get off the train."
+              }
+            }
+          ]
         }
       ]
     },
@@ -27048,7 +27304,39 @@
           "meanings": {
             "en": "to give",
             "id": "memberi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "友達にプレゼントを上げます。",
+              "furigana": "ともだちに プレゼントを あげます。",
+              "romaji": "tomodachi ni purezento wo agemasu.",
+              "meanings": {
+                "id": "Memberi hadiah kepada teman.",
+                "en": "I give a present to a friend."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "花を上げます。",
+              "furigana": "はなを あげます。",
+              "romaji": "hana wo agemasu.",
+              "meanings": {
+                "id": "Memberi bunga.",
+                "en": "I give flowers."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "手を上げます。",
+              "furigana": "てを あげます。",
+              "romaji": "te wo agemasu.",
+              "meanings": {
+                "id": "Mengangkat tangan.",
+                "en": "I raise my hand."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -27058,7 +27346,39 @@
           "meanings": {
             "en": "to open",
             "id": "membuka"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ドアを開けます。",
+              "furigana": "ドアを あけます。",
+              "romaji": "doa wo akemasu.",
+              "meanings": {
+                "id": "Membuka pintu.",
+                "en": "I open the door."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "窓を開けます。",
+              "furigana": "まどを あけます。",
+              "romaji": "mado wo akemasu.",
+              "meanings": {
+                "id": "Membuka jendela.",
+                "en": "I open the window."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "本を開けます。",
+              "furigana": "ほんを あけます。",
+              "romaji": "hon wo akemasu.",
+              "meanings": {
+                "id": "Membuka buku.",
+                "en": "I open a book."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -27068,7 +27388,39 @@
           "meanings": {
             "en": "to go out",
             "id": "keluar rumah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "買い物に出かけます。",
+              "furigana": "かいものに でかけます。",
+              "romaji": "kaimono ni dekakemasu.",
+              "meanings": {
+                "id": "Pergi belanja.",
+                "en": "I go out shopping."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝早く出かけます。",
+              "furigana": "あさはやく でかけます。",
+              "romaji": "asa hayaku dekakemasu.",
+              "meanings": {
+                "id": "Keluar pagi-pagi.",
+                "en": "I go out early in the morning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "友達と出かけます。",
+              "furigana": "ともだちと でかけます。",
+              "romaji": "tomodachi to dekakemasu.",
+              "meanings": {
+                "id": "Pergi keluar dengan teman.",
+                "en": "I go out with friends."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -27078,7 +27430,39 @@
           "meanings": {
             "en": "to leave, to go out",
             "id": "keluar, meninggalkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋を出ます。",
+              "furigana": "へやを でます。",
+              "romaji": "heya wo demasu.",
+              "meanings": {
+                "id": "Keluar dari kamar.",
+                "en": "I leave the room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家を出ます。",
+              "furigana": "いえを でます。",
+              "romaji": "ie wo demasu.",
+              "meanings": {
+                "id": "Keluar dari rumah.",
+                "en": "I leave home."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "八時に出ます。",
+              "furigana": "はちじに でます。",
+              "romaji": "hachiji ni demasu.",
+              "meanings": {
+                "id": "Keluar jam delapan.",
+                "en": "I leave at eight o'clock."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -27088,7 +27472,39 @@
           "meanings": {
             "en": "to clear up",
             "id": "cerah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "明日は晴れます。",
+              "furigana": "あしたは はれます。",
+              "romaji": "ashita wa haremasu.",
+              "meanings": {
+                "id": "Besok akan cerah.",
+                "en": "Tomorrow will be sunny."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "空が晴れます。",
+              "furigana": "そらが はれます。",
+              "romaji": "sora ga haremasu.",
+              "meanings": {
+                "id": "Langit menjadi cerah.",
+                "en": "The sky clears up."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今日は晴れます。",
+              "furigana": "きょうは はれます。",
+              "romaji": "kyou wa haremasu.",
+              "meanings": {
+                "id": "Hari ini cerah.",
+                "en": "Today is sunny."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -27098,7 +27514,39 @@
           "meanings": {
             "en": "to put in",
             "id": "memasukkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "砂糖を入れます。",
+              "furigana": "さとうを いれます。",
+              "romaji": "satou wo iremasu.",
+              "meanings": {
+                "id": "Memasukkan gula.",
+                "en": "I put sugar in."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "コーヒーを入れます。",
+              "furigana": "こーひーを いれます。",
+              "romaji": "koohii wo iremasu.",
+              "meanings": {
+                "id": "Membuat kopi.",
+                "en": "I make coffee."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お茶を入れます。",
+              "furigana": "おちゃを いれます。",
+              "romaji": "ocha wo iremasu.",
+              "meanings": {
+                "id": "Membuat teh.",
+                "en": "I make tea."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -27108,7 +27556,39 @@
           "meanings": {
             "en": "to hang",
             "id": "menggantung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電話を掛けます。",
+              "furigana": "でんわを かけます。",
+              "romaji": "denwa wo kakemasu.",
+              "meanings": {
+                "id": "Menelpon.",
+                "en": "I make a phone call."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "壁に絵を掛けます。",
+              "furigana": "かべに えを かけます。",
+              "romaji": "kabe ni e wo kakemasu.",
+              "meanings": {
+                "id": "Menggantung gambar di dinding.",
+                "en": "I hang a picture on the wall."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "友達に電話を掛けます。",
+              "furigana": "ともだちに でんわを かけます。",
+              "romaji": "tomodachi ni denwa wo kakemasu.",
+              "meanings": {
+                "id": "Menelpon teman.",
+                "en": "I call my friend."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -27118,7 +27598,39 @@
           "meanings": {
             "en": "to disappear",
             "id": "hilang, padam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電気が消えます。",
+              "furigana": "でんきが きえます。",
+              "romaji": "denki ga kiemasu.",
+              "meanings": {
+                "id": "Lampu padam.",
+                "en": "The light goes out."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "火が消えます。",
+              "furigana": "ひが きえます。",
+              "romaji": "hi ga kiemasu.",
+              "meanings": {
+                "id": "Api padam.",
+                "en": "The fire goes out."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "星が消えます。",
+              "furigana": "ほしが きえます。",
+              "romaji": "hoshi ga kiemasu.",
+              "meanings": {
+                "id": "Bintang menghilang.",
+                "en": "The stars disappear."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -27128,7 +27640,39 @@
           "meanings": {
             "en": "to answer",
             "id": "menjawab"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "質問に答えます。",
+              "furigana": "しつもんに こたえます。",
+              "romaji": "shitsumon ni kotaemasu.",
+              "meanings": {
+                "id": "Menjawab pertanyaan.",
+                "en": "I answer the question."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "先生の質問に答えます。",
+              "furigana": "せんせいの しつもんに こたえます。",
+              "romaji": "sensei no shitsumon ni kotaemasu.",
+              "meanings": {
+                "id": "Menjawab pertanyaan guru.",
+                "en": "I answer the teacher's question."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電話に答えます。",
+              "furigana": "でんわに こたえます。",
+              "romaji": "denwa ni kotaemasu.",
+              "meanings": {
+                "id": "Menjawab telepon.",
+                "en": "I answer the phone."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -27138,7 +27682,39 @@
           "meanings": {
             "en": "to show",
             "id": "memperlihatkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "写真を見せます。",
+              "furigana": "しゃしんを みせます。",
+              "romaji": "shashin wo misemasu.",
+              "meanings": {
+                "id": "Memperlihatkan foto.",
+                "en": "I show a photo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "友達に本を見せます。",
+              "furigana": "ともだちに ほんを みせます。",
+              "romaji": "tomodachi ni hon wo misemasu.",
+              "meanings": {
+                "id": "Menunjukkan buku kepada teman.",
+                "en": "I show the book to my friend."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "絵を見せます。",
+              "furigana": "えを みせます。",
+              "romaji": "e wo misemasu.",
+              "meanings": {
+                "id": "Memperlihatkan gambar.",
+                "en": "I show a picture."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -27148,7 +27724,39 @@
           "meanings": {
             "en": "to line up, to arrange",
             "id": "membariskan, menyusun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "机を並べます。",
+              "furigana": "つくえを ならべます。",
+              "romaji": "tsukue wo narabemasu.",
+              "meanings": {
+                "id": "Menyusun meja.",
+                "en": "I arrange the desks."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "本を並べます。",
+              "furigana": "ほんを ならべます。",
+              "romaji": "hon wo narabemasu.",
+              "meanings": {
+                "id": "Menyusun buku.",
+                "en": "I arrange the books."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "椅子を並べます。",
+              "furigana": "いすを ならべます。",
+              "romaji": "isu wo narabemasu.",
+              "meanings": {
+                "id": "Menyusun kursi.",
+                "en": "I arrange the chairs."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -27158,7 +27766,39 @@
           "meanings": {
             "en": "to sleep",
             "id": "tidur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "夜十時に寝ます。",
+              "furigana": "よる じゅうじに ねます。",
+              "romaji": "yoru juuji ni nemasu.",
+              "meanings": {
+                "id": "Tidur jam sepuluh malam.",
+                "en": "I sleep at ten at night."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "早く寝ます。",
+              "furigana": "はやく ねます。",
+              "romaji": "hayaku nemasu.",
+              "meanings": {
+                "id": "Tidur lebih awal.",
+                "en": "I sleep early."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎日十一時に寝ます。",
+              "furigana": "まいにち じゅういちじに ねます。",
+              "romaji": "mainichi juuichiji ni nemasu.",
+              "meanings": {
+                "id": "Tidur jam sebelas setiap hari.",
+                "en": "I sleep at eleven every day."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -27168,7 +27808,39 @@
           "meanings": {
             "en": "to remember",
             "id": "mengingat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "名前を覚えます。",
+              "furigana": "なまえを おぼえます。",
+              "romaji": "namae wo oboemasu.",
+              "meanings": {
+                "id": "Mengingat nama.",
+                "en": "I remember the name."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "漢字を覚えます。",
+              "furigana": "かんじを おぼえます。",
+              "romaji": "kanji wo oboemasu.",
+              "meanings": {
+                "id": "Menghafalkan kanji.",
+                "en": "I memorize kanji."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "言葉を覚えます。",
+              "furigana": "ことばを おぼえます。",
+              "romaji": "kotoba wo oboemasu.",
+              "meanings": {
+                "id": "Menghafalkan kata.",
+                "en": "I memorize words."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -27178,7 +27850,39 @@
           "meanings": {
             "en": "to teach, to inform",
             "id": "mengajarkan, memberitahu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日本語を教えます。",
+              "furigana": "にほんごを おしえます。",
+              "romaji": "nihongo wo oshiemasu.",
+              "meanings": {
+                "id": "Mengajar bahasa Jepang.",
+                "en": "I teach Japanese."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "友達に英語を教えます。",
+              "furigana": "ともだちに えいごを おしえます。",
+              "romaji": "tomodachi ni eigo wo oshiemasu.",
+              "meanings": {
+                "id": "Mengajar bahasa Inggris kepada teman.",
+                "en": "I teach English to my friend."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "道を教えます。",
+              "furigana": "みちを おしえます。",
+              "romaji": "michi wo oshiemasu.",
+              "meanings": {
+                "id": "Menunjukkan jalan.",
+                "en": "I show the way."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -27188,7 +27892,39 @@
           "meanings": {
             "en": "to tie, to fasten",
             "id": "mengikat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ネクタイを締めます。",
+              "furigana": "ねくたいを しめます。",
+              "romaji": "nekutai wo shimemasu.",
+              "meanings": {
+                "id": "Mengikat dasi.",
+                "en": "I tie a necktie."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ベルトを締めます。",
+              "furigana": "べるとを しめます。",
+              "romaji": "beruto wo shimemasu.",
+              "meanings": {
+                "id": "Mengikat ikat pinggang.",
+                "en": "I fasten a belt."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "靴を締めます。",
+              "furigana": "くつを しめます。",
+              "romaji": "kutsu wo shimemasu.",
+              "meanings": {
+                "id": "Mengikat sepatu.",
+                "en": "I tie my shoes."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -27198,7 +27934,39 @@
           "meanings": {
             "en": "to close",
             "id": "menutup"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ドアを閉めます。",
+              "furigana": "どあを しめます。",
+              "romaji": "doa wo shimemasu.",
+              "meanings": {
+                "id": "Menutup pintu.",
+                "en": "I close the door."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "窓を閉めます。",
+              "furigana": "まどを しめます。",
+              "romaji": "mado wo shimemasu.",
+              "meanings": {
+                "id": "Menutup jendela.",
+                "en": "I close the window."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "本を閉めます。",
+              "furigana": "ほんを しめます。",
+              "romaji": "hon wo shimemasu.",
+              "meanings": {
+                "id": "Menutup buku.",
+                "en": "I close the book."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -27208,7 +27976,39 @@
           "meanings": {
             "en": "to eat",
             "id": "makan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ご飯を食べます。",
+              "furigana": "ごはんを たべます。",
+              "romaji": "gohan wo tabemasu.",
+              "meanings": {
+                "id": "Makan nasi.",
+                "en": "I eat rice."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝ご飯を食べます。",
+              "furigana": "あさごはんを たべます。",
+              "romaji": "asagohan wo tabemasu.",
+              "meanings": {
+                "id": "Makan sarapan.",
+                "en": "I eat breakfast."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "パンを食べます。",
+              "furigana": "ぱんを たべます。",
+              "romaji": "pan wo tabemasu.",
+              "meanings": {
+                "id": "Makan roti.",
+                "en": "I eat bread."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -27218,7 +28018,39 @@
           "meanings": {
             "en": "to get tired",
             "id": "letih"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は疲れます。",
+              "furigana": "きょうは つかれます。",
+              "romaji": "kyou wa tsukaremasu.",
+              "meanings": {
+                "id": "Hari ini lelah.",
+                "en": "I'm tired today."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "仕事で疲れます。",
+              "furigana": "しごとで つかれます。",
+              "romaji": "shigoto de tsukaremasu.",
+              "meanings": {
+                "id": "Lelah karena pekerjaan.",
+                "en": "I get tired from work."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても疲れます。",
+              "furigana": "とても つかれます。",
+              "romaji": "totemo tsukaremasu.",
+              "meanings": {
+                "id": "Sangat lelah.",
+                "en": "I'm very tired."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -27228,7 +28060,39 @@
           "meanings": {
             "en": "to turn on (light, etc.)",
             "id": "menyalakan (api, listrik)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電気をつけます。",
+              "furigana": "でんきを つけます。",
+              "romaji": "denki wo tsukemasu.",
+              "meanings": {
+                "id": "Menyalakan lampu.",
+                "en": "I turn on the light."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テレビをつけます。",
+              "furigana": "てれびを つけます。",
+              "romaji": "terebi wo tsukemasu.",
+              "meanings": {
+                "id": "Menyalakan TV.",
+                "en": "I turn on the TV."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "エアコンをつけます。",
+              "furigana": "えあこんを つけます。",
+              "romaji": "eakon wo tsukemasu.",
+              "meanings": {
+                "id": "Menyalakan AC.",
+                "en": "I turn on the air conditioner."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -27238,7 +28102,39 @@
           "meanings": {
             "en": "to work for",
             "id": "berdinas, bertugas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "会社に勤めます。",
+              "furigana": "かいしゃに つとめます。",
+              "romaji": "kaisha ni tsutomemasu.",
+              "meanings": {
+                "id": "Bekerja di perusahaan.",
+                "en": "I work for a company."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "銀行に勤めます。",
+              "furigana": "ぎんこうに つとめます。",
+              "romaji": "ginkou ni tsutomemasu.",
+              "meanings": {
+                "id": "Bekerja di bank.",
+                "en": "I work for a bank."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "病院に勤めます。",
+              "furigana": "びょういんに つとめます。",
+              "romaji": "byouin ni tsutomemasu.",
+              "meanings": {
+                "id": "Bekerja di rumah sakit.",
+                "en": "I work for a hospital."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -27248,7 +28144,39 @@
           "meanings": {
             "en": "to be born",
             "id": "lahir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "東京で生まれます。",
+              "furigana": "とうきょうで うまれます。",
+              "romaji": "toukyou de umaremasu.",
+              "meanings": {
+                "id": "Lahir di Tokyo.",
+                "en": "I was born in Tokyo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "日本で生まれます。",
+              "furigana": "にほんで うまれます。",
+              "romaji": "nihon de umaremasu.",
+              "meanings": {
+                "id": "Lahir di Jepang.",
+                "en": "I was born in Japan."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "赤ちゃんが生まれます。",
+              "furigana": "あかちゃんが うまれます。",
+              "romaji": "akachan ga umaremasu.",
+              "meanings": {
+                "id": "Bayi lahir.",
+                "en": "A baby is born."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -27258,7 +28186,39 @@
           "meanings": {
             "en": "to forget",
             "id": "lupa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "名前を忘れます。",
+              "furigana": "なまえを わすれます。",
+              "romaji": "namae wo wasuremasu.",
+              "meanings": {
+                "id": "Lupa nama.",
+                "en": "I forget the name."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "宿題を忘れます。",
+              "furigana": "しゅくだいを わすれます。",
+              "romaji": "shukudai wo wasuremasu.",
+              "meanings": {
+                "id": "Lupa PR.",
+                "en": "I forget the homework."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "傘を忘れます。",
+              "furigana": "かさを わすれます。",
+              "romaji": "kasa wo wasuremasu.",
+              "meanings": {
+                "id": "Lupa payung.",
+                "en": "I forget the umbrella."
+              }
+            }
+          ]
         }
       ]
     },
