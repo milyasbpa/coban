@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { VocabularyWord } from '@/pwa/core/services/vocabulary';
+import { GrammarPattern } from '@/types/grammar';
 
 interface KanjiExerciseModal {
   isOpen: boolean;
@@ -17,9 +18,17 @@ interface VocabularyExerciseModal {
   level: string;
 }
 
+interface GrammarExerciseModal {
+  patternId: string;
+  patternName: string;
+  pattern: GrammarPattern;
+  level: string;
+}
+
 interface HomeState {
   kanjiExerciseModal: KanjiExerciseModal;
   vocabularyExerciseModal: VocabularyExerciseModal | null;
+  grammarExerciseModal: GrammarExerciseModal | null;
   openKanjiExerciseModal: (params: {
     lessonId?: number;
     topicId?: string;
@@ -30,6 +39,8 @@ interface HomeState {
   closeKanjiExerciseModal: () => void;
   openVocabularyExerciseModal: (params: VocabularyExerciseModal) => void;
   closeVocabularyExerciseModal: () => void;
+  openGrammarExerciseModal: (params: GrammarExerciseModal) => void;
+  closeGrammarExerciseModal: () => void;
 }
 
 export const useHomeStore = create<HomeState>((set) => ({
@@ -42,6 +53,7 @@ export const useHomeStore = create<HomeState>((set) => ({
     kanjiList: [],
   },
   vocabularyExerciseModal: null,
+  grammarExerciseModal: null,
   openKanjiExerciseModal: (params) =>
     set((state) => ({
       kanjiExerciseModal: {
@@ -73,5 +85,13 @@ export const useHomeStore = create<HomeState>((set) => ({
   closeVocabularyExerciseModal: () =>
     set(() => ({
       vocabularyExerciseModal: null,
+    })),
+  openGrammarExerciseModal: (params) =>
+    set(() => ({
+      grammarExerciseModal: params,
+    })),
+  closeGrammarExerciseModal: () =>
+    set(() => ({
+      grammarExerciseModal: null,
     })),
 }));

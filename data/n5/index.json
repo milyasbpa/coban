@@ -1,0 +1,47 @@
+{
+  "level_info": {
+    "id": "n5",
+    "name": "N5",
+    "title": "Beginner Japanese",
+    "description": "Basic Japanese proficiency level",
+    "color": "#94A3B8"
+  },
+  "categories": [
+    {
+      "id": "kanji",
+      "name": "Kanji",
+      "icon": "漢",
+      "total_lessons": 5,
+      "total_items": 46,
+      "data_file": "kanji.json",
+      "color": "#94A3B8"
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "icon": "単",
+      "total_lessons": 10,
+      "total_items": 100,
+      "data_file": "vocabulary.json",
+      "color": "#E5E7EB"
+    },
+    {
+      "id": "grammar",
+      "name": "Grammar",
+      "icon": "文",
+      "total_lessons": 5,
+      "total_items": 5,
+      "data_file": "grammar.json",
+      "color": "#22C55E"
+    },
+    {
+      "id": "listening",
+      "name": "Listening",
+      "icon": "聴",
+      "total_lessons": 0,
+      "total_items": 0,
+      "data_file": "listening.json",
+      "color": "#E5E7EB"
+    }
+  ]
+}
