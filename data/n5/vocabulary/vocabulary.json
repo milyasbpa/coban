@@ -28237,7 +28237,39 @@
           "meanings": {
             "en": "to come",
             "id": "datang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "友達が来ます。",
+              "furigana": "ともだちが きます。",
+              "romaji": "tomodachi ga kimasu.",
+              "meanings": {
+                "id": "Teman datang.",
+                "en": "My friend comes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "学校に来ます。",
+              "furigana": "がっこうに きます。",
+              "romaji": "gakkou ni kimasu.",
+              "meanings": {
+                "id": "Datang ke sekolah.",
+                "en": "I come to school."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日来ます。",
+              "furigana": "あした きます。",
+              "romaji": "ashita kimasu.",
+              "meanings": {
+                "id": "Datang besok.",
+                "en": "I'll come tomorrow."
+              }
+            }
+          ]
         }
       ]
     },
@@ -28256,7 +28288,39 @@
           "meanings": {
             "en": "to do",
             "id": "melakukan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "仕事をします。",
+              "furigana": "しごとを します。",
+              "romaji": "shigoto wo shimasu.",
+              "meanings": {
+                "id": "Melakukan pekerjaan.",
+                "en": "I do work."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "宿題をします。",
+              "furigana": "しゅくだいを します。",
+              "romaji": "shukudai wo shimasu.",
+              "meanings": {
+                "id": "Mengerjakan PR.",
+                "en": "I do homework."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "何をしますか。",
+              "furigana": "なにを しますか。",
+              "romaji": "nani wo shimasu ka.",
+              "meanings": {
+                "id": "Melakukan apa?",
+                "en": "What do you do?"
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -28266,7 +28330,39 @@
           "meanings": {
             "en": "to study",
             "id": "belajar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日本語を勉強します。",
+              "furigana": "にほんごを べんきょうします。",
+              "romaji": "nihongo wo benkyou shimasu.",
+              "meanings": {
+                "id": "Belajar bahasa Jepang.",
+                "en": "I study Japanese."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日勉強します。",
+              "furigana": "まいにち べんきょうします。",
+              "romaji": "mainichi benkyou shimasu.",
+              "meanings": {
+                "id": "Belajar setiap hari.",
+                "en": "I study every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "図書館で勉強します。",
+              "furigana": "としょかんで べんきょうします。",
+              "romaji": "toshokan de benkyou shimasu.",
+              "meanings": {
+                "id": "Belajar di perpustakaan.",
+                "en": "I study at the library."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -28276,7 +28372,39 @@
           "meanings": {
             "en": "to copy",
             "id": "mengkopi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "書類をコピーします。",
+              "furigana": "しょるいを こぴーします。",
+              "romaji": "shorui wo kopii shimasu.",
+              "meanings": {
+                "id": "Mengkopi dokumen.",
+                "en": "I copy documents."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紙をコピーします。",
+              "furigana": "かみを こぴーします。",
+              "romaji": "kami wo kopii shimasu.",
+              "meanings": {
+                "id": "Mengkopi kertas.",
+                "en": "I copy paper."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "資料をコピーします。",
+              "furigana": "しりょうを こぴーします。",
+              "romaji": "shiryou wo kopii shimasu.",
+              "meanings": {
+                "id": "Mengkopi materi.",
+                "en": "I copy materials."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -28286,7 +28414,39 @@
           "meanings": {
             "en": "to practice",
             "id": "berlatih"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日本語を練習します。",
+              "furigana": "にほんごを れんしゅうします。",
+              "romaji": "nihongo wo renshuu shimasu.",
+              "meanings": {
+                "id": "Berlatih bahasa Jepang.",
+                "en": "I practice Japanese."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日練習します。",
+              "furigana": "まいにち れんしゅうします。",
+              "romaji": "mainichi renshuu shimasu.",
+              "meanings": {
+                "id": "Berlatih setiap hari.",
+                "en": "I practice every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ピアノを練習します。",
+              "furigana": "ぴあのを れんしゅうします。",
+              "romaji": "piano wo renshuu shimasu.",
+              "meanings": {
+                "id": "Berlatih piano.",
+                "en": "I practice the piano."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -28296,7 +28456,39 @@
           "meanings": {
             "en": "to take a walk",
             "id": "berjalan-jalan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "公園を散歩します。",
+              "furigana": "こうえんを さんぽします。",
+              "romaji": "kouen wo sanpo shimasu.",
+              "meanings": {
+                "id": "Jalan-jalan di taman.",
+                "en": "I take a walk in the park."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝散歩します。",
+              "furigana": "あさ さんぽします。",
+              "romaji": "asa sanpo shimasu.",
+              "meanings": {
+                "id": "Jalan-jalan pagi.",
+                "en": "I take a walk in the morning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "犬と散歩します。",
+              "furigana": "いぬと さんぽします。",
+              "romaji": "inu to sanpo shimasu.",
+              "meanings": {
+                "id": "Jalan-jalan dengan anjing.",
+                "en": "I take a walk with my dog."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -28306,7 +28498,39 @@
           "meanings": {
             "en": "to clean",
             "id": "membersihkan, melap"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋を掃除します。",
+              "furigana": "へやを そうじします。",
+              "romaji": "heya wo souji shimasu.",
+              "meanings": {
+                "id": "Membersihkan kamar.",
+                "en": "I clean the room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日掃除します。",
+              "furigana": "まいにち そうじします。",
+              "romaji": "mainichi souji shimasu.",
+              "meanings": {
+                "id": "Membersihkan setiap hari.",
+                "en": "I clean every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "家を掃除します。",
+              "furigana": "いえを そうじします。",
+              "romaji": "ie wo souji shimasu.",
+              "meanings": {
+                "id": "Membersihkan rumah.",
+                "en": "I clean the house."
+              }
+            }
+          ]
         }
       ]
     }
