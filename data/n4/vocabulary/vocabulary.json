@@ -25097,7 +25097,39 @@
           "meanings": {
             "en": "to raise, lift",
             "id": "menaikkan, mengangkat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "上げます。",
+              "furigana": "あげます。",
+              "romaji": "agemasu.",
+              "meanings": {
+                "id": "Menaikkan.",
+                "en": "I raise it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "手を上げました。",
+              "furigana": "てを あげました。",
+              "romaji": "te wo agemashita.",
+              "meanings": {
+                "id": "Mengangkat tangan.",
+                "en": "I raised my hand."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "値段を上げます。",
+              "furigana": "ねだんを あげます。",
+              "romaji": "nedan wo agemasu.",
+              "meanings": {
+                "id": "Menaikkan harga.",
+                "en": "I raise the price."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -25107,7 +25139,39 @@
           "meanings": {
             "en": "to open",
             "id": "membuka"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "開けます。",
+              "furigana": "あけます。",
+              "romaji": "akemasu.",
+              "meanings": {
+                "id": "Membuka.",
+                "en": "I open it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ドアを開けました。",
+              "furigana": "ドアを あけました。",
+              "romaji": "doa wo akemashita.",
+              "meanings": {
+                "id": "Membuka pintu.",
+                "en": "I opened the door."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "窓を開けてください。",
+              "furigana": "まどを あけて ください。",
+              "romaji": "mado wo akete kudasai.",
+              "meanings": {
+                "id": "Tolong buka jendela.",
+                "en": "Please open the window."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -25117,7 +25181,39 @@
           "meanings": {
             "en": "to gather",
             "id": "mengumpulkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "集めます。",
+              "furigana": "あつめます。",
+              "romaji": "atsumemasu.",
+              "meanings": {
+                "id": "Mengumpulkan.",
+                "en": "I gather."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "切手を集めました。",
+              "furigana": "きってを あつめました。",
+              "romaji": "kitte wo atsumemashita.",
+              "meanings": {
+                "id": "Mengumpulkan perangko.",
+                "en": "I collected stamps."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お金を集めています。",
+              "furigana": "おかねを あつめて います。",
+              "romaji": "okane wo atsumete imasu.",
+              "meanings": {
+                "id": "Mengumpulkan uang.",
+                "en": "I'm collecting money."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -25127,7 +25223,39 @@
           "meanings": {
             "en": "to make a mistake",
             "id": "bersalah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "違えます。",
+              "furigana": "ちがえます。",
+              "romaji": "chigaemasu.",
+              "meanings": {
+                "id": "Salah.",
+                "en": "I make a mistake."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "道を違えました。",
+              "furigana": "みちを ちがえました。",
+              "romaji": "michi wo chigaemashita.",
+              "meanings": {
+                "id": "Salah jalan.",
+                "en": "I took the wrong way."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "名前を違えました。",
+              "furigana": "なまえを ちがえました。",
+              "romaji": "namae wo chigaemashita.",
+              "meanings": {
+                "id": "Salah nama.",
+                "en": "I got the name wrong."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -25137,7 +25265,39 @@
           "meanings": {
             "en": "to take out",
             "id": "mengeluarkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "出します。",
+              "furigana": "だします。",
+              "romaji": "dashimasu.",
+              "meanings": {
+                "id": "Mengeluarkan.",
+                "en": "I take it out."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "財布を出しました。",
+              "furigana": "さいふを だしました。",
+              "romaji": "saifu wo dashimashita.",
+              "meanings": {
+                "id": "Mengeluarkan dompet.",
+                "en": "I took out my wallet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "宿題を出してください。",
+              "furigana": "しゅくだいを だして ください。",
+              "romaji": "shukudai wo dashite kudasai.",
+              "meanings": {
+                "id": "Tolong serahkan PR.",
+                "en": "Please submit your homework."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -25147,7 +25307,39 @@
           "meanings": {
             "en": "to increase",
             "id": "menambahkan, meningkatkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "増やします。",
+              "furigana": "ふやします。",
+              "romaji": "fuyashimasu.",
+              "meanings": {
+                "id": "Menambah.",
+                "en": "I increase it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "人数を増やしました。",
+              "furigana": "にんずうを ふやしました。",
+              "romaji": "ninzuu wo fuyashimashita.",
+              "meanings": {
+                "id": "Menambah jumlah orang.",
+                "en": "I increased the number of people."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お金を増やします。",
+              "furigana": "おかねを ふやします。",
+              "romaji": "okane wo fuyashimasu.",
+              "meanings": {
+                "id": "Menambah uang.",
+                "en": "I increase the money."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -25157,7 +25349,39 @@
           "meanings": {
             "en": "to begin",
             "id": "memulai"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "始めます。",
+              "furigana": "はじめます。",
+              "romaji": "hajimemasu.",
+              "meanings": {
+                "id": "Memulai.",
+                "en": "I begin."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "仕事を始めました。",
+              "furigana": "しごとを はじめました。",
+              "romaji": "shigoto wo hajimemashita.",
+              "meanings": {
+                "id": "Memulai pekerjaan.",
+                "en": "I started work."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "勉強を始めましょう。",
+              "furigana": "べんきょうを はじめましょう。",
+              "romaji": "benkyou wo hajimemashou.",
+              "meanings": {
+                "id": "Mari mulai belajar.",
+                "en": "Let's start studying."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -25167,7 +25391,39 @@
           "meanings": {
             "en": "to put in",
             "id": "memasukkan, menuangkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "入れます。",
+              "furigana": "いれます。",
+              "romaji": "iremasu.",
+              "meanings": {
+                "id": "Memasukkan.",
+                "en": "I put it in."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "砂糖を入れました。",
+              "furigana": "さとうを いれました。",
+              "romaji": "satou wo iremashita.",
+              "meanings": {
+                "id": "Memasukkan gula.",
+                "en": "I put in sugar."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お茶を入れてください。",
+              "furigana": "おちゃを いれて ください。",
+              "romaji": "ocha wo irete kudasai.",
+              "meanings": {
+                "id": "Tolong tuangkan teh.",
+                "en": "Please make tea."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -25177,7 +25433,39 @@
           "meanings": {
             "en": "to decrease",
             "id": "mengurangi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "減らします。",
+              "furigana": "へらします。",
+              "romaji": "herashimasu.",
+              "meanings": {
+                "id": "Mengurangi.",
+                "en": "I decrease it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "体重を減らしました。",
+              "furigana": "たいじゅうを へらしました。",
+              "romaji": "taijuu wo herashimashita.",
+              "meanings": {
+                "id": "Mengurangi berat badan.",
+                "en": "I reduced my weight."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お金を減らします。",
+              "furigana": "おかねを へらします。",
+              "romaji": "okane wo herashimasu.",
+              "meanings": {
+                "id": "Mengurangi uang.",
+                "en": "I reduce the money."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -25187,7 +25475,39 @@
           "meanings": {
             "en": "to cool",
             "id": "mendinginkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "冷やします。",
+              "furigana": "ひやします。",
+              "romaji": "hiyashimasu.",
+              "meanings": {
+                "id": "Mendinginkan.",
+                "en": "I cool it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ビールを冷やしました。",
+              "furigana": "ビールを ひやしました。",
+              "romaji": "biiru wo hiyashimashita.",
+              "meanings": {
+                "id": "Mendinginkan bir.",
+                "en": "I cooled the beer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水を冷やしてください。",
+              "furigana": "みずを ひやして ください。",
+              "romaji": "mizu wo hiyashite kudasai.",
+              "meanings": {
+                "id": "Tolong dinginkan air.",
+                "en": "Please cool the water."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -25197,7 +25517,39 @@
           "meanings": {
             "en": "to hang",
             "id": "menggantungkan, memasangkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "掛けます。",
+              "furigana": "かけます。",
+              "romaji": "kakemasu.",
+              "meanings": {
+                "id": "Menggantung.",
+                "en": "I hang it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "絵を掛けました。",
+              "furigana": "えを かけました。",
+              "romaji": "e wo kakemashita.",
+              "meanings": {
+                "id": "Menggantung lukisan.",
+                "en": "I hung the picture."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "眼鏡を掛けています。",
+              "furigana": "めがねを かけて います。",
+              "romaji": "megane wo kakete imasu.",
+              "meanings": {
+                "id": "Memakai kacamata.",
+                "en": "I'm wearing glasses."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -25207,7 +25559,39 @@
           "meanings": {
             "en": "to change",
             "id": "mengubah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "変えます。",
+              "furigana": "かえます。",
+              "romaji": "kaemasu.",
+              "meanings": {
+                "id": "Mengubah.",
+                "en": "I change it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "服を変えました。",
+              "furigana": "ふくを かえました。",
+              "romaji": "fuku wo kaemashita.",
+              "meanings": {
+                "id": "Mengganti baju.",
+                "en": "I changed clothes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "予定を変えます。",
+              "furigana": "よていを かえます。",
+              "romaji": "yotei wo kaemasu.",
+              "meanings": {
+                "id": "Mengubah rencana.",
+                "en": "I change the plan."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -25217,7 +25601,39 @@
           "meanings": {
             "en": "to decide",
             "id": "menetapkan, memastikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "決めます。",
+              "furigana": "きめます。",
+              "romaji": "kimemasu.",
+              "meanings": {
+                "id": "Memutuskan.",
+                "en": "I decide."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "予定を決めました。",
+              "furigana": "よていを きめました。",
+              "romaji": "yotei wo kimemashita.",
+              "meanings": {
+                "id": "Memutuskan rencana.",
+                "en": "I decided the plan."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "時間を決めましょう。",
+              "furigana": "じかんを きめましょう。",
+              "romaji": "jikan wo kimemashou.",
+              "meanings": {
+                "id": "Mari tentukan waktu.",
+                "en": "Let's decide the time."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -25227,7 +25643,39 @@
           "meanings": {
             "en": "to cut",
             "id": "memotong, memutus"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "切ります。",
+              "furigana": "きります。",
+              "romaji": "kirimasu.",
+              "meanings": {
+                "id": "Memotong.",
+                "en": "I cut."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紙を切りました。",
+              "furigana": "かみを きりました。",
+              "romaji": "kami wo kirimashita.",
+              "meanings": {
+                "id": "Memotong kertas.",
+                "en": "I cut the paper."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電話を切ってください。",
+              "furigana": "でんわを きって ください。",
+              "romaji": "denwa wo kitte kudasai.",
+              "meanings": {
+                "id": "Tolong tutup telepon.",
+                "en": "Please hang up the phone."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -25237,7 +25685,39 @@
           "meanings": {
             "en": "to break",
             "id": "merusak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "壊します。",
+              "furigana": "こわします。",
+              "romaji": "kowashimasu.",
+              "meanings": {
+                "id": "Merusak.",
+                "en": "I break it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "時計を壊しました。",
+              "furigana": "とけいを こわしました。",
+              "romaji": "tokei wo kowashimashita.",
+              "meanings": {
+                "id": "Merusak jam.",
+                "en": "I broke the clock."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おもちゃを壊さないでください。",
+              "furigana": "おもちゃを こわさないで ください。",
+              "romaji": "omocha wo kowasanaide kudasai.",
+              "meanings": {
+                "id": "Jangan rusak mainan.",
+                "en": "Please don't break the toy."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -25247,7 +25727,39 @@
           "meanings": {
             "en": "to bend",
             "id": "membelokkan, membengkokkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "曲げます。",
+              "furigana": "まげます。",
+              "romaji": "magemasu.",
+              "meanings": {
+                "id": "Membengkokkan.",
+                "en": "I bend it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "針金を曲げました。",
+              "furigana": "はりがねを まげました。",
+              "romaji": "harigane wo magemashita.",
+              "meanings": {
+                "id": "Membengkokkan kawat.",
+                "en": "I bent the wire."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "膝を曲げてください。",
+              "furigana": "ひざを まげて ください。",
+              "romaji": "hiza wo magete kudasai.",
+              "meanings": {
+                "id": "Tolong tekuk lutut.",
+                "en": "Please bend your knees."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -25257,7 +25769,39 @@
           "meanings": {
             "en": "to see",
             "id": "melihat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "見ます。",
+              "furigana": "みます。",
+              "romaji": "mimasu.",
+              "meanings": {
+                "id": "Melihat.",
+                "en": "I see."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "映画を見ました。",
+              "furigana": "えいがを みました。",
+              "romaji": "eiga wo mimashita.",
+              "meanings": {
+                "id": "Menonton film.",
+                "en": "I watched a movie."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テレビを見ています。",
+              "furigana": "テレビを みて います。",
+              "romaji": "terebi wo mite imasu.",
+              "meanings": {
+                "id": "Menonton TV.",
+                "en": "I'm watching TV."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -25267,7 +25811,39 @@
           "meanings": {
             "en": "to find",
             "id": "menemukan, mendapatkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "見つけます。",
+              "furigana": "みつけます。",
+              "romaji": "mitsukemasu.",
+              "meanings": {
+                "id": "Menemukan.",
+                "en": "I find."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "財布を見つけました。",
+              "furigana": "さいふを みつけました。",
+              "romaji": "saifu wo mitsukemashita.",
+              "meanings": {
+                "id": "Menemukan dompet.",
+                "en": "I found the wallet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鍵を見つけてください。",
+              "furigana": "かぎを みつけて ください。",
+              "romaji": "kagi wo mitsukete kudasai.",
+              "meanings": {
+                "id": "Tolong temukan kunci.",
+                "en": "Please find the key."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -25277,7 +25853,39 @@
           "meanings": {
             "en": "to return",
             "id": "mengembalikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "戻します。",
+              "furigana": "もどします。",
+              "romaji": "modoshimasu.",
+              "meanings": {
+                "id": "Mengembalikan.",
+                "en": "I return it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "本を戻しました。",
+              "furigana": "ほんを もどしました。",
+              "romaji": "hon wo modoshimashita.",
+              "meanings": {
+                "id": "Mengembalikan buku.",
+                "en": "I returned the book."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "元に戻してください。",
+              "furigana": "もとに もどして ください。",
+              "romaji": "moto ni modoshite kudasai.",
+              "meanings": {
+                "id": "Tolong kembalikan ke semula.",
+                "en": "Please return it to its original state."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -25287,7 +25895,39 @@
           "meanings": {
             "en": "to leak",
             "id": "membocorkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "漏らします。",
+              "furigana": "もらします。",
+              "romaji": "morashimasu.",
+              "meanings": {
+                "id": "Membocorkan.",
+                "en": "I leak it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "秘密を漏らしました。",
+              "furigana": "ひみつを もらしました。",
+              "romaji": "himitsu wo morashimashita.",
+              "meanings": {
+                "id": "Membocorkan rahasia.",
+                "en": "I leaked the secret."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "情報を漏らさないでください。",
+              "furigana": "じょうほうを もらさないで ください。",
+              "romaji": "jouhou wo morasanaide kudasai.",
+              "meanings": {
+                "id": "Tolong jangan bocorkan informasi.",
+                "en": "Please don't leak the information."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -25297,7 +25937,39 @@
           "meanings": {
             "en": "to burn",
             "id": "menghanguskan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "燃やします。",
+              "furigana": "もやします。",
+              "romaji": "moyashimasu.",
+              "meanings": {
+                "id": "Membakar.",
+                "en": "I burn it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ゴミを燃やしました。",
+              "furigana": "ゴミを もやしました。",
+              "romaji": "gomi wo moyashimashita.",
+              "meanings": {
+                "id": "Membakar sampah.",
+                "en": "I burned the trash."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "紙を燃やします。",
+              "furigana": "かみを もやします。",
+              "romaji": "kami wo moyashimasu.",
+              "meanings": {
+                "id": "Membakar kertas.",
+                "en": "I burn the paper."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -25307,7 +25979,39 @@
           "meanings": {
             "en": "to fix",
             "id": "membetulkan, memperbaiki"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "直します。",
+              "furigana": "なおします。",
+              "romaji": "naoshimasu.",
+              "meanings": {
+                "id": "Memperbaiki.",
+                "en": "I fix it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "時計を直しました。",
+              "furigana": "とけいを なおしました。",
+              "romaji": "tokei wo naoshimashita.",
+              "meanings": {
+                "id": "Memperbaiki jam.",
+                "en": "I fixed the clock."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "車を直してください。",
+              "furigana": "くるまを なおして ください。",
+              "romaji": "kuruma wo naoshite kudasai.",
+              "meanings": {
+                "id": "Tolong perbaiki mobil.",
+                "en": "Please fix the car."
+              }
+            }
+          ]
         },
         {
           "id": 23,
@@ -25317,7 +26021,39 @@
           "meanings": {
             "en": "to cure",
             "id": "menyembuhkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "治します。",
+              "furigana": "なおします。",
+              "romaji": "naoshimasu.",
+              "meanings": {
+                "id": "Menyembuhkan.",
+                "en": "I cure it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "病気を治しました。",
+              "furigana": "びょうきを なおしました。",
+              "romaji": "byouki wo naoshimashita.",
+              "meanings": {
+                "id": "Menyembuhkan penyakit.",
+                "en": "I cured the illness."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "怪我を治してください。",
+              "furigana": "けがを なおして ください。",
+              "romaji": "kega wo naoshite kudasai.",
+              "meanings": {
+                "id": "Tolong sembuhkan luka.",
+                "en": "Please heal the injury."
+              }
+            }
+          ]
         },
         {
           "id": 24,
@@ -25327,7 +26063,39 @@
           "meanings": {
             "en": "to let escape",
             "id": "melarikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "逃がします。",
+              "furigana": "にがします。",
+              "romaji": "nigashimasu.",
+              "meanings": {
+                "id": "Melepaskan.",
+                "en": "I let it escape."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "魚を逃がしました。",
+              "furigana": "さかなを にがしました。",
+              "romaji": "sakana wo nigashimashita.",
+              "meanings": {
+                "id": "Melepaskan ikan.",
+                "en": "I let the fish escape."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "犬を逃がさないでください。",
+              "furigana": "いぬを にがさないで ください。",
+              "romaji": "inu wo nigasanaide kudasai.",
+              "meanings": {
+                "id": "Jangan lepaskan anjing.",
+                "en": "Please don't let the dog escape."
+              }
+            }
+          ]
         },
         {
           "id": 25,
@@ -25337,7 +26105,39 @@
           "meanings": {
             "en": "to raise",
             "id": "menaikkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "乗せます。",
+              "furigana": "のせます。",
+              "romaji": "nosemasu.",
+              "meanings": {
+                "id": "Menaikkan.",
+                "en": "I put on."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "車に乗せました。",
+              "furigana": "くるまに のせました。",
+              "romaji": "kuruma ni nosemashita.",
+              "meanings": {
+                "id": "Menaikkan ke mobil.",
+                "en": "I put in the car."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "荷物を乗せてください。",
+              "furigana": "にもつを のせて ください。",
+              "romaji": "nimotsu wo nosete kudasai.",
+              "meanings": {
+                "id": "Tolong muat barang.",
+                "en": "Please load the luggage."
+              }
+            }
+          ]
         },
         {
           "id": 26,
@@ -25347,7 +26147,39 @@
           "meanings": {
             "en": "to pull out",
             "id": "melepas, mencabut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "抜きます。",
+              "furigana": "ぬきます。",
+              "romaji": "nukimasu.",
+              "meanings": {
+                "id": "Mencabut.",
+                "en": "I pull it out."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "歯を抜きました。",
+              "furigana": "はを ぬきました。",
+              "romaji": "ha wo nukimashita.",
+              "meanings": {
+                "id": "Mencabut gigi.",
+                "en": "I pulled out the tooth."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "草を抜いてください。",
+              "furigana": "くさを ぬいて ください。",
+              "romaji": "kusa wo nuite kudasai.",
+              "meanings": {
+                "id": "Tolong cabut rumput.",
+                "en": "Please pull out the weeds."
+              }
+            }
+          ]
         },
         {
           "id": 27,
@@ -25357,7 +26189,39 @@
           "meanings": {
             "en": "to take down",
             "id": "menurunkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "降ろします。",
+              "furigana": "おろします。",
+              "romaji": "oroshimasu.",
+              "meanings": {
+                "id": "Menurunkan.",
+                "en": "I take it down."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "荷物を降ろしました。",
+              "furigana": "にもつを おろしました。",
+              "romaji": "nimotsu wo oroshimashita.",
+              "meanings": {
+                "id": "Menurunkan barang.",
+                "en": "I unloaded the luggage."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お金を降ろします。",
+              "furigana": "おかねを おろします。",
+              "romaji": "okane wo oroshimasu.",
+              "meanings": {
+                "id": "Menarik uang.",
+                "en": "I withdraw money."
+              }
+            }
+          ]
         },
         {
           "id": 28,
@@ -25367,7 +26231,39 @@
           "meanings": {
             "en": "to fold, break",
             "id": "melipat, mematahkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "折ります。",
+              "furigana": "おります。",
+              "romaji": "orimasu.",
+              "meanings": {
+                "id": "Melipat.",
+                "en": "I fold it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紙を折りました。",
+              "furigana": "かみを おりました。",
+              "romaji": "kami wo orimashita.",
+              "meanings": {
+                "id": "Melipat kertas.",
+                "en": "I folded the paper."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "枝を折ってください。",
+              "furigana": "えだを おって ください。",
+              "romaji": "eda wo otte kudasai.",
+              "meanings": {
+                "id": "Tolong patahkan dahan.",
+                "en": "Please break the branch."
+              }
+            }
+          ]
         },
         {
           "id": 29,
@@ -25377,7 +26273,39 @@
           "meanings": {
             "en": "to drop",
             "id": "menjatuhkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "落とします。",
+              "furigana": "おとします。",
+              "romaji": "otoshimasu.",
+              "meanings": {
+                "id": "Menjatuhkan.",
+                "en": "I drop it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "財布を落としました。",
+              "furigana": "さいふを おとしました。",
+              "romaji": "saifu wo otoshimashita.",
+              "meanings": {
+                "id": "Menjatuhkan dompet.",
+                "en": "I dropped my wallet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "物を落とさないでください。",
+              "furigana": "ものを おとさないで ください。",
+              "romaji": "mono wo otosanaide kudasai.",
+              "meanings": {
+                "id": "Jangan jatuhkan barang.",
+                "en": "Please don't drop things."
+              }
+            }
+          ]
         },
         {
           "id": 30,
@@ -25387,7 +26315,39 @@
           "meanings": {
             "en": "to lower",
             "id": "menurunkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "下げます。",
+              "furigana": "さげます。",
+              "romaji": "sagemasu.",
+              "meanings": {
+                "id": "Menurunkan.",
+                "en": "I lower it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "値段を下げました。",
+              "furigana": "ねだんを さげました。",
+              "romaji": "nedan wo sagemashita.",
+              "meanings": {
+                "id": "Menurunkan harga.",
+                "en": "I lowered the price."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "頭を下げてください。",
+              "furigana": "あたまを さげて ください。",
+              "romaji": "atama wo sagete kudasai.",
+              "meanings": {
+                "id": "Tolong tundukkan kepala.",
+                "en": "Please bow your head."
+              }
+            }
+          ]
         },
         {
           "id": 31,
@@ -25397,7 +26357,39 @@
           "meanings": {
             "en": "to close",
             "id": "menutup"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "閉めます。",
+              "furigana": "しめます。",
+              "romaji": "shimemasu.",
+              "meanings": {
+                "id": "Menutup.",
+                "en": "I close it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ドアを閉めました。",
+              "furigana": "ドアを しめました。",
+              "romaji": "doa wo shimemashita.",
+              "meanings": {
+                "id": "Menutup pintu.",
+                "en": "I closed the door."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "窓を閉めてください。",
+              "furigana": "まどを しめて ください。",
+              "romaji": "mado wo shimete kudasai.",
+              "meanings": {
+                "id": "Tolong tutup jendela.",
+                "en": "Please close the window."
+              }
+            }
+          ]
         },
         {
           "id": 32,
@@ -25407,7 +26399,39 @@
           "meanings": {
             "en": "to raise, bring up",
             "id": "memelihara, menumbuhkan, merawat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "育てます。",
+              "furigana": "そだてます。",
+              "romaji": "sodatemasu.",
+              "meanings": {
+                "id": "Memelihara.",
+                "en": "I raise it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "子供を育てました。",
+              "furigana": "こどもを そだてました。",
+              "romaji": "kodomo wo sodatemashita.",
+              "meanings": {
+                "id": "Membesarkan anak.",
+                "en": "I raised a child."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "花を育てています。",
+              "furigana": "はなを そだてて います。",
+              "romaji": "hana wo sodatete imasu.",
+              "meanings": {
+                "id": "Menanam bunga.",
+                "en": "I'm growing flowers."
+              }
+            }
+          ]
         },
         {
           "id": 33,
@@ -25417,7 +26441,39 @@
           "meanings": {
             "en": "to pass (time)",
             "id": "melewatkan, menghabiskan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "過ごします。",
+              "furigana": "すごします。",
+              "romaji": "sugoshimasu.",
+              "meanings": {
+                "id": "Menghabiskan waktu.",
+                "en": "I spend time."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "休みを過ごしました。",
+              "furigana": "やすみを すごしました。",
+              "romaji": "yasumi wo sugoshimashita.",
+              "meanings": {
+                "id": "Menghabiskan liburan.",
+                "en": "I spent the holiday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "楽しく過ごしてください。",
+              "furigana": "たのしく すごして ください。",
+              "romaji": "tanoshiku sugoshite kudasai.",
+              "meanings": {
+                "id": "Tolong bersenang-senang.",
+                "en": "Please have a good time."
+              }
+            }
+          ]
         },
         {
           "id": 34,
@@ -25427,7 +26483,39 @@
           "meanings": {
             "en": "to build",
             "id": "mendirikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "建てます。",
+              "furigana": "たてます。",
+              "romaji": "tatemasu.",
+              "meanings": {
+                "id": "Mendirikan.",
+                "en": "I build it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家を建てました。",
+              "furigana": "いえを たてました。",
+              "romaji": "ie wo tatemashita.",
+              "meanings": {
+                "id": "Mendirikan rumah.",
+                "en": "I built a house."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ビルを建てています。",
+              "furigana": "ビルを たてて います。",
+              "romaji": "biru wo tatete imasu.",
+              "meanings": {
+                "id": "Membangun gedung.",
+                "en": "I'm building a building."
+              }
+            }
+          ]
         },
         {
           "id": 35,
@@ -25437,7 +26525,39 @@
           "meanings": {
             "en": "to deliver",
             "id": "menyampaikan, mengirim, melaporkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "届けます。",
+              "furigana": "とどけます。",
+              "romaji": "todokemasu.",
+              "meanings": {
+                "id": "Mengantarkan.",
+                "en": "I deliver it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "荷物を届けました。",
+              "furigana": "にもつを とどけました。",
+              "romaji": "nimotsu wo todokemashita.",
+              "meanings": {
+                "id": "Mengantarkan paket.",
+                "en": "I delivered the package."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "警察に届けてください。",
+              "furigana": "けいさつに とどけて ください。",
+              "romaji": "keisatsu ni todokete kudasai.",
+              "meanings": {
+                "id": "Tolong laporkan ke polisi.",
+                "en": "Please report it to the police."
+              }
+            }
+          ]
         },
         {
           "id": 36,
@@ -25447,7 +26567,39 @@
           "meanings": {
             "en": "to attach, turn on",
             "id": "menyalakan, memasangkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "付けます。",
+              "furigana": "つけます。",
+              "romaji": "tsukemasu.",
+              "meanings": {
+                "id": "Menyalakan.",
+                "en": "I turn it on."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電気を付けました。",
+              "furigana": "でんきを つけました。",
+              "romaji": "denki wo tsukemashita.",
+              "meanings": {
+                "id": "Menyalakan lampu.",
+                "en": "I turned on the light."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テレビを付けてください。",
+              "furigana": "テレビを つけて ください。",
+              "romaji": "terebi wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong nyalakan TV.",
+                "en": "Please turn on the TV."
+              }
+            }
+          ]
         },
         {
           "id": 37,
@@ -25457,7 +26609,39 @@
           "meanings": {
             "en": "to continue",
             "id": "meneruskan, melanjutkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "続けます。",
+              "furigana": "つづけます。",
+              "romaji": "tsuzukemasu.",
+              "meanings": {
+                "id": "Melanjutkan.",
+                "en": "I continue."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "勉強を続けました。",
+              "furigana": "べんきょうを つづけました。",
+              "romaji": "benkyou wo tsuzukemashita.",
+              "meanings": {
+                "id": "Melanjutkan belajar.",
+                "en": "I continued studying."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "仕事を続けています。",
+              "furigana": "しごとを つづけて います。",
+              "romaji": "shigoto wo tsuzukete imasu.",
+              "meanings": {
+                "id": "Melanjutkan pekerjaan.",
+                "en": "I'm continuing work."
+              }
+            }
+          ]
         },
         {
           "id": 38,
@@ -25467,7 +26651,39 @@
           "meanings": {
             "en": "to sell",
             "id": "menjual"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "売ります。",
+              "furigana": "うります。",
+              "romaji": "urimasu.",
+              "meanings": {
+                "id": "Menjual.",
+                "en": "I sell."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "車を売りました。",
+              "furigana": "くるまを うりました。",
+              "romaji": "kuruma wo urimashita.",
+              "meanings": {
+                "id": "Menjual mobil.",
+                "en": "I sold the car."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "本を売っています。",
+              "furigana": "ほんを うって います。",
+              "romaji": "hon wo utte imasu.",
+              "meanings": {
+                "id": "Menjual buku.",
+                "en": "I'm selling books."
+              }
+            }
+          ]
         },
         {
           "id": 39,
@@ -25477,7 +26693,39 @@
           "meanings": {
             "en": "to reflect",
             "id": "memantulkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "映します。",
+              "furigana": "うつします。",
+              "romaji": "utsushimasu.",
+              "meanings": {
+                "id": "Memantulkan.",
+                "en": "I reflect it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "スクリーンに映しました。",
+              "furigana": "スクリーンに うつしました。",
+              "romaji": "sukuriin ni utsushimashita.",
+              "meanings": {
+                "id": "Memproyeksikan ke layar.",
+                "en": "I projected it on the screen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "写真を映してください。",
+              "furigana": "しゃしんを うつして ください。",
+              "romaji": "shashin wo utsushite kudasai.",
+              "meanings": {
+                "id": "Tolong proyeksikan foto.",
+                "en": "Please project the photo."
+              }
+            }
+          ]
         },
         {
           "id": 40,
@@ -25487,7 +26735,39 @@
           "meanings": {
             "en": "to boil",
             "id": "mendidihkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "沸かします。",
+              "furigana": "わかします。",
+              "romaji": "wakashimasu.",
+              "meanings": {
+                "id": "Mendidihkan.",
+                "en": "I boil it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お湯を沸かしました。",
+              "furigana": "おゆを わかしました。",
+              "romaji": "oyu wo wakashimashita.",
+              "meanings": {
+                "id": "Mendidihkan air panas.",
+                "en": "I boiled water."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水を沸かしてください。",
+              "furigana": "みずを わかして ください。",
+              "romaji": "mizu wo wakashite kudasai.",
+              "meanings": {
+                "id": "Tolong didihkan air.",
+                "en": "Please boil the water."
+              }
+            }
+          ]
         },
         {
           "id": 41,
@@ -25497,7 +26777,39 @@
           "meanings": {
             "en": "to break",
             "id": "memecahkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "割ります。",
+              "furigana": "わります。",
+              "romaji": "warimasu.",
+              "meanings": {
+                "id": "Memecahkan.",
+                "en": "I break it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ガラスを割りました。",
+              "furigana": "ガラスを わりました。",
+              "romaji": "garasu wo warimashita.",
+              "meanings": {
+                "id": "Memecahkan kaca.",
+                "en": "I broke the glass."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "卵を割ってください。",
+              "furigana": "たまごを わって ください。",
+              "romaji": "tamago wo watte kudasai.",
+              "meanings": {
+                "id": "Tolong pecahkan telur.",
+                "en": "Please crack the egg."
+              }
+            }
+          ]
         },
         {
           "id": 42,
@@ -25507,7 +26819,39 @@
           "meanings": {
             "en": "to tear",
             "id": "merobek, menyobek"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "破ります。",
+              "furigana": "やぶります。",
+              "romaji": "yaburimasu.",
+              "meanings": {
+                "id": "Merobek.",
+                "en": "I tear it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紙を破りました。",
+              "furigana": "かみを やぶりました。",
+              "romaji": "kami wo yaburimashita.",
+              "meanings": {
+                "id": "Merobek kertas.",
+                "en": "I tore the paper."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "約束を破らないでください。",
+              "furigana": "やくそくを やぶらないで ください。",
+              "romaji": "yakusoku wo yaburanaide kudasai.",
+              "meanings": {
+                "id": "Tolong jangan ingkar janji.",
+                "en": "Please don't break your promise."
+              }
+            }
+          ]
         },
         {
           "id": 43,
@@ -25517,7 +26861,39 @@
           "meanings": {
             "en": "to burn, grill",
             "id": "membakar, memanggang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "焼きます。",
+              "furigana": "やきます。",
+              "romaji": "yakimasu.",
+              "meanings": {
+                "id": "Memanggang.",
+                "en": "I grill it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "パンを焼きました。",
+              "furigana": "パンを やきました。",
+              "romaji": "pan wo yakimashita.",
+              "meanings": {
+                "id": "Memanggang roti.",
+                "en": "I baked bread."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "魚を焼いてください。",
+              "furigana": "さかなを やいて ください。",
+              "romaji": "sakana wo yaite kudasai.",
+              "meanings": {
+                "id": "Tolong bakar ikan.",
+                "en": "Please grill the fish."
+              }
+            }
+          ]
         },
         {
           "id": 44,
@@ -25527,7 +26903,39 @@
           "meanings": {
             "en": "to stop",
             "id": "menghentikan, memberhentikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "止めます。",
+              "furigana": "やめます。",
+              "romaji": "yamemasu.",
+              "meanings": {
+                "id": "Berhenti.",
+                "en": "I stop."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "仕事を止めました。",
+              "furigana": "しごとを やめました。",
+              "romaji": "shigoto wo yamemashita.",
+              "meanings": {
+                "id": "Berhenti kerja.",
+                "en": "I quit my job."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "タバコを止めてください。",
+              "furigana": "タバコを やめて ください。",
+              "romaji": "tabako wo yamete kudasai.",
+              "meanings": {
+                "id": "Tolong berhenti merokok.",
+                "en": "Please stop smoking."
+              }
+            }
+          ]
         },
         {
           "id": 45,
@@ -25537,7 +26945,39 @@
           "meanings": {
             "en": "to dirty",
             "id": "mengotori"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "汚します。",
+              "furigana": "よごします。",
+              "romaji": "yogoshimasu.",
+              "meanings": {
+                "id": "Mengotori.",
+                "en": "I dirty it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "服を汚しました。",
+              "furigana": "ふくを よごしました。",
+              "romaji": "fuku wo yogoshimashita.",
+              "meanings": {
+                "id": "Mengotori baju.",
+                "en": "I dirtied the clothes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部屋を汚さないでください。",
+              "furigana": "へやを よごさないで ください。",
+              "romaji": "heya wo yogosanaide kudasai.",
+              "meanings": {
+                "id": "Tolong jangan kotori kamar.",
+                "en": "Please don't dirty the room."
+              }
+            }
+          ]
         },
         {
           "id": 46,
@@ -25547,7 +26987,39 @@
           "meanings": {
             "en": "to shake",
             "id": "menggoyangkan, mengayunkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "揺らします。",
+              "furigana": "ゆらします。",
+              "romaji": "yurashimasu.",
+              "meanings": {
+                "id": "Menggoyangkan.",
+                "en": "I shake it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "船を揺らしました。",
+              "furigana": "ふねを ゆらしました。",
+              "romaji": "fune wo yurashimashita.",
+              "meanings": {
+                "id": "Menggoyangkan kapal.",
+                "en": "I rocked the boat."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "体を揺らさないでください。",
+              "furigana": "からだを ゆらさないで ください。",
+              "romaji": "karada wo yurasanaide kudasai.",
+              "meanings": {
+                "id": "Tolong jangan goyangkan badan.",
+                "en": "Please don't shake your body."
+              }
+            }
+          ]
         }
       ]
     },
@@ -25566,7 +27038,39 @@
           "meanings": {
             "en": "like this",
             "id": "seperti ini, begini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "こんな本です。",
+              "furigana": "こんな ほんです。",
+              "romaji": "konna hon desu.",
+              "meanings": {
+                "id": "Buku seperti ini.",
+                "en": "It's a book like this."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "こんな天気は嫌いです。",
+              "furigana": "こんな てんきは きらいです。",
+              "romaji": "konna tenki wa kirai desu.",
+              "meanings": {
+                "id": "Saya tidak suka cuaca seperti ini.",
+                "en": "I don't like weather like this."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "こんなに高いです。",
+              "furigana": "こんなに たかいです。",
+              "romaji": "konna ni takai desu.",
+              "meanings": {
+                "id": "Mahal sekali.",
+                "en": "It's this expensive."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -25576,7 +27080,39 @@
           "meanings": {
             "en": "like that",
             "id": "seperti itu, begitu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "そんなことです。",
+              "furigana": "そんな ことです。",
+              "romaji": "sonna koto desu.",
+              "meanings": {
+                "id": "Hal seperti itu.",
+                "en": "It's something like that."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "そんな話は知りません。",
+              "furigana": "そんな はなしは しりません。",
+              "romaji": "sonna hanashi wa shirimasen.",
+              "meanings": {
+                "id": "Saya tidak tahu cerita seperti itu.",
+                "en": "I don't know such a story."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "そんなに難しくないです。",
+              "furigana": "そんなに むずかしくないです。",
+              "romaji": "sonna ni muzukashikunai desu.",
+              "meanings": {
+                "id": "Tidak sesulit itu.",
+                "en": "It's not that difficult."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -25586,7 +27122,39 @@
           "meanings": {
             "en": "like that (far)",
             "id": "seperti itu, demikian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あんな人です。",
+              "furigana": "あんな ひとです。",
+              "romaji": "anna hito desu.",
+              "meanings": {
+                "id": "Orang seperti itu.",
+                "en": "A person like that."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あんな所に行きたくないです。",
+              "furigana": "あんな ところに いきたくないです。",
+              "romaji": "anna tokoro ni ikitakunai desu.",
+              "meanings": {
+                "id": "Saya tidak mau pergi ke tempat seperti itu.",
+                "en": "I don't want to go to a place like that."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あんなに大きいです。",
+              "furigana": "あんなに おおきいです。",
+              "romaji": "anna ni ookii desu.",
+              "meanings": {
+                "id": "Besar sekali seperti itu.",
+                "en": "It's that big."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -25596,7 +27164,39 @@
           "meanings": {
             "en": "what kind of",
             "id": "yang bagaimana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どんな映画が好きですか。",
+              "furigana": "どんな えいがが すきですか。",
+              "romaji": "donna eiga ga suki desu ka.",
+              "meanings": {
+                "id": "Film seperti apa yang Anda suka?",
+                "en": "What kind of movies do you like?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どんな本ですか。",
+              "furigana": "どんな ほんですか。",
+              "romaji": "donna hon desu ka.",
+              "meanings": {
+                "id": "Buku seperti apa?",
+                "en": "What kind of book is it?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "どんな人でも来てください。",
+              "furigana": "どんな ひとでも きてください。",
+              "romaji": "donna hito demo kite kudasai.",
+              "meanings": {
+                "id": "Siapa pun boleh datang.",
+                "en": "Anyone can come."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -25606,7 +27206,39 @@
           "meanings": {
             "en": "like this, this way",
             "id": "begini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "こうしてください。",
+              "furigana": "こうしてください。",
+              "romaji": "kou shite kudasai.",
+              "meanings": {
+                "id": "Tolong lakukan seperti ini.",
+                "en": "Please do it like this."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "こうすれば上手にできます。",
+              "furigana": "こうすれば じょうずに できます。",
+              "romaji": "kou sureba jouzu ni dekimasu.",
+              "meanings": {
+                "id": "Jika begini, bisa dilakukan dengan baik.",
+                "en": "If you do it this way, you can do it well."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "こう言いました。",
+              "furigana": "こう いいました。",
+              "romaji": "kou iimashita.",
+              "meanings": {
+                "id": "Saya berkata begini.",
+                "en": "I said like this."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -25616,7 +27248,39 @@
           "meanings": {
             "en": "like that, that way",
             "id": "begitu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "そうですね。",
+              "furigana": "そうですね。",
+              "romaji": "sou desu ne.",
+              "meanings": {
+                "id": "Benar ya.",
+                "en": "That's right, isn't it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "そう思います。",
+              "furigana": "そう おもいます。",
+              "romaji": "sou omoimasu.",
+              "meanings": {
+                "id": "Saya pikir begitu.",
+                "en": "I think so."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "そうしてください。",
+              "furigana": "そうしてください。",
+              "romaji": "sou shite kudasai.",
+              "meanings": {
+                "id": "Tolong lakukan begitu.",
+                "en": "Please do it that way."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -25626,7 +27290,39 @@
           "meanings": {
             "en": "like that (over there), that way",
             "id": "begitu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ああしてください。",
+              "furigana": "ああしてください。",
+              "romaji": "aa shite kudasai.",
+              "meanings": {
+                "id": "Tolong lakukan seperti itu.",
+                "en": "Please do it like that."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ああいう人が好きです。",
+              "furigana": "ああいう ひとが すきです。",
+              "romaji": "aa iu hito ga suki desu.",
+              "meanings": {
+                "id": "Saya suka orang seperti itu.",
+                "en": "I like that kind of person."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ああすれば良かったです。",
+              "furigana": "ああすれば よかったです。",
+              "romaji": "aa sureba yokatta desu.",
+              "meanings": {
+                "id": "Seharusnya begitu saja.",
+                "en": "I should have done it that way."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -25636,7 +27332,39 @@
           "meanings": {
             "en": "how, in what way",
             "id": "bagaimana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どうですか。",
+              "furigana": "どうですか。",
+              "romaji": "dou desu ka.",
+              "meanings": {
+                "id": "Bagaimana?",
+                "en": "How is it?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どうしますか。",
+              "furigana": "どうしますか。",
+              "romaji": "dou shimasu ka.",
+              "meanings": {
+                "id": "Apa yang akan dilakukan?",
+                "en": "What will you do?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "どうぞよろしくお願いします。",
+              "furigana": "どうぞ よろしく おねがいします。",
+              "romaji": "douzo yoroshiku onegai shimasu.",
+              "meanings": {
+                "id": "Mohon bantuannya.",
+                "en": "Please treat me well."
+              }
+            }
+          ]
         }
       ]
     },
