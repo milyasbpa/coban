@@ -15281,7 +15281,39 @@
           "meanings": {
             "en": "literature",
             "id": "kesusastraan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "文学を勉強します。",
+              "furigana": "ぶんがくを べんきょう します。",
+              "romaji": "bungaku wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar kesusastraan.",
+                "en": "I study literature."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "文学が好きです。",
+              "furigana": "ぶんがくが すき です。",
+              "romaji": "bungaku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kesusastraan.",
+                "en": "I like literature."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本の文学です。",
+              "furigana": "にほんの ぶんがく です。",
+              "romaji": "nihon no bungaku desu.",
+              "meanings": {
+                "id": "Kesusastraan Jepang.",
+                "en": "It's Japanese literature."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -15291,7 +15323,39 @@
           "meanings": {
             "en": "grammar",
             "id": "tata bahasa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "文法を勉強します。",
+              "furigana": "ぶんぽうを べんきょう します。",
+              "romaji": "bunpou wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar tata bahasa.",
+                "en": "I study grammar."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "文法が難しいです。",
+              "furigana": "ぶんぽうが むずかしい です。",
+              "romaji": "bunpou ga muzukashii desu.",
+              "meanings": {
+                "id": "Tata bahasa itu sulit.",
+                "en": "Grammar is difficult."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本語の文法です。",
+              "furigana": "にほんごの ぶんぽう です。",
+              "romaji": "nihongo no bunpou desu.",
+              "meanings": {
+                "id": "Tata bahasa Jepang.",
+                "en": "It's Japanese grammar."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -15301,7 +15365,39 @@
           "meanings": {
             "en": "junior high school",
             "id": "SMP"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "中学校に行きます。",
+              "furigana": "ちゅうがっこうに いきます。",
+              "romaji": "chuugakkou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke SMP.",
+                "en": "I go to junior high school."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "中学校の学生です。",
+              "furigana": "ちゅうがっこうの がくせい です。",
+              "romaji": "chuugakkou no gakusei desu.",
+              "meanings": {
+                "id": "Saya siswa SMP.",
+                "en": "I'm a junior high school student."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "中学校を卒業しました。",
+              "furigana": "ちゅうがっこうを そつぎょう しました。",
+              "romaji": "chuugakkou wo sotsugyou shimashita.",
+              "meanings": {
+                "id": "Saya lulus dari SMP.",
+                "en": "I graduated from junior high school."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -15311,7 +15407,39 @@
           "meanings": {
             "en": "review",
             "id": "pengulangan pelajaran"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "復習をします。",
+              "furigana": "ふくしゅうを します。",
+              "romaji": "fukushuu wo shimasu.",
+              "meanings": {
+                "id": "Saya mengulang pelajaran.",
+                "en": "I review."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日復習します。",
+              "furigana": "まいにち ふくしゅう します。",
+              "romaji": "mainichi fukushuu shimasu.",
+              "meanings": {
+                "id": "Saya mengulang pelajaran setiap hari.",
+                "en": "I review every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "復習が大切です。",
+              "furigana": "ふくしゅうが たいせつ です。",
+              "romaji": "fukushuu ga taisetsu desu.",
+              "meanings": {
+                "id": "Mengulang pelajaran itu penting.",
+                "en": "Review is important."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -15321,7 +15449,39 @@
           "meanings": {
             "en": "technique",
             "id": "teknik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "技術を勉強します。",
+              "furigana": "ぎじゅつを べんきょう します。",
+              "romaji": "gijyutsu wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar teknik.",
+                "en": "I study technique."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい技術です。",
+              "furigana": "いい ぎじゅつ です。",
+              "romaji": "ii gijyutsu desu.",
+              "meanings": {
+                "id": "Teknik yang bagus.",
+                "en": "It's good technique."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "技術が必要です。",
+              "furigana": "ぎじゅつが ひつよう です。",
+              "romaji": "gijyutsu ga hitsuyou desu.",
+              "meanings": {
+                "id": "Teknik itu diperlukan.",
+                "en": "Technique is necessary."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -15331,7 +15491,39 @@
           "meanings": {
             "en": "pass (exam)",
             "id": "lulus ujian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "合格しました。",
+              "furigana": "ごうかく しました。",
+              "romaji": "goukaku shimashita.",
+              "meanings": {
+                "id": "Saya lulus.",
+                "en": "I passed."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "試験に合格しました。",
+              "furigana": "しけんに ごうかく しました。",
+              "romaji": "shiken ni goukaku shimashita.",
+              "meanings": {
+                "id": "Saya lulus ujian.",
+                "en": "I passed the exam."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "合格できました。",
+              "furigana": "ごうかく できました。",
+              "romaji": "goukaku dekimashita.",
+              "meanings": {
+                "id": "Saya bisa lulus.",
+                "en": "I was able to pass."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -15341,7 +15533,39 @@
           "meanings": {
             "en": "pronunciation",
             "id": "pengucapan, lafal"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "発音を練習します。",
+              "furigana": "はつおんを れんしゅう します。",
+              "romaji": "hatsuon wo renshuu shimasu.",
+              "meanings": {
+                "id": "Saya melatih pengucapan.",
+                "en": "I practice pronunciation."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "発音が難しいです。",
+              "furigana": "はつおんが むずかしい です。",
+              "romaji": "hatsuon ga muzukashii desu.",
+              "meanings": {
+                "id": "Pengucapannya sulit.",
+                "en": "Pronunciation is difficult."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "発音がいいです。",
+              "furigana": "はつおんが いい です。",
+              "romaji": "hatsuon ga ii desu.",
+              "meanings": {
+                "id": "Pengucapannya bagus.",
+                "en": "Pronunciation is good."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -15351,7 +15575,39 @@
           "meanings": {
             "en": "medical science",
             "id": "sekolah kedokteran"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "医学を勉強します。",
+              "furigana": "いがくを べんきょう します。",
+              "romaji": "igaku wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar kedokteran.",
+                "en": "I study medical science."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "医学が好きです。",
+              "furigana": "いがくが すき です。",
+              "romaji": "igaku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kedokteran.",
+                "en": "I like medical science."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "医学の学生です。",
+              "furigana": "いがくの がくせい です。",
+              "romaji": "igaku no gakusei desu.",
+              "meanings": {
+                "id": "Saya mahasiswa kedokteran.",
+                "en": "I'm a medical student."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -15361,7 +15617,39 @@
           "meanings": {
             "en": "character, letter",
             "id": "huruf"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "字を書きます。",
+              "furigana": "じを かきます。",
+              "romaji": "ji wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis huruf.",
+                "en": "I write characters."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "字が小さいです。",
+              "furigana": "じが ちいさい です。",
+              "romaji": "ji ga chiisai desu.",
+              "meanings": {
+                "id": "Hurufnya kecil.",
+                "en": "The characters are small."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "字が読めません。",
+              "furigana": "じが よめません。",
+              "romaji": "ji ga yomemasen.",
+              "meanings": {
+                "id": "Saya tidak bisa membaca hurufnya.",
+                "en": "I can't read the characters."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -15371,7 +15659,39 @@
           "meanings": {
             "en": "science",
             "id": "ilmu pengetahuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "科学を勉強します。",
+              "furigana": "かがくを べんきょう します。",
+              "romaji": "kagaku wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar ilmu pengetahuan.",
+                "en": "I study science."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "科学が好きです。",
+              "furigana": "かがくが すき です。",
+              "romaji": "kagaku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka ilmu pengetahuan.",
+                "en": "I like science."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "科学が面白いです。",
+              "furigana": "かがくが おもしろい です。",
+              "romaji": "kagaku ga omoshiroi desu.",
+              "meanings": {
+                "id": "Ilmu pengetahuan itu menarik.",
+                "en": "Science is interesting."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -15381,7 +15701,39 @@
           "meanings": {
             "en": "conversation",
             "id": "percakapan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "会話を勉強します。",
+              "furigana": "かいわを べんきょう します。",
+              "romaji": "kaiwa wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar percakapan.",
+                "en": "I study conversation."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "会話の練習をします。",
+              "furigana": "かいわの れんしゅうを します。",
+              "romaji": "kaiwa no renshuu wo shimasu.",
+              "meanings": {
+                "id": "Saya latihan percakapan.",
+                "en": "I practice conversation."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本語の会話です。",
+              "furigana": "にほんごの かいわ です。",
+              "romaji": "nihongo no kaiwa desu.",
+              "meanings": {
+                "id": "Percakapan bahasa Jepang.",
+                "en": "It's Japanese conversation."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -15391,7 +15743,39 @@
           "meanings": {
             "en": "research",
             "id": "penelitian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "研究をします。",
+              "furigana": "けんきゅうを します。",
+              "romaji": "kenkyuu wo shimasu.",
+              "meanings": {
+                "id": "Saya meneliti.",
+                "en": "I do research."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "研究が面白いです。",
+              "furigana": "けんきゅうが おもしろい です。",
+              "romaji": "kenkyuu ga omoshiroi desu.",
+              "meanings": {
+                "id": "Penelitian itu menarik.",
+                "en": "Research is interesting."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "研究を続けます。",
+              "furigana": "けんきゅうを つづけます。",
+              "romaji": "kenkyuu wo tsuzukemasu.",
+              "meanings": {
+                "id": "Saya melanjutkan penelitian.",
+                "en": "I continue research."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -15401,7 +15785,39 @@
           "meanings": {
             "en": "lecture",
             "id": "kuliah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "講義に出ます。",
+              "furigana": "こうぎに でます。",
+              "romaji": "kougi ni demasu.",
+              "meanings": {
+                "id": "Saya mengikuti kuliah.",
+                "en": "I attend a lecture."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "講義が始まります。",
+              "furigana": "こうぎが はじまります。",
+              "romaji": "kougi ga hajimarimasu.",
+              "meanings": {
+                "id": "Kuliah dimulai.",
+                "en": "The lecture starts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "面白い講義です。",
+              "furigana": "おもしろい こうぎ です。",
+              "romaji": "omoshiroi kougi desu.",
+              "meanings": {
+                "id": "Kuliah yang menarik.",
+                "en": "It's an interesting lecture."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -15411,7 +15827,39 @@
           "meanings": {
             "en": "high school",
             "id": "SMA"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "高校に行きます。",
+              "furigana": "こうこうに いきます。",
+              "romaji": "koukou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke SMA.",
+                "en": "I go to high school."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "高校の学生です。",
+              "furigana": "こうこうの がくせい です。",
+              "romaji": "koukou no gakusei desu.",
+              "meanings": {
+                "id": "Saya siswa SMA.",
+                "en": "I'm a high school student."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "高校を卒業しました。",
+              "furigana": "こうこうを そつぎょう しました。",
+              "romaji": "koukou wo sotsugyou shimashita.",
+              "meanings": {
+                "id": "Saya lulus dari SMA.",
+                "en": "I graduated from high school."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -15421,7 +15869,39 @@
           "meanings": {
             "en": "senior high school",
             "id": "SMA"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "高等学校に行きます。",
+              "furigana": "こうとうがっこうに いきます。",
+              "romaji": "koutougakkou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke SMA.",
+                "en": "I go to senior high school."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "高等学校の学生です。",
+              "furigana": "こうとうがっこうの がくせい です。",
+              "romaji": "koutougakkou no gakusei desu.",
+              "meanings": {
+                "id": "Saya siswa SMA.",
+                "en": "I'm a senior high school student."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "高等学校を卒業しました。",
+              "furigana": "こうとうがっこうを そつぎょう しました。",
+              "romaji": "koutougakkou wo sotsugyou shimashita.",
+              "meanings": {
+                "id": "Saya lulus dari SMA.",
+                "en": "I graduated from senior high school."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -15431,7 +15911,39 @@
           "meanings": {
             "en": "education",
             "id": "pendidikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "教育が大切です。",
+              "furigana": "きょういくが たいせつ です。",
+              "romaji": "kyou'iku ga taisetsu desu.",
+              "meanings": {
+                "id": "Pendidikan itu penting.",
+                "en": "Education is important."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "日本の教育です。",
+              "furigana": "にほんの きょういく です。",
+              "romaji": "nihon no kyou'iku desu.",
+              "meanings": {
+                "id": "Pendidikan Jepang.",
+                "en": "It's Japanese education."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いい教育です。",
+              "furigana": "いい きょういく です。",
+              "romaji": "ii kyou'iku desu.",
+              "meanings": {
+                "id": "Pendidikan yang bagus.",
+                "en": "It's good education."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -15441,7 +15953,39 @@
           "meanings": {
             "en": "study abroad",
             "id": "sekolah ke luar negeri"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "留学します。",
+              "furigana": "りゅうがく します。",
+              "romaji": "ryuugaku shimasu.",
+              "meanings": {
+                "id": "Saya belajar ke luar negeri.",
+                "en": "I study abroad."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "日本に留学します。",
+              "furigana": "にほんに りゅうがく します。",
+              "romaji": "nihon ni ryuugaku shimasu.",
+              "meanings": {
+                "id": "Saya belajar ke Jepang.",
+                "en": "I study abroad in Japan."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "留学したいです。",
+              "furigana": "りゅうがく したい です。",
+              "romaji": "ryuugaku shitai desu.",
+              "meanings": {
+                "id": "Saya ingin belajar ke luar negeri.",
+                "en": "I want to study abroad."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -15451,7 +15995,39 @@
           "meanings": {
             "en": "line",
             "id": "garis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "線を引きます。",
+              "furigana": "せんを ひきます。",
+              "romaji": "sen wo hikimasu.",
+              "meanings": {
+                "id": "Saya menggambar garis.",
+                "en": "I draw a line."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "赤い線です。",
+              "furigana": "あかい せん です。",
+              "romaji": "akai sen desu.",
+              "meanings": {
+                "id": "Garis merah.",
+                "en": "It's a red line."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "線が見えます。",
+              "furigana": "せんが みえます。",
+              "romaji": "sen ga miemasu.",
+              "meanings": {
+                "id": "Garisnya terlihat.",
+                "en": "I can see the line."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -15461,7 +16037,39 @@
           "meanings": {
             "en": "exam",
             "id": "ujian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "試験があります。",
+              "furigana": "しけんが あります。",
+              "romaji": "shiken ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian.",
+                "en": "There is an exam."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "試験が難しいです。",
+              "furigana": "しけんが むずかしい です。",
+              "romaji": "shiken ga muzukashii desu.",
+              "meanings": {
+                "id": "Ujiannya sulit.",
+                "en": "The exam is difficult."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "試験を受けます。",
+              "furigana": "しけんを うけます。",
+              "romaji": "shiken wo ukemasu.",
+              "meanings": {
+                "id": "Saya mengikuti ujian.",
+                "en": "I take an exam."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -15471,7 +16079,39 @@
           "meanings": {
             "en": "elementary school",
             "id": "sekolah dasar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "小学校に行きます。",
+              "furigana": "しょうがっこうに いきます。",
+              "romaji": "shougakkou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke sekolah dasar.",
+                "en": "I go to elementary school."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "小学校の学生です。",
+              "furigana": "しょうがっこうの がくせい です。",
+              "romaji": "shougakkou no gakusei desu.",
+              "meanings": {
+                "id": "Saya murid sekolah dasar.",
+                "en": "I'm an elementary school student."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "小学校を卒業しました。",
+              "furigana": "しょうがっこうを そつぎょう しました。",
+              "romaji": "shougakkou wo sotsugyou shimashita.",
+              "meanings": {
+                "id": "Saya lulus dari sekolah dasar.",
+                "en": "I graduated from elementary school."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -15481,7 +16121,39 @@
           "meanings": {
             "en": "mathematics",
             "id": "matematika"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "数学を勉強します。",
+              "furigana": "すうがくを べんきょう します。",
+              "romaji": "suugaku wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar matematika.",
+                "en": "I study mathematics."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "数学が好きです。",
+              "furigana": "すうがくが すき です。",
+              "romaji": "suugaku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka matematika.",
+                "en": "I like mathematics."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "数学が難しいです。",
+              "furigana": "すうがくが むずかしい です。",
+              "romaji": "suugaku ga muzukashii desu.",
+              "meanings": {
+                "id": "Matematika itu sulit.",
+                "en": "Mathematics is difficult."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -15491,7 +16163,39 @@
           "meanings": {
             "en": "point, score",
             "id": "nilai, titik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "点が高いです。",
+              "furigana": "てんが たかい です。",
+              "romaji": "ten ga takai desu.",
+              "meanings": {
+                "id": "Nilainya tinggi.",
+                "en": "The score is high."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい点を取りました。",
+              "furigana": "いい てんを とりました。",
+              "romaji": "ii ten wo torimashita.",
+              "meanings": {
+                "id": "Saya mendapat nilai bagus.",
+                "en": "I got a good score."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "点が低いです。",
+              "furigana": "てんが ひくい です。",
+              "romaji": "ten ga hikui desu.",
+              "meanings": {
+                "id": "Nilainya rendah.",
+                "en": "The score is low."
+              }
+            }
+          ]
         }
       ]
     },
@@ -15510,7 +16214,39 @@
           "meanings": {
             "en": "computer",
             "id": "komputer"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "コンピュータを使います。",
+              "furigana": "コンピュータを つかいます。",
+              "romaji": "konpyuuta wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan komputer.",
+                "en": "I use a computer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "コンピュータを買いました。",
+              "furigana": "コンピュータを かいました。",
+              "romaji": "konpyuuta wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli komputer.",
+                "en": "I bought a computer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しいコンピュータです。",
+              "furigana": "あたらしい コンピュータ です。",
+              "romaji": "atarashii konpyuuta desu.",
+              "meanings": {
+                "id": "Komputer baru.",
+                "en": "It's a new computer."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -15520,7 +16256,39 @@
           "meanings": {
             "en": "PC",
             "id": "PC"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "パソコンを使います。",
+              "furigana": "パソコンを つかいます。",
+              "romaji": "pasokon wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan PC.",
+                "en": "I use a PC."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "パソコンが好きです。",
+              "furigana": "パソコンが すき です。",
+              "romaji": "pasokon ga suki desu.",
+              "meanings": {
+                "id": "Saya suka PC.",
+                "en": "I like PCs."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "パソコンで仕事をします。",
+              "furigana": "パソコンで しごとを します。",
+              "romaji": "pasokon de shigoto wo shimasu.",
+              "meanings": {
+                "id": "Saya bekerja dengan PC.",
+                "en": "I work with a PC."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -15530,7 +16298,39 @@
           "meanings": {
             "en": "screen",
             "id": "layar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "スクリーンを見ます。",
+              "furigana": "スクリーンを みます。",
+              "romaji": "sukuriin wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat layar.",
+                "en": "I look at the screen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きいスクリーンです。",
+              "furigana": "おおきい スクリーン です。",
+              "romaji": "ookii sukuriin desu.",
+              "meanings": {
+                "id": "Layar besar.",
+                "en": "It's a big screen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "スクリーンが明るいです。",
+              "furigana": "スクリーンが あかるい です。",
+              "romaji": "sukuriin ga akarui desu.",
+              "meanings": {
+                "id": "Layarnya terang.",
+                "en": "The screen is bright."
+              }
+            }
+          ]
         }
       ]
     },
