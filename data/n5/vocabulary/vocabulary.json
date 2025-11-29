@@ -17875,7 +17875,39 @@
           "meanings": {
             "en": "what",
             "id": "apa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "これは何ですか。",
+              "furigana": "これは なんですか。",
+              "romaji": "kore wa nan desu ka.",
+              "meanings": {
+                "id": "Ini apa?",
+                "en": "What is this?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "何を食べますか。",
+              "furigana": "なにを たべますか。",
+              "romaji": "nani wo tabemasu ka.",
+              "meanings": {
+                "id": "Anda makan apa?",
+                "en": "What do you eat?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "何時ですか。",
+              "furigana": "なんじですか。",
+              "romaji": "nanji desu ka.",
+              "meanings": {
+                "id": "Jam berapa?",
+                "en": "What time is it?"
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -17885,7 +17917,39 @@
           "meanings": {
             "en": "who",
             "id": "siapa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あの人は誰ですか。",
+              "furigana": "あの ひとは だれですか。",
+              "romaji": "ano hito wa dare desu ka.",
+              "meanings": {
+                "id": "Orang itu siapa?",
+                "en": "Who is that person?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "誰が来ますか。",
+              "furigana": "だれが きますか。",
+              "romaji": "dare ga kimasu ka.",
+              "meanings": {
+                "id": "Siapa yang datang?",
+                "en": "Who is coming?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "どなたですか。",
+              "furigana": "どなたですか。",
+              "romaji": "donata desu ka.",
+              "meanings": {
+                "id": "Siapa ya? (sopan)",
+                "en": "Who is it? (polite)"
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -17895,7 +17959,39 @@
           "meanings": {
             "en": "why",
             "id": "mengapa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どうして来ませんでしたか。",
+              "furigana": "どうして きませんでしたか。",
+              "romaji": "doushite kimasen deshita ka.",
+              "meanings": {
+                "id": "Mengapa tidak datang?",
+                "en": "Why didn't you come?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "なぜ勉強しますか。",
+              "furigana": "なぜ べんきょうしますか。",
+              "romaji": "naze benkyou shimasu ka.",
+              "meanings": {
+                "id": "Mengapa belajar?",
+                "en": "Why do you study?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "なんで泣きますか。",
+              "furigana": "なんで なきますか。",
+              "romaji": "nande nakimasu ka.",
+              "meanings": {
+                "id": "Mengapa menangis?",
+                "en": "Why are you crying?"
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -17905,7 +18001,39 @@
           "meanings": {
             "en": "where",
             "id": "(di) mana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どこに行きますか。",
+              "furigana": "どこに いきますか。",
+              "romaji": "doko ni ikimasu ka.",
+              "meanings": {
+                "id": "Pergi ke mana?",
+                "en": "Where are you going?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どこから来ましたか。",
+              "furigana": "どこから きましたか。",
+              "romaji": "doko kara kimashita ka.",
+              "meanings": {
+                "id": "Dari mana Anda datang?",
+                "en": "Where did you come from?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "トイレはどこですか。",
+              "furigana": "といれは どこですか。",
+              "romaji": "toire wa doko desu ka.",
+              "meanings": {
+                "id": "Toilet ada di mana?",
+                "en": "Where is the toilet?"
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -17915,7 +18043,39 @@
           "meanings": {
             "en": "which way, which (2)",
             "id": "arah mana, yang mana (pilihan 2 benda)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どちらがいいですか。",
+              "furigana": "どちらが いいですか。",
+              "romaji": "dochira ga ii desu ka.",
+              "meanings": {
+                "id": "Yang mana yang lebih baik?",
+                "en": "Which one is better?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どっちが好きですか。",
+              "furigana": "どっちが すきですか。",
+              "romaji": "docchi ga suki desu ka.",
+              "meanings": {
+                "id": "Yang mana yang Anda suka?",
+                "en": "Which one do you like?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "駅はどちらですか。",
+              "furigana": "えきは どちらですか。",
+              "romaji": "eki wa dochira desu ka.",
+              "meanings": {
+                "id": "Stasiun ada di arah mana?",
+                "en": "Which way is the station?"
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -17925,7 +18085,39 @@
           "meanings": {
             "en": "which",
             "id": "yang mana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どの本ですか。",
+              "furigana": "どの ほんですか。",
+              "romaji": "dono hon desu ka.",
+              "meanings": {
+                "id": "Buku yang mana?",
+                "en": "Which book is it?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どの人ですか。",
+              "furigana": "どの ひとですか。",
+              "romaji": "dono hito desu ka.",
+              "meanings": {
+                "id": "Orang yang mana?",
+                "en": "Which person is it?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "どの車が好きですか。",
+              "furigana": "どの くるまが すきですか。",
+              "romaji": "dono kuruma ga suki desu ka.",
+              "meanings": {
+                "id": "Mobil yang mana yang Anda suka?",
+                "en": "Which car do you like?"
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -17935,7 +18127,39 @@
           "meanings": {
             "en": "which (3+)",
             "id": "yang mana (pilihan 3 benda atau lebih)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どれがいいですか。",
+              "furigana": "どれが いいですか。",
+              "romaji": "dore ga ii desu ka.",
+              "meanings": {
+                "id": "Yang mana yang bagus?",
+                "en": "Which one is good?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どれが安いですか。",
+              "furigana": "どれが やすいですか。",
+              "romaji": "dore ga yasui desu ka.",
+              "meanings": {
+                "id": "Yang mana yang murah?",
+                "en": "Which one is cheap?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "どれを買いますか。",
+              "furigana": "どれを かいますか。",
+              "romaji": "dore wo kaimasu ka.",
+              "meanings": {
+                "id": "Yang mana yang akan dibeli?",
+                "en": "Which one will you buy?"
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -17945,7 +18169,39 @@
           "meanings": {
             "en": "when",
             "id": "kapan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "いつ行きますか。",
+              "furigana": "いつ いきますか。",
+              "romaji": "itsu ikimasu ka.",
+              "meanings": {
+                "id": "Kapan pergi?",
+                "en": "When will you go?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いつ来ましたか。",
+              "furigana": "いつ きましたか。",
+              "romaji": "itsu kimashita ka.",
+              "meanings": {
+                "id": "Kapan datang?",
+                "en": "When did you come?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "誕生日はいつですか。",
+              "furigana": "たんじょうびは いつですか。",
+              "romaji": "tanjoubi wa itsu desu ka.",
+              "meanings": {
+                "id": "Ulang tahun kapan?",
+                "en": "When is your birthday?"
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -17955,7 +18211,39 @@
           "meanings": {
             "en": "how much",
             "id": "berapa harganya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "いくらですか。",
+              "furigana": "いくらですか。",
+              "romaji": "ikura desu ka.",
+              "meanings": {
+                "id": "Berapa harganya?",
+                "en": "How much is it?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これはいくらですか。",
+              "furigana": "これは いくらですか。",
+              "romaji": "kore wa ikura desu ka.",
+              "meanings": {
+                "id": "Ini berapa harganya?",
+                "en": "How much is this?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "全部でいくらですか。",
+              "furigana": "ぜんぶで いくらですか。",
+              "romaji": "zenbu de ikura desu ka.",
+              "meanings": {
+                "id": "Semuanya berapa?",
+                "en": "How much is it in total?"
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -17965,7 +18253,39 @@
           "meanings": {
             "en": "how many",
             "id": "berapa buah, umur berapa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "いくつありますか。",
+              "furigana": "いくつ ありますか。",
+              "romaji": "ikutsu arimasu ka.",
+              "meanings": {
+                "id": "Ada berapa buah?",
+                "en": "How many are there?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "りんごをいくつ買いますか。",
+              "furigana": "りんごを いくつ かいますか。",
+              "romaji": "ringo wo ikutsu kaimasu ka.",
+              "meanings": {
+                "id": "Beli apel berapa buah?",
+                "en": "How many apples will you buy?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おいくつですか。",
+              "furigana": "おいくつですか。",
+              "romaji": "oikutsu desu ka.",
+              "meanings": {
+                "id": "Umur berapa?",
+                "en": "How old are you?"
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -17975,7 +18295,39 @@
           "meanings": {
             "en": "how",
             "id": "bagaimana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "いかがですか。",
+              "furigana": "いかがですか。",
+              "romaji": "ikaga desu ka.",
+              "meanings": {
+                "id": "Bagaimana? (sopan)",
+                "en": "How is it? (polite)"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どうですか。",
+              "furigana": "どうですか。",
+              "romaji": "dou desu ka.",
+              "meanings": {
+                "id": "Bagaimana?",
+                "en": "How is it?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "これはどうですか。",
+              "furigana": "これは どうですか。",
+              "romaji": "kore wa dou desu ka.",
+              "meanings": {
+                "id": "Ini bagaimana?",
+                "en": "How about this?"
+              }
+            }
+          ]
         }
       ]
     },
@@ -17994,7 +18346,39 @@
           "meanings": {
             "en": "and, then",
             "id": "dan, lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "パンを買います。そしてミルクも買います。",
+              "furigana": "ぱんを かいます。そして みるくも かいます。",
+              "romaji": "pan wo kaimasu. soshite miruku mo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli roti. Lalu juga membeli susu.",
+                "en": "I buy bread. And then I also buy milk."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "勉強します。そして寝ます。",
+              "furigana": "べんきょうします。そして ねます。",
+              "romaji": "benkyou shimasu. soshite nemasu.",
+              "meanings": {
+                "id": "Saya belajar. Lalu tidur.",
+                "en": "I study. And then I sleep."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "朝ご飯を食べます。そして学校へ行きます。",
+              "furigana": "あさごはんを たべます。そして がっこうへ いきます。",
+              "romaji": "asagohan wo tabemasu. soshite gakkou e ikimasu.",
+              "meanings": {
+                "id": "Saya makan sarapan. Lalu pergi ke sekolah.",
+                "en": "I eat breakfast. And then I go to school."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -18004,7 +18388,39 @@
           "meanings": {
             "en": "then, after that",
             "id": "kemudian, setelah itu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ご飯を食べます。それから映画を見ます。",
+              "furigana": "ごはんを たべます。それから えいがを みます。",
+              "romaji": "gohan wo tabemasu. sorekara eiga wo mimasu.",
+              "meanings": {
+                "id": "Saya makan. Setelah itu menonton film.",
+                "en": "I eat. After that, I watch a movie."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "宿題をします。それから遊びます。",
+              "furigana": "しゅくだいを します。それから あそびます。",
+              "romaji": "shukudai wo shimasu. sorekara asobimasu.",
+              "meanings": {
+                "id": "Saya mengerjakan PR. Setelah itu bermain.",
+                "en": "I do homework. After that, I play."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "買い物をします。それから帰ります。",
+              "furigana": "かいものを します。それから かえります。",
+              "romaji": "kaimono wo shimasu. sorekara kaerimasu.",
+              "meanings": {
+                "id": "Saya belanja. Setelah itu pulang.",
+                "en": "I shop. After that, I go home."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -18014,7 +18430,39 @@
           "meanings": {
             "en": "well then, if so",
             "id": "kalau begitu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "では、行きましょう。",
+              "furigana": "では、いきましょう。",
+              "romaji": "dewa, ikimashou.",
+              "meanings": {
+                "id": "Kalau begitu, ayo pergi.",
+                "en": "Well then, let's go."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "それでは、また明日。",
+              "furigana": "それでは、また あした。",
+              "romaji": "soredewa, mata ashita.",
+              "meanings": {
+                "id": "Kalau begitu, sampai besok.",
+                "en": "Well then, see you tomorrow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "では、失礼します。",
+              "furigana": "では、しつれいします。",
+              "romaji": "dewa, shitsurei shimasu.",
+              "meanings": {
+                "id": "Kalau begitu, permisi.",
+                "en": "Well then, excuse me."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -18024,7 +18472,39 @@
           "meanings": {
             "en": "but",
             "id": "tetapi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "高いです。でも買います。",
+              "furigana": "たかいです。でも かいます。",
+              "romaji": "takai desu. demo kaimasu.",
+              "meanings": {
+                "id": "Mahal. Tetapi saya beli.",
+                "en": "It's expensive. But I'll buy it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "疲れました。でも頑張ります。",
+              "furigana": "つかれました。でも がんばります。",
+              "romaji": "tsukaremashita. demo ganbarimasu.",
+              "meanings": {
+                "id": "Saya capek. Tetapi saya akan berusaha.",
+                "en": "I'm tired. But I'll do my best."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "雨です。でも行きます。",
+              "furigana": "あめです。でも いきます。",
+              "romaji": "ame desu. demo ikimasu.",
+              "meanings": {
+                "id": "Hujan. Tetapi saya pergi.",
+                "en": "It's raining. But I'll go."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -18034,7 +18514,39 @@
           "meanings": {
             "en": "however",
             "id": "tetapi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "忙しいです。しかし楽しいです。",
+              "furigana": "いそがしいです。しかし たのしいです。",
+              "romaji": "isogashii desu. shikashi tanoshii desu.",
+              "meanings": {
+                "id": "Sibuk. Tetapi menyenangkan.",
+                "en": "It's busy. However, it's fun."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "難しいです。しかし面白いです。",
+              "furigana": "むずかしいです。しかし おもしろいです。",
+              "romaji": "muzukashii desu. shikashi omoshiroi desu.",
+              "meanings": {
+                "id": "Sulit. Tetapi menarik.",
+                "en": "It's difficult. However, it's interesting."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "遠いです。しかし行きます。",
+              "furigana": "とおいです。しかし いきます。",
+              "romaji": "tooi desu. shikashi ikimasu.",
+              "meanings": {
+                "id": "Jauh. Tetapi saya pergi.",
+                "en": "It's far. However, I'll go."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -18044,7 +18556,39 @@
           "meanings": {
             "en": "not very",
             "id": "agak, tidak begitu.."
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あまり好きじゃないです。",
+              "furigana": "あまり すきじゃないです。",
+              "romaji": "amari suki janai desu.",
+              "meanings": {
+                "id": "Tidak terlalu suka.",
+                "en": "I don't like it very much."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あまり食べません。",
+              "furigana": "あまり たべません。",
+              "romaji": "amari tabemasen.",
+              "meanings": {
+                "id": "Tidak terlalu makan.",
+                "en": "I don't eat very much."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あまり暑くないです。",
+              "furigana": "あまり あつくないです。",
+              "romaji": "amari atsuku nai desu.",
+              "meanings": {
+                "id": "Tidak terlalu panas.",
+                "en": "It's not very hot."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -18054,7 +18598,39 @@
           "meanings": {
             "en": "than",
             "id": "daripada"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "これはあれより安いです。",
+              "furigana": "これは あれより やすいです。",
+              "romaji": "kore wa are yori yasui desu.",
+              "meanings": {
+                "id": "Ini lebih murah daripada itu.",
+                "en": "This is cheaper than that."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "東京は大阪より大きいです。",
+              "furigana": "とうきょうは おおさかより おおきいです。",
+              "romaji": "toukyou wa oosaka yori ookii desu.",
+              "meanings": {
+                "id": "Tokyo lebih besar daripada Osaka.",
+                "en": "Tokyo is bigger than Osaka."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "犬は猫より好きです。",
+              "furigana": "いぬは ねこより すきです。",
+              "romaji": "inu wa neko yori suki desu.",
+              "meanings": {
+                "id": "Saya lebih suka anjing daripada kucing.",
+                "en": "I like dogs more than cats."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -18064,7 +18640,39 @@
           "meanings": {
             "en": "more",
             "id": "lebih"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "こっちのほうが好きです。",
+              "furigana": "こっちの ほうが すきです。",
+              "romaji": "kocchi no hou ga suki desu.",
+              "meanings": {
+                "id": "Saya lebih suka yang ini.",
+                "en": "I like this one more."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夏のほうが暑いです。",
+              "furigana": "なつの ほうが あついです。",
+              "romaji": "natsu no hou ga atsui desu.",
+              "meanings": {
+                "id": "Musim panas lebih panas.",
+                "en": "Summer is hotter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電車のほうが速いです。",
+              "furigana": "でんしゃの ほうが はやいです。",
+              "romaji": "densha no hou ga hayai desu.",
+              "meanings": {
+                "id": "Kereta lebih cepat.",
+                "en": "The train is faster."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -18074,7 +18682,39 @@
           "meanings": {
             "en": "again, also",
             "id": "lagi, lagi pula"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "また来てください。",
+              "furigana": "また きて ください。",
+              "romaji": "mata kite kudasai.",
+              "meanings": {
+                "id": "Tolong datang lagi.",
+                "en": "Please come again."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "また明日。",
+              "furigana": "また あした。",
+              "romaji": "mata ashita.",
+              "meanings": {
+                "id": "Sampai besok.",
+                "en": "See you tomorrow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "また雨です。",
+              "furigana": "また あめです。",
+              "romaji": "mata ame desu.",
+              "meanings": {
+                "id": "Hujan lagi.",
+                "en": "It's raining again."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -18084,7 +18724,39 @@
           "meanings": {
             "en": "before",
             "id": "sebelum.."
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "寝る前に歯を磨きます。",
+              "furigana": "ねる まえに はを みがきます。",
+              "romaji": "neru mae ni ha wo migakimasu.",
+              "meanings": {
+                "id": "Saya sikat gigi sebelum tidur.",
+                "en": "I brush my teeth before sleeping."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "食べる前に手を洗います。",
+              "furigana": "たべる まえに てを あらいます。",
+              "romaji": "taberu mae ni te wo araimasu.",
+              "meanings": {
+                "id": "Saya cuci tangan sebelum makan.",
+                "en": "I wash my hands before eating."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "出かける前に傘を持ちます。",
+              "furigana": "でかける まえに かさを もちます。",
+              "romaji": "dekakeru mae ni kasa wo mochimasu.",
+              "meanings": {
+                "id": "Saya bawa payung sebelum pergi keluar.",
+                "en": "I take an umbrella before going out."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -18094,7 +18766,39 @@
           "meanings": {
             "en": "after",
             "id": "sesudah..."
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "食べた後で歯を磨きます。",
+              "furigana": "たべた あとで はを みがきます。",
+              "romaji": "tabeta ato de ha wo migakimasu.",
+              "meanings": {
+                "id": "Saya sikat gigi setelah makan.",
+                "en": "I brush my teeth after eating."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "勉強の後で遊びます。",
+              "furigana": "べんきょうの あとで あそびます。",
+              "romaji": "benkyou no ato de asobimasu.",
+              "meanings": {
+                "id": "Saya bermain setelah belajar.",
+                "en": "I play after studying."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "仕事の後で飲みます。",
+              "furigana": "しごとの あとで のみます。",
+              "romaji": "shigoto no ato de nomimasu.",
+              "meanings": {
+                "id": "Saya minum setelah kerja.",
+                "en": "I drink after work."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -18104,7 +18808,39 @@
           "meanings": {
             "en": "together with",
             "id": "bersama dengan ..."
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "友達と一緒に行きます。",
+              "furigana": "ともだちと いっしょに いきます。",
+              "romaji": "tomodachi to issho ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi bersama teman.",
+                "en": "I go together with my friend."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家族と一緒に食べます。",
+              "furigana": "かぞくと いっしょに たべます。",
+              "romaji": "kazoku to issho ni tabemasu.",
+              "meanings": {
+                "id": "Saya makan bersama keluarga.",
+                "en": "I eat together with my family."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "犬と一緒に遊びます。",
+              "furigana": "いぬと いっしょに あそびます。",
+              "romaji": "inu to issho ni asobimasu.",
+              "meanings": {
+                "id": "Saya bermain bersama anjing.",
+                "en": "I play together with my dog."
+              }
+            }
+          ]
         }
       ]
     },
