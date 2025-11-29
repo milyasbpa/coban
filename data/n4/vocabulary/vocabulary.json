@@ -12623,7 +12623,39 @@
           "meanings": {
             "en": "bell",
             "id": "bel, lonceng"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ベルを押します。",
+              "furigana": "ベルを おします。",
+              "romaji": "beru wo oshimasu.",
+              "meanings": {
+                "id": "Saya menekan bel.",
+                "en": "I press the bell."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ベルが鳴ります。",
+              "furigana": "ベルが なります。",
+              "romaji": "beru ga narimasu.",
+              "meanings": {
+                "id": "Belnya berbunyi.",
+                "en": "The bell rings."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ベルの音です。",
+              "furigana": "ベルの おと です。",
+              "romaji": "beru no oto desu.",
+              "meanings": {
+                "id": "Suara bel.",
+                "en": "It's the sound of the bell."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -12633,7 +12665,39 @@
           "meanings": {
             "en": "tool, instrument",
             "id": "alat, perkakas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "道具を使います。",
+              "furigana": "どうぐを つかいます。",
+              "romaji": "dougu wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan alat.",
+                "en": "I use tools."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "道具を買いました。",
+              "furigana": "どうぐを かいました。",
+              "romaji": "dougu wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli alat.",
+                "en": "I bought tools."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "便利な道具です。",
+              "furigana": "べんりな どうぐ です。",
+              "romaji": "benri na dougu desu.",
+              "meanings": {
+                "id": "Alat yang berguna.",
+                "en": "It's a useful tool."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -12643,7 +12707,39 @@
           "meanings": {
             "en": "futon",
             "id": "kasur tipis (alas tidur gaya Jepang)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "布団で寝ます。",
+              "furigana": "ふとんで ねます。",
+              "romaji": "futon de nemasu.",
+              "meanings": {
+                "id": "Saya tidur di futon.",
+                "en": "I sleep on a futon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "布団をしきます。",
+              "furigana": "ふとんを しきます。",
+              "romaji": "futon wo shikimasu.",
+              "meanings": {
+                "id": "Saya membentangkan futon.",
+                "en": "I spread out the futon."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい布団です。",
+              "furigana": "あたらしい ふとん です。",
+              "romaji": "atarashii futon desu.",
+              "meanings": {
+                "id": "Futon baru.",
+                "en": "It's a new futon."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -12653,7 +12749,39 @@
           "meanings": {
             "en": "boarding house",
             "id": "indekos"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "下宿に住んでいます。",
+              "furigana": "げしゅくに すんで います。",
+              "romaji": "geshuku ni sunde imasu.",
+              "meanings": {
+                "id": "Saya tinggal di kos.",
+                "en": "I live in a boarding house."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "下宿を探します。",
+              "furigana": "げしゅくを さがします。",
+              "romaji": "geshuku wo sagashimasu.",
+              "meanings": {
+                "id": "Saya mencari kos.",
+                "en": "I look for a boarding house."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いい下宿です。",
+              "furigana": "いい げしゅく です。",
+              "romaji": "ii geshuku desu.",
+              "meanings": {
+                "id": "Kos yang bagus.",
+                "en": "It's a good boarding house."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -12663,7 +12791,39 @@
           "meanings": {
             "en": "drawer",
             "id": "laci"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "引き出しを開けます。",
+              "furigana": "ひきだしを あけます。",
+              "romaji": "hikidashi wo akemasu.",
+              "meanings": {
+                "id": "Saya membuka laci.",
+                "en": "I open the drawer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "引き出しに入れます。",
+              "furigana": "ひきだしに いれます。",
+              "romaji": "hikidashi ni iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan ke laci.",
+                "en": "I put it in the drawer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大きい引き出しです。",
+              "furigana": "おおきい ひきだし です。",
+              "romaji": "ookii hikidashi desu.",
+              "meanings": {
+                "id": "Laci besar.",
+                "en": "It's a big drawer."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -12673,7 +12833,39 @@
           "meanings": {
             "en": "address",
             "id": "alamat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "住所を書きます。",
+              "furigana": "じゅうしょを かきます。",
+              "romaji": "jyuusho wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis alamat.",
+                "en": "I write the address."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "住所を教えてください。",
+              "furigana": "じゅうしょを おしえて ください。",
+              "romaji": "jyuusho wo oshiete kudasai.",
+              "meanings": {
+                "id": "Tolong beritahu alamatnya.",
+                "en": "Please tell me the address."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい住所です。",
+              "furigana": "あたらしい じゅうしょ です。",
+              "romaji": "atarashii jyuusho desu.",
+              "meanings": {
+                "id": "Alamat baru.",
+                "en": "It's a new address."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -12683,7 +12875,39 @@
           "meanings": {
             "en": "mirror",
             "id": "cermin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鏡を見ます。",
+              "furigana": "かがみを みます。",
+              "romaji": "kagami wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat cermin.",
+                "en": "I look in the mirror."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きい鏡です。",
+              "furigana": "おおきい かがみ です。",
+              "romaji": "ookii kagami desu.",
+              "meanings": {
+                "id": "Cermin besar.",
+                "en": "It's a big mirror."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鏡がきれいです。",
+              "furigana": "かがみが きれい です。",
+              "romaji": "kagami ga kirei desu.",
+              "meanings": {
+                "id": "Cerminnya bersih.",
+                "en": "The mirror is clean."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -12693,7 +12917,39 @@
           "meanings": {
             "en": "curtain",
             "id": "tirai"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "カーテンを開けます。",
+              "furigana": "カーテンを あけます。",
+              "romaji": "kaaten wo akemasu.",
+              "meanings": {
+                "id": "Saya membuka tirai.",
+                "en": "I open the curtain."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "カーテンを閉めます。",
+              "furigana": "カーテンを しめます。",
+              "romaji": "kaaten wo shimemasu.",
+              "meanings": {
+                "id": "Saya menutup tirai.",
+                "en": "I close the curtain."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "青いカーテンです。",
+              "furigana": "あおい カーテン です。",
+              "romaji": "aoi kaaten desu.",
+              "meanings": {
+                "id": "Tirai biru.",
+                "en": "It's a blue curtain."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -12703,7 +12959,39 @@
           "meanings": {
             "en": "doll",
             "id": "boneka"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "人形を買いました。",
+              "furigana": "にんぎょうを かいました。",
+              "romaji": "ningyou wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli boneka.",
+                "en": "I bought a doll."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "かわいい人形です。",
+              "furigana": "かわいい にんぎょう です。",
+              "romaji": "kawaii ningyou desu.",
+              "meanings": {
+                "id": "Boneka yang lucu.",
+                "en": "It's a cute doll."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "人形がたくさんあります。",
+              "furigana": "にんぎょうが たくさん あります。",
+              "romaji": "ningyou ga takusan arimasu.",
+              "meanings": {
+                "id": "Ada banyak boneka.",
+                "en": "There are many dolls."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -12713,7 +13001,39 @@
           "meanings": {
             "en": "closet",
             "id": "lemari pakaian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "押し入れに入れます。",
+              "furigana": "おしいれに いれます。",
+              "romaji": "oshi'ire ni iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan ke lemari.",
+                "en": "I put it in the closet."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "押し入れを開けます。",
+              "furigana": "おしいれを あけます。",
+              "romaji": "oshi'ire wo akemasu.",
+              "meanings": {
+                "id": "Saya membuka lemari.",
+                "en": "I open the closet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大きい押し入れです。",
+              "furigana": "おおきい おしいれ です。",
+              "romaji": "ookii oshi'ire desu.",
+              "meanings": {
+                "id": "Lemari besar.",
+                "en": "It's a big closet."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -12723,7 +13043,39 @@
           "meanings": {
             "en": "house (polite)",
             "id": "rumah (orang lain)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お宅はどこですか。",
+              "furigana": "おたくは どこ ですか。",
+              "romaji": "otaku wa doko desuka.",
+              "meanings": {
+                "id": "Rumah Anda di mana?",
+                "en": "Where is your house?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お宅に行きます。",
+              "furigana": "おたくに いきます。",
+              "romaji": "otaku ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke rumah Anda.",
+                "en": "I go to your house."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいなお宅ですね。",
+              "furigana": "きれいな おたく ですね。",
+              "romaji": "kirei na otaku desune.",
+              "meanings": {
+                "id": "Rumahnya bagus ya.",
+                "en": "It's a beautiful house."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -12733,7 +13085,39 @@
           "meanings": {
             "en": "piano",
             "id": "piano"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ピアノを弾きます。",
+              "furigana": "ピアノを ひきます。",
+              "romaji": "piano wo hikimasu.",
+              "meanings": {
+                "id": "Saya bermain piano.",
+                "en": "I play the piano."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ピアノが上手です。",
+              "furigana": "ピアノが じょうず です。",
+              "romaji": "piano ga jyouzu desu.",
+              "meanings": {
+                "id": "Pandai bermain piano.",
+                "en": "Good at playing the piano."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ピアノを習います。",
+              "furigana": "ピアノを ならいます。",
+              "romaji": "piano wo naraimasu.",
+              "meanings": {
+                "id": "Saya belajar piano.",
+                "en": "I learn the piano."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -12743,7 +13127,39 @@
           "meanings": {
             "en": "water supply",
             "id": "saluran air, ledeng"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "水道を使います。",
+              "furigana": "すいどうを つかいます。",
+              "romaji": "suidou wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan air ledeng.",
+                "en": "I use the water supply."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "水道が止まりました。",
+              "furigana": "すいどうが とまりました。",
+              "romaji": "suidou ga tomarimashita.",
+              "meanings": {
+                "id": "Air ledengnya mati.",
+                "en": "The water supply stopped."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水道の水です。",
+              "furigana": "すいどうの みず です。",
+              "romaji": "suidou no mizu desu.",
+              "meanings": {
+                "id": "Air ledeng.",
+                "en": "It's tap water."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -12753,7 +13169,39 @@
           "meanings": {
             "en": "stereo",
             "id": "stereo"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ステレオで音楽を聞きます。",
+              "furigana": "ステレオで おんがくを ききます。",
+              "romaji": "sutereo de ongaku wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengarkan musik dengan stereo.",
+                "en": "I listen to music on the stereo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新しいステレオです。",
+              "furigana": "あたらしい ステレオ です。",
+              "romaji": "atarashii sutereo desu.",
+              "meanings": {
+                "id": "Stereo baru.",
+                "en": "It's a new stereo."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ステレオを買いました。",
+              "furigana": "ステレオを かいました。",
+              "romaji": "sutereo wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli stereo.",
+                "en": "I bought a stereo."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -12763,7 +13211,39 @@
           "meanings": {
             "en": "shelf",
             "id": "rak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "棚に本があります。",
+              "furigana": "たなに ほんが あります。",
+              "romaji": "tana ni hon ga arimasu.",
+              "meanings": {
+                "id": "Ada buku di rak.",
+                "en": "There are books on the shelf."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "棚に置きます。",
+              "furigana": "たなに おきます。",
+              "romaji": "tana ni okimasu.",
+              "meanings": {
+                "id": "Saya meletakkan di rak.",
+                "en": "I put it on the shelf."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい棚です。",
+              "furigana": "あたらしい たな です。",
+              "romaji": "atarashii tana desu.",
+              "meanings": {
+                "id": "Rak baru.",
+                "en": "It's a new shelf."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -12773,7 +13253,39 @@
           "meanings": {
             "en": "tatami",
             "id": "tatami, alas lantai gaya Jepang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "畳の部屋です。",
+              "furigana": "たたみの へや です。",
+              "romaji": "tatami no heya desu.",
+              "meanings": {
+                "id": "Kamar dengan tatami.",
+                "en": "It's a tatami room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "畳に座ります。",
+              "furigana": "たたみに すわります。",
+              "romaji": "tatami ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di tatami.",
+                "en": "I sit on the tatami."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい畳です。",
+              "furigana": "あたらしい たたみ です。",
+              "romaji": "atarashii tatami desu.",
+              "meanings": {
+                "id": "Tatami baru.",
+                "en": "It's a new tatami."
+              }
+            }
+          ]
         }
       ]
     },
@@ -12792,7 +13304,39 @@
           "meanings": {
             "en": "dictionary",
             "id": "kamus"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "辞典で調べます。",
+              "furigana": "じてんで しらべます。",
+              "romaji": "jiten de shirabemasu.",
+              "meanings": {
+                "id": "Saya mencari di kamus.",
+                "en": "I look it up in the dictionary."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "辞典を買いました。",
+              "furigana": "じてんを かいました。",
+              "romaji": "jiten wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli kamus.",
+                "en": "I bought a dictionary."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いい辞典です。",
+              "furigana": "いい じてん です。",
+              "romaji": "ii jiten desu.",
+              "meanings": {
+                "id": "Kamus yang bagus.",
+                "en": "It's a good dictionary."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -12802,7 +13346,39 @@
           "meanings": {
             "en": "eraser",
             "id": "penghapus"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "消しゴムを使います。",
+              "furigana": "けしごむを つかいます。",
+              "romaji": "keshigomu wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan penghapus.",
+                "en": "I use an eraser."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "消しゴムをください。",
+              "furigana": "けしごむを ください。",
+              "romaji": "keshigomu wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan penghapus.",
+                "en": "Please give me an eraser."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい消しゴムです。",
+              "furigana": "あたらしい けしごむ です。",
+              "romaji": "atarashii keshigomu desu.",
+              "meanings": {
+                "id": "Penghapus baru.",
+                "en": "It's a new eraser."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -12812,7 +13388,39 @@
           "meanings": {
             "en": "diary",
             "id": "buku harian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日記を書きます。",
+              "furigana": "にっきを かきます。",
+              "romaji": "nikki wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis buku harian.",
+                "en": "I write a diary."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日日記を書きます。",
+              "furigana": "まいにち にっきを かきます。",
+              "romaji": "mainichi nikki wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis buku harian setiap hari.",
+                "en": "I write a diary every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日記を読みました。",
+              "furigana": "にっきを よみました。",
+              "romaji": "nikki wo yomimashita.",
+              "meanings": {
+                "id": "Saya membaca buku harian.",
+                "en": "I read a diary."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -12822,7 +13430,39 @@
           "meanings": {
             "en": "manual, guidebook",
             "id": "buku petunjuk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "説明書を読みます。",
+              "furigana": "せつめいしょを よみます。",
+              "romaji": "setsumeisho wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca buku petunjuk.",
+                "en": "I read the manual."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "説明書がありますか。",
+              "furigana": "せつめいしょが ありますか。",
+              "romaji": "setsumeisho ga arimasuka.",
+              "meanings": {
+                "id": "Apakah ada buku petunjuk?",
+                "en": "Is there a manual?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "説明書を見てください。",
+              "furigana": "せつめいしょを みて ください。",
+              "romaji": "setsumeisho wo mite kudasai.",
+              "meanings": {
+                "id": "Tolong lihat buku petunjuk.",
+                "en": "Please look at the manual."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -12832,7 +13472,39 @@
           "meanings": {
             "en": "textbook",
             "id": "buku pelajaran"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テキストを読みます。",
+              "furigana": "テキストを よみます。",
+              "romaji": "tekisuto wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca buku pelajaran.",
+                "en": "I read the textbook."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テキストを買いました。",
+              "furigana": "テキストを かいました。",
+              "romaji": "tekisuto wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli buku pelajaran.",
+                "en": "I bought a textbook."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本語のテキストです。",
+              "furigana": "にほんごの テキスト です。",
+              "romaji": "nihongo no tekisuto desu.",
+              "meanings": {
+                "id": "Buku pelajaran bahasa Jepang.",
+                "en": "It's a Japanese textbook."
+              }
+            }
+          ]
         }
       ]
     },
