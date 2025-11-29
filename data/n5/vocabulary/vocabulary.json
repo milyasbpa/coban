@@ -11215,7 +11215,39 @@
           "meanings": {
             "en": "village",
             "id": "dusun, desa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "村に住んでいます。",
+              "furigana": "むらに すんでいます。",
+              "romaji": "mura ni sunde imasu.",
+              "meanings": {
+                "id": "Saya tinggal di desa.",
+                "en": "I live in a village."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "小さい村です。",
+              "furigana": "ちいさい むらです。",
+              "romaji": "chiisai mura desu.",
+              "meanings": {
+                "id": "Ini desa kecil.",
+                "en": "It's a small village."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "村へ行きます。",
+              "furigana": "むらへ いきます。",
+              "romaji": "mura e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke desa.",
+                "en": "I go to the village."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -11225,7 +11257,39 @@
           "meanings": {
             "en": "town, city",
             "id": "kota"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "町を歩きます。",
+              "furigana": "まちを あるきます。",
+              "romaji": "machi wo arukimasu.",
+              "meanings": {
+                "id": "Saya berjalan di kota.",
+                "en": "I walk in the town."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きい町です。",
+              "furigana": "おおきい まちです。",
+              "romaji": "ookii machi desu.",
+              "meanings": {
+                "id": "Ini kota besar.",
+                "en": "It's a big city."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "町へ行きます。",
+              "furigana": "まちへ いきます。",
+              "romaji": "machi e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kota.",
+                "en": "I go to town."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -11235,7 +11299,39 @@
           "meanings": {
             "en": "road",
             "id": "jalan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "道を歩きます。",
+              "furigana": "みちを あるきます。",
+              "romaji": "michi wo arukimasu.",
+              "meanings": {
+                "id": "Saya berjalan di jalan.",
+                "en": "I walk on the road."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "道が広いです。",
+              "furigana": "みちが ひろいです。",
+              "romaji": "michi ga hiroi desu.",
+              "meanings": {
+                "id": "Jalannya lebar.",
+                "en": "The road is wide."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この道を行きます。",
+              "furigana": "この みちを いきます。",
+              "romaji": "kono michi wo ikimasu.",
+              "meanings": {
+                "id": "Saya pergi lewat jalan ini.",
+                "en": "I go this way."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -11245,7 +11341,39 @@
           "meanings": {
             "en": "corner, turn",
             "id": "sudut, tikungan, belokan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "角を曲がります。",
+              "furigana": "かどを まがります。",
+              "romaji": "kado wo magarimasu.",
+              "meanings": {
+                "id": "Saya belok di sudut.",
+                "en": "I turn at the corner."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "角に店があります。",
+              "furigana": "かどに みせが あります。",
+              "romaji": "kado ni mise ga arimasu.",
+              "meanings": {
+                "id": "Ada toko di sudut.",
+                "en": "There is a shop at the corner."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "右の角です。",
+              "furigana": "みぎの かどです。",
+              "romaji": "migi no kado desu.",
+              "meanings": {
+                "id": "Sudut kanan.",
+                "en": "The right corner."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -11255,7 +11383,39 @@
           "meanings": {
             "en": "intersection",
             "id": "persimpangan jalan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "交差点を渡ります。",
+              "furigana": "こうさてんを わたります。",
+              "romaji": "kousaten wo watarimasu.",
+              "meanings": {
+                "id": "Saya menyeberang persimpangan.",
+                "en": "I cross the intersection."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "交差点で待ちます。",
+              "furigana": "こうさてんで まちます。",
+              "romaji": "kousaten de machimasu.",
+              "meanings": {
+                "id": "Saya menunggu di persimpangan.",
+                "en": "I wait at the intersection."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大きい交差点です。",
+              "furigana": "おおきい こうさてんです。",
+              "romaji": "ookii kousaten desu.",
+              "meanings": {
+                "id": "Ini persimpangan besar.",
+                "en": "It's a big intersection."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -11265,7 +11425,39 @@
           "meanings": {
             "en": "bridge",
             "id": "jembatan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "橋を渡ります。",
+              "furigana": "はしを わたります。",
+              "romaji": "hashi wo watarimasu.",
+              "meanings": {
+                "id": "Saya menyeberangi jembatan.",
+                "en": "I cross the bridge."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "橋があります。",
+              "furigana": "はしが あります。",
+              "romaji": "hashi ga arimasu.",
+              "meanings": {
+                "id": "Ada jembatan.",
+                "en": "There is a bridge."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "長い橋です。",
+              "furigana": "ながい はしです。",
+              "romaji": "nagai hashi desu.",
+              "meanings": {
+                "id": "Jembatan panjang.",
+                "en": "It's a long bridge."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -11275,7 +11467,39 @@
           "meanings": {
             "en": "park",
             "id": "taman"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "公園へ行きます。",
+              "furigana": "こうえんへ いきます。",
+              "romaji": "kouen e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke taman.",
+                "en": "I go to the park."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "公園で遊びます。",
+              "furigana": "こうえんで あそびます。",
+              "romaji": "kouen de asobimasu.",
+              "meanings": {
+                "id": "Saya bermain di taman.",
+                "en": "I play in the park."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "公園が好きです。",
+              "furigana": "こうえんが すきです。",
+              "romaji": "kouen ga suki desu.",
+              "meanings": {
+                "id": "Saya suka taman.",
+                "en": "I like the park."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -11285,7 +11509,39 @@
           "meanings": {
             "en": "pool",
             "id": "kolam renang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "プールで泳ぎます。",
+              "furigana": "ぷーるで およぎます。",
+              "romaji": "puuru de oyogimasu.",
+              "meanings": {
+                "id": "Saya berenang di kolam renang.",
+                "en": "I swim in the pool."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "プールへ行きます。",
+              "furigana": "ぷーるへ いきます。",
+              "romaji": "puuru e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kolam renang.",
+                "en": "I go to the pool."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "プールが好きです。",
+              "furigana": "ぷーるが すきです。",
+              "romaji": "puuru ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kolam renang.",
+                "en": "I like the pool."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -11295,7 +11551,39 @@
           "meanings": {
             "en": "tennis court",
             "id": "lapangan tenis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テニスコートでテニスをします。",
+              "furigana": "てにすこーとで てにすを します。",
+              "romaji": "tenisu kooto de tenisu wo shimasu.",
+              "meanings": {
+                "id": "Saya bermain tenis di lapangan tenis.",
+                "en": "I play tennis on the tennis court."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テニスコートへ行きます。",
+              "furigana": "てにすこーとへ いきます。",
+              "romaji": "tenisu kooto e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke lapangan tenis.",
+                "en": "I go to the tennis court."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テニスコートがあります。",
+              "furigana": "てにすこーとが あります。",
+              "romaji": "tenisu kooto ga arimasu.",
+              "meanings": {
+                "id": "Ada lapangan tenis.",
+                "en": "There is a tennis court."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -11305,7 +11593,39 @@
           "meanings": {
             "en": "map",
             "id": "peta"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地図を見ます。",
+              "furigana": "ちずを みます。",
+              "romaji": "chizu wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat peta.",
+                "en": "I look at the map."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "地図があります。",
+              "furigana": "ちずが あります。",
+              "romaji": "chizu ga arimasu.",
+              "meanings": {
+                "id": "Ada peta.",
+                "en": "There is a map."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "地図を買います。",
+              "furigana": "ちずを かいます。",
+              "romaji": "chizu wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli peta.",
+                "en": "I buy a map."
+              }
+            }
+          ]
         }
       ]
     },
@@ -11324,7 +11644,39 @@
           "meanings": {
             "en": "car, vehicle",
             "id": "mobil, kendaraan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "車で行きます。",
+              "furigana": "くるまで いきます。",
+              "romaji": "kuruma de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan mobil.",
+                "en": "I go by car."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "車があります。",
+              "furigana": "くるまが あります。",
+              "romaji": "kuruma ga arimasu.",
+              "meanings": {
+                "id": "Ada mobil.",
+                "en": "There is a car."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "車を買います。",
+              "furigana": "くるまを かいます。",
+              "romaji": "kuruma wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli mobil.",
+                "en": "I buy a car."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -11334,7 +11686,39 @@
           "meanings": {
             "en": "car",
             "id": "mobil"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "自動車を運転します。",
+              "furigana": "じどうしゃを うんてんします。",
+              "romaji": "jidousha wo unten shimasu.",
+              "meanings": {
+                "id": "Saya mengendarai mobil.",
+                "en": "I drive a car."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "自動車があります。",
+              "furigana": "じどうしゃが あります。",
+              "romaji": "jidousha ga arimasu.",
+              "meanings": {
+                "id": "Ada mobil.",
+                "en": "There is a car."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい自動車です。",
+              "furigana": "あたらしい じどうしゃです。",
+              "romaji": "atarashii jidousha desu.",
+              "meanings": {
+                "id": "Ini mobil baru.",
+                "en": "It's a new car."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -11344,7 +11728,39 @@
           "meanings": {
             "en": "bicycle",
             "id": "sepeda"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "自転車に乗ります。",
+              "furigana": "じてんしゃに のります。",
+              "romaji": "jitensha ni norimasu.",
+              "meanings": {
+                "id": "Saya naik sepeda.",
+                "en": "I ride a bicycle."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "自転車で行きます。",
+              "furigana": "じてんしゃで いきます。",
+              "romaji": "jitensha de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan sepeda.",
+                "en": "I go by bicycle."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "自転車を買います。",
+              "furigana": "じてんしゃを かいます。",
+              "romaji": "jitensha wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli sepeda.",
+                "en": "I buy a bicycle."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -11354,7 +11770,39 @@
           "meanings": {
             "en": "motorcycle",
             "id": "motor"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "バイクに乗ります。",
+              "furigana": "ばいくに のります。",
+              "romaji": "baiku ni norimasu.",
+              "meanings": {
+                "id": "Saya naik motor.",
+                "en": "I ride a motorcycle."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "バイクで行きます。",
+              "furigana": "ばいくで いきます。",
+              "romaji": "baiku de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan motor.",
+                "en": "I go by motorcycle."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "オートバイクを買います。",
+              "furigana": "おーとばいくを かいます。",
+              "romaji": "ootobaiku wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli motor.",
+                "en": "I buy a motorcycle."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -11364,7 +11812,39 @@
           "meanings": {
             "en": "taxi",
             "id": "taksi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "タクシーに乗ります。",
+              "furigana": "たくしーに のります。",
+              "romaji": "takushii ni norimasu.",
+              "meanings": {
+                "id": "Saya naik taksi.",
+                "en": "I take a taxi."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "タクシーで行きます。",
+              "furigana": "たくしーで いきます。",
+              "romaji": "takushii de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan taksi.",
+                "en": "I go by taxi."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "タクシーを呼びます。",
+              "furigana": "たくしーを よびます。",
+              "romaji": "takushii wo yobimasu.",
+              "meanings": {
+                "id": "Saya memanggil taksi.",
+                "en": "I call a taxi."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -11374,7 +11854,39 @@
           "meanings": {
             "en": "bus",
             "id": "bis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "バスに乗ります。",
+              "furigana": "ばすに のります。",
+              "romaji": "basu ni norimasu.",
+              "meanings": {
+                "id": "Saya naik bis.",
+                "en": "I take a bus."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "バスで行きます。",
+              "furigana": "ばすで いきます。",
+              "romaji": "basu de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan bis.",
+                "en": "I go by bus."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "バスを待ちます。",
+              "furigana": "ばすを まちます。",
+              "romaji": "basu wo machimasu.",
+              "meanings": {
+                "id": "Saya menunggu bis.",
+                "en": "I wait for the bus."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -11384,7 +11896,39 @@
           "meanings": {
             "en": "electric train",
             "id": "kereta listrik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電車に乗ります。",
+              "furigana": "でんしゃに のります。",
+              "romaji": "densha ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta.",
+                "en": "I take the train."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電車で行きます。",
+              "furigana": "でんしゃで いきます。",
+              "romaji": "densha de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan kereta.",
+                "en": "I go by train."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電車が来ます。",
+              "furigana": "でんしゃが きます。",
+              "romaji": "densha ga kimasu.",
+              "meanings": {
+                "id": "Kereta datang.",
+                "en": "The train is coming."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -11394,7 +11938,39 @@
           "meanings": {
             "en": "subway",
             "id": "kereta bawah tanah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地下鉄に乗ります。",
+              "furigana": "ちかてつに のります。",
+              "romaji": "chikatetsu ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta bawah tanah.",
+                "en": "I take the subway."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "地下鉄で行きます。",
+              "furigana": "ちかてつで いきます。",
+              "romaji": "chikatetsu de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan kereta bawah tanah.",
+                "en": "I go by subway."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "地下鉄が便利です。",
+              "furigana": "ちかてつが べんりです。",
+              "romaji": "chikatetsu ga benri desu.",
+              "meanings": {
+                "id": "Kereta bawah tanah praktis.",
+                "en": "The subway is convenient."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -11404,7 +11980,39 @@
           "meanings": {
             "en": "airplane",
             "id": "pesawat terbang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "飛行機に乗ります。",
+              "furigana": "ひこうきに のります。",
+              "romaji": "hikouki ni norimasu.",
+              "meanings": {
+                "id": "Saya naik pesawat.",
+                "en": "I take an airplane."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "飛行機で行きます。",
+              "furigana": "ひこうきで いきます。",
+              "romaji": "hikouki de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan pesawat.",
+                "en": "I go by airplane."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "飛行機が飛びます。",
+              "furigana": "ひこうきが とびます。",
+              "romaji": "hikouki ga tobimasu.",
+              "meanings": {
+                "id": "Pesawat terbang.",
+                "en": "The airplane flies."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -11414,7 +12022,39 @@
           "meanings": {
             "en": "ticket",
             "id": "karcis, tiket"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "切符を買います。",
+              "furigana": "きっぷを かいます。",
+              "romaji": "kippu wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli tiket.",
+                "en": "I buy a ticket."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "切符があります。",
+              "furigana": "きっぷが あります。",
+              "romaji": "kippu ga arimasu.",
+              "meanings": {
+                "id": "Ada tiket.",
+                "en": "There is a ticket."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "切符を見せます。",
+              "furigana": "きっぷを みせます。",
+              "romaji": "kippu wo misemasu.",
+              "meanings": {
+                "id": "Saya menunjukkan tiket.",
+                "en": "I show the ticket."
+              }
+            }
+          ]
         }
       ]
     },
