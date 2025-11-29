@@ -12073,7 +12073,39 @@
           "meanings": {
             "en": "school",
             "id": "sekolah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "学校へ行きます。",
+              "furigana": "がっこうへ いきます。",
+              "romaji": "gakkou e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke sekolah.",
+                "en": "I go to school."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "学校で勉強します。",
+              "furigana": "がっこうで べんきょうします。",
+              "romaji": "gakkou de benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar di sekolah.",
+                "en": "I study at school."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "学校が好きです。",
+              "furigana": "がっこうが すきです。",
+              "romaji": "gakkou ga suki desu.",
+              "meanings": {
+                "id": "Saya suka sekolah.",
+                "en": "I like school."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -12083,7 +12115,39 @@
           "meanings": {
             "en": "university",
             "id": "universitas, perguruan tinggi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大学へ行きます。",
+              "furigana": "だいがくへ いきます。",
+              "romaji": "daigaku e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke universitas.",
+                "en": "I go to university."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大学で勉強します。",
+              "furigana": "だいがくで べんきょうします。",
+              "romaji": "daigaku de benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar di universitas.",
+                "en": "I study at university."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大学生です。",
+              "furigana": "だいがくせいです。",
+              "romaji": "daigakusei desu.",
+              "meanings": {
+                "id": "Saya mahasiswa.",
+                "en": "I'm a university student."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -12093,7 +12157,39 @@
           "meanings": {
             "en": "classroom, class",
             "id": "kelas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "教室で勉強します。",
+              "furigana": "きょうしつで べんきょうします。",
+              "romaji": "kyoushitsu de benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar di kelas.",
+                "en": "I study in the classroom."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "クラスへ行きます。",
+              "furigana": "くらすへ いきます。",
+              "romaji": "kurasu e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kelas.",
+                "en": "I go to class."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "教室が広いです。",
+              "furigana": "きょうしつが ひろいです。",
+              "romaji": "kyoushitsu ga hiroi desu.",
+              "meanings": {
+                "id": "Kelasnya luas.",
+                "en": "The classroom is spacious."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -12103,7 +12199,39 @@
           "meanings": {
             "en": "library",
             "id": "perpustakaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "図書館へ行きます。",
+              "furigana": "としょかんへ いきます。",
+              "romaji": "toshokan e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke perpustakaan.",
+                "en": "I go to the library."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "図書館で本を読みます。",
+              "furigana": "としょかんで ほんを よみます。",
+              "romaji": "toshokan de hon wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca buku di perpustakaan.",
+                "en": "I read books in the library."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "図書館が静かです。",
+              "furigana": "としょかんが しずかです。",
+              "romaji": "toshokan ga shizuka desu.",
+              "meanings": {
+                "id": "Perpustakaannya tenang.",
+                "en": "The library is quiet."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -12113,7 +12241,39 @@
           "meanings": {
             "en": "lesson, class",
             "id": "pelajaran, perkuliahan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "授業があります。",
+              "furigana": "じゅぎょうが あります。",
+              "romaji": "jugyou ga arimasu.",
+              "meanings": {
+                "id": "Ada pelajaran.",
+                "en": "There is a class."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "授業が始まります。",
+              "furigana": "じゅぎょうが はじまります。",
+              "romaji": "jugyou ga hajimarimasu.",
+              "meanings": {
+                "id": "Pelajaran dimulai.",
+                "en": "The class starts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "授業が面白いです。",
+              "furigana": "じゅぎょうが おもしろいです。",
+              "romaji": "jugyou ga omoshiroi desu.",
+              "meanings": {
+                "id": "Pelajarannya menarik.",
+                "en": "The class is interesting."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -12123,7 +12283,39 @@
           "meanings": {
             "en": "word, language",
             "id": "kata-kata, bahasa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "言葉を勉強します。",
+              "furigana": "ことばを べんきょうします。",
+              "romaji": "kotoba wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar kata-kata.",
+                "en": "I study words."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新しい言葉です。",
+              "furigana": "あたらしい ことばです。",
+              "romaji": "atarashii kotoba desu.",
+              "meanings": {
+                "id": "Ini kata baru.",
+                "en": "It's a new word."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "言葉を覚えます。",
+              "furigana": "ことばを おぼえます。",
+              "romaji": "kotoba wo oboemasu.",
+              "meanings": {
+                "id": "Saya mengingat kata-kata.",
+                "en": "I memorize words."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -12133,7 +12325,39 @@
           "meanings": {
             "en": "English",
             "id": "bahasa Inggris"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "英語を勉強します。",
+              "furigana": "えいごを べんきょうします。",
+              "romaji": "eigo wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar bahasa Inggris.",
+                "en": "I study English."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "英語が話せます。",
+              "furigana": "えいごが はなせます。",
+              "romaji": "eigo ga hanasemasu.",
+              "meanings": {
+                "id": "Saya bisa berbicara bahasa Inggris.",
+                "en": "I can speak English."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "英語が好きです。",
+              "furigana": "えいごが すきです。",
+              "romaji": "eigo ga suki desu.",
+              "meanings": {
+                "id": "Saya suka bahasa Inggris.",
+                "en": "I like English."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -12143,7 +12367,39 @@
           "meanings": {
             "en": "kanji (character)",
             "id": "(huruf) kanji"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "漢字を勉強します。",
+              "furigana": "かんじを べんきょうします。",
+              "romaji": "kanji wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar kanji.",
+                "en": "I study kanji."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "漢字を書きます。",
+              "furigana": "かんじを かきます。",
+              "romaji": "kanji wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis kanji.",
+                "en": "I write kanji."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "漢字が難しいです。",
+              "furigana": "かんじが むずかしいです。",
+              "romaji": "kanji ga muzukashii desu.",
+              "meanings": {
+                "id": "Kanji sulit.",
+                "en": "Kanji is difficult."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -12153,7 +12409,39 @@
           "meanings": {
             "en": "sentence",
             "id": "kalimat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "文章を書きます。",
+              "furigana": "ぶんしょうを かきます。",
+              "romaji": "bunshou wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis kalimat.",
+                "en": "I write a sentence."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "文章を読みます。",
+              "furigana": "ぶんしょうを よみます。",
+              "romaji": "bunshou wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca kalimat.",
+                "en": "I read a sentence."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "長い文章です。",
+              "furigana": "ながい ぶんしょうです。",
+              "romaji": "nagai bunshou desu.",
+              "meanings": {
+                "id": "Ini kalimat panjang.",
+                "en": "It's a long sentence."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -12163,7 +12451,39 @@
           "meanings": {
             "en": "composition",
             "id": "karangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "作文を書きます。",
+              "furigana": "さくぶんを かきます。",
+              "romaji": "sakubun wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis karangan.",
+                "en": "I write a composition."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "作文の宿題があります。",
+              "furigana": "さくぶんの しゅくだいが あります。",
+              "romaji": "sakubun no shukudai ga arimasu.",
+              "meanings": {
+                "id": "Ada PR karangan.",
+                "en": "There is composition homework."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "作文が上手です。",
+              "furigana": "さくぶんが じょうずです。",
+              "romaji": "sakubun ga jouzu desu.",
+              "meanings": {
+                "id": "Karangannya bagus.",
+                "en": "The composition is good."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -12173,7 +12493,39 @@
           "meanings": {
             "en": "dictionary",
             "id": "kamus"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "辞書を使います。",
+              "furigana": "じしょを つかいます。",
+              "romaji": "jisho wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan kamus.",
+                "en": "I use a dictionary."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "辞書で調べます。",
+              "furigana": "じしょで しらべます。",
+              "romaji": "jisho de shirabemasu.",
+              "meanings": {
+                "id": "Saya mencari di kamus.",
+                "en": "I look it up in a dictionary."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "辞書を買います。",
+              "furigana": "じしょを かいます。",
+              "romaji": "jisho wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli kamus.",
+                "en": "I buy a dictionary."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -12183,7 +12535,39 @@
           "meanings": {
             "en": "meaning",
             "id": "arti"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "意味がわかります。",
+              "furigana": "いみが わかります。",
+              "romaji": "imi ga wakarimasu.",
+              "meanings": {
+                "id": "Saya mengerti artinya.",
+                "en": "I understand the meaning."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "意味を教えてください。",
+              "furigana": "いみを おしえて ください。",
+              "romaji": "imi wo oshiete kudasai.",
+              "meanings": {
+                "id": "Tolong ajari saya artinya.",
+                "en": "Please tell me the meaning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "意味がわかりません。",
+              "furigana": "いみが わかりません。",
+              "romaji": "imi ga wakarimasen.",
+              "meanings": {
+                "id": "Saya tidak mengerti artinya.",
+                "en": "I don't understand the meaning."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -12193,7 +12577,39 @@
           "meanings": {
             "en": "homework",
             "id": "pekerjaan rumah, PR"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "宿題をします。",
+              "furigana": "しゅくだいを します。",
+              "romaji": "shukudai wo shimasu.",
+              "meanings": {
+                "id": "Saya mengerjakan PR.",
+                "en": "I do homework."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "宿題があります。",
+              "furigana": "しゅくだいが あります。",
+              "romaji": "shukudai ga arimasu.",
+              "meanings": {
+                "id": "Ada PR.",
+                "en": "There is homework."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "宿題が多いです。",
+              "furigana": "しゅくだいが おおいです。",
+              "romaji": "shukudai ga ooi desu.",
+              "meanings": {
+                "id": "PR-nya banyak.",
+                "en": "There is a lot of homework."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -12203,7 +12619,39 @@
           "meanings": {
             "en": "test, exam",
             "id": "tes, ulangan, ujian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テストがあります。",
+              "furigana": "てすとが あります。",
+              "romaji": "tesuto ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian.",
+                "en": "There is a test."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "試験を受けます。",
+              "furigana": "しけんを うけます。",
+              "romaji": "shiken wo ukemasu.",
+              "meanings": {
+                "id": "Saya mengikuti ujian.",
+                "en": "I take an exam."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テストが難しいです。",
+              "furigana": "てすとが むずかしいです。",
+              "romaji": "tesuto ga muzukashii desu.",
+              "meanings": {
+                "id": "Ujiannya sulit.",
+                "en": "The test is difficult."
+              }
+            }
+          ]
         }
       ]
     },
@@ -12222,7 +12670,39 @@
           "meanings": {
             "en": "building",
             "id": "bangunan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "建物が高いです。",
+              "furigana": "たてものが たかいです。",
+              "romaji": "tatemono ga takai desu.",
+              "meanings": {
+                "id": "Bangunannya tinggi.",
+                "en": "The building is tall."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新しい建物です。",
+              "furigana": "あたらしい たてものです。",
+              "romaji": "atarashii tatemono desu.",
+              "meanings": {
+                "id": "Ini bangunan baru.",
+                "en": "It's a new building."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "建物を見ます。",
+              "furigana": "たてものを みます。",
+              "romaji": "tatemono wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat bangunan.",
+                "en": "I look at the building."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -12232,7 +12712,39 @@
           "meanings": {
             "en": "apartment",
             "id": "apartemen"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "アパートに住んでいます。",
+              "furigana": "あぱーとに すんでいます。",
+              "romaji": "apaato ni sunde imasu.",
+              "meanings": {
+                "id": "Saya tinggal di apartemen.",
+                "en": "I live in an apartment."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "アパートを探します。",
+              "furigana": "あぱーとを さがします。",
+              "romaji": "apaato wo sagashimasu.",
+              "meanings": {
+                "id": "Saya mencari apartemen.",
+                "en": "I look for an apartment."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アパートが古いです。",
+              "furigana": "あぱーとが ふるいです。",
+              "romaji": "apaato ga furui desu.",
+              "meanings": {
+                "id": "Apartemennnya lama.",
+                "en": "The apartment is old."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -12242,7 +12754,39 @@
           "meanings": {
             "en": "house",
             "id": "rumah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "家に帰ります。",
+              "furigana": "いえに かえります。",
+              "romaji": "ie ni kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang ke rumah.",
+                "en": "I go home."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家にいます。",
+              "furigana": "いえに います。",
+              "romaji": "ie ni imasu.",
+              "meanings": {
+                "id": "Saya ada di rumah.",
+                "en": "I'm at home."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大きい家です。",
+              "furigana": "おおきい いえです。",
+              "romaji": "ookii ie desu.",
+              "meanings": {
+                "id": "Ini rumah besar.",
+                "en": "It's a big house."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -12252,7 +12796,39 @@
           "meanings": {
             "en": "hotel",
             "id": "hotel"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ホテルに泊まります。",
+              "furigana": "ほてるに とまります。",
+              "romaji": "hoteru ni tomarimasu.",
+              "meanings": {
+                "id": "Saya menginap di hotel.",
+                "en": "I stay at a hotel."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ホテルを予約します。",
+              "furigana": "ほてるを よやくします。",
+              "romaji": "hoteru wo yoyaku shimasu.",
+              "meanings": {
+                "id": "Saya memesan hotel.",
+                "en": "I book a hotel."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ホテルがきれいです。",
+              "furigana": "ほてるが きれいです。",
+              "romaji": "hoteru ga kirei desu.",
+              "meanings": {
+                "id": "Hotelnya bersih.",
+                "en": "The hotel is clean."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -12262,7 +12838,39 @@
           "meanings": {
             "en": "department store",
             "id": "toko serba-ada"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "デパートへ行きます。",
+              "furigana": "でぱーとへ いきます。",
+              "romaji": "depaato e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke department store.",
+                "en": "I go to the department store."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "デパートで買い物をします。",
+              "furigana": "でぱーとで かいものを します。",
+              "romaji": "depaato de kaimono wo shimasu.",
+              "meanings": {
+                "id": "Saya berbelanja di department store.",
+                "en": "I shop at the department store."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大きいデパートです。",
+              "furigana": "おおきい でぱーとです。",
+              "romaji": "ookii depaato desu.",
+              "meanings": {
+                "id": "Ini department store besar.",
+                "en": "It's a big department store."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -12272,7 +12880,39 @@
           "meanings": {
             "en": "station",
             "id": "stasiun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "駅へ行きます。",
+              "furigana": "えきへ いきます。",
+              "romaji": "eki e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke stasiun.",
+                "en": "I go to the station."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駅で待ちます。",
+              "furigana": "えきで まちます。",
+              "romaji": "eki de machimasu.",
+              "meanings": {
+                "id": "Saya menunggu di stasiun.",
+                "en": "I wait at the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "駅が近いです。",
+              "furigana": "えきが ちかいです。",
+              "romaji": "eki ga chikai desu.",
+              "meanings": {
+                "id": "Stasiunnya dekat.",
+                "en": "The station is close."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -12282,7 +12922,39 @@
           "meanings": {
             "en": "hospital",
             "id": "rumah sakit"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "病院へ行きます。",
+              "furigana": "びょういんへ いきます。",
+              "romaji": "byouin e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke rumah sakit.",
+                "en": "I go to the hospital."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "病院で働きます。",
+              "furigana": "びょういんで はたらきます。",
+              "romaji": "byouin de hatarakimasu.",
+              "meanings": {
+                "id": "Saya bekerja di rumah sakit.",
+                "en": "I work at the hospital."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "病院が大きいです。",
+              "furigana": "びょういんが おおきいです。",
+              "romaji": "byouin ga ookii desu.",
+              "meanings": {
+                "id": "Rumah sakitnya besar.",
+                "en": "The hospital is big."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -12292,7 +12964,39 @@
           "meanings": {
             "en": "cinema",
             "id": "bioskop"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "映画館へ行きます。",
+              "furigana": "えいがかんへ いきます。",
+              "romaji": "eigakan e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke bioskop.",
+                "en": "I go to the cinema."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "映画館で映画を見ます。",
+              "furigana": "えいがかんで えいがを みます。",
+              "romaji": "eigakan de eiga wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton film di bioskop.",
+                "en": "I watch a movie at the cinema."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "映画館が近いです。",
+              "furigana": "えいがかんが ちかいです。",
+              "romaji": "eigakan ga chikai desu.",
+              "meanings": {
+                "id": "Bioskopnya dekat.",
+                "en": "The cinema is close."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -12302,7 +13006,39 @@
           "meanings": {
             "en": "bank",
             "id": "bank"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "銀行へ行きます。",
+              "furigana": "ぎんこうへ いきます。",
+              "romaji": "ginkou e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke bank.",
+                "en": "I go to the bank."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "銀行でお金を下ろします。",
+              "furigana": "ぎんこうで おかねを おろします。",
+              "romaji": "ginkou de okane wo oroshimasu.",
+              "meanings": {
+                "id": "Saya mengambil uang di bank.",
+                "en": "I withdraw money at the bank."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "銀行が開きます。",
+              "furigana": "ぎんこうが あきます。",
+              "romaji": "ginkou ga akimasu.",
+              "meanings": {
+                "id": "Bank buka.",
+                "en": "The bank opens."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -12312,7 +13048,39 @@
           "meanings": {
             "en": "post office",
             "id": "kantor pos"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "郵便局へ行きます。",
+              "furigana": "ゆうびんきょくへ いきます。",
+              "romaji": "yuubinkyoku e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kantor pos.",
+                "en": "I go to the post office."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "郵便局で手紙を出します。",
+              "furigana": "ゆうびんきょくで てがみを だします。",
+              "romaji": "yuubinkyoku de tegami wo dashimasu.",
+              "meanings": {
+                "id": "Saya mengirim surat di kantor pos.",
+                "en": "I mail a letter at the post office."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "郵便局が近いです。",
+              "furigana": "ゆうびんきょくが ちかいです。",
+              "romaji": "yuubinkyoku ga chikai desu.",
+              "meanings": {
+                "id": "Kantor posnya dekat.",
+                "en": "The post office is close."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -12322,7 +13090,39 @@
           "meanings": {
             "en": "embassy",
             "id": "kedutaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大使館へ行きます。",
+              "furigana": "たいしかんへ いきます。",
+              "romaji": "taishikan e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kedutaan.",
+                "en": "I go to the embassy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "日本の大使館です。",
+              "furigana": "にほんの たいしかんです。",
+              "romaji": "nihon no taishikan desu.",
+              "meanings": {
+                "id": "Ini kedutaan Jepang.",
+                "en": "It's the Japanese embassy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大使館で働きます。",
+              "furigana": "たいしかんで はたらきます。",
+              "romaji": "taishikan de hatarakimasu.",
+              "meanings": {
+                "id": "Saya bekerja di kedutaan.",
+                "en": "I work at the embassy."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -12332,7 +13132,39 @@
           "meanings": {
             "en": "police box",
             "id": "pos polisi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "交番へ行きます。",
+              "furigana": "こうばんへ いきます。",
+              "romaji": "kouban e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke pos polisi.",
+                "en": "I go to the police box."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "交番で聞きます。",
+              "furigana": "こうばんで ききます。",
+              "romaji": "kouban de kikimasu.",
+              "meanings": {
+                "id": "Saya bertanya di pos polisi.",
+                "en": "I ask at the police box."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "交番がそこにあります。",
+              "furigana": "こうばんが そこに あります。",
+              "romaji": "kouban ga soko ni arimasu.",
+              "meanings": {
+                "id": "Pos polisi ada di sana.",
+                "en": "The police box is there."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -12342,7 +13174,39 @@
           "meanings": {
             "en": "company",
             "id": "kantor, perusahaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "会社へ行きます。",
+              "furigana": "かいしゃへ いきます。",
+              "romaji": "kaisha e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kantor.",
+                "en": "I go to the company."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "会社で働きます。",
+              "furigana": "かいしゃで はたらきます。",
+              "romaji": "kaisha de hatarakimasu.",
+              "meanings": {
+                "id": "Saya bekerja di perusahaan.",
+                "en": "I work at a company."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "会社員です。",
+              "furigana": "かいしゃいんです。",
+              "romaji": "kaishain desu.",
+              "meanings": {
+                "id": "Saya karyawan.",
+                "en": "I'm a company employee."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -12352,7 +13216,39 @@
           "meanings": {
             "en": "restaurant",
             "id": "restoran"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "レストランへ行きます。",
+              "furigana": "れすとらんへ いきます。",
+              "romaji": "resutoran e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke restoran.",
+                "en": "I go to a restaurant."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "レストランで食べます。",
+              "furigana": "れすとらんで たべます。",
+              "romaji": "resutoran de tabemasu.",
+              "meanings": {
+                "id": "Saya makan di restoran.",
+                "en": "I eat at a restaurant."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "レストランがおいしいです。",
+              "furigana": "れすとらんが おいしいです。",
+              "romaji": "resutoran ga oishii desu.",
+              "meanings": {
+                "id": "Restorannya enak.",
+                "en": "The restaurant is delicious."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -12362,7 +13258,39 @@
           "meanings": {
             "en": "coffee shop",
             "id": "kedai kopi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "喫茶店へ行きます。",
+              "furigana": "きっさてんへ いきます。",
+              "romaji": "kissaten e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kedai kopi.",
+                "en": "I go to a coffee shop."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "喫茶店でコーヒーを飲みます。",
+              "furigana": "きっさてんで こーひーを のみます。",
+              "romaji": "kissaten de koohii wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum kopi di kedai kopi.",
+                "en": "I drink coffee at a coffee shop."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "喫茶店が静かです。",
+              "furigana": "きっさてんが しずかです。",
+              "romaji": "kissaten ga shizuka desu.",
+              "meanings": {
+                "id": "Kedai kopinya tenang.",
+                "en": "The coffee shop is quiet."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -12372,7 +13300,39 @@
           "meanings": {
             "en": "shop",
             "id": "toko"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "店へ行きます。",
+              "furigana": "みせへ いきます。",
+              "romaji": "mise e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke toko.",
+                "en": "I go to the shop."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "店で買います。",
+              "furigana": "みせで かいます。",
+              "romaji": "mise de kaimasu.",
+              "meanings": {
+                "id": "Saya membeli di toko.",
+                "en": "I buy at the shop."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "店が開きます。",
+              "furigana": "みせが あきます。",
+              "romaji": "mise ga akimasu.",
+              "meanings": {
+                "id": "Tokonya buka.",
+                "en": "The shop opens."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -12382,7 +13342,39 @@
           "meanings": {
             "en": "greengrocer",
             "id": "penjual sayur-mayur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "八百屋へ行きます。",
+              "furigana": "やおやへ いきます。",
+              "romaji": "yaoya e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke toko sayur.",
+                "en": "I go to the greengrocer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "八百屋で野菜を買います。",
+              "furigana": "やおやで やさいを かいます。",
+              "romaji": "yaoya de yasai wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli sayuran di toko sayur.",
+                "en": "I buy vegetables at the greengrocer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "八百屋があります。",
+              "furigana": "やおやが あります。",
+              "romaji": "yaoya ga arimasu.",
+              "meanings": {
+                "id": "Ada toko sayur.",
+                "en": "There is a greengrocer."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -12392,7 +13384,39 @@
           "meanings": {
             "en": "escalator",
             "id": "tangga berjalan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "エスカレーターに乗ります。",
+              "furigana": "えすかれーたーに のります。",
+              "romaji": "esukareetaa ni norimasu.",
+              "meanings": {
+                "id": "Saya naik eskalator.",
+                "en": "I take the escalator."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "エスカレーターで上がります。",
+              "furigana": "えすかれーたーで あがります。",
+              "romaji": "esukareetaa de agarimasu.",
+              "meanings": {
+                "id": "Saya naik dengan eskalator.",
+                "en": "I go up by escalator."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "エスカレーターがあります。",
+              "furigana": "えすかれーたーが あります。",
+              "romaji": "esukareetaa ga arimasu.",
+              "meanings": {
+                "id": "Ada eskalator.",
+                "en": "There is an escalator."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -12402,7 +13426,39 @@
           "meanings": {
             "en": "stairs",
             "id": "tangga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "階段を上がります。",
+              "furigana": "かいだんを あがります。",
+              "romaji": "kaidan wo agarimasu.",
+              "meanings": {
+                "id": "Saya naik tangga.",
+                "en": "I go up the stairs."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "階段を下ります。",
+              "furigana": "かいだんを おります。",
+              "romaji": "kaidan wo orimasu.",
+              "meanings": {
+                "id": "Saya turun tangga.",
+                "en": "I go down the stairs."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "階段があります。",
+              "furigana": "かいだんが あります。",
+              "romaji": "kaidan ga arimasu.",
+              "meanings": {
+                "id": "Ada tangga.",
+                "en": "There are stairs."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -12412,7 +13468,39 @@
           "meanings": {
             "en": "entrance",
             "id": "pintu masuk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "入口はどこですか。",
+              "furigana": "いりぐちは どこですか。",
+              "romaji": "iriguchi wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana pintu masuknya?",
+                "en": "Where is the entrance?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "入口があります。",
+              "furigana": "いりぐちが あります。",
+              "romaji": "iriguchi ga arimasu.",
+              "meanings": {
+                "id": "Ada pintu masuk.",
+                "en": "There is an entrance."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "入口から入ります。",
+              "furigana": "いりぐちから はいります。",
+              "romaji": "iriguchi kara hairimasu.",
+              "meanings": {
+                "id": "Saya masuk dari pintu masuk.",
+                "en": "I enter from the entrance."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -12422,7 +13510,39 @@
           "meanings": {
             "en": "exit",
             "id": "pintu keluar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "出口はどこですか。",
+              "furigana": "でぐちは どこですか。",
+              "romaji": "deguchi wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana pintu keluarnya?",
+                "en": "Where is the exit?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "出口があります。",
+              "furigana": "でぐちが あります。",
+              "romaji": "deguchi ga arimasu.",
+              "meanings": {
+                "id": "Ada pintu keluar.",
+                "en": "There is an exit."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "出口から出ます。",
+              "furigana": "でぐちから でます。",
+              "romaji": "deguchi kara demasu.",
+              "meanings": {
+                "id": "Saya keluar dari pintu keluar.",
+                "en": "I exit from the exit."
+              }
+            }
+          ]
         }
       ]
     },
