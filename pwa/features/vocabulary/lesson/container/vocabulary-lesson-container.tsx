@@ -1,7 +1,6 @@
 "use client";
 
 import { LessonHeader } from "../fragments/lesson-header";
-import { LessonDisplayOptionsControl } from "../fragments/lesson-display-options-control";
 import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
 import { VocabularyList } from "../fragments/vocabulary-list";
 import { ScrollFloatingButton } from "@/pwa/core/components/scroll-floating-button";
@@ -17,9 +16,6 @@ export function VocabularyLessonContainer() {
 
       {/* Vocabulary List */}
       <VocabularyList />
-
-      {/* Display Options Control */}
-      <LessonDisplayOptionsControl />
 
       {/* Selection Bottom Nav */}
       {isSelectionMode && <SelectionBottomNav />}
