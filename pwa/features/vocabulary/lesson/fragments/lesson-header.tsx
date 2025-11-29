@@ -1,9 +1,7 @@
 "use client";
 
-import { ArrowLeft, User } from "lucide-react";
-import { Button } from "@/pwa/core/components/button";
-import { SettingsDropdown } from "@/pwa/core/components/settings-dropdown";
-import { UserDropdown } from "@/pwa/features/home/components/user-dropdown";
+import { ArrowLeft, Edit3, Eye } from "lucide-react";
+import { AppHeader } from "@/pwa/core/components/app-header";
 import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { useVocabularyDisplayOptions } from "../store/display-options.store";
 import { useLoginStore } from "@/pwa/features/login/store";
@@ -12,7 +10,6 @@ import { VocabularyService } from "@/pwa/core/services/vocabulary";
 import { titleCase } from "@/pwa/core/lib/utils/titleCase";
 import { signOut } from "firebase/auth";
 import { auth } from "@/pwa/core/config/firebase";
-import Link from "next/link";
 
 export function LessonHeader() {
   const { isSelectionMode, toggleSelectionMode } = useVocabularySelection();
@@ -53,7 +50,7 @@ export function LessonHeader() {
     router.push("/login");
   };
 
-  // Prepare display options for settings dropdown
+  // Prepare display options
   const settingsDisplayOptions = [
     {
       key: "hiragana",
@@ -85,44 +82,59 @@ export function LessonHeader() {
     },
   ];
 
+  // Prepare custom sections for settings dropdown
+  const customSections = [
+    {
+      id: "tools",
+      items: [
+        {
+          id: "selection-mode",
+          type: "switch" as const,
+          label: "Selection Mode",
+          icon: <Edit3 className="h-4 w-4" />,
+          isActive: isSelectionMode,
+          onClick: toggleSelectionMode,
+        },
+      ],
+    },
+    {
+      id: "display",
+      title: "Display Options",
+      icon: <Eye className="h-3 w-3" />,
+      showReset: true,
+      onReset: resetToDefault,
+      items: settingsDisplayOptions.map((option) => ({
+        id: option.key,
+        type: "switch" as const,
+        label: option.label,
+        description: option.description,
+        isActive: option.isActive,
+        onClick: option.toggle,
+      })),
+    },
+  ];
+
   return (
-    <div className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b border-border/40">
-      <div className="flex items-center justify-between px-4 py-3">
-        {/* Back Button & Title */}
-        <Link href="/" passHref className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" className="shrink-0 h-8 w-8">
-            <ArrowLeft className="w-4 h-4" />
-          </Button>
-          <h1 className="text-sm font-semibold text-foreground">
-            {lessonTitle}
-          </h1>
-        </Link>
-
-        {/* Right side - Settings & User */}
-        <div className="flex items-center gap-2">
-          {/* Settings Dropdown */}
-          <SettingsDropdown
-            isSelectionMode={isSelectionMode}
-            onToggleSelectionMode={toggleSelectionMode}
-            displayOptions={settingsDisplayOptions}
-            onResetDisplayOptions={resetToDefault}
-            showDisplayOptions={true}
-          />
-
-          {/* User Dropdown or Login Button */}
-          {isAuthenticated ? (
-            <UserDropdown user={user} onLogout={handleLogout} />
-          ) : (
-            <button
-              onClick={handleLogin}
-              className="flex h-8 w-8 items-center justify-center rounded-full bg-muted hover:bg-accent transition-colors focus:outline-none focus:ring-2 focus:ring-ring"
-              aria-label="Login"
-            >
-              <User className="h-4 w-4 text-muted-foreground" />
-            </button>
-          )}
-        </div>
-      </div>
-    </div>
+    <AppHeader
+      leftSide={{
+        type: "back",
+        href: "/",
+        icon: ArrowLeft,
+      }}
+      title={lessonTitle}
+      showSettings={true}
+      settingsConfig={{
+        showTheme: true,
+        showLanguage: true,
+        customSections,
+      }}
+      showUser={true}
+      userConfig={{
+        isAuthenticated,
+        user,
+        onLogout: handleLogout,
+        onLogin: handleLogin,
+      }}
+    />
   );
 }
