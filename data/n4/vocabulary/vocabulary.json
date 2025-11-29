@@ -16349,7 +16349,39 @@
           "meanings": {
             "en": "economy",
             "id": "ekonomi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "経済を勉強します。",
+              "furigana": "けいざいを べんきょう します。",
+              "romaji": "keizai wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar ekonomi.",
+                "en": "I study economy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "経済が難しいです。",
+              "furigana": "けいざいが むずかしい です。",
+              "romaji": "keizai ga muzukashii desu.",
+              "meanings": {
+                "id": "Ekonomi itu sulit.",
+                "en": "Economy is difficult."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本の経済です。",
+              "furigana": "にほんの けいざい です。",
+              "romaji": "nihon no keizai desu.",
+              "meanings": {
+                "id": "Ekonomi Jepang.",
+                "en": "It's Japanese economy."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -16359,7 +16391,39 @@
           "meanings": {
             "en": "price",
             "id": "harga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "値段が高いです。",
+              "furigana": "ねだんが たかい です。",
+              "romaji": "nedan ga takai desu.",
+              "meanings": {
+                "id": "Harganya mahal.",
+                "en": "The price is high."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "値段を聞きます。",
+              "furigana": "ねだんを ききます。",
+              "romaji": "nedan wo kikimasu.",
+              "meanings": {
+                "id": "Saya menanyakan harga.",
+                "en": "I ask the price."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "値段が安いです。",
+              "furigana": "ねだんが やすい です。",
+              "romaji": "nedan ga yasui desu.",
+              "meanings": {
+                "id": "Harganya murah.",
+                "en": "The price is cheap."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -16369,7 +16433,39 @@
           "meanings": {
             "en": "rich person",
             "id": "orang kaya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お金持ちです。",
+              "furigana": "おかねもち です。",
+              "romaji": "okanemochi desu.",
+              "meanings": {
+                "id": "Orang kaya.",
+                "en": "He/She is rich."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お金持ちになりたいです。",
+              "furigana": "おかねもちに なりたい です。",
+              "romaji": "okanemochi ni naritai desu.",
+              "meanings": {
+                "id": "Saya ingin menjadi orang kaya.",
+                "en": "I want to become rich."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お金持ちの人です。",
+              "furigana": "おかねもちの ひと です。",
+              "romaji": "okanemochi no hito desu.",
+              "meanings": {
+                "id": "Orang yang kaya.",
+                "en": "He/She is a rich person."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -16379,7 +16475,39 @@
           "meanings": {
             "en": "change (money)",
             "id": "uang kembalian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おつりをもらいます。",
+              "furigana": "おつりを もらいます。",
+              "romaji": "otsuri wo moraimasu.",
+              "meanings": {
+                "id": "Saya menerima uang kembalian.",
+                "en": "I receive change."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おつりがあります。",
+              "furigana": "おつりが あります。",
+              "romaji": "otsuri ga arimasu.",
+              "meanings": {
+                "id": "Ada uang kembalian.",
+                "en": "There is change."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おつりをください。",
+              "furigana": "おつりを ください。",
+              "romaji": "otsuri wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan uang kembaliannya.",
+                "en": "Please give me the change."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -16389,7 +16517,39 @@
           "meanings": {
             "en": "cashier",
             "id": "kasir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "レジに行きます。",
+              "furigana": "レジに いきます。",
+              "romaji": "reji ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kasir.",
+                "en": "I go to the cashier."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "レジで払います。",
+              "furigana": "レジで はらいます。",
+              "romaji": "reji de haraimasu.",
+              "meanings": {
+                "id": "Saya membayar di kasir.",
+                "en": "I pay at the cashier."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "レジが混んでいます。",
+              "furigana": "レジが こんでいます。",
+              "romaji": "reji ga kondeimasu.",
+              "meanings": {
+                "id": "Kasirnya ramai.",
+                "en": "The cashier is crowded."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -16399,7 +16559,39 @@
           "meanings": {
             "en": "goods, merchandise",
             "id": "barang dagangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "品物を買います。",
+              "furigana": "しなものを かいます。",
+              "romaji": "shinamono wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli barang.",
+                "en": "I buy goods."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい品物です。",
+              "furigana": "いい しなもの です。",
+              "romaji": "ii shinamono desu.",
+              "meanings": {
+                "id": "Barang yang bagus.",
+                "en": "It's good merchandise."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "品物がたくさんあります。",
+              "furigana": "しなものが たくさん あります。",
+              "romaji": "shinamono ga takusan arimasu.",
+              "meanings": {
+                "id": "Ada banyak barang.",
+                "en": "There are many goods."
+              }
+            }
+          ]
         }
       ]
     },
@@ -16418,7 +16610,39 @@
           "meanings": {
             "en": "law",
             "id": "hukum"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "法律を勉強します。",
+              "furigana": "ほうりつを べんきょう します。",
+              "romaji": "houritsu wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar hukum.",
+                "en": "I study law."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "法律が難しいです。",
+              "furigana": "ほうりつが むずかしい です。",
+              "romaji": "houritsu ga muzukashii desu.",
+              "meanings": {
+                "id": "Hukum itu sulit.",
+                "en": "Law is difficult."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "法律が大切です。",
+              "furigana": "ほうりつが たいせつ です。",
+              "romaji": "houritsu ga taisetsu desu.",
+              "meanings": {
+                "id": "Hukum itu penting.",
+                "en": "Law is important."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -16428,7 +16652,39 @@
           "meanings": {
             "en": "politics",
             "id": "politik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "政治を勉強します。",
+              "furigana": "せいじを べんきょう します。",
+              "romaji": "seiji wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar politik.",
+                "en": "I study politics."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "政治が好きです。",
+              "furigana": "せいじが すき です。",
+              "romaji": "seiji ga suki desu.",
+              "meanings": {
+                "id": "Saya suka politik.",
+                "en": "I like politics."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "政治が難しいです。",
+              "furigana": "せいじが むずかしい です。",
+              "romaji": "seiji ga muzukashii desu.",
+              "meanings": {
+                "id": "Politik itu sulit.",
+                "en": "Politics is difficult."
+              }
+            }
+          ]
         }
       ]
     },
