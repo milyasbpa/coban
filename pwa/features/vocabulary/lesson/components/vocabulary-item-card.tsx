@@ -70,15 +70,19 @@ export function VocabularyItemCard({
   return (
     <Card
       className={cn(
-        "relative p-2.5 transition-all duration-200 cursor-pointer border overflow-hidden",
-        isSelectionMode && "hover:shadow-md",
-        isSelected &&
-          "border-primary bg-primary/10 shadow-lg ring-2 ring-primary/20",
+        "relative p-2.5 transition-all duration-200 cursor-pointer overflow-hidden",
+        // Base state - visible background with elevation
+        "bg-muted/60 backdrop-blur-sm border border-border/40 shadow-md",
+        // Hover states
+        !isSelected &&
+          !isSelectionMode &&
+          "hover:bg-muted/50 hover:border-border/60 hover:shadow-lg",
         !isSelected &&
           isSelectionMode &&
-          "border-border/50 hover:shadow-md hover:border-primary/30",
-        !isSelectionMode &&
-          "border-border/50 hover:border-border hover:shadow-md"
+          "hover:bg-muted/40 hover:shadow-lg hover:border-primary/40",
+        // Selected state - prominent
+        isSelected &&
+          "border-primary bg-primary/10 shadow-xl ring-2 ring-primary/20"
       )}
       onClick={handleClick}
     >
@@ -103,7 +107,7 @@ export function VocabularyItemCard({
           <div className="flex-1 space-y-1">
             {/* Hiragana - Subtle at top */}
             {displayOptions.hiragana && (
-              <div className="text-xs text-muted-foreground/80 font-medium">
+              <div className="text-xs text-foreground/80 font-semibold">
                 {vocabulary.hiragana}
               </div>
             )}
@@ -119,15 +123,15 @@ export function VocabularyItemCard({
             {(displayOptions.romanji || displayOptions.meaning) && (
               <div className="flex items-center gap-2 flex-wrap">
                 {displayOptions.romanji && (
-                  <span className="text-sm text-muted-foreground/80">
+                  <span className="text-sm text-muted-foreground font-medium">
                     {vocabulary.romaji}
                   </span>
                 )}
                 {displayOptions.romanji && displayOptions.meaning && (
-                  <span className="text-muted-foreground/40 text-sm">•</span>
+                  <span className="text-muted-foreground/30 text-sm">•</span>
                 )}
                 {displayOptions.meaning && (
-                  <span className="text-sm text-foreground/90 font-medium">
+                  <span className="text-sm text-foreground font-semibold">
                     {language === "en"
                       ? vocabulary.meanings.en
                       : vocabulary.meanings.id}
@@ -137,97 +141,93 @@ export function VocabularyItemCard({
             )}
           </div>
 
-          {/* Right: Audio Button */}
-          <button
-            onClick={handleAudioClick}
-            className="shrink-0 w-10 h-10 rounded-full bg-foreground hover:bg-foreground/90 flex items-center justify-center transition-colors shadow-sm"
-          >
-            <Volume2 className="h-4 w-4 text-background" />
-          </button>
+          {/* Right: Audio Button + Chevron */}
+          <div className="shrink-0 flex items-start gap-1">
+            {/* Audio Button - Subtle Design */}
+            <button
+              onClick={handleAudioClick}
+              className="group w-9 h-9 rounded-lg bg-muted hover:bg-muted flex items-center justify-center transition-all duration-200 hover:scale-105"
+            >
+              <Volume2 className="h-4 w-4 text-foreground/70 group-hover:text-foreground transition-colors" />
+            </button>
+
+            {/* Chevron Toggle - Only if has examples */}
+            {hasExamples && (
+              <button
+                onClick={toggleExpand}
+                className="w-9 h-9 rounded-lg bg-muted hover:bg-muted flex items-center justify-center transition-all duration-200"
+              >
+                {isExpanded ? (
+                  <ChevronUp className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+                ) : (
+                  <ChevronDown className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+                )}
+              </button>
+            )}
+          </div>
         </div>
       </div>
 
       {/* Examples Section - Cleaner Design */}
-      {hasExamples && (
+      {hasExamples && isExpanded && (
         <div className="mt-2 pt-2 border-t border-border/20">
-          {/* Compact Toggle */}
-          <button
-            onClick={toggleExpand}
-            className="w-full flex items-center justify-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
-          >
-            {isExpanded ? (
-              <ChevronUp className="h-3 w-3" />
-            ) : (
-              <>
-                <ChevronDown className="h-3 w-3" />
-                <span className="text-[10px] font-semibold">
-                  {vocabulary.examples?.length} examples
-                </span>
-              </>
-            )}
-          </button>
+          <div className="space-y-2">
+            {vocabulary.examples?.map((example, idx) => (
+              <div
+                key={example.id}
+                className="bg-accent/20 rounded-lg p-2.5 hover:bg-accent/40 transition-colors border border-border/30"
+              >
+                <div className="flex items-start gap-2.5">
+                  {/* Example Number Badge */}
+                  <span className="shrink-0 w-5 h-5 rounded-md bg-primary/15 text-primary text-[10px] font-bold flex items-center justify-center mt-0.5">
+                    {idx + 1}
+                  </span>
 
-          {/* Examples List - Redesigned */}
-          {isExpanded && vocabulary.examples && (
-            <div className="mt-2 space-y-2">
-              {vocabulary.examples.map((example, idx) => (
-                <div
-                  key={example.id}
-                  className="bg-muted/30 rounded-md p-2 hover:bg-muted/50 transition-colors"
-                >
-                  <div className="flex items-start gap-2">
-                    {/* Example Number Badge */}
-                    <span className="shrink-0 w-4 h-4 rounded-full bg-primary/20 text-primary text-[9px] font-bold flex items-center justify-center mt-0.5">
-                      {idx + 1}
-                    </span>
+                  {/* Example Content */}
+                  <div className="flex-1 min-w-0 space-y-1">
+                    {/* Sentence */}
+                    {displayOptions.japanese && (
+                      <div className="text-sm font-bold text-foreground leading-relaxed">
+                        {example.sentence}
+                      </div>
+                    )}
+                    {/* Furigana */}
+                    {displayOptions.hiragana && (
+                      <div className="text-[10px] text-muted-foreground font-normal leading-relaxed">
+                        {example.furigana}
+                      </div>
+                    )}
 
-                    {/* Example Content */}
-                    <div className="flex-1 min-w-0 space-y-0.5">
-                      {/* Furigana */}
-                      {displayOptions.hiragana && (
-                        <div className="text-[10px] text-muted-foreground">
-                          {example.furigana}
-                        </div>
-                      )}
+                    {/* Translation */}
+                    {displayOptions.meaning && (
+                      <div className="text-xs text-foreground/90 font-semibold leading-relaxed">
+                        {language === "en"
+                          ? example.meanings.en
+                          : example.meanings.id}
+                      </div>
+                    )}
 
-                      {/* Sentence */}
-                      {displayOptions.japanese && (
-                        <div className="text-xs font-semibold text-foreground">
-                          {example.sentence}
-                        </div>
-                      )}
-
-                      {/* Translation */}
-                      {displayOptions.meaning && (
-                        <div className="text-[10px] text-blue-600 dark:text-blue-400">
-                          {language === "en"
-                            ? example.meanings.en
-                            : example.meanings.id}
-                        </div>
-                      )}
-
-                      {/* Romaji */}
-                      {displayOptions.romanji && (
-                        <div className="text-[10px] text-muted-foreground/60">
-                          {example.romaji}
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Example Audio - Smaller */}
-                    <button
-                      onClick={(e) =>
-                        handleExampleAudioClick(e, example.furigana)
-                      }
-                      className="shrink-0 w-7 h-7 rounded-full bg-foreground/80 hover:bg-foreground flex items-center justify-center transition-colors"
-                    >
-                      <Volume2 className="h-3 w-3 text-background" />
-                    </button>
+                    {/* Romaji */}
+                    {displayOptions.romanji && (
+                      <div className="text-xs text-muted-foreground font-medium leading-relaxed">
+                        {example.romaji}
+                      </div>
+                    )}
                   </div>
+
+                  {/* Example Audio - Subtle Design */}
+                  <button
+                    onClick={(e) =>
+                      handleExampleAudioClick(e, example.furigana)
+                    }
+                    className="shrink-0 w-7 h-7 rounded-lg bg-accent/40 hover:bg-muted flex items-center justify-center transition-all duration-200 hover:scale-105"
+                  >
+                    <Volume2 className="h-3 w-3 text-foreground/60" />
+                  </button>
                 </div>
-              ))}
-            </div>
-          )}
+              </div>
+            ))}
+          </div>
         </div>
       )}
     </Card>
