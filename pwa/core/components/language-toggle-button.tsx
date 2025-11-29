@@ -50,11 +50,11 @@ export function LanguageToggleButton({
       onClick={toggleLanguage}
       aria-label={`Switch to ${language === "en" ? "English" : "Indonesian"}`}
     >
-      <div className="border border-border rounded-sm overflow-hidden">
+      <div className="w-5 h-5 rounded-full overflow-hidden">
         <ReactCountryFlag
           countryCode={language === "id" ? "ID" : "US"}
           svg
-          className="w-[20px] h-[15px] block"
+          className="w-full h-full object-cover scale-150"
         />
       </div>
     </Button>

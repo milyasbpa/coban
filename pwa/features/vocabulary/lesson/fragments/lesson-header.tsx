@@ -14,15 +14,13 @@ export function LessonHeader() {
     <div className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b border-border/40">
       <div className="flex items-center justify-between p-4">
         {/* Back Button */}
-        <Link href="/" passHref>
-          <Button
-            variant="ghost"
-            size="sm"
-            className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            <span>Back</span>
+        <Link href="/" passHref className="flex items-center gap-3">
+          <Button variant="ghost" size="icon" className="shrink-0">
+            <ArrowLeft className="w-5 h-5" />
           </Button>
+          <h1 className="text-base font-semibold text-foreground">
+            Back
+          </h1>
         </Link>
 
         {/* Right side - Selection Mode, Language and Theme toggles */}
