@@ -9839,7 +9839,39 @@
           "meanings": {
             "en": "injury",
             "id": "luka"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "けがをしました。",
+              "furigana": "けがを しました。",
+              "romaji": "kega wo shimashita.",
+              "meanings": {
+                "id": "Saya terluka.",
+                "en": "I got injured."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "けがは大丈夫ですか。",
+              "furigana": "けがは だいじょうぶ ですか。",
+              "romaji": "kega wa daijyoubu desu ka.",
+              "meanings": {
+                "id": "Apakah lukanya tidak apa-apa?",
+                "en": "Is your injury okay?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "けがをしないでください。",
+              "furigana": "けがを しないで ください。",
+              "romaji": "kega wo shinaide kudasai.",
+              "meanings": {
+                "id": "Tolong jangan sampai terluka.",
+                "en": "Please don't get injured."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -9849,7 +9881,39 @@
           "meanings": {
             "en": "fever",
             "id": "panas, demam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "熱があります。",
+              "furigana": "ねつが あります。",
+              "romaji": "netsu ga arimasu.",
+              "meanings": {
+                "id": "Saya demam.",
+                "en": "I have a fever."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "熱は何度ですか。",
+              "furigana": "ねつは なんど ですか。",
+              "romaji": "netsu wa nando desu ka.",
+              "meanings": {
+                "id": "Berapa derajat demamnya?",
+                "en": "What's your temperature?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "熱が下がりました。",
+              "furigana": "ねつが さがりました。",
+              "romaji": "netsu ga sagarimashita.",
+              "meanings": {
+                "id": "Demamnya turun.",
+                "en": "The fever went down."
+              }
+            }
+          ]
         }
       ]
     },
@@ -9868,7 +9932,39 @@
           "meanings": {
             "en": "accident",
             "id": "kecelakaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "事故がありました。",
+              "furigana": "じこが ありました。",
+              "romaji": "jiko ga arimashita.",
+              "meanings": {
+                "id": "Ada kecelakaan.",
+                "en": "There was an accident."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "事故に気をつけてください。",
+              "furigana": "じこに きを つけて ください。",
+              "romaji": "jiko ni ki wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong hati-hati dengan kecelakaan.",
+                "en": "Please be careful of accidents."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "車の事故です。",
+              "furigana": "くるまの じこ です。",
+              "romaji": "kuruma no jiko desu.",
+              "meanings": {
+                "id": "Kecelakaan mobil.",
+                "en": "It's a car accident."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -9878,7 +9974,39 @@
           "meanings": {
             "en": "earthquake",
             "id": "gempa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地震がありました。",
+              "furigana": "じしんが ありました。",
+              "romaji": "jishin ga arimashita.",
+              "meanings": {
+                "id": "Ada gempa.",
+                "en": "There was an earthquake."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きい地震です。",
+              "furigana": "おおきい じしん です。",
+              "romaji": "ookii jishin desu.",
+              "meanings": {
+                "id": "Gempa besar.",
+                "en": "It's a big earthquake."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "地震で怖かったです。",
+              "furigana": "じしんで こわかったです。",
+              "romaji": "jishin de kowakatta desu.",
+              "meanings": {
+                "id": "Takut karena gempa.",
+                "en": "I was scared because of the earthquake."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -9888,7 +10016,39 @@
           "meanings": {
             "en": "fire",
             "id": "kebakaran"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "火事です。",
+              "furigana": "かじ です。",
+              "romaji": "kaji desu.",
+              "meanings": {
+                "id": "Kebakaran.",
+                "en": "It's a fire."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "火事がありました。",
+              "furigana": "かじが ありました。",
+              "romaji": "kaji ga arimashita.",
+              "meanings": {
+                "id": "Ada kebakaran.",
+                "en": "There was a fire."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "火事に気をつけてください。",
+              "furigana": "かじに きを つけて ください。",
+              "romaji": "kaji ni ki wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong hati-hati dengan kebakaran.",
+                "en": "Please be careful of fire."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -9898,7 +10058,39 @@
           "meanings": {
             "en": "danger",
             "id": "bahaya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "危険です。",
+              "furigana": "きけん です。",
+              "romaji": "kiken desu.",
+              "meanings": {
+                "id": "Berbahaya.",
+                "en": "It's dangerous."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ここは危険な場所です。",
+              "furigana": "ここは きけんな ばしょ です。",
+              "romaji": "koko wa kiken na basho desu.",
+              "meanings": {
+                "id": "Di sini adalah tempat yang berbahaya.",
+                "en": "This is a dangerous place."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても危険です。",
+              "furigana": "とても きけん です。",
+              "romaji": "totemo kiken desu.",
+              "meanings": {
+                "id": "Sangat berbahaya.",
+                "en": "It's very dangerous."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -9908,7 +10100,39 @@
           "meanings": {
             "en": "war",
             "id": "peperangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "戦争がありました。",
+              "furigana": "せんそうが ありました。",
+              "romaji": "sensou ga arimashita.",
+              "meanings": {
+                "id": "Ada perang.",
+                "en": "There was a war."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "戦争は悲しいです。",
+              "furigana": "せんそうは かなしいです。",
+              "romaji": "sensou wa kanashii desu.",
+              "meanings": {
+                "id": "Perang itu menyedihkan.",
+                "en": "War is sad."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "戦争の映画を見ました。",
+              "furigana": "せんそうの えいがを みました。",
+              "romaji": "sensou no eiga wo mimashita.",
+              "meanings": {
+                "id": "Saya menonton film perang.",
+                "en": "I watched a war movie."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -9918,7 +10142,39 @@
           "meanings": {
             "en": "typhoon",
             "id": "taifun, angin topan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "台風が来ます。",
+              "furigana": "たいふうが きます。",
+              "romaji": "taifuu ga kimasu.",
+              "meanings": {
+                "id": "Taifun datang.",
+                "en": "A typhoon is coming."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "台風で大変でした。",
+              "furigana": "たいふうで たいへんでした。",
+              "romaji": "taifuu de taihen deshita.",
+              "meanings": {
+                "id": "Susah karena taifun.",
+                "en": "It was tough because of the typhoon."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "台風に気をつけてください。",
+              "furigana": "たいふうに きを つけて ください。",
+              "romaji": "taifuu ni ki wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong hati-hati dengan taifun.",
+                "en": "Please be careful of the typhoon."
+              }
+            }
+          ]
         }
       ]
     },
