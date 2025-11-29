@@ -13523,7 +13523,39 @@
           "meanings": {
             "en": "ship",
             "id": "kapal laut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "船に乗ります。",
+              "furigana": "ふねに のります。",
+              "romaji": "fune ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kapal.",
+                "en": "I ride a ship."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きい船です。",
+              "furigana": "おおきい ふね です。",
+              "romaji": "ookii fune desu.",
+              "meanings": {
+                "id": "Kapal besar.",
+                "en": "It's a big ship."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "船で旅行します。",
+              "furigana": "ふねで りょこう します。",
+              "romaji": "fune de ryokou shimasu.",
+              "meanings": {
+                "id": "Saya bepergian dengan kapal.",
+                "en": "I travel by ship."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -13533,7 +13565,39 @@
           "meanings": {
             "en": "gasoline",
             "id": "bensin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ガソリンを入れます。",
+              "furigana": "ガソリンを いれます。",
+              "romaji": "gasorin wo iremasu.",
+              "meanings": {
+                "id": "Saya mengisi bensin.",
+                "en": "I put in gasoline."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ガソリンが高いです。",
+              "furigana": "ガソリンが たかい です。",
+              "romaji": "gasorin ga takai desu.",
+              "meanings": {
+                "id": "Bensinnya mahal.",
+                "en": "Gasoline is expensive."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ガソリンがありません。",
+              "furigana": "ガソリンが ありません。",
+              "romaji": "gasorin ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada bensin.",
+                "en": "There is no gasoline."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -13543,7 +13607,39 @@
           "meanings": {
             "en": "gas",
             "id": "gas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ガスをつけます。",
+              "furigana": "ガスを つけます。",
+              "romaji": "gasu wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan gas.",
+                "en": "I turn on the gas."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ガスを消します。",
+              "furigana": "ガスを けします。",
+              "romaji": "gasu wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan gas.",
+                "en": "I turn off the gas."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ガスで料理します。",
+              "furigana": "ガスで りょうり します。",
+              "romaji": "gasu de ryouri shimasu.",
+              "meanings": {
+                "id": "Saya memasak dengan gas.",
+                "en": "I cook with gas."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -13553,7 +13649,39 @@
           "meanings": {
             "en": "train, steam train",
             "id": "kereta api, kereta uap"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "汽車に乗ります。",
+              "furigana": "きしゃに のります。",
+              "romaji": "kisha ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta.",
+                "en": "I ride a train."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "汽車で行きます。",
+              "furigana": "きしゃで いきます。",
+              "romaji": "kisha de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan kereta.",
+                "en": "I go by train."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "汽車が来ました。",
+              "furigana": "きしゃが きました。",
+              "romaji": "kisha ga kimashita.",
+              "meanings": {
+                "id": "Keretanya datang.",
+                "en": "The train came."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -13563,7 +13691,39 @@
           "meanings": {
             "en": "traffic, transportation",
             "id": "transportasi, lalu-lintas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "交通が便利です。",
+              "furigana": "こうつうが べんり です。",
+              "romaji": "koutsuu ga benri desu.",
+              "meanings": {
+                "id": "Transportasinya mudah.",
+                "en": "Transportation is convenient."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "交通費が高いです。",
+              "furigana": "こうつうひが たかい です。",
+              "romaji": "koutsuuhi ga takai desu.",
+              "meanings": {
+                "id": "Biaya transportasi mahal.",
+                "en": "Transportation costs are high."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "交通が混んでいます。",
+              "furigana": "こうつうが こんで います。",
+              "romaji": "koutsuu ga konde imasu.",
+              "meanings": {
+                "id": "Lalu-lintasnya macet.",
+                "en": "Traffic is crowded."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -13573,7 +13733,39 @@
           "meanings": {
             "en": "express",
             "id": "ekspres, kilat, cepat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "急行に乗ります。",
+              "furigana": "きゅうこうに のります。",
+              "romaji": "kyuukou ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta ekspres.",
+                "en": "I ride an express train."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "急行は速いです。",
+              "furigana": "きゅうこうは はやい です。",
+              "romaji": "kyuukou wa hayai desu.",
+              "meanings": {
+                "id": "Kereta ekspres cepat.",
+                "en": "The express is fast."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "急行で行きます。",
+              "furigana": "きゅうこうで いきます。",
+              "romaji": "kyuukou de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan ekspres.",
+                "en": "I go by express."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -13583,7 +13775,39 @@
           "meanings": {
             "en": "vehicle",
             "id": "kendaraan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "乗り物が好きです。",
+              "furigana": "のりものが すき です。",
+              "romaji": "norimono ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kendaraan.",
+                "en": "I like vehicles."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "乗り物に乗ります。",
+              "furigana": "のりものに のります。",
+              "romaji": "norimono ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kendaraan.",
+                "en": "I ride a vehicle."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いろいろな乗り物があります。",
+              "furigana": "いろいろな のりものが あります。",
+              "romaji": "iroirona norimono ga arimasu.",
+              "meanings": {
+                "id": "Ada berbagai kendaraan.",
+                "en": "There are various vehicles."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -13593,7 +13817,39 @@
           "meanings": {
             "en": "motorcycle",
             "id": "sepeda motor"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "オートバイに乗ります。",
+              "furigana": "オートバイに のります。",
+              "romaji": "ootobai ni norimasu.",
+              "meanings": {
+                "id": "Saya naik sepeda motor.",
+                "en": "I ride a motorcycle."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "オートバイで行きます。",
+              "furigana": "オートバイで いきます。",
+              "romaji": "ootobai de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan sepeda motor.",
+                "en": "I go by motorcycle."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "オートバイを買いました。",
+              "furigana": "オートバイを かいました。",
+              "romaji": "ootobai wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli sepeda motor.",
+                "en": "I bought a motorcycle."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -13603,7 +13859,39 @@
           "meanings": {
             "en": "super express",
             "id": "super ekspres, super cepat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "特急に乗ります。",
+              "furigana": "とっきゅうに のります。",
+              "romaji": "tokkyuu ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta super ekspres.",
+                "en": "I ride a super express."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "特急が速いです。",
+              "furigana": "とっきゅうが はやい です。",
+              "romaji": "tokkyuu ga hayai desu.",
+              "meanings": {
+                "id": "Super ekspres cepat.",
+                "en": "The super express is fast."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "特急で東京に行きます。",
+              "furigana": "とっきゅうで とうきょうに いきます。",
+              "romaji": "tokkyuu de toukyou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke Tokyo dengan super ekspres.",
+                "en": "I go to Tokyo by super express."
+              }
+            }
+          ]
         }
       ]
     },
@@ -13622,7 +13910,39 @@
           "meanings": {
             "en": "play, amusement",
             "id": "permainan, hiburan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "遊びに行きます。",
+              "furigana": "あそびに いきます。",
+              "romaji": "asobi ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi bermain.",
+                "en": "I go to play."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "遊びが好きです。",
+              "furigana": "あそびが すき です。",
+              "romaji": "asobi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka bermain.",
+                "en": "I like playing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "遊びの時間です。",
+              "furigana": "あそびの じかん です。",
+              "romaji": "asobi no jikan desu.",
+              "meanings": {
+                "id": "Waktu bermain.",
+                "en": "It's playtime."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -13632,7 +13952,39 @@
           "meanings": {
             "en": "program, event",
             "id": "acara"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "番組を見ます。",
+              "furigana": "ばんぐみを みます。",
+              "romaji": "bangumi wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton acara.",
+                "en": "I watch a program."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "面白い番組です。",
+              "furigana": "おもしろい ばんぐみ です。",
+              "romaji": "omoshiroi bangumi desu.",
+              "meanings": {
+                "id": "Acara yang menarik.",
+                "en": "It's an interesting program."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テレビの番組です。",
+              "furigana": "テレビの ばんぐみ です。",
+              "romaji": "terebi no bangumi desu.",
+              "meanings": {
+                "id": "Acara TV.",
+                "en": "It's a TV program."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -13642,7 +13994,39 @@
           "meanings": {
             "en": "judo",
             "id": "judo"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "柔道をします。",
+              "furigana": "じゅうどうを します。",
+              "romaji": "jyuudou wo shimasu.",
+              "meanings": {
+                "id": "Saya berlatih judo.",
+                "en": "I do judo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "柔道が強いです。",
+              "furigana": "じゅうどうが つよい です。",
+              "romaji": "jyuudou ga tsuyoi desu.",
+              "meanings": {
+                "id": "Jagonya judo.",
+                "en": "Strong at judo."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "柔道を習います。",
+              "furigana": "じゅうどうを ならいます。",
+              "romaji": "jyuudou wo naraimasu.",
+              "meanings": {
+                "id": "Saya belajar judo.",
+                "en": "I learn judo."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -13652,7 +14036,39 @@
           "meanings": {
             "en": "sightseeing",
             "id": "lihat-lihat, melancong"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "見物に行きます。",
+              "furigana": "けんぶつに いきます。",
+              "romaji": "kenbutsu ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi jalan-jalan.",
+                "en": "I go sightseeing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "見物をします。",
+              "furigana": "けんぶつを します。",
+              "romaji": "kenbutsu wo shimasu.",
+              "meanings": {
+                "id": "Saya berjalan-jalan.",
+                "en": "I do sightseeing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "京都を見物しました。",
+              "furigana": "きょうとを けんぶつ しました。",
+              "romaji": "kyouto wo kenbutsu shimashita.",
+              "meanings": {
+                "id": "Saya jalan-jalan di Kyoto.",
+                "en": "I did sightseeing in Kyoto."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -13662,7 +14078,39 @@
           "meanings": {
             "en": "concert",
             "id": "konser"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "コンサートに行きます。",
+              "furigana": "コンサートに いきます。",
+              "romaji": "konsato ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke konser.",
+                "en": "I go to a concert."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "コンサートを見ました。",
+              "furigana": "コンサートを みました。",
+              "romaji": "konsato wo mimashita.",
+              "meanings": {
+                "id": "Saya menonton konser.",
+                "en": "I watched a concert."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "楽しいコンサートでした。",
+              "furigana": "たのしい コンサート でした。",
+              "romaji": "tanoshii konsato deshita.",
+              "meanings": {
+                "id": "Konsernya menyenangkan.",
+                "en": "It was an enjoyable concert."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -13672,7 +14120,39 @@
           "meanings": {
             "en": "interest",
             "id": "minat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "興味があります。",
+              "furigana": "きょうみが あります。",
+              "romaji": "kyoumi ga arimasu.",
+              "meanings": {
+                "id": "Saya tertarik.",
+                "en": "I'm interested."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "日本に興味があります。",
+              "furigana": "にほんに きょうみが あります。",
+              "romaji": "nihon ni kyoumi ga arimasu.",
+              "meanings": {
+                "id": "Saya tertarik pada Jepang.",
+                "en": "I'm interested in Japan."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "興味がありません。",
+              "furigana": "きょうみが ありません。",
+              "romaji": "kyoumi ga arimasen.",
+              "meanings": {
+                "id": "Saya tidak tertarik.",
+                "en": "I'm not interested."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -13682,7 +14162,39 @@
           "meanings": {
             "en": "competition",
             "id": "persaingan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "競争をします。",
+              "furigana": "きょうそうを します。",
+              "romaji": "kyousou wo shimasu.",
+              "meanings": {
+                "id": "Saya berkompetisi.",
+                "en": "I compete."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "競争に勝ちました。",
+              "furigana": "きょうそうに かちました。",
+              "romaji": "kyousou ni kachimashita.",
+              "meanings": {
+                "id": "Saya menang dalam kompetisi.",
+                "en": "I won the competition."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "競争が始まります。",
+              "furigana": "きょうそうが はじまります。",
+              "romaji": "kyousou ga hajimarimasu.",
+              "meanings": {
+                "id": "Kompetisi dimulai.",
+                "en": "The competition starts."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -13692,7 +14204,39 @@
           "meanings": {
             "en": "manga, comic",
             "id": "manga, komik Jepang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "漫画を読みます。",
+              "furigana": "まんがを よみます。",
+              "romaji": "manga wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca manga.",
+                "en": "I read manga."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "漫画が好きです。",
+              "furigana": "まんがが すき です。",
+              "romaji": "manga ga suki desu.",
+              "meanings": {
+                "id": "Saya suka manga.",
+                "en": "I like manga."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "面白い漫画です。",
+              "furigana": "おもしろい まんが です。",
+              "romaji": "omoshiroi manga desu.",
+              "meanings": {
+                "id": "Manga yang menarik.",
+                "en": "It's an interesting manga."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -13702,7 +14246,39 @@
           "meanings": {
             "en": "dance",
             "id": "tarian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "踊りを見ます。",
+              "furigana": "おどりを みます。",
+              "romaji": "odori wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton tarian.",
+                "en": "I watch a dance."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "踊りを習います。",
+              "furigana": "おどりを ならいます。",
+              "romaji": "odori wo naraimasu.",
+              "meanings": {
+                "id": "Saya belajar menari.",
+                "en": "I learn dance."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいな踊りです。",
+              "furigana": "きれいな おどり です。",
+              "romaji": "kirei na odori desu.",
+              "meanings": {
+                "id": "Tarian yang indah.",
+                "en": "It's a beautiful dance."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -13712,7 +14288,39 @@
           "meanings": {
             "en": "toy",
             "id": "mainan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おもちゃを買います。",
+              "furigana": "おもちゃを かいます。",
+              "romaji": "omocha wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli mainan.",
+                "en": "I buy a toy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おもちゃで遊びます。",
+              "furigana": "おもちゃで あそびます。",
+              "romaji": "omocha de asobimasu.",
+              "meanings": {
+                "id": "Saya bermain dengan mainan.",
+                "en": "I play with a toy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おもちゃがたくさんあります。",
+              "furigana": "おもちゃが たくさん あります。",
+              "romaji": "omocha ga takusan arimasu.",
+              "meanings": {
+                "id": "Ada banyak mainan.",
+                "en": "There are many toys."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -13722,7 +14330,39 @@
           "meanings": {
             "en": "sound",
             "id": "bunyi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "音が聞こえます。",
+              "furigana": "おとが きこえます。",
+              "romaji": "oto ga kikoemasu.",
+              "meanings": {
+                "id": "Terdengar bunyi.",
+                "en": "I can hear a sound."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きい音です。",
+              "furigana": "おおきい おと です。",
+              "romaji": "ookii oto desu.",
+              "meanings": {
+                "id": "Bunyi keras.",
+                "en": "It's a loud sound."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "音がします。",
+              "furigana": "おとが します。",
+              "romaji": "oto ga shimasu.",
+              "meanings": {
+                "id": "Berbunyi.",
+                "en": "It makes a sound."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -13732,7 +14372,39 @@
           "meanings": {
             "en": "match, game",
             "id": "pertandingan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "試合を見ます。",
+              "furigana": "しあいを みます。",
+              "romaji": "shiai wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton pertandingan.",
+                "en": "I watch a match."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "試合に勝ちました。",
+              "furigana": "しあいに かちました。",
+              "romaji": "shiai ni kachimashita.",
+              "meanings": {
+                "id": "Saya menang pertandingan.",
+                "en": "I won the match."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "試合が始まります。",
+              "furigana": "しあいが はじまります。",
+              "romaji": "shiai ga hajimarimasu.",
+              "meanings": {
+                "id": "Pertandingan dimulai.",
+                "en": "The match starts."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -13742,7 +14414,39 @@
           "meanings": {
             "en": "novel",
             "id": "buku cerita, novel"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "小説を読みます。",
+              "furigana": "しょうせつを よみます。",
+              "romaji": "shousetsu wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca novel.",
+                "en": "I read a novel."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "小説が好きです。",
+              "furigana": "しょうせつが すき です。",
+              "romaji": "shousetsu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka novel.",
+                "en": "I like novels."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "面白い小説です。",
+              "furigana": "おもしろい しょうせつ です。",
+              "romaji": "omoshiroi shousetsu desu.",
+              "meanings": {
+                "id": "Novel yang menarik.",
+                "en": "It's an interesting novel."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -13752,7 +14456,39 @@
           "meanings": {
             "en": "hobby",
             "id": "hobi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "趣味は何ですか。",
+              "furigana": "しゅみは なん ですか。",
+              "romaji": "shumi wa nan desuka.",
+              "meanings": {
+                "id": "Hobi Anda apa?",
+                "en": "What is your hobby?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "趣味は読書です。",
+              "furigana": "しゅみは どくしょ です。",
+              "romaji": "shumi wa dokusho desu.",
+              "meanings": {
+                "id": "Hobi saya membaca.",
+                "en": "My hobby is reading."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "趣味がたくさんあります。",
+              "furigana": "しゅみが たくさん あります。",
+              "romaji": "shumi ga takusan arimasu.",
+              "meanings": {
+                "id": "Saya punya banyak hobi.",
+                "en": "I have many hobbies."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -13762,7 +14498,39 @@
           "meanings": {
             "en": "swimming",
             "id": "renang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "水泳をします。",
+              "furigana": "すいえいを します。",
+              "romaji": "suiei wo shimasu.",
+              "meanings": {
+                "id": "Saya berenang.",
+                "en": "I swim."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "水泳が上手です。",
+              "furigana": "すいえいが じょうず です。",
+              "romaji": "suiei ga jyouzu desu.",
+              "meanings": {
+                "id": "Pandai berenang.",
+                "en": "Good at swimming."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水泳を習います。",
+              "furigana": "すいえいを ならいます。",
+              "romaji": "suiei wo naraimasu.",
+              "meanings": {
+                "id": "Saya belajar berenang.",
+                "en": "I learn swimming."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -13772,7 +14540,39 @@
           "meanings": {
             "en": "pleasure, hope",
             "id": "menanti dengan penuh harapan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "楽しみです。",
+              "furigana": "たのしみ です。",
+              "romaji": "tanoshimi desu.",
+              "meanings": {
+                "id": "Saya menantikan.",
+                "en": "I'm looking forward to it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "旅行が楽しみです。",
+              "furigana": "りょこうが たのしみ です。",
+              "romaji": "ryokou ga tanoshimi desu.",
+              "meanings": {
+                "id": "Saya menantikan perjalanan.",
+                "en": "I'm looking forward to the trip."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日が楽しみです。",
+              "furigana": "あしたが たのしみ です。",
+              "romaji": "ashita ga tanoshimi desu.",
+              "meanings": {
+                "id": "Saya menantikan besok.",
+                "en": "I'm looking forward to tomorrow."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -13782,7 +14582,39 @@
           "meanings": {
             "en": "tennis",
             "id": "tennis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テニスをします。",
+              "furigana": "テニスを します。",
+              "romaji": "tenisu wo shimasu.",
+              "meanings": {
+                "id": "Saya bermain tenis.",
+                "en": "I play tennis."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テニスが上手です。",
+              "furigana": "テニスが じょうず です。",
+              "romaji": "tenisu ga jyouzu desu.",
+              "meanings": {
+                "id": "Pandai bermain tenis.",
+                "en": "Good at tennis."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テニスを習います。",
+              "furigana": "テニスを ならいます。",
+              "romaji": "tenisu wo naraimasu.",
+              "meanings": {
+                "id": "Saya belajar tenis.",
+                "en": "I learn tennis."
+              }
+            }
+          ]
         }
       ]
     },
