@@ -7157,7 +7157,39 @@
           "meanings": {
             "en": "relieved, calm, peaceful",
             "id": "lega, tenang, tenteram"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "安心しました。",
+              "furigana": "あんしん しました。",
+              "romaji": "anshin shimashita.",
+              "meanings": {
+                "id": "Merasa lega.",
+                "en": "I felt relieved."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "安心してください。",
+              "furigana": "あんしん して ください。",
+              "romaji": "anshin shite kudasai.",
+              "meanings": {
+                "id": "Tolong tenang.",
+                "en": "Please be at ease."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "安心な場所です。",
+              "furigana": "あんしんな ばしょ です。",
+              "romaji": "anshin na basho desu.",
+              "meanings": {
+                "id": "Tempat yang aman.",
+                "en": "It's a safe place."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -7167,7 +7199,39 @@
           "meanings": {
             "en": "safe, secure",
             "id": "aman, selamat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "安全な道です。",
+              "furigana": "あんぜんな みち です。",
+              "romaji": "anzen na michi desu.",
+              "meanings": {
+                "id": "Jalan yang aman.",
+                "en": "It's a safe road."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "安全に運転します。",
+              "furigana": "あんぜんに うんてん します。",
+              "romaji": "anzen ni unten shimasu.",
+              "meanings": {
+                "id": "Mengemudi dengan aman.",
+                "en": "I drive safely."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "安全を確認します。",
+              "furigana": "あんぜんを かくにん します。",
+              "romaji": "anzen wo kakunin shimasu.",
+              "meanings": {
+                "id": "Memastikan keamanan.",
+                "en": "I confirm safety."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -7177,7 +7241,39 @@
           "meanings": {
             "en": "different, another",
             "id": "lain, beda"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "別の方法があります。",
+              "furigana": "べつの ほうほうが あります。",
+              "romaji": "betsu no houhou ga arimasu.",
+              "meanings": {
+                "id": "Ada cara lain.",
+                "en": "There is another way."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "別の日にします。",
+              "furigana": "べつの ひに します。",
+              "romaji": "betsu no hi ni shimasu.",
+              "meanings": {
+                "id": "Jadikan di hari lain.",
+                "en": "I'll do it on another day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "別々に払います。",
+              "furigana": "べつべつに はらいます。",
+              "romaji": "betsubetsu ni haraimasu.",
+              "meanings": {
+                "id": "Bayar terpisah.",
+                "en": "We pay separately."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -7187,7 +7283,39 @@
           "meanings": {
             "en": "important, valuable",
             "id": "penting, berharga, bernilai"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大事な物です。",
+              "furigana": "だいじな ものです。",
+              "romaji": "daiji na mono desu.",
+              "meanings": {
+                "id": "Barang penting.",
+                "en": "It's an important thing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "健康が大事です。",
+              "furigana": "けんこうが だいじ です。",
+              "romaji": "kenkou ga daiji desu.",
+              "meanings": {
+                "id": "Kesehatan itu penting.",
+                "en": "Health is important."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大事にします。",
+              "furigana": "だいじに します。",
+              "romaji": "daiji ni shimasu.",
+              "meanings": {
+                "id": "Menjaganya dengan baik.",
+                "en": "I take good care of it."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -7197,7 +7325,39 @@
           "meanings": {
             "en": "no good, not allowed",
             "id": "jangan, tidak boleh, jelek"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "それはだめです。",
+              "furigana": "それは だめです。",
+              "romaji": "sore wa dame desu.",
+              "meanings": {
+                "id": "Itu tidak boleh.",
+                "en": "That's not allowed."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "入ってはだめです。",
+              "furigana": "はいっては だめです。",
+              "romaji": "haitte wa dame desu.",
+              "meanings": {
+                "id": "Tidak boleh masuk.",
+                "en": "You must not enter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "もうだめです。",
+              "furigana": "もう だめです。",
+              "romaji": "mou dame desu.",
+              "meanings": {
+                "id": "Sudah tidak bisa lagi.",
+                "en": "It's no good anymore."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -7207,7 +7367,39 @@
           "meanings": {
             "en": "inconvenient",
             "id": "tidak praktis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "不便な場所です。",
+              "furigana": "ふべんな ばしょ です。",
+              "romaji": "fuben na basho desu.",
+              "meanings": {
+                "id": "Tempat yang tidak praktis.",
+                "en": "It's an inconvenient place."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても不便です。",
+              "furigana": "とても ふべん です。",
+              "romaji": "totemo fuben desu.",
+              "meanings": {
+                "id": "Sangat tidak praktis.",
+                "en": "It's very inconvenient."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "不便を感じます。",
+              "furigana": "ふべんを かんじます。",
+              "romaji": "fuben wo kanjimasu.",
+              "meanings": {
+                "id": "Merasa tidak nyaman.",
+                "en": "I feel inconvenience."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -7217,7 +7409,39 @@
           "meanings": {
             "en": "complicated",
             "id": "rumit"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "複雑な問題です。",
+              "furigana": "ふくざつな もんだい です。",
+              "romaji": "fukuzatsu na mondai desu.",
+              "meanings": {
+                "id": "Masalah yang rumit.",
+                "en": "It's a complicated problem."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても複雑です。",
+              "furigana": "とても ふくざつ です。",
+              "romaji": "totemo fukuzatsu desu.",
+              "meanings": {
+                "id": "Sangat rumit.",
+                "en": "It's very complicated."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "複雑すぎます。",
+              "furigana": "ふくざつ すぎます。",
+              "romaji": "fukuzatsu sugimasu.",
+              "meanings": {
+                "id": "Terlalu rumit.",
+                "en": "It's too complicated."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -7227,7 +7451,39 @@
           "meanings": {
             "en": "strange, odd",
             "id": "aneh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "変な人です。",
+              "furigana": "へんな ひと です。",
+              "romaji": "hen na hito desu.",
+              "meanings": {
+                "id": "Orang aneh.",
+                "en": "He's a strange person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "変な音がします。",
+              "furigana": "へんな おとが します。",
+              "romaji": "hen na oto ga shimasu.",
+              "meanings": {
+                "id": "Ada suara aneh.",
+                "en": "There's a strange sound."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "変だと思います。",
+              "furigana": "へんだと おもいます。",
+              "romaji": "hen da to omoimasu.",
+              "meanings": {
+                "id": "Saya pikir itu aneh.",
+                "en": "I think it's strange."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -7237,7 +7493,39 @@
           "meanings": {
             "en": "necessary",
             "id": "penting, perlu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "必要な物です。",
+              "furigana": "ひつような もの です。",
+              "romaji": "hitsuyou na mono desu.",
+              "meanings": {
+                "id": "Barang yang perlu.",
+                "en": "It's a necessary thing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お金が必要です。",
+              "furigana": "おかねが ひつよう です。",
+              "romaji": "okane ga hitsuyou desu.",
+              "meanings": {
+                "id": "Perlu uang.",
+                "en": "Money is necessary."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "必要ありません。",
+              "furigana": "ひつよう ありません。",
+              "romaji": "hitsuyou arimasen.",
+              "meanings": {
+                "id": "Tidak perlu.",
+                "en": "It's not necessary."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -7247,7 +7535,39 @@
           "meanings": {
             "en": "with all one's might",
             "id": "sekuat tenaga, mati-matian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一生懸命勉強します。",
+              "furigana": "いっしょうけんめい べんきょう します。",
+              "romaji": "isshoukenmei benkyou shimasu.",
+              "meanings": {
+                "id": "Belajar dengan sungguh-sungguh.",
+                "en": "I study with all my might."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一生懸命働きます。",
+              "furigana": "いっしょうけんめい はたらきます。",
+              "romaji": "isshoukenmei hatarakimasu.",
+              "meanings": {
+                "id": "Bekerja keras.",
+                "en": "I work hard."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一生懸命やります。",
+              "furigana": "いっしょうけんめい やります。",
+              "romaji": "isshoukenmei yarimasu.",
+              "meanings": {
+                "id": "Melakukan dengan sepenuh hati.",
+                "en": "I do it with all my effort."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -7257,7 +7577,39 @@
           "meanings": {
             "en": "free",
             "id": "bebas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "自由な時間です。",
+              "furigana": "じゆうな じかん です。",
+              "romaji": "jiyuu na jikan desu.",
+              "meanings": {
+                "id": "Waktu bebas.",
+                "en": "It's free time."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "自由に使ってください。",
+              "furigana": "じゆうに つかって ください。",
+              "romaji": "jiyuu ni tsukatte kudasai.",
+              "meanings": {
+                "id": "Silakan gunakan dengan bebas.",
+                "en": "Please use it freely."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "自由です。",
+              "furigana": "じゆう です。",
+              "romaji": "jiyuu desu.",
+              "meanings": {
+                "id": "Bebas.",
+                "en": "It's free."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -7267,7 +7619,39 @@
           "meanings": {
             "en": "hindrance, obstacle",
             "id": "gangguan, rintangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "邪魔をしました。",
+              "furigana": "じゃまを しました。",
+              "romaji": "jyama wo shimashita.",
+              "meanings": {
+                "id": "Sudah mengganggu.",
+                "en": "I disturbed you."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "邪魔にならないでください。",
+              "furigana": "じゃまに ならないで ください。",
+              "romaji": "jyama ni naranai de kudasai.",
+              "meanings": {
+                "id": "Tolong jangan menghalangi.",
+                "en": "Please don't be in the way."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "邪魔です。",
+              "furigana": "じゃま です。",
+              "romaji": "jyama desu.",
+              "meanings": {
+                "id": "Mengganggu.",
+                "en": "It's in the way."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -7277,7 +7661,39 @@
           "meanings": {
             "en": "simple, easy",
             "id": "sederhana, mudah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "簡単な問題です。",
+              "furigana": "かんたんな もんだい です。",
+              "romaji": "kantan na mondai desu.",
+              "meanings": {
+                "id": "Soal yang mudah.",
+                "en": "It's an easy problem."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても簡単です。",
+              "furigana": "とても かんたん です。",
+              "romaji": "totemo kantan desu.",
+              "meanings": {
+                "id": "Sangat mudah.",
+                "en": "It's very easy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "簡単に作れます。",
+              "furigana": "かんたんに つくれます。",
+              "romaji": "kantan ni tsukuremasu.",
+              "meanings": {
+                "id": "Bisa dibuat dengan mudah.",
+                "en": "It can be made easily."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -7287,7 +7703,39 @@
           "meanings": {
             "en": "urgent, sudden",
             "id": "tiba-tiba, darurat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "急な用事があります。",
+              "furigana": "きゅうな ようじが あります。",
+              "romaji": "kyuu na youji ga arimasu.",
+              "meanings": {
+                "id": "Ada urusan mendadak.",
+                "en": "I have an urgent matter."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "急いでください。",
+              "furigana": "いそいで ください。",
+              "romaji": "isoide kudasai.",
+              "meanings": {
+                "id": "Tolong cepat.",
+                "en": "Please hurry."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "急に雨が降りました。",
+              "furigana": "きゅうに あめが ふりました。",
+              "romaji": "kyuu ni ame ga furimashita.",
+              "meanings": {
+                "id": "Tiba-tiba hujan turun.",
+                "en": "It suddenly rained."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -7297,7 +7745,39 @@
           "meanings": {
             "en": "serious, earnest",
             "id": "sungguh-sungguh, jujur, tekun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "まじめな学生です。",
+              "furigana": "まじめな がくせい です。",
+              "romaji": "majime na gakusei desu.",
+              "meanings": {
+                "id": "Siswa yang serius.",
+                "en": "He's a serious student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "まじめに勉強します。",
+              "furigana": "まじめに べんきょう します。",
+              "romaji": "majime ni benkyou shimasu.",
+              "meanings": {
+                "id": "Belajar dengan serius.",
+                "en": "I study seriously."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とてもまじめです。",
+              "furigana": "とても まじめ です。",
+              "romaji": "totemo majime desu.",
+              "meanings": {
+                "id": "Sangat serius.",
+                "en": "He's very earnest."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -7307,7 +7787,39 @@
           "meanings": {
             "en": "most",
             "id": "paling"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "もっとも大切です。",
+              "furigana": "もっとも たいせつ です。",
+              "romaji": "mottomo taisetsu desu.",
+              "meanings": {
+                "id": "Paling penting.",
+                "en": "It's the most important."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "もっとも難しい問題です。",
+              "furigana": "もっとも むずかしい もんだい です。",
+              "romaji": "mottomo muzukashii mondai desu.",
+              "meanings": {
+                "id": "Soal yang paling sulit.",
+                "en": "It's the most difficult problem."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "もっとも安いです。",
+              "furigana": "もっとも やすいです。",
+              "romaji": "mottomo yasui desu.",
+              "meanings": {
+                "id": "Paling murah.",
+                "en": "It's the cheapest."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -7317,7 +7829,39 @@
           "meanings": {
             "en": "impossible, forced",
             "id": "tidak mungkin, memaksa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "それは無理です。",
+              "furigana": "それは むり です。",
+              "romaji": "sore wa muri desu.",
+              "meanings": {
+                "id": "Itu tidak mungkin.",
+                "en": "That's impossible."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "無理をしないでください。",
+              "furigana": "むりを しないで ください。",
+              "romaji": "muri wo shinai de kudasai.",
+              "meanings": {
+                "id": "Tolong jangan memaksakan diri.",
+                "en": "Please don't overdo it."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "無理な計画です。",
+              "furigana": "むりな けいかく です。",
+              "romaji": "muri na keikaku desu.",
+              "meanings": {
+                "id": "Rencana yang tidak mungkin.",
+                "en": "It's an impossible plan."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -7327,7 +7871,39 @@
           "meanings": {
             "en": "oversleeping",
             "id": "terlambat bangun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "寝坊しました。",
+              "furigana": "ねぼう しました。",
+              "romaji": "nebou shimashita.",
+              "meanings": {
+                "id": "Kesiangan.",
+                "en": "I overslept."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "寝坊して遅刻しました。",
+              "furigana": "ねぼう して ちこく しました。",
+              "romaji": "nebou shite chikoku shimashita.",
+              "meanings": {
+                "id": "Kesiangan dan terlambat.",
+                "en": "I overslept and was late."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "寝坊しないでください。",
+              "furigana": "ねぼう しないで ください。",
+              "romaji": "nebou shinai de kudasai.",
+              "meanings": {
+                "id": "Tolong jangan kesiangan.",
+                "en": "Please don't oversleep."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -7337,7 +7913,39 @@
           "meanings": {
             "en": "enthusiastic, diligent",
             "id": "tekun, ulet"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "熱心な学生です。",
+              "furigana": "ねっしんな がくせい です。",
+              "romaji": "nesshin na gakusei desu.",
+              "meanings": {
+                "id": "Siswa yang tekun.",
+                "en": "He's an enthusiastic student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "熱心に勉強します。",
+              "furigana": "ねっしんに べんきょう します。",
+              "romaji": "nesshin ni benkyou shimasu.",
+              "meanings": {
+                "id": "Belajar dengan tekun.",
+                "en": "I study diligently."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても熱心です。",
+              "furigana": "とても ねっしん です。",
+              "romaji": "totemo nesshin desu.",
+              "meanings": {
+                "id": "Sangat tekun.",
+                "en": "He's very enthusiastic."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -7347,7 +7955,39 @@
           "meanings": {
             "en": "prosperous, active",
             "id": "makmur, bersemangat, terkenal"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "盛んな町です。",
+              "furigana": "さかんな まち です。",
+              "romaji": "sakan na machi desu.",
+              "meanings": {
+                "id": "Kota yang ramai.",
+                "en": "It's a prosperous town."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "スポーツが盛んです。",
+              "furigana": "スポーツが さかん です。",
+              "romaji": "supootsu ga sakan desu.",
+              "meanings": {
+                "id": "Olahraga berkembang.",
+                "en": "Sports are active."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "産業が盛んです。",
+              "furigana": "さんぎょうが さかん です。",
+              "romaji": "sangyou ga sakan desu.",
+              "meanings": {
+                "id": "Industri berkembang pesat.",
+                "en": "Industry is thriving."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -7357,7 +7997,39 @@
           "meanings": {
             "en": "worry",
             "id": "khawatir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "心配しないでください。",
+              "furigana": "しんぱい しないで ください。",
+              "romaji": "shinpai shinai de kudasai.",
+              "meanings": {
+                "id": "Tolong jangan khawatir.",
+                "en": "Please don't worry."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "心配です。",
+              "furigana": "しんぱい です。",
+              "romaji": "shinpai desu.",
+              "meanings": {
+                "id": "Khawatir.",
+                "en": "I'm worried."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "心配な顔をしています。",
+              "furigana": "しんぱいな かおを して います。",
+              "romaji": "shinpai na kao wo shite imasu.",
+              "meanings": {
+                "id": "Tampak khawatir.",
+                "en": "He has a worried face."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -7367,7 +8039,39 @@
           "meanings": {
             "en": "kind",
             "id": "ramah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "親切な人です。",
+              "furigana": "しんせつな ひと です。",
+              "romaji": "shinsetsu na hito desu.",
+              "meanings": {
+                "id": "Orang yang ramah.",
+                "en": "He's a kind person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "親切にしてください。",
+              "furigana": "しんせつに して ください。",
+              "romaji": "shinsetsu ni shite kudasai.",
+              "meanings": {
+                "id": "Tolong bersikap ramah.",
+                "en": "Please be kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても親切です。",
+              "furigana": "とても しんせつ です。",
+              "romaji": "totemo shinsetsu desu.",
+              "meanings": {
+                "id": "Sangat ramah.",
+                "en": "He's very kind."
+              }
+            }
+          ]
         },
         {
           "id": 23,
@@ -7377,7 +8081,39 @@
           "meanings": {
             "en": "rude",
             "id": "tidak sopan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "失礼します。",
+              "furigana": "しつれい します。",
+              "romaji": "shitsurei shimasu.",
+              "meanings": {
+                "id": "Permisi.",
+                "en": "Excuse me."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "失礼しました。",
+              "furigana": "しつれい しました。",
+              "romaji": "shitsurei shimashita.",
+              "meanings": {
+                "id": "Maaf mengganggu.",
+                "en": "I'm sorry for being rude."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "失礼な人です。",
+              "furigana": "しつれいな ひと です。",
+              "romaji": "shitsurei na hito desu.",
+              "meanings": {
+                "id": "Orang yang tidak sopan.",
+                "en": "He's a rude person."
+              }
+            }
+          ]
         },
         {
           "id": 24,
@@ -7387,7 +8123,39 @@
           "meanings": {
             "en": "soft",
             "id": "lembut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ソフトなタッチです。",
+              "furigana": "ソフトな タッチ です。",
+              "romaji": "sofuto na tacchi desu.",
+              "meanings": {
+                "id": "Sentuhan yang lembut.",
+                "en": "It's a soft touch."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ソフトクリームを食べます。",
+              "furigana": "ソフトクリームを たべます。",
+              "romaji": "sofuto kuriimu wo tabemasu.",
+              "meanings": {
+                "id": "Makan es krim lembut.",
+                "en": "I eat soft ice cream."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とてもソフトです。",
+              "furigana": "とても ソフト です。",
+              "romaji": "totemo sofuto desu.",
+              "meanings": {
+                "id": "Sangat lembut.",
+                "en": "It's very soft."
+              }
+            }
+          ]
         },
         {
           "id": 25,
@@ -7397,7 +8165,39 @@
           "meanings": {
             "en": "polite, courteous",
             "id": "sopan, santun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "丁寧な言葉です。",
+              "furigana": "ていねいな ことば です。",
+              "romaji": "teinei na kotoba desu.",
+              "meanings": {
+                "id": "Kata-kata yang sopan.",
+                "en": "They are polite words."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "丁寧に説明します。",
+              "furigana": "ていねいに せつめい します。",
+              "romaji": "teinei ni setsumei shimasu.",
+              "meanings": {
+                "id": "Menjelaskan dengan sopan.",
+                "en": "I explain politely."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても丁寧です。",
+              "furigana": "とても ていねい です。",
+              "romaji": "totemo teinei desu.",
+              "meanings": {
+                "id": "Sangat sopan.",
+                "en": "It's very polite."
+              }
+            }
+          ]
         },
         {
           "id": 26,
@@ -7407,7 +8207,39 @@
           "meanings": {
             "en": "suitable, appropriate",
             "id": "layak, pantas, cukup"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "適当な場所です。",
+              "furigana": "てきとうな ばしょ です。",
+              "romaji": "tekitou na basho desu.",
+              "meanings": {
+                "id": "Tempat yang cocok.",
+                "en": "It's a suitable place."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "適当に選んでください。",
+              "furigana": "てきとうに えらんで ください。",
+              "romaji": "tekitou ni erande kudasai.",
+              "meanings": {
+                "id": "Tolong pilih yang sesuai.",
+                "en": "Please choose appropriately."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "適当です。",
+              "furigana": "てきとう です。",
+              "romaji": "tekitou desu.",
+              "meanings": {
+                "id": "Cocok.",
+                "en": "It's suitable."
+              }
+            }
+          ]
         },
         {
           "id": 27,
@@ -7417,7 +8249,39 @@
           "meanings": {
             "en": "special, extraordinary",
             "id": "spesial, istimewa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "特別な日です。",
+              "furigana": "とくべつな ひ です。",
+              "romaji": "tokubetsu na hi desu.",
+              "meanings": {
+                "id": "Hari yang istimewa.",
+                "en": "It's a special day."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "特別に作りました。",
+              "furigana": "とくべつに つくりました。",
+              "romaji": "tokubetsu ni tsukurimashita.",
+              "meanings": {
+                "id": "Dibuat secara khusus.",
+                "en": "I made it specially."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても特別です。",
+              "furigana": "とても とくべつ です。",
+              "romaji": "totemo tokubetsu desu.",
+              "meanings": {
+                "id": "Sangat istimewa.",
+                "en": "It's very special."
+              }
+            }
+          ]
         },
         {
           "id": 28,
@@ -7427,7 +8291,39 @@
           "meanings": {
             "en": "regrettable, unfortunate",
             "id": "disayangkan, disesalkan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "残念です。",
+              "furigana": "ざんねん です。",
+              "romaji": "zannen desu.",
+              "meanings": {
+                "id": "Sayang sekali.",
+                "en": "It's unfortunate."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "残念ですが行けません。",
+              "furigana": "ざんねん ですが いけません。",
+              "romaji": "zannen desu ga ikemasen.",
+              "meanings": {
+                "id": "Sayang sekali tapi tidak bisa pergi.",
+                "en": "Unfortunately, I can't go."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても残念です。",
+              "furigana": "とても ざんねん です。",
+              "romaji": "totemo zannen desu.",
+              "meanings": {
+                "id": "Sangat disayangkan.",
+                "en": "It's very regrettable."
+              }
+            }
+          ]
         },
         {
           "id": 29,
@@ -7437,7 +8333,39 @@
           "meanings": {
             "en": "very, extremely",
             "id": "sangat, luar biasa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ずいぶん寒いです。",
+              "furigana": "ずいぶん さむいです。",
+              "romaji": "zuibun samui desu.",
+              "meanings": {
+                "id": "Sangat dingin.",
+                "en": "It's very cold."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ずいぶん待ちました。",
+              "furigana": "ずいぶん まちました。",
+              "romaji": "zuibun machimashita.",
+              "meanings": {
+                "id": "Sudah menunggu lama.",
+                "en": "I waited quite a while."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ずいぶん大きいです。",
+              "furigana": "ずいぶん おおきいです。",
+              "romaji": "zuibun ookii desu.",
+              "meanings": {
+                "id": "Sangat besar.",
+                "en": "It's very big."
+              }
+            }
+          ]
         }
       ]
     },
@@ -7456,7 +8384,39 @@
           "meanings": {
             "en": "shallow",
             "id": "dangkal"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "浅い川です。",
+              "furigana": "あさい かわ です。",
+              "romaji": "asai kawa desu.",
+              "meanings": {
+                "id": "Sungai yang dangkal.",
+                "en": "It's a shallow river."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "水が浅いです。",
+              "furigana": "みずが あさいです。",
+              "romaji": "mizu ga asai desu.",
+              "meanings": {
+                "id": "Airnya dangkal.",
+                "en": "The water is shallow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "浅い場所で遊びます。",
+              "furigana": "あさい ばしょで あそびます。",
+              "romaji": "asai basho de asobimasu.",
+              "meanings": {
+                "id": "Bermain di tempat yang dangkal.",
+                "en": "I play in a shallow place."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -7466,7 +8426,39 @@
           "meanings": {
             "en": "deep",
             "id": "mendalam, dalam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "深い川です。",
+              "furigana": "ふかい かわ です。",
+              "romaji": "fukai kawa desu.",
+              "meanings": {
+                "id": "Sungai yang dalam.",
+                "en": "It's a deep river."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても深いです。",
+              "furigana": "とても ふかいです。",
+              "romaji": "totemo fukai desu.",
+              "meanings": {
+                "id": "Sangat dalam.",
+                "en": "It's very deep."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "深い意味があります。",
+              "furigana": "ふかい いみが あります。",
+              "romaji": "fukai imi ga arimasu.",
+              "meanings": {
+                "id": "Ada makna yang mendalam.",
+                "en": "It has a deep meaning."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -7476,7 +8468,39 @@
           "meanings": {
             "en": "embarrassed, shy",
             "id": "malu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "恥ずかしいです。",
+              "furigana": "はずかしいです。",
+              "romaji": "hazukashii desu.",
+              "meanings": {
+                "id": "Malu.",
+                "en": "I'm embarrassed."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "恥ずかしくて言えません。",
+              "furigana": "はずかしくて いえません。",
+              "romaji": "hazukashikute iemasen.",
+              "meanings": {
+                "id": "Malu jadi tidak bisa bilang.",
+                "en": "I'm too embarrassed to say it."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても恥ずかしかったです。",
+              "furigana": "とても はずかしかった です。",
+              "romaji": "totemo hazukashikatta desu.",
+              "meanings": {
+                "id": "Sangat malu.",
+                "en": "I was very embarrassed."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -7486,7 +8510,39 @@
           "meanings": {
             "en": "cruel, terrible",
             "id": "kejam, parah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ひどい天気です。",
+              "furigana": "ひどい てんき です。",
+              "romaji": "hidoi tenki desu.",
+              "meanings": {
+                "id": "Cuaca buruk.",
+                "en": "It's terrible weather."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とてもひどいです。",
+              "furigana": "とても ひどいです。",
+              "romaji": "totemo hidoi desu.",
+              "meanings": {
+                "id": "Sangat parah.",
+                "en": "It's very terrible."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ひどい風邪です。",
+              "furigana": "ひどい かぜ です。",
+              "romaji": "hidoi kaze desu.",
+              "meanings": {
+                "id": "Pilek yang parah.",
+                "en": "It's a bad cold."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -7496,7 +8552,39 @@
           "meanings": {
             "en": "sad",
             "id": "sedih, pilu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "悲しいです。",
+              "furigana": "かなしいです。",
+              "romaji": "kanashii desu.",
+              "meanings": {
+                "id": "Sedih.",
+                "en": "I'm sad."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "悲しい映画でした。",
+              "furigana": "かなしい えいが でした。",
+              "romaji": "kanashii eiga deshita.",
+              "meanings": {
+                "id": "Film yang sedih.",
+                "en": "It was a sad movie."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "とても悲しかったです。",
+              "furigana": "とても かなしかった です。",
+              "romaji": "totemo kanashikatta desu.",
+              "meanings": {
+                "id": "Sangat sedih.",
+                "en": "I was very sad."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -7506,7 +8594,39 @@
           "meanings": {
             "en": "hard, solid",
             "id": "keras, kokoh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "硬いパンです。",
+              "furigana": "かたい パン です。",
+              "romaji": "katai pan desu.",
+              "meanings": {
+                "id": "Roti yang keras.",
+                "en": "It's hard bread."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても硬いです。",
+              "furigana": "とても かたいです。",
+              "romaji": "totemo katai desu.",
+              "meanings": {
+                "id": "Sangat keras.",
+                "en": "It's very hard."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "硬くて食べられません。",
+              "furigana": "かたくて たべられません。",
+              "romaji": "katakute taberaremasen.",
+              "meanings": {
+                "id": "Keras jadi tidak bisa dimakan.",
+                "en": "It's too hard to eat."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -7516,7 +8636,39 @@
           "meanings": {
             "en": "strict, severe",
             "id": "ketat, keras, tegas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "厳しい先生です。",
+              "furigana": "きびしい せんせい です。",
+              "romaji": "kibishii sensei desu.",
+              "meanings": {
+                "id": "Guru yang ketat.",
+                "en": "It's a strict teacher."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても厳しいです。",
+              "furigana": "とても きびしいです。",
+              "romaji": "totemo kibishii desu.",
+              "meanings": {
+                "id": "Sangat ketat.",
+                "en": "It's very strict."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "厳しくて大変です。",
+              "furigana": "きびしくて たいへんです。",
+              "romaji": "kibishikute taihen desu.",
+              "meanings": {
+                "id": "Ketat jadi susah.",
+                "en": "It's strict, so it's tough."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -7526,7 +8678,39 @@
           "meanings": {
             "en": "fine, detailed",
             "id": "halus, rinci"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "細かい字です。",
+              "furigana": "こまかい じ です。",
+              "romaji": "komakai ji desu.",
+              "meanings": {
+                "id": "Tulisan yang kecil.",
+                "en": "It's small writing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても細かいです。",
+              "furigana": "とても こまかいです。",
+              "romaji": "totemo komakai desu.",
+              "meanings": {
+                "id": "Sangat halus.",
+                "en": "It's very fine."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "細かくて見えません。",
+              "furigana": "こまかくて みえません。",
+              "romaji": "komakakute miemasen.",
+              "meanings": {
+                "id": "Halus jadi tidak terlihat.",
+                "en": "It's too fine to see."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -7536,7 +8720,39 @@
           "meanings": {
             "en": "scary, afraid",
             "id": "takut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "怖い映画です。",
+              "furigana": "こわい えいが です。",
+              "romaji": "kowai eiga desu.",
+              "meanings": {
+                "id": "Film yang menakutkan.",
+                "en": "It's a scary movie."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても怖いです。",
+              "furigana": "とても こわいです。",
+              "romaji": "totemo kowai desu.",
+              "meanings": {
+                "id": "Sangat takut.",
+                "en": "I'm very scared."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "怖くて見られません。",
+              "furigana": "こわくて みられません。",
+              "romaji": "kowakute miraremasen.",
+              "meanings": {
+                "id": "Takut jadi tidak bisa melihat.",
+                "en": "I'm too scared to watch."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -7546,7 +8762,39 @@
           "meanings": {
             "en": "rare",
             "id": "langka"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "珍しい花です。",
+              "furigana": "めずらしい はな です。",
+              "romaji": "mezurashii hana desu.",
+              "meanings": {
+                "id": "Bunga yang langka.",
+                "en": "It's a rare flower."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても珍しいです。",
+              "furigana": "とても めずらしいです。",
+              "romaji": "totemo mezurashii desu.",
+              "meanings": {
+                "id": "Sangat langka.",
+                "en": "It's very rare."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "珍しい名前ですね。",
+              "furigana": "めずらしい なまえ ですね。",
+              "romaji": "mezurashii namae desu ne.",
+              "meanings": {
+                "id": "Nama yang langka ya.",
+                "en": "That's a rare name, isn't it?"
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -7556,7 +8804,39 @@
           "meanings": {
             "en": "sleepy",
             "id": "mengantuk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "眠いです。",
+              "furigana": "ねむいです。",
+              "romaji": "nemui desu.",
+              "meanings": {
+                "id": "Saya mengantuk.",
+                "en": "I'm sleepy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても眠いです。",
+              "furigana": "とても ねむいです。",
+              "romaji": "totemo nemui desu.",
+              "meanings": {
+                "id": "Sangat mengantuk.",
+                "en": "I'm very sleepy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "眠くて起きられません。",
+              "furigana": "ねむくて おきられません。",
+              "romaji": "nemukute okiraremasen.",
+              "meanings": {
+                "id": "Mengantuk jadi tidak bisa bangun.",
+                "en": "I'm too sleepy to get up."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -7566,7 +8846,39 @@
           "meanings": {
             "en": "bitter",
             "id": "pahit"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "苦い薬です。",
+              "furigana": "にがい くすり です。",
+              "romaji": "nigai kusuri desu.",
+              "meanings": {
+                "id": "Obat yang pahit.",
+                "en": "It's bitter medicine."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても苦いです。",
+              "furigana": "とても にがいです。",
+              "romaji": "totemo nigai desu.",
+              "meanings": {
+                "id": "Sangat pahit.",
+                "en": "It's very bitter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "苦くて飲めません。",
+              "furigana": "にがくて のめません。",
+              "romaji": "nigakute nomemasen.",
+              "meanings": {
+                "id": "Pahit jadi tidak bisa minum.",
+                "en": "It's too bitter to drink."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -7576,7 +8888,39 @@
           "meanings": {
             "en": "strange, funny",
             "id": "aneh, menggelikan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おかしい話です。",
+              "furigana": "おかしい はなし です。",
+              "romaji": "okashii hanashi desu.",
+              "meanings": {
+                "id": "Cerita yang lucu.",
+                "en": "It's a funny story."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とてもおかしいです。",
+              "furigana": "とても おかしいです。",
+              "romaji": "totemo okashii desu.",
+              "meanings": {
+                "id": "Sangat aneh.",
+                "en": "It's very strange."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おかしくて笑いました。",
+              "furigana": "おかしくて わらいました。",
+              "romaji": "okashikute waraimashita.",
+              "meanings": {
+                "id": "Lucu jadi tertawa.",
+                "en": "It was so funny, I laughed."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -7586,7 +8930,39 @@
           "meanings": {
             "en": "lonely",
             "id": "sepi, sunyi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "寂しいです。",
+              "furigana": "さびしいです。",
+              "romaji": "sabishii desu.",
+              "meanings": {
+                "id": "Saya kesepian.",
+                "en": "I'm lonely."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても寂しいです。",
+              "furigana": "とても さびしいです。",
+              "romaji": "totemo sabishii desu.",
+              "meanings": {
+                "id": "Sangat kesepian.",
+                "en": "I'm very lonely."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "寂しくて泣きました。",
+              "furigana": "さびしくて なきました。",
+              "romaji": "sabishikute nakimashita.",
+              "meanings": {
+                "id": "Kesepian jadi menangis.",
+                "en": "I was so lonely, I cried."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -7596,7 +8972,39 @@
           "meanings": {
             "en": "wonderful",
             "id": "bagus sekali, sangat indah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "素晴らしい景色です。",
+              "furigana": "すばらしい けしき です。",
+              "romaji": "subarashii keshiki desu.",
+              "meanings": {
+                "id": "Pemandangan yang indah.",
+                "en": "It's a wonderful view."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても素晴らしいです。",
+              "furigana": "とても すばらしいです。",
+              "romaji": "totemo subarashii desu.",
+              "meanings": {
+                "id": "Sangat luar biasa.",
+                "en": "It's very wonderful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "素晴らしい経験でした。",
+              "furigana": "すばらしい けいけん でした。",
+              "romaji": "subarashii keiken deshita.",
+              "meanings": {
+                "id": "Pengalaman yang luar biasa.",
+                "en": "It was a wonderful experience."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -7606,7 +9014,39 @@
           "meanings": {
             "en": "amazing",
             "id": "hebat, dahsyat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "すごい人です。",
+              "furigana": "すごい ひと です。",
+              "romaji": "sugoi hito desu.",
+              "meanings": {
+                "id": "Orang yang hebat.",
+                "en": "He's an amazing person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とてもすごいです。",
+              "furigana": "とても すごいです。",
+              "romaji": "totemo sugoi desu.",
+              "meanings": {
+                "id": "Sangat hebat.",
+                "en": "It's very amazing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "すごくて驚きました。",
+              "furigana": "すごくて おどろきました。",
+              "romaji": "sugokute odorokimashita.",
+              "meanings": {
+                "id": "Hebat jadi terkejut.",
+                "en": "It was so amazing, I was surprised."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -7616,7 +9056,39 @@
           "meanings": {
             "en": "correct, right",
             "id": "betul, benar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "正しい答えです。",
+              "furigana": "ただしい こたえ です。",
+              "romaji": "tadashii kotae desu.",
+              "meanings": {
+                "id": "Jawaban yang benar.",
+                "en": "It's the correct answer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これは正しいです。",
+              "furigana": "これは ただしいです。",
+              "romaji": "kore wa tadashii desu.",
+              "meanings": {
+                "id": "Ini benar.",
+                "en": "This is correct."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "正しくありません。",
+              "furigana": "ただしく ありません。",
+              "romaji": "tadashiku arimasen.",
+              "meanings": {
+                "id": "Tidak benar.",
+                "en": "It's not correct."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -7626,7 +9098,39 @@
           "meanings": {
             "en": "delicious, skillful",
             "id": "enak, sedap"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "うまい料理です。",
+              "furigana": "うまい りょうり です。",
+              "romaji": "umai ryouri desu.",
+              "meanings": {
+                "id": "Masakan yang enak.",
+                "en": "It's delicious food."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とてもうまいです。",
+              "furigana": "とても うまいです。",
+              "romaji": "totemo umai desu.",
+              "meanings": {
+                "id": "Sangat enak.",
+                "en": "It's very delicious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "うまくできました。",
+              "furigana": "うまく できました。",
+              "romaji": "umaku dekimashita.",
+              "meanings": {
+                "id": "Berhasil dengan baik.",
+                "en": "It was done well."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -7636,7 +9140,39 @@
           "meanings": {
             "en": "happy, glad",
             "id": "senang, gembira"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "嬉しいです。",
+              "furigana": "うれしいです。",
+              "romaji": "ureshii desu.",
+              "meanings": {
+                "id": "Saya senang.",
+                "en": "I'm happy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても嬉しいです。",
+              "furigana": "とても うれしいです。",
+              "romaji": "totemo ureshii desu.",
+              "meanings": {
+                "id": "Sangat senang.",
+                "en": "I'm very happy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "嬉しくて泣きました。",
+              "furigana": "うれしくて なきました。",
+              "romaji": "ureshikute nakimashita.",
+              "meanings": {
+                "id": "Senang sampai menangis.",
+                "en": "I was so happy, I cried."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -7646,7 +9182,39 @@
           "meanings": {
             "en": "beautiful",
             "id": "cantik, indah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "美しい花です。",
+              "furigana": "うつくしい はな です。",
+              "romaji": "utsukushii hana desu.",
+              "meanings": {
+                "id": "Bunga yang cantik.",
+                "en": "It's a beautiful flower."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても美しいです。",
+              "furigana": "とても うつくしいです。",
+              "romaji": "totemo utsukushii desu.",
+              "meanings": {
+                "id": "Sangat indah.",
+                "en": "It's very beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "美しい景色でした。",
+              "furigana": "うつくしい けしき でした。",
+              "romaji": "utsukushii keshiki deshita.",
+              "meanings": {
+                "id": "Pemandangan yang indah.",
+                "en": "It was a beautiful view."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -7656,7 +9224,39 @@
           "meanings": {
             "en": "gentle, kind",
             "id": "lembut, ramah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "優しい人です。",
+              "furigana": "やさしい ひと です。",
+              "romaji": "yasashii hito desu.",
+              "meanings": {
+                "id": "Orang yang baik.",
+                "en": "He's a kind person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても優しいです。",
+              "furigana": "とても やさしいです。",
+              "romaji": "totemo yasashii desu.",
+              "meanings": {
+                "id": "Sangat baik.",
+                "en": "He's very kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "優しくて好きです。",
+              "furigana": "やさしくて すきです。",
+              "romaji": "yasashikute suki desu.",
+              "meanings": {
+                "id": "Baik jadi suka.",
+                "en": "He's kind, so I like him."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -7666,7 +9266,39 @@
           "meanings": {
             "en": "soft",
             "id": "lunak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "柔らかいパンです。",
+              "furigana": "やわらかい パン です。",
+              "romaji": "yawarakai pan desu.",
+              "meanings": {
+                "id": "Roti yang lembut.",
+                "en": "It's soft bread."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "とても柔らかいです。",
+              "furigana": "とても やわらかいです。",
+              "romaji": "totemo yawarakai desu.",
+              "meanings": {
+                "id": "Sangat lembut.",
+                "en": "It's very soft."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "柔らかくて美味しいです。",
+              "furigana": "やわらかくて おいしいです。",
+              "romaji": "yawarakakute oishii desu.",
+              "meanings": {
+                "id": "Lembut dan enak.",
+                "en": "It's soft and delicious."
+              }
+            }
+          ]
         }
       ]
     },
