@@ -4,6 +4,7 @@ import { LessonHeader } from "../fragments/lesson-header";
 import { LessonDisplayOptionsControl } from "../fragments/lesson-display-options-control";
 import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
 import { VocabularyList } from "../fragments/vocabulary-list";
+import { ScrollFloatingButton } from "@/pwa/core/components/scroll-floating-button";
 import { useVocabularySelection } from "../store/vocabulary-selection.store";
 
 export function VocabularyLessonContainer() {
@@ -22,6 +23,9 @@ export function VocabularyLessonContainer() {
 
       {/* Selection Bottom Nav */}
       {isSelectionMode && <SelectionBottomNav />}
+
+      {/* Scroll Floating Button */}
+      <ScrollFloatingButton />
     </div>
   );
 }

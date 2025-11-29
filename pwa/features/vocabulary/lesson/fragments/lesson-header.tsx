@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronLeft, Edit3 } from "lucide-react";
+import { ArrowLeft, Edit3 } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { ThemeToggleButton } from "@/pwa/core/components/theme-toggle-button";
 import { LanguageToggleButton } from "@/pwa/core/components/language-toggle-button";
@@ -20,11 +20,11 @@ export function LessonHeader() {
             size="sm"
             className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
           >
-            <ChevronLeft className="h-4 w-4" />
+            <ArrowLeft className="h-4 w-4" />
             <span>Back</span>
           </Button>
         </Link>
-        
+
         {/* Right side - Selection Mode, Language and Theme toggles */}
         <div className="flex items-center gap-3">
           {/* Selection Mode Toggle */}
@@ -32,9 +32,9 @@ export function LessonHeader() {
             variant="ghost"
             size="icon"
             className={`rounded-full h-8 w-8 p-0 transition-colors ${
-              isSelectionMode 
-                ? 'bg-primary/20 text-primary hover:bg-primary/30' 
-                : 'hover:bg-accent/20'
+              isSelectionMode
+                ? "bg-primary/20 text-primary hover:bg-primary/30"
+                : "hover:bg-accent/20"
             }`}
             onClick={toggleSelectionMode}
             aria-label="Toggle selection mode"
