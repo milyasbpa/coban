@@ -27737,7 +27737,39 @@
           "meanings": {
             "en": "small bird",
             "id": "burung kecil"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "小鳥が鳴いています。",
+              "furigana": "ことりが ないています。",
+              "romaji": "kotori ga naite imasu.",
+              "meanings": {
+                "id": "Burung kecil sedang berkicau.",
+                "en": "A small bird is singing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "小鳥を飼っています。",
+              "furigana": "ことりを かっています。",
+              "romaji": "kotori o katte imasu.",
+              "meanings": {
+                "id": "Saya memelihara burung kecil.",
+                "en": "I keep a small bird."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "木に小鳥がいます。",
+              "furigana": "きに ことりが います。",
+              "romaji": "ki ni kotori ga imasu.",
+              "meanings": {
+                "id": "Ada burung kecil di pohon.",
+                "en": "There is a small bird on the tree."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -27747,7 +27779,39 @@
           "meanings": {
             "en": "insect",
             "id": "serangga, kutu, cacing"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "虫が嫌いです。",
+              "furigana": "むしが きらいです。",
+              "romaji": "mushi ga kirai desu.",
+              "meanings": {
+                "id": "Saya tidak suka serangga.",
+                "en": "I dislike insects."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "虫に刺されました。",
+              "furigana": "むしに さされました。",
+              "romaji": "mushi ni sasaremashita.",
+              "meanings": {
+                "id": "Digigit serangga.",
+                "en": "I was bitten by an insect."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部屋に虫がいます。",
+              "furigana": "へやに むしが います。",
+              "romaji": "heya ni mushi ga imasu.",
+              "meanings": {
+                "id": "Ada serangga di kamar.",
+                "en": "There is an insect in the room."
+              }
+            }
+          ]
         }
       ]
     },
@@ -27766,7 +27830,39 @@
           "meanings": {
             "en": "opinion",
             "id": "pendapat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "意見を聞かせてください。",
+              "furigana": "いけんを きかせてください。",
+              "romaji": "iken o kikasete kudasai.",
+              "meanings": {
+                "id": "Tolong sampaikan pendapat Anda.",
+                "en": "Please let me hear your opinion."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "良い意見ですね。",
+              "furigana": "いい いけんですね。",
+              "romaji": "ii iken desu ne.",
+              "meanings": {
+                "id": "Pendapat yang bagus ya.",
+                "en": "That's a good opinion."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "意見が違います。",
+              "furigana": "いけんが ちがいます。",
+              "romaji": "iken ga chigaimasu.",
+              "meanings": {
+                "id": "Pendapatnya berbeda.",
+                "en": "Our opinions differ."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -27776,7 +27872,39 @@
           "meanings": {
             "en": "garbage",
             "id": "sampah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ごみを捨ててください。",
+              "furigana": "ごみを すててください。",
+              "romaji": "gomi o sutete kudasai.",
+              "meanings": {
+                "id": "Tolong buang sampahnya.",
+                "en": "Please throw away the garbage."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ごみ箱はどこですか。",
+              "furigana": "ごみばこは どこですか。",
+              "romaji": "gomibako wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana tempat sampahnya?",
+                "en": "Where is the trash can?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部屋にごみがあります。",
+              "furigana": "へやに ごみが あります。",
+              "romaji": "heya ni gomi ga arimasu.",
+              "meanings": {
+                "id": "Ada sampah di kamar.",
+                "en": "There is garbage in the room."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -27786,7 +27914,39 @@
           "meanings": {
             "en": "full",
             "id": "penuh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電車は満席です。",
+              "furigana": "でんしゃは まんせきです。",
+              "romaji": "densha wa manseki desu.",
+              "meanings": {
+                "id": "Keretanya penuh.",
+                "en": "The train is full."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "レストランが満席でした。",
+              "furigana": "レストランが まんせきでした。",
+              "romaji": "resutoran ga manseki deshita.",
+              "meanings": {
+                "id": "Restorannya penuh.",
+                "en": "The restaurant was full."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "満席になりました。",
+              "furigana": "まんせきに なりました。",
+              "romaji": "manseki ni narimashita.",
+              "meanings": {
+                "id": "Menjadi penuh.",
+                "en": "It became full."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -27796,7 +27956,39 @@
           "meanings": {
             "en": "lie",
             "id": "bohong"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "うそを言わないでください。",
+              "furigana": "うそを いわないでください。",
+              "romaji": "uso o iwanaide kudasai.",
+              "meanings": {
+                "id": "Tolong jangan bohong.",
+                "en": "Please don't tell a lie."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "それはうそです。",
+              "furigana": "それは うそです。",
+              "romaji": "sore wa uso desu.",
+              "meanings": {
+                "id": "Itu bohong.",
+                "en": "That's a lie."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "うそでしょう。",
+              "furigana": "うそでしょう。",
+              "romaji": "uso deshou.",
+              "meanings": {
+                "id": "Masa sih? Tidak mungkin.",
+                "en": "No way! That can't be true."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -27806,7 +27998,39 @@
           "meanings": {
             "en": "lost item",
             "id": "barang yang ketinggalan/kelupaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "忘れ物をしました。",
+              "furigana": "わすれものを しました。",
+              "romaji": "wasuremono o shimashita.",
+              "meanings": {
+                "id": "Saya meninggalkan barang.",
+                "en": "I left something behind."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "忘れ物はありませんか。",
+              "furigana": "わすれものは ありませんか。",
+              "romaji": "wasuremono wa arimasen ka.",
+              "meanings": {
+                "id": "Tidak ada barang yang tertinggal?",
+                "en": "Have you left anything behind?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "忘れ物に気をつけてください。",
+              "furigana": "わすれものに きを つけてください。",
+              "romaji": "wasuremono ni ki o tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong hati-hati jangan sampai ada barang tertinggal.",
+                "en": "Please be careful not to leave anything behind."
+              }
+            }
+          ]
         }
       ]
     }
