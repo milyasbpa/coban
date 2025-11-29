@@ -11681,7 +11681,39 @@
           "meanings": {
             "en": "accessory",
             "id": "aksesoris, perhiasan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "アクセサリーを買います。",
+              "furigana": "アクセサリーを かいます。",
+              "romaji": "akusesarii wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli aksesoris.",
+                "en": "I buy accessories."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "きれいなアクセサリーです。",
+              "furigana": "きれいな アクセサリー です。",
+              "romaji": "kirei na akusesarii desu.",
+              "meanings": {
+                "id": "Aksesoris yang cantik.",
+                "en": "It's a beautiful accessory."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アクセサリーをつけます。",
+              "furigana": "アクセサリーを つけます。",
+              "romaji": "akusesarii wo tsukemasu.",
+              "meanings": {
+                "id": "Saya memakai aksesoris.",
+                "en": "I wear accessories."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -11691,7 +11723,39 @@
           "meanings": {
             "en": "handbag",
             "id": "tas tangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ハンドバッグを持っています。",
+              "furigana": "ハンドバッグを もって います。",
+              "romaji": "handobaggu wo motte imasu.",
+              "meanings": {
+                "id": "Saya membawa tas tangan.",
+                "en": "I'm carrying a handbag."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新しいハンドバッグです。",
+              "furigana": "あたらしい ハンドバッグ です。",
+              "romaji": "atarashii handobaggu desu.",
+              "meanings": {
+                "id": "Tas tangan baru.",
+                "en": "It's a new handbag."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ハンドバッグを買いました。",
+              "furigana": "ハンドバッグを かいました。",
+              "romaji": "handobaggu wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli tas tangan.",
+                "en": "I bought a handbag."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -11701,7 +11765,39 @@
           "meanings": {
             "en": "thread, string",
             "id": "benang, tali"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "糸を買います。",
+              "furigana": "いとを かいます。",
+              "romaji": "ito wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli benang.",
+                "en": "I buy thread."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "糸が切れました。",
+              "furigana": "いとが きれました。",
+              "romaji": "ito ga kiremashita.",
+              "meanings": {
+                "id": "Benangnya putus.",
+                "en": "The thread broke."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "赤い糸です。",
+              "furigana": "あかい いと です。",
+              "romaji": "akai ito desu.",
+              "meanings": {
+                "id": "Benang merah.",
+                "en": "It's a red thread."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -11711,7 +11807,39 @@
           "meanings": {
             "en": "kimono",
             "id": "pakaian, kimono"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "着物を着ます。",
+              "furigana": "きものを きます。",
+              "romaji": "kimono wo kimasu.",
+              "meanings": {
+                "id": "Saya memakai kimono.",
+                "en": "I wear a kimono."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "きれいな着物です。",
+              "furigana": "きれいな きもの です。",
+              "romaji": "kirei na kimono desu.",
+              "meanings": {
+                "id": "Kimono yang cantik.",
+                "en": "It's a beautiful kimono."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お祭りで着物を着ました。",
+              "furigana": "おまつりで きものを きました。",
+              "romaji": "omatsuri de kimono wo kimashita.",
+              "meanings": {
+                "id": "Saya memakai kimono di festival.",
+                "en": "I wore a kimono at the festival."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -11721,7 +11849,39 @@
           "meanings": {
             "en": "silk",
             "id": "sutera"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "絹のシャツです。",
+              "furigana": "きぬの シャツ です。",
+              "romaji": "kinu no shatsu desu.",
+              "meanings": {
+                "id": "Kemeja sutera.",
+                "en": "It's a silk shirt."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "絹は高いです。",
+              "furigana": "きぬは たかい です。",
+              "romaji": "kinu wa takai desu.",
+              "meanings": {
+                "id": "Sutera mahal.",
+                "en": "Silk is expensive."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "絹が好きです。",
+              "furigana": "きぬが すき です。",
+              "romaji": "kinu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka sutera.",
+                "en": "I like silk."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -11731,7 +11891,39 @@
           "meanings": {
             "en": "cotton",
             "id": "katun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "木綿のシャツです。",
+              "furigana": "もめんの シャツ です。",
+              "romaji": "momen no shatsu desu.",
+              "meanings": {
+                "id": "Kemeja katun.",
+                "en": "It's a cotton shirt."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "木綿は安いです。",
+              "furigana": "もめんは やすい です。",
+              "romaji": "momen wa yasui desu.",
+              "meanings": {
+                "id": "Katun murah.",
+                "en": "Cotton is cheap."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "木綿が好きです。",
+              "furigana": "もめんが すき です。",
+              "romaji": "momen ga suki desu.",
+              "meanings": {
+                "id": "Saya suka katun.",
+                "en": "I like cotton."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -11741,7 +11933,39 @@
           "meanings": {
             "en": "sandal",
             "id": "sandal"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "サンダルを履きます。",
+              "furigana": "サンダルを はきます。",
+              "romaji": "sandaru wo hakimasu.",
+              "meanings": {
+                "id": "Saya memakai sandal.",
+                "en": "I wear sandals."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夏はサンダルです。",
+              "furigana": "なつは サンダル です。",
+              "romaji": "natsu wa sandaru desu.",
+              "meanings": {
+                "id": "Di musim panas pakai sandal.",
+                "en": "In summer, I wear sandals."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "サンダルを買いました。",
+              "furigana": "サンダルを かいました。",
+              "romaji": "sandaru wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli sandal.",
+                "en": "I bought sandals."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -11751,7 +11975,39 @@
           "meanings": {
             "en": "underwear",
             "id": "pakaian dalam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "下着を買います。",
+              "furigana": "したぎを かいます。",
+              "romaji": "shitagi wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli pakaian dalam.",
+                "en": "I buy underwear."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "下着を洗います。",
+              "furigana": "したぎを あらいます。",
+              "romaji": "shitagi wo araimasu.",
+              "meanings": {
+                "id": "Saya mencuci pakaian dalam.",
+                "en": "I wash underwear."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい下着です。",
+              "furigana": "あたらしい したぎ です。",
+              "romaji": "atarashii shitagi desu.",
+              "meanings": {
+                "id": "Pakaian dalam baru.",
+                "en": "It's new underwear."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -11761,7 +12017,39 @@
           "meanings": {
             "en": "suit",
             "id": "pakaian setelan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "スーツを着ます。",
+              "furigana": "スーツを きます。",
+              "romaji": "suutsu wo kimasu.",
+              "meanings": {
+                "id": "Saya memakai setelan.",
+                "en": "I wear a suit."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "会社でスーツです。",
+              "furigana": "かいしゃで スーツ です。",
+              "romaji": "kaisha de suutsu desu.",
+              "meanings": {
+                "id": "Di kantor pakai setelan.",
+                "en": "At the office, I wear a suit."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "黒いスーツを買いました。",
+              "furigana": "くろい スーツを かいました。",
+              "romaji": "kuroi suutsu wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli setelan hitam.",
+                "en": "I bought a black suit."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -11771,7 +12059,39 @@
           "meanings": {
             "en": "suitcase",
             "id": "koper"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "スーツケースを持ちます。",
+              "furigana": "スーツケースを もちます。",
+              "romaji": "suutsukesu wo mochimasu.",
+              "meanings": {
+                "id": "Saya membawa koper.",
+                "en": "I carry a suitcase."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きいスーツケースです。",
+              "furigana": "おおきい スーツケース です。",
+              "romaji": "ookii suutsukesu desu.",
+              "meanings": {
+                "id": "Koper besar.",
+                "en": "It's a big suitcase."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "スーツケースに入れます。",
+              "furigana": "スーツケースに いれます。",
+              "romaji": "suutsukesu ni iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan ke dalam koper.",
+                "en": "I put it in the suitcase."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -11781,7 +12101,39 @@
           "meanings": {
             "en": "glove",
             "id": "sarung tangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "手袋をします。",
+              "furigana": "てぶくろを します。",
+              "romaji": "tebukuro wo shimasu.",
+              "meanings": {
+                "id": "Saya memakai sarung tangan.",
+                "en": "I wear gloves."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "冬は手袋です。",
+              "furigana": "ふゆは てぶくろ です。",
+              "romaji": "fuyu wa tebukuro desu.",
+              "meanings": {
+                "id": "Di musim dingin pakai sarung tangan.",
+                "en": "In winter, I wear gloves."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "手袋を買いました。",
+              "furigana": "てぶくろを かいました。",
+              "romaji": "tebukuro wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli sarung tangan.",
+                "en": "I bought gloves."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -11791,7 +12143,39 @@
           "meanings": {
             "en": "ring",
             "id": "cincin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "指輪をします。",
+              "furigana": "ゆびわを します。",
+              "romaji": "yubiwa wo shimasu.",
+              "meanings": {
+                "id": "Saya memakai cincin.",
+                "en": "I wear a ring."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "きれいな指輪です。",
+              "furigana": "きれいな ゆびわ です。",
+              "romaji": "kirei na yubiwa desu.",
+              "meanings": {
+                "id": "Cincin yang cantik.",
+                "en": "It's a beautiful ring."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "指輪をもらいました。",
+              "furigana": "ゆびわを もらいました。",
+              "romaji": "yubiwa wo moraimashita.",
+              "meanings": {
+                "id": "Saya menerima cincin.",
+                "en": "I received a ring."
+              }
+            }
+          ]
         }
       ]
     },
@@ -11810,7 +12194,39 @@
           "meanings": {
             "en": "building",
             "id": "bangunan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "高いビルです。",
+              "furigana": "たかい ビル です。",
+              "romaji": "takai biru desu.",
+              "meanings": {
+                "id": "Bangunan tinggi.",
+                "en": "It's a tall building."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ビルで働きます。",
+              "furigana": "ビルで はたらきます。",
+              "romaji": "biru de hatarakimasu.",
+              "meanings": {
+                "id": "Saya bekerja di gedung.",
+                "en": "I work in a building."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しいビルです。",
+              "furigana": "あたらしい ビル です。",
+              "romaji": "atarashii biru desu.",
+              "meanings": {
+                "id": "Bangunan baru.",
+                "en": "It's a new building."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -11820,7 +12236,39 @@
           "meanings": {
             "en": "heater",
             "id": "pemanas ruangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "暖房をつけます。",
+              "furigana": "だんぼうを つけます。",
+              "romaji": "danbou wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan pemanas.",
+                "en": "I turn on the heater."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "冬は暖房です。",
+              "furigana": "ふゆは だんぼう です。",
+              "romaji": "fuyu wa danbou desu.",
+              "meanings": {
+                "id": "Di musim dingin pakai pemanas.",
+                "en": "In winter, I use the heater."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "暖房を消します。",
+              "furigana": "だんぼうを けします。",
+              "romaji": "danbou wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan pemanas.",
+                "en": "I turn off the heater."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -11830,7 +12278,39 @@
           "meanings": {
             "en": "lamp",
             "id": "lampu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電灯をつけます。",
+              "furigana": "でんとうを つけます。",
+              "romaji": "dentou wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan lampu.",
+                "en": "I turn on the lamp."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電灯が明るいです。",
+              "furigana": "でんとうが あかるい です。",
+              "romaji": "dentou ga akarui desu.",
+              "meanings": {
+                "id": "Lampunya terang.",
+                "en": "The lamp is bright."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電灯を消します。",
+              "furigana": "でんとうを けします。",
+              "romaji": "dentou wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan lampu.",
+                "en": "I turn off the lamp."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -11840,7 +12320,39 @@
           "meanings": {
             "en": "escalator",
             "id": "eskalator, tangga jalan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "エスカレーターに乗ります。",
+              "furigana": "エスカレーターに のります。",
+              "romaji": "esukareetaa ni norimasu.",
+              "meanings": {
+                "id": "Saya naik eskalator.",
+                "en": "I ride the escalator."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "エスカレーターで上に行きます。",
+              "furigana": "エスカレーターで うえに いきます。",
+              "romaji": "esukareetaa de ue ni ikimasu.",
+              "meanings": {
+                "id": "Saya naik ke atas dengan eskalator.",
+                "en": "I go up by escalator."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "エスカレーターがあります。",
+              "furigana": "エスカレーターが あります。",
+              "romaji": "esukareetaa ga arimasu.",
+              "meanings": {
+                "id": "Ada eskalator.",
+                "en": "There is an escalator."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -11850,7 +12362,39 @@
           "meanings": {
             "en": "glass",
             "id": "gelas, kaca"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ガラスがきれいです。",
+              "furigana": "ガラスが きれい です。",
+              "romaji": "garasu ga kirei desu.",
+              "meanings": {
+                "id": "Kacanya bersih.",
+                "en": "The glass is clean."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ガラスの窓です。",
+              "furigana": "ガラスの まど です。",
+              "romaji": "garasu no mado desu.",
+              "meanings": {
+                "id": "Jendela kaca.",
+                "en": "It's a glass window."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ガラスが割れました。",
+              "furigana": "ガラスが われました。",
+              "romaji": "garasu ga waremashita.",
+              "meanings": {
+                "id": "Kacanya pecah.",
+                "en": "The glass broke."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -11860,7 +12404,39 @@
           "meanings": {
             "en": "wall",
             "id": "dinding"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "白い壁です。",
+              "furigana": "しろい かべ です。",
+              "romaji": "shiroi kabe desu.",
+              "meanings": {
+                "id": "Dinding putih.",
+                "en": "It's a white wall."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "壁に絵があります。",
+              "furigana": "かべに えが あります。",
+              "romaji": "kabe ni e ga arimasu.",
+              "meanings": {
+                "id": "Ada gambar di dinding.",
+                "en": "There is a picture on the wall."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいな壁です。",
+              "furigana": "きれいな かべ です。",
+              "romaji": "kirei na kabe desu.",
+              "meanings": {
+                "id": "Dinding yang bersih.",
+                "en": "It's a clean wall."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -11870,7 +12446,39 @@
           "meanings": {
             "en": "auditorium",
             "id": "auditorium, aula"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "講堂で会議をします。",
+              "furigana": "こうどうで かいぎを します。",
+              "romaji": "koudou de kaigi wo shimasu.",
+              "meanings": {
+                "id": "Saya mengadakan rapat di aula.",
+                "en": "I have a meeting in the auditorium."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きい講堂です。",
+              "furigana": "おおきい こうどう です。",
+              "romaji": "ookii koudou desu.",
+              "meanings": {
+                "id": "Aula besar.",
+                "en": "It's a big auditorium."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "講堂に行きます。",
+              "furigana": "こうどうに いきます。",
+              "romaji": "koudou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke aula.",
+                "en": "I go to the auditorium."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -11880,7 +12488,39 @@
           "meanings": {
             "en": "two-story building",
             "id": "bangunan 2 lantai"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "二階建ての家です。",
+              "furigana": "にかいだての いえ です。",
+              "romaji": "nikaidate no ie desu.",
+              "meanings": {
+                "id": "Rumah dua lantai.",
+                "en": "It's a two-story house."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "二階建てが好きです。",
+              "furigana": "にかいだてが すき です。",
+              "romaji": "nikaidate ga suki desu.",
+              "meanings": {
+                "id": "Saya suka rumah dua lantai.",
+                "en": "I like two-story buildings."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいな二階建てです。",
+              "furigana": "きれいな にかいだて です。",
+              "romaji": "kirei na nikaidate desu.",
+              "meanings": {
+                "id": "Bangunan dua lantai yang bagus.",
+                "en": "It's a nice two-story building."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -11890,7 +12530,39 @@
           "meanings": {
             "en": "rooftop",
             "id": "di atas atap"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "屋上に行きます。",
+              "furigana": "おくじょうに いきます。",
+              "romaji": "okujyou ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke atap.",
+                "en": "I go to the rooftop."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "屋上で休みます。",
+              "furigana": "おくじょうで やすみます。",
+              "romaji": "okujyou de yasumimasu.",
+              "meanings": {
+                "id": "Saya istirahat di atap.",
+                "en": "I rest on the rooftop."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "屋上がきれいです。",
+              "furigana": "おくじょうが きれい です。",
+              "romaji": "okujyou ga kirei desu.",
+              "meanings": {
+                "id": "Atapnya bersih.",
+                "en": "The rooftop is clean."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -11900,7 +12572,39 @@
           "meanings": {
             "en": "air conditioner",
             "id": "pendingin ruangan, AC"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "冷房をつけます。",
+              "furigana": "れいぼうを つけます。",
+              "romaji": "reibou wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan AC.",
+                "en": "I turn on the air conditioner."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夏は冷房です。",
+              "furigana": "なつは れいぼう です。",
+              "romaji": "natsu wa reibou desu.",
+              "meanings": {
+                "id": "Di musim panas pakai AC.",
+                "en": "In summer, I use the air conditioner."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "冷房を消します。",
+              "furigana": "れいぼうを けします。",
+              "romaji": "reibou wo keshimasu.",
+              "meanings": {
+                "id": "Saya mematikan AC.",
+                "en": "I turn off the air conditioner."
+              }
+            }
+          ]
         }
       ]
     },
