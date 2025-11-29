@@ -1563,7 +1563,39 @@
           "meanings": {
             "en": "between, interval, while",
             "id": "antara, sementara, selama"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "授業の間は静かにしてください。",
+              "furigana": "じゅぎょうの あいだは しずかに してください。",
+              "romaji": "jugyou no aida wa shizuka ni shite kudasai.",
+              "meanings": {
+                "id": "Tolong tenang selama pelajaran.",
+                "en": "Please be quiet during class."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "二人の間に机があります。",
+              "furigana": "ふたりの あいだに つくえが あります。",
+              "romaji": "futari no aida ni tsukue ga arimasu.",
+              "meanings": {
+                "id": "Ada meja di antara dua orang.",
+                "en": "There is a desk between the two people."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "休みの間に旅行しました。",
+              "furigana": "やすみの あいだに りょこうしました。",
+              "romaji": "yasumi no aida ni ryokou shimashita.",
+              "meanings": {
+                "id": "Saya bepergian selama liburan.",
+                "en": "I traveled during the holidays."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -1573,7 +1605,39 @@
           "meanings": {
             "en": "as much as possible",
             "id": "sedapat mungkin, sebisanya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "できるだけ早く来てください。",
+              "furigana": "できるだけ はやく きてください。",
+              "romaji": "dekirudake hayaku kite kudasai.",
+              "meanings": {
+                "id": "Tolong datang secepat mungkin.",
+                "en": "Please come as soon as possible."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "できるだけ頑張ります。",
+              "furigana": "できるだけ がんばります。",
+              "romaji": "dekirudake ganbarimasu.",
+              "meanings": {
+                "id": "Saya akan berusaha sebisa mungkin.",
+                "en": "I'll try my best as much as possible."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "できるだけ安いのを探しています。",
+              "furigana": "できるだけ やすいのを さがしています。",
+              "romaji": "dekirudake yasui no wo sagashiteimasu.",
+              "meanings": {
+                "id": "Saya sedang mencari yang semurah mungkin.",
+                "en": "I'm looking for the cheapest one possible."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -1583,7 +1647,39 @@
           "meanings": {
             "en": "extremely, very",
             "id": "amat sangat, terlampau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "非常に忙しいです。",
+              "furigana": "ひじょうに いそがしいです。",
+              "romaji": "hijyouni isogashii desu.",
+              "meanings": {
+                "id": "Sangat sibuk.",
+                "en": "I'm extremely busy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この問題は非常に難しいです。",
+              "furigana": "この もんだいは ひじょうに むずかしいです。",
+              "romaji": "kono mondai wa hijyouni muzukashii desu.",
+              "meanings": {
+                "id": "Masalah ini sangat sulit.",
+                "en": "This problem is extremely difficult."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "非常に嬉しかったです。",
+              "furigana": "ひじょうに うれしかったです。",
+              "romaji": "hijyouni ureshikatta desu.",
+              "meanings": {
+                "id": "Sangat senang.",
+                "en": "I was extremely happy."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -1593,7 +1689,39 @@
           "meanings": {
             "en": "about, limit",
             "id": "kira-kira, batasan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一時間ほどかかります。",
+              "furigana": "いちじかんほど かかります。",
+              "romaji": "ichijikan hodo kakarimasu.",
+              "meanings": {
+                "id": "Butuh sekitar satu jam.",
+                "en": "It takes about an hour."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この本ほど面白い本はありません。",
+              "furigana": "この ほんほど おもしろい ほんは ありません。",
+              "romaji": "kono hon hodo omoshiroi hon wa arimasen.",
+              "meanings": {
+                "id": "Tidak ada buku semenarik buku ini.",
+                "en": "There's no book as interesting as this one."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "三十人ほど集まりました。",
+              "furigana": "さんじゅうにんほど あつまりました。",
+              "romaji": "sanjuunin hodo atsumarimashita.",
+              "meanings": {
+                "id": "Sekitar tiga puluh orang berkumpul.",
+                "en": "About thirty people gathered."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -1603,7 +1731,39 @@
           "meanings": {
             "en": "except, other than",
             "id": "selain"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日曜日以外は働いています。",
+              "furigana": "にちようび いがいは はたらいています。",
+              "romaji": "nichiyoubi igai wa hataraiteimasu.",
+              "meanings": {
+                "id": "Saya bekerja selain hari Minggu.",
+                "en": "I work except on Sundays."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これ以外に方法はありません。",
+              "furigana": "これ いがいに ほうほうは ありません。",
+              "romaji": "kore igai ni houhou wa arimasen.",
+              "meanings": {
+                "id": "Tidak ada cara selain ini.",
+                "en": "There's no way other than this."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "私以外はみんな行きました。",
+              "furigana": "わたし いがいは みんな いきました。",
+              "romaji": "watashi igai wa minna ikimashita.",
+              "meanings": {
+                "id": "Semua orang pergi selain saya.",
+                "en": "Everyone went except me."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -1613,7 +1773,39 @@
           "meanings": {
             "en": "more than, above",
             "id": "lebih, di atas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "十八歳以上の人が入れます。",
+              "furigana": "じゅうはっさい いじょうの ひとが はいれます。",
+              "romaji": "juuhassai ijyou no hito ga hairemasu.",
+              "meanings": {
+                "id": "Orang berusia 18 tahun ke atas bisa masuk.",
+                "en": "People aged 18 and above can enter."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "百人以上集まりました。",
+              "furigana": "ひゃくにん いじょう あつまりました。",
+              "romaji": "hyakunin ijyou atsumarimashita.",
+              "meanings": {
+                "id": "Lebih dari seratus orang berkumpul.",
+                "en": "More than 100 people gathered."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "以上で説明を終わります。",
+              "furigana": "いじょうで せつめいを おわります。",
+              "romaji": "ijyou de setsumei wo owarimasu.",
+              "meanings": {
+                "id": "Dengan ini saya akhiri penjelasan.",
+                "en": "That's all for the explanation."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -1623,7 +1815,39 @@
           "meanings": {
             "en": "less than, below",
             "id": "kurang, di bawah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "五十人以下の会社です。",
+              "furigana": "ごじゅうにん いかの かいしゃです。",
+              "romaji": "gojuunin ika no kaisha desu.",
+              "meanings": {
+                "id": "Perusahaan dengan 50 orang atau kurang.",
+                "en": "It's a company with 50 people or less."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "十五歳以下は入れません。",
+              "furigana": "じゅうごさい いかは はいれません。",
+              "romaji": "juugosai ika wa hairemasen.",
+              "meanings": {
+                "id": "Usia 15 tahun ke bawah tidak bisa masuk.",
+                "en": "Those 15 years old and under cannot enter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "以下の通りです。",
+              "furigana": "いかの とおりです。",
+              "romaji": "ika no toori desu.",
+              "meanings": {
+                "id": "Sebagai berikut.",
+                "en": "It's as follows."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -1633,7 +1857,39 @@
           "meanings": {
             "en": "within, less than",
             "id": "dalam, kurang dari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一時間以内に戻ります。",
+              "furigana": "いちじかん いないに もどります。",
+              "romaji": "ichijikan inai ni modorimasu.",
+              "meanings": {
+                "id": "Saya kembali dalam satu jam.",
+                "en": "I'll return within one hour."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駅から五分以内です。",
+              "furigana": "えきから ごふん いないです。",
+              "romaji": "eki kara gofun inai desu.",
+              "meanings": {
+                "id": "Dalam lima menit dari stasiun.",
+                "en": "It's within five minutes from the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今週以内に終わります。",
+              "furigana": "こんしゅう いないに おわります。",
+              "romaji": "konshuu inai ni owarimasu.",
+              "meanings": {
+                "id": "Akan selesai dalam minggu ini.",
+                "en": "It will finish within this week."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -1643,7 +1899,39 @@
           "meanings": {
             "en": "full, plenty",
             "id": "penuh, kenyang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お腹が一杯です。",
+              "furigana": "おなかが いっぱいです。",
+              "romaji": "onaka ga ippai desu.",
+              "meanings": {
+                "id": "Perut saya kenyang.",
+                "en": "I'm full."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "コーヒーを一杯飲みます。",
+              "furigana": "こーひーを いっぱい のみます。",
+              "romaji": "koohii wo ippai nomimasu.",
+              "meanings": {
+                "id": "Saya minum satu cangkir kopi.",
+                "en": "I drink a cup of coffee."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部屋が荷物で一杯です。",
+              "furigana": "へやが にもつで いっぱいです。",
+              "romaji": "heya ga nimotsu de ippai desu.",
+              "meanings": {
+                "id": "Kamar penuh dengan barang.",
+                "en": "The room is full of luggage."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -1653,7 +1941,39 @@
           "meanings": {
             "en": "international",
             "id": "internasional"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "国際電話をかけます。",
+              "furigana": "こくさいでんわを かけます。",
+              "romaji": "kokusai denwa wo kakemasu.",
+              "meanings": {
+                "id": "Saya menelepon internasional.",
+                "en": "I make an international call."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "国際空港まで行きます。",
+              "furigana": "こくさいくうこうまで いきます。",
+              "romaji": "kokusai kuukou made ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke bandara internasional.",
+                "en": "I go to the international airport."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "国際的な会社で働いています。",
+              "furigana": "こくさいてきな かいしゃで はたらいています。",
+              "romaji": "kokusaiteki na kaisha de hataraiteimasu.",
+              "meanings": {
+                "id": "Saya bekerja di perusahaan internasional.",
+                "en": "I work at an international company."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -1663,7 +1983,39 @@
           "meanings": {
             "en": "middle, center",
             "id": "tengah-tengah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋の真ん中に机があります。",
+              "furigana": "へやの まんなかに つくえが あります。",
+              "romaji": "heya no mannaka ni tsukue ga arimasu.",
+              "meanings": {
+                "id": "Ada meja di tengah ruangan.",
+                "en": "There is a desk in the middle of the room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "真ん中の席に座ります。",
+              "furigana": "まんなかの せきに すわります。",
+              "romaji": "mannaka no seki ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di kursi tengah.",
+                "en": "I sit in the middle seat."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "道の真ん中に立たないでください。",
+              "furigana": "みちの まんなかに たたないで ください。",
+              "romaji": "michi no mannaka ni tatanaide kudasai.",
+              "meanings": {
+                "id": "Tolong jangan berdiri di tengah jalan.",
+                "en": "Please don't stand in the middle of the road."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -1673,7 +2025,39 @@
           "meanings": {
             "en": "around, surroundings",
             "id": "sekeliling"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "駅の周りにお店が多いです。",
+              "furigana": "えきの まわりに おみせが おおいです。",
+              "romaji": "eki no mawari ni omise ga ooi desu.",
+              "meanings": {
+                "id": "Ada banyak toko di sekitar stasiun.",
+                "en": "There are many shops around the station."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "周りを見てください。",
+              "furigana": "まわりを みて ください。",
+              "romaji": "mawari wo mite kudasai.",
+              "meanings": {
+                "id": "Tolong lihat sekeliling.",
+                "en": "Please look around."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "家の周りを散歩します。",
+              "furigana": "いえの まわりを さんぽします。",
+              "romaji": "ie no mawari wo sanpo shimasu.",
+              "meanings": {
+                "id": "Saya jalan-jalan di sekitar rumah.",
+                "en": "I take a walk around the house."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -1683,7 +2067,39 @@
           "meanings": {
             "en": "surface, front",
             "id": "permukaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "紙の表に書いてください。",
+              "furigana": "かみの おもてに かいて ください。",
+              "romaji": "kami no omote ni kaite kudasai.",
+              "meanings": {
+                "id": "Tolong tulis di bagian depan kertas.",
+                "en": "Please write on the front of the paper."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "表と裏があります。",
+              "furigana": "おもてと うらが あります。",
+              "romaji": "omote to ura ga arimasu.",
+              "meanings": {
+                "id": "Ada bagian depan dan belakang.",
+                "en": "There is a front and back."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "表の方が綺麗です。",
+              "furigana": "おもての ほうが きれいです。",
+              "romaji": "omote no hou ga kirei desu.",
+              "meanings": {
+                "id": "Bagian depan lebih indah.",
+                "en": "The front side is prettier."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -1693,7 +2109,39 @@
           "meanings": {
             "en": "end, finish",
             "id": "selesai, akhir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "授業の終わりに質問します。",
+              "furigana": "じゅぎょうの おわりに しつもんします。",
+              "romaji": "jugyou no owari ni shitsumon shimasu.",
+              "meanings": {
+                "id": "Saya bertanya di akhir pelajaran.",
+                "en": "I ask questions at the end of class."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "映画の終わりが感動的でした。",
+              "furigana": "えいがの おわりが かんどうてきでした。",
+              "romaji": "eiga no owari ga kandouteki deshita.",
+              "meanings": {
+                "id": "Akhir film sangat mengharukan.",
+                "en": "The end of the movie was touching."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "週の終わりは疲れます。",
+              "furigana": "しゅうの おわりは つかれます。",
+              "romaji": "shuu no owari wa tsukaremasu.",
+              "meanings": {
+                "id": "Saya lelah di akhir minggu.",
+                "en": "I get tired at the end of the week."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -1703,7 +2151,39 @@
           "meanings": {
             "en": "both",
             "id": "ke dua-duanya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "両方とも好きです。",
+              "furigana": "りょうほうとも すきです。",
+              "romaji": "ryouhou tomo suki desu.",
+              "meanings": {
+                "id": "Saya suka keduanya.",
+                "en": "I like both."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "両方買います。",
+              "furigana": "りょうほう かいます。",
+              "romaji": "ryouhou kaimasu.",
+              "meanings": {
+                "id": "Saya membeli keduanya.",
+                "en": "I buy both."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "両方の意見を聞きます。",
+              "furigana": "りょうほうの いけんを ききます。",
+              "romaji": "ryouhou no iken wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengar pendapat keduanya.",
+                "en": "I listen to both opinions."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -1713,7 +2193,39 @@
           "meanings": {
             "en": "last, end",
             "id": "terakhir, penghabisan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "最後まで頑張ります。",
+              "furigana": "さいごまで がんばります。",
+              "romaji": "saigo made ganbarimasu.",
+              "meanings": {
+                "id": "Saya berusaha sampai akhir.",
+                "en": "I'll do my best until the end."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "最後の電車に乗ります。",
+              "furigana": "さいごの でんしゃに のります。",
+              "romaji": "saigo no densha ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta terakhir.",
+                "en": "I take the last train."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "最後に質問があります。",
+              "furigana": "さいごに しつもんが あります。",
+              "romaji": "saigo ni shitsumon ga arimasu.",
+              "meanings": {
+                "id": "Terakhir, saya punya pertanyaan.",
+                "en": "Finally, I have a question."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -1723,7 +2235,39 @@
           "meanings": {
             "en": "first, beginning",
             "id": "mula-mula, pertama"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "最初から勉強します。",
+              "furigana": "さいしょから べんきょうします。",
+              "romaji": "saisho kara benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar dari awal.",
+                "en": "I study from the beginning."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "最初は難しかったです。",
+              "furigana": "さいしょは むずかしかったです。",
+              "romaji": "saisho wa muzukashikatta desu.",
+              "meanings": {
+                "id": "Pada awalnya sulit.",
+                "en": "It was difficult at first."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "最初に自己紹介をします。",
+              "furigana": "さいしょに じこしょうかいを します。",
+              "romaji": "saisho ni jikoshoukai wo shimasu.",
+              "meanings": {
+                "id": "Pertama-tama, saya memperkenalkan diri.",
+                "en": "First, I introduce myself."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -1733,7 +2277,39 @@
           "meanings": {
             "en": "corner",
             "id": "pojok, sudut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋の隅に置いてください。",
+              "furigana": "へやの すみに おいて ください。",
+              "romaji": "heya no sumi ni oite kudasai.",
+              "meanings": {
+                "id": "Tolong letakkan di pojok ruangan.",
+                "en": "Please put it in the corner of the room."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "隅から隅まで掃除します。",
+              "furigana": "すみから すみまで そうじします。",
+              "romaji": "sumi kara sumi made souji shimasu.",
+              "meanings": {
+                "id": "Saya membersihkan dari pojok ke pojok.",
+                "en": "I clean from corner to corner."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "隅に座っています。",
+              "furigana": "すみに すわって います。",
+              "romaji": "sumi ni suwatte imasu.",
+              "meanings": {
+                "id": "Saya duduk di pojok.",
+                "en": "I'm sitting in the corner."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -1743,7 +2319,39 @@
           "meanings": {
             "en": "on the way, midway",
             "id": "pertengahan (jalan)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "途中で友達に会いました。",
+              "furigana": "とちゅうで ともだちに あいました。",
+              "romaji": "tochuu de tomodachi ni aimashita.",
+              "meanings": {
+                "id": "Saya bertemu teman di tengah jalan.",
+                "en": "I met a friend on the way."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "映画の途中で寝てしまいました。",
+              "furigana": "えいがの とちゅうで ねて しまいました。",
+              "romaji": "eiga no tochuu de nete shimaimashita.",
+              "meanings": {
+                "id": "Saya tertidur di tengah film.",
+                "en": "I fell asleep during the movie."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "途中まで一緒に行きます。",
+              "furigana": "とちゅうまで いっしょに いきます。",
+              "romaji": "tochuu made issho ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi bersama sampai pertengahan jalan.",
+                "en": "I'll go together partway."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -1753,7 +2361,39 @@
           "meanings": {
             "en": "inside",
             "id": "bagian dalam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "家の内を見せてください。",
+              "furigana": "いえの うちを みせて ください。",
+              "romaji": "ie no uchi wo misete kudasai.",
+              "meanings": {
+                "id": "Tolong tunjukkan bagian dalam rumah.",
+                "en": "Please show me the inside of the house."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "箱の内に入れます。",
+              "furigana": "はこの うちに いれます。",
+              "romaji": "hako no uchi ni iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan ke dalam kotak.",
+                "en": "I put it inside the box."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今年の内に終わらせたいです。",
+              "furigana": "ことしの うちに おわらせたいです。",
+              "romaji": "kotoshi no uchi ni owarasetai desu.",
+              "meanings": {
+                "id": "Saya ingin menyelesaikannya dalam tahun ini.",
+                "en": "I want to finish it within this year."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -1763,7 +2403,39 @@
           "meanings": {
             "en": "back, reverse side",
             "id": "bagian belakang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "紙の裏に書いてください。",
+              "furigana": "かみの うらに かいて ください。",
+              "romaji": "kami no ura ni kaite kudasai.",
+              "meanings": {
+                "id": "Tolong tulis di bagian belakang kertas.",
+                "en": "Please write on the back of the paper."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "建物の裏に駐車場があります。",
+              "furigana": "たてものの うらに ちゅうしゃじょうが あります。",
+              "romaji": "tatemono no ura ni chuushajou ga arimasu.",
+              "meanings": {
+                "id": "Ada tempat parkir di belakang gedung.",
+                "en": "There is a parking lot behind the building."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この服は裏返しです。",
+              "furigana": "この ふくは うらがえしです。",
+              "romaji": "kono fuku wa uragaeshi desu.",
+              "meanings": {
+                "id": "Pakaian ini terbalik.",
+                "en": "This clothing is inside out."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -1773,7 +2445,39 @@
           "meanings": {
             "en": "ratio, proportion",
             "id": "bagian, perbandingan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "男性の割合が高いです。",
+              "furigana": "だんせいの わりあいが たかいです。",
+              "romaji": "dansei no wariai ga takai desu.",
+              "meanings": {
+                "id": "Perbandingan pria tinggi.",
+                "en": "The ratio of men is high."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "割合に簡単でした。",
+              "furigana": "わりあいに かんたんでした。",
+              "romaji": "wariai ni kantan deshita.",
+              "meanings": {
+                "id": "Cukup mudah.",
+                "en": "It was relatively easy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この割合で計算します。",
+              "furigana": "この わりあいで けいさんします。",
+              "romaji": "kono wariai de keisan shimasu.",
+              "meanings": {
+                "id": "Saya menghitung dengan perbandingan ini.",
+                "en": "I calculate with this ratio."
+              }
+            }
+          ]
         }
       ]
     },
@@ -1792,7 +2496,39 @@
           "meanings": {
             "en": "tomorrow",
             "id": "besok, esok hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "明日会議があります。",
+              "furigana": "あした かいぎが あります。",
+              "romaji": "ashita kaigi ga arimasu.",
+              "meanings": {
+                "id": "Besok ada rapat.",
+                "en": "There is a meeting tomorrow."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "明日は休みです。",
+              "furigana": "あしたは やすみです。",
+              "romaji": "ashita wa yasumi desu.",
+              "meanings": {
+                "id": "Besok libur.",
+                "en": "Tomorrow is a day off."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日の天気が心配です。",
+              "furigana": "あしたの てんきが しんぱいです。",
+              "romaji": "ashita no tenki ga shinpai desu.",
+              "meanings": {
+                "id": "Saya khawatir tentang cuaca besok.",
+                "en": "I'm worried about tomorrow's weather."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -1802,7 +2538,39 @@
           "meanings": {
             "en": "case, situation",
             "id": "situasi, keadaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "雨の場合は中止です。",
+              "furigana": "あめの ばあいは ちゅうしです。",
+              "romaji": "ame no baai wa chuushi desu.",
+              "meanings": {
+                "id": "Jika hujan, akan dibatalkan.",
+                "en": "In case of rain, it will be cancelled."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "そういう場合はどうしますか。",
+              "furigana": "そういう ばあいは どうしますか。",
+              "romaji": "souiu baai wa dou shimasuka.",
+              "meanings": {
+                "id": "Bagaimana dalam situasi seperti itu?",
+                "en": "What do you do in such a case?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この場合は注意が必要です。",
+              "furigana": "この ばあいは ちゅういが ひつようです。",
+              "romaji": "kono baai wa chuui ga hitsuyou desu.",
+              "meanings": {
+                "id": "Dalam kasus ini perlu berhati-hati.",
+                "en": "In this case, caution is necessary."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -1812,7 +2580,39 @@
           "meanings": {
             "en": "daytime",
             "id": "siang hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昼間は暑いです。",
+              "furigana": "ひるまは あついです。",
+              "romaji": "hiruma wa atsui desu.",
+              "meanings": {
+                "id": "Siang hari panas.",
+                "en": "It's hot during the day."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "昼間に働いています。",
+              "furigana": "ひるまに はたらいています。",
+              "romaji": "hiruma ni hataraiteimasu.",
+              "meanings": {
+                "id": "Saya bekerja di siang hari.",
+                "en": "I work during the daytime."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "昼間は人が多いです。",
+              "furigana": "ひるまは ひとが おおいです。",
+              "romaji": "hiruma wa hito ga ooi desu.",
+              "meanings": {
+                "id": "Siang hari banyak orang.",
+                "en": "There are many people during the day."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -1822,7 +2622,39 @@
           "meanings": {
             "en": "lunch break",
             "id": "istirahat siang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昼休みにお弁当を食べます。",
+              "furigana": "ひるやすみに おべんとうを たべます。",
+              "romaji": "hiruyasumi ni obentou wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan bekal saat istirahat siang.",
+                "en": "I eat my bento during lunch break."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "昼休みは一時間です。",
+              "furigana": "ひるやすみは いちじかんです。",
+              "romaji": "hiruyasumi wa ichijikan desu.",
+              "meanings": {
+                "id": "Istirahat siang satu jam.",
+                "en": "Lunch break is one hour."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "昼休みに散歩します。",
+              "furigana": "ひるやすみに さんぽします。",
+              "romaji": "hiruyasumi ni sanpo shimasu.",
+              "meanings": {
+                "id": "Saya jalan-jalan saat istirahat siang.",
+                "en": "I take a walk during lunch break."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -1832,7 +2664,39 @@
           "meanings": {
             "en": "after a long time",
             "id": "sudah lama"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "久しぶりに友達に会いました。",
+              "furigana": "ひさしぶりに ともだちに あいました。",
+              "romaji": "hisashiburi ni tomodachi ni aimashita.",
+              "meanings": {
+                "id": "Saya bertemu teman setelah lama.",
+                "en": "I met my friend after a long time."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "久しぶりですね。",
+              "furigana": "ひさしぶりですね。",
+              "romaji": "hisashiburi desune.",
+              "meanings": {
+                "id": "Sudah lama ya.",
+                "en": "Long time no see."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "久しぶりに映画を見ました。",
+              "furigana": "ひさしぶりに えいがを みました。",
+              "romaji": "hisashiburi ni eiga wo mimashita.",
+              "meanings": {
+                "id": "Saya menonton film setelah lama.",
+                "en": "I watched a movie after a long time."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -1842,7 +2706,39 @@
           "meanings": {
             "en": "era, period",
             "id": "zaman"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昔の時代の話です。",
+              "furigana": "むかしの じだいの はなしです。",
+              "romaji": "mukashi no jidai no hanashi desu.",
+              "meanings": {
+                "id": "Ini cerita zaman dulu.",
+                "en": "This is a story from the old days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この時代に生まれてよかったです。",
+              "furigana": "この じだいに うまれて よかったです。",
+              "romaji": "kono jidai ni umarete yokatta desu.",
+              "meanings": {
+                "id": "Saya senang lahir di zaman ini.",
+                "en": "I'm glad I was born in this era."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "時代が変わりました。",
+              "furigana": "じだいが かわりました。",
+              "romaji": "jidai ga kawarimashita.",
+              "meanings": {
+                "id": "Zaman telah berubah.",
+                "en": "Times have changed."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -1852,7 +2748,39 @@
           "meanings": {
             "en": "next time",
             "id": "nanti, lain kali, yang akan datang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今度一緒に行きましょう。",
+              "furigana": "こんど いっしょに いきましょう。",
+              "romaji": "kondo issho ni ikimashou.",
+              "meanings": {
+                "id": "Mari pergi bersama lain kali.",
+                "en": "Let's go together next time."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今度の日曜日は暇ですか。",
+              "furigana": "こんどの にちようびは ひまですか。",
+              "romaji": "kondo no nichiyoubi wa hima desuka.",
+              "meanings": {
+                "id": "Apakah hari Minggu depan luang?",
+                "en": "Are you free this coming Sunday?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今度教えてください。",
+              "furigana": "こんど おしえて ください。",
+              "romaji": "kondo oshiete kudasai.",
+              "meanings": {
+                "id": "Tolong ajari saya lain kali.",
+                "en": "Please teach me next time."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -1862,7 +2790,39 @@
           "meanings": {
             "en": "the other day",
             "id": "waktu itu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この間の映画は面白かったです。",
+              "furigana": "このあいだの えいがは おもしろかったです。",
+              "romaji": "kono aida no eiga wa omoshirokatta desu.",
+              "meanings": {
+                "id": "Film waktu itu menarik.",
+                "en": "The movie the other day was interesting."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この間お世話になりました。",
+              "furigana": "このあいだ おせわに なりました。",
+              "romaji": "kono aida osewa ni narimashita.",
+              "meanings": {
+                "id": "Terima kasih atas bantuan waktu itu.",
+                "en": "Thank you for your help the other day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この間駅で会いましたね。",
+              "furigana": "このあいだ えきで あいましたね。",
+              "romaji": "kono aida eki de aimashitane.",
+              "meanings": {
+                "id": "Kita bertemu di stasiun waktu itu ya.",
+                "en": "We met at the station the other day, didn't we?"
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -1872,7 +2832,39 @@
           "meanings": {
             "en": "these days",
             "id": "akhir-akhir ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この頃忙しいです。",
+              "furigana": "このごろ いそがしいです。",
+              "romaji": "kono goro isogashii desu.",
+              "meanings": {
+                "id": "Akhir-akhir ini sibuk.",
+                "en": "I'm busy these days."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この頃寒くなりました。",
+              "furigana": "このごろ さむく なりました。",
+              "romaji": "kono goro samuku narimashita.",
+              "meanings": {
+                "id": "Akhir-akhir ini menjadi dingin.",
+                "en": "It has gotten cold these days."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この頃は毎日運動しています。",
+              "furigana": "このごろは まいにち うんどうして います。",
+              "romaji": "kono goro wa mainichi undou shiteimasu.",
+              "meanings": {
+                "id": "Akhir-akhir ini saya berolahraga setiap hari.",
+                "en": "I exercise every day these days."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -1882,7 +2874,39 @@
           "meanings": {
             "en": "tonight",
             "id": "malam ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今夜は早く寝ます。",
+              "furigana": "こんやは はやく ねます。",
+              "romaji": "kon'ya wa hayaku nemasu.",
+              "meanings": {
+                "id": "Malam ini saya tidur cepat.",
+                "en": "I'll go to bed early tonight."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今夜のニュースを見ました。",
+              "furigana": "こんやの にゅーすを みました。",
+              "romaji": "kon'ya no nyuusu wo mimashita.",
+              "meanings": {
+                "id": "Saya menonton berita malam ini.",
+                "en": "I watched tonight's news."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今夜は雨が降りそうです。",
+              "furigana": "こんやは あめが ふりそうです。",
+              "romaji": "kon'ya wa ame ga furisou desu.",
+              "meanings": {
+                "id": "Malam ini sepertinya akan turun hujan.",
+                "en": "It looks like it will rain tonight."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -1892,7 +2916,39 @@
           "meanings": {
             "en": "from now on, next",
             "id": "mulai sekarang, selanjutnya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "これから出かけます。",
+              "furigana": "これから でかけます。",
+              "romaji": "korekara dekakemasu.",
+              "meanings": {
+                "id": "Saya akan keluar mulai sekarang.",
+                "en": "I'm going out from now."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これからもよろしくお願いします。",
+              "furigana": "これからも よろしく おねがいします。",
+              "romaji": "korekara mo yoroshiku onegai shimasu.",
+              "meanings": {
+                "id": "Mohon bantuan Anda selanjutnya juga.",
+                "en": "Please continue to be kind from now on."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "これからどうしますか。",
+              "furigana": "これから どうしますか。",
+              "romaji": "korekara dou shimasuka.",
+              "meanings": {
+                "id": "Apa yang akan Anda lakukan selanjutnya?",
+                "en": "What will you do from now?"
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -1902,7 +2958,39 @@
           "meanings": {
             "en": "first of all",
             "id": "mula-mula, pertama-tama"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "まず手を洗ってください。",
+              "furigana": "まず てを あらって ください。",
+              "romaji": "mazu te wo aratte kudasai.",
+              "meanings": {
+                "id": "Pertama-tama tolong cuci tangan.",
+                "en": "First of all, please wash your hands."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "まず自己紹介をします。",
+              "furigana": "まず じこしょうかいを します。",
+              "romaji": "mazu jikoshoukai wo shimasu.",
+              "meanings": {
+                "id": "Pertama-tama saya memperkenalkan diri.",
+                "en": "First of all, I'll introduce myself."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "まず何をしますか。",
+              "furigana": "まず なにを しますか。",
+              "romaji": "mazu nani wo shimasuka.",
+              "meanings": {
+                "id": "Apa yang akan Anda lakukan pertama-tama?",
+                "en": "What will you do first?"
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -1912,7 +3000,39 @@
           "meanings": {
             "en": "soon",
             "id": "segera"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "もうすぐ夏休みです。",
+              "furigana": "もうすぐ なつやすみです。",
+              "romaji": "mousugu natsuyasumi desu.",
+              "meanings": {
+                "id": "Segera liburan musim panas.",
+                "en": "Summer vacation is coming soon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電車がもうすぐ来ます。",
+              "furigana": "でんしゃが もうすぐ きます。",
+              "romaji": "densha ga mousugu kimasu.",
+              "meanings": {
+                "id": "Kereta segera datang.",
+                "en": "The train will come soon."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "もうすぐ誕生日です。",
+              "furigana": "もうすぐ たんじょうびです。",
+              "romaji": "mousugu tanjoubi desu.",
+              "meanings": {
+                "id": "Segera ulang tahun.",
+                "en": "My birthday is coming soon."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -1922,7 +3042,39 @@
           "meanings": {
             "en": "long ago, former times",
             "id": "dahulu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昔の話を聞きました。",
+              "furigana": "むかしの はなしを ききました。",
+              "romaji": "mukashi no hanashi wo kikimashita.",
+              "meanings": {
+                "id": "Saya mendengar cerita zaman dulu.",
+                "en": "I heard a story from long ago."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "昔はここに川がありました。",
+              "furigana": "むかしは ここに かわが ありました。",
+              "romaji": "mukashi wa koko ni kawa ga arimashita.",
+              "meanings": {
+                "id": "Dulu ada sungai di sini.",
+                "en": "There used to be a river here long ago."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "昔からの友達です。",
+              "furigana": "むかしからの ともだちです。",
+              "romaji": "mukashi kara no tomodachi desu.",
+              "meanings": {
+                "id": "Teman sejak dulu.",
+                "en": "A friend from long ago."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -1932,7 +3084,39 @@
           "meanings": {
             "en": "recently",
             "id": "baru-baru ini, akhir-akhir ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "最近忙しいです。",
+              "furigana": "さいきん いそがしいです。",
+              "romaji": "saikin isogashii desu.",
+              "meanings": {
+                "id": "Akhir-akhir ini sibuk.",
+                "en": "I'm busy recently."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "最近会っていませんね。",
+              "furigana": "さいきん あって いませんね。",
+              "romaji": "saikin atte imasen ne.",
+              "meanings": {
+                "id": "Akhir-akhir ini tidak bertemu ya.",
+                "en": "We haven't met recently, have we?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "最近の若者は違います。",
+              "furigana": "さいきんの わかものは ちがいます。",
+              "romaji": "saikin no wakamono wa chigaimasu.",
+              "meanings": {
+                "id": "Anak muda sekarang berbeda.",
+                "en": "Young people these days are different."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -1942,7 +3126,39 @@
           "meanings": {
             "en": "just now",
             "id": "tadi, baru saja"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "さっき電話がありました。",
+              "furigana": "さっき でんわが ありました。",
+              "romaji": "sakki denwa ga arimashita.",
+              "meanings": {
+                "id": "Tadi ada telepon.",
+                "en": "There was a phone call just now."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "さっき会いましたね。",
+              "furigana": "さっき あいましたね。",
+              "romaji": "sakki aimashitane.",
+              "meanings": {
+                "id": "Tadi bertemu ya.",
+                "en": "We met just now, didn't we?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "さっき食べたばかりです。",
+              "furigana": "さっき たべた ばかりです。",
+              "romaji": "sakki tabeta bakari desu.",
+              "meanings": {
+                "id": "Baru saja makan tadi.",
+                "en": "I just ate a moment ago."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -1952,7 +3168,39 @@
           "meanings": {
             "en": "for a while",
             "id": "sebentar, sementara, agak lama"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "しばらく待ってください。",
+              "furigana": "しばらく まって ください。",
+              "romaji": "shibaraku matte kudasai.",
+              "meanings": {
+                "id": "Tolong tunggu sebentar.",
+                "en": "Please wait for a while."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "しばらくです ね。",
+              "furigana": "しばらくですね。",
+              "romaji": "shibaraku desune.",
+              "meanings": {
+                "id": "Sudah lama tidak bertemu ya.",
+                "en": "It's been a while."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "しばらく休みます。",
+              "furigana": "しばらく やすみます。",
+              "romaji": "shibaraku yasumimasu.",
+              "meanings": {
+                "id": "Saya istirahat sebentar.",
+                "en": "I'll rest for a while."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -1962,7 +3210,39 @@
           "meanings": {
             "en": "occasionally, rarely",
             "id": "jarang, sekali-sekali"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "たまに映画を見ます。",
+              "furigana": "たまに えいがを みます。",
+              "romaji": "tamani eiga wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton film sesekali.",
+                "en": "I watch movies occasionally."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "たまには休んでください。",
+              "furigana": "たまには やすんで ください。",
+              "romaji": "tamani wa yasunde kudasai.",
+              "meanings": {
+                "id": "Tolong istirahat sesekali.",
+                "en": "Please rest once in a while."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "たまに会います。",
+              "furigana": "たまに あいます。",
+              "romaji": "tamani aimasu.",
+              "meanings": {
+                "id": "Kami bertemu sesekali.",
+                "en": "We meet occasionally."
+              }
+            }
+          ]
         }
       ]
     },
