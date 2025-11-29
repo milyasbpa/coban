@@ -8197,7 +8197,39 @@
           "meanings": {
             "en": "thing, object",
             "id": "barang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "物が多いです。",
+              "furigana": "ものがおおいです。",
+              "romaji": "mono ga ooi desu.",
+              "meanings": {
+                "id": "Barangnya banyak.",
+                "en": "There are many things."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい物を買いました。",
+              "furigana": "いいものをかいました。",
+              "romaji": "ii mono wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli barang bagus.",
+                "en": "I bought a good thing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この物は何ですか。",
+              "furigana": "このものはなんですか。",
+              "romaji": "kono mono wa nan desu ka.",
+              "meanings": {
+                "id": "Barang ini apa?",
+                "en": "What is this thing?"
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -8207,7 +8239,39 @@
           "meanings": {
             "en": "hat",
             "id": "topi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "帽子をかぶります。",
+              "furigana": "ぼうしをかぶります。",
+              "romaji": "boushi wo kaburimasu.",
+              "meanings": {
+                "id": "Saya pakai topi.",
+                "en": "I wear a hat."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "帽子がかわいいです。",
+              "furigana": "ぼうしがかわいいです。",
+              "romaji": "boushi ga kawaii desu.",
+              "meanings": {
+                "id": "Topinya lucu.",
+                "en": "The hat is cute."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "帽子を買います。",
+              "furigana": "ぼうしをかいます。",
+              "romaji": "boushi wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli topi.",
+                "en": "I buy a hat."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -8217,7 +8281,39 @@
           "meanings": {
             "en": "umbrella",
             "id": "payung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "傘を持っています。",
+              "furigana": "かさをもっています。",
+              "romaji": "kasa wo motteimasu.",
+              "meanings": {
+                "id": "Saya bawa payung.",
+                "en": "I have an umbrella."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "傘を買います。",
+              "furigana": "かさをかいます。",
+              "romaji": "kasa wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli payung.",
+                "en": "I buy an umbrella."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "傘を忘れました。",
+              "furigana": "かさをわすれました。",
+              "romaji": "kasa wo wasuremashita.",
+              "meanings": {
+                "id": "Saya lupa payung.",
+                "en": "I forgot my umbrella."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -8227,7 +8323,39 @@
           "meanings": {
             "en": "glasses",
             "id": "kacamata"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "眼鏡をかけます。",
+              "furigana": "めがねをかけます。",
+              "romaji": "megane wo kakemasu.",
+              "meanings": {
+                "id": "Saya pakai kacamata.",
+                "en": "I wear glasses."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "眼鏡が新しいです。",
+              "furigana": "めがねがあたらしいです。",
+              "romaji": "megane ga atarashii desu.",
+              "meanings": {
+                "id": "Kacamatanya baru.",
+                "en": "The glasses are new."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "眼鏡を買います。",
+              "furigana": "めがねをかいます。",
+              "romaji": "megane wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli kacamata.",
+                "en": "I buy glasses."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -8237,7 +8365,39 @@
           "meanings": {
             "en": "handkerchief",
             "id": "sapu-tangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ハンカチを持っています。",
+              "furigana": "はんかちをもっています。",
+              "romaji": "hankachi wo motteimasu.",
+              "meanings": {
+                "id": "Saya bawa sapu tangan.",
+                "en": "I have a handkerchief."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ハンカチがきれいです。",
+              "furigana": "はんかちがきれいです。",
+              "romaji": "hankachi ga kirei desu.",
+              "meanings": {
+                "id": "Sapu tangannya bersih.",
+                "en": "The handkerchief is clean."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ハンカチを買います。",
+              "furigana": "はんかちをかいます。",
+              "romaji": "hankachi wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli sapu tangan.",
+                "en": "I buy a handkerchief."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -8247,7 +8407,39 @@
           "meanings": {
             "en": "towel",
             "id": "handuk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "タオルを使います。",
+              "furigana": "たおるをつかいます。",
+              "romaji": "taoru wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya pakai handuk.",
+                "en": "I use a towel."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "タオルが濡れています。",
+              "furigana": "たおるがぬれています。",
+              "romaji": "taoru ga nureteimasu.",
+              "meanings": {
+                "id": "Handuknya basah.",
+                "en": "The towel is wet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "タオルを買います。",
+              "furigana": "たおるをかいます。",
+              "romaji": "taoru wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli handuk.",
+                "en": "I buy a towel."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -8257,7 +8449,39 @@
           "meanings": {
             "en": "soap",
             "id": "sabun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "石鹸で手を洗います。",
+              "furigana": "せっけんでてをあらいます。",
+              "romaji": "sekken de te wo araimasu.",
+              "meanings": {
+                "id": "Saya cuci tangan dengan sabun.",
+                "en": "I wash my hands with soap."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "石鹸がいいです。",
+              "furigana": "せっけんがいいです。",
+              "romaji": "sekken ga ii desu.",
+              "meanings": {
+                "id": "Sabunnya bagus.",
+                "en": "The soap is good."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "石鹸を買います。",
+              "furigana": "せっけんをかいます。",
+              "romaji": "sekken wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli sabun.",
+                "en": "I buy soap."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -8267,7 +8491,39 @@
           "meanings": {
             "en": "shampoo",
             "id": "shampo"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "シャンプーを使います。",
+              "furigana": "しゃんぷーをつかいます。",
+              "romaji": "shanpuu wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya pakai shampo.",
+                "en": "I use shampoo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "シャンプーがいいです。",
+              "furigana": "しゃんぷーがいいです。",
+              "romaji": "shanpuu ga ii desu.",
+              "meanings": {
+                "id": "Shamponya bagus.",
+                "en": "The shampoo is good."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "シャンプーを買います。",
+              "furigana": "しゃんぷーをかいます。",
+              "romaji": "shanpuu wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli shampo.",
+                "en": "I buy shampoo."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -8277,7 +8533,39 @@
           "meanings": {
             "en": "wallet",
             "id": "dompet"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "財布を持っています。",
+              "furigana": "さいふをもっています。",
+              "romaji": "saifu wo motteimasu.",
+              "meanings": {
+                "id": "Saya bawa dompet.",
+                "en": "I have a wallet."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "財布を忘れました。",
+              "furigana": "さいふをわすれました。",
+              "romaji": "saifu wo wasuremashita.",
+              "meanings": {
+                "id": "Saya lupa dompet.",
+                "en": "I forgot my wallet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "財布が新しいです。",
+              "furigana": "さいふがあたらしいです。",
+              "romaji": "saifu ga atarashii desu.",
+              "meanings": {
+                "id": "Dompetnya baru.",
+                "en": "The wallet is new."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -8287,7 +8575,39 @@
           "meanings": {
             "en": "money",
             "id": "uang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お金がありません。",
+              "furigana": "おかねがありません。",
+              "romaji": "okane ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada uang.",
+                "en": "I don't have money."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お金を貯めます。",
+              "furigana": "おかねをためます。",
+              "romaji": "okane wo tamemasu.",
+              "meanings": {
+                "id": "Saya menabung uang.",
+                "en": "I save money."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お金が必要です。",
+              "furigana": "おかねがひつようです。",
+              "romaji": "okane ga hitsuyou desu.",
+              "meanings": {
+                "id": "Uang diperlukan.",
+                "en": "Money is necessary."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -8297,7 +8617,39 @@
           "meanings": {
             "en": "slippers",
             "id": "sandal"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "スリッパを履きます。",
+              "furigana": "すりっぱをはきます。",
+              "romaji": "surippa wo hakimasu.",
+              "meanings": {
+                "id": "Saya pakai sandal.",
+                "en": "I wear slippers."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "スリッパがあります。",
+              "furigana": "すりっぱがあります。",
+              "romaji": "surippa ga arimasu.",
+              "meanings": {
+                "id": "Ada sandal.",
+                "en": "There are slippers."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "スリッパが新しいです。",
+              "furigana": "すりっぱがあたらしいです。",
+              "romaji": "surippa ga atarashii desu.",
+              "meanings": {
+                "id": "Sandalnya baru.",
+                "en": "The slippers are new."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -8307,7 +8659,39 @@
           "meanings": {
             "en": "socks",
             "id": "kaos kaki"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "靴下を履きます。",
+              "furigana": "くつしたをはきます。",
+              "romaji": "kutsushita wo hakimasu.",
+              "meanings": {
+                "id": "Saya pakai kaos kaki.",
+                "en": "I wear socks."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "靴下が白いです。",
+              "furigana": "くつしたがしろいです。",
+              "romaji": "kutsushita ga shiroi desu.",
+              "meanings": {
+                "id": "Kaos kakinya putih.",
+                "en": "The socks are white."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "靴下を買います。",
+              "furigana": "くつしたをかいます。",
+              "romaji": "kutsushita wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli kaos kaki.",
+                "en": "I buy socks."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -8317,7 +8701,39 @@
           "meanings": {
             "en": "shoes",
             "id": "sepatu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "靴を履きます。",
+              "furigana": "くつをはきます。",
+              "romaji": "kutsu wo hakimasu.",
+              "meanings": {
+                "id": "Saya pakai sepatu.",
+                "en": "I wear shoes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "靴が新しいです。",
+              "furigana": "くつがあたらしいです。",
+              "romaji": "kutsu ga atarashii desu.",
+              "meanings": {
+                "id": "Sepatunya baru.",
+                "en": "The shoes are new."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "靴を脱ぎます。",
+              "furigana": "くつをぬぎます。",
+              "romaji": "kutsu wo nugimasu.",
+              "meanings": {
+                "id": "Saya lepas sepatu.",
+                "en": "I take off my shoes."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -8327,7 +8743,39 @@
           "meanings": {
             "en": "luggage",
             "id": "barang bawaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "荷物が多いです。",
+              "furigana": "にもつがおおいです。",
+              "romaji": "nimotsu ga ooi desu.",
+              "meanings": {
+                "id": "Barang bawaannya banyak.",
+                "en": "There is a lot of luggage."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "荷物を持ちます。",
+              "furigana": "にもつをもちます。",
+              "romaji": "nimotsu wo mochimasu.",
+              "meanings": {
+                "id": "Saya bawa barang.",
+                "en": "I carry luggage."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "荷物が重いです。",
+              "furigana": "にもつがおもいです。",
+              "romaji": "nimotsu ga omoi desu.",
+              "meanings": {
+                "id": "Barangnya berat.",
+                "en": "The luggage is heavy."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -8337,7 +8785,39 @@
           "meanings": {
             "en": "bag",
             "id": "tas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鞄を持っています。",
+              "furigana": "かばんをもっています。",
+              "romaji": "kaban wo motteimasu.",
+              "meanings": {
+                "id": "Saya bawa tas.",
+                "en": "I have a bag."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "鞄が大きいです。",
+              "furigana": "かばんがおおきいです。",
+              "romaji": "kaban ga ookii desu.",
+              "meanings": {
+                "id": "Tasnya besar.",
+                "en": "The bag is big."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鞄を買います。",
+              "furigana": "かばんをかいます。",
+              "romaji": "kaban wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli tas.",
+                "en": "I buy a bag."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -8347,7 +8827,39 @@
           "meanings": {
             "en": "cigarette",
             "id": "rokok"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "たばこを吸います。",
+              "furigana": "たばこをすいます。",
+              "romaji": "tabako wo suimasu.",
+              "meanings": {
+                "id": "Saya merokok.",
+                "en": "I smoke cigarettes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "たばこは体に悪いです。",
+              "furigana": "たばこはからだにわるいです。",
+              "romaji": "tabako wa karada ni warui desu.",
+              "meanings": {
+                "id": "Rokok buruk untuk tubuh.",
+                "en": "Cigarettes are bad for the body."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "たばこをやめます。",
+              "furigana": "たばこをやめます。",
+              "romaji": "tabako wo yamemasu.",
+              "meanings": {
+                "id": "Saya berhenti merokok.",
+                "en": "I quit smoking."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -8357,7 +8869,39 @@
           "meanings": {
             "en": "match (fire)",
             "id": "korek api"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "マッチがあります。",
+              "furigana": "まっちがあります。",
+              "romaji": "macchi ga arimasu.",
+              "meanings": {
+                "id": "Ada korek api.",
+                "en": "There are matches."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "マッチを使います。",
+              "furigana": "まっちをつかいます。",
+              "romaji": "macchi wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya pakai korek api.",
+                "en": "I use matches."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "マッチを買います。",
+              "furigana": "まっちをかいます。",
+              "romaji": "macchi wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli korek api.",
+                "en": "I buy matches."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -8367,7 +8911,39 @@
           "meanings": {
             "en": "medicine",
             "id": "obat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "薬を飲みます。",
+              "furigana": "くすりをのみます。",
+              "romaji": "kusuri wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum obat.",
+                "en": "I take medicine."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "薬が効きます。",
+              "furigana": "くすりがききます。",
+              "romaji": "kusuri ga kikimasu.",
+              "meanings": {
+                "id": "Obatnya manjur.",
+                "en": "The medicine works."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "薬を買います。",
+              "furigana": "くすりをかいます。",
+              "romaji": "kusuri wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli obat.",
+                "en": "I buy medicine."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -8377,7 +8953,39 @@
           "meanings": {
             "en": "key",
             "id": "kunci"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鍵を持っています。",
+              "furigana": "かぎをもっています。",
+              "romaji": "kagi wo motteimasu.",
+              "meanings": {
+                "id": "Saya bawa kunci.",
+                "en": "I have a key."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "鍵を忘れました。",
+              "furigana": "かぎをわすれました。",
+              "romaji": "kagi wo wasuremashita.",
+              "meanings": {
+                "id": "Saya lupa kunci.",
+                "en": "I forgot my key."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鍵をかけます。",
+              "furigana": "かぎをかけます。",
+              "romaji": "kagi wo kakemasu.",
+              "meanings": {
+                "id": "Saya mengunci.",
+                "en": "I lock it."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -8387,7 +8995,39 @@
           "meanings": {
             "en": "newspaper",
             "id": "koran"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "新聞を読みます。",
+              "furigana": "しんぶんをよみます。",
+              "romaji": "shinbun wo yomimasu.",
+              "meanings": {
+                "id": "Saya baca koran.",
+                "en": "I read a newspaper."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新聞が古いです。",
+              "furigana": "しんぶんがふるいです。",
+              "romaji": "shinbun ga furui desu.",
+              "meanings": {
+                "id": "Korannya lama.",
+                "en": "The newspaper is old."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新聞を買います。",
+              "furigana": "しんぶんをかいます。",
+              "romaji": "shinbun wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli koran.",
+                "en": "I buy a newspaper."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -8397,7 +9037,39 @@
           "meanings": {
             "en": "magazine",
             "id": "majalah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "雑誌を読みます。",
+              "furigana": "ざっしをよみます。",
+              "romaji": "zasshi wo yomimasu.",
+              "meanings": {
+                "id": "Saya baca majalah.",
+                "en": "I read a magazine."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "雑誌が面白いです。",
+              "furigana": "ざっしがおもしろいです。",
+              "romaji": "zasshi ga omoshiroi desu.",
+              "meanings": {
+                "id": "Majalahnya menarik.",
+                "en": "The magazine is interesting."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "雑誌を買います。",
+              "furigana": "ざっしをかいます。",
+              "romaji": "zasshi wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli majalah.",
+                "en": "I buy a magazine."
+              }
+            }
+          ]
         }
       ]
     },
@@ -8416,7 +9088,39 @@
           "meanings": {
             "en": "clothes",
             "id": "pakaian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "洋服を着ます。",
+              "furigana": "ようふくをきます。",
+              "romaji": "youfuku wo kimasu.",
+              "meanings": {
+                "id": "Saya pakai pakaian.",
+                "en": "I wear clothes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "服を買います。",
+              "furigana": "ふくをかいます。",
+              "romaji": "fuku wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli pakaian.",
+                "en": "I buy clothes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "服がきれいです。",
+              "furigana": "ふくがきれいです。",
+              "romaji": "fuku ga kirei desu.",
+              "meanings": {
+                "id": "Pakaiannya bersih.",
+                "en": "The clothes are clean."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -8426,7 +9130,39 @@
           "meanings": {
             "en": "coat",
             "id": "mantel (coat)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "コートを着ます。",
+              "furigana": "こーとをきます。",
+              "romaji": "kōto wo kimasu.",
+              "meanings": {
+                "id": "Saya pakai mantel.",
+                "en": "I wear a coat."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "コートが暖かいです。",
+              "furigana": "こーとがあたたかいです。",
+              "romaji": "kōto ga atatakai desu.",
+              "meanings": {
+                "id": "Mantelnya hangat.",
+                "en": "The coat is warm."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "コートを買います。",
+              "furigana": "こーとをかいます。",
+              "romaji": "kōto wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli mantel.",
+                "en": "I buy a coat."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -8436,7 +9172,39 @@
           "meanings": {
             "en": "sweater",
             "id": "baju hangat, sweter"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "セーターを着ます。",
+              "furigana": "せーたーをきます。",
+              "romaji": "sētā wo kimasu.",
+              "meanings": {
+                "id": "Saya pakai sweter.",
+                "en": "I wear a sweater."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "セーターが暖かいです。",
+              "furigana": "せーたーがあたたかいです。",
+              "romaji": "sētā ga atatakai desu.",
+              "meanings": {
+                "id": "Sweternya hangat.",
+                "en": "The sweater is warm."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "セーターが好きです。",
+              "furigana": "せーたーがすきです。",
+              "romaji": "sētā ga suki desu.",
+              "meanings": {
+                "id": "Saya suka sweter.",
+                "en": "I like sweaters."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -8446,7 +9214,39 @@
           "meanings": {
             "en": "suit",
             "id": "jas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "背広を着ます。",
+              "furigana": "せびろをきます。",
+              "romaji": "sebiro wo kimasu.",
+              "meanings": {
+                "id": "Saya pakai jas.",
+                "en": "I wear a suit."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "背広が新しいです。",
+              "furigana": "せびろがあたらしいです。",
+              "romaji": "sebiro ga atarashii desu.",
+              "meanings": {
+                "id": "Jasnya baru.",
+                "en": "The suit is new."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "背広を買います。",
+              "furigana": "せびろをかいます。",
+              "romaji": "sebiro wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli jas.",
+                "en": "I buy a suit."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -8456,7 +9256,39 @@
           "meanings": {
             "en": "jacket",
             "id": "jaket, baju atas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "上着を着ます。",
+              "furigana": "うわぎをきます。",
+              "romaji": "uwagi wo kimasu.",
+              "meanings": {
+                "id": "Saya pakai jaket.",
+                "en": "I wear a jacket."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "上着を脱ぎます。",
+              "furigana": "うわぎをぬぎます。",
+              "romaji": "uwagi wo nugimasu.",
+              "meanings": {
+                "id": "Saya lepas jaket.",
+                "en": "I take off my jacket."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "上着が暖かいです。",
+              "furigana": "うわぎがあたたかいです。",
+              "romaji": "uwagi ga atatakai desu.",
+              "meanings": {
+                "id": "Jaketnya hangat.",
+                "en": "The jacket is warm."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -8466,7 +9298,39 @@
           "meanings": {
             "en": "shirt",
             "id": "kemeja"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ワイシャツを着ます。",
+              "furigana": "わいしゃつをきます。",
+              "romaji": "waishatsu wo kimasu.",
+              "meanings": {
+                "id": "Saya pakai kemeja.",
+                "en": "I wear a shirt."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "シャツが白いです。",
+              "furigana": "しゃつがしろいです。",
+              "romaji": "shatsu ga shiroi desu.",
+              "meanings": {
+                "id": "Kemejanya putih.",
+                "en": "The shirt is white."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "シャツを買います。",
+              "furigana": "しゃつをかいます。",
+              "romaji": "shatsu wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli kemeja.",
+                "en": "I buy a shirt."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -8476,7 +9340,39 @@
           "meanings": {
             "en": "tie",
             "id": "dasi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ネクタイをします。",
+              "furigana": "ねくたいをします。",
+              "romaji": "nekutai wo shimasu.",
+              "meanings": {
+                "id": "Saya pakai dasi.",
+                "en": "I wear a tie."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ネクタイがきれいです。",
+              "furigana": "ねくたいがきれいです。",
+              "romaji": "nekutai ga kirei desu.",
+              "meanings": {
+                "id": "Dasinya bagus.",
+                "en": "The tie is nice."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ネクタイを買います。",
+              "furigana": "ねくたいをかいます。",
+              "romaji": "nekutai wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli dasi.",
+                "en": "I buy a tie."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -8486,7 +9382,39 @@
           "meanings": {
             "en": "skirt",
             "id": "rok"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "スカートを履きます。",
+              "furigana": "すかーとをはきます。",
+              "romaji": "sukāto wo hakimasu.",
+              "meanings": {
+                "id": "Saya pakai rok.",
+                "en": "I wear a skirt."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "スカートがかわいいです。",
+              "furigana": "すかーとがかわいいです。",
+              "romaji": "sukāto ga kawaii desu.",
+              "meanings": {
+                "id": "Roknya lucu.",
+                "en": "The skirt is cute."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "スカートを買います。",
+              "furigana": "すかーとをかいます。",
+              "romaji": "sukāto wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli rok.",
+                "en": "I buy a skirt."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -8496,7 +9424,39 @@
           "meanings": {
             "en": "trousers",
             "id": "celana panjang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ズボンを履きます。",
+              "furigana": "ずぼんをはきます。",
+              "romaji": "zubon wo hakimasu.",
+              "meanings": {
+                "id": "Saya pakai celana panjang.",
+                "en": "I wear trousers."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ズボンが黒いです。",
+              "furigana": "ずぼんがくろいです。",
+              "romaji": "zubon ga kuroi desu.",
+              "meanings": {
+                "id": "Celana panjangnya hitam.",
+                "en": "The trousers are black."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ズボンを買います。",
+              "furigana": "ずぼんをかいます。",
+              "romaji": "zubon wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli celana panjang.",
+                "en": "I buy trousers."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -8506,7 +9466,39 @@
           "meanings": {
             "en": "pocket",
             "id": "saku"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ポケットにお金があります。",
+              "furigana": "ぽけっとにおかねがあります。",
+              "romaji": "poketto ni okane ga arimasu.",
+              "meanings": {
+                "id": "Ada uang di saku.",
+                "en": "There is money in the pocket."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ポケットが大きいです。",
+              "furigana": "ぽけっとがおおきいです。",
+              "romaji": "poketto ga ookii desu.",
+              "meanings": {
+                "id": "Sakunya besar.",
+                "en": "The pocket is big."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ポケットに入れます。",
+              "furigana": "ぽけっとにいれます。",
+              "romaji": "poketto ni iremasu.",
+              "meanings": {
+                "id": "Saya masukkan ke saku.",
+                "en": "I put it in the pocket."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -8516,7 +9508,39 @@
           "meanings": {
             "en": "button",
             "id": "kancing baju"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ボタンを押します。",
+              "furigana": "ぼたんをおします。",
+              "romaji": "botan wo oshimasu.",
+              "meanings": {
+                "id": "Saya tekan tombol.",
+                "en": "I press the button."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ボタンが取れました。",
+              "furigana": "ぼたんがとれました。",
+              "romaji": "botan ga toremashita.",
+              "meanings": {
+                "id": "Kancingnya lepas.",
+                "en": "The button came off."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ボタンを付けます。",
+              "furigana": "ぼたんをつけます。",
+              "romaji": "botan wo tsukemasu.",
+              "meanings": {
+                "id": "Saya pasang kancing.",
+                "en": "I attach the button."
+              }
+            }
+          ]
         }
       ]
     },
