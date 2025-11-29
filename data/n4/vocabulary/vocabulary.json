@@ -1293,7 +1293,39 @@
           "meanings": {
             "en": "appearance, shape",
             "id": "wujud, bentuk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "かっこうがいいですね。",
+              "furigana": "かっこうが いいですね。",
+              "romaji": "kakkou ga ii desu ne.",
+              "meanings": {
+                "id": "Penampilannya bagus ya.",
+                "en": "It looks good, doesn't it?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "このかっこうで行きます。",
+              "furigana": "この かっこうで いきます。",
+              "romaji": "kono kakkou de ikimasu.",
+              "meanings": {
+                "id": "Saya pergi dengan penampilan ini.",
+                "en": "I'll go in this outfit."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "かっこうが変わりました。",
+              "furigana": "かっこうが かわりました。",
+              "romaji": "kakkou ga kawarimashita.",
+              "meanings": {
+                "id": "Penampilannya berubah.",
+                "en": "The appearance changed."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -1303,7 +1335,39 @@
           "meanings": {
             "en": "form, shape",
             "id": "bentuk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "丸い形が好きです。",
+              "furigana": "まるい かたちが すきです。",
+              "romaji": "marui katachi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka bentuk bulat.",
+                "en": "I like round shapes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この形は面白いです。",
+              "furigana": "この かたちは おもしろいです。",
+              "romaji": "kono katachi wa omoshiroi desu.",
+              "meanings": {
+                "id": "Bentuk ini menarik.",
+                "en": "This shape is interesting."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "形を変えることができます。",
+              "furigana": "かたちを かえることが できます。",
+              "romaji": "katachi wo kaeru koto ga dekimasu.",
+              "meanings": {
+                "id": "Bentuknya bisa diubah.",
+                "en": "The shape can be changed."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -1313,7 +1377,39 @@
           "meanings": {
             "en": "type, kind",
             "id": "tipe, jenis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "どんなタイプが好きですか。",
+              "furigana": "どんな たいぷが すきですか。",
+              "romaji": "donna taipu ga suki desu ka.",
+              "meanings": {
+                "id": "Tipe seperti apa yang Anda suka?",
+                "en": "What type do you like?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これは新しいタイプです。",
+              "furigana": "これは あたらしい たいぷです。",
+              "romaji": "kore wa atarashii taipu desu.",
+              "meanings": {
+                "id": "Ini adalah tipe baru.",
+                "en": "This is a new type."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "同じタイプを探しています。",
+              "furigana": "おなじ たいぷを さがしています。",
+              "romaji": "onaji taipu wo sagashiteimasu.",
+              "meanings": {
+                "id": "Saya sedang mencari tipe yang sama.",
+                "en": "I'm looking for the same type."
+              }
+            }
+          ]
         }
       ]
     },
@@ -1332,7 +1428,39 @@
           "meanings": {
             "en": "return, way back",
             "id": "arah pulang, kepulangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "帰りに買い物をします。",
+              "furigana": "かえりに かいものを します。",
+              "romaji": "kaeri ni kaimono wo shimasu.",
+              "meanings": {
+                "id": "Saya berbelanja dalam perjalanan pulang.",
+                "en": "I shop on the way home."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "帰りは電車で帰ります。",
+              "furigana": "かえりは でんしゃで かえります。",
+              "romaji": "kaeri wa densha de kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang dengan kereta.",
+                "en": "I go back by train."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "帰りが遅くなりました。",
+              "furigana": "かえりが おそくなりました。",
+              "romaji": "kaeri ga osoku narimashita.",
+              "meanings": {
+                "id": "Kepulangan saya jadi terlambat.",
+                "en": "My return became late."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -1342,7 +1470,39 @@
           "meanings": {
             "en": "over there, opposite side",
             "id": "seberang sana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "向こうに山が見えます。",
+              "furigana": "むこうに やまが みえます。",
+              "romaji": "mukou ni yama ga miemasu.",
+              "meanings": {
+                "id": "Gunung terlihat di seberang sana.",
+                "en": "Mountains can be seen over there."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "向こうに行ってください。",
+              "furigana": "むこうに いってください。",
+              "romaji": "mukou ni itte kudasai.",
+              "meanings": {
+                "id": "Tolong pergi ke seberang sana.",
+                "en": "Please go over there."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "向こうで待っています。",
+              "furigana": "むこうで まっています。",
+              "romaji": "mukou de matteimasu.",
+              "meanings": {
+                "id": "Saya menunggu di seberang sana.",
+                "en": "I'm waiting over there."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -1352,7 +1512,39 @@
           "meanings": {
             "en": "far away",
             "id": "yang jauh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "遠くに海が見えます。",
+              "furigana": "とおくに うみが みえます。",
+              "romaji": "tooku ni umi ga miemasu.",
+              "meanings": {
+                "id": "Laut terlihat di kejauhan.",
+                "en": "The sea can be seen in the distance."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "遠くから来ました。",
+              "furigana": "とおくから きました。",
+              "romaji": "tooku kara kimashita.",
+              "meanings": {
+                "id": "Saya datang dari jauh.",
+                "en": "I came from far away."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "遠くへ旅行したいです。",
+              "furigana": "とおくへ りょこうしたいです。",
+              "romaji": "tooku e ryokou shitai desu.",
+              "meanings": {
+                "id": "Saya ingin bepergian jauh.",
+                "en": "I want to travel far away."
+              }
+            }
+          ]
         }
       ]
     },
