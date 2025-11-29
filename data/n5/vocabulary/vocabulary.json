@@ -9559,7 +9559,39 @@
           "meanings": {
             "en": "food",
             "id": "makanan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "食べ物が好きです。",
+              "furigana": "たべものがすきです。",
+              "romaji": "tabemono ga suki desu.",
+              "meanings": {
+                "id": "Saya suka makanan.",
+                "en": "I like food."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "食べ物を買います。",
+              "furigana": "たべものをかいます。",
+              "romaji": "tabemono wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli makanan.",
+                "en": "I buy food."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "食べ物がおいしいです。",
+              "furigana": "たべものがおいしいです。",
+              "romaji": "tabemono ga oishii desu.",
+              "meanings": {
+                "id": "Makanannya enak.",
+                "en": "The food is delicious."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -9569,7 +9601,39 @@
           "meanings": {
             "en": "drink",
             "id": "minuman"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "飲み物をください。",
+              "furigana": "のみものをください。",
+              "romaji": "nomimono wo kudasai.",
+              "meanings": {
+                "id": "Tolong beri minuman.",
+                "en": "Please give me a drink."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "飲み物が冷たいです。",
+              "furigana": "のみものがつめたいです。",
+              "romaji": "nomimono ga tsumetai desu.",
+              "meanings": {
+                "id": "Minumannya dingin.",
+                "en": "The drink is cold."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "飲み物を買います。",
+              "furigana": "のみものをかいます。",
+              "romaji": "nomimono wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli minuman.",
+                "en": "I buy a drink."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -9579,7 +9643,39 @@
           "meanings": {
             "en": "rice",
             "id": "nasi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ご飯を食べます。",
+              "furigana": "ごはんをたべます。",
+              "romaji": "gohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan nasi.",
+                "en": "I eat rice."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ご飯がおいしいです。",
+              "furigana": "ごはんがおいしいです。",
+              "romaji": "gohan ga oishii desu.",
+              "meanings": {
+                "id": "Nasinya enak.",
+                "en": "The rice is delicious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ご飯を作ります。",
+              "furigana": "ごはんをつくります。",
+              "romaji": "gohan wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat nasi.",
+                "en": "I make rice."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -9589,7 +9685,39 @@
           "meanings": {
             "en": "breakfast",
             "id": "makan pagi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "朝御飯を食べます。",
+              "furigana": "あさごはんをたべます。",
+              "romaji": "asagohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan pagi.",
+                "en": "I eat breakfast."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝御飯は何ですか。",
+              "furigana": "あさごはんはなんですか。",
+              "romaji": "asagohan wa nan desu ka.",
+              "meanings": {
+                "id": "Sarapan apa?",
+                "en": "What is breakfast?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "朝御飯を作ります。",
+              "furigana": "あさごはんをつくります。",
+              "romaji": "asagohan wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat sarapan.",
+                "en": "I make breakfast."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -9599,7 +9727,39 @@
           "meanings": {
             "en": "lunch",
             "id": "makan siang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昼御飯を食べます。",
+              "furigana": "ひるごはんをたべます。",
+              "romaji": "hirugohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan siang.",
+                "en": "I eat lunch."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "昼御飯は何ですか。",
+              "furigana": "ひるごはんはなんですか。",
+              "romaji": "hirugohan wa nan desu ka.",
+              "meanings": {
+                "id": "Makan siang apa?",
+                "en": "What is lunch?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "昼御飯の時間です。",
+              "furigana": "ひるごはんのじかんです。",
+              "romaji": "hirugohan no jikan desu.",
+              "meanings": {
+                "id": "Ini waktu makan siang.",
+                "en": "It's lunchtime."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -9609,7 +9769,39 @@
           "meanings": {
             "en": "dinner",
             "id": "makan malam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "晩御飯を食べます。",
+              "furigana": "ばんごはんをたべます。",
+              "romaji": "ban'gohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan malam.",
+                "en": "I eat dinner."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夕飯を作ります。",
+              "furigana": "ゆうはんをつくります。",
+              "romaji": "yuuhan wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat makan malam.",
+                "en": "I make dinner."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "晩御飯は何ですか。",
+              "furigana": "ばんごはんはなんですか。",
+              "romaji": "ban'gohan wa nan desu ka.",
+              "meanings": {
+                "id": "Makan malam apa?",
+                "en": "What is dinner?"
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -9619,7 +9811,39 @@
           "meanings": {
             "en": "bento",
             "id": "makanan bekal"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お弁当を食べます。",
+              "furigana": "おべんとうをたべます。",
+              "romaji": "obentou wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan bekal.",
+                "en": "I eat a bento."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お弁当を作ります。",
+              "furigana": "おべんとうをつくります。",
+              "romaji": "obentou wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat bekal.",
+                "en": "I make a bento."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お弁当を買います。",
+              "furigana": "おべんとうをかいます。",
+              "romaji": "obentou wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli bekal.",
+                "en": "I buy a bento."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -9629,7 +9853,39 @@
           "meanings": {
             "en": "cuisine, dish",
             "id": "masakan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "料理を作ります。",
+              "furigana": "りょうりをつくります。",
+              "romaji": "ryouri wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat masakan.",
+                "en": "I make a dish."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "料理がおいしいです。",
+              "furigana": "りょうりがおいしいです。",
+              "romaji": "ryouri ga oishii desu.",
+              "meanings": {
+                "id": "Masakannya enak.",
+                "en": "The dish is delicious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "料理が好きです。",
+              "furigana": "りょうりがすきです。",
+              "romaji": "ryouri ga suki desu.",
+              "meanings": {
+                "id": "Saya suka masak.",
+                "en": "I like cooking."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -9639,7 +9895,39 @@
           "meanings": {
             "en": "meat",
             "id": "daging"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "肉を食べます。",
+              "furigana": "にくをたべます。",
+              "romaji": "niku wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan daging.",
+                "en": "I eat meat."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "肉が好きです。",
+              "furigana": "にくがすきです。",
+              "romaji": "niku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka daging.",
+                "en": "I like meat."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "肉を買います。",
+              "furigana": "にくをかいます。",
+              "romaji": "niku wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli daging.",
+                "en": "I buy meat."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -9649,7 +9937,39 @@
           "meanings": {
             "en": "beef",
             "id": "daging sapi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "牛肉を食べます。",
+              "furigana": "ぎゅうにくをたべます。",
+              "romaji": "gyuuniku wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan daging sapi.",
+                "en": "I eat beef."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "牛肉がおいしいです。",
+              "furigana": "ぎゅうにくがおいしいです。",
+              "romaji": "gyuuniku ga oishii desu.",
+              "meanings": {
+                "id": "Daging sapinya enak.",
+                "en": "The beef is delicious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "牛肉を買います。",
+              "furigana": "ぎゅうにくをかいます。",
+              "romaji": "gyuuniku wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli daging sapi.",
+                "en": "I buy beef."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -9659,7 +9979,39 @@
           "meanings": {
             "en": "pork",
             "id": "daging babi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "豚肉を食べます。",
+              "furigana": "ぶたにくをたべます。",
+              "romaji": "butaniku wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan daging babi.",
+                "en": "I eat pork."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "豚肉を買います。",
+              "furigana": "ぶたにくをかいます。",
+              "romaji": "butaniku wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli daging babi.",
+                "en": "I buy pork."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "豚肉がおいしいです。",
+              "furigana": "ぶたにくがおいしいです。",
+              "romaji": "butaniku ga oishii desu.",
+              "meanings": {
+                "id": "Daging babinya enak.",
+                "en": "The pork is delicious."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -9669,7 +10021,39 @@
           "meanings": {
             "en": "chicken meat",
             "id": "daging ayam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鶏肉を食べます。",
+              "furigana": "とりにくをたべます。",
+              "romaji": "toriniku wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan daging ayam.",
+                "en": "I eat chicken."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "チキンが好きです。",
+              "furigana": "ちきんがすきです。",
+              "romaji": "chikin ga suki desu.",
+              "meanings": {
+                "id": "Saya suka ayam.",
+                "en": "I like chicken."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鶏肉を買います。",
+              "furigana": "とりにくをかいます。",
+              "romaji": "toriniku wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli daging ayam.",
+                "en": "I buy chicken."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -9679,7 +10063,39 @@
           "meanings": {
             "en": "vegetable",
             "id": "sayur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "野菜を食べます。",
+              "furigana": "やさいをたべます。",
+              "romaji": "yasai wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan sayur.",
+                "en": "I eat vegetables."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "野菜が好きです。",
+              "furigana": "やさいがすきです。",
+              "romaji": "yasai ga suki desu.",
+              "meanings": {
+                "id": "Saya suka sayur.",
+                "en": "I like vegetables."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "野菜を買います。",
+              "furigana": "やさいをかいます。",
+              "romaji": "yasai wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli sayur.",
+                "en": "I buy vegetables."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -9689,7 +10105,39 @@
           "meanings": {
             "en": "salad",
             "id": "salad"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "サラダを食べます。",
+              "furigana": "さらだをたべます。",
+              "romaji": "sarada wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan salad.",
+                "en": "I eat salad."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "サラダが好きです。",
+              "furigana": "さらだがすきです。",
+              "romaji": "sarada ga suki desu.",
+              "meanings": {
+                "id": "Saya suka salad.",
+                "en": "I like salad."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "サラダを作ります。",
+              "furigana": "さらだをつくります。",
+              "romaji": "sarada wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat salad.",
+                "en": "I make salad."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -9699,7 +10147,39 @@
           "meanings": {
             "en": "tomato",
             "id": "tomat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "トマトを食べます。",
+              "furigana": "とまとをたべます。",
+              "romaji": "tomato wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan tomat.",
+                "en": "I eat tomatoes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "トマトが好きです。",
+              "furigana": "とまとがすきです。",
+              "romaji": "tomato ga suki desu.",
+              "meanings": {
+                "id": "Saya suka tomat.",
+                "en": "I like tomatoes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "トマトが赤いです。",
+              "furigana": "とまとがあかいです。",
+              "romaji": "tomato ga akai desu.",
+              "meanings": {
+                "id": "Tomatnya merah.",
+                "en": "The tomatoes are red."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -9709,7 +10189,39 @@
           "meanings": {
             "en": "fruit",
             "id": "buah-buahan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "果物を食べます。",
+              "furigana": "くだものをたべます。",
+              "romaji": "kudamono wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan buah.",
+                "en": "I eat fruit."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "果物が好きです。",
+              "furigana": "くだものがすきです。",
+              "romaji": "kudamono ga suki desu.",
+              "meanings": {
+                "id": "Saya suka buah.",
+                "en": "I like fruit."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "果物を買います。",
+              "furigana": "くだものをかいます。",
+              "romaji": "kudamono wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli buah.",
+                "en": "I buy fruit."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -9719,7 +10231,39 @@
           "meanings": {
             "en": "apple",
             "id": "apel"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "りんごを食べます。",
+              "furigana": "りんごをたべます。",
+              "romaji": "ringo wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan apel.",
+                "en": "I eat an apple."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "りんごが好きです。",
+              "furigana": "りんごがすきです。",
+              "romaji": "ringo ga suki desu.",
+              "meanings": {
+                "id": "Saya suka apel.",
+                "en": "I like apples."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "りんごが赤いです。",
+              "furigana": "りんごがあかいです。",
+              "romaji": "ringo ga akai desu.",
+              "meanings": {
+                "id": "Apelnya merah.",
+                "en": "The apple is red."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -9729,7 +10273,39 @@
           "meanings": {
             "en": "mandarin orange",
             "id": "jeruk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "みかんを食べます。",
+              "furigana": "みかんをたべます。",
+              "romaji": "mikan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan jeruk.",
+                "en": "I eat a mandarin."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "みかんが好きです。",
+              "furigana": "みかんがすきです。",
+              "romaji": "mikan ga suki desu.",
+              "meanings": {
+                "id": "Saya suka jeruk.",
+                "en": "I like mandarins."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "みかんが甘いです。",
+              "furigana": "みかんがあまいです。",
+              "romaji": "mikan ga amai desu.",
+              "meanings": {
+                "id": "Jeruknya manis.",
+                "en": "The mandarin is sweet."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -9739,7 +10315,39 @@
           "meanings": {
             "en": "banana",
             "id": "pisang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "バナナを食べます。",
+              "furigana": "ばななをたべます。",
+              "romaji": "banana wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan pisang.",
+                "en": "I eat a banana."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "バナナが好きです。",
+              "furigana": "ばななが すきです。",
+              "romaji": "banana ga suki desu.",
+              "meanings": {
+                "id": "Saya suka pisang.",
+                "en": "I like bananas."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "バナナが黄色いです。",
+              "furigana": "ばななが きいろいです。",
+              "romaji": "banana ga kiiroi desu.",
+              "meanings": {
+                "id": "Pisangnya kuning.",
+                "en": "The banana is yellow."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -9749,7 +10357,39 @@
           "meanings": {
             "en": "bread",
             "id": "roti"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "パンを食べます。",
+              "furigana": "ぱんを たべます。",
+              "romaji": "pan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan roti.",
+                "en": "I eat bread."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝パンを食べます。",
+              "furigana": "あさ ぱんを たべます。",
+              "romaji": "asa pan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan roti di pagi hari.",
+                "en": "I eat bread in the morning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "パンを買います。",
+              "furigana": "ぱんを かいます。",
+              "romaji": "pan wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli roti.",
+                "en": "I buy bread."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -9759,7 +10399,39 @@
           "meanings": {
             "en": "butter",
             "id": "mentega"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "パンにバターを塗ります。",
+              "furigana": "ぱんに ばたーを ぬります。",
+              "romaji": "pan ni bataa wo nurimasu.",
+              "meanings": {
+                "id": "Saya mengoleskan mentega pada roti.",
+                "en": "I spread butter on bread."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "バターを買います。",
+              "furigana": "ばたーを かいます。",
+              "romaji": "bataa wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli mentega.",
+                "en": "I buy butter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "バターがおいしいです。",
+              "furigana": "ばたーが おいしいです。",
+              "romaji": "bataa ga oishii desu.",
+              "meanings": {
+                "id": "Menteganya enak.",
+                "en": "The butter is delicious."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -9769,7 +10441,39 @@
           "meanings": {
             "en": "egg",
             "id": "telur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "卵を食べます。",
+              "furigana": "たまごを たべます。",
+              "romaji": "tamago wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan telur.",
+                "en": "I eat eggs."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "卵を買います。",
+              "furigana": "たまごを かいます。",
+              "romaji": "tamago wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli telur.",
+                "en": "I buy eggs."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "卵料理が好きです。",
+              "furigana": "たまごりょうりが すきです。",
+              "romaji": "tamago ryouri ga suki desu.",
+              "meanings": {
+                "id": "Saya suka masakan telur.",
+                "en": "I like egg dishes."
+              }
+            }
+          ]
         },
         {
           "id": 23,
@@ -9779,7 +10483,39 @@
           "meanings": {
             "en": "milk",
             "id": "susu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "牛乳を飲みます。",
+              "furigana": "ぎゅうにゅうを のみます。",
+              "romaji": "gyuunyuu wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum susu.",
+                "en": "I drink milk."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ミルクが好きです。",
+              "furigana": "みるくが すきです。",
+              "romaji": "miruku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka susu.",
+                "en": "I like milk."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "牛乳を買います。",
+              "furigana": "ぎゅうにゅうを かいます。",
+              "romaji": "gyuunyuu wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli susu.",
+                "en": "I buy milk."
+              }
+            }
+          ]
         },
         {
           "id": 24,
@@ -9789,7 +10525,39 @@
           "meanings": {
             "en": "green tea",
             "id": "teh hijau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お茶を飲みます。",
+              "furigana": "おちゃを のみます。",
+              "romaji": "ocha wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum teh.",
+                "en": "I drink tea."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お茶が好きです。",
+              "furigana": "おちゃが すきです。",
+              "romaji": "ocha ga suki desu.",
+              "meanings": {
+                "id": "Saya suka teh.",
+                "en": "I like tea."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お茶をください。",
+              "furigana": "おちゃを ください。",
+              "romaji": "ocha wo kudasai.",
+              "meanings": {
+                "id": "Tolong beri saya teh.",
+                "en": "Please give me tea."
+              }
+            }
+          ]
         },
         {
           "id": 25,
@@ -9799,7 +10567,39 @@
           "meanings": {
             "en": "tea",
             "id": "teh"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "紅茶を飲みます。",
+              "furigana": "こうちゃを のみます。",
+              "romaji": "koucha wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum teh hitam.",
+                "en": "I drink black tea."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紅茶が好きです。",
+              "furigana": "こうちゃが すきです。",
+              "romaji": "koucha ga suki desu.",
+              "meanings": {
+                "id": "Saya suka teh hitam.",
+                "en": "I like black tea."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "紅茶をください。",
+              "furigana": "こうちゃを ください。",
+              "romaji": "koucha wo kudasai.",
+              "meanings": {
+                "id": "Tolong beri saya teh hitam.",
+                "en": "Please give me black tea."
+              }
+            }
+          ]
         },
         {
           "id": 26,
@@ -9809,7 +10609,39 @@
           "meanings": {
             "en": "coffee",
             "id": "kopi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "コーヒーを飲みます。",
+              "furigana": "こーひーを のみます。",
+              "romaji": "koohii wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum kopi.",
+                "en": "I drink coffee."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "コーヒーが好きです。",
+              "furigana": "こーひーが すきです。",
+              "romaji": "koohii ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kopi.",
+                "en": "I like coffee."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "朝コーヒーを飲みます。",
+              "furigana": "あさ こーひーを のみます。",
+              "romaji": "asa koohii wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum kopi di pagi hari.",
+                "en": "I drink coffee in the morning."
+              }
+            }
+          ]
         },
         {
           "id": 27,
@@ -9819,7 +10651,39 @@
           "meanings": {
             "en": "snack, sweets",
             "id": "kue, makanan ringan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お菓子を食べます。",
+              "furigana": "おかしを たべます。",
+              "romaji": "okashi wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan camilan.",
+                "en": "I eat snacks."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お菓子が好きです。",
+              "furigana": "おかしが すきです。",
+              "romaji": "okashi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka camilan.",
+                "en": "I like snacks."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お菓子を買います。",
+              "furigana": "おかしを かいます。",
+              "romaji": "okashi wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli camilan.",
+                "en": "I buy snacks."
+              }
+            }
+          ]
         },
         {
           "id": 28,
@@ -9829,7 +10693,39 @@
           "meanings": {
             "en": "candy",
             "id": "permen"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "飴をください。",
+              "furigana": "あめを ください。",
+              "romaji": "ame wo kudasai.",
+              "meanings": {
+                "id": "Tolong beri saya permen.",
+                "en": "Please give me candy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "飴が好きです。",
+              "furigana": "あめが すきです。",
+              "romaji": "ame ga suki desu.",
+              "meanings": {
+                "id": "Saya suka permen.",
+                "en": "I like candy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "飴を買います。",
+              "furigana": "あめを かいます。",
+              "romaji": "ame wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli permen.",
+                "en": "I buy candy."
+              }
+            }
+          ]
         },
         {
           "id": 29,
@@ -9839,7 +10735,39 @@
           "meanings": {
             "en": "sake",
             "id": "sake"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お酒を飲みます。",
+              "furigana": "おさけを のみます。",
+              "romaji": "osake wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum sake.",
+                "en": "I drink sake."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お酒が好きです。",
+              "furigana": "おさけが すきです。",
+              "romaji": "osake ga suki desu.",
+              "meanings": {
+                "id": "Saya suka sake.",
+                "en": "I like sake."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お酒を買います。",
+              "furigana": "おさけを かいます。",
+              "romaji": "osake wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli sake.",
+                "en": "I buy sake."
+              }
+            }
+          ]
         }
       ]
     },
@@ -9858,7 +10786,39 @@
           "meanings": {
             "en": "music",
             "id": "musik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "音楽を聞きます。",
+              "furigana": "おんがくを ききます。",
+              "romaji": "ongaku wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengarkan musik.",
+                "en": "I listen to music."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "音楽が好きです。",
+              "furigana": "おんがくが すきです。",
+              "romaji": "ongaku ga suki desu.",
+              "meanings": {
+                "id": "Saya suka musik.",
+                "en": "I like music."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "音楽を勉強します。",
+              "furigana": "おんがくを べんきょうします。",
+              "romaji": "ongaku wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar musik.",
+                "en": "I study music."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -9868,7 +10828,39 @@
           "meanings": {
             "en": "song",
             "id": "lagu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "歌を歌います。",
+              "furigana": "うたを うたいます。",
+              "romaji": "uta wo utaimasu.",
+              "meanings": {
+                "id": "Saya menyanyikan lagu.",
+                "en": "I sing a song."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "歌が好きです。",
+              "furigana": "うたが すきです。",
+              "romaji": "uta ga suki desu.",
+              "meanings": {
+                "id": "Saya suka lagu.",
+                "en": "I like songs."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本の歌を聞きます。",
+              "furigana": "にほんの うたを ききます。",
+              "romaji": "nihon no uta wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengarkan lagu Jepang.",
+                "en": "I listen to Japanese songs."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -9878,7 +10870,39 @@
           "meanings": {
             "en": "guitar",
             "id": "gitar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ギターを弾きます。",
+              "furigana": "ぎたーを ひきます。",
+              "romaji": "gitaa wo hikimasu.",
+              "meanings": {
+                "id": "Saya bermain gitar.",
+                "en": "I play the guitar."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ギターが好きです。",
+              "furigana": "ぎたーが すきです。",
+              "romaji": "gitaa ga suki desu.",
+              "meanings": {
+                "id": "Saya suka gitar.",
+                "en": "I like guitar."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ギターを買います。",
+              "furigana": "ぎたーを かいます。",
+              "romaji": "gitaa wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli gitar.",
+                "en": "I buy a guitar."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -9888,7 +10912,39 @@
           "meanings": {
             "en": "record",
             "id": "piringan hitam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "レコードを聞きます。",
+              "furigana": "れこーどを ききます。",
+              "romaji": "rekoodo wo kikimasu.",
+              "meanings": {
+                "id": "Saya mendengarkan piringan hitam.",
+                "en": "I listen to records."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "レコードが好きです。",
+              "furigana": "れこーどが すきです。",
+              "romaji": "rekoodo ga suki desu.",
+              "meanings": {
+                "id": "Saya suka piringan hitam.",
+                "en": "I like records."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "レコードを買います。",
+              "furigana": "れこーどを かいます。",
+              "romaji": "rekoodo wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli piringan hitam.",
+                "en": "I buy records."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -9898,7 +10954,39 @@
           "meanings": {
             "en": "movie",
             "id": "film"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "映画を見ます。",
+              "furigana": "えいがを みます。",
+              "romaji": "eiga wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton film.",
+                "en": "I watch a movie."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "映画が好きです。",
+              "furigana": "えいがが すきです。",
+              "romaji": "eiga ga suki desu.",
+              "meanings": {
+                "id": "Saya suka film.",
+                "en": "I like movies."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "映画館へ行きます。",
+              "furigana": "えいがかんへ いきます。",
+              "romaji": "eigakan e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke bioskop.",
+                "en": "I go to the movie theater."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -9908,7 +10996,39 @@
           "meanings": {
             "en": "travel",
             "id": "darmawisata"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "旅行をします。",
+              "furigana": "りょこうを します。",
+              "romaji": "ryokou wo shimasu.",
+              "meanings": {
+                "id": "Saya melakukan perjalanan.",
+                "en": "I travel."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "旅行が好きです。",
+              "furigana": "りょこうが すきです。",
+              "romaji": "ryokou ga suki desu.",
+              "meanings": {
+                "id": "Saya suka bepergian.",
+                "en": "I like traveling."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本へ旅行します。",
+              "furigana": "にほんへ りょこうします。",
+              "romaji": "nihon e ryokou shimasu.",
+              "meanings": {
+                "id": "Saya bepergian ke Jepang.",
+                "en": "I travel to Japan."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -9918,7 +11038,39 @@
           "meanings": {
             "en": "photo",
             "id": "foto"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "写真を撮ります。",
+              "furigana": "しゃしんを とります。",
+              "romaji": "shashin wo torimasu.",
+              "meanings": {
+                "id": "Saya mengambil foto.",
+                "en": "I take a photo."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "写真を見ます。",
+              "furigana": "しゃしんを みます。",
+              "romaji": "shashin wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat foto.",
+                "en": "I look at photos."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "写真が好きです。",
+              "furigana": "しゃしんが すきです。",
+              "romaji": "shashin ga suki desu.",
+              "meanings": {
+                "id": "Saya suka fotografi.",
+                "en": "I like photography."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -9928,7 +11080,39 @@
           "meanings": {
             "en": "camera",
             "id": "kamera"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "カメラを使います。",
+              "furigana": "かめらを つかいます。",
+              "romaji": "kamera wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan kamera.",
+                "en": "I use a camera."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "カメラを買います。",
+              "furigana": "かめらを かいます。",
+              "romaji": "kamera wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli kamera.",
+                "en": "I buy a camera."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "カメラが欲しいです。",
+              "furigana": "かめらが ほしいです。",
+              "romaji": "kamera ga hoshii desu.",
+              "meanings": {
+                "id": "Saya ingin kamera.",
+                "en": "I want a camera."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -9938,7 +11122,39 @@
           "meanings": {
             "en": "sports",
             "id": "olahraga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "スポーツをします。",
+              "furigana": "すぽーつを します。",
+              "romaji": "supootsu wo shimasu.",
+              "meanings": {
+                "id": "Saya berolahraga.",
+                "en": "I play sports."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "スポーツが好きです。",
+              "furigana": "すぽーつが すきです。",
+              "romaji": "supootsu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka olahraga.",
+                "en": "I like sports."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "スポーツを見ます。",
+              "furigana": "すぽーつを みます。",
+              "romaji": "supootsu wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton olahraga.",
+                "en": "I watch sports."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -9948,7 +11164,39 @@
           "meanings": {
             "en": "party",
             "id": "pesta"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "パーティーをします。",
+              "furigana": "ぱーてぃーを します。",
+              "romaji": "paatii wo shimasu.",
+              "meanings": {
+                "id": "Saya mengadakan pesta.",
+                "en": "I have a party."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "パーティーへ行きます。",
+              "furigana": "ぱーてぃーへ いきます。",
+              "romaji": "paatii e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke pesta.",
+                "en": "I go to a party."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "パーティーが楽しいです。",
+              "furigana": "ぱーてぃーが たのしいです。",
+              "romaji": "paatii ga tanoshii desu.",
+              "meanings": {
+                "id": "Pestanya menyenangkan.",
+                "en": "The party is fun."
+              }
+            }
+          ]
         }
       ]
     },
