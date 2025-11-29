@@ -16471,7 +16471,39 @@
           "meanings": {
             "en": "up",
             "id": "atas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "上にあります。",
+              "furigana": "うえに あります。",
+              "romaji": "ue ni arimasu.",
+              "meanings": {
+                "id": "Ada di atas.",
+                "en": "It is on top."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "机の上に本があります。",
+              "furigana": "つくえの うえに ほんが あります。",
+              "romaji": "tsukue no ue ni hon ga arimasu.",
+              "meanings": {
+                "id": "Ada buku di atas meja.",
+                "en": "There is a book on the desk."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "上へ行きます。",
+              "furigana": "うえへ いきます。",
+              "romaji": "ue e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke atas.",
+                "en": "I go up."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -16481,7 +16513,39 @@
           "meanings": {
             "en": "down",
             "id": "bawah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "下にあります。",
+              "furigana": "したに あります。",
+              "romaji": "shita ni arimasu.",
+              "meanings": {
+                "id": "Ada di bawah.",
+                "en": "It is below."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "机の下にかばんがあります。",
+              "furigana": "つくえの したに かばんが あります。",
+              "romaji": "tsukue no shita ni kaban ga arimasu.",
+              "meanings": {
+                "id": "Ada tas di bawah meja.",
+                "en": "There is a bag under the desk."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "下へ行きます。",
+              "furigana": "したへ いきます。",
+              "romaji": "shita e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke bawah.",
+                "en": "I go down."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -16491,7 +16555,39 @@
           "meanings": {
             "en": "front",
             "id": "depan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "前にあります。",
+              "furigana": "まえに あります。",
+              "romaji": "mae ni arimasu.",
+              "meanings": {
+                "id": "Ada di depan.",
+                "en": "It is in front."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駅の前にいます。",
+              "furigana": "えきの まえに います。",
+              "romaji": "eki no mae ni imasu.",
+              "meanings": {
+                "id": "Saya ada di depan stasiun.",
+                "en": "I am in front of the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "前へ進みます。",
+              "furigana": "まえへ すすみます。",
+              "romaji": "mae e susumimasu.",
+              "meanings": {
+                "id": "Saya maju ke depan.",
+                "en": "I move forward."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -16501,7 +16597,39 @@
           "meanings": {
             "en": "back",
             "id": "belakang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "後にあります。",
+              "furigana": "うしろに あります。",
+              "romaji": "ushiro ni arimasu.",
+              "meanings": {
+                "id": "Ada di belakang.",
+                "en": "It is in the back."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "学校の後にいます。",
+              "furigana": "がっこうの うしろに います。",
+              "romaji": "gakkou no ushiro ni imasu.",
+              "meanings": {
+                "id": "Saya ada di belakang sekolah.",
+                "en": "I am behind the school."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "後ろを見ます。",
+              "furigana": "うしろを みます。",
+              "romaji": "ushiro wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat ke belakang.",
+                "en": "I look behind."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -16511,7 +16639,39 @@
           "meanings": {
             "en": "outside",
             "id": "luar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "外で遊びます。",
+              "furigana": "そとで あそびます。",
+              "romaji": "soto de asobimasu.",
+              "meanings": {
+                "id": "Saya bermain di luar.",
+                "en": "I play outside."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "外にいます。",
+              "furigana": "そとに います。",
+              "romaji": "soto ni imasu.",
+              "meanings": {
+                "id": "Saya ada di luar.",
+                "en": "I am outside."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "外へ行きます。",
+              "furigana": "そとへ いきます。",
+              "romaji": "soto e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke luar.",
+                "en": "I go outside."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -16521,7 +16681,39 @@
           "meanings": {
             "en": "inside",
             "id": "dalam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "中にあります。",
+              "furigana": "なかに あります。",
+              "romaji": "naka ni arimasu.",
+              "meanings": {
+                "id": "Ada di dalam.",
+                "en": "It is inside."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "部屋の中にいます。",
+              "furigana": "へやの なかに います。",
+              "romaji": "heya no naka ni imasu.",
+              "meanings": {
+                "id": "Saya ada di dalam kamar.",
+                "en": "I am inside the room."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "中へ入ります。",
+              "furigana": "なかへ はいります。",
+              "romaji": "naka e hairimasu.",
+              "meanings": {
+                "id": "Saya masuk ke dalam.",
+                "en": "I go inside."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -16531,7 +16723,39 @@
           "meanings": {
             "en": "over there",
             "id": "seberang sana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "向こうにあります。",
+              "furigana": "むこうに あります。",
+              "romaji": "mukou ni arimasu.",
+              "meanings": {
+                "id": "Ada di seberang sana.",
+                "en": "It is over there."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "向こうへ行きます。",
+              "furigana": "むこうへ いきます。",
+              "romaji": "mukou e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke seberang sana.",
+                "en": "I go over there."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "向こうに人がいます。",
+              "furigana": "むこうに ひとが います。",
+              "romaji": "mukou ni hito ga imasu.",
+              "meanings": {
+                "id": "Ada orang di seberang sana.",
+                "en": "There is a person over there."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -16541,7 +16765,39 @@
           "meanings": {
             "en": "this side",
             "id": "sebelah sini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "手前にあります。",
+              "furigana": "てまえに あります。",
+              "romaji": "temae ni arimasu.",
+              "meanings": {
+                "id": "Ada di sebelah sini.",
+                "en": "It is on this side."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駅の手前です。",
+              "furigana": "えきの てまえです。",
+              "romaji": "eki no temae desu.",
+              "meanings": {
+                "id": "Di sebelah sini stasiun.",
+                "en": "It is before the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "手前で止まります。",
+              "furigana": "てまえで とまります。",
+              "romaji": "temae de tomarimasu.",
+              "meanings": {
+                "id": "Saya berhenti di sebelah sini.",
+                "en": "I stop on this side."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -16551,7 +16807,39 @@
           "meanings": {
             "en": "right",
             "id": "kanan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "右にあります。",
+              "furigana": "みぎに あります。",
+              "romaji": "migi ni arimasu.",
+              "meanings": {
+                "id": "Ada di kanan.",
+                "en": "It is on the right."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "右へ曲がります。",
+              "furigana": "みぎへ まがります。",
+              "romaji": "migi e magarimasu.",
+              "meanings": {
+                "id": "Saya belok ke kanan.",
+                "en": "I turn right."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "右を見ます。",
+              "furigana": "みぎを みます。",
+              "romaji": "migi wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat ke kanan.",
+                "en": "I look to the right."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -16561,7 +16849,39 @@
           "meanings": {
             "en": "left",
             "id": "kiri"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "左にあります。",
+              "furigana": "ひだりに あります。",
+              "romaji": "hidari ni arimasu.",
+              "meanings": {
+                "id": "Ada di kiri.",
+                "en": "It is on the left."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "左へ曲がります。",
+              "furigana": "ひだりへ まがります。",
+              "romaji": "hidari e magarimasu.",
+              "meanings": {
+                "id": "Saya belok ke kiri.",
+                "en": "I turn left."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "左を見ます。",
+              "furigana": "ひだりを みます。",
+              "romaji": "hidari wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat ke kiri.",
+                "en": "I look to the left."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -16571,7 +16891,39 @@
           "meanings": {
             "en": "next to",
             "id": "sebelah, tetangga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "隣にあります。",
+              "furigana": "となりに あります。",
+              "romaji": "tonari ni arimasu.",
+              "meanings": {
+                "id": "Ada di sebelah.",
+                "en": "It is next to."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "隣の人です。",
+              "furigana": "となりの ひとです。",
+              "romaji": "tonari no hito desu.",
+              "meanings": {
+                "id": "Orang sebelah.",
+                "en": "The person next to me."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "隣に座ります。",
+              "furigana": "となりに すわります。",
+              "romaji": "tonari ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di sebelah.",
+                "en": "I sit next to."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -16581,7 +16933,39 @@
           "meanings": {
             "en": "side",
             "id": "samping"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "横にあります。",
+              "furigana": "よこに あります。",
+              "romaji": "yoko ni arimasu.",
+              "meanings": {
+                "id": "Ada di samping.",
+                "en": "It is on the side."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "横に座ります。",
+              "furigana": "よこに すわります。",
+              "romaji": "yoko ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di samping.",
+                "en": "I sit beside."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "横を通ります。",
+              "furigana": "よこを とおります。",
+              "romaji": "yoko wo toorimasu.",
+              "meanings": {
+                "id": "Saya melewati samping.",
+                "en": "I pass by the side."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -16591,7 +16975,39 @@
           "meanings": {
             "en": "nearby",
             "id": "sekitar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この辺にあります。",
+              "furigana": "この へんに あります。",
+              "romaji": "kono hen ni arimasu.",
+              "meanings": {
+                "id": "Ada di sekitar sini.",
+                "en": "It is around here."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駅の辺です。",
+              "furigana": "えきの へんです。",
+              "romaji": "eki no hen desu.",
+              "meanings": {
+                "id": "Di sekitar stasiun.",
+                "en": "It is near the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この辺を探します。",
+              "furigana": "この へんを さがします。",
+              "romaji": "kono hen wo sagashimasu.",
+              "meanings": {
+                "id": "Saya mencari di sekitar sini.",
+                "en": "I search around here."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -16601,7 +17017,39 @@
           "meanings": {
             "en": "nearby",
             "id": "dekat sini, sekitar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "近くにあります。",
+              "furigana": "ちかくに あります。",
+              "romaji": "chikaku ni arimasu.",
+              "meanings": {
+                "id": "Ada di dekat sini.",
+                "en": "It is nearby."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "駅の近くです。",
+              "furigana": "えきの ちかくです。",
+              "romaji": "eki no chikaku desu.",
+              "meanings": {
+                "id": "Dekat stasiun.",
+                "en": "It is near the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "近くに住んでいます。",
+              "furigana": "ちかくに すんでいます。",
+              "romaji": "chikaku ni sunde imasu.",
+              "meanings": {
+                "id": "Saya tinggal di dekat sini.",
+                "en": "I live nearby."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -16611,7 +17059,39 @@
           "meanings": {
             "en": "east",
             "id": "timur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "東にあります。",
+              "furigana": "ひがしに あります。",
+              "romaji": "higashi ni arimasu.",
+              "meanings": {
+                "id": "Ada di timur.",
+                "en": "It is in the east."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "東へ行きます。",
+              "furigana": "ひがしへ いきます。",
+              "romaji": "higashi e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke timur.",
+                "en": "I go to the east."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "東京は東です。",
+              "furigana": "とうきょうは ひがしです。",
+              "romaji": "toukyou wa higashi desu.",
+              "meanings": {
+                "id": "Tokyo ada di timur.",
+                "en": "Tokyo is in the east."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -16621,7 +17101,39 @@
           "meanings": {
             "en": "west",
             "id": "barat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "西にあります。",
+              "furigana": "にしに あります。",
+              "romaji": "nishi ni arimasu.",
+              "meanings": {
+                "id": "Ada di barat.",
+                "en": "It is in the west."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "西へ行きます。",
+              "furigana": "にしへ いきます。",
+              "romaji": "nishi e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke barat.",
+                "en": "I go to the west."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大阪は西です。",
+              "furigana": "おおさかは にしです。",
+              "romaji": "oosaka wa nishi desu.",
+              "meanings": {
+                "id": "Osaka ada di barat.",
+                "en": "Osaka is in the west."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -16631,7 +17143,39 @@
           "meanings": {
             "en": "north",
             "id": "utara"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "北にあります。",
+              "furigana": "きたに あります。",
+              "romaji": "kita ni arimasu.",
+              "meanings": {
+                "id": "Ada di utara.",
+                "en": "It is in the north."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "北へ行きます。",
+              "furigana": "きたへ いきます。",
+              "romaji": "kita e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke utara.",
+                "en": "I go to the north."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "北海道は北です。",
+              "furigana": "ほっかいどうは きたです。",
+              "romaji": "hokkaidou wa kita desu.",
+              "meanings": {
+                "id": "Hokkaido ada di utara.",
+                "en": "Hokkaido is in the north."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -16641,7 +17185,39 @@
           "meanings": {
             "en": "south",
             "id": "selatan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "南にあります。",
+              "furigana": "みなみに あります。",
+              "romaji": "minami ni arimasu.",
+              "meanings": {
+                "id": "Ada di selatan.",
+                "en": "It is in the south."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "南へ行きます。",
+              "furigana": "みなみへ いきます。",
+              "romaji": "minami e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke selatan.",
+                "en": "I go to the south."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "沖縄は南です。",
+              "furigana": "おきなわは みなみです。",
+              "romaji": "okinawa wa minami desu.",
+              "meanings": {
+                "id": "Okinawa ada di selatan.",
+                "en": "Okinawa is in the south."
+              }
+            }
+          ]
         }
       ]
     },
@@ -16660,7 +17236,39 @@
           "meanings": {
             "en": "this",
             "id": "ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "これは本です。",
+              "furigana": "これは ほんです。",
+              "romaji": "kore wa hon desu.",
+              "meanings": {
+                "id": "Ini adalah buku.",
+                "en": "This is a book."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "これをください。",
+              "furigana": "これを ください。",
+              "romaji": "kore wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan ini.",
+                "en": "Please give me this."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "これが好きです。",
+              "furigana": "これが すきです。",
+              "romaji": "kore ga suki desu.",
+              "meanings": {
+                "id": "Saya suka ini.",
+                "en": "I like this."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -16670,7 +17278,39 @@
           "meanings": {
             "en": "that",
             "id": "itu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "それは何ですか。",
+              "furigana": "それは なんですか。",
+              "romaji": "sore wa nan desu ka.",
+              "meanings": {
+                "id": "Itu apa?",
+                "en": "What is that?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "それをください。",
+              "furigana": "それを ください。",
+              "romaji": "sore wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan itu.",
+                "en": "Please give me that."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "それは違います。",
+              "furigana": "それは ちがいます。",
+              "romaji": "sore wa chigaimasu.",
+              "meanings": {
+                "id": "Itu berbeda.",
+                "en": "That is different."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -16680,7 +17320,39 @@
           "meanings": {
             "en": "that (over there)",
             "id": "itu (jauh)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あれは学校です。",
+              "furigana": "あれは がっこうです。",
+              "romaji": "are wa gakkou desu.",
+              "meanings": {
+                "id": "Itu (yang jauh) adalah sekolah.",
+                "en": "That over there is a school."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あれを見てください。",
+              "furigana": "あれを みて ください。",
+              "romaji": "are wo mite kudasai.",
+              "meanings": {
+                "id": "Tolong lihat itu (yang jauh).",
+                "en": "Please look at that over there."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あれが私の家です。",
+              "furigana": "あれが わたしの いえです。",
+              "romaji": "are ga watashi no ie desu.",
+              "meanings": {
+                "id": "Itu (yang jauh) adalah rumah saya.",
+                "en": "That over there is my house."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -16690,7 +17362,39 @@
           "meanings": {
             "en": "this (thing)",
             "id": "benda ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この本を読みます。",
+              "furigana": "この ほんを よみます。",
+              "romaji": "kono hon wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca buku ini.",
+                "en": "I read this book."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この車が好きです。",
+              "furigana": "この くるまが すきです。",
+              "romaji": "kono kuruma ga suki desu.",
+              "meanings": {
+                "id": "Saya suka mobil ini.",
+                "en": "I like this car."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この店は安いです。",
+              "furigana": "この みせは やすいです。",
+              "romaji": "kono mise wa yasui desu.",
+              "meanings": {
+                "id": "Toko ini murah.",
+                "en": "This shop is cheap."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -16700,7 +17404,39 @@
           "meanings": {
             "en": "that (thing)",
             "id": "benda itu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "その本を読みます。",
+              "furigana": "その ほんを よみます。",
+              "romaji": "sono hon wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca buku itu.",
+                "en": "I read that book."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "その人は誰ですか。",
+              "furigana": "その ひとは だれですか。",
+              "romaji": "sono hito wa dare desu ka.",
+              "meanings": {
+                "id": "Orang itu siapa?",
+                "en": "Who is that person?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "その服がいいです。",
+              "furigana": "その ふくが いいです。",
+              "romaji": "sono fuku ga ii desu.",
+              "meanings": {
+                "id": "Baju itu bagus.",
+                "en": "That clothes is good."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -16710,7 +17446,39 @@
           "meanings": {
             "en": "that (over there)",
             "id": "benda itu (jauh)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あの山が見えます。",
+              "furigana": "あの やまが みえます。",
+              "romaji": "ano yama ga miemasu.",
+              "meanings": {
+                "id": "Gunung itu (yang jauh) terlihat.",
+                "en": "That mountain over there is visible."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あの人は先生です。",
+              "furigana": "あの ひとは せんせいです。",
+              "romaji": "ano hito wa sensei desu.",
+              "meanings": {
+                "id": "Orang itu (yang jauh) adalah guru.",
+                "en": "That person over there is a teacher."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あの店が有名です。",
+              "furigana": "あの みせが ゆうめいです。",
+              "romaji": "ano mise ga yuumei desu.",
+              "meanings": {
+                "id": "Toko itu (yang jauh) terkenal.",
+                "en": "That shop over there is famous."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -16720,7 +17488,39 @@
           "meanings": {
             "en": "here",
             "id": "sini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ここに座ります。",
+              "furigana": "ここに すわります。",
+              "romaji": "koko ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di sini.",
+                "en": "I sit here."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ここは静かです。",
+              "furigana": "ここは しずかです。",
+              "romaji": "koko wa shizuka desu.",
+              "meanings": {
+                "id": "Sini tenang.",
+                "en": "It is quiet here."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ここで待ちます。",
+              "furigana": "ここで まちます。",
+              "romaji": "koko de machimasu.",
+              "meanings": {
+                "id": "Saya menunggu di sini.",
+                "en": "I wait here."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -16730,7 +17530,39 @@
           "meanings": {
             "en": "there",
             "id": "situ"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "そこに本があります。",
+              "furigana": "そこに ほんが あります。",
+              "romaji": "soko ni hon ga arimasu.",
+              "meanings": {
+                "id": "Di situ ada buku.",
+                "en": "There is a book there."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "そこで食べます。",
+              "furigana": "そこで たべます。",
+              "romaji": "soko de tabemasu.",
+              "meanings": {
+                "id": "Saya makan di situ.",
+                "en": "I eat there."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "そこは広いです。",
+              "furigana": "そこは ひろいです。",
+              "romaji": "soko wa hiroi desu.",
+              "meanings": {
+                "id": "Situ luas.",
+                "en": "It is spacious there."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -16740,7 +17572,39 @@
           "meanings": {
             "en": "over there",
             "id": "sana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あそこに駅があります。",
+              "furigana": "あそこに えきが あります。",
+              "romaji": "asoko ni eki ga arimasu.",
+              "meanings": {
+                "id": "Di sana ada stasiun.",
+                "en": "There is a station over there."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あそこで会いましょう。",
+              "furigana": "あそこで あいましょう。",
+              "romaji": "asoko de aimashou.",
+              "meanings": {
+                "id": "Mari bertemu di sana.",
+                "en": "Let's meet over there."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あそこは公園です。",
+              "furigana": "あそこは こうえんです。",
+              "romaji": "asoko wa kouen desu.",
+              "meanings": {
+                "id": "Sana adalah taman.",
+                "en": "Over there is a park."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -16750,7 +17614,39 @@
           "meanings": {
             "en": "this way (polite)",
             "id": "arah sini, (Bentuk Hormat)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "こちらへどうぞ。",
+              "furigana": "こちらへ どうぞ。",
+              "romaji": "kochira e douzo.",
+              "meanings": {
+                "id": "Silakan ke arah sini.",
+                "en": "This way, please."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "こっちに来てください。",
+              "furigana": "こっちに きて ください。",
+              "romaji": "kocchi ni kite kudasai.",
+              "meanings": {
+                "id": "Tolong datang ke sini.",
+                "en": "Please come this way."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "こちらが入口です。",
+              "furigana": "こちらが いりぐちです。",
+              "romaji": "kochira ga iriguchi desu.",
+              "meanings": {
+                "id": "Pintu masuk adalah arah sini.",
+                "en": "The entrance is this way."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -16760,7 +17656,39 @@
           "meanings": {
             "en": "that way, your way",
             "id": "arah situ, Anda"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "そちらへ行きます。",
+              "furigana": "そちらへ いきます。",
+              "romaji": "sochira e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke arah situ.",
+                "en": "I go that way."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "そっちに何がありますか。",
+              "furigana": "そっちに なにが ありますか。",
+              "romaji": "socchi ni nani ga arimasu ka.",
+              "meanings": {
+                "id": "Ada apa di arah situ?",
+                "en": "What is there that way?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "そちらは寒いですか。",
+              "furigana": "そちらは さむいですか。",
+              "romaji": "sochira wa samui desu ka.",
+              "meanings": {
+                "id": "Apakah di tempat Anda dingin?",
+                "en": "Is it cold there (your way)?"
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -16770,7 +17698,39 @@
           "meanings": {
             "en": "that way (over there)",
             "id": "arah sana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あちらへどうぞ。",
+              "furigana": "あちらへ どうぞ。",
+              "romaji": "achira e douzo.",
+              "meanings": {
+                "id": "Silakan ke arah sana.",
+                "en": "That way, please."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あっちに行きます。",
+              "furigana": "あっちに いきます。",
+              "romaji": "acchi ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke arah sana.",
+                "en": "I go that way over there."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あちらが出口です。",
+              "furigana": "あちらが でぐちです。",
+              "romaji": "achira ga deguchi desu.",
+              "meanings": {
+                "id": "Pintu keluar adalah arah sana.",
+                "en": "The exit is that way."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -16780,7 +17740,39 @@
           "meanings": {
             "en": "like this",
             "id": "begini, demikian ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "こんな本が好きです。",
+              "furigana": "こんな ほんが すきです。",
+              "romaji": "konna hon ga suki desu.",
+              "meanings": {
+                "id": "Saya suka buku seperti ini.",
+                "en": "I like books like this."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "こんな日は楽しいです。",
+              "furigana": "こんな ひは たのしいです。",
+              "romaji": "konna hi wa tanoshii desu.",
+              "meanings": {
+                "id": "Hari seperti ini menyenangkan.",
+                "en": "Days like this are fun."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "こんな所に来ました。",
+              "furigana": "こんな ところに きました。",
+              "romaji": "konna tokoro ni kimashita.",
+              "meanings": {
+                "id": "Saya datang ke tempat seperti ini.",
+                "en": "I came to a place like this."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -16790,7 +17782,39 @@
           "meanings": {
             "en": "like that",
             "id": "begitu, demikian itu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "そんなことはありません。",
+              "furigana": "そんな ことは ありません。",
+              "romaji": "sonna koto wa arimasen.",
+              "meanings": {
+                "id": "Hal seperti itu tidak ada.",
+                "en": "There is no such thing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "そんな服が欲しいです。",
+              "furigana": "そんな ふくが ほしいです。",
+              "romaji": "sonna fuku ga hoshii desu.",
+              "meanings": {
+                "id": "Saya ingin baju seperti itu.",
+                "en": "I want clothes like that."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "そんな人です。",
+              "furigana": "そんな ひとです。",
+              "romaji": "sonna hito desu.",
+              "meanings": {
+                "id": "Dia adalah orang seperti itu.",
+                "en": "He is a person like that."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -16800,7 +17824,39 @@
           "meanings": {
             "en": "like that (over there)",
             "id": "begitu, demikian itu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あんな家に住みたいです。",
+              "furigana": "あんな いえに すみたいです。",
+              "romaji": "anna ie ni sumitai desu.",
+              "meanings": {
+                "id": "Saya ingin tinggal di rumah seperti itu.",
+                "en": "I want to live in a house like that."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あんな所に行きます。",
+              "furigana": "あんな ところに いきます。",
+              "romaji": "anna tokoro ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke tempat seperti itu.",
+                "en": "I go to a place like that."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あんな人になりたいです。",
+              "furigana": "あんな ひとに なりたいです。",
+              "romaji": "anna hito ni naritai desu.",
+              "meanings": {
+                "id": "Saya ingin menjadi orang seperti itu.",
+                "en": "I want to become a person like that."
+              }
+            }
+          ]
         }
       ]
     },
