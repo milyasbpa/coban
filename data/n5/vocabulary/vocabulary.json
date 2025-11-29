@@ -2604,7 +2604,39 @@
           "meanings": {
             "en": "time",
             "id": "waktu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "時間がありません。",
+              "furigana": "じかんがありません。",
+              "romaji": "jikan ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada waktu.",
+                "en": "I don't have time."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "時間がかかりました。",
+              "furigana": "じかんがかかりました。",
+              "romaji": "jikan ga kakarimashita.",
+              "meanings": {
+                "id": "Memakan waktu.",
+                "en": "It took time."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "時間は何時ですか。",
+              "furigana": "じかんはなんじですか。",
+              "romaji": "jikan wa nanji desu ka.",
+              "meanings": {
+                "id": "Jam berapa sekarang?",
+                "en": "What time is it?"
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -2614,7 +2646,39 @@
           "meanings": {
             "en": "a.m., morning",
             "id": "pagi, a.m."
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "午前中に買い物をします。",
+              "furigana": "ごぜんちゅうにかいものをします。",
+              "romaji": "gozenchuu ni kaimono wo shimasu.",
+              "meanings": {
+                "id": "Saya berbelanja di pagi hari.",
+                "en": "I go shopping in the morning."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "午前九時に会いましょう。",
+              "furigana": "ごぜんくじにあいましょう。",
+              "romaji": "gozen kuji ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu jam sembilan pagi.",
+                "en": "Let's meet at 9 a.m."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "午前の授業は難しいです。",
+              "furigana": "ごぜんのじゅぎょうはむずかしいです。",
+              "romaji": "gozen no jugyou wa muzukashii desu.",
+              "meanings": {
+                "id": "Kelas pagi sulit.",
+                "en": "The morning class is difficult."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -2624,7 +2688,39 @@
           "meanings": {
             "en": "p.m., afternoon",
             "id": "sore, p.m."
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "午後から仕事です。",
+              "furigana": "ごごからしごとです。",
+              "romaji": "gogo kara shigoto desu.",
+              "meanings": {
+                "id": "Kerja mulai sore.",
+                "en": "I work from the afternoon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "午後三時に帰ります。",
+              "furigana": "ごごさんじにかえります。",
+              "romaji": "gogo sanji ni kaerimasu.",
+              "meanings": {
+                "id": "Saya pulang jam tiga sore.",
+                "en": "I'll go home at 3 p.m."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "午後は暇です。",
+              "furigana": "ごごはひまです。",
+              "romaji": "gogo wa hima desu.",
+              "meanings": {
+                "id": "Sore hari senggang.",
+                "en": "The afternoon is free."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -2634,7 +2730,39 @@
           "meanings": {
             "en": "before, previous",
             "id": "lebih dulu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先に行ってください。",
+              "furigana": "さきにいってください。",
+              "romaji": "saki ni itte kudasai.",
+              "meanings": {
+                "id": "Tolong pergi duluan.",
+                "en": "Please go ahead."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "先に食べます。",
+              "furigana": "さきにたべます。",
+              "romaji": "saki ni tabemasu.",
+              "meanings": {
+                "id": "Saya makan duluan.",
+                "en": "I'll eat first."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "先週会いました。",
+              "furigana": "せんしゅうあいました。",
+              "romaji": "senshuu aimashita.",
+              "meanings": {
+                "id": "Kami bertemu minggu lalu.",
+                "en": "We met last week."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -2644,7 +2772,39 @@
           "meanings": {
             "en": "now",
             "id": "sekarang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今、何時ですか。",
+              "furigana": "いま、なんじですか。",
+              "romaji": "ima, nanji desu ka.",
+              "meanings": {
+                "id": "Sekarang jam berapa?",
+                "en": "What time is it now?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今から行きます。",
+              "furigana": "いまからいきます。",
+              "romaji": "ima kara ikimasu.",
+              "meanings": {
+                "id": "Saya pergi sekarang.",
+                "en": "I'll go now."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今、忙しいです。",
+              "furigana": "いま、いそがしいです。",
+              "romaji": "ima, isogashii desu.",
+              "meanings": {
+                "id": "Sekarang sedang sibuk.",
+                "en": "I'm busy now."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -2654,7 +2814,39 @@
           "meanings": {
             "en": "morning",
             "id": "pagi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "朝ごはんを食べます。",
+              "furigana": "あさごはんをたべます。",
+              "romaji": "asagohan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan sarapan.",
+                "en": "I eat breakfast."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝早く起きました。",
+              "furigana": "あさはやくおきました。",
+              "romaji": "asa hayaku okimashita.",
+              "meanings": {
+                "id": "Saya bangun pagi-pagi.",
+                "en": "I woke up early in the morning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "朝は涼しいです。",
+              "furigana": "あさはすずしいです。",
+              "romaji": "asa wa suzushii desu.",
+              "meanings": {
+                "id": "Pagi hari sejuk.",
+                "en": "The morning is cool."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -2664,7 +2856,39 @@
           "meanings": {
             "en": "noon, daytime",
             "id": "siang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昼ごはんを食べました。",
+              "furigana": "ひるごはんをたべました。",
+              "romaji": "hirugohan wo tabemashita.",
+              "meanings": {
+                "id": "Saya makan siang.",
+                "en": "I ate lunch."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "昼休みは一時間です。",
+              "furigana": "ひるやすみはいちじかんです。",
+              "romaji": "hiruyasumi wa ichijikan desu.",
+              "meanings": {
+                "id": "Istirahat siang satu jam.",
+                "en": "Lunch break is one hour."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "昼は暑いです。",
+              "furigana": "ひるはあついです。",
+              "romaji": "hiru wa atsui desu.",
+              "meanings": {
+                "id": "Siang hari panas.",
+                "en": "It's hot during the day."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -2674,7 +2898,39 @@
           "meanings": {
             "en": "evening, dusk",
             "id": "sore hari, senja"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "夕方に散歩します。",
+              "furigana": "ゆうがたにさんぽします。",
+              "romaji": "yuugata ni sanpo shimasu.",
+              "meanings": {
+                "id": "Saya jalan-jalan sore hari.",
+                "en": "I take a walk in the evening."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "夕方は涼しいです。",
+              "furigana": "ゆうがたはすずしいです。",
+              "romaji": "yuugata wa suzushii desu.",
+              "meanings": {
+                "id": "Sore hari sejuk.",
+                "en": "The evening is cool."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "夕方まで働きます。",
+              "furigana": "ゆうがたまではたらきます。",
+              "romaji": "yuugata made hatarakimasu.",
+              "meanings": {
+                "id": "Saya bekerja sampai sore.",
+                "en": "I work until the evening."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -2684,7 +2940,39 @@
           "meanings": {
             "en": "night",
             "id": "malam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "夜遅く帰りました。",
+              "furigana": "よるおそくかえりました。",
+              "romaji": "yoru osoku kaerimashita.",
+              "meanings": {
+                "id": "Saya pulang larut malam.",
+                "en": "I returned home late at night."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "晩ごはんを作ります。",
+              "furigana": "ばんごはんをつくります。",
+              "romaji": "bangohan wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya memasak makan malam.",
+                "en": "I cook dinner."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "夜は静かです。",
+              "furigana": "よるはしずかです。",
+              "romaji": "yoru wa shizuka desu.",
+              "meanings": {
+                "id": "Malam hari tenang.",
+                "en": "The night is quiet."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -2694,7 +2982,39 @@
           "meanings": {
             "en": "every day",
             "id": "setiap hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "毎日勉強します。",
+              "furigana": "まいにちべんきょうします。",
+              "romaji": "mainichi benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar setiap hari.",
+                "en": "I study every day."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日走ります。",
+              "furigana": "まいにちはしります。",
+              "romaji": "mainichi hashirimasu.",
+              "meanings": {
+                "id": "Saya lari setiap hari.",
+                "en": "I run every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎日楽しいです。",
+              "furigana": "まいにちたのしいです。",
+              "romaji": "mainichi tanoshii desu.",
+              "meanings": {
+                "id": "Setiap hari menyenangkan.",
+                "en": "Every day is fun."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -2704,7 +3024,39 @@
           "meanings": {
             "en": "every morning",
             "id": "setiap pagi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "毎朝六時に起きます。",
+              "furigana": "まいあさろくじにおきます。",
+              "romaji": "maiasa rokuji ni okimasu.",
+              "meanings": {
+                "id": "Saya bangun jam enam setiap pagi.",
+                "en": "I wake up at 6 every morning."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎朝ジョギングをします。",
+              "furigana": "まいあさジョギングをします。",
+              "romaji": "maiasa jogingu wo shimasu.",
+              "meanings": {
+                "id": "Saya jogging setiap pagi.",
+                "en": "I jog every morning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎朝パンを食べます。",
+              "furigana": "まいあさパンをたべます。",
+              "romaji": "maiasa pan wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan roti setiap pagi.",
+                "en": "I eat bread every morning."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -2714,7 +3066,39 @@
           "meanings": {
             "en": "every night",
             "id": "setiap malam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "毎晩十時に寝ます。",
+              "furigana": "まいばんじゅうじにねます。",
+              "romaji": "maiban juuji ni nemasu.",
+              "meanings": {
+                "id": "Saya tidur jam sepuluh setiap malam.",
+                "en": "I go to bed at 10 every night."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎晩本を読みます。",
+              "furigana": "まいばんほんをよみます。",
+              "romaji": "maiban hon wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca buku setiap malam.",
+                "en": "I read books every night."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎晩お風呂に入ります。",
+              "furigana": "まいばんおふろにはいります。",
+              "romaji": "maiban ofuro ni hairimasu.",
+              "meanings": {
+                "id": "Saya mandi setiap malam.",
+                "en": "I take a bath every night."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -2724,7 +3108,39 @@
           "meanings": {
             "en": "every week",
             "id": "setiap minggu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "毎週日曜日に映画を見ます。",
+              "furigana": "まいしゅうにちようびにえいがをみます。",
+              "romaji": "maishuu nichiyoubi ni eiga wo mimasu.",
+              "meanings": {
+                "id": "Saya menonton film setiap hari Minggu.",
+                "en": "I watch movies every Sunday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎週テストがあります。",
+              "furigana": "まいしゅうテストがあります。",
+              "romaji": "maishuu tesuto ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian setiap minggu.",
+                "en": "There is a test every week."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎週金曜日にサッカーをします。",
+              "furigana": "まいしゅうきんようびにサッカーをします。",
+              "romaji": "maishuu kin'youbi ni sakka- wo shimasu.",
+              "meanings": {
+                "id": "Saya main sepak bola setiap Jumat.",
+                "en": "I play soccer every Friday."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -2734,7 +3150,39 @@
           "meanings": {
             "en": "every month",
             "id": "setiap bulan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "毎月一万円貯金します。",
+              "furigana": "まいつきいちまんえんちょきんします。",
+              "romaji": "maitsuki ichiman en chokin shimasu.",
+              "meanings": {
+                "id": "Saya menabung sepuluh ribu yen setiap bulan.",
+                "en": "I save 10,000 yen every month."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎月病院へ行きます。",
+              "furigana": "まいげつびょういんへいきます。",
+              "romaji": "maigetsu byouin e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke rumah sakit setiap bulan.",
+                "en": "I go to the hospital every month."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎月家賃を払います。",
+              "furigana": "まいつきやちんをはらいます。",
+              "romaji": "maitsuki yachin wo haraimasu.",
+              "meanings": {
+                "id": "Saya bayar sewa setiap bulan.",
+                "en": "I pay rent every month."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -2744,7 +3192,39 @@
           "meanings": {
             "en": "every year",
             "id": "setiap tahun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "毎年日本へ行きます。",
+              "furigana": "まいとしにほんへいきます。",
+              "romaji": "maitoshi nihon e ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke Jepang setiap tahun.",
+                "en": "I go to Japan every year."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎年桜を見ます。",
+              "furigana": "まいねんさくらをみます。",
+              "romaji": "mainen sakura wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat bunga sakura setiap tahun.",
+                "en": "I see cherry blossoms every year."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "毎年誕生日パーティーをします。",
+              "furigana": "まいとしたんじょうびパーティーをします。",
+              "romaji": "maitoshi tanjoubi pa-ti- wo shimasu.",
+              "meanings": {
+                "id": "Saya mengadakan pesta ulang tahun setiap tahun.",
+                "en": "I have a birthday party every year."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -2754,7 +3234,39 @@
           "meanings": {
             "en": "this morning",
             "id": "tadi pagi, pagi ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今朝は寒かったです。",
+              "furigana": "けさはさむかったです。",
+              "romaji": "kesa wa samukatta desu.",
+              "meanings": {
+                "id": "Tadi pagi dingin.",
+                "en": "It was cold this morning."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今朝何を食べましたか。",
+              "furigana": "けさなにをたべましたか。",
+              "romaji": "kesa nani wo tabemashita ka.",
+              "meanings": {
+                "id": "Tadi pagi makan apa?",
+                "en": "What did you eat this morning?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今朝早く起きました。",
+              "furigana": "けさはやくおきました。",
+              "romaji": "kesa hayaku okimashita.",
+              "meanings": {
+                "id": "Tadi pagi bangun pagi.",
+                "en": "I woke up early this morning."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -2764,7 +3276,39 @@
           "meanings": {
             "en": "tonight",
             "id": "malam ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今晩は忙しいです。",
+              "furigana": "こんばんはいそがしいです。",
+              "romaji": "konban wa isogashii desu.",
+              "meanings": {
+                "id": "Malam ini sibuk.",
+                "en": "I'm busy tonight."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今晩何を食べますか。",
+              "furigana": "こんばんなにをたべますか。",
+              "romaji": "konban nani wo tabemasu ka.",
+              "meanings": {
+                "id": "Malam ini makan apa?",
+                "en": "What will you eat tonight?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今晩は早く寝ます。",
+              "furigana": "こんばんははやくねます。",
+              "romaji": "konban wa hayaku nemasu.",
+              "meanings": {
+                "id": "Malam ini tidur cepat.",
+                "en": "I'll go to bed early tonight."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -2774,7 +3318,39 @@
           "meanings": {
             "en": "this week",
             "id": "minggu ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今週は忙しいです。",
+              "furigana": "こんしゅうはいそがしいです。",
+              "romaji": "konshuu wa isogashii desu.",
+              "meanings": {
+                "id": "Minggu ini sibuk.",
+                "en": "I'm busy this week."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今週の土曜日に会いましょう。",
+              "furigana": "こんしゅうのどようびにあいましょう。",
+              "romaji": "konshuu no doyoubi ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu hari Sabtu minggu ini.",
+                "en": "Let's meet this Saturday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今週は休みません。",
+              "furigana": "こんしゅうはやすみません。",
+              "romaji": "konshuu wa yasumimasen.",
+              "meanings": {
+                "id": "Minggu ini tidak libur.",
+                "en": "I won't take a day off this week."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -2784,7 +3360,39 @@
           "meanings": {
             "en": "this month",
             "id": "bulan ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今月は寒いです。",
+              "furigana": "こんげつはさむいです。",
+              "romaji": "kongetsu wa samui desu.",
+              "meanings": {
+                "id": "Bulan ini dingin.",
+                "en": "It's cold this month."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今月の給料は少ないです。",
+              "furigana": "こんげつのきゅうりょうはすくないです。",
+              "romaji": "kongetsu no kyuuryou wa sukunai desu.",
+              "meanings": {
+                "id": "Gaji bulan ini sedikit.",
+                "en": "This month's salary is low."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今月は忙しかったです。",
+              "furigana": "こんげつはいそがしかったです。",
+              "romaji": "kongetsu wa isogashikatta desu.",
+              "meanings": {
+                "id": "Bulan ini sibuk.",
+                "en": "I was busy this month."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -2794,7 +3402,39 @@
           "meanings": {
             "en": "this year",
             "id": "tahun ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今年は暑いです。",
+              "furigana": "ことしはあついです。",
+              "romaji": "kotoshi wa atsui desu.",
+              "meanings": {
+                "id": "Tahun ini panas.",
+                "en": "It's hot this year."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今年二十歳になります。",
+              "furigana": "ことしはたちになります。",
+              "romaji": "kotoshi hatachi ni narimasu.",
+              "meanings": {
+                "id": "Tahun ini saya berumur dua puluh tahun.",
+                "en": "I'll turn twenty this year."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今年は頑張ります。",
+              "furigana": "ことしはがんばります。",
+              "romaji": "kotoshi wa ganbarimasu.",
+              "meanings": {
+                "id": "Tahun ini saya akan berusaha keras.",
+                "en": "I'll do my best this year."
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -2804,7 +3444,39 @@
           "meanings": {
             "en": "the day before yesterday",
             "id": "kemarin dulu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一昨日友達に会いました。",
+              "furigana": "おとといともだちにあいました。",
+              "romaji": "ototoi tomodachi ni aimashita.",
+              "meanings": {
+                "id": "Kemarin dulu saya bertemu teman.",
+                "en": "I met my friend the day before yesterday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一昨日は雨でした。",
+              "furigana": "おとといはあめでした。",
+              "romaji": "ototoi wa ame deshita.",
+              "meanings": {
+                "id": "Kemarin dulu hujan.",
+                "en": "It rained the day before yesterday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一昨日買いました。",
+              "furigana": "おとといかいました。",
+              "romaji": "ototoi kaimashita.",
+              "meanings": {
+                "id": "Saya beli kemarin dulu.",
+                "en": "I bought it the day before yesterday."
+              }
+            }
+          ]
         },
         {
           "id": 22,
@@ -2814,7 +3486,39 @@
           "meanings": {
             "en": "last night",
             "id": "tadi malam, kemarin malam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昨夜はよく眠れませんでした。",
+              "furigana": "ゆうべはよくねむれませんでした。",
+              "romaji": "yuube wa yoku nemuremasen deshita.",
+              "meanings": {
+                "id": "Tadi malam tidak bisa tidur nyenyak.",
+                "en": "I couldn't sleep well last night."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "昨夜は寒かったです。",
+              "furigana": "さくやはさむかったです。",
+              "romaji": "sakuya wa samukatta desu.",
+              "meanings": {
+                "id": "Kemarin malam dingin.",
+                "en": "It was cold last night."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "昨夜遅く帰りました。",
+              "furigana": "さくばんおそくかえりました。",
+              "romaji": "sakuban osoku kaerimashita.",
+              "meanings": {
+                "id": "Tadi malam pulang terlambat.",
+                "en": "I came home late last night."
+              }
+            }
+          ]
         },
         {
           "id": 23,
@@ -2824,7 +3528,39 @@
           "meanings": {
             "en": "yesterday",
             "id": "kemarin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "昨日は休みでした。",
+              "furigana": "きのうはやすみでした。",
+              "romaji": "kinou wa yasumi deshita.",
+              "meanings": {
+                "id": "Kemarin libur.",
+                "en": "Yesterday was a day off."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "昨日映画を見ました。",
+              "furigana": "きのうえいがをみました。",
+              "romaji": "kinou eiga wo mimashita.",
+              "meanings": {
+                "id": "Kemarin saya menonton film.",
+                "en": "I watched a movie yesterday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "昨日は暑かったです。",
+              "furigana": "きのうはあつかったです。",
+              "romaji": "kinou wa atsukatta desu.",
+              "meanings": {
+                "id": "Kemarin panas.",
+                "en": "It was hot yesterday."
+              }
+            }
+          ]
         },
         {
           "id": 24,
@@ -2834,7 +3570,39 @@
           "meanings": {
             "en": "today",
             "id": "hari ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今日は忙しいです。",
+              "furigana": "きょうはいそがしいです。",
+              "romaji": "kyou wa isogashii desu.",
+              "meanings": {
+                "id": "Hari ini sibuk.",
+                "en": "I'm busy today."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今日は何曜日ですか。",
+              "furigana": "きょうはなんようびですか。",
+              "romaji": "kyou wa nan youbi desu ka.",
+              "meanings": {
+                "id": "Hari ini hari apa?",
+                "en": "What day is it today?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今日はいい天気です。",
+              "furigana": "きょうはいいてんきです。",
+              "romaji": "kyou wa ii tenki desu.",
+              "meanings": {
+                "id": "Hari ini cuaca bagus.",
+                "en": "The weather is nice today."
+              }
+            }
+          ]
         },
         {
           "id": 25,
@@ -2844,7 +3612,39 @@
           "meanings": {
             "en": "tomorrow",
             "id": "besok"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "明日テストがあります。",
+              "furigana": "あしたテストがあります。",
+              "romaji": "ashita tesuto ga arimasu.",
+              "meanings": {
+                "id": "Besok ada ujian.",
+                "en": "There is a test tomorrow."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "明日は休みます。",
+              "furigana": "あしたはやすみます。",
+              "romaji": "ashita wa yasumimasu.",
+              "meanings": {
+                "id": "Besok libur.",
+                "en": "I'll take a day off tomorrow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日会いましょう。",
+              "furigana": "あしたあいましょう。",
+              "romaji": "ashita aimashou.",
+              "meanings": {
+                "id": "Mari bertemu besok.",
+                "en": "Let's meet tomorrow."
+              }
+            }
+          ]
         },
         {
           "id": 26,
@@ -2854,7 +3654,39 @@
           "meanings": {
             "en": "the day after tomorrow",
             "id": "lusa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "明後日パーティーがあります。",
+              "furigana": "あさってパーティーがあります。",
+              "romaji": "asatte paatii ga arimasu.",
+              "meanings": {
+                "id": "Lusa ada pesta.",
+                "en": "There is a party the day after tomorrow."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "明後日また来ます。",
+              "furigana": "あさってまたきます。",
+              "romaji": "asatte mata kimasu.",
+              "meanings": {
+                "id": "Saya akan datang lagi lusa.",
+                "en": "I will come again the day after tomorrow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明後日の予定は？",
+              "furigana": "あさってのよていは？",
+              "romaji": "asatte no yotei wa?",
+              "meanings": {
+                "id": "Rencana lusa bagaimana?",
+                "en": "What are your plans for the day after tomorrow?"
+              }
+            }
+          ]
         },
         {
           "id": 27,
@@ -2864,7 +3696,39 @@
           "meanings": {
             "en": "two weeks ago",
             "id": "2 minggu yang lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先々週京都へ行きました。",
+              "furigana": "せんせんしゅうきょうとへいきました。",
+              "romaji": "sensenshuu kyouto e ikimashita.",
+              "meanings": {
+                "id": "Dua minggu yang lalu saya pergi ke Kyoto.",
+                "en": "I went to Kyoto two weeks ago."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "先々週買った本を読みました。",
+              "furigana": "せんせんしゅうかったほんをよみました。",
+              "romaji": "sensenshuu katta hon wo yomimashita.",
+              "meanings": {
+                "id": "Saya membaca buku yang dibeli dua minggu yang lalu.",
+                "en": "I read the book I bought two weeks ago."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "先々週雨が降りました。",
+              "furigana": "せんせんしゅうあめがふりました。",
+              "romaji": "sensenshuu ame ga furimashita.",
+              "meanings": {
+                "id": "Dua minggu yang lalu turun hujan.",
+                "en": "It rained two weeks ago."
+              }
+            }
+          ]
         },
         {
           "id": 28,
@@ -2874,7 +3738,39 @@
           "meanings": {
             "en": "last week",
             "id": "minggu lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先週友達に会いました。",
+              "furigana": "せんしゅうともだちにあいました。",
+              "romaji": "senshuu tomodachi ni aimashita.",
+              "meanings": {
+                "id": "Minggu lalu bertemu teman.",
+                "en": "I met a friend last week."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "先週は暑かったです。",
+              "furigana": "せんしゅうはあつかったです。",
+              "romaji": "senshuu wa atsukatta desu.",
+              "meanings": {
+                "id": "Minggu lalu panas.",
+                "en": "It was hot last week."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "先週テストがありました。",
+              "furigana": "せんしゅうテストがありました。",
+              "romaji": "senshuu tesuto ga arimashita.",
+              "meanings": {
+                "id": "Minggu lalu ada ujian.",
+                "en": "There was a test last week."
+              }
+            }
+          ]
         },
         {
           "id": 29,
@@ -2884,7 +3780,39 @@
           "meanings": {
             "en": "this week",
             "id": "minggu ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今週は忙しいです。",
+              "furigana": "こんしゅうはいそがしいです。",
+              "romaji": "konshuu wa isogashii desu.",
+              "meanings": {
+                "id": "Minggu ini sibuk.",
+                "en": "I am busy this week."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今週の金曜日に会いましょう。",
+              "furigana": "こんしゅうのきんようびにあいましょう。",
+              "romaji": "konshuu no kinyoubi ni aimashou.",
+              "meanings": {
+                "id": "Mari bertemu hari Jumat minggu ini.",
+                "en": "Let's meet this Friday."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今週は雨が多いです。",
+              "furigana": "こんしゅうはあめがおおいです。",
+              "romaji": "konshuu wa ame ga ooi desu.",
+              "meanings": {
+                "id": "Minggu ini hujan banyak.",
+                "en": "There is a lot of rain this week."
+              }
+            }
+          ]
         },
         {
           "id": 30,
@@ -2894,7 +3822,39 @@
           "meanings": {
             "en": "next week",
             "id": "minggu depan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "来週は休みです。",
+              "furigana": "らいしゅうはやすみです。",
+              "romaji": "raishuu wa yasumi desu.",
+              "meanings": {
+                "id": "Minggu depan libur.",
+                "en": "Next week is a day off."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "来週旅行に行きます。",
+              "furigana": "らいしゅうりょこうにいきます。",
+              "romaji": "raishuu ryokou ni ikimasu.",
+              "meanings": {
+                "id": "Minggu depan pergi traveling.",
+                "en": "I will go on a trip next week."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "来週会議があります。",
+              "furigana": "らいしゅうかいぎがあります。",
+              "romaji": "raishuu kaigi ga arimasu.",
+              "meanings": {
+                "id": "Minggu depan ada rapat.",
+                "en": "There is a meeting next week."
+              }
+            }
+          ]
         },
         {
           "id": 31,
@@ -2904,7 +3864,39 @@
           "meanings": {
             "en": "the week after next",
             "id": "2 minggu yang akan datang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "再来週テストがあります。",
+              "furigana": "さらいしゅうテストがあります。",
+              "romaji": "saraishuu tesuto ga arimasu.",
+              "meanings": {
+                "id": "Dua minggu yang akan datang ada ujian.",
+                "en": "There is a test the week after next."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "再来週日本へ行きます。",
+              "furigana": "さらいしゅうにほんへいきます。",
+              "romaji": "saraishuu nihon e ikimasu.",
+              "meanings": {
+                "id": "Dua minggu yang akan datang pergi ke Jepang.",
+                "en": "I will go to Japan the week after next."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "再来週また来てください。",
+              "furigana": "さらいしゅうまたきてください。",
+              "romaji": "saraishuu mata kite kudasai.",
+              "meanings": {
+                "id": "Silakan datang lagi dua minggu yang akan datang.",
+                "en": "Please come again the week after next."
+              }
+            }
+          ]
         },
         {
           "id": 32,
@@ -2914,7 +3906,39 @@
           "meanings": {
             "en": "two months ago",
             "id": "2 bulan yang lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先々月東京へ行きました。",
+              "furigana": "せんせんげつとうきょうへいきました。",
+              "romaji": "sensen'getsu toukyou e ikimashita.",
+              "meanings": {
+                "id": "Dua bulan yang lalu pergi ke Tokyo.",
+                "en": "I went to Tokyo two months ago."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "先々月この本を買いました。",
+              "furigana": "せんせんげつこのほんをかいました。",
+              "romaji": "sensen'getsu kono hon wo kaimashita.",
+              "meanings": {
+                "id": "Dua bulan yang lalu membeli buku ini.",
+                "en": "I bought this book two months ago."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "先々月から日本語を勉強しています。",
+              "furigana": "せんせんげつからにほんごをべんきょうしています。",
+              "romaji": "sensen'getsu kara nihongo wo benkyou shite imasu.",
+              "meanings": {
+                "id": "Sedang belajar bahasa Jepang dari dua bulan yang lalu.",
+                "en": "I have been studying Japanese since two months ago."
+              }
+            }
+          ]
         },
         {
           "id": 33,
@@ -2924,7 +3948,39 @@
           "meanings": {
             "en": "last month",
             "id": "bulan lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先月引っ越しました。",
+              "furigana": "せんげつひっこしました。",
+              "romaji": "sen'getsu hikkoshimashita.",
+              "meanings": {
+                "id": "Bulan lalu pindah rumah.",
+                "en": "I moved last month."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "先月は寒かったです。",
+              "furigana": "せんげつはさむかったです。",
+              "romaji": "sen'getsu wa samukatta desu.",
+              "meanings": {
+                "id": "Bulan lalu dingin.",
+                "en": "It was cold last month."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "先月たくさん本を読みました。",
+              "furigana": "せんげつたくさんほんをよみました。",
+              "romaji": "sen'getsu takusan hon wo yomimashita.",
+              "meanings": {
+                "id": "Bulan lalu membaca banyak buku.",
+                "en": "I read many books last month."
+              }
+            }
+          ]
         },
         {
           "id": 34,
@@ -2934,7 +3990,39 @@
           "meanings": {
             "en": "this month",
             "id": "bulan ini"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "今月は忙しいです。",
+              "furigana": "こんげつはいそがしいです。",
+              "romaji": "kon'getsu wa isogashii desu.",
+              "meanings": {
+                "id": "Bulan ini sibuk.",
+                "en": "I am busy this month."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "今月の給料はいつですか。",
+              "furigana": "こんげつのきゅうりょうはいつですか。",
+              "romaji": "kon'getsu no kyuuryou wa itsu desu ka.",
+              "meanings": {
+                "id": "Gaji bulan ini kapan?",
+                "en": "When is this month's salary?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "今月誕生日です。",
+              "furigana": "こんげつたんじょうびです。",
+              "romaji": "kon'getsu tanjoubi desu.",
+              "meanings": {
+                "id": "Bulan ini ulang tahun.",
+                "en": "My birthday is this month."
+              }
+            }
+          ]
         },
         {
           "id": 35,
@@ -2944,7 +4032,39 @@
           "meanings": {
             "en": "next month",
             "id": "bulan depan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "来月結婚します。",
+              "furigana": "らいげつけっこんします。",
+              "romaji": "raigetsu kekkon shimasu.",
+              "meanings": {
+                "id": "Bulan depan menikah.",
+                "en": "I will get married next month."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "来月東京へ行きます。",
+              "furigana": "らいげつとうきょうへいきます。",
+              "romaji": "raigetsu toukyou e ikimasu.",
+              "meanings": {
+                "id": "Bulan depan pergi ke Tokyo.",
+                "en": "I will go to Tokyo next month."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "来月から新しい仕事です。",
+              "furigana": "らいげつからあたらしいしごとです。",
+              "romaji": "raigetsu kara atarashii shigoto desu.",
+              "meanings": {
+                "id": "Dari bulan depan pekerjaan baru.",
+                "en": "I start a new job from next month."
+              }
+            }
+          ]
         },
         {
           "id": 36,
@@ -2954,7 +4074,39 @@
           "meanings": {
             "en": "the month after next",
             "id": "2 bulan yang akan datang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "再来月卒業します。",
+              "furigana": "さらいげつそつぎょうします。",
+              "romaji": "saraigetsu sotsugyou shimasu.",
+              "meanings": {
+                "id": "Dua bulan yang akan datang lulus.",
+                "en": "I will graduate the month after next."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "再来月日本へ行きます。",
+              "furigana": "さらいげつにほんへいきます。",
+              "romaji": "saraigetsu nihon e ikimasu.",
+              "meanings": {
+                "id": "Dua bulan yang akan datang pergi ke Jepang.",
+                "en": "I will go to Japan the month after next."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "再来月新しいアパートに住みます。",
+              "furigana": "さらいげつあたらしいアパートにすみます。",
+              "romaji": "saraigetsu atarashii apaato ni sumimasu.",
+              "meanings": {
+                "id": "Dua bulan yang akan datang tinggal di apartemen baru.",
+                "en": "I will live in a new apartment the month after next."
+              }
+            }
+          ]
         },
         {
           "id": 37,
@@ -2964,7 +4116,39 @@
           "meanings": {
             "en": "two years ago",
             "id": "2 tahun yang lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一昨年日本へ行きました。",
+              "furigana": "おととしにほんへいきました。",
+              "romaji": "ototoshi nihon e ikimashita.",
+              "meanings": {
+                "id": "Dua tahun yang lalu pergi ke Jepang.",
+                "en": "I went to Japan two years ago."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一昨年大学に入りました。",
+              "furigana": "おととしだいがくにはいりました。",
+              "romaji": "ototoshi daigaku ni hairimashita.",
+              "meanings": {
+                "id": "Dua tahun yang lalu masuk universitas.",
+                "en": "I entered university two years ago."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一昨年結婚しました。",
+              "furigana": "おととしけっこんしました。",
+              "romaji": "ototoshi kekkon shimashita.",
+              "meanings": {
+                "id": "Dua tahun yang lalu menikah.",
+                "en": "I got married two years ago."
+              }
+            }
+          ]
         },
         {
           "id": 38,
@@ -2974,7 +4158,39 @@
           "meanings": {
             "en": "last year",
             "id": "tahun lalu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "去年日本語を勉強しました。",
+              "furigana": "きょねんにほんごをべんきょうしました。",
+              "romaji": "kyonen nihongo wo benkyou shimashita.",
+              "meanings": {
+                "id": "Tahun lalu belajar bahasa Jepang.",
+                "en": "I studied Japanese last year."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "去年は寒かったです。",
+              "furigana": "きょねんはさむかったです。",
+              "romaji": "kyonen wa samukatta desu.",
+              "meanings": {
+                "id": "Tahun lalu dingin.",
+                "en": "It was cold last year."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "去年の夏は暑かったです。",
+              "furigana": "きょねんのなつはあつかったです。",
+              "romaji": "kyonen no natsu wa atsukatta desu.",
+              "meanings": {
+                "id": "Musim panas tahun lalu panas.",
+                "en": "Last summer was hot."
+              }
+            }
+          ]
         },
         {
           "id": 39,
@@ -2994,7 +4210,39 @@
           "meanings": {
             "en": "next year",
             "id": "tahun depan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "来年大学を卒業します。",
+              "furigana": "らいねんだいがくをそつぎょうします。",
+              "romaji": "rainen daigaku wo sotsugyou shimasu.",
+              "meanings": {
+                "id": "Tahun depan lulus dari universitas.",
+                "en": "I will graduate from university next year."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "来年日本へ行きたいです。",
+              "furigana": "らいねんにほんへいきたいです。",
+              "romaji": "rainen nihon e ikitai desu.",
+              "meanings": {
+                "id": "Tahun depan ingin pergi ke Jepang.",
+                "en": "I want to go to Japan next year."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "来年結婚する予定です。",
+              "furigana": "らいねんけっこんするよていです。",
+              "romaji": "rainen kekkon suru yotei desu.",
+              "meanings": {
+                "id": "Tahun depan rencana menikah.",
+                "en": "I plan to get married next year."
+              }
+            }
+          ]
         },
         {
           "id": 41,
@@ -3004,7 +4252,39 @@
           "meanings": {
             "en": "the year after next",
             "id": "2 tahun yang akan datang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "さ来年卒業します。",
+              "furigana": "さらいねんそつぎょうします。",
+              "romaji": "sarainen sotsugyou shimasu.",
+              "meanings": {
+                "id": "Dua tahun yang akan datang lulus.",
+                "en": "I will graduate the year after next."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "さ来年オリンピックがあります。",
+              "furigana": "さらいねんオリンピックがあります。",
+              "romaji": "sarainen orinpikku ga arimasu.",
+              "meanings": {
+                "id": "Dua tahun yang akan datang ada Olimpiade.",
+                "en": "There will be Olympics the year after next."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "さ来年日本へ留学します。",
+              "furigana": "さらいねんにほんへりゅうがくします。",
+              "romaji": "sarainen nihon e ryuugaku shimasu.",
+              "meanings": {
+                "id": "Dua tahun yang akan datang belajar di Jepang.",
+                "en": "I will study abroad in Japan the year after next."
+              }
+            }
+          ]
         }
       ]
     },
@@ -3023,7 +4303,39 @@
           "meanings": {
             "en": "color",
             "id": "warna"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "何色が好きですか。",
+              "furigana": "なにいろがすきですか。",
+              "romaji": "nani iro ga suki desu ka.",
+              "meanings": {
+                "id": "Warna apa yang kamu suka?",
+                "en": "What color do you like?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この色はきれいです。",
+              "furigana": "このいろはきれいです。",
+              "romaji": "kono iro wa kirei desu.",
+              "meanings": {
+                "id": "Warna ini cantik.",
+                "en": "This color is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "色々な色があります。",
+              "furigana": "いろいろないろがあります。",
+              "romaji": "iroirona iro ga arimasu.",
+              "meanings": {
+                "id": "Ada berbagai macam warna.",
+                "en": "There are various colors."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -3033,7 +4345,39 @@
           "meanings": {
             "en": "blue",
             "id": "biru"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "空は青いです。",
+              "furigana": "そらはあおいです。",
+              "romaji": "sora wa aoi desu.",
+              "meanings": {
+                "id": "Langit biru.",
+                "en": "The sky is blue."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "青いペンを使います。",
+              "furigana": "あおいペンをつかいます。",
+              "romaji": "aoi pen wo tsukaimasu.",
+              "meanings": {
+                "id": "Menggunakan pulpen biru.",
+                "en": "I use a blue pen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "青が好きです。",
+              "furigana": "あおがすきです。",
+              "romaji": "ao ga suki desu.",
+              "meanings": {
+                "id": "Saya suka warna biru.",
+                "en": "I like blue."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -3043,7 +4387,39 @@
           "meanings": {
             "en": "red",
             "id": "merah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "赤い花がきれいです。",
+              "furigana": "あかいはながきれいです。",
+              "romaji": "akai hana ga kirei desu.",
+              "meanings": {
+                "id": "Bunga merah cantik.",
+                "en": "The red flowers are beautiful."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "赤いリンゴを食べます。",
+              "furigana": "あかいリンゴをたべます。",
+              "romaji": "akai ringo wo tabemasu.",
+              "meanings": {
+                "id": "Makan apel merah.",
+                "en": "I eat a red apple."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "赤が好きです。",
+              "furigana": "あかがすきです。",
+              "romaji": "aka ga suki desu.",
+              "meanings": {
+                "id": "Saya suka warna merah.",
+                "en": "I like red."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -3053,7 +4429,39 @@
           "meanings": {
             "en": "yellow",
             "id": "kuning"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "黄色い花があります。",
+              "furigana": "きいろいはながあります。",
+              "romaji": "kiiroi hana ga arimasu.",
+              "meanings": {
+                "id": "Ada bunga kuning.",
+                "en": "There are yellow flowers."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "黄色いバナナを食べます。",
+              "furigana": "きいろいバナナをたべます。",
+              "romaji": "kiiroi banana wo tabemasu.",
+              "meanings": {
+                "id": "Makan pisang kuning.",
+                "en": "I eat a yellow banana."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "黄色が好きです。",
+              "furigana": "きいろがすきです。",
+              "romaji": "kiiro ga suki desu.",
+              "meanings": {
+                "id": "Saya suka warna kuning.",
+                "en": "I like yellow."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -3063,7 +4471,39 @@
           "meanings": {
             "en": "black",
             "id": "hitam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "黒い猫がいます。",
+              "furigana": "くろいねこがいます。",
+              "romaji": "kuroi neko ga imasu.",
+              "meanings": {
+                "id": "Ada kucing hitam.",
+                "en": "There is a black cat."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "黒いかばんを買いました。",
+              "furigana": "くろいかばんをかいました。",
+              "romaji": "kuroi kaban wo kaimashita.",
+              "meanings": {
+                "id": "Membeli tas hitam.",
+                "en": "I bought a black bag."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "黒が好きです。",
+              "furigana": "くろがすきです。",
+              "romaji": "kuro ga suki desu.",
+              "meanings": {
+                "id": "Saya suka warna hitam.",
+                "en": "I like black."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -3073,7 +4513,39 @@
           "meanings": {
             "en": "white",
             "id": "putih"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "白い犬がいます。",
+              "furigana": "しろいいぬがいます。",
+              "romaji": "shiroi inu ga imasu.",
+              "meanings": {
+                "id": "Ada anjing putih.",
+                "en": "There is a white dog."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "白いシャツを着ます。",
+              "furigana": "しろいシャツをきます。",
+              "romaji": "shiroi shatsu wo kimasu.",
+              "meanings": {
+                "id": "Memakai kemeja putih.",
+                "en": "I wear a white shirt."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "白が好きです。",
+              "furigana": "しろがすきです。",
+              "romaji": "shiro ga suki desu.",
+              "meanings": {
+                "id": "Saya suka warna putih.",
+                "en": "I like white."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -3083,7 +4555,39 @@
           "meanings": {
             "en": "brown",
             "id": "coklat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "茶色い靴を履きます。",
+              "furigana": "ちゃいろいくつをはきます。",
+              "romaji": "chairoi kutsu wo hakimasu.",
+              "meanings": {
+                "id": "Memakai sepatu coklat.",
+                "en": "I wear brown shoes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "茶色い犬がいます。",
+              "furigana": "ちゃいろいいぬがいます。",
+              "romaji": "chairoi inu ga imasu.",
+              "meanings": {
+                "id": "Ada anjing coklat.",
+                "en": "There is a brown dog."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "茶色が好きです。",
+              "furigana": "ちゃいろがすきです。",
+              "romaji": "cha'iro ga suki desu.",
+              "meanings": {
+                "id": "Saya suka warna coklat.",
+                "en": "I like brown."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -3093,7 +4597,39 @@
           "meanings": {
             "en": "green",
             "id": "hijau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "緑の木がきれいです。",
+              "furigana": "みどりのきがきれいです。",
+              "romaji": "midori no ki ga kirei desu.",
+              "meanings": {
+                "id": "Pohon hijau cantik.",
+                "en": "The green trees are beautiful."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "緑色のペンを使います。",
+              "furigana": "みどりいろのペンをつかいます。",
+              "romaji": "midori iro no pen wo tsukaimasu.",
+              "meanings": {
+                "id": "Menggunakan pulpen hijau.",
+                "en": "I use a green pen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "緑が好きです。",
+              "furigana": "みどりがすきです。",
+              "romaji": "midori ga suki desu.",
+              "meanings": {
+                "id": "Saya suka warna hijau.",
+                "en": "I like green."
+              }
+            }
+          ]
         }
       ]
     },
@@ -3112,7 +4648,39 @@
           "meanings": {
             "en": "kilo, kilogram (kg)",
             "id": "kilo, kilogram (kg)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "三キロ買いました。",
+              "furigana": "さんキロかいました。",
+              "romaji": "san kiro kaimashita.",
+              "meanings": {
+                "id": "Membeli tiga kilogram.",
+                "en": "I bought three kilograms."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "体重は五十キロです。",
+              "furigana": "たいじゅうはごじゅうキロです。",
+              "romaji": "taijuu wa gojuu kiro desu.",
+              "meanings": {
+                "id": "Berat badan 50 kilogram.",
+                "en": "My weight is 50 kilograms."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "肉を二キログラム買います。",
+              "furigana": "にくをにキログラムかいます。",
+              "romaji": "niku wo ni kiroguramu kaimasu.",
+              "meanings": {
+                "id": "Membeli daging dua kilogram.",
+                "en": "I buy two kilograms of meat."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -3122,7 +4690,39 @@
           "meanings": {
             "en": "gram (gr)",
             "id": "gram (gr)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "百グラムください。",
+              "furigana": "ひゃくグラムください。",
+              "romaji": "hyaku guramu kudasai.",
+              "meanings": {
+                "id": "Tolong beri 100 gram.",
+                "en": "Please give me 100 grams."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "砂糖を二百グラム使います。",
+              "furigana": "さとうをにひゃくグラムつかいます。",
+              "romaji": "satou wo nihyaku guramu tsukaimasu.",
+              "meanings": {
+                "id": "Menggunakan 200 gram gula.",
+                "en": "I use 200 grams of sugar."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五十グラムあります。",
+              "furigana": "ごじゅうグラムあります。",
+              "romaji": "gojuu guramu arimasu.",
+              "meanings": {
+                "id": "Ada 50 gram.",
+                "en": "There are 50 grams."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -3132,7 +4732,39 @@
           "meanings": {
             "en": "kilo, kilometer (km)",
             "id": "kilo, kilometer (km)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "駅まで二キロあります。",
+              "furigana": "えきまでにキロあります。",
+              "romaji": "eki made ni kiro arimasu.",
+              "meanings": {
+                "id": "Ke stasiun ada 2 kilometer.",
+                "en": "It's 2 kilometers to the station."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日五キロ走ります。",
+              "furigana": "まいにちごキロはしります。",
+              "romaji": "mainichi go kiro hashirimasu.",
+              "meanings": {
+                "id": "Setiap hari lari 5 kilometer.",
+                "en": "I run 5 kilometers every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "学校まで三キロメートルです。",
+              "furigana": "がっこうまでさんキロメートルです。",
+              "romaji": "gakkou made san kiromētoru desu.",
+              "meanings": {
+                "id": "Ke sekolah 3 kilometer.",
+                "en": "It's 3 kilometers to school."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -3142,7 +4774,39 @@
           "meanings": {
             "en": "meter (m)",
             "id": "meter (m)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋は十メートルです。",
+              "furigana": "へやはじゅうメートルです。",
+              "romaji": "heya wa juu mētoru desu.",
+              "meanings": {
+                "id": "Kamar 10 meter.",
+                "en": "The room is 10 meters."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "身長は百七十メートルです。",
+              "furigana": "しんちょうはひゃくななじゅうメートルです。",
+              "romaji": "shinchou wa hyaku nanajuu mētoru desu.",
+              "meanings": {
+                "id": "Tinggi badan 170 meter.",
+                "en": "My height is 170 meters."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二百メートル泳ぎました。",
+              "furigana": "にひゃくメートルおよぎました。",
+              "romaji": "nihyaku mētoru oyogimashita.",
+              "meanings": {
+                "id": "Berenang 200 meter.",
+                "en": "I swam 200 meters."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -3152,7 +4816,39 @@
           "meanings": {
             "en": "sheet, piece",
             "id": "lembar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "紙を三まいください。",
+              "furigana": "かみをさんまいください。",
+              "romaji": "kami wo san mai kudasai.",
+              "meanings": {
+                "id": "Tolong beri tiga lembar kertas.",
+                "en": "Please give me three sheets of paper."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "写真を五まい撮りました。",
+              "furigana": "しゃしんをごまいとりました。",
+              "romaji": "shashin wo go mai torimashita.",
+              "meanings": {
+                "id": "Mengambil lima lembar foto.",
+                "en": "I took five photos."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "切手を二まい買いました。",
+              "furigana": "きってをにまいかいました。",
+              "romaji": "kitte wo ni mai kaimashita.",
+              "meanings": {
+                "id": "Membeli dua lembar perangko.",
+                "en": "I bought two stamps."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -3162,7 +4858,39 @@
           "meanings": {
             "en": "page",
             "id": "halaman"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "十ページを読みます。",
+              "furigana": "じゅうページをよみます。",
+              "romaji": "juu peji wo yomimasu.",
+              "meanings": {
+                "id": "Membaca halaman 10.",
+                "en": "I read page 10."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この本は百ページあります。",
+              "furigana": "このほんはひゃくページあります。",
+              "romaji": "kono hon wa hyaku peji arimasu.",
+              "meanings": {
+                "id": "Buku ini ada 100 halaman.",
+                "en": "This book has 100 pages."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五ページを開いてください。",
+              "furigana": "ごページをあけてください。",
+              "romaji": "go peji wo akete kudasai.",
+              "meanings": {
+                "id": "Tolong buka halaman 5.",
+                "en": "Please open page 5."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -3172,7 +4900,39 @@
           "meanings": {
             "en": "volume, book",
             "id": "jilid"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "本を三さつ買いました。",
+              "furigana": "ほんをさんさつかいました。",
+              "romaji": "hon wo san satsu kaimashita.",
+              "meanings": {
+                "id": "Membeli tiga jilid buku.",
+                "en": "I bought three books."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "雑誌を二さつ読みました。",
+              "furigana": "ざっしをにさつよみました。",
+              "romaji": "zasshi wo ni satsu yomimashita.",
+              "meanings": {
+                "id": "Membaca dua jilid majalah.",
+                "en": "I read two magazines."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "辞書が一さつあります。",
+              "furigana": "じしょがいっさつあります。",
+              "romaji": "jisho ga issatsu arimasu.",
+              "meanings": {
+                "id": "Ada satu jilid kamus.",
+                "en": "There is one dictionary."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -3182,7 +4942,39 @@
           "meanings": {
             "en": "hour",
             "id": "jam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "二時間勉強しました。",
+              "furigana": "にじかんべんきょうしました。",
+              "romaji": "ni jikan benkyou shimashita.",
+              "meanings": {
+                "id": "Belajar dua jam.",
+                "en": "I studied for two hours."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "三時間かかります。",
+              "furigana": "さんじかんかかります。",
+              "romaji": "san jikan kakarimasu.",
+              "meanings": {
+                "id": "Memakan waktu tiga jam.",
+                "en": "It takes three hours."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一時間待ちました。",
+              "furigana": "いちじかんまちました。",
+              "romaji": "ichi jikan machimashita.",
+              "meanings": {
+                "id": "Menunggu satu jam.",
+                "en": "I waited for one hour."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -3192,7 +4984,39 @@
           "meanings": {
             "en": "minute",
             "id": "menit"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "十分待ってください。",
+              "furigana": "じゅっぷんまってください。",
+              "romaji": "juppun matte kudasai.",
+              "meanings": {
+                "id": "Tolong tunggu 10 menit.",
+                "en": "Please wait 10 minutes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "五分かかります。",
+              "furigana": "ごふんかかります。",
+              "romaji": "gofun kakarimasu.",
+              "meanings": {
+                "id": "Memakan waktu 5 menit.",
+                "en": "It takes 5 minutes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "三十分歩きました。",
+              "furigana": "さんじゅっぷんあるきました。",
+              "romaji": "sanjuppun arukimashita.",
+              "meanings": {
+                "id": "Berjalan 30 menit.",
+                "en": "I walked for 30 minutes."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -3202,7 +5026,39 @@
           "meanings": {
             "en": "second",
             "id": "detik"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "十秒待ちます。",
+              "furigana": "じゅうびょうまちます。",
+              "romaji": "juubyou machimasu.",
+              "meanings": {
+                "id": "Menunggu 10 detik.",
+                "en": "I wait for 10 seconds."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "三十秒かかります。",
+              "furigana": "さんじゅうびょうかかります。",
+              "romaji": "sanjuubyou kakarimasu.",
+              "meanings": {
+                "id": "Memakan waktu 30 detik.",
+                "en": "It takes 30 seconds."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五秒前です。",
+              "furigana": "ごびょうまえです。",
+              "romaji": "gobyou mae desu.",
+              "meanings": {
+                "id": "Lima detik lagi.",
+                "en": "Five seconds before."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -3212,7 +5068,39 @@
           "meanings": {
             "en": "number",
             "id": "nomor"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "一番好きです。",
+              "furigana": "いちばんすきです。",
+              "romaji": "ichiban suki desu.",
+              "meanings": {
+                "id": "Paling suka.",
+                "en": "I like it the most."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "三番の部屋です。",
+              "furigana": "さんばんのへやです。",
+              "romaji": "sanban no heya desu.",
+              "meanings": {
+                "id": "Kamar nomor 3.",
+                "en": "It's room number 3."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電話番号を教えてください。",
+              "furigana": "でんわばんごうをおしえてください。",
+              "romaji": "denwa bangou wo oshiete kudasai.",
+              "meanings": {
+                "id": "Tolong beritahu nomor telepon.",
+                "en": "Please tell me your phone number."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -3222,7 +5110,39 @@
           "meanings": {
             "en": "ordinal number (e.g. 1st, 2nd)",
             "id": "(nomor urut) ke ..."
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "三番目の人です。",
+              "furigana": "さんばんめのひとです。",
+              "romaji": "sanbanme no hito desu.",
+              "meanings": {
+                "id": "Orang ketiga.",
+                "en": "The third person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "一番目に来ました。",
+              "furigana": "いちばんめにきました。",
+              "romaji": "ichibanme ni kimashita.",
+              "meanings": {
+                "id": "Datang pertama.",
+                "en": "I came first."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "五番目の駅で降ります。",
+              "furigana": "ごばんめのえきでおります。",
+              "romaji": "gobanme no eki de orimasu.",
+              "meanings": {
+                "id": "Turun di stasiun kelima.",
+                "en": "I get off at the fifth station."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -3232,7 +5152,39 @@
           "meanings": {
             "en": "person (counter)",
             "id": "orang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "三人で行きます。",
+              "furigana": "さんにんでいきます。",
+              "romaji": "sannin de ikimasu.",
+              "meanings": {
+                "id": "Pergi bertiga.",
+                "en": "We go with three people."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家族は五人です。",
+              "furigana": "かぞくはごにんです。",
+              "romaji": "kazoku wa gonin desu.",
+              "meanings": {
+                "id": "Keluarga lima orang.",
+                "en": "My family has five people."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二人で食べました。",
+              "furigana": "ふたりでたべました。",
+              "romaji": "futari de tabemashita.",
+              "meanings": {
+                "id": "Makan berdua.",
+                "en": "We ate together, two people."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -3242,7 +5194,39 @@
           "meanings": {
             "en": "counter for long objects (pencil, bottle, umbrella, tree)",
             "id": "batang (pensil, botol, payung, pohon)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ペンを三本買いました。",
+              "furigana": "ペンをさんぼんかいました。",
+              "romaji": "pen wo sanbon kaimashita.",
+              "meanings": {
+                "id": "Membeli tiga batang pulpen.",
+                "en": "I bought three pens."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "水を二本ください。",
+              "furigana": "みずをにほんください。",
+              "romaji": "mizu wo nihon kudasai.",
+              "meanings": {
+                "id": "Tolong beri dua botol air.",
+                "en": "Please give me two bottles of water."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "傘を一本持っています。",
+              "furigana": "かさをいっぽんもっています。",
+              "romaji": "kasa wo ippon motte imasu.",
+              "meanings": {
+                "id": "Memegang satu payung.",
+                "en": "I have one umbrella."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -3252,7 +5236,39 @@
           "meanings": {
             "en": "counter for small animals",
             "id": "ekor"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "犬が二匹います。",
+              "furigana": "いぬがにひきいます。",
+              "romaji": "inu ga nihiki imasu.",
+              "meanings": {
+                "id": "Ada dua ekor anjing.",
+                "en": "There are two dogs."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "猫を三匹飼っています。",
+              "furigana": "ねこをさんびきかっています。",
+              "romaji": "neko wo sanbiki katte imasu.",
+              "meanings": {
+                "id": "Memelihara tiga ekor kucing.",
+                "en": "I have three cats."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "魚が一匹泳いでいます。",
+              "furigana": "さかながいっぴきおよいでいます。",
+              "romaji": "sakana ga ippiki oyoide imasu.",
+              "meanings": {
+                "id": "Ada satu ekor ikan berenang.",
+                "en": "One fish is swimming."
+              }
+            }
+          ]
         }
       ]
     },
