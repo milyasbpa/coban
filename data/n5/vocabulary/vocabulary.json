@@ -15613,7 +15613,39 @@
           "meanings": {
             "en": "paper",
             "id": "kertas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "紙に書きます。",
+              "furigana": "かみに かきます。",
+              "romaji": "kami ni kakimasu.",
+              "meanings": {
+                "id": "Saya menulis di kertas.",
+                "en": "I write on paper."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紙があります。",
+              "furigana": "かみが あります。",
+              "romaji": "kami ga arimasu.",
+              "meanings": {
+                "id": "Ada kertas.",
+                "en": "There is paper."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "紙をください。",
+              "furigana": "かみを ください。",
+              "romaji": "kami wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan kertas.",
+                "en": "Please give me paper."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -15623,7 +15655,39 @@
           "meanings": {
             "en": "pen, ballpoint pen",
             "id": "pen, bolpen"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ペンで書きます。",
+              "furigana": "ぺんで かきます。",
+              "romaji": "pen de kakimasu.",
+              "meanings": {
+                "id": "Saya menulis dengan pen.",
+                "en": "I write with a pen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ボールペンがあります。",
+              "furigana": "ぼーるぺんが あります。",
+              "romaji": "bōrupen ga arimasu.",
+              "meanings": {
+                "id": "Ada bolpen.",
+                "en": "There is a ballpoint pen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ペンをください。",
+              "furigana": "ぺんを ください。",
+              "romaji": "pen wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan pen.",
+                "en": "Please give me a pen."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -15633,7 +15697,39 @@
           "meanings": {
             "en": "fountain pen",
             "id": "pen tinta"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "万年筆で書きます。",
+              "furigana": "まんねんひつで かきます。",
+              "romaji": "mannenhitsu de kakimasu.",
+              "meanings": {
+                "id": "Saya menulis dengan pen tinta.",
+                "en": "I write with a fountain pen."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "万年筆があります。",
+              "furigana": "まんねんひつが あります。",
+              "romaji": "mannenhitsu ga arimasu.",
+              "meanings": {
+                "id": "Ada pen tinta.",
+                "en": "There is a fountain pen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "万年筆が高いです。",
+              "furigana": "まんねんひつが たかいです。",
+              "romaji": "mannenhitsu ga takai desu.",
+              "meanings": {
+                "id": "Pen tintanya mahal.",
+                "en": "The fountain pen is expensive."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -15643,7 +15739,39 @@
           "meanings": {
             "en": "pencil",
             "id": "pensil"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鉛筆で書きます。",
+              "furigana": "えんぴつで かきます。",
+              "romaji": "enpitsu de kakimasu.",
+              "meanings": {
+                "id": "Saya menulis dengan pensil.",
+                "en": "I write with a pencil."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "鉛筆があります。",
+              "furigana": "えんぴつが あります。",
+              "romaji": "enpitsu ga arimasu.",
+              "meanings": {
+                "id": "Ada pensil.",
+                "en": "There is a pencil."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鉛筆をください。",
+              "furigana": "えんぴつを ください。",
+              "romaji": "enpitsu wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan pensil.",
+                "en": "Please give me a pencil."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -15653,7 +15781,39 @@
           "meanings": {
             "en": "book",
             "id": "buku"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "本を読みます。",
+              "furigana": "ほんを よみます。",
+              "romaji": "hon wo yomimasu.",
+              "meanings": {
+                "id": "Saya membaca buku.",
+                "en": "I read a book."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "本があります。",
+              "furigana": "ほんが あります。",
+              "romaji": "hon ga arimasu.",
+              "meanings": {
+                "id": "Ada buku.",
+                "en": "There is a book."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "本を買います。",
+              "furigana": "ほんを かいます。",
+              "romaji": "hon wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli buku.",
+                "en": "I buy a book."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -15663,7 +15823,39 @@
           "meanings": {
             "en": "notebook",
             "id": "buku tulis, notes"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ノートに書きます。",
+              "furigana": "のーとに かきます。",
+              "romaji": "nōto ni kakimasu.",
+              "meanings": {
+                "id": "Saya menulis di buku tulis.",
+                "en": "I write in a notebook."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ノートがあります。",
+              "furigana": "のーとが あります。",
+              "romaji": "nōto ga arimasu.",
+              "meanings": {
+                "id": "Ada buku tulis.",
+                "en": "There is a notebook."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ノートを買います。",
+              "furigana": "のーとを かいます。",
+              "romaji": "nōto wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli buku tulis.",
+                "en": "I buy a notebook."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -15673,7 +15865,39 @@
           "meanings": {
             "en": "letter",
             "id": "kertas surat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "手紙を書きます。",
+              "furigana": "てがみを かきます。",
+              "romaji": "tegami wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis surat.",
+                "en": "I write a letter."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "手紙があります。",
+              "furigana": "てがみが あります。",
+              "romaji": "tegami ga arimasu.",
+              "meanings": {
+                "id": "Ada surat.",
+                "en": "There is a letter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "手紙を出します。",
+              "furigana": "てがみを だします。",
+              "romaji": "tegami wo dashimasu.",
+              "meanings": {
+                "id": "Saya mengirim surat.",
+                "en": "I send a letter."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -15683,7 +15907,39 @@
           "meanings": {
             "en": "stamp",
             "id": "perangko"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "切手を貼ります。",
+              "furigana": "きってを はります。",
+              "romaji": "kitte wo harimasu.",
+              "meanings": {
+                "id": "Saya menempel perangko.",
+                "en": "I put on a stamp."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "切手があります。",
+              "furigana": "きってが あります。",
+              "romaji": "kitte ga arimasu.",
+              "meanings": {
+                "id": "Ada perangko.",
+                "en": "There is a stamp."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "切手を買います。",
+              "furigana": "きってを かいます。",
+              "romaji": "kitte wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli perangko.",
+                "en": "I buy a stamp."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -15693,7 +15949,39 @@
           "meanings": {
             "en": "postcard",
             "id": "kartu pos"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "葉書を書きます。",
+              "furigana": "はがきを かきます。",
+              "romaji": "hagaki wo kakimasu.",
+              "meanings": {
+                "id": "Saya menulis kartu pos.",
+                "en": "I write a postcard."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "葉書があります。",
+              "furigana": "はがきが あります。",
+              "romaji": "hagaki ga arimasu.",
+              "meanings": {
+                "id": "Ada kartu pos.",
+                "en": "There is a postcard."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "葉書を出します。",
+              "furigana": "はがきを だします。",
+              "romaji": "hagaki wo dashimasu.",
+              "meanings": {
+                "id": "Saya mengirim kartu pos.",
+                "en": "I send a postcard."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -15703,7 +15991,39 @@
           "meanings": {
             "en": "envelope",
             "id": "amplop"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "封筒に入れます。",
+              "furigana": "ふうとうに いれます。",
+              "romaji": "fuutou ni iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan ke amplop.",
+                "en": "I put it in an envelope."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "封筒があります。",
+              "furigana": "ふうとうが あります。",
+              "romaji": "fuutou ga arimasu.",
+              "meanings": {
+                "id": "Ada amplop.",
+                "en": "There is an envelope."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "封筒を買います。",
+              "furigana": "ふうとうを かいます。",
+              "romaji": "fuutou wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli amplop.",
+                "en": "I buy an envelope."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -15713,7 +16033,39 @@
           "meanings": {
             "en": "tape",
             "id": "pita, selotip"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "テープを貼ります。",
+              "furigana": "てーぷを はります。",
+              "romaji": "tēpu wo harimasu.",
+              "meanings": {
+                "id": "Saya menempel selotip.",
+                "en": "I put on tape."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "テープがあります。",
+              "furigana": "てーぷが あります。",
+              "romaji": "tēpu ga arimasu.",
+              "meanings": {
+                "id": "Ada selotip.",
+                "en": "There is tape."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "テープを使います。",
+              "furigana": "てーぷを つかいます。",
+              "romaji": "tēpu wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan selotip.",
+                "en": "I use tape."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -15723,7 +16075,39 @@
           "meanings": {
             "en": "box",
             "id": "kotak, box"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "箱に入れます。",
+              "furigana": "はこに いれます。",
+              "romaji": "hako ni iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan ke kotak.",
+                "en": "I put it in a box."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "箱があります。",
+              "furigana": "はこが あります。",
+              "romaji": "hako ga arimasu.",
+              "meanings": {
+                "id": "Ada kotak.",
+                "en": "There is a box."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "箱を開けます。",
+              "furigana": "はこを あけます。",
+              "romaji": "hako wo akemasu.",
+              "meanings": {
+                "id": "Saya membuka kotak.",
+                "en": "I open the box."
+              }
+            }
+          ]
         }
       ]
     },
@@ -15742,7 +16126,39 @@
           "meanings": {
             "en": "work",
             "id": "pekerjaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "仕事をします。",
+              "furigana": "しごとを します。",
+              "romaji": "shigoto wo shimasu.",
+              "meanings": {
+                "id": "Saya bekerja.",
+                "en": "I work."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "仕事があります。",
+              "furigana": "しごとが あります。",
+              "romaji": "shigoto ga arimasu.",
+              "meanings": {
+                "id": "Ada pekerjaan.",
+                "en": "There is work."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "仕事が忙しいです。",
+              "furigana": "しごとが いそがしいです。",
+              "romaji": "shigoto ga isogashii desu.",
+              "meanings": {
+                "id": "Pekerjaannya sibuk.",
+                "en": "Work is busy."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -15752,7 +16168,39 @@
           "meanings": {
             "en": "doctor",
             "id": "dokter"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "医者に会います。",
+              "furigana": "いしゃに あいます。",
+              "romaji": "isha ni aimasu.",
+              "meanings": {
+                "id": "Saya bertemu dokter.",
+                "en": "I meet the doctor."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "医者です。",
+              "furigana": "いしゃです。",
+              "romaji": "isha desu.",
+              "meanings": {
+                "id": "Saya dokter.",
+                "en": "I am a doctor."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "医者がいます。",
+              "furigana": "いしゃが います。",
+              "romaji": "isha ga imasu.",
+              "meanings": {
+                "id": "Ada dokter.",
+                "en": "There is a doctor."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -15762,7 +16210,39 @@
           "meanings": {
             "en": "police officer",
             "id": "polisi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "警官がいます。",
+              "furigana": "けいかんが います。",
+              "romaji": "keikan ga imasu.",
+              "meanings": {
+                "id": "Ada polisi.",
+                "en": "There is a police officer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "警官です。",
+              "furigana": "けいかんです。",
+              "romaji": "keikan desu.",
+              "meanings": {
+                "id": "Saya polisi.",
+                "en": "I am a police officer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "警官に聞きます。",
+              "furigana": "けいかんに ききます。",
+              "romaji": "keikan ni kikimasu.",
+              "meanings": {
+                "id": "Saya bertanya kepada polisi.",
+                "en": "I ask the police officer."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -15772,7 +16252,39 @@
           "meanings": {
             "en": "patrol police",
             "id": "polisi patroli"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おまわりさんがいます。",
+              "furigana": "おまわりさんが います。",
+              "romaji": "omawarisan ga imasu.",
+              "meanings": {
+                "id": "Ada polisi patroli.",
+                "en": "There is a patrol police officer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おまわりさんに聞きます。",
+              "furigana": "おまわりさんに ききます。",
+              "romaji": "omawarisan ni kikimasu.",
+              "meanings": {
+                "id": "Saya bertanya kepada polisi.",
+                "en": "I ask the police officer."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おまわりさんです。",
+              "furigana": "おまわりさんです。",
+              "romaji": "omawarisan desu.",
+              "meanings": {
+                "id": "Saya polisi patroli.",
+                "en": "I am a patrol police officer."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -15782,7 +16294,39 @@
           "meanings": {
             "en": "teacher",
             "id": "guru, pengajar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先生に聞きます。",
+              "furigana": "せんせいに ききます。",
+              "romaji": "sensei ni kikimasu.",
+              "meanings": {
+                "id": "Saya bertanya kepada guru.",
+                "en": "I ask the teacher."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "先生です。",
+              "furigana": "せんせいです。",
+              "romaji": "sensei desu.",
+              "meanings": {
+                "id": "Saya guru.",
+                "en": "I am a teacher."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "先生がいます。",
+              "furigana": "せんせいが います。",
+              "romaji": "sensei ga imasu.",
+              "meanings": {
+                "id": "Ada guru.",
+                "en": "There is a teacher."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -15792,7 +16336,39 @@
           "meanings": {
             "en": "student",
             "id": "murid"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "生徒です。",
+              "furigana": "せいとです。",
+              "romaji": "seito desu.",
+              "meanings": {
+                "id": "Saya murid.",
+                "en": "I am a student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "生徒がいます。",
+              "furigana": "せいとが います。",
+              "romaji": "seito ga imasu.",
+              "meanings": {
+                "id": "Ada murid.",
+                "en": "There is a student."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "生徒が三人います。",
+              "furigana": "せいとが さんにん います。",
+              "romaji": "seito ga sannin imasu.",
+              "meanings": {
+                "id": "Ada tiga murid.",
+                "en": "There are three students."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -15802,7 +16378,39 @@
           "meanings": {
             "en": "student",
             "id": "pelajar, mahasiswa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "学生です。",
+              "furigana": "がくせいです。",
+              "romaji": "gakusei desu.",
+              "meanings": {
+                "id": "Saya pelajar.",
+                "en": "I am a student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "学生がいます。",
+              "furigana": "がくせいが います。",
+              "romaji": "gakusei ga imasu.",
+              "meanings": {
+                "id": "Ada pelajar.",
+                "en": "There is a student."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大学生です。",
+              "furigana": "だいがくせいです。",
+              "romaji": "daigakusei desu.",
+              "meanings": {
+                "id": "Saya mahasiswa.",
+                "en": "I am a university student."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -15812,7 +16420,39 @@
           "meanings": {
             "en": "foreign student",
             "id": "pelajar asing"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "留学生です。",
+              "furigana": "りゅうがくせいです。",
+              "romaji": "ryuugakusei desu.",
+              "meanings": {
+                "id": "Saya pelajar asing.",
+                "en": "I am a foreign student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "留学生がいます。",
+              "furigana": "りゅうがくせいが います。",
+              "romaji": "ryuugakusei ga imasu.",
+              "meanings": {
+                "id": "Ada pelajar asing.",
+                "en": "There is a foreign student."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "留学生に会います。",
+              "furigana": "りゅうがくせいに あいます。",
+              "romaji": "ryuugakusei ni aimasu.",
+              "meanings": {
+                "id": "Saya bertemu pelajar asing.",
+                "en": "I meet a foreign student."
+              }
+            }
+          ]
         }
       ]
     },
