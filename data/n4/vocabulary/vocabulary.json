@@ -10193,7 +10193,39 @@
           "meanings": {
             "en": "branch",
             "id": "batang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "木の枝です。",
+              "furigana": "きの えだ です。",
+              "romaji": "ki no eda desu.",
+              "meanings": {
+                "id": "Ranting pohon.",
+                "en": "It's a tree branch."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "枝が折れました。",
+              "furigana": "えだが おれました。",
+              "romaji": "eda ga oremashita.",
+              "meanings": {
+                "id": "Rantingnya patah.",
+                "en": "The branch broke."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "枝を切ります。",
+              "furigana": "えだを きります。",
+              "romaji": "eda wo kirimasu.",
+              "meanings": {
+                "id": "Saya memotong ranting.",
+                "en": "I cut the branch."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -10203,7 +10235,39 @@
           "meanings": {
             "en": "leaf",
             "id": "daun"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "葉が落ちました。",
+              "furigana": "はが おちました。",
+              "romaji": "ha ga ochimashita.",
+              "meanings": {
+                "id": "Daunnya jatuh.",
+                "en": "The leaves fell."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "緑の葉です。",
+              "furigana": "みどりの は です。",
+              "romaji": "midori no ha desu.",
+              "meanings": {
+                "id": "Daun hijau.",
+                "en": "It's a green leaf."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "葉がきれいです。",
+              "furigana": "はが きれい です。",
+              "romaji": "ha ga kirei desu.",
+              "meanings": {
+                "id": "Daunnya cantik.",
+                "en": "The leaves are beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -10213,7 +10277,39 @@
           "meanings": {
             "en": "forest",
             "id": "hutan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "林を散歩します。",
+              "furigana": "はやしを さんぽ します。",
+              "romaji": "hayashi wo sanpo shimasu.",
+              "meanings": {
+                "id": "Saya jalan-jalan di hutan.",
+                "en": "I take a walk in the forest."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "林の中です。",
+              "furigana": "はやしの なか です。",
+              "romaji": "hayashi no naka desu.",
+              "meanings": {
+                "id": "Di dalam hutan.",
+                "en": "It's inside the forest."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大きい林があります。",
+              "furigana": "おおきい はやしが あります。",
+              "romaji": "ookii hayashi ga arimasu.",
+              "meanings": {
+                "id": "Ada hutan besar.",
+                "en": "There is a big forest."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -10223,7 +10319,39 @@
           "meanings": {
             "en": "fire",
             "id": "api"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "火をつけます。",
+              "furigana": "ひを つけます。",
+              "romaji": "hi wo tsukemasu.",
+              "meanings": {
+                "id": "Saya menyalakan api.",
+                "en": "I light a fire."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "火が消えました。",
+              "furigana": "ひが きえました。",
+              "romaji": "hi ga kiemashita.",
+              "meanings": {
+                "id": "Apinya padam.",
+                "en": "The fire went out."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "火に気をつけてください。",
+              "furigana": "ひに きを つけて ください。",
+              "romaji": "hi ni ki wo tsukete kudasai.",
+              "meanings": {
+                "id": "Tolong hati-hati dengan api.",
+                "en": "Please be careful with fire."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -10233,7 +10361,39 @@
           "meanings": {
             "en": "sun, day",
             "id": "matahari, hari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日が出ました。",
+              "furigana": "ひが でました。",
+              "romaji": "hi ga demashita.",
+              "meanings": {
+                "id": "Matahari terbit.",
+                "en": "The sun came out."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい日ですね。",
+              "furigana": "いい ひ ですね。",
+              "romaji": "ii hi desu ne.",
+              "meanings": {
+                "id": "Hari yang baik ya.",
+                "en": "It's a nice day, isn't it?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日が短いです。",
+              "furigana": "ひが みじかいです。",
+              "romaji": "hi ga mijikai desu.",
+              "meanings": {
+                "id": "Harinya pendek.",
+                "en": "The day is short."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -10243,7 +10403,39 @@
           "meanings": {
             "en": "light",
             "id": "cahaya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "光が見えます。",
+              "furigana": "ひかりが みえます。",
+              "romaji": "hikari ga miemasu.",
+              "meanings": {
+                "id": "Cahaya terlihat.",
+                "en": "I can see light."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "明るい光です。",
+              "furigana": "あかるい ひかり です。",
+              "romaji": "akarui hikari desu.",
+              "meanings": {
+                "id": "Cahaya yang terang.",
+                "en": "It's a bright light."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "光がきれいです。",
+              "furigana": "ひかりが きれい です。",
+              "romaji": "hikari ga kirei desu.",
+              "meanings": {
+                "id": "Cahayanya indah.",
+                "en": "The light is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -10253,7 +10445,39 @@
           "meanings": {
             "en": "star",
             "id": "bintang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "星が見えます。",
+              "furigana": "ほしが みえます。",
+              "romaji": "hoshi ga miemasu.",
+              "meanings": {
+                "id": "Bintang terlihat.",
+                "en": "I can see stars."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "星がきれいです。",
+              "furigana": "ほしが きれい です。",
+              "romaji": "hoshi ga kirei desu.",
+              "meanings": {
+                "id": "Bintangnya indah.",
+                "en": "The stars are beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "たくさん星があります。",
+              "furigana": "たくさん ほしが あります。",
+              "romaji": "takusan hoshi ga arimasu.",
+              "meanings": {
+                "id": "Ada banyak bintang.",
+                "en": "There are many stars."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -10263,7 +10487,39 @@
           "meanings": {
             "en": "stone",
             "id": "batu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大きい石です。",
+              "furigana": "おおきい いし です。",
+              "romaji": "ookii ishi desu.",
+              "meanings": {
+                "id": "Batu besar.",
+                "en": "It's a big stone."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "石を投げます。",
+              "furigana": "いしを なげます。",
+              "romaji": "ishi wo nagemasu.",
+              "meanings": {
+                "id": "Saya melempar batu.",
+                "en": "I throw a stone."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "石がたくさんあります。",
+              "furigana": "いしが たくさん あります。",
+              "romaji": "ishi ga takusan arimasu.",
+              "meanings": {
+                "id": "Ada banyak batu.",
+                "en": "There are many stones."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -10273,7 +10529,39 @@
           "meanings": {
             "en": "scenery",
             "id": "pemandangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "景色がきれいです。",
+              "furigana": "けしきが きれい です。",
+              "romaji": "keshiki ga kirei desu.",
+              "meanings": {
+                "id": "Pemandangannya indah.",
+                "en": "The scenery is beautiful."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "素晴らしい景色です。",
+              "furigana": "すばらしい けしき です。",
+              "romaji": "subarashii keshiki desu.",
+              "meanings": {
+                "id": "Pemandangan yang luar biasa.",
+                "en": "It's wonderful scenery."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "景色を見ます。",
+              "furigana": "けしきを みます。",
+              "romaji": "keshiki wo mimasu.",
+              "meanings": {
+                "id": "Saya melihat pemandangan.",
+                "en": "I look at the scenery."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -10283,7 +10571,39 @@
           "meanings": {
             "en": "season",
             "id": "musim"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "いい季節です。",
+              "furigana": "いい きせつ です。",
+              "romaji": "ii kisetsu desu.",
+              "meanings": {
+                "id": "Musim yang baik.",
+                "en": "It's a good season."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どの季節が好きですか。",
+              "furigana": "どの きせつが すき ですか。",
+              "romaji": "dono kisetsu ga suki desu ka.",
+              "meanings": {
+                "id": "Musim mana yang Anda suka?",
+                "en": "Which season do you like?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "季節が変わりました。",
+              "furigana": "きせつが かわりました。",
+              "romaji": "kisetsu ga kawarimashita.",
+              "meanings": {
+                "id": "Musimnya berubah.",
+                "en": "The season changed."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -10293,7 +10613,39 @@
           "meanings": {
             "en": "cloud",
             "id": "awan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "雲が多いです。",
+              "furigana": "くもが おおいです。",
+              "romaji": "kumo ga ooi desu.",
+              "meanings": {
+                "id": "Awannya banyak.",
+                "en": "There are many clouds."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "白い雲です。",
+              "furigana": "しろい くも です。",
+              "romaji": "shiroi kumo desu.",
+              "meanings": {
+                "id": "Awan putih.",
+                "en": "It's a white cloud."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "雲がありません。",
+              "furigana": "くもが ありません。",
+              "romaji": "kumo ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada awan.",
+                "en": "There are no clouds."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -10303,7 +10655,39 @@
           "meanings": {
             "en": "grass",
             "id": "rumput"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "草を切ります。",
+              "furigana": "くさを きります。",
+              "romaji": "kusa wo kirimasu.",
+              "meanings": {
+                "id": "Saya memotong rumput.",
+                "en": "I cut the grass."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "草の上に座ります。",
+              "furigana": "くさの うえに すわります。",
+              "romaji": "kusa no ue ni suwarimasu.",
+              "meanings": {
+                "id": "Saya duduk di atas rumput.",
+                "en": "I sit on the grass."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "草が生えています。",
+              "furigana": "くさが はえて います。",
+              "romaji": "kusa ga haete imasu.",
+              "meanings": {
+                "id": "Rumput tumbuh.",
+                "en": "Grass is growing."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -10313,7 +10697,39 @@
           "meanings": {
             "en": "air",
             "id": "udara"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "空気がきれいです。",
+              "furigana": "くうきが きれい です。",
+              "romaji": "kuuki ga kirei desu.",
+              "meanings": {
+                "id": "Udaranya bersih.",
+                "en": "The air is clean."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "空気がいいです。",
+              "furigana": "くうきが いいです。",
+              "romaji": "kuuki ga ii desu.",
+              "meanings": {
+                "id": "Udaranya bagus.",
+                "en": "The air is good."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "冷たい空気です。",
+              "furigana": "つめたい くうき です。",
+              "romaji": "tsumetai kuuki desu.",
+              "meanings": {
+                "id": "Udara dingin.",
+                "en": "It's cold air."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -10323,7 +10739,39 @@
           "meanings": {
             "en": "lake",
             "id": "danau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大きい湖です。",
+              "furigana": "おおきい みずうみ です。",
+              "romaji": "ookii mizuumi desu.",
+              "meanings": {
+                "id": "Danau besar.",
+                "en": "It's a big lake."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "湖で泳ぎます。",
+              "furigana": "みずうみで およぎます。",
+              "romaji": "mizuumi de oyogimasu.",
+              "meanings": {
+                "id": "Saya berenang di danau.",
+                "en": "I swim in the lake."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "湖がきれいです。",
+              "furigana": "みずうみが きれい です。",
+              "romaji": "mizuumi ga kirei desu.",
+              "meanings": {
+                "id": "Danaunya indah.",
+                "en": "The lake is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -10333,7 +10781,39 @@
           "meanings": {
             "en": "forest",
             "id": "rimba"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "森を歩きます。",
+              "furigana": "もりを あるきます。",
+              "romaji": "mori wo arukimasu.",
+              "meanings": {
+                "id": "Saya berjalan di hutan.",
+                "en": "I walk in the forest."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大きい森です。",
+              "furigana": "おおきい もり です。",
+              "romaji": "ookii mori desu.",
+              "meanings": {
+                "id": "Hutan besar.",
+                "en": "It's a big forest."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "森に行きました。",
+              "furigana": "もりに いきました。",
+              "romaji": "mori ni ikimashita.",
+              "meanings": {
+                "id": "Saya pergi ke hutan.",
+                "en": "I went to the forest."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -10343,7 +10823,39 @@
           "meanings": {
             "en": "slope, hill",
             "id": "lereng, tanjakan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "坂を上ります。",
+              "furigana": "さかを のぼります。",
+              "romaji": "saka wo noborimasu.",
+              "meanings": {
+                "id": "Saya mendaki tanjakan.",
+                "en": "I climb up the slope."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "急な坂です。",
+              "furigana": "きゅうな さか です。",
+              "romaji": "kyuu na saka desu.",
+              "meanings": {
+                "id": "Tanjakan yang curam.",
+                "en": "It's a steep slope."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "坂を下ります。",
+              "furigana": "さかを おります。",
+              "romaji": "saka wo orimasu.",
+              "meanings": {
+                "id": "Saya menuruni tanjakan.",
+                "en": "I go down the slope."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -10353,7 +10865,39 @@
           "meanings": {
             "en": "world",
             "id": "dunia"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "世界を旅行します。",
+              "furigana": "せかいを りょこう します。",
+              "romaji": "sekai wo ryokou shimasu.",
+              "meanings": {
+                "id": "Saya bepergian ke seluruh dunia.",
+                "en": "I travel the world."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "世界は広いです。",
+              "furigana": "せかいは ひろいです。",
+              "romaji": "sekai wa hiroi desu.",
+              "meanings": {
+                "id": "Dunia itu luas.",
+                "en": "The world is wide."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "世界中から来ました。",
+              "furigana": "せかいじゅうから きました。",
+              "romaji": "sekaijuu kara kimashita.",
+              "meanings": {
+                "id": "Datang dari seluruh dunia.",
+                "en": "I came from all over the world."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -10363,7 +10907,39 @@
           "meanings": {
             "en": "island",
             "id": "pulau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "小さい島です。",
+              "furigana": "ちいさい しま です。",
+              "romaji": "chiisai shima desu.",
+              "meanings": {
+                "id": "Pulau kecil.",
+                "en": "It's a small island."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "島に行きます。",
+              "furigana": "しまに いきます。",
+              "romaji": "shima ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke pulau.",
+                "en": "I go to the island."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいな島です。",
+              "furigana": "きれいな しま です。",
+              "romaji": "kirei na shima desu.",
+              "meanings": {
+                "id": "Pulau yang indah.",
+                "en": "It's a beautiful island."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -10373,7 +10949,39 @@
           "meanings": {
             "en": "sand",
             "id": "pasir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "砂で遊びます。",
+              "furigana": "すなで あそびます。",
+              "romaji": "suna de asobimasu.",
+              "meanings": {
+                "id": "Saya bermain dengan pasir.",
+                "en": "I play with sand."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "砂が熱いです。",
+              "furigana": "すなが あついです。",
+              "romaji": "suna ga atsui desu.",
+              "meanings": {
+                "id": "Pasirnya panas.",
+                "en": "The sand is hot."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "白い砂です。",
+              "furigana": "しろい すな です。",
+              "romaji": "shiroi suna desu.",
+              "meanings": {
+                "id": "Pasir putih.",
+                "en": "It's white sand."
+              }
+            }
+          ]
         },
         {
           "id": 20,
@@ -10383,7 +10991,39 @@
           "meanings": {
             "en": "weather",
             "id": "cuaca"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "天気がいいです。",
+              "furigana": "てんきが いいです。",
+              "romaji": "tenki ga ii desu.",
+              "meanings": {
+                "id": "Cuacanya bagus.",
+                "en": "The weather is good."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "天気が悪いです。",
+              "furigana": "てんきが わるいです。",
+              "romaji": "tenki ga warui desu.",
+              "meanings": {
+                "id": "Cuacanya buruk.",
+                "en": "The weather is bad."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日の天気はどうですか。",
+              "furigana": "あしたの てんきは どう ですか。",
+              "romaji": "ashita no tenki wa dou desu ka.",
+              "meanings": {
+                "id": "Bagaimana cuaca besok?",
+                "en": "How is the weather tomorrow?"
+              }
+            }
+          ]
         },
         {
           "id": 21,
@@ -10393,7 +11033,39 @@
           "meanings": {
             "en": "moon",
             "id": "bulan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "月が見えます。",
+              "furigana": "つきが みえます。",
+              "romaji": "tsuki ga miemasu.",
+              "meanings": {
+                "id": "Bulan terlihat.",
+                "en": "I can see the moon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "月がきれいです。",
+              "furigana": "つきが きれい です。",
+              "romaji": "tsuki ga kirei desu.",
+              "meanings": {
+                "id": "Bulannya indah.",
+                "en": "The moon is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "満月です。",
+              "furigana": "まんげつ です。",
+              "romaji": "mangetsu desu.",
+              "meanings": {
+                "id": "Bulan purnama.",
+                "en": "It's a full moon."
+              }
+            }
+          ]
         }
       ]
     },
@@ -10412,7 +11084,39 @@
           "meanings": {
             "en": "taste",
             "id": "rasa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "いい味です。",
+              "furigana": "いい あじ です。",
+              "romaji": "ii aji desu.",
+              "meanings": {
+                "id": "Rasanya enak.",
+                "en": "It has a good taste."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "味はどうですか。",
+              "furigana": "あじは どう ですか。",
+              "romaji": "aji wa dou desu ka.",
+              "meanings": {
+                "id": "Bagaimana rasanya?",
+                "en": "How is the taste?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "甘い味です。",
+              "furigana": "あまい あじ です。",
+              "romaji": "amai aji desu.",
+              "meanings": {
+                "id": "Rasa manis.",
+                "en": "It has a sweet taste."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -10422,7 +11126,39 @@
           "meanings": {
             "en": "grape",
             "id": "anggur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ぶどうを食べます。",
+              "furigana": "ぶどうを たべます。",
+              "romaji": "budou wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan anggur.",
+                "en": "I eat grapes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ぶどうが好きです。",
+              "furigana": "ぶどうが すき です。",
+              "romaji": "budou ga suki desu.",
+              "meanings": {
+                "id": "Saya suka anggur.",
+                "en": "I like grapes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "甘いぶどうです。",
+              "furigana": "あまい ぶどう です。",
+              "romaji": "amai budou desu.",
+              "meanings": {
+                "id": "Anggur yang manis.",
+                "en": "It's sweet grapes."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -10432,7 +11168,39 @@
           "meanings": {
             "en": "feast, treat",
             "id": "jamuan, hidangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ごちそうを作ります。",
+              "furigana": "ごちそうを つくります。",
+              "romaji": "gochisou wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat hidangan.",
+                "en": "I make a feast."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ごちそうさまでした。",
+              "furigana": "ごちそうさまでした。",
+              "romaji": "gochisousama deshita.",
+              "meanings": {
+                "id": "Terima kasih atas hidangannya.",
+                "en": "Thank you for the meal."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "美味しいごちそうです。",
+              "furigana": "おいしい ごちそう です。",
+              "romaji": "oishii gochisou desu.",
+              "meanings": {
+                "id": "Hidangan yang enak.",
+                "en": "It's a delicious feast."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -10442,7 +11210,39 @@
           "meanings": {
             "en": "jam",
             "id": "jem, selai buah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ジャムをつけます。",
+              "furigana": "ジャムを つけます。",
+              "romaji": "jyamu wo tsukemasu.",
+              "meanings": {
+                "id": "Saya mengoleskan selai.",
+                "en": "I put jam on it."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "イチゴのジャムです。",
+              "furigana": "イチゴの ジャム です。",
+              "romaji": "ichigo no jyamu desu.",
+              "meanings": {
+                "id": "Selai stroberi.",
+                "en": "It's strawberry jam."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ジャムが好きです。",
+              "furigana": "ジャムが すき です。",
+              "romaji": "jyamu ga suki desu.",
+              "meanings": {
+                "id": "Saya suka selai.",
+                "en": "I like jam."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -10452,7 +11252,39 @@
           "meanings": {
             "en": "rice",
             "id": "beras"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "米を買います。",
+              "furigana": "こめを かいます。",
+              "romaji": "kome wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli beras.",
+                "en": "I buy rice."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "米を洗います。",
+              "furigana": "こめを あらいます。",
+              "romaji": "kome wo araimasu.",
+              "meanings": {
+                "id": "Saya mencuci beras.",
+                "en": "I wash rice."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "米がありません。",
+              "furigana": "こめが ありません。",
+              "romaji": "kome ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada beras.",
+                "en": "There is no rice."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -10462,7 +11294,39 @@
           "meanings": {
             "en": "cake",
             "id": "kue"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ケーキを食べます。",
+              "furigana": "ケーキを たべます。",
+              "romaji": "keki wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan kue.",
+                "en": "I eat cake."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ケーキを作ります。",
+              "furigana": "ケーキを つくります。",
+              "romaji": "keki wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat kue.",
+                "en": "I make a cake."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "美味しいケーキです。",
+              "furigana": "おいしい ケーキ です。",
+              "romaji": "oishii keki desu.",
+              "meanings": {
+                "id": "Kue yang enak.",
+                "en": "It's a delicious cake."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -10472,7 +11336,39 @@
           "meanings": {
             "en": "miso",
             "id": "sup tauco"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "味噌汁を飲みます。",
+              "furigana": "みそしるを のみます。",
+              "romaji": "misoshiru wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum sup miso.",
+                "en": "I drink miso soup."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "味噌が好きです。",
+              "furigana": "みそが すき です。",
+              "romaji": "miso ga suki desu.",
+              "meanings": {
+                "id": "Saya suka miso.",
+                "en": "I like miso."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "味噌を使います。",
+              "furigana": "みそを つかいます。",
+              "romaji": "miso wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan miso.",
+                "en": "I use miso."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -10482,7 +11378,39 @@
           "meanings": {
             "en": "smell, aroma",
             "id": "aroma, bau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "いいにおいです。",
+              "furigana": "いい におい です。",
+              "romaji": "ii nioi desu.",
+              "meanings": {
+                "id": "Bau yang enak.",
+                "en": "It's a good smell."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "においがします。",
+              "furigana": "においが します。",
+              "romaji": "nioi ga shimasu.",
+              "meanings": {
+                "id": "Ada bau.",
+                "en": "There is a smell."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "花のにおいです。",
+              "furigana": "はなの におい です。",
+              "romaji": "hana no nioi desu.",
+              "meanings": {
+                "id": "Bau bunga.",
+                "en": "It's the smell of flowers."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -10492,7 +11420,39 @@
           "meanings": {
             "en": "sandwich",
             "id": "sandwich, roti lapis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "サンドイッチを食べます。",
+              "furigana": "サンドイッチを たべます。",
+              "romaji": "sandoicchi wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan sandwich.",
+                "en": "I eat a sandwich."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "サンドイッチを作ります。",
+              "furigana": "サンドイッチを つくります。",
+              "romaji": "sandoicchi wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat sandwich.",
+                "en": "I make a sandwich."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "美味しいサンドイッチです。",
+              "furigana": "おいしい サンドイッチ です。",
+              "romaji": "oishii sandoicchi desu.",
+              "meanings": {
+                "id": "Sandwich yang enak.",
+                "en": "It's a delicious sandwich."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -10502,7 +11462,39 @@
           "meanings": {
             "en": "salad",
             "id": "salad"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "サラダを食べます。",
+              "furigana": "サラダを たべます。",
+              "romaji": "sarada wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan salad.",
+                "en": "I eat salad."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "サラダを作ります。",
+              "furigana": "サラダを つくります。",
+              "romaji": "sarada wo tsukurimasu.",
+              "meanings": {
+                "id": "Saya membuat salad.",
+                "en": "I make a salad."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新鮮なサラダです。",
+              "furigana": "しんせんな サラダ です。",
+              "romaji": "shinsen na sarada desu.",
+              "meanings": {
+                "id": "Salad yang segar.",
+                "en": "It's a fresh salad."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -10512,7 +11504,39 @@
           "meanings": {
             "en": "meal",
             "id": "makanan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "食事をします。",
+              "furigana": "しょくじを します。",
+              "romaji": "shokuji wo shimasu.",
+              "meanings": {
+                "id": "Saya makan.",
+                "en": "I have a meal."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "食事の時間です。",
+              "furigana": "しょくじの じかん です。",
+              "romaji": "shokuji no jikan desu.",
+              "meanings": {
+                "id": "Waktu makan.",
+                "en": "It's mealtime."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "美味しい食事でした。",
+              "furigana": "おいしい しょくじ でした。",
+              "romaji": "oishii shokuji deshita.",
+              "meanings": {
+                "id": "Makanan yang enak.",
+                "en": "It was a delicious meal."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -10522,7 +11546,39 @@
           "meanings": {
             "en": "foodstuff",
             "id": "bahan makanan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "食料品を買います。",
+              "furigana": "しょくりょうひんを かいます。",
+              "romaji": "shokuryouhin wo kaimasu.",
+              "meanings": {
+                "id": "Saya membeli bahan makanan.",
+                "en": "I buy groceries."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "食料品売り場です。",
+              "furigana": "しょくりょうひん うりば です。",
+              "romaji": "shokuryouhin uriba desu.",
+              "meanings": {
+                "id": "Area penjualan bahan makanan.",
+                "en": "It's the grocery section."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "食料品が必要です。",
+              "furigana": "しょくりょうひんが ひつよう です。",
+              "romaji": "shokuryouhin ga hitsuyou desu.",
+              "meanings": {
+                "id": "Bahan makanan diperlukan.",
+                "en": "Groceries are needed."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -10532,7 +11588,39 @@
           "meanings": {
             "en": "steak",
             "id": "steak, daging panggang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ステーキを食べます。",
+              "furigana": "ステーキを たべます。",
+              "romaji": "suteki wo tabemasu.",
+              "meanings": {
+                "id": "Saya makan steak.",
+                "en": "I eat steak."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ステーキを焼きます。",
+              "furigana": "ステーキを やきます。",
+              "romaji": "suteki wo yakimasu.",
+              "meanings": {
+                "id": "Saya memanggang steak.",
+                "en": "I grill steak."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "美味しいステーキです。",
+              "furigana": "おいしい ステーキ です。",
+              "romaji": "oishii suteki desu.",
+              "meanings": {
+                "id": "Steak yang enak.",
+                "en": "It's a delicious steak."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -10542,7 +11630,39 @@
           "meanings": {
             "en": "hot water",
             "id": "air panas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "湯を沸かします。",
+              "furigana": "ゆを わかします。",
+              "romaji": "yu wo wakashimasu.",
+              "meanings": {
+                "id": "Saya mendidihkan air.",
+                "en": "I boil water."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "熱い湯です。",
+              "furigana": "あつい ゆ です。",
+              "romaji": "atsui yu desu.",
+              "meanings": {
+                "id": "Air panas.",
+                "en": "It's hot water."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "湯を使います。",
+              "furigana": "ゆを つかいます。",
+              "romaji": "yu wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan air panas.",
+                "en": "I use hot water."
+              }
+            }
+          ]
         }
       ]
     },
