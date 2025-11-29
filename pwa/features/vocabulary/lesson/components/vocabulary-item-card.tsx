@@ -86,12 +86,12 @@ export function VocabularyItemCard({
 
       // Add highlighted match
       result.push(
-        <span 
+        <span
           key={`${searchIndex}-${targetWord}`}
           className={cn(
             "font-bold transition-colors rounded px-0.5",
-            isSelected 
-              ? "text-primary bg-primary/20" 
+            isSelected
+              ? "text-primary bg-primary/20"
               : "text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/30"
           )}
         >
@@ -232,13 +232,29 @@ export function VocabularyItemCard({
                     {/* Sentence */}
                     {displayOptions.japanese && (
                       <div className="text-sm font-bold text-foreground leading-relaxed">
-                        {highlightMatchingCharacters(example.sentence, vocabulary.kanji)}
+                        {highlightMatchingCharacters(
+                          example.sentence,
+                          vocabulary.kanji
+                        )}
                       </div>
                     )}
                     {/* Furigana */}
                     {displayOptions.hiragana && (
                       <div className="text-[10px] text-muted-foreground font-normal leading-relaxed">
-                        {highlightMatchingCharacters(example.furigana, vocabulary.hiragana)}
+                        {highlightMatchingCharacters(
+                          example.furigana,
+                          vocabulary.hiragana
+                        )}
+                      </div>
+                    )}
+
+                    {/* Romaji */}
+                    {displayOptions.romanji && (
+                      <div className="text-xs text-muted-foreground font-medium leading-relaxed">
+                        {highlightMatchingCharacters(
+                          example.romaji,
+                          vocabulary.romaji
+                        )}
                       </div>
                     )}
 
@@ -246,15 +262,14 @@ export function VocabularyItemCard({
                     {displayOptions.meaning && (
                       <div className="text-xs text-foreground/90 font-semibold leading-relaxed">
                         {language === "en"
-                          ? highlightMatchingCharacters(example.meanings.en, vocabulary.meanings.en)
-                          : highlightMatchingCharacters(example.meanings.id, vocabulary.meanings.id)}
-                      </div>
-                    )}
-
-                    {/* Romaji */}
-                    {displayOptions.romanji && (
-                      <div className="text-xs text-muted-foreground font-medium leading-relaxed">
-                        {highlightMatchingCharacters(example.romaji, vocabulary.romaji)}
+                          ? highlightMatchingCharacters(
+                              example.meanings.en,
+                              vocabulary.meanings.en
+                            )
+                          : highlightMatchingCharacters(
+                              example.meanings.id,
+                              vocabulary.meanings.id
+                            )}
                       </div>
                     )}
                   </div>
