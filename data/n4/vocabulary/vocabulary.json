@@ -14633,7 +14633,39 @@
           "meanings": {
             "en": "culture",
             "id": "kebudayaan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日本の文化です。",
+              "furigana": "にほんの ぶんか です。",
+              "romaji": "nihon no bunka desu.",
+              "meanings": {
+                "id": "Kebudayaan Jepang.",
+                "en": "It's Japanese culture."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "文化を勉強します。",
+              "furigana": "ぶんかを べんきょう します。",
+              "romaji": "bunka wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya mempelajari kebudayaan.",
+                "en": "I study culture."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "文化が違います。",
+              "furigana": "ぶんかが ちがいます。",
+              "romaji": "bunka ga chigaimasu.",
+              "meanings": {
+                "id": "Kebudayaannya berbeda.",
+                "en": "The culture is different."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -14643,7 +14675,39 @@
           "meanings": {
             "en": "to pray",
             "id": "berdoa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "神社で祈ります。",
+              "furigana": "じんじゃで いのります。",
+              "romaji": "jinjya de inorimasu.",
+              "meanings": {
+                "id": "Saya berdoa di kuil.",
+                "en": "I pray at the shrine."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎日祈ります。",
+              "furigana": "まいにち いのります。",
+              "romaji": "mainichi inorimasu.",
+              "meanings": {
+                "id": "Saya berdoa setiap hari.",
+                "en": "I pray every day."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "幸せを祈ります。",
+              "furigana": "しあわせを いのります。",
+              "romaji": "shiawase wo inorimasu.",
+              "meanings": {
+                "id": "Saya mendoakan kebahagiaan.",
+                "en": "I pray for happiness."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -14653,7 +14717,39 @@
           "meanings": {
             "en": "church",
             "id": "gereja"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "教会に行きます。",
+              "furigana": "きょうかいに いきます。",
+              "romaji": "kyoukai ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke gereja.",
+                "en": "I go to church."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "教会で祈ります。",
+              "furigana": "きょうかいで いのります。",
+              "romaji": "kyoukai de inorimasu.",
+              "meanings": {
+                "id": "Saya berdoa di gereja.",
+                "en": "I pray at church."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいな教会です。",
+              "furigana": "きれいな きょうかい です。",
+              "romaji": "kirei na kyoukai desu.",
+              "meanings": {
+                "id": "Gereja yang indah.",
+                "en": "It's a beautiful church."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -14663,7 +14759,39 @@
           "meanings": {
             "en": "history",
             "id": "sejarah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "歴史を勉強します。",
+              "furigana": "れきしを べんきょう します。",
+              "romaji": "rekishi wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar sejarah.",
+                "en": "I study history."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "歴史が好きです。",
+              "furigana": "れきしが すき です。",
+              "romaji": "rekishi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka sejarah.",
+                "en": "I like history."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日本の歴史です。",
+              "furigana": "にほんの れきし です。",
+              "romaji": "nihon no rekishi desu.",
+              "meanings": {
+                "id": "Sejarah Jepang.",
+                "en": "It's Japanese history."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -14673,7 +14801,39 @@
           "meanings": {
             "en": "the West",
             "id": "negara barat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "西洋の文化です。",
+              "furigana": "せいようの ぶんか です。",
+              "romaji": "seiyou no bunka desu.",
+              "meanings": {
+                "id": "Budaya barat.",
+                "en": "It's Western culture."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "西洋から来ました。",
+              "furigana": "せいようから きました。",
+              "romaji": "seiyou kara kimashita.",
+              "meanings": {
+                "id": "Datang dari barat.",
+                "en": "It came from the West."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "西洋の料理です。",
+              "furigana": "せいようの りょうり です。",
+              "romaji": "seiyou no ryouri desu.",
+              "meanings": {
+                "id": "Masakan barat.",
+                "en": "It's Western cuisine."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -14683,7 +14843,39 @@
           "meanings": {
             "en": "way, method",
             "id": "cara, upaya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "仕方を教えます。",
+              "furigana": "しかたを おしえます。",
+              "romaji": "shikata wo oshiemasu.",
+              "meanings": {
+                "id": "Saya mengajarkan caranya.",
+                "en": "I teach the way."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい仕方です。",
+              "furigana": "いい しかた です。",
+              "romaji": "ii shikata desu.",
+              "meanings": {
+                "id": "Cara yang bagus.",
+                "en": "It's a good way."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "仕方がありません。",
+              "furigana": "しかたが ありません。",
+              "romaji": "shikata ga arimasen.",
+              "meanings": {
+                "id": "Tidak ada cara lain.",
+                "en": "There's no other way."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -14693,7 +14885,39 @@
           "meanings": {
             "en": "custom, habit",
             "id": "kebiasaan, adat-istiadat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日本の習慣です。",
+              "furigana": "にほんの しゅうかん です。",
+              "romaji": "nihon no shuukan desu.",
+              "meanings": {
+                "id": "Kebiasaan Jepang.",
+                "en": "It's a Japanese custom."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "習慣が違います。",
+              "furigana": "しゅうかんが ちがいます。",
+              "romaji": "shuukan ga chigaimasu.",
+              "meanings": {
+                "id": "Kebiasaannya berbeda.",
+                "en": "The customs are different."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いい習慣です。",
+              "furigana": "いい しゅうかん です。",
+              "romaji": "ii shuukan desu.",
+              "meanings": {
+                "id": "Kebiasaan yang baik.",
+                "en": "It's a good habit."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -14703,7 +14927,39 @@
           "meanings": {
             "en": "temple",
             "id": "vihara, kuil"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "寺に行きます。",
+              "furigana": "てらに いきます。",
+              "romaji": "tera ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kuil.",
+                "en": "I go to the temple."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "古い寺です。",
+              "furigana": "ふるい てら です。",
+              "romaji": "furui tera desu.",
+              "meanings": {
+                "id": "Kuil tua.",
+                "en": "It's an old temple."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "寺を見物しました。",
+              "furigana": "てらを けんぶつ しました。",
+              "romaji": "tera wo kenbutsu shimashita.",
+              "meanings": {
+                "id": "Saya mengunjungi kuil.",
+                "en": "I visited the temple."
+              }
+            }
+          ]
         }
       ]
     },
@@ -14722,7 +14978,39 @@
           "meanings": {
             "en": "alcohol",
             "id": "alkohol"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "アルコールを飲みます。",
+              "furigana": "アルコールを のみます。",
+              "romaji": "arukooru wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum alkohol.",
+                "en": "I drink alcohol."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "アルコールが好きです。",
+              "furigana": "アルコールが すき です。",
+              "romaji": "arukooru ga suki desu.",
+              "meanings": {
+                "id": "Saya suka alkohol.",
+                "en": "I like alcohol."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アルコールは飲みません。",
+              "furigana": "アルコールは のみません。",
+              "romaji": "arukooru wa nomimasen.",
+              "meanings": {
+                "id": "Saya tidak minum alkohol.",
+                "en": "I don't drink alcohol."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -14732,7 +15020,39 @@
           "meanings": {
             "en": "cherry blossom viewing",
             "id": "menikmati musim bunga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "花見に行きます。",
+              "furigana": "はなみに いきます。",
+              "romaji": "hanami ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi melihat bunga sakura.",
+                "en": "I go to see cherry blossoms."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "花見が楽しみです。",
+              "furigana": "はなみが たのしみ です。",
+              "romaji": "hanami ga tanoshimi desu.",
+              "meanings": {
+                "id": "Saya menantikan acara melihat bunga sakura.",
+                "en": "I'm looking forward to cherry blossom viewing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "花見をしました。",
+              "furigana": "はなみを しました。",
+              "romaji": "hanami wo shimashita.",
+              "meanings": {
+                "id": "Saya melihat bunga sakura.",
+                "en": "I did cherry blossom viewing."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -14742,7 +15062,39 @@
           "meanings": {
             "en": "Shinto shrine",
             "id": "kuil Shinto"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "神社に行きます。",
+              "furigana": "じんじゃに いきます。",
+              "romaji": "jinjya ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke kuil Shinto.",
+                "en": "I go to the Shinto shrine."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "神社で祈ります。",
+              "furigana": "じんじゃで いのります。",
+              "romaji": "jinjya de inorimasu.",
+              "meanings": {
+                "id": "Saya berdoa di kuil Shinto.",
+                "en": "I pray at the Shinto shrine."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいな神社です。",
+              "furigana": "きれいな じんじゃ です。",
+              "romaji": "kireina jinjya desu.",
+              "meanings": {
+                "id": "Kuil Shinto yang indah.",
+                "en": "It's a beautiful Shinto shrine."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -14752,7 +15104,39 @@
           "meanings": {
             "en": "celebration, congratulation",
             "id": "perayaan, ucapan selamat"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お祝いをします。",
+              "furigana": "おいわいを します。",
+              "romaji": "oiwai wo shimasu.",
+              "meanings": {
+                "id": "Saya merayakan.",
+                "en": "I celebrate."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お祝いをもらいました。",
+              "furigana": "おいわいを もらいました。",
+              "romaji": "oiwai wo moraimashita.",
+              "meanings": {
+                "id": "Saya menerima ucapan selamat.",
+                "en": "I received congratulations."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "誕生日のお祝いです。",
+              "furigana": "たんじょうびの おいわい です。",
+              "romaji": "tanjoubi no oiwai desu.",
+              "meanings": {
+                "id": "Perayaan ulang tahun.",
+                "en": "It's a birthday celebration."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -14762,7 +15146,39 @@
           "meanings": {
             "en": "gift, present",
             "id": "pemberian, hadiah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "贈り物をあげます。",
+              "furigana": "おくりものを あげます。",
+              "romaji": "okurimono wo agemasu.",
+              "meanings": {
+                "id": "Saya memberi hadiah.",
+                "en": "I give a gift."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "贈り物をもらいました。",
+              "furigana": "おくりものを もらいました。",
+              "romaji": "okurimono wo moraimashita.",
+              "meanings": {
+                "id": "Saya menerima hadiah.",
+                "en": "I received a gift."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "きれいな贈り物です。",
+              "furigana": "きれいな おくりもの です。",
+              "romaji": "kireina okurimono desu.",
+              "meanings": {
+                "id": "Hadiah yang indah.",
+                "en": "It's a beautiful gift."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -14772,7 +15188,39 @@
           "meanings": {
             "en": "festival",
             "id": "festival"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お祭りに行きます。",
+              "furigana": "おまつりに いきます。",
+              "romaji": "omatsuri ni ikimasu.",
+              "meanings": {
+                "id": "Saya pergi ke festival.",
+                "en": "I go to the festival."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お祭りが楽しいです。",
+              "furigana": "おまつりが たのしい です。",
+              "romaji": "omatsuri ga tanoshii desu.",
+              "meanings": {
+                "id": "Festival itu menyenangkan.",
+                "en": "The festival is fun."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "夏のお祭りです。",
+              "furigana": "なつの おまつり です。",
+              "romaji": "natsu no omatsuri desu.",
+              "meanings": {
+                "id": "Festival musim panas.",
+                "en": "It's a summer festival."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -14782,7 +15230,39 @@
           "meanings": {
             "en": "present, gift",
             "id": "hadiah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "プレゼントをあげます。",
+              "furigana": "プレゼントを あげます。",
+              "romaji": "purezento wo agemasu.",
+              "meanings": {
+                "id": "Saya memberi hadiah.",
+                "en": "I give a present."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "プレゼントをもらいました。",
+              "furigana": "プレゼントを もらいました。",
+              "romaji": "purezento wo moraimashita.",
+              "meanings": {
+                "id": "Saya menerima hadiah.",
+                "en": "I received a present."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "誕生日のプレゼントです。",
+              "furigana": "たんじょうびの プレゼント です。",
+              "romaji": "tanjoubi no purezento desu.",
+              "meanings": {
+                "id": "Hadiah ulang tahun.",
+                "en": "It's a birthday present."
+              }
+            }
+          ]
         }
       ]
     },
