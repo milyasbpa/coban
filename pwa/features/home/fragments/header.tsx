@@ -52,10 +52,10 @@ export function Header() {
               <ThemeToggleButton />
               <button
                 onClick={handleLogin}
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-muted hover:bg-accent transition-colors focus:outline-none focus:ring-2 focus:ring-ring"
+                className="flex h-8 w-8 items-center justify-center rounded-full bg-muted hover:bg-accent transition-colors focus:outline-none focus:ring-2 focus:ring-ring"
                 aria-label="Login"
               >
-                <User className="h-5 w-5 text-muted-foreground" />
+                <User className="h-4 w-4 text-muted-foreground" />
               </button>
             </>
           )}

@@ -30,7 +30,7 @@ export function Avatar({ email, className }: AvatarProps) {
   return (
     <AvatarPrimitive.Root
       className={cn(
-        "relative flex h-9 w-9 shrink-0 overflow-hidden rounded-full bg-primary",
+        "relative flex h-8 w-8 shrink-0 overflow-hidden rounded-full bg-primary",
         className
       )}
     >
