@@ -15049,7 +15049,39 @@
           "meanings": {
             "en": "plate",
             "id": "piring"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お皿を洗います。",
+              "furigana": "おさらを あらいます。",
+              "romaji": "osara wo araimasu.",
+              "meanings": {
+                "id": "Saya mencuci piring.",
+                "en": "I wash the plates."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お皿があります。",
+              "furigana": "おさらが あります。",
+              "romaji": "osara ga arimasu.",
+              "meanings": {
+                "id": "Ada piring.",
+                "en": "There is a plate."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お皿にのせます。",
+              "furigana": "おさらに のせます。",
+              "romaji": "osara ni nosemasu.",
+              "meanings": {
+                "id": "Saya menaruh di piring.",
+                "en": "I put it on the plate."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -15059,7 +15091,39 @@
           "meanings": {
             "en": "spoon",
             "id": "sendok"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "スプーンで食べます。",
+              "furigana": "すぷーんで たべます。",
+              "romaji": "supūn de tabemasu.",
+              "meanings": {
+                "id": "Saya makan dengan sendok.",
+                "en": "I eat with a spoon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "スプーンがあります。",
+              "furigana": "すぷーんが あります。",
+              "romaji": "supūn ga arimasu.",
+              "meanings": {
+                "id": "Ada sendok.",
+                "en": "There is a spoon."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "スプーンをください。",
+              "furigana": "すぷーんを ください。",
+              "romaji": "supūn wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan sendok.",
+                "en": "Please give me a spoon."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -15069,7 +15133,39 @@
           "meanings": {
             "en": "fork",
             "id": "garpu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "フォークで食べます。",
+              "furigana": "ふぉーくで たべます。",
+              "romaji": "fōku de tabemasu.",
+              "meanings": {
+                "id": "Saya makan dengan garpu.",
+                "en": "I eat with a fork."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "フォークがあります。",
+              "furigana": "ふぉーくが あります。",
+              "romaji": "fōku ga arimasu.",
+              "meanings": {
+                "id": "Ada garpu.",
+                "en": "There is a fork."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "フォークをください。",
+              "furigana": "ふぉーくを ください。",
+              "romaji": "fōku wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan garpu.",
+                "en": "Please give me a fork."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -15079,7 +15175,39 @@
           "meanings": {
             "en": "knife",
             "id": "pisau"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ナイフで切ります。",
+              "furigana": "ないふで きります。",
+              "romaji": "naifu de kirimasu.",
+              "meanings": {
+                "id": "Saya memotong dengan pisau.",
+                "en": "I cut with a knife."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ナイフがあります。",
+              "furigana": "ないふが あります。",
+              "romaji": "naifu ga arimasu.",
+              "meanings": {
+                "id": "Ada pisau.",
+                "en": "There is a knife."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ナイフをください。",
+              "furigana": "ないふを ください。",
+              "romaji": "naifu wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan pisau.",
+                "en": "Please give me a knife."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -15089,7 +15217,39 @@
           "meanings": {
             "en": "rice bowl",
             "id": "mangkuk nasi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お茶碗にご飯を入れます。",
+              "furigana": "おちゃわんに ごはんを いれます。",
+              "romaji": "ochawan ni gohan wo iremasu.",
+              "meanings": {
+                "id": "Saya menaruh nasi di mangkuk.",
+                "en": "I put rice in the bowl."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お茶碗があります。",
+              "furigana": "おちゃわんが あります。",
+              "romaji": "ochawan ga arimasu.",
+              "meanings": {
+                "id": "Ada mangkuk nasi.",
+                "en": "There is a rice bowl."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お茶碗を洗います。",
+              "furigana": "おちゃわんを あらいます。",
+              "romaji": "ochawan wo araimasu.",
+              "meanings": {
+                "id": "Saya mencuci mangkuk nasi.",
+                "en": "I wash the rice bowl."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -15099,7 +15259,39 @@
           "meanings": {
             "en": "chopsticks",
             "id": "sumpit"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お箸で食べます。",
+              "furigana": "おはしで たべます。",
+              "romaji": "ohashi de tabemasu.",
+              "meanings": {
+                "id": "Saya makan dengan sumpit.",
+                "en": "I eat with chopsticks."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "お箸があります。",
+              "furigana": "おはしが あります。",
+              "romaji": "ohashi ga arimasu.",
+              "meanings": {
+                "id": "Ada sumpit.",
+                "en": "There are chopsticks."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "お箸をください。",
+              "furigana": "おはしを ください。",
+              "romaji": "ohashi wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan sumpit.",
+                "en": "Please give me chopsticks."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -15109,7 +15301,39 @@
           "meanings": {
             "en": "glass",
             "id": "gelas"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "コップで水を飲みます。",
+              "furigana": "こっぷで みずを のみます。",
+              "romaji": "koppu de mizu wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum air dengan gelas.",
+                "en": "I drink water from a glass."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "コップがあります。",
+              "furigana": "こっぷが あります。",
+              "romaji": "koppu ga arimasu.",
+              "meanings": {
+                "id": "Ada gelas.",
+                "en": "There is a glass."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "コップを洗います。",
+              "furigana": "こっぷを あらいます。",
+              "romaji": "koppu wo araimasu.",
+              "meanings": {
+                "id": "Saya mencuci gelas.",
+                "en": "I wash the glass."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -15119,7 +15343,39 @@
           "meanings": {
             "en": "cup",
             "id": "cangkir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "カップでコーヒーを飲みます。",
+              "furigana": "かっぷで こーひーを のみます。",
+              "romaji": "kappu de kōhī wo nomimasu.",
+              "meanings": {
+                "id": "Saya minum kopi dengan cangkir.",
+                "en": "I drink coffee from a cup."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "カップがあります。",
+              "furigana": "かっぷが あります。",
+              "romaji": "kappu ga arimasu.",
+              "meanings": {
+                "id": "Ada cangkir.",
+                "en": "There is a cup."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "カップを洗います。",
+              "furigana": "かっぷを あらいます。",
+              "romaji": "kappu wo araimasu.",
+              "meanings": {
+                "id": "Saya mencuci cangkir.",
+                "en": "I wash the cup."
+              }
+            }
+          ]
         }
       ]
     },
@@ -15138,7 +15394,39 @@
           "meanings": {
             "en": "sugar",
             "id": "gula pasir"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "砂糖を入れます。",
+              "furigana": "さとうを いれます。",
+              "romaji": "satou wo iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan gula.",
+                "en": "I put in sugar."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "砂糖があります。",
+              "furigana": "さとうが あります。",
+              "romaji": "satou ga arimasu.",
+              "meanings": {
+                "id": "Ada gula.",
+                "en": "There is sugar."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "砂糖をください。",
+              "furigana": "さとうを ください。",
+              "romaji": "satou wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan gulanya.",
+                "en": "Please give me the sugar."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -15148,7 +15436,39 @@
           "meanings": {
             "en": "salt",
             "id": "garam"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "塩を入れます。",
+              "furigana": "しおを いれます。",
+              "romaji": "shio wo iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan garam.",
+                "en": "I put in salt."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "塩があります。",
+              "furigana": "しおが あります。",
+              "romaji": "shio ga arimasu.",
+              "meanings": {
+                "id": "Ada garam.",
+                "en": "There is salt."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "塩をください。",
+              "furigana": "しおを ください。",
+              "romaji": "shio wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan garamnya.",
+                "en": "Please give me the salt."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -15158,7 +15478,39 @@
           "meanings": {
             "en": "pepper",
             "id": "lada, merica"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "こしょうを入れます。",
+              "furigana": "こしょうを いれます。",
+              "romaji": "koshou wo iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan lada.",
+                "en": "I put in pepper."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "こしょうがあります。",
+              "furigana": "こしょうが あります。",
+              "romaji": "koshou ga arimasu.",
+              "meanings": {
+                "id": "Ada lada.",
+                "en": "There is pepper."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "こしょうをください。",
+              "furigana": "こしょうを ください。",
+              "romaji": "koshou wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan ladanya.",
+                "en": "Please give me the pepper."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -15168,7 +15520,39 @@
           "meanings": {
             "en": "soy sauce",
             "id": "kecap asin"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "しょうゆをかけます。",
+              "furigana": "しょうゆを かけます。",
+              "romaji": "shouyu wo kakemasu.",
+              "meanings": {
+                "id": "Saya menuangkan kecap asin.",
+                "en": "I pour soy sauce."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "しょうゆがあります。",
+              "furigana": "しょうゆが あります。",
+              "romaji": "shouyu ga arimasu.",
+              "meanings": {
+                "id": "Ada kecap asin.",
+                "en": "There is soy sauce."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "しょうゆをください。",
+              "furigana": "しょうゆを ください。",
+              "romaji": "shouyu wo kudasai.",
+              "meanings": {
+                "id": "Tolong berikan kecap asinnya.",
+                "en": "Please give me the soy sauce."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -15178,7 +15562,39 @@
           "meanings": {
             "en": "seasoning",
             "id": "bumbu dapur"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ちょうみりょうを使います。",
+              "furigana": "ちょうみりょうを つかいます。",
+              "romaji": "choumiryou wo tsukaimasu.",
+              "meanings": {
+                "id": "Saya menggunakan bumbu.",
+                "en": "I use seasoning."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ちょうみりょうがあります。",
+              "furigana": "ちょうみりょうが あります。",
+              "romaji": "choumiryou ga arimasu.",
+              "meanings": {
+                "id": "Ada bumbu dapur.",
+                "en": "There is seasoning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ちょうみりょうを入れます。",
+              "furigana": "ちょうみりょうを いれます。",
+              "romaji": "choumiryou wo iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan bumbu.",
+                "en": "I put in seasoning."
+              }
+            }
+          ]
         }
       ]
     },
