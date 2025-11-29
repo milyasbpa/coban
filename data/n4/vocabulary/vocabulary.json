@@ -5795,7 +5795,39 @@
           "meanings": {
             "en": "trade",
             "id": "perdagangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "貿易の仕事をしています。",
+              "furigana": "ぼうえきの しごとを して います。",
+              "romaji": "boueki no shigoto wo shite imasu.",
+              "meanings": {
+                "id": "Bekerja di bidang perdagangan.",
+                "en": "I work in trade."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "貿易会社で働きます。",
+              "furigana": "ぼうえき がいしゃで はたらきます。",
+              "romaji": "boueki gaisha de hatarakimasu.",
+              "meanings": {
+                "id": "Bekerja di perusahaan perdagangan.",
+                "en": "I work at a trading company."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "貿易について勉強します。",
+              "furigana": "ぼうえきに ついて べんきょう します。",
+              "romaji": "boueki ni tsuite benkyou shimasu.",
+              "meanings": {
+                "id": "Belajar tentang perdagangan.",
+                "en": "I study about trade."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -5805,7 +5837,39 @@
           "meanings": {
             "en": "telegram",
             "id": "telegram"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "電報を送ります。",
+              "furigana": "でんぽうを おくります。",
+              "romaji": "denpou wo okurimasu.",
+              "meanings": {
+                "id": "Mengirim telegram.",
+                "en": "I send a telegram."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電報が届きました。",
+              "furigana": "でんぽうが とどきました。",
+              "romaji": "denpou ga todokimashita.",
+              "meanings": {
+                "id": "Telegram tiba.",
+                "en": "A telegram arrived."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "電報を受け取りました。",
+              "furigana": "でんぽうを うけとりました。",
+              "romaji": "denpou wo uketori mashita.",
+              "meanings": {
+                "id": "Menerima telegram.",
+                "en": "I received a telegram."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -5815,7 +5879,39 @@
           "meanings": {
             "en": "fax",
             "id": "faksimili"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ファックスを送りました。",
+              "furigana": "ファックスを おくりました。",
+              "romaji": "fakkusu wo okurimashita.",
+              "meanings": {
+                "id": "Mengirim faks.",
+                "en": "I sent a fax."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ファックスが来ました。",
+              "furigana": "ファックスが きました。",
+              "romaji": "fakkusu ga kimashita.",
+              "meanings": {
+                "id": "Faks datang.",
+                "en": "A fax came."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ファックスで送ってください。",
+              "furigana": "ファックスで おくって ください。",
+              "romaji": "fakkusu de okutte kudasai.",
+              "meanings": {
+                "id": "Tolong kirim dengan faks.",
+                "en": "Please send it by fax."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -5825,7 +5921,39 @@
           "meanings": {
             "en": "office",
             "id": "tata-usaha, kantor"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "事務所に電話します。",
+              "furigana": "じむしょに でんわ します。",
+              "romaji": "jimusho ni denwa shimasu.",
+              "meanings": {
+                "id": "Menelepon ke kantor.",
+                "en": "I call the office."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "事務所で働いています。",
+              "furigana": "じむしょで はたらいて います。",
+              "romaji": "jimusho de hataraite imasu.",
+              "meanings": {
+                "id": "Bekerja di kantor.",
+                "en": "I work at the office."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "事務所は二階です。",
+              "furigana": "じむしょは にかい です。",
+              "romaji": "jimusho wa nikai desu.",
+              "meanings": {
+                "id": "Kantor ada di lantai dua.",
+                "en": "The office is on the second floor."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -5835,7 +5963,39 @@
           "meanings": {
             "en": "meeting, conference",
             "id": "rapat, pertemuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "会議があります。",
+              "furigana": "かいぎが あります。",
+              "romaji": "kaigi ga arimasu.",
+              "meanings": {
+                "id": "Ada rapat.",
+                "en": "There is a meeting."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "会議に出ます。",
+              "furigana": "かいぎに でます。",
+              "romaji": "kaigi ni demasu.",
+              "meanings": {
+                "id": "Menghadiri rapat.",
+                "en": "I attend the meeting."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "会議は三時からです。",
+              "furigana": "かいぎは さんじ からです。",
+              "romaji": "kaigi wa sanji kara desu.",
+              "meanings": {
+                "id": "Rapat mulai jam tiga.",
+                "en": "The meeting starts at three o'clock."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -5845,7 +6005,39 @@
           "meanings": {
             "en": "meeting room",
             "id": "ruang rapat/pertemuan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "会議室はどこですか。",
+              "furigana": "かいぎしつは どこですか。",
+              "romaji": "kaigishitsu wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana ruang rapat?",
+                "en": "Where is the meeting room?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "会議室で待っています。",
+              "furigana": "かいぎしつで まって います。",
+              "romaji": "kaigishitsu de matte imasu.",
+              "meanings": {
+                "id": "Menunggu di ruang rapat.",
+                "en": "I'm waiting in the meeting room."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "会議室に集まります。",
+              "furigana": "かいぎしつに あつまります。",
+              "romaji": "kaigishitsu ni atsumarimasu.",
+              "meanings": {
+                "id": "Berkumpul di ruang rapat.",
+                "en": "We gather in the meeting room."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -5855,7 +6047,39 @@
           "meanings": {
             "en": "plan",
             "id": "rencana"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "計画を立てます。",
+              "furigana": "けいかくを たてます。",
+              "romaji": "keikaku wo tatemasu.",
+              "meanings": {
+                "id": "Membuat rencana.",
+                "en": "I make a plan."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "旅行の計画があります。",
+              "furigana": "りょこうの けいかくが あります。",
+              "romaji": "ryokou no keikaku ga arimasu.",
+              "meanings": {
+                "id": "Ada rencana perjalanan.",
+                "en": "I have a travel plan."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "計画通りに進みます。",
+              "furigana": "けいかく どおりに すすみます。",
+              "romaji": "keikaku doori ni susumimasu.",
+              "meanings": {
+                "id": "Berjalan sesuai rencana.",
+                "en": "It proceeds according to plan."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -5865,7 +6089,39 @@
           "meanings": {
             "en": "experience",
             "id": "pengalaman"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "経験があります。",
+              "furigana": "けいけんが あります。",
+              "romaji": "keiken ga arimasu.",
+              "meanings": {
+                "id": "Memiliki pengalaman.",
+                "en": "I have experience."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "いい経験でした。",
+              "furigana": "いい けいけん でした。",
+              "romaji": "ii keiken deshita.",
+              "meanings": {
+                "id": "Pengalaman yang baik.",
+                "en": "It was a good experience."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "経験を話します。",
+              "furigana": "けいけんを はなします。",
+              "romaji": "keiken wo hanashimasu.",
+              "meanings": {
+                "id": "Menceritakan pengalaman.",
+                "en": "I talk about my experience."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -5875,7 +6131,39 @@
           "meanings": {
             "en": "rule, regulation",
             "id": "peraturan, undang-undang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "規則を守ります。",
+              "furigana": "きそくを まもります。",
+              "romaji": "kisoku wo mamorimasu.",
+              "meanings": {
+                "id": "Mematuhi peraturan.",
+                "en": "I follow the rules."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "規則が厳しいです。",
+              "furigana": "きそくが きびしいです。",
+              "romaji": "kisoku ga kibishii desu.",
+              "meanings": {
+                "id": "Peraturannya ketat.",
+                "en": "The rules are strict."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい規則ができました。",
+              "furigana": "あたらしい きそくが できました。",
+              "romaji": "atarashii kisoku ga dekimashita.",
+              "meanings": {
+                "id": "Peraturan baru dibuat.",
+                "en": "A new rule was made."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -5885,7 +6173,39 @@
           "meanings": {
             "en": "industry, factory",
             "id": "pabrik, pabrik produksi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "工業が発展しています。",
+              "furigana": "こうぎょうが はってん して います。",
+              "romaji": "kougyou ga hatten shite imasu.",
+              "meanings": {
+                "id": "Industri berkembang.",
+                "en": "Industry is developing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "工業の町です。",
+              "furigana": "こうぎょうの まち です。",
+              "romaji": "kougyou no machi desu.",
+              "meanings": {
+                "id": "Kota industri.",
+                "en": "It's an industrial town."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "工業について学びます。",
+              "furigana": "こうぎょうに ついて まなびます。",
+              "romaji": "kougyou ni tsuite manabimasu.",
+              "meanings": {
+                "id": "Belajar tentang industri.",
+                "en": "I learn about industry."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -5895,7 +6215,39 @@
           "meanings": {
             "en": "guest, customer",
             "id": "tamu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "客が来ました。",
+              "furigana": "きゃくが きました。",
+              "romaji": "kyaku ga kimashita.",
+              "meanings": {
+                "id": "Tamu datang.",
+                "en": "A guest came."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "客に挨拶します。",
+              "furigana": "きゃくに あいさつ します。",
+              "romaji": "kyaku ni aisatsu shimasu.",
+              "meanings": {
+                "id": "Memberi salam kepada tamu.",
+                "en": "I greet the guest."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "客が多いです。",
+              "furigana": "きゃくが おおいです。",
+              "romaji": "kyaku ga ooi desu.",
+              "meanings": {
+                "id": "Tamu banyak.",
+                "en": "There are many customers."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -5905,7 +6257,39 @@
           "meanings": {
             "en": "report",
             "id": "laporan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "レポートを書きます。",
+              "furigana": "レポートを かきます。",
+              "romaji": "repooto wo kakimasu.",
+              "meanings": {
+                "id": "Menulis laporan.",
+                "en": "I write a report."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "レポートを出します。",
+              "furigana": "レポートを だします。",
+              "romaji": "repooto wo dashimasu.",
+              "meanings": {
+                "id": "Menyerahkan laporan.",
+                "en": "I submit a report."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "レポートは難しいです。",
+              "furigana": "レポートは むずかしいです。",
+              "romaji": "repooto wa muzukashii desu.",
+              "meanings": {
+                "id": "Laporannya sulit.",
+                "en": "The report is difficult."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -5915,7 +6299,39 @@
           "meanings": {
             "en": "report",
             "id": "laporan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "リポートを仕上げます。",
+              "furigana": "リポートを しあげます。",
+              "romaji": "ripooto wo shiage masu.",
+              "meanings": {
+                "id": "Menyelesaikan laporan.",
+                "en": "I finish the report."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "リポートの締め切りは明日です。",
+              "furigana": "リポートの しめきりは あした です。",
+              "romaji": "ripooto no shimekiri wa ashita desu.",
+              "meanings": {
+                "id": "Batas waktu laporan besok.",
+                "en": "The report deadline is tomorrow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "リポートを作ります。",
+              "furigana": "リポートを つくります。",
+              "romaji": "ripooto wo tsukurimasu.",
+              "meanings": {
+                "id": "Membuat laporan.",
+                "en": "I make a report."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -5925,7 +6341,39 @@
           "meanings": {
             "en": "industry",
             "id": "perindustrian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "産業が盛んです。",
+              "furigana": "さんぎょうが さかん です。",
+              "romaji": "sangyou ga sakan desu.",
+              "meanings": {
+                "id": "Industri berkembang pesat.",
+                "en": "Industry is thriving."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新しい産業です。",
+              "furigana": "あたらしい さんぎょう です。",
+              "romaji": "atarashii sangyou desu.",
+              "meanings": {
+                "id": "Industri baru.",
+                "en": "It's a new industry."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "産業について話します。",
+              "furigana": "さんぎょうに ついて はなします。",
+              "romaji": "sangyou ni tsuite hanashimasu.",
+              "meanings": {
+                "id": "Berbicara tentang industri.",
+                "en": "I talk about industry."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -5935,7 +6383,39 @@
           "meanings": {
             "en": "seat",
             "id": "tempat duduk"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "席を予約しました。",
+              "furigana": "せきを よやく しました。",
+              "romaji": "seki wo yoyaku shimashita.",
+              "meanings": {
+                "id": "Memesan tempat duduk.",
+                "en": "I reserved a seat."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "席が空いています。",
+              "furigana": "せきが あいて います。",
+              "romaji": "seki ga aite imasu.",
+              "meanings": {
+                "id": "Tempat duduk kosong.",
+                "en": "The seat is available."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "席に座ります。",
+              "furigana": "せきに すわります。",
+              "romaji": "seki ni suwarimasu.",
+              "meanings": {
+                "id": "Duduk di tempat duduk.",
+                "en": "I sit in the seat."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -5945,7 +6425,39 @@
           "meanings": {
             "en": "newspaper company",
             "id": "perusahaan surat kabar"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "新聞社で働いています。",
+              "furigana": "しんぶんしゃで はたらいて います。",
+              "romaji": "shinbunsha de hataraite imasu.",
+              "meanings": {
+                "id": "Bekerja di perusahaan surat kabar.",
+                "en": "I work at a newspaper company."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新聞社に電話しました。",
+              "furigana": "しんぶんしゃに でんわ しました。",
+              "romaji": "shinbunsha ni denwa shimashita.",
+              "meanings": {
+                "id": "Menelepon perusahaan surat kabar.",
+                "en": "I called the newspaper company."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新聞社を訪ねます。",
+              "furigana": "しんぶんしゃを たずねます。",
+              "romaji": "shinbunsha wo tazunemasu.",
+              "meanings": {
+                "id": "Mengunjungi perusahaan surat kabar.",
+                "en": "I visit the newspaper company."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -5955,7 +6467,39 @@
           "meanings": {
             "en": "reception",
             "id": "penerimaan tamu, resepsionis"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "受付で聞いてください。",
+              "furigana": "うけつけで きいて ください。",
+              "romaji": "uketsuke de kiite kudasai.",
+              "meanings": {
+                "id": "Tolong tanya di resepsionis.",
+                "en": "Please ask at the reception."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "受付に名前を書きます。",
+              "furigana": "うけつけに なまえを かきます。",
+              "romaji": "uketsuke ni namae wo kakimasu.",
+              "meanings": {
+                "id": "Menulis nama di resepsi.",
+                "en": "I write my name at the reception."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "受付はどこですか。",
+              "furigana": "うけつけは どこですか。",
+              "romaji": "uketsuke wa doko desu ka.",
+              "meanings": {
+                "id": "Di mana resepsionis?",
+                "en": "Where is the reception?"
+              }
+            }
+          ]
         }
       ]
     },
@@ -5974,7 +6518,39 @@
           "meanings": {
             "en": "baby",
             "id": "bayi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "赤ちゃんが泣いています。",
+              "furigana": "あかちゃんが ないて います。",
+              "romaji": "akachan ga naite imasu.",
+              "meanings": {
+                "id": "Bayi menangis.",
+                "en": "The baby is crying."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "赤ちゃんが生まれました。",
+              "furigana": "あかちゃんが うまれました。",
+              "romaji": "akachan ga umare mashita.",
+              "meanings": {
+                "id": "Bayi lahir.",
+                "en": "A baby was born."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "赤ちゃんがかわいいです。",
+              "furigana": "あかちゃんが かわいいです。",
+              "romaji": "akachan ga kawaii desu.",
+              "meanings": {
+                "id": "Bayinya lucu.",
+                "en": "The baby is cute."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -5984,7 +6560,39 @@
           "meanings": {
             "en": "baby",
             "id": "bayi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "赤ん坊が眠っています。",
+              "furigana": "あかんぼうが ねむって います。",
+              "romaji": "akanbou ga nemutte imasu.",
+              "meanings": {
+                "id": "Bayi sedang tidur.",
+                "en": "The baby is sleeping."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "赤ん坊を抱きます。",
+              "furigana": "あかんぼうを だきます。",
+              "romaji": "akanbou wo dakimasu.",
+              "meanings": {
+                "id": "Menggendong bayi.",
+                "en": "I hold the baby."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "赤ん坊の世話をします。",
+              "furigana": "あかんぼうの せわを します。",
+              "romaji": "akanbou no sewa wo shimasu.",
+              "meanings": {
+                "id": "Merawat bayi.",
+                "en": "I take care of the baby."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -5994,7 +6602,39 @@
           "meanings": {
             "en": "blood",
             "id": "darah"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "血が出ました。",
+              "furigana": "ちが でました。",
+              "romaji": "chi ga demashita.",
+              "meanings": {
+                "id": "Darah keluar.",
+                "en": "Blood came out."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "血を止めます。",
+              "furigana": "ちを とめます。",
+              "romaji": "chi wo tomemasu.",
+              "meanings": {
+                "id": "Menghentikan darah.",
+                "en": "I stop the bleeding."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "血の検査をします。",
+              "furigana": "ちの けんさを します。",
+              "romaji": "chi no kensa wo shimasu.",
+              "meanings": {
+                "id": "Melakukan tes darah.",
+                "en": "I do a blood test."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -6004,7 +6644,39 @@
           "meanings": {
             "en": "strength",
             "id": "tenaga"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "力があります。",
+              "furigana": "ちからが あります。",
+              "romaji": "chikara ga arimasu.",
+              "meanings": {
+                "id": "Memiliki kekuatan.",
+                "en": "I have strength."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "力を出します。",
+              "furigana": "ちからを だします。",
+              "romaji": "chikara wo dashimasu.",
+              "meanings": {
+                "id": "Mengeluarkan tenaga.",
+                "en": "I use my strength."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "力が強いです。",
+              "furigana": "ちからが つよいです。",
+              "romaji": "chikara ga tsuyoi desu.",
+              "meanings": {
+                "id": "Kekuatannya kuat.",
+                "en": "The strength is strong."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -6014,7 +6686,39 @@
           "meanings": {
             "en": "man, male",
             "id": "pria, laki-laki"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "男性の方です。",
+              "furigana": "だんせいの かた です。",
+              "romaji": "dansei no kata desu.",
+              "meanings": {
+                "id": "Orang pria.",
+                "en": "He is a male person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "男性が多いです。",
+              "furigana": "だんせいが おおいです。",
+              "romaji": "dansei ga ooi desu.",
+              "meanings": {
+                "id": "Pria banyak.",
+                "en": "There are many men."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "男性用です。",
+              "furigana": "だんせい よう です。",
+              "romaji": "dansei you desu.",
+              "meanings": {
+                "id": "Untuk pria.",
+                "en": "It's for men."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -6024,7 +6728,39 @@
           "meanings": {
             "en": "beard, mustache",
             "id": "kumis, jenggot"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ひげを剃ります。",
+              "furigana": "ひげを そります。",
+              "romaji": "hige wo sorimasu.",
+              "meanings": {
+                "id": "Mencukur kumis.",
+                "en": "I shave my beard."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ひげが長いです。",
+              "furigana": "ひげが ながいです。",
+              "romaji": "hige ga nagai desu.",
+              "meanings": {
+                "id": "Kumisnya panjang.",
+                "en": "The beard is long."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ひげを伸ばしています。",
+              "furigana": "ひげを のばして います。",
+              "romaji": "hige wo nobashite imasu.",
+              "meanings": {
+                "id": "Membiarkan kumis tumbuh.",
+                "en": "I'm growing a beard."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -6034,7 +6770,39 @@
           "meanings": {
             "en": "woman, female",
             "id": "perempuan, wanita"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "女性の方です。",
+              "furigana": "じょせいの かた です。",
+              "romaji": "jyosei no kata desu.",
+              "meanings": {
+                "id": "Orang wanita.",
+                "en": "She is a female person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "女性用です。",
+              "furigana": "じょせい よう です。",
+              "romaji": "jyosei you desu.",
+              "meanings": {
+                "id": "Untuk wanita.",
+                "en": "It's for women."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "女性が多いです。",
+              "furigana": "じょせいが おおいです。",
+              "romaji": "jyosei ga ooi desu.",
+              "meanings": {
+                "id": "Wanita banyak.",
+                "en": "There are many women."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -6044,7 +6812,39 @@
           "meanings": {
             "en": "hair",
             "id": "rambut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "髪を切りました。",
+              "furigana": "かみを きりました。",
+              "romaji": "kami wo kirimashita.",
+              "meanings": {
+                "id": "Potong rambut.",
+                "en": "I cut my hair."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "髪が長いです。",
+              "furigana": "かみが ながいです。",
+              "romaji": "kami ga nagai desu.",
+              "meanings": {
+                "id": "Rambutnya panjang.",
+                "en": "The hair is long."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "髪を洗います。",
+              "furigana": "かみを あらいます。",
+              "romaji": "kami wo araimasu.",
+              "meanings": {
+                "id": "Mencuci rambut.",
+                "en": "I wash my hair."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -6054,7 +6854,39 @@
           "meanings": {
             "en": "fur, hair",
             "id": "bulu"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "犬の毛が抜けました。",
+              "furigana": "いぬの けが ぬけました。",
+              "romaji": "inu no ke ga nukemashita.",
+              "meanings": {
+                "id": "Bulu anjing rontok.",
+                "en": "The dog's fur fell out."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毛が柔らかいです。",
+              "furigana": "けが やわらかいです。",
+              "romaji": "ke ga yawarakai desu.",
+              "meanings": {
+                "id": "Bulunya lembut.",
+                "en": "The fur is soft."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "猫の毛です。",
+              "furigana": "ねこの けです。",
+              "romaji": "neko no ke desu.",
+              "meanings": {
+                "id": "Bulu kucing.",
+                "en": "It's cat fur."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -6064,7 +6896,39 @@
           "meanings": {
             "en": "heart, mind",
             "id": "hati"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "心が優しいです。",
+              "furigana": "こころが やさしいです。",
+              "romaji": "kokoro ga yasashii desu.",
+              "meanings": {
+                "id": "Hatinya baik.",
+                "en": "The heart is kind."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "心から感謝します。",
+              "furigana": "こころから かんしゃ します。",
+              "romaji": "kokoro kara kansha shimasu.",
+              "meanings": {
+                "id": "Berterima kasih dari hati.",
+                "en": "I thank you from my heart."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "心配しています。",
+              "furigana": "しんぱい して います。",
+              "romaji": "shinpai shite imasu.",
+              "meanings": {
+                "id": "Sedang khawatir.",
+                "en": "I'm worried."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -6074,7 +6938,39 @@
           "meanings": {
             "en": "neck",
             "id": "leher"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "首が痛いです。",
+              "furigana": "くびが いたいです。",
+              "romaji": "kubi ga itai desu.",
+              "meanings": {
+                "id": "Leher sakit.",
+                "en": "My neck hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "首を回します。",
+              "furigana": "くびを まわします。",
+              "romaji": "kubi wo mawashimasu.",
+              "meanings": {
+                "id": "Memutar leher.",
+                "en": "I turn my neck."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "首にマフラーをします。",
+              "furigana": "くびに マフラーを します。",
+              "romaji": "kubi ni mafuraa wo shimasu.",
+              "meanings": {
+                "id": "Memakai syal di leher.",
+                "en": "I wear a scarf on my neck."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -6084,7 +6980,39 @@
           "meanings": {
             "en": "throat",
             "id": "kerongkongan, tenggorokan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "のどが痛いです。",
+              "furigana": "のどが いたいです。",
+              "romaji": "nodo ga itai desu.",
+              "meanings": {
+                "id": "Tenggorokan sakit.",
+                "en": "My throat hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "のどが渇きました。",
+              "furigana": "のどが かわきました。",
+              "romaji": "nodo ga kawakimashita.",
+              "meanings": {
+                "id": "Tenggorokan kering.",
+                "en": "My throat is dry."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "のどに良い薬です。",
+              "furigana": "のどに いい くすり です。",
+              "romaji": "nodo ni ii kusuri desu.",
+              "meanings": {
+                "id": "Obat bagus untuk tenggorokan.",
+                "en": "It's good medicine for the throat."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -6094,7 +7022,39 @@
           "meanings": {
             "en": "back",
             "id": "punggung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "背中が痛いです。",
+              "furigana": "せなかが いたいです。",
+              "romaji": "senaka ga itai desu.",
+              "meanings": {
+                "id": "Punggung sakit.",
+                "en": "My back hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "背中を洗います。",
+              "furigana": "せなかを あらいます。",
+              "romaji": "senaka wo araimasu.",
+              "meanings": {
+                "id": "Mencuci punggung.",
+                "en": "I wash my back."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "背中に荷物があります。",
+              "furigana": "せなかに にもつが あります。",
+              "romaji": "senaka ni nimotsu ga arimasu.",
+              "meanings": {
+                "id": "Ada barang di punggung.",
+                "en": "There is luggage on my back."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -6104,7 +7064,39 @@
           "meanings": {
             "en": "arm",
             "id": "lengan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "腕が痛いです。",
+              "furigana": "うでが いたいです。",
+              "romaji": "ude ga itai desu.",
+              "meanings": {
+                "id": "Lengan sakit.",
+                "en": "My arm hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "腕を上げます。",
+              "furigana": "うでを あげます。",
+              "romaji": "ude wo agemasu.",
+              "meanings": {
+                "id": "Mengangkat lengan.",
+                "en": "I raise my arm."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "腕に時計をしています。",
+              "furigana": "うでに とけいを して います。",
+              "romaji": "ude ni tokei wo shite imasu.",
+              "meanings": {
+                "id": "Memakai jam tangan di lengan.",
+                "en": "I'm wearing a watch on my arm."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -6114,7 +7106,39 @@
           "meanings": {
             "en": "finger",
             "id": "jari"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "指を切りました。",
+              "furigana": "ゆびを きりました。",
+              "romaji": "yubi wo kirimashita.",
+              "meanings": {
+                "id": "Terluka jarinya.",
+                "en": "I cut my finger."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "指が痛いです。",
+              "furigana": "ゆびが いたいです。",
+              "romaji": "yubi ga itai desu.",
+              "meanings": {
+                "id": "Jari sakit.",
+                "en": "My finger hurts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "指で押します。",
+              "furigana": "ゆびで おします。",
+              "romaji": "yubi de oshimasu.",
+              "meanings": {
+                "id": "Menekan dengan jari.",
+                "en": "I press with my finger."
+              }
+            }
+          ]
         }
       ]
     },
