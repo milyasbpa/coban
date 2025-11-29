@@ -5287,7 +5287,39 @@
           "meanings": {
             "en": "I, me",
             "id": "saya"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "私は学生です。",
+              "furigana": "わたしはがくせいです。",
+              "romaji": "watashi wa gakusei desu.",
+              "meanings": {
+                "id": "Saya adalah siswa.",
+                "en": "I am a student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "私の本です。",
+              "furigana": "わたしのほんです。",
+              "romaji": "watashi no hon desu.",
+              "meanings": {
+                "id": "Ini buku saya.",
+                "en": "It's my book."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "私は日本語を勉強します。",
+              "furigana": "わたしはにほんごをべんきょうします。",
+              "romaji": "watashi wa nihongo wo benkyou shimasu.",
+              "meanings": {
+                "id": "Saya belajar bahasa Jepang.",
+                "en": "I study Japanese."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -5297,7 +5329,39 @@
           "meanings": {
             "en": "you",
             "id": "kamu, anda"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あなたは学生ですか。",
+              "furigana": "あなたはがくせいですか。",
+              "romaji": "anata wa gakusei desu ka.",
+              "meanings": {
+                "id": "Apakah kamu siswa?",
+                "en": "Are you a student?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あなたの名前は何ですか。",
+              "furigana": "あなたのなまえはなんですか。",
+              "romaji": "anata no namae wa nan desu ka.",
+              "meanings": {
+                "id": "Siapa nama kamu?",
+                "en": "What is your name?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あなたはどこに住んでいますか。",
+              "furigana": "あなたはどこにすんでいますか。",
+              "romaji": "anata wa doko ni sunde imasu ka.",
+              "meanings": {
+                "id": "Kamu tinggal di mana?",
+                "en": "Where do you live?"
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -5307,7 +5371,39 @@
           "meanings": {
             "en": "he, him",
             "id": "dia (laki-laki)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "彼は先生です。",
+              "furigana": "かれはせんせいです。",
+              "romaji": "kare wa sensei desu.",
+              "meanings": {
+                "id": "Dia adalah guru.",
+                "en": "He is a teacher."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "彼の家は大きいです。",
+              "furigana": "かれのいえはおおきいです。",
+              "romaji": "kare no ie wa ookii desu.",
+              "meanings": {
+                "id": "Rumah dia besar.",
+                "en": "His house is big."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "彼は親切です。",
+              "furigana": "かれはしんせつです。",
+              "romaji": "kare wa shinsetsu desu.",
+              "meanings": {
+                "id": "Dia baik hati.",
+                "en": "He is kind."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -5317,7 +5413,39 @@
           "meanings": {
             "en": "she, her",
             "id": "dia (perempuan)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "彼女は医者です。",
+              "furigana": "かのじょはいしゃです。",
+              "romaji": "kanojo wa isha desu.",
+              "meanings": {
+                "id": "Dia adalah dokter.",
+                "en": "She is a doctor."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "彼女の車は新しいです。",
+              "furigana": "かのじょのくるまはあたらしいです。",
+              "romaji": "kanojo no kuruma wa atarashii desu.",
+              "meanings": {
+                "id": "Mobil dia baru.",
+                "en": "Her car is new."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "彼女はきれいです。",
+              "furigana": "かのじょはきれいです。",
+              "romaji": "kanojo wa kirei desu.",
+              "meanings": {
+                "id": "Dia cantik.",
+                "en": "She is beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -5327,7 +5455,39 @@
           "meanings": {
             "en": "we, us",
             "id": "kami, kita"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "私たちは友達です。",
+              "furigana": "わたしたちはともだちです。",
+              "romaji": "watashitachi wa tomodachi desu.",
+              "meanings": {
+                "id": "Kami adalah teman.",
+                "en": "We are friends."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "私たちの学校は大きいです。",
+              "furigana": "わたしたちのがっこうはおおきいです。",
+              "romaji": "watashitachi no gakkou wa ookii desu.",
+              "meanings": {
+                "id": "Sekolah kami besar.",
+                "en": "Our school is big."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "私たちは日本へ行きます。",
+              "furigana": "わたしたちはにほんへいきます。",
+              "romaji": "watashitachi wa nihon e ikimasu.",
+              "meanings": {
+                "id": "Kami pergi ke Jepang.",
+                "en": "We go to Japan."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -5337,7 +5497,39 @@
           "meanings": {
             "en": "you (plural)",
             "id": "kalian, anda sekalian"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あなたたちは学生ですか。",
+              "furigana": "あなたたちはがくせいですか。",
+              "romaji": "anatatachi wa gakusei desu ka.",
+              "meanings": {
+                "id": "Apakah kalian siswa?",
+                "en": "Are you students?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あなたたちの部屋はどこですか。",
+              "furigana": "あなたたちのへやはどこですか。",
+              "romaji": "anatatachi no heya wa doko desu ka.",
+              "meanings": {
+                "id": "Kamar kalian di mana?",
+                "en": "Where is your room?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あなたたちは何をしますか。",
+              "furigana": "あなたたちはなにをしますか。",
+              "romaji": "anatatachi wa nani wo shimasu ka.",
+              "meanings": {
+                "id": "Kalian melakukan apa?",
+                "en": "What do you do?"
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -5347,7 +5539,39 @@
           "meanings": {
             "en": "they (male)",
             "id": "mereka (laki-laki)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "彼たちは先生です。",
+              "furigana": "かれたちはせんせいです。",
+              "romaji": "karetachi wa sensei desu.",
+              "meanings": {
+                "id": "Mereka adalah guru.",
+                "en": "They are teachers."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "彼らは友達です。",
+              "furigana": "かれらはともだちです。",
+              "romaji": "karera wa tomodachi desu.",
+              "meanings": {
+                "id": "Mereka adalah teman.",
+                "en": "They are friends."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "彼たちはサッカーをします。",
+              "furigana": "かれたちはサッカーをします。",
+              "romaji": "karetachi wa sakkaa wo shimasu.",
+              "meanings": {
+                "id": "Mereka bermain sepak bola.",
+                "en": "They play soccer."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -5357,7 +5581,39 @@
           "meanings": {
             "en": "they (female)",
             "id": "mereka (perempuan)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "彼女たちは看護師です。",
+              "furigana": "かのじょたちはかんごしです。",
+              "romaji": "kanojotachi wa kangoshi desu.",
+              "meanings": {
+                "id": "Mereka adalah perawat.",
+                "en": "They are nurses."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "彼女らは歌を歌います。",
+              "furigana": "かのじょらはうたをうたいます。",
+              "romaji": "kanojora wa uta wo utaimasu.",
+              "meanings": {
+                "id": "Mereka menyanyikan lagu.",
+                "en": "They sing songs."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "彼女たちはきれいです。",
+              "furigana": "かのじょたちはきれいです。",
+              "romaji": "kanojotachi wa kirei desu.",
+              "meanings": {
+                "id": "Mereka cantik.",
+                "en": "They are beautiful."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -5367,7 +5623,39 @@
           "meanings": {
             "en": "oneself",
             "id": "diri sendiri"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "自分で料理を作ります。",
+              "furigana": "じぶんでりょうりをつくります。",
+              "romaji": "jibun de ryouri wo tsukurimasu.",
+              "meanings": {
+                "id": "Memasak sendiri.",
+                "en": "I cook by myself."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "自分の部屋を掃除します。",
+              "furigana": "じぶんのへやをそうじします。",
+              "romaji": "jibun no heya wo souji shimasu.",
+              "meanings": {
+                "id": "Membersihkan kamar sendiri.",
+                "en": "I clean my own room."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "自分でやります。",
+              "furigana": "じぶんでやります。",
+              "romaji": "jibun de yarimasu.",
+              "meanings": {
+                "id": "Melakukannya sendiri.",
+                "en": "I do it myself."
+              }
+            }
+          ]
         }
       ]
     },
@@ -5386,7 +5674,39 @@
           "meanings": {
             "en": "person",
             "id": "orang"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あの人は誰ですか。",
+              "furigana": "あのひとはだれですか。",
+              "romaji": "ano hito wa dare desu ka.",
+              "meanings": {
+                "id": "Siapa orang itu?",
+                "en": "Who is that person?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "人がたくさんいます。",
+              "furigana": "ひとがたくさんいます。",
+              "romaji": "hito ga takusan imasu.",
+              "meanings": {
+                "id": "Ada banyak orang.",
+                "en": "There are many people."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "いい人ですね。",
+              "furigana": "いいひとですね。",
+              "romaji": "ii hito desu ne.",
+              "meanings": {
+                "id": "Orang baik ya.",
+                "en": "He/She is a good person."
+              }
+            }
+          ]
         },
         {
           "id": 2,
@@ -5396,7 +5716,39 @@
           "meanings": {
             "en": "person (honorific)",
             "id": "orang (bentuk hormat)"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あの方は先生です。",
+              "furigana": "あのかたはせんせいです。",
+              "romaji": "ano kata wa sensei desu.",
+              "meanings": {
+                "id": "Orang itu adalah guru.",
+                "en": "That person is a teacher."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "どちらの方ですか。",
+              "furigana": "どちらのかたですか。",
+              "romaji": "dochira no kata desu ka.",
+              "meanings": {
+                "id": "Anda dari mana?",
+                "en": "Which person are you?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "こちらの方をどうぞ。",
+              "furigana": "こちらのかたをどうぞ。",
+              "romaji": "kochira no kata wo douzo.",
+              "meanings": {
+                "id": "Silakan lewat sini.",
+                "en": "Please come this way."
+              }
+            }
+          ]
         },
         {
           "id": 3,
@@ -5406,7 +5758,39 @@
           "meanings": {
             "en": "adult",
             "id": "(orang) dewasa"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "大人になりました。",
+              "furigana": "おとなになりました。",
+              "romaji": "otona ni narimashita.",
+              "meanings": {
+                "id": "Sudah menjadi dewasa.",
+                "en": "I became an adult."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大人は二千円です。",
+              "furigana": "おとなはにせんえんです。",
+              "romaji": "otona wa nisen en desu.",
+              "meanings": {
+                "id": "Dewasa 2000 yen.",
+                "en": "Adults are 2000 yen."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大人の人がいます。",
+              "furigana": "おとなのひとがいます。",
+              "romaji": "otona no hito ga imasu.",
+              "meanings": {
+                "id": "Ada orang dewasa.",
+                "en": "There is an adult."
+              }
+            }
+          ]
         },
         {
           "id": 4,
@@ -5416,7 +5800,39 @@
           "meanings": {
             "en": "man",
             "id": "laki-laki, pria"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あの男の人は誰ですか。",
+              "furigana": "あのおとこのひとはだれですか。",
+              "romaji": "ano otoko no hito wa dare desu ka.",
+              "meanings": {
+                "id": "Siapa pria itu?",
+                "en": "Who is that man?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "男の子がいます。",
+              "furigana": "おとこのこがいます。",
+              "romaji": "otoko no ko ga imasu.",
+              "meanings": {
+                "id": "Ada anak laki-laki.",
+                "en": "There is a boy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "男の人が三人います。",
+              "furigana": "おとこのひとがさんにんいます。",
+              "romaji": "otoko no hito ga sannin imasu.",
+              "meanings": {
+                "id": "Ada tiga orang pria.",
+                "en": "There are three men."
+              }
+            }
+          ]
         },
         {
           "id": 5,
@@ -5426,7 +5842,39 @@
           "meanings": {
             "en": "woman",
             "id": "perempuan, wanita"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "女の人が来ました。",
+              "furigana": "おんなのひとがきました。",
+              "romaji": "onna no hito ga kimashita.",
+              "meanings": {
+                "id": "Wanita datang.",
+                "en": "A woman came."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "女の子がいます。",
+              "furigana": "おんなのこがいます。",
+              "romaji": "onna no ko ga imasu.",
+              "meanings": {
+                "id": "Ada anak perempuan.",
+                "en": "There is a girl."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "女の人が五人います。",
+              "furigana": "おんなのひとがごにんいます。",
+              "romaji": "onna no hito ga gonin imasu.",
+              "meanings": {
+                "id": "Ada lima orang wanita.",
+                "en": "There are five women."
+              }
+            }
+          ]
         },
         {
           "id": 6,
@@ -5436,7 +5884,39 @@
           "meanings": {
             "en": "child, children",
             "id": "anak-anak"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "子供が遊んでいます。",
+              "furigana": "こどもがあそんでいます。",
+              "romaji": "kodomo ga asonde imasu.",
+              "meanings": {
+                "id": "Anak-anak sedang bermain.",
+                "en": "Children are playing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "子供は三人です。",
+              "furigana": "こどもはさんにんです。",
+              "romaji": "kodomo wa sannin desu.",
+              "meanings": {
+                "id": "Anak tiga orang.",
+                "en": "I have three children."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "子が二人います。",
+              "furigana": "こがふたりいます。",
+              "romaji": "ko ga futari imasu.",
+              "meanings": {
+                "id": "Ada dua anak.",
+                "en": "I have two children."
+              }
+            }
+          ]
         },
         {
           "id": 7,
@@ -5446,7 +5926,39 @@
           "meanings": {
             "en": "head",
             "id": "kepala"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "頭が痛いです。",
+              "furigana": "あたまがいたいです。",
+              "romaji": "atama ga itai desu.",
+              "meanings": {
+                "id": "Kepala sakit.",
+                "en": "My head hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "頭を洗います。",
+              "furigana": "あたまをあらいます。",
+              "romaji": "atama wo araimasu.",
+              "meanings": {
+                "id": "Mencuci kepala.",
+                "en": "I wash my head."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "頭がいいです。",
+              "furigana": "あたまがいいです。",
+              "romaji": "atama ga ii desu.",
+              "meanings": {
+                "id": "Pintar.",
+                "en": "He/She is smart."
+              }
+            }
+          ]
         },
         {
           "id": 8,
@@ -5456,7 +5968,39 @@
           "meanings": {
             "en": "eye",
             "id": "mata"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "目が大きいです。",
+              "furigana": "めがおおきいです。",
+              "romaji": "me ga ookii desu.",
+              "meanings": {
+                "id": "Mata besar.",
+                "en": "The eyes are big."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "目を開けてください。",
+              "furigana": "めをあけてください。",
+              "romaji": "me wo akete kudasai.",
+              "meanings": {
+                "id": "Tolong buka mata.",
+                "en": "Please open your eyes."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "目が痛いです。",
+              "furigana": "めがいたいです。",
+              "romaji": "me ga itai desu.",
+              "meanings": {
+                "id": "Mata sakit.",
+                "en": "My eyes hurt."
+              }
+            }
+          ]
         },
         {
           "id": 9,
@@ -5466,7 +6010,39 @@
           "meanings": {
             "en": "nose",
             "id": "hidung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "鼻が高いです。",
+              "furigana": "はながたかいです。",
+              "romaji": "hana ga takai desu.",
+              "meanings": {
+                "id": "Hidung mancung.",
+                "en": "The nose is high."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "鼻をかみます。",
+              "furigana": "はなをかみます。",
+              "romaji": "hana wo kamimasu.",
+              "meanings": {
+                "id": "Membersihkan hidung.",
+                "en": "I blow my nose."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "鼻が痛いです。",
+              "furigana": "はながいたいです。",
+              "romaji": "hana ga itai desu.",
+              "meanings": {
+                "id": "Hidung sakit.",
+                "en": "My nose hurts."
+              }
+            }
+          ]
         },
         {
           "id": 10,
@@ -5476,7 +6052,39 @@
           "meanings": {
             "en": "mouth",
             "id": "mulut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "口を開けてください。",
+              "furigana": "くちをあけてください。",
+              "romaji": "kuchi wo akete kudasai.",
+              "meanings": {
+                "id": "Tolong buka mulut.",
+                "en": "Please open your mouth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "口が痛いです。",
+              "furigana": "くちがいたいです。",
+              "romaji": "kuchi ga itai desu.",
+              "meanings": {
+                "id": "Mulut sakit.",
+                "en": "My mouth hurts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "口が大きいです。",
+              "furigana": "くちがおおきいです。",
+              "romaji": "kuchi ga ookii desu.",
+              "meanings": {
+                "id": "Mulut besar.",
+                "en": "The mouth is big."
+              }
+            }
+          ]
         },
         {
           "id": 11,
@@ -5486,7 +6094,39 @@
           "meanings": {
             "en": "tooth",
             "id": "gigi"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "歯を磨きます。",
+              "furigana": "はをみがきます。",
+              "romaji": "ha wo migakimasu.",
+              "meanings": {
+                "id": "Menyikat gigi.",
+                "en": "I brush my teeth."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "歯が痛いです。",
+              "furigana": "はがいたいです。",
+              "romaji": "ha ga itai desu.",
+              "meanings": {
+                "id": "Gigi sakit.",
+                "en": "My tooth hurts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "歯が白いです。",
+              "furigana": "はがしろいです。",
+              "romaji": "ha ga shiroi desu.",
+              "meanings": {
+                "id": "Gigi putih.",
+                "en": "The teeth are white."
+              }
+            }
+          ]
         },
         {
           "id": 12,
@@ -5496,7 +6136,39 @@
           "meanings": {
             "en": "ear",
             "id": "telinga, kuping"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "耳が痛いです。",
+              "furigana": "みみがいたいです。",
+              "romaji": "mimi ga itai desu.",
+              "meanings": {
+                "id": "Telinga sakit.",
+                "en": "My ear hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "耳が大きいです。",
+              "furigana": "みみがおおきいです。",
+              "romaji": "mimi ga ookii desu.",
+              "meanings": {
+                "id": "Telinga besar.",
+                "en": "The ears are big."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "耳がいいです。",
+              "furigana": "みみがいいです。",
+              "romaji": "mimi ga ii desu.",
+              "meanings": {
+                "id": "Pendengarannya bagus.",
+                "en": "The hearing is good."
+              }
+            }
+          ]
         },
         {
           "id": 13,
@@ -5506,7 +6178,39 @@
           "meanings": {
             "en": "neck",
             "id": "leher"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "首が痛いです。",
+              "furigana": "くびがいたいです。",
+              "romaji": "kubi ga itai desu.",
+              "meanings": {
+                "id": "Leher sakit.",
+                "en": "My neck hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "首が長いです。",
+              "furigana": "くびがながいです。",
+              "romaji": "kubi ga nagai desu.",
+              "meanings": {
+                "id": "Leher panjang.",
+                "en": "The neck is long."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "首を洗います。",
+              "furigana": "くびをあらいます。",
+              "romaji": "kubi wo araimasu.",
+              "meanings": {
+                "id": "Mencuci leher.",
+                "en": "I wash my neck."
+              }
+            }
+          ]
         },
         {
           "id": 14,
@@ -5516,7 +6220,39 @@
           "meanings": {
             "en": "body",
             "id": "tubuh, badan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "体が痛いです。",
+              "furigana": "からだがいたいです。",
+              "romaji": "karada ga itai desu.",
+              "meanings": {
+                "id": "Badan sakit.",
+                "en": "My body hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "体にいいです。",
+              "furigana": "からだにいいです。",
+              "romaji": "karada ni ii desu.",
+              "meanings": {
+                "id": "Baik untuk tubuh.",
+                "en": "It's good for the body."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "体を洗います。",
+              "furigana": "からだをあらいます。",
+              "romaji": "karada wo araimasu.",
+              "meanings": {
+                "id": "Mencuci badan.",
+                "en": "I wash my body."
+              }
+            }
+          ]
         },
         {
           "id": 15,
@@ -5526,7 +6262,39 @@
           "meanings": {
             "en": "hand",
             "id": "tangan"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "手を洗います。",
+              "furigana": "てをあらいます。",
+              "romaji": "te wo araimasu.",
+              "meanings": {
+                "id": "Mencuci tangan.",
+                "en": "I wash my hands."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "手が痛いです。",
+              "furigana": "てがいたいです。",
+              "romaji": "te ga itai desu.",
+              "meanings": {
+                "id": "Tangan sakit.",
+                "en": "My hand hurts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "手が大きいです。",
+              "furigana": "てがおおきいです。",
+              "romaji": "te ga ookii desu.",
+              "meanings": {
+                "id": "Tangan besar.",
+                "en": "The hands are big."
+              }
+            }
+          ]
         },
         {
           "id": 16,
@@ -5536,7 +6304,39 @@
           "meanings": {
             "en": "chest",
             "id": "dada"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "胸が痛いです。",
+              "furigana": "むねがいたいです。",
+              "romaji": "mune ga itai desu.",
+              "meanings": {
+                "id": "Dada sakit.",
+                "en": "My chest hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "胸が大きいです。",
+              "furigana": "むねがおおきいです。",
+              "romaji": "mune ga ookii desu.",
+              "meanings": {
+                "id": "Dada besar.",
+                "en": "The chest is big."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "胸がどきどきします。",
+              "furigana": "むねがどきどきします。",
+              "romaji": "mune ga dokidoki shimasu.",
+              "meanings": {
+                "id": "Jantung berdebar.",
+                "en": "My heart is beating fast."
+              }
+            }
+          ]
         },
         {
           "id": 17,
@@ -5546,7 +6346,39 @@
           "meanings": {
             "en": "back",
             "id": "punggung"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "背が高いです。",
+              "furigana": "せがたかいです。",
+              "romaji": "se ga takai desu.",
+              "meanings": {
+                "id": "Tinggi.",
+                "en": "He/She is tall."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "背が痛いです。",
+              "furigana": "せがいたいです。",
+              "romaji": "se ga itai desu.",
+              "meanings": {
+                "id": "Punggung sakit.",
+                "en": "My back hurts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "背が低いです。",
+              "furigana": "せがひくいです。",
+              "romaji": "se ga hikui desu.",
+              "meanings": {
+                "id": "Pendek.",
+                "en": "He/She is short."
+              }
+            }
+          ]
         },
         {
           "id": 18,
@@ -5556,7 +6388,39 @@
           "meanings": {
             "en": "stomach",
             "id": "perut"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "おなかが痛いです。",
+              "furigana": "おなかがいたいです。",
+              "romaji": "onaka ga itai desu.",
+              "meanings": {
+                "id": "Perut sakit.",
+                "en": "My stomach hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "おなかがすきました。",
+              "furigana": "おなかがすきました。",
+              "romaji": "onaka ga sukimashita.",
+              "meanings": {
+                "id": "Perut lapar.",
+                "en": "I'm hungry."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "おなかがいっぱいです。",
+              "furigana": "おなかがいっぱいです。",
+              "romaji": "onaka ga ippai desu.",
+              "meanings": {
+                "id": "Perut kenyang.",
+                "en": "I'm full."
+              }
+            }
+          ]
         },
         {
           "id": 19,
@@ -5566,7 +6430,39 @@
           "meanings": {
             "en": "leg, foot",
             "id": "kaki"
-          }
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "足が痛いです。",
+              "furigana": "あしがいたいです。",
+              "romaji": "ashi ga itai desu.",
+              "meanings": {
+                "id": "Kaki sakit.",
+                "en": "My leg hurts."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "足が長いです。",
+              "furigana": "あしがながいです。",
+              "romaji": "ashi ga nagai desu.",
+              "meanings": {
+                "id": "Kaki panjang.",
+                "en": "The legs are long."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "足を洗います。",
+              "furigana": "あしをあらいます。",
+              "romaji": "ashi wo araimasu.",
+              "meanings": {
+                "id": "Mencuci kaki.",
+                "en": "I wash my feet."
+              }
+            }
+          ]
         }
       ]
     },
