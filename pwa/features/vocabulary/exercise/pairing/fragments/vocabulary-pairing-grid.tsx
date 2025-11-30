@@ -70,6 +70,11 @@ export const VocabularyPairingGrid: React.FC = () => {
     return allSections[currentSectionIndex];
   }, [allSections, currentSectionIndex]);
 
+  // Create shuffled Japanese words
+  const shuffledJapaneseWords = useMemo(() => {
+    return [...sectionWords].sort(() => Math.random() - 0.5);
+  }, [sectionWords]);
+
   // Create shuffled meanings with mapping to VocabularyPairingWord
   const shuffledMeaningsData = useMemo(() => {
     const meaningsWithWords = createMeaningsData(
@@ -211,7 +216,7 @@ export const VocabularyPairingGrid: React.FC = () => {
     <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
       {/* Left Column - Japanese (Kanji/Hiragana) */}
       <div className="space-y-3">
-        {sectionWords.map((word: VocabularyPairingWord) => (
+        {shuffledJapaneseWords.map((word: VocabularyPairingWord) => (
           <VocabularyPairingCard
             key={`japanese-${word.id}`}
             card={{ ...word, type: "japanese" }}
