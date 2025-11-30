@@ -3,6 +3,7 @@
 import React, { useMemo } from "react";
 import { VocabularyPairingCard } from "../components/vocabulary-pairing-card";
 import { useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
+import { useVocabularyPairingDisplayOptions } from "../store";
 import {
   VocabularySelectedCard,
   VocabularyPairingWord,
@@ -23,6 +24,7 @@ export const VocabularyPairingGrid: React.FC = () => {
   const { language } = useLanguage();
   const { isAuthenticated, user } = useLoginStore();
   const { level, categoryId } = useVocabularyExerciseSearchParams();
+  const { displaySound } = useVocabularyPairingDisplayOptions();
 
   const {
     sectionState: {
@@ -222,7 +224,9 @@ export const VocabularyPairingGrid: React.FC = () => {
             card={{ ...word, type: "japanese" }}
             onCardClick={(card) => {
               handleCardClick("japanese", word);
-              playAudio(word.hiragana);
+              if (displaySound) {
+                playAudio(word.hiragana);
+              }
             }}
           />
         ))}

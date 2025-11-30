@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeft, Eye } from "lucide-react";
+import { ArrowLeft, Eye, Volume2 } from "lucide-react";
 import { AppHeader } from "@/pwa/core/components/app-header";
 import { usePairingDisplayOptions } from "../store";
 import { useLoginStore } from "@/pwa/features/login/store";
@@ -14,8 +14,10 @@ export function PairingHeader() {
   const {
     displayFurigana,
     displayRomanji,
+    displaySound,
     toggleFurigana,
     toggleRomanji,
+    toggleSound,
     resetToDefault,
   } = usePairingDisplayOptions();
   const { isAuthenticated, user, logout: storeLogout } = useLoginStore();
@@ -69,8 +71,32 @@ export function PairingHeader() {
     },
   ];
 
+  // Prepare sound option
+  const soundOption = [
+    {
+      key: "sound",
+      label: "Sound",
+      description: "Play audio on card click",
+      isActive: displaySound,
+      toggle: toggleSound,
+    },
+  ];
+
   // Prepare custom sections for settings dropdown
   const customSections = [
+    {
+      id: "sound",
+      title: "Audio",
+      icon: <Volume2 className="h-3 w-3" />,
+      items: soundOption.map((option) => ({
+        id: option.key,
+        type: "switch" as const,
+        label: option.label,
+        description: option.description,
+        isActive: option.isActive,
+        onClick: option.toggle,
+      })),
+    },
     {
       id: "display",
       title: "Display Options",

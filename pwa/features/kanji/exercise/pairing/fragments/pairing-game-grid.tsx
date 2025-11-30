@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { PairingCard } from "../components/pairing-card";
 import { usePairingGameStore } from "../store/pairing-game.store";
+import { usePairingDisplayOptions } from "../store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { shuffleArray } from "../utils";
 import { PairingWord, SelectedCard } from "../types";
@@ -21,6 +22,7 @@ import { integratePairingGameScore } from "../utils/scoring-integration";
 export function PairingGameGrid() {
   const { language } = useLanguage();
   const { isAuthenticated, user } = useLoginStore();
+  const { displaySound } = usePairingDisplayOptions();
   const {
     updateKanjiMastery,
     initializeUser,
@@ -234,7 +236,9 @@ export function PairingGameGrid() {
               isError={errorCards.has(gameWord.kanji)}
               onClick={() => {
                 handleCardClick("kanji", gameWord);
-                playAudio(gameWord.furigana);
+                if (displaySound) {
+                  playAudio(gameWord.furigana);
+                }
               }}
             />
           );

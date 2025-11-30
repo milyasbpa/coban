@@ -6,11 +6,13 @@ export interface VocabularyPairingDisplayState {
   displayHiragana: boolean;
   displayRomaji: boolean;
   displayKanji: boolean;
+  displaySound: boolean;
 
   // Actions
   toggleHiragana: () => void;
   toggleRomaji: () => void;
   toggleKanji: () => void;
+  toggleSound: () => void;
   resetToDefault: () => void;
 }
 
@@ -21,6 +23,7 @@ export const useVocabularyPairingDisplayOptions = create<VocabularyPairingDispla
       displayHiragana: true,   // Show hiragana by default (like furigana for kanji)
       displayRomaji: false,    // Hide romaji by default
       displayKanji: true,      // Show kanji by default
+      displaySound: true,      // Sound enabled by default
 
       toggleHiragana: () =>
         set((state) => ({ displayHiragana: !state.displayHiragana })),
@@ -31,11 +34,15 @@ export const useVocabularyPairingDisplayOptions = create<VocabularyPairingDispla
       toggleKanji: () =>
         set((state) => ({ displayKanji: !state.displayKanji })),
 
+      toggleSound: () =>
+        set((state) => ({ displaySound: !state.displaySound })),
+
       resetToDefault: () =>
         set({
           displayHiragana: true,
           displayRomaji: false,
           displayKanji: true,
+          displaySound: true,
         }),
     }),
     {
