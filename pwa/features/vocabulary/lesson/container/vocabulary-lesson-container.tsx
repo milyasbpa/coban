@@ -14,11 +14,11 @@ export function VocabularyLessonContainer() {
       {/* Header */}
       <LessonHeader />
 
+      {/* Selection Bottom Nav - Only show when in selection mode */}
+      {isSelectionMode && <SelectionBottomNav />}
+
       {/* Vocabulary List */}
       <VocabularyList />
-
-      {/* Selection Bottom Nav */}
-      {isSelectionMode && <SelectionBottomNav />}
 
       {/* Scroll Floating Button */}
       <ScrollFloatingButton />

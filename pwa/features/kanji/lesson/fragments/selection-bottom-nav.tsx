@@ -19,8 +19,6 @@ export function SelectionBottomNav() {
   const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
 
-  if (selectedCount === 0) return null;
-
   const handleExerciseStart = (exerciseType: string) => {
     if ((!lessonId && !topicId) || selectedKanjiIds.size === 0) return;
 
@@ -51,7 +49,7 @@ export function SelectionBottomNav() {
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-popover/95 backdrop-blur supports-backdrop-filter:bg-popover/90 border-t-2 border-border shadow-xl">
+    <div className="sticky top-14 z-40 bg-popover/95 backdrop-blur supports-backdrop-filter:bg-popover/90 border-b-2 border-border shadow-lg">
       <div className="p-4 space-y-3">
         {/* Header with selected count and close */}
         <div className="flex items-center justify-between">

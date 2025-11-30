@@ -38,15 +38,15 @@ export function KanjiLessonContainer() {
       {/* Header */}
       <LessonHeader />
 
+      {/* Selection Bottom Navigation - Only show when in selection mode */}
+      {isSelectionMode && <SelectionBottomNav />}
+
       {/* Kanji List */}
       <div className="px-4 pt-6 pb-24 space-y-4">
         {kanjiList.map((kanji, index) => (
           <KanjiCard key={kanji.id} kanji={kanji} index={index + 1} />
         ))}
       </div>
-
-      {/* Selection Bottom Navigation */}
-      {isSelectionMode && <SelectionBottomNav />}
 
       {/* Scroll Floating Button */}
       <ScrollFloatingButton />
