@@ -1,51 +1,49 @@
+"use client";
+
 import React from "react";
-import { Button } from "@/pwa/core/components/button";
+import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
+import { WritingControlButtons as WritingControlButtonsComponent } from "../components/writing-control-buttons";
+import { checkWritingAnswer, calculateScore } from "../utils/vocabulary-writing.utils";
 
-interface WritingControlButtonsProps {
-  canCheck: boolean;
-  isAnswered: boolean;
-  isCorrect?: boolean;
-  onCheck: () => void;
-  onNext: () => void;
-  onResetAnswer: () => void;
-}
+export const WritingControlButtons: React.FC = () => {
+  const store = useVocabularyWritingExerciseStore();
 
-export const WritingControlButtons: React.FC<WritingControlButtonsProps> = ({
-  canCheck,
-  isAnswered,
-  isCorrect,
-  onCheck,
-  onNext,
-  onResetAnswer,
-}) => {
-  if (!isAnswered) {
-    return (
-      <div className="flex gap-3">
-        <Button
-          onClick={onResetAnswer}
-          variant="outline"
-          className="flex-1"
-          disabled={!canCheck}
-        >
-          Clear
-        </Button>
-        <Button
-          onClick={onCheck}
-          className="flex-1"
-          disabled={!canCheck}
-        >
-          Check Answer
-        </Button>
-      </div>
+  const handleCheckAnswer = () => {
+    const currentQuestion = store.getCurrentQuestion();
+    if (!currentQuestion || !store.questionState.userInput.trim()) return;
+
+    const isCorrect = checkWritingAnswer(
+      currentQuestion,
+      store.questionState.userInput,
+      store.questionState.inputMode
     );
-  }
+
+    // Set result for UI feedback
+    store.setCurrentResult({ isCorrect });
+
+    // Add to correct or wrong questions
+    if (isCorrect) {
+      store.addCorrectQuestion(currentQuestion);
+    } else {
+      store.addWrongQuestion(currentQuestion);
+    }
+
+    // Show bottom sheet with result
+    store.setShowBottomSheet(true);
+  };
+
+  const handleNextQuestion = () => {
+    store.handleNextQuestion(calculateScore);
+  };
 
   return (
-    <Button
-      onClick={onNext}
-      className={`w-full ${isCorrect ? 'bg-green-600 hover:bg-green-700' : 'bg-red-600 hover:bg-red-700'}`}
-    >
-      {isCorrect ? "✓ Correct! Continue" : "✗ Wrong. Continue"}
-    </Button>
+    <WritingControlButtonsComponent
+      canCheck={store.getCanCheck()}
+      isAnswered={store.getIsAnswered()}
+      isCorrect={store.getIsCurrentAnswerCorrect()}
+      onCheck={handleCheckAnswer}
+      onNext={handleNextQuestion}
+      onResetAnswer={store.resetAnswer}
+    />
   );
 };

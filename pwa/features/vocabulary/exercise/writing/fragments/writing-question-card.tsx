@@ -1,135 +1,36 @@
+"use client";
+
 import React from "react";
-import { Card } from "@/pwa/core/components/card";
-import { Button } from "@/pwa/core/components/button";
-import { Input } from "@/pwa/core/components/input";
-import { VocabularyQuestion } from "../../shared/types";
-import { playAudio } from "@/pwa/core/lib/utils/audio";
+import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
+import { WritingQuestionCard as WritingQuestionCardComponent } from "../components/writing-question-card";
 
-export interface WritingQuestionCardProps {
-  question: VocabularyQuestion;
-  userInput: string;
-  onInputChange: (input: string) => void;
-  inputMode: "romaji" | "hiragana" | "kanji";
-  onInputModeChange: (mode: "romaji" | "hiragana" | "kanji") => void;
-  canCheck: boolean;
-  isAnswered: boolean;
-  isCorrect?: boolean;
-}
+export const WritingQuestionCard: React.FC = () => {
+  const {
+    getCurrentQuestion,
+    questionState,
+    setUserInput,
+    setInputMode,
+    getCanCheck,
+    getIsAnswered,
+    getIsCurrentAnswerCorrect,
+  } = useVocabularyWritingExerciseStore();
 
-export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
-  question,
-  userInput,
-  onInputChange,
-  inputMode,
-  onInputModeChange,
-  canCheck,
-  isAnswered,
-  isCorrect,
-}) => {
-  const handlePlayAudio = () => {
-    if (question.audio) {
-      playAudio(question.audio);
-    }
-  };
+  const currentQuestion = getCurrentQuestion();
 
-  const getPlaceholder = () => {
-    switch (inputMode) {
-      case "romaji":
-        return "Type in romaji (e.g., konnichiwa)";
-      case "hiragana":
-        return "Type in hiragana (e.g., こんにちわ)";
-      case "kanji":
-        return "Type in kanji (e.g., 今日は)";
-      default:
-        return "Type your answer";
-    }
-  };
-
-  const getExpectedAnswer = () => {
-    switch (inputMode) {
-      case "romaji":
-        return question.word.romaji;
-      case "hiragana":
-        return question.word.hiragana;
-      case "kanji":
-        return question.word.kanji || question.word.hiragana;
-      default:
-        return question.word.romaji;
-    }
-  };
+  if (!currentQuestion) {
+    return null;
+  }
 
   return (
-    <Card className="p-6 space-y-6">
-      {/* Question Display */}
-      <div className="text-center space-y-4">
-        <div className="text-lg text-gray-800 font-medium">
-          Write the {inputMode} for:
-        </div>
-        
-        <div className="text-2xl font-bold text-gray-900 mb-2">
-          {question.word.meanings.id}
-        </div>
-        
-        <div className="text-lg text-gray-600">
-          ({question.word.meanings.en})
-        </div>
-        
-        {question.audio && (
-          <Button
-            onClick={handlePlayAudio}
-            variant="outline"
-            className="mx-auto"
-          >
-            🔊 Play Audio
-          </Button>
-        )}
-      </div>
-
-      {/* Input Mode Toggle */}
-      <div className="flex justify-center">
-        <div className="flex rounded-lg border border-gray-200 p-1">
-          {["romaji", "hiragana", "kanji"].map((mode) => (
-            <Button
-              key={mode}
-              onClick={() => onInputModeChange(mode as any)}
-              variant={inputMode === mode ? "default" : "ghost"}
-              size="sm"
-              className="capitalize"
-              disabled={isAnswered}
-            >
-              {mode}
-            </Button>
-          ))}
-        </div>
-      </div>
-
-      {/* Input Field */}
-      <div className="space-y-3">
-        <Input
-          value={userInput}
-          onChange={(e) => onInputChange(e.target.value)}
-          placeholder={getPlaceholder()}
-          className={`w-full text-center text-lg p-4 ${
-            isAnswered
-              ? isCorrect
-                ? "border-green-500 bg-green-50"
-                : "border-red-500 bg-red-50"
-              : ""
-          }`}
-          disabled={isAnswered}
-        />
-        
-        {isAnswered && !isCorrect && (
-          <div className="text-center space-y-2">
-            <div className="text-sm text-red-600 dark:text-red-400">
-              Your answer: <span className="font-medium">{userInput}</span>
-            </div>
-            <div className="text-sm text-green-600 dark:text-green-400">
-              Correct answer: <span className="font-medium">{getExpectedAnswer()}</span>
-            </div>
-          </div>
-        )}
-      </div>
-    </Card>
+    <WritingQuestionCardComponent
+      question={currentQuestion}
+      userInput={questionState.userInput}
+      onInputChange={setUserInput}
+      inputMode={questionState.inputMode}
+      onInputModeChange={setInputMode}
+      canCheck={getCanCheck()}
+      isAnswered={getIsAnswered()}
+      isCorrect={getIsCurrentAnswerCorrect()}
+    />
   );
 };

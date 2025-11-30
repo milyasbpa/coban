@@ -8,6 +8,8 @@ export interface VocabularyWritingGameState {
   isRetryMode: boolean;
   wrongQuestions: VocabularyQuestion[];
   score: number;
+  level: string;
+  categoryId: string;
 }
 
 export interface VocabularyWritingQuestionState {
@@ -47,7 +49,7 @@ export interface VocabularyWritingExerciseState {
   setIsComplete: (complete: boolean) => void;
   
   // Game flow actions
-  initializeGame: (questions: VocabularyQuestion[]) => void;
+  initializeGame: (questions: VocabularyQuestion[], level: string, categoryId: string) => void;
   nextQuestion: () => void;
   resetAnswer: () => void;
   restartGame: () => void;
@@ -70,6 +72,8 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     isRetryMode: false,
     wrongQuestions: [],
     score: 0,
+    level: "n5",
+    categoryId: "ANGKA",
   },
   questionState: {
     currentQuestionIndex: 0,
@@ -177,7 +181,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     })),
 
   // Game flow actions
-  initializeGame: (questions) => set({
+  initializeGame: (questions, level, categoryId) => set({
     gameState: {
       questions,
       correctQuestions: [],
@@ -185,6 +189,8 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
       isRetryMode: false,
       wrongQuestions: [],
       score: 0,
+      level,
+      categoryId,
     },
     questionState: {
       currentQuestionIndex: 0,
@@ -232,7 +238,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     })),
 
   restartGame: () => {
-    const { gameState: { questions } } = get();
+    const { gameState: { questions, level, categoryId } } = get();
     set({
       gameState: {
         questions,
@@ -241,6 +247,8 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
         isRetryMode: false,
         wrongQuestions: [],
         score: 0,
+        level,
+        categoryId,
       },
       questionState: {
         currentQuestionIndex: 0,
@@ -253,7 +261,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
   },
 
   startRetryMode: () => {
-    const { gameState: { wrongQuestions, score, questions } } = get();
+    const { gameState: { wrongQuestions, score, questions, level, categoryId } } = get();
     if (wrongQuestions.length === 0) return;
     
     set({
@@ -264,6 +272,8 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
         isRetryMode: true,
         wrongQuestions: wrongQuestions,
         score: score,
+        level,
+        categoryId,
       },
       questionState: {
         currentQuestionIndex: 0,

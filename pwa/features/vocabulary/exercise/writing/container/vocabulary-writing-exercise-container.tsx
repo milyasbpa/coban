@@ -1,26 +1,22 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
-import { ProgressBar } from "../../reading/fragments/progress-bar"; // Reuse from reading
+import { VocabularyWritingHeader } from "../fragments/vocabulary-writing-header";
 import { WritingQuestionCard } from "../fragments/writing-question-card";
 import { WritingControlButtons } from "../fragments/writing-control-buttons";
-import { ResultCard } from "../../reading/fragments/result-card"; // Reuse from reading
+import { VocabularyWritingGameResult } from "../fragments/vocabulary-writing-game-result";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
-import { generateWritingQuestions, calculateScore, checkWritingAnswer } from "../utils/vocabulary-writing.utils";
+import { generateWritingQuestions } from "../utils/vocabulary-writing.utils";
 
-interface VocabularyWritingExerciseContainerProps {
-  level: string;
-  categoryId: string;
-}
-
-export const VocabularyWritingExerciseContainer: React.FC<VocabularyWritingExerciseContainerProps> = ({
-  level,
-  categoryId,
-}) => {
+export const VocabularyWritingExerciseContainer: React.FC = () => {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const store = useVocabularyWritingExerciseStore();
+
+  const level = searchParams.get("level") || "n5";
+  const categoryId = searchParams.get("categoryId") || "ANGKA";
 
   useEffect(() => {
     initializeExercise();
@@ -39,39 +35,11 @@ export const VocabularyWritingExerciseContainer: React.FC<VocabularyWritingExerc
       // Generate questions from vocabulary words
       const questions = generateWritingQuestions(vocabularyCategory.vocabulary, "meaning-to-romaji");
       
-      // Initialize the game
-      store.initializeGame(questions);
+      // Initialize the game with level and categoryId for score integration
+      store.initializeGame(questions, level, categoryId);
     } catch (error) {
       console.error("Failed to initialize vocabulary writing exercise:", error);
     }
-  };
-
-  const handleCheckAnswer = () => {
-    const currentQuestion = store.getCurrentQuestion();
-    if (!currentQuestion || !store.questionState.userInput.trim()) return;
-
-    const isCorrect = checkWritingAnswer(
-      currentQuestion, 
-      store.questionState.userInput, 
-      store.questionState.inputMode
-    );
-    
-    // Set result for UI feedback
-    store.setCurrentResult({ isCorrect });
-    
-    // Add to correct or wrong questions
-    if (isCorrect) {
-      store.addCorrectQuestion(currentQuestion);
-    } else {
-      store.addWrongQuestion(currentQuestion);
-    }
-
-    // Show bottom sheet with result
-    store.setShowBottomSheet(true);
-  };
-
-  const handleNextQuestion = () => {
-    store.handleNextQuestion(calculateScore);
   };
 
   const handleBackToHome = () => {
@@ -79,20 +47,7 @@ export const VocabularyWritingExerciseContainer: React.FC<VocabularyWritingExerc
   };
 
   if (store.gameState.isComplete) {
-    return (
-      <div className="container mx-auto px-4 py-8">
-        <ResultCard
-          score={store.gameState.score}
-          correctAnswers={store.getCorrectAnswers()}
-          wrongAnswers={store.getWrongAnswers()}
-          totalQuestions={store.getTotalQuestions()}
-          canRetry={store.canRetry()}
-          onRestart={store.restartGame}
-          onRetry={store.startRetryMode}
-          onBackToHome={handleBackToHome}
-        />
-      </div>
-    );
+    return <VocabularyWritingGameResult />;
   }
 
   const currentQuestion = store.getCurrentQuestion();
@@ -106,31 +61,13 @@ export const VocabularyWritingExerciseContainer: React.FC<VocabularyWritingExerc
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 space-y-6">
-      <ProgressBar
-        progress={store.getCurrentQuestionNumber()}
-        maxProgress={store.getTotalQuestions()}
-      />
-
-      <WritingQuestionCard
-        question={currentQuestion}
-        userInput={store.questionState.userInput}
-        onInputChange={store.setUserInput}
-        inputMode={store.questionState.inputMode}
-        onInputModeChange={store.setInputMode}
-        canCheck={store.getCanCheck()}
-        isAnswered={store.getIsAnswered()}
-        isCorrect={store.getIsCurrentAnswerCorrect()}
-      />
-
-      <WritingControlButtons
-        canCheck={store.getCanCheck()}
-        isAnswered={store.getIsAnswered()}
-        isCorrect={store.getIsCurrentAnswerCorrect()}
-        onCheck={handleCheckAnswer}
-        onNext={handleNextQuestion}
-        onResetAnswer={store.resetAnswer}
-      />
+    <div className="min-h-screen bg-background">
+      <VocabularyWritingHeader />
+      
+      <div className="container mx-auto px-4 py-8 space-y-6">
+        <WritingQuestionCard />
+        <WritingControlButtons />
+      </div>
     </div>
   );
 };
