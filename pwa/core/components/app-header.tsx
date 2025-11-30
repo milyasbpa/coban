@@ -79,16 +79,16 @@ export function AppHeader({
     <div
       className={`sticky top-0 z-50 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b border-border/40 ${className}`}
     >
-      <div className="flex items-center justify-between px-4 py-3">
+      <div className="flex items-center justify-between px-4 h-14">
         {/* Left Side - Back Button/Logo & Title */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 min-w-0 flex-1">
           {leftSide?.type === "back" && (
-            <Link href={leftSide.href} passHref className="flex items-center gap-2">
+            <Link href={leftSide.href} className="flex items-center gap-2 min-w-0">
               <Button variant="ghost" size="icon" className="shrink-0 h-8 w-8">
                 <leftSide.icon className="w-4 h-4" />
               </Button>
               {title && (
-                <h1 className="text-sm font-semibold text-foreground">
+                <h1 className="text-sm font-semibold text-foreground truncate">
                   {title}
                 </h1>
               )}
@@ -102,7 +102,7 @@ export function AppHeader({
                 alt={leftSide.alt || "Logo"}
                 width={32}
                 height={32}
-                className="w-8 h-8"
+                className="w-8 h-8 shrink-0"
               />
               {leftSide.label && (
                 <span className="font-medium">{leftSide.label}</span>
@@ -111,12 +111,12 @@ export function AppHeader({
           )}
 
           {!leftSide && title && (
-            <h1 className="text-sm font-semibold text-foreground">{title}</h1>
+            <h1 className="text-sm font-semibold text-foreground truncate">{title}</h1>
           )}
         </div>
 
         {/* Right Side - Settings & User */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
           {/* Settings Dropdown */}
           {showSettings && (
             <SettingsDropdown
