@@ -6,6 +6,7 @@ import { SettingsDropdown } from "@/pwa/core/components/settings-dropdown";
 import { UserDropdown } from "@/pwa/features/home/components/user-dropdown";
 import { User as UserIcon, LucideIcon } from "lucide-react";
 import { User } from "@/pwa/features/login/store";
+import { clearLastVisitedPage } from "@/pwa/core/lib/hooks/use-last-visited-page";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -83,7 +84,11 @@ export function AppHeader({
         {/* Left Side - Back Button/Logo & Title */}
         <div className="flex items-center gap-2 min-w-0 flex-1">
           {leftSide?.type === "back" && (
-            <Link href={leftSide.href} className="flex items-center gap-2 min-w-0">
+            <Link 
+              href={leftSide.href} 
+              className="flex items-center gap-2 min-w-0"
+              onClick={() => clearLastVisitedPage()}
+            >
               <Button variant="ghost" size="icon" className="shrink-0 h-8 w-8">
                 <leftSide.icon className="w-4 h-4" />
               </Button>

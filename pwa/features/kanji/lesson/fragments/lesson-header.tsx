@@ -8,6 +8,7 @@ import { useLoginStore } from "@/pwa/features/login/store";
 import { useSearchParams, useRouter } from "next/navigation";
 import { KanjiService } from "@/pwa/core/services/kanji";
 import { titleCase } from "@/pwa/core/lib/utils/titleCase";
+import { clearLastVisitedPage } from "@/pwa/core/lib/hooks/use-last-visited-page";
 import { signOut } from "firebase/auth";
 import { auth } from "@/pwa/core/config/firebase";
 
@@ -45,6 +46,7 @@ export function LessonHeader() {
     try {
       await signOut(auth);
       storeLogout();
+      clearLastVisitedPage(); // Clear saved page on logout
     } catch (error) {
       console.error("Logout error:", error);
     }

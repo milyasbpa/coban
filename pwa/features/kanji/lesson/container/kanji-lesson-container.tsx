@@ -8,11 +8,15 @@ import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
 import { ScrollFloatingButton } from "@/pwa/core/components/scroll-floating-button";
 import { useKanjiSelection } from "../store/kanji-selection.store";
 import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
+import { useLastVisitedPage } from "@/pwa/core/lib/hooks/use-last-visited-page";
 
 export function KanjiLessonContainer() {
   const searchParams = useSearchParams();
   const [kanjiList, setKanjiList] = useState<KanjiDetail[]>([]);
   const { isSelectionMode } = useKanjiSelection();
+  
+  // Auto-save current page URL for restoration after restart
+  useLastVisitedPage();
 
   const lessonId = searchParams.get("lessonId");
   const topicId = searchParams.get("topicId");
