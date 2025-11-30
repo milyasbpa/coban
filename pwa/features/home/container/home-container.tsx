@@ -15,6 +15,7 @@ import { useHomeSettingsStore } from "../store/home-settings.store";
 import { config } from "@/pwa/core/config/env";
 import { VocabularyLessonSection } from "../fragments/vocabulary-lesson-section";
 import { GrammarLessonSection } from "../fragments/grammar-lesson-section";
+import { ScrollFloatingButton } from "@/pwa/core/components/scroll-floating-button";
 
 // Conditional Controls Component
 function ConditionalControls() {
@@ -66,10 +67,17 @@ export function HomeContainer() {
       initializeVocabularyUser(user.uid, config.defaults.level);
       initializeGrammarUser(user.uid, config.defaults.level);
     }
-  }, [isAuthenticated, user, initializeKanjiUser, initializeVocabularyUser, initializeGrammarUser, isKanjiInitialized]);
+  }, [
+    isAuthenticated,
+    user,
+    initializeKanjiUser,
+    initializeVocabularyUser,
+    initializeGrammarUser,
+    isKanjiInitialized,
+  ]);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background pb-16">
       {/* Header */}
       <Header />
 
@@ -92,6 +100,7 @@ export function HomeContainer() {
           <GrammarLessonSection showProgress={isAuthenticated} />
         ) : null}
       </div>
+      <ScrollFloatingButton />
     </div>
   );
 }
