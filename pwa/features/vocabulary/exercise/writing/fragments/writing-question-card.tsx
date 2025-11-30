@@ -1,36 +1,55 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
 import { WritingQuestionCard as WritingQuestionCardComponent } from "../components/writing-question-card";
+import { generateCharacterTiles, getExpectedTileAnswer } from "../utils/generate-character-tiles";
 
 export const WritingQuestionCard: React.FC = () => {
   const {
     getCurrentQuestion,
     questionState,
-    setUserInput,
+    gameState,
     setInputMode,
-    getCanCheck,
     getIsAnswered,
     getIsCurrentAnswerCorrect,
+    selectTile,
+    deselectCharacter,
+    setAvailableTiles,
   } = useVocabularyWritingExerciseStore();
 
   const currentQuestion = getCurrentQuestion();
+
+  // Generate tiles when question changes or input mode changes
+  useEffect(() => {
+    if (currentQuestion && !getIsAnswered()) {
+      const tiles = generateCharacterTiles(
+        currentQuestion,
+        gameState.questions,
+        questionState.inputMode
+      );
+      setAvailableTiles(tiles);
+    }
+  }, [currentQuestion?.id, questionState.inputMode]);
 
   if (!currentQuestion) {
     return null;
   }
 
+  const expectedAnswer = getExpectedTileAnswer(currentQuestion, questionState.inputMode);
+
   return (
     <WritingQuestionCardComponent
       question={currentQuestion}
-      userInput={questionState.userInput}
-      onInputChange={setUserInput}
+      selectedCharacters={questionState.selectedCharacters}
+      availableTiles={questionState.availableTiles}
+      onTileSelect={selectTile}
+      onCharacterDeselect={deselectCharacter}
       inputMode={questionState.inputMode}
       onInputModeChange={setInputMode}
-      canCheck={getCanCheck()}
       isAnswered={getIsAnswered()}
       isCorrect={getIsCurrentAnswerCorrect()}
+      expectedAnswer={expectedAnswer}
     />
   );
 };

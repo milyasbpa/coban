@@ -1,135 +1,136 @@
 import React from "react";
 import { Card } from "@/pwa/core/components/card";
 import { Button } from "@/pwa/core/components/button";
-import { Input } from "@/pwa/core/components/input";
 import { VocabularyQuestion } from "../../shared/types";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
+import { CharacterTile } from "../utils/generate-character-tiles";
+import { WritingAnswerArea } from "./writing-answer-area";
+import { WritingCharacterTiles } from "./writing-character-tiles";
+import { Volume2 } from "lucide-react";
+import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
 export interface WritingQuestionCardProps {
   question: VocabularyQuestion;
-  userInput: string;
-  onInputChange: (input: string) => void;
-  inputMode: "romaji" | "hiragana" | "kanji";
-  onInputModeChange: (mode: "romaji" | "hiragana" | "kanji") => void;
-  canCheck: boolean;
+  selectedCharacters: string[];
+  availableTiles: CharacterTile[];
+  onTileSelect: (tileId: string) => void;
+  onCharacterDeselect: (index: number) => void;
+  inputMode: "hiragana" | "kanji";
+  onInputModeChange: (mode: "hiragana" | "kanji") => void;
   isAnswered: boolean;
   isCorrect?: boolean;
+  expectedAnswer?: string;
 }
 
 export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
   question,
-  userInput,
-  onInputChange,
+  selectedCharacters,
+  availableTiles,
+  onTileSelect,
+  onCharacterDeselect,
   inputMode,
   onInputModeChange,
-  canCheck,
   isAnswered,
   isCorrect,
+  expectedAnswer,
 }) => {
+  const { language } = useLanguage();
+  
   const handlePlayAudio = () => {
     if (question.audio) {
       playAudio(question.audio);
     }
   };
 
-  const getPlaceholder = () => {
-    switch (inputMode) {
-      case "romaji":
-        return "Type in romaji (e.g., konnichiwa)";
-      case "hiragana":
-        return "Type in hiragana (e.g., こんにちわ)";
-      case "kanji":
-        return "Type in kanji (e.g., 今日は)";
-      default:
-        return "Type your answer";
-    }
-  };
-
-  const getExpectedAnswer = () => {
-    switch (inputMode) {
-      case "romaji":
-        return question.word.romaji;
-      case "hiragana":
-        return question.word.hiragana;
-      case "kanji":
-        return question.word.kanji || question.word.hiragana;
-      default:
-        return question.word.romaji;
-    }
-  };
+  // Get meaning based on selected language
+  const meaning = language === "id" 
+    ? question.word.meanings.id 
+    : question.word.meanings.en;
 
   return (
-    <Card className="p-6 space-y-6">
-      {/* Question Display */}
-      <div className="text-center space-y-4">
-        <div className="text-lg text-foreground/80 font-medium">
-          Write the {inputMode} for:
-        </div>
-        
-        <div className="text-2xl font-bold text-foreground mb-2">
-          {question.word.meanings.id}
-        </div>
-        
-        <div className="text-lg text-muted-foreground">
-          ({question.word.meanings.en})
-        </div>
-        
-        {question.audio && (
-          <Button
+    <div className="space-y-6">
+      {/* Audio Badge - Compact display like in reference image */}
+      {question.audio && (
+        <div className="flex justify-center">
+          <button
             onClick={handlePlayAudio}
-            variant="outline"
-            className="mx-auto"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border hover:bg-accent transition-colors"
           >
-            🔊 Play Audio
-          </Button>
-        )}
-      </div>
-
-      {/* Input Mode Toggle */}
-      <div className="flex justify-center">
-        <div className="flex rounded-lg border border-border bg-muted/20 p-1">
-          {["romaji", "hiragana", "kanji"].map((mode) => (
-            <Button
-              key={mode}
-              onClick={() => onInputModeChange(mode as any)}
-              variant={inputMode === mode ? "default" : "ghost"}
-              size="sm"
-              className="capitalize"
-              disabled={isAnswered}
-            >
-              {mode}
-            </Button>
-          ))}
+            <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
+              <Volume2 className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+            </div>
+            <span className="text-lg font-medium text-red-500 dark:text-red-400">
+              {meaning}
+            </span>
+          </button>
         </div>
-      </div>
+      )}
 
-      {/* Input Field */}
-      <div className="space-y-3">
-        <Input
-          value={userInput}
-          onChange={(e) => onInputChange(e.target.value)}
-          placeholder={getPlaceholder()}
-          className={`w-full text-center text-lg p-4 ${
-            isAnswered
-              ? isCorrect
-                ? "border-green-500 dark:border-green-600 bg-green-50 dark:bg-green-950/20"
-                : "border-red-500 dark:border-red-600 bg-red-50 dark:bg-red-950/20"
-              : ""
-          }`}
-          disabled={isAnswered}
+      {/* Question Display */}
+      <Card className="p-6 space-y-6">
+        <div className="text-center space-y-4">
+          <div className="text-lg text-foreground/80 font-medium">
+            Write the {inputMode} for:
+          </div>
+          
+          <div className="text-2xl font-bold text-foreground mb-2">
+            {meaning}
+          </div>
+        </div>
+
+        {/* Answer Area */}
+        <WritingAnswerArea
+          selectedCharacters={selectedCharacters}
+          onCharacterTap={onCharacterDeselect}
+          isAnswered={isAnswered}
         />
-        
-        {isAnswered && !isCorrect && (
-          <div className="text-center space-y-2">
+
+        {/* Character Tiles */}
+        <WritingCharacterTiles
+          tiles={availableTiles}
+          onTileTap={onTileSelect}
+          isAnswered={isAnswered}
+        />
+
+        {/* Feedback Messages */}
+        {isAnswered && !isCorrect && expectedAnswer && (
+          <div className="text-center space-y-2 pt-4 border-t border-border">
             <div className="text-sm text-red-600 dark:text-red-400">
-              Your answer: <span className="font-medium">{userInput}</span>
+              Your answer: <span className="font-medium">{selectedCharacters.join("")}</span>
             </div>
             <div className="text-sm text-green-600 dark:text-green-400">
-              Correct answer: <span className="font-medium">{getExpectedAnswer()}</span>
+              Correct answer: <span className="font-medium">{expectedAnswer}</span>
             </div>
           </div>
         )}
-      </div>
-    </Card>
+      </Card>
+
+      {/* Input Mode Toggle - Bottom sheet style */}
+      <Card className="p-4">
+        <div className="flex items-center justify-between">
+          <span className="text-sm font-medium text-foreground">Input Mode</span>
+          <div className="flex rounded-lg border border-border bg-muted/20 p-1">
+            <Button
+              onClick={() => onInputModeChange("hiragana")}
+              variant={inputMode === "hiragana" ? "default" : "ghost"}
+              size="sm"
+              disabled={isAnswered}
+              className="text-sm"
+            >
+              ひらがな
+            </Button>
+            <Button
+              onClick={() => onInputModeChange("kanji")}
+              variant={inputMode === "kanji" ? "default" : "ghost"}
+              size="sm"
+              disabled={isAnswered}
+              className="text-sm"
+            >
+              漢字
+            </Button>
+          </div>
+        </div>
+      </Card>
+    </div>
   );
 };

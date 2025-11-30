@@ -3,20 +3,19 @@
 import React from "react";
 import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
 import { WritingControlButtons as WritingControlButtonsComponent } from "../components/writing-control-buttons";
-import { checkWritingAnswer, calculateScore } from "../utils/vocabulary-writing.utils";
+import { checkTileAnswer, getExpectedTileAnswer } from "../utils/generate-character-tiles";
+import { calculateScore } from "../utils/vocabulary-writing.utils";
 
 export const WritingControlButtons: React.FC = () => {
   const store = useVocabularyWritingExerciseStore();
 
   const handleCheckAnswer = () => {
     const currentQuestion = store.getCurrentQuestion();
-    if (!currentQuestion || !store.questionState.userInput.trim()) return;
+    if (!currentQuestion || store.questionState.selectedCharacters.length === 0) return;
 
-    const isCorrect = checkWritingAnswer(
-      currentQuestion,
-      store.questionState.userInput,
-      store.questionState.inputMode
-    );
+    const selectedAnswer = store.questionState.selectedCharacters.join("");
+    const expectedAnswer = getExpectedTileAnswer(currentQuestion, store.questionState.inputMode);
+    const isCorrect = checkTileAnswer(store.questionState.selectedCharacters, expectedAnswer);
 
     // Set result for UI feedback
     store.setCurrentResult({ isCorrect });
@@ -43,7 +42,6 @@ export const WritingControlButtons: React.FC = () => {
       isCorrect={store.getIsCurrentAnswerCorrect()}
       onCheck={handleCheckAnswer}
       onNext={handleNextQuestion}
-      onResetAnswer={store.resetAnswer}
     />
   );
 };

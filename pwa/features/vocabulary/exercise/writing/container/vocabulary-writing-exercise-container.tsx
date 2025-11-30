@@ -17,10 +17,21 @@ export const VocabularyWritingExerciseContainer: React.FC = () => {
 
   const level = searchParams.get("level") || "n5";
   const categoryId = searchParams.get("categoryId") || "ANGKA";
+  const selectedVocabularyParam = searchParams.get("selectedVocabulary");
+
+  // Parse selectedVocabulary IDs from URL
+  const selectedVocabularyIds = React.useMemo(() => {
+    return selectedVocabularyParam
+      ? selectedVocabularyParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
+      : undefined;
+  }, [selectedVocabularyParam]);
 
   useEffect(() => {
     initializeExercise();
-  }, [level, categoryId]);
+  }, [level, categoryId, selectedVocabularyParam]);
 
   const initializeExercise = async () => {
     try {
@@ -32,8 +43,21 @@ export const VocabularyWritingExerciseContainer: React.FC = () => {
         return;
       }
 
+      // Filter vocabulary if selectedVocabularyIds provided (from selection mode)
+      let vocabularyWords = vocabularyCategory.vocabulary;
+      if (selectedVocabularyIds && selectedVocabularyIds.length > 0) {
+        vocabularyWords = vocabularyCategory.vocabulary.filter((word) =>
+          selectedVocabularyIds.includes(word.id)
+        );
+
+        if (vocabularyWords.length === 0) {
+          console.error("No vocabulary words found with selected IDs");
+          return;
+        }
+      }
+
       // Generate questions from vocabulary words
-      const questions = generateWritingQuestions(vocabularyCategory.vocabulary, "meaning-to-romaji");
+      const questions = generateWritingQuestions(vocabularyWords, "meaning-to-romaji");
       
       // Initialize the game with level and categoryId for score integration
       store.initializeGame(questions, level, categoryId);
@@ -64,10 +88,11 @@ export const VocabularyWritingExerciseContainer: React.FC = () => {
     <div className="min-h-screen bg-background">
       <VocabularyWritingHeader />
       
-      <div className="container mx-auto px-4 py-8 space-y-6">
+      <div className="container mx-auto px-4 py-8 pb-24 space-y-6">
         <WritingQuestionCard />
-        <WritingControlButtons />
       </div>
+      
+      <WritingControlButtons />
     </div>
   );
 };

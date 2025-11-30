@@ -7,7 +7,6 @@ interface WritingControlButtonsProps {
   isCorrect?: boolean;
   onCheck: () => void;
   onNext: () => void;
-  onResetAnswer: () => void;
 }
 
 export const WritingControlButtons: React.FC<WritingControlButtonsProps> = ({
@@ -16,36 +15,37 @@ export const WritingControlButtons: React.FC<WritingControlButtonsProps> = ({
   isCorrect,
   onCheck,
   onNext,
-  onResetAnswer,
 }) => {
   if (!isAnswered) {
     return (
-      <div className="flex gap-3">
-        <Button
-          onClick={onResetAnswer}
-          variant="outline"
-          className="flex-1"
-          disabled={!canCheck}
-        >
-          Clear
-        </Button>
-        <Button
-          onClick={onCheck}
-          className="flex-1"
-          disabled={!canCheck}
-        >
-          Check Answer
-        </Button>
+      <div className="fixed bottom-0 left-0 right-0 p-4 bg-background border-t border-border z-50">
+        <div className="container mx-auto max-w-2xl">
+          <Button
+            onClick={onCheck}
+            className="w-full h-14 text-lg font-bold"
+            disabled={!canCheck}
+          >
+            CHECK
+          </Button>
+        </div>
       </div>
     );
   }
 
   return (
-    <Button
-      onClick={onNext}
-      className={`w-full ${isCorrect ? 'bg-green-600 hover:bg-green-700' : 'bg-red-600 hover:bg-red-700'}`}
-    >
-      {isCorrect ? "✓ Correct! Continue" : "✗ Wrong. Continue"}
-    </Button>
+    <div className="fixed bottom-0 left-0 right-0 p-4 bg-background border-t border-border z-50">
+      <div className="container mx-auto max-w-2xl">
+        <Button
+          onClick={onNext}
+          className={`w-full h-14 text-lg font-bold ${
+            isCorrect 
+              ? 'bg-green-600 hover:bg-green-700 dark:bg-green-700 dark:hover:bg-green-800' 
+              : 'bg-red-600 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-800'
+          }`}
+        >
+          {isCorrect ? "✓ Correct! Continue" : "✗ Wrong. Continue"}
+        </Button>
+      </div>
+    </div>
   );
 };

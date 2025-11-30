@@ -3,9 +3,10 @@
 import { useRouter } from "next/navigation";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
+import { Confetti } from "@/pwa/core/components/confetti";
 import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
-import { getScoreColor } from "@/pwa/features/kanji/exercise/pairing/utils/score-colors";
-import Confetti from "react-confetti";
+import { getScoreColor } from "../../utils/score-colors";
+import { RotateCcw } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { integrateVocabularyWritingExerciseScore } from "../utils/scoring-integration";
@@ -17,7 +18,6 @@ export const VocabularyWritingGameResult = () => {
   const { user, isAuthenticated } = useLoginStore();
   const { refreshUserScore } = useVocabularyScoreStore();
 
-  const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
   const [isScoreIntegrated, setIsScoreIntegrated] = useState(false);
   
   const score = store.gameState.score;
@@ -26,17 +26,11 @@ export const VocabularyWritingGameResult = () => {
   const correctAnswers = store.getCorrectAnswers();
   const level = store.gameState.level;
   const categoryId = store.gameState.categoryId;
+  const isRetryMode = store.gameState.isRetryMode;
   
-  const accuracy = Math.round((score / totalQuestions) * 100);
-  const isPerfectScore = accuracy === 100;
-  const scoreColors = getScoreColor(accuracy);
-
-  useEffect(() => {
-    setWindowSize({
-      width: window.innerWidth,
-      height: window.innerHeight,
-    });
-  }, []);
+  // Score is already in percentage (0-100), no need to calculate again
+  const isPerfectScore = score === 100;
+  const scoreColors = getScoreColor(score);
 
   // Integrate score with vocabulary scoring system (only once)
   useEffect(() => {
@@ -83,56 +77,67 @@ export const VocabularyWritingGameResult = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[calc(100vh-3.5rem)] p-4">
-      {isPerfectScore && (
-        <Confetti
-          width={windowSize.width}
-          height={windowSize.height}
-          recycle={false}
-          numberOfPieces={500}
-        />
-      )}
+    <div className="min-h-screen bg-background p-4">
+      {/* Confetti for perfect scores */}
+      <Confetti isPerfectScore={isPerfectScore} />
 
-      <Card
-        className={`w-full max-w-md p-8 ${scoreColors.bg} ${scoreColors.border} border-2`}
-      >
-        <div className="text-center space-y-6">
-          <h2 className={`text-2xl font-bold ${scoreColors.textSecondary}`}>
-            Quiz Complete!
-          </h2>
-
+      <div className="flex items-center justify-center min-h-screen">
+        <Card className="w-full max-w-md p-8 text-center space-y-6">
           <div className="space-y-2">
-            <div className={`text-7xl font-bold ${scoreColors.text}`}>
-              {accuracy}%
-            </div>
-            <p className={`text-lg ${scoreColors.textSecondary}`}>
-              {score} out of {totalQuestions} correct
+            <h1 className="text-3xl font-bold text-foreground">
+              {isRetryMode
+                ? "Retry Complete! ⚡"
+                : isPerfectScore
+                ? "Perfect! 🎉"
+                : "Bravo! 🎉"}
+            </h1>
+            <p className="text-muted-foreground">
+              {isRetryMode
+                ? `Retry completed with final score!`
+                : isPerfectScore
+                ? "Amazing! You got everything right!"
+                : "Congratulations on completing the vocabulary exercise!"}
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 pt-4">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-green-600 dark:text-green-400">
-                {correctAnswers}
-              </div>
-              <p className="text-sm text-muted-foreground">Correct</p>
+          {/* Score Display */}
+          <div
+            className={`${scoreColors.bg} border-2 ${scoreColors.border} rounded-xl p-6`}
+          >
+            <div className={`text-4xl font-bold ${scoreColors.text} mb-2`}>
+              {score}
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-red-600 dark:text-red-400">
-                {wrongAnswers}
-              </div>
-              <p className="text-sm text-muted-foreground">Wrong</p>
+            <div className={`text-sm ${scoreColors.textSecondary}`}>
+              Final Score
             </div>
           </div>
 
+          {/* Score Breakdown */}
+          <div className="space-y-2 text-sm text-muted-foreground">
+            <div className="flex justify-between">
+              <span>Correct:</span>
+              <span className="text-green-600 dark:text-green-400 font-medium">{correctAnswers}</span>
+            </div>
+            <div className="flex justify-between">
+              <span>Wrong:</span>
+              <span className="text-red-600 dark:text-red-400 font-medium">{wrongAnswers}</span>
+            </div>
+            <div className="flex justify-between">
+              <span>Total:</span>
+              <span className="font-medium">{totalQuestions}</span>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
           <div className="space-y-3 pt-4">
-            {store.canRetry() && (
+            {store.canRetry() && !isRetryMode && (
               <Button
                 onClick={handleRetry}
                 className="w-full"
                 variant="default"
                 size="lg"
               >
+                <RotateCcw className="mr-2 h-4 w-4" />
                 Retry Wrong Questions ({wrongAnswers})
               </Button>
             )}
@@ -146,8 +151,8 @@ export const VocabularyWritingGameResult = () => {
               Back to Home
             </Button>
           </div>
-        </div>
-      </Card>
+        </Card>
+      </div>
     </div>
   );
 };

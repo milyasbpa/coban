@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { VocabularyQuestion, VocabularyExerciseWord } from "../../shared/types";
+import { CharacterTile } from "../utils/generate-character-tiles";
 
 export interface VocabularyWritingGameState {
   questions: VocabularyQuestion[];
@@ -14,8 +15,9 @@ export interface VocabularyWritingGameState {
 
 export interface VocabularyWritingQuestionState {
   currentQuestionIndex: number;
-  inputMode: "romaji" | "hiragana" | "kanji";
-  userInput: string;
+  inputMode: "hiragana" | "kanji";
+  availableTiles: CharacterTile[];
+  selectedCharacters: string[];
   showBottomSheet: boolean;
   currentResult: any | null;
 }
@@ -37,13 +39,18 @@ export interface VocabularyWritingExerciseState {
   getCorrectAnswers: () => number;
   getIsAnswered: () => boolean;
   getIsCurrentAnswerCorrect: () => boolean;
-  getUserInput: () => string;
+  getSelectedAnswer: () => string;
+  getAvailableTiles: () => CharacterTile[];
 
   // Actions
   setQuestions: (questions: VocabularyQuestion[]) => void;
   setCurrentQuestionIndex: (index: number) => void;
-  setInputMode: (mode: "romaji" | "hiragana" | "kanji") => void;
-  setUserInput: (input: string) => void;
+  setInputMode: (mode: "hiragana" | "kanji") => void;
+  setAvailableTiles: (tiles: CharacterTile[]) => void;
+  setSelectedCharacters: (characters: string[]) => void;
+  selectTile: (tileId: string) => void;
+  deselectCharacter: (index: number) => void;
+  clearSelection: () => void;
   setShowBottomSheet: (show: boolean) => void;
   setCurrentResult: (result: any | null) => void;
   setIsComplete: (complete: boolean) => void;
@@ -77,8 +84,9 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
   },
   questionState: {
     currentQuestionIndex: 0,
-    inputMode: "romaji",
-    userInput: "",
+    inputMode: "hiragana",
+    availableTiles: [],
+    selectedCharacters: [],
     showBottomSheet: false,
     currentResult: null,
   },
@@ -95,8 +103,8 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
   },
 
   getCanCheck: () => {
-    const { questionState: { userInput } } = get();
-    return userInput.trim() !== "";
+    const { questionState: { selectedCharacters } } = get();
+    return selectedCharacters.length > 0;
   },
 
   canRetry: () => {
@@ -139,9 +147,14 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     return currentResult?.isCorrect || false;
   },
 
-  getUserInput: () => {
-    const { questionState: { userInput } } = get();
-    return userInput;
+  getSelectedAnswer: () => {
+    const { questionState: { selectedCharacters } } = get();
+    return selectedCharacters.join("");
+  },
+
+  getAvailableTiles: () => {
+    const { questionState: { availableTiles } } = get();
+    return availableTiles;
   },
 
   // Actions
@@ -160,10 +173,73 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
       questionState: { ...state.questionState, inputMode: mode }
     })),
   
-  setUserInput: (input) => 
+  setAvailableTiles: (tiles) =>
     set((state) => ({
-      questionState: { ...state.questionState, userInput: input }
+      questionState: { ...state.questionState, availableTiles: tiles }
     })),
+
+  setSelectedCharacters: (characters) =>
+    set((state) => ({
+      questionState: { ...state.questionState, selectedCharacters: characters }
+    })),
+
+  selectTile: (tileId) => {
+    const { questionState: { availableTiles, selectedCharacters } } = get();
+    const tile = availableTiles.find(t => t.id === tileId);
+    
+    if (tile && !tile.isUsed) {
+      const updatedTiles = availableTiles.map(t =>
+        t.id === tileId ? { ...t, isUsed: true } : t
+      );
+      
+      set((state) => ({
+        questionState: {
+          ...state.questionState,
+          availableTiles: updatedTiles,
+          selectedCharacters: [...selectedCharacters, tile.character]
+        }
+      }));
+    }
+  },
+
+  deselectCharacter: (index) => {
+    const { questionState: { availableTiles, selectedCharacters } } = get();
+    const character = selectedCharacters[index];
+    
+    // Find the tile with this character that was used
+    const tileToRestore = availableTiles.find(t => 
+      t.character === character && t.isUsed
+    );
+    
+    if (tileToRestore) {
+      const updatedTiles = availableTiles.map(t =>
+        t.id === tileToRestore.id ? { ...t, isUsed: false } : t
+      );
+      
+      const updatedSelection = selectedCharacters.filter((_, i) => i !== index);
+      
+      set((state) => ({
+        questionState: {
+          ...state.questionState,
+          availableTiles: updatedTiles,
+          selectedCharacters: updatedSelection
+        }
+      }));
+    }
+  },
+
+  clearSelection: () => {
+    const { questionState: { availableTiles } } = get();
+    const resetTiles = availableTiles.map(t => ({ ...t, isUsed: false }));
+    
+    set((state) => ({
+      questionState: {
+        ...state.questionState,
+        availableTiles: resetTiles,
+        selectedCharacters: []
+      }
+    }));
+  },
   
   setShowBottomSheet: (show) => 
     set((state) => ({
@@ -194,8 +270,9 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     },
     questionState: {
       currentQuestionIndex: 0,
-      inputMode: "romaji",
-      userInput: "",
+      inputMode: "hiragana",
+      availableTiles: [],
+      selectedCharacters: [],
       showBottomSheet: false,
       currentResult: null,
     }
@@ -209,7 +286,8 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
         ...state.questionState,
         showBottomSheet: false,
         currentResult: null,
-        userInput: "",
+        selectedCharacters: [],
+        availableTiles: [],
       }
     }));
 
@@ -231,7 +309,8 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     set((state) => ({
       questionState: {
         ...state.questionState,
-        userInput: "",
+        selectedCharacters: [],
+        availableTiles: state.questionState.availableTiles.map(t => ({ ...t, isUsed: false })),
         showBottomSheet: false,
         currentResult: null
       }
@@ -252,8 +331,9 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
       },
       questionState: {
         currentQuestionIndex: 0,
-        inputMode: "romaji",
-        userInput: "",
+        inputMode: "hiragana",
+        availableTiles: [],
+        selectedCharacters: [],
         showBottomSheet: false,
         currentResult: null,
       }
@@ -277,8 +357,9 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
       },
       questionState: {
         currentQuestionIndex: 0,
-        inputMode: "romaji",
-        userInput: "",
+        inputMode: "hiragana",
+        availableTiles: [],
+        selectedCharacters: [],
         showBottomSheet: false,
         currentResult: null,
       }
