@@ -3,9 +3,11 @@
 import { Button } from "@/pwa/core/components/button";
 import { useKanjiSelection } from "../store/kanji-selection.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
-import { isIndonesianLanguage, getLocalizedText, SupportedLanguage } from "../../shared/utils/language-helpers";
+import {
+  getLocalizedText,
+  SupportedLanguage,
+} from "../../shared/utils/language-helpers";
 import { Edit3, Book, Users, X } from "lucide-react";
-import { cn } from "@/pwa/core/lib/utils";
 import { useSearchParams } from "next/navigation";
 
 export function SelectionBottomNav() {
@@ -56,7 +58,12 @@ export function SelectionBottomNav() {
           <div className="flex items-center gap-2">
             <div className="bg-foreground text-background px-3 py-1 rounded-full">
               <span className="text-xs font-bold tracking-wider">
-                {selectedCount} {getLocalizedText(language as SupportedLanguage, "TERPILIH", "SELECTED")}
+                {selectedCount}{" "}
+                {getLocalizedText(
+                  language as SupportedLanguage,
+                  "TERPILIH",
+                  "SELECTED"
+                )}
               </span>
             </div>
           </div>
@@ -83,7 +90,11 @@ export function SelectionBottomNav() {
           >
             <Edit3 className="h-4 w-4 text-foreground" />
             <span className="text-xs font-medium text-foreground">
-              {getLocalizedText(language as SupportedLanguage, "Menulis", "Writing")}
+              {getLocalizedText(
+                language as SupportedLanguage,
+                "Menulis",
+                "Writing"
+              )}
             </span>
           </Button>
 
@@ -95,7 +106,11 @@ export function SelectionBottomNav() {
           >
             <Book className="h-4 w-4 text-foreground" />
             <span className="text-xs font-medium text-foreground">
-              {getLocalizedText(language as SupportedLanguage, "Membaca", "Reading")}
+              {getLocalizedText(
+                language as SupportedLanguage,
+                "Membaca",
+                "Reading"
+              )}
             </span>
           </Button>
 
@@ -107,7 +122,11 @@ export function SelectionBottomNav() {
           >
             <Users className="h-4 w-4 text-foreground" />
             <span className="text-xs font-medium text-foreground">
-              {getLocalizedText(language as SupportedLanguage, "Pasangan", "Pairing")}
+              {getLocalizedText(
+                language as SupportedLanguage,
+                "Pasangan",
+                "Pairing"
+              )}
             </span>
           </Button>
         </div>
