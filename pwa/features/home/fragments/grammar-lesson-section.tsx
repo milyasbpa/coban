@@ -97,7 +97,6 @@ export function GrammarLessonSection({
             pattern={pattern.romanji}
             japanese={pattern.japanese}
             categoryName={pattern.category.name.en}
-            exampleCount={pattern.examples.length}
             progress={getPatternProgress(pattern.id.toString(), selectedLevel)}
             onExerciseClick={() => handleGrammarExerciseClick(pattern.id)}
             onListClick={() => handleGrammarListClick(pattern.id)}
@@ -141,7 +140,6 @@ export function GrammarLessonSection({
                   pattern={pattern.romanji}
                   japanese={pattern.japanese}
                   categoryName={pattern.category.name.en}
-                  exampleCount={pattern.examples.length}
                   progress={getPatternProgress(
                     pattern.id.toString(),
                     selectedLevel

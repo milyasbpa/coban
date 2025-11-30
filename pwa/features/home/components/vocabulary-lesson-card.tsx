@@ -2,7 +2,8 @@ import { Card, CardContent } from "@/pwa/core/components/card";
 import { Badge } from "@/pwa/core/components/badge";
 import { Progress } from "@/pwa/core/components/progress";
 import { Button } from "@/pwa/core/components/button";
-import { List } from "lucide-react";
+import { BookOpen, Dumbbell } from "lucide-react";
+import { titleCase } from "@/pwa/core/lib/utils/titleCase";
 
 interface VocabularyLessonCardProps {
   level: string;
@@ -49,30 +50,31 @@ export function VocabularyLessonCard({
 
         <div className="flex items-center justify-between mb-4">
           <div className="flex flex-col gap-1">
-            <h3 className="text-sm font-medium text-foreground">
-              {title}
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              {wordCount} words
-            </p>
+            <h3 className="text-sm font-medium text-foreground">{titleCase(title)}</h3>
+            <p className="text-sm text-muted-foreground">{wordCount} words</p>
           </div>
+        </div>
+
+        <div className="grid grid-cols-2 place-content-center place-items-center gap-2 w-full">
           <Button
             variant="outline"
             size="sm"
-            className="flex items-center gap-2"
+            className="w-full min-w-[100px]"
             onClick={onListClick}
           >
-            <List className="w-4 h-4" />
-            List
+            <BookOpen className="w-4 h-4 mr-1" />
+            <span className="text-xs">Learn</span>
+          </Button>
+          <Button
+            variant="default"
+            size="sm"
+            className="w-full min-w-[100px]"
+            onClick={onExerciseClick}
+          >
+            <Dumbbell className="w-4 h-4 mr-1" />
+            <span className="text-xs">Practice</span>
           </Button>
         </div>
-
-        <Button
-          className="w-full bg-yellow-400 hover:bg-yellow-500 dark:bg-yellow-500 dark:hover:bg-yellow-600 text-black dark:text-gray-900 font-medium transition-colors"
-          onClick={onExerciseClick}
-        >
-          Exercise
-        </Button>
       </CardContent>
     </Card>
   );

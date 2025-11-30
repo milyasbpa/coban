@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/pwa/core/components/card";
 import { Badge } from "@/pwa/core/components/badge";
 import { Button } from "@/pwa/core/components/button";
-import { List } from "lucide-react";
+import { BookOpen, Dumbbell } from "lucide-react";
 
 interface KanjiTopicLessonCardProps {
   level: string;
@@ -59,24 +59,28 @@ export function KanjiTopicLessonCard({
               </Badge>
             )}
           </div>
+        </div>
+
+        <div className="grid grid-cols-2 place-content-center place-items-center gap-2 w-full">
           <Button
             variant="outline"
             size="sm"
-            className="flex items-center gap-2"
+            className="w-full min-w-[100px]"
             onClick={onListClick}
           >
-            <List className="w-4 h-4" />
-            List
+            <BookOpen className="w-4 h-4 mr-1" />
+            <span className="text-xs">Learn</span>
+          </Button>
+          <Button
+            variant="default"
+            size="sm"
+            className="w-full min-w-[100px]"
+            onClick={onExerciseClick}
+          >
+            <Dumbbell className="w-4 h-4 mr-1" />
+            <span className="text-xs">Practice</span>
           </Button>
         </div>
-
-        <Button
-          className="w-full"
-          variant="secondary"
-          onClick={onExerciseClick}
-        >
-          Exercise
-        </Button>
       </CardContent>
     </Card>
   );
