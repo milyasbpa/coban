@@ -15,6 +15,7 @@ type BackButton = {
   type: "back";
   href: string;
   icon: LucideIcon;
+  onClick?: () => void;
 };
 
 type Logo = {
@@ -84,20 +85,33 @@ export function AppHeader({
         {/* Left Side - Back Button/Logo & Title */}
         <div className="flex items-center gap-2 min-w-0 flex-1">
           {leftSide?.type === "back" && (
-            <Link 
-              href={leftSide.href} 
-              className="flex items-center gap-2 min-w-0"
-              onClick={() => clearLastVisitedPage()}
-            >
-              <Button variant="ghost" size="icon" className="shrink-0 h-8 w-8">
-                <leftSide.icon className="w-4 h-4" />
-              </Button>
-              {title && (
-                <h1 className="text-sm font-semibold text-foreground truncate">
-                  {title}
-                </h1>
-              )}
-            </Link>
+            leftSide.onClick ? (
+              <div className="flex items-center gap-2 min-w-0 cursor-pointer" onClick={leftSide.onClick}>
+                <Button variant="ghost" size="icon" className="shrink-0 h-8 w-8">
+                  <leftSide.icon className="w-4 h-4" />
+                </Button>
+                {title && (
+                  <h1 className="text-sm font-semibold text-foreground truncate">
+                    {title}
+                  </h1>
+                )}
+              </div>
+            ) : (
+              <Link 
+                href={leftSide.href} 
+                className="flex items-center gap-2 min-w-0"
+                onClick={() => clearLastVisitedPage()}
+              >
+                <Button variant="ghost" size="icon" className="shrink-0 h-8 w-8">
+                  <leftSide.icon className="w-4 h-4" />
+                </Button>
+                {title && (
+                  <h1 className="text-sm font-semibold text-foreground truncate">
+                    {title}
+                  </h1>
+                )}
+              </Link>
+            )
           )}
 
           {leftSide?.type === "logo" && (

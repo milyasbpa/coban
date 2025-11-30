@@ -4,7 +4,6 @@ import { PairingScoreHeader } from "../fragments/pairing-score-header";
 import { PairingGameResult } from "../fragments/pairing-game-result";
 import { PairingHeader } from "../fragments/pairing-header";
 import { PairingGameGrid } from "../fragments/pairing-game-grid";
-import { PairingDisplayOptionsControl } from "../fragments/pairing-display-options-control";
 import { usePairingGameStore } from "../store/pairing-game.store";
 import { useInitializePairingGame } from "../utils/initialize-pairing-game";
 
@@ -31,9 +30,6 @@ export function KanjiPairingExerciseContainer() {
         {/* Game Grid */}
         <PairingGameGrid />
       </div>
-
-      {/* Display Options Control */}
-      <PairingDisplayOptionsControl />
     </div>
   );
 }

@@ -5,7 +5,6 @@ import { ReadingGameResult } from "../fragments/reading-game-result";
 import { AnswerForm } from "../fragments/answer-form";
 import { ReadingCheckButton } from "../fragments/reading-check-button";
 import { AnswerBottomSheet } from "../fragments/answer-bottomsheet";
-import { ReadingDisplayOptionsControl } from "../fragments/reading-display-options-control";
 import { useReadingExerciseStore } from "../store";
 import { ReadingModeSelector } from "../fragments";
 import ReadingQuestion from "../fragments/reading-question";
@@ -50,9 +49,6 @@ export function ReadingExerciseContainer() {
 
       {/* Answer Bottom Sheet */}
       <AnswerBottomSheet />
-
-      {/* Display Options Control */}
-      <ReadingDisplayOptionsControl />
     </div>
   );
 }

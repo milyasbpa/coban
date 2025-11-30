@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Card } from "@/pwa/core/components/card";
-import { Button } from "@/pwa/core/components/button";
 import { Volume2, ChevronDown, ChevronUp } from "lucide-react";
 import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
@@ -106,6 +105,105 @@ export function VocabularyItemCard({
     // Add remaining text
     if (currentIndex < text.length) {
       result.push(text.slice(currentIndex));
+    }
+
+    return result.length > 0 ? result : text;
+  };
+
+  // Helper function to highlight meanings (handles comma-separated meanings)
+  const highlightMatchingMeanings = (text: string, vocabularyMeaning: string) => {
+    if (!text || !vocabularyMeaning) return text;
+
+    // Split vocabulary meaning by comma and trim whitespace
+    const meaningWords = vocabularyMeaning
+      .split(',')
+      .map(word => word.trim())
+      .filter(word => word.length > 0);
+
+    // If no words found, return original text
+    if (meaningWords.length === 0) return text;
+
+    // Sort by length (longest first) to avoid partial matches
+    meaningWords.sort((a, b) => b.length - a.length);
+
+    let remainingText = text;
+    const result: React.ReactNode[] = [];
+    let keyCounter = 0;
+
+    // Process text character by character
+    let currentIndex = 0;
+    while (currentIndex < remainingText.length) {
+      let matched = false;
+
+      // Try to match each meaning word at current position
+      for (const word of meaningWords) {
+        const restOfText = remainingText.slice(currentIndex);
+        const lowerRestOfText = restOfText.toLowerCase();
+        const lowerWord = word.toLowerCase();
+
+        // Check if word matches at current position (case insensitive)
+        if (lowerRestOfText.startsWith(lowerWord)) {
+          // Check boundaries - word should be standalone (not part of bigger word)
+          const charBefore = currentIndex > 0 ? remainingText[currentIndex - 1] : ' ';
+          const charAfter = currentIndex + word.length < remainingText.length 
+            ? remainingText[currentIndex + word.length] 
+            : ' ';
+          
+          const isWordBoundaryBefore = /[\s,;.!?]/.test(charBefore);
+          const isWordBoundaryAfter = /[\s,;.!?]/.test(charAfter);
+
+          if (isWordBoundaryBefore && isWordBoundaryAfter) {
+            // Add matched word with highlight
+            result.push(
+              <span
+                key={`meaning-${keyCounter++}`}
+                className={cn(
+                  "font-bold transition-colors rounded px-0.5",
+                  isSelected
+                    ? "text-primary bg-primary/20"
+                    : "text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/30"
+                )}
+              >
+                {remainingText.slice(currentIndex, currentIndex + word.length)}
+              </span>
+            );
+            currentIndex += word.length;
+            matched = true;
+            break;
+          }
+        }
+      }
+
+      // If no match found, add current character
+      if (!matched) {
+        // Collect unmatched characters until next potential match
+        let unmatchedText = '';
+        let tempIndex = currentIndex;
+        let foundNextMatch = false;
+
+        while (tempIndex < remainingText.length && !foundNextMatch) {
+          unmatchedText += remainingText[tempIndex];
+          tempIndex++;
+
+          // Check if next position could be a match
+          for (const word of meaningWords) {
+            const restOfText = remainingText.slice(tempIndex);
+            if (restOfText.toLowerCase().startsWith(word.toLowerCase())) {
+              foundNextMatch = true;
+              break;
+            }
+          }
+        }
+
+        if (unmatchedText) {
+          result.push(unmatchedText);
+          currentIndex += unmatchedText.length;
+        } else {
+          // Safety fallback
+          result.push(remainingText[currentIndex]);
+          currentIndex++;
+        }
+      }
     }
 
     return result.length > 0 ? result : text;
@@ -262,11 +360,11 @@ export function VocabularyItemCard({
                     {displayOptions.meaning && (
                       <div className="text-xs text-foreground/90 font-semibold leading-relaxed">
                         {language === "en"
-                          ? highlightMatchingCharacters(
+                          ? highlightMatchingMeanings(
                               example.meanings.en,
                               vocabulary.meanings.en
                             )
-                          : highlightMatchingCharacters(
+                          : highlightMatchingMeanings(
                               example.meanings.id,
                               vocabulary.meanings.id
                             )}

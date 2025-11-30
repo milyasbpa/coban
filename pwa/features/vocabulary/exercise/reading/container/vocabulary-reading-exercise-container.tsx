@@ -5,7 +5,6 @@ import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-e
 import { VocabularyReadingHeader } from "../fragments/vocabulary-reading-header";
 import { VocabularyReadingGameResult } from "../fragments/vocabulary-reading-game-result";
 import { VocabularyReadingQuestion } from "../fragments/vocabulary-reading-question";
-import { VocabularyReadingDisplayOptionsControl } from "../fragments/vocabulary-reading-display-options-control";
 import { AnswerSection } from "../fragments/answer-section";
 import { VocabularyReadingCheckButton } from "../fragments/vocabulary-reading-check-button";
 import { VocabularyAnswerBottomSheet } from "../fragments/vocabulary-answer-bottomsheet";
@@ -49,9 +48,6 @@ export const VocabularyReadingExerciseContainer: React.FC = () => {
 
       {/* Answer Bottom Sheet */}
       <VocabularyAnswerBottomSheet />
-
-      {/* Display Options Control */}
-      <VocabularyReadingDisplayOptionsControl />
     </div>
   );
 };
