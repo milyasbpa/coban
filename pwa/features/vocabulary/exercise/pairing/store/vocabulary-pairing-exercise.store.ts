@@ -211,15 +211,29 @@ export const useVocabularyPairingExerciseStore =
 
     addWordError: (word) => {
       const {
-        gameState: { errorWords },
+        gameState: { errorWords, allGameWords },
       } = get();
       const newErrorWords = new Set(errorWords);
       const wasAdded = !newErrorWords.has(word);
       newErrorWords.add(word);
 
-      set((state) => ({
-        gameState: { ...state.gameState, errorWords: newErrorWords },
-      }));
+      // Only penalize score on first error for this specific word
+      if (wasAdded) {
+        set((state) => {
+          // Calculate penalty based on total words
+          const penaltyPerWord = 100 / state.gameState.allGameWords.length;
+          const totalPenalty = newErrorWords.size * penaltyPerWord;
+          const newScore = Math.max(0, 100 - totalPenalty);
+
+          return {
+            gameState: {
+              ...state.gameState,
+              errorWords: newErrorWords,
+              score: Math.round(newScore), // Update score in real-time
+            },
+          };
+        });
+      }
 
       return wasAdded;
     },
@@ -231,9 +245,22 @@ export const useVocabularyPairingExerciseStore =
       const newErrorWords = new Set(errorWords);
       const wasRemoved = newErrorWords.delete(word);
 
-      set((state) => ({
-        gameState: { ...state.gameState, errorWords: newErrorWords },
-      }));
+      // Recalculate score when error is removed (e.g., correct match on retry)
+      if (wasRemoved) {
+        set((state) => {
+          const penaltyPerWord = 100 / state.gameState.allGameWords.length;
+          const totalPenalty = newErrorWords.size * penaltyPerWord;
+          const newScore = Math.max(0, 100 - totalPenalty);
+
+          return {
+            gameState: {
+              ...state.gameState,
+              errorWords: newErrorWords,
+              score: Math.round(newScore), // Update score when removing error
+            },
+          };
+        });
+      }
 
       return wasRemoved;
     },
