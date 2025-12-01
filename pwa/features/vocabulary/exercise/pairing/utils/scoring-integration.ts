@@ -25,10 +25,7 @@ export const integrateVocabularyPairingGameScore = async (
     let userScore = await VocabularyFirestoreManager.getVocabularyScore(userId);
 
     if (!userScore) {
-      userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(
-        userId,
-        level as "N5" | "N4" | "N3" | "N2" | "N1"
-      );
+      userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(userId);
     }
 
     // Process all game words and determine first-attempt accuracy

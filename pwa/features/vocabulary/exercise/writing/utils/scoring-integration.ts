@@ -27,10 +27,7 @@ export const integrateVocabularyWritingExerciseScore = async (
     let userScore = await VocabularyFirestoreManager.getVocabularyScore(userId);
 
     if (!userScore) {
-      userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(
-        userId,
-        level as "N5" | "N4" | "N3" | "N2" | "N1"
-      );
+      userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(userId);
     }
 
     // Create set of wrong question IDs for quick lookup

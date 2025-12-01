@@ -19,7 +19,7 @@ export interface VocabularyScoreState {
     level: string
   ) => number;
   getOverallProgress: () => number;
-  getVocabularyAccuracy: (vocabularyId: string) => number | null;
+  getVocabularyAccuracy: (vocabularyId: string, level: string, categoryId: string) => number | null;
   refreshUserScore: () => Promise<void>;
   resetProgress: () => Promise<void>;
   resetCategoryStatistics: (categoryId: string, level: string) => Promise<void>;
@@ -45,11 +45,14 @@ const getCorrectWordsInCategory = (
   
   const vocabularyIds = category.vocabulary.map(v => v.id.toString());
   
+  // Access nested path: level -> categoryId -> vocabularyId
+  const categoryMastery = currentUserScore.vocabularyMastery[level]?.[categoryId];
+  if (!categoryMastery) return 0;
+  
   // Count words that have been mastered (from all 3 exercise types)
   vocabularyIds.forEach((vocabId) => {
-    const mastery = currentUserScore.vocabularyMastery[vocabId];
-    // ✅ FIX: Filter by level AND categoryId to ensure we only count vocabulary from the correct category
-    if (mastery && mastery.level === level && mastery.categoryId === categoryId) {
+    const mastery = categoryMastery[vocabId];
+    if (mastery) {
       // Count how many exercise types have been completed
       const exerciseTypes: ('writing' | 'reading' | 'pairing')[] = ['writing', 'reading', 'pairing'];
       exerciseTypes.forEach((type) => {
@@ -78,11 +81,14 @@ const getCorrectWordsInCategoryByExercise = (
   
   const vocabularyIds = category.vocabulary.map(v => v.id.toString());
   
+  // Access nested path: level -> categoryId -> vocabularyId
+  const categoryMastery = currentUserScore.vocabularyMastery[level]?.[categoryId];
+  if (!categoryMastery) return 0;
+  
   // Count words that have been completed for this specific exercise type
   vocabularyIds.forEach((vocabId) => {
-    const mastery = currentUserScore.vocabularyMastery[vocabId];
-    // ✅ FIX: Filter by level AND categoryId to ensure we only count vocabulary from the correct category
-    if (mastery && mastery.level === level && mastery.categoryId === categoryId && mastery.exerciseScores[exerciseType] > 0) {
+    const mastery = categoryMastery[vocabId];
+    if (mastery && mastery.exerciseScores[exerciseType] > 0) {
       correctWords++;
     }
   });
@@ -101,14 +107,14 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
   error: null,
 
   // Initialize user with Firestore data
-  initializeUser: async (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1" = 'N5') => {
+  initializeUser: async (userId: string, level?: "N5" | "N4" | "N3" | "N2" | "N1") => {
     try {
       set({ isLoading: true, error: null });
       
       let userScore = await VocabularyFirestoreManager.getVocabularyScore(userId);
       
       if (!userScore) {
-        userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(userId, level);
+        userScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(userId);
       }
       
       set({ 
@@ -174,21 +180,33 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
     
-    const allMastery = Object.values(currentUserScore.vocabularyMastery);
-    if (allMastery.length === 0) return 0;
+    // Iterate through nested structure: level -> categoryId -> vocabularyId
+    let totalScore = 0;
+    let totalVocabulary = 0;
     
-    const totalScore = allMastery.reduce((sum, vocab) => sum + vocab.masteryScore, 0);
-    const maxPossibleScore = allMastery.length * 100; // 100 points per vocabulary
+    for (const level in currentUserScore.vocabularyMastery) {
+      for (const categoryId in currentUserScore.vocabularyMastery[level]) {
+        const categoryMastery = currentUserScore.vocabularyMastery[level][categoryId];
+        for (const vocabId in categoryMastery) {
+          totalScore += categoryMastery[vocabId].masteryScore;
+          totalVocabulary++;
+        }
+      }
+    }
+    
+    if (totalVocabulary === 0) return 0;
+    
+    const maxPossibleScore = totalVocabulary * 100; // 100 points per vocabulary
     
     return Math.round((totalScore / maxPossibleScore) * 100);
   },
 
   // Get vocabulary accuracy percentage (for color coding in UI)
-  getVocabularyAccuracy: (vocabularyId: string): number | null => {
+  getVocabularyAccuracy: (vocabularyId: string, level: string, categoryId: string): number | null => {
     const { currentUserScore } = get();
     if (!currentUserScore) return null;
 
-    const vocabulary = currentUserScore.vocabularyMastery[vocabularyId];
+    const vocabulary = currentUserScore.vocabularyMastery[level]?.[categoryId]?.[vocabularyId];
     if (!vocabulary) return null;
 
     if (vocabulary.totalAttempts === 0) return null;
@@ -219,8 +237,7 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
     try {
       await VocabularyFirestoreManager.clearVocabularyData(currentUserScore.userId);
       const newScore = await VocabularyFirestoreManager.createDefaultVocabularyScore(
-        currentUserScore.userId,
-        currentUserScore.level
+        currentUserScore.userId
       );
       set({ currentUserScore: newScore });
     } catch (error) {
@@ -228,6 +245,7 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
     }
   },
 
+  // Reset statistics for specific category (by vocabulary IDs)
   // Reset statistics for specific category (by vocabulary IDs)
   resetCategoryStatistics: async (categoryId: string, level: string) => {
     const { currentUserScore } = get();
@@ -247,6 +265,8 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
       if (vocabularyIds.length > 0) {
         await VocabularyFirestoreManager.resetVocabularyByIds(
           currentUserScore.userId,
+          level,
+          categoryId,
           vocabularyIds
         );
 

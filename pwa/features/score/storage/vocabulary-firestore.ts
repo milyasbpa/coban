@@ -37,12 +37,10 @@ export class VocabularyFirestoreManager {
   }
 
   static async createDefaultVocabularyScore(
-    userId: string,
-    level: "N5" | "N4" | "N3" | "N2" | "N1" = "N5"
+    userId: string
   ): Promise<VocabularyUserScore> {
     const defaultScore: VocabularyUserScore = {
       userId,
-      level,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       vocabularyMastery: {},
@@ -56,28 +54,38 @@ export class VocabularyFirestoreManager {
 
   static async saveVocabularyMastery(
     userId: string,
+    level: string,
+    categoryId: string,
     vocabularyId: string,
     vocabularyMastery: VocabularyMasteryLevel
   ): Promise<void> {
     const userScore = await this.getVocabularyScore(userId);
     if (!userScore) return;
 
-    // Update vocabulary mastery
-    userScore.vocabularyMastery[vocabularyId] = vocabularyMastery;
+    // Initialize nested structure if needed
+    if (!userScore.vocabularyMastery[level]) {
+      userScore.vocabularyMastery[level] = {};
+    }
+    if (!userScore.vocabularyMastery[level][categoryId]) {
+      userScore.vocabularyMastery[level][categoryId] = {};
+    }
+
+    // Update vocabulary mastery at nested path
+    userScore.vocabularyMastery[level][categoryId][vocabularyId] = vocabularyMastery;
 
     await this.saveVocabularyScore(userId, userScore);
   }
 
   static async getVocabularyMastery(
     userId: string,
+    level: string,
+    categoryId: string,
     vocabularyId: string
   ): Promise<VocabularyMasteryLevel | null> {
     const userScore = await this.getVocabularyScore(userId);
-    if (!userScore) {
-      return null;
-    }
+    if (!userScore) return null;
 
-    return userScore.vocabularyMastery[vocabularyId] || null;
+    return userScore.vocabularyMastery[level]?.[categoryId]?.[vocabularyId] || null;
   }
 
   // ============ Bulk Exercise Results ============
@@ -91,9 +99,19 @@ export class VocabularyFirestoreManager {
 
     // Process each vocabulary result
     for (const result of results) {
+      const { level, categoryId, vocabularyId } = result;
+
+      // Initialize nested structure if needed
+      if (!userScore.vocabularyMastery[level]) {
+        userScore.vocabularyMastery[level] = {};
+      }
+      if (!userScore.vocabularyMastery[level][categoryId]) {
+        userScore.vocabularyMastery[level][categoryId] = {};
+      }
+
       // Initialize vocabulary mastery if it doesn't exist
-      if (!userScore.vocabularyMastery[result.vocabularyId]) {
-        userScore.vocabularyMastery[result.vocabularyId] = {
+      if (!userScore.vocabularyMastery[level][categoryId][vocabularyId]) {
+        userScore.vocabularyMastery[level][categoryId][vocabularyId] = {
           vocabularyId: result.vocabularyId,
           kanji: result.kanji,
           hiragana: result.hiragana,
@@ -105,9 +123,9 @@ export class VocabularyFirestoreManager {
       }
 
       // Update vocabulary mastery based on result
-      const currentVocabulary = userScore.vocabularyMastery[result.vocabularyId];
+      const currentVocabulary = userScore.vocabularyMastery[level][categoryId][vocabularyId];
       
-      userScore.vocabularyMastery[result.vocabularyId] = VocabularyScoreCalculator.updateVocabularyMastery(
+      userScore.vocabularyMastery[level][categoryId][vocabularyId] = VocabularyScoreCalculator.updateVocabularyMastery(
         currentVocabulary,
         result
       );
@@ -120,15 +138,19 @@ export class VocabularyFirestoreManager {
 
   static async resetVocabularyByIds(
     userId: string,
+    level: string,
+    categoryId: string,
     vocabularyIds: string[]
   ): Promise<void> {
     const userScore = await this.getVocabularyScore(userId);
     if (!userScore) return;
 
-    // Delete specific vocabulary entries from vocabularyMastery
-    vocabularyIds.forEach((vocabId) => {
-      delete userScore.vocabularyMastery[vocabId];
-    });
+    // Delete specific vocabulary entries from nested path
+    if (userScore.vocabularyMastery[level]?.[categoryId]) {
+      vocabularyIds.forEach((vocabId) => {
+        delete userScore.vocabularyMastery[level][categoryId][vocabId];
+      });
+    }
 
     await this.saveVocabularyScore(userId, userScore);
   }
@@ -179,10 +201,18 @@ export class VocabularyFirestoreManager {
       };
     }
 
+    // Count total vocabulary across all levels and categories
+    let totalVocabulary = 0;
+    for (const level in userScore.vocabularyMastery) {
+      for (const categoryId in userScore.vocabularyMastery[level]) {
+        totalVocabulary += Object.keys(userScore.vocabularyMastery[level][categoryId]).length;
+      }
+    }
+
     const report = VocabularyScoreCalculator.generateMasteryReport(userScore);
     
     return {
-      totalVocabulary: Object.keys(userScore.vocabularyMastery).length,
+      totalVocabulary,
       masteredVocabulary: report.masteredVocabulary,
       averageProgress: VocabularyScoreCalculator.calculateUserProgress(userScore),
       recentActivity: userScore.updatedAt,

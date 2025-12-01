@@ -1,12 +1,15 @@
 export interface VocabularyUserScore {
   userId: string;
-  level: "N5" | "N4" | "N3" | "N2" | "N1";
   createdAt: string;
   updatedAt: string;
 
-  // Individual Vocabulary mastery
+  // Nested: level -> categoryId -> vocabularyId
   vocabularyMastery: {
-    [vocabularyId: string]: VocabularyMasteryLevel;
+    [level: string]: {
+      [categoryId: string]: {
+        [vocabularyId: string]: VocabularyMasteryLevel;
+      };
+    };
   };
 }
 

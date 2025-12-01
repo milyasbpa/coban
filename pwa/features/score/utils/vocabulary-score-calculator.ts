@@ -53,14 +53,23 @@ export class VocabularyScoreCalculator {
   // ============ Progress and Analytics ============
 
   static calculateUserProgress(userScore: VocabularyUserScore): number {
-    const vocabularyArray = Object.values(userScore.vocabularyMastery);
-    if (vocabularyArray.length === 0) return 0;
+    // Iterate through nested structure: level -> categoryId -> vocabularyId
+    let totalScore = 0;
+    let totalVocabulary = 0;
 
-    const totalScore = vocabularyArray.reduce(
-      (sum, vocab) => sum + vocab.masteryScore,
-      0
-    );
-    const maxPossibleScore = vocabularyArray.length * VOCABULARY_MAX_SCORE;
+    for (const level in userScore.vocabularyMastery) {
+      for (const categoryId in userScore.vocabularyMastery[level]) {
+        const categoryMastery = userScore.vocabularyMastery[level][categoryId];
+        for (const vocabId in categoryMastery) {
+          totalScore += categoryMastery[vocabId].masteryScore;
+          totalVocabulary++;
+        }
+      }
+    }
+
+    if (totalVocabulary === 0) return 0;
+
+    const maxPossibleScore = totalVocabulary * VOCABULARY_MAX_SCORE;
 
     return Math.round((totalScore / maxPossibleScore) * 100);
   }
@@ -71,7 +80,18 @@ export class VocabularyScoreCalculator {
     weakVocabulary: string[];
     strongVocabulary: string[];
   } {
-    const allVocabulary = Object.values(userScore.vocabularyMastery);
+    // Collect all vocabulary from nested structure
+    const allVocabulary: VocabularyMasteryLevel[] = [];
+
+    for (const level in userScore.vocabularyMastery) {
+      for (const categoryId in userScore.vocabularyMastery[level]) {
+        const categoryMastery = userScore.vocabularyMastery[level][categoryId];
+        for (const vocabId in categoryMastery) {
+          allVocabulary.push(categoryMastery[vocabId]);
+        }
+      }
+    }
+
     const totalVocabulary = allVocabulary.length;
 
     // Mastered = vocabulary with 90% or more of max score
@@ -99,14 +119,24 @@ export class VocabularyScoreCalculator {
 
   static getCategoryProgress(
     userScore: VocabularyUserScore,
-    categoryId: string
+    categoryId: string,
+    level: string
   ): {
     totalInCategory: number;
     masteredInCategory: number;
     averageScore: number;
   } {
-    const vocabularyInCategory = Object.values(userScore.vocabularyMastery)
-      .filter((vocab) => vocab.categoryId === categoryId);
+    // Access nested path: level -> categoryId
+    const categoryMastery = userScore.vocabularyMastery[level]?.[categoryId];
+    if (!categoryMastery) {
+      return {
+        totalInCategory: 0,
+        masteredInCategory: 0,
+        averageScore: 0,
+      };
+    }
+
+    const vocabularyInCategory = Object.values(categoryMastery);
 
     const totalInCategory = vocabularyInCategory.length;
     const masteredInCategory = vocabularyInCategory.filter(
