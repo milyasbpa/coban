@@ -94,7 +94,7 @@ export function PairingGameGrid() {
   ) => {
     // Get card ID using helper function
     const cardId = getCardId(type, pairingWord, language as SupportedLanguage);
-
+    console.log(pairingWord.id, "ini apa");
     // Check if this word is already matched (using PairingWord.id) or has error (using card string ID)
     if (matchedPairs.has(pairingWord.id) || errorCards.has(cardId)) return;
 
@@ -164,7 +164,7 @@ export function PairingGameGrid() {
                 ).length;
 
                 finishRetryMode({ correctCount: correctOriginalWords });
-                
+
                 // Integrate kanji scoring for retry completion
                 integrateGameScore();
               } else {
@@ -173,7 +173,7 @@ export function PairingGameGrid() {
                   // Game complete
                   calculateAndSetScore();
                   setGameComplete(true);
-                  
+
                   // Integrate kanji scoring at game completion
                   integrateGameScore();
                 }
@@ -215,7 +215,7 @@ export function PairingGameGrid() {
       }
     }
   };
-
+  console.log(sectionWords, "ini section words");
   return (
     <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
       {/* Left Column - Kanji */}

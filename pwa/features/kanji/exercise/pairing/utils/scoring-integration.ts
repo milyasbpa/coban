@@ -47,8 +47,8 @@ export const integratePairingGameScore = async (
         level
       );
 
-      // Use simple numeric ID from word
-      const wordId = word.id.toString();
+      // Use simple numeric exampleId for Firestore (not composite id)
+      const wordId = word.exampleId.toString();
 
       // Determine if this word was correct on first attempt
       // If word is NOT in globalErrorWords, it means it was answered correctly on first attempt

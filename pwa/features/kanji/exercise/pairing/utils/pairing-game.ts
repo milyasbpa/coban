@@ -12,8 +12,9 @@ export const createPairingWords = (
     // Use examples from kanji data
     kanji.examples.forEach((example) => {
       words.push({
-        id: example.id.toString(), // Simple numeric ID for consistency with other exercises
+        id: `${kanji.id}-${example.id}`, // Composite ID for unique identification in game
         kanjiId: kanji.id, // Add kanji ID for composite key generation
+        exampleId: example.id, // Keep original example ID for Firestore (simple number)
         kanji: example.word,
         reading: example.romanji,
         meanings: example.meanings, // Use new meanings structure

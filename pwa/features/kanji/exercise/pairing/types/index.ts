@@ -1,7 +1,8 @@
 // Types untuk pairing game
 export interface PairingWord {
-  id: string;
-  kanjiId: number; // Kanji ID for composite key
+  id: string;          // Composite ID: "kanjiId-exampleId" for unique game identification
+  kanjiId: number;     // Kanji ID for composite key
+  exampleId: number;   // Original example ID (for Firestore - can be duplicate across kanji)
   kanji: string;
   reading: string;
   meanings: {
