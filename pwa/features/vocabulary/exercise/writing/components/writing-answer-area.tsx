@@ -12,7 +12,7 @@ export const WritingAnswerArea: React.FC<WritingAnswerAreaProps> = ({
   isAnswered,
 }) => {
   return (
-    <div className="min-h-[120px] border-2 border-border rounded-lg bg-muted/10 p-4 flex items-center justify-center">
+    <div className="min-h-[60px] border-2 border-border rounded-lg bg-muted/10 p-4 flex items-center justify-center">
       {selectedCharacters.length === 0 ? (
         <div className="text-muted-foreground text-center">
           Tap characters below to build your answer

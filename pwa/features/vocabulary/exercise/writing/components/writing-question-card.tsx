@@ -49,32 +49,29 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
 
   return (
     <div className="space-y-6">
-      {/* Audio Badge - Compact display like in reference image */}
-      {question.audio && (
-        <div className="flex justify-center">
-          <button
-            onClick={handlePlayAudio}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border hover:bg-accent transition-colors"
-          >
-            <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
-              <Volume2 className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-            </div>
-            <span className="text-lg font-medium text-red-500 dark:text-red-400">
-              {meaning}
-            </span>
-          </button>
-        </div>
-      )}
-
       {/* Question Display */}
       <Card className="p-6 space-y-6">
-        <div className="text-center space-y-4">
-          <div className="text-lg text-foreground/80 font-medium">
+        <div className="space-y-4">
+          <div className="text-lg text-foreground/80 font-medium text-center">
             Write the {inputMode} for:
           </div>
           
-          <div className="text-2xl font-bold text-foreground mb-2">
-            {meaning}
+          <div className="flex items-start justify-center gap-3">
+            {/* Audio Button */}
+            {question.audio && (
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={handlePlayAudio}
+                className="h-10 w-10 rounded-md bg-muted hover:bg-muted/80 dark:bg-gray-800 dark:hover:bg-gray-700 text-foreground dark:text-gray-200 border border-border dark:border-gray-700 transition-colors shadow-sm"
+              >
+                <Volume2 className="h-5 w-5" />
+              </Button>
+            )}
+            
+            <div className="text-2xl font-bold text-foreground">
+              {meaning}
+            </div>
           </div>
         </div>
 
