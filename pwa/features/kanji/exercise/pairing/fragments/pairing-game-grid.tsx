@@ -231,7 +231,7 @@ export function PairingGameGrid() {
               romanji={gameWord.romanji}
               type="kanji"
               isSelected={selectedCards.some(
-                (c: SelectedCard) => c.id === gameWord.id && c.type === "kanji"
+                (c: SelectedCard) => getCompositeId(c) === getCompositeId(gameWord) && c.type === "kanji"
               )}
               isMatched={matchedPairs.has(getCompositeId(gameWord))}
               isError={errorCards.has(gameWord.word)}
@@ -255,7 +255,7 @@ export function PairingGameGrid() {
             content={meaning}
             type="meaning"
             isSelected={selectedCards.some(
-              (c: SelectedCard) => c.id === word.id && c.type === "meaning"
+              (c: SelectedCard) => getCompositeId(c) === getCompositeId(word) && c.type === "meaning"
             )}
             isMatched={matchedPairs.has(getCompositeId(word))}
             isError={errorCards.has(meaning)}

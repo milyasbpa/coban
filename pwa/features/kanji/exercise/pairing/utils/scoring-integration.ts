@@ -76,7 +76,7 @@ export const integratePairingGameScore = async (
       acc[result.kanjiId].push(result);
       return acc;
     }, {} as Record<string, KanjiExerciseResult[]>);
-    console.log(resultsByKanji, "ini apa");
+
     // Update kanji mastery for each kanji
     for (const [kanjiId, results] of Object.entries(resultsByKanji)) {
       const kanjiCharacter = results[0].kanji;
