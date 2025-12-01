@@ -3,6 +3,7 @@ import { Card } from "@/pwa/core/components/card";
 import { VocabularySelectedCard, useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
 import { useVocabularyPairingDisplayOptions } from "../store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { getVocabularyCardId, SupportedLanguage } from "@/pwa/features/vocabulary/shared/utils/language-helpers";
 
 interface VocabularyPairingCardProps {
   card: VocabularySelectedCard;
@@ -26,7 +27,9 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
 
   const isMatched = matchedPairs.has(card.id);
 
-  const isError = errorCards.has(`${card.id}-${card.type}`);
+  // Use getVocabularyCardId to match how errorCards are set in grid
+  const cardId = getVocabularyCardId(card.type, card, language as SupportedLanguage);
+  const isError = errorCards.has(cardId);
 
   const getCardContent = () => {
     if (card.type === "japanese") {
