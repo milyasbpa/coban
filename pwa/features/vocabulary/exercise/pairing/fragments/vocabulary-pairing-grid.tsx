@@ -12,6 +12,7 @@ import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { useVocabularyExerciseSearchParams } from "../../utils/hooks";
 import { integrateVocabularyPairingGameScore } from "../utils/scoring-integration";
+import { shuffleArray } from "@/pwa/features/kanji/exercise/pairing/utils/pairing-game";
 import {
   getVocabularyCardId,
   getMeaning,
@@ -51,13 +52,10 @@ export const VocabularyPairingGrid: React.FC = () => {
   // Vocabulary scoring integration at game completion (only for authenticated users)
   const integrateGameScore = async () => {
     if (!categoryId || !level) return;
-    
+
     if (!isAuthenticated || !user) {
-      console.log("⚠️ Guest user - score not saved");
       return;
     }
-
-    console.log(categoryId, "ini category id");
     await integrateVocabularyPairingGameScore(
       allGameWords,
       globalErrorWords,
@@ -72,18 +70,14 @@ export const VocabularyPairingGrid: React.FC = () => {
     return allSections[currentSectionIndex];
   }, [allSections, currentSectionIndex]);
 
-  // Create shuffled Japanese words
-  const shuffledJapaneseWords = useMemo(() => {
-    return [...sectionWords].sort(() => Math.random() - 0.5);
-  }, [sectionWords]);
-
   // Create shuffled meanings with mapping to VocabularyPairingWord
+  // Only shuffle the meanings column, keep japanese words in section order
   const shuffledMeaningsData = useMemo(() => {
     const meaningsWithWords = createMeaningsData(
       sectionWords,
       language as SupportedLanguage
     );
-    const shuffled = [...meaningsWithWords].sort(() => Math.random() - 0.5);
+    const shuffled = shuffleArray(meaningsWithWords);
     return shuffled;
   }, [sectionWords, language]);
 
@@ -218,7 +212,7 @@ export const VocabularyPairingGrid: React.FC = () => {
     <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
       {/* Left Column - Japanese (Kanji/Hiragana) */}
       <div className="space-y-3">
-        {shuffledJapaneseWords.map((word: VocabularyPairingWord) => (
+        {sectionWords.map((word: VocabularyPairingWord) => (
           <VocabularyPairingCard
             key={`japanese-${word.id}`}
             card={{ ...word, type: "japanese" }}
