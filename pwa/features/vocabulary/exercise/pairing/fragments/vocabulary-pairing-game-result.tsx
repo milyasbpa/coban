@@ -18,6 +18,7 @@ export function VocabularyPairingGameResult() {
   const {
     canRetry,
     startRetryMode,
+    generateRetrySession,
     gameState: { isRetryMode, score, errorWords: globalErrorWords, correctAnswers, allGameWords },
     sectionState: { errorWords: sectionErrorWords },
     initializeGame,
@@ -34,6 +35,7 @@ export function VocabularyPairingGameResult() {
 
   const handleRetry = () => {
     startRetryMode();
+    generateRetrySession();
   };
 
   const handleGameRestart = () => {

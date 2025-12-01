@@ -56,6 +56,7 @@ export interface VocabularyPairingExerciseState {
 
   // Retry Actions
   startRetryMode: () => void;
+  generateRetrySession: () => void;
   finishRetryMode: (retryResults: { correctCount: number }) => void;
 
   // Section Management Actions
@@ -141,8 +142,10 @@ export const useVocabularyPairingExerciseStore =
     canRetry: () => {
       const {
         gameState: { errorWords },
+        sectionState: { errorWords: sectionErrorWords },
       } = get();
-      return errorWords.size > 0;
+      const allWrongWords = new Set([...errorWords, ...sectionErrorWords]);
+      return allWrongWords.size > 0; // Can retry if there are any wrong words globally
     },
 
     getSectionTotalWords: () => {
@@ -189,21 +192,36 @@ export const useVocabularyPairingExerciseStore =
 
     calculateAndSetScore: () => {
       const {
-        gameState: { allGameWords, errorWords },
+        gameState: { isRetryMode, allGameWords, errorWords },
+        sectionState: { errorWords: sectionErrorWords },
       } = get();
       if (allGameWords.length === 0) return;
 
-      const correctCount = allGameWords.length - errorWords.size;
+      let newScore;
+      if (isRetryMode) {
+        // During retry mode, calculate from global error words + current section error words
+        const penaltyPerWord = 100 / allGameWords.length;
+        const allCurrentWrongWords = new Set([
+          ...errorWords,
+          ...sectionErrorWords,
+        ]);
+        const totalUniqueWrongWords = allCurrentWrongWords.size;
+        const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
+        newScore = Math.max(0, 100 - totalPenalty);
+      } else {
+        // Normal mode: calculate from error words
+        const penaltyPerWord = 100 / allGameWords.length;
+        const totalUniqueWrongWords = errorWords.size;
+        const totalPenalty = totalUniqueWrongWords * penaltyPerWord;
+        newScore = Math.max(0, 100 - totalPenalty);
+      }
 
-      // Penalty-based scoring system like kanji pairing
-      const penalty = 10; // 10 points per wrong word
-      const totalPenalty = errorWords.size * penalty;
-      const score = Math.max(0, 100 - totalPenalty);
+      const correctCount = allGameWords.length - errorWords.size;
 
       set((state) => ({
         gameState: {
           ...state.gameState,
-          score,
+          score: Math.round(newScore),
           correctAnswers: correctCount,
         },
       }));
@@ -211,55 +229,86 @@ export const useVocabularyPairingExerciseStore =
 
     addWordError: (word) => {
       const {
-        gameState: { errorWords, allGameWords },
+        sectionState: { errorWords: sectionErrorWords },
       } = get();
-      const newErrorWords = new Set(errorWords);
-      const wasAdded = !newErrorWords.has(word);
-      newErrorWords.add(word);
+      
+      const newSectionErrorWords = new Set(sectionErrorWords);
+      const isFirstError = !newSectionErrorWords.has(word);
+      newSectionErrorWords.add(word);
 
       // Only penalize score on first error for this specific word
-      if (wasAdded) {
+      if (isFirstError) {
         set((state) => {
-          // Calculate penalty based on total words
+          // During retry mode, calculate penalty from global + section errors
+          if (state.gameState.isRetryMode) {
+            const penaltyPerWord = 100 / state.gameState.allGameWords.length;
+            const allCurrentWrongWords = new Set([
+              ...state.gameState.errorWords,
+              ...newSectionErrorWords,
+            ]);
+            const totalPenalty = allCurrentWrongWords.size * penaltyPerWord;
+            const newScore = Math.max(0, 100 - totalPenalty);
+
+            return {
+              sectionState: {
+                ...state.sectionState,
+                errorWords: newSectionErrorWords,
+              },
+              gameState: {
+                ...state.gameState,
+                score: Math.round(newScore),
+              },
+            };
+          }
+
+          // Normal mode: add to global error words
+          const newGlobalErrorWords = new Set(state.gameState.errorWords);
+          newGlobalErrorWords.add(word);
           const penaltyPerWord = 100 / state.gameState.allGameWords.length;
-          const totalPenalty = newErrorWords.size * penaltyPerWord;
+          const totalPenalty = newGlobalErrorWords.size * penaltyPerWord;
           const newScore = Math.max(0, 100 - totalPenalty);
 
           return {
+            sectionState: {
+              ...state.sectionState,
+              errorWords: newSectionErrorWords,
+            },
             gameState: {
               ...state.gameState,
-              errorWords: newErrorWords,
-              score: Math.round(newScore), // Update score in real-time
+              errorWords: newGlobalErrorWords,
+              score: Math.round(newScore),
             },
           };
         });
+      } else {
+        // Update section error words even if not first error
+        set((state) => ({
+          sectionState: {
+            ...state.sectionState,
+            errorWords: newSectionErrorWords,
+          },
+        }));
       }
 
-      return wasAdded;
+      return isFirstError;
     },
 
     removeWordError: (word) => {
       const {
-        gameState: { errorWords },
+        sectionState: { errorWords: sectionErrorWords },
       } = get();
-      const newErrorWords = new Set(errorWords);
-      const wasRemoved = newErrorWords.delete(word);
+      const newSectionErrorWords = new Set(sectionErrorWords);
+      const wasRemoved = newSectionErrorWords.delete(word);
 
-      // Recalculate score when error is removed (e.g., correct match on retry)
+      // DO NOT recalculate score - once wrong in first attempt, score stays penalized
+      // This is correct behavior: score should not increase after fixing mistakes
       if (wasRemoved) {
-        set((state) => {
-          const penaltyPerWord = 100 / state.gameState.allGameWords.length;
-          const totalPenalty = newErrorWords.size * penaltyPerWord;
-          const newScore = Math.max(0, 100 - totalPenalty);
-
-          return {
-            gameState: {
-              ...state.gameState,
-              errorWords: newErrorWords,
-              score: Math.round(newScore), // Update score when removing error
-            },
-          };
-        });
+        set((state) => ({
+          sectionState: {
+            ...state.sectionState,
+            errorWords: newSectionErrorWords,
+          },
+        }));
       }
 
       return wasRemoved;
@@ -281,9 +330,32 @@ export const useVocabularyPairingExerciseStore =
     // Retry Actions
     startRetryMode: () => {
       const {
+        sectionState: { errorWords: sectionErrorWords },
+      } = get();
+
+      // Merge current section wrong words to global tracking
+      set((state) => {
+        const newGlobalErrorWords = new Set([
+          ...state.gameState.errorWords,
+          ...sectionErrorWords,
+        ]);
+
+        return {
+          gameState: {
+            ...state.gameState,
+            isRetryMode: true,
+            errorWords: newGlobalErrorWords,
+            isComplete: false,
+          },
+        };
+      });
+    },
+
+    generateRetrySession: () => {
+      const {
         gameState: { errorWords, allGameWords },
       } = get();
-      if (errorWords.size === 0) return;
+      const wrongWords = Array.from(errorWords);
 
       // Filter words that have errors for retry
       const retryWords = allGameWords.filter(
@@ -294,14 +366,18 @@ export const useVocabularyPairingExerciseStore =
       const sections = createSections(retryWords, 4); // 4 pairs per section for retry
 
       set((state) => ({
-        gameState: { ...state.gameState, isRetryMode: true },
         sectionState: {
           ...state.sectionState,
           allSections: sections,
           currentSectionIndex: 0,
+          selectedCards: [],
           matchedPairs: new Set(),
           errorCards: new Set(),
-          errorWords: new Set(),
+          errorWords: new Set(), // Reset current section error tracking
+        },
+        gameState: {
+          ...state.gameState,
+          correctPairs: 0, // Reset correct pairs for retry session
         },
       }));
 
@@ -313,20 +389,26 @@ export const useVocabularyPairingExerciseStore =
 
     finishRetryMode: (retryResults) => {
       const {
-        gameState: { score },
+        sectionState: { errorWords: sectionErrorWords },
       } = get();
 
-      // Bonus scoring for retry completion
-      const bonusScore = Math.min(100, score + retryResults.correctCount * 5);
+      // Merge final section errors into global
+      set((state) => {
+        const finalErrorWords = new Set([
+          ...state.gameState.errorWords,
+          ...sectionErrorWords,
+        ]);
 
-      set((state) => ({
-        gameState: {
-          ...state.gameState,
-          isRetryMode: false,
-          score: bonusScore,
-          isComplete: true,
-        },
-      }));
+        return {
+          gameState: {
+            ...state.gameState,
+            isRetryMode: false,
+            isComplete: true,
+            errorWords: finalErrorWords,
+            correctAnswers: retryResults.correctCount,
+          },
+        };
+      });
     },
 
     // Section Management Actions
