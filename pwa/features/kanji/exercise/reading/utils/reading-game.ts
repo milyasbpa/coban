@@ -5,13 +5,35 @@ import {
 } from "@/pwa/core/services/kanji";
 import { shuffleArray } from "../../pairing/utils";
 
-export interface ReadingQuestion extends KanjiExample {
-  // Rich data structure for the question
-  options: KanjiExample[]; // Rich options for future flexibility
+// Independent interface (not extends) - following pairing pattern
+export interface ReadingQuestion {
+  id: string;           // Composite ID: "kanjiId-exampleId"
+  kanjiId: number;      // Parent kanji ID for scoring
+  exampleId: number;    // Original example ID for Firestore
+  word: string;
+  furigana: string;
+  romanji: string;
+  meanings: {
+    id: string;
+    en: string;
+  };
+  options: ReadingOption[];
+}
+
+export interface ReadingOption {
+  id: number;
+  kanjiId: number;      // Parent kanji ID
+  word: string;
+  furigana: string;
+  romanji: string;
+  meanings: {
+    id: string;
+    en: string;
+  };
 }
 
 export interface AnswerResult {
-  selectedAnswer: KanjiExample; // What user selected
+  selectedAnswer: ReadingOption; // What user selected
   userAnswer: string; // User input for direct input mode
 }
 
@@ -20,50 +42,57 @@ export const createReadingQuestions = (
   kanjiDetails: KanjiDetail[]
 ): ReadingQuestion[] => {
   const questions: ReadingQuestion[] = [];
-  const examples: KanjiExample[] = [];
+  const allOptions: ReadingOption[] = [];
 
-  // Collect all examples from all kanji and convert to KanjiExample format
+  // Collect all examples as options with kanjiId context
   kanjiDetails.forEach((kanji) => {
-    kanji.examples.forEach((kanjiExample) => {
-      examples.push({
-        id: kanjiExample.id,
-        word: kanjiExample.word,
-        furigana: kanjiExample.furigana,
-        romanji: kanjiExample.romanji,
-        meanings: kanjiExample.meanings,
+    kanji.examples.forEach((example) => {
+      allOptions.push({
+        id: example.id,
+        kanjiId: kanji.id,  // Preserve kanji context
+        word: example.word,
+        furigana: example.furigana,
+        romanji: example.romanji,
+        meanings: example.meanings,
       });
     });
   });
 
-  // Create questions from examples (words), not individual kanji
-  examples.forEach((example, index) => {
+  // Create questions from options
+  allOptions.forEach((correctOption, index) => {
     // Create wrong options from other examples
-    const wrongOptions = examples
+    const wrongOptions = allOptions
       .filter((_, i) => i !== index)
-      .filter((ex) => ex.furigana !== example.furigana)
+      .filter((opt) => opt.furigana !== correctOption.furigana)
       .slice(0, 3); // Take 3 wrong options
 
     // Ensure we have enough options, if not, pad with some random examples
-    while (wrongOptions.length < 3 && examples.length > 1) {
-      const randomExample =
-        examples[Math.floor(Math.random() * examples.length)];
+    while (wrongOptions.length < 3 && allOptions.length > 1) {
+      const randomOption =
+        allOptions[Math.floor(Math.random() * allOptions.length)];
       if (
-        randomExample.furigana !== example.furigana &&
-        !wrongOptions.some((opt) => opt.furigana === randomExample.furigana)
+        randomOption.furigana !== correctOption.furigana &&
+        !wrongOptions.some((opt) => opt.furigana === randomOption.furigana)
       ) {
-        wrongOptions.push(randomExample);
+        wrongOptions.push(randomOption);
       }
       if (wrongOptions.length >= 3) break;
     }
 
     // Combine correct answer with wrong options and shuffle
-    const allOptions = [example, ...wrongOptions];
-    const options = shuffleArray(allOptions);
+    const combinedOptions = [correctOption, ...wrongOptions];
+    const shuffledOptions = shuffleArray(combinedOptions);
 
-    // Push the question to questions array
+    // Create ReadingQuestion with composite ID
     questions.push({
-      ...example,
-      options, // Array of KanjiExample options
+      id: `${correctOption.kanjiId}-${correctOption.id}`,  // Composite ID
+      kanjiId: correctOption.kanjiId,  // Parent kanji ID
+      exampleId: correctOption.id,  // Original example ID for Firestore
+      word: correctOption.word,
+      furigana: correctOption.furigana,
+      romanji: correctOption.romanji,
+      meanings: correctOption.meanings,
+      options: shuffledOptions,
     });
   });
 
@@ -73,7 +102,7 @@ export const createReadingQuestions = (
 // Helper function to check if answer is correct (for computed logic)
 export const isAnswerCorrect = (
   question: ReadingQuestion,
-  selectedOption: KanjiExample
+  selectedOption: ReadingOption
 ): boolean => {
   return (
     selectedOption.furigana.toLowerCase().trim() ===

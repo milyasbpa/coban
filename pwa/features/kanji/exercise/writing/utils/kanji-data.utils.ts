@@ -2,6 +2,20 @@
 import { KanjiService, KanjiDetail, KanjiExample } from "@/pwa/core/services/kanji";
 import { shuffleArray } from "../../pairing/utils/pairing-game";
 
+// Independent interface (not extends) - following pairing pattern
+export interface WritingQuestion {
+  id: string;           // Composite ID: "kanjiId-exampleId"
+  kanjiId: number;      // Parent kanji ID for scoring
+  exampleId: number;    // Original example ID for Firestore
+  word: string;
+  furigana: string;
+  romanji: string;
+  meanings: {
+    id: string;
+    en: string;
+  };
+}
+
 /**
  * Get all kanji details for a specific level using KanjiService
  */
@@ -30,8 +44,8 @@ export function getWritingQuestions(
   lessonId: number | null,
   selectedKanjiIds?: number[],
   topicId?: string
-): KanjiExample[] {
-  const questions: KanjiExample[] = [];
+): WritingQuestion[] {
+  const questions: WritingQuestion[] = [];
 
   if (topicId) {
     // Use KanjiDetail approach for topic-based questions
@@ -44,10 +58,18 @@ export function getWritingQuestions(
         ? allKanjiDetails.filter((kanji) => selectedKanjiIds.includes(kanji.id))
         : allKanjiDetails;
 
-    // Collect all examples from all kanji details
+    // Collect all examples from all kanji details with kanjiId context
     kanjiDetails.forEach((kanjiDetail) => {
       kanjiDetail.examples.forEach((example) => {
-        questions.push(example);
+        questions.push({
+          id: `${kanjiDetail.id}-${example.id}`,  // Composite ID
+          kanjiId: kanjiDetail.id,  // Parent kanji ID
+          exampleId: example.id,  // Original example ID for Firestore
+          word: example.word,
+          furigana: example.furigana,
+          romanji: example.romanji,
+          meanings: example.meanings,
+        });
       });
     });
   } else if (lessonId) {
@@ -60,10 +82,18 @@ export function getWritingQuestions(
         ? allKanjiItems.filter((kanji) => selectedKanjiIds.includes(kanji.id))
         : allKanjiItems;
 
-    // Collect all examples from all kanji items (no limit - get all words)
+    // Collect all examples from all kanji items with kanjiId context
     kanjiItems.forEach((kanjiItem) => {
       kanjiItem.examples.forEach((example) => {
-        questions.push(example);
+        questions.push({
+          id: `${kanjiItem.id}-${example.id}`,  // Composite ID
+          kanjiId: kanjiItem.id,  // Parent kanji ID
+          exampleId: example.id,  // Original example ID for Firestore
+          word: example.word,
+          furigana: example.furigana,
+          romanji: example.romanji,
+          meanings: example.meanings,
+        });
       });
     });
   }

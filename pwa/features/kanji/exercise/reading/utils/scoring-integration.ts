@@ -41,17 +41,14 @@ export const integrateReadingGameScore = async (
     
     // Process all questions and determine first-attempt accuracy
     allQuestions.forEach((question) => {
-      // Extract kanji character from the question word
-      const kanjiCharacter = question.word.charAt(0);
-
-      // Get accurate kanji information using the extracted kanji character
-      const kanjiInfo = KanjiService.getKanjiInfoForScoring(
-        kanjiCharacter,
+      // Get accurate kanji information using kanjiId (direct lookup - more reliable)
+      const kanjiInfo = KanjiService.getKanjiInfoById(
+        question.kanjiId,
         level
       );
 
-      // Use simple numeric ID from question
-      const wordId = question.id.toString();
+      // Use simple numeric exampleId for Firestore (not composite id)
+      const wordId = question.exampleId.toString();
 
       // Determine if this question was correct on first attempt
       // If question word is NOT in errorWords, it means it was answered correctly on first attempt
@@ -59,7 +56,7 @@ export const integrateReadingGameScore = async (
 
       const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,
-        kanji: kanjiCharacter,
+        kanji: kanjiInfo.kanjiCharacter,
         isCorrect: isCorrectFirstAttempt,
         wordId,
         word: question.word,
