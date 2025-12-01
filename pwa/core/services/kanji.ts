@@ -227,6 +227,44 @@ export class KanjiService {
   }
 
   /**
+   * Get kanji info by kanji ID for scoring system
+   * Direct lookup using kanjiId - more reliable and performant than character-based lookup
+   */
+  static getKanjiInfoById(
+    kanjiId: number,
+    level: string
+  ): {
+    kanjiId: string;
+    kanjiCharacter: string;
+    totalWords: number;
+  } {
+    const kanjiData = this.getKanjiData(level);
+    if (!kanjiData) {
+      return {
+        kanjiId: kanjiId.toString(),
+        kanjiCharacter: "",
+        totalWords: 1,
+      };
+    }
+
+    const kanji = kanjiData.items.find((k) => k.id === kanjiId);
+    if (kanji) {
+      return {
+        kanjiId: kanji.id.toString(),
+        kanjiCharacter: kanji.character,
+        totalWords: kanji.examples?.length || 1,
+      };
+    }
+
+    // Fallback if kanji not found
+    return {
+      kanjiId: kanjiId.toString(),
+      kanjiCharacter: "",
+      totalWords: 1,
+    };
+  }
+
+  /**
    * Get kanji info for scoring system
    * Replaces KanjiWordMapper.getKanjiInfo()
    */

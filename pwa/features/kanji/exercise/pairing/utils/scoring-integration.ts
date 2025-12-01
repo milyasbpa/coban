@@ -4,7 +4,7 @@ import type { PairingWord } from "../types";
 
 /**
  * Integrate pairing game results with kanji scoring system
- * 
+ *
  * @param allGameWords - All words that were played in the game
  * @param globalErrorWords - Set of words that had errors (first-attempt failed)
  * @param level - JLPT level
@@ -19,31 +19,32 @@ export const integratePairingGameScore = async (
   globalErrorWords: Set<string>,
   level: string,
   userId: string,
-  updateKanjiMastery: (kanjiId: string, character: string, results: KanjiExerciseResult[]) => Promise<void>,
-  initializeUser: (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>,
+  updateKanjiMastery: (
+    kanjiId: string,
+    character: string,
+    results: KanjiExerciseResult[]
+  ) => Promise<void>,
+  initializeUser: (
+    userId: string,
+    level: "N5" | "N4" | "N3" | "N2" | "N1"
+  ) => Promise<void>,
   isInitialized: boolean,
   currentUserScore: any
 ) => {
   try {
     // Auto-initialize user if not already initialized
     if (!isInitialized || !currentUserScore) {
-      await initializeUser(
-        userId,
-        level as "N5" | "N4" | "N3" | "N2" | "N1"
-      );
+      await initializeUser(userId, level as "N5" | "N4" | "N3" | "N2" | "N1");
     }
 
     // Get final results from store
     const exerciseResults: KanjiExerciseResult[] = [];
-    
+
     // Process all game words and determine first-attempt accuracy
     allGameWords.forEach((word) => {
-      // Extract kanji character from the word
-      const kanjiCharacter = word.kanji.charAt(0);
-
-      // Get accurate kanji information using the extracted kanji character
-      const kanjiInfo = KanjiService.getKanjiInfoForScoring(
-        kanjiCharacter,
+      // Get accurate kanji information using kanjiId (direct lookup - more reliable)
+      const kanjiInfo = KanjiService.getKanjiInfoById(
+        word.kanjiId,
         level
       );
 
@@ -56,7 +57,7 @@ export const integratePairingGameScore = async (
 
       const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,
-        kanji: kanjiCharacter,
+        kanji: kanjiInfo.kanjiCharacter,
         isCorrect: isCorrectFirstAttempt,
         wordId,
         word: word.kanji,
@@ -75,15 +76,16 @@ export const integratePairingGameScore = async (
       acc[result.kanjiId].push(result);
       return acc;
     }, {} as Record<string, KanjiExerciseResult[]>);
-
+    console.log(resultsByKanji, "ini apa");
     // Update kanji mastery for each kanji
     for (const [kanjiId, results] of Object.entries(resultsByKanji)) {
       const kanjiCharacter = results[0].kanji;
       await updateKanjiMastery(kanjiId, kanjiCharacter, results);
     }
 
-    console.log(`✅ Successfully integrated pairing game score for ${allGameWords.length} words`);
-    
+    console.log(
+      `✅ Successfully integrated pairing game score for ${allGameWords.length} words`
+    );
   } catch (error) {
     console.error("❌ Error in pairing game score integration:", error);
     throw error;
@@ -100,11 +102,13 @@ export const calculateFirstAttemptStats = (
   const totalWords = allGameWords.length;
   const errorWordsCount = globalErrorWords.size;
   const correctFirstAttemptCount = totalWords - errorWordsCount;
-  
+
   return {
     totalWords,
     correctFirstAttemptCount,
     errorWordsCount,
-    firstAttemptAccuracy: Math.round((correctFirstAttemptCount / totalWords) * 100)
+    firstAttemptAccuracy: Math.round(
+      (correctFirstAttemptCount / totalWords) * 100
+    ),
   };
 };

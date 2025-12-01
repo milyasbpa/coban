@@ -33,7 +33,6 @@ export function PairingGameGrid() {
   // Kanji scoring integration at game completion (only for authenticated users)
   const integrateGameScore = async () => {
     if (!isAuthenticated || !user) {
-      console.log("⚠️ Guest user - score not saved");
       return;
     }
 
