@@ -64,6 +64,10 @@ export const integrateVocabularyWritingExerciseScore = async (
       userId,
       exerciseResults
     );
+
+    // Refresh vocabulary score store to update UI
+    const { useVocabularyScoreStore } = await import("@/pwa/features/score/store/vocabulary-score.store");
+    await useVocabularyScoreStore.getState().refreshUserScore();
   } catch (error) {
     console.error(
       "❌ Error in vocabulary writing exercise score integration:",
