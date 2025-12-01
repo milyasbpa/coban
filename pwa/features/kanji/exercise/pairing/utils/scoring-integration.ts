@@ -48,19 +48,19 @@ export const integratePairingGameScore = async (
         level
       );
 
-      // Use simple numeric exampleId for Firestore (not composite id)
-      const wordId = word.exampleId.toString();
+      // Use example ID for Firestore (word.id from KanjiExample)
+      const wordId = word.id.toString();
 
       // Determine if this word was correct on first attempt
       // If word is NOT in globalErrorWords, it means it was answered correctly on first attempt
-      const isCorrectFirstAttempt = !globalErrorWords.has(word.kanji);
+      const isCorrectFirstAttempt = !globalErrorWords.has(word.word);
 
       const exerciseResult: KanjiExerciseResult = {
         kanjiId: kanjiInfo.kanjiId,
         kanji: kanjiInfo.kanjiCharacter,
         isCorrect: isCorrectFirstAttempt,
         wordId,
-        word: word.kanji,
+        word: word.word,  // Changed from word.kanji to word.word
         exerciseType: "pairing" as const,
         level: level as "N5" | "N4" | "N3" | "N2" | "N1", // Level from exercise context
       };

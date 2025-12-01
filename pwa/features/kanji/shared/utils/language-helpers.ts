@@ -79,7 +79,7 @@ export function createMeaningsData<T extends MultilingualMeanings>(
  * Interface for pairing word objects (specific to pairing exercise)
  */
 export interface PairingWordBase extends MultilingualMeanings {
-  kanji: string;
+  word: string;  // Changed from 'kanji' to match KanjiExample
 }
 
 /**
@@ -96,6 +96,6 @@ export function getCardId(
   language: SupportedLanguage
 ): string {
   return type === "kanji" 
-    ? pairingWord.kanji 
+    ? pairingWord.word  // Changed from kanji to word
     : getMeaning(pairingWord, language);
 }

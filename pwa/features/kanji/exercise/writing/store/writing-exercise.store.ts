@@ -1,15 +1,15 @@
 import { create } from "zustand";
-import { KanjiExample } from "@/pwa/core/services/kanji";
+import { WritingQuestion } from "../utils/kanji-data.utils";
 import { integrateWritingGameScore } from "../utils/scoring-integration";
 
 export interface GameState {
-  questions: KanjiExample[];
+  questions: WritingQuestion[];
   score: number;
   isComplete: boolean;
   availableCharacters: string[];
   isRetryMode: boolean;
-  wrongQuestions: KanjiExample[];
-  correctQuestions: KanjiExample[];
+  wrongQuestions: WritingQuestion[];
+  correctQuestions: WritingQuestion[];
 }
 
 export interface QuestionState {
@@ -31,7 +31,7 @@ interface WritingExerciseState {
   questionState: QuestionState;
 
   // Computed values
-  getCurrentQuestion: () => KanjiExample | null;
+  getCurrentQuestion: () => WritingQuestion | null;
   getProgress: () => number;
   getCorrectAnswers: () => number;
   getWrongAnswers: () => number;
@@ -61,9 +61,9 @@ interface WritingExerciseState {
   // Retry actions
   canRetry: () => boolean;
   startRetryMode: () => void;
-  addWrongQuestion: (question: KanjiExample) => void;
-  addCorrectQuestion: (question: KanjiExample) => void;
-  getWrongQuestions: () => KanjiExample[];
+  addWrongQuestion: (question: WritingQuestion) => void;
+  addCorrectQuestion: (question: WritingQuestion) => void;
+  getWrongQuestions: () => WritingQuestion[];
   getTotalQuestions: () => number;
   
   // Drag and drop functions
@@ -71,7 +71,7 @@ interface WritingExerciseState {
   reorderKanji: (fromIndex: number, toIndex: number) => void;
 
   // Setters for gameState
-  setQuestions: (questions: KanjiExample[]) => void;
+  setQuestions: (questions: WritingQuestion[]) => void;
   setAvailableCharacters: (characters: string[]) => void;
   setIsComplete: (complete: boolean) => void;
   
@@ -85,7 +85,7 @@ interface WritingExerciseState {
   removeUsedKanji: (kanji: string) => void;
   clearUsedKanji: () => void;
   setupCurrentQuestion: (
-    questions: KanjiExample[],
+    questions: WritingQuestion[],
     currentIndex: number
   ) => void;
 }
@@ -402,7 +402,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
     },
 
     // New setter implementations
-    setQuestions: (questions: KanjiExample[]) => 
+    setQuestions: (questions: WritingQuestion[]) => 
       set((state) => ({
         gameState: { ...state.gameState, questions }
       })),
@@ -470,7 +470,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
 
     // Helper function to setup current question
     setupCurrentQuestion: (
-      questions: KanjiExample[],
+      questions: WritingQuestion[],
       currentIndex: number
     ) => {
       const currentQuestion = questions[currentIndex];
@@ -557,7 +557,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       get().setupCurrentQuestion(questions, 0);
     },
 
-    addWrongQuestion: (question: KanjiExample) => {
+    addWrongQuestion: (question: WritingQuestion) => {
       set((state) => ({
         gameState: {
           ...state.gameState,
@@ -566,7 +566,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       }));
     },
 
-    addCorrectQuestion: (question: KanjiExample) => {
+    addCorrectQuestion: (question: WritingQuestion) => {
       set((state) => ({
         gameState: {
           ...state.gameState,

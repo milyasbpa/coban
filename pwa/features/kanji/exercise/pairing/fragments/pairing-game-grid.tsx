@@ -6,7 +6,7 @@ import { usePairingGameStore } from "../store/pairing-game.store";
 import { usePairingDisplayOptions } from "../store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { shuffleArray } from "../utils";
-import { PairingWord, SelectedCard } from "../types";
+import { PairingWord, SelectedCard, getCompositeId } from "../types";
 import {
   getCardId,
   getMeaning,
@@ -93,9 +93,10 @@ export function PairingGameGrid() {
   ) => {
     // Get card ID using helper function
     const cardId = getCardId(type, pairingWord, language as SupportedLanguage);
+    const compositeId = getCompositeId(pairingWord);
 
-    // Check if this word is already matched (using PairingWord.id) or has error (using card string ID)
-    if (matchedPairs.has(pairingWord.id) || errorCards.has(cardId)) return;
+    // Check if this word is already matched (using composite ID) or has error (using card string ID)
+    if (matchedPairs.has(compositeId) || errorCards.has(cardId)) return;
 
     const newCard: SelectedCard = {
       ...pairingWord, // Spread all PairingWord properties
@@ -136,29 +137,30 @@ export function PairingGameGrid() {
         }
 
         if (matchingWord) {
-          // Correct match - hanya simpan ID asli PairingWord ke matchedPairs
+          // Correct match - simpan composite ID ke matchedPairs
+          const matchedCompositeId = getCompositeId(matchingWord);
           const newMatchedPairs = new Set([
             ...matchedPairs,
-            matchingWord.id, // Hanya simpan ID angka asli dari PairingWord
+            matchedCompositeId, // Simpan composite ID string
           ]);
 
           setMatchedPairs(newMatchedPairs);
           incrementCorrectPairs();
           setSelectedCards([]);
-          removeWordError(kanjiCard.kanji);
+          removeWordError(kanjiCard.word);
 
           // Score will be integrated at game completion
 
-          // Check if section is complete - sekarang 1 ID per word (bukan 2)
+          // Check if section is complete
           if (newMatchedPairs.size >= sectionWords.length) {
             setTimeout(() => {
               if (isRetryMode) {
                 // Calculate retry results
-                // newMatchedPairs berisi ID angka, perlu convert ke kanji untuk check error
+                // newMatchedPairs berisi composite ID string, perlu convert untuk check error
                 const correctOriginalWords = Array.from(newMatchedPairs).filter(
-                  (wordId) => {
-                    const word = sectionWords.find((w) => w.id === wordId);
-                    return word && globalErrorWords.has(word.kanji);
+                  (compositeId) => {
+                    const word = sectionWords.find((w) => getCompositeId(w) === compositeId);
+                    return word && globalErrorWords.has(word.word);
                   }
                 ).length;
 
@@ -193,9 +195,9 @@ export function PairingGameGrid() {
           );
           setErrorCards(new Set([kanjiCardId, meaningCardId]));
 
-          // Track word errors based on the kanji (not individual cards)
-          // Only the kanji determines if this is first error for this word
-          addWordError(kanjiCard.kanji);
+          // Track word errors based on the word (not individual cards)
+          // Only the word determines if this is first error for this word
+          addWordError(kanjiCard.word);
 
           // Update wrong attempts count (selalu bertambah untuk tracking)
           // Remove wrongAttempts tracking as per architecture optimization
@@ -222,17 +224,17 @@ export function PairingGameGrid() {
         {sectionWords.map((gameWord: PairingWord) => {
           return (
             <PairingCard
-              key={`kanji-${gameWord.kanjiId}-${gameWord.id}`}
+              key={`kanji-${getCompositeId(gameWord)}`}
               id={`kanji-${gameWord.id}`}
-              content={gameWord.kanji}
+              content={gameWord.word}
               furigana={gameWord.furigana}
-              romanji={gameWord.reading}
+              romanji={gameWord.romanji}
               type="kanji"
               isSelected={selectedCards.some(
                 (c: SelectedCard) => c.id === gameWord.id && c.type === "kanji"
               )}
-              isMatched={matchedPairs.has(gameWord.id)}
-              isError={errorCards.has(gameWord.kanji)}
+              isMatched={matchedPairs.has(getCompositeId(gameWord))}
+              isError={errorCards.has(gameWord.word)}
               onClick={() => {
                 handleCardClick("kanji", gameWord);
                 if (displaySound) {
@@ -248,14 +250,14 @@ export function PairingGameGrid() {
       <div className="space-y-3">
         {shuffledMeaningsData.map(({ meaning, word }) => (
           <PairingCard
-            key={`meaning-${word.kanjiId}-${word.id}`}
+            key={`meaning-${getCompositeId(word)}`}
             id={meaning}
             content={meaning}
             type="meaning"
             isSelected={selectedCards.some(
               (c: SelectedCard) => c.id === word.id && c.type === "meaning"
             )}
-            isMatched={matchedPairs.has(word.id)}
+            isMatched={matchedPairs.has(getCompositeId(word))}
             isError={errorCards.has(meaning)}
             onClick={() => handleCardClick("meaning", word)}
           />

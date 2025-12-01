@@ -5,14 +5,14 @@ import { Button } from "@/pwa/core/components/button";
 import { Input } from "@/pwa/core/components/input";
 import { cn } from "@/pwa/core/lib/utils";
 import * as wanakana from "wanakana";
-import { KanjiExample } from "@/pwa/core/services/kanji";
+import { ReadingOption } from "../utils/reading-game";
 
 interface AnswerInputProps {
   mode: "multiple-choice" | "direct-input";
-  options: KanjiExample[];  // Changed from string[] to KanjiExample[]
-  selectedOption: KanjiExample | null;  // Changed from string to KanjiExample | null
+  options: ReadingOption[];  // Changed to ReadingOption
+  selectedOption: ReadingOption | null;  // Changed to ReadingOption
   directInput: string;
-  onOptionSelect: (option: KanjiExample) => void;  // Changed parameter type
+  onOptionSelect: (option: ReadingOption) => void;  // Changed to ReadingOption
   onInputChange: (value: string) => void;
   disabled?: boolean;
 }

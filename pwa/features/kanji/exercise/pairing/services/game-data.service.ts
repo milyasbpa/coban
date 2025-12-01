@@ -31,7 +31,7 @@ export class GameDataService {
   ): PairingWord[] {
     // Find wrong word data
     const wrongWordData = allGameWords.filter((w) =>
-      wrongWords.includes(w.kanji)
+      wrongWords.includes(w.word)  // Changed from w.kanji to w.word
     );
 
     let retryWords = [...wrongWordData];
@@ -39,7 +39,7 @@ export class GameDataService {
     // Add decoy for single wrong word
     if (wrongWords.length === 1) {
       const correctWords = allGameWords.filter(
-        (w) => !wrongWords.includes(w.kanji)
+        (w) => !wrongWords.includes(w.word)  // Changed from w.kanji to w.word
       );
 
       if (correctWords.length > 0) {

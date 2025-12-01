@@ -9,16 +9,11 @@ export const createPairingWords = (
   const words: PairingWord[] = [];
 
   kanjiDetails.forEach((kanji) => {
-    // Use examples from kanji data
+    // Use examples from kanji data, just add kanjiId
     kanji.examples.forEach((example) => {
       words.push({
-        id: `${kanji.id}-${example.id}`, // Composite ID for unique identification in game
-        kanjiId: kanji.id, // Add kanji ID for composite key generation
-        exampleId: example.id, // Keep original example ID for Firestore (simple number)
-        kanji: example.word,
-        reading: example.romanji,
-        meanings: example.meanings, // Use new meanings structure
-        furigana: example.furigana,
+        ...example,           // Spread all KanjiExample fields (id, word, furigana, romanji, meanings)
+        kanjiId: kanji.id,    // Add parent kanji ID
       });
     });
   });

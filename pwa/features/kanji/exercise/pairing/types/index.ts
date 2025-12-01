@@ -1,16 +1,20 @@
+import { KanjiExample } from "@/pwa/core/services/kanji";
+
 // Types untuk pairing game
-export interface PairingWord {
-  id: string;          // Composite ID: "kanjiId-exampleId" for unique game identification
-  kanjiId: number;     // Kanji ID for composite key
-  exampleId: number;   // Original example ID (for Firestore - can be duplicate across kanji)
-  kanji: string;
-  reading: string;
-  meanings: {
-    id: string;
-    en: string;
-  };
-  furigana: string;
+export interface PairingWord extends KanjiExample {
+  kanjiId: number;     // Parent kanji ID for grouping and scoring
+  // Inherited from KanjiExample:
+  // - id: number (example ID for Firestore)
+  // - word: string
+  // - furigana: string
+  // romanji: string
+  // - meanings: { id: string; en: string }
 }
+
+// Helper function to get composite ID for UI keys and matching
+export const getCompositeId = (word: PairingWord): string => {
+  return `${word.kanjiId}-${word.id}`;
+};
 
 export interface GameState {
   allGameWords: PairingWord[]; // Global master data - all words for the entire game

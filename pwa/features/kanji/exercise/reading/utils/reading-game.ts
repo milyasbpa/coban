@@ -5,32 +5,20 @@ import {
 } from "@/pwa/core/services/kanji";
 import { shuffleArray } from "../../pairing/utils";
 
-// Independent interface (not extends) - following pairing pattern
-export interface ReadingQuestion {
-  id: string;           // Composite ID: "kanjiId-exampleId"
+// Independent interface extending KanjiExample - following pairing pattern
+export interface ReadingQuestion extends KanjiExample {
   kanjiId: number;      // Parent kanji ID for scoring
-  exampleId: number;    // Original example ID for Firestore
-  word: string;
-  furigana: string;
-  romanji: string;
-  meanings: {
-    id: string;
-    en: string;
-  };
   options: ReadingOption[];
 }
 
-export interface ReadingOption {
-  id: number;
+export interface ReadingOption extends KanjiExample {
   kanjiId: number;      // Parent kanji ID
-  word: string;
-  furigana: string;
-  romanji: string;
-  meanings: {
-    id: string;
-    en: string;
-  };
 }
+
+// Helper function to get composite ID for UI keys
+export const getCompositeId = (item: ReadingQuestion | ReadingOption): string => {
+  return `${item.kanjiId}-${item.id}`;
+};
 
 export interface AnswerResult {
   selectedAnswer: ReadingOption; // What user selected
@@ -48,12 +36,8 @@ export const createReadingQuestions = (
   kanjiDetails.forEach((kanji) => {
     kanji.examples.forEach((example) => {
       allOptions.push({
-        id: example.id,
-        kanjiId: kanji.id,  // Preserve kanji context
-        word: example.word,
-        furigana: example.furigana,
-        romanji: example.romanji,
-        meanings: example.meanings,
+        ...example,           // Spread all KanjiExample fields
+        kanjiId: kanji.id,    // Add parent kanji ID
       });
     });
   });
@@ -83,15 +67,9 @@ export const createReadingQuestions = (
     const combinedOptions = [correctOption, ...wrongOptions];
     const shuffledOptions = shuffleArray(combinedOptions);
 
-    // Create ReadingQuestion with composite ID
+    // Create ReadingQuestion - just add options to the correct option
     questions.push({
-      id: `${correctOption.kanjiId}-${correctOption.id}`,  // Composite ID
-      kanjiId: correctOption.kanjiId,  // Parent kanji ID
-      exampleId: correctOption.id,  // Original example ID for Firestore
-      word: correctOption.word,
-      furigana: correctOption.furigana,
-      romanji: correctOption.romanji,
-      meanings: correctOption.meanings,
+      ...correctOption,     // Spread KanjiExample + kanjiId
       options: shuffledOptions,
     });
   });

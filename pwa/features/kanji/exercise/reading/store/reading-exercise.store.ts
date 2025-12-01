@@ -1,10 +1,10 @@
 import { create } from "zustand";
 import { 
   ReadingQuestion,
+  ReadingOption,
   AnswerResult,
   isAnswerCorrect
 } from "../utils/reading-game";
-import { KanjiExample } from "@/pwa/core/services/kanji";
 import { integrateReadingGameScore } from "../utils/scoring-integration";
 
 export interface GameState {
@@ -19,7 +19,7 @@ export interface GameState {
 export interface QuestionState {
   currentQuestionIndex: number;
   inputMode: "multiple-choice" | "direct-input";
-  selectedOption: KanjiExample | null;  // Changed to KanjiExample
+  selectedOption: ReadingOption | null;  // Changed to ReadingOption
   directInput: string;
   showBottomSheet: boolean;
   currentResult: AnswerResult | null;
@@ -48,7 +48,7 @@ export interface ReadingExerciseState {
   setQuestions: (questions: ReadingQuestion[]) => void;
   setCurrentQuestionIndex: (index: number) => void;
   setInputMode: (mode: "multiple-choice" | "direct-input") => void;
-  setSelectedOption: (option: KanjiExample | null) => void;  // Updated type
+  setSelectedOption: (option: ReadingOption | null) => void;  // Updated to ReadingOption
   setDirectInput: (input: string) => void;
   setShowBottomSheet: (show: boolean) => void;
   setCurrentResult: (result: AnswerResult | null) => void;

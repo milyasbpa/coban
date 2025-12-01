@@ -2,19 +2,15 @@
 import { KanjiService, KanjiDetail, KanjiExample } from "@/pwa/core/services/kanji";
 import { shuffleArray } from "../../pairing/utils/pairing-game";
 
-// Independent interface (not extends) - following pairing pattern
-export interface WritingQuestion {
-  id: string;           // Composite ID: "kanjiId-exampleId"
+// Independent interface extending KanjiExample - following pairing pattern
+export interface WritingQuestion extends KanjiExample {
   kanjiId: number;      // Parent kanji ID for scoring
-  exampleId: number;    // Original example ID for Firestore
-  word: string;
-  furigana: string;
-  romanji: string;
-  meanings: {
-    id: string;
-    en: string;
-  };
 }
+
+// Helper function to get composite ID for UI keys
+export const getCompositeId = (question: WritingQuestion): string => {
+  return `${question.kanjiId}-${question.id}`;
+};
 
 /**
  * Get all kanji details for a specific level using KanjiService
@@ -62,13 +58,8 @@ export function getWritingQuestions(
     kanjiDetails.forEach((kanjiDetail) => {
       kanjiDetail.examples.forEach((example) => {
         questions.push({
-          id: `${kanjiDetail.id}-${example.id}`,  // Composite ID
-          kanjiId: kanjiDetail.id,  // Parent kanji ID
-          exampleId: example.id,  // Original example ID for Firestore
-          word: example.word,
-          furigana: example.furigana,
-          romanji: example.romanji,
-          meanings: example.meanings,
+          ...example,           // Spread all KanjiExample fields
+          kanjiId: kanjiDetail.id,  // Add parent kanji ID
         });
       });
     });
@@ -86,13 +77,8 @@ export function getWritingQuestions(
     kanjiItems.forEach((kanjiItem) => {
       kanjiItem.examples.forEach((example) => {
         questions.push({
-          id: `${kanjiItem.id}-${example.id}`,  // Composite ID
-          kanjiId: kanjiItem.id,  // Parent kanji ID
-          exampleId: example.id,  // Original example ID for Firestore
-          word: example.word,
-          furigana: example.furigana,
-          romanji: example.romanji,
-          meanings: example.meanings,
+          ...example,           // Spread all KanjiExample fields
+          kanjiId: kanjiItem.id,  // Add parent kanji ID
         });
       });
     });

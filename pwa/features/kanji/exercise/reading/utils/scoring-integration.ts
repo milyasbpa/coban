@@ -47,8 +47,8 @@ export const integrateReadingGameScore = async (
         level
       );
 
-      // Use simple numeric exampleId for Firestore (not composite id)
-      const wordId = question.exampleId.toString();
+      // Use example ID for Firestore (question.id from KanjiExample)
+      const wordId = question.id.toString();
 
       // Determine if this question was correct on first attempt
       // If question word is NOT in errorWords, it means it was answered correctly on first attempt

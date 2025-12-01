@@ -1,6 +1,6 @@
 import { KanjiService } from "@/pwa/core/services/kanji";
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/kanji-score";
-import type { KanjiExample } from "@/pwa/core/services/kanji";
+import type { WritingQuestion } from "./kanji-data.utils";
 
 /**
  * Integrate writing exercise results with kanji scoring system
@@ -15,8 +15,8 @@ import type { KanjiExample } from "@/pwa/core/services/kanji";
  * @param currentUserScore - Current user score data
  */
 export const integrateWritingGameScore = async (
-  allQuestions: KanjiExample[],
-  wrongQuestions: KanjiExample[],
+  allQuestions: WritingQuestion[],
+  wrongQuestions: WritingQuestion[],
   level: string,
   userId: string,
   updateKanjiMastery: (kanjiId: string, character: string, results: KanjiExerciseResult[]) => Promise<void>,
@@ -47,8 +47,8 @@ export const integrateWritingGameScore = async (
         level
       );
 
-      // Use simple numeric exampleId for Firestore (not composite id)
-      const wordId = question.exampleId.toString();
+      // Use example ID for Firestore (question.id from KanjiExample)
+      const wordId = question.id.toString();
 
       // Determine if this question was correct on first attempt
       // If question word is NOT in errorWords, it means it was answered correctly on first attempt
@@ -94,8 +94,8 @@ export const integrateWritingGameScore = async (
  * Helper function to determine first-attempt success rate
  */
 export const calculateFirstAttemptStats = (
-  allQuestions: KanjiExample[],
-  wrongQuestions: KanjiExample[]
+  allQuestions: WritingQuestion[],
+  wrongQuestions: WritingQuestion[]
 ) => {
   const totalQuestions = allQuestions.length;
   const errorQuestionsCount = wrongQuestions.length;
