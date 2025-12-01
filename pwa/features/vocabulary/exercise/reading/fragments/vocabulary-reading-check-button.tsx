@@ -61,7 +61,7 @@ export function VocabularyReadingCheckButton() {
         <Button
           onClick={handleCheckAnswer}
           disabled={!canCheck || isAnswered}
-          className="w-full h-10 text-sm bg-primary disabled:bg-muted text-white disabled:text-foreground"
+          className="w-full h-10 text-sm bg-primary hover:bg-primary/90 disabled:bg-muted text-primary-foreground disabled:text-muted-foreground dark:bg-primary dark:hover:bg-primary/90 dark:disabled:bg-muted dark:text-primary-foreground dark:disabled:text-muted-foreground transition-colors"
         >
           Check
         </Button>
