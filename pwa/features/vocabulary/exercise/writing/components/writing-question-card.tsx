@@ -35,17 +35,17 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
   expectedAnswer,
 }) => {
   const { language } = useLanguage();
-  
+
   const handlePlayAudio = () => {
-    if (question.audio) {
-      playAudio(question.audio);
+    const audioText = question.word?.hiragana || question.japanese;
+    if (audioText) {
+      playAudio(audioText);
     }
   };
 
   // Get meaning based on selected language
-  const meaning = language === "id" 
-    ? question.word.meanings.id 
-    : question.word.meanings.en;
+  const meaning =
+    language === "id" ? question.word.meanings.id : question.word.meanings.en;
 
   return (
     <div className="space-y-6">
@@ -55,23 +55,20 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
           <div className="text-lg text-foreground/80 font-medium text-center">
             Write the {inputMode} for:
           </div>
-          
+
           <div className="flex items-start justify-center gap-3">
             {/* Audio Button */}
-            {question.audio && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={handlePlayAudio}
-                className="h-10 w-10 rounded-md bg-muted hover:bg-muted/80 dark:bg-gray-800 dark:hover:bg-gray-700 text-foreground dark:text-gray-200 border border-border dark:border-gray-700 transition-colors shadow-sm"
-              >
-                <Volume2 className="h-5 w-5" />
-              </Button>
-            )}
-            
-            <div className="text-2xl font-bold text-foreground">
-              {meaning}
-            </div>
+
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={handlePlayAudio}
+              className="h-10 w-10 rounded-md bg-muted hover:bg-muted/80 dark:bg-gray-800 dark:hover:bg-gray-700 text-foreground dark:text-gray-200 border border-border dark:border-gray-700 transition-colors shadow-sm"
+            >
+              <Volume2 className="h-5 w-5" />
+            </Button>
+
+            <div className="text-2xl font-bold text-foreground">{meaning}</div>
           </div>
         </div>
 
@@ -93,10 +90,12 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
         {isAnswered && !isCorrect && expectedAnswer && (
           <div className="text-center space-y-2 pt-4 border-t border-border">
             <div className="text-sm text-red-600 dark:text-red-400">
-              Your answer: <span className="font-medium">{selectedCharacters.join("")}</span>
+              Your answer:{" "}
+              <span className="font-medium">{selectedCharacters.join("")}</span>
             </div>
             <div className="text-sm text-green-600 dark:text-green-400">
-              Correct answer: <span className="font-medium">{expectedAnswer}</span>
+              Correct answer:{" "}
+              <span className="font-medium">{expectedAnswer}</span>
             </div>
           </div>
         )}
@@ -105,7 +104,9 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
       {/* Input Mode Toggle - Bottom sheet style */}
       <Card className="p-4">
         <div className="flex items-center justify-between">
-          <span className="text-sm font-medium text-foreground">Input Mode</span>
+          <span className="text-sm font-medium text-foreground">
+            Input Mode
+          </span>
           <div className="flex rounded-lg border border-border bg-muted/20 p-1">
             <Button
               onClick={() => onInputModeChange("hiragana")}

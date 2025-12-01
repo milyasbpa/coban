@@ -63,8 +63,13 @@ export interface VocabularyQuestion {
   hiragana?: string; // Optional hiragana reading for display
   options: string[];
   correctAnswer: string;
-  questionType: "hiragana-to-meaning" | "kanji-to-meaning" | "meaning-to-kanji" | "meaning-to-romaji" | "meaning-to-hiragana" | "audio-to-meaning";
-  audio?: string; // Optional audio file path
+  questionType:
+    | "hiragana-to-meaning"
+    | "kanji-to-meaning"
+    | "meaning-to-kanji"
+    | "meaning-to-romaji"
+    | "meaning-to-hiragana"
+    | "audio-to-meaning";
 }
 
 export interface VocabularyQuestionState {
