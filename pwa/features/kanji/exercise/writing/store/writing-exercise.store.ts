@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { WritingQuestion } from "../utils/kanji-data.utils";
+import { WritingQuestion, getCompositeId } from "../utils/kanji-data.utils";
 import { integrateWritingGameScore } from "../utils/scoring-integration";
 
 export interface GameState {
@@ -204,7 +204,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       } else {
         // Add to wrong questions if not already there
         set((state) => {
-          const alreadyWrong = state.gameState.wrongQuestions.some(q => q.id === currentQuestion.id);
+          const alreadyWrong = state.gameState.wrongQuestions.some(q => getCompositeId(q) === getCompositeId(currentQuestion));
           return {
             gameState: {
               ...state.gameState,

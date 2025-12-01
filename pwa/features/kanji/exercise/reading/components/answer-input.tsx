@@ -5,7 +5,7 @@ import { Button } from "@/pwa/core/components/button";
 import { Input } from "@/pwa/core/components/input";
 import { cn } from "@/pwa/core/lib/utils";
 import * as wanakana from "wanakana";
-import { ReadingOption } from "../utils/reading-game";
+import { ReadingOption, getCompositeId } from "../utils/reading-game";
 
 interface AnswerInputProps {
   mode: "multiple-choice" | "direct-input";
@@ -55,7 +55,7 @@ export function AnswerInput({
             variant="outline"
             className={cn(
               "w-full h-16 text-left justify-start text-lg",
-              selectedOption?.id === option.id && "border-primary bg-primary/10"
+              selectedOption && getCompositeId(selectedOption) === getCompositeId(option) && "border-primary bg-primary/10"
             )}
             onClick={() => onOptionSelect(option)}
             disabled={disabled}
