@@ -1,10 +1,11 @@
 "use client";
 
-import { ArrowLeft, Edit3, Eye } from "lucide-react";
+import { ArrowLeft, Edit3, Eye, Trash2 } from "lucide-react";
 import { AppHeader } from "@/pwa/core/components/app-header";
 import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { useVocabularyDisplayOptions } from "../store/display-options.store";
 import { useLoginStore } from "@/pwa/features/login/store";
+import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 import { useSearchParams, useRouter } from "next/navigation";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
 import { titleCase } from "@/pwa/core/lib/utils/titleCase";
@@ -23,6 +24,7 @@ export function LessonHeader() {
     resetToDefault,
   } = useVocabularyDisplayOptions();
   const { isAuthenticated, user, logout: storeLogout } = useLoginStore();
+  const { resetCategoryStatistics } = useVocabularyScoreStore();
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -50,6 +52,16 @@ export function LessonHeader() {
 
   const handleLogin = () => {
     router.push("/login");
+  };
+
+  const handleResetCategoryStatistics = async () => {
+    if (!isAuthenticated || !categoryId) return;
+
+    try {
+      await resetCategoryStatistics(categoryId, level);
+    } catch (error) {
+      console.error("Failed to reset category statistics:", error);
+    }
   };
 
   // Prepare display options
@@ -96,6 +108,19 @@ export function LessonHeader() {
           icon: <Edit3 className="h-4 w-4" />,
           isActive: isSelectionMode,
           onClick: toggleSelectionMode,
+        },
+      ],
+    },
+    {
+      id: "actions",
+      title: "Actions",
+      items: [
+        {
+          id: "reset-category",
+          type: "action" as const,
+          label: "Reset Category Statistics",
+          icon: <Trash2 className="h-4 w-4" />,
+          onClick: handleResetCategoryStatistics,
         },
       ],
     },

@@ -48,6 +48,7 @@ interface KanjiScoreState {
   refreshUserScore: () => Promise<void>;
   clearAllData: () => Promise<void>;
   resetStatistics: () => Promise<void>;
+  resetLessonStatistics: (kanjiIds: string[]) => Promise<void>;
 }
 
 // Helper functions for topic-aware scoring calculations
@@ -396,6 +397,25 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     } catch (error) {
       console.error("KanjiScoreStore: Failed to reset statistics", error);
       set({ error: "Failed to reset statistics" });
+    }
+  },
+
+  // Reset statistics for specific lesson (by kanji IDs)
+  resetLessonStatistics: async (kanjiIds: string[]) => {
+    const { currentUserScore } = get();
+    if (!currentUserScore || kanjiIds.length === 0) return;
+
+    try {
+      await KanjiFirestoreManager.resetKanjiByIds(
+        currentUserScore.userId,
+        kanjiIds
+      );
+
+      // Refresh user score to reflect changes
+      await get().refreshUserScore();
+    } catch (error) {
+      console.error("KanjiScoreStore: Failed to reset lesson statistics", error);
+      set({ error: "Failed to reset lesson statistics" });
     }
   },
 }));

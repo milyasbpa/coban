@@ -118,6 +118,21 @@ export class VocabularyFirestoreManager {
 
   // ============ Data Management ============
 
+  static async resetVocabularyByIds(
+    userId: string,
+    vocabularyIds: string[]
+  ): Promise<void> {
+    const userScore = await this.getVocabularyScore(userId);
+    if (!userScore) return;
+
+    // Delete specific vocabulary entries from vocabularyMastery
+    vocabularyIds.forEach((vocabId) => {
+      delete userScore.vocabularyMastery[vocabId];
+    });
+
+    await this.saveVocabularyScore(userId, userScore);
+  }
+
   static async clearVocabularyData(userId: string): Promise<void> {
     const docRef = doc(firestore, 'users', userId, 'vocabulary_scores', 'data');
     await deleteDoc(docRef);

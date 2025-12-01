@@ -163,6 +163,21 @@ export class KanjiFirestoreManager {
 
   // ============ Data Management ============
 
+  static async resetKanjiByIds(
+    userId: string,
+    kanjiIds: string[]
+  ): Promise<void> {
+    const userScore = await this.getKanjiScore(userId);
+    if (!userScore) return;
+
+    // Delete specific kanji entries from kanjiMastery
+    kanjiIds.forEach((kanjiId) => {
+      delete userScore.kanjiMastery[kanjiId];
+    });
+
+    await this.saveKanjiScore(userId, userScore);
+  }
+
   static async clearKanjiData(userId: string): Promise<void> {
     const docRef = doc(firestore, 'users', userId, 'kanji_scores', 'data');
     await deleteDoc(docRef);

@@ -1,10 +1,11 @@
 "use client";
 
-import { ArrowLeft, Edit3, Eye } from "lucide-react";
+import { ArrowLeft, Edit3, Eye, Trash2 } from "lucide-react";
 import { AppHeader } from "@/pwa/core/components/app-header";
 import { useKanjiSelection } from "../store/kanji-selection.store";
 import { useDisplayOptions } from "../store/display-options.store";
 import { useLoginStore } from "@/pwa/features/login/store";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useSearchParams, useRouter } from "next/navigation";
 import { KanjiService } from "@/pwa/core/services/kanji";
 import { titleCase } from "@/pwa/core/lib/utils/titleCase";
@@ -23,6 +24,7 @@ export function LessonHeader() {
     resetToDefault,
   } = useDisplayOptions();
   const { isAuthenticated, user, logout: storeLogout } = useLoginStore();
+  const { resetLessonStatistics } = useKanjiScoreStore();
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -54,6 +56,34 @@ export function LessonHeader() {
 
   const handleLogin = () => {
     router.push("/login");
+  };
+
+  const handleResetLessonStatistics = async () => {
+    if (!isAuthenticated) return;
+
+    try {
+      // Extract kanji IDs based on lesson type
+      let kanjiDetails: Array<{ id: number }> = [];
+      
+      if (topicId) {
+        // Topic-based lesson
+        kanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
+      } else if (lessonId) {
+        // Stroke-based lesson
+        kanjiDetails = KanjiService.getKanjiDetailsByLessonId(
+          parseInt(lessonId),
+          level
+        );
+      }
+
+      const kanjiIds = kanjiDetails.map((k) => k.id.toString());
+      
+      if (kanjiIds.length > 0) {
+        await resetLessonStatistics(kanjiIds);
+      }
+    } catch (error) {
+      console.error("Failed to reset lesson statistics:", error);
+    }
   };
 
   // Prepare display options
@@ -100,6 +130,19 @@ export function LessonHeader() {
           icon: <Edit3 className="h-4 w-4" />,
           isActive: isSelectionMode,
           onClick: toggleSelectionMode,
+        },
+      ],
+    },
+    {
+      id: "actions",
+      title: "Actions",
+      items: [
+        {
+          id: "reset-lesson",
+          type: "action" as const,
+          label: "Reset Lesson Statistics",
+          icon: <Trash2 className="h-4 w-4" />,
+          onClick: handleResetLessonStatistics,
         },
       ],
     },
