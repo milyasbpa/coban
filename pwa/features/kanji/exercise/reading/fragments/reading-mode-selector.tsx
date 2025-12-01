@@ -12,8 +12,10 @@ export function ReadingModeSelector() {
       <Button
         variant="outline"
         className={cn(
-          "flex-1 h-12",
-          inputMode === "multiple-choice" && "bg-primary text-primary-foreground"
+          "flex-1 h-12 transition-colors",
+          inputMode === "multiple-choice" 
+            ? "bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90" 
+            : "bg-background hover:bg-accent dark:bg-background dark:hover:bg-accent"
         )}
         onClick={() => setInputMode("multiple-choice")}
         disabled={isAnswered}
@@ -23,8 +25,10 @@ export function ReadingModeSelector() {
       <Button
         variant="outline"
         className={cn(
-          "flex-1 h-12",
-          inputMode === "direct-input" && "bg-primary text-primary-foreground"
+          "flex-1 h-12 transition-colors",
+          inputMode === "direct-input" 
+            ? "bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90" 
+            : "bg-background hover:bg-accent dark:bg-background dark:hover:bg-accent"
         )}
         onClick={() => setInputMode("direct-input")}
         disabled={isAnswered}

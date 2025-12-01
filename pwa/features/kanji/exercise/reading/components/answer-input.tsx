@@ -49,23 +49,32 @@ export function AnswerInput({
   if (mode === "multiple-choice") {
     return (
       <div className="space-y-3">
-        {options.map((option, index) => (
-          <Button
-            key={`${option.word}-${option.furigana}-${index}`}
-            variant="outline"
-            className={cn(
-              "w-full h-16 text-left justify-start text-lg",
-              selectedOption && getCompositeId(selectedOption) === getCompositeId(option) && "border-primary bg-primary/10"
-            )}
-            onClick={() => onOptionSelect(option)}
-            disabled={disabled}
-          >
-            <span className="bg-yellow-400 dark:bg-yellow-500 text-black dark:text-gray-900 rounded-full w-8 h-8 flex items-center justify-center mr-4 text-sm font-bold">
-              {index + 1}
-            </span>
-            {option.furigana}
-          </Button>
-        ))}
+        {options.map((option, index) => {
+          const isSelected = selectedOption && getCompositeId(selectedOption) === getCompositeId(option);
+          const optionLabel = String.fromCharCode(65 + index); // A, B, C, D
+          return (
+            <Button
+              key={`${option.word}-${option.furigana}-${index}`}
+              variant="outline"
+              className={cn(
+                "w-full h-16 text-left justify-start text-lg transition-colors",
+                isSelected 
+                  ? "border-primary bg-primary/10 dark:border-primary dark:bg-primary/20" 
+                  : "hover:bg-accent dark:hover:bg-accent"
+              )}
+              onClick={() => onOptionSelect(option)}
+              disabled={disabled}
+            >
+              <span className={cn(
+                "px-2 py-1 flex items-center justify-center mr-4 text-sm font-medium",
+                "bg-muted text-foreground dark:bg-muted dark:text-foreground"
+              )}>
+                {optionLabel}
+              </span>
+              {option.furigana}
+            </Button>
+          );
+        })}
       </div>
     );
   }
