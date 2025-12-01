@@ -90,14 +90,22 @@ export class KanjiScoreCalculator {
   // ============ Progress and Analytics ============
 
   static calculateUserProgress(userScore: KanjiUserScore): number {
-    const kanjiArray = Object.values(userScore.kanjiMastery);
-    if (kanjiArray.length === 0) return 0;
+    // Iterate through nested structure: level -> kanjiId
+    let totalScore = 0;
+    let totalKanji = 0;
 
-    const totalScore = kanjiArray.reduce(
-      (sum, kanji) => sum + kanji.overallScore,
-      0
-    );
-    const maxPossibleScore = kanjiArray.length * MAX_SCORE;
+    for (const level in userScore.kanjiMastery) {
+      const kanjiInLevel = Object.values(userScore.kanjiMastery[level]);
+      totalScore += kanjiInLevel.reduce(
+        (sum, kanji) => sum + kanji.overallScore,
+        0
+      );
+      totalKanji += kanjiInLevel.length;
+    }
+
+    if (totalKanji === 0) return 0;
+
+    const maxPossibleScore = totalKanji * MAX_SCORE;
 
     return Math.round((totalScore / maxPossibleScore) * 100);
   }
@@ -109,15 +117,20 @@ export class KanjiScoreCalculator {
     strongWords: string[];
   } {
     const allWords: KanjiWordLevel[] = [];
+    const allKanji: KanjiMasteryLevel[] = [];
 
-    // Collect all words from all kanji
-    Object.values(userScore.kanjiMastery).forEach((kanji) => {
-      allWords.push(...Object.values(kanji.words));
-    });
+    // Collect all kanji and words from nested structure
+    for (const level in userScore.kanjiMastery) {
+      const kanjiInLevel = Object.values(userScore.kanjiMastery[level]);
+      allKanji.push(...kanjiInLevel);
+      kanjiInLevel.forEach((kanji) => {
+        allWords.push(...Object.values(kanji.words));
+      });
+    }
 
     const totalWords = allWords.length;
     const masteredWords = allWords.filter((word) => {
-      const parentKanji = Object.values(userScore.kanjiMastery).find(
+      const parentKanji = allKanji.find(
         (k) => k.kanjiId === word.kanjiId
       );
       const totalWordsInKanji = parentKanji

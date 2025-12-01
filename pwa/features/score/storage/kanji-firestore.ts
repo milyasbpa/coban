@@ -39,12 +39,10 @@ export class KanjiFirestoreManager {
   }
 
   static async createDefaultKanjiScore(
-    userId: string,
-    level: "N5" | "N4" | "N3" | "N2" | "N1" = "N5"
+    userId: string
   ): Promise<KanjiUserScore> {
     const defaultScore: KanjiUserScore = {
       userId,
-      level,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       kanjiMastery: {},
@@ -58,6 +56,7 @@ export class KanjiFirestoreManager {
 
   static async saveKanjiWordMastery(
     userId: string,
+    level: string,
     kanjiId: string,
     wordId: string,
     wordMastery: KanjiWordLevel
@@ -65,23 +64,28 @@ export class KanjiFirestoreManager {
     const userScore = await this.getKanjiScore(userId);
     if (!userScore) return;
 
+    // Initialize nested structure if needed
+    if (!userScore.kanjiMastery[level]) {
+      userScore.kanjiMastery[level] = {};
+    }
+
     // Initialize kanji mastery if it doesn't exist
-    if (!userScore.kanjiMastery[kanjiId]) {
-      userScore.kanjiMastery[kanjiId] = {
+    if (!userScore.kanjiMastery[level][kanjiId]) {
+      userScore.kanjiMastery[level][kanjiId] = {
         kanjiId,
         character: wordMastery.word.charAt(0) || kanjiId,
-        level: userScore.level,
+        level: level,
         ...DEFAULT_KANJI_MASTERY,
         words: {},
       };
     }
 
     // Update word mastery
-    userScore.kanjiMastery[kanjiId].words[wordId] = wordMastery;
+    userScore.kanjiMastery[level][kanjiId].words[wordId] = wordMastery;
 
     // Recalculate kanji mastery
-    userScore.kanjiMastery[kanjiId] = KanjiScoreCalculator.calculateKanjiMastery(
-      userScore.kanjiMastery[kanjiId]
+    userScore.kanjiMastery[level][kanjiId] = KanjiScoreCalculator.calculateKanjiMastery(
+      userScore.kanjiMastery[level][kanjiId]
     );
 
     await this.saveKanjiScore(userId, userScore);
@@ -89,15 +93,14 @@ export class KanjiFirestoreManager {
 
   static async getKanjiWordMastery(
     userId: string,
+    level: string,
     kanjiId: string,
     wordId: string
   ): Promise<KanjiWordLevel | null> {
     const userScore = await this.getKanjiScore(userId);
-    if (!userScore || !userScore.kanjiMastery[kanjiId]) {
-      return null;
-    }
+    if (!userScore) return null;
 
-    return userScore.kanjiMastery[kanjiId].words[wordId] || null;
+    return userScore.kanjiMastery[level]?.[kanjiId]?.words[wordId] || null;
   }
 
   // ============ Bulk Exercise Results ============
@@ -109,53 +112,63 @@ export class KanjiFirestoreManager {
     const userScore = await this.getKanjiScore(userId);
     if (!userScore) return;
 
-    // Group results by kanji
-    const resultsByKanji = results.reduce((acc, result) => {
-      if (!acc[result.kanjiId]) acc[result.kanjiId] = [];
-      acc[result.kanjiId].push(result);
+    // Group results by level and kanji
+    const resultsByLevelAndKanji = results.reduce((acc, result) => {
+      const level = result.level;
+      if (!acc[level]) acc[level] = {};
+      if (!acc[level][result.kanjiId]) acc[level][result.kanjiId] = [];
+      acc[level][result.kanjiId].push(result);
       return acc;
-    }, {} as Record<string, KanjiExerciseResult[]>);
+    }, {} as Record<string, Record<string, KanjiExerciseResult[]>>);
 
-    // Process each kanji's results
-    for (const [kanjiId, kanjiResults] of Object.entries(resultsByKanji)) {
-      // Initialize kanji mastery if it doesn't exist
-      if (!userScore.kanjiMastery[kanjiId]) {
-        userScore.kanjiMastery[kanjiId] = {
-          kanjiId,
-          character: kanjiResults[0].kanji,
-          level: kanjiResults[0].level,
-          ...DEFAULT_KANJI_MASTERY,
-          words: {},
-        };
+    // Process each level
+    for (const [level, kanjiResultsMap] of Object.entries(resultsByLevelAndKanji)) {
+      // Initialize level if needed
+      if (!userScore.kanjiMastery[level]) {
+        userScore.kanjiMastery[level] = {};
       }
 
-      // Process each word result
-      for (const result of kanjiResults) {
-        // Initialize word mastery if doesn't exist
-        if (!userScore.kanjiMastery[kanjiId].words[result.wordId]) {
-          userScore.kanjiMastery[kanjiId].words[result.wordId] = {
-            wordId: result.wordId,
-            word: result.word,
-            kanjiId: result.kanjiId,
-            ...DEFAULT_KANJI_WORD,
+      // Process each kanji's results
+      for (const [kanjiId, kanjiResults] of Object.entries(kanjiResultsMap)) {
+        // Initialize kanji mastery if it doesn't exist
+        if (!userScore.kanjiMastery[level][kanjiId]) {
+          userScore.kanjiMastery[level][kanjiId] = {
+            kanjiId,
+            character: kanjiResults[0].kanji,
+            level: kanjiResults[0].level,
+            ...DEFAULT_KANJI_MASTERY,
+            words: {},
           };
         }
 
-        // Update word mastery based on result
-        const currentWord = userScore.kanjiMastery[kanjiId].words[result.wordId];
-        const totalWordsInKanji = Object.keys(userScore.kanjiMastery[kanjiId].words).length;
-        
-        userScore.kanjiMastery[kanjiId].words[result.wordId] = KanjiScoreCalculator.updateWordMastery(
-          currentWord,
-          result,
-          totalWordsInKanji
+        // Process each word result
+        for (const result of kanjiResults) {
+          // Initialize word mastery if doesn't exist
+          if (!userScore.kanjiMastery[level][kanjiId].words[result.wordId]) {
+            userScore.kanjiMastery[level][kanjiId].words[result.wordId] = {
+              wordId: result.wordId,
+              word: result.word,
+              kanjiId: result.kanjiId,
+              ...DEFAULT_KANJI_WORD,
+            };
+          }
+
+          // Update word mastery based on result
+          const currentWord = userScore.kanjiMastery[level][kanjiId].words[result.wordId];
+          const totalWordsInKanji = Object.keys(userScore.kanjiMastery[level][kanjiId].words).length;
+          
+          userScore.kanjiMastery[level][kanjiId].words[result.wordId] = KanjiScoreCalculator.updateWordMastery(
+            currentWord,
+            result,
+            totalWordsInKanji
+          );
+        }
+
+        // Recalculate kanji mastery after all word updates
+        userScore.kanjiMastery[level][kanjiId] = KanjiScoreCalculator.calculateKanjiMastery(
+          userScore.kanjiMastery[level][kanjiId]
         );
       }
-
-      // Recalculate kanji mastery after all word updates
-      userScore.kanjiMastery[kanjiId] = KanjiScoreCalculator.calculateKanjiMastery(
-        userScore.kanjiMastery[kanjiId]
-      );
     }
 
     await this.saveKanjiScore(userId, userScore);
@@ -165,15 +178,18 @@ export class KanjiFirestoreManager {
 
   static async resetKanjiByIds(
     userId: string,
+    level: string,
     kanjiIds: string[]
   ): Promise<void> {
     const userScore = await this.getKanjiScore(userId);
     if (!userScore) return;
 
-    // Delete specific kanji entries from kanjiMastery
-    kanjiIds.forEach((kanjiId) => {
-      delete userScore.kanjiMastery[kanjiId];
-    });
+    // Delete specific kanji entries from nested path
+    if (userScore.kanjiMastery[level]) {
+      kanjiIds.forEach((kanjiId) => {
+        delete userScore.kanjiMastery[level][kanjiId];
+      });
+    }
 
     await this.saveKanjiScore(userId, userScore);
   }
@@ -230,8 +246,14 @@ export class KanjiFirestoreManager {
 
     const report = KanjiScoreCalculator.generateMasteryReport(userScore);
     
+    // Count total kanji across all levels
+    let totalKanji = 0;
+    for (const level in userScore.kanjiMastery) {
+      totalKanji += Object.keys(userScore.kanjiMastery[level]).length;
+    }
+    
     return {
-      totalKanji: Object.keys(userScore.kanjiMastery).length,
+      totalKanji,
       totalWords: report.totalWords,
       masteredWords: report.masteredWords,
       averageProgress: KanjiScoreCalculator.calculateUserProgress(userScore),

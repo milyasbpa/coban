@@ -1,12 +1,13 @@
 export interface KanjiUserScore {
   userId: string;
-  level: "N5" | "N4" | "N3" | "N2" | "N1";
   createdAt: string;
   updatedAt: string;
 
-  // Individual Kanji mastery
+  // Nested: level -> kanjiId -> words
   kanjiMastery: {
-    [kanjiId: string]: KanjiMasteryLevel;
+    [level: string]: {
+      [kanjiId: string]: KanjiMasteryLevel;
+    };
   };
 }
 

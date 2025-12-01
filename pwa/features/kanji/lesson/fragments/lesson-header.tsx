@@ -79,7 +79,7 @@ export function LessonHeader() {
       const kanjiIds = kanjiDetails.map((k) => k.id.toString());
       
       if (kanjiIds.length > 0) {
-        await resetLessonStatistics(kanjiIds);
+        await resetLessonStatistics(kanjiIds, level);
       }
     } catch (error) {
       console.error("Failed to reset lesson statistics:", error);
