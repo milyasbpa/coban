@@ -1,9 +1,16 @@
 import React from "react";
 import { Card } from "@/pwa/core/components/card";
-import { VocabularySelectedCard, useVocabularyPairingExerciseStore } from "../store/vocabulary-pairing-exercise.store";
+import {
+  VocabularySelectedCard,
+  useVocabularyPairingExerciseStore,
+} from "../store/vocabulary-pairing-exercise.store";
 import { useVocabularyPairingDisplayOptions } from "../store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
-import { getVocabularyCardId, SupportedLanguage } from "@/pwa/features/vocabulary/shared/utils/language-helpers";
+import {
+  getVocabularyCardId,
+  SupportedLanguage,
+} from "@/pwa/features/vocabulary/shared/utils/language-helpers";
+import { cn } from "@/pwa/core/lib/utils";
 
 interface VocabularyPairingCardProps {
   card: VocabularySelectedCard;
@@ -15,20 +22,25 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
   onCardClick,
 }) => {
   const {
-    sectionState: { selectedCards, matchedPairs, errorCards }
+    sectionState: { selectedCards, matchedPairs, errorCards },
   } = useVocabularyPairingExerciseStore();
-  
-  const { language } = useLanguage();
-  const { displayHiragana, displayRomaji, displayKanji } = useVocabularyPairingDisplayOptions();
 
-  const isSelected = selectedCards.some(selected => 
-    selected.id === card.id && selected.type === card.type
+  const { language } = useLanguage();
+  const { displayHiragana, displayRomaji, displayKanji } =
+    useVocabularyPairingDisplayOptions();
+
+  const isSelected = selectedCards.some(
+    (selected) => selected.id === card.id && selected.type === card.type
   );
 
   const isMatched = matchedPairs.has(card.id);
 
   // Use getVocabularyCardId to match how errorCards are set in grid
-  const cardId = getVocabularyCardId(card.type, card, language as SupportedLanguage);
+  const cardId = getVocabularyCardId(
+    card.type,
+    card,
+    language as SupportedLanguage
+  );
   const isError = errorCards.has(cardId);
 
   const getCardContent = () => {
@@ -41,7 +53,7 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
       }
     } else {
       // Show meaning based on selected language
-      if (language === 'id') {
+      if (language === "id") {
         return card.meanings.id; // Indonesian meaning
       } else {
         return card.meanings.en; // English meaning
@@ -52,37 +64,38 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
   const getCardSubtext = () => {
     if (card.type === "japanese") {
       const subtexts: string[] = [];
-      
+
       // Add hiragana if enabled and kanji is shown
       if (displayHiragana && displayKanji && card.kanji && card.hiragana) {
         subtexts.push(card.hiragana);
       }
-      
+
       // Add romaji if enabled
       if (displayRomaji && card.romaji) {
         subtexts.push(card.romaji);
       }
-      
-      return subtexts.length > 0 ? subtexts.join(' • ') : null;
+
+      return subtexts.length > 0 ? subtexts.join(" • ") : null;
     }
     return null;
   };
 
   const getCardClassName = () => {
-    const baseClasses = "h-28 cursor-pointer transition-all duration-200 flex items-center justify-center text-center select-none p-3";
-    
+    const baseClasses =
+      "h-28 cursor-pointer transition-all duration-200 flex items-center justify-center text-center select-none p-3";
+
     if (isMatched) {
       return `${baseClasses} bg-green-100 dark:bg-green-950/30 border-green-300 dark:border-green-700 text-green-800 dark:text-green-300`;
     }
-    
+
     if (isError) {
       return `${baseClasses} bg-red-100 dark:bg-red-950/30 border-red-300 dark:border-red-700 text-red-800 dark:text-red-300 animate-pulse`;
     }
-    
+
     if (isSelected) {
       return `${baseClasses} bg-blue-100 dark:bg-blue-950/30 border-blue-300 dark:border-blue-700 text-blue-800 dark:text-blue-300 scale-105`;
     }
-    
+
     return `${baseClasses} hover:bg-gray-50 dark:hover:bg-gray-800/30 hover:border-gray-300 dark:hover:border-gray-600 hover:scale-102`;
   };
 
@@ -92,7 +105,12 @@ export const VocabularyPairingCard: React.FC<VocabularyPairingCardProps> = ({
       onClick={() => !isMatched && !isError && onCardClick(card)}
     >
       <div className="space-y-1 w-full">
-        <div className="text-lg font-semibold wrap-break-word">
+        <div
+          className={cn(
+            card.type === "meaning" ? "text-base" : "text-lg",
+            "font-semibold wrap-break-word"
+          )}
+        >
           {getCardContent()}
         </div>
         {getCardSubtext() && (
