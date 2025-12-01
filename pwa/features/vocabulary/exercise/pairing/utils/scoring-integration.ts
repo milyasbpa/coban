@@ -6,7 +6,7 @@ import { VocabularyScoreCalculator } from "@/pwa/features/score/utils/vocabulary
 
 /**
  * Integrate vocabulary pairing game results with vocabulary scoring system
- * 
+ *
  * @param allGameWords - All words that were played in the game
  * @param globalErrorWords - Set of words that had errors (first-attempt failed)
  * @param level - JLPT level
@@ -33,7 +33,7 @@ export const integrateVocabularyPairingGameScore = async (
 
     // Process all game words and determine first-attempt accuracy
     const exerciseResults: VocabularyExerciseResult[] = [];
-    
+
     allGameWords.forEach((word) => {
       // Determine if this word was correct on first attempt
       const identifierKey = word.kanji || word.hiragana;
@@ -54,12 +54,15 @@ export const integrateVocabularyPairingGameScore = async (
     });
 
     // Update mastery for each vocabulary word
-    await VocabularyFirestoreManager.saveExerciseResults(userId, exerciseResults);
-
-    console.log(`✅ Successfully integrated vocabulary pairing game score for ${allGameWords.length} words`);
-    
+    await VocabularyFirestoreManager.saveExerciseResults(
+      userId,
+      exerciseResults
+    );
   } catch (error) {
-    console.error("❌ Error in vocabulary pairing game score integration:", error);
+    console.error(
+      "❌ Error in vocabulary pairing game score integration:",
+      error
+    );
     throw error;
   }
 };
@@ -74,11 +77,13 @@ export const calculateVocabularyFirstAttemptStats = (
   const totalWords = allGameWords.length;
   const errorWordsCount = globalErrorWords.size;
   const correctFirstAttemptCount = totalWords - errorWordsCount;
-  
+
   return {
     totalWords,
     correctFirstAttemptCount,
     errorWordsCount,
-    firstAttemptAccuracy: Math.round((correctFirstAttemptCount / totalWords) * 100)
+    firstAttemptAccuracy: Math.round(
+      (correctFirstAttemptCount / totalWords) * 100
+    ),
   };
 };

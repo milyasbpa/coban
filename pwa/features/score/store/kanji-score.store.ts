@@ -96,14 +96,6 @@ const getCorrectWordsInScope = (
     if (category) {
       scopeKanjiIds = category.kanji_ids.map((id) => id.toString());
     }
-    if (lessonId === "topic_assistance_support_help") {
-      console.log(
-        scopeKanjiIds,
-        category,
-        category.kanji_ids,
-        "ini correct words in scope 2"
-      );
-    }
   } else {
     const numericLessonId = parseInt(lessonId);
     const kanjiList = KanjiService.getKanjiDetailsByLessonId(
@@ -139,9 +131,7 @@ const getCorrectWordsInScope = (
       });
     }
   });
-  if (lessonId === "topic_assistance_support_help") {
-    console.log(correctWords, scopeKanjiIds, "ini correct words in scope");
-  }
+
   return correctWords;
 };
 
@@ -245,16 +235,6 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
 
     const score =
       Math.round((totalCorrectWords / totalPossibleWords) * 100 * 10) / 10;
-    if (lessonId === "topic_assistance_support_help") {
-      console.log(
-        score,
-        totalWords,
-        currentUserScore,
-        totalCorrectWords,
-        totalPossibleWords,
-        "ini score"
-      );
-    }
 
     return score;
   },
@@ -414,7 +394,10 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
       // Refresh user score to reflect changes
       await get().refreshUserScore();
     } catch (error) {
-      console.error("KanjiScoreStore: Failed to reset lesson statistics", error);
+      console.error(
+        "KanjiScoreStore: Failed to reset lesson statistics",
+        error
+      );
       set({ error: "Failed to reset lesson statistics" });
     }
   },

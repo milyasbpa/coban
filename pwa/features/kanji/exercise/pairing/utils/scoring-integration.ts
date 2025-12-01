@@ -43,10 +43,7 @@ export const integratePairingGameScore = async (
     // Process all game words and determine first-attempt accuracy
     allGameWords.forEach((word) => {
       // Get accurate kanji information using kanjiId (direct lookup - more reliable)
-      const kanjiInfo = KanjiService.getKanjiInfoById(
-        word.kanjiId,
-        level
-      );
+      const kanjiInfo = KanjiService.getKanjiInfoById(word.kanjiId, level);
 
       // Use example ID for Firestore (word.id from KanjiExample)
       const wordId = word.id.toString();
@@ -60,7 +57,7 @@ export const integratePairingGameScore = async (
         kanji: kanjiInfo.kanjiCharacter,
         isCorrect: isCorrectFirstAttempt,
         wordId,
-        word: word.word,  // Changed from word.kanji to word.word
+        word: word.word, // Changed from word.kanji to word.word
         exerciseType: "pairing" as const,
         level: level as "N5" | "N4" | "N3" | "N2" | "N1", // Level from exercise context
       };
@@ -82,10 +79,6 @@ export const integratePairingGameScore = async (
       const kanjiCharacter = results[0].kanji;
       await updateKanjiMastery(kanjiId, kanjiCharacter, results);
     }
-
-    console.log(
-      `✅ Successfully integrated pairing game score for ${allGameWords.length} words`
-    );
   } catch (error) {
     console.error("❌ Error in pairing game score integration:", error);
     throw error;

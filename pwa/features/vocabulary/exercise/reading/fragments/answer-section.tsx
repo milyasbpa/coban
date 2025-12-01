@@ -41,8 +41,6 @@ export const AnswerSection: React.FC = () => {
     });
   };
 
-  console.log(currentQuestion, "ini current question");
-
   const displayOptions = getDisplayOptions();
   const correctAnswer =
     language === "id"

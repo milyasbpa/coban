@@ -19,7 +19,7 @@ export const VocabularyWritingGameResult = () => {
   const { refreshUserScore } = useVocabularyScoreStore();
 
   const [isScoreIntegrated, setIsScoreIntegrated] = useState(false);
-  
+
   const score = store.gameState.score;
   const totalQuestions = store.getTotalQuestions();
   const wrongAnswers = store.getWrongAnswers();
@@ -27,7 +27,7 @@ export const VocabularyWritingGameResult = () => {
   const level = store.gameState.level;
   const categoryId = store.gameState.categoryId;
   const isRetryMode = store.gameState.isRetryMode;
-  
+
   // Score is already in percentage (0-100), no need to calculate again
   const isPerfectScore = score === 100;
   const scoreColors = getScoreColor(score);
@@ -37,7 +37,6 @@ export const VocabularyWritingGameResult = () => {
     const integrateScore = async () => {
       if (isScoreIntegrated) return;
       if (!isAuthenticated || !user) {
-        console.log("⚠️ Guest user - score not saved");
         return;
       }
 
@@ -58,15 +57,24 @@ export const VocabularyWritingGameResult = () => {
         // Refresh score store to update UI
         await refreshUserScore();
         setIsScoreIntegrated(true);
-        
-        console.log("✅ Vocabulary writing exercise score integrated successfully");
       } catch (error) {
-        console.error("❌ Failed to integrate vocabulary writing exercise score:", error);
+        console.error(
+          "❌ Failed to integrate vocabulary writing exercise score:",
+          error
+        );
       }
     };
 
     integrateScore();
-  }, [isAuthenticated, user, isScoreIntegrated, level, categoryId, store.gameState, refreshUserScore]);
+  }, [
+    isAuthenticated,
+    user,
+    isScoreIntegrated,
+    level,
+    categoryId,
+    store.gameState,
+    refreshUserScore,
+  ]);
 
   const handleRetry = () => {
     store.startRetryMode();
@@ -116,11 +124,15 @@ export const VocabularyWritingGameResult = () => {
           <div className="space-y-2 text-sm text-muted-foreground">
             <div className="flex justify-between">
               <span>Correct:</span>
-              <span className="text-green-600 dark:text-green-400 font-medium">{correctAnswers}</span>
+              <span className="text-green-600 dark:text-green-400 font-medium">
+                {correctAnswers}
+              </span>
             </div>
             <div className="flex justify-between">
               <span>Wrong:</span>
-              <span className="text-red-600 dark:text-red-400 font-medium">{wrongAnswers}</span>
+              <span className="text-red-600 dark:text-red-400 font-medium">
+                {wrongAnswers}
+              </span>
             </div>
             <div className="flex justify-between">
               <span>Total:</span>

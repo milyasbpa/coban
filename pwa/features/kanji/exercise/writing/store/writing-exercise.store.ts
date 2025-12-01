@@ -46,7 +46,10 @@ interface WritingExerciseState {
   checkAnswer: () => boolean;
   nextQuestion: () => void;
   handleNextQuestion: (
-    calculateWritingScore: (correctQuestions: number | any[], totalQuestions: number) => number,
+    calculateWritingScore: (
+      correctQuestions: number | any[],
+      totalQuestions: number
+    ) => number,
     level: string,
     updateKanjiMastery: any,
     initializeUser: any,
@@ -65,7 +68,7 @@ interface WritingExerciseState {
   addCorrectQuestion: (question: WritingQuestion) => void;
   getWrongQuestions: () => WritingQuestion[];
   getTotalQuestions: () => number;
-  
+
   // Drag and drop functions
   insertKanjiAt: (kanji: string, index: number) => void;
   reorderKanji: (fromIndex: number, toIndex: number) => void;
@@ -74,7 +77,7 @@ interface WritingExerciseState {
   setQuestions: (questions: WritingQuestion[]) => void;
   setAvailableCharacters: (characters: string[]) => void;
   setIsComplete: (complete: boolean) => void;
-  
+
   // Setters for questionState
   setShowFeedback: (show: boolean) => void;
   setIsCorrect: (correct: boolean) => void;
@@ -117,24 +120,36 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
 
     // Computed values
     getCurrentQuestion: () => {
-      const { gameState: { questions, isRetryMode, wrongQuestions }, questionState: { currentQuestionIndex } } = get();
+      const {
+        gameState: { questions, isRetryMode, wrongQuestions },
+        questionState: { currentQuestionIndex },
+      } = get();
       const questionsToUse = isRetryMode ? wrongQuestions : questions;
       return questionsToUse[currentQuestionIndex] || null;
     },
 
     getProgress: () => {
-      const { gameState: { questions, isRetryMode, wrongQuestions }, questionState: { currentQuestionIndex } } = get();
+      const {
+        gameState: { questions, isRetryMode, wrongQuestions },
+        questionState: { currentQuestionIndex },
+      } = get();
       const questionsToUse = isRetryMode ? wrongQuestions : questions;
-      return questionsToUse.length > 0 ? (currentQuestionIndex / questionsToUse.length) * 100 : 0;
+      return questionsToUse.length > 0
+        ? (currentQuestionIndex / questionsToUse.length) * 100
+        : 0;
     },
 
     getCorrectAnswers: () => {
-      const { gameState: { score } } = get();
+      const {
+        gameState: { score },
+      } = get();
       return score;
     },
 
     getWrongAnswers: () => {
-      const { gameState: { score } } = get();
+      const {
+        gameState: { score },
+      } = get();
       const totalQuestions = get().getTotalQuestions();
       return totalQuestions - score;
     },
@@ -142,90 +157,102 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
     // Actions
     setCurrentQuestionIndex: (index: number) =>
       set((state) => ({
-        questionState: { ...state.questionState, currentQuestionIndex: index }
+        questionState: { ...state.questionState, currentQuestionIndex: index },
       })),
 
     addKanji: (kanji: string) => {
-      const { questionState: { selectedKanji, availableKanji } } = get();
-      console.log(availableKanji, kanji, "ini store add kanji");
+      const {
+        questionState: { selectedKanji, availableKanji },
+      } = get();
+
       if (availableKanji.includes(kanji)) {
         set((state) => ({
-          questionState: { 
-            ...state.questionState, 
-            selectedKanji: [...selectedKanji, kanji] 
-          }
+          questionState: {
+            ...state.questionState,
+            selectedKanji: [...selectedKanji, kanji],
+          },
         }));
       }
     },
 
     removeKanji: (index: number) => {
-      const { questionState: { selectedKanji } } = get();
+      const {
+        questionState: { selectedKanji },
+      } = get();
       const newSelected = selectedKanji.filter((_, i) => i !== index);
       set((state) => ({
-        questionState: { ...state.questionState, selectedKanji: newSelected }
+        questionState: { ...state.questionState, selectedKanji: newSelected },
       }));
     },
 
-    clearSelected: () => 
+    clearSelected: () =>
       set((state) => ({
-        questionState: { ...state.questionState, selectedKanji: [] }
+        questionState: { ...state.questionState, selectedKanji: [] },
       })),
 
-    setCorrectAnswer: (answer: string) => 
+    setCorrectAnswer: (answer: string) =>
       set((state) => ({
-        questionState: { ...state.questionState, correctAnswer: answer }
+        questionState: { ...state.questionState, correctAnswer: answer },
       })),
 
-    setAvailableKanji: (kanji: string[]) => 
+    setAvailableKanji: (kanji: string[]) =>
       set((state) => ({
-        questionState: { ...state.questionState, availableKanji: kanji }
+        questionState: { ...state.questionState, availableKanji: kanji },
       })),
 
     checkAnswer: () => {
-      const { 
+      const {
         gameState: { questions, isRetryMode },
-        questionState: { selectedKanji, correctAnswer, currentQuestionIndex } 
+        questionState: { selectedKanji, correctAnswer, currentQuestionIndex },
       } = get();
       const userAnswer = selectedKanji.join("");
       const isCorrect = userAnswer === correctAnswer;
-      
-      const currentQuestion = isRetryMode 
+
+      const currentQuestion = isRetryMode
         ? get().gameState.wrongQuestions[currentQuestionIndex]
         : questions[currentQuestionIndex];
 
       if (isCorrect) {
         set((state) => ({
-          gameState: { 
-            ...state.gameState, 
+          gameState: {
+            ...state.gameState,
             score: state.gameState.score + 1,
-            correctQuestions: [...state.gameState.correctQuestions, currentQuestion]
-          }
+            correctQuestions: [
+              ...state.gameState.correctQuestions,
+              currentQuestion,
+            ],
+          },
         }));
       } else {
         // Add to wrong questions if not already there
         set((state) => {
-          const alreadyWrong = state.gameState.wrongQuestions.some(q => getCompositeId(q) === getCompositeId(currentQuestion));
+          const alreadyWrong = state.gameState.wrongQuestions.some(
+            (q) => getCompositeId(q) === getCompositeId(currentQuestion)
+          );
           return {
             gameState: {
               ...state.gameState,
-              wrongQuestions: alreadyWrong 
+              wrongQuestions: alreadyWrong
                 ? state.gameState.wrongQuestions
-                : [...state.gameState.wrongQuestions, currentQuestion]
-            }
+                : [...state.gameState.wrongQuestions, currentQuestion],
+            },
           };
         });
       }
 
       set((state) => ({
-        questionState: { ...state.questionState, showAnswer: true }
+        questionState: { ...state.questionState, showAnswer: true },
       }));
       return isCorrect;
     },
 
     nextQuestion: () => {
-      const { gameState: { questions, isRetryMode, wrongQuestions }, questionState: { currentQuestionIndex } } = get();
+      const {
+        gameState: { questions, isRetryMode, wrongQuestions },
+        questionState: { currentQuestionIndex },
+      } = get();
       const questionsToUse = isRetryMode ? wrongQuestions : questions;
-      
+
       set((state) => ({
         questionState: {
           ...state.questionState,
@@ -233,7 +260,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
           showAnswer: false,
           usedKanji: [],
           showFeedback: false,
-        }
+        },
       }));
 
       if (currentQuestionIndex + 1 < questionsToUse.length) {
@@ -242,49 +269,64 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
           questionState: {
             ...state.questionState,
             currentQuestionIndex: state.questionState.currentQuestionIndex + 1,
-          }
+          },
         }));
       } else {
         // Game complete
         set((state) => ({
-          gameState: { ...state.gameState, isComplete: true }
+          gameState: { ...state.gameState, isComplete: true },
         }));
       }
     },
 
-    handleNextQuestion: (calculateWritingScore, level, updateKanjiMastery, initializeUser, isInitialized, currentUserScore, userId) => {
-      const { 
-        gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
+    handleNextQuestion: (
+      calculateWritingScore,
+      level,
+      updateKanjiMastery,
+      initializeUser,
+      isInitialized,
+      currentUserScore,
+      userId
+    ) => {
+      const {
+        gameState: {
+          correctQuestions,
+          isRetryMode,
+          score,
+          questions,
+          wrongQuestions,
+        },
         getTotalQuestions,
         questionState: { currentQuestionIndex },
-        nextQuestion: next 
+        nextQuestion: next,
       } = get();
-      
+
       // Calculate final score before moving to next question if this is the last question
       const totalQuestions = getTotalQuestions();
       const questionsToUse = isRetryMode ? wrongQuestions : questions;
       const currentQuestionNumber = currentQuestionIndex + 1;
       const isLastQuestion = currentQuestionNumber === questionsToUse.length;
-      
+
       if (isLastQuestion) {
         let finalScore;
-        
+
         if (isRetryMode) {
           // Retry mode scoring: current score + (correct answers * points per original question)
           const pointsPerOriginalQuestion = 100 / questions.length;
-          const bonusPoints = correctQuestions.length * pointsPerOriginalQuestion;
+          const bonusPoints =
+            correctQuestions.length * pointsPerOriginalQuestion;
           finalScore = Math.min(100, score + bonusPoints);
         } else {
-          // Normal mode scoring  
+          // Normal mode scoring
           finalScore = calculateWritingScore(score, totalQuestions);
         }
-        
+
         // Update score directly to gameState
         set((state) => ({
           gameState: {
             ...state.gameState,
-            score: Math.round(finalScore)
-          }
+            score: Math.round(finalScore),
+          },
         }));
 
         // Integrate kanji scoring at game completion
@@ -302,15 +344,13 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
                 isInitialized,
                 currentUserScore
               );
-            } else {
-              console.log("⚠️ Guest user - score not saved");
             }
           } catch (error) {
             console.error("Error integrating writing game score:", error);
           }
         })();
       }
-      
+
       next();
     },
 
@@ -364,9 +404,9 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
         },
       }),
 
-    setShowAnswer: (show: boolean) => 
+    setShowAnswer: (show: boolean) =>
       set((state) => ({
-        questionState: { ...state.questionState, showAnswer: show }
+        questionState: { ...state.questionState, showAnswer: show },
       })),
 
     // New drag and drop functions
@@ -376,7 +416,7 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
         const newSelected = [...questionState.selectedKanji];
         newSelected.splice(index, 0, kanji);
         set((state) => ({
-          questionState: { ...state.questionState, selectedKanji: newSelected }
+          questionState: { ...state.questionState, selectedKanji: newSelected },
         }));
       }
     },
@@ -397,59 +437,59 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       const [movedKanji] = newSelected.splice(fromIndex, 1);
       newSelected.splice(toIndex, 0, movedKanji);
       set((state) => ({
-        questionState: { ...state.questionState, selectedKanji: newSelected }
+        questionState: { ...state.questionState, selectedKanji: newSelected },
       }));
     },
 
     // New setter implementations
-    setQuestions: (questions: WritingQuestion[]) => 
+    setQuestions: (questions: WritingQuestion[]) =>
       set((state) => ({
-        gameState: { ...state.gameState, questions }
+        gameState: { ...state.gameState, questions },
       })),
 
-    setAvailableCharacters: (characters: string[]) => 
+    setAvailableCharacters: (characters: string[]) =>
       set((state) => ({
-        gameState: { ...state.gameState, availableCharacters: characters }
+        gameState: { ...state.gameState, availableCharacters: characters },
       })),
 
-    setShowFeedback: (show: boolean) => 
+    setShowFeedback: (show: boolean) =>
       set((state) => ({
-        questionState: { ...state.questionState, showFeedback: show }
+        questionState: { ...state.questionState, showFeedback: show },
       })),
 
-    setIsCorrect: (correct: boolean) => 
+    setIsCorrect: (correct: boolean) =>
       set((state) => ({
-        questionState: { ...state.questionState, isCorrect: correct }
+        questionState: { ...state.questionState, isCorrect: correct },
       })),
 
-    setActiveKanji: (kanji: string | null) => 
+    setActiveKanji: (kanji: string | null) =>
       set((state) => ({
-        questionState: { ...state.questionState, activeKanji: kanji }
+        questionState: { ...state.questionState, activeKanji: kanji },
       })),
 
-    setUsedKanji: (kanji: string[]) => 
+    setUsedKanji: (kanji: string[]) =>
       set((state) => ({
-        questionState: { ...state.questionState, usedKanji: kanji }
+        questionState: { ...state.questionState, usedKanji: kanji },
       })),
 
     setScoreIntegrated: (integrated: boolean) =>
       set((state) => ({
-        questionState: { ...state.questionState, scoreIntegrated: integrated }
+        questionState: { ...state.questionState, scoreIntegrated: integrated },
       })),
 
     setIsComplete: (complete: boolean) =>
       set((state) => ({
-        gameState: { ...state.gameState, isComplete: complete }
+        gameState: { ...state.gameState, isComplete: complete },
       })),
 
     addUsedKanji: (kanji: string) => {
       const { questionState } = get();
       if (!questionState.usedKanji.includes(kanji)) {
         set((state) => ({
-          questionState: { 
-            ...state.questionState, 
-            usedKanji: [...state.questionState.usedKanji, kanji] 
-          }
+          questionState: {
+            ...state.questionState,
+            usedKanji: [...state.questionState.usedKanji, kanji],
+          },
         }));
       }
     },
@@ -458,14 +498,16 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       set((state) => ({
         questionState: {
           ...state.questionState,
-          usedKanji: state.questionState.usedKanji.filter((k: string) => k !== kanji)
-        }
+          usedKanji: state.questionState.usedKanji.filter(
+            (k: string) => k !== kanji
+          ),
+        },
       }));
     },
 
-    clearUsedKanji: () => 
+    clearUsedKanji: () =>
       set((state) => ({
-        questionState: { ...state.questionState, usedKanji: [] }
+        questionState: { ...state.questionState, usedKanji: [] },
       })),
 
     // Helper function to setup current question
@@ -478,7 +520,10 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
 
       // Set the correct answer
       set((state) => ({
-        questionState: { ...state.questionState, correctAnswer: currentQuestion.word }
+        questionState: {
+          ...state.questionState,
+          correctAnswer: currentQuestion.word,
+        },
       }));
 
       // Create shuffled kanji array for selection
@@ -514,20 +559,24 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
           showAnswer: false,
           showFeedback: false,
           usedKanji: [],
-        }
+        },
       }));
     },
 
     // Retry system implementation
     canRetry: () => {
-      const { gameState: { wrongQuestions, isRetryMode } } = get();
+      const {
+        gameState: { wrongQuestions, isRetryMode },
+      } = get();
       return wrongQuestions.length > 0 && !isRetryMode;
     },
 
     startRetryMode: () => {
-      const { gameState: { wrongQuestions, score } } = get();
+      const {
+        gameState: { wrongQuestions, score },
+      } = get();
       if (wrongQuestions.length === 0) return;
-      
+
       set({
         gameState: {
           questions: wrongQuestions, // Use wrong questions as new question set
@@ -553,7 +602,9 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       });
 
       // Setup first retry question
-      const { gameState: { questions } } = get(); 
+      const {
+        gameState: { questions },
+      } = get();
       get().setupCurrentQuestion(questions, 0);
     },
 
@@ -561,8 +612,8 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       set((state) => ({
         gameState: {
           ...state.gameState,
-          wrongQuestions: [...state.gameState.wrongQuestions, question]
-        }
+          wrongQuestions: [...state.gameState.wrongQuestions, question],
+        },
       }));
     },
 
@@ -570,18 +621,22 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       set((state) => ({
         gameState: {
           ...state.gameState,
-          correctQuestions: [...state.gameState.correctQuestions, question]
-        }
+          correctQuestions: [...state.gameState.correctQuestions, question],
+        },
       }));
     },
 
     getWrongQuestions: () => {
-      const { gameState: { wrongQuestions } } = get();
+      const {
+        gameState: { wrongQuestions },
+      } = get();
       return wrongQuestions;
     },
 
     getTotalQuestions: () => {
-      const { gameState: { questions, isRetryMode, wrongQuestions } } = get();
+      const {
+        gameState: { questions, isRetryMode, wrongQuestions },
+      } = get();
       return isRetryMode ? wrongQuestions.length : questions.length;
     },
   })

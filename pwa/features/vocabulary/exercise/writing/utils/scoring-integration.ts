@@ -6,7 +6,7 @@ import { VocabularyScoreCalculator } from "@/pwa/features/score/utils/vocabulary
 
 /**
  * Integrate vocabulary writing exercise results with vocabulary scoring system
- * 
+ *
  * @param questions - All questions that were played in the exercise
  * @param wrongQuestions - Questions answered incorrectly
  * @param correctQuestions - Questions answered correctly
@@ -34,11 +34,13 @@ export const integrateVocabularyWritingExerciseScore = async (
     }
 
     // Create set of wrong question IDs for quick lookup
-    const wrongQuestionIds = new Set(wrongQuestions.map((q) => q.word.id.toString()));
+    const wrongQuestionIds = new Set(
+      wrongQuestions.map((q) => q.word.id.toString())
+    );
 
     // Process all questions and determine correctness
     const exerciseResults: VocabularyExerciseResult[] = [];
-    
+
     questions.forEach((question) => {
       const vocabularyId = question.word.id.toString();
       const isCorrect = !wrongQuestionIds.has(vocabularyId);
@@ -58,12 +60,15 @@ export const integrateVocabularyWritingExerciseScore = async (
     });
 
     // Update mastery for each vocabulary word
-    await VocabularyFirestoreManager.saveExerciseResults(userId, exerciseResults);
-
-    console.log(`✅ Successfully integrated vocabulary writing exercise score for ${questions.length} words`);
-    
+    await VocabularyFirestoreManager.saveExerciseResults(
+      userId,
+      exerciseResults
+    );
   } catch (error) {
-    console.error("❌ Error in vocabulary writing exercise score integration:", error);
+    console.error(
+      "❌ Error in vocabulary writing exercise score integration:",
+      error
+    );
     throw error;
   }
 };
@@ -78,8 +83,9 @@ export const calculateWritingExerciseStats = (
 ) => {
   const correctCount = correctQuestions.length;
   const wrongCount = wrongQuestions.length;
-  const accuracy = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
-  
+  const accuracy =
+    totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+
   return {
     totalQuestions,
     correctCount,

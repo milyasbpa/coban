@@ -4,7 +4,7 @@ import type { ReadingQuestion } from "./reading-game";
 
 /**
  * Integrate reading exercise results with kanji scoring system
- * 
+ *
  * @param allQuestions - All questions that were played in the game
  * @param wrongQuestions - Questions that had errors (first-attempt failed)
  * @param level - JLPT level
@@ -19,33 +19,34 @@ export const integrateReadingGameScore = async (
   wrongQuestions: ReadingQuestion[],
   level: string,
   userId: string,
-  updateKanjiMastery: (kanjiId: string, character: string, results: KanjiExerciseResult[]) => Promise<void>,
-  initializeUser: (userId: string, level: "N5" | "N4" | "N3" | "N2" | "N1") => Promise<void>,
+  updateKanjiMastery: (
+    kanjiId: string,
+    character: string,
+    results: KanjiExerciseResult[]
+  ) => Promise<void>,
+  initializeUser: (
+    userId: string,
+    level: "N5" | "N4" | "N3" | "N2" | "N1"
+  ) => Promise<void>,
   isInitialized: boolean,
   currentUserScore: any
 ) => {
   try {
     // Auto-initialize user if not already initialized
     if (!isInitialized || !currentUserScore) {
-      await initializeUser(
-        userId,
-        level as "N5" | "N4" | "N3" | "N2" | "N1"
-      );
+      await initializeUser(userId, level as "N5" | "N4" | "N3" | "N2" | "N1");
     }
 
     // Convert wrongQuestions array to Set for easier lookup by word
-    const errorWords = new Set(wrongQuestions.map(q => q.word));
+    const errorWords = new Set(wrongQuestions.map((q) => q.word));
 
     // Get final results from store
     const exerciseResults: KanjiExerciseResult[] = [];
-    
+
     // Process all questions and determine first-attempt accuracy
     allQuestions.forEach((question) => {
       // Get accurate kanji information using kanjiId (direct lookup - more reliable)
-      const kanjiInfo = KanjiService.getKanjiInfoById(
-        question.kanjiId,
-        level
-      );
+      const kanjiInfo = KanjiService.getKanjiInfoById(question.kanjiId, level);
 
       // Use example ID for Firestore (question.id from KanjiExample)
       const wordId = question.id.toString();
@@ -81,9 +82,6 @@ export const integrateReadingGameScore = async (
       const kanjiCharacter = results[0].kanji;
       await updateKanjiMastery(kanjiId, kanjiCharacter, results);
     }
-
-    console.log(`✅ Successfully integrated reading game score for ${allQuestions.length} questions`);
-    
   } catch (error) {
     console.error("❌ Error in reading game score integration:", error);
     throw error;
@@ -100,11 +98,13 @@ export const calculateFirstAttemptStats = (
   const totalQuestions = allQuestions.length;
   const errorQuestionsCount = wrongQuestions.length;
   const correctFirstAttemptCount = totalQuestions - errorQuestionsCount;
-  
+
   return {
     totalQuestions,
     correctFirstAttemptCount,
     errorQuestionsCount,
-    firstAttemptAccuracy: Math.round((correctFirstAttemptCount / totalQuestions) * 100)
+    firstAttemptAccuracy: Math.round(
+      (correctFirstAttemptCount / totalQuestions) * 100
+    ),
   };
 };

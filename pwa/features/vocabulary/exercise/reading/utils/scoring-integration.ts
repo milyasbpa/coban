@@ -4,7 +4,7 @@ import { VocabularyFirestoreManager } from "@/pwa/features/score/storage/vocabul
 
 /**
  * Integrate vocabulary reading exercise results with vocabulary scoring system
- * 
+ *
  * @param allQuestions - All questions that were played in the game
  * @param wrongQuestions - Questions that had errors (first-attempt failed)
  * @param level - JLPT level
@@ -30,11 +30,11 @@ export const integrateVocabularyReadingGameScore = async (
     }
 
     // Convert wrongQuestions array to Set for easier lookup by word id
-    const errorQuestionIds = new Set(wrongQuestions.map(q => q.id));
+    const errorQuestionIds = new Set(wrongQuestions.map((q) => q.id));
 
     // Process all questions and determine first-attempt accuracy
     const exerciseResults: VocabularyExerciseResult[] = [];
-    
+
     allQuestions.forEach((question) => {
       // Determine if this question was correct on first attempt
       const isCorrectFirstAttempt = !errorQuestionIds.has(question.id);
@@ -54,12 +54,15 @@ export const integrateVocabularyReadingGameScore = async (
     });
 
     // Update mastery for each vocabulary word
-    await VocabularyFirestoreManager.saveExerciseResults(userId, exerciseResults);
-
-    console.log(`✅ Successfully integrated vocabulary reading game score for ${allQuestions.length} questions`);
-    
+    await VocabularyFirestoreManager.saveExerciseResults(
+      userId,
+      exerciseResults
+    );
   } catch (error) {
-    console.error("❌ Error in vocabulary reading game score integration:", error);
+    console.error(
+      "❌ Error in vocabulary reading game score integration:",
+      error
+    );
     throw error;
   }
 };
@@ -74,11 +77,13 @@ export const calculateVocabularyReadingFirstAttemptStats = (
   const totalQuestions = allQuestions.length;
   const errorQuestionsCount = wrongQuestions.length;
   const correctFirstAttemptCount = totalQuestions - errorQuestionsCount;
-  
+
   return {
     totalQuestions,
     correctFirstAttemptCount,
     errorQuestionsCount,
-    firstAttemptAccuracy: Math.round((correctFirstAttemptCount / totalQuestions) * 100)
+    firstAttemptAccuracy: Math.round(
+      (correctFirstAttemptCount / totalQuestions) * 100
+    ),
   };
 };
