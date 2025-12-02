@@ -89,7 +89,8 @@ interface WritingExerciseState {
   clearUsedKanji: () => void;
   setupCurrentQuestion: (
     questions: WritingQuestion[],
-    currentIndex: number
+    currentIndex: number,
+    distractorPool?: WritingQuestion[] // Optional: all questions from topic/lesson for distractors
   ) => void;
 }
 
@@ -513,7 +514,8 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
     // Helper function to setup current question
     setupCurrentQuestion: (
       questions: WritingQuestion[],
-      currentIndex: number
+      currentIndex: number,
+      distractorPool?: WritingQuestion[]
     ) => {
       const currentQuestion = questions[currentIndex];
       if (!currentQuestion) return;
@@ -529,11 +531,14 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       // Create shuffled kanji array for selection
       const correctChars = currentQuestion.word.split("");
 
-      // Get some random kanji from other questions as distractors
-      const otherKanji = questions
-        .filter((_, index) => index !== currentIndex)
+      // Use distractor pool if available, otherwise use selected questions
+      const poolForDistractors = distractorPool || questions;
+
+      // Get some random kanji from distractor pool as distractors
+      const otherKanji = poolForDistractors
+        .filter((q) => !(q.kanjiId === currentQuestion.kanjiId && q.id === currentQuestion.id))
         .flatMap((q) => q.word.split(""))
-        .filter((char, index, arr) => arr.indexOf(char) === index); // Remove duplicates from other questions
+        .filter((char, index, arr) => arr.indexOf(char) === index); // Remove duplicates
 
       // Combine correct chars with other kanji, ensuring no duplicates
       const allUniqueChars = new Set([...correctChars, ...otherKanji]);

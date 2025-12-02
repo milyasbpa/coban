@@ -147,16 +147,17 @@ export function SelectionBottomNav() {
         </div>
 
         {/* COMPACT EXERCISE BUTTONS (Icon-only, horizontal) */}
-        <div className="flex items-center justify-center gap-3">
+        <div className="grid grid-cols-3 place-content-center place-items-center gap-3 w-full">
           {/* Writing */}
           <Button
             variant="outline"
             onClick={() => handleExerciseStart("writing")}
             disabled={selectedCount === 0}
-            className="h-9 w-9 p-0 border-2 hover:bg-muted/30 transition-colors"
+            className="h-9 w-full p-0 border-2 hover:bg-muted/30 transition-colors"
             title={getLocalizedText(language as SupportedLanguage, "Latihan Menulis", "Writing Exercise")}
           >
             <Edit3 className="h-4 w-4" />
+            Writing
           </Button>
 
           {/* Reading */}
@@ -164,10 +165,11 @@ export function SelectionBottomNav() {
             variant="outline"
             onClick={() => handleExerciseStart("reading")}
             disabled={selectedCount === 0}
-            className="h-9 w-9 p-0 border-2 hover:bg-muted/30 transition-colors"
+            className="h-9 w-full p-0 border-2 hover:bg-muted/30 transition-colors"
             title={getLocalizedText(language as SupportedLanguage, "Latihan Membaca", "Reading Exercise")}
           >
             <Book className="h-4 w-4" />
+            Reading
           </Button>
 
           {/* Pairing */}
@@ -175,10 +177,11 @@ export function SelectionBottomNav() {
             variant="outline"
             onClick={() => handleExerciseStart("pairing")}
             disabled={selectedCount === 0}
-            className="h-9 w-9 p-0 border-2 hover:bg-muted/30 transition-colors"
+            className="h-9 w-full p-0 border-2 hover:bg-muted/30 transition-colors"
             title={getLocalizedText(language as SupportedLanguage, "Latihan Pasangan", "Pairing Exercise")}
           >
             <Users className="h-4 w-4" />
+            Pairing
           </Button>
         </div>
       </div>

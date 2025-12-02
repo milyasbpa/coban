@@ -11,6 +11,7 @@ export interface VocabularyWritingGameState {
   score: number;
   level: string;
   categoryId: string;
+  distractorPool?: VocabularyQuestion[]; // All questions from category for distractors
 }
 
 export interface VocabularyWritingQuestionState {
@@ -41,6 +42,7 @@ export interface VocabularyWritingExerciseState {
   getIsCurrentAnswerCorrect: () => boolean;
   getSelectedAnswer: () => string;
   getAvailableTiles: () => CharacterTile[];
+  getDistractorPool: () => VocabularyQuestion[] | undefined;
 
   // Actions
   setQuestions: (questions: VocabularyQuestion[]) => void;
@@ -56,7 +58,7 @@ export interface VocabularyWritingExerciseState {
   setIsComplete: (complete: boolean) => void;
   
   // Game flow actions
-  initializeGame: (questions: VocabularyQuestion[], level: string, categoryId: string) => void;
+  initializeGame: (questions: VocabularyQuestion[], level: string, categoryId: string, distractorPool?: VocabularyQuestion[]) => void;
   nextQuestion: () => void;
   resetAnswer: () => void;
   restartGame: () => void;
@@ -81,6 +83,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     score: 0,
     level: "n5",
     categoryId: "ANGKA",
+    distractorPool: undefined,
   },
   questionState: {
     currentQuestionIndex: 0,
@@ -155,6 +158,11 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
   getAvailableTiles: () => {
     const { questionState: { availableTiles } } = get();
     return availableTiles;
+  },
+
+  getDistractorPool: () => {
+    const { gameState: { distractorPool } } = get();
+    return distractorPool;
   },
 
   // Actions
@@ -257,7 +265,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     })),
 
   // Game flow actions
-  initializeGame: (questions, level, categoryId) => set({
+  initializeGame: (questions, level, categoryId, distractorPool) => set({
     gameState: {
       questions,
       correctQuestions: [],
@@ -267,6 +275,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
       score: 0,
       level,
       categoryId,
+      distractorPool,
     },
     questionState: {
       currentQuestionIndex: 0,

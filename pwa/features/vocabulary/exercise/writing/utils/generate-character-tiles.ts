@@ -11,15 +11,17 @@ export interface CharacterTile {
  * Includes correct answer characters + distractor characters from other words
  * 
  * @param currentQuestion - The current question
- * @param allQuestions - All questions in the exercise (to get distractors)
+ * @param allQuestions - All questions in the exercise (selected vocabulary)
  * @param mode - "hiragana" or "kanji"
  * @param minDistractors - Minimum number of distractor characters (default: 6)
+ * @param distractorPool - Optional: All questions from category for distractors
  */
 export const generateCharacterTiles = (
   currentQuestion: VocabularyQuestion,
   allQuestions: VocabularyQuestion[],
   mode: "hiragana" | "kanji",
-  minDistractors: number = 6
+  minDistractors: number = 6,
+  distractorPool?: VocabularyQuestion[] // Optional: all vocabulary from category
 ): CharacterTile[] => {
   // Get correct answer based on mode
   const correctAnswer = mode === "kanji" 
@@ -36,9 +38,10 @@ export const generateCharacterTiles = (
     isUsed: false,
   }));
 
-  // Get distractor characters from other questions
+  // Get distractor characters from pool (or fallback to allQuestions)
   const distractorCharacters: string[] = [];
-  const otherQuestions = allQuestions.filter(q => q.id !== currentQuestion.id);
+  const poolForDistractors = distractorPool || allQuestions;
+  const otherQuestions = poolForDistractors.filter(q => q.id !== currentQuestion.id);
 
   for (const question of otherQuestions) {
     if (distractorCharacters.length >= minDistractors) break;

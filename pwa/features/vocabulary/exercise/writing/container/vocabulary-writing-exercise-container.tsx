@@ -49,24 +49,32 @@ export const VocabularyWritingExerciseContainer: React.FC = () => {
         return;
       }
 
+      // Get all vocabulary from category for distractors
+      const allVocabularyWords = vocabularyCategory.vocabulary;
+
       // Filter vocabulary if selectedVocabularyIds provided (from selection mode)
-      let vocabularyWords = vocabularyCategory.vocabulary;
+      let selectedVocabularyWords = allVocabularyWords;
       if (selectedVocabularyIds && selectedVocabularyIds.length > 0) {
-        vocabularyWords = vocabularyCategory.vocabulary.filter((word) =>
+        selectedVocabularyWords = allVocabularyWords.filter((word) =>
           selectedVocabularyIds.includes(word.id)
         );
 
-        if (vocabularyWords.length === 0) {
+        if (selectedVocabularyWords.length === 0) {
           console.error("No vocabulary words found with selected IDs");
           return;
         }
       }
 
-      // Generate questions from vocabulary words
-      const questions = generateWritingQuestions(vocabularyWords, "meaning-to-romaji");
+      // Generate questions from selected vocabulary
+      const selectedQuestions = generateWritingQuestions(selectedVocabularyWords, "meaning-to-romaji");
       
-      // Initialize the game with level and categoryId for score integration
-      store.initializeGame(questions, level, categoryId);
+      // Generate all questions from all vocabulary for distractor pool (only if selection mode)
+      const allQuestionsForDistractors = selectedVocabularyIds && selectedVocabularyIds.length > 0
+        ? generateWritingQuestions(allVocabularyWords, "meaning-to-romaji")
+        : undefined;
+      
+      // Initialize the game with level, categoryId, and distractorPool
+      store.initializeGame(selectedQuestions, level, categoryId, allQuestionsForDistractors);
     } catch (error) {
       console.error("Failed to initialize vocabulary writing exercise:", error);
     }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
@@ -68,6 +68,9 @@ export function WritingExerciseContainer() {
   const selectedKanji = questionState.selectedKanji;
   const showAnswer = questionState.showAnswer;
   const questions = gameState.questions;
+  
+  // Store distractor pool for use in setupCurrentQuestion
+  const [distractorPool, setDistractorPool] = React.useState<any[] | undefined>(undefined);
   const wrongQuestions = gameState.wrongQuestions;
   const showFeedback = questionState.showFeedback;
   const isComplete = gameState.isComplete;
@@ -99,9 +102,9 @@ export function WritingExerciseContainer() {
 
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
-      setupCurrentQuestionStore(questions, currentQuestionIndex);
+      setupCurrentQuestionStore(questions, currentQuestionIndex, distractorPool);
     }
-  }, [questions, currentQuestionIndex, setupCurrentQuestionStore]);
+  }, [questions, currentQuestionIndex, distractorPool, setupCurrentQuestionStore]);
 
   const loadQuestions = () => {
     if (!lessonId && !topicId) {
@@ -109,20 +112,21 @@ export function WritingExerciseContainer() {
       return;
     }
 
-    // Use utility function to get questions - now based on examples (words)
-    const writingQuestions = getWritingQuestions(
+    // Use utility function to get questions - now returns object with questions and optional distractorPool
+    const result = getWritingQuestions(
       level,
       lessonId ? parseInt(lessonId) : null,
       selectedKanjiIds,
       topicId || undefined
     );
 
-    if (writingQuestions.length === 0) {
+    if (result.questions.length === 0) {
       console.warn("No examples found for this lesson/topic");
       return;
     }
 
-    setQuestions(writingQuestions);
+    setQuestions(result.questions);
+    setDistractorPool(result.allQuestionsForDistractors);
   };
 
   // Handle drag start

@@ -29,6 +29,7 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
   } = useVocabularyWritingExerciseStore();
 
   const currentQuestion = getCurrentQuestion();
+  const distractorPool = useVocabularyWritingExerciseStore.getState().getDistractorPool();
 
   // Generate tiles when question changes or input mode changes
   useEffect(() => {
@@ -36,7 +37,9 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
       const tiles = generateCharacterTiles(
         currentQuestion,
         gameState.questions,
-        questionState.inputMode
+        questionState.inputMode,
+        6,
+        distractorPool
       );
       setAvailableTiles(tiles);
     }
