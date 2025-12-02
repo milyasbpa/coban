@@ -47,7 +47,9 @@ export function KanjiContextSection({
                 Reading used in this word:
               </p>
               <div className="flex items-center gap-2 flex-wrap">
-                <span className="text-2xl font-bold">{kanji.character}</span>
+                <span className={cn("font-bold", compact ? "text-xl" : "text-2xl")}>
+                  {kanji.character}
+                </span>
                 <Badge
                   variant={usedReading.type === 'on' ? 'default' : 'secondary'}
                   className="text-xs"
@@ -63,7 +65,7 @@ export function KanjiContextSection({
         </Card>
       )}
 
-      {/* Reading Patterns - Show when to use which reading */}
+      {/* Reading Patterns - Show when to use which reading - Hide in compact mode */}
       {!compact && otherReadings.length > 1 && (
         <Card className="p-3 bg-card dark:bg-card">
           <div className="flex items-start gap-2 mb-3">
@@ -90,16 +92,22 @@ export function KanjiContextSection({
         </Card>
       )}
 
-      {/* Memory Tip */}
-      {!compact && usedReading && (
+      {/* Memory Tip - Always show, most important for learning */}
+      {usedReading && (
         <Card className="p-3 bg-yellow-50 dark:bg-yellow-950/40 border-yellow-200 dark:border-yellow-700">
           <div className="flex items-start gap-2">
             <Lightbulb className="h-4 w-4 text-yellow-600 dark:text-yellow-400 mt-0.5 shrink-0" />
             <div className="flex-1">
-              <p className="text-xs font-medium text-yellow-900 dark:text-yellow-100 mb-1">
+              <p className={cn(
+                "font-medium text-yellow-900 dark:text-yellow-100 mb-1",
+                compact ? "text-xs" : "text-xs"
+              )}>
                 💡 Memory Tip
               </p>
-              <p className="text-xs text-yellow-800 dark:text-yellow-200">
+              <p className={cn(
+                "text-yellow-800 dark:text-yellow-200",
+                compact ? "text-xs" : "text-xs"
+              )}>
                 {KanjiService.getReadingHint(usedReading, kanji)}
               </p>
             </div>
