@@ -44,24 +44,16 @@ export const createReadingQuestions = (
 
   // Create questions from options
   allOptions.forEach((correctOption, index) => {
-    // Create wrong options from other examples
-    const wrongOptions = allOptions
-      .filter((_, i) => i !== index)
-      .filter((opt) => opt.furigana !== correctOption.furigana)
-      .slice(0, 3); // Take 3 wrong options
-
-    // Ensure we have enough options, if not, pad with some random examples
-    while (wrongOptions.length < 3 && allOptions.length > 1) {
-      const randomOption =
-        allOptions[Math.floor(Math.random() * allOptions.length)];
-      if (
-        randomOption.furigana !== correctOption.furigana &&
-        !wrongOptions.some((opt) => opt.furigana === randomOption.furigana)
-      ) {
-        wrongOptions.push(randomOption);
-      }
-      if (wrongOptions.length >= 3) break;
-    }
+    // Calculate how many unique wrong options are available
+    const availableWrongOptions = allOptions.filter(
+      (opt, i) => i !== index && opt.furigana !== correctOption.furigana
+    );
+    
+    // Determine target number of wrong options (ideally 3, but adapt to available data)
+    const targetWrongOptionsCount = Math.min(3, availableWrongOptions.length);
+    
+    // Get wrong options (no need for while loop since we know exactly how many we can get)
+    const wrongOptions = availableWrongOptions.slice(0, targetWrongOptionsCount);
 
     // Combine correct answer with wrong options and shuffle
     const combinedOptions = [correctOption, ...wrongOptions];
