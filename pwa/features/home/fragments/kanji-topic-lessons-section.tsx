@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { KanjiTopicLessonCard } from "../components/kanji-topic-lesson-card";
 import { getTopicLessons } from "../../kanji/lesson/utils/topic";
-import { KanjiService } from "@/pwa/core/services/kanji";
+import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
 import { useHomeStore } from "../store/home-store";
 import { KanjiExerciseModal } from "./kanji-exercise-modal";
 import {
@@ -85,7 +85,12 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
     if (topic) {
       const categories = KanjiService.getTopicCategories(selectedLevel);
       const category = categories[topicId];
-      const kanjiList = category?.kanji_characters || [];
+      
+      // Get full kanji objects using IDs
+      const kanjiIds = category?.kanji_ids || [];
+      const kanjiList = kanjiIds
+        .map(id => KanjiService.getKanjiById(id, selectedLevel))
+        .filter((k): k is KanjiDetail => k !== null);
 
       openKanjiExerciseModal({
         topicId: topicId,

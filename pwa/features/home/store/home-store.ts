@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { VocabularyWord } from '@/pwa/core/services/vocabulary';
 import { GrammarPattern } from '@/types/grammar';
+import { KanjiDetail } from '@/pwa/core/services/kanji';
 
 interface KanjiExerciseModal {
   isOpen: boolean;
@@ -8,7 +9,7 @@ interface KanjiExerciseModal {
   topicId?: string | null;
   lessonType: "stroke" | "topic";
   lessonName: string | null;
-  kanjiList: string[];
+  kanjiList: KanjiDetail[];
 }
 
 interface VocabularyExerciseModal {
@@ -34,7 +35,7 @@ interface HomeState {
     topicId?: string;
     lessonType: "stroke" | "topic";
     lessonName: string;
-    kanjiList: string[];
+    kanjiList: KanjiDetail[];
   }) => void;
   closeKanjiExerciseModal: () => void;
   openVocabularyExerciseModal: (params: VocabularyExerciseModal) => void;

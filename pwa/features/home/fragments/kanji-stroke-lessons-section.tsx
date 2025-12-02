@@ -83,14 +83,11 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
   const handleExerciseClick = (lessonId: number) => {
     const lesson = strokeLessons.find((l: Lesson) => l.id === lessonId);
     if (lesson) {
-      // Extract kanji characters from the new lesson structure
-      const kanjiCharacters = lesson.kanji.map((k) => k.character);
-
       openKanjiExerciseModal({
         lessonId: lesson.id,
         lessonType: "stroke",
         lessonName: `Lesson ${lesson.lessonNumber}`,
-        kanjiList: kanjiCharacters,
+        kanjiList: lesson.kanji, // Pass full kanji objects
       });
     }
   };
