@@ -1,4 +1,5 @@
 import { VocabularyQuestion, VocabularyExerciseWord } from "../../shared/types";
+import { shuffleArray as shuffleArrayUtil } from "@/pwa/features/kanji/exercise/pairing";
 
 /**
  * Generate reading questions from vocabulary words
@@ -12,7 +13,7 @@ export function generateReadingQuestions(
     throw new Error("Need at least 1 word to generate questions");
   }
 
-  return words.map((word, index) => {
+  const questions = words.map((word, index) => {
     // Get wrong answers from other words (up to 3, or less if not enough words)
     const otherWords = words.filter(w => w.id !== word.id);
     const wrongAnswersCount = Math.min(3, otherWords.length);
@@ -46,6 +47,9 @@ export function generateReadingQuestions(
       questionType,
     };
   });
+
+  // Shuffle questions before returning
+  return shuffleArrayUtil(questions);
 }
 
 /**
