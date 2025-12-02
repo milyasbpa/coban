@@ -27,26 +27,42 @@ export interface AnswerResult {
 
 // Convert kanji examples (words) to reading questions
 export const createReadingQuestions = (
-  kanjiDetails: KanjiDetail[]
+  selectedKanjiDetails: KanjiDetail[],
+  allKanjiDetails?: KanjiDetail[] // Optional: all kanji from topic/lesson for wrong options pool
 ): ReadingQuestion[] => {
   const questions: ReadingQuestion[] = [];
-  const allOptions: ReadingOption[] = [];
+  const selectedOptions: ReadingOption[] = [];
+  
+  // Use all kanji for wrong options pool, or fall back to selected kanji
+  const wrongOptionsPool = allKanjiDetails || selectedKanjiDetails;
+  const allOptionsForWrongAnswers: ReadingOption[] = [];
 
-  // Collect all examples as options with kanjiId context
-  kanjiDetails.forEach((kanji) => {
+  // Collect examples from selected kanji as questions
+  selectedKanjiDetails.forEach((kanji) => {
     kanji.examples.forEach((example) => {
-      allOptions.push({
+      selectedOptions.push({
         ...example,           // Spread all KanjiExample fields
         kanjiId: kanji.id,    // Add parent kanji ID
       });
     });
   });
+  
+  // Collect all examples from wrong options pool
+  wrongOptionsPool.forEach((kanji) => {
+    kanji.examples.forEach((example) => {
+      allOptionsForWrongAnswers.push({
+        ...example,
+        kanjiId: kanji.id,
+      });
+    });
+  });
 
-  // Create questions from options
-  allOptions.forEach((correctOption, index) => {
-    // Calculate how many unique wrong options are available
-    const availableWrongOptions = allOptions.filter(
-      (opt, i) => i !== index && opt.furigana !== correctOption.furigana
+  // Create questions from selected options
+  selectedOptions.forEach((correctOption) => {
+    // Calculate how many unique wrong options are available from the pool
+    const availableWrongOptions = allOptionsForWrongAnswers.filter(
+      (opt) => opt.furigana !== correctOption.furigana && 
+               !(opt.kanjiId === correctOption.kanjiId && opt.id === correctOption.id)
     );
     
     // Determine target number of wrong options (ideally 3, but adapt to available data)
@@ -109,12 +125,16 @@ export const getReadingGameData = (
   }
 
   // Filter kanji details if selectedKanjiIds is provided
-  const kanjiDetails =
+  const selectedKanjiDetails =
     selectedKanjiIds && selectedKanjiIds.length > 0
       ? allKanjiDetails.filter((kanji) => selectedKanjiIds.includes(kanji.id))
       : allKanjiDetails;
 
-  const questions = createReadingQuestions(kanjiDetails);
+  // Pass both selected kanji and all kanji (for wrong options pool)
+  const questions = createReadingQuestions(
+    selectedKanjiDetails,
+    selectedKanjiIds && selectedKanjiIds.length > 0 ? allKanjiDetails : undefined
+  );
 
   return {
     questions,

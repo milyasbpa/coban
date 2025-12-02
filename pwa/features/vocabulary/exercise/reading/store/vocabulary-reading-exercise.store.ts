@@ -456,24 +456,28 @@ export const useVocabularyReadingExerciseStore =
           return;
         }
 
+        // Get all vocabulary from category
+        const allVocabularyWords = vocabularyCategory.vocabulary;
+        
         // Filter vocabulary if selectedVocabularyIds provided (from selection mode)
-        let vocabularyWords = vocabularyCategory.vocabulary;
+        let selectedVocabularyWords = allVocabularyWords;
         if (selectedVocabularyIds && selectedVocabularyIds.length > 0) {
-          vocabularyWords = vocabularyWords.filter((word) =>
+          selectedVocabularyWords = allVocabularyWords.filter((word) =>
             selectedVocabularyIds.includes(word.id)
           );
         }
 
-        if (vocabularyWords.length === 0) {
+        if (selectedVocabularyWords.length === 0) {
           console.error("No vocabulary words found after filtering");
           return;
         }
 
-        // Generate questions from vocabulary words with language support
+        // Generate questions from selected vocabulary with all vocabulary as wrong options pool
         const questions = generateReadingQuestions(
-          vocabularyWords,
+          selectedVocabularyWords,
           "kanji-to-meaning",
-          language
+          language,
+          selectedVocabularyIds && selectedVocabularyIds.length > 0 ? allVocabularyWords : undefined
         );
 
         // Initialize the game

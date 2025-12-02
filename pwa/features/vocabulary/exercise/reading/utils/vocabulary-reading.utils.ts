@@ -5,17 +5,21 @@ import { shuffleArray as shuffleArrayUtil } from "@/pwa/features/kanji/exercise/
  * Generate reading questions from vocabulary words
  */
 export function generateReadingQuestions(
-  words: VocabularyExerciseWord[],
+  selectedWords: VocabularyExerciseWord[],
   questionType: "hiragana-to-meaning" | "kanji-to-meaning" = "kanji-to-meaning",
-  language: "id" | "en" = "id"
+  language: "id" | "en" = "id",
+  allWords?: VocabularyExerciseWord[] // Optional: all words from category for wrong options pool
 ): VocabularyQuestion[] {
-  if (words.length === 0) {
+  if (selectedWords.length === 0) {
     throw new Error("Need at least 1 word to generate questions");
   }
+  
+  // Use all words for wrong options pool, or fall back to selected words
+  const wrongOptionsPool = allWords || selectedWords;
 
-  const questions = words.map((word, index) => {
-    // Get wrong answers from other words (up to 3, or less if not enough words)
-    const otherWords = words.filter(w => w.id !== word.id);
+  const questions = selectedWords.map((word, index) => {
+    // Get wrong answers from the pool (up to 3, or less if not enough words)
+    const otherWords = wrongOptionsPool.filter(w => w.id !== word.id);
     const wrongAnswersCount = Math.min(3, otherWords.length);
     const wrongAnswers = getRandomItems(otherWords, wrongAnswersCount).map(w => 
       language === "id" ? w.meanings.id : w.meanings.en
