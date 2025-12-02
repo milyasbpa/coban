@@ -3,7 +3,7 @@
 import { Badge } from "@/pwa/core/components/badge";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
-import { Volume2 } from "lucide-react";
+import { Volume2, MoreVertical, RotateCcw } from "lucide-react";
 import { KanjiDetail } from "../utils/kanji";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useKanjiSelection } from "../store/kanji-selection.store";
@@ -17,19 +17,39 @@ import { cn } from "@/pwa/core/lib/utils";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { KanjiStrokeAnimator } from "./kanji-stroke-animator";
 import { useState } from "react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/pwa/core/components/dropdown-menu";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/pwa/core/components/alert-dialog";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 
 interface KanjiCardProps {
   kanji: KanjiDetail;
   index: number;
+  level: string;
 }
 
-export function KanjiCard({ kanji, index }: KanjiCardProps) {
+export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
   const { language } = useLanguage();
   const { isSelectionMode, selectedKanjiIds, toggleKanjiSelection } =
     useKanjiSelection();
   const { displayOptions } = useDisplayOptions();
+  const { resetKanjiStatistics } = useKanjiScoreStore();
   const isSelected = selectedKanjiIds.has(kanji.id);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [showResetDialog, setShowResetDialog] = useState(false);
 
   const handleCardClick = () => {
     if (isSelectionMode) {
@@ -46,6 +66,15 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
 
   const handleAnimationComplete = () => {
     setIsAnimating(false);
+  };
+
+  const handleReset = async () => {
+    try {
+      await resetKanjiStatistics(kanji.id.toString(), level);
+      setShowResetDialog(false);
+    } catch (error) {
+      console.error("Error resetting kanji statistics:", error);
+    }
   };
 
   const kanjiMeaning = getMeaning(kanji, language as SupportedLanguage);
@@ -91,16 +120,44 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
       <div className="flex gap-3 items-start">
         {/* Index and Kanji on same row */}
         <div className="flex items-start gap-3">
-          <span
-            className={cn(
-              "text-sm font-medium px-2 py-1 rounded-md transition-colors",
-              isSelected
-                ? "text-primary-foreground bg-primary"
-                : "text-muted-foreground bg-muted"
+          <div className="flex items-center gap-1">
+            <span
+              className={cn(
+                "text-sm font-medium px-2 py-1 rounded-md transition-colors",
+                isSelected
+                  ? "text-primary-foreground bg-primary"
+                  : "text-muted-foreground bg-muted"
+              )}
+            >
+              {index}
+            </span>
+            
+            {/* 3-Dot Menu - Only show when not in selection mode */}
+            {!isSelectionMode && (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button
+                    onClick={(e) => e.stopPropagation()}
+                    className="w-8 h-8 rounded-lg bg-muted hover:bg-accent flex items-center justify-center transition-all duration-200"
+                  >
+                    <MoreVertical className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="start">
+                  <DropdownMenuItem
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setShowResetDialog(true);
+                    }}
+                    className="text-destructive focus:text-destructive"
+                  >
+                    <RotateCcw className="h-4 w-4 mr-2" />
+                    Reset Statistics
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
             )}
-          >
-            {index}
-          </span>
+          </div>
 
           <div className="flex flex-col items-center justify-start space-y-1">
             {/* Kanji character display */}
@@ -264,6 +321,25 @@ export function KanjiCard({ kanji, index }: KanjiCardProps) {
           </div>
         ))}
       </div>
+
+      {/* Reset Confirmation Dialog */}
+      <AlertDialog open={showResetDialog} onOpenChange={setShowResetDialog}>
+        <AlertDialogContent onClick={(e) => e.stopPropagation()}>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Reset Statistics?</AlertDialogTitle>
+            <AlertDialogDescription>
+              This will reset all progress and statistics for &quot;{kanji.character}&quot;. 
+              This action cannot be undone.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction onClick={handleReset} className="bg-destructive hover:bg-destructive/90">
+              Reset
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </Card>
   );
 }

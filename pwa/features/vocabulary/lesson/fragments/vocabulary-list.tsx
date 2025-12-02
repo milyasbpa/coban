@@ -53,6 +53,8 @@ export function VocabularyList() {
           vocabulary={vocabulary}
           index={index + 1}
           onClick={handleVocabularyClick}
+          level={level}
+          categoryId={categoryId || ""}
         />
       ))}
     </div>

@@ -23,6 +23,7 @@ export interface VocabularyScoreState {
   refreshUserScore: () => Promise<void>;
   resetProgress: () => Promise<void>;
   resetCategoryStatistics: (categoryId: string, level: string) => Promise<void>;
+  resetVocabularyStatistics: (vocabularyId: string, level: string, categoryId: string) => Promise<void>;
 }
 
 // Helper: Get total words in a category
@@ -275,6 +276,26 @@ export const useVocabularyScoreStore = create<VocabularyScoreState>((set, get) =
       }
     } catch (error) {
       console.error('Failed to reset category statistics:', error);
+    }
+  },
+
+  // Reset statistics for single vocabulary word
+  resetVocabularyStatistics: async (vocabularyId: string, level: string, categoryId: string) => {
+    const { currentUserScore } = get();
+    if (!currentUserScore) return;
+
+    try {
+      await VocabularyFirestoreManager.resetVocabularyByIds(
+        currentUserScore.userId,
+        level,
+        categoryId,
+        [vocabularyId] // Single ID in array
+      );
+
+      // Refresh user score to reflect changes
+      await get().refreshUserScore();
+    } catch (error) {
+      console.error('Failed to reset vocabulary statistics:', error);
     }
   },
 }));

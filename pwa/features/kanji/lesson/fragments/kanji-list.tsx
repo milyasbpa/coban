@@ -31,7 +31,7 @@ export function KanjiList() {
   return (
     <div className="px-4 pt-6 pb-24 space-y-4">
       {kanjiList.map((kanji, index) => (
-        <KanjiCard key={kanji.id} kanji={kanji} index={index + 1} />
+        <KanjiCard key={kanji.id} kanji={kanji} index={index + 1} level={level} />
       ))}
     </div>
   );

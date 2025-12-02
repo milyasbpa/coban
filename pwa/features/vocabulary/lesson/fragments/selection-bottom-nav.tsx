@@ -4,14 +4,28 @@ import { Button } from "@/pwa/core/components/button";
 import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { getLocalizedText, SupportedLanguage } from "../../../kanji/shared/utils/language-helpers";
-import { Edit3, Book, Users, X } from "lucide-react";
+import { Edit3, Book, Users, X, RotateCcw } from "lucide-react";
 import { useSearchParams } from "next/navigation";
+import { useState } from "react";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/pwa/core/components/alert-dialog";
+import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 
 export function SelectionBottomNav() {
   const { selectedVocabularyIds, clearSelection, toggleSelectionMode } =
     useVocabularySelection();
   const { language } = useLanguage();
   const searchParams = useSearchParams();
+  const [showResetDialog, setShowResetDialog] = useState(false);
+  const { resetVocabularyStatistics } = useVocabularyScoreStore();
 
   const selectedCount = selectedVocabularyIds.size;
   const categoryId = searchParams.get("categoryId");
@@ -41,6 +55,24 @@ export function SelectionBottomNav() {
     toggleSelectionMode();
   };
 
+  const handleBulkReset = async () => {
+    if (!categoryId) return;
+    
+    try {
+      // Reset each selected vocabulary
+      const selectedArray = Array.from(selectedVocabularyIds);
+      for (const vocabularyId of selectedArray) {
+        await resetVocabularyStatistics(vocabularyId.toString(), level, categoryId);
+      }
+      
+      // Clear selection and close dialog
+      clearSelection();
+      setShowResetDialog(false);
+    } catch (error) {
+      console.error("Error resetting vocabulary statistics:", error);
+    }
+  };
+
   return (
     <div className="sticky top-14 z-40 bg-popover/95 backdrop-blur supports-backdrop-filter:bg-popover/90 border-b-2 border-border shadow-lg">
       <div className="p-4 space-y-3">
@@ -52,6 +84,19 @@ export function SelectionBottomNav() {
                 {selectedCount} {getLocalizedText(language as SupportedLanguage, "TERPILIH", "SELECTED")}
               </span>
             </div>
+            {/* Bulk Reset Button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowResetDialog(true)}
+              disabled={selectedCount === 0}
+              className="h-8 px-3 rounded-full hover:bg-destructive/10 text-destructive disabled:opacity-50"
+            >
+              <RotateCcw className="h-3.5 w-3.5 mr-1.5" />
+              <span className="text-xs font-medium">
+                {getLocalizedText(language as SupportedLanguage, "Reset", "Reset")}
+              </span>
+            </Button>
           </div>
           <Button
             variant="ghost"
@@ -105,6 +150,32 @@ export function SelectionBottomNav() {
           </Button>
         </div>
       </div>
+
+      {/* Bulk Reset Confirmation Dialog */}
+      <AlertDialog open={showResetDialog} onOpenChange={setShowResetDialog}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>
+              {getLocalizedText(language as SupportedLanguage, "Reset Statistik?", "Reset Statistics?")}
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              {getLocalizedText(
+                language as SupportedLanguage,
+                `Ini akan mereset semua progress dan statistik untuk ${selectedCount} kosakata yang dipilih. Aksi ini tidak dapat dibatalkan.`,
+                `This will reset all progress and statistics for ${selectedCount} selected vocabulary. This action cannot be undone.`
+              )}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>
+              {getLocalizedText(language as SupportedLanguage, "Batal", "Cancel")}
+            </AlertDialogCancel>
+            <AlertDialogAction onClick={handleBulkReset} className="bg-destructive hover:bg-destructive/90">
+              {getLocalizedText(language as SupportedLanguage, "Reset", "Reset")}
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </div>
   );
 }

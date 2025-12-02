@@ -2,30 +2,53 @@
 
 import { useState } from "react";
 import { Card } from "@/pwa/core/components/card";
-import { Volume2, ChevronDown, ChevronUp } from "lucide-react";
+import { Volume2, ChevronDown, ChevronUp, MoreVertical, RotateCcw } from "lucide-react";
 import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useVocabularyDisplayOptions } from "../store/display-options.store";
 import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { cn } from "@/pwa/core/lib/utils";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/pwa/core/components/dropdown-menu";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/pwa/core/components/alert-dialog";
+import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 
 interface VocabularyItemCardProps {
   vocabulary: VocabularyWord;
   index: number;
   onClick?: (vocabulary: VocabularyWord) => void;
+  level: string;
+  categoryId: string;
 }
 
 export function VocabularyItemCard({
   vocabulary,
   index,
   onClick,
+  level,
+  categoryId,
 }: VocabularyItemCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [showResetDialog, setShowResetDialog] = useState(false);
   const { displayOptions } = useVocabularyDisplayOptions();
   const { language } = useLanguage();
   const { isSelectionMode, selectedVocabularyIds, toggleVocabularySelection } =
     useVocabularySelection();
+  const { resetVocabularyStatistics } = useVocabularyScoreStore();
   const isSelected = selectedVocabularyIds.has(vocabulary.id);
   const hasExamples = vocabulary.examples && vocabulary.examples.length > 0;
 
@@ -63,6 +86,15 @@ export function VocabularyItemCard({
     e.stopPropagation();
     if (!isSelectionMode) {
       setIsExpanded(!isExpanded);
+    }
+  };
+
+  const handleReset = async () => {
+    try {
+      await resetVocabularyStatistics(vocabulary.id.toString(), level, categoryId);
+      setShowResetDialog(false);
+    } catch (error) {
+      console.error("Error resetting vocabulary statistics:", error);
     }
   };
 
@@ -293,6 +325,32 @@ export function VocabularyItemCard({
               <Volume2 className="h-4 w-4 text-foreground/70 group-hover:text-foreground transition-colors" />
             </button>
 
+            {/* 3-Dot Menu - Only show when not in selection mode */}
+            {!isSelectionMode && (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button
+                    onClick={(e) => e.stopPropagation()}
+                    className="w-9 h-9 rounded-lg bg-muted hover:bg-muted flex items-center justify-center transition-all duration-200"
+                  >
+                    <MoreVertical className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setShowResetDialog(true);
+                    }}
+                    className="text-destructive focus:text-destructive"
+                  >
+                    <RotateCcw className="h-4 w-4 mr-2" />
+                    Reset Statistics
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            )}
+
             {/* Chevron Toggle - Only if has examples */}
             {hasExamples && (
               <button
@@ -387,6 +445,25 @@ export function VocabularyItemCard({
           </div>
         </div>
       )}
+
+      {/* Reset Confirmation Dialog */}
+      <AlertDialog open={showResetDialog} onOpenChange={setShowResetDialog}>
+        <AlertDialogContent onClick={(e) => e.stopPropagation()}>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Reset Statistics?</AlertDialogTitle>
+            <AlertDialogDescription>
+              This will reset all progress and statistics for &quot;{vocabulary.kanji}&quot;. 
+              This action cannot be undone.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction onClick={handleReset} className="bg-destructive hover:bg-destructive/90">
+              Reset
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </Card>
   );
 }
