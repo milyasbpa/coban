@@ -81,15 +81,15 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
 
   // Helper function to highlight matching kanji characters
   const highlightMatchingKanji = (word: string, targetKanji: string) => {
-    const parts = word.split('').map((char, index) => {
+    const parts = word.split("").map((char, index) => {
       if (char === targetKanji) {
         return (
-          <span 
+          <span
             key={index}
             className={cn(
               "font-bold transition-colors rounded px-0.5",
-              isSelected 
-                ? "text-primary bg-primary/20" 
+              isSelected
+                ? "text-primary bg-primary/20"
                 : "text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/30"
             )}
           >
@@ -131,32 +131,6 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
             >
               {index}
             </span>
-            
-            {/* 3-Dot Menu - Only show when not in selection mode */}
-            {!isSelectionMode && (
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <button
-                    onClick={(e) => e.stopPropagation()}
-                    className="w-8 h-8 rounded-lg bg-muted hover:bg-accent flex items-center justify-center transition-all duration-200"
-                  >
-                    <MoreVertical className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
-                  </button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="start">
-                  <DropdownMenuItem
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setShowResetDialog(true);
-                    }}
-                    className="text-destructive focus:text-destructive"
-                  >
-                    <RotateCcw className="h-4 w-4 mr-2" />
-                    Reset Statistics
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            )}
           </div>
 
           <div className="flex flex-col items-center justify-start space-y-1">
@@ -164,7 +138,9 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
             <div
               className={cn(
                 "w-16 h-16 rounded-lg flex items-center justify-center border shadow-inner transition-colors",
-                !isSelectionMode && !isAnimating && "cursor-pointer hover:shadow-lg",
+                !isSelectionMode &&
+                  !isAnimating &&
+                  "cursor-pointer hover:shadow-lg",
                 isSelected
                   ? "bg-linear-to-br from-primary/20 to-primary/30 border-primary/50"
                   : "bg-linear-to-br from-amber-100 to-amber-200 dark:from-amber-200/20 dark:to-amber-300/20 border-amber-200/50"
@@ -249,6 +225,32 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
             </div>
           )}
         </div>
+
+        {/* 3-Dot Menu - Only show when not in selection mode */}
+        {!isSelectionMode && (
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button
+                onClick={(e) => e.stopPropagation()}
+                className="w-8 h-8 rounded-lg bg-muted hover:bg-accent flex items-center justify-center transition-all duration-200"
+              >
+                <MoreVertical className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start">
+              <DropdownMenuItem
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowResetDialog(true);
+                }}
+                className="text-destructive focus:text-destructive"
+              >
+                <RotateCcw className="h-4 w-4 mr-2" />
+                Reset Statistics
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        )}
       </div>
 
       {/* Words Section Badge */}
@@ -328,13 +330,16 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
           <AlertDialogHeader>
             <AlertDialogTitle>Reset Statistics?</AlertDialogTitle>
             <AlertDialogDescription>
-              This will reset all progress and statistics for &quot;{kanji.character}&quot;. 
-              This action cannot be undone.
+              This will reset all progress and statistics for &quot;
+              {kanji.character}&quot;. This action cannot be undone.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
             <AlertDialogCancel>Cancel</AlertDialogCancel>
-            <AlertDialogAction onClick={handleReset} className="bg-destructive hover:bg-destructive/90">
+            <AlertDialogAction
+              onClick={handleReset}
+              className="bg-destructive hover:bg-destructive/90"
+            >
               Reset
             </AlertDialogAction>
           </AlertDialogFooter>
