@@ -10,6 +10,7 @@ import {
   PairingWord,
   SelectedCard,
   GameInitializationParams,
+  getCompositeId,
 } from "../types";
 import { GameDataService, WordErrorService } from "../services";
 
@@ -36,6 +37,7 @@ interface PairingGameState {
   setAllSections: (sections: PairingWord[][]) => void;
   moveToNextSection: () => boolean;
   resetSectionIndex: () => void;
+  markUnmatchedAsErrors: () => void;
 
   // Game Initialization Actions
   initializeGame: (params: GameInitializationParams) => void;
@@ -277,6 +279,27 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
         allSections: sections,
       },
     }));
+  },
+
+  markUnmatchedAsErrors: () => {
+    const {
+      sectionState: { currentSectionIndex, allSections, matchedPairs },
+      addWordError,
+    } = get();
+
+    // Get current section words
+    const currentSection = allSections[currentSectionIndex];
+    if (!currentSection) return;
+
+    // Find all unmatched words in current section
+    currentSection.forEach((word) => {
+      const compositeId = getCompositeId(word);
+      const isMatched = matchedPairs.has(compositeId);
+      if (!isMatched) {
+        // Mark as error (only if not already in error)
+        addWordError(word.word);
+      }
+    });
   },
 
   moveToNextSection: () => {

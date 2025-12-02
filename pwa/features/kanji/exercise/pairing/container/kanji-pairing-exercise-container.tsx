@@ -18,6 +18,7 @@ export function KanjiPairingExerciseContainer() {
     gameState: { isComplete: isGameComplete, isRetryMode },
     sectionState,
     moveToNextSection,
+    markUnmatchedAsErrors,
     calculateAndSetScore,
     setGameComplete
   } = usePairingGameStore();
@@ -32,6 +33,10 @@ export function KanjiPairingExerciseContainer() {
 
   // Auto-submit section when timer expires
   const handleTimeUp = () => {
+    // Mark all unmatched cards as errors first
+    markUnmatchedAsErrors();
+    
+    // Then move to next section or complete game
     const hasMoreSections = moveToNextSection();
     if (!hasMoreSections) {
       // Game complete
