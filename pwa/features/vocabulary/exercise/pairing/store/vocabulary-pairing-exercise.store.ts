@@ -84,6 +84,7 @@ export interface VocabularyPairingExerciseState {
   selectCard: (card: VocabularySelectedCard) => void;
   clearSelectedCards: () => void;
   checkPair: () => boolean;
+  markUnmatchedAsErrors: () => void;
 }
 
 export const useVocabularyPairingExerciseStore =
@@ -661,6 +662,19 @@ export const useVocabularyPairingExerciseStore =
 
         return false;
       }
+    },
+
+    markUnmatchedAsErrors: () => {
+      const {
+        sectionState: { gameWords, matchedPairs },
+      } = get();
+
+      // Mark all unmatched words as errors
+      gameWords.forEach((word) => {
+        if (!matchedPairs.has(word.id)) {
+          get().addWordError(word.kanji || word.hiragana);
+        }
+      });
     },
   }));
 

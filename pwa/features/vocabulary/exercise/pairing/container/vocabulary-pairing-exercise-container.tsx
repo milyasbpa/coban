@@ -28,6 +28,9 @@ export const VocabularyPairingExerciseContainer: React.FC = () => {
 
   // Auto-submit section when timer expires
   const handleTimeUp = () => {
+    // Mark all unmatched pairs as errors first
+    store.markUnmatchedAsErrors();
+    
     // Auto-submit current section (move to next section or complete game)
     const hasMoreSections = store.moveToNextSection();
     if (!hasMoreSections) {
