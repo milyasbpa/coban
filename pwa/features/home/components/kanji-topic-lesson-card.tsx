@@ -63,15 +63,6 @@ export function KanjiTopicLessonCard({
 
         <div className="grid grid-cols-2 place-content-center place-items-center gap-2 w-full">
           <Button
-            variant="outline"
-            size="sm"
-            className="w-full min-w-[100px]"
-            onClick={onListClick}
-          >
-            <BookOpen className="w-4 h-4 mr-1" />
-            <span className="text-xs">Learn</span>
-          </Button>
-          <Button
             variant="default"
             size="sm"
             className="w-full min-w-[100px]"
@@ -79,6 +70,15 @@ export function KanjiTopicLessonCard({
           >
             <Dumbbell className="w-4 h-4 mr-1" />
             <span className="text-xs">Practice</span>
+          </Button>
+          <Button
+            variant="outline"
+            size="sm"
+            className="w-full min-w-[100px]"
+            onClick={onListClick}
+          >
+            <BookOpen className="w-4 h-4 mr-1" />
+            <span className="text-xs">Learn</span>
           </Button>
         </div>
       </CardContent>

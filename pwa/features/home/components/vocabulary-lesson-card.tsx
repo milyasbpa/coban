@@ -50,21 +50,14 @@ export function VocabularyLessonCard({
 
         <div className="flex items-center justify-between mb-4">
           <div className="flex flex-col gap-1">
-            <h3 className="text-sm font-medium text-foreground">{titleCase(title)}</h3>
+            <h3 className="text-sm font-medium text-foreground">
+              {titleCase(title)}
+            </h3>
             <p className="text-sm text-muted-foreground">{wordCount} words</p>
           </div>
         </div>
 
         <div className="grid grid-cols-2 place-content-center place-items-center gap-2 w-full">
-          <Button
-            variant="outline"
-            size="sm"
-            className="w-full min-w-[100px]"
-            onClick={onListClick}
-          >
-            <BookOpen className="w-4 h-4 mr-1" />
-            <span className="text-xs">Learn</span>
-          </Button>
           <Button
             variant="default"
             size="sm"
@@ -73,6 +66,15 @@ export function VocabularyLessonCard({
           >
             <Dumbbell className="w-4 h-4 mr-1" />
             <span className="text-xs">Practice</span>
+          </Button>
+          <Button
+            variant="outline"
+            size="sm"
+            className="w-full min-w-[100px]"
+            onClick={onListClick}
+          >
+            <BookOpen className="w-4 h-4 mr-1" />
+            <span className="text-xs">Learn</span>
           </Button>
         </div>
       </CardContent>
