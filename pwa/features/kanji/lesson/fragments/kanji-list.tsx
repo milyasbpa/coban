@@ -4,10 +4,12 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { KanjiCard } from "../components/kanji-card";
 import { KanjiService, KanjiDetail } from "@/pwa/core/services/kanji";
+import { useKanjiSelection } from "../store/kanji-selection.store";
 
 export function KanjiList() {
   const searchParams = useSearchParams();
   const [kanjiList, setKanjiList] = useState<KanjiDetail[]>([]);
+  const setStoreKanjiList = useKanjiSelection(state => state.setKanjiList);
 
   const lessonId = searchParams.get("lessonId");
   const topicId = searchParams.get("topicId");
@@ -18,6 +20,7 @@ export function KanjiList() {
       // Handle topic-based lesson
       const kanji = KanjiService.getKanjiDetailsByTopicId(topicId, level);
       setKanjiList(kanji);
+      setStoreKanjiList(kanji);
     } else if (lessonId) {
       // Handle stroke-based lesson
       const kanji = KanjiService.getKanjiDetailsByLessonId(
@@ -25,8 +28,9 @@ export function KanjiList() {
         level
       );
       setKanjiList(kanji);
+      setStoreKanjiList(kanji);
     }
-  }, [lessonId, topicId, level]);
+  }, [lessonId, topicId, level, setStoreKanjiList]);
 
   return (
     <div className="px-4 pt-6 pb-24 space-y-4">

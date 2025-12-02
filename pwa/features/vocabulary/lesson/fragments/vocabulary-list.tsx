@@ -4,11 +4,13 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { VocabularyItemCard } from "../components/vocabulary-item-card";
 import { VocabularyService, VocabularyWord } from "@/pwa/core/services/vocabulary";
+import { useVocabularySelection } from "../store/vocabulary-selection.store";
 
 export function VocabularyList() {
   const searchParams = useSearchParams();
   const [vocabularyList, setVocabularyList] = useState<VocabularyWord[]>([]);
   const [loading, setLoading] = useState(true);
+  const setStoreVocabularyList = useVocabularySelection(state => state.setVocabularyList);
 
   const categoryId = searchParams.get("categoryId");
   const level = searchParams.get("level") || "N5";
@@ -20,17 +22,20 @@ export function VocabularyList() {
         const category = VocabularyService.getVocabularyByCategory(parseInt(categoryId), level);
         if (category) {
           setVocabularyList(category.vocabulary);
+          setStoreVocabularyList(category.vocabulary);
         } else {
           setVocabularyList([]);
+          setStoreVocabularyList([]);
         }
       } catch (error) {
         console.error('Error loading vocabulary:', error);
         setVocabularyList([]);
+        setStoreVocabularyList([]);
       } finally {
         setLoading(false);
       }
     }
-  }, [categoryId, level]);
+  }, [categoryId, level, setStoreVocabularyList]);
 
   const handleVocabularyClick = (vocabulary: VocabularyWord) => {
     console.log(`Clicked vocabulary: ${vocabulary.kanji}`);

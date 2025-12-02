@@ -1,18 +1,22 @@
 import { create } from 'zustand';
+import { VocabularyWord } from '@/pwa/core/services/vocabulary';
 
 interface VocabularySelectionState {
   isSelectionMode: boolean;
   selectedVocabularyIds: Set<number>;
+  vocabularyList: VocabularyWord[];
   toggleSelectionMode: () => void;
   setSelectionMode: (mode: boolean) => void;
   toggleVocabularySelection: (id: number) => void;
   clearSelection: () => void;
   selectAll: (ids: number[]) => void;
+  setVocabularyList: (list: VocabularyWord[]) => void;
 }
 
 export const useVocabularySelection = create<VocabularySelectionState>((set, get) => ({
   isSelectionMode: false,
   selectedVocabularyIds: new Set(),
+  vocabularyList: [],
   
   toggleSelectionMode: () => {
     const currentMode = get().isSelectionMode;
@@ -48,5 +52,9 @@ export const useVocabularySelection = create<VocabularySelectionState>((set, get
   
   selectAll: (ids: number[]) => {
     set({ selectedVocabularyIds: new Set(ids) });
+  },
+  
+  setVocabularyList: (list: VocabularyWord[]) => {
+    set({ vocabularyList: list });
   }
 }));
