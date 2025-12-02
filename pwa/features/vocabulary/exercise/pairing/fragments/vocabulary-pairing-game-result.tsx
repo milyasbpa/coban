@@ -14,6 +14,17 @@ export function VocabularyPairingGameResult() {
   const searchParams = useSearchParams();
   const categoryId = searchParams.get("categoryId");
   const level = searchParams.get("level") || "N5";
+  const selectedVocabularyParam = searchParams.get("selectedVocabulary");
+
+  // Parse selected vocabulary IDs from URL parameter with memoization to prevent re-creation
+  const selectedVocabularyIds = useMemo(() => {
+    return selectedVocabularyParam
+      ? selectedVocabularyParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
+      : undefined;
+  }, [selectedVocabularyParam]);
 
   const {
     canRetry,
@@ -39,11 +50,14 @@ export function VocabularyPairingGameResult() {
   };
 
   const handleGameRestart = () => {
-    // Restart the vocabulary pairing exercise
+    // Use the reusable function with section index reset
     if (!categoryId) return;
 
-    // Use the store's reset and re-initialize
-    window.location.href = `/vocabulary/exercise/pairing?categoryId=${categoryId}&level=${level}`;
+    initializeGame({
+      categoryId,
+      level,
+      selectedVocabularyIds,
+    });
   };
 
   return (
@@ -119,7 +133,7 @@ export function VocabularyPairingGameResult() {
             >
               Play Again
             </Button>
-            <Link href="/" className="w-full">
+            <Link href={selectedVocabularyParam && categoryId && level ? `/vocabulary/lesson?categoryId=${categoryId}&level=${level}` : "/"} className="w-full">
               <Button variant="outline" className="w-full">
                 Back to Home
               </Button>
