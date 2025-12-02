@@ -491,9 +491,10 @@ export const useVocabularyReadingExerciseStore =
       const currentQuestion = get().getCurrentQuestion();
       const selectedOption = get().questionState.selectedOption;
 
-      if (!currentQuestion || !selectedOption) return;
+      if (!currentQuestion) return;
 
-      const isCorrect = checkAnswer(currentQuestion, selectedOption);
+      // If no option selected, treat as incorrect
+      const isCorrect = selectedOption ? checkAnswer(currentQuestion, selectedOption) : false;
 
       // Set result for UI feedback
       get().setCurrentResult({ isCorrect });
