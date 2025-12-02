@@ -77,10 +77,9 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
       level,
     });
 
-    // Add review mode params if in review mode
-    if (mode === "review") {
-      params.append("reviewMode", "true");
-      params.append("reviewWordIds", filteredVocabularyList.map(v => v.id).join(","));
+    // Add filtered vocabulary IDs if in review mode (reuse selectedVocabulary param from lesson selection)
+    if (mode === "review" && filteredVocabularyList.length > 0) {
+      params.append("selectedVocabulary", filteredVocabularyList.map(v => v.id).join(","));
     }
     
     // Navigate to vocabulary exercise with selected type
@@ -90,9 +89,6 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
   if (!vocabularyExerciseModal) return null;
 
   const { categoryName, vocabularyList, level, categoryId } = vocabularyExerciseModal;
-
-  // Get first 5 vocabulary words to display
-  const displayWords = vocabularyList.slice(0, 5).map(v => v.kanji || v.hiragana);
 
   // Review mode statistics
   const totalWords = vocabularyList.length;
@@ -106,39 +102,32 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
           <div className="mx-auto bg-foreground text-background px-4 py-1.5 rounded-full w-fit">
             <span className="text-xs font-bold tracking-wider">EXERCISES</span>
           </div>
-          <DialogTitle className="text-lg font-bold text-foreground">
-            {categoryName}
+          <DialogTitle className="text-lg font-bold text-foreground flex items-center justify-center gap-2">
+            <span>{categoryName}</span>
+            <span className="text-muted-foreground">•</span>
+            <span className="text-sm font-normal text-muted-foreground">{vocabularyList.length} words</span>
           </DialogTitle>
-          <div className="text-center">
-            <div className="text-xl font-bold text-foreground mb-1 tracking-wider">
-              {displayWords.join("、")}
-              {vocabularyList.length > 5 && "..."}
-            </div>
-            <div className="text-sm text-muted-foreground">
-              {vocabularyList.length} words
-            </div>
-          </div>
         </DialogHeader>
 
         {/* Mode Tabs */}
         <Tabs value={mode} onValueChange={(v) => setMode(v as "normal" | "review")} className="w-full mt-4">
           <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="normal">Normal Mode</TabsTrigger>
+            <TabsTrigger value="normal">Normal</TabsTrigger>
             <TabsTrigger value="review" className="flex items-center gap-1">
               <RotateCcw className="w-3 h-3" />
-              Review Mode
+              Review
             </TabsTrigger>
           </TabsList>
         </Tabs>
 
         {/* Review Mode Settings */}
         {mode === "review" && (
-          <div className="space-y-4 p-4 bg-muted/50 rounded-lg border border-border">
+          <div className="space-y-3 p-3 bg-muted/50 rounded-lg border border-border">
             {/* Threshold Slider */}
-            <div className="space-y-2">
+            <div className="space-y-1.5">
               <div className="flex items-center justify-between">
                 <label className="text-sm font-medium text-foreground">
-                  Accuracy Threshold
+                  Threshold
                 </label>
                 <span className="text-sm font-bold text-foreground bg-background px-2 py-0.5 rounded">
                   {threshold}%
@@ -152,9 +141,6 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
                 step={5}
                 className="w-full"
               />
-              <p className="text-xs text-muted-foreground">
-                Practice words with accuracy below {threshold}%
-              </p>
             </div>
 
             {/* Include New Words Checkbox */}
@@ -168,16 +154,15 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
                 htmlFor="includeNew"
                 className="text-sm font-medium text-foreground cursor-pointer"
               >
-                Include new words (not attempted yet)
+                Include new words
               </label>
             </div>
 
             {/* Statistics */}
             <div className="pt-2 border-t border-border">
               <div className="flex items-center justify-between text-sm">
-                <span className="text-muted-foreground">Words for review:</span>
                 <span className="font-bold text-foreground">
-                  {reviewWordsCount} / {totalWords}
+                  {reviewWordsCount} / {totalWords} words
                 </span>
               </div>
             </div>
@@ -213,7 +198,7 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
               Icon={Edit3}
               progress={getExerciseProgress("writing", categoryId, level)}
               onClick={handleExerciseStart}
-              showProgress={showProgress}
+              showProgress={showProgress && mode === "normal"}
             />
 
             {/* Reading Exercise */}
@@ -223,7 +208,7 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
               Icon={Book}
               progress={getExerciseProgress("reading", categoryId, level)}
               onClick={handleExerciseStart}
-              showProgress={showProgress}
+              showProgress={showProgress && mode === "normal"}
             />
 
             {/* Pairing Exercise */}
@@ -233,7 +218,7 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
               Icon={Users}
               progress={getExerciseProgress("pairing", categoryId, level)}
               onClick={handleExerciseStart}
-              showProgress={showProgress}
+              showProgress={showProgress && mode === "normal"}
             />
           </div>
         )}

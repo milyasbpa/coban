@@ -45,7 +45,7 @@ export function ExerciseCard({
       className="bg-card border-2 border-border rounded-xl p-4 hover:bg-muted/30 transition-colors shadow-sm cursor-pointer"
       onClick={() => onClick(exerciseType)}
     >
-      <div className="flex items-center justify-between mb-3">
+      <div className={`flex items-center ${showProgress ? 'justify-between mb-3' : 'justify-center gap-2'}`}>
         <div className="flex items-center gap-2">
           <Icon className="h-4 w-4 text-foreground" />
           <span className="font-medium text-foreground text-sm">
