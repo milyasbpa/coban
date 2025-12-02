@@ -51,6 +51,7 @@ export function VocabularyAnswerBottomSheet() {
             ? "bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-800"
             : "bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-800"
         )}
+        aria-describedby="answer-result-description"
       >
         <SheetHeader className="text-center space-y-4">
           <SheetTitle
@@ -64,6 +65,11 @@ export function VocabularyAnswerBottomSheet() {
         </SheetHeader>
 
         <div className="mt-6 space-y-4">
+          {/* Hidden description for accessibility */}
+          <p id="answer-result-description" className="sr-only">
+            Your answer was {isCorrect ? 'correct' : 'incorrect'}. The vocabulary word is {currentQuestion.japanese} which means {meaning}.
+          </p>
+          
           {/* Vocabulary Display */}
           <div className="text-center">
             <div className="text-6xl font-bold text-foreground mb-2">

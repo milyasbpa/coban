@@ -59,9 +59,18 @@ export function AnswerBottomSheet() {
       <SheetContent
         side="bottom"
         className="rounded-t-xl bg-popover p-0"
+        aria-describedby="kanji-answer-description"
       >
+        <SheetTitle className="sr-only">
+          {isCorrect ? 'Correct Answer' : 'Incorrect Answer'}
+        </SheetTitle>
         {/* Scrollable Content Area */}
         <div className="max-w-sm mx-auto space-y-3 max-h-[80vh] overflow-y-auto p-4 pb-20">
+          {/* Hidden description for accessibility */}
+          <p id="kanji-answer-description" className="sr-only">
+            Your answer was {isCorrect ? 'correct' : 'incorrect'}. The kanji word is {currentQuestion.word} read as {currentQuestion.furigana}.
+          </p>
+          
           {/* Header with Icon and Status */}
           <div className="flex items-center gap-3">
             {isCorrect ? (

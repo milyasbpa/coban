@@ -81,13 +81,6 @@ export function ExerciseTimer({
             clearInterval(intervalRef.current);
             intervalRef.current = null;
           }
-          
-          // Call onTimeUp only once
-          if (!hasCalledTimeUp.current) {
-            hasCalledTimeUp.current = true;
-            onTimeUp();
-          }
-          
           return 0;
         }
         return prev - 1;
@@ -100,7 +93,15 @@ export function ExerciseTimer({
         intervalRef.current = null;
       }
     };
-  }, [isPaused, isVisible, onTimeUp]); // Removed duration from dependencies
+  }, [isPaused, isVisible]); // Removed duration and onTimeUp from dependencies
+
+  // Handle time up in separate effect to avoid setState during render
+  useEffect(() => {
+    if (timeLeft === 0 && !hasCalledTimeUp.current) {
+      hasCalledTimeUp.current = true;
+      onTimeUp();
+    }
+  }, [timeLeft, onTimeUp]);
 
   // If timer is 0, don't show (already handled by onTimeUp)
   if (duration === 0) return null;
