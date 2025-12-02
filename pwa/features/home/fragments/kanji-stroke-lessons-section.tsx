@@ -22,7 +22,7 @@ interface KanjiStrokeLessonsSectionProps {
 export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeLessonsSectionProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { openKanjiExerciseModal } = useHomeStore();
-  const { getLessonProgress } = useKanjiScoreStore();
+  const { getLessonProgress, isInitialized } = useKanjiScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
 
@@ -59,7 +59,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
       // Group 3: In progress (1-99%) - at top, higher progress first
       return progressB - progressA;
     });
-  }, [strokeLessons, selectedLevel, getLessonProgress]);
+  }, [strokeLessons, selectedLevel, getLessonProgress, isInitialized]);
 
   // Bagi stroke lessons ke dalam tab-tab (pagination dengan limit 10)
   const lessonTabs = useMemo(() => {

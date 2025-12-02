@@ -23,7 +23,7 @@ interface KanjiTopicLessonsSectionProps {
 export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLessonsSectionProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { openKanjiExerciseModal } = useHomeStore();
-  const { getLessonProgress } = useKanjiScoreStore();
+  const { getLessonProgress, isInitialized } = useKanjiScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
 
@@ -60,7 +60,7 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
       // Group 3: In progress (1-99%) - at top, higher progress first
       return progressB - progressA;
     });
-  }, [topicLessons, selectedLevel, getLessonProgress]);
+  }, [topicLessons, selectedLevel, getLessonProgress, isInitialized]);
 
   // Bagi topic lessons ke dalam tab-tab (pagination dengan limit 10)
   const topicTabs = useMemo(() => {

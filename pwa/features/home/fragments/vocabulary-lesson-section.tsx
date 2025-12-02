@@ -23,7 +23,7 @@ interface VocabularyLessonSectionProps {
 export function VocabularyLessonSection({ showProgress = false }: VocabularyLessonSectionProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { openVocabularyExerciseModal } = useHomeStore();
-  const { getCategoryProgress } = useVocabularyScoreStore();
+  const { getCategoryProgress, isInitialized } = useVocabularyScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
 
@@ -56,7 +56,7 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
       // Group 3: In progress (1-99%) - at top, higher progress first
       return progressB - progressA;
     });
-  }, [vocabularyCategories, selectedLevel, getCategoryProgress]);
+  }, [vocabularyCategories, selectedLevel, getCategoryProgress, isInitialized]);
 
   // Divide vocabulary categories into tabs (pagination with limit 10)
   const categoryTabs = useMemo(() => {
