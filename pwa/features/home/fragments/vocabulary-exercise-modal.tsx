@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import {
   Dialog,
@@ -11,7 +12,11 @@ import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { useHomeStore } from "../store/home-store";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 import { ExerciseCard } from "../components/exercise-card";
-import { Edit3, Book, Users } from "lucide-react";
+import { Edit3, Book, Users, RotateCcw } from "lucide-react";
+import { Button } from "@/pwa/core/components/button";
+import { Tabs, TabsList, TabsTrigger } from "@/pwa/core/components/tabs";
+import { Slider } from "@/pwa/core/components/slider";
+import { Checkbox } from "@/pwa/core/components/checkbox";
 
 interface VocabularyExerciseModalData {
   categoryId: string;
@@ -27,7 +32,37 @@ interface VocabularyExerciseModalProps {
 export function VocabularyExerciseModal({ showProgress = false }: VocabularyExerciseModalProps) {
   const router = useRouter();
   const { vocabularyExerciseModal, closeVocabularyExerciseModal } = useHomeStore();
-  const { getExerciseProgress } = useVocabularyScoreStore();
+  const { getExerciseProgress, getVocabularyAccuracy } = useVocabularyScoreStore();
+
+  // Review Mode State
+  const [mode, setMode] = useState<"normal" | "review">("normal");
+  const [threshold, setThreshold] = useState(70);
+  const [includeNewWords, setIncludeNewWords] = useState(true);
+
+  // Filter vocabulary based on review mode settings
+  const filteredVocabularyList = useMemo(() => {
+    if (!vocabularyExerciseModal || mode === "normal") {
+      return vocabularyExerciseModal?.vocabularyList || [];
+    }
+
+    const { vocabularyList, level, categoryId } = vocabularyExerciseModal;
+
+    return vocabularyList.filter((vocab) => {
+      const accuracy = getVocabularyAccuracy(
+        vocab.id.toString(),
+        level,
+        categoryId
+      );
+
+      // Include new words (never attempted)
+      if (accuracy === null) {
+        return includeNewWords;
+      }
+
+      // Include words below threshold
+      return accuracy < threshold;
+    });
+  }, [vocabularyExerciseModal, mode, threshold, includeNewWords, getVocabularyAccuracy]);
 
   const handleExerciseStart = (exerciseType: string) => {
     if (!vocabularyExerciseModal) return;
@@ -36,10 +71,20 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
     
     closeVocabularyExerciseModal();
     
+    // Build URL params
+    const params = new URLSearchParams({
+      categoryId,
+      level,
+    });
+
+    // Add review mode params if in review mode
+    if (mode === "review") {
+      params.append("reviewMode", "true");
+      params.append("reviewWordIds", filteredVocabularyList.map(v => v.id).join(","));
+    }
+    
     // Navigate to vocabulary exercise with selected type
-    router.push(
-      `/vocabulary/exercise/${exerciseType}?categoryId=${categoryId}&level=${level}`
-    );
+    router.push(`/vocabulary/exercise/${exerciseType}?${params.toString()}`);
   };
 
   if (!vocabularyExerciseModal) return null;
@@ -48,6 +93,11 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
 
   // Get first 5 vocabulary words to display
   const displayWords = vocabularyList.slice(0, 5).map(v => v.kanji || v.hiragana);
+
+  // Review mode statistics
+  const totalWords = vocabularyList.length;
+  const reviewWordsCount = filteredVocabularyList.length;
+  const isReviewEmpty = mode === "review" && reviewWordsCount === 0;
 
   return (
     <Dialog open={!!vocabularyExerciseModal} onOpenChange={closeVocabularyExerciseModal}>
@@ -70,37 +120,123 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
           </div>
         </DialogHeader>
 
-        <div className="space-y-3 mt-4">
-          {/* Writing Exercise */}
-          <ExerciseCard
-            title="Writing"
-            exerciseType="writing"
-            Icon={Edit3}
-            progress={getExerciseProgress("writing", categoryId, level)}
-            onClick={handleExerciseStart}
-            showProgress={showProgress}
-          />
+        {/* Mode Tabs */}
+        <Tabs value={mode} onValueChange={(v) => setMode(v as "normal" | "review")} className="w-full mt-4">
+          <TabsList className="grid w-full grid-cols-2">
+            <TabsTrigger value="normal">Normal Mode</TabsTrigger>
+            <TabsTrigger value="review" className="flex items-center gap-1">
+              <RotateCcw className="w-3 h-3" />
+              Review Mode
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
 
-          {/* Reading Exercise */}
-          <ExerciseCard
-            title="Reading"
-            exerciseType="reading"
-            Icon={Book}
-            progress={getExerciseProgress("reading", categoryId, level)}
-            onClick={handleExerciseStart}
-            showProgress={showProgress}
-          />
+        {/* Review Mode Settings */}
+        {mode === "review" && (
+          <div className="space-y-4 p-4 bg-muted/50 rounded-lg border border-border">
+            {/* Threshold Slider */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <label className="text-sm font-medium text-foreground">
+                  Accuracy Threshold
+                </label>
+                <span className="text-sm font-bold text-foreground bg-background px-2 py-0.5 rounded">
+                  {threshold}%
+                </span>
+              </div>
+              <Slider
+                value={[threshold]}
+                onValueChange={(values) => setThreshold(values[0])}
+                min={50}
+                max={90}
+                step={5}
+                className="w-full"
+              />
+              <p className="text-xs text-muted-foreground">
+                Practice words with accuracy below {threshold}%
+              </p>
+            </div>
 
-          {/* Pairing Exercise */}
-          <ExerciseCard
-            title="Pairing"
-            exerciseType="pairing"
-            Icon={Users}
-            progress={getExerciseProgress("pairing", categoryId, level)}
-            onClick={handleExerciseStart}
-            showProgress={showProgress}
-          />
-        </div>
+            {/* Include New Words Checkbox */}
+            <div className="flex items-center gap-2">
+              <Checkbox
+                id="includeNew"
+                checked={includeNewWords}
+                onCheckedChange={(checked) => setIncludeNewWords(checked === true)}
+              />
+              <label
+                htmlFor="includeNew"
+                className="text-sm font-medium text-foreground cursor-pointer"
+              >
+                Include new words (not attempted yet)
+              </label>
+            </div>
+
+            {/* Statistics */}
+            <div className="pt-2 border-t border-border">
+              <div className="flex items-center justify-between text-sm">
+                <span className="text-muted-foreground">Words for review:</span>
+                <span className="font-bold text-foreground">
+                  {reviewWordsCount} / {totalWords}
+                </span>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Empty State for Review Mode */}
+        {isReviewEmpty ? (
+          <div className="text-center py-8 space-y-4">
+            <div className="text-4xl">🎉</div>
+            <div className="space-y-2">
+              <h3 className="font-bold text-lg text-foreground">
+                All words above {threshold}%!
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Try lowering the threshold or practice in Normal Mode
+              </p>
+            </div>
+            <Button
+              onClick={() => setMode("normal")}
+              variant="default"
+              className="mt-4"
+            >
+              Switch to Normal Mode
+            </Button>
+          </div>
+        ) : (
+          <div className="space-y-3 mt-4">
+            {/* Writing Exercise */}
+            <ExerciseCard
+              title="Writing"
+              exerciseType="writing"
+              Icon={Edit3}
+              progress={getExerciseProgress("writing", categoryId, level)}
+              onClick={handleExerciseStart}
+              showProgress={showProgress}
+            />
+
+            {/* Reading Exercise */}
+            <ExerciseCard
+              title="Reading"
+              exerciseType="reading"
+              Icon={Book}
+              progress={getExerciseProgress("reading", categoryId, level)}
+              onClick={handleExerciseStart}
+              showProgress={showProgress}
+            />
+
+            {/* Pairing Exercise */}
+            <ExerciseCard
+              title="Pairing"
+              exerciseType="pairing"
+              Icon={Users}
+              progress={getExerciseProgress("pairing", categoryId, level)}
+              onClick={handleExerciseStart}
+              showProgress={showProgress}
+            />
+          </div>
+        )}
       </DialogContent>
     </Dialog>
   );
