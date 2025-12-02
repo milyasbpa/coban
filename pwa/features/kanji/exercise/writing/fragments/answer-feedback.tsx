@@ -48,9 +48,10 @@ export function AnswerFeedback() {
   
   return (
     <div className={cn(
-      'fixed bottom-0 left-0 right-0 border-t transition-all duration-300 max-h-[80vh] overflow-y-auto bg-popover'
+      'fixed bottom-0 left-0 right-0 border-t transition-all duration-300 bg-popover'
     )}>
-      <div className="max-w-sm mx-auto p-4 space-y-3">
+      {/* Scrollable Content Area */}
+      <div className="max-w-sm mx-auto space-y-3 max-h-[80vh] overflow-y-auto p-4 pb-20">
         <div className="flex items-center gap-3">
           {isCorrect ? (
             <CheckCircle2 className="h-6 w-6 text-green-600 dark:text-green-400" />
@@ -102,14 +103,19 @@ export function AnswerFeedback() {
             )}
           </div>
         )}
-        
-        <Button 
-          onClick={handleNext} 
-          className="w-full"
-          variant={isCorrect ? "default" : "secondary"}
-        >
-          {isLastQuestion ? 'Finish' : 'Continue'}
-        </Button>
+      </div>
+      
+      {/* Fixed Continue Button at Bottom */}
+      <div className="sticky bottom-0 left-0 right-0 p-4 bg-popover border-t border-border">
+        <div className="max-w-sm mx-auto">
+          <Button 
+            onClick={handleNext} 
+            className="w-full"
+            variant={isCorrect ? "default" : "secondary"}
+          >
+            {isLastQuestion ? 'Finish' : 'Continue'}
+          </Button>
+        </div>
       </div>
     </div>
   );
