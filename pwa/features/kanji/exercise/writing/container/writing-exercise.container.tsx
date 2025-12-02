@@ -86,7 +86,7 @@ export function WritingExerciseContainer() {
 
   // Auto-submit when timer expires
   const handleTimeUp = () => {
-    if (selectedKanji.length === 0) return;
+    // Auto-submit current answer (even if empty = wrong)
     const result = useWritingExerciseStore.getState().checkAnswer();
     useWritingExerciseStore.getState().setIsCorrect(result);
     useWritingExerciseStore.getState().setShowFeedback(true);
