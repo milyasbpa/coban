@@ -9,6 +9,8 @@ import { WritingControlButtons } from "../fragments/writing-control-buttons";
 import { VocabularyWritingGameResult } from "../fragments/vocabulary-writing-game-result";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
 import { generateWritingQuestions } from "../utils/vocabulary-writing.utils";
+import { checkTileAnswer, getExpectedTileAnswer } from "../utils/generate-character-tiles";
+import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.store";
 
 export const VocabularyWritingExerciseContainer: React.FC = () => {
   const router = useRouter();
@@ -18,6 +20,10 @@ export const VocabularyWritingExerciseContainer: React.FC = () => {
   const level = searchParams.get("level") || "n5";
   const categoryId = searchParams.get("categoryId") || "ANGKA";
   const selectedVocabularyParam = searchParams.get("selectedVocabulary");
+  
+  // Get timer value from store (not URL params)
+  const { timerEnabled, timerValue } = useTimerPreferenceStore();
+  const timerDuration = timerEnabled ? timerValue : 0;
 
   // Parse selectedVocabulary IDs from URL
   const selectedVocabularyIds = React.useMemo(() => {
@@ -70,6 +76,29 @@ export const VocabularyWritingExerciseContainer: React.FC = () => {
     router.push("/");
   };
 
+  // Auto-submit when timer expires
+  const handleTimeUp = () => {
+    const currentQuestion = store.getCurrentQuestion();
+    if (!currentQuestion) return;
+
+    const selectedAnswer = store.questionState.selectedCharacters.join("");
+    const expectedAnswer = getExpectedTileAnswer(currentQuestion, store.questionState.inputMode);
+    const isCorrect = checkTileAnswer(store.questionState.selectedCharacters, expectedAnswer);
+
+    // Set result for UI feedback
+    store.setCurrentResult({ isCorrect });
+
+    // Add to correct or wrong questions
+    if (isCorrect) {
+      store.addCorrectQuestion(currentQuestion);
+    } else {
+      store.addWrongQuestion(currentQuestion);
+    }
+
+    // Show bottom sheet with result
+    store.setShowBottomSheet(true);
+  };
+
   if (store.gameState.isComplete) {
     return <VocabularyWritingGameResult />;
   }
@@ -89,7 +118,11 @@ export const VocabularyWritingExerciseContainer: React.FC = () => {
       <VocabularyWritingHeader />
       
       <div className="container mx-auto px-4 py-8 pb-24 space-y-6">
-        <WritingQuestionCard />
+        <WritingQuestionCard 
+          timerDuration={timerDuration}
+          onTimeUp={handleTimeUp}
+          isPaused={store.questionState.showBottomSheet}
+        />
       </div>
       
       <WritingControlButtons />

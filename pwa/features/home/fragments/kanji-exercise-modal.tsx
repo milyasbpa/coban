@@ -12,20 +12,25 @@ import { useHomeStore } from "../store/home-store";
 import { useHomeSettingsStore } from "../store/home-settings.store";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { ExerciseCard } from "../components/exercise-card";
-import { Edit3, Book, Users, RotateCcw } from "lucide-react";
+import { Edit3, Book, Users, RotateCcw, Clock } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { Tabs, TabsList, TabsTrigger } from "@/pwa/core/components/tabs";
 import { Slider } from "@/pwa/core/components/slider";
 import { Checkbox } from "@/pwa/core/components/checkbox";
+import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.store";
 
 interface KanjiExerciseModalProps {
   showProgress?: boolean;
 }
 
-export function KanjiExerciseModal({ showProgress = false }: KanjiExerciseModalProps) {
+export function KanjiExerciseModal({
+  showProgress = false,
+}: KanjiExerciseModalProps) {
   const { selectedLevel } = useHomeSettingsStore();
   const { kanjiExerciseModal, closeKanjiExerciseModal } = useHomeStore();
   const { getExerciseProgress, getKanjiAccuracy } = useKanjiScoreStore();
+  const { timerEnabled, timerValue, setTimerEnabled, setTimerValue } =
+    useTimerPreferenceStore();
   const { isOpen, lessonName, lessonId, topicId, lessonType, kanjiList } =
     kanjiExerciseModal;
 
@@ -51,7 +56,14 @@ export function KanjiExerciseModal({ showProgress = false }: KanjiExerciseModalP
       // Include kanji below threshold
       return accuracy < threshold;
     });
-  }, [kanjiList, mode, threshold, includeNewKanji, getKanjiAccuracy, selectedLevel]);
+  }, [
+    kanjiList,
+    mode,
+    threshold,
+    includeNewKanji,
+    getKanjiAccuracy,
+    selectedLevel,
+  ]);
 
   const handleExerciseStart = (exerciseType: string) => {
     closeKanjiExerciseModal();
@@ -72,7 +84,10 @@ export function KanjiExerciseModal({ showProgress = false }: KanjiExerciseModalP
 
       // Add filtered kanji IDs if in review mode
       if (mode === "review" && filteredKanjiList.length > 0) {
-        params.append("selectedKanji", filteredKanjiList.map(k => k.id).join(","));
+        params.append(
+          "selectedKanji",
+          filteredKanjiList.map((k) => k.id).join(",")
+        );
       }
 
       return `${baseUrl}?${params.toString()}`;
@@ -102,12 +117,18 @@ export function KanjiExerciseModal({ showProgress = false }: KanjiExerciseModalP
           <DialogTitle className="text-lg font-bold text-foreground flex items-center justify-center gap-2">
             <span>{lessonName}</span>
             <span className="text-muted-foreground">•</span>
-            <span className="text-sm font-normal text-muted-foreground">{totalKanji} kanji</span>
+            <span className="text-sm font-normal text-muted-foreground">
+              {totalKanji} kanji
+            </span>
           </DialogTitle>
         </DialogHeader>
 
         {/* Mode Tabs */}
-        <Tabs value={mode} onValueChange={(v) => setMode(v as "normal" | "review")} className="w-full mt-4">
+        <Tabs
+          value={mode}
+          onValueChange={(v) => setMode(v as "normal" | "review")}
+          className="w-full mt-4"
+        >
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="normal">Normal</TabsTrigger>
             <TabsTrigger value="review" className="flex items-center gap-1">
@@ -145,7 +166,9 @@ export function KanjiExerciseModal({ showProgress = false }: KanjiExerciseModalP
               <Checkbox
                 id="includeNewKanji"
                 checked={includeNewKanji}
-                onCheckedChange={(checked) => setIncludeNewKanji(checked === true)}
+                onCheckedChange={(checked) =>
+                  setIncludeNewKanji(checked === true)
+                }
               />
               <label
                 htmlFor="includeNewKanji"
@@ -165,6 +188,47 @@ export function KanjiExerciseModal({ showProgress = false }: KanjiExerciseModalP
             </div>
           </div>
         )}
+
+        {/* Timer Settings - Always visible */}
+        <div className="space-y-3 p-3 bg-muted/50 rounded-lg border border-border">
+          <div className="flex items-center gap-2">
+            <Clock className="w-4 h-4 text-foreground" />
+            <label className="text-sm font-semibold text-foreground">
+              Timer
+            </label>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <Checkbox
+              id="timer-enable-kanji"
+              checked={timerEnabled}
+              onCheckedChange={(checked) => setTimerEnabled(checked === true)}
+            />
+            <label
+              htmlFor="timer-enable-kanji"
+              className="text-sm font-medium text-foreground cursor-pointer"
+            >
+              {timerEnabled ? `${timerValue}s per question` : "No time limit"}
+            </label>
+          </div>
+
+          {timerEnabled && (
+            <div className="space-y-1.5">
+              <Slider
+                value={[timerValue]}
+                onValueChange={(values) => setTimerValue(values[0])}
+                min={10}
+                max={60}
+                step={5}
+                className="w-full"
+              />
+              <div className="flex items-center justify-between text-xs text-muted-foreground">
+                <span>10s</span>
+                <span>60s</span>
+              </div>
+            </div>
+          )}
+        </div>
 
         {/* Empty State for Review Mode */}
         {isReviewEmpty ? (

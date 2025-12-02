@@ -5,7 +5,17 @@ import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-e
 import { WritingQuestionCard as WritingQuestionCardComponent } from "../components/writing-question-card";
 import { generateCharacterTiles, getExpectedTileAnswer } from "../utils/generate-character-tiles";
 
-export const WritingQuestionCard: React.FC = () => {
+interface WritingQuestionCardProps {
+  timerDuration?: number;
+  onTimeUp?: () => void;
+  isPaused?: boolean;
+}
+
+export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
+  timerDuration = 0,
+  onTimeUp,
+  isPaused = false,
+}) => {
   const {
     getCurrentQuestion,
     questionState,
@@ -50,6 +60,10 @@ export const WritingQuestionCard: React.FC = () => {
       isAnswered={getIsAnswered()}
       isCorrect={getIsCurrentAnswerCorrect()}
       expectedAnswer={expectedAnswer}
+      timerDuration={timerDuration}
+      onTimeUp={onTimeUp}
+      isPaused={isPaused}
+      questionIndex={questionState.currentQuestionIndex}
     />
   );
 };

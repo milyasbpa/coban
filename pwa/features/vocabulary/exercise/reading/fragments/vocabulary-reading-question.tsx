@@ -5,9 +5,20 @@ import { useVocabularyReadingDisplayOptions } from "../store/vocabulary-reading-
 import { Button } from "@/pwa/core/components/button";
 import { Volume2 } from "lucide-react";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
+import { ExerciseTimer } from "@/pwa/core/components/exercise-timer";
 
-export function VocabularyReadingQuestion() {
-  const { getCurrentQuestion, getCurrentQuestionNumber, getTotalQuestions } =
+interface VocabularyReadingQuestionProps {
+  timerDuration?: number;
+  onTimeUp?: () => void;
+  isPaused?: boolean;
+}
+
+export function VocabularyReadingQuestion({ 
+  timerDuration = 0, 
+  onTimeUp, 
+  isPaused = false 
+}: VocabularyReadingQuestionProps) {
+  const { getCurrentQuestion, getCurrentQuestionNumber, getTotalQuestions, questionState } =
     useVocabularyReadingExerciseStore();
 
   const { displayHiragana, displayRomaji, displayKanji } =
@@ -61,9 +72,19 @@ export function VocabularyReadingQuestion() {
 
   return (
     <div className="space-y-4 mb-8">
-      {/* Progress indicator */}
-      <div className="text-sm text-muted-foreground text-center">
-        Question {currentQuestionNumber} of {totalQuestions}
+      {/* Progress indicator with timer */}
+      <div className="flex items-center justify-center gap-3">
+        {timerDuration > 0 && onTimeUp && (
+          <ExerciseTimer
+            duration={timerDuration}
+            onTimeUp={onTimeUp}
+            isPaused={isPaused}
+            key={questionState.currentQuestionIndex}
+          />
+        )}
+        <div className="text-sm text-muted-foreground text-center">
+          Question {currentQuestionNumber} of {totalQuestions}
+        </div>
       </div>
 
       {/* Question Content */}

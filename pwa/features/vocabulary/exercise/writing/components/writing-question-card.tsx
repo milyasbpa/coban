@@ -8,6 +8,7 @@ import { WritingAnswerArea } from "./writing-answer-area";
 import { WritingCharacterTiles } from "./writing-character-tiles";
 import { Volume2 } from "lucide-react";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
+import { ExerciseTimer } from "@/pwa/core/components/exercise-timer";
 
 export interface WritingQuestionCardProps {
   question: VocabularyQuestion;
@@ -20,6 +21,10 @@ export interface WritingQuestionCardProps {
   isAnswered: boolean;
   isCorrect?: boolean;
   expectedAnswer?: string;
+  timerDuration?: number;
+  onTimeUp?: () => void;
+  isPaused?: boolean;
+  questionIndex?: number;
 }
 
 export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
@@ -33,6 +38,10 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
   isAnswered,
   isCorrect,
   expectedAnswer,
+  timerDuration = 0,
+  onTimeUp,
+  isPaused = false,
+  questionIndex = 0,
 }) => {
   const { language } = useLanguage();
 
@@ -49,6 +58,18 @@ export const WritingQuestionCard: React.FC<WritingQuestionCardProps> = ({
 
   return (
     <div className="space-y-6">
+      {/* Timer above question */}
+      {timerDuration > 0 && onTimeUp && (
+        <div className="flex justify-center">
+          <ExerciseTimer
+            duration={timerDuration}
+            onTimeUp={onTimeUp}
+            isPaused={isPaused}
+            key={questionIndex}
+          />
+        </div>
+      )}
+
       {/* Question Display */}
       <Card className="p-6 space-y-6">
         <div className="space-y-4">

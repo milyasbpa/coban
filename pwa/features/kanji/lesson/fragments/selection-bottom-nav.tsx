@@ -7,7 +7,7 @@ import {
   getLocalizedText,
   SupportedLanguage,
 } from "../../shared/utils/language-helpers";
-import { Edit3, Book, Users, X, RotateCcw } from "lucide-react";
+import { Edit3, Book, Users, X, RotateCcw, Clock } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
 import {
@@ -21,6 +21,9 @@ import {
   AlertDialogTitle,
 } from "@/pwa/core/components/alert-dialog";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { Slider } from "@/pwa/core/components/slider";
+import { Checkbox } from "@/pwa/core/components/checkbox";
+import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.store";
 
 export function SelectionBottomNav() {
   const { selectedKanjiIds, clearSelection, toggleSelectionMode } =
@@ -29,6 +32,7 @@ export function SelectionBottomNav() {
   const searchParams = useSearchParams();
   const [showResetDialog, setShowResetDialog] = useState(false);
   const { resetKanjiStatistics } = useKanjiScoreStore();
+  const { timerEnabled, timerValue, setTimerEnabled, setTimerValue } = useTimerPreferenceStore();
 
   const selectedCount = selectedKanjiIds.size;
   const lessonId = searchParams.get("lessonId");
@@ -82,34 +86,32 @@ export function SelectionBottomNav() {
 
   return (
     <div className="sticky top-14 z-40 bg-popover/95 backdrop-blur supports-backdrop-filter:bg-popover/90 border-b-2 border-border shadow-lg">
-      <div className="p-4 space-y-3">
-        {/* Header with selected count and close */}
+      {/* COMPACT DESIGN: Reduced padding p-4 → p-2.5 */}
+      <div className="p-2.5 space-y-2">
+        {/* COMPACT HEADER ROW */}
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="bg-foreground text-background px-3 py-1 rounded-full">
-              <span className="text-xs font-bold tracking-wider">
-                {selectedCount}{" "}
-                {getLocalizedText(
-                  language as SupportedLanguage,
-                  "TERPILIH",
-                  "SELECTED"
-                )}
+          <div className="flex items-center gap-1.5">
+            {/* Compact count badge */}
+            <div className="bg-foreground text-background px-2 py-0.5 rounded-full">
+              <span className="text-[10px] font-bold tabular-nums">
+                {selectedCount}
               </span>
             </div>
-            {/* Bulk Reset Button */}
+            
+            {/* Icon-only Reset button */}
             <Button
               variant="ghost"
               size="sm"
               onClick={() => setShowResetDialog(true)}
               disabled={selectedCount === 0}
-              className="h-8 px-3 rounded-full hover:bg-destructive/10 text-destructive disabled:opacity-50"
+              className="h-7 w-7 p-0 rounded-full hover:bg-destructive/10 text-destructive disabled:opacity-50"
+              title={getLocalizedText(language as SupportedLanguage, "Reset Statistik", "Reset Statistics")}
             >
-              <RotateCcw className="h-3.5 w-3.5 mr-1.5" />
-              <span className="text-xs font-medium">
-                {getLocalizedText(language as SupportedLanguage, "Reset", "Reset")}
-              </span>
+              <RotateCcw className="h-3.5 w-3.5" />
             </Button>
           </div>
+          
+          {/* Close button */}
           <Button
             variant="ghost"
             size="sm"
@@ -117,60 +119,73 @@ export function SelectionBottomNav() {
               clearSelection();
               toggleSelectionMode();
             }}
-            className="h-8 w-8 p-0 rounded-full hover:bg-muted/30"
+            className="h-7 w-7 p-0 rounded-full hover:bg-muted/30"
+            title={getLocalizedText(language as SupportedLanguage, "Tutup", "Close")}
           >
-            <X className="h-4 w-4" />
+            <X className="h-3.5 w-3.5" />
           </Button>
         </div>
 
-        {/* Exercise buttons */}
-        <div className="grid grid-cols-3 gap-2">
-          {/* Writing Exercise */}
+        {/* TIMER ROW (NEW) */}
+        <div className="flex items-center gap-2 py-1.5 px-2 bg-muted/30 rounded-lg">
+          <Clock className="h-3.5 w-3.5 text-muted-foreground shrink-0" />
+          
+          <Checkbox
+            id="timer-enable-kanji-nav"
+            checked={timerEnabled}
+            onCheckedChange={(checked) => setTimerEnabled(checked === true)}
+            className="h-3.5 w-3.5"
+          />
+          
+          <div className="flex-1 flex items-center gap-2">
+            <Slider
+              value={[timerValue]}
+              onValueChange={(values) => setTimerValue(values[0])}
+              min={10}
+              max={60}
+              step={5}
+              disabled={!timerEnabled}
+              className="flex-1"
+            />
+            <span className="text-xs font-bold text-foreground tabular-nums w-7 text-right">
+              {timerEnabled ? `${timerValue}s` : "∞"}
+            </span>
+          </div>
+        </div>
+
+        {/* COMPACT EXERCISE BUTTONS (Icon-only, horizontal) */}
+        <div className="flex items-center justify-center gap-3">
+          {/* Writing */}
           <Button
             variant="outline"
             onClick={() => handleExerciseStart("writing")}
-            className="bg-card border-2 border-border hover:bg-muted/30 transition-colors shadow-sm p-3 h-auto flex-col gap-1"
+            disabled={selectedCount === 0}
+            className="h-9 w-9 p-0 border-2 hover:bg-muted/30 transition-colors"
+            title={getLocalizedText(language as SupportedLanguage, "Latihan Menulis", "Writing Exercise")}
           >
-            <Edit3 className="h-4 w-4 text-foreground" />
-            <span className="text-xs font-medium text-foreground">
-              {getLocalizedText(
-                language as SupportedLanguage,
-                "Menulis",
-                "Writing"
-              )}
-            </span>
+            <Edit3 className="h-4 w-4" />
           </Button>
 
-          {/* Reading Exercise */}
+          {/* Reading */}
           <Button
             variant="outline"
             onClick={() => handleExerciseStart("reading")}
-            className="bg-card border-2 border-border hover:bg-muted/30 transition-colors shadow-sm p-3 h-auto flex-col gap-1"
+            disabled={selectedCount === 0}
+            className="h-9 w-9 p-0 border-2 hover:bg-muted/30 transition-colors"
+            title={getLocalizedText(language as SupportedLanguage, "Latihan Membaca", "Reading Exercise")}
           >
-            <Book className="h-4 w-4 text-foreground" />
-            <span className="text-xs font-medium text-foreground">
-              {getLocalizedText(
-                language as SupportedLanguage,
-                "Membaca",
-                "Reading"
-              )}
-            </span>
+            <Book className="h-4 w-4" />
           </Button>
 
-          {/* Pairing Exercise */}
+          {/* Pairing */}
           <Button
             variant="outline"
             onClick={() => handleExerciseStart("pairing")}
-            className="bg-card border-2 border-border hover:bg-muted/30 transition-colors shadow-sm p-3 h-auto flex-col gap-1"
+            disabled={selectedCount === 0}
+            className="h-9 w-9 p-0 border-2 hover:bg-muted/30 transition-colors"
+            title={getLocalizedText(language as SupportedLanguage, "Latihan Pasangan", "Pairing Exercise")}
           >
-            <Users className="h-4 w-4 text-foreground" />
-            <span className="text-xs font-medium text-foreground">
-              {getLocalizedText(
-                language as SupportedLanguage,
-                "Pasangan",
-                "Pairing"
-              )}
-            </span>
+            <Users className="h-4 w-4" />
           </Button>
         </div>
       </div>

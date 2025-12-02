@@ -12,11 +12,12 @@ import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { useHomeStore } from "../store/home-store";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 import { ExerciseCard } from "../components/exercise-card";
-import { Edit3, Book, Users, RotateCcw } from "lucide-react";
+import { Edit3, Book, Users, RotateCcw, Clock } from "lucide-react";
 import { Button } from "@/pwa/core/components/button";
 import { Tabs, TabsList, TabsTrigger } from "@/pwa/core/components/tabs";
 import { Slider } from "@/pwa/core/components/slider";
 import { Checkbox } from "@/pwa/core/components/checkbox";
+import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.store";
 
 interface VocabularyExerciseModalData {
   categoryId: string;
@@ -29,10 +30,16 @@ interface VocabularyExerciseModalProps {
   showProgress?: boolean;
 }
 
-export function VocabularyExerciseModal({ showProgress = false }: VocabularyExerciseModalProps) {
+export function VocabularyExerciseModal({
+  showProgress = false,
+}: VocabularyExerciseModalProps) {
   const router = useRouter();
-  const { vocabularyExerciseModal, closeVocabularyExerciseModal } = useHomeStore();
-  const { getExerciseProgress, getVocabularyAccuracy } = useVocabularyScoreStore();
+  const { vocabularyExerciseModal, closeVocabularyExerciseModal } =
+    useHomeStore();
+  const { getExerciseProgress, getVocabularyAccuracy } =
+    useVocabularyScoreStore();
+  const { timerEnabled, timerValue, setTimerEnabled, setTimerValue } =
+    useTimerPreferenceStore();
 
   // Review Mode State
   const [mode, setMode] = useState<"normal" | "review">("normal");
@@ -62,15 +69,21 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
       // Include words below threshold
       return accuracy < threshold;
     });
-  }, [vocabularyExerciseModal, mode, threshold, includeNewWords, getVocabularyAccuracy]);
+  }, [
+    vocabularyExerciseModal,
+    mode,
+    threshold,
+    includeNewWords,
+    getVocabularyAccuracy,
+  ]);
 
   const handleExerciseStart = (exerciseType: string) => {
     if (!vocabularyExerciseModal) return;
 
     const { categoryId, level } = vocabularyExerciseModal;
-    
+
     closeVocabularyExerciseModal();
-    
+
     // Build URL params
     const params = new URLSearchParams({
       categoryId,
@@ -79,16 +92,20 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
 
     // Add filtered vocabulary IDs if in review mode (reuse selectedVocabulary param from lesson selection)
     if (mode === "review" && filteredVocabularyList.length > 0) {
-      params.append("selectedVocabulary", filteredVocabularyList.map(v => v.id).join(","));
+      params.append(
+        "selectedVocabulary",
+        filteredVocabularyList.map((v) => v.id).join(",")
+      );
     }
-    
+
     // Navigate to vocabulary exercise with selected type
     router.push(`/vocabulary/exercise/${exerciseType}?${params.toString()}`);
   };
 
   if (!vocabularyExerciseModal) return null;
 
-  const { categoryName, vocabularyList, level, categoryId } = vocabularyExerciseModal;
+  const { categoryName, vocabularyList, level, categoryId } =
+    vocabularyExerciseModal;
 
   // Review mode statistics
   const totalWords = vocabularyList.length;
@@ -96,7 +113,10 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
   const isReviewEmpty = mode === "review" && reviewWordsCount === 0;
 
   return (
-    <Dialog open={!!vocabularyExerciseModal} onOpenChange={closeVocabularyExerciseModal}>
+    <Dialog
+      open={!!vocabularyExerciseModal}
+      onOpenChange={closeVocabularyExerciseModal}
+    >
       <DialogContent className="sm:max-w-md bg-popover border-2 border-border shadow-xl backdrop-blur-sm">
         <DialogHeader className="text-center space-y-2">
           <div className="mx-auto bg-foreground text-background px-4 py-1.5 rounded-full w-fit">
@@ -105,12 +125,18 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
           <DialogTitle className="text-lg font-bold text-foreground flex items-center justify-center gap-2">
             <span>{categoryName}</span>
             <span className="text-muted-foreground">•</span>
-            <span className="text-sm font-normal text-muted-foreground">{vocabularyList.length} words</span>
+            <span className="text-sm font-normal text-muted-foreground">
+              {vocabularyList.length} words
+            </span>
           </DialogTitle>
         </DialogHeader>
 
         {/* Mode Tabs */}
-        <Tabs value={mode} onValueChange={(v) => setMode(v as "normal" | "review")} className="w-full mt-4">
+        <Tabs
+          value={mode}
+          onValueChange={(v) => setMode(v as "normal" | "review")}
+          className="w-full mt-4"
+        >
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="normal">Normal</TabsTrigger>
             <TabsTrigger value="review" className="flex items-center gap-1">
@@ -148,7 +174,9 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
               <Checkbox
                 id="includeNew"
                 checked={includeNewWords}
-                onCheckedChange={(checked) => setIncludeNewWords(checked === true)}
+                onCheckedChange={(checked) =>
+                  setIncludeNewWords(checked === true)
+                }
               />
               <label
                 htmlFor="includeNew"
@@ -168,6 +196,47 @@ export function VocabularyExerciseModal({ showProgress = false }: VocabularyExer
             </div>
           </div>
         )}
+
+        {/* Timer Settings - Always visible */}
+        <div className="space-y-3 p-3 bg-muted/50 rounded-lg border border-border">
+          <div className="flex items-center gap-2">
+            <Clock className="w-4 h-4 text-foreground" />
+            <label className="text-sm font-semibold text-foreground">
+              Timer
+            </label>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <Checkbox
+              id="timer-enable"
+              checked={timerEnabled}
+              onCheckedChange={(checked) => setTimerEnabled(checked === true)}
+            />
+            <label
+              htmlFor="timer-enable"
+              className="text-sm font-medium text-foreground cursor-pointer"
+            >
+              {timerEnabled ? `${timerValue}s per question` : "No time limit"}
+            </label>
+          </div>
+
+          {timerEnabled && (
+            <div className="space-y-1.5">
+              <Slider
+                value={[timerValue]}
+                onValueChange={(values) => setTimerValue(values[0])}
+                min={10}
+                max={60}
+                step={5}
+                className="w-full"
+              />
+              <div className="flex items-center justify-between text-xs text-muted-foreground">
+                <span>10s</span>
+                <span>60s</span>
+              </div>
+            </div>
+          )}
+        </div>
 
         {/* Empty State for Review Mode */}
         {isReviewEmpty ? (

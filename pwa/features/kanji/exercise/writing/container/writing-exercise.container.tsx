@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
 import {
@@ -24,11 +24,17 @@ import { AssemblyArea } from "../fragments/assembly-area";
 import { SubmitButton } from "../components";
 import { getWritingQuestions } from "../utils";
 import { useExerciseSearchParams } from "../../utils/hooks";
+import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.store";
 
 export function WritingExerciseContainer() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { lessonId, topicId, level, selectedKanjiIds } =
     useExerciseSearchParams();
+
+  // Get timer value from store (not URL params)
+  const { timerEnabled, timerValue } = useTimerPreferenceStore();
+  const timerDuration = timerEnabled ? timerValue : 0;
 
   // All state now managed by useWritingExerciseStore
 
@@ -77,6 +83,14 @@ export function WritingExerciseContainer() {
       coordinateGetter: sortableKeyboardCoordinates,
     })
   );
+
+  // Auto-submit when timer expires
+  const handleTimeUp = () => {
+    if (selectedKanji.length === 0) return;
+    const result = useWritingExerciseStore.getState().checkAnswer();
+    useWritingExerciseStore.getState().setIsCorrect(result);
+    useWritingExerciseStore.getState().setShowFeedback(true);
+  };
 
   useEffect(() => {
     resetExerciseProgress();
@@ -182,8 +196,12 @@ export function WritingExerciseContainer() {
           <WritingHeader />
 
           <div className="space-y-6">
-            {/* Audio and Reading Display */}
-            <Question />
+            {/* Audio and Reading Display with timer */}
+            <Question 
+              timerDuration={timerDuration}
+              onTimeUp={handleTimeUp}
+              isPaused={showFeedback}
+            />
 
             {/* Assembly Area with Kanji Selection Grid */}
             <AssemblyArea />
