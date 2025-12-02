@@ -1,4 +1,5 @@
 import { VocabularyQuestion, VocabularyExerciseWord } from "../../shared/types";
+import { shuffleArray } from "@/pwa/features/kanji/exercise/pairing";
 
 /**
  * Generate writing questions from vocabulary words
@@ -7,7 +8,7 @@ export function generateWritingQuestions(
   words: VocabularyExerciseWord[],
   questionType: "meaning-to-romaji" | "meaning-to-hiragana" | "meaning-to-kanji" = "meaning-to-romaji"
 ): VocabularyQuestion[] {
-  return words.map((word, index) => {
+  const questions = words.map((word, index) => {
     // Set correct answer based on question type
     let correctAnswer: string;
     let japanese: string;
@@ -40,6 +41,9 @@ export function generateWritingQuestions(
       questionType,
     };
   });
+
+  // Shuffle questions to randomize order
+  return shuffleArray(questions);
 }
 
 /**
