@@ -36,14 +36,39 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
   // Ambil stroke lessons berdasarkan level yang dipilih
   const strokeLessons: Lesson[] = getLessonsByLevel(selectedLevel);
 
+  // Sort lessons by progress before pagination
+  const sortedLessons = useMemo(() => {
+    return [...strokeLessons].sort((a, b) => {
+      const progressA = getLessonProgress(a.id.toString(), selectedLevel);
+      const progressB = getLessonProgress(b.id.toString(), selectedLevel);
+      
+      // Group 1: Completed (100%) - at bottom
+      if (progressA === 100 && progressB === 100) {
+        return a.id - b.id; // Both completed, sort by ID
+      }
+      if (progressA === 100) return 1; // A completed, push down
+      if (progressB === 100) return -1; // B completed, push down
+      
+      // Group 2: Not started (0%) - in middle
+      if (progressA === 0 && progressB === 0) {
+        return a.id - b.id; // Both not started, sort by ID
+      }
+      if (progressA === 0) return 1; // A not started, lower priority
+      if (progressB === 0) return -1; // B not started, lower priority
+      
+      // Group 3: In progress (1-99%) - at top, higher progress first
+      return progressB - progressA;
+    });
+  }, [strokeLessons, selectedLevel, getLessonProgress]);
+
   // Bagi stroke lessons ke dalam tab-tab (pagination dengan limit 10)
   const lessonTabs = useMemo(() => {
     const tabs = [];
-    for (let i = 0; i < strokeLessons.length; i += LESSONS_PER_TAB) {
-      const tabLessons = strokeLessons.slice(i, i + LESSONS_PER_TAB);
+    for (let i = 0; i < sortedLessons.length; i += LESSONS_PER_TAB) {
+      const tabLessons = sortedLessons.slice(i, i + LESSONS_PER_TAB);
       const tabNumber = Math.floor(i / LESSONS_PER_TAB) + 1;
       const startLesson = i + 1;
-      const endLesson = Math.min(i + LESSONS_PER_TAB, strokeLessons.length);
+      const endLesson = Math.min(i + LESSONS_PER_TAB, sortedLessons.length);
 
       tabs.push({
         id: tabNumber.toString(),
@@ -52,7 +77,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
       });
     }
     return tabs;
-  }, [strokeLessons]);
+  }, [sortedLessons]);
 
   // Handle exercise click for stroke-based lessons
   const handleExerciseClick = (lessonId: number) => {

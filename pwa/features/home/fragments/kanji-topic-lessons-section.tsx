@@ -37,11 +37,36 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
   // Ambil topic lessons berdasarkan level yang dipilih
   const topicLessons = getTopicLessons(selectedLevel);
 
+  // Sort topics by progress before pagination
+  const sortedTopics = useMemo(() => {
+    return [...topicLessons].sort((a, b) => {
+      const progressA = getLessonProgress(`topic_${a.id}`, selectedLevel);
+      const progressB = getLessonProgress(`topic_${b.id}`, selectedLevel);
+      
+      // Group 1: Completed (100%) - at bottom
+      if (progressA === 100 && progressB === 100) {
+        return a.id.localeCompare(b.id); // Both completed, sort by ID
+      }
+      if (progressA === 100) return 1; // A completed, push down
+      if (progressB === 100) return -1; // B completed, push down
+      
+      // Group 2: Not started (0%) - in middle
+      if (progressA === 0 && progressB === 0) {
+        return a.id.localeCompare(b.id); // Both not started, sort by ID
+      }
+      if (progressA === 0) return 1; // A not started, lower priority
+      if (progressB === 0) return -1; // B not started, lower priority
+      
+      // Group 3: In progress (1-99%) - at top, higher progress first
+      return progressB - progressA;
+    });
+  }, [topicLessons, selectedLevel, getLessonProgress]);
+
   // Bagi topic lessons ke dalam tab-tab (pagination dengan limit 10)
   const topicTabs = useMemo(() => {
     const tabs = [];
-    for (let i = 0; i < topicLessons.length; i += TOPICS_PER_TAB) {
-      const tabTopics = topicLessons.slice(i, i + TOPICS_PER_TAB);
+    for (let i = 0; i < sortedTopics.length; i += TOPICS_PER_TAB) {
+      const tabTopics = sortedTopics.slice(i, i + TOPICS_PER_TAB);
       const tabNumber = Math.floor(i / TOPICS_PER_TAB) + 1;
 
       tabs.push({
@@ -51,7 +76,7 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
       });
     }
     return tabs;
-  }, [topicLessons]);
+  }, [sortedTopics]);
 
   // Handle exercise click for topic-based lessons
   const handleTopicExerciseClick = (topicId: string) => {

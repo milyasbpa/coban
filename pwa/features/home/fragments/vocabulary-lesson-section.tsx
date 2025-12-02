@@ -33,11 +33,36 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
   const vocabularyCategories =
     VocabularyService.getVocabularyCategories(selectedLevel);
 
+  // Sort categories by progress before pagination
+  const sortedCategories = useMemo(() => {
+    return [...vocabularyCategories].sort((a, b) => {
+      const progressA = getCategoryProgress(a.id.toString(), selectedLevel);
+      const progressB = getCategoryProgress(b.id.toString(), selectedLevel);
+      
+      // Group 1: Completed (100%) - at bottom
+      if (progressA === 100 && progressB === 100) {
+        return a.id - b.id; // Both completed, sort by ID
+      }
+      if (progressA === 100) return 1; // A completed, push down
+      if (progressB === 100) return -1; // B completed, push down
+      
+      // Group 2: Not started (0%) - in middle
+      if (progressA === 0 && progressB === 0) {
+        return a.id - b.id; // Both not started, sort by ID
+      }
+      if (progressA === 0) return 1; // A not started, lower priority
+      if (progressB === 0) return -1; // B not started, lower priority
+      
+      // Group 3: In progress (1-99%) - at top, higher progress first
+      return progressB - progressA;
+    });
+  }, [vocabularyCategories, selectedLevel, getCategoryProgress]);
+
   // Divide vocabulary categories into tabs (pagination with limit 10)
   const categoryTabs = useMemo(() => {
     const tabs = [];
-    for (let i = 0; i < vocabularyCategories.length; i += CATEGORIES_PER_TAB) {
-      const tabCategories = vocabularyCategories.slice(
+    for (let i = 0; i < sortedCategories.length; i += CATEGORIES_PER_TAB) {
+      const tabCategories = sortedCategories.slice(
         i,
         i + CATEGORIES_PER_TAB
       );
@@ -50,7 +75,7 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
       });
     }
     return tabs;
-  }, [vocabularyCategories]);
+  }, [sortedCategories]);
 
   // Handle exercise click for vocabulary categories
   const handleVocabularyExerciseClick = (categoryId: number) => {
@@ -88,11 +113,11 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
   if (categoryTabs.length === 1) {
     return (
       <div className="space-y-4">
-        {categoryTabs[0].categories.map((category, index) => (
+        {categoryTabs[0].categories.map((category) => (
           <VocabularyLessonCard
             key={category.id}
             level={selectedLevel}
-            lessonNumber={index + 1}
+            lessonNumber={category.id}
             title={titleCase(category.category.en)}
             wordCount={category.vocabulary.length}
             progress={getCategoryProgress(category.id.toString(), selectedLevel)}
@@ -123,27 +148,21 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
 
         {categoryTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
-            {tab.categories.map((category, index) => {
-              // Calculate lesson number across all tabs
-              const tabIndex = parseInt(tab.id) - 1;
-              const lessonNumber = tabIndex * CATEGORIES_PER_TAB + index + 1;
-
-              return (
-                <VocabularyLessonCard
-                  key={category.id}
-                  level={selectedLevel}
-                  lessonNumber={lessonNumber}
-                  title={category.category.en}
-                  wordCount={category.vocabulary.length}
-                  progress={getCategoryProgress(category.id.toString(), selectedLevel)}
-                  onExerciseClick={() =>
-                    handleVocabularyExerciseClick(category.id)
-                  }
-                  onListClick={() => handleVocabularyListClick(category.id)}
-                  showProgress={showProgress}
-                />
-              );
-            })}
+            {tab.categories.map((category) => (
+              <VocabularyLessonCard
+                key={category.id}
+                level={selectedLevel}
+                lessonNumber={category.id}
+                title={category.category.en}
+                wordCount={category.vocabulary.length}
+                progress={getCategoryProgress(category.id.toString(), selectedLevel)}
+                onExerciseClick={() =>
+                  handleVocabularyExerciseClick(category.id)
+                }
+                onListClick={() => handleVocabularyListClick(category.id)}
+                showProgress={showProgress}
+              />
+            ))}
           </TabsContent>
         ))}
       </Tabs>
