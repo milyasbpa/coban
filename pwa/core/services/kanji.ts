@@ -24,6 +24,20 @@ export interface KanjiExample {
   };
 }
 
+export interface ReadingUsage {
+  reading: KanjiReading;
+  type: 'kun' | 'on';
+  examples: KanjiExample[];
+}
+
+export interface KanjiContextData {
+  kanji: KanjiDetail;
+  currentWord: KanjiExample;
+  usedReading: ReadingUsage | null;
+  otherReadings: ReadingUsage[];
+  allExamples: KanjiExample[];
+}
+
 export interface KanjiDetail {
   id: number;
   character: string;
@@ -328,5 +342,195 @@ export class KanjiService {
   static getTotalWordsForKanji(word: string, level: string = "N5"): number {
     const kanjiInfo = this.getKanjiInfoForScoring(word, level);
     return kanjiInfo.totalWords;
+  }
+
+  /**
+   * Get comprehensive context data for a kanji in a specific word
+   * This helps user understand WHICH reading is used and WHY
+   */
+  static getKanjiContext(
+    kanjiId: number,
+    wordFurigana: string,
+    level: string
+  ): KanjiContextData | null {
+    const kanji = this.getKanjiById(kanjiId, level);
+    if (!kanji) return null;
+
+    const currentWord = kanji.examples.find(
+      (ex) => ex.furigana === wordFurigana
+    );
+    if (!currentWord) return null;
+
+    // Detect which reading is used in current word
+    const usedReading = this.detectUsedReading(kanji, currentWord);
+
+    // Group other examples by reading
+    const otherReadings = this.groupExamplesByReading(kanji, currentWord);
+
+    return {
+      kanji,
+      currentWord,
+      usedReading,
+      otherReadings,
+      allExamples: kanji.examples,
+    };
+  }
+
+  /**
+   * Detect which reading (kun/on) is used in a specific word
+   * This solves: "Kenapa pakai TEI bukan CHOU?"
+   */
+  private static detectUsedReading(
+    kanji: KanjiDetail,
+    word: KanjiExample
+  ): ReadingUsage | null {
+    const wordFurigana = word.furigana.toLowerCase();
+
+    // Try ON readings first
+    for (const onReading of kanji.readings.on) {
+      const readingHiragana = this.katakanaToHiragana(onReading.furigana);
+      if (wordFurigana.includes(readingHiragana.toLowerCase())) {
+        return {
+          reading: onReading,
+          type: 'on',
+          examples: kanji.examples.filter((ex) =>
+            ex.furigana.toLowerCase().includes(readingHiragana.toLowerCase())
+          ),
+        };
+      }
+    }
+
+    // Try KUN readings
+    for (const kunReading of kanji.readings.kun) {
+      const readingHiragana = kunReading.furigana.toLowerCase();
+      if (wordFurigana.includes(readingHiragana)) {
+        return {
+          reading: kunReading,
+          type: 'kun',
+          examples: kanji.examples.filter((ex) =>
+            ex.furigana.toLowerCase().includes(readingHiragana)
+          ),
+        };
+      }
+    }
+
+    return null;
+  }
+
+  /**
+   * Group examples by reading to show patterns
+   * "Kapan pakai TEI? Kapan pakai CHOU?"
+   */
+  private static groupExamplesByReading(
+    kanji: KanjiDetail,
+    currentWord: KanjiExample
+  ): ReadingUsage[] {
+    const groups: ReadingUsage[] = [];
+
+    // Group by ON readings
+    kanji.readings.on.forEach((onReading) => {
+      const readingHiragana = this.katakanaToHiragana(onReading.furigana);
+      const examples = kanji.examples.filter((ex) =>
+        ex.furigana.toLowerCase().includes(readingHiragana.toLowerCase())
+      );
+
+      if (examples.length > 0) {
+        groups.push({
+          reading: onReading,
+          type: 'on',
+          examples,
+        });
+      }
+    });
+
+    // Group by KUN readings
+    kanji.readings.kun.forEach((kunReading) => {
+      const readingHiragana = kunReading.furigana.toLowerCase();
+      const examples = kanji.examples.filter((ex) =>
+        ex.furigana.toLowerCase().includes(readingHiragana)
+      );
+
+      if (examples.length > 0) {
+        groups.push({
+          reading: kunReading,
+          type: 'kun',
+          examples,
+        });
+      }
+    });
+
+    return groups;
+  }
+
+  /**
+   * Convert katakana to hiragana for comparison
+   */
+  private static katakanaToHiragana(str: string): string {
+    return str.replace(/[\u30a1-\u30f6]/g, (match) => {
+      const chr = match.charCodeAt(0) - 0x60;
+      return String.fromCharCode(chr);
+    });
+  }
+
+  /**
+   * Get reading pattern hint for memory
+   * E.g., "TEI for formal words, CHOU for counting"
+   */
+  static getReadingHint(
+    readingUsage: ReadingUsage,
+    kanji: KanjiDetail
+  ): string {
+    const { reading, type, examples } = readingUsage;
+
+    // Analyze example meanings to infer pattern
+    const meanings = examples.map((ex) => ex.meanings.en.toLowerCase());
+
+    // Common patterns
+    if (meanings.some((m) => m.includes('counter') || m.includes('block'))) {
+      return `${reading.romanji} is often used for counting or locations`;
+    }
+
+    if (meanings.some((m) => m.includes('polite') || m.includes('formal'))) {
+      return `${reading.romanji} is often used in formal or quality-related words`;
+    }
+
+    if (type === 'kun') {
+      return `${reading.romanji} (KUN reading) is often used in standalone words or verbs`;
+    }
+
+    if (type === 'on') {
+      return `${reading.romanji} (ON reading) is often used in compound words`;
+    }
+
+    return `${reading.romanji} is used in ${examples.length} word(s)`;
+  }
+
+  /**
+   * Get related words from other lessons/topics
+   * Helps with: "Kanji sama di list lain"
+   */
+  static getRelatedWordsAcrossLevels(
+    kanjiCharacter: string,
+    currentLevel: string,
+    maxWords: number = 5
+  ): KanjiExample[] {
+    const levels = ['N5', 'N4', 'N3', 'N2'];
+    const relatedWords: KanjiExample[] = [];
+
+    for (const level of levels) {
+      if (level === currentLevel) continue; // Skip current level
+
+      const allKanji = this.getAllKanjiByLevel(level);
+      const matchingKanji = allKanji.find(
+        (k) => k.character === kanjiCharacter
+      );
+
+      if (matchingKanji) {
+        relatedWords.push(...matchingKanji.examples);
+      }
+    }
+
+    // Return limited number of most common words
+    return relatedWords.slice(0, maxWords);
   }
 }
