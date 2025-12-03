@@ -1,13 +1,20 @@
 "use client";
 
 import React from "react";
+import { useSearchParams } from "next/navigation";
 import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
 import { WritingControlButtons as WritingControlButtonsComponent } from "../components/writing-control-buttons";
 import { checkTileAnswer, getExpectedTileAnswer } from "../utils/generate-character-tiles";
 import { calculateScore } from "../utils/vocabulary-writing.utils";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 
 export const WritingControlButtons: React.FC = () => {
   const store = useVocabularyWritingExerciseStore();
+  const searchParams = useSearchParams();
+  const { user } = useLoginStore();
+
+  const level = searchParams.get("level") || "N5";
+  const categoryId = searchParams.get("categoryId") || "";
 
   const handleCheckAnswer = () => {
     const currentQuestion = store.getCurrentQuestion();
@@ -32,7 +39,7 @@ export const WritingControlButtons: React.FC = () => {
   };
 
   const handleNextQuestion = () => {
-    store.handleNextQuestion(calculateScore);
+    store.handleNextQuestion(calculateScore, level, categoryId, user?.uid || null);
   };
 
   return (

@@ -412,28 +412,26 @@ export const useVocabularyReadingExerciseStore =
           },
         }));
 
-        // Integrate vocabulary scoring at game completion (only for non-retry mode)
-        if (!isRetryMode) {
-          (async () => {
-            try {
-              // Only save if userId is provided (authenticated user)
-              if (userId) {
-                await integrateVocabularyReadingGameScore(
-                  questions,
-                  wrongQuestions,
-                  level,
-                  categoryId,
-                  userId
-                );
-              }
-            } catch (error) {
-              console.error(
-                "Error integrating vocabulary reading game score:",
-                error
+        // Integrate vocabulary scoring at game completion
+        (async () => {
+          try {
+            // Only save if userId is provided (authenticated user)
+            if (userId) {
+              await integrateVocabularyReadingGameScore(
+                questions,
+                wrongQuestions,
+                level,
+                categoryId,
+                userId
               );
             }
-          })();
-        }
+          } catch (error) {
+            console.error(
+              "Error integrating vocabulary reading game score:",
+              error
+            );
+          }
+        })();
       }
 
       next();

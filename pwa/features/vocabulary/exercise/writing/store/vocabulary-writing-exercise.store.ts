@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { VocabularyQuestion, VocabularyExerciseWord } from "../../shared/types";
 import { CharacterTile } from "../utils/generate-character-tiles";
+import { integrateVocabularyWritingExerciseScore } from "../utils/scoring-integration";
 
 export interface VocabularyWritingGameState {
   questions: VocabularyQuestion[];
@@ -68,8 +69,13 @@ export interface VocabularyWritingExerciseState {
   addWrongQuestion: (question: VocabularyQuestion) => void;
   addCorrectQuestion: (question: VocabularyQuestion) => void;
   
-  // Handler for next question with score calculation
-  handleNextQuestion: (calculateScore: (correctQuestions: VocabularyQuestion[], totalQuestions: number) => number) => void;
+  // Handler for next question with score calculation and integration
+  handleNextQuestion: (
+    calculateScore: (correctQuestions: VocabularyQuestion[], totalQuestions: number) => number,
+    level: string,
+    categoryId: string,
+    userId: string | null
+  ) => void;
 }
 
 export const useVocabularyWritingExerciseStore = create<VocabularyWritingExerciseState>((set, get) => ({
@@ -393,9 +399,9 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     }));
   },
 
-  handleNextQuestion: (calculateScore) => {
+  handleNextQuestion: (calculateScore, level, categoryId, userId) => {
     const { 
-      gameState: { correctQuestions, isRetryMode, score, questions }, 
+      gameState: { correctQuestions, isRetryMode, score, questions, wrongQuestions }, 
       getTotalQuestions,
       getCurrentQuestionNumber,
       nextQuestion: next 
@@ -422,6 +428,28 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
           score: Math.round(finalScore)
         }
       }));
+
+      // Integrate vocabulary scoring at game completion
+      (async () => {
+        try {
+          // Only save if userId is provided (authenticated user)
+          if (userId) {
+            await integrateVocabularyWritingExerciseScore(
+              questions,
+              wrongQuestions,
+              correctQuestions,
+              level,
+              categoryId,
+              userId
+            );
+          }
+        } catch (error) {
+          console.error(
+            "Error integrating vocabulary writing game score:",
+            error
+          );
+        }
+      })();
     }
     
     next();
