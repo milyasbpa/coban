@@ -297,16 +297,16 @@ export function VocabularyItemCard({
           <div className="flex-1 space-y-1">
             {/* Hiragana - Subtle at top */}
             {displayOptions.hiragana && (
-              <div className="text-xs text-foreground/80 font-semibold">
+              <p className="text-xs text-foreground/80 font-semibold">
                 {vocabulary.hiragana}
-              </div>
+              </p>
             )}
 
             {/* Kanji - Main Focus */}
             {displayOptions.japanese && (
-              <div className="text-3xl font-bold text-foreground leading-none tracking-tight">
+              <p className="text-3xl font-bold text-foreground leading-none tracking-tight">
                 {vocabulary.kanji}
-              </div>
+              </p>
             )}
 
             {/* Bottom Row: Romaji • Meaning */}
