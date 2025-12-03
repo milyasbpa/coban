@@ -297,14 +297,14 @@ export function VocabularyItemCard({
           <div className="flex-1 space-y-1">
             {/* Hiragana - Subtle at top */}
             {displayOptions.hiragana && (
-              <p className="text-xs text-foreground/80 font-semibold">
+              <p className="text-xs text-foreground/80 font-semibold select-text">
                 {vocabulary.hiragana}
               </p>
             )}
 
             {/* Kanji - Main Focus */}
             {displayOptions.japanese && (
-              <p className="text-3xl font-bold text-foreground leading-none tracking-tight">
+              <p className="text-3xl font-bold text-foreground leading-none tracking-tight select-text">
                 {vocabulary.kanji}
               </p>
             )}
@@ -313,7 +313,7 @@ export function VocabularyItemCard({
             {(displayOptions.romanji || displayOptions.meaning) && (
               <div className="flex items-center gap-2 flex-wrap">
                 {displayOptions.romanji && (
-                  <span className="text-sm text-muted-foreground font-medium">
+                  <span className="text-sm text-muted-foreground font-medium select-text">
                     {vocabulary.romaji}
                   </span>
                 )}
@@ -321,7 +321,7 @@ export function VocabularyItemCard({
                   <span className="text-muted-foreground/30 text-sm">•</span>
                 )}
                 {displayOptions.meaning && (
-                  <span className="text-sm text-foreground font-semibold">
+                  <span className="text-sm text-foreground font-semibold select-text">
                     {language === "en"
                       ? vocabulary.meanings.en
                       : vocabulary.meanings.id}
@@ -418,7 +418,7 @@ export function VocabularyItemCard({
                   <div className="flex-1 min-w-0 space-y-1">
                     {/* Sentence */}
                     {displayOptions.japanese && (
-                      <div className="text-sm font-bold text-foreground leading-relaxed">
+                      <div className="text-sm font-bold text-foreground leading-relaxed select-text">
                         {highlightMatchingCharacters(
                           example.sentence,
                           vocabulary.kanji
@@ -427,7 +427,7 @@ export function VocabularyItemCard({
                     )}
                     {/* Furigana */}
                     {displayOptions.hiragana && (
-                      <div className="text-[10px] text-muted-foreground font-normal leading-relaxed">
+                      <div className="text-[10px] text-muted-foreground font-normal leading-relaxed select-text">
                         {highlightMatchingCharacters(
                           example.furigana,
                           vocabulary.hiragana
@@ -437,7 +437,7 @@ export function VocabularyItemCard({
 
                     {/* Romaji */}
                     {displayOptions.romanji && (
-                      <div className="text-xs text-muted-foreground font-medium leading-relaxed">
+                      <div className="text-xs text-muted-foreground font-medium leading-relaxed select-text">
                         {highlightMatchingCharacters(
                           example.romaji,
                           vocabulary.romaji
@@ -447,7 +447,7 @@ export function VocabularyItemCard({
 
                     {/* Translation */}
                     {displayOptions.meaning && (
-                      <div className="text-xs text-foreground/90 font-semibold leading-relaxed">
+                      <div className="text-xs text-foreground/90 font-semibold leading-relaxed select-text">
                         {language === "en"
                           ? highlightMatchingMeanings(
                               example.meanings.en,
