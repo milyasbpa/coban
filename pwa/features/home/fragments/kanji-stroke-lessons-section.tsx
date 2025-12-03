@@ -25,6 +25,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
   const { getLessonProgress, isInitialized } = useKanjiScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
+  const [filterTab, setFilterTab] = useState<"all" | "in-progress" | "finished">("in-progress");
 
   // Reset to tab 1 when selected level changed
   useEffect(() => {
@@ -61,14 +62,32 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
     });
   }, [strokeLessons, selectedLevel, getLessonProgress, isInitialized]);
 
+  // Apply filter based on selected filter tab
+  const filteredLessons = useMemo(() => {
+    if (filterTab === "all") {
+      return sortedLessons;
+    } else if (filterTab === "in-progress") {
+      return sortedLessons.filter((lesson) => {
+        const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
+        return progress > 0 && progress < 100;
+      });
+    } else if (filterTab === "finished") {
+      return sortedLessons.filter((lesson) => {
+        const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
+        return progress === 100;
+      }).sort((a, b) => a.id - b.id); // Sort finished by lesson number
+    }
+    return sortedLessons;
+  }, [sortedLessons, filterTab, selectedLevel, getLessonProgress]);
+
   // Bagi stroke lessons ke dalam tab-tab (pagination dengan limit 10)
   const lessonTabs = useMemo(() => {
     const tabs = [];
-    for (let i = 0; i < sortedLessons.length; i += LESSONS_PER_TAB) {
-      const tabLessons = sortedLessons.slice(i, i + LESSONS_PER_TAB);
+    for (let i = 0; i < filteredLessons.length; i += LESSONS_PER_TAB) {
+      const tabLessons = filteredLessons.slice(i, i + LESSONS_PER_TAB);
       const tabNumber = Math.floor(i / LESSONS_PER_TAB) + 1;
       const startLesson = i + 1;
-      const endLesson = Math.min(i + LESSONS_PER_TAB, sortedLessons.length);
+      const endLesson = Math.min(i + LESSONS_PER_TAB, filteredLessons.length);
 
       tabs.push({
         id: tabNumber.toString(),
@@ -77,7 +96,13 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
       });
     }
     return tabs;
-  }, [sortedLessons]);
+  }, [filteredLessons]);
+
+  // Reset to Part 1 when filter changes
+  const handleFilterChange = (value: string) => {
+    setFilterTab(value as "all" | "in-progress" | "finished");
+    setActiveTab("1");
+  };
 
   // Handle exercise click for stroke-based lessons
   const handleExerciseClick = (lessonId: number) => {
@@ -96,8 +121,8 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
     router.push(`/kanji/lesson?lessonId=${lessonId}&level=${selectedLevel}`);
   };
 
-  // No lessons available
-  if (lessonTabs.length === 0) {
+  // No lessons available at all (raw data is empty)
+  if (strokeLessons.length === 0) {
     return (
       <div className="space-y-4">
         <p className="text-center text-muted-foreground">
@@ -112,7 +137,35 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
   if (lessonTabs.length === 1) {
     return (
       <div className="space-y-4">
-        {lessonTabs[0].lessons.map((lesson: Lesson) => (
+        {/* Filter Tabs */}
+        <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+          <TabsList className="grid w-full grid-cols-3">
+            <TabsTrigger value="all" className="text-xs">
+              All
+            </TabsTrigger>
+            <TabsTrigger value="in-progress" className="text-xs">
+              In Progress
+            </TabsTrigger>
+            <TabsTrigger value="finished" className="text-xs">
+              Finished
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
+
+        {/* Empty State */}
+        {lessonTabs[0].lessons.length === 0 ? (
+          <div className="py-8 text-center">
+            <p className="text-muted-foreground">
+              {filterTab === "finished"
+                ? "No completed lessons yet. Keep learning! 💪"
+                : filterTab === "in-progress"
+                ? "No lessons in progress. Start learning now! 🚀"
+                : "No lessons available"}
+            </p>
+          </div>
+        ) : (
+          <>
+            {lessonTabs[0].lessons.map((lesson: Lesson) => (
           <KanjiStrokeLessonCard
             key={lesson.id}
             level={lesson.level}
@@ -123,7 +176,9 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
             onListClick={() => handleListClick(lesson.id)}
             showProgress={showProgress}
           />
-        ))}
+            ))}
+          </>
+        )}
         <KanjiExerciseModal showProgress={showProgress} />
       </div>
     );
@@ -132,11 +187,27 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
   // Tampilkan dengan tabs jika lessons > 10
   return (
     <div className="space-y-4">
+      {/* Filter Tabs */}
+      <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+        <TabsList className="grid w-full grid-cols-3">
+          <TabsTrigger value="all" className="text-xs sm:text-sm">
+            All
+          </TabsTrigger>
+          <TabsTrigger value="in-progress" className="text-xs sm:text-sm">
+            In Progress
+          </TabsTrigger>
+          <TabsTrigger value="finished" className="text-xs sm:text-sm">
+            Finished
+          </TabsTrigger>
+        </TabsList>
+      </Tabs>
+
+      {/* Pagination Tabs */}
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
         <div className="w-full overflow-x-auto">
           <TabsList
             className={`
-              ${lessonTabs.length <= 4 ? "grid w-full" : "flex gap-1 w-max"}
+              ${lessonTabs.length <= 4 ? "grid w-full bg-muted/50" : "flex gap-1 w-max"}
             `}
             style={
               lessonTabs.length <= 4
@@ -161,7 +232,19 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
 
         {lessonTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
-            {tab.lessons.map((lesson: Lesson) => (
+            {tab.lessons.length === 0 ? (
+              <div className="py-8 text-center">
+                <p className="text-muted-foreground">
+                  {filterTab === "finished"
+                    ? "No completed lessons in this part yet. Keep learning! 💪"
+                    : filterTab === "in-progress"
+                    ? "No lessons in progress in this part. Start learning now! 🚀"
+                    : "No lessons available in this part"}
+                </p>
+              </div>
+            ) : (
+              <>
+                {tab.lessons.map((lesson: Lesson) => (
               <KanjiStrokeLessonCard
                 key={lesson.id}
                 level={lesson.level}
@@ -172,7 +255,9 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
                 onListClick={() => handleListClick(lesson.id)}
                 showProgress={showProgress}
               />
-            ))}
+                ))}
+              </>
+            )}
           </TabsContent>
         ))}
       </Tabs>

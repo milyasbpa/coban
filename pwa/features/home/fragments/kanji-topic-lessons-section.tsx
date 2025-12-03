@@ -26,6 +26,7 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
   const { getLessonProgress, isInitialized } = useKanjiScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
+  const [filterTab, setFilterTab] = useState<"all" | "in-progress" | "finished">("in-progress");
 
   // Reset to tab 1 when selected level changed
   useEffect(() => {
@@ -62,11 +63,29 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
     });
   }, [topicLessons, selectedLevel, getLessonProgress, isInitialized]);
 
+  // Apply filter based on selected filter tab
+  const filteredTopics = useMemo(() => {
+    if (filterTab === "all") {
+      return sortedTopics;
+    } else if (filterTab === "in-progress") {
+      return sortedTopics.filter((topic) => {
+        const progress = getLessonProgress(`topic_${topic.id}`, selectedLevel);
+        return progress > 0 && progress < 100;
+      });
+    } else if (filterTab === "finished") {
+      return sortedTopics.filter((topic) => {
+        const progress = getLessonProgress(`topic_${topic.id}`, selectedLevel);
+        return progress === 100;
+      }).sort((a, b) => a.id.localeCompare(b.id)); // Sort finished by ID
+    }
+    return sortedTopics;
+  }, [sortedTopics, filterTab, selectedLevel, getLessonProgress]);
+
   // Bagi topic lessons ke dalam tab-tab (pagination dengan limit 10)
   const topicTabs = useMemo(() => {
     const tabs = [];
-    for (let i = 0; i < sortedTopics.length; i += TOPICS_PER_TAB) {
-      const tabTopics = sortedTopics.slice(i, i + TOPICS_PER_TAB);
+    for (let i = 0; i < filteredTopics.length; i += TOPICS_PER_TAB) {
+      const tabTopics = filteredTopics.slice(i, i + TOPICS_PER_TAB);
       const tabNumber = Math.floor(i / TOPICS_PER_TAB) + 1;
 
       tabs.push({
@@ -76,7 +95,13 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
       });
     }
     return tabs;
-  }, [sortedTopics]);
+  }, [filteredTopics]);
+
+  // Reset to Part 1 when filter changes
+  const handleFilterChange = (value: string) => {
+    setFilterTab(value as "all" | "in-progress" | "finished");
+    setActiveTab("1");
+  };
 
   // Handle exercise click for topic-based lessons
   const handleTopicExerciseClick = (topicId: string) => {
@@ -106,8 +131,8 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
     router.push(`/kanji/lesson?topicId=${topicId}&level=${selectedLevel}`);
   };
 
-  // No topic lessons available
-  if (topicTabs.length === 0) {
+  // No topic lessons available at all (raw data is empty)
+  if (topicLessons.length === 0) {
     return (
       <div className="space-y-4">
         <p className="text-center text-muted-foreground">
@@ -122,7 +147,35 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
   if (topicTabs.length === 1) {
     return (
       <div className="space-y-4">
-        {topicTabs[0].topics.map((topic) => {
+        {/* Filter Tabs */}
+        <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+          <TabsList className="grid w-full grid-cols-3">
+            <TabsTrigger value="all" className="text-xs">
+              All
+            </TabsTrigger>
+            <TabsTrigger value="in-progress" className="text-xs">
+              In Progress
+            </TabsTrigger>
+            <TabsTrigger value="finished" className="text-xs">
+              Finished
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
+
+        {/* Empty State */}
+        {topicTabs[0].topics.length === 0 ? (
+          <div className="py-8 text-center">
+            <p className="text-muted-foreground">
+              {filterTab === "finished"
+                ? "No completed lessons yet. Keep learning! 💪"
+                : filterTab === "in-progress"
+                ? "No lessons in progress. Start learning now! 🚀"
+                : "No lessons available"}
+            </p>
+          </div>
+        ) : (
+          <>
+            {topicTabs[0].topics.map((topic) => {
           const categories = KanjiService.getTopicCategories(selectedLevel);
           const category = categories[topic.id];
           return (
@@ -137,7 +190,9 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
               showProgress={showProgress}
             />
           );
-        })}
+            })}
+          </>
+        )}
         <KanjiExerciseModal showProgress={showProgress} />
       </div>
     );
@@ -146,12 +201,28 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
   // Tampilkan dengan tabs jika topics > 10
   return (
     <div className="space-y-4">
+      {/* Filter Tabs */}
+      <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+        <TabsList className="grid w-full grid-cols-3">
+          <TabsTrigger value="all" className="text-xs sm:text-sm">
+            All
+          </TabsTrigger>
+          <TabsTrigger value="in-progress" className="text-xs sm:text-sm">
+            In Progress
+          </TabsTrigger>
+          <TabsTrigger value="finished" className="text-xs sm:text-sm">
+            Finished
+          </TabsTrigger>
+        </TabsList>
+      </Tabs>
+
+      {/* Pagination Tabs */}
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
         <div className="w-full overflow-x-auto">
           <TabsList
             className={`
               ${topicTabs.length <= 4 
-                ? 'grid w-full' 
+                ? 'grid w-full bg-muted/50' 
                 : 'flex gap-1 w-max'
               }
             `}
@@ -177,7 +248,19 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
 
         {topicTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
-            {tab.topics.map((topic) => {
+            {tab.topics.length === 0 ? (
+              <div className="py-8 text-center">
+                <p className="text-muted-foreground">
+                  {filterTab === "finished"
+                    ? "No completed lessons in this part yet. Keep learning! 💪"
+                    : filterTab === "in-progress"
+                    ? "No lessons in progress in this part. Start learning now! 🚀"
+                    : "No lessons available in this part"}
+                </p>
+              </div>
+            ) : (
+              <>
+                {tab.topics.map((topic) => {
               const categories = KanjiService.getTopicCategories(selectedLevel);
               const category = categories[topic.id];
               return (
@@ -192,7 +275,9 @@ export function KanjiTopicLessonsSection({ showProgress = false }: KanjiTopicLes
                   showProgress={showProgress}
                 />
               );
-            })}
+                })}
+              </>
+            )}
           </TabsContent>
         ))}
       </Tabs>
