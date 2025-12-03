@@ -3,8 +3,20 @@
 import { Button } from "@/pwa/core/components/button";
 import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
-import { getLocalizedText, SupportedLanguage } from "../../../kanji/shared/utils/language-helpers";
-import { Edit3, Book, Users, X, RotateCcw, Clock, CheckSquare, ChevronDown } from "lucide-react";
+import {
+  getLocalizedText,
+  SupportedLanguage,
+} from "../../../kanji/shared/utils/language-helpers";
+import {
+  Edit3,
+  Book,
+  Users,
+  X,
+  RotateCcw,
+  Clock,
+  CheckSquare,
+  ChevronDown,
+} from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
 import {
@@ -28,16 +40,28 @@ import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-s
 import { Slider } from "@/pwa/core/components/slider";
 import { Checkbox } from "@/pwa/core/components/checkbox";
 import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.store";
+import {
+  getMasteryFilterOptions,
+  matchesMasteryFilter,
+} from "@/pwa/core/lib/utils/mastery";
 
 export function SelectionBottomNav() {
-  const { selectedVocabularyIds, clearSelection, toggleSelectionMode, selectAll } =
-    useVocabularySelection();
-  const vocabularyList = useVocabularySelection(state => state.vocabularyList);
+  const {
+    selectedVocabularyIds,
+    clearSelection,
+    toggleSelectionMode,
+    selectAll,
+  } = useVocabularySelection();
+  const vocabularyList = useVocabularySelection(
+    (state) => state.vocabularyList
+  );
   const { language } = useLanguage();
   const searchParams = useSearchParams();
   const [showResetDialog, setShowResetDialog] = useState(false);
-  const { resetVocabularyStatistics, getVocabularyAccuracy } = useVocabularyScoreStore();
-  const { timerEnabled, timerValue, setTimerEnabled, setTimerValue } = useTimerPreferenceStore();
+  const { resetVocabularyStatistics, getVocabularyAccuracy } =
+    useVocabularyScoreStore();
+  const { timerEnabled, timerValue, setTimerEnabled, setTimerValue } =
+    useTimerPreferenceStore();
 
   const selectedCount = selectedVocabularyIds.size;
   const categoryId = searchParams.get("categoryId");
@@ -45,25 +69,53 @@ export function SelectionBottomNav() {
 
   // Bulk selection handlers
   const handleSelectAll = () => {
-    const allIds = vocabularyList.map(v => v.id);
+    const allIds = vocabularyList.map((v) => v.id);
     selectAll(allIds);
   };
 
+  const handleSelectByMasteryFilter = (filterValue: string) => {
+    if (filterValue === "all") {
+      handleSelectAll();
+      return;
+    }
+
+    const filtered = vocabularyList.filter((vocab) => {
+      const accuracy = getVocabularyAccuracy(
+        vocab.id.toString(),
+        level,
+        categoryId || ""
+      );
+      const accuracyValue = accuracy ?? 0; // Treat null as 0 for new items
+      return matchesMasteryFilter(accuracyValue, filterValue);
+    });
+
+    selectAll(filtered.map((v) => v.id));
+  };
+
+  // Legacy handlers for backward compatibility
   const handleSelectByAccuracy = (threshold: number) => {
     const filtered = vocabularyList.filter((vocab) => {
-      const accuracy = getVocabularyAccuracy(vocab.id.toString(), level, categoryId || "");
+      const accuracy = getVocabularyAccuracy(
+        vocab.id.toString(),
+        level,
+        categoryId || ""
+      );
       if (accuracy === null) return false; // Exclude new vocabulary for accuracy filter
       return accuracy < threshold;
     });
-    selectAll(filtered.map(v => v.id));
+    selectAll(filtered.map((v) => v.id));
   };
 
   const handleSelectNewOnly = () => {
     const filtered = vocabularyList.filter((vocab) => {
-      const accuracy = getVocabularyAccuracy(vocab.id.toString(), level, categoryId || "");
+      const accuracy = getVocabularyAccuracy(
+        vocab.id.toString(),
+        level,
+        categoryId || ""
+      );
       return accuracy === null; // Only new vocabulary
     });
-    selectAll(filtered.map(v => v.id));
+    selectAll(filtered.map((v) => v.id));
   };
 
   const handleExerciseStart = (exerciseType: string) => {
@@ -92,14 +144,18 @@ export function SelectionBottomNav() {
 
   const handleBulkReset = async () => {
     if (!categoryId) return;
-    
+
     try {
       // Reset each selected vocabulary
       const selectedArray = Array.from(selectedVocabularyIds);
       for (const vocabularyId of selectedArray) {
-        await resetVocabularyStatistics(vocabularyId.toString(), level, categoryId);
+        await resetVocabularyStatistics(
+          vocabularyId.toString(),
+          level,
+          categoryId
+        );
       }
-      
+
       // Clear selection and close dialog
       clearSelection();
       setShowResetDialog(false);
@@ -127,32 +183,47 @@ export function SelectionBottomNav() {
                     className="h-8 px-3 gap-1.5"
                   >
                     <span className="text-xs font-medium tabular-nums">
-                      {selectedCount} {getLocalizedText(language as SupportedLanguage, "kata", "vocabulary")}
+                      {selectedCount}{" "}
+                      {getLocalizedText(
+                        language as SupportedLanguage,
+                        "kata",
+                        "vocabulary"
+                      )}
                     </span>
                     <ChevronDown className="h-3.5 w-3.5" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="start" className="w-48">
+                <DropdownMenuContent align="start" className="w-56">
                   <DropdownMenuItem onClick={handleSelectAll}>
                     <CheckSquare className="h-3.5 w-3.5 mr-2" />
-                    {getLocalizedText(language as SupportedLanguage, "Pilih Semua", "Select All")}
+                    {getLocalizedText(
+                      language as SupportedLanguage,
+                      "Pilih Semua",
+                      "Select All"
+                    )}
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={() => handleSelectByAccuracy(50)}>
-                    <span className="mr-2">🔴</span>
-                    {getLocalizedText(language as SupportedLanguage, "Di bawah 50%", "Below 50%")}
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => handleSelectByAccuracy(80)}>
-                    <span className="mr-2">🟡</span>
-                    {getLocalizedText(language as SupportedLanguage, "Di bawah 80%", "Below 80%")}
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={handleSelectNewOnly}>
-                    <span className="mr-2">⭐</span>
-                    {getLocalizedText(language as SupportedLanguage, "Baru Saja", "New Only")}
-                  </DropdownMenuItem>
+                  {/* Mastery level filters */}
+                  {getMasteryFilterOptions()
+                    .filter(
+                      (opt) =>
+                        opt.value !== "all" &&
+                        opt.value !== "below-50" &&
+                        opt.value !== "below-80"
+                    )
+                    .map((option) => (
+                      <DropdownMenuItem
+                        key={option.value}
+                        onClick={() =>
+                          handleSelectByMasteryFilter(option.value)
+                        }
+                      >
+                        {option.label}
+                      </DropdownMenuItem>
+                    ))}
                 </DropdownMenuContent>
               </DropdownMenu>
-              
+
               {/* Reset button with label */}
               <Button
                 variant="outline"
@@ -163,11 +234,15 @@ export function SelectionBottomNav() {
               >
                 <RotateCcw className="h-3.5 w-3.5" />
                 <span className="text-xs font-medium">
-                  {getLocalizedText(language as SupportedLanguage, "Reset", "Reset")}
+                  {getLocalizedText(
+                    language as SupportedLanguage,
+                    "Reset",
+                    "Reset"
+                  )}
                 </span>
               </Button>
             </div>
-            
+
             {/* Close button */}
             <Button
               variant="ghost"
@@ -189,9 +264,13 @@ export function SelectionBottomNav() {
         {/* EXERCISE SECTION */}
         <div className="space-y-2.5">
           <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
-            {getLocalizedText(language as SupportedLanguage, "Latihan", "Exercise")}
+            {getLocalizedText(
+              language as SupportedLanguage,
+              "Latihan",
+              "Exercise"
+            )}
           </h3>
-          
+
           {/* Exercise buttons */}
           <div className="grid grid-cols-3 gap-2">
             {/* Writing */}
@@ -200,7 +279,11 @@ export function SelectionBottomNav() {
               onClick={() => handleExerciseStart("writing")}
               disabled={selectedCount === 0}
               className="h-9 w-full p-0 border-2 hover:bg-muted/30 transition-colors"
-              title={getLocalizedText(language as SupportedLanguage, "Latihan Menulis", "Writing Exercise")}
+              title={getLocalizedText(
+                language as SupportedLanguage,
+                "Latihan Menulis",
+                "Writing Exercise"
+              )}
             >
               <Edit3 className="h-4 w-4" />
               Writing
@@ -212,7 +295,11 @@ export function SelectionBottomNav() {
               onClick={() => handleExerciseStart("reading")}
               disabled={selectedCount === 0}
               className="h-9 w-full p-0 border-2 hover:bg-muted/30 transition-colors"
-              title={getLocalizedText(language as SupportedLanguage, "Latihan Membaca", "Reading Exercise")}
+              title={getLocalizedText(
+                language as SupportedLanguage,
+                "Latihan Membaca",
+                "Reading Exercise"
+              )}
             >
               <Book className="h-4 w-4" />
               Reading
@@ -224,26 +311,34 @@ export function SelectionBottomNav() {
               onClick={() => handleExerciseStart("pairing")}
               disabled={selectedCount === 0}
               className="h-9 w-full p-0 border-2 hover:bg-muted/30 transition-colors"
-              title={getLocalizedText(language as SupportedLanguage, "Latihan Pasangan", "Pairing Exercise")}
+              title={getLocalizedText(
+                language as SupportedLanguage,
+                "Latihan Pasangan",
+                "Pairing Exercise"
+              )}
             >
               <Users className="h-4 w-4" />
               Pairing
             </Button>
           </div>
-          
+
           {/* Timer settings */}
           <div className="flex items-center gap-2 py-1.5 px-2 bg-muted/20 rounded-lg border border-border/50">
             <span className="text-xs font-medium text-muted-foreground shrink-0">
-              {getLocalizedText(language as SupportedLanguage, "Timer:", "Timer:")}
+              {getLocalizedText(
+                language as SupportedLanguage,
+                "Timer:",
+                "Timer:"
+              )}
             </span>
-            
+
             <Checkbox
               id="timer-enable-vocab-nav"
               checked={timerEnabled}
               onCheckedChange={(checked) => setTimerEnabled(checked === true)}
               className="h-3.5 w-3.5"
             />
-            
+
             <div className="flex-1 flex items-center gap-2">
               <Slider
                 value={[timerValue]}
@@ -267,7 +362,11 @@ export function SelectionBottomNav() {
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>
-              {getLocalizedText(language as SupportedLanguage, "Reset Statistik?", "Reset Statistics?")}
+              {getLocalizedText(
+                language as SupportedLanguage,
+                "Reset Statistik?",
+                "Reset Statistics?"
+              )}
             </AlertDialogTitle>
             <AlertDialogDescription>
               {getLocalizedText(
@@ -279,10 +378,21 @@ export function SelectionBottomNav() {
           </AlertDialogHeader>
           <AlertDialogFooter>
             <AlertDialogCancel>
-              {getLocalizedText(language as SupportedLanguage, "Batal", "Cancel")}
+              {getLocalizedText(
+                language as SupportedLanguage,
+                "Batal",
+                "Cancel"
+              )}
             </AlertDialogCancel>
-            <AlertDialogAction onClick={handleBulkReset} className="bg-destructive hover:bg-destructive/90">
-              {getLocalizedText(language as SupportedLanguage, "Reset", "Reset")}
+            <AlertDialogAction
+              onClick={handleBulkReset}
+              className="bg-destructive hover:bg-destructive/90"
+            >
+              {getLocalizedText(
+                language as SupportedLanguage,
+                "Reset",
+                "Reset"
+              )}
             </AlertDialogAction>
           </AlertDialogFooter>
         </AlertDialogContent>

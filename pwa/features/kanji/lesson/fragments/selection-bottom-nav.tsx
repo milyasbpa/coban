@@ -31,6 +31,10 @@ import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store
 import { Slider } from "@/pwa/core/components/slider";
 import { Checkbox } from "@/pwa/core/components/checkbox";
 import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.store";
+import {
+  getMasteryFilterOptions,
+  matchesMasteryFilter,
+} from "@/pwa/core/lib/utils/mastery";
 
 export function SelectionBottomNav() {
   const { selectedKanjiIds, clearSelection, toggleSelectionMode, selectAll } =
@@ -53,6 +57,22 @@ export function SelectionBottomNav() {
     selectAll(allIds);
   };
 
+  const handleSelectByMasteryFilter = (filterValue: string) => {
+    if (filterValue === "all") {
+      handleSelectAll();
+      return;
+    }
+
+    const filtered = kanjiList.filter((kanji) => {
+      const accuracy = getKanjiAccuracy(kanji.id.toString(), level);
+      const accuracyValue = accuracy ?? 0; // Treat null as 0 for new items
+      return matchesMasteryFilter(accuracyValue, filterValue);
+    });
+
+    selectAll(filtered.map((k) => k.id));
+  };
+
+  // Legacy handlers for backward compatibility
   const handleSelectByAccuracy = (threshold: number) => {
     const filtered = kanjiList.filter((kanji) => {
       const accuracy = getKanjiAccuracy(kanji.id.toString(), level);
@@ -139,24 +159,28 @@ export function SelectionBottomNav() {
                     <ChevronDown className="h-3.5 w-3.5" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="start" className="w-48">
+                <DropdownMenuContent align="start" className="w-56">
                   <DropdownMenuItem onClick={handleSelectAll}>
                     <CheckSquare className="h-3.5 w-3.5 mr-2" />
                     {getLocalizedText(language as SupportedLanguage, "Pilih Semua", "Select All")}
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={() => handleSelectByAccuracy(50)}>
-                    <span className="mr-2">🔴</span>
-                    {getLocalizedText(language as SupportedLanguage, "Di bawah 50%", "Below 50%")}
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => handleSelectByAccuracy(80)}>
-                    <span className="mr-2">🟡</span>
-                    {getLocalizedText(language as SupportedLanguage, "Di bawah 80%", "Below 80%")}
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={handleSelectNewOnly}>
-                    <span className="mr-2">⭐</span>
-                    {getLocalizedText(language as SupportedLanguage, "Baru Saja", "New Only")}
-                  </DropdownMenuItem>
+                  {/* Mastery level filters */}
+                  {getMasteryFilterOptions()
+                    .filter(
+                      (opt) =>
+                        opt.value !== "all" &&
+                        opt.value !== "below-50" &&
+                        opt.value !== "below-80"
+                    )
+                    .map((option) => (
+                      <DropdownMenuItem
+                        key={option.value}
+                        onClick={() => handleSelectByMasteryFilter(option.value)}
+                      >
+                        {option.label}
+                      </DropdownMenuItem>
+                    ))}
                 </DropdownMenuContent>
               </DropdownMenu>
               

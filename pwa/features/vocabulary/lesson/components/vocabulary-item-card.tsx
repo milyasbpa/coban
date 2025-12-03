@@ -26,6 +26,12 @@ import {
   AlertDialogTitle,
 } from "@/pwa/core/components/alert-dialog";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
+import { 
+  getMasteryLevel, 
+  shouldDisplayMastery, 
+  formatAccuracy,
+  calculateAverageAccuracy 
+} from "@/pwa/core/lib/utils/mastery";
 
 interface VocabularyItemCardProps {
   vocabulary: VocabularyWord;
@@ -48,9 +54,19 @@ export function VocabularyItemCard({
   const { language } = useLanguage();
   const { isSelectionMode, selectedVocabularyIds, toggleVocabularySelection } =
     useVocabularySelection();
-  const { resetVocabularyStatistics } = useVocabularyScoreStore();
+  const { resetVocabularyStatistics, getVocabularyAccuracy } = useVocabularyScoreStore();
   const isSelected = selectedVocabularyIds.has(vocabulary.id);
   const hasExamples = vocabulary.examples && vocabulary.examples.length > 0;
+
+  // Get vocabulary mastery level
+  const vocabularyAccuracy = getVocabularyAccuracy(
+    vocabulary.id.toString(),
+    level,
+    categoryId
+  );
+  const accuracy = vocabularyAccuracy || 0;
+  const masteryConfig = getMasteryLevel(accuracy);
+  const showMastery = shouldDisplayMastery(accuracy);
 
   const handleClick = () => {
     if (isSelectionMode) {
@@ -311,6 +327,21 @@ export function VocabularyItemCard({
                       : vocabulary.meanings.id}
                   </span>
                 )}
+              </div>
+            )}
+
+            {/* Mastery Badge - Small chip below content */}
+            {showMastery && (
+              <div className="mt-0.5">
+                <span
+                  className={cn(
+                    "inline-flex items-center text-[10px] font-bold px-1.5 py-0.5 rounded transition-colors",
+                    masteryConfig.colorClasses.bg,
+                    masteryConfig.colorClasses.text
+                  )}
+                >
+                  {formatAccuracy(accuracy)}
+                </span>
               </div>
             )}
           </div>

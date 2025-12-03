@@ -34,6 +34,11 @@ import {
   AlertDialogTitle,
 } from "@/pwa/core/components/alert-dialog";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import {
+  getMasteryLevel,
+  shouldDisplayMastery,
+  formatAccuracy,
+} from "@/pwa/core/lib/utils/mastery";
 
 interface KanjiCardProps {
   kanji: KanjiDetail;
@@ -46,10 +51,16 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
   const { isSelectionMode, selectedKanjiIds, toggleKanjiSelection } =
     useKanjiSelection();
   const { displayOptions } = useDisplayOptions();
-  const { resetKanjiStatistics } = useKanjiScoreStore();
+  const { resetKanjiStatistics, getKanjiAccuracy } = useKanjiScoreStore();
   const isSelected = selectedKanjiIds.has(kanji.id);
   const [isAnimating, setIsAnimating] = useState(false);
   const [showResetDialog, setShowResetDialog] = useState(false);
+
+  // Get kanji mastery level
+  const kanjiAccuracy = getKanjiAccuracy(kanji.id.toString(), level);
+  const accuracy = kanjiAccuracy || 0;
+  const masteryConfig = getMasteryLevel(accuracy);
+  const showMastery = shouldDisplayMastery(accuracy);
 
   const handleCardClick = () => {
     if (isSelectionMode) {
@@ -174,6 +185,21 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
             {displayOptions.meaning && (
               <div className="text-xs font-medium text-muted-foreground text-center max-w-16">
                 {kanjiMeaning}
+              </div>
+            )}
+
+            {/* Mastery Badge - Small chip below meaning */}
+            {showMastery && (
+              <div className="mt-0.5">
+                <span
+                  className={cn(
+                    "inline-flex items-center text-[10px] font-bold px-1.5 py-0.5 rounded transition-colors",
+                    masteryConfig.colorClasses.bg,
+                    masteryConfig.colorClasses.text
+                  )}
+                >
+                  {formatAccuracy(accuracy)}
+                </span>
               </div>
             )}
           </div>
