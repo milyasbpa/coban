@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "A",
+        "en": "A Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "暴れる", "hiragana": "あばれる", "romaji": "abareru", "meanings": {"en": "run wild, rampage", "id": "rusuh, mengamuk"}},
+        {"id": 2, "kanji": "浴びる", "hiragana": "あびる", "romaji": "abiru", "meanings": {"en": "bathe, shower", "id": "mandi, bermandi"}},
+        {"id": 3, "kanji": "油", "hiragana": "あぶら", "romaji": "abura", "meanings": {"en": "oil", "id": "minyak"}},
+        {"id": 4, "kanji": "アドバイス", "hiragana": "アドバイス", "romaji": "adobaisu", "meanings": {"en": "advice", "id": "nasehat, advis"}},
+        {"id": 5, "kanji": "アドレス", "hiragana": "アドレス", "romaji": "adoresu", "meanings": {"en": "address", "id": "alamat"}},
+        {"id": 6, "kanji": "あふれる", "hiragana": "あふれる", "romaji": "afureru", "meanings": {"en": "overflow, flood", "id": "meluap, luber, melimpah, tumpah ruah, banjir"}},
+        {"id": 7, "kanji": "上がる", "hiragana": "あがる", "romaji": "agaru", "meanings": {"en": "rise, go up", "id": "naik, mendaki, bertambah"}},
+        {"id": 8, "kanji": "上げる", "hiragana": "あげる", "romaji": "ageru", "meanings": {"en": "raise, increase", "id": "menaikkan, meningkatkan, mengangkat, meninggikan"}},
+        {"id": 9, "kanji": "揚げる", "hiragana": "あげる", "romaji": "ageru", "meanings": {"en": "fry", "id": "menggoreng"}},
+        {"id": 10, "kanji": "顎", "hiragana": "あご", "romaji": "ago", "meanings": {"en": "chin, jaw", "id": "dagu, rahang"}},
+        {"id": 11, "kanji": "愛", "hiragana": "あい", "romaji": "ai", "meanings": {"en": "love, affection", "id": "kasih, sayang, cinta"}},
+        {"id": 12, "kanji": "アイデア", "hiragana": "アイデア", "romaji": "aidea", "meanings": {"en": "idea", "id": "gagasan, ide"}},
+        {"id": 13, "kanji": "相変わらず", "hiragana": "あいかわらず", "romaji": "aikawarazu", "meanings": {"en": "as usual", "id": "seperti biasa, tetap, masih saja"}},
+        {"id": 14, "kanji": "曖昧", "hiragana": "あいまい", "romaji": "aimai", "meanings": {"en": "ambiguous, vague", "id": "tidak tegas, tidak jelas, rancu, kabur, abu-abu"}},
+        {"id": 15, "kanji": "アイロン", "hiragana": "アイロン", "romaji": "airon", "meanings": {"en": "iron (for clothes)", "id": "setrika"}},
+        {"id": 16, "kanji": "相手", "hiragana": "あいて", "romaji": "aite", "meanings": {"en": "partner, opponent", "id": "pasangan, pihak lawan, saingan"}},
+        {"id": 17, "kanji": "合図", "hiragana": "あいず", "romaji": "aizu", "meanings": {"en": "sign, signal", "id": "tanda, isyarat"}},
+        {"id": 18, "kanji": "味見", "hiragana": "あじみ", "romaji": "ajimi", "meanings": {"en": "taste, sample", "id": "coba [rasanya]"}},
+        {"id": 19, "kanji": "空ける", "hiragana": "あける", "romaji": "akeru", "meanings": {"en": "empty, vacate", "id": "mengosongkan, menyisihkan"}},
+        {"id": 20, "kanji": "明ける", "hiragana": "あける", "romaji": "akeru", "meanings": {"en": "end, dawn", "id": "berlalu, berakhir"}},
+        {"id": 21, "kanji": "飽きる", "hiragana": "あきる", "romaji": "akiru", "meanings": {"en": "get bored", "id": "jemu, bosan"}},
+        {"id": 22, "kanji": "憧れる", "hiragana": "あこがれる", "romaji": "akogareru", "meanings": {"en": "long for, admire", "id": "mengagumi, merindukan, mendambakan"}},
+        {"id": 23, "kanji": "空", "hiragana": "そら", "romaji": "sora", "meanings": {"en": "sky, empty", "id": "kosong, lowong, terbuka"}},
+        {"id": 24, "kanji": "あくび", "hiragana": "あくび", "romaji": "akubi", "meanings": {"en": "yawn", "id": "kuap"}},
+        {"id": 25, "kanji": "アクセル", "hiragana": "アクセル", "romaji": "akuseru", "meanings": {"en": "accelerator", "id": "pedal gas"}},
+        {"id": 26, "kanji": "アクセサリー", "hiragana": "アクセサリー", "romaji": "akusesari", "meanings": {"en": "accessory", "id": "aksesoris, perhiasan"}}
+      ]
+    }
+  ]
+}

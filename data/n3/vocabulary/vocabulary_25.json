@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "課長", "hiragana": "かちょう", "romaji": "kachou", "meanings": {"en": "manager, section chief", "id": "manajer, kepala kelompok"}},
+        {"id": 2, "kanji": "課題", "hiragana": "かだい", "romaji": "kadai", "meanings": {"en": "subject, task, problem", "id": "judul, tugas, masalah, pokok persoalan"}},
+        {"id": 3, "kanji": "家電", "hiragana": "かでん", "romaji": "kaden", "meanings": {"en": "home electronics", "id": "peralatan elektronik keluarga"}},
+        {"id": 4, "kanji": "角", "hiragana": "かど", "romaji": "kado", "meanings": {"en": "corner, angle", "id": "sudut, pojok, tikungan"}},
+        {"id": 5, "kanji": "カード", "hiragana": "カード", "romaji": "ka-do", "meanings": {"en": "card", "id": "kartu"}},
+        {"id": 6, "kanji": "帰り", "hiragana": "かえり", "romaji": "kaeri", "meanings": {"en": "return, coming back", "id": "pulang, kepulangan"}},
+        {"id": 7, "kanji": "換える", "hiragana": "かえる", "romaji": "kaeru", "meanings": {"en": "exchange, replace", "id": "menukar, menjadikan benda lain"}},
+        {"id": 8, "kanji": "替える", "hiragana": "かえる", "romaji": "kaeru", "meanings": {"en": "exchange, substitute", "id": "menukar, dengan benda yang sejenis"}},
+        {"id": 9, "kanji": "代える", "hiragana": "かえる", "romaji": "kaeru", "meanings": {"en": "substitute, replace", "id": "menggantikan"}},
+        {"id": 10, "kanji": "変える", "hiragana": "かえる", "romaji": "kaeru", "meanings": {"en": "change, alter", "id": "mengubah"}},
+        {"id": 11, "kanji": "返る", "hiragana": "かえる", "romaji": "kaeru", "meanings": {"en": "return, go back", "id": "kembali, ke tempat semula"}},
+        {"id": 12, "kanji": "返す", "hiragana": "かえす", "romaji": "kaesu", "meanings": {"en": "return, give back", "id": "mengembalikan, membalas"}},
+        {"id": 13, "kanji": "花粉", "hiragana": "かふん", "romaji": "kafun", "meanings": {"en": "pollen", "id": "serbuk sari"}},
+        {"id": 14, "kanji": "花粉症", "hiragana": "かふんしょう", "romaji": "kafunshou", "meanings": {"en": "hay fever", "id": "penyakit alergi terhadap serbuk sari dari bunga"}},
+        {"id": 15, "kanji": "化学", "hiragana": "かがく", "romaji": "kagaku", "meanings": {"en": "chemistry", "id": "ilmu kimia"}},
+        {"id": 16, "kanji": "鏡", "hiragana": "かがみ", "romaji": "kagami", "meanings": {"en": "mirror", "id": "cermin, kaca"}},
+        {"id": 17, "kanji": "歌劇", "hiragana": "かげき", "romaji": "kageki", "meanings": {"en": "opera", "id": "opera"}},
+        {"id": 18, "kanji": "かご", "hiragana": "かご", "romaji": "kago", "meanings": {"en": "basket, cage", "id": "keranjang, sangkar"}},
+        {"id": 19, "kanji": "家具", "hiragana": "かぐ", "romaji": "kagu", "meanings": {"en": "furniture", "id": "perabot rumah tangga, mebel"}},
+        {"id": 20, "kanji": "嗅ぐ", "hiragana": "かぐ", "romaji": "kagu", "meanings": {"en": "smell, sniff", "id": "mencium, membaui"}},
+        {"id": 21, "kanji": "会", "hiragana": "かい", "romaji": "kai", "meanings": {"en": "meeting, association", "id": "pertemuan, perhimpunan, perkumpulan"}},
+        {"id": 22, "kanji": "回", "hiragana": "かい", "romaji": "kai", "meanings": {"en": "times, occurrences", "id": "kali, pengulangan"}},
+        {"id": 23, "kanji": "懐中電灯", "hiragana": "かいちゅうでんとう", "romaji": "kaichuudentou", "meanings": {"en": "flashlight", "id": "lampu senter"}},
+        {"id": 24, "kanji": "階段", "hiragana": "かいだん", "romaji": "kaidan", "meanings": {"en": "stairs, staircase", "id": "tangga"}},
+        {"id": 25, "kanji": "海外", "hiragana": "かいがい", "romaji": "kaigai", "meanings": {"en": "overseas, abroad", "id": "luar negeri"}},
+        {"id": 26, "kanji": "介護", "hiragana": "かいご", "romaji": "kaigo", "meanings": {"en": "nursing, care", "id": "mengasuh anak-anak, orang tua atau orang sakit"}},
+        {"id": 27, "kanji": "介護士", "hiragana": "かいごし", "romaji": "kaigoshi", "meanings": {"en": "care worker", "id": "pengasuh anak-anak, orang tua atau orang sakit"}},
+        {"id": 28, "kanji": "改行", "hiragana": "かいぎょう", "romaji": "kaigyou", "meanings": {"en": "new line, paragraph", "id": "ganti baris baru, ganti paragraf baru"}},
+        {"id": 29, "kanji": "解決", "hiragana": "かいけつ", "romaji": "kaiketsu", "meanings": {"en": "solution, settlement", "id": "penyelesaian masalah, solusi, menyelesaikan masalah"}}
+      ]
+    }
+  ]
+}

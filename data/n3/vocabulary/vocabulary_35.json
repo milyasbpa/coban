@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "高校生", "hiragana": "こうこうせい", "romaji": "koukousei", "meanings": {"en": "high school student", "id": "siswa/i SMU/SLTA"}},
+        {"id": 2, "kanji": "航空", "hiragana": "こうくう", "romaji": "koukuu", "meanings": {"en": "aviation, flight", "id": "penerbangan, udara"}},
+        {"id": 3, "kanji": "航空便", "hiragana": "こうくうびん", "romaji": "koukuubin", "meanings": {"en": "airmail", "id": "pos udara"}},
+        {"id": 4, "kanji": "公衆", "hiragana": "こうしゅう", "romaji": "koushuu", "meanings": {"en": "public, general", "id": "publik, umum, masyarakat luas"}},
+        {"id": 5, "kanji": "公民", "hiragana": "こうみん", "romaji": "koumin", "meanings": {"en": "citizen", "id": "warga negara"}},
+        {"id": 6, "kanji": "公民館", "hiragana": "こうみんかん", "romaji": "kouminkan", "meanings": {"en": "community center", "id": "balai masyarakat warga negara"}},
+        {"id": 7, "kanji": "公務員", "hiragana": "こうむいん", "romaji": "koumuin", "meanings": {"en": "government employee", "id": "pegawai pemerintah, pegawai negeri"}},
+        {"id": 8, "kanji": "光熱費", "hiragana": "こうねつひ", "romaji": "kounetsuhi", "meanings": {"en": "utility costs", "id": "biaya listrik dan penerangan"}},
+        {"id": 9, "kanji": "高齢", "hiragana": "こうれい", "romaji": "kourei", "meanings": {"en": "old age", "id": "lanjut usia, usia senja, tua"}},
+        {"id": 10, "kanji": "高齢者", "hiragana": "こうれいしゃ", "romaji": "koureisha", "meanings": {"en": "elderly person", "id": "orang lanjut usia, orang tua"}},
+        {"id": 11, "kanji": "公立", "hiragana": "こうりつ", "romaji": "kouritsu", "meanings": {"en": "public (institution)", "id": "[didirikan oleh] pemerintah daerah"}},
+        {"id": 12, "kanji": "交際", "hiragana": "こうさい", "romaji": "kousai", "meanings": {"en": "association, socializing", "id": "pergaulan, bergaul"}},
+        {"id": 13, "kanji": "講師", "hiragana": "こうし", "romaji": "koushi", "meanings": {"en": "lecturer, teacher", "id": "penceramah, dosen, pengajar"}},
+        {"id": 14, "kanji": "高速", "hiragana": "こうそく", "romaji": "kousoku", "meanings": {"en": "high speed, expressway", "id": "kecepatan tinggi, jalan tol, jalan bebas hambatan"}},
+        {"id": 15, "kanji": "高等学校", "hiragana": "こうとうがっこう", "romaji": "koutougakkou", "meanings": {"en": "high school", "id": "sekolah menengah atas, SMA"}},
+        {"id": 16, "kanji": "交通", "hiragana": "こうつう", "romaji": "koutsuu", "meanings": {"en": "traffic, transportation", "id": "lalu-lintas, transport, jalan"}},
+        {"id": 17, "kanji": "交通費", "hiragana": "こうつうひ", "romaji": "koutsuui", "meanings": {"en": "transportation expenses", "id": "uang transport/jalan"}},
+        {"id": 18, "kanji": "口座", "hiragana": "こうざ", "romaji": "kouza", "meanings": {"en": "bank account", "id": "rekening bank"}},
+        {"id": 19, "kanji": "講座", "hiragana": "こうざ", "romaji": "kouza", "meanings": {"en": "course, lecture", "id": "kuliah, pelajaran"}},
+        {"id": 20, "kanji": "壊れる", "hiragana": "こわれる", "romaji": "kowareru", "meanings": {"en": "to break", "id": "rusak"}},
+        {"id": 21, "kanji": "壊す", "hiragana": "こわす", "romaji": "kowasu", "meanings": {"en": "to break, to destroy", "id": "merusak"}},
+        {"id": 22, "kanji": "小指", "hiragana": "こゆび", "romaji": "koyubi", "meanings": {"en": "little finger", "id": "jari kelingking"}},
+        {"id": 23, "kanji": "小銭", "hiragana": "こぜに", "romaji": "kozeni", "meanings": {"en": "small change", "id": "uang kecil, receh"}},
+        {"id": 24, "kanji": "小包", "hiragana": "こづつみ", "romaji": "kozutsumi", "meanings": {"en": "parcel, package", "id": "paket, bungkus kecil"}},
+        {"id": 25, "kanji": "首", "hiragana": "くび", "romaji": "kubi", "meanings": {"en": "neck", "id": "leher, pemecatan"}},
+        {"id": 26, "kanji": "首になる", "hiragana": "くびになる", "romaji": "kubinirunaru", "meanings": {"en": "to be fired", "id": "dipecat, diberhentikan"}},
+        {"id": 27, "kanji": "口紅", "hiragana": "くちべに", "romaji": "kuchibeni", "meanings": {"en": "lipstick", "id": "bibir-merah, lipstick"}}
+      ]
+    }
+  ]
+}

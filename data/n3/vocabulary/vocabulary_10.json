@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "D",
+        "en": "D Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "デザイナー", "hiragana": "デザイナー", "romaji": "dezainā", "meanings": {"en": "designer", "id": "perancang, desainer"}},
+        {"id": 2, "kanji": "デザイン", "hiragana": "デザイン", "romaji": "dezain", "meanings": {"en": "design", "id": "rancangan, desain"}},
+        {"id": 3, "kanji": "デザート", "hiragana": "デザート", "romaji": "dezāto", "meanings": {"en": "dessert", "id": "makanan pencuci mulut"}},
+        {"id": 4, "kanji": "度", "hiragana": "ど", "romaji": "do", "meanings": {"en": "degree, times", "id": "derajat, [jumlah] kali, satuan ukuran lensa"}},
+        {"id": 5, "kanji": "どける", "hiragana": "どける", "romaji": "dokeru", "meanings": {"en": "remove, clear away", "id": "menyingkirkan, meminggirkan, meminggir"}},
+        {"id": 6, "kanji": "どきどき", "hiragana": "どきどき", "romaji": "dokidoki", "meanings": {"en": "throb, palpitate", "id": "berdebar-debar, berdegup, gugup"}},
+        {"id": 7, "kanji": "どく", "hiragana": "どく", "romaji": "doku", "meanings": {"en": "move, step aside", "id": "menyingkir, ke pinggir"}},
+        {"id": 8, "kanji": "読書", "hiragana": "どくしょ", "romaji": "dokusho", "meanings": {"en": "reading", "id": "baca buku"}},
+        {"id": 9, "kanji": "ドキュメンタリー", "hiragana": "ドキュメンタリー", "romaji": "dokyumentarī", "meanings": {"en": "documentary", "id": "dokumenter"}},
+        {"id": 10, "kanji": "どんぶり", "hiragana": "どんぶり", "romaji": "donburi", "meanings": {"en": "large bowl", "id": "mangkuk besar"}},
+        {"id": 11, "kanji": "どんどん", "hiragana": "どんどん", "romaji": "dondon", "meanings": {"en": "rapidly, one after another", "id": "laju, cepat, lagi dan lagi, bertubi-tubi"}},
+        {"id": 12, "kanji": "どんなに", "hiragana": "どんなに", "romaji": "donnani", "meanings": {"en": "however much", "id": "seberapapun"}},
+        {"id": 13, "kanji": "ドライバー", "hiragana": "ドライバー", "romaji": "doraibā", "meanings": {"en": "driver", "id": "pengemudi"}},
+        {"id": 14, "kanji": "ドラマ", "hiragana": "ドラマ", "romaji": "dorama", "meanings": {"en": "drama", "id": "sinetron, drama"}},
+        {"id": 15, "kanji": "ドレッシング", "hiragana": "ドレッシング", "romaji": "doresshingu", "meanings": {"en": "dressing", "id": "saus salada"}},
+        {"id": 16, "kanji": "努力", "hiragana": "どりょく", "romaji": "doryoku", "meanings": {"en": "effort, hard work", "id": "usaha keras, daya upaya"}},
+        {"id": 17, "kanji": "同時に", "hiragana": "どうじに", "romaji": "doujini", "meanings": {"en": "simultaneously", "id": "bersamaan, serempak"}},
+        {"id": 18, "kanji": "どうか", "hiragana": "どうか", "romaji": "douka", "meanings": {"en": "please, somehow", "id": "mohon, harap, minta dengan amat sangat, apapun yang terjadi"}},
+        {"id": 19, "kanji": "道路", "hiragana": "どうろ", "romaji": "douro", "meanings": {"en": "road, street", "id": "jalan, jalanan"}},
+        {"id": 20, "kanji": "同僚", "hiragana": "どうりょう", "romaji": "douryou", "meanings": {"en": "colleague, coworker", "id": "teman sejawat, rekan kerja, kolega"}},
+        {"id": 21, "kanji": "どうしても", "hiragana": "どうしても", "romaji": "doushitemo", "meanings": {"en": "by all means, no matter what", "id": "betapapun, bagaimanapun juga, mau tidak mau [harus]"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "E",
+        "en": "E Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "エアコン", "hiragana": "エアコン", "romaji": "eakon", "meanings": {"en": "air conditioner", "id": "pengatur suhu udara, AC"}},
+        {"id": 2, "kanji": "映画", "hiragana": "えいが", "romaji": "eiga", "meanings": {"en": "movie", "id": "film"}},
+        {"id": 3, "kanji": "映画館", "hiragana": "えいがかん", "romaji": "eigakan", "meanings": {"en": "cinema", "id": "bioskop"}},
+        {"id": 4, "kanji": "英会話", "hiragana": "えいかいわ", "romaji": "eikaiwa", "meanings": {"en": "English conversation", "id": "percakapan bahasa Inggris"}},
+        {"id": 5, "kanji": "影響", "hiragana": "えいきょう", "romaji": "eikyou", "meanings": {"en": "influence, effect", "id": "pengaruh, dampak, efek"}}
+      ]
+    }
+  ]
+}

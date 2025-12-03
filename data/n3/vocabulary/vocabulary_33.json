@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "越える", "hiragana": "こえる", "romaji": "koeru", "meanings": {"en": "to cross, to pass", "id": "melalui, melewati"}},
+        {"id": 2, "kanji": "超える", "hiragana": "こえる", "romaji": "koeru", "meanings": {"en": "to exceed", "id": "melampaui"}},
+        {"id": 3, "kanji": "焦げる", "hiragana": "こげる", "romaji": "kogeru", "meanings": {"en": "to burn, to scorch", "id": "hangus, terbakar"}},
+        {"id": 4, "kanji": "コーヒー", "hiragana": "コーヒー", "romaji": "ko-hi-", "meanings": {"en": "coffee", "id": "kopi"}},
+        {"id": 5, "kanji": "濃い", "hiragana": "こい", "romaji": "koi", "meanings": {"en": "thick, dense", "id": "pekat, kental, lebat, tebal"}},
+        {"id": 6, "kanji": "恋", "hiragana": "こい", "romaji": "koi", "meanings": {"en": "love, romance", "id": "asmara, cinta"}},
+        {"id": 7, "kanji": "恋人", "hiragana": "こいびと", "romaji": "koibito", "meanings": {"en": "lover, sweetheart", "id": "pacar, kekasih"}},
+        {"id": 8, "kanji": "コインランドリー", "hiragana": "コインランドリー", "romaji": "koinrandorii", "meanings": {"en": "coin laundry", "id": "mesin cuci yang disewakan dengan memasukkan koin ke dalamnya"}},
+        {"id": 9, "kanji": "国語", "hiragana": "こくご", "romaji": "kokugo", "meanings": {"en": "national language", "id": "bahasa nasional, bahasa Jepang"}},
+        {"id": 10, "kanji": "国内", "hiragana": "こくない", "romaji": "kokunai", "meanings": {"en": "domestic, internal", "id": "dalam negeri, domestik"}},
+        {"id": 11, "kanji": "国立", "hiragana": "こくりつ", "romaji": "kokuritsu", "meanings": {"en": "national", "id": "negeri, nasional"}},
+        {"id": 12, "kanji": "国際", "hiragana": "こくさい", "romaji": "kokusai", "meanings": {"en": "international", "id": "internasional"}},
+        {"id": 13, "kanji": "国際的", "hiragana": "こくさいてき", "romaji": "kokusaiteki", "meanings": {"en": "internationally", "id": "secara internasional"}},
+        {"id": 14, "kanji": "国籍", "hiragana": "こくせき", "romaji": "kokuseki", "meanings": {"en": "nationality", "id": "warga negara"}},
+        {"id": 15, "kanji": "故郷", "hiragana": "こきょう", "romaji": "kokyou", "meanings": {"en": "hometown", "id": "kampung halaman"}},
+        {"id": 16, "kanji": "細かい", "hiragana": "こまかい", "romaji": "komakai", "meanings": {"en": "fine, detailed", "id": "halus, kecil, terperinci, detil"}},
+        {"id": 17, "kanji": "コメディー", "hiragana": "コメディー", "romaji": "komedii", "meanings": {"en": "comedy", "id": "lawak, lawakan"}},
+        {"id": 18, "kanji": "込む", "hiragana": "こむ", "romaji": "komu", "meanings": {"en": "to be crowded", "id": "padat, penuh sesak"}},
+        {"id": 19, "kanji": "コミュニケーション", "hiragana": "コミュニケーション", "romaji": "komyunikeshon", "meanings": {"en": "communication", "id": "komunikasi"}},
+        {"id": 20, "kanji": "コンビニ", "hiragana": "コンビニ", "romaji": "konbini", "meanings": {"en": "convenience store", "id": "warung serba ada"}},
+        {"id": 21, "kanji": "今学期", "hiragana": "こんがっき", "romaji": "kongakki", "meanings": {"en": "this semester", "id": "semester/tahun-ajaran ini"}},
+        {"id": 22, "kanji": "今後", "hiragana": "こんご", "romaji": "kongo", "meanings": {"en": "from now on", "id": "selanjutnya, mulai dari sekarang"}},
+        {"id": 23, "kanji": "好み", "hiragana": "このみ", "romaji": "konomi", "meanings": {"en": "preference, taste", "id": "selera, kesukaan"}},
+        {"id": 24, "kanji": "好む", "hiragana": "このむ", "romaji": "konomu", "meanings": {"en": "to like, to prefer", "id": "menyukai"}},
+        {"id": 25, "kanji": "コンロ", "hiragana": "コンロ", "romaji": "konro", "meanings": {"en": "stove", "id": "kompor"}},
+        {"id": 26, "kanji": "コンセント", "hiragana": "コンセント", "romaji": "konsento", "meanings": {"en": "electrical outlet", "id": "stop kontak"}},
+        {"id": 27, "kanji": "コンタクトレンズ", "hiragana": "コンタクトレンズ", "romaji": "kontakutorenzu", "meanings": {"en": "contact lens", "id": "lensa kontak"}},
+        {"id": 28, "kanji": "コンテスト", "hiragana": "コンテスト", "romaji": "kontesuto", "meanings": {"en": "contest", "id": "perlombaan, kontes"}}
+      ]
+    }
+  ]
+}

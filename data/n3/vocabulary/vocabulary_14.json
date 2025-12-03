@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "G",
+        "en": "G Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "言語学", "hiragana": "げんごがく", "romaji": "gen'gogaku", "meanings": {"en": "linguistics", "id": "ilmu bahasa, linguistik"}},
+        {"id": 2, "kanji": "原因", "hiragana": "げんいん", "romaji": "gen'in", "meanings": {"en": "cause, reason", "id": "penyebab, alasan"}},
+        {"id": 3, "kanji": "玄関", "hiragana": "げんかん", "romaji": "genkan", "meanings": {"en": "entrance", "id": "pintu masuk, pintu depan"}},
+        {"id": 4, "kanji": "現金", "hiragana": "げんきん", "romaji": "genkin", "meanings": {"en": "cash", "id": "uang tunai"}},
+        {"id": 5, "kanji": "月賦", "hiragana": "げっぷ", "romaji": "geppu", "meanings": {"en": "installment", "id": "cicilan bulanan"}},
+        {"id": 6, "kanji": "下車", "hiragana": "げしゃ", "romaji": "gesha", "meanings": {"en": "get off (vehicle)", "id": "turun kendaraan"}},
+        {"id": 7, "kanji": "月末", "hiragana": "げつまつ", "romaji": "getsumatsu", "meanings": {"en": "end of month", "id": "akhir bulan"}},
+        {"id": 8, "kanji": "銀行員", "hiragana": "ぎんこういん", "romaji": "ginkouin", "meanings": {"en": "bank clerk", "id": "pegawai bank"}},
+        {"id": 9, "kanji": "ぎりぎり", "hiragana": "ぎりぎり", "romaji": "girigiri", "meanings": {"en": "barely, just", "id": "nyaris, pas-pasan"}},
+        {"id": 10, "kanji": "ごちそう", "hiragana": "ごちそう", "romaji": "gochisou", "meanings": {"en": "feast, treat", "id": "suguhan, jamuan, hidangan"}},
+        {"id": 11, "kanji": "誤解", "hiragana": "ごかい", "romaji": "gokai", "meanings": {"en": "misunderstanding", "id": "salah paham, salah mengerti"}},
+        {"id": 12, "kanji": "ごめんください", "hiragana": "ごめんください", "romaji": "gomenkudasai", "meanings": {"en": "excuse me, may I come in?", "id": "permisi, boleh saya masuk?"}},
+        {"id": 13, "kanji": "ごめんなさい", "hiragana": "ごめんなさい", "romaji": "gomennasai", "meanings": {"en": "sorry", "id": "maafkanlah"}},
+        {"id": 14, "kanji": "ご主人", "hiragana": "ごしゅじん", "romaji": "goshujin", "meanings": {"en": "your husband", "id": "suami anda"}},
+        {"id": 15, "kanji": "合格", "hiragana": "ごうかく", "romaji": "goukaku", "meanings": {"en": "pass, success", "id": "kelulusan"}},
+        {"id": 16, "kanji": "合計", "hiragana": "ごうけい", "romaji": "goukei", "meanings": {"en": "total, sum", "id": "total, jumlah, keseluruhan"}},
+        {"id": 17, "kanji": "具合", "hiragana": "ぐあい", "romaji": "guai", "meanings": {"en": "condition, state", "id": "kondisi, keadaan"}},
+        {"id": 18, "kanji": "グラス", "hiragana": "グラス", "romaji": "gurasu", "meanings": {"en": "glass", "id": "gelas"}},
+        {"id": 19, "kanji": "グループ", "hiragana": "グループ", "romaji": "gurūpu", "meanings": {"en": "group", "id": "rombongan, grup"}},
+        {"id": 20, "kanji": "ぐっすり", "hiragana": "ぐっすり", "romaji": "gussuri", "meanings": {"en": "soundly (sleep)", "id": "lelap, nyenyak"}},
+        {"id": 21, "kanji": "偶数", "hiragana": "ぐうすう", "romaji": "guusuu", "meanings": {"en": "even number", "id": "bilangan genap"}},
+        {"id": 22, "kanji": "逆", "hiragana": "ぎゃく", "romaji": "gyaku", "meanings": {"en": "reverse, opposite", "id": "kebalikan, terbalik"}},
+        {"id": 23, "kanji": "行儀", "hiragana": "ぎょうぎ", "romaji": "gyougi", "meanings": {"en": "manners, behavior", "id": "tata krama, prilaku"}},
+        {"id": 24, "kanji": "行列", "hiragana": "ぎょうれつ", "romaji": "gyouretsu", "meanings": {"en": "queue, line", "id": "iring-iringan, barisan"}}
+      ]
+    }
+  ]
+}

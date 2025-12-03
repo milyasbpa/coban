@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "B",
+        "en": "B Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "貧乏", "hiragana": "びんぼう", "romaji": "binbou", "meanings": {"en": "poor, poverty", "id": "miskin, kemiskinan"}},
+        {"id": 2, "kanji": "便箋", "hiragana": "びんせん", "romaji": "binsen", "meanings": {"en": "letter paper", "id": "kertas surat"}},
+        {"id": 3, "kanji": "ビール", "hiragana": "ビール", "romaji": "bīru", "meanings": {"en": "beer", "id": "bir"}},
+        {"id": 4, "kanji": "美容師", "hiragana": "びようし", "romaji": "biyoushi", "meanings": {"en": "beautician", "id": "perias kecantikan"}},
+        {"id": 5, "kanji": "ボーナス", "hiragana": "ボーナス", "romaji": "bōnasu", "meanings": {"en": "bonus", "id": "tambahan, ekstra, bonus"}},
+        {"id": 6, "kanji": "ボンネット", "hiragana": "ボンネット", "romaji": "bonnetto", "meanings": {"en": "bonnet", "id": "kap mesin mobil"}},
+        {"id": 7, "kanji": "ボランティア", "hiragana": "ボランティア", "romaji": "borantia", "meanings": {"en": "volunteer", "id": "relawan, sukarelawan"}},
+        {"id": 8, "kanji": "ぼろぼろ", "hiragana": "ぼろぼろ", "romaji": "boroboro", "meanings": {"en": "tattered, worn out", "id": "compang-camping, lapuk, koyak"}},
+        {"id": 9, "kanji": "ボタン", "hiragana": "ボタン", "romaji": "botan", "meanings": {"en": "button", "id": "kancing"}},
+        {"id": 10, "kanji": "帽子", "hiragana": "ぼうし", "romaji": "boushi", "meanings": {"en": "hat, cap", "id": "topi, peci"}},
+        {"id": 11, "kanji": "部長", "hiragana": "ぶちょう", "romaji": "buchou", "meanings": {"en": "manager, head of department", "id": "direktur, kepala devisi, kepala bagian"}},
+        {"id": 12, "kanji": "部下", "hiragana": "ぶか", "romaji": "buka", "meanings": {"en": "subordinate", "id": "anak buah, bawahan, staff"}},
+        {"id": 13, "kanji": "物価", "hiragana": "ぶっか", "romaji": "bukka", "meanings": {"en": "prices", "id": "harga barang"}},
+        {"id": 14, "kanji": "分", "hiragana": "ぶん", "romaji": "bun", "meanings": {"en": "part, portion", "id": "bagian"}},
+        {"id": 15, "kanji": "文学", "hiragana": "ぶんがく", "romaji": "bungaku", "meanings": {"en": "literature", "id": "kesusastraan, literature"}},
+        {"id": 16, "kanji": "文学部", "hiragana": "ぶんがくぶ", "romaji": "bungakubu", "meanings": {"en": "faculty of literature", "id": "fakultas kesusastraan/literatur"}},
+        {"id": 17, "kanji": "文化", "hiragana": "ぶんか", "romaji": "bunka", "meanings": {"en": "culture", "id": "kebudayaan, kultur"}},
+        {"id": 18, "kanji": "分数", "hiragana": "ぶんすう", "romaji": "bunsuu", "meanings": {"en": "fraction", "id": "bilangan pecahan"}},
+        {"id": 19, "kanji": "ぶらぶら", "hiragana": "ぶらぶら", "romaji": "burabura", "meanings": {"en": "wander, stroll", "id": "berlenggang-lenggok"}},
+        {"id": 20, "kanji": "ブラインド", "hiragana": "ブラインド", "romaji": "buraindo", "meanings": {"en": "blind (curtain)", "id": "tirai penyekat cahaya"}},
+        {"id": 21, "kanji": "ブランド", "hiragana": "ブランド", "romaji": "burando", "meanings": {"en": "brand", "id": "cap, merk"}},
+        {"id": 22, "kanji": "ブラシ", "hiragana": "ブラシ", "romaji": "burashi", "meanings": {"en": "brush", "id": "sikat"}},
+        {"id": 23, "kanji": "ブラウス", "hiragana": "ブラウス", "romaji": "burausu", "meanings": {"en": "blouse", "id": "blus"}},
+        {"id": 24, "kanji": "ブレーキ", "hiragana": "ブレーキ", "romaji": "bureki", "meanings": {"en": "brake", "id": "rem"}},
+        {"id": 25, "kanji": "ブログ", "hiragana": "ブログ", "romaji": "burogu", "meanings": {"en": "blog", "id": "blog"}},
+        {"id": 26, "kanji": "舞台", "hiragana": "ぶたい", "romaji": "butai", "meanings": {"en": "stage", "id": "panggung, pentas, podium"}},
+        {"id": 27, "kanji": "ぶつ", "hiragana": "ぶつ", "romaji": "butsu", "meanings": {"en": "hit, strike", "id": "mengebuk, memukul"}},
+        {"id": 28, "kanji": "ぶつぶつ", "hiragana": "ぶつぶつ", "romaji": "butsubutsu", "meanings": {"en": "grumble, spots", "id": "bersungut-sungut, bintik-bintik"}},
+        {"id": 29, "kanji": "ぶつかる", "hiragana": "ぶつかる", "romaji": "butsukaru", "meanings": {"en": "bump, collide", "id": "menabrak, membentur"}}
+      ]
+    }
+  ]
+}

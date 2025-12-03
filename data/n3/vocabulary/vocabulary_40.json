@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "M",
+        "en": "M Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "貧しい", "hiragana": "まずしい", "romaji": "mazushii", "meanings": {"en": "poor, needy", "id": "miskin, melarat"}},
+        {"id": 2, "kanji": "～め", "hiragana": "～め", "romaji": "-me", "meanings": {"en": "somewhat, rather", "id": "agak, cenderung"}},
+        {"id": 3, "kanji": "めちゃくちゃ", "hiragana": "めちゃくちゃ", "romaji": "mechakucha", "meanings": {"en": "messy, chaotic", "id": "① kacau-balau, berantakan ② amat sangat"}},
+        {"id": 4, "kanji": "目立つ", "hiragana": "めだつ", "romaji": "medatsu", "meanings": {"en": "to stand out, to be conspicuous", "id": "menonjol, menyolok"}},
+        {"id": 5, "kanji": "～名", "hiragana": "～めい", "romaji": "-mei", "meanings": {"en": "counter for people", "id": "satuan jumlah orang"}},
+        {"id": 6, "kanji": "姪", "hiragana": "めい", "romaji": "mei", "meanings": {"en": "niece", "id": "keponakan wanita"}},
+        {"id": 7, "kanji": "名刺", "hiragana": "めいし", "romaji": "meishi", "meanings": {"en": "business card", "id": "kartu nama"}},
+        {"id": 8, "kanji": "迷惑", "hiragana": "めいわく", "romaji": "meiwaku", "meanings": {"en": "trouble, nuisance", "id": "gangguan, kejengkelan"}},
+        {"id": 9, "kanji": "めくる", "hiragana": "めくる", "romaji": "mekuru", "meanings": {"en": "to turn over, to flip", "id": "membalik [halaman buku], menggulung [lengan baju]"}},
+        {"id": 10, "kanji": "目眩", "hiragana": "めまい", "romaji": "memai", "meanings": {"en": "dizziness, vertigo", "id": "pusing, pening"}},
+        {"id": 11, "kanji": "メモリー", "hiragana": "メモリー", "romaji": "memorī", "meanings": {"en": "memory (computer)", "id": "daya tampung data dalam komputer, memori"}},
+        {"id": 12, "kanji": "綿", "hiragana": "めん", "romaji": "men", "meanings": {"en": "cotton", "id": "kapas"}},
+        {"id": 13, "kanji": "面倒", "hiragana": "めんどう", "romaji": "mendou", "meanings": {"en": "troublesome, difficult", "id": "① repot, susah ② rawat, asuh, jaga"}},
+        {"id": 14, "kanji": "面倒臭い", "hiragana": "めんどうくさい", "romaji": "mendoukusai", "meanings": {"en": "bothersome, tiresome", "id": "merepotkan, menyusahkan"}},
+        {"id": 15, "kanji": "免許", "hiragana": "めんきょ", "romaji": "menkyo", "meanings": {"en": "license, permit", "id": "izin, surat izin"}},
+        {"id": 16, "kanji": "面接", "hiragana": "めんせつ", "romaji": "mensetsu", "meanings": {"en": "interview", "id": "wawancara, tanya-jawab"}},
+        {"id": 17, "kanji": "メール", "hiragana": "メール", "romaji": "mēru", "meanings": {"en": "email, mail", "id": "surel elektronik, surel (mail)"}},
+        {"id": 18, "kanji": "メッセージ", "hiragana": "メッセージ", "romaji": "messeji", "meanings": {"en": "message", "id": "pesan, warta"}},
+        {"id": 19, "kanji": "目上", "hiragana": "めうえ", "romaji": "me'ue", "meanings": {"en": "one's superior", "id": "～ no hito 目上の人 atasan, senior, petinggi"}},
+        {"id": 20, "kanji": "見上げる", "hiragana": "みあげる", "romaji": "miageru", "meanings": {"en": "to look up", "id": "mendongak, melihat ke atas"}},
+        {"id": 21, "kanji": "磨く", "hiragana": "みがく", "romaji": "migaku", "meanings": {"en": "to polish, to brush", "id": "menggosok, memoles"}},
+        {"id": 22, "kanji": "見かける", "hiragana": "みかける", "romaji": "mikakeru", "meanings": {"en": "to notice, to see", "id": "terlihat, kelihatan"}},
+        {"id": 23, "kanji": "見舞い", "hiragana": "みまい", "romaji": "mimai", "meanings": {"en": "visit (to comfort)", "id": "penjengukan, kunjungan untuk menghibur"}},
+        {"id": 24, "kanji": "耳", "hiragana": "みみ", "romaji": "mimi", "meanings": {"en": "ear, hearing", "id": "① kuping, telinga ② pendengaran"}},
+        {"id": 25, "kanji": "見直し", "hiragana": "みなおし", "romaji": "minaoshi", "meanings": {"en": "review, revision", "id": "peninjauan kembali, perbaikan"}},
+        {"id": 26, "kanji": "見直す", "hiragana": "みなおす", "romaji": "minaosu", "meanings": {"en": "to review, to revise", "id": "meninjau kembali, memperbaiki"}},
+        {"id": 27, "kanji": "見送る", "hiragana": "みおくる", "romaji": "miokuru", "meanings": {"en": "to see off, to send off", "id": "antar, pengantaran"}},
+        {"id": 28, "kanji": "見送る", "hiragana": "みおくる", "romaji": "miokuru", "meanings": {"en": "to send off, to escort", "id": "mengantar, mengantarkan"}},
+        {"id": 29, "kanji": "見下ろす", "hiragana": "みおろす", "romaji": "miorosu", "meanings": {"en": "to look down, to despise", "id": "① melihat kebawah ② memandang rendah, menghina"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "禁止", "hiragana": "きんし", "romaji": "kinshi", "meanings": {"en": "prohibition", "id": "larangan, dilarang"}},
+        {"id": 2, "kanji": "絹", "hiragana": "きぬ", "romaji": "kinu", "meanings": {"en": "silk", "id": "sutera"}},
+        {"id": 3, "kanji": "記入", "hiragana": "きにゅう", "romaji": "kinyuu", "meanings": {"en": "entry, filling in", "id": "pencatatan, pengisian"}},
+        {"id": 4, "kanji": "気をつける", "hiragana": "きをつける", "romaji": "kiotsukeru", "meanings": {"en": "to be careful", "id": "berhati-hati"}},
+        {"id": 5, "kanji": "切符", "hiragana": "きっぷ", "romaji": "kippu", "meanings": {"en": "ticket", "id": "karcis, tiket"}},
+        {"id": 6, "kanji": "きらい", "hiragana": "きらい", "romaji": "kirai", "meanings": {"en": "dislike, hate", "id": "benci, tidak suka"}},
+        {"id": 7, "kanji": "切らす", "hiragana": "きらす", "romaji": "kirasu", "meanings": {"en": "to run out of", "id": "kehabisan"}},
+        {"id": 8, "kanji": "嫌う", "hiragana": "きらう", "romaji": "kirau", "meanings": {"en": "to hate, to dislike", "id": "membenci, merasa tidak suka"}},
+        {"id": 9, "kanji": "嫌われる", "hiragana": "きらわれる", "romaji": "kirawareru", "meanings": {"en": "to be disliked", "id": "dibenci, tidak disukai"}},
+        {"id": 10, "kanji": "切れる", "hiragana": "きれる", "romaji": "kireru", "meanings": {"en": "to cut, to break", "id": "putus, terpotong, habis, bisa potong, tajam"}},
+        {"id": 11, "kanji": "記録", "hiragana": "きろく", "romaji": "kiroku", "meanings": {"en": "record, document", "id": "catatan"}},
+        {"id": 12, "kanji": "切る", "hiragana": "きる", "romaji": "kiru", "meanings": {"en": "to cut", "id": "memotong, menggunting, menebang, menebas, memutuskan"}},
+        {"id": 13, "kanji": "帰省", "hiragana": "きせい", "romaji": "kisei", "meanings": {"en": "homecoming", "id": "pulang ke kampung halaman"}},
+        {"id": 14, "kanji": "記者", "hiragana": "きしゃ", "romaji": "kisha", "meanings": {"en": "reporter, journalist", "id": "wartawan, jurnalis, pers"}},
+        {"id": 15, "kanji": "奇数", "hiragana": "きすう", "romaji": "kisuu", "meanings": {"en": "odd number", "id": "bilangan ganjil"}},
+        {"id": 16, "kanji": "帰宅", "hiragana": "きたく", "romaji": "kitaku", "meanings": {"en": "return home", "id": "pulang ke rumah"}},
+        {"id": 17, "kanji": "喫煙", "hiragana": "きつえん", "romaji": "kitsuen", "meanings": {"en": "smoking", "id": "merokok"}},
+        {"id": 18, "kanji": "喫煙席", "hiragana": "きつえんせき", "romaji": "kitsuenseki", "meanings": {"en": "smoking seat", "id": "tempat duduk diperbolehkan merokok"}},
+        {"id": 19, "kanji": "きつい", "hiragana": "きつい", "romaji": "kitsui", "meanings": {"en": "tight, severe", "id": "ketat, sempit, keras, galak, berat"}},
+        {"id": 20, "kanji": "切手", "hiragana": "きって", "romaji": "kitte", "meanings": {"en": "stamp", "id": "perangko"}},
+        {"id": 21, "kanji": "きっと", "hiragana": "きっと", "romaji": "kitto", "meanings": {"en": "surely, certainly", "id": "pasti, tentu"}},
+        {"id": 22, "kanji": "刻む", "hiragana": "きざむ", "romaji": "kizamu", "meanings": {"en": "to carve, to engrave", "id": "mengiris, menggores, mengukir"}},
+        {"id": 23, "kanji": "傷", "hiragana": "きず", "romaji": "kizu", "meanings": {"en": "wound, injury", "id": "luka"}},
+        {"id": 24, "kanji": "子", "hiragana": "こ", "romaji": "ko", "meanings": {"en": "child", "id": "anak"}},
+        {"id": 25, "kanji": "こぼれる", "hiragana": "こぼれる", "romaji": "koboreru", "meanings": {"en": "to spill", "id": "meluap, bercucuran, tercurah"}},
+        {"id": 26, "kanji": "こぼす", "hiragana": "こぼす", "romaji": "kobosu", "meanings": {"en": "to spill", "id": "menumpahkan, meneteskan"}},
+        {"id": 27, "kanji": "コード", "hiragana": "コード", "romaji": "kōdo", "meanings": {"en": "cord, cable", "id": "kawat, kabel"}},
+        {"id": 28, "kanji": "子ども", "hiragana": "こども", "romaji": "kodomo", "meanings": {"en": "child, children", "id": "anak-anak, kanak-kanak"}},
+        {"id": 29, "kanji": "子ども連れ", "hiragana": "こどもづれ", "romaji": "kodomozure", "meanings": {"en": "accompanied by children", "id": "mengajak anak-anak"}}
+      ]
+    }
+  ]
+}

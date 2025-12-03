@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "B",
+        "en": "B Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "倍", "hiragana": "ばい", "romaji": "bai", "meanings": {"en": "fold, double", "id": "lipat, dua kali lipat, kelipatan"}},
+        {"id": 2, "kanji": "バイク", "hiragana": "バイク", "romaji": "baiku", "meanings": {"en": "motorbike", "id": "sepeda motor"}},
+        {"id": 3, "kanji": "バイト", "hiragana": "バイト", "romaji": "baito", "meanings": {"en": "part-time job", "id": "kerja paruh waktu"}},
+        {"id": 4, "kanji": "バケツ", "hiragana": "バケツ", "romaji": "baketsu", "meanings": {"en": "bucket", "id": "ember"}},
+        {"id": 5, "kanji": "バックミラー", "hiragana": "バックミラー", "romaji": "bakkumirā", "meanings": {"en": "back mirror", "id": "kaca spion [untuk melihat ke belakang]"}},
+        {"id": 6, "kanji": "場面", "hiragana": "ばめん", "romaji": "bamen", "meanings": {"en": "scene, situation", "id": "adegan, situasi, pemandangan"}},
+        {"id": 7, "kanji": "番", "hiragana": "ばん", "romaji": "ban", "meanings": {"en": "number, turn", "id": "nomor, giliran, urutan"}},
+        {"id": 8, "kanji": "番組", "hiragana": "ばんぐみ", "romaji": "bangumi", "meanings": {"en": "program, show", "id": "acara, program"}},
+        {"id": 9, "kanji": "ばらばら", "hiragana": "ばらばら", "romaji": "barabara", "meanings": {"en": "scattered, separated", "id": "cerai berai, berhamburan"}},
+        {"id": 10, "kanji": "バラエティ", "hiragana": "バラエティ", "romaji": "baraeti", "meanings": {"en": "variety", "id": "serba-ragam, bervariasi"}},
+        {"id": 11, "kanji": "バランス", "hiragana": "バランス", "romaji": "baransu", "meanings": {"en": "balance", "id": "seimbang"}},
+        {"id": 12, "kanji": "バレエ", "hiragana": "バレエ", "romaji": "baree", "meanings": {"en": "ballet", "id": "tarian balet"}},
+        {"id": 13, "kanji": "バス", "hiragana": "バス", "romaji": "basu", "meanings": {"en": "bus", "id": "bis"}},
+        {"id": 14, "kanji": "バス代", "hiragana": "バスだい", "romaji": "basudai", "meanings": {"en": "bus fare", "id": "ongkos bis"}},
+        {"id": 15, "kanji": "ベッド", "hiragana": "ベッド", "romaji": "beddo", "meanings": {"en": "bed", "id": "tempat tidur, ranjang"}},
+        {"id": 16, "kanji": "ベンチ", "hiragana": "ベンチ", "romaji": "benchi", "meanings": {"en": "bench", "id": "bangku taman, bangku panjang"}},
+        {"id": 17, "kanji": "弁護士", "hiragana": "べんごし", "romaji": "bengoshi", "meanings": {"en": "lawyer", "id": "pengacara, advokat"}},
+        {"id": 18, "kanji": "弁当", "hiragana": "べんとう", "romaji": "bentou", "meanings": {"en": "bento, lunch box", "id": "bekal makanan"}},
+        {"id": 19, "kanji": "ベランダ", "hiragana": "ベランダ", "romaji": "beranda", "meanings": {"en": "veranda", "id": "serambi, teras, beranda"}},
+        {"id": 20, "kanji": "ベルト", "hiragana": "ベルト", "romaji": "beruto", "meanings": {"en": "belt", "id": "ikat pinggang"}},
+        {"id": 21, "kanji": "別", "hiragana": "べつ", "romaji": "betsu", "meanings": {"en": "different, separate", "id": "lain, beda, terpisah, masing-masing"}},
+        {"id": 22, "kanji": "別々", "hiragana": "べつべつ", "romaji": "betsubetsu", "meanings": {"en": "separately", "id": "terpisah-pisah, sendiri-sendiri"}},
+        {"id": 23, "kanji": "別に", "hiragana": "べつに", "romaji": "betsuni", "meanings": {"en": "not really, not particularly", "id": "tidak terlalu, tidak istimewa, tidak khusus"}},
+        {"id": 24, "kanji": "ビデオデッキ", "hiragana": "ビデオデッキ", "romaji": "bideodekki", "meanings": {"en": "video deck", "id": "perangkat video"}},
+        {"id": 25, "kanji": "美人", "hiragana": "びじん", "romaji": "bijin", "meanings": {"en": "beautiful woman", "id": "wanita cantik"}},
+        {"id": 26, "kanji": "美術", "hiragana": "びじゅつ", "romaji": "bijutsu", "meanings": {"en": "art", "id": "seni, kesenian"}},
+        {"id": 27, "kanji": "美術館", "hiragana": "びじゅつかん", "romaji": "bijutsukan", "meanings": {"en": "art museum", "id": "gedung kesenian"}},
+        {"id": 28, "kanji": "瓶", "hiragana": "びん", "romaji": "bin", "meanings": {"en": "bottle", "id": "botol"}}
+      ]
+    }
+  ]
+}

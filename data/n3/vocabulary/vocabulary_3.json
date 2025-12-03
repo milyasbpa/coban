@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "A",
+        "en": "A Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "汗", "hiragana": "あせ", "romaji": "ase", "meanings": {"en": "sweat", "id": "keringat, peluh"}},
+        {"id": 2, "kanji": "汗くさい", "hiragana": "あせくさい", "romaji": "asekusai", "meanings": {"en": "smell of sweat", "id": "bau keringat"}},
+        {"id": 3, "kanji": "足首", "hiragana": "あしくび", "romaji": "ashikubi", "meanings": {"en": "ankle", "id": "pergelangan kaki"}},
+        {"id": 4, "kanji": "遊び", "hiragana": "あそび", "romaji": "asobi", "meanings": {"en": "play, amusement", "id": "permainan, hiburan"}},
+        {"id": 5, "kanji": "明日", "hiragana": "あした", "romaji": "ashita", "meanings": {"en": "tomorrow", "id": "esok, besok"}},
+        {"id": 6, "kanji": "与える", "hiragana": "あたえる", "romaji": "ataeru", "meanings": {"en": "give, present", "id": "memberikan, menyajikan, menyuguhkan"}},
+        {"id": 7, "kanji": "辺り", "hiragana": "あたり", "romaji": "atari", "meanings": {"en": "vicinity, around", "id": "sekitar, seputar, kira-kira"}},
+        {"id": 8, "kanji": "当たり前", "hiragana": "あたりまえ", "romaji": "atarimae", "meanings": {"en": "natural, obvious", "id": "sewajarnya, memang, masuk akal"}},
+        {"id": 9, "kanji": "当たる", "hiragana": "あたる", "romaji": "ataru", "meanings": {"en": "hit, strike", "id": "kena, tepat, terbentur"}},
+        {"id": 10, "kanji": "あて先", "hiragana": "あてさき", "romaji": "atesaki", "meanings": {"en": "address (recipient)", "id": "alamat"}},
+        {"id": 11, "kanji": "集まり", "hiragana": "あつまり", "romaji": "atsumari", "meanings": {"en": "gathering", "id": "kumpulan, perkumpulan, pertemuan"}},
+        {"id": 12, "kanji": "あっという間", "hiragana": "あっというま", "romaji": "attoiuma", "meanings": {"en": "in an instant", "id": "dalam sekejap saja"}},
+        {"id": 13, "kanji": "合う", "hiragana": "あう", "romaji": "au", "meanings": {"en": "fit, match", "id": "cocok, sesuai, serasi, pantas, layak, pas"}},
+        {"id": 14, "kanji": "泡", "hiragana": "あわ", "romaji": "awa", "meanings": {"en": "bubble, foam", "id": "busa, buih, gelembung"}},
+        {"id": 15, "kanji": "合わせる", "hiragana": "あわせる", "romaji": "awaseru", "meanings": {"en": "combine, match", "id": "mempertemukan"}},
+        {"id": 16, "kanji": "慌てる", "hiragana": "あわてる", "romaji": "awateru", "meanings": {"en": "panic, hurry", "id": "terburu-buru, tergesa-gesa, panik, gugup, bingung"}},
+        {"id": 17, "kanji": "怪しい", "hiragana": "あやしい", "romaji": "ayashii", "meanings": {"en": "suspicious, strange", "id": "aneh, mencurigakan"}},
+        {"id": 18, "kanji": "預かる", "hiragana": "あずかる", "romaji": "azukaru", "meanings": {"en": "keep, take care", "id": "menitip, menyimpan, menjaga, mengawasi"}},
+        {"id": 19, "kanji": "預ける", "hiragana": "あずける", "romaji": "azukeru", "meanings": {"en": "entrust, deposit", "id": "menitipkan, mempercayakan, menyimpan"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "B",
+        "en": "B Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "バーゲン", "hiragana": "バーゲン", "romaji": "bāgen", "meanings": {"en": "bargain", "id": "harga murah, potongan harga"}},
+        {"id": 2, "kanji": "バーゲンセール", "hiragana": "バーゲンセール", "romaji": "bāgensēru", "meanings": {"en": "bargain sale", "id": "jual murah"}}
+      ]
+    }
+  ]
+}

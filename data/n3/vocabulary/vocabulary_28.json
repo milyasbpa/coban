@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "辛い", "hiragana": "からい", "romaji": "karai", "meanings": {"en": "spicy, salty", "id": "pedas, asin"}},
+        {"id": 2, "kanji": "空っぽ", "hiragana": "からっぽ", "romaji": "karappo", "meanings": {"en": "empty", "id": "kosong melompong"}},
+        {"id": 3, "kanji": "彼", "hiragana": "かれ", "romaji": "kare", "meanings": {"en": "he, him", "id": "dia [laki-laki]"}},
+        {"id": 4, "kanji": "枯れる", "hiragana": "かれる", "romaji": "kareru", "meanings": {"en": "wither, fade", "id": "layu, menguning"}},
+        {"id": 5, "kanji": "彼氏", "hiragana": "かれし", "romaji": "kareshi", "meanings": {"en": "boyfriend", "id": "si dia, pacar laki-laki"}},
+        {"id": 6, "kanji": "借り", "hiragana": "かり", "romaji": "kari", "meanings": {"en": "loan, debt", "id": "pinjaman, hutang"}},
+        {"id": 7, "kanji": "借り賃", "hiragana": "かりちん", "romaji": "karichin", "meanings": {"en": "rental fee", "id": "biaya sewa, uang sewa"}},
+        {"id": 8, "kanji": "カロリー", "hiragana": "カロリー", "romaji": "karorii", "meanings": {"en": "calorie", "id": "kalori"}},
+        {"id": 9, "kanji": "重なる", "hiragana": "かさなる", "romaji": "kasanaru", "meanings": {"en": "to pile up, to overlap", "id": "bertumpuk, bersusun, berulang-ulang"}},
+        {"id": 10, "kanji": "重ねる", "hiragana": "かさねる", "romaji": "kasaneru", "meanings": {"en": "to stack, to repeat", "id": "menumpukkan, menyusun, mengulang-ulang"}},
+        {"id": 11, "kanji": "稼ぐ", "hiragana": "かせぐ", "romaji": "kasegu", "meanings": {"en": "to earn, to collect", "id": "mendapatkan, mengumpulkan [pendapatan, nilai]"}},
+        {"id": 12, "kanji": "貸し", "hiragana": "かし", "romaji": "kashi", "meanings": {"en": "loan, rent", "id": "pinjaman, sewaan"}},
+        {"id": 13, "kanji": "貸し賃", "hiragana": "かしちん", "romaji": "kashichin", "meanings": {"en": "rental fee", "id": "biaya pinjam/sewa"}},
+        {"id": 14, "kanji": "賢い", "hiragana": "かしこい", "romaji": "kashikoi", "meanings": {"en": "wise, clever", "id": "cerdik, pandai, cermat"}},
+        {"id": 15, "kanji": "歌手", "hiragana": "かしゅ", "romaji": "kashu", "meanings": {"en": "singer", "id": "penyanyi, vokalis"}},
+        {"id": 16, "kanji": "肩", "hiragana": "かた", "romaji": "kata", "meanings": {"en": "shoulder", "id": "pundak, bahu"}},
+        {"id": 17, "kanji": "型", "hiragana": "かた", "romaji": "kata", "meanings": {"en": "type, model, pattern", "id": "pola, cetakan, jenis, tipe, golongan"}},
+        {"id": 18, "kanji": "固い", "hiragana": "かたい", "romaji": "katai", "meanings": {"en": "hard, solid", "id": "keras, kuat, kokoh"}},
+        {"id": 19, "kanji": "片道", "hiragana": "かたみち", "romaji": "katamichi", "meanings": {"en": "one way", "id": "satu jalan, satu jurusan"}},
+        {"id": 20, "kanji": "片付け", "hiragana": "かたづけ", "romaji": "katazuke", "meanings": {"en": "tidying up", "id": "pembersihan, perapian"}},
+        {"id": 21, "kanji": "片付ける", "hiragana": "かたづける", "romaji": "katazukeru", "meanings": {"en": "to tidy up", "id": "membereskan, merapikan"}},
+        {"id": 22, "kanji": "片付く", "hiragana": "かたづく", "romaji": "katazuku", "meanings": {"en": "to be tidied up", "id": "beres, rapi"}},
+        {"id": 23, "kanji": "家庭", "hiragana": "かてい", "romaji": "katei", "meanings": {"en": "home, family", "id": "rumah tangga, keluarga"}},
+        {"id": 24, "kanji": "家庭科", "hiragana": "かていか", "romaji": "kateika", "meanings": {"en": "home economics", "id": "teknik pengelolaan rumah tangga"}},
+        {"id": 25, "kanji": "カーテン", "hiragana": "カーテン", "romaji": "katen", "meanings": {"en": "curtain", "id": "tirai, gorden"}},
+        {"id": 26, "kanji": "活躍", "hiragana": "かつやく", "romaji": "katsuyaku", "meanings": {"en": "activity, participation", "id": "beraktifitas dengan semangat, ikut mengambil bagian"}},
+        {"id": 27, "kanji": "飼う", "hiragana": "かう", "romaji": "kau", "meanings": {"en": "to keep (animal)", "id": "memelihara"}},
+        {"id": 28, "kanji": "皮", "hiragana": "かわ", "romaji": "kawa", "meanings": {"en": "skin, peel", "id": "kulit [manusia, pohon, buah]"}},
+        {"id": 29, "kanji": "かわいがる", "hiragana": "かわいがる", "romaji": "kawaigaru", "meanings": {"en": "to love, to cherish", "id": "menyayangi, memanjakan"}}
+      ]
+    }
+  ]
+}

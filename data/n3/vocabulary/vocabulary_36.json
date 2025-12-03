@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "唇", "hiragana": "くちびる", "romaji": "kuchibiru", "meanings": {"en": "lips", "id": "bibir"}},
+        {"id": 2, "kanji": "くだらない", "hiragana": "くだらない", "romaji": "kudaranai", "meanings": {"en": "worthless, trivial", "id": "tidak cemerlang, tidak bermutu"}},
+        {"id": 3, "kanji": "下り", "hiragana": "くだり", "romaji": "kudari", "meanings": {"en": "downward slope, outer ring", "id": "jalur arah turun, lingkar luar"}},
+        {"id": 4, "kanji": "下る", "hiragana": "くだる", "romaji": "kudaru", "meanings": {"en": "to go down, to descend", "id": "turun, menuruni"}},
+        {"id": 5, "kanji": "クイズ", "hiragana": "クイズ", "romaji": "kuizu", "meanings": {"en": "quiz", "id": "kuis"}},
+        {"id": 6, "kanji": "くじ", "hiragana": "くじ", "romaji": "kuji", "meanings": {"en": "lottery, raffle", "id": "undian, lotere"}},
+        {"id": 7, "kanji": "くむ", "hiragana": "くむ", "romaji": "kumu", "meanings": {"en": "to ladle, to scoop", "id": "menyedok, memenuhkan"}},
+        {"id": 8, "kanji": "クーラー", "hiragana": "クーラー", "romaji": "ku-ra-", "meanings": {"en": "air conditioner", "id": "penyejuk ruangan, pendingin"}},
+        {"id": 9, "kanji": "比べる", "hiragana": "くらべる", "romaji": "kuraberu", "meanings": {"en": "to compare", "id": "menguji, bertanding, membandingkan"}},
+        {"id": 10, "kanji": "クラシック", "hiragana": "クラシック", "romaji": "kurashikku", "meanings": {"en": "classic", "id": "klasik"}},
+        {"id": 11, "kanji": "暮らす", "hiragana": "くらす", "romaji": "kurasu", "meanings": {"en": "to live, to reside", "id": "hidup, tinggal"}},
+        {"id": 12, "kanji": "クラスメイト", "hiragana": "クラスメイト", "romaji": "kurasumeito", "meanings": {"en": "classmate", "id": "teman sekelas"}},
+        {"id": 13, "kanji": "クラヌメイト", "hiragana": "クラヌメイト", "romaji": "kurasumeito", "meanings": {"en": "classmate", "id": "teman sekelas"}},
+        {"id": 14, "kanji": "暮れ", "hiragana": "くれ", "romaji": "kure", "meanings": {"en": "dusk, year-end", "id": "senja, akhir tahun"}},
+        {"id": 15, "kanji": "クレジット", "hiragana": "クレジット", "romaji": "kurejitto", "meanings": {"en": "credit", "id": "kredit"}},
+        {"id": 16, "kanji": "繰り返し", "hiragana": "くりかえし", "romaji": "kurikaeshi", "meanings": {"en": "repetition", "id": "pengulangan, berulang-ulang"}},
+        {"id": 17, "kanji": "繰り返す", "hiragana": "くりかえす", "romaji": "kurikaesu", "meanings": {"en": "to repeat", "id": "mengulang"}},
+        {"id": 18, "kanji": "クリック", "hiragana": "クリック", "romaji": "kurikku", "meanings": {"en": "click", "id": "klik, mengklik"}},
+        {"id": 19, "kanji": "クリーニング", "hiragana": "クリーニング", "romaji": "kuriiningu", "meanings": {"en": "cleaning, laundry", "id": "pembersihan, binatu, cuci kering"}},
+        {"id": 20, "kanji": "くるむ", "hiragana": "くるむ", "romaji": "kurumu", "meanings": {"en": "to wrap", "id": "membungkus"}},
+        {"id": 21, "kanji": "苦しい", "hiragana": "くるしい", "romaji": "kurushii", "meanings": {"en": "painful, difficult", "id": "sengsara, menderita, tidak nyaman"}},
+        {"id": 22, "kanji": "苦しむ", "hiragana": "くるしむ", "romaji": "kurushimu", "meanings": {"en": "to suffer", "id": "menderita"}},
+        {"id": 23, "kanji": "臭い", "hiragana": "くさい", "romaji": "kusai", "meanings": {"en": "smelly, stinky", "id": "bau, berbau"}},
+        {"id": 24, "kanji": "腐る", "hiragana": "くさる", "romaji": "kusaru", "meanings": {"en": "to rot, to go bad", "id": "menjadi busuk, menjadi basi"}},
+        {"id": 25, "kanji": "癖", "hiragana": "くせ", "romaji": "kuse", "meanings": {"en": "habit, peculiarity", "id": "kebiasaan ganjil"}},
+        {"id": 26, "kanji": "くしゃみ", "hiragana": "くしゃみ", "romaji": "kushami", "meanings": {"en": "sneeze", "id": "bersin"}},
+        {"id": 27, "kanji": "薬代", "hiragana": "くすりだい", "romaji": "kusuridai", "meanings": {"en": "medicine fee", "id": "biaya obat"}},
+        {"id": 28, "kanji": "薬指", "hiragana": "くすりゆび", "romaji": "kusuriyubi", "meanings": {"en": "ring finger", "id": "jari manis"}},
+        {"id": 29, "kanji": "靴下", "hiragana": "くつした", "romaji": "kutsushita", "meanings": {"en": "socks", "id": "kaos kaki"}}
+      ]
+    }
+  ]
+}

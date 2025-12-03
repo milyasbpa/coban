@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "F",
+        "en": "F Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "深まる", "hiragana": "ふかまる", "romaji": "fukamaru", "meanings": {"en": "deepen", "id": "menjadi lebih mendalam"}},
+        {"id": 2, "kanji": "深める", "hiragana": "ふかめる", "romaji": "fukameru", "meanings": {"en": "deepen", "id": "memperdalam"}},
+        {"id": 3, "kanji": "不可能", "hiragana": "ふかのう", "romaji": "fukanou", "meanings": {"en": "impossible", "id": "tidak mungkin, tidak memungkinkan"}},
+        {"id": 4, "kanji": "布巾", "hiragana": "ふきん", "romaji": "fukin", "meanings": {"en": "cloth, dish towel", "id": "kain lap, serbet"}},
+        {"id": 5, "kanji": "拭く", "hiragana": "ふく", "romaji": "fuku", "meanings": {"en": "wipe", "id": "menyeka, mengelap"}},
+        {"id": 6, "kanji": "含める", "hiragana": "ふくめる", "romaji": "fukumeru", "meanings": {"en": "include, contain", "id": "mencakupkan, memasukkan"}},
+        {"id": 7, "kanji": "含む", "hiragana": "ふくむ", "romaji": "fukumu", "meanings": {"en": "include, contain", "id": "mengandung, mencakup, termasuk, berisikan"}},
+        {"id": 8, "kanji": "不満", "hiragana": "ふまん", "romaji": "fuman", "meanings": {"en": "dissatisfaction", "id": "ketidak-puasan"}},
+        {"id": 9, "kanji": "踏切", "hiragana": "ふみきり", "romaji": "fumikiri", "meanings": {"en": "railroad crossing", "id": "persimpangan jalan kereta, pintu kereta"}},
+        {"id": 10, "kanji": "踏む", "hiragana": "ふむ", "romaji": "fumu", "meanings": {"en": "step on", "id": "menginjak, menginjakkan kaki"}},
+        {"id": 11, "kanji": "船便", "hiragana": "ふなびん", "romaji": "funabin", "meanings": {"en": "surface mail (by ship)", "id": "pos laut, pengiriman dengan kapal laut"}},
+        {"id": 12, "kanji": "雰囲気", "hiragana": "ふんいき", "romaji": "fun'iki", "meanings": {"en": "atmosphere, mood", "id": "suasana, atmosfir"}},
+        {"id": 13, "kanji": "フォーク", "hiragana": "フォーク", "romaji": "fōku", "meanings": {"en": "fork", "id": "garpu"}},
+        {"id": 14, "kanji": "ふらふら", "hiragana": "ふらふら", "romaji": "furafura", "meanings": {"en": "stagger, sway", "id": "sempoyongan, terhuyung-huyung"}},
+        {"id": 15, "kanji": "フライパン", "hiragana": "フライパン", "romaji": "furaipan", "meanings": {"en": "frying pan", "id": "penggorengan, wajan"}},
+        {"id": 16, "kanji": "振込", "hiragana": "ふりこみ", "romaji": "furikomi", "meanings": {"en": "bank transfer", "id": "transfer/kiriman uang [ke rekening bank]"}},
+        {"id": 17, "kanji": "振り込む", "hiragana": "ふりこむ", "romaji": "furikomu", "meanings": {"en": "transfer money", "id": "mentransfer/mengirim uang [ke rekening bank]"}},
+        {"id": 18, "kanji": "風呂", "hiragana": "ふろ", "romaji": "furo", "meanings": {"en": "bath", "id": "mandi, permandian"}},
+        {"id": 19, "kanji": "フロント", "hiragana": "フロント", "romaji": "furonto", "meanings": {"en": "front desk", "id": "bagian depan, penerima tamu"}},
+        {"id": 20, "kanji": "振る", "hiragana": "ふる", "romaji": "furu", "meanings": {"en": "shake, sprinkle", "id": "menaburkan [garam, lada dll.], mengibaskan [ekor]"}},
+        {"id": 21, "kanji": "震える", "hiragana": "ふるえる", "romaji": "furueru", "meanings": {"en": "tremble, shiver", "id": "gemetar, bergetar, menggigil, berguncang"}},
+        {"id": 22, "kanji": "フルーツ", "hiragana": "フルーツ", "romaji": "furūtsu", "meanings": {"en": "fruit", "id": "buah"}},
+        {"id": 23, "kanji": "不思議", "hiragana": "ふしぎ", "romaji": "fushigi", "meanings": {"en": "mysterious, strange", "id": "ajaib, aneh, ganjil, mengherankan, misterius"}},
+        {"id": 24, "kanji": "不足", "hiragana": "ふそく", "romaji": "fusoku", "meanings": {"en": "insufficient, shortage", "id": "tidak cukup, kekurangan, langka, sukar didapat"}},
+        {"id": 25, "kanji": "蓋", "hiragana": "ふた", "romaji": "futa", "meanings": {"en": "lid, cover", "id": "tutup, penutup"}},
+        {"id": 26, "kanji": "ふと", "hiragana": "ふと", "romaji": "futo", "meanings": {"en": "suddenly, by chance", "id": "tiba-tiba, kebetulan"}},
+        {"id": 27, "kanji": "普通", "hiragana": "ふつう", "romaji": "futsuu", "meanings": {"en": "ordinary, usual", "id": "biasa, lazim, umum"}},
+        {"id": 28, "kanji": "夫婦", "hiragana": "ふうふ", "romaji": "fuufu", "meanings": {"en": "married couple", "id": "suami istri, pasangan suami istri"}}
+      ]
+    }
+  ]
+}

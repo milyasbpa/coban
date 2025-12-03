@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "F",
+        "en": "F Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "封筒", "hiragana": "ふうとう", "romaji": "fuutou", "meanings": {"en": "envelope", "id": "amplop, sampul surat"}},
+        {"id": 2, "kanji": "増やす", "hiragana": "ふやす", "romaji": "fuyasu", "meanings": {"en": "increase, add", "id": "menambah, memperbanyak"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "G",
+        "en": "G Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "外食", "hiragana": "がいしょく", "romaji": "gaishoku", "meanings": {"en": "eat out", "id": "makan di luar, makan di restoran"}},
+        {"id": 2, "kanji": "画家", "hiragana": "がか", "romaji": "gaka", "meanings": {"en": "painter", "id": "pelukis"}},
+        {"id": 3, "kanji": "学科", "hiragana": "がっか", "romaji": "gakka", "meanings": {"en": "subject, department", "id": "mata pelajaran, mata kuliah, jurusan"}},
+        {"id": 4, "kanji": "がっかり", "hiragana": "がっかり", "romaji": "gakkari", "meanings": {"en": "disappointed", "id": "kecewa, patah semangat"}},
+        {"id": 5, "kanji": "学期", "hiragana": "がっき", "romaji": "gakki", "meanings": {"en": "semester, term", "id": "semester, tahun ajaran"}},
+        {"id": 6, "kanji": "学費", "hiragana": "がくひ", "romaji": "gakuhi", "meanings": {"en": "school expenses", "id": "uang sekolah"}},
+        {"id": 7, "kanji": "学年", "hiragana": "がくねん", "romaji": "gakunen", "meanings": {"en": "school year", "id": "tahun ajaran"}},
+        {"id": 8, "kanji": "学歴", "hiragana": "がくれき", "romaji": "gakureki", "meanings": {"en": "academic background", "id": "riwayat pendidikan, latar belakang akademik"}},
+        {"id": 9, "kanji": "学者", "hiragana": "がくしゃ", "romaji": "gakusha", "meanings": {"en": "scholar", "id": "ilmuwan"}},
+        {"id": 10, "kanji": "我慢", "hiragana": "がまん", "romaji": "gaman", "meanings": {"en": "patience, endurance", "id": "sabar, tahan"}},
+        {"id": 11, "kanji": "我慢強い", "hiragana": "がまんづよい", "romaji": "gamanzuyoi", "meanings": {"en": "patient, persevering", "id": "kuat bersabar, sanggup bertahan"}},
+        {"id": 12, "kanji": "画面", "hiragana": "がめん", "romaji": "gamen", "meanings": {"en": "screen, display", "id": "layar, gambar, tampilan"}},
+        {"id": 13, "kanji": "元日", "hiragana": "がんじつ", "romaji": "ganjitsu", "meanings": {"en": "New Year's Day", "id": "1 Januari, tahun baru"}},
+        {"id": 14, "kanji": "元旦", "hiragana": "がんたん", "romaji": "gantan", "meanings": {"en": "New Year's morning", "id": "hari pertama tahun baru"}},
+        {"id": 15, "kanji": "柄", "hiragana": "がら", "romaji": "gara", "meanings": {"en": "pattern, design", "id": "motif, corak, bentuk tubuh, fisik"}},
+        {"id": 16, "kanji": "がらがら", "hiragana": "がらがら", "romaji": "garagara", "meanings": {"en": "empty, hollow", "id": "kosong, sepi"}},
+        {"id": 17, "kanji": "ガラス", "hiragana": "ガラス", "romaji": "garasu", "meanings": {"en": "glass", "id": "gelas, beling, kaca"}},
+        {"id": 18, "kanji": "ガス", "hiragana": "ガス", "romaji": "gasu", "meanings": {"en": "gas", "id": "gas, asap"}},
+        {"id": 19, "kanji": "芸術", "hiragana": "げいじゅつ", "romaji": "geijutsu", "meanings": {"en": "art", "id": "kesenian"}},
+        {"id": 20, "kanji": "下旬", "hiragana": "げじゅん", "romaji": "gejyun", "meanings": {"en": "end of month", "id": "akhir bulan"}},
+        {"id": 21, "kanji": "劇", "hiragana": "げき", "romaji": "geki", "meanings": {"en": "drama, play", "id": "sandiwara, drama"}},
+        {"id": 22, "kanji": "劇場", "hiragana": "げきじょう", "romaji": "gekijyou", "meanings": {"en": "theater", "id": "teater sandiwara/drama"}},
+        {"id": 23, "kanji": "現代", "hiragana": "げんだい", "romaji": "gendai", "meanings": {"en": "modern times", "id": "zaman sekarang, modern"}},
+        {"id": 24, "kanji": "言語", "hiragana": "げんご", "romaji": "gen'go", "meanings": {"en": "language", "id": "bahasa"}}
+      ]
+    }
+  ]
+}

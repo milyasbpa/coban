@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "B",
+        "en": "B Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ぶつける", "hiragana": "ぶつける", "romaji": "butsukeru", "meanings": {"en": "bump, hit", "id": "menabrakkan, membenturkan"}},
+        {"id": 2, "kanji": "物理", "hiragana": "ぶつり", "romaji": "butsuri", "meanings": {"en": "physics", "id": "fisika"}},
+        {"id": 3, "kanji": "物理学", "hiragana": "ぶつりがく", "romaji": "butsurigaku", "meanings": {"en": "physical science", "id": "ilmu fisika, ilmu alam"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "C",
+        "en": "C Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "チャイム", "hiragana": "チャイム", "romaji": "chaimu", "meanings": {"en": "chime, doorbell", "id": "bunyi lonceng, bel pintu"}},
+        {"id": 2, "kanji": "着く", "hiragana": "つく", "romaji": "chaku", "meanings": {"en": "arrive", "id": "tiba"}},
+        {"id": 3, "kanji": "ちゃんと", "hiragana": "ちゃんと", "romaji": "chanto", "meanings": {"en": "properly, orderly", "id": "dengan teratur, dengan selayaknya"}},
+        {"id": 4, "kanji": "茶碗", "hiragana": "ちゃわん", "romaji": "chawan", "meanings": {"en": "rice bowl, tea cup", "id": "mangkuk nasi, cangkir teh"}},
+        {"id": 5, "kanji": "チェック", "hiragana": "チェック", "romaji": "chekku", "meanings": {"en": "checkered pattern", "id": "motif kotak-kotak"}},
+        {"id": 6, "kanji": "父", "hiragana": "ちち", "romaji": "chichi", "meanings": {"en": "father", "id": "ayah, bapak [saya]"}},
+        {"id": 7, "kanji": "違い", "hiragana": "ちがい", "romaji": "chigai", "meanings": {"en": "difference", "id": "perbedaan, selisih"}},
+        {"id": 8, "kanji": "地方", "hiragana": "ちほう", "romaji": "chihou", "meanings": {"en": "region, area", "id": "daerah, wilayah, kawasan"}},
+        {"id": 9, "kanji": "縮む", "hiragana": "ちぢむ", "romaji": "chijimu", "meanings": {"en": "shrink, contract", "id": "susut, ciut, memendek"}},
+        {"id": 10, "kanji": "地下", "hiragana": "ちか", "romaji": "chika", "meanings": {"en": "underground", "id": "bawah tanah"}},
+        {"id": 11, "kanji": "近道", "hiragana": "ちかみち", "romaji": "chikamichi", "meanings": {"en": "shortcut", "id": "jalan pintas"}},
+        {"id": 12, "kanji": "痴漢", "hiragana": "ちかん", "romaji": "chikan", "meanings": {"en": "molester", "id": "hidung belang, pengganggu wanita"}},
+        {"id": 13, "kanji": "近づける", "hiragana": "ちかづける", "romaji": "chikazukeru", "meanings": {"en": "bring closer", "id": "mendekatkan"}},
+        {"id": 14, "kanji": "近づく", "hiragana": "ちかづく", "romaji": "chikazuku", "meanings": {"en": "approach", "id": "menjadi dekat, mendekat"}},
+        {"id": 15, "kanji": "チケット", "hiragana": "チケット", "romaji": "chiketto", "meanings": {"en": "ticket", "id": "karcis, tiket"}},
+        {"id": 16, "kanji": "遅刻", "hiragana": "ちこく", "romaji": "chikoku", "meanings": {"en": "lateness, delay", "id": "kelambatan, keterlambatan"}},
+        {"id": 17, "kanji": "地球", "hiragana": "ちきゅう", "romaji": "chikyuu", "meanings": {"en": "earth, globe", "id": "dunia, bumi"}},
+        {"id": 18, "kanji": "チーム", "hiragana": "チーム", "romaji": "chīmu", "meanings": {"en": "team", "id": "regu, tim"}},
+        {"id": 19, "kanji": "散らかる", "hiragana": "ちらかる", "romaji": "chirakaru", "meanings": {"en": "be scattered", "id": "berantakan, berserakan"}},
+        {"id": 20, "kanji": "散らかす", "hiragana": "ちらかす", "romaji": "chirakasu", "meanings": {"en": "scatter", "id": "memberantaki"}},
+        {"id": 21, "kanji": "散らす", "hiragana": "ちらす", "romaji": "chirasu", "meanings": {"en": "scatter, disperse", "id": "menaburkan, memencarkan"}},
+        {"id": 22, "kanji": "地理", "hiragana": "ちり", "romaji": "chiri", "meanings": {"en": "geography", "id": "geografi, ilmu bumi"}},
+        {"id": 23, "kanji": "ちりとり", "hiragana": "ちりとり", "romaji": "chiritori", "meanings": {"en": "dustpan", "id": "pengki sampah"}},
+        {"id": 24, "kanji": "散る", "hiragana": "ちる", "romaji": "chiru", "meanings": {"en": "fall, scatter", "id": "berguguran, berserakan"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "加える", "hiragana": "くわえる", "romaji": "kuwaeru", "meanings": {"en": "to add", "id": "menambahkan"}},
+        {"id": 2, "kanji": "詳しい", "hiragana": "くわしい", "romaji": "kuwashii", "meanings": {"en": "detailed, precise", "id": "terperinci, detil"}},
+        {"id": 3, "kanji": "区役所", "hiragana": "くやくしょ", "romaji": "kuyakusho", "meanings": {"en": "ward office", "id": "kantor pemerintahan daerah"}},
+        {"id": 4, "kanji": "悔しい", "hiragana": "くやしい", "romaji": "kuyashii", "meanings": {"en": "regretful, vexing", "id": "kesal, jengkel"}},
+        {"id": 5, "kanji": "崩れる", "hiragana": "くずれる", "romaji": "kuzureru", "meanings": {"en": "to collapse", "id": "runtuh, roboh, longsor"}},
+        {"id": 6, "kanji": "崩す", "hiragana": "くずす", "romaji": "kuzusu", "meanings": {"en": "to destroy, to break down", "id": "meruntuhkan, membongkar, menghancurkan"}},
+        {"id": 7, "kanji": "客", "hiragana": "きゃく", "romaji": "kyaku", "meanings": {"en": "guest", "id": "tamu"}},
+        {"id": 8, "kanji": "客室", "hiragana": "きゃくしつ", "romaji": "kyakushitsu", "meanings": {"en": "guest room", "id": "ruang tamu"}},
+        {"id": 9, "kanji": "キャンセル", "hiragana": "キャンセル", "romaji": "kyanseru", "meanings": {"en": "cancel", "id": "membatalkan"}},
+        {"id": 10, "kanji": "キャッシュ", "hiragana": "キャッシュ", "romaji": "kyasshu", "meanings": {"en": "cash", "id": "uang tunai"}},
+        {"id": 11, "kanji": "距離", "hiragana": "きょり", "romaji": "kyori", "meanings": {"en": "distance", "id": "jarak"}},
+        {"id": 12, "kanji": "強調", "hiragana": "きょうちょう", "romaji": "kyouchou", "meanings": {"en": "emphasis, stress", "id": "penegasan, penekanan"}},
+        {"id": 13, "kanji": "教員", "hiragana": "きょういん", "romaji": "kyouin", "meanings": {"en": "teacher, instructor", "id": "pendidik, pengajar, guru"}},
+        {"id": 14, "kanji": "教授", "hiragana": "きょうじゅ", "romaji": "kyouju", "meanings": {"en": "professor", "id": "dosen, guru besar, profesor"}},
+        {"id": 15, "kanji": "興味", "hiragana": "きょうみ", "romaji": "kyoumi", "meanings": {"en": "interest", "id": "minat, perhatian"}},
+        {"id": 16, "kanji": "協力", "hiragana": "きょうりょく", "romaji": "kyouryoku", "meanings": {"en": "cooperation", "id": "kerjasama, dukungan"}},
+        {"id": 17, "kanji": "教師", "hiragana": "きょうし", "romaji": "kyoushi", "meanings": {"en": "teacher", "id": "pengajar, guru"}},
+        {"id": 18, "kanji": "競争", "hiragana": "きょうそう", "romaji": "kyousou", "meanings": {"en": "competition", "id": "persaingan, bersaing"}},
+        {"id": 19, "kanji": "共通", "hiragana": "きょうつう", "romaji": "kyoutsuu", "meanings": {"en": "common, shared", "id": "kebersamaan, kesamaan, umum, sama"}},
+        {"id": 20, "kanji": "教材", "hiragana": "きょうざい", "romaji": "kyouzai", "meanings": {"en": "teaching material", "id": "bahan pengajaran"}},
+        {"id": 21, "kanji": "急", "hiragana": "きゅう", "romaji": "kyuu", "meanings": {"en": "urgent, sudden", "id": "mendesak, darurat, curam, deras, tiba-tiba, mendadak"}},
+        {"id": 22, "kanji": "休学", "hiragana": "きゅうがく", "romaji": "kyuugaku", "meanings": {"en": "leave of absence from school", "id": "sementara berhenti sekolah"}},
+        {"id": 23, "kanji": "休日", "hiragana": "きゅうじつ", "romaji": "kyuujitsu", "meanings": {"en": "holiday", "id": "hari libur, hari besar"}},
+        {"id": 24, "kanji": "休暇", "hiragana": "きゅうか", "romaji": "kyuuka", "meanings": {"en": "vacation, holiday", "id": "liburan, cuti"}},
+        {"id": 25, "kanji": "休憩", "hiragana": "きゅうけい", "romaji": "kyuukei", "meanings": {"en": "rest, break", "id": "istirahat sejenak"}},
+        {"id": 26, "kanji": "急行", "hiragana": "きゅうこう", "romaji": "kyuukou", "meanings": {"en": "express, rapid", "id": "ekspres, kilat, cepat"}},
+        {"id": 27, "kanji": "給料", "hiragana": "きゅうりょう", "romaji": "kyuuryou", "meanings": {"en": "salary, wage", "id": "gaji, upah"}},
+        {"id": 28, "kanji": "給食", "hiragana": "きゅうしょく", "romaji": "kyuushoku", "meanings": {"en": "school lunch, company meal", "id": "penyediaan makanan [di sekolah, di perusahaan]"}}
+      ]
+    }
+  ]
+}

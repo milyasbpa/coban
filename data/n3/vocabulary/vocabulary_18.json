@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "H",
+        "en": "H Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "控える", "hiragana": "ひかえる", "romaji": "hikaeru", "meanings": {"en": "restrain, refrain", "id": "membatasi diri"}},
+        {"id": 2, "kanji": "引き出す", "hiragana": "ひきだす", "romaji": "hikidasu", "meanings": {"en": "withdraw, pull out", "id": "mengeluarkan uang, menarik keluar"}},
+        {"id": 3, "kanji": "引き算", "hiragana": "ひきざん", "romaji": "hikizan", "meanings": {"en": "subtraction", "id": "perhitungan pengurangan"}},
+        {"id": 4, "kanji": "引越し", "hiragana": "ひっこし", "romaji": "hikkoshi", "meanings": {"en": "moving (house)", "id": "pindah [rumah]"}},
+        {"id": 5, "kanji": "ひっくり返す", "hiragana": "ひっくりかえす", "romaji": "hikkurikaesu", "meanings": {"en": "turn over, flip", "id": "jungkir balik, terbalik, terguling"}},
+        {"id": 6, "kanji": "轢く", "hiragana": "ひく", "romaji": "hiku", "meanings": {"en": "run over, crush", "id": "melindas, menggilas"}},
+        {"id": 7, "kanji": "引く", "hiragana": "ひく", "romaji": "hiku", "meanings": {"en": "pull, subtract, play (instrument)", "id": "menarik, mencabut, mengurangi, memotong, memeriksa [kamus]"}},
+        {"id": 8, "kanji": "ひも", "hiragana": "ひも", "romaji": "himo", "meanings": {"en": "string, cord", "id": "tali, tambang"}},
+        {"id": 9, "kanji": "ひねる", "hiragana": "ひねる", "romaji": "hineru", "meanings": {"en": "twist, turn, wring", "id": "memilin, memelintir, terpelintir, memeras"}},
+        {"id": 10, "kanji": "日数", "hiragana": "にっすう", "romaji": "nissuu", "meanings": {"en": "number of days", "id": "jumlah hari"}},
+        {"id": 11, "kanji": "日", "hiragana": "ひ", "romaji": "hi", "meanings": {"en": "day, sun", "id": "tanggal"}},
+        {"id": 12, "kanji": "開く", "hiragana": "ひらく", "romaji": "hiraku", "meanings": {"en": "open, bloom", "id": "terbuka, membuka, mengadakan, mekar, berkembang"}},
+        {"id": 13, "kanji": "広がる", "hiragana": "ひろがる", "romaji": "hirogaru", "meanings": {"en": "spread, extend", "id": "membentang, meluas, menyebar"}},
+        {"id": 14, "kanji": "広げる", "hiragana": "ひろげる", "romaji": "hirogeru", "meanings": {"en": "expand, enlarge", "id": "membentangkan, memperluas, menyebarkan"}},
+        {"id": 15, "kanji": "広まる", "hiragana": "ひろまる", "romaji": "hiromaru", "meanings": {"en": "spread widely", "id": "tersebar luas, meluas"}},
+        {"id": 16, "kanji": "広める", "hiragana": "ひろめる", "romaji": "hiromeru", "meanings": {"en": "spread, propagate", "id": "menyebar-luaskan, memperluas"}},
+        {"id": 17, "kanji": "昼休み", "hiragana": "ひるやすみ", "romaji": "hiruyasumi", "meanings": {"en": "lunch break", "id": "istirahat siang"}},
+        {"id": 18, "kanji": "ヒーター", "hiragana": "ヒーター", "romaji": "hi-ta", "meanings": {"en": "heater", "id": "pemanas, pemanas ruangan"}},
+        {"id": 19, "kanji": "額", "hiragana": "ひたい", "romaji": "hitai", "meanings": {"en": "forehead", "id": "kening"}},
+        {"id": 20, "kanji": "人懐っこい", "hiragana": "ひとなつっこい", "romaji": "hitonatsukkoi", "meanings": {"en": "friendly, sociable", "id": "mudah berteman, ramah, menyenangkan"}},
+        {"id": 21, "kanji": "一人っ子", "hiragana": "ひとりっこ", "romaji": "hitorikko", "meanings": {"en": "only child", "id": "anak semata wayang, anak satu-satunya"}},
+        {"id": 22, "kanji": "一人息子", "hiragana": "ひとりむすこ", "romaji": "hitorimusuko", "meanings": {"en": "only son", "id": "putra satu-satunya, anak laki-laki satu-satunya"}},
+        {"id": 23, "kanji": "一人娘", "hiragana": "ひとりむすめ", "romaji": "hitorimusume", "meanings": {"en": "only daughter", "id": "putri satu-satunya, anak perempuan satu-satunya"}},
+        {"id": 24, "kanji": "人差し指", "hiragana": "ひとさしゆび", "romaji": "hitosashiyubi", "meanings": {"en": "index finger", "id": "jari telunjuk"}},
+        {"id": 25, "kanji": "必要", "hiragana": "ひつよう", "romaji": "hitsuyou", "meanings": {"en": "necessary, essential", "id": "perlu, penting"}},
+        {"id": 26, "kanji": "ヒット", "hiragana": "ヒット", "romaji": "hitto", "meanings": {"en": "hit, success", "id": "keberhasilan, ketenaran"}},
+        {"id": 27, "kanji": "冷やす", "hiragana": "ひやす", "romaji": "hiyasu", "meanings": {"en": "cool, chill", "id": "mendinginkan"}},
+        {"id": 28, "kanji": "費用", "hiragana": "ひよう", "romaji": "hiyou", "meanings": {"en": "cost, expense", "id": "biaya, ongkos, pengeluaran"}},
+        {"id": 29, "kanji": "膝", "hiragana": "ひざ", "romaji": "hiza", "meanings": {"en": "knee, lap", "id": "lutut, pangkuan"}},
+        {"id": 30, "kanji": "ほどく", "hiragana": "ほどく", "romaji": "hodoku", "meanings": {"en": "untie, loosen, release", "id": "melerai, mengendurkan, melepas"}}
+      ]
+    }
+  ]
+}

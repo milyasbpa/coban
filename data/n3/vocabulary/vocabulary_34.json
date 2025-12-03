@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "混雑", "hiragana": "こんざつ", "romaji": "konzatsu", "meanings": {"en": "congestion, crowding", "id": "kesemerawutan, penuh sesak"}},
+        {"id": 2, "kanji": "氷", "hiragana": "こおり", "romaji": "koori", "meanings": {"en": "ice", "id": "es, es batu"}},
+        {"id": 3, "kanji": "凍る", "hiragana": "こおる", "romaji": "kooru", "meanings": {"en": "to freeze", "id": "membeku, menjadi es"}},
+        {"id": 4, "kanji": "コップ", "hiragana": "コップ", "romaji": "koppu", "meanings": {"en": "cup, glass", "id": "gelas minum"}},
+        {"id": 5, "kanji": "殺す", "hiragana": "ころす", "romaji": "korosu", "meanings": {"en": "to kill", "id": "membunuh"}},
+        {"id": 6, "kanji": "こる", "hiragana": "こる", "romaji": "koru", "meanings": {"en": "to be stiff, tense", "id": "kaku, tegang"}},
+        {"id": 7, "kanji": "小さじ", "hiragana": "こさじ", "romaji": "kosaji", "meanings": {"en": "teaspoon", "id": "sendok teh, sendok kecil"}},
+        {"id": 8, "kanji": "腰", "hiragana": "こし", "romaji": "koshi", "meanings": {"en": "waist, hips", "id": "pinggang"}},
+        {"id": 9, "kanji": "故障", "hiragana": "こしょう", "romaji": "koshou", "meanings": {"en": "breakdown, failure", "id": "kerusakan, gangguan"}},
+        {"id": 10, "kanji": "胡椒", "hiragana": "こしょう", "romaji": "koshou", "meanings": {"en": "pepper", "id": "lada, merica"}},
+        {"id": 11, "kanji": "子育て", "hiragana": "こそだて", "romaji": "kosodate", "meanings": {"en": "childcare", "id": "pengasuhan anak"}},
+        {"id": 12, "kanji": "こする", "hiragana": "こする", "romaji": "kosuru", "meanings": {"en": "to rub, to scrub", "id": "menggosok, menggesek, menggores"}},
+        {"id": 13, "kanji": "コート", "hiragana": "コート", "romaji": "ko-to", "meanings": {"en": "coat", "id": "mantel, baju dingin"}},
+        {"id": 14, "kanji": "断つ", "hiragana": "たつ", "romaji": "tatsu", "meanings": {"en": "to cut off, to sever", "id": "memutus, memotong"}},
+        {"id": 15, "kanji": "交番", "hiragana": "こうばん", "romaji": "kouban", "meanings": {"en": "police box", "id": "pos polisi, kantor polisi"}},
+        {"id": 16, "kanji": "興奮", "hiragana": "こうふん", "romaji": "koufun", "meanings": {"en": "excitement", "id": "kegirangan, gairah"}},
+        {"id": 17, "kanji": "講義", "hiragana": "こうぎ", "romaji": "kougi", "meanings": {"en": "lecture", "id": "kuliah, ceramah"}},
+        {"id": 18, "kanji": "後半", "hiragana": "こうはん", "romaji": "kouhan", "meanings": {"en": "second half", "id": "junior, adik kelas, pertengahan akhir"}},
+        {"id": 19, "kanji": "工事", "hiragana": "こうじ", "romaji": "kouji", "meanings": {"en": "construction work", "id": "pekerjaan konstruksi/pembangunan"}},
+        {"id": 20, "kanji": "工事中", "hiragana": "こうじちゅう", "romaji": "koujichuu", "meanings": {"en": "under construction", "id": "sedang dalam konstruksi/pengerjaan"}},
+        {"id": 21, "kanji": "効果", "hiragana": "こうか", "romaji": "kouka", "meanings": {"en": "effect, impact", "id": "efek, dampak, pengaruh"}},
+        {"id": 22, "kanji": "硬貨", "hiragana": "こうか", "romaji": "kouka", "meanings": {"en": "coin", "id": "uang logam, uang koin, mata uang"}},
+        {"id": 23, "kanji": "後悔", "hiragana": "こうかい", "romaji": "koukai", "meanings": {"en": "regret", "id": "penyesalan, perobatan"}},
+        {"id": 24, "kanji": "交換", "hiragana": "こうかん", "romaji": "koukan", "meanings": {"en": "exchange, swap", "id": "pertukaran, barter"}},
+        {"id": 25, "kanji": "後期", "hiragana": "こうき", "romaji": "kouki", "meanings": {"en": "latter period", "id": "periode akhir, semester kedua"}},
+        {"id": 26, "kanji": "広告", "hiragana": "こうこく", "romaji": "koukou", "meanings": {"en": "advertisement", "id": "iklan, advertensi, reklame"}},
+        {"id": 27, "kanji": "高校", "hiragana": "こうこう", "romaji": "koukou", "meanings": {"en": "high school", "id": "sekolah menengah umum, sekolah lanjutan tingkat atas"}}
+      ]
+    }
+  ]
+}

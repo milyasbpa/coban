@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "C",
+        "en": "C Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "注射", "hiragana": "ちゅうしゃ", "romaji": "chuusha", "meanings": {"en": "injection", "id": "injeksi, suntik"}},
+        {"id": 2, "kanji": "駐車", "hiragana": "ちゅうしゃ", "romaji": "chuusha (parkir)", "meanings": {"en": "parking", "id": "parkir"}},
+        {"id": 3, "kanji": "中心", "hiragana": "ちゅうしん", "romaji": "chuushin", "meanings": {"en": "center, core", "id": "pusat, sentral, jantung, inti"}},
+        {"id": 4, "kanji": "昼食", "hiragana": "ちゅうしょく", "romaji": "chuushoku", "meanings": {"en": "lunch", "id": "makan siang"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "D",
+        "en": "D Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "大分", "hiragana": "だいぶ", "romaji": "daibu", "meanings": {"en": "quite, much", "id": "banyak, lumayan"}},
+        {"id": 2, "kanji": "大分", "hiragana": "だいぶん", "romaji": "daibun", "meanings": {"en": "quite, much", "id": "banyak, lumayan"}},
+        {"id": 3, "kanji": "台所", "hiragana": "だいどころ", "romaji": "daidokoro", "meanings": {"en": "kitchen", "id": "dapur"}},
+        {"id": 4, "kanji": "ダイエット", "hiragana": "ダイエット", "romaji": "daietto", "meanings": {"en": "diet", "id": "pantang makan, makanan yang diatur, diet"}},
+        {"id": 5, "kanji": "大学", "hiragana": "だいがく", "romaji": "daigaku", "meanings": {"en": "university", "id": "universitas"}},
+        {"id": 6, "kanji": "大学院", "hiragana": "だいがくいん", "romaji": "daigakuin", "meanings": {"en": "graduate school", "id": "pasca sarjana, S2"}},
+        {"id": 7, "kanji": "大学生", "hiragana": "だいがくせい", "romaji": "daigakusei", "meanings": {"en": "college student", "id": "mahasiswa, mahasiswi"}},
+        {"id": 8, "kanji": "代表", "hiragana": "だいひょう", "romaji": "daihyou", "meanings": {"en": "representative, delegate", "id": "perwakilan, delegasi"}},
+        {"id": 9, "kanji": "代金", "hiragana": "だいきん", "romaji": "daikin", "meanings": {"en": "price, cost", "id": "harga, biaya"}},
+        {"id": 10, "kanji": "大工", "hiragana": "だいく", "romaji": "daiku", "meanings": {"en": "carpenter", "id": "tukang kayu"}},
+        {"id": 11, "kanji": "題名", "hiragana": "だいめい", "romaji": "daimei", "meanings": {"en": "title", "id": "judul"}},
+        {"id": 12, "kanji": "ダイニング", "hiragana": "ダイニング", "romaji": "dainingu", "meanings": {"en": "dining", "id": "makan, makan malam"}},
+        {"id": 13, "kanji": "大体", "hiragana": "だいたい", "romaji": "daitai", "meanings": {"en": "generally, about", "id": "kira-kira, sekitar, kurang lebih, hampir"}},
+        {"id": 14, "kanji": "抱っこ", "hiragana": "だっこ", "romaji": "dakko", "meanings": {"en": "hug, carry", "id": "gendongan, pelukan"}},
+        {"id": 15, "kanji": "抱く", "hiragana": "だく", "romaji": "daku", "meanings": {"en": "embrace, hug", "id": "memeluk, merangkul"}},
+        {"id": 16, "kanji": "黙る", "hiragana": "だまる", "romaji": "damaru", "meanings": {"en": "be silent", "id": "diam, diam-diam, bungkam"}},
+        {"id": 17, "kanji": "だます", "hiragana": "だます", "romaji": "damasu", "meanings": {"en": "deceive, cheat", "id": "menipu, memperdaya, mengelabui"}},
+        {"id": 18, "kanji": "暖房", "hiragana": "だんぼう", "romaji": "danbou", "meanings": {"en": "heater", "id": "pemanas ruangan"}},
+        {"id": 19, "kanji": "だんだん", "hiragana": "だんだん", "romaji": "dandan", "meanings": {"en": "gradually", "id": "sedikit demi sedikit, perlahan-lahan, berangsur-angsur"}},
+        {"id": 20, "kanji": "ダンサー", "hiragana": "ダンサー", "romaji": "dansā", "meanings": {"en": "dancer", "id": "penari"}},
+        {"id": 21, "kanji": "男性", "hiragana": "だんせい", "romaji": "dansei", "meanings": {"en": "man, male", "id": "pria, laki-laki, maskulin"}},
+        {"id": 22, "kanji": "団体", "hiragana": "だんたい", "romaji": "dantai", "meanings": {"en": "group, organization", "id": "kelompok, rombongan, tim, asosiasi, organisasi"}},
+        {"id": 23, "kanji": "だらしない", "hiragana": "だらしない", "romaji": "darashinai", "meanings": {"en": "sloppy, untidy", "id": "ceroboh, tidak teratur, berantakan"}}
+      ]
+    }
+  ]
+}

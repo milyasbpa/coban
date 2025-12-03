@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "気がある", "hiragana": "きがある", "romaji": "kigaaru", "meanings": {"en": "to have intention", "id": "ada maksudnya/maunya"}},
+        {"id": 2, "kanji": "着替え", "hiragana": "きがえ", "romaji": "kigae", "meanings": {"en": "change of clothes", "id": "pakaian ganti, penggantian pakaian"}},
+        {"id": 3, "kanji": "着替える", "hiragana": "きがえる", "romaji": "kigaeru", "meanings": {"en": "to change clothes", "id": "mengganti pakaian"}},
+        {"id": 4, "kanji": "期限", "hiragana": "きげん", "romaji": "kigen", "meanings": {"en": "term, period", "id": "masa berlaku, batas waktu"}},
+        {"id": 5, "kanji": "基本", "hiragana": "きほん", "romaji": "kihon", "meanings": {"en": "basic, foundation", "id": "dasar, pokok"}},
+        {"id": 6, "kanji": "基本的", "hiragana": "きほんてき", "romaji": "kihonteki", "meanings": {"en": "basically", "id": "pada dasarnya"}},
+        {"id": 7, "kanji": "記事", "hiragana": "きじ", "romaji": "kiji", "meanings": {"en": "article, news", "id": "artikel, berita"}},
+        {"id": 8, "kanji": "機会", "hiragana": "きかい", "romaji": "kikai", "meanings": {"en": "chance, opportunity", "id": "kesempatan, peluang"}},
+        {"id": 9, "kanji": "期間", "hiragana": "きかん", "romaji": "kikan", "meanings": {"en": "period, term", "id": "masa, jangka waktu"}},
+        {"id": 10, "kanji": "聞き直す", "hiragana": "ききなおす", "romaji": "kikinaosu", "meanings": {"en": "to listen again", "id": "mendengar kembali/ulang"}},
+        {"id": 11, "kanji": "聞き取り", "hiragana": "ききとり", "romaji": "kikitori", "meanings": {"en": "listening comprehension", "id": "kemampuan mendengarkan dan mengerti"}},
+        {"id": 12, "kanji": "聞き取る", "hiragana": "ききとる", "romaji": "kikitoru", "meanings": {"en": "to catch (what is said)", "id": "mendengarkan dan mengerti atau memahami"}},
+        {"id": 13, "kanji": "帰国", "hiragana": "きこく", "romaji": "kikoku", "meanings": {"en": "return to one's country", "id": "pulang ke negeri sendiri, pulang kampung"}},
+        {"id": 14, "kanji": "効く", "hiragana": "きく", "romaji": "kiku", "meanings": {"en": "to be effective", "id": "berkhasiat, berfungsi, ampuh"}},
+        {"id": 15, "kanji": "決まり", "hiragana": "きまり", "romaji": "kimari", "meanings": {"en": "rule, regulation", "id": "aturan, ketentuan"}},
+        {"id": 16, "kanji": "決まる", "hiragana": "きまる", "romaji": "kimaru", "meanings": {"en": "to be decided", "id": "tetap, pasti"}},
+        {"id": 17, "kanji": "決める", "hiragana": "きめる", "romaji": "kimeru", "meanings": {"en": "to decide", "id": "menentukan, menetapkan, memutuskan"}},
+        {"id": 18, "kanji": "気味", "hiragana": "きみ", "romaji": "kimi", "meanings": {"en": "feeling, sensation", "id": "sensasi, perasaan hati"}},
+        {"id": 19, "kanji": "気味悪い", "hiragana": "きみわるい", "romaji": "kimiwarui", "meanings": {"en": "creepy, unpleasant", "id": "sensasi buruk, mengerikan, menyeramkan"}},
+        {"id": 20, "kanji": "気持ち", "hiragana": "きもち", "romaji": "kimochi", "meanings": {"en": "feeling, mood", "id": "perasaan, suasana hati, pikiran"}},
+        {"id": 21, "kanji": "気持ち悪い", "hiragana": "きもちわるい", "romaji": "kimochiwarui", "meanings": {"en": "disgusting, unpleasant", "id": "menjijikkan, memuakkan"}},
+        {"id": 22, "kanji": "緊張", "hiragana": "きんちょう", "romaji": "kinchou", "meanings": {"en": "tension, nervousness", "id": "ketegangan"}},
+        {"id": 23, "kanji": "禁煙", "hiragana": "きんえん", "romaji": "kin'en", "meanings": {"en": "no smoking", "id": "larangan merokok"}},
+        {"id": 24, "kanji": "禁煙席", "hiragana": "きんえんせき", "romaji": "kin'enseki", "meanings": {"en": "non-smoking seat", "id": "tempat duduk dilarang merokok"}},
+        {"id": 25, "kanji": "気に入り", "hiragana": "きにいり", "romaji": "kini'iri", "meanings": {"en": "favorite", "id": "kesukaan"}},
+        {"id": 26, "kanji": "気に入る", "hiragana": "きにいる", "romaji": "kini'iru", "meanings": {"en": "to like", "id": "suka"}},
+        {"id": 27, "kanji": "気になる", "hiragana": "きになる", "romaji": "kininaru", "meanings": {"en": "to worry about", "id": "khawatir, masih terpikir terus"}},
+        {"id": 28, "kanji": "近所", "hiragana": "きんじょ", "romaji": "kinjyo", "meanings": {"en": "neighborhood", "id": "tetangga, dekat rumah"}},
+        {"id": 29, "kanji": "勤務", "hiragana": "きんむ", "romaji": "kinmu", "meanings": {"en": "work, duty", "id": "kerja, tugas, dinas"}}
+      ]
+    }
+  ]
+}

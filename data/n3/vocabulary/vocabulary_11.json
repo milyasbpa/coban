@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "E",
+        "en": "E Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "栄養", "hiragana": "えいよう", "romaji": "eiyou", "meanings": {"en": "nutrition", "id": "gizi, nutrisi"}},
+        {"id": 2, "kanji": "駅員", "hiragana": "えきいん", "romaji": "ekiin", "meanings": {"en": "station staff", "id": "petugas stasiun kereta"}},
+        {"id": 3, "kanji": "エネルギー", "hiragana": "エネルギー", "romaji": "enerugī", "meanings": {"en": "energy", "id": "tenaga, semangat, daya, energi"}},
+        {"id": 4, "kanji": "演劇", "hiragana": "えんげき", "romaji": "engeki", "meanings": {"en": "drama, play", "id": "drama, sandiwara, lakon"}},
+        {"id": 5, "kanji": "エンジン", "hiragana": "エンジン", "romaji": "enjin", "meanings": {"en": "engine", "id": "mesin"}},
+        {"id": 6, "kanji": "エンジニア", "hiragana": "エンジニア", "romaji": "enjinia", "meanings": {"en": "engineer", "id": "ahli teknik, ahli mesin, insinyur"}},
+        {"id": 7, "kanji": "演歌", "hiragana": "えんか", "romaji": "enka", "meanings": {"en": "enka (Japanese ballad)", "id": "lagu Jepang yang sedih dan melankolis"}},
+        {"id": 8, "kanji": "宴会", "hiragana": "えんかい", "romaji": "enkai", "meanings": {"en": "banquet, party", "id": "perjamuan, pesta, resepsi"}},
+        {"id": 9, "kanji": "遠慮", "hiragana": "えんりょ", "romaji": "enryo", "meanings": {"en": "reserve, restraint", "id": "sungkan, berhati-hati, menahan diri"}},
+        {"id": 10, "kanji": "演奏", "hiragana": "えんそう", "romaji": "ensou", "meanings": {"en": "musical performance", "id": "pertunjukan musik"}},
+        {"id": 11, "kanji": "エプロン", "hiragana": "エプロン", "romaji": "epuron", "meanings": {"en": "apron", "id": "celemek"}},
+        {"id": 12, "kanji": "えらい", "hiragana": "えらい", "romaji": "erai", "meanings": {"en": "great, important", "id": "hebat, terkemuka, penting"}},
+        {"id": 13, "kanji": "えり", "hiragana": "えり", "romaji": "eri", "meanings": {"en": "collar, neck", "id": "kerah, leher"}},
+        {"id": 14, "kanji": "得る", "hiragana": "える", "romaji": "eru", "meanings": {"en": "get, obtain", "id": "mendapatkan, memperoleh, menuai"}},
+        {"id": 15, "kanji": "餌", "hiragana": "えさ", "romaji": "esa", "meanings": {"en": "feed, bait", "id": "makanan ternak, umpan"}},
+        {"id": 16, "kanji": "エッセイ", "hiragana": "エッセイ", "romaji": "essei", "meanings": {"en": "essay", "id": "karangan singkat, esai"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "F",
+        "en": "F Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ファイル", "hiragana": "ファイル", "romaji": "fairu", "meanings": {"en": "file", "id": "arsip"}},
+        {"id": 2, "kanji": "ファックス", "hiragana": "ファックス", "romaji": "fakkusu", "meanings": {"en": "fax", "id": "faksimili, fax"}},
+        {"id": 3, "kanji": "不安", "hiragana": "ふあん", "romaji": "fu'an", "meanings": {"en": "anxiety, uneasiness", "id": "tidak tenang, gelisah, resah, risau"}},
+        {"id": 4, "kanji": "ファスナー", "hiragana": "ファスナー", "romaji": "fasunā", "meanings": {"en": "zipper, fastener", "id": "resleting"}},
+        {"id": 5, "kanji": "ファストフード", "hiragana": "ファストフード", "romaji": "fasutofūdo", "meanings": {"en": "fast food", "id": "hidangan siap saji"}},
+        {"id": 6, "kanji": "不注意", "hiragana": "ふちゅうい", "romaji": "fuchuui", "meanings": {"en": "carelessness", "id": "kecerobohan, kelalaian, kurang-perhatian"}},
+        {"id": 7, "kanji": "不断", "hiragana": "ふだん", "romaji": "fudan", "meanings": {"en": "constant, continual", "id": "terus menerus, tak henti-hentinya"}},
+        {"id": 8, "kanji": "増える", "hiragana": "ふえる", "romaji": "fueru", "meanings": {"en": "increase, multiply", "id": "bertambah, berkembang biak, meningkat, menjadi banyak"}},
+        {"id": 9, "kanji": "不合格", "hiragana": "ふごうかく", "romaji": "fugoukaku", "meanings": {"en": "fail, not pass", "id": "tidak lulus, gagal, tidak memenuhi syarat"}},
+        {"id": 10, "kanji": "不十分", "hiragana": "ふじゅうぶん", "romaji": "fujūbun", "meanings": {"en": "insufficient, inadequate", "id": "kekurangan, tidak cukup, susah"}}
+      ]
+    }
+  ]
+}

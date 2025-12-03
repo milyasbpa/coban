@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "D",
+        "en": "D Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "出す", "hiragana": "だす", "romaji": "dasu", "meanings": {"en": "take out, send", "id": "mengeluarkan, mengirim, menyerahkan"}},
+        {"id": 2, "kanji": "ダウン", "hiragana": "ダウン", "romaji": "daun", "meanings": {"en": "down, fall", "id": "busa, turun, jatuh (down)"}},
+        {"id": 3, "kanji": "出会い", "hiragana": "であい", "romaji": "de'ai", "meanings": {"en": "encounter, meeting", "id": "pertemuan (secara kebetulan)"}},
+        {"id": 4, "kanji": "出会う", "hiragana": "であう", "romaji": "deau", "meanings": {"en": "meet by chance", "id": "kebetulan bertemu"}},
+        {"id": 5, "kanji": "デジカメ", "hiragana": "デジカメ", "romaji": "dejikame", "meanings": {"en": "digital camera", "id": "kamera digital"}},
+        {"id": 6, "kanji": "デジタル", "hiragana": "デジタル", "romaji": "dejitaru", "meanings": {"en": "digital", "id": "digital"}},
+        {"id": 7, "kanji": "出来上がり", "hiragana": "できあがり", "romaji": "dekiagari", "meanings": {"en": "completion", "id": "penyelesaian"}},
+        {"id": 8, "kanji": "出来上がる", "hiragana": "できあがる", "romaji": "dekiagaru", "meanings": {"en": "be completed", "id": "selesai, menyelesaikan"}},
+        {"id": 9, "kanji": "出来事", "hiragana": "できごと", "romaji": "dekigoto", "meanings": {"en": "event, incident", "id": "peristiwa, kejadian"}},
+        {"id": 10, "kanji": "デッキ", "hiragana": "デッキ", "romaji": "dekki", "meanings": {"en": "deck", "id": "geladak kapal, dek"}},
+        {"id": 11, "kanji": "出迎え", "hiragana": "でむかえ", "romaji": "demukae", "meanings": {"en": "welcome, greet", "id": "jemputan, sambutan"}},
+        {"id": 12, "kanji": "出迎える", "hiragana": "でむかえる", "romaji": "demukaeru", "meanings": {"en": "meet, greet", "id": "menjemput, menyambut"}},
+        {"id": 13, "kanji": "電源", "hiragana": "でんげん", "romaji": "den'gen", "meanings": {"en": "power source", "id": "sumber tenaga listrik"}},
+        {"id": 14, "kanji": "伝言", "hiragana": "でんごん", "romaji": "dengon", "meanings": {"en": "message", "id": "berita, pesan [untuk disampaikan]"}},
+        {"id": 15, "kanji": "伝記", "hiragana": "でんき", "romaji": "denki", "meanings": {"en": "biography", "id": "kisah kehidupan seseorang, biografi"}},
+        {"id": 16, "kanji": "電気代", "hiragana": "でんきだい", "romaji": "denkidai", "meanings": {"en": "electricity bill", "id": "biaya listrik"}},
+        {"id": 17, "kanji": "電球", "hiragana": "でんきゅう", "romaji": "denkyuu", "meanings": {"en": "light bulb", "id": "bohlam, bola lampu"}},
+        {"id": 18, "kanji": "電車賃", "hiragana": "でんしゃちん", "romaji": "denshachin", "meanings": {"en": "train fare", "id": "ongkos/biaya kereta"}},
+        {"id": 19, "kanji": "電車代", "hiragana": "でんしゃだい", "romaji": "denshadai", "meanings": {"en": "train fare", "id": "ongkos/biaya kereta"}},
+        {"id": 20, "kanji": "電子レンジ", "hiragana": "でんしレンジ", "romaji": "denshi renji", "meanings": {"en": "microwave oven", "id": "oven gelombang mikro"}},
+        {"id": 21, "kanji": "電灯", "hiragana": "でんとう", "romaji": "dentou", "meanings": {"en": "electric lamp", "id": "lampu, listrik"}},
+        {"id": 22, "kanji": "電話代", "hiragana": "でんわだい", "romaji": "denwadai", "meanings": {"en": "telephone bill", "id": "ongkos/biaya telpon"}},
+        {"id": 23, "kanji": "出る", "hiragana": "でる", "romaji": "deru", "meanings": {"en": "go out, come out", "id": "keluar, masuk [TV, koran], angkat [telpon]"}},
+        {"id": 24, "kanji": "デスクトップ", "hiragana": "デスクトップ", "romaji": "desukutoppu", "meanings": {"en": "desktop", "id": "komputer di atas meja [desktop]"}},
+        {"id": 25, "kanji": "データ", "hiragana": "データ", "romaji": "dēta", "meanings": {"en": "data", "id": "data, bahan-bahan keterangan, catatan informasi"}},
+        {"id": 26, "kanji": "でたらめ", "hiragana": "でたらめ", "romaji": "detarame", "meanings": {"en": "random, nonsense", "id": "acak, aneh-aneh, sembarangan, sembrono"}}
+      ]
+    }
+  ]
+}

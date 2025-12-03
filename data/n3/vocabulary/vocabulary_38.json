@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "M",
+        "en": "M Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "まあまあ", "hiragana": "まあまあ", "romaji": "maamaa", "meanings": {"en": "so-so, average", "id": "lumayan saja, biasa-biasa saja"}},
+        {"id": 2, "kanji": "眩しい", "hiragana": "まぶしい", "romaji": "mabushii", "meanings": {"en": "dazzling, glaring", "id": "menyilaukan, menyorot mata"}},
+        {"id": 3, "kanji": "まぶた", "hiragana": "まぶた", "romaji": "mabuta", "meanings": {"en": "eyelid", "id": "kelopak mata"}},
+        {"id": 4, "kanji": "待ち合わせ", "hiragana": "まちあわせ", "romaji": "machiawase", "meanings": {"en": "meeting, rendezvous", "id": "penantian untuk bertemu"}},
+        {"id": 5, "kanji": "待ち合わせる", "hiragana": "まちあわせる", "romaji": "machiawaseru", "meanings": {"en": "to meet by appointment", "id": "menanti untuk bertemu"}},
+        {"id": 6, "kanji": "間違える", "hiragana": "まちがえる", "romaji": "machigaeru", "meanings": {"en": "to make a mistake", "id": "membuat kesalahan/kekeliruan"}},
+        {"id": 7, "kanji": "間違う", "hiragana": "まちがう", "romaji": "machigau", "meanings": {"en": "to be wrong, to be mistaken", "id": "salah, keliru"}},
+        {"id": 8, "kanji": "窓", "hiragana": "まど", "romaji": "mado", "meanings": {"en": "window", "id": "jendela"}},
+        {"id": 9, "kanji": "窓側", "hiragana": "まどがわ", "romaji": "madogawa", "meanings": {"en": "window side", "id": "sisi/sebelah jendela"}},
+        {"id": 10, "kanji": "窓口", "hiragana": "まどぐち", "romaji": "madoguchi", "meanings": {"en": "counter, window (service)", "id": "loket"}},
+        {"id": 11, "kanji": "間取り", "hiragana": "まどり", "romaji": "madori", "meanings": {"en": "layout (of a room)", "id": "pembagian ruang dalam bangunan"}},
+        {"id": 12, "kanji": "前もって", "hiragana": "まえもって", "romaji": "maemotte", "meanings": {"en": "in advance", "id": "terlebih dahulu, sebelumnya"}},
+        {"id": 13, "kanji": "マフラー", "hiragana": "マフラー", "romaji": "mafurā", "meanings": {"en": "scarf, muffler", "id": "syal, selendang, saringan knalpot"}},
+        {"id": 14, "kanji": "曲がる", "hiragana": "まがる", "romaji": "magaru", "meanings": {"en": "to turn, to bend", "id": "membelok, menikung, melengkung"}},
+        {"id": 15, "kanji": "曲げる", "hiragana": "まげる", "romaji": "mageru", "meanings": {"en": "to bend, to curve", "id": "membelokkan, menekuk, melengkungkan"}},
+        {"id": 16, "kanji": "孫", "hiragana": "まご", "romaji": "mago", "meanings": {"en": "grandchild", "id": "cucu"}},
+        {"id": 17, "kanji": "迷子", "hiragana": "まいご", "romaji": "maigo", "meanings": {"en": "lost child", "id": "tersesat, anak tersesat"}},
+        {"id": 18, "kanji": "マイク", "hiragana": "マイク", "romaji": "maiku", "meanings": {"en": "microphone", "id": "mik, mikropon"}},
+        {"id": 19, "kanji": "マイナス", "hiragana": "マイナス", "romaji": "mainasu", "meanings": {"en": "minus, negative", "id": "kurang, negatif"}},
+        {"id": 20, "kanji": "真面目", "hiragana": "まじめ", "romaji": "majime", "meanings": {"en": "serious, earnest", "id": "sungguh-sungguh, jujur, tekun"}},
+        {"id": 21, "kanji": "交じる", "hiragana": "まじる", "romaji": "majiru", "meanings": {"en": "to mix, to be mixed", "id": "bercampur, tercampur"}},
+        {"id": 22, "kanji": "任せる", "hiragana": "まかせる", "romaji": "makaseru", "meanings": {"en": "to entrust, to leave to", "id": "terserah, mempercayakan"}},
+        {"id": 23, "kanji": "負け", "hiragana": "まけ", "romaji": "make", "meanings": {"en": "defeat, loss", "id": "kekalahan, kegagalan"}},
+        {"id": 24, "kanji": "真っ黒", "hiragana": "まっくろ", "romaji": "makkuro", "meanings": {"en": "pitch black", "id": "hitam-legam"}},
+        {"id": 25, "kanji": "巻く", "hiragana": "まく", "romaji": "maku", "meanings": {"en": "to roll, to wind", "id": "menggulung, membalut, melilitkan, membelitkan"}},
+        {"id": 26, "kanji": "守る", "hiragana": "まもる", "romaji": "mamoru", "meanings": {"en": "to protect, to guard", "id": "menjaga, melindungi, mempertahankan"}},
+        {"id": 27, "kanji": "マナー", "hiragana": "マナー", "romaji": "manā", "meanings": {"en": "manners, etiquette", "id": "tata-krama, sopan-santun"}},
+        {"id": 28, "kanji": "まな板", "hiragana": "まないた", "romaji": "manaita", "meanings": {"en": "cutting board", "id": "papan pemotong, talenan"}}
+      ]
+    }
+  ]
+}

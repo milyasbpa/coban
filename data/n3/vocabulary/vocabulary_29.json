@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "K",
+        "en": "K Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "かわいらしい", "hiragana": "かわいらしい", "romaji": "kawairashii", "meanings": {"en": "cute, lovely", "id": "memberikan kesan mungil/manis/lucu"}},
+        {"id": 2, "kanji": "かわいそう", "hiragana": "かわいそう", "romaji": "kawaisou", "meanings": {"en": "pitiful, poor", "id": "kasihan, malang"}},
+        {"id": 3, "kanji": "乾かす", "hiragana": "かわかす", "romaji": "kawakasu", "meanings": {"en": "to dry", "id": "mengeringkan, menjemur"}},
+        {"id": 4, "kanji": "渇く", "hiragana": "かわく", "romaji": "kawaku", "meanings": {"en": "to be thirsty", "id": "haus"}},
+        {"id": 5, "kanji": "乾く", "hiragana": "かわく", "romaji": "kawaku", "meanings": {"en": "to dry", "id": "kering"}},
+        {"id": 6, "kanji": "変わる", "hiragana": "かわる", "romaji": "kawaru", "meanings": {"en": "to change (other object)", "id": "tertukar [menjadikan benda lain]"}},
+        {"id": 7, "kanji": "替わる", "hiragana": "かわる", "romaji": "kawaru", "meanings": {"en": "to change (same type)", "id": "tertukar [dengan benda yang sejenis]"}},
+        {"id": 8, "kanji": "代わる", "hiragana": "かわる", "romaji": "kawaru", "meanings": {"en": "to substitute", "id": "berganti, mewakilkan"}},
+        {"id": 9, "kanji": "変わる", "hiragana": "かわる", "romaji": "kawaru", "meanings": {"en": "to change, to be different", "id": "berubah, berbeda"}},
+        {"id": 10, "kanji": "通う", "hiragana": "かよう", "romaji": "kayou", "meanings": {"en": "to commute", "id": "pulang pergi, sering berkunjung"}},
+        {"id": 11, "kanji": "痒い", "hiragana": "かゆい", "romaji": "kayui", "meanings": {"en": "itchy", "id": "gatal"}},
+        {"id": 12, "kanji": "飾り", "hiragana": "かざり", "romaji": "kazari", "meanings": {"en": "decoration", "id": "hiasan, perhiasan, dekorasi"}},
+        {"id": 13, "kanji": "数える", "hiragana": "かぞえる", "romaji": "kazoeru", "meanings": {"en": "to count", "id": "menghitung, mengkalkulasi"}},
+        {"id": 14, "kanji": "毛", "hiragana": "け", "romaji": "ke", "meanings": {"en": "hair, fur", "id": "rambut, bulu"}},
+        {"id": 15, "kanji": "ケチャップ", "hiragana": "ケチャップ", "romaji": "kechappu", "meanings": {"en": "ketchup", "id": "saus tomat"}},
+        {"id": 16, "kanji": "けち", "hiragana": "けち", "romaji": "kechi", "meanings": {"en": "stingy", "id": "kikir, pelit"}},
+        {"id": 17, "kanji": "怪我", "hiragana": "けが", "romaji": "kega", "meanings": {"en": "injury", "id": "luka"}},
+        {"id": 18, "kanji": "経営", "hiragana": "けいえい", "romaji": "keiei", "meanings": {"en": "management", "id": "pengelolaan, manajemen"}},
+        {"id": 19, "kanji": "計画", "hiragana": "けいかく", "romaji": "keikaku", "meanings": {"en": "plan", "id": "rencana, perencanaan"}},
+        {"id": 20, "kanji": "蛍光灯", "hiragana": "けいこうとう", "romaji": "keikoutou", "meanings": {"en": "fluorescent lamp", "id": "lampu pijar, neon"}},
+        {"id": 21, "kanji": "計算", "hiragana": "けいさん", "romaji": "keisan", "meanings": {"en": "calculation", "id": "perhitungan, kalkulasi"}},
+        {"id": 22, "kanji": "警察", "hiragana": "けいさつ", "romaji": "keisatsu", "meanings": {"en": "police", "id": "polisi"}},
+        {"id": 23, "kanji": "警察官", "hiragana": "けいさつかん", "romaji": "keisatsukan", "meanings": {"en": "police officer", "id": "petugas polisi"}},
+        {"id": 24, "kanji": "警察署", "hiragana": "けいさつしょ", "romaji": "keisatsusho", "meanings": {"en": "police station", "id": "pos polisi"}},
+        {"id": 25, "kanji": "携帯", "hiragana": "けいたい", "romaji": "keitai", "meanings": {"en": "portable, mobile", "id": "bawa"}},
+        {"id": 26, "kanji": "携帯電話", "hiragana": "けいたいでんわ", "romaji": "keitai denwa", "meanings": {"en": "mobile phone", "id": "telepon genggam, HP"}},
+        {"id": 27, "kanji": "契約", "hiragana": "けいやく", "romaji": "keiyaku", "meanings": {"en": "contract, agreement", "id": "perjanjian, kontrak"}},
+        {"id": 28, "kanji": "経済", "hiragana": "けいざい", "romaji": "keizai", "meanings": {"en": "economy", "id": "ekonomi"}},
+        {"id": 29, "kanji": "経済学", "hiragana": "けいざいがく", "romaji": "keizaigaku", "meanings": {"en": "economics", "id": "ilmu ekonomi"}}
+      ]
+    }
+  ]
+}

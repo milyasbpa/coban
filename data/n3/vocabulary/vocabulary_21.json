@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "I",
+        "en": "I Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "意地悪", "hiragana": "いじわる", "romaji": "ijiwaru", "meanings": {"en": "malicious, mean", "id": "dengki, sirik, jahat"}},
+        {"id": 2, "kanji": "怒り", "hiragana": "いかり", "romaji": "ikari", "meanings": {"en": "anger, rage", "id": "kemarahan, kegusaran, kemurkaan"}},
+        {"id": 3, "kanji": "行き", "hiragana": "いき", "romaji": "iki", "meanings": {"en": "going to, bound for", "id": "menuju ke, mengarah ke, perginya"}},
+        {"id": 4, "kanji": "息", "hiragana": "いき", "romaji": "iki", "meanings": {"en": "breath", "id": "nafas"}},
+        {"id": 5, "kanji": "いきなり", "hiragana": "いきなり", "romaji": "ikinari", "meanings": {"en": "suddenly, abruptly", "id": "tiba-tiba, mendadak, sekonyong-konyong"}},
+        {"id": 6, "kanji": "一気に", "hiragana": "いっきに", "romaji": "ikkini", "meanings": {"en": "in one breath, at once", "id": "dalam satu nafas, sekaligus"}},
+        {"id": 7, "kanji": "イコール", "hiragana": "イコール", "romaji": "iko-ru", "meanings": {"en": "equal, same as", "id": "sama, sama dengan, setara"}},
+        {"id": 8, "kanji": "居間", "hiragana": "いま", "romaji": "ima", "meanings": {"en": "living room", "id": "ruang tamu, ruang duduk"}},
+        {"id": 9, "kanji": "イメージ", "hiragana": "イメージ", "romaji": "imeji", "meanings": {"en": "image", "id": "citra"}},
+        {"id": 10, "kanji": "妹", "hiragana": "いもうと", "romaji": "imouto", "meanings": {"en": "younger sister", "id": "adik perempuan saya"}},
+        {"id": 11, "kanji": "妹さん", "hiragana": "いもうとさん", "romaji": "imoutosan", "meanings": {"en": "someone else's younger sister", "id": "adik perempuan anda"}},
+        {"id": 12, "kanji": "居眠りする", "hiragana": "いねむりする", "romaji": "inemuri suru", "meanings": {"en": "doze, nap", "id": "tidur ayam, mengantuk"}},
+        {"id": 13, "kanji": "印鑑", "hiragana": "いんかん", "romaji": "inkan", "meanings": {"en": "seal, stamp", "id": "stempel, cap"}},
+        {"id": 14, "kanji": "インク", "hiragana": "インク", "romaji": "inku", "meanings": {"en": "ink", "id": "tinta"}},
+        {"id": 15, "kanji": "命", "hiragana": "いのち", "romaji": "inochi", "meanings": {"en": "life", "id": "nyawa, jiwa"}},
+        {"id": 16, "kanji": "祈る", "hiragana": "いのる", "romaji": "inoru", "meanings": {"en": "pray, wish", "id": "mendoakan, berdoa"}},
+        {"id": 17, "kanji": "印象", "hiragana": "いんしょう", "romaji": "inshou", "meanings": {"en": "impression", "id": "kesan"}},
+        {"id": 18, "kanji": "インスタント", "hiragana": "インスタント", "romaji": "insutanto", "meanings": {"en": "instant, quick", "id": "segera, cepat, instan"}},
+        {"id": 19, "kanji": "インストール", "hiragana": "インストール", "romaji": "insuto-ru", "meanings": {"en": "install", "id": "pasang, instal"}},
+        {"id": 20, "kanji": "インタビュー", "hiragana": "インタビュー", "romaji": "intabyu", "meanings": {"en": "interview", "id": "wawancara"}},
+        {"id": 21, "kanji": "インターネット", "hiragana": "インターネット", "romaji": "inta-netto", "meanings": {"en": "internet", "id": "internet"}},
+        {"id": 22, "kanji": "いっぱい", "hiragana": "いっぱい", "romaji": "ippai", "meanings": {"en": "full, a lot", "id": "penuh, kenyang, banyak"}},
+        {"id": 23, "kanji": "いっぺんに", "hiragana": "いっぺんに", "romaji": "ippenni", "meanings": {"en": "at once, simultaneously", "id": "sekaligus"}},
+        {"id": 24, "kanji": "一方", "hiragana": "いっぽう", "romaji": "ippou", "meanings": {"en": "one way, one direction", "id": "satu arah"}},
+        {"id": 25, "kanji": "一方通行", "hiragana": "いっぽうつうこう", "romaji": "ippoutsuukou", "meanings": {"en": "one-way traffic", "id": "jalanan satu arah"}},
+        {"id": 26, "kanji": "いらいら", "hiragana": "いらいら", "romaji": "ira'ira", "meanings": {"en": "irritated, tense", "id": "cemas, tegang, tidak tenang"}},
+        {"id": 27, "kanji": "入れる", "hiragana": "いれる", "romaji": "ireru", "meanings": {"en": "put in, insert", "id": "memasukkan, menuangkan"}}
+      ]
+    }
+  ]
+}

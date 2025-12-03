@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "H",
+        "en": "H Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "判", "hiragana": "はん", "romaji": "han", "meanings": {"en": "seal, stamp", "id": "cap, stempel"}},
+        {"id": 2, "kanji": "鼻", "hiragana": "はな", "romaji": "hana", "meanings": {"en": "nose", "id": "hidung"}},
+        {"id": 3, "kanji": "鼻水", "hiragana": "はなみず", "romaji": "hanamizu", "meanings": {"en": "nasal mucus", "id": "ingus"}},
+        {"id": 4, "kanji": "離れる", "hiragana": "はなれる", "romaji": "hanareru", "meanings": {"en": "separate, leave", "id": "berpisah, meninggalkan, menjauh"}},
+        {"id": 5, "kanji": "話し合い", "hiragana": "はなしあい", "romaji": "hanashiai", "meanings": {"en": "discussion, negotiation", "id": "perbincangan, diskusi, perundingan"}},
+        {"id": 6, "kanji": "話し合う", "hiragana": "はなしあう", "romaji": "hanashiau", "meanings": {"en": "discuss, talk together", "id": "berbincang, berdiskusi, berunding"}},
+        {"id": 7, "kanji": "話しかける", "hiragana": "はなしかける", "romaji": "hanashikakeru", "meanings": {"en": "speak to, address", "id": "menyapa, menegur"}},
+        {"id": 8, "kanji": "離す", "hiragana": "はなす", "romaji": "hanasu", "meanings": {"en": "release, separate", "id": "melepaskan, menjauhkan, memisahkan, melerai"}},
+        {"id": 9, "kanji": "ハンドル", "hiragana": "ハンドル", "romaji": "handoru", "meanings": {"en": "handle, steering wheel", "id": "pegangan, setir"}},
+        {"id": 10, "kanji": "範囲", "hiragana": "はんい", "romaji": "han'i", "meanings": {"en": "scope, range", "id": "lingkup, batasan, bidang"}},
+        {"id": 11, "kanji": "判子", "hiragana": "はんこ", "romaji": "hanko", "meanings": {"en": "seal, stamp", "id": "cap, stempel"}},
+        {"id": 12, "kanji": "犯人", "hiragana": "はんにん", "romaji": "hannin", "meanings": {"en": "criminal, culprit", "id": "penjahat, orang yang bersalah"}},
+        {"id": 13, "kanji": "ハンサム", "hiragana": "ハンサム", "romaji": "hansamu", "meanings": {"en": "handsome", "id": "tampan, ganteng"}},
+        {"id": 14, "kanji": "反省", "hiragana": "はんせい", "romaji": "hansei", "meanings": {"en": "reflection, introspection", "id": "tinjau kembali, introspeksi"}},
+        {"id": 15, "kanji": "半袖", "hiragana": "はんそで", "romaji": "hansode", "meanings": {"en": "short sleeves", "id": "[pakaian] lengan pendek"}},
+        {"id": 16, "kanji": "反対", "hiragana": "はんたい", "romaji": "hantai", "meanings": {"en": "opposition, objection", "id": "tidak setuju, berlawanan, bertentangan, terbalik"}},
+        {"id": 17, "kanji": "払い戻し", "hiragana": "はらいもどし", "romaji": "haraimodoshi", "meanings": {"en": "refund", "id": "pembayaran kembali"}},
+        {"id": 18, "kanji": "払い戻す", "hiragana": "はらいもどす", "romaji": "haraimodosu", "meanings": {"en": "refund, pay back", "id": "membayar kembali"}},
+        {"id": 19, "kanji": "腹", "hiragana": "はら", "romaji": "hara", "meanings": {"en": "stomach, belly", "id": "perut"}},
+        {"id": 20, "kanji": "張る", "hiragana": "はる", "romaji": "haru", "meanings": {"en": "stretch, expand", "id": "merentangkan, melebarkan"}},
+        {"id": 21, "kanji": "箸", "hiragana": "はし", "romaji": "hashi", "meanings": {"en": "chopsticks", "id": "sumpit"}},
+        {"id": 22, "kanji": "派出", "hiragana": "はしゅつ", "romaji": "hashutsu", "meanings": {"en": "dispatch, sending", "id": "pengutusan, pengiriman"}},
+        {"id": 23, "kanji": "派出所", "hiragana": "はしゅつじょ", "romaji": "hashutsujo", "meanings": {"en": "police box, dispatch station", "id": "tempat pengutusan/pengiriman"}},
+        {"id": 24, "kanji": "発車", "hiragana": "はっしゃ", "romaji": "hassha", "meanings": {"en": "departure (vehicle)", "id": "keberangkatan [kereta, kendaraan dll.]"}},
+        {"id": 25, "kanji": "働き", "hiragana": "はたらき", "romaji": "hataraki", "meanings": {"en": "work, function", "id": "kerjanya, fungsi, pengoperasian"}},
+        {"id": 26, "kanji": "働き者", "hiragana": "はたらきもの", "romaji": "hatarakimono", "meanings": {"en": "hard worker", "id": "pekerja yang rajin"}},
+        {"id": 27, "kanji": "発売", "hiragana": "はつばい", "romaji": "hatsubai", "meanings": {"en": "sale, release", "id": "jual, lepas"}}
+      ]
+    }
+  ]
+}

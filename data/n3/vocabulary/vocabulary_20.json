@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "H",
+        "en": "H Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "干す", "hiragana": "ほす", "romaji": "hosu", "meanings": {"en": "dry, air", "id": "menjemur, mengeringkan"}},
+        {"id": 2, "kanji": "ほとんど", "hiragana": "ほとんど", "romaji": "hotondo", "meanings": {"en": "almost, nearly all", "id": "hampir, hampir semua"}},
+        {"id": 3, "kanji": "ほっと", "hiragana": "ほっと", "romaji": "hotto", "meanings": {"en": "relieved", "id": "lega, lepas, tidak khawatir"}},
+        {"id": 4, "kanji": "包丁", "hiragana": "ほうちょう", "romaji": "houchou", "meanings": {"en": "kitchen knife", "id": "pisau dapur"}},
+        {"id": 5, "kanji": "放題", "hiragana": "ほうだい", "romaji": "houdai", "meanings": {"en": "as much as one likes", "id": "sepuasnya, sesukanya, semuanya"}},
+        {"id": 6, "kanji": "法学", "hiragana": "ほうがく", "romaji": "hougaku", "meanings": {"en": "law studies", "id": "ilmu hukum"}},
+        {"id": 7, "kanji": "法学部", "hiragana": "ほうがくぶ", "romaji": "hougakubu", "meanings": {"en": "faculty of law", "id": "bagian/fakultas ilmu hukum"}},
+        {"id": 8, "kanji": "方法", "hiragana": "ほうほう", "romaji": "houhou", "meanings": {"en": "method, way", "id": "cara, metode"}},
+        {"id": 9, "kanji": "ほうき", "hiragana": "ほうき", "romaji": "houki", "meanings": {"en": "broom", "id": "sapu"}},
+        {"id": 10, "kanji": "報告", "hiragana": "ほうこく", "romaji": "houkoku", "meanings": {"en": "report", "id": "laporan, melapor, melaporkan"}},
+        {"id": 11, "kanji": "方面", "hiragana": "ほうめん", "romaji": "houmen", "meanings": {"en": "direction, area", "id": "jurusan, arah"}},
+        {"id": 12, "kanji": "保存", "hiragana": "ほぞん", "romaji": "hozon", "meanings": {"en": "preservation, storage", "id": "pengawetan, penyimpanan, mengawetkan, menyimpan"}},
+        {"id": 13, "kanji": "表情", "hiragana": "ひょうじょう", "romaji": "hyoujou", "meanings": {"en": "facial expression", "id": "ekspresi, air muka"}},
+        {"id": 14, "kanji": "表面", "hiragana": "ひょうめん", "romaji": "hyoumen", "meanings": {"en": "surface, exterior", "id": "permukaan, bagian luar, penampilan"}},
+        {"id": 15, "kanji": "評論", "hiragana": "ひょうろん", "romaji": "hyouron", "meanings": {"en": "critique, review", "id": "kritik, komentar, ulasan, tinjauan"}},
+        {"id": 16, "kanji": "位", "hiragana": "い", "romaji": "i", "meanings": {"en": "rank, position", "id": "urutan"}},
+        {"id": 17, "kanji": "胃", "hiragana": "い", "romaji": "i", "meanings": {"en": "stomach", "id": "lambung"}},
+        {"id": 18, "kanji": "いびき", "hiragana": "いびき", "romaji": "ibiki", "meanings": {"en": "snore", "id": "dengkur"}},
+        {"id": 19, "kanji": "一度に", "hiragana": "いちどに", "romaji": "ichidoni", "meanings": {"en": "at once, simultaneously", "id": "sekaligus, bersamaan, serempak"}},
+        {"id": 20, "kanji": "家", "hiragana": "いえ", "romaji": "ie", "meanings": {"en": "house, home", "id": "rumah"}},
+        {"id": 21, "kanji": "意外", "hiragana": "いがい", "romaji": "igai", "meanings": {"en": "unexpected", "id": "luar dugaan, tak disangka"}},
+        {"id": 22, "kanji": "医学部", "hiragana": "いがくぶ", "romaji": "igakubu", "meanings": {"en": "medical faculty", "id": "bagian/fakultas kedokteran"}},
+        {"id": 23, "kanji": "以後", "hiragana": "いご", "romaji": "igo", "meanings": {"en": "after, since", "id": "sesudah, setelah, selanjutnya"}},
+        {"id": 24, "kanji": "違反", "hiragana": "いはん", "romaji": "ihan", "meanings": {"en": "violation", "id": "pelanggaran, melanggar"}},
+        {"id": 25, "kanji": "いい加減", "hiragana": "いいかげん", "romaji": "iikagen", "meanings": {"en": "irresponsible, careless", "id": "sembarang, asal-asalan"}},
+        {"id": 26, "kanji": "言い直す", "hiragana": "いいなおす", "romaji": "iinaosu", "meanings": {"en": "restate, rephrase", "id": "mengatakan sekali lagi, memperbaiki perkataan"}},
+        {"id": 27, "kanji": "いじめる", "hiragana": "いじめる", "romaji": "ijimeru", "meanings": {"en": "bully, mistreat", "id": "menganiaya, memperlakukan buruk"}}
+      ]
+    }
+  ]
+}
