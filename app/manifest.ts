@@ -7,9 +7,10 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'Learn Japanese with Coban - Your Japanese learning companion',
     start_url: '/',
     display: 'standalone',
+    display_override: ['window-controls-overlay', 'standalone'],
     background_color: '#000000', // Black background for splash screen
     theme_color: '#000000',
-    orientation: 'portrait-primary',
+    orientation: 'any',
     scope: '/',
     categories: ['education', 'productivity'],
     lang: 'en',

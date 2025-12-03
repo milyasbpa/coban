@@ -263,3 +263,31 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Desktop PWA: Mobile-first constraint for consistent UX */
+@media (min-width: 768px) {
+  body {
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Optional: Add subtle background pattern for desktop */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      135deg,
+      hsl(var(--muted)) 0%,
+      hsl(var(--background)) 50%,
+      hsl(var(--muted)) 100%
+    );
+    z-index: -1;
+    pointer-events: none;
+  }
+}
