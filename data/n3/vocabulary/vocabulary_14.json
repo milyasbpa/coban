@@ -32,6 +32,18 @@
         {"id": 23, "kanji": "行儀", "hiragana": "ぎょうぎ", "romaji": "gyougi", "meanings": {"en": "manners, behavior", "id": "tata krama, prilaku"}},
         {"id": 24, "kanji": "行列", "hiragana": "ぎょうれつ", "romaji": "gyouretsu", "meanings": {"en": "queue, line", "id": "iring-iringan, barisan"}}
       ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "H",
+        "en": "H Section"
+      },
+      "vocabulary": [
+        {"id": 9, "kanji": "歯", "hiragana": "は", "romaji": "ha", "meanings": {"en": "tooth; teeth", "id": "gigi"}},
+        {"id": 9, "kanji": "幅", "hiragana": "はば", "romaji": "haba", "meanings": {"en": "width; breadth", "id": "lebar, lebarnya"}},
+        {"id": 9, "kanji": "省く", "hiragana": "はぶく", "romaji": "habuku", "meanings": {"en": "to omit; to eliminate; to save; to economize", "id": "meniadakan, menghemat"}}
+      ]
     }
   ]
 }

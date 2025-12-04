@@ -16,9 +16,12 @@
         {"id": 7, "kanji": "直後", "hiragana": "ちょくご", "romaji": "chokugo", "meanings": {"en": "immediately after", "id": "segera setelahnya"}},
         {"id": 8, "kanji": "直接", "hiragana": "ちょくせつ", "romaji": "chokusetsu", "meanings": {"en": "direct", "id": "langsung"}},
         {"id": 9, "kanji": "直前", "hiragana": "ちょくぜん", "romaji": "chokuzen", "meanings": {"en": "just before", "id": "tepat sebelumnya"}},
-        {"id": 10, "kanji": "長男", "hiragana": "ちょうなん", "romaji": "chounan", "meanings": {"en": "eldest son", "id": "putra sulung"}},
+        {"id": 9, "kanji": "長女", "hiragana": "ちょうじょ", "romaji": "choujyo", "meanings": {"en": "eldest daughter", "id": "putri sulung"}},
         {"id": 11, "kanji": "調味料", "hiragana": "ちょうみりょう", "romaji": "choumiryou", "meanings": {"en": "seasoning, spice", "id": "bumbu masak, rempah-rempah, perasa"}},
-        {"id": 12, "kanji": "調査", "hiragana": "ちょうさ", "romaji": "chousa", "meanings": {"en": "investigation, survey", "id": "pemeriksaan, penyelidikan"}},
+         {"id": 10, "kanji": "長男", "hiragana": "ちょうなん", "romaji": "chounan", "meanings": {"en": "eldest son", "id": "putra sulung"}},
+        {"id": 9, "kanji": "調理", "hiragana": "ちょうり", "romaji": "chouri", "meanings": {"en": "cooking; food preparation", "id": "masak"}},
+        {"id": 9, "kanji": "調理師", "hiragana": "ちょうりし", "romaji": "chourishi", "meanings": {"en": "cook; chef; culinary professional", "id": "tukang masak, koki"}},
+         {"id": 12, "kanji": "調査", "hiragana": "ちょうさ", "romaji": "chousa", "meanings": {"en": "investigation, survey", "id": "pemeriksaan, penyelidikan"}},
         {"id": 13, "kanji": "調整", "hiragana": "ちょうせい", "romaji": "chousei", "meanings": {"en": "adjustment, coordination", "id": "penyesuaian, koordinasi"}},
         {"id": 14, "kanji": "挑戦", "hiragana": "ちょうせん", "romaji": "chousen", "meanings": {"en": "challenge, trial", "id": "tantangan, cobaan"}},
         {"id": 15, "kanji": "調子", "hiragana": "ちょうし", "romaji": "choushi", "meanings": {"en": "condition, state", "id": "keadaan, suasana hati"}},
@@ -29,10 +32,10 @@
         {"id": 20, "kanji": "中華", "hiragana": "ちゅうか", "romaji": "chuuka", "meanings": {"en": "Chinese (China)", "id": "Tiongkok, China"}},
         {"id": 21, "kanji": "中継", "hiragana": "ちゅうけい", "romaji": "chuukei", "meanings": {"en": "relay broadcast", "id": "siaran relay (tidak langsung)"}},
         {"id": 22, "kanji": "中古", "hiragana": "ちゅうこ", "romaji": "chuuko", "meanings": {"en": "secondhand", "id": "[barang] bekas"}},
-        {"id": 23, "kanji": "中年", "hiragana": "ちゅうねん", "romaji": "chuunen", "meanings": {"en": "middle age", "id": "paruh baya"}},
         {"id": 24, "kanji": "中高年", "hiragana": "ちゅうこうねん", "romaji": "chuukounen", "meanings": {"en": "middle-aged (40-50)", "id": "usia paruh baya [40tahun~50tahun]"}},
         {"id": 25, "kanji": "注目", "hiragana": "ちゅうもく", "romaji": "chuumoku", "meanings": {"en": "attention", "id": "perhatian"}},
-        {"id": 26, "kanji": "注文", "hiragana": "ちゅうもん", "romaji": "chuumon", "meanings": {"en": "order, request", "id": "pesanan"}}
+        {"id": 26, "kanji": "注文", "hiragana": "ちゅうもん", "romaji": "chuumon", "meanings": {"en": "order, request", "id": "pesanan"}},
+        {"id": 23, "kanji": "中年", "hiragana": "ちゅうねん", "romaji": "chuunen", "meanings": {"en": "middle age", "id": "paruh baya"}}
       ]
     }
   ]
