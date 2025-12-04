@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 11,
+      "category": {
+        "id": "S",
+        "en": "S Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "宿泊", "hiragana": "しゅくはく", "romaji": "shukuhaku", "meanings": {"en": "lodging, accommodation", "id": "penginapan, pemondokan"}},
+        {"id": 2, "kanji": "祝日", "hiragana": "しゅくじつ", "romaji": "shukujitsu", "meanings": {"en": "holiday, national holiday", "id": "hari raya, hari besar"}},
+        {"id": 3, "kanji": "趣味", "hiragana": "しゅみ", "romaji": "shumi", "meanings": {"en": "hobby, taste", "id": "① hobi ② selera"}},
+        {"id": 4, "kanji": "出品", "hiragana": "しゅっぴん", "romaji": "shuppin", "meanings": {"en": "exhibit, display", "id": "memamerkan, mempertunjukkan"}},
+        {"id": 5, "kanji": "種類", "hiragana": "しゅるい", "romaji": "shurui", "meanings": {"en": "kind, type", "id": "jenis, macam"}},
+        {"id": 6, "kanji": "出席", "hiragana": "しゅっせき", "romaji": "shusseki", "meanings": {"en": "attendance, presence", "id": "kehadiran"}},
+        {"id": 7, "kanji": "出身", "hiragana": "しゅっしん", "romaji": "shusshin", "meanings": {"en": "origin, hometown", "id": "① tamatan, keluaran ② asal"}},
+        {"id": 8, "kanji": "出場", "hiragana": "しゅつじょう", "romaji": "shutsujou", "meanings": {"en": "appearance, participation", "id": "penampilan, partisipasi"}},
+        {"id": 9, "kanji": "終電", "hiragana": "しゅうでん", "romaji": "shuuden", "meanings": {"en": "last train", "id": "kereta terakhir [pada hari yang bersangkutan]"}},
+        {"id": 10, "kanji": "宗教", "hiragana": "しゅうきょう", "romaji": "shuukyou", "meanings": {"en": "religion", "id": "agama"}},
+        {"id": 11, "kanji": "週末", "hiragana": "しゅうまつ", "romaji": "shuumatsu", "meanings": {"en": "weekend", "id": "akhir pekan"}},
+        {"id": 12, "kanji": "修理", "hiragana": "しゅうり", "romaji": "shuuri", "meanings": {"en": "repair, mending", "id": "perbaikan, reparasi"}},
+        {"id": 13, "kanji": "修理代", "hiragana": "しゅうりだい", "romaji": "shuuridai", "meanings": {"en": "repair cost", "id": "ongkos perbaikan/reparasi"}},
+        {"id": 14, "kanji": "就職", "hiragana": "しゅうしょく", "romaji": "shuushoku", "meanings": {"en": "finding employment", "id": "perolehan pekerjaan, terminal terakhir"}},
+        {"id": 15, "kanji": "育てる", "hiragana": "そだてる", "romaji": "sodateru", "meanings": {"en": "to raise, to bring up", "id": "① mengasuh, membesarkan ② memelihara, menumbuhkan"}},
+        {"id": 16, "kanji": "育つ", "hiragana": "そだつ", "romaji": "sodatsu", "meanings": {"en": "to grow up, to be raised", "id": "tumbuh, berkembang, menjadi besar"}},
+        {"id": 17, "kanji": "袖", "hiragana": "そで", "romaji": "sode", "meanings": {"en": "sleeve", "id": "lengan baju"}},
+        {"id": 18, "kanji": "祖父", "hiragana": "そふ", "romaji": "sofu", "meanings": {"en": "grandfather", "id": "kakek"}},
+        {"id": 19, "kanji": "ソファ", "hiragana": "ソファ", "romaji": "sofa", "meanings": {"en": "sofa", "id": "sofa (sofa)"}},
+        {"id": 20, "kanji": "ソフト", "hiragana": "ソフト", "romaji": "sofuto", "meanings": {"en": "soft", "id": "halus, lembut, lunak (soft)"}},
+        {"id": 21, "kanji": "ソフトウェア", "hiragana": "ソフトウェア", "romaji": "sofutouea", "meanings": {"en": "software", "id": "[komputer] perangkat lunak (software)"}},
+        {"id": 22, "kanji": "そっくり", "hiragana": "そっくり", "romaji": "sokkuri", "meanings": {"en": "exactly like, just like", "id": "mirip, persis, serupa"}},
+        {"id": 23, "kanji": "ソックス", "hiragana": "ソックス", "romaji": "sokkusu", "meanings": {"en": "socks", "id": "kaus kaki (socks)"}},
+        {"id": 24, "kanji": "底", "hiragana": "そこ", "romaji": "soko", "meanings": {"en": "bottom, sole", "id": "dasar, bagian paling bawah, alas"}},
+        {"id": 25, "kanji": "そこで", "hiragana": "そこで", "romaji": "sokode", "meanings": {"en": "so, therefore", "id": "di sana, karena itu"}},
+        {"id": 26, "kanji": "速達", "hiragana": "そくたつ", "romaji": "sokutatsu", "meanings": {"en": "express delivery", "id": "[kecepatan] kilat"}},
+        {"id": 27, "kanji": "染める", "hiragana": "そめる", "romaji": "someru", "meanings": {"en": "to dye, to color", "id": "① mewarnai ② mencelup, menyepuh"}}
+      ]
+    }
+  ]
+}

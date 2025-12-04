@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "P",
+        "en": "P Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "パートナー", "hiragana": "パートナー", "romaji": "paatonaa", "meanings": {"en": "partner", "id": "pasangan, partner (partner)"}},
+        {"id": 2, "kanji": "ぺこぺこ", "hiragana": "ぺこぺこ", "romaji": "pekopeko", "meanings": {"en": "very hungry", "id": "amat lapar, perut kosong"}},
+        {"id": 3, "kanji": "ペキ", "hiragana": "ペキ", "romaji": "peki", "meanings": {"en": "cat (onomatopoeia)", "id": "cat (ペキ pek)"}},
+        {"id": 4, "kanji": "ぺらぺら", "hiragana": "ぺらぺら", "romaji": "perapera", "meanings": {"en": "fluent, thin", "id": "① fasih, lancar, banyak bicara ② tipis, rapuh"}},
+        {"id": 5, "kanji": "ペット", "hiragana": "ペット", "romaji": "petto", "meanings": {"en": "pet", "id": "binatang peliharaan, binatang kesayangan (pet)"}},
+        {"id": 6, "kanji": "ピアニスト", "hiragana": "ピアニスト", "romaji": "pianisuto", "meanings": {"en": "pianist", "id": "pemain piano, pianis (pianist)"}},
+        {"id": 7, "kanji": "ぴかぴか", "hiragana": "ぴかぴか", "romaji": "pikapika", "meanings": {"en": "shiny, glittering", "id": "berkilau"}},
+        {"id": 8, "kanji": "ポケット", "hiragana": "ポケット", "romaji": "poketto", "meanings": {"en": "pocket", "id": "saku (pocket)"}},
+        {"id": 9, "kanji": "ポップ", "hiragana": "ポップ", "romaji": "poppu", "meanings": {"en": "pop (music)", "id": "[lagu] pop (pop)"}},
+        {"id": 10, "kanji": "ポリエステル", "hiragana": "ポリエステル", "romaji": "poriesuteru", "meanings": {"en": "polyester", "id": "polyester (polyester)"}},
+        {"id": 11, "kanji": "プライバシー", "hiragana": "プライバシー", "romaji": "puraibashii", "meanings": {"en": "privacy", "id": "kehidupan/rahasia pribadi (privacy)"}},
+        {"id": 12, "kanji": "プラスチック", "hiragana": "プラスチック", "romaji": "purasuchikku", "meanings": {"en": "plastic", "id": "plastik (plastic)"}},
+        {"id": 13, "kanji": "プラットホーム", "hiragana": "プラットホーム", "romaji": "purattohoomu", "meanings": {"en": "platform (station)", "id": "peron [stasiun kereta] (platform)"}},
+        {"id": 14, "kanji": "プリンター", "hiragana": "プリンター", "romaji": "purintaa", "meanings": {"en": "printer", "id": "printer (printer)"}},
+        {"id": 15, "kanji": "プリペイドカード", "hiragana": "プリペイドカード", "romaji": "puripeidokaado", "meanings": {"en": "prepaid card", "id": "kartu pra-bayar (prepaid card)"}},
+        {"id": 16, "kanji": "プロフェッショナル", "hiragana": "プロフェッショナル", "romaji": "purofesshonaru", "meanings": {"en": "professional", "id": "ahli, profesional (professional)"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "R",
+        "en": "R Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ラベル", "hiragana": "ラベル", "romaji": "raberu", "meanings": {"en": "label, trademark", "id": "merk dagang, label (label)"}},
+        {"id": 2, "kanji": "来年", "hiragana": "らいねん", "romaji": "rainen", "meanings": {"en": "next year", "id": "tahun depan"}},
+        {"id": 3, "kanji": "ライト", "hiragana": "ライト", "romaji": "raito", "meanings": {"en": "light, lamp", "id": "lampu (light)"}},
+        {"id": 4, "kanji": "ラジオ", "hiragana": "ラジオ", "romaji": "rajio", "meanings": {"en": "radio", "id": "radio (radio)"}},
+        {"id": 5, "kanji": "楽", "hiragana": "らく", "romaji": "raku", "meanings": {"en": "comfortable, easy", "id": "① nyaman ② mudah, santai"}},
+        {"id": 6, "kanji": "ランチ", "hiragana": "ランチ", "romaji": "ranchi", "meanings": {"en": "lunch", "id": "makan siang (lunch)"}},
+        {"id": 7, "kanji": "ラップ", "hiragana": "ラップ", "romaji": "rappu", "meanings": {"en": "wrap, plastic wrap", "id": "bungkus, plastik pembungkus (wrap)"}},
+        {"id": 8, "kanji": "ラッシュ", "hiragana": "ラッシュ", "romaji": "rasshu", "meanings": {"en": "rush, crowd", "id": "① kesibukan, kepadatan ② serbuan (rush)"}},
+        {"id": 9, "kanji": "レバー", "hiragana": "レバー", "romaji": "reba", "meanings": {"en": "lever, liver", "id": "① alat pengungkit, tuas (lever) ② [organ] hati (liver)"}}
+      ]
+    }
+  ]
+}

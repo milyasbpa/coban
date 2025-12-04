@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": 25,
+      "category": {
+        "id": "W",
+        "en": "W Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "笑う", "hiragana": "わらう", "romaji": "warau", "meanings": {"en": "to laugh, to smile", "id": "tertawa, menertawai"}},
+        {"id": 2, "kanji": "割れる", "hiragana": "われる", "romaji": "wareru", "meanings": {"en": "to break, to split", "id": "pecah, terbelah"}},
+        {"id": 3, "kanji": "割", "hiragana": "わり", "romaji": "wari", "meanings": {"en": "rate, ratio, per", "id": "per 10 bagian, ... puluh persen"}},
+        {"id": 4, "kanji": "割合", "hiragana": "わりあい", "romaji": "wariai", "meanings": {"en": "ratio, percentage", "id": "perbandingan, proporsi, rasio"}},
+        {"id": 5, "kanji": "割引", "hiragana": "わりびき", "romaji": "waribiki", "meanings": {"en": "discount", "id": "potongan harga, diskon. ~ suru 割引する memberikan potongan harga/diskon"}},
+        {"id": 6, "kanji": "割り勘", "hiragana": "わりかん", "romaji": "warikan", "meanings": {"en": "splitting the bill", "id": "bayar sendiri-sendiri"}},
+        {"id": 7, "kanji": "割り算", "hiragana": "わりざん", "romaji": "warizan", "meanings": {"en": "division (math)", "id": "hitungan pembagian (+)"}},
+        {"id": 8, "kanji": "分ける", "hiragana": "わける", "romaji": "wakeru", "meanings": {"en": "to divide, to separate", "id": "① membagi ② membelah, memecahkan"}},
+        {"id": 9, "kanji": "私", "hiragana": "わたし", "romaji": "watashi", "meanings": {"en": "I, me", "id": "saya"}},
+        {"id": 10, "kanji": "わざと", "hiragana": "わざと", "romaji": "wazato", "meanings": {"en": "on purpose, intentionally", "id": "dengan sengaja"}}
+      ]
+    },
+    {
+      "id": 26,
+      "category": {
+        "id": "Y",
+        "en": "Y Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "破れる", "hiragana": "やぶれる", "romaji": "yabureru", "meanings": {"en": "to tear, to break", "id": "sobek, koyak, tercabik"}},
+        {"id": 2, "kanji": "破る", "hiragana": "やぶる", "romaji": "yaburu", "meanings": {"en": "to tear, to break", "id": "menyobek, mengoyak, mencabik"}},
+        {"id": 3, "kanji": "家賃", "hiragana": "やちん", "romaji": "yachin", "meanings": {"en": "rent, house rent", "id": "uang/biaya sewa rumah"}},
+        {"id": 4, "kanji": "やかましい", "hiragana": "やかましい", "romaji": "yakamashii", "meanings": {"en": "noisy, strict", "id": "ribut, gaduh, berisik"}},
+        {"id": 5, "kanji": "やかん", "hiragana": "やかん", "romaji": "yakan", "meanings": {"en": "kettle", "id": "ketel, poci teh"}},
+        {"id": 6, "kanji": "やけど", "hiragana": "やけど", "romaji": "yakedo", "meanings": {"en": "burn, scald", "id": "luka bakar/melepuh"}},
+        {"id": 7, "kanji": "焼ける", "hiragana": "やける", "romaji": "yakeru", "meanings": {"en": "to burn, to be roasted", "id": "terbakar, terpanggang"}},
+        {"id": 8, "kanji": "焼く", "hiragana": "やく", "romaji": "yaku", "meanings": {"en": "to bake, to grill", "id": "membakar, memanggang"}},
+        {"id": 9, "kanji": "役立てる", "hiragana": "やくだてる", "romaji": "yakudateru", "meanings": {"en": "to make use of", "id": "menggunakan, memanfaatkan"}},
+        {"id": 10, "kanji": "役立つ", "hiragana": "やくだつ", "romaji": "yakudatsu", "meanings": {"en": "to be useful", "id": "berguna, bermanfaat"}},
+        {"id": 11, "kanji": "役に立てる", "hiragana": "やくにたてる", "romaji": "yakunitateru", "meanings": {"en": "to make use of", "id": "⇔ yakudateru 役立てる"}},
+        {"id": 12, "kanji": "役に立つ", "hiragana": "やくにたつ", "romaji": "yakunitatsu", "meanings": {"en": "to be useful", "id": "⇔ yakudatsu 役立つ"}},
+        {"id": 13, "kanji": "約束", "hiragana": "やくそく", "romaji": "yakusoku", "meanings": {"en": "promise, appointment", "id": "janji, perjanjian. ~ suru 約束する berjanji, menjanjikan"}},
+        {"id": 14, "kanji": "訳す", "hiragana": "やくす", "romaji": "yakusu", "meanings": {"en": "to translate", "id": "menerjemahkan"}},
+        {"id": 15, "kanji": "やめる", "hiragana": "やめる", "romaji": "yameru", "meanings": {"en": "to stop, to quit", "id": "memberhentikan, mengakhiri"}},
+        {"id": 16, "kanji": "止む", "hiragana": "やむ", "romaji": "yamu", "meanings": {"en": "to stop, to cease", "id": "berhenti, berakhir"}}
+      ]
+    }
+  ]
+}

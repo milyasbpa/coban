@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "O",
+        "en": "O Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "音楽", "hiragana": "おんがく", "romaji": "ongaku", "meanings": {"en": "music", "id": "musik"}},
+        {"id": 2, "kanji": "音楽家", "hiragana": "おんがくか", "romaji": "ongakuka", "meanings": {"en": "musician", "id": "musikus"}},
+        {"id": 3, "kanji": "お兄さん", "hiragana": "おにいさん", "romaji": "oniisan", "meanings": {"en": "older brother (honorific)", "id": "kakak laki-laki [bentuk hormat, panggilan]"}},
+        {"id": 4, "kanji": "温泉", "hiragana": "おんせん", "romaji": "onsen", "meanings": {"en": "hot spring, spa", "id": "sumber air panas, spa"}},
+        {"id": 5, "kanji": "多く", "hiragana": "おおく", "romaji": "ooku", "meanings": {"en": "many, most", "id": "banyak, kebanyakan"}},
+        {"id": 6, "kanji": "大さじ", "hiragana": "おおさじ", "romaji": "oosaji", "meanings": {"en": "tablespoon", "id": "sendok besar, sendok makan"}},
+        {"id": 7, "kanji": "オペラ", "hiragana": "オペラ", "romaji": "opera", "meanings": {"en": "opera", "id": "opera (opera)"}},
+        {"id": 8, "kanji": "オープン", "hiragana": "オープン", "romaji": "opun", "meanings": {"en": "open", "id": "buka (open)"}},
+        {"id": 9, "kanji": "お礼", "hiragana": "おれい", "romaji": "orei", "meanings": {"en": "thanks, gratitude", "id": "① pemberian hormat ② terima kasih ③ hadiah"}},
+        {"id": 10, "kanji": "折れる", "hiragana": "おれる", "romaji": "oreru", "meanings": {"en": "to break, to fold", "id": "① terlipat ② patah"}},
+        {"id": 11, "kanji": "下りる", "hiragana": "おりる", "romaji": "oriru", "meanings": {"en": "to go down, to descend", "id": "menuruni, turun [dari atas]"}},
+        {"id": 12, "kanji": "降りる", "hiragana": "おりる", "romaji": "oriru", "meanings": {"en": "to get off, to disembark", "id": "turun [kendaraan]"}},
+        {"id": 13, "kanji": "下ろす", "hiragana": "おろす", "romaji": "orosu", "meanings": {"en": "to lower, to drop", "id": "menurunkan [dari atas]"}},
+        {"id": 14, "kanji": "降ろす", "hiragana": "おろす", "romaji": "orosu", "meanings": {"en": "to unload, to take down", "id": "menurunkan [dari kendaraan]"}},
+        {"id": 15, "kanji": "折る", "hiragana": "おる", "romaji": "oru", "meanings": {"en": "to fold, to break", "id": "① melipat ② mematahkan"}},
+        {"id": 16, "kanji": "押さえる", "hiragana": "おさえる", "romaji": "osaeru", "meanings": {"en": "to press, to hold down", "id": "menekan, mengekang"}},
+        {"id": 17, "kanji": "お酒", "hiragana": "おさけ", "romaji": "osake", "meanings": {"en": "sake, alcohol", "id": "minuman keras, alkohol, arak"}},
+        {"id": 18, "kanji": "幼い", "hiragana": "おさない", "romaji": "osanai", "meanings": {"en": "young, childish", "id": "① masih kecil ② kekanak-kanakan"}},
+        {"id": 19, "kanji": "おしゃべり", "hiragana": "おしゃべり", "romaji": "oshaberi", "meanings": {"en": "chat, talkative", "id": "① obrolan, tukang ngobrol ② cerewet, bawel"}},
+        {"id": 20, "kanji": "おしゃれ", "hiragana": "おしゃれ", "romaji": "oshare", "meanings": {"en": "fashionable, stylish", "id": "① pesolek ② keren, pernetel"}},
+        {"id": 21, "kanji": "教え", "hiragana": "おしえ", "romaji": "oshie", "meanings": {"en": "teaching, lesson", "id": "ajaran, pelajaran"}},
+        {"id": 22, "kanji": "お尻", "hiragana": "おしり", "romaji": "oshiri", "meanings": {"en": "buttocks, bottom", "id": "pantat, bokong"}},
+        {"id": 23, "kanji": "恐ろしい", "hiragana": "おそろしい", "romaji": "osoroshii", "meanings": {"en": "frightening, scary", "id": "menakutkan, mengerikan"}},
+        {"id": 24, "kanji": "教わる", "hiragana": "おそわる", "romaji": "osowaru", "meanings": {"en": "to be taught", "id": "diajarkan"}},
+        {"id": 25, "kanji": "お住まい", "hiragana": "おすまい", "romaji": "osumai", "meanings": {"en": "residence, dwelling", "id": "tempat tinggal, kediaman"}},
+        {"id": 26, "kanji": "おすすめ", "hiragana": "おすすめ", "romaji": "osusume", "meanings": {"en": "recommendation, advice", "id": "saran, anjuran"}},
+        {"id": 27, "kanji": "お互い", "hiragana": "おたがい", "romaji": "otagai", "meanings": {"en": "each other, mutual", "id": "saling, satu sama lainnya"}},
+        {"id": 28, "kanji": "お玉", "hiragana": "おたま", "romaji": "otama", "meanings": {"en": "ladle", "id": "singkatan dari otamajakushi"}},
+        {"id": 29, "kanji": "お玉杓子", "hiragana": "おたまじゃくし", "romaji": "otamajakushi", "meanings": {"en": "ladle, large spoon", "id": "sendok besar, centong [untuk kuah]"}}
+      ]
+    }
+  ]
+}

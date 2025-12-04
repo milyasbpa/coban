@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 10,
+      "category": {
+        "id": "S",
+        "en": "S Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "食前", "hiragana": "しょくぜん", "romaji": "shokuzen", "meanings": {"en": "before meal", "id": "sebelum makan"}},
+        {"id": 2, "kanji": "書類", "hiragana": "しょるい", "romaji": "shorui", "meanings": {"en": "document", "id": "dokumen"}},
+        {"id": 3, "kanji": "初心者", "hiragana": "しょしんしゃ", "romaji": "shoshinsha", "meanings": {"en": "beginner", "id": "pelajar pemula"}},
+        {"id": 4, "kanji": "商売", "hiragana": "しょうばい", "romaji": "shoubai", "meanings": {"en": "business, trade", "id": "perdagangan, bisnis"}},
+        {"id": 5, "kanji": "消防署", "hiragana": "しょうぼうしょ", "romaji": "shoubousho", "meanings": {"en": "fire station", "id": "dinas pemadam kebakaran"}},
+        {"id": 6, "kanji": "小学校", "hiragana": "しょうがっこう", "romaji": "shougakkou", "meanings": {"en": "elementary school", "id": "sekolah dasar"}},
+        {"id": 7, "kanji": "奨学金", "hiragana": "しょうがくきん", "romaji": "shougakukin", "meanings": {"en": "scholarship", "id": "beasiswa"}},
+        {"id": 8, "kanji": "小学生", "hiragana": "しょうがくせい", "romaji": "shougakusei", "meanings": {"en": "elementary school student", "id": "murid sekolah dasar"}},
+        {"id": 9, "kanji": "正午", "hiragana": "しょうご", "romaji": "shougo", "meanings": {"en": "noon", "id": "tengah hari, jam 12 siang"}},
+        {"id": 10, "kanji": "消費", "hiragana": "しょうひ", "romaji": "shouhi", "meanings": {"en": "consumption, spending", "id": "konsumsi, pemakaian"}},
+        {"id": 11, "kanji": "商品", "hiragana": "しょうひん", "romaji": "shouhin", "meanings": {"en": "goods, merchandise", "id": "barang dagangan"}},
+        {"id": 12, "kanji": "正直", "hiragana": "しょうじき", "romaji": "shoujiki", "meanings": {"en": "honest, frank", "id": "jujur, terus terang"}},
+        {"id": 13, "kanji": "症状", "hiragana": "しょうじょう", "romaji": "shoujou", "meanings": {"en": "symptoms", "id": "gejala penyakit, andara"}},
+        {"id": 14, "kanji": "消極", "hiragana": "しょうきょく", "romaji": "shoukyoku", "meanings": {"en": "passive, negative", "id": "pasif, negatif"}},
+        {"id": 15, "kanji": "消極的", "hiragana": "しょうきょくてき", "romaji": "shoukyokuteki", "meanings": {"en": "passively", "id": "secara pasif"}},
+        {"id": 16, "kanji": "証明", "hiragana": "しょうめい", "romaji": "shoumei", "meanings": {"en": "proof, certification", "id": "kesaksian, pembuktian"}},
+        {"id": 17, "kanji": "正面", "hiragana": "しょうめん", "romaji": "shoumen", "meanings": {"en": "front, facade", "id": "tampak dari depan, berhadapan"}},
+        {"id": 18, "kanji": "少年", "hiragana": "しょうねん", "romaji": "shounen", "meanings": {"en": "boy, juvenile", "id": "pemuda, anak muda"}},
+        {"id": 19, "kanji": "省略", "hiragana": "しょうりゃく", "romaji": "shouryaku", "meanings": {"en": "omission, abbreviation", "id": "singkatan, penghapusan"}},
+        {"id": 20, "kanji": "小説", "hiragana": "しょうせつ", "romaji": "shousetsu", "meanings": {"en": "novel", "id": "novel"}},
+        {"id": 21, "kanji": "少数", "hiragana": "しょうすう", "romaji": "shousuu", "meanings": {"en": "minority, small number", "id": "jumlah kecil, minoritas"}},
+        {"id": 22, "kanji": "小数点", "hiragana": "しょうすうてん", "romaji": "shousuuten", "meanings": {"en": "decimal point", "id": "angka desimal [koma]"}},
+        {"id": 23, "kanji": "衝突", "hiragana": "しょうとつ", "romaji": "shoutotsu", "meanings": {"en": "collision, crash", "id": "tabrakan, bentrokan"}},
+        {"id": 24, "kanji": "しょうゆ", "hiragana": "しょうゆ", "romaji": "shouyu", "meanings": {"en": "soy sauce", "id": "kecap asin"}},
+        {"id": 25, "kanji": "手段", "hiragana": "しゅだん", "romaji": "shudan", "meanings": {"en": "means, way, method", "id": "cara, langkah"}},
+        {"id": 26, "kanji": "主婦", "hiragana": "しゅふ", "romaji": "shufu", "meanings": {"en": "housewife", "id": "ibu rumah tangga"}},
+        {"id": 27, "kanji": "主人", "hiragana": "しゅじん", "romaji": "shujin", "meanings": {"en": "husband, master", "id": "① suami ② majikan, tuan rumah"}},
+        {"id": 28, "kanji": "手術", "hiragana": "しゅじゅつ", "romaji": "shujutsu", "meanings": {"en": "surgery, operation", "id": "pembedahan, pengoperasian"}}
+      ]
+    }
+  ]
+}

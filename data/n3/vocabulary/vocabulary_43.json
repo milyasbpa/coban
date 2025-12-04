@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "N",
+        "en": "N Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "明後年", "hiragana": "みょうごねん", "romaji": "myougonen", "meanings": {"en": "two years from now", "id": "2 tahun yang akan datang"}},
+        {"id": 2, "kanji": "明後日", "hiragana": "みょうごにち", "romaji": "myougonichi", "meanings": {"en": "day after tomorrow", "id": "besok lusa"}},
+        {"id": 3, "kanji": "明年", "hiragana": "みょうねん", "romaji": "myounen", "meanings": {"en": "next year", "id": "tahun depan"}},
+        {"id": 4, "kanji": "ミュージカル", "hiragana": "ミュージカル", "romaji": "myuujikaru", "meanings": {"en": "musical", "id": "musikal (musical)"}},
+        {"id": 5, "kanji": "ミュージシャン", "hiragana": "ミュージシャン", "romaji": "myuujishan", "meanings": {"en": "musician", "id": "musikus (musician)"}},
+        {"id": 6, "kanji": "鍋", "hiragana": "なべ", "romaji": "nabe", "meanings": {"en": "pot, pan", "id": "panci, periuk"}},
+        {"id": 7, "kanji": "なだらか", "hiragana": "なだらか", "romaji": "nadaraka", "meanings": {"en": "gentle, easy", "id": "landai"}},
+        {"id": 8, "kanji": "撫でる", "hiragana": "なでる", "romaji": "naderu", "meanings": {"en": "to stroke, to caress", "id": "membelai, mengelus"}},
+        {"id": 9, "kanji": "流れる", "hiragana": "ながれる", "romaji": "nagareru", "meanings": {"en": "to flow", "id": "mengalir"}},
+        {"id": 10, "kanji": "流し", "hiragana": "ながし", "romaji": "nagashi", "meanings": {"en": "sink", "id": "bak cuci piring"}},
+        {"id": 11, "kanji": "長袖", "hiragana": "ながそで", "romaji": "nagasode", "meanings": {"en": "long sleeves", "id": "[pakaian] lengan panjang"}},
+        {"id": 12, "kanji": "流す", "hiragana": "ながす", "romaji": "nagasu", "meanings": {"en": "to drain, to pour", "id": "mengalirkan"}},
+        {"id": 13, "kanji": "殴る", "hiragana": "なぐる", "romaji": "naguru", "meanings": {"en": "to hit, to strike", "id": "menjotos, memukul, menghantam"}},
+        {"id": 14, "kanji": "ナイフ", "hiragana": "ナイフ", "romaji": "naifu", "meanings": {"en": "knife", "id": "pisau (knife)"}},
+        {"id": 15, "kanji": "ナイロン", "hiragana": "ナイロン", "romaji": "nairon", "meanings": {"en": "nylon", "id": "nilon (nylon)"}},
+        {"id": 16, "kanji": "内容", "hiragana": "ないよう", "romaji": "naiyou", "meanings": {"en": "content, substance", "id": "isi, inti, subtansi"}},
+        {"id": 17, "kanji": "仲", "hiragana": "なか", "romaji": "naka", "meanings": {"en": "relationship, relation", "id": "hubungan antar manusia, persahabatan"}},
+        {"id": 18, "kanji": "仲間", "hiragana": "なかま", "romaji": "nakama", "meanings": {"en": "companion, friend", "id": "teman, kawan, rekan"}},
+        {"id": 19, "kanji": "中身", "hiragana": "なかみ", "romaji": "nakami", "meanings": {"en": "contents, interior", "id": "isi, muatan"}},
+        {"id": 20, "kanji": "仲直り", "hiragana": "なかなおり", "romaji": "nakanaori", "meanings": {"en": "reconciliation", "id": "rukun kembali, berdamai"}},
+        {"id": 21, "kanji": "仲良し", "hiragana": "なかよし", "romaji": "nakayoshi", "meanings": {"en": "close friend", "id": "akrab, karib, intim"}},
+        {"id": 22, "kanji": "中指", "hiragana": "なかゆび", "romaji": "nakayubi", "meanings": {"en": "middle finger", "id": "jari tengah"}},
+        {"id": 23, "kanji": "亡くなる", "hiragana": "なくなる", "romaji": "nakunaru", "meanings": {"en": "to pass away", "id": "meninggal dunia"}},
+        {"id": 24, "kanji": "無くなる", "hiragana": "なくなる", "romaji": "nakunaru", "meanings": {"en": "to disappear, to be lost", "id": "① hilang, lenyap ② habis"}},
+        {"id": 25, "kanji": "亡くす", "hiragana": "なくす", "romaji": "nakusu", "meanings": {"en": "to lose (someone)", "id": "kehilangan [karena maut]"}},
+        {"id": 26, "kanji": "無くす", "hiragana": "なくす", "romaji": "nakusu", "meanings": {"en": "to lose, to get rid of", "id": "menghilangkan"}},
+        {"id": 27, "kanji": "生", "hiragana": "なま", "romaji": "nama", "meanings": {"en": "raw, fresh", "id": "mentah, segar"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 22,
+      "category": {
+        "id": "U",
+        "en": "U Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "動かす", "hiragana": "うごかす", "romaji": "ugokasu", "meanings": {"en": "to move, to shift", "id": "menggerakkan, memindahkan, menggeser"}},
+        {"id": 2, "kanji": "動く", "hiragana": "うごく", "romaji": "ugoku", "meanings": {"en": "to move, to operate", "id": "bergerak, bergoyang"}},
+        {"id": 3, "kanji": "ウイルス", "hiragana": "ういるす", "romaji": "uirusu", "meanings": {"en": "virus", "id": "virus (virus)"}},
+        {"id": 4, "kanji": "ウイスキー", "hiragana": "ういすきー", "romaji": "uisukii", "meanings": {"en": "whisky", "id": "[minuman keras] wiski (whisky)"}},
+        {"id": 5, "kanji": "受かる", "hiragana": "うかる", "romaji": "ukaru", "meanings": {"en": "to pass (an exam)", "id": "lulus, diterima"}},
+        {"id": 6, "kanji": "受ける", "hiragana": "うける", "romaji": "ukeru", "meanings": {"en": "to receive, to take", "id": "menerima, mendapat"}},
+        {"id": 7, "kanji": "受け取り", "hiragana": "うけとり", "romaji": "uketori", "meanings": {"en": "receipt, receiving", "id": "penerimaan"}},
+        {"id": 8, "kanji": "受け付け", "hiragana": "うけつけ", "romaji": "uketsuke", "meanings": {"en": "reception, information desk", "id": "penerima tamu, meja informasi"}},
+        {"id": 9, "kanji": "受け取る", "hiragana": "うけとる", "romaji": "uketoru", "meanings": {"en": "to receive, to get", "id": "menerima/mendapat dan mengambil"}},
+        {"id": 10, "kanji": "受け付ける", "hiragana": "うけつける", "romaji": "uketsukeru", "meanings": {"en": "to accept, to receive", "id": "menerima dan menanggapi [lamaran, permintaan]"}},
+        {"id": 11, "kanji": "うっかり", "hiragana": "うっかり", "romaji": "ukkari", "meanings": {"en": "carelessly, thoughtlessly", "id": "① tidak-sengaja ② lalai, sembrono"}},
+        {"id": 12, "kanji": "浮く", "hiragana": "うく", "romaji": "uku", "meanings": {"en": "to float, to rise", "id": "① terapung, mengapung ② timbul"}},
+        {"id": 13, "kanji": "うまい", "hiragana": "うまい", "romaji": "umai", "meanings": {"en": "delicious, skillful", "id": "① enak, lezat, sedap ② pintar ③ bagus, baik"}},
+        {"id": 14, "kanji": "生まれ", "hiragana": "うまれ", "romaji": "umare", "meanings": {"en": "birth, birthplace", "id": "kelahiran"}},
+        {"id": 15, "kanji": "埋まる", "hiragana": "うまる", "romaji": "umaru", "meanings": {"en": "to be buried, to be filled", "id": "terkubur, tertanam, terbenam"}},
+        {"id": 16, "kanji": "埋める", "hiragana": "うめる", "romaji": "umeru", "meanings": {"en": "to bury, to fill up", "id": "menguburkan, menanamkan, membenamkan"}},
+        {"id": 17, "kanji": "生む", "hiragana": "うむ", "romaji": "umu", "meanings": {"en": "to give birth, to produce", "id": "melahirkan"}},
+        {"id": 18, "kanji": "産む", "hiragana": "うむ", "romaji": "umu", "meanings": {"en": "to lay (eggs), to produce", "id": "① bertelur ② menimbulkan, menghasilkan"}},
+        {"id": 19, "kanji": "唸る", "hiragana": "うなる", "romaji": "unaru", "meanings": {"en": "to groan, to roar", "id": "[binatang] menggeram"}},
+        {"id": 20, "kanji": "運賃", "hiragana": "うんちん", "romaji": "unchin", "meanings": {"en": "fare, freight", "id": "biaya pengangkutan, ongkos transportasi"}},
+        {"id": 21, "kanji": "運転免許証", "hiragana": "うんてんめんきょしょう", "romaji": "untenmenkyosho", "meanings": {"en": "driver's license", "id": "surat izin mengemudi, SIM"}},
+        {"id": 22, "kanji": "運転席", "hiragana": "うんてんせき", "romaji": "untenseki", "meanings": {"en": "driver's seat", "id": "tempat duduk pengemudi"}},
+        {"id": 23, "kanji": "運転士", "hiragana": "うんてんし", "romaji": "untenshi", "meanings": {"en": "driver (train, bus)", "id": "⇔ untenshu 運転手"}},
+        {"id": 24, "kanji": "運転手", "hiragana": "うんてんしゅ", "romaji": "untenshu", "meanings": {"en": "driver, chauffeur", "id": "pengemudi, sopir"}},
+        {"id": 25, "kanji": "裏返す", "hiragana": "うらがえす", "romaji": "uragaesu", "meanings": {"en": "to turn over, to reverse", "id": "membalikkan"}},
+        {"id": 26, "kanji": "羨ましい", "hiragana": "うらやましい", "romaji": "urayamashii", "meanings": {"en": "envious, jealous", "id": "iri hati"}},
+        {"id": 27, "kanji": "売り切れ", "hiragana": "うりきれ", "romaji": "urikire", "meanings": {"en": "sold out", "id": "habis terjual"}},
+        {"id": 28, "kanji": "うろうろ", "hiragana": "うろうろ", "romaji": "urouro", "meanings": {"en": "wandering, aimless roaming", "id": "~ suru うろうろする mondar-mandir, kelyuran"}}
+      ]
+    }
+  ]
+}

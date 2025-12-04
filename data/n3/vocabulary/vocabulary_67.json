@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 16,
+      "category": {
+        "id": "T",
+        "en": "T Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "たんす", "hiragana": "たんす", "romaji": "tansu", "meanings": {"en": "chest of drawers, wardrobe", "id": "lemari, laci penyimpan"}},
+        {"id": 2, "kanji": "担当", "hiragana": "たんとう", "romaji": "tantou", "meanings": {"en": "being in charge, duty", "id": "tanggung jawab, tugas"}},
+        {"id": 3, "kanji": "倒れる", "hiragana": "たおれる", "romaji": "taoreru", "meanings": {"en": "to fall, to collapse", "id": "jatuh, terguling, roboh, tumbang"}},
+        {"id": 4, "kanji": "タオル", "hiragana": "タオル", "romaji": "taoru", "meanings": {"en": "towel", "id": "handuk (towel)"}},
+        {"id": 5, "kanji": "足りない", "hiragana": "たりない", "romaji": "tarinai", "meanings": {"en": "not enough, insufficient", "id": "menjatuhkan, menggulingkan, merobohkan, menumbangkan"}},
+        {"id": 6, "kanji": "足りる", "hiragana": "たりる", "romaji": "tariru", "meanings": {"en": "to be enough, to be sufficient", "id": "kurang, tidak cukup"}},
+        {"id": 7, "kanji": "確か", "hiragana": "たしか", "romaji": "tashika", "meanings": {"en": "certain, sure", "id": "cukup, mencukupi"}},
+        {"id": 8, "kanji": "確かめる", "hiragana": "たしかめる", "romaji": "tashikameru", "meanings": {"en": "to ascertain, to confirm", "id": "① kalau tidak salah ② pasti, tentu, memang"}},
+        {"id": 9, "kanji": "足し算", "hiragana": "たしざん", "romaji": "tashizan", "meanings": {"en": "addition (math)", "id": "memastikan"}},
+        {"id": 10, "kanji": "足す", "hiragana": "たす", "romaji": "tasu", "meanings": {"en": "to add", "id": "[perhitungan] penjumlahan"}},
+        {"id": 11, "kanji": "助かる", "hiragana": "たすかる", "romaji": "tasukaru", "meanings": {"en": "to be saved, to be rescued", "id": "menambah, menjumlah"}},
+        {"id": 12, "kanji": "助ける", "hiragana": "たすける", "romaji": "tasukeru", "meanings": {"en": "to help, to save", "id": "tertolong, terselamatkan, terbantu"}},
+        {"id": 13, "kanji": "叩く", "hiragana": "たたく", "romaji": "tataku", "meanings": {"en": "to strike, to hit", "id": "menolong, menyelamatkan, membantu"}},
+        {"id": 14, "kanji": "畳む", "hiragana": "たたむ", "romaji": "tatamu", "meanings": {"en": "to fold", "id": "memukul, mengetuk"}},
+        {"id": 15, "kanji": "建てる", "hiragana": "たてる", "romaji": "tateru", "meanings": {"en": "to build, to construct", "id": "melipat [payung, selimut dll.]"}},
+        {"id": 16, "kanji": "建つ", "hiragana": "たつ", "romaji": "tatsu", "meanings": {"en": "to be built", "id": "mendirikan, membangun"}},
+        {"id": 17, "kanji": "立つ", "hiragana": "たつ", "romaji": "tatsu", "meanings": {"en": "to stand", "id": "berdiri, bangun [gedung]"}},
+        {"id": 18, "kanji": "たった", "hiragana": "たった", "romaji": "tatta", "meanings": {"en": "only, just", "id": "berdiri [makhluk hidup]"}},
+        {"id": 19, "kanji": "尋ねる", "hiragana": "たずねる", "romaji": "tazuneru", "meanings": {"en": "to ask, to inquire", "id": "hanya, cuma, saja [penekanan dari] tada ただ."}},
+        {"id": 20, "kanji": "訪ねる", "hiragana": "たずねる", "romaji": "tazuneru", "meanings": {"en": "to visit", "id": "① mencari ② menanyakan, bertanya"}},
+        {"id": 21, "kanji": "手袋", "hiragana": "てぶくろ", "romaji": "tebukuro", "meanings": {"en": "glove", "id": "mengunjungi"}},
+        {"id": 22, "kanji": "テーブル", "hiragana": "テーブル", "romaji": "teeburu", "meanings": {"en": "table", "id": "sarung tangan"}},
+        {"id": 23, "kanji": "提案", "hiragana": "ていあん", "romaji": "tei'an", "meanings": {"en": "proposal, suggestion", "id": "meja (table)"}},
+        {"id": 24, "kanji": "停電", "hiragana": "ていでん", "romaji": "teiden", "meanings": {"en": "power outage", "id": "usulan, saran"}},
+        {"id": 25, "kanji": "定期券", "hiragana": "ていきけん", "romaji": "teikiken", "meanings": {"en": "commuter pass", "id": "pemadaman listrik"}},
+        {"id": 26, "kanji": "停留所", "hiragana": "ていりゅうじょ", "romaji": "teiryuujo", "meanings": {"en": "bus stop, stop", "id": "kartu langganan secara berkala/periodik"}}
+      ]
+    }
+  ]
+}

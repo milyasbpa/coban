@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 23,
+      "category": {
+        "id": "U",
+        "en": "U Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ウール", "hiragana": "うーる", "romaji": "ūru", "meanings": {"en": "wool", "id": "bulu domba (wool)"}},
+        {"id": 2, "kanji": "嘘", "hiragana": "うそ", "romaji": "uso", "meanings": {"en": "lie, falsehood", "id": "bohong, dusta"}},
+        {"id": 3, "kanji": "嘘つき", "hiragana": "うそつき", "romaji": "usotsuki", "meanings": {"en": "liar", "id": "pembohong, pendusta"}},
+        {"id": 4, "kanji": "薄暗い", "hiragana": "うすぐらい", "romaji": "usugurai", "meanings": {"en": "dim, gloomy", "id": "remang-remang, suram, redup [agak gelap]"}},
+        {"id": 5, "kanji": "薄い", "hiragana": "うすい", "romaji": "usui", "meanings": {"en": "thin, light (color), weak (taste)", "id": "① tipis ② [warna] muda ③ [rasa] tawar, encer"}},
+        {"id": 6, "kanji": "移る", "hiragana": "うつる", "romaji": "utsuru", "meanings": {"en": "to move, to transfer", "id": "① pindah ② menular"}},
+        {"id": 7, "kanji": "写る", "hiragana": "うつる", "romaji": "utsuru", "meanings": {"en": "to be photographed, to be projected", "id": "① terekam ② tembus"}},
+        {"id": 8, "kanji": "移す", "hiragana": "うつす", "romaji": "utsusu", "meanings": {"en": "to move, to transfer", "id": "① memindahkan ② menularkan"}},
+        {"id": 9, "kanji": "写す", "hiragana": "うつす", "romaji": "utsusu", "meanings": {"en": "to copy, to photograph", "id": "① mengambil foto ② menyalin, mengkopi, menyontek"}},
+        {"id": 10, "kanji": "上着", "hiragana": "うわぎ", "romaji": "uwagi", "meanings": {"en": "jacket, coat", "id": "jas, jaket"}},
+        {"id": 11, "kanji": "噂", "hiragana": "うわさ", "romaji": "uwasa", "meanings": {"en": "rumor, gossip", "id": "gosip, kabar angin, desas desus. ~ suru 噂する menggosipkan, mendesas-desuskan"}}
+      ]
+    },
+    {
+      "id": 24,
+      "category": {
+        "id": "W",
+        "en": "W Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "羽", "hiragana": "わ", "romaji": "wa", "meanings": {"en": "counter for birds/rabbits", "id": "[satuan untuk unggas atau kelinci] ...ekor"}},
+        {"id": 2, "kanji": "詫び", "hiragana": "わび", "romaji": "wabi", "meanings": {"en": "apology", "id": "permohonan maaf"}},
+        {"id": 3, "kanji": "わがまま", "hiragana": "わがまま", "romaji": "wagamama", "meanings": {"en": "selfish, egoistic", "id": "egois, keras kepala"}},
+        {"id": 4, "kanji": "ワイパー", "hiragana": "わいぱー", "romaji": "waipā", "meanings": {"en": "wiper", "id": "wiper kaca mobil (wiper)"}},
+        {"id": 5, "kanji": "ワイシャツ", "hiragana": "わいしゃつ", "romaji": "waishatsu", "meanings": {"en": "shirt", "id": "kemeja"}},
+        {"id": 6, "kanji": "若者", "hiragana": "わかもの", "romaji": "wakamono", "meanings": {"en": "young people, youth", "id": "anak muda, pemuda-pemudi, muda-mudi [batas usia sampai 22 tahun]"}},
+        {"id": 7, "kanji": "別れ", "hiragana": "わかれ", "romaji": "wakare", "meanings": {"en": "parting, separation", "id": "perpisahan, perceraian"}},
+        {"id": 8, "kanji": "別れる", "hiragana": "わかれる", "romaji": "wakareru", "meanings": {"en": "to part, to separate", "id": "berpisah, bercerai"}},
+        {"id": 9, "kanji": "分かれる", "hiragana": "わかれる", "romaji": "wakareru", "meanings": {"en": "to be divided, to split", "id": "terbagi, terbelah, terpecah"}},
+        {"id": 10, "kanji": "沸かす", "hiragana": "わかす", "romaji": "wakasu", "meanings": {"en": "to boil, to heat", "id": "mendidihkan"}},
+        {"id": 11, "kanji": "訳", "hiragana": "わけ", "romaji": "wake", "meanings": {"en": "reason, meaning", "id": "① alasan, sebab ② arti"}},
+        {"id": 12, "kanji": "分ける", "hiragana": "わける", "romaji": "wakeru", "meanings": {"en": "to divide, to separate", "id": "membagi"}},
+        {"id": 13, "kanji": "沸く", "hiragana": "わく", "romaji": "waku", "meanings": {"en": "to boil, to be excited", "id": "mendidih"}},
+        {"id": 14, "kanji": "わん", "hiragana": "わん", "romaji": "wan", "meanings": {"en": "bowl", "id": "mangkuk"}},
+        {"id": 15, "kanji": "ワンピース", "hiragana": "わんぴーす", "romaji": "wanpīsu", "meanings": {"en": "one-piece dress", "id": "pakaian/gaun terusan (one piece)"}},
+        {"id": 16, "kanji": "笑い", "hiragana": "わらい", "romaji": "warai", "meanings": {"en": "laugh, laughter", "id": "tawa, gelak"}}
+      ]
+    }
+  ]
+}

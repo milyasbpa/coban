@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 5,
+      "category": {
+        "id": "S",
+        "en": "S Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "生活費", "hiragana": "せいかつひ", "romaji": "seikatsuhi", "meanings": {"en": "living expenses", "id": "biaya hidup"}},
+        {"id": 2, "kanji": "清潔", "hiragana": "せいけつ", "romaji": "seiketsu", "meanings": {"en": "cleanliness", "id": "kebersihan, bersih"}},
+        {"id": 3, "kanji": "世紀", "hiragana": "せいき", "romaji": "seiki", "meanings": {"en": "century", "id": "abad"}},
+        {"id": 4, "kanji": "成功", "hiragana": "せいこう", "romaji": "seikou", "meanings": {"en": "success", "id": "keberhasilan, kesuksesan"}},
+        {"id": 5, "kanji": "請求書", "hiragana": "せいきゅうしょ", "romaji": "seikyuusho", "meanings": {"en": "bill, invoice", "id": "bon tagihan"}},
+        {"id": 6, "kanji": "青年", "hiragana": "せいねん", "romaji": "seinen", "meanings": {"en": "youth, young people", "id": "kaum muda, pemuda-pemudi"}},
+        {"id": 7, "kanji": "生年月日", "hiragana": "せいねんがっぴ", "romaji": "seinengappi", "meanings": {"en": "date of birth", "id": "tanggal bulan dan tahun lahir"}},
+        {"id": 8, "kanji": "整理", "hiragana": "せいり", "romaji": "seiri", "meanings": {"en": "arrangement, sorting", "id": "membereskan"}},
+        {"id": 9, "kanji": "精算", "hiragana": "せいさん", "romaji": "seisan", "meanings": {"en": "adjustment, settlement", "id": "penyesuaian pembayaran"}},
+        {"id": 10, "kanji": "生産", "hiragana": "せいさん", "romaji": "seisan", "meanings": {"en": "production", "id": "produksi"}},
+        {"id": 11, "kanji": "精算機", "hiragana": "せいさんき", "romaji": "seisanki", "meanings": {"en": "fare adjustment machine", "id": "mesin penyesuaian pembayaran"}},
+        {"id": 12, "kanji": "成績", "hiragana": "せいせき", "romaji": "seiseki", "meanings": {"en": "results, grades", "id": "hasil, nilai, prestasi"}},
+        {"id": 13, "kanji": "性質", "hiragana": "せいしつ", "romaji": "seishitsu", "meanings": {"en": "nature, property, character", "id": "tabiat, watak, karakter, sifat"}},
+        {"id": 14, "kanji": "清書", "hiragana": "せいしょ", "romaji": "seisho", "meanings": {"en": "clean copy, fair copy", "id": "salinan yang rapi"}},
+        {"id": 15, "kanji": "整数", "hiragana": "せいすう", "romaji": "seisuu", "meanings": {"en": "integer", "id": "angka bulat, bilangan bulat"}},
+        {"id": 16, "kanji": "西洋", "hiragana": "せいよう", "romaji": "seiyou", "meanings": {"en": "the West, Western countries", "id": "negara barat"}},
+        {"id": 17, "kanji": "生前", "hiragana": "せいぜん", "romaji": "seizen", "meanings": {"en": "during one's lifetime", "id": "semasa hidup, sebelum meninggal"}},
+        {"id": 18, "kanji": "咳", "hiragana": "せき", "romaji": "seki", "meanings": {"en": "cough", "id": "batuk"}},
+        {"id": 19, "kanji": "責任", "hiragana": "せきにん", "romaji": "sekinin", "meanings": {"en": "responsibility", "id": "tanggung-jawab"}},
+        {"id": 20, "kanji": "積極的", "hiragana": "せっきょくてき", "romaji": "sekkyokuteki", "meanings": {"en": "positive, active, aggressive", "id": "sikap aktif/agresif/ambisius"}},
+        {"id": 21, "kanji": "背中", "hiragana": "せなか", "romaji": "senaka", "meanings": {"en": "back (of body)", "id": "punggung"}},
+        {"id": 22, "kanji": "センチ", "hiragana": "センチ", "romaji": "senchi", "meanings": {"en": "centimeter", "id": "centimeter, cm (centimeter)"}},
+        {"id": 23, "kanji": "宣伝", "hiragana": "せんでん", "romaji": "senden", "meanings": {"en": "advertisement, publicity", "id": "propaganda, publikasi"}},
+        {"id": 24, "kanji": "先日", "hiragana": "せんじつ", "romaji": "senjitsu", "meanings": {"en": "the other day, a few days ago", "id": "tempo hari, waktu itu"}},
+        {"id": 25, "kanji": "専攻", "hiragana": "せんこう", "romaji": "senkou", "meanings": {"en": "major, specialization", "id": "fakultas, jurusan"}},
+        {"id": 26, "kanji": "選挙", "hiragana": "せんきょ", "romaji": "senkyo", "meanings": {"en": "election", "id": "pemilihan [umum]"}},
+        {"id": 27, "kanji": "洗面所", "hiragana": "せんめんじょ", "romaji": "senmenjo", "meanings": {"en": "washroom, bathroom", "id": "kamar mandi, toilet"}},
+        {"id": 28, "kanji": "専門", "hiragana": "せんもん", "romaji": "senmon", "meanings": {"en": "specialty, expert, major", "id": "① spesialisasi, ahli ② khusus ③ kejuruan"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "N",
+        "en": "N Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "生ゴミ", "hiragana": "なまごみ", "romaji": "namagomi", "meanings": {"en": "household waste", "id": "sampah rumah tangga"}},
+        {"id": 2, "kanji": "生意気", "hiragana": "なまいき", "romaji": "namaiki", "meanings": {"en": "impertinent, cheeky", "id": "lancang, tidak sopan, kurang ajar"}},
+        {"id": 3, "kanji": "なまけもの", "hiragana": "なまけもの", "romaji": "namakemono", "meanings": {"en": "lazy person", "id": "pemalas"}},
+        {"id": 4, "kanji": "なまける", "hiragana": "なまける", "romaji": "namakeru", "meanings": {"en": "to be lazy", "id": "bermalas-malasan"}},
+        {"id": 5, "kanji": "涙", "hiragana": "なみだ", "romaji": "namida", "meanings": {"en": "tear", "id": "air mata"}},
+        {"id": 6, "kanji": "斜め", "hiragana": "ななめ", "romaji": "naname", "meanings": {"en": "slanting, diagonal", "id": "miring"}},
+        {"id": 7, "kanji": "治る", "hiragana": "なおる", "romaji": "naoru", "meanings": {"en": "to heal, to recover", "id": "sembuh, pulih"}},
+        {"id": 8, "kanji": "直る", "hiragana": "なおる", "romaji": "naoru", "meanings": {"en": "to be fixed, to be repaired", "id": "betul, baik"}},
+        {"id": 9, "kanji": "治す", "hiragana": "なおす", "romaji": "naosu", "meanings": {"en": "to cure, to heal", "id": "menyembuhkan, memulihkan, mengobati"}},
+        {"id": 10, "kanji": "直す", "hiragana": "なおす", "romaji": "naosu", "meanings": {"en": "to fix, to repair", "id": "memperbaiki, membetulkan, mengoreksi"}},
+        {"id": 11, "kanji": "慣らす", "hiragana": "ならす", "romaji": "narasu", "meanings": {"en": "to accustom, to habituate", "id": "membiasakan"}},
+        {"id": 12, "kanji": "鳴らす", "hiragana": "ならす", "romaji": "narasu", "meanings": {"en": "to ring, to sound", "id": "membunyikan, menyuarakan"}},
+        {"id": 13, "kanji": "慣れる", "hiragana": "なれる", "romaji": "nareru", "meanings": {"en": "to get used to", "id": "terbiasa"}},
+        {"id": 14, "kanji": "鳴る", "hiragana": "なる", "romaji": "naru", "meanings": {"en": "to ring, to sound", "id": "berbunyi, bersuara"}},
+        {"id": 15, "kanji": "なるべく", "hiragana": "なるべく", "romaji": "narubeku", "meanings": {"en": "as much as possible", "id": "sebisa mungkin"}},
+        {"id": 16, "kanji": "値上がり", "hiragana": "ねあがり", "romaji": "neagari", "meanings": {"en": "price increase", "id": "kenaikan harga"}},
+        {"id": 17, "kanji": "熱中", "hiragana": "ねっちゅう", "romaji": "necchuu", "meanings": {"en": "enthusiasm, mania", "id": "keranjingan, tergila-gila"}},
+        {"id": 18, "kanji": "ネックレス", "hiragana": "ネックレス", "romaji": "nekkuresu", "meanings": {"en": "necklace", "id": "kalung (necklace)"}},
+        {"id": 19, "kanji": "ネクタイ", "hiragana": "ネクタイ", "romaji": "nekutai", "meanings": {"en": "necktie", "id": "dasi (necktie)"}},
+        {"id": 20, "kanji": "眠る", "hiragana": "ねむる", "romaji": "nemuru", "meanings": {"en": "to sleep", "id": "tertidur, terlelap"}},
+        {"id": 21, "kanji": "年賀状", "hiragana": "ねんがじょう", "romaji": "nengajou", "meanings": {"en": "New Year's card", "id": "kartu ucapan selamat tahun baru"}},
+        {"id": 22, "kanji": "年末", "hiragana": "ねんまつ", "romaji": "nenmatsu", "meanings": {"en": "end of the year", "id": "akhir tahun"}},
+        {"id": 23, "kanji": "年始", "hiragana": "ねんし", "romaji": "nenshi", "meanings": {"en": "beginning of the year", "id": "awal tahun, permulaan tahun, tahun baru"}},
+        {"id": 24, "kanji": "熱心", "hiragana": "ねっしん", "romaji": "nesshin", "meanings": {"en": "enthusiastic, diligent", "id": "tekun, ulet"}},
+        {"id": 25, "kanji": "熱する", "hiragana": "ねっする", "romaji": "nessuru", "meanings": {"en": "to heat", "id": "memanaskan"}},
+        {"id": 26, "kanji": "ネット", "hiragana": "ネット", "romaji": "netto", "meanings": {"en": "net", "id": "jaring (net)"}},
+        {"id": 27, "kanji": "似合う", "hiragana": "にあう", "romaji": "niau", "meanings": {"en": "to suit, to match", "id": "menyocokkan, menyesuaikan, memantaskan"}},
+        {"id": 28, "kanji": "鈍い", "hiragana": "にぶい", "romaji": "nibui", "meanings": {"en": "dull, slow", "id": "① tumpul ② bodoh, lamban"}}
+      ]
+    }
+  ]
+}

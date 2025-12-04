@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "R",
+        "en": "R Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "レベル", "hiragana": "レベル", "romaji": "reberu", "meanings": {"en": "level, grade", "id": "tingkatan, kelas, level (level)"}},
+        {"id": 2, "kanji": "礼", "hiragana": "れい", "romaji": "rei", "meanings": {"en": "thanks, etiquette", "id": "① pemberian hormat ② terima kasih ③ hadiah"}},
+        {"id": 3, "kanji": "冷房", "hiragana": "れいぼう", "romaji": "reibou", "meanings": {"en": "air conditioner", "id": "pendingin ruangan, AC"}},
+        {"id": 4, "kanji": "例外", "hiragana": "れいがい", "romaji": "reigai", "meanings": {"en": "exception", "id": "pengecualian"}},
+        {"id": 5, "kanji": "礼儀", "hiragana": "れいぎ", "romaji": "reigi", "meanings": {"en": "manners, etiquette", "id": "sopan-santun, peradaban, kesusilaan"}},
+        {"id": 6, "kanji": "礼儀正しい", "hiragana": "れいぎただしい", "romaji": "reigitadashii", "meanings": {"en": "polite, courteous", "id": "sopan, santun, beradab, bersusila"}},
+        {"id": 7, "kanji": "冷凍", "hiragana": "れいとう", "romaji": "reitou", "meanings": {"en": "frozen", "id": "beku"}},
+        {"id": 8, "kanji": "レジ", "hiragana": "レジ", "romaji": "reji", "meanings": {"en": "register, cashier", "id": "kasir (register)"}},
+        {"id": 9, "kanji": "歴史", "hiragana": "れきし", "romaji": "rekishi", "meanings": {"en": "history", "id": "sejarah"}},
+        {"id": 10, "kanji": "恋愛", "hiragana": "れんあい", "romaji": "ren'ai", "meanings": {"en": "love, romance", "id": "percintaan, pacaran"}},
+        {"id": 11, "kanji": "レンジ", "hiragana": "レンジ", "romaji": "renji", "meanings": {"en": "range, stove", "id": "kompor (range)"}},
+        {"id": 12, "kanji": "レンタカー", "hiragana": "レンタカー", "romaji": "rentakaa", "meanings": {"en": "rental car", "id": "mobil sewaan, mobil rental (rental car)"}},
+        {"id": 13, "kanji": "レンタル", "hiragana": "レンタル", "romaji": "rentaru", "meanings": {"en": "rental", "id": "sewaan, rental (rental)"}},
+        {"id": 14, "kanji": "レンタル料", "hiragana": "レンタルりょう", "romaji": "rentaruryou", "meanings": {"en": "rental fee", "id": "biaya sewa/rental"}},
+        {"id": 15, "kanji": "レポート", "hiragana": "レポート", "romaji": "repooto", "meanings": {"en": "report", "id": "laporan (report)"}},
+        {"id": 16, "kanji": "レシート", "hiragana": "レシート", "romaji": "reshiito", "meanings": {"en": "receipt", "id": "tanda terima, kwitansi (receipt)"}},
+        {"id": 17, "kanji": "列車", "hiragana": "れっしゃ", "romaji": "ressha", "meanings": {"en": "train", "id": "kereta"}},
+        {"id": 18, "kanji": "列", "hiragana": "れつ", "romaji": "retsu", "meanings": {"en": "row, line", "id": "barisan, deretan, antrian"}},
+        {"id": 19, "kanji": "リビング", "hiragana": "リビング", "romaji": "ribingu", "meanings": {"en": "living room", "id": "[singkatan] ruang keluarga (living)"}},
+        {"id": 20, "kanji": "リーダー", "hiragana": "リーダー", "romaji": "riidaa", "meanings": {"en": "leader", "id": "pemimpin, kepala (leader)"}},
+        {"id": 21, "kanji": "理科", "hiragana": "りか", "romaji": "rika", "meanings": {"en": "science", "id": "eksakta, ilmu pasti"}},
+        {"id": 22, "kanji": "理解", "hiragana": "りかい", "romaji": "rikai", "meanings": {"en": "understanding", "id": "pengertian, pemahaman"}},
+        {"id": 23, "kanji": "利口", "hiragana": "りこう", "romaji": "rikou", "meanings": {"en": "clever, smart", "id": "cerdik, pintar"}},
+        {"id": 24, "kanji": "理工", "hiragana": "りこう", "romaji": "rikou", "meanings": {"en": "science and engineering", "id": "pengetahuan tehnik mesin"}},
+        {"id": 25, "kanji": "リモコン", "hiragana": "リモコン", "romaji": "rimokon", "meanings": {"en": "remote control", "id": "remot kontrol, kendali jarak jauh (remote control)"}},
+        {"id": 26, "kanji": "立派", "hiragana": "りっぱ", "romaji": "rippa", "meanings": {"en": "splendid, fine", "id": "bagus sekali, mengagumkan, megah"}},
+        {"id": 27, "kanji": "履歴書", "hiragana": "りれきしょ", "romaji": "rirekisho", "meanings": {"en": "resume, CV", "id": "surat riwayat hidup"}},
+        {"id": 28, "kanji": "リサイクル", "hiragana": "リサイクル", "romaji": "risaikuru", "meanings": {"en": "recycle", "id": "daur-ulang (recycle)"}},
+        {"id": 29, "kanji": "リットル", "hiragana": "リットル", "romaji": "rittoru", "meanings": {"en": "liter", "id": "[satuan ukuran cairan] liter, l (liter)"}}
+      ]
+    }
+  ]
+}

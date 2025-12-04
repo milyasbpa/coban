@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "N",
+        "en": "N Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "煮える", "hiragana": "にえる", "romaji": "nieru", "meanings": {"en": "to boil, to cook", "id": "matang, mendidih"}},
+        {"id": 2, "kanji": "苦手", "hiragana": "にがて", "romaji": "nigate", "meanings": {"en": "not good at, weak", "id": "tidak menguasai, lemah"}},
+        {"id": 3, "kanji": "握る", "hiragana": "にぎる", "romaji": "nigiru", "meanings": {"en": "to grasp, to grip", "id": "menggenggam, mencengkeram, memegang kuat"}},
+        {"id": 4, "kanji": "賑やか", "hiragana": "にぎやか", "romaji": "nigiyaka", "meanings": {"en": "lively, cheerful", "id": "ramai, ceria"}},
+        {"id": 5, "kanji": "にきび", "hiragana": "にきび", "romaji": "nikibi", "meanings": {"en": "acne, pimple", "id": "jerawat, akne"}},
+        {"id": 6, "kanji": "にっこり", "hiragana": "にっこり", "romaji": "nikkori", "meanings": {"en": "smile gently", "id": "senyum simpul"}},
+        {"id": 7, "kanji": "にこにこ", "hiragana": "にこにこ", "romaji": "nikoniko", "meanings": {"en": "smiling happily", "id": "tersenyum-tersenyum bahagia"}},
+        {"id": 8, "kanji": "人気", "hiragana": "にんき", "romaji": "ninki", "meanings": {"en": "popularity", "id": "popularitas, ketenaran"}},
+        {"id": 9, "kanji": "におう", "hiragana": "におう", "romaji": "niou", "meanings": {"en": "to smell", "id": "beraroma, berbau [tidak sedap]"}},
+        {"id": 10, "kanji": "似る", "hiragana": "にる", "romaji": "niru", "meanings": {"en": "to resemble, to look like", "id": "menyerupai, mirip"}},
+        {"id": 11, "kanji": "煮る", "hiragana": "にる", "romaji": "niru", "meanings": {"en": "to boil, to stew", "id": "merebus, menggodok"}},
+        {"id": 12, "kanji": "偽", "hiragana": "にせ", "romaji": "nise", "meanings": {"en": "false, fake", "id": "palsu, tiruan, imitasi"}},
+        {"id": 13, "kanji": "偽物", "hiragana": "にせもの", "romaji": "nisemono", "meanings": {"en": "imitation, fake", "id": "barang palsu/tiruan/imitasi"}},
+        {"id": 14, "kanji": "似せる", "hiragana": "にせる", "romaji": "niseru", "meanings": {"en": "to imitate, to copy", "id": "meniru, memalsukan"}},
+        {"id": 15, "kanji": "日程", "hiragana": "にってい", "romaji": "nittei", "meanings": {"en": "schedule, daily plan", "id": "rencana harian, agenda harian"}},
+        {"id": 16, "kanji": "延ばす", "hiragana": "のばす", "romaji": "nobasu", "meanings": {"en": "to extend, to stretch", "id": "memunda, menangguhkan"}},
+        {"id": 17, "kanji": "伸びる", "hiragana": "のびる", "romaji": "nobiru", "meanings": {"en": "to be postponed, to be delayed", "id": "tertunda, ditangguhkan"}},
+        {"id": 18, "kanji": "伸びる", "hiragana": "のびる", "romaji": "nobiru", "meanings": {"en": "to grow, to lengthen", "id": "tumbuh, memanjang"}},
+        {"id": 19, "kanji": "上り", "hiragana": "のぼり", "romaji": "nobori", "meanings": {"en": "ascent, climb", "id": "jalur arah naik, lingkar dalam"}},
+        {"id": 20, "kanji": "上る", "hiragana": "のぼる", "romaji": "noboru", "meanings": {"en": "to go up, to climb", "id": "naik, menaiki, menanjak, mencapai"}},
+        {"id": 21, "kanji": "残り物", "hiragana": "のこりもの", "romaji": "nokorimono", "meanings": {"en": "leftover, remains", "id": "barang/makanan sisa"}},
+        {"id": 22, "kanji": "残る", "hiragana": "のこる", "romaji": "nokoru", "meanings": {"en": "to remain, to be left", "id": "① tersisa, tertinggal ② tinggal"}},
+        {"id": 23, "kanji": "残す", "hiragana": "のこす", "romaji": "nokosu", "meanings": {"en": "to leave behind", "id": "① menyisakan, meninggalkan ② menahan [agar tinggal]"}},
+        {"id": 24, "kanji": "飲み放題", "hiragana": "のみほうだい", "romaji": "nomihoudai", "meanings": {"en": "all you can drink", "id": "minum [minuman keras] sepuasnya"}},
+        {"id": 25, "kanji": "飲み会", "hiragana": "のみかい", "romaji": "nomikai", "meanings": {"en": "drinking party", "id": "pesta minum minuman keras"}},
+        {"id": 26, "kanji": "のんびり", "hiragana": "のんびり", "romaji": "nonbiri", "meanings": {"en": "leisurely, relaxed", "id": "santai"}},
+        {"id": 27, "kanji": "のんき", "hiragana": "のんき", "romaji": "nonki", "meanings": {"en": "easygoing, carefree", "id": "santai, pasrah, tidak berbeban"}},
+        {"id": 28, "kanji": "乗り換え", "hiragana": "のりかえ", "romaji": "norikae", "meanings": {"en": "transfer (transport)", "id": "penukaran kendaraan"}}
+      ]
+    }
+  ]
+}

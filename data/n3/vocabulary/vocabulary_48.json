@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "O",
+        "en": "O Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "おかしい", "hiragana": "おかしい", "romaji": "okashii", "meanings": {"en": "strange, funny", "id": "aneh, lucu, menegelikan"}},
+        {"id": 2, "kanji": "おかわり", "hiragana": "おかわり", "romaji": "okawari", "meanings": {"en": "refill, second helping", "id": "perubahan"}},
+        {"id": 3, "kanji": "おかず", "hiragana": "おかず", "romaji": "okazu", "meanings": {"en": "side dish", "id": "lauk pauk, teman nasi"}},
+        {"id": 4, "kanji": "お化粧", "hiragana": "おけしょう", "romaji": "okesho", "meanings": {"en": "makeup, cosmetics", "id": "dandan, riasan"}},
+        {"id": 5, "kanji": "お気に入り", "hiragana": "おきにいり", "romaji": "okiniiri", "meanings": {"en": "favorite", "id": "kesukaan"}},
+        {"id": 6, "kanji": "起きる", "hiragana": "おきる", "romaji": "okiru", "meanings": {"en": "to get up, to happen", "id": "① bangun ② terjadi"}},
+        {"id": 7, "kanji": "行う", "hiragana": "おこなう", "romaji": "okonau", "meanings": {"en": "to do, to carry out", "id": "melaksanakan, mengadakan"}},
+        {"id": 8, "kanji": "起こる", "hiragana": "おこる", "romaji": "okoru", "meanings": {"en": "to occur, to happen", "id": "terjadi"}},
+        {"id": 9, "kanji": "起こす", "hiragana": "おこす", "romaji": "okosu", "meanings": {"en": "to wake up, to cause", "id": "① membangunkan ② menimbulkan, membangkitkan"}},
+        {"id": 10, "kanji": "奥", "hiragana": "おく", "romaji": "oku", "meanings": {"en": "interior, inner part", "id": "bagian paling dalam"}},
+        {"id": 11, "kanji": "遅れ", "hiragana": "おくれ", "romaji": "okure", "meanings": {"en": "delay, lateness", "id": "kelambatan, penundaan, ketinggalan"}},
+        {"id": 12, "kanji": "遅れる", "hiragana": "おくれる", "romaji": "okureru", "meanings": {"en": "to be late, to be delayed", "id": "terlambat, tertunda, tertinggal"}},
+        {"id": 13, "kanji": "奥様", "hiragana": "おくさま", "romaji": "okusama", "meanings": {"en": "wife (honorific)", "id": "nyonya, ibu, istri [bentuk hormat]"}},
+        {"id": 14, "kanji": "オークション", "hiragana": "オークション", "romaji": "ookushon", "meanings": {"en": "auction", "id": "lelang, pelelangan (auction)"}},
+        {"id": 15, "kanji": "お孫さん", "hiragana": "おまごさん", "romaji": "omagosan", "meanings": {"en": "grandchild (honorific)", "id": "cucu anda [bentuk hormat]"}},
+        {"id": 16, "kanji": "お待たせ", "hiragana": "おまたせ", "romaji": "omataseru", "meanings": {"en": "sorry to keep you waiting", "id": "maaf sudah dibuat menunggu"}},
+        {"id": 17, "kanji": "お目にかかる", "hiragana": "おめにかかる", "romaji": "omenikakaru", "meanings": {"en": "to meet (honorific)", "id": "[bentuk hormat] bertemu"}},
+        {"id": 18, "kanji": "お見舞い", "hiragana": "おみまい", "romaji": "omimai", "meanings": {"en": "visit (someone ill)", "id": "jengukan, kunjungan untuk menghibur"}},
+        {"id": 19, "kanji": "思い", "hiragana": "おもい", "romaji": "omoi", "meanings": {"en": "thought, feeling", "id": "pikiran, ingatan"}},
+        {"id": 20, "kanji": "思い出す", "hiragana": "おもいだす", "romaji": "omoidasu", "meanings": {"en": "to recall, to remember", "id": "mengingat/mengenang kembali"}},
+        {"id": 21, "kanji": "思い出", "hiragana": "おもいで", "romaji": "omoide", "meanings": {"en": "memory, recollection", "id": "kenangan"}},
+        {"id": 22, "kanji": "思いつく", "hiragana": "おもいつく", "romaji": "omoitsuku", "meanings": {"en": "to think of, to come up with", "id": "teringat, terpikir, terbayang"}},
+        {"id": 23, "kanji": "思いやる", "hiragana": "おもいやる", "romaji": "omoiyaru", "meanings": {"en": "to sympathize, to be considerate", "id": "bertenggang rasa, bersimpati, berbelas kasihan"}},
+        {"id": 24, "kanji": "思わず", "hiragana": "おもわず", "romaji": "omowazu", "meanings": {"en": "unintentionally", "id": "tanpa disadari, tidak disengaja"}},
+        {"id": 25, "kanji": "お腹", "hiragana": "おなか", "romaji": "onaka", "meanings": {"en": "stomach", "id": "perut"}},
+        {"id": 26, "kanji": "おなら", "hiragana": "おなら", "romaji": "onara", "meanings": {"en": "fart", "id": "kentut"}},
+        {"id": 27, "kanji": "おんぶ", "hiragana": "おんぶ", "romaji": "onbu", "meanings": {"en": "piggyback", "id": "gendong [di punggung]"}},
+        {"id": 28, "kanji": "温度", "hiragana": "おんど", "romaji": "ondo", "meanings": {"en": "temperature", "id": "temperatur, suhu"}},
+        {"id": 29, "kanji": "お姉さん", "hiragana": "おねえさん", "romaji": "onesan", "meanings": {"en": "older sister (honorific)", "id": "kakak wanita [bentuk hormat, panggilan]"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "R",
+        "en": "R Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "利用", "hiragana": "りよう", "romaji": "riyou", "meanings": {"en": "use, utilization", "id": "penggunaan, pemanfaatan"}},
+        {"id": 2, "kanji": "ロボット", "hiragana": "ロボット", "romaji": "robotto", "meanings": {"en": "robot", "id": "robot (robot)"}},
+        {"id": 3, "kanji": "ロック", "hiragana": "ロック", "romaji": "rokku", "meanings": {"en": "rock (music)", "id": "[musik] rock (rock)"}},
+        {"id": 4, "kanji": "録画", "hiragana": "ろくが", "romaji": "rokuga", "meanings": {"en": "recording (video)", "id": "pembuatan/pengambilan film"}},
+        {"id": 5, "kanji": "ローマ字", "hiragana": "ローマじ", "romaji": "roomaji", "meanings": {"en": "Roman letters, alphabet", "id": "huruf Romawi, alphabet"}},
+        {"id": 6, "kanji": "老人", "hiragana": "ろうじん", "romaji": "roujin", "meanings": {"en": "elderly person", "id": "orang yang sudah tua"}},
+        {"id": 7, "kanji": "廊下", "hiragana": "ろうか", "romaji": "rouka", "meanings": {"en": "corridor, hallway", "id": "koridor, lorong"}},
+        {"id": 8, "kanji": "ルール", "hiragana": "ルール", "romaji": "ruuru", "meanings": {"en": "rule", "id": "peraturan (rule)"}},
+        {"id": 9, "kanji": "旅館", "hiragana": "りょかん", "romaji": "ryokan", "meanings": {"en": "Japanese inn", "id": "rumah penginapan gaya Jepang"}},
+        {"id": 10, "kanji": "量", "hiragana": "りょう", "romaji": "ryou", "meanings": {"en": "amount, quantity", "id": "jumlah, kwantitas"}},
+        {"id": 11, "kanji": "両替", "hiragana": "りょうがえ", "romaji": "ryougae", "meanings": {"en": "money exchange", "id": "penukaran mata uang, konversi"}},
+        {"id": 12, "kanji": "料金", "hiragana": "りょうきん", "romaji": "ryoukin", "meanings": {"en": "fee, charge", "id": "biaya, ongkos, upah [jasa]"}},
+        {"id": 13, "kanji": "漁師", "hiragana": "りょうし", "romaji": "ryoushi", "meanings": {"en": "fisherman", "id": "nelayan"}},
+        {"id": 14, "kanji": "領収書", "hiragana": "りょうしゅうしょ", "romaji": "ryoushuusho", "meanings": {"en": "receipt", "id": "tanda terima, kwitansi"}},
+        {"id": 15, "kanji": "留学", "hiragana": "りゅうがく", "romaji": "ryuugaku", "meanings": {"en": "study abroad", "id": "belajar di luar negeri"}},
+        {"id": 16, "kanji": "流行", "hiragana": "りゅうこう", "romaji": "ryuukou", "meanings": {"en": "trend, fashion", "id": "trend, model, musim, populer."}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "S",
+        "en": "S Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "さびる", "hiragana": "さびる", "romaji": "sabiru", "meanings": {"en": "to rust", "id": "berkarat"}},
+        {"id": 2, "kanji": "サボる", "hiragana": "サボる", "romaji": "saboru", "meanings": {"en": "to skip, to be truant", "id": "bolos, mangkir"}},
+        {"id": 3, "kanji": "下がる", "hiragana": "さがる", "romaji": "sagaru", "meanings": {"en": "to go down, to drop", "id": "turun, menurun"}},
+        {"id": 4, "kanji": "探す", "hiragana": "さがす", "romaji": "sagasu", "meanings": {"en": "to search, to look for", "id": "mencari"}},
+        {"id": 5, "kanji": "下げる", "hiragana": "さげる", "romaji": "sageru", "meanings": {"en": "to lower, to reduce", "id": "menurunkan"}},
+        {"id": 6, "kanji": "サイドミラー", "hiragana": "サイドミラー", "romaji": "saidomiraa", "meanings": {"en": "side mirror", "id": "cermin samping [mobil] (side mirror)"}},
+        {"id": 7, "kanji": "最後", "hiragana": "さいご", "romaji": "saigo", "meanings": {"en": "last, end", "id": "terakhir, penghabisan"}},
+        {"id": 8, "kanji": "祭日", "hiragana": "さいじつ", "romaji": "saijitsu", "meanings": {"en": "holiday, festival day", "id": "hari besar, hari raya"}},
+        {"id": 9, "kanji": "最近", "hiragana": "さいきん", "romaji": "saikin", "meanings": {"en": "recently, lately", "id": "akhir-akhir ini, baru baru ini"}},
+        {"id": 10, "kanji": "最高", "hiragana": "さいこう", "romaji": "saikou", "meanings": {"en": "the best, highest", "id": "tertinggi, terbagus, paling top"}},
+        {"id": 11, "kanji": "サイン", "hiragana": "サイン", "romaji": "sain", "meanings": {"en": "signature, sign", "id": "tanda tangan (sign)"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "M",
+        "en": "M Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "申し込む", "hiragana": "もうしこむ", "romaji": "moushikomu", "meanings": {"en": "to apply, to register", "id": "mendaftar, melamar"}},
+        {"id": 2, "kanji": "申し訳ありません", "hiragana": "もうしわけありません", "romaji": "moushiwakearimasen", "meanings": {"en": "I'm sorry", "id": "mohon maaf"}},
+        {"id": 3, "kanji": "もうすぐ", "hiragana": "もうすぐ", "romaji": "mousugu", "meanings": {"en": "soon", "id": "sudah saatnya"}},
+        {"id": 4, "kanji": "燃やす", "hiragana": "もやす", "romaji": "moyasu", "meanings": {"en": "to burn", "id": "membakar"}},
+        {"id": 5, "kanji": "模様", "hiragana": "もよう", "romaji": "moyou", "meanings": {"en": "pattern, motif", "id": "corak, motif"}},
+        {"id": 6, "kanji": "めちゃくちゃ", "hiragana": "めちゃくちゃ", "romaji": "mechakucha", "meanings": {"en": "messy, chaotic", "id": "kacau, berantakan"}},
+        {"id": 7, "kanji": "夢中", "hiragana": "むちゅう", "romaji": "muchuu", "meanings": {"en": "absorbed, crazy about", "id": "kesiayikan, keranjingan, tergila-gila"}},
+        {"id": 8, "kanji": "無駄", "hiragana": "むだ", "romaji": "muda", "meanings": {"en": "useless, wasteful", "id": "sia-sia, percuma"}},
+        {"id": 9, "kanji": "無駄遣い", "hiragana": "むだづかい", "romaji": "mudazukai", "meanings": {"en": "waste, extravagance", "id": "pemborosan"}},
+        {"id": 10, "kanji": "無地", "hiragana": "むじ", "romaji": "muji", "meanings": {"en": "plain, no pattern", "id": "polos, tanpa corak"}},
+        {"id": 11, "kanji": "迎える", "hiragana": "むかえる", "romaji": "mukaeru", "meanings": {"en": "to welcome, to greet", "id": "menjemput, menyambut"}},
+        {"id": 12, "kanji": "向かい", "hiragana": "むかい", "romaji": "mukai", "meanings": {"en": "opposite, across", "id": "seberang, berseberangan, berlawanan"}},
+        {"id": 13, "kanji": "剥ける", "hiragana": "むける", "romaji": "mukeru", "meanings": {"en": "to peel off", "id": "terkelupas"}},
+        {"id": 14, "kanji": "向く", "hiragana": "むく", "romaji": "muku", "meanings": {"en": "to face, to turn", "id": "menghadap, mengarah, mengarahkan"}},
+        {"id": 15, "kanji": "向く", "hiragana": "むく", "romaji": "muku", "meanings": {"en": "to turn, to suit", "id": "① beralih di sana ② cocok, sesuai"}},
+        {"id": 16, "kanji": "胸", "hiragana": "むね", "romaji": "mune", "meanings": {"en": "chest, breast", "id": "dada, buah dada"}},
+        {"id": 17, "kanji": "無理", "hiragana": "むり", "romaji": "muri", "meanings": {"en": "impossible, unreasonable", "id": "memaksakan, tidak mungkin"}},
+        {"id": 18, "kanji": "無料", "hiragana": "むりょう", "romaji": "muryou", "meanings": {"en": "free of charge", "id": "gratis, cuma-cuma"}},
+        {"id": 19, "kanji": "無責任", "hiragana": "むせきにん", "romaji": "musekinin", "meanings": {"en": "irresponsible", "id": "tidak bertanggung-jawab"}},
+        {"id": 20, "kanji": "無視", "hiragana": "むし", "romaji": "mushi", "meanings": {"en": "ignore", "id": "mengabaikan, tidak memperdulikan, tidak mengacuhkan"}},
+        {"id": 21, "kanji": "蒸し暑い", "hiragana": "むしあつい", "romaji": "mushiatsui", "meanings": {"en": "humid, muggy", "id": "[udara] panas dan lembab, pengap"}},
+        {"id": 22, "kanji": "虫歯", "hiragana": "むしば", "romaji": "mushiba", "meanings": {"en": "cavity, decayed tooth", "id": "gigi berlubang, kerusakan pada gigi"}},
+        {"id": 23, "kanji": "蒸す", "hiragana": "むす", "romaji": "musu", "meanings": {"en": "to steam", "id": "mengukus"}},
+        {"id": 24, "kanji": "結ぶ", "hiragana": "むすぶ", "romaji": "musubu", "meanings": {"en": "to tie, to connect", "id": "menghubungkan, mengikat, menjalin"}},
+        {"id": 25, "kanji": "息子", "hiragana": "むすこ", "romaji": "musuko", "meanings": {"en": "son (my)", "id": "anak laki-laki, putra [saya]"}},
+        {"id": 26, "kanji": "息子さん", "hiragana": "むすこさん", "romaji": "musukosan", "meanings": {"en": "son (other)", "id": "anak laki-laki, putra [orang lain]"}},
+        {"id": 27, "kanji": "娘", "hiragana": "むすめ", "romaji": "musume", "meanings": {"en": "daughter", "id": "anak perempuan, putri [saya]"}}
+      ]
+    }
+  ]
+}

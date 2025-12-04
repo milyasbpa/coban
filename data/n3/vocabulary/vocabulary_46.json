@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "N",
+        "en": "N Section"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "乗り換える", "hiragana": "のりかえる", "romaji": "norikaeru", "meanings": {"en": "to transfer (vehicles)", "id": "menukar, menukar kendaraan"}},
+        {"id": 2, "kanji": "乗り越し", "hiragana": "のりこし", "romaji": "norikoshi", "meanings": {"en": "passing [station]", "id": "lewatnya [stasiun yang dituju]"}},
+        {"id": 3, "kanji": "乗り越す", "hiragana": "のりこす", "romaji": "norikosu", "meanings": {"en": "to pass [station]", "id": "melewati [stasiun yang dituju]"}},
+        {"id": 4, "kanji": "乗り遅れる", "hiragana": "のりおくれる", "romaji": "noriokureru", "meanings": {"en": "to miss [train, etc]", "id": "ketinggalan [kereta, zaman dll.]"}},
+        {"id": 5, "kanji": "乗り過ごす", "hiragana": "のりすごす", "romaji": "norisugosu", "meanings": {"en": "to miss [station]", "id": "lamban"}},
+        {"id": 6, "kanji": "呪い", "hiragana": "のろい", "romaji": "noroi", "meanings": {"en": "curse, slow", "id": "lamban"}},
+        {"id": 7, "kanji": "のろのろ", "hiragana": "のろのろ", "romaji": "noronoro", "meanings": {"en": "slowly, sluggishly", "id": "lamban, berat"}},
+        {"id": 8, "kanji": "載る", "hiragana": "のる", "romaji": "noru", "meanings": {"en": "to be placed on, to appear", "id": "[iklan, artikel] dimuat, dipasang"}},
+        {"id": 9, "kanji": "乗る", "hiragana": "のる", "romaji": "noru", "meanings": {"en": "to ride, to get on", "id": "naik, menumpang [kendaraan]"}},
+        {"id": 10, "kanji": "載せる", "hiragana": "のせる", "romaji": "noseru", "meanings": {"en": "to place on, to load", "id": "memuat, memasang [iklan, artikel]"}},
+        {"id": 11, "kanji": "乗せる", "hiragana": "のせる", "romaji": "noseru", "meanings": {"en": "to give a ride", "id": "menaikkan [kendaraan]"}},
+        {"id": 12, "kanji": "ノートパソコン", "hiragana": "ノートパソコン", "romaji": "nōtopasokon", "meanings": {"en": "laptop", "id": "komputer laptop"}},
+        {"id": 13, "kanji": "望む", "hiragana": "のぞむ", "romaji": "nozomu", "meanings": {"en": "to hope, to wish", "id": "mengharapkan, berharap"}},
+        {"id": 14, "kanji": "剥く", "hiragana": "ぬく", "romaji": "nuku", "meanings": {"en": "to peel, to strip", "id": "mengupas, lepas, rontok"}},
+        {"id": 15, "kanji": "抜く", "hiragana": "ぬく", "romaji": "nuku", "meanings": {"en": "to extract, to remove", "id": "mencabut, melepaskan"}},
+        {"id": 16, "kanji": "濡らす", "hiragana": "ぬらす", "romaji": "nurasu", "meanings": {"en": "to wet, to moisten", "id": "membasahkan"}},
+        {"id": 17, "kanji": "濡れる", "hiragana": "ぬれる", "romaji": "nureru", "meanings": {"en": "to get wet", "id": "basah"}},
+        {"id": 18, "kanji": "塗る", "hiragana": "ぬる", "romaji": "nuru", "meanings": {"en": "to paint, to spread", "id": "mengoleskan, mengecat, melumuri"}},
+        {"id": 19, "kanji": "ぬるい", "hiragana": "ぬるい", "romaji": "nurui", "meanings": {"en": "lukewarm, tepid", "id": "suam-suam, tidak cukup panas, tidak cukup dingin"}},
+        {"id": 20, "kanji": "盗む", "hiragana": "ぬすむ", "romaji": "nusumu", "meanings": {"en": "to steal", "id": "mencuri"}},
+        {"id": 21, "kanji": "ニュース", "hiragana": "ニュース", "romaji": "nyuusu", "meanings": {"en": "news", "id": "kabar, berita, warta (news)"}},
+        {"id": 22, "kanji": "入学", "hiragana": "にゅうがく", "romaji": "nyuugaku", "meanings": {"en": "school admission", "id": "masuk sekolah"}},
+        {"id": 23, "kanji": "入学式", "hiragana": "にゅうがくしき", "romaji": "nyuugakushiki", "meanings": {"en": "school entrance ceremony", "id": "upacara masuk sekolah"}},
+        {"id": 24, "kanji": "入場料", "hiragana": "にゅうじょうりょう", "romaji": "nyuujouryou", "meanings": {"en": "admission fee", "id": "biaya/harga karcis masuk"}},
+        {"id": 25, "kanji": "入国管理局", "hiragana": "にゅうこくかんりきょく", "romaji": "nyuukokukanrikyoku", "meanings": {"en": "immigration office", "id": "imigrasi"}},
+        {"id": 26, "kanji": "入門", "hiragana": "にゅうもん", "romaji": "nyuumon", "meanings": {"en": "introduction, apprenticeship", "id": "pemula"}},
+        {"id": 27, "kanji": "入力", "hiragana": "にゅうりょく", "romaji": "nyuuryoku", "meanings": {"en": "input, entry", "id": "① menyalakan, menghidupkan [mesin] ② memasukkan (data)"}}
+      ]
+    }
+  ]
+}
