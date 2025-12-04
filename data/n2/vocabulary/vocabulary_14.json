@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "INDUSTRI",
+        "en": "INDUSTRY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "農業", "hiragana": "のうぎょう", "romaji": "nougyou", "meanings": {"en": "agriculture industry", "id": "industri pertanian, agraria"}},
+        {"id": 2, "kanji": "林業", "hiragana": "りんぎょう", "romaji": "rin'gyou", "meanings": {"en": "forestry industry", "id": "industri perhutanan"}},
+        {"id": 3, "kanji": "建設業", "hiragana": "けんせつぎょう", "romaji": "kensetsugyou", "meanings": {"en": "construction industry", "id": "industri pembangunan"}},
+        {"id": 4, "kanji": "鉱業", "hiragana": "こうぎょう", "romaji": "kougyou", "meanings": {"en": "mining industry", "id": "industri pertambangan"}},
+        {"id": 5, "kanji": "製造業", "hiragana": "せいぞうぎょう", "romaji": "seizougyou", "meanings": {"en": "manufacturing industry", "id": "industri manufaktur"}},
+        {"id": 6, "kanji": "サービス業", "hiragana": "さーびすぎょう", "romaji": "sābisu gyou", "meanings": {"en": "service industry", "id": "industri hiburan"}},
+        {"id": 7, "kanji": "商業", "hiragana": "しょうぎょう", "romaji": "shougyou", "meanings": {"en": "commerce industry", "id": "industri perdagangan"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "PERUSAHAAN",
+        "en": "COMPANY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "企業", "hiragana": "きぎょう", "romaji": "kigyou", "meanings": {"en": "corporation", "id": "korporasi"}},
+        {"id": 2, "kanji": "営業所", "hiragana": "えいぎょうしょ", "romaji": "eigyousho", "meanings": {"en": "business office", "id": "tempat usaha, kantor"}},
+        {"id": 3, "kanji": "本社", "hiragana": "ほんしゃ", "romaji": "honsha", "meanings": {"en": "head office", "id": "kantor pusat"}},
+        {"id": 4, "kanji": "本店", "hiragana": "ほんてん", "romaji": "honten", "meanings": {"en": "main store", "id": "toko pusat"}},
+        {"id": 5, "kanji": "メーカー", "hiragana": "めーかー", "romaji": "mēkā", "meanings": {"en": "manufacturer", "id": "pabrikan, pemroduksi"}},
+        {"id": 6, "kanji": "支社", "hiragana": "ししゃ", "romaji": "shisha", "meanings": {"en": "branch office", "id": "kantor cabang"}},
+        {"id": 7, "kanji": "支店", "hiragana": "してん", "romaji": "shiten", "meanings": {"en": "branch store", "id": "kantor/toko cabang"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "STRUKTUR ORGANISASI",
+        "en": "ORGANIZATIONAL STRUCTURE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "営業", "hiragana": "えいぎょう", "romaji": "eigyou", "meanings": {"en": "sales", "id": "penjualan, pemasaran"}},
+        {"id": 2, "kanji": "人事", "hiragana": "じんじ", "romaji": "jinji", "meanings": {"en": "personnel", "id": "personalia"}},
+        {"id": 3, "kanji": "経理", "hiragana": "けいり", "romaji": "keiri", "meanings": {"en": "accounting", "id": "akuntansi, pembukuan"}},
+        {"id": 4, "kanji": "企画", "hiragana": "きかく", "romaji": "kikaku", "meanings": {"en": "planning", "id": "perencanaan"}},
+        {"id": 5, "kanji": "広報", "hiragana": "こうほう", "romaji": "kouhou", "meanings": {"en": "public relations", "id": "hubungan masyarakat"}},
+        {"id": 6, "kanji": "総務", "hiragana": "そうむ", "romaji": "soumu", "meanings": {"en": "general affairs", "id": "urusan umum"}}
+      ]
+    }
+  ]
+}

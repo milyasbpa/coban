@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "SAKIT, PENYAKIT",
+        "en": "ILLNESS, DISEASE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "肩がこる", "hiragana": "かたがこる", "romaji": "kata ga koru", "meanings": {"en": "stiff shoulder", "id": "pundak kaku"}},
+        {"id": 2, "kanji": "痒い", "hiragana": "かゆい", "romaji": "kayui", "meanings": {"en": "itchy", "id": "gatal"}},
+        {"id": 3, "kanji": "筋肉が痛い", "hiragana": "きんにくがいたい", "romaji": "kinniku ga itai", "meanings": {"en": "muscle pain", "id": "sakit otot/urat"}},
+        {"id": 4, "kanji": "切り傷", "hiragana": "きりきず", "romaji": "kiri kizu", "meanings": {"en": "cut wound", "id": "luka terpotong"}},
+        {"id": 5, "kanji": "腰が痛い", "hiragana": "こしがいたい", "romaji": "koshi ga itai", "meanings": {"en": "back pain", "id": "sakit pinggang"}},
+        {"id": 6, "kanji": "目が痛い", "hiragana": "めがいたい", "romaji": "me ga itai", "meanings": {"en": "eye pain", "id": "sakit mata"}},
+        {"id": 7, "kanji": "耳鳴りがする", "hiragana": "みみなりがする", "romaji": "miminariga suru", "meanings": {"en": "ringing in ears", "id": "telinga berdengung"}},
+        {"id": 8, "kanji": "むくむ", "hiragana": "むくむ", "romaji": "mukumu", "meanings": {"en": "swollen", "id": "bengkak (karena cairan)"}},
+        {"id": 9, "kanji": "熱がある", "hiragana": "ねつがある", "romaji": "netsu ga aru", "meanings": {"en": "fever", "id": "demam, sakit panas"}},
+        {"id": 10, "kanji": "喉が痛い", "hiragana": "のどがいたい", "romaji": "nodo ga itai", "meanings": {"en": "sore throat", "id": "sakit tenggorokan"}},
+        {"id": 11, "kanji": "擦り傷", "hiragana": "すりきず", "romaji": "suri kizu", "meanings": {"en": "abrasion", "id": "luka goresan, lecet"}},
+        {"id": 12, "kanji": "体調を崩す", "hiragana": "たいちょうをくずす", "romaji": "taichou o kuzusu", "meanings": {"en": "poor health", "id": "keadaan kesehatan memburuk"}},
+        {"id": 13, "kanji": "打ち傷", "hiragana": "うちきず", "romaji": "uchikizu", "meanings": {"en": "bruise", "id": "luka memar"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "RUMAH SAKIT",
+        "en": "HOSPITAL"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "眼科", "hiragana": "がんか", "romaji": "ganka", "meanings": {"en": "ophthalmology", "id": "ilmu kedokteran mata"}},
+        {"id": 2, "kanji": "外科", "hiragana": "げか", "romaji": "geka", "meanings": {"en": "surgery", "id": "ilmu kedokteran bedah"}},
+        {"id": 3, "kanji": "皮膚科", "hiragana": "ひふか", "romaji": "hifuka", "meanings": {"en": "dermatology", "id": "ilmu kedokteran kulit"}},
+        {"id": 4, "kanji": "耳鼻咽喉科", "hiragana": "じびいんこうか", "romaji": "jibi'inkouka", "meanings": {"en": "ENT", "id": "ilmu kedokteran THT"}},
+        {"id": 5, "kanji": "循環器科", "hiragana": "じゅんかんきか", "romaji": "jyunkankika", "meanings": {"en": "cardiology", "id": "ilmu kedokteran kardiovaskuler"}},
+        {"id": 6, "kanji": "内科", "hiragana": "ないか", "romaji": "naika", "meanings": {"en": "internal medicine", "id": "ilmu kedokteran bagian dalam, internis"}},
+        {"id": 7, "kanji": "産婦人科", "hiragana": "さんふじんか", "romaji": "sanfujinka", "meanings": {"en": "obstetrics and gynecology", "id": "ilmu kedokteran penyakit wanita"}},
+        {"id": 8, "kanji": "整形外科", "hiragana": "せいけいげか", "romaji": "seikeigeka", "meanings": {"en": "plastic surgery", "id": "ilmu kedokteran bedah plastik"}},
+        {"id": 9, "kanji": "精神神経科", "hiragana": "せいしんしんけいか", "romaji": "seishinshinkeika", "meanings": {"en": "psychiatry and neurology", "id": "ilmu kedokteran kejiwaan dan saraf"}},
+        {"id": 10, "kanji": "歯科", "hiragana": "しか", "romaji": "shika", "meanings": {"en": "dentistry", "id": "ilmu kedokteran gigi"}},
+        {"id": 11, "kanji": "小児科", "hiragana": "しょうにか", "romaji": "shounika", "meanings": {"en": "pediatrics", "id": "ilmu kedokteran kesehatan anak-anak"}},
+        {"id": 12, "kanji": "東洋医学", "hiragana": "とうよういがく", "romaji": "touyou igaku", "meanings": {"en": "oriental medicine", "id": "ilmu kedokteran timur/oriental"}}
+      ]
+    }
+  ]
+}

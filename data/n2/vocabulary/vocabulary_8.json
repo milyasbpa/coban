@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "WAKTU",
+        "en": "TIME"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "今日", "hiragana": "きょう", "romaji": "kyou", "meanings": {"en": "today (informal)", "id": "hari ini"}},
+        {"id": 2, "kanji": "本日", "hiragana": "ほんじつ", "romaji": "honjitsu", "meanings": {"en": "today (formal)", "id": "hari ini"}},
+        {"id": 3, "kanji": "きのう", "hiragana": "きのう", "romaji": "kinou", "meanings": {"en": "yesterday (informal)", "id": "kemarin"}},
+        {"id": 4, "kanji": "昨日", "hiragana": "さくじつ", "romaji": "sakujitsu", "meanings": {"en": "yesterday (formal)", "id": "kemarin"}},
+        {"id": 5, "kanji": "おととい", "hiragana": "おととい", "romaji": "ototoi", "meanings": {"en": "2 days ago (informal)", "id": "2 hari yang lalu"}},
+        {"id": 6, "kanji": "一昨日", "hiragana": "いっさくじつ", "romaji": "issakujitsu", "meanings": {"en": "2 days ago (formal)", "id": "2 hari yang lalu"}},
+        {"id": 7, "kanji": "あした", "hiragana": "あした", "romaji": "ashita", "meanings": {"en": "tomorrow (informal)", "id": "besok"}},
+        {"id": 8, "kanji": "明日", "hiragana": "みょうにち", "romaji": "myounichi", "meanings": {"en": "tomorrow (formal)", "id": "besok"}},
+        {"id": 9, "kanji": "明後日", "hiragana": "みょうごにち", "romaji": "myougounichi", "meanings": {"en": "day after tomorrow (formal)", "id": "lusa"}},
+        {"id": 10, "kanji": "あさって", "hiragana": "あさって", "romaji": "asatte", "meanings": {"en": "day after tomorrow (informal)", "id": "lusa"}},
+        {"id": 11, "kanji": "前の日", "hiragana": "まえのひ", "romaji": "mae no hi", "meanings": {"en": "previous day (informal)", "id": "sehari sebelumnya"}},
+        {"id": 12, "kanji": "前日", "hiragana": "ぜんじつ", "romaji": "zenjitsu", "meanings": {"en": "previous day (formal)", "id": "sehari sebelumnya"}},
+        {"id": 13, "kanji": "次の日", "hiragana": "つぎのひ", "romaji": "tsugi no hi", "meanings": {"en": "next day (informal)", "id": "hari berikutnya"}},
+        {"id": 14, "kanji": "翌日", "hiragana": "よくじつ", "romaji": "yokujitsu", "meanings": {"en": "next day (formal)", "id": "hari berikutnya"}},
+        {"id": 15, "kanji": "この間", "hiragana": "このあいだ", "romaji": "kono aida", "meanings": {"en": "recently (informal)", "id": "tempo hari"}},
+        {"id": 16, "kanji": "先日", "hiragana": "せんじつ", "romaji": "senjitsu", "meanings": {"en": "recently (formal)", "id": "tempo hari"}},
+        {"id": 17, "kanji": "このごろ", "hiragana": "このごろ", "romaji": "kono goro", "meanings": {"en": "recently (informal)", "id": "akhir-akhir ini"}},
+        {"id": 18, "kanji": "最近", "hiragana": "さいきん", "romaji": "saikin", "meanings": {"en": "recently (formal)", "id": "akhir-akhir ini"}},
+        {"id": 19, "kanji": "これから", "hiragana": "これから", "romaji": "korekara", "meanings": {"en": "from now on (informal)", "id": "selanjutnya, mulai sekarang"}},
+        {"id": 20, "kanji": "今後", "hiragana": "こんご", "romaji": "kon'go", "meanings": {"en": "from now on (formal)", "id": "selanjutnya, mulai sekarang"}},
+        {"id": 21, "kanji": "今年", "hiragana": "ことし", "romaji": "kotoshi", "meanings": {"en": "this year (informal)", "id": "tahun ini"}},
+        {"id": 22, "kanji": "本年", "hiragana": "ほんねん", "romaji": "honnen", "meanings": {"en": "this year (formal)", "id": "tahun ini"}},
+        {"id": 23, "kanji": "去年", "hiragana": "きょねん", "romaji": "kyonen", "meanings": {"en": "last year (informal)", "id": "tahun lalu"}},
+        {"id": 24, "kanji": "昨年", "hiragana": "さくねん", "romaji": "sakunen", "meanings": {"en": "last year (formal)", "id": "tahun lalu"}},
+        {"id": 25, "kanji": "おととし", "hiragana": "おととし", "romaji": "ototoshi", "meanings": {"en": "2 years ago (informal)", "id": "2 tahun yang lalu"}},
+        {"id": 26, "kanji": "一昨年", "hiragana": "いっさくねん", "romaji": "issakunen", "meanings": {"en": "2 years ago (formal)", "id": "2 tahun yang lalu"}},
+        {"id": 27, "kanji": "前の年", "hiragana": "まえのとし", "romaji": "mae no toshi", "meanings": {"en": "previous year (informal)", "id": "tahun sebelumnya"}},
+        {"id": 28, "kanji": "前年", "hiragana": "ぜんねん", "romaji": "zennen", "meanings": {"en": "previous year (formal)", "id": "tahun sebelumnya"}},
+        {"id": 29, "kanji": "次の年", "hiragana": "つぎのとし", "romaji": "tsugi no toshi", "meanings": {"en": "next year (informal)", "id": "tahun berikutnya"}},
+        {"id": 30, "kanji": "翌年", "hiragana": "よくねん", "romaji": "yokunen", "meanings": {"en": "next year (formal)", "id": "tahun berikutnya"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATAKANA",
+        "en": "KATAKANA"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "リズム", "hiragana": "りずむ", "romaji": "rizumu", "meanings": {"en": "rhythm", "id": "irama, ritme"}},
+        {"id": 2, "kanji": "ロマンチック", "hiragana": "ろまんちっく", "romaji": "romanchikku", "meanings": {"en": "romantic", "id": "romantis"}},
+        {"id": 3, "kanji": "ルーズ", "hiragana": "るーず", "romaji": "rūzu", "meanings": {"en": "loose", "id": "longgar"}},
+        {"id": 4, "kanji": "サービス", "hiragana": "さーびす", "romaji": "sābisu", "meanings": {"en": "service", "id": "pelayanan, servis"}},
+        {"id": 5, "kanji": "サイン", "hiragana": "さいん", "romaji": "sain", "meanings": {"en": "sign", "id": "tanda, tanda tangan, sinus"}},
+        {"id": 6, "kanji": "サイレン", "hiragana": "さいれん", "romaji": "sairen", "meanings": {"en": "siren", "id": "sirene"}},
+        {"id": 7, "kanji": "サークル", "hiragana": "さーくる", "romaji": "sākuru", "meanings": {"en": "circle", "id": "perkumpulan, kelompok"}},
+        {"id": 8, "kanji": "サンプル", "hiragana": "さんぷる", "romaji": "sanpuru", "meanings": {"en": "sample", "id": "contoh, sampel"}},
+        {"id": 9, "kanji": "センス", "hiragana": "せんす", "romaji": "sensu", "meanings": {"en": "sense", "id": "cita rasa"}},
+        {"id": 10, "kanji": "センター", "hiragana": "せんたー", "romaji": "sentā", "meanings": {"en": "center", "id": "pusat, sentra"}},
+        {"id": 11, "kanji": "システム", "hiragana": "しすてむ", "romaji": "shisutemu", "meanings": {"en": "system", "id": "sistem"}},
+        {"id": 12, "kanji": "シリーズ", "hiragana": "しりーず", "romaji": "shirīzu", "meanings": {"en": "series", "id": "rangkaian, seri"}},
+        {"id": 13, "kanji": "シーズン", "hiragana": "しーずん", "romaji": "shīzun", "meanings": {"en": "season", "id": "musim"}},
+        {"id": 14, "kanji": "スペース", "hiragana": "すぺーす", "romaji": "supēsu", "meanings": {"en": "space", "id": "tempat, ruang, luar angkasa"}},
+        {"id": 15, "kanji": "スター", "hiragana": "すたー", "romaji": "sutā", "meanings": {"en": "star", "id": "bintang"}},
+        {"id": 16, "kanji": "スタイル", "hiragana": "すたいる", "romaji": "sutairu", "meanings": {"en": "style", "id": "gaya, model, potongan"}},
+        {"id": 17, "kanji": "ストップ", "hiragana": "すとっぷ", "romaji": "sutoppu", "meanings": {"en": "stop", "id": "berhenti, stop"}},
+        {"id": 18, "kanji": "トップ", "hiragana": "とっぷ", "romaji": "toppu", "meanings": {"en": "top", "id": "teratas, tertinggi"}},
+        {"id": 19, "kanji": "トラブル", "hiragana": "とらぶる", "romaji": "toraburu", "meanings": {"en": "trouble", "id": "masalah, kerusakan"}},
+        {"id": 20, "kanji": "ウエスト", "hiragana": "うえすと", "romaji": "uesuto", "meanings": {"en": "waist", "id": "pinggang, sia-sia"}},
+        {"id": 21, "kanji": "ウィークデー", "hiragana": "うぃーくでー", "romaji": "uīkudē", "meanings": {"en": "weekday", "id": "hari kerja"}},
+        {"id": 22, "kanji": "ユニーク", "hiragana": "ゆにーく", "romaji": "yunīku", "meanings": {"en": "unique", "id": "unik"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "CUACA",
+        "en": "WEATHER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "晴れ", "hiragana": "はれ", "romaji": "hare", "meanings": {"en": "clear weather", "id": "cuaca cerah"}},
+        {"id": 2, "kanji": "快晴", "hiragana": "かいせい", "romaji": "kaisei", "meanings": {"en": "clear weather", "id": "cuaca cerah"}},
+        {"id": 3, "kanji": "晴天", "hiragana": "せいてん", "romaji": "seiten", "meanings": {"en": "blue sky, clear", "id": "langit biru, cerah"}}
+      ]
+    }
+  ]
+}

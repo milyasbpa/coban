@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATAKANA",
+        "en": "KATAKANA"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "キャラクター", "hiragana": "きゃらくたー", "romaji": "kyarakutā", "meanings": {"en": "character", "id": "karakter"}},
+        {"id": 2, "kanji": "キャリア", "hiragana": "きゃりあ", "romaji": "kyaria", "meanings": {"en": "career", "id": "karier"}},
+        {"id": 3, "kanji": "キャッシュ", "hiragana": "きゃっしゅ", "romaji": "kyasshu", "meanings": {"en": "cash", "id": "uang tunai"}},
+        {"id": 4, "kanji": "マーク", "hiragana": "まーく", "romaji": "māku", "meanings": {"en": "mark", "id": "tanda, bekas"}},
+        {"id": 5, "kanji": "マスター", "hiragana": "ますたー", "romaji": "masutā", "meanings": {"en": "master", "id": "1. majikan 2. jenjang S2"}},
+        {"id": 6, "kanji": "メディア", "hiragana": "めでぃあ", "romaji": "media", "meanings": {"en": "media", "id": "media"}},
+        {"id": 7, "kanji": "メーカー", "hiragana": "めーかー", "romaji": "mēkā", "meanings": {"en": "maker", "id": "pabrik, pembuat"}},
+        {"id": 8, "kanji": "メモ", "hiragana": "めも", "romaji": "memo", "meanings": {"en": "memo", "id": "memo"}},
+        {"id": 9, "kanji": "メーター", "hiragana": "めーたー", "romaji": "mētā", "meanings": {"en": "meter", "id": "meter"}},
+        {"id": 10, "kanji": "モデル", "hiragana": "もでる", "romaji": "moderu", "meanings": {"en": "model", "id": "1. peragawati 2. contoh"}},
+        {"id": 11, "kanji": "モニター", "hiragana": "もにたー", "romaji": "monitā", "meanings": {"en": "monitor", "id": "pemantau, monitor"}},
+        {"id": 12, "kanji": "オーバー", "hiragana": "おーばー", "romaji": "ōbā", "meanings": {"en": "over", "id": "1. baju dingin (overcoat) 2. berlebihan"}},
+        {"id": 13, "kanji": "オープン", "hiragana": "おーぷん", "romaji": "ōpun", "meanings": {"en": "open", "id": "buka"}},
+        {"id": 14, "kanji": "オリエンテーション", "hiragana": "おりえんてーしょん", "romaji": "orientēshon", "meanings": {"en": "orientation", "id": "orientasi"}},
+        {"id": 15, "kanji": "パス", "hiragana": "ぱす", "romaji": "pasu", "meanings": {"en": "pass", "id": "1. tiket 2. lulus 3. lewat"}},
+        {"id": 16, "kanji": "パターン", "hiragana": "ぱたーん", "romaji": "patān", "meanings": {"en": "pattern", "id": "pola, bentuk"}},
+        {"id": 17, "kanji": "ペア", "hiragana": "ぺあ", "romaji": "pea", "meanings": {"en": "pair", "id": "pasangan"}},
+        {"id": 18, "kanji": "ポイント", "hiragana": "ぽいんと", "romaji": "pointo", "meanings": {"en": "point", "id": "1. nilai 2. titik 3. inti persoalan"}},
+        {"id": 19, "kanji": "プラン", "hiragana": "ぷらん", "romaji": "puran", "meanings": {"en": "plan", "id": "rencana, rancangan"}},
+        {"id": 20, "kanji": "プレッシャー", "hiragana": "ぷれっしゃー", "romaji": "puresshā", "meanings": {"en": "pressure", "id": "tekanan"}},
+        {"id": 21, "kanji": "プログラム", "hiragana": "ぷろぐらむ", "romaji": "puroguramu", "meanings": {"en": "program", "id": "acara, rencana, program"}},
+        {"id": 22, "kanji": "レギュラー", "hiragana": "れぎゅらー", "romaji": "regyurā", "meanings": {"en": "regular", "id": "umum, biasa, reguler"}},
+        {"id": 23, "kanji": "レジャー", "hiragana": "れじゃー", "romaji": "rejā", "meanings": {"en": "leisure", "id": "waktu luang, rekreasi"}},
+        {"id": 24, "kanji": "レクリエーション", "hiragana": "れくりえーしょん", "romaji": "rekuriēshon", "meanings": {"en": "recreation", "id": "rekreasi"}},
+        {"id": 25, "kanji": "レッスン", "hiragana": "れっすん", "romaji": "ressun", "meanings": {"en": "lesson", "id": "pelajaran"}},
+        {"id": 26, "kanji": "レース", "hiragana": "れーす", "romaji": "rēsu", "meanings": {"en": "race", "id": "1. balap 2. ras, suku 3. renda"}},
+        {"id": 27, "kanji": "リード", "hiragana": "りーど", "romaji": "rīdo", "meanings": {"en": "lead", "id": "memimpin"}},
+        {"id": 28, "kanji": "リハビリ", "hiragana": "りはびり", "romaji": "rihabiri", "meanings": {"en": "rehabilitation", "id": "rehabilitasi"}},
+        {"id": 29, "kanji": "リハビリテーション", "hiragana": "りはびりてーしょん", "romaji": "rihabiriteshon", "meanings": {"en": "rehabilitation", "id": "rehabilitasi"}}
+      ]
+    }
+  ]
+}

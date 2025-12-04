@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "SIFAT, WATAK",
+        "en": "CHARACTER, TRAIT"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "明るい", "hiragana": "あかるい", "romaji": "akarui", "meanings": {"en": "bright", "id": "cerah"}},
+        {"id": 2, "kanji": "飽きっぽい", "hiragana": "あきっぽい", "romaji": "akippoi", "meanings": {"en": "easily bored", "id": "mudah bosan"}},
+        {"id": 3, "kanji": "だらしない", "hiragana": "だらしない", "romaji": "darashinai", "meanings": {"en": "sloppy", "id": "ceroboh, berantakan, tidak teratur"}},
+        {"id": 4, "kanji": "八方美人", "hiragana": "はっぽうびじん", "romaji": "happoubijin", "meanings": {"en": "people pleaser", "id": "wanita cantik yg baik terhadap siapa saja"}},
+        {"id": 5, "kanji": "いい加減な", "hiragana": "いいかげんな", "romaji": "iikagen na", "meanings": {"en": "irresponsible", "id": "sembarangan, asal-asalan"}},
+        {"id": 6, "kanji": "自由奔放な", "hiragana": "じゆうほんぽうな", "romaji": "jiyuu honpou na", "meanings": {"en": "free-spirited", "id": "bebas, tidak terikat"}},
+        {"id": 7, "kanji": "けち", "hiragana": "けち", "romaji": "kechi", "meanings": {"en": "stingy", "id": "kikir, pelit"}},
+        {"id": 8, "kanji": "謙虚な", "hiragana": "けんきょな", "romaji": "kenkyo na", "meanings": {"en": "humble", "id": "rendah hati, sederhana"}},
+        {"id": 9, "kanji": "几帳面な", "hiragana": "きちょうめんな", "romaji": "kichoumen na", "meanings": {"en": "methodical", "id": "teratur, sistematis"}},
+        {"id": 10, "kanji": "好奇心が強い", "hiragana": "こうきしんがつよい", "romaji": "koukishin ga tsuyoi", "meanings": {"en": "curious", "id": "rasa ingin tahu yang kuat"}},
+        {"id": 11, "kanji": "暗い", "hiragana": "くらい", "romaji": "kurai", "meanings": {"en": "gloomy", "id": "murung, sendu, gelap"}},
+        {"id": 12, "kanji": "協調性がある", "hiragana": "きょうちょうせいがある", "romaji": "kyouchousei ga aru", "meanings": {"en": "cooperative", "id": "kooperatif, bisa bekerja-sama"}},
+        {"id": 13, "kanji": "無口な", "hiragana": "むくちな", "romaji": "mukuchi na", "meanings": {"en": "taciturn", "id": "pendiam"}},
+        {"id": 14, "kanji": "粘り強い", "hiragana": "ねばりづよい", "romaji": "nebarizuyoi", "meanings": {"en": "persistent", "id": "tekun, tidak mudah menyerah"}},
+        {"id": 15, "kanji": "のんびりした", "hiragana": "のんびりした", "romaji": "nonbiri shita", "meanings": {"en": "easygoing", "id": "santai"}},
+        {"id": 16, "kanji": "思いやりがある", "hiragana": "おもいやりがある", "romaji": "omoiyari ga aru", "meanings": {"en": "considerate", "id": "pengertian, simpati, teggang rasa"}},
+        {"id": 17, "kanji": "おおらかな", "hiragana": "おおらかな", "romaji": "ooraka na", "meanings": {"en": "generous", "id": "murah hati, toleran, bijaksana"}},
+        {"id": 18, "kanji": "さっぱりした", "hiragana": "さっぱりした", "romaji": "sappari shita", "meanings": {"en": "refreshing", "id": "segar, bersih"}},
+        {"id": 19, "kanji": "せっかちな", "hiragana": "せっかちな", "romaji": "sekkachi na", "meanings": {"en": "impatient", "id": "terburu-buru, tidak sabar, gegabah"}},
+        {"id": 20, "kanji": "積極的な", "hiragana": "せっきょくてきな", "romaji": "sekkyokuteki na", "meanings": {"en": "active", "id": "aktif, agresif, ambisius"}},
+        {"id": 21, "kanji": "社交的な", "hiragana": "しゃこうてきな", "romaji": "shakouteki na", "meanings": {"en": "sociable", "id": "senang bergaul, suka bersosialisasi"}},
+        {"id": 22, "kanji": "慎重な", "hiragana": "しんちょうな", "romaji": "shinchou na", "meanings": {"en": "careful", "id": "hati-hati, penuh pertimbangan"}},
+        {"id": 23, "kanji": "真実な", "hiragana": "しんじつな", "romaji": "shinjitsu na", "meanings": {"en": "truthful", "id": "jujur, lurus"}},
+        {"id": 24, "kanji": "神経質な", "hiragana": "しんけいしつな", "romaji": "shinkeishitsu na", "meanings": {"en": "nervous", "id": "tegang, temperamental"}},
+        {"id": 25, "kanji": "そそっかしい", "hiragana": "そそっかしい", "romaji": "sosokkashii", "meanings": {"en": "careless", "id": "ceroboh, lengah"}},
+        {"id": 26, "kanji": "素直な", "hiragana": "すなおな", "romaji": "sunao na", "meanings": {"en": "honest", "id": "terus terang, jujur, apa adanya"}},
+        {"id": 27, "kanji": "冷たい", "hiragana": "つめたい", "romaji": "tsumetai", "meanings": {"en": "cold", "id": "dingin, tidak berperasaan"}}
+      ]
+    }
+  ]
+}

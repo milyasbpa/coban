@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "OBAT-OBATAN",
+        "en": "MEDICINE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "鎮痛剤", "hiragana": "ちんつうざい", "romaji": "chintsuzai", "meanings": {"en": "painkiller", "id": "obat penawar rasa sakit"}},
+        {"id": 2, "kanji": "解熱剤", "hiragana": "げねつざい", "romaji": "genetsuzai", "meanings": {"en": "antipyretic", "id": "obat turun panas"}},
+        {"id": 3, "kanji": "胃腸薬", "hiragana": "いちょうやく", "romaji": "ichouyaku", "meanings": {"en": "stomach/intestinal medicine", "id": "obat lambung dan usus, obat pencernaan"}},
+        {"id": 4, "kanji": "錠剤", "hiragana": "じょうざい", "romaji": "jyouzai", "meanings": {"en": "tablet", "id": "obat berbentuk tablet"}},
+        {"id": 5, "kanji": "漢方薬", "hiragana": "かんぽうやく", "romaji": "kanpouyaku", "meanings": {"en": "herbal medicine", "id": "obat/jamu ramuan herbal (China)"}},
+        {"id": 6, "kanji": "カプセル", "hiragana": "かぷせる", "romaji": "kapuseru", "meanings": {"en": "capsule", "id": "kapsul"}},
+        {"id": 7, "kanji": "風邪薬", "hiragana": "かぜぐすり", "romaji": "kaze gusuri", "meanings": {"en": "cold medicine", "id": "obat influenza"}},
+        {"id": 8, "kanji": "傷テープ", "hiragana": "きずてーぷ", "romaji": "kizu tēpu", "meanings": {"en": "plaster", "id": "plaster obat"}},
+        {"id": 9, "kanji": "粉薬", "hiragana": "こなぐすり", "romaji": "konagusuri", "meanings": {"en": "powder medicine", "id": "obat bubuk"}},
+        {"id": 10, "kanji": "マスク", "hiragana": "ますく", "romaji": "masuku", "meanings": {"en": "mask", "id": "masker"}},
+        {"id": 11, "kanji": "目薬", "hiragana": "めぐすり", "romaji": "megusuri", "meanings": {"en": "eye drops", "id": "obat mata"}},
+        {"id": 12, "kanji": "塗り薬", "hiragana": "ぬりぐすり", "romaji": "nurigusuri", "meanings": {"en": "ointment", "id": "obat oles, salep"}},
+        {"id": 13, "kanji": "湿布", "hiragana": "しっぷ", "romaji": "shippu", "meanings": {"en": "compress", "id": "kompres dingin/panas"}},
+        {"id": 14, "kanji": "座薬", "hiragana": "ざやく", "romaji": "zayaku", "meanings": {"en": "suppository", "id": "supositoria, obat melalui dubur"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "ORGAN MANUSIA",
+        "en": "HUMAN ORGAN"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "脳", "hiragana": "のう", "romaji": "nou", "meanings": {"en": "brain", "id": "otak"}},
+        {"id": 2, "kanji": "気管", "hiragana": "きかん", "romaji": "kikan", "meanings": {"en": "trachea", "id": "saluran pernafasan"}},
+        {"id": 3, "kanji": "肺", "hiragana": "はい", "romaji": "hai", "meanings": {"en": "lung", "id": "paru-paru"}},
+        {"id": 4, "kanji": "胃", "hiragana": "い", "romaji": "i", "meanings": {"en": "stomach", "id": "lambung"}},
+        {"id": 5, "kanji": "心臓", "hiragana": "しんぞう", "romaji": "shinzou", "meanings": {"en": "heart", "id": "jantung"}},
+        {"id": 6, "kanji": "大腸", "hiragana": "だいちょう", "romaji": "daichou", "meanings": {"en": "large intestine", "id": "usus besar"}},
+        {"id": 7, "kanji": "小腸", "hiragana": "しょうちょう", "romaji": "shouchou", "meanings": {"en": "small intestine", "id": "usus halus"}},
+        {"id": 8, "kanji": "腎臓", "hiragana": "じんぞう", "romaji": "jinzou", "meanings": {"en": "kidney", "id": "ginjal"}},
+        {"id": 9, "kanji": "肝臓", "hiragana": "かんぞう", "romaji": "kanzou", "meanings": {"en": "liver", "id": "hati, liver"}},
+        {"id": 10, "kanji": "膵臓", "hiragana": "すいぞう", "romaji": "suizou", "meanings": {"en": "pancreas", "id": "pankreas"}}
+      ]
+    }
+  ]
+}

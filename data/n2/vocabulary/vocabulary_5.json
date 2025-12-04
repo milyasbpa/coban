@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "CUACA",
+        "en": "WEATHER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "曇り", "hiragana": "くもり", "romaji": "kumori", "meanings": {"en": "cloudy", "id": "berawan"}},
+        {"id": 2, "kanji": "雲霧", "hiragana": "くもきり", "romaji": "kumokiri", "meanings": {"en": "cloud and fog", "id": "awan dan kabut"}},
+        {"id": 3, "kanji": "稲妻", "hiragana": "いなずま", "romaji": "inazuma", "meanings": {"en": "lightning", "id": "cahaya kilat"}},
+        {"id": 4, "kanji": "雷", "hiragana": "かみなり", "romaji": "kaminari", "meanings": {"en": "thunder", "id": "guntur, guruh, kilat"}},
+        {"id": 5, "kanji": "風", "hiragana": "かぜ", "romaji": "kaze", "meanings": {"en": "wind", "id": "angin"}},
+        {"id": 6, "kanji": "大風", "hiragana": "おおかぜ", "romaji": "ookaze", "meanings": {"en": "strong wind", "id": "angin besar"}},
+        {"id": 7, "kanji": "嵐", "hiragana": "あらし", "romaji": "arashi", "meanings": {"en": "storm", "id": "angin topan, angin ribut, badai"}},
+        {"id": 8, "kanji": "春一番", "hiragana": "はるいちばん", "romaji": "haru ichiban", "meanings": {"en": "first strong wind of spring", "id": "angin kencang pertama di musim semi"}},
+        {"id": 9, "kanji": "季節風", "hiragana": "きせつふう", "romaji": "kisetsufuu", "meanings": {"en": "seasonal wind", "id": "angin musiman"}},
+        {"id": 10, "kanji": "木枯らし", "hiragana": "こがらし", "romaji": "kogarashi", "meanings": {"en": "cold wintry wind", "id": "angin dingin di awal musim dingin"}},
+        {"id": 11, "kanji": "台風", "hiragana": "たいふう", "romaji": "taifuu", "meanings": {"en": "typhoon", "id": "angin topan, angin puyuh"}},
+        {"id": 12, "kanji": "雨", "hiragana": "あめ", "romaji": "ame", "meanings": {"en": "rain", "id": "hujan"}},
+        {"id": 13, "kanji": "大雨", "hiragana": "おおあめ", "romaji": "ooame", "meanings": {"en": "heavy rain", "id": "hujan lebat"}},
+        {"id": 14, "kanji": "にわか雨", "hiragana": "にわかあめ", "romaji": "niwaka ame", "meanings": {"en": "sudden rain", "id": "hujan yang tiba-tiba turun dan berhenti"}},
+        {"id": 15, "kanji": "雨天", "hiragana": "うてん", "romaji": "uten", "meanings": {"en": "rainy weather", "id": "cuaca hujan"}},
+        {"id": 16, "kanji": "夕立", "hiragana": "ゆうだち", "romaji": "yuudachi", "meanings": {"en": "evening thunderstorm", "id": "hujan guntur di sore hari"}},
+        {"id": 17, "kanji": "雷雨", "hiragana": "らいう", "romaji": "rai'u", "meanings": {"en": "thunderstorm", "id": "hujan guntur"}},
+        {"id": 18, "kanji": "霧", "hiragana": "きり", "romaji": "kiri", "meanings": {"en": "fog", "id": "kabut, embun"}},
+        {"id": 19, "kanji": "霧雨", "hiragana": "きりさめ", "romaji": "kirisame", "meanings": {"en": "drizzle", "id": "gerimis halus yang seperti kabut"}},
+        {"id": 20, "kanji": "霜", "hiragana": "しも", "romaji": "shimo", "meanings": {"en": "frost", "id": "embun beku"}},
+        {"id": 21, "kanji": "霜柱", "hiragana": "しもばしら", "romaji": "shimobashira", "meanings": {"en": "frost column", "id": "gumpalan embun beku berbentuk tiang"}},
+        {"id": 22, "kanji": "霜星", "hiragana": "しもだたみ", "romaji": "shimodatami", "meanings": {"en": "ground frost", "id": "embun beku yg menutupi permukaan tanah"}},
+        {"id": 23, "kanji": "稲霧", "hiragana": "しもぐもり", "romaji": "shimogumori", "meanings": {"en": "foggy night", "id": "malam yang mendung dan berembun"}},
+        {"id": 24, "kanji": "雪", "hiragana": "ゆき", "romaji": "yuki", "meanings": {"en": "snow", "id": "salju"}},
+        {"id": 25, "kanji": "大雪", "hiragana": "おおゆき", "romaji": "ouyuki", "meanings": {"en": "heavy snow", "id": "hujan salju yang deras"}},
+        {"id": 26, "kanji": "吹雪", "hiragana": "ふぶき", "romaji": "fubuki", "meanings": {"en": "snowstorm", "id": "badai salju"}},
+        {"id": 27, "kanji": "雹", "hiragana": "ひょう", "romaji": "hyou", "meanings": {"en": "hail", "id": "hujan es batu"}}
+      ]
+    }
+  ]
+}

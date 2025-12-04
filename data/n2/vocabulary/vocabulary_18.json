@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "TANDA, SIMBOL",
+        "en": "SIGN, SYMBOL"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "米印", "hiragana": "こめじるし", "romaji": "kome jirushi", "meanings": {"en": "rice mark", "id": "tanda beras ※"}},
+        {"id": 2, "kanji": "矢印", "hiragana": "やじるし", "romaji": "yajirushi", "meanings": {"en": "arrow mark", "id": "tanda panah → ↓ ↑ ←"}},
+        {"id": 3, "kanji": "ばつ", "hiragana": "ばつ", "romaji": "batsu", "meanings": {"en": "cross mark", "id": "tanda silang, tanda salah ×"}},
+        {"id": 4, "kanji": "疑問符/クエスチョンマーク", "hiragana": "ぎもんふ/くえすちょんまーく", "romaji": "gimonfu/kuesuchon māku", "meanings": {"en": "question mark", "id": "tanda tanya ?"}},
+        {"id": 5, "kanji": "感嘆符", "hiragana": "かんたんふ", "romaji": "kantanfu", "meanings": {"en": "exclamation mark", "id": "tanda seru !"}},
+        {"id": 6, "kanji": "丸", "hiragana": "まる", "romaji": "maru", "meanings": {"en": "dot", "id": "titik ."}},
+        {"id": 7, "kanji": "点", "hiragana": "てん", "romaji": "ten", "meanings": {"en": "circle mark", "id": "tanda bulatan, tanda betul ○"}},
+        {"id": 8, "kanji": "読点", "hiragana": "とうてん", "romaji": "touten", "meanings": {"en": "comma", "id": "tanda koma 、"}},
+        {"id": 9, "kanji": "括弧", "hiragana": "かっこ", "romaji": "kakko", "meanings": {"en": "parentheses", "id": "tanda kurung () [] {} <>"}},
+        {"id": 10, "kanji": "二重括弧", "hiragana": "にじゅうかっこ", "romaji": "nijyuu kagikakko", "meanings": {"en": "double quotation mark", "id": "tanda petik 「」"}},
+        {"id": 11, "kanji": "二重鉤括弧", "hiragana": "にじゅうかぎかっこ", "romaji": "nijyuu kagikakko", "meanings": {"en": "double angle quotation mark", "id": "tanda petik ganda 『』"}},
+        {"id": 12, "kanji": "下線/アンダーライン", "hiragana": "かせん/あんだーらいん", "romaji": "kasen/andara in", "meanings": {"en": "underline", "id": "garis bawah"}},
+        {"id": 13, "kanji": "波線", "hiragana": "なみせん", "romaji": "namisen", "meanings": {"en": "wavy line", "id": "garis gelombang"}},
+        {"id": 14, "kanji": "二重線", "hiragana": "にじゅうせん", "romaji": "nijyuusen", "meanings": {"en": "double line", "id": "garis bawah ganda"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA INFORMAL & FORMAL",
+        "en": "INFORMAL & FORMAL WORDS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "開けっ放し", "hiragana": "あけっぱなし", "romaji": "akeppanashi", "meanings": {"en": "open (informal)", "id": "(sifat) terbuka"}},
+        {"id": 2, "kanji": "開放", "hiragana": "かいほう", "romaji": "kaihou", "meanings": {"en": "open (formal)", "id": "(sifat) terbuka"}},
+        {"id": 3, "kanji": "跡を追う", "hiragana": "あとをおう", "romaji": "ato o ou", "meanings": {"en": "chase (informal)", "id": "melacak, memburu"}},
+        {"id": 4, "kanji": "追跡する", "hiragana": "ついせきする", "romaji": "tsuiseki suru", "meanings": {"en": "chase (formal)", "id": "melacak, memburu"}},
+        {"id": 5, "kanji": "絵", "hiragana": "え", "romaji": "e", "meanings": {"en": "picture (informal)", "id": "lukisan, gambar"}},
+        {"id": 6, "kanji": "絵画", "hiragana": "かいが", "romaji": "kaiga", "meanings": {"en": "picture (formal)", "id": "lukisan, gambar"}},
+        {"id": 7, "kanji": "本を読むこと", "hiragana": "ほんをよむこと", "romaji": "hon o yomu koto", "meanings": {"en": "read book (informal)", "id": "baca buku"}},
+        {"id": 8, "kanji": "読書", "hiragana": "どくしょ", "romaji": "dokusho", "meanings": {"en": "read book (formal)", "id": "baca buku"}},
+        {"id": 9, "kanji": "入れ物", "hiragana": "いれもの", "romaji": "iremono", "meanings": {"en": "container (informal)", "id": "wadah"}},
+        {"id": 10, "kanji": "容器", "hiragana": "ようき", "romaji": "youki", "meanings": {"en": "container (formal)", "id": "wadah"}},
+        {"id": 11, "kanji": "会を開く", "hiragana": "かいをひらく", "romaji": "kai o hiraku", "meanings": {"en": "hold meeting (informal)", "id": "mengadakan"}},
+        {"id": 12, "kanji": "開催する", "hiragana": "かいさいする", "romaji": "kaisai suru", "meanings": {"en": "hold meeting (formal)", "id": "mengadakan"}},
+        {"id": 13, "kanji": "決める", "hiragana": "きめる", "romaji": "kimeru", "meanings": {"en": "decide (informal)", "id": "menetapkan, memutuskan"}},
+        {"id": 14, "kanji": "決定する", "hiragana": "けっていする", "romaji": "kettei suru", "meanings": {"en": "decide (formal)", "id": "menetapkan, memutuskan"}},
+        {"id": 15, "kanji": "育児", "hiragana": "いくじ", "romaji": "ikuji", "meanings": {"en": "childcare", "id": "merawat anak"}},
+        {"id": 16, "kanji": "子育て", "hiragana": "こそだて", "romaji": "kosodate", "meanings": {"en": "childcare", "id": "merawat anak"}},
+        {"id": 17, "kanji": "果実", "hiragana": "かじつ", "romaji": "kajitsu", "meanings": {"en": "fruit (formal)", "id": "buah buahan"}},
+        {"id": 18, "kanji": "果物", "hiragana": "くだもの", "romaji": "kudamono", "meanings": {"en": "fruit (informal)", "id": "buah buahan"}},
+        {"id": 19, "kanji": "国家", "hiragana": "こっか", "romaji": "kokka", "meanings": {"en": "country (formal)", "id": "negara"}},
+        {"id": 20, "kanji": "国", "hiragana": "くに", "romaji": "kuni", "meanings": {"en": "country (informal)", "id": "negara"}}
+      ]
+    }
+  ]
+}

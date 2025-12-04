@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "MASALAH LINGKUNGAN",
+        "en": "ENVIRONMENTAL ISSUES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "地球温暖化",
+          "hiragana": "ちきゅうおんだんか",
+          "romaji": "chikyuu ondanka",
+          "meanings": {"en": "global warming", "id": "pemanasan global"}
+        },
+        {
+          "id": 2,
+          "kanji": "暖冬",
+          "hiragana": "だんとう",
+          "romaji": "dantou",
+          "meanings": {"en": "warm winter", "id": "musim dingin yang hangat"}
+        },
+        {
+          "id": 3,
+          "kanji": "土壌汚染",
+          "hiragana": "どじょうおせん",
+          "romaji": "dojyou osen",
+          "meanings": {"en": "soil contamination", "id": "kontaminasi tanah"}
+        },
+        {
+          "id": 4,
+          "kanji": "エコ/エコロジー",
+          "hiragana": "えこ/えころじー",
+          "romaji": "eko/ekorojii",
+          "meanings": {"en": "ecology", "id": "ekologi"}
+        },
+        {
+          "id": 5,
+          "kanji": "フロンガス",
+          "hiragana": "ふろんがす",
+          "romaji": "furon gasu",
+          "meanings": {"en": "freon gas", "id": "gas freon"}
+        },
+        {
+          "id": 6,
+          "kanji": "ごみ分別",
+          "hiragana": "ごみぶんべつ",
+          "romaji": "gomi bunbetsu",
+          "meanings": {"en": "waste separation", "id": "penggolongan sampah/limbah"}
+        },
+        {
+          "id": 7,
+          "kanji": "ごみ問題",
+          "hiragana": "ごみもんだい",
+          "romaji": "gomi mondai",
+          "meanings": {"en": "waste problem", "id": "masalah sampah"}
+        },
+        {
+          "id": 8,
+          "kanji": "排気ガス",
+          "hiragana": "はいきがす",
+          "romaji": "haiki gasu",
+          "meanings": {"en": "exhaust gas", "id": "gas pembuangan"}
+        },
+        {
+          "id": 9,
+          "kanji": "異常気象",
+          "hiragana": "いじょうきしょう",
+          "romaji": "ijyou kishou",
+          "meanings": {"en": "abnormal weather", "id": "cuaca abnormal"}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "MASALAH LINGKUNGAN",
+        "en": "ENVIRONMENTAL ISSUES"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "異臭", "hiragana": "いしゅう", "romaji": "ishuu", "meanings": {"en": "strange odor", "id": "bau aneh"}},
+        {"id": 2, "kanji": "地盤沈下", "hiragana": "じばんちんか", "romaji": "jiban chinka", "meanings": {"en": "ground subsidence", "id": "fondasi turun"}},
+        {"id": 3, "kanji": "海面上昇", "hiragana": "かいめんじょうしょう", "romaji": "kaimen jyoushou", "meanings": {"en": "sea level rise", "id": "permukaan air laut naik"}},
+        {"id": 4, "kanji": "環境保護", "hiragana": "かんきょうほご", "romaji": "kankyou hogo", "meanings": {"en": "environmental protection", "id": "perlindungan lingkungan"}},
+        {"id": 5, "kanji": "公害", "hiragana": "こうがい", "romaji": "kougai", "meanings": {"en": "pollution", "id": "polusi, gangguan lingkungan"}},
+        {"id": 6, "kanji": "工業排水", "hiragana": "こうぎょうはいすい", "romaji": "kougyou haisui", "meanings": {"en": "industrial wastewater", "id": "limbah pembuangan industri"}},
+        {"id": 7, "kanji": "光化学スモッグ", "hiragana": "こうかがくすもっぐ", "romaji": "koukagaku sumoggu", "meanings": {"en": "photochemical smog", "id": "kabut asap fotokimia"}},
+        {"id": 8, "kanji": "二酸化炭素", "hiragana": "にさんかたんそ", "romaji": "nisanka tanso", "meanings": {"en": "carbon dioxide", "id": "karbon dioksida, CO₂"}},
+        {"id": 9, "kanji": "温室効果ガス", "hiragana": "おんしつこうかがす", "romaji": "onshitsu kouka gasu", "meanings": {"en": "greenhouse gas", "id": "gas efek rumah kaca"}},
+        {"id": 10, "kanji": "オゾンホール", "hiragana": "おぞんほーる", "romaji": "ozon hōru", "meanings": {"en": "ozone hole", "id": "lubang ozon"}},
+        {"id": 11, "kanji": "冷夏", "hiragana": "れいか", "romaji": "reika", "meanings": {"en": "cool summer", "id": "musim panas yang sejuk"}},
+        {"id": 12, "kanji": "リサイクル", "hiragana": "りさいくる", "romaji": "risaikuru", "meanings": {"en": "recycle", "id": "daur ulang"}},
+        {"id": 13, "kanji": "砂漠化", "hiragana": "さばくか", "romaji": "sabakuha", "meanings": {"en": "desertification", "id": "penggundulan hutan, pembentukan gurun"}},
+        {"id": 14, "kanji": "酸性雨", "hiragana": "さんせいう", "romaji": "sansei u", "meanings": {"en": "acid rain", "id": "hujan asam"}},
+        {"id": 15, "kanji": "紫外線", "hiragana": "しがいせん", "romaji": "shigaisen", "meanings": {"en": "ultraviolet rays", "id": "sinar ultra violet"}},
+        {"id": 16, "kanji": "森林破壊", "hiragana": "しんりんはかい", "romaji": "shinrin hakai", "meanings": {"en": "deforestation", "id": "perusakan hutan"}},
+        {"id": 17, "kanji": "自然保護", "hiragana": "しぜんほご", "romaji": "shizen hogo", "meanings": {"en": "nature conservation", "id": "perlindungan alam"}},
+        {"id": 18, "kanji": "食糧危機", "hiragana": "しょくりょうきき", "romaji": "shokuryou kiki", "meanings": {"en": "food crisis", "id": "krisis bahan makanan"}},
+        {"id": 19, "kanji": "騒音", "hiragana": "そうおん", "romaji": "sou'on", "meanings": {"en": "noise", "id": "suara bising"}},
+        {"id": 20, "kanji": "水質汚濁", "hiragana": "すいしつおだく", "romaji": "suishitsu odaku", "meanings": {"en": "water pollution", "id": "penurunan mutu air"}},
+        {"id": 21, "kanji": "大気汚染", "hiragana": "たいきおせん", "romaji": "taiki osen", "meanings": {"en": "air pollution", "id": "polusi udara"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "TANAMAN, TUMBUH-TUMBUHAN",
+        "en": "PLANTS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "枝", "hiragana": "えだ", "romaji": "eda", "meanings": {"en": "branch", "id": "dahan, ranting, cabang"}},
+        {"id": 2, "kanji": "葉", "hiragana": "は", "romaji": "ha", "meanings": {"en": "leaf", "id": "daun"}},
+        {"id": 3, "kanji": "花びら", "hiragana": "はなびら", "romaji": "hanabira", "meanings": {"en": "petal", "id": "kelopak bunga"}},
+        {"id": 4, "kanji": "花粉", "hiragana": "かふん", "romaji": "kafun", "meanings": {"en": "pollen", "id": "serbuk sari bunga"}}
+      ]
+    }
+  ]
+}

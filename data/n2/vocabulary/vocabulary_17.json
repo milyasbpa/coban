@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "PERALATAN TULIS",
+        "en": "STATIONERY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ステープラー", "hiragana": "すてーぷらー", "romaji": "sutēpurā", "meanings": {"en": "stapler", "id": "cekrekan, stepler"}},
+        {"id": 2, "kanji": "クリップ", "hiragana": "くりっぷ", "romaji": "kurippu", "meanings": {"en": "clip", "id": "klip, jepitan"}},
+        {"id": 3, "kanji": "パンチ", "hiragana": "ぱんち", "romaji": "panchi", "meanings": {"en": "hole punch", "id": "pelubang kertas"}},
+        {"id": 4, "kanji": "輪ゴム", "hiragana": "わごむ", "romaji": "wagomu", "meanings": {"en": "rubber band", "id": "karet gelang"}},
+        {"id": 5, "kanji": "分度器", "hiragana": "ぶんどき", "romaji": "bundoki", "meanings": {"en": "protractor", "id": "busur derajat"}},
+        {"id": 6, "kanji": "測り", "hiragana": "はかり", "romaji": "hakari", "meanings": {"en": "scale", "id": "timbangan"}},
+        {"id": 7, "kanji": "定規", "hiragana": "じょうぎ", "romaji": "jyougi", "meanings": {"en": "ruler", "id": "penggaris"}},
+        {"id": 8, "kanji": "コンパス", "hiragana": "こんぱす", "romaji": "konpasu", "meanings": {"en": "compass", "id": "jangka, kompas"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "GRAFIK, DIAGRAM",
+        "en": "GRAPH, DIAGRAM"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "棒グラフ", "hiragana": "ぼうぐらふ", "romaji": "bou gurafu", "meanings": {"en": "bar chart", "id": "diagram balok"}},
+        {"id": 2, "kanji": "円グラフ", "hiragana": "えんぐらふ", "romaji": "en gurafu", "meanings": {"en": "pie chart", "id": "diagram lingkaran"}},
+        {"id": 3, "kanji": "帯グラフ", "hiragana": "おびぐらふ", "romaji": "obi gurafu", "meanings": {"en": "column chart", "id": "diagram kolom"}},
+        {"id": 4, "kanji": "折れ線グラフ", "hiragana": "おれせんぐらふ", "romaji": "oresen gurafu", "meanings": {"en": "broken line graph", "id": "diagram garis patah"}},
+        {"id": 5, "kanji": "縦軸", "hiragana": "たてじく", "romaji": "tatejiku", "meanings": {"en": "vertical axis", "id": "garis vertikal, garis tegak"}},
+        {"id": 6, "kanji": "横軸", "hiragana": "よこじく", "romaji": "yokojiku", "meanings": {"en": "horizontal axis", "id": "garis horizontal, garis mendatar"}},
+        {"id": 7, "kanji": "横這い", "hiragana": "よこばい", "romaji": "yokobai", "meanings": {"en": "sideways", "id": "menyamping, bergerak ke samping"}},
+        {"id": 8, "kanji": "上昇する", "hiragana": "じょうしょうする", "romaji": "jyoushou suru", "meanings": {"en": "rise", "id": "naik, melonjak"}},
+        {"id": 9, "kanji": "下降する", "hiragana": "かこうする", "romaji": "kakou suru", "meanings": {"en": "fall", "id": "turun, merosot"}},
+        {"id": 10, "kanji": "下回る", "hiragana": "したまわる", "romaji": "shitamawaru", "meanings": {"en": "fall below", "id": "turun, merosot"}},
+        {"id": 11, "kanji": "上回る", "hiragana": "うわまわる", "romaji": "uwamawaru", "meanings": {"en": "exceed", "id": "melebihi, melampaui"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "TANDA, SIMBOL",
+        "en": "SIGN, SYMBOL"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "アステリスク", "hiragana": "あすてりすく", "romaji": "asuteriisuku", "meanings": {"en": "asterisk", "id": "tanda asteris *"}},
+        {"id": 2, "kanji": "星印", "hiragana": "ほしじるし", "romaji": "hoshi jirushi", "meanings": {"en": "star mark", "id": "tanda bintang ☆★"}}
+      ]
+    }
+  ]
+}

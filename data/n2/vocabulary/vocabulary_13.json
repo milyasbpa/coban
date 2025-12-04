@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "AKADEMIK",
+        "en": "ACADEMIC"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "文学", "hiragana": "ぶんがく", "romaji": "bun'gaku", "meanings": {"en": "literature", "id": "kesusasteraan"}},
+        {"id": 2, "kanji": "物理学", "hiragana": "ぶつりがく", "romaji": "butsurigaku", "meanings": {"en": "physics", "id": "ilmu alam, fisika"}},
+        {"id": 3, "kanji": "電子工学", "hiragana": "でんしこうがく", "romaji": "denshi kougaku", "meanings": {"en": "electrical engineering", "id": "ilmu teknik elektron"}},
+        {"id": 4, "kanji": "土木学", "hiragana": "どぼくがく", "romaji": "dobokugaku", "meanings": {"en": "civil engineering", "id": "ilmu teknik sipil"}},
+        {"id": 5, "kanji": "言語学", "hiragana": "げんごがく", "romaji": "gen'gogaku", "meanings": {"en": "linguistics", "id": "ilmu bahasa, linguistik"}},
+        {"id": 6, "kanji": "行政学", "hiragana": "ぎょうせいがく", "romaji": "gyouseigaku", "meanings": {"en": "public administration", "id": "ilmu tata negara"}},
+        {"id": 7, "kanji": "法学", "hiragana": "ほうがく", "romaji": "hougaku", "meanings": {"en": "law", "id": "ilmu hukum"}},
+        {"id": 8, "kanji": "医学", "hiragana": "いがく", "romaji": "igaku", "meanings": {"en": "medicine", "id": "ilmu kedokteran"}},
+        {"id": 9, "kanji": "化学", "hiragana": "かがく", "romaji": "kagaku", "meanings": {"en": "chemistry", "id": "ilmu kimia"}},
+        {"id": 10, "kanji": "科学", "hiragana": "かがく", "romaji": "kagaku", "meanings": {"en": "science", "id": "ilmu sains"}},
+        {"id": 11, "kanji": "環境学", "hiragana": "かんきょうがく", "romaji": "kankyougaku", "meanings": {"en": "environmental science", "id": "ilmu lingkungan"}},
+        {"id": 12, "kanji": "経営学", "hiragana": "けいえいがく", "romaji": "kei'eigaku", "meanings": {"en": "management", "id": "ilmu manajemen"}},
+        {"id": 13, "kanji": "経済学", "hiragana": "けいざいがく", "romaji": "keizaigaku", "meanings": {"en": "economics", "id": "ilmu ekonomi"}},
+        {"id": 14, "kanji": "建築学", "hiragana": "けんちくがく", "romaji": "kenchikugaku", "meanings": {"en": "architecture", "id": "ilmu arsitektur"}},
+        {"id": 15, "kanji": "気象学", "hiragana": "きしょうがく", "romaji": "kishougaku", "meanings": {"en": "meteorology", "id": "ilmu cuaca, meteorologi"}},
+        {"id": 16, "kanji": "コンピュータ科学", "hiragana": "こんぴゅーたかがく", "romaji": "konpyūta kagaku", "meanings": {"en": "computer science", "id": "ilmu pengetahuan komputer"}},
+        {"id": 17, "kanji": "工学", "hiragana": "こうがく", "romaji": "kougaku", "meanings": {"en": "engineering", "id": "ilmu teknologi"}},
+        {"id": 18, "kanji": "教育学", "hiragana": "きょういくがく", "romaji": "kyou'ikugaku", "meanings": {"en": "education", "id": "ilmu pendidikan"}},
+        {"id": 19, "kanji": "農学", "hiragana": "のうがく", "romaji": "nougaku", "meanings": {"en": "agriculture", "id": "ilmu pertanian"}},
+        {"id": 20, "kanji": "心理学", "hiragana": "しんりがく", "romaji": "shinrigaku", "meanings": {"en": "psychology", "id": "ilmu kejiwaan, psikologi"}},
+        {"id": 21, "kanji": "数学", "hiragana": "すうがく", "romaji": "suugaku", "meanings": {"en": "mathematics", "id": "ilmu pasti, matematika"}},
+        {"id": 22, "kanji": "薬学", "hiragana": "やくがく", "romaji": "yakugaku", "meanings": {"en": "pharmacy", "id": "ilmu farmasi, farmakologi"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "INDUSTRI UTAMA",
+        "en": "PRIMARY INDUSTRY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "牧畜業", "hiragana": "ぼくちくぎょう", "romaji": "bokuchikugyou", "meanings": {"en": "animal husbandry", "id": "industri peternakan"}},
+        {"id": 2, "kanji": "漁業", "hiragana": "ぎょぎょう", "romaji": "gyogyou", "meanings": {"en": "fishery", "id": "industri perikanan"}}
+      ]
+    }
+  ]
+}

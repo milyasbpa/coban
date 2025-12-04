@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "JALAN RAYA",
+        "en": "ROAD"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "バス路線", "hiragana": "ばすろせん", "romaji": "basu rosen", "meanings": {"en": "bus route", "id": "jalur bis, rute bis"}},
+        {"id": 2, "kanji": "近道", "hiragana": "ちかみち", "romaji": "chikamichi", "meanings": {"en": "shortcut", "id": "jalan pintas"}},
+        {"id": 3, "kanji": "直進", "hiragana": "ちょくしん", "romaji": "chokushin", "meanings": {"en": "straight road", "id": "jalan lurus/terus"}},
+        {"id": 4, "kanji": "中央分離帯", "hiragana": "ちゅうおうぶんりたい", "romaji": "chuu'ou bunritai", "meanings": {"en": "median", "id": "median pemisah jalan"}},
+        {"id": 5, "kanji": "道路標識", "hiragana": "どうろひょうしき", "romaji": "douro hyoushiki", "meanings": {"en": "road sign", "id": "petunjuk jalan"}},
+        {"id": 6, "kanji": "ガードレール", "hiragana": "がーどれーる", "romaji": "gādorēru", "meanings": {"en": "guardrail", "id": "pagar"}},
+        {"id": 7, "kanji": "歩道", "hiragana": "ほどう", "romaji": "hodou", "meanings": {"en": "sidewalk", "id": "trotoar"}},
+        {"id": 8, "kanji": "歩道橋", "hiragana": "ほどうきょう", "romaji": "hodoukyou", "meanings": {"en": "pedestrian bridge", "id": "jembatan penyeberangan pejalan kaki"}},
+        {"id": 9, "kanji": "行き止まり", "hiragana": "いきどまり", "romaji": "ikidomari", "meanings": {"en": "dead end", "id": "jalan buntu"}},
+        {"id": 10, "kanji": "一方通行", "hiragana": "いっぽうつうこう", "romaji": "ippou tsuukou", "meanings": {"en": "one-way street", "id": "jalan satu arah"}},
+        {"id": 11, "kanji": "自転車道", "hiragana": "じてんしゃどう", "romaji": "jitenshado", "meanings": {"en": "bicycle lane", "id": "jalan/jalur sepeda"}},
+        {"id": 12, "kanji": "カーブミラー", "hiragana": "かーぶみらー", "romaji": "kābu mirā", "meanings": {"en": "curve mirror", "id": "cermin pada persimpangan jalan"}},
+        {"id": 13, "kanji": "交通標識", "hiragana": "こうつうひょうしき", "romaji": "koutsuu hyoushiki", "meanings": {"en": "traffic sign", "id": "petunjuk lalu-lintas"}},
+        {"id": 14, "kanji": "回り道/迂回路", "hiragana": "まわりみち/うかいろ", "romaji": "mawari-michi/ukairo", "meanings": {"en": "detour", "id": "jalan memutar"}},
+        {"id": 15, "kanji": "道なり", "hiragana": "みちなり", "romaji": "michinari", "meanings": {"en": "along the road", "id": "menyusuri jalan"}},
+        {"id": 16, "kanji": "大通り", "hiragana": "おおどおり", "romaji": "oodoori", "meanings": {"en": "main street", "id": "jalan raya/besar"}},
+        {"id": 17, "kanji": "横断歩道", "hiragana": "おうだんほどう", "romaji": "oudan hodou", "meanings": {"en": "crosswalk", "id": "tempat penyeberangan jalan"}},
+        {"id": 18, "kanji": "陸橋", "hiragana": "りっきょう", "romaji": "rikkyou", "meanings": {"en": "overpass", "id": "jembatan penyeberangan"}},
+        {"id": 19, "kanji": "路地", "hiragana": "ろじ", "romaji": "roji", "meanings": {"en": "alley", "id": "gang, lorong, jalan kecil"}},
+        {"id": 20, "kanji": "ロータリー", "hiragana": "ろーたりー", "romaji": "rōtarī", "meanings": {"en": "rotary", "id": "bundaran, putaran"}},
+        {"id": 21, "kanji": "左折", "hiragana": "させつ", "romaji": "sasetsu", "meanings": {"en": "left turn", "id": "belok kiri"}},
+        {"id": 22, "kanji": "車道", "hiragana": "しゃどう", "romaji": "shadou", "meanings": {"en": "roadway", "id": "jalan/jalur mobil"}},
+        {"id": 23, "kanji": "信号", "hiragana": "しんごう", "romaji": "shingou", "meanings": {"en": "traffic light", "id": "lampu lalu-lintas"}},
+        {"id": 24, "kanji": "T字路", "hiragana": "てぃーじろ", "romaji": "t(e)jiro", "meanings": {"en": "T-junction", "id": "persimpangan bentuk T"}},
+        {"id": 25, "kanji": "通り", "hiragana": "とおり", "romaji": "toori", "meanings": {"en": "street", "id": "jalanan"}},
+        {"id": 26, "kanji": "突き当たり", "hiragana": "つきあたり", "romaji": "tsukiatari", "meanings": {"en": "end of the road", "id": "ujung jalan"}}
+      ]
+    }
+  ]
+}

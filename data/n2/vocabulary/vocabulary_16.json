@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "PERALATAN TULIS",
+        "en": "STATIONERY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "方眼紙", "hiragana": "ほうがんし", "romaji": "houganshi", "meanings": {"en": "graph paper", "id": "kertas desain grafis"}},
+        {"id": 2, "kanji": "ホワイトボード", "hiragana": "ほわいとぼーど", "romaji": "howaito bōdo", "meanings": {"en": "whiteboard", "id": "papan tulis putih"}},
+        {"id": 3, "kanji": "黒板", "hiragana": "こくばん", "romaji": "kokuban", "meanings": {"en": "blackboard", "id": "papan tulis hitam"}},
+        {"id": 4, "kanji": "メモ帳", "hiragana": "めもちょう", "romaji": "memochou", "meanings": {"en": "memo book", "id": "buku memo"}},
+        {"id": 5, "kanji": "メモ用紙", "hiragana": "めもようし", "romaji": "memo youshi", "meanings": {"en": "memo paper", "id": "kertas memo"}},
+        {"id": 6, "kanji": "ノート", "hiragana": "のーと", "romaji": "nōto", "meanings": {"en": "notebook", "id": "buku catatan, notes"}},
+        {"id": 7, "kanji": "レポート用紙", "hiragana": "れぽーとようし", "romaji": "repōto youshi", "meanings": {"en": "report paper", "id": "kertas laporan"}},
+        {"id": 8, "kanji": "ルーズリーフ", "hiragana": "るーずりーふ", "romaji": "rūzuriifu", "meanings": {"en": "loose-leaf paper", "id": "kertas halaman lepas, loose-leaf"}},
+        {"id": 9, "kanji": "手帳", "hiragana": "てちょう", "romaji": "techou", "meanings": {"en": "notebook", "id": "buku catatan"}},
+        {"id": 10, "kanji": "消しゴム", "hiragana": "けしごむ", "romaji": "keshigomu", "meanings": {"en": "eraser", "id": "penghapus (bahan dari karet)"}},
+        {"id": 11, "kanji": "黒板消し", "hiragana": "こくばんけし", "romaji": "kokuban keshi", "meanings": {"en": "blackboard eraser", "id": "penghapus papan tulis"}},
+        {"id": 12, "kanji": "修正液", "hiragana": "しゅうせいえき", "romaji": "shusei eki", "meanings": {"en": "correction fluid", "id": "cairan pengoreksi"}},
+        {"id": 13, "kanji": "修正テープ", "hiragana": "しゅうせいてーぷ", "romaji": "shusei tēpu", "meanings": {"en": "correction tape", "id": "pita pengoreksi"}},
+        {"id": 14, "kanji": "鉛筆削り", "hiragana": "えんぴつけずり", "romaji": "enpitsu kezuri", "meanings": {"en": "pencil sharpener", "id": "rautan pensil"}},
+        {"id": 15, "kanji": "ハサミ", "hiragana": "はさみ", "romaji": "hasami", "meanings": {"en": "scissors", "id": "gunting"}},
+        {"id": 16, "kanji": "カッター(ナイフ)", "hiragana": "かったー(ないふ)", "romaji": "katta (naifu)", "meanings": {"en": "cutter", "id": "katter, cutter"}},
+        {"id": 17, "kanji": "電卓", "hiragana": "でんたく", "romaji": "dentaku", "meanings": {"en": "calculator", "id": "kalkulator"}},
+        {"id": 18, "kanji": "計算機", "hiragana": "けいさんき", "romaji": "keisanki", "meanings": {"en": "calculator", "id": "kalkulator"}},
+        {"id": 19, "kanji": "算盤", "hiragana": "そろばん", "romaji": "soroban", "meanings": {"en": "abacus", "id": "simpua, abaku"}},
+        {"id": 20, "kanji": "付箋紙", "hiragana": "ふせんし", "romaji": "fusenshi", "meanings": {"en": "sticky note", "id": "memo tempel"}},
+        {"id": 21, "kanji": "画鋲", "hiragana": "がびょう", "romaji": "gabyou", "meanings": {"en": "thumbtack", "id": "paku payung"}},
+        {"id": 22, "kanji": "ガムテープ", "hiragana": "がむてーぷ", "romaji": "gamutēpu", "meanings": {"en": "duct tape", "id": "lakban"}},
+        {"id": 23, "kanji": "のり", "hiragana": "のり", "romaji": "nori", "meanings": {"en": "glue", "id": "lem"}},
+        {"id": 24, "kanji": "接着剤", "hiragana": "せっちゃくざい", "romaji": "secchakuzai", "meanings": {"en": "adhesive", "id": "bahan perekat"}},
+        {"id": 25, "kanji": "セロハンテープ", "hiragana": "せろはんてーぷ", "romaji": "serohantēpu", "meanings": {"en": "cellophane tape", "id": "selotip, pita perekat"}},
+        {"id": 26, "kanji": "シール", "hiragana": "しーる", "romaji": "shīru", "meanings": {"en": "sticker", "id": "stiker"}},
+        {"id": 27, "kanji": "ファイル", "hiragana": "ふぁいる", "romaji": "fairu", "meanings": {"en": "file", "id": "arsip, file"}},
+        {"id": 28, "kanji": "フォルダー", "hiragana": "ふぉるだー", "romaji": "f(u)orudā", "meanings": {"en": "folder", "id": "map, folder"}},
+        {"id": 29, "kanji": "ホッチキス", "hiragana": "ほっちきす", "romaji": "hocchikisu", "meanings": {"en": "stapler", "id": "cekrekan, stepler"}}
+      ]
+    }
+  ]
+}

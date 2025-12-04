@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATAKANA",
+        "en": "KATAKANA"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "アドレス", "hiragana": "あどれす", "romaji": "adoresu", "meanings": {"en": "address", "id": "alamat"}},
+        {"id": 2, "kanji": "アクセント", "hiragana": "あくせんと", "romaji": "akusento", "meanings": {"en": "accent", "id": "aksen"}},
+        {"id": 3, "kanji": "アンコール", "hiragana": "あんこーる", "romaji": "ankōru", "meanings": {"en": "encore", "id": "permintaan pertunjukan diulang"}},
+        {"id": 4, "kanji": "アンテナ", "hiragana": "あんてな", "romaji": "antena", "meanings": {"en": "antenna", "id": "antena"}},
+        {"id": 5, "kanji": "アリバイ", "hiragana": "ありばい", "romaji": "aribai", "meanings": {"en": "alibi", "id": "alibi"}},
+        {"id": 6, "kanji": "アルファベット", "hiragana": "あるふぁべっと", "romaji": "arufabetto", "meanings": {"en": "alphabet", "id": "abjad"}},
+        {"id": 7, "kanji": "アルコール", "hiragana": "あるこーる", "romaji": "arukōru", "meanings": {"en": "alcohol", "id": "alkohol"}},
+        {"id": 8, "kanji": "ベスト", "hiragana": "べすと", "romaji": "besuto", "meanings": {"en": "best", "id": "paling bagus"}},
+        {"id": 9, "kanji": "ベテラン", "hiragana": "べてらん", "romaji": "beteran", "meanings": {"en": "veteran", "id": "kawan, berpengalaman"}},
+        {"id": 10, "kanji": "ブーム", "hiragana": "ぶーむ", "romaji": "būmu", "meanings": {"en": "boom", "id": "1. ledakan 2. laris"}},
+        {"id": 11, "kanji": "ダイヤ", "hiragana": "だいや", "romaji": "daiya", "meanings": {"en": "diagram", "id": "bagan, skema"}},
+        {"id": 12, "kanji": "ダイヤグラム", "hiragana": "だいやぐらむ", "romaji": "daiyaguramu", "meanings": {"en": "diagram", "id": "bagan, skema"}},
+        {"id": 13, "kanji": "ダム", "hiragana": "だむ", "romaji": "damu", "meanings": {"en": "dam", "id": "bendungan"}},
+        {"id": 14, "kanji": "デモ", "hiragana": "でも", "romaji": "demo", "meanings": {"en": "demonstration", "id": "demo"}},
+        {"id": 15, "kanji": "デモンストレーション", "hiragana": "でもんすとれーしょん", "romaji": "demonsutorēshon", "meanings": {"en": "demonstration", "id": "demonstrasi"}},
+        {"id": 16, "kanji": "エコノミー", "hiragana": "えこのみー", "romaji": "ekonomī", "meanings": {"en": "economy", "id": "ekonomi"}},
+        {"id": 17, "kanji": "エコロジー", "hiragana": "えころじー", "romaji": "ekoroji", "meanings": {"en": "ecology", "id": "ekologi"}},
+        {"id": 18, "kanji": "エピソード", "hiragana": "えぴそーど", "romaji": "episōdo", "meanings": {"en": "episode", "id": "episode"}},
+        {"id": 19, "kanji": "エラー", "hiragana": "えらー", "romaji": "erā", "meanings": {"en": "error", "id": "kesalahan, kekeliruan"}},
+        {"id": 20, "kanji": "フリー", "hiragana": "ふりー", "romaji": "furī", "meanings": {"en": "free", "id": "bebas"}},
+        {"id": 21, "kanji": "フリーランス", "hiragana": "ふりーらんす", "romaji": "furiransu", "meanings": {"en": "freelance", "id": "pekerja lepas"}},
+        {"id": 22, "kanji": "ガイド", "hiragana": "がいど", "romaji": "gaido", "meanings": {"en": "guide", "id": "1. pedoman 2. pemandu wisata"}},
+        {"id": 23, "kanji": "ゴール", "hiragana": "ごーる", "romaji": "gōru", "meanings": {"en": "goal", "id": "1. gawang 2. tujuan, sasaran"}},
+        {"id": 24, "kanji": "インフォ", "hiragana": "いんふぉ", "romaji": "infu", "meanings": {"en": "info", "id": "info"}},
+        {"id": 25, "kanji": "インフォメーション", "hiragana": "いんふぉめーしょん", "romaji": "infomēshon", "meanings": {"en": "information", "id": "informasi"}}
+      ]
+    }
+  ]
+}

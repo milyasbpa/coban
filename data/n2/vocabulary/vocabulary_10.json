@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "GEJALA FISIK",
+        "en": "PHYSICAL SYMPTOM"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "あくびをする", "hiragana": "あくびをする", "romaji": "akubi o suru", "meanings": {"en": "yawn", "id": "menguap karena kantuk"}},
+        {"id": 2, "kanji": "汗をかく", "hiragana": "あせをかく", "romaji": "ase o kaku", "meanings": {"en": "sweat", "id": "berkeringat"}},
+        {"id": 3, "kanji": "げっぷをする", "hiragana": "げっぷをする", "romaji": "geppu o suru", "meanings": {"en": "burp", "id": "bersendawa"}},
+        {"id": 4, "kanji": "鼾をかく", "hiragana": "いびきをかく", "romaji": "ibiki o kaku", "meanings": {"en": "snore", "id": "mendengkur, mengorok"}},
+        {"id": 5, "kanji": "くしゃみをする", "hiragana": "くしゃみをする", "romaji": "kushami o suru", "meanings": {"en": "sneeze", "id": "bersin"}},
+        {"id": 6, "kanji": "おならをする", "hiragana": "おならをする", "romaji": "onara o suru", "meanings": {"en": "fart", "id": "buang angin, kentut"}},
+        {"id": 7, "kanji": "しゃっくりする", "hiragana": "しゃっくりする", "romaji": "shakkuri suru", "meanings": {"en": "hiccup", "id": "kecegukan"}},
+        {"id": 8, "kanji": "唾をする", "hiragana": "つばをする", "romaji": "tsuba o suru", "meanings": {"en": "spit", "id": "meludah"}},
+        {"id": 9, "kanji": "よだれが出る", "hiragana": "よだれがでる", "romaji": "yodare ga deru", "meanings": {"en": "drool", "id": "mengeluarkan air liur"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "SAKIT, PENYAKIT",
+        "en": "ILLNESS, DISEASE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "足がつる", "hiragana": "あしがつる", "romaji": "ashi ga tsuru", "meanings": {"en": "leg cramp", "id": "kaki kram"}},
+        {"id": 2, "kanji": "頭が痛い", "hiragana": "あたまがいたい", "romaji": "atama ga itai", "meanings": {"en": "headache", "id": "sakit kepala"}},
+        {"id": 3, "kanji": "痣", "hiragana": "あざ", "romaji": "aza", "meanings": {"en": "bruise", "id": "bekas luka"}},
+        {"id": 4, "kanji": "病状", "hiragana": "びょうじょう", "romaji": "byoujyou", "meanings": {"en": "condition of illness", "id": "keadaan penyakit"}},
+        {"id": 5, "kanji": "歯が痛い", "hiragana": "はがいたい", "romaji": "ha ga itai", "meanings": {"en": "toothache", "id": "sakit gigi"}},
+        {"id": 6, "kanji": "鼻が詰まる", "hiragana": "はながつまる", "romaji": "hana ga tsumaru", "meanings": {"en": "stuffy nose", "id": "hidung tersumbat"}},
+        {"id": 7, "kanji": "鼻水が出る", "hiragana": "はなみずがでる", "romaji": "hanamizu ga deru", "meanings": {"en": "runny nose", "id": "keluar ingus"}},
+        {"id": 8, "kanji": "腫れる", "hiragana": "はれる", "romaji": "hareru", "meanings": {"en": "swollen", "id": "bengkak (karena infeksi/pukulan)"}},
+        {"id": 9, "kanji": "関節が痛い", "hiragana": "かんせつがいたい", "romaji": "kansetsu ga itai", "meanings": {"en": "joint pain", "id": "sakit persendian"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATAKANA",
+        "en": "KATAKANA"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "インフレ", "hiragana": "いんふれ", "romaji": "infure", "meanings": {"en": "inflation", "id": "inflasi"}},
+        {"id": 2, "kanji": "インフレーション", "hiragana": "いんふれーしょん", "romaji": "infurēshon", "meanings": {"en": "inflation", "id": "inflasi"}},
+        {"id": 3, "kanji": "インテリア", "hiragana": "いんてりあ", "romaji": "interia", "meanings": {"en": "interior", "id": "ruang dalam"}},
+        {"id": 4, "kanji": "イラスト", "hiragana": "いらすと", "romaji": "irasuto", "meanings": {"en": "illustration", "id": "gambar ilustrasi"}},
+        {"id": 5, "kanji": "イラストレーション", "hiragana": "いらすとれーしょん", "romaji": "irasutorēshon", "meanings": {"en": "illustration", "id": "gambar ilustrasi"}},
+        {"id": 6, "kanji": "イヤホン", "hiragana": "いやほん", "romaji": "iyahon", "meanings": {"en": "earphone", "id": "alat pendengar"}},
+        {"id": 7, "kanji": "カバー", "hiragana": "かばー", "romaji": "kabā", "meanings": {"en": "cover", "id": "sampul, sarung"}},
+        {"id": 8, "kanji": "カーブ", "hiragana": "かーぶ", "romaji": "kābu", "meanings": {"en": "curve", "id": "garis lengkung, tikungan"}},
+        {"id": 9, "kanji": "カリキュラム", "hiragana": "かりきゅらむ", "romaji": "karikyuramu", "meanings": {"en": "curriculum", "id": "kurikulum"}},
+        {"id": 10, "kanji": "カロリー", "hiragana": "かろりー", "romaji": "karorī", "meanings": {"en": "calorie", "id": "kalori"}},
+        {"id": 11, "kanji": "カルチャー", "hiragana": "かるちゃー", "romaji": "karuchā", "meanings": {"en": "culture", "id": "kebudayaan"}},
+        {"id": 12, "kanji": "カット", "hiragana": "かっと", "romaji": "katto", "meanings": {"en": "cut", "id": "potong, putus"}},
+        {"id": 13, "kanji": "カウンセリング", "hiragana": "かうんせりんぐ", "romaji": "kaunseringu", "meanings": {"en": "counseling", "id": "bimbingan"}},
+        {"id": 14, "kanji": "カウンター", "hiragana": "かうんたー", "romaji": "kauntā", "meanings": {"en": "counter", "id": "meja informasi"}},
+        {"id": 15, "kanji": "ケース", "hiragana": "けーす", "romaji": "kēsu", "meanings": {"en": "case", "id": "1. kasus 2. kotak, dus"}},
+        {"id": 16, "kanji": "キー", "hiragana": "きー", "romaji": "kī", "meanings": {"en": "key", "id": "kunci"}},
+        {"id": 17, "kanji": "コーチ", "hiragana": "こーち", "romaji": "kōchi", "meanings": {"en": "coach", "id": "pelatih"}},
+        {"id": 18, "kanji": "コード", "hiragana": "こーど", "romaji": "kōdo", "meanings": {"en": "code", "id": "1. kode 2. kunci musik 3. kabel"}},
+        {"id": 19, "kanji": "コメント", "hiragana": "こめんと", "romaji": "komento", "meanings": {"en": "comment", "id": "komentar"}},
+        {"id": 20, "kanji": "コーナー", "hiragana": "こーなー", "romaji": "kōnā", "meanings": {"en": "corner", "id": "pojok, sudut"}},
+        {"id": 21, "kanji": "コンクリート", "hiragana": "こんくりーと", "romaji": "konkurīto", "meanings": {"en": "concrete", "id": "beton"}},
+        {"id": 22, "kanji": "コントロール", "hiragana": "こんとろーる", "romaji": "kontorōru", "meanings": {"en": "control", "id": "kendali, kontrol"}},
+        {"id": 23, "kanji": "コラム", "hiragana": "こらむ", "romaji": "koramu", "meanings": {"en": "column", "id": "kolom surat kabar"}},
+        {"id": 24, "kanji": "コース", "hiragana": "こーす", "romaji": "kōsu", "meanings": {"en": "course", "id": "1. jalur 2. kursus 3. hidangan"}},
+        {"id": 25, "kanji": "クレーム", "hiragana": "くれーむ", "romaji": "kurēmu", "meanings": {"en": "claim", "id": "celaan, tuntutan"}},
+        {"id": 26, "kanji": "キャッチ", "hiragana": "きゃっち", "romaji": "kyacchi", "meanings": {"en": "catch", "id": "tangkap"}},
+        {"id": 27, "kanji": "キャンパス", "hiragana": "きゃんぱす", "romaji": "kyanpasu", "meanings": {"en": "campus", "id": "kampus"}},
+        {"id": 28, "kanji": "キャンセル", "hiragana": "きゃんせる", "romaji": "kyanseru", "meanings": {"en": "cancel", "id": "batal"}},
+        {"id": 29, "kanji": "キャプテン", "hiragana": "きゃぷてん", "romaji": "kyaputen", "meanings": {"en": "captain", "id": "kapten"}}
+      ]
+    }
+  ]
+}

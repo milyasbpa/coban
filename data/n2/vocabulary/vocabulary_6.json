@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "GELOMBANG UDARA",
+        "en": "AIR WAVE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "寒波", "hiragana": "かんぱ", "romaji": "kanpa", "meanings": {"en": "cold wave", "id": "gelombang dingin"}},
+        {"id": 2, "kanji": "熱波", "hiragana": "ねっぱ", "romaji": "neppa", "meanings": {"en": "heat wave", "id": "gelombang panas"}},
+        {"id": 3, "kanji": "真夏日", "hiragana": "まなつび", "romaji": "manatsubi", "meanings": {"en": "midsummer day", "id": "pertengahan musim panas"}},
+        {"id": 4, "kanji": "熱帯夜", "hiragana": "ねったいや", "romaji": "nettaiya", "meanings": {"en": "tropical night", "id": "malam yang panas (di atas 25°C)"}},
+        {"id": 5, "kanji": "梅雨前線", "hiragana": "ばいうぜんせん", "romaji": "bai'u zensen", "meanings": {"en": "rainy season front", "id": "gelombang udara hujan"}},
+        {"id": 6, "kanji": "寒冷前線", "hiragana": "かんれいぜんせん", "romaji": "kanrei zensen", "meanings": {"en": "cold front", "id": "gelombang udara dingin"}},
+        {"id": 7, "kanji": "温暖前線", "hiragana": "おんだんぜんせん", "romaji": "ondan zensen", "meanings": {"en": "warm front", "id": "gelombang udara hangat"}},
+        {"id": 8, "kanji": "梅雨明け", "hiragana": "つゆあけ", "romaji": "tsuyu ake", "meanings": {"en": "end of rainy season", "id": "berakhirnya musim hujan"}},
+        {"id": 9, "kanji": "梅雨入り", "hiragana": "つゆいり", "romaji": "tsuyu iri", "meanings": {"en": "start of rainy season", "id": "mulai musim hujan"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "TEKANAN UDARA",
+        "en": "AIR PRESSURE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "気圧配置", "hiragana": "きあつはいち", "romaji": "kiatsu haichi", "meanings": {"en": "air pressure arrangement", "id": "pengaturan posisi tekanan angin"}},
+        {"id": 2, "kanji": "高気圧", "hiragana": "こうきあつ", "romaji": "kou kiatsu", "meanings": {"en": "high air pressure", "id": "tekanan udara tinggi"}},
+        {"id": 3, "kanji": "熱帯性低気圧", "hiragana": "ねったいせいていきあつ", "romaji": "nettaisei teikiatsu", "meanings": {"en": "tropical low air pressure", "id": "tekanan udara rendah daerah tropis"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "PERINGATAN",
+        "en": "WARNING"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "異常乾燥", "hiragana": "いじょうかんそう", "romaji": "ijyou kansou", "meanings": {"en": "abnormal dryness", "id": "kegersangan luar biasa"}},
+        {"id": 2, "kanji": "異常低温", "hiragana": "いじょうていおん", "romaji": "ijyou tei'on", "meanings": {"en": "abnormally low temperature", "id": "suhu rendah luar biasa"}},
+        {"id": 3, "kanji": "花粉", "hiragana": "かふん", "romaji": "kafun", "meanings": {"en": "pollen", "id": "serbuk sari bunga"}},
+        {"id": 4, "kanji": "警報", "hiragana": "けいほう", "romaji": "keihou", "meanings": {"en": "alarm", "id": "tanda peringatan, alarm"}},
+        {"id": 5, "kanji": "黄砂", "hiragana": "こうさ", "romaji": "kousa", "meanings": {"en": "yellow sand", "id": "(fenomena) pasir kuning"}}
+      ]
+    }
+  ]
+}
