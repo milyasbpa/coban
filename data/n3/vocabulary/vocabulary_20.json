@@ -19,9 +19,18 @@
         {"id": 10, "kanji": "報告", "hiragana": "ほうこく", "romaji": "houkoku", "meanings": {"en": "report", "id": "laporan, melapor, melaporkan"}},
         {"id": 11, "kanji": "方面", "hiragana": "ほうめん", "romaji": "houmen", "meanings": {"en": "direction, area", "id": "jurusan, arah"}},
         {"id": 12, "kanji": "保存", "hiragana": "ほぞん", "romaji": "hozon", "meanings": {"en": "preservation, storage", "id": "pengawetan, penyimpanan, mengawetkan, menyimpan"}},
-        {"id": 13, "kanji": "表情", "hiragana": "ひょうじょう", "romaji": "hyoujou", "meanings": {"en": "facial expression", "id": "ekspresi, air muka"}},
+        {"id": 13, "kanji": "表情", "hiragana": "ひょうじょう", "romaji": "hyoujyou", "meanings": {"en": "facial expression", "id": "ekspresi, air muka"}},
         {"id": 14, "kanji": "表面", "hiragana": "ひょうめん", "romaji": "hyoumen", "meanings": {"en": "surface, exterior", "id": "permukaan, bagian luar, penampilan"}},
-        {"id": 15, "kanji": "評論", "hiragana": "ひょうろん", "romaji": "hyouron", "meanings": {"en": "critique, review", "id": "kritik, komentar, ulasan, tinjauan"}},
+        {"id": 15, "kanji": "評論", "hiragana": "ひょうろん", "romaji": "hyouron", "meanings": {"en": "critique, review", "id": "kritik, komentar, ulasan, tinjauan"}}
+      ]
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": "I",
+        "en": "I Section"
+      },
+      "vocabulary": [
         {"id": 16, "kanji": "位", "hiragana": "い", "romaji": "i", "meanings": {"en": "rank, position", "id": "urutan"}},
         {"id": 17, "kanji": "胃", "hiragana": "い", "romaji": "i", "meanings": {"en": "stomach", "id": "lambung"}},
         {"id": 18, "kanji": "いびき", "hiragana": "いびき", "romaji": "ibiki", "meanings": {"en": "snore", "id": "dengkur"}},

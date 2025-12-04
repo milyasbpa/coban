@@ -21,6 +21,7 @@
         {"id": 12, "kanji": "痛み", "hiragana": "いたみ", "romaji": "itami", "meanings": {"en": "pain", "id": "perasaan sakit"}},
         {"id": 13, "kanji": "いたずら", "hiragana": "いたずら", "romaji": "itazura", "meanings": {"en": "mischief, prank", "id": "nakal, bandel"}},
         {"id": 14, "kanji": "いとこ", "hiragana": "いとこ", "romaji": "itoko", "meanings": {"en": "cousin", "id": "saudara sepupu"}},
+        {"id": 9, "kanji": "いつの間にか", "hiragana": "いつのまにか", "romaji": "itsunomanika", "meanings": { "en": "before one realizes it, without noticing", "id": "tidak terasa, tahu-tahu" }},
         {"id": 15, "kanji": "一体", "hiragana": "いったい", "romaji": "ittai", "meanings": {"en": "what on earth, really", "id": "sesungguhnya, sebenarnya"}},
         {"id": 16, "kanji": "いってきます", "hiragana": "いってきます", "romaji": "ittekimasu", "meanings": {"en": "I'm off, I'll go and come back", "id": "permisi, saya pergi dulu"}},
         {"id": 17, "kanji": "行ってらっしゃい", "hiragana": "いってらっしゃい", "romaji": "itterasshai", "meanings": {"en": "take care, see you", "id": "selamat jalan, hati-hati di jalan"}},
@@ -28,7 +29,16 @@
         {"id": 19, "kanji": "いや", "hiragana": "いや", "romaji": "iya", "meanings": {"en": "unpleasant, disagreeable", "id": "tidak menyenangkan, menyebalkan"}},
         {"id": 20, "kanji": "いやがる", "hiragana": "いやがる", "romaji": "iyagaru", "meanings": {"en": "hate, dislike", "id": "memperlihatkan perasaan benci, memperlihatkan perasaan tidak suka"}},
         {"id": 21, "kanji": "イヤリング", "hiragana": "イヤリング", "romaji": "iyaringu", "meanings": {"en": "earring", "id": "anting-anting"}},
-        {"id": 22, "kanji": "以前", "hiragana": "いぜん", "romaji": "izen", "meanings": {"en": "before, previously", "id": "dulu, sebelumnya"}},
+        {"id": 22, "kanji": "以前", "hiragana": "いぜん", "romaji": "izen", "meanings": {"en": "before, previously", "id": "dulu, sebelumnya"}}
+      ]
+    },
+     {
+      "id": 1,
+      "category": {
+        "id": "J",
+        "en": "J Section"
+      },
+      "vocabulary": [
         {"id": 23, "kanji": "自動", "hiragana": "じどう", "romaji": "jidou", "meanings": {"en": "automatic", "id": "otomatis, dengan sendirinya"}},
         {"id": 24, "kanji": "自営", "hiragana": "じえい", "romaji": "jiei", "meanings": {"en": "self-employed", "id": "usaha sendiri, mengelola usaha sendiri"}},
         {"id": 25, "kanji": "自営業", "hiragana": "じえいぎょう", "romaji": "jieigyou", "meanings": {"en": "independent business", "id": "bisnis usaha sendiri"}},
