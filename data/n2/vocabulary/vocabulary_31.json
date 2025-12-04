@@ -1,0 +1,272 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KECELAKAAN",
+        "en": "ACCIDENTS"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "重体",
+          "hiragana": "じゅうたい",
+          "romaji": "jyuutai",
+          "meanings": {
+            "en": "seriously ill, critical condition",
+            "id": "sakit berat, keadaan kritis"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "加害者",
+          "hiragana": "かがいしゃ",
+          "romaji": "kagaisha",
+          "meanings": {
+            "en": "perpetrator (violence, fault)",
+            "id": "pelaku (kekerasan, kesalahan)"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "けが人",
+          "hiragana": "けがにん",
+          "romaji": "keganin",
+          "meanings": {
+            "en": "injured person",
+            "id": "orang yang terluka"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "軽傷",
+          "hiragana": "けいしょう",
+          "romaji": "keishou",
+          "meanings": {
+            "en": "minor injury",
+            "id": "luka ringan"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "接触",
+          "hiragana": "せっしょく",
+          "romaji": "sesshoku",
+          "meanings": {
+            "en": "contact, collision",
+            "id": "bersenggolan, berserempetan"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "死傷者",
+          "hiragana": "ししょうしゃ",
+          "romaji": "shishousha",
+          "meanings": {
+            "en": "dead and injured victims",
+            "id": "korban meninggal dan luka"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "衝突",
+          "hiragana": "しょうとつ",
+          "romaji": "shoutotsu",
+          "meanings": {
+            "en": "collision, crash",
+            "id": "tabrakan, benturan"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "正面衝突",
+          "hiragana": "しょうめんしょうとつ",
+          "romaji": "shoumen shoutotsu",
+          "meanings": {
+            "en": "head-on collision",
+            "id": "tabrakan muka lawan muka"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "死亡者",
+          "hiragana": "しぼうしゃ",
+          "romaji": "shibousha",
+          "meanings": {
+            "en": "deceased victim",
+            "id": "korban meninggal dunia"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "追突",
+          "hiragana": "ついとつ",
+          "romaji": "tsuitotsu",
+          "meanings": {
+            "en": "rear-end collision",
+            "id": "ditabrak dari belakang"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "行方不明",
+          "hiragana": "ゆくえふめい",
+          "romaji": "yukue fumei",
+          "meanings": {
+            "en": "missing, whereabouts unknown",
+            "id": "tidak diketahui keberadaannya"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "AWALAN NEGATIF",
+        "en": "NEGATIVE PREFIXES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "不気味",
+          "hiragana": "ぶきみ",
+          "romaji": "bukimi",
+          "meanings": {
+            "en": "eerie, creepy",
+            "id": "menyeramkan, mencekam"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "不器用",
+          "hiragana": "ぶきよう",
+          "romaji": "bukiyou",
+          "meanings": {
+            "en": "clumsy, awkward",
+            "id": "tidak terampil, kikuk"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "無礼",
+          "hiragana": "ぶれい",
+          "romaji": "burei",
+          "meanings": {
+            "en": "rude, impolite",
+            "id": "tidak sopan, kurang ajar"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "無作法",
+          "hiragana": "ぶさほう",
+          "romaji": "busahou",
+          "meanings": {
+            "en": "ill-mannered, rude",
+            "id": "tidak bertata-krama"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "不細工",
+          "hiragana": "ぶさいく",
+          "romaji": "busaiku",
+          "meanings": {
+            "en": "clumsy, unskillful",
+            "id": "tidak rapi, tidak terampil"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "不安定",
+          "hiragana": "ふあんてい",
+          "romaji": "fuantei",
+          "meanings": {
+            "en": "unstable",
+            "id": "tidak stabil"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "不勉強",
+          "hiragana": "ふべんきょう",
+          "romaji": "fubenkyou",
+          "meanings": {
+            "en": "unstudious, lazy",
+            "id": "tidak belajar, malas"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "不平等",
+          "hiragana": "ふびょうどう",
+          "romaji": "fubyoudou",
+          "meanings": {
+            "en": "unfair, unequal",
+            "id": "tidak adil, tidak sama-rata, tidak seimbang"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "不注意",
+          "hiragana": "ふちゅうい",
+          "romaji": "fuchuui",
+          "meanings": {
+            "en": "careless, inattentive",
+            "id": "tidak perhatian, lalai, ceroboh"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "不合格",
+          "hiragana": "ふごうかく",
+          "romaji": "fugoukaku",
+          "meanings": {
+            "en": "fail, not pass",
+            "id": "tidak lulus, gagal"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "不合理",
+          "hiragana": "ふごうり",
+          "romaji": "fugouri",
+          "meanings": {
+            "en": "illogical, unreasonable",
+            "id": "tidak masuk akal, tidak logis"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "不一致",
+          "hiragana": "ふいっち",
+          "romaji": "fuicchi",
+          "meanings": {
+            "en": "inconsistent, not matching",
+            "id": "tidak sepakat, tidak sama"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "不自由",
+          "hiragana": "ふじゆう",
+          "romaji": "fujiyuu",
+          "meanings": {
+            "en": "inconvenient, not free",
+            "id": "tidak bebas, tidak praktis"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "不十分",
+          "hiragana": "ふじゅうぶん",
+          "romaji": "fujyuubun",
+          "meanings": {
+            "en": "insufficient, inadequate",
+            "id": "tidak cukup, tidak memadai"
+          }
+        }
+      ]
+    }
+  ]
+}

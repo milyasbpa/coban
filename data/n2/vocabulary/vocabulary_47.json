@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "経つ", "hiragana": "たつ", "romaji": "tatsu", "meanings": {"en": "to pass, to elapse", "id": "berlalu, lewat"}},
+        {"id": 2, "kanji": "発つ", "hiragana": "たつ", "romaji": "tatsu", "meanings": {"en": "to depart, to leave", "id": "berangkat, meninggalkan"}},
+        {"id": 3, "kanji": "立つ", "hiragana": "たつ", "romaji": "tatsu", "meanings": {"en": "to stand", "id": "berdiri"}},
+        {"id": 4, "kanji": "頼る", "hiragana": "たよる", "romaji": "tayoru", "meanings": {"en": "to rely on, to depend on", "id": "mengandalkan, mempercayakan"}},
+        {"id": 5, "kanji": "適する", "hiragana": "てきする", "romaji": "tekisuru", "meanings": {"en": "to be suitable, to fit", "id": "sesuai, cocok"}},
+        {"id": 6, "kanji": "照らす", "hiragana": "てらす", "romaji": "terasu", "meanings": {"en": "to illuminate, to shine on", "id": "menerangi, menyinari"}},
+        {"id": 7, "kanji": "照る", "hiragana": "てる", "romaji": "teru", "meanings": {"en": "to shine, to be bright", "id": "terang, bersinar, bercahaya"}},
+        {"id": 8, "kanji": "飛び回る", "hiragana": "とびまわる", "romaji": "tobimawaru", "meanings": {"en": "to fly around, to go about", "id": "terbang berkeliling"}},
+        {"id": 9, "kanji": "尖る", "hiragana": "とがる", "romaji": "togaru", "meanings": {"en": "to be sharp, to be pointed", "id": "runcing, tajam"}},
+        {"id": 10, "kanji": "伴う", "hiragana": "ともなう", "romaji": "tomonau", "meanings": {"en": "to accompany, to go with", "id": "① ikut, mengikuti ② mengantar"}},
+        {"id": 11, "kanji": "通りかかる", "hiragana": "とおりかかる", "romaji": "toorikakaru", "meanings": {"en": "to happen to pass by", "id": "kebetulan lewat"}},
+        {"id": 12, "kanji": "取り消す", "hiragana": "とりけす", "romaji": "torikesu", "meanings": {"en": "to cancel, to revoke", "id": "menghapus, membatalkan"}},
+        {"id": 13, "kanji": "取り入れる", "hiragana": "とりいれる", "romaji": "toriireru", "meanings": {"en": "to take in, to adopt", "id": "① menerapkan ② memanen"}},
+        {"id": 14, "kanji": "取る", "hiragana": "とる", "romaji": "toru", "meanings": {"en": "to take, to pick up", "id": "mengambil, memilih"}},
+        {"id": 15, "kanji": "捕る", "hiragana": "とる", "romaji": "toru", "meanings": {"en": "to catch, to capture", "id": "melangkap"}},
+        {"id": 16, "kanji": "整える", "hiragana": "ととのえる", "romaji": "totonoeru", "meanings": {"en": "to arrange, to put in order", "id": "membereskan, merapikan"}},
+        {"id": 17, "kanji": "整う", "hiragana": "ととのう", "romaji": "totonou", "meanings": {"en": "to be arranged, to be in order", "id": "beres, rapi, serasi"}},
+        {"id": 18, "kanji": "問う", "hiragana": "とう", "romaji": "to'u", "meanings": {"en": "to ask, to inquire", "id": "menanyakan, mempertanyakan"}},
+        {"id": 19, "kanji": "潰れる", "hiragana": "つぶれる", "romaji": "tsubureru", "meanings": {"en": "to be crushed, to collapse", "id": "① hancur, lumat, rusak ② bangkrut"}},
+        {"id": 20, "kanji": "潰す", "hiragana": "つぶす", "romaji": "tsubusu", "meanings": {"en": "to crush, to smash", "id": "menghancurkan, melumat, merusak"}},
+        {"id": 21, "kanji": "つぶやく", "hiragana": "つぶやく", "romaji": "tsubuyaku", "meanings": {"en": "to mutter, to murmur", "id": "menggerutu"}},
+        {"id": 22, "kanji": "継ぐ", "hiragana": "つぐ", "romaji": "tsugu", "meanings": {"en": "to succeed, to inherit", "id": "① mewarisi, melanjutkan ② menambah"}},
+        {"id": 23, "kanji": "次ぐ", "hiragana": "つぐ", "romaji": "tsugu", "meanings": {"en": "to follow, to come after", "id": "① berlanjut, selanjutnya ② setelah"}},
+        {"id": 24, "kanji": "費やす", "hiragana": "ついやす", "romaji": "tsuiyasu", "meanings": {"en": "to spend, to devote", "id": "memboroskan, menghabiskan"}},
+        {"id": 25, "kanji": "浸かる", "hiragana": "つかる", "romaji": "tsukaru", "meanings": {"en": "to be soaked, to be immersed", "id": "berendam, terendam"}},
+        {"id": 26, "kanji": "浸ける", "hiragana": "つける", "romaji": "tsukeru", "meanings": {"en": "to soak, to dip", "id": "merendamkan, mencocolkan"}},
+        {"id": 27, "kanji": "突き当たる", "hiragana": "つきあたる", "romaji": "tsukiataru", "meanings": {"en": "to bump into, to run into", "id": "membentur, menabrak"}},
+        {"id": 28, "kanji": "就く", "hiragana": "つく", "romaji": "tsuku", "meanings": {"en": "to take (a position), to start work", "id": "mendapat jabatan, berguru"}}
+      ]
+    }
+  ]
+}

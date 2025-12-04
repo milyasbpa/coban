@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "NAOSU",
+        "en": "NAOSU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "出直す", "hiragana": "でなおす", "romaji": "de naosu", "meanings": {"en": "to start over", "id": "memulai kembali"}},
+        {"id": 2, "kanji": "言い直す", "hiragana": "いいなおす", "romaji": "ii naosu", "meanings": {"en": "to say again", "id": "mengatakan kembali"}},
+        {"id": 3, "kanji": "書き直す", "hiragana": "かきなおす", "romaji": "kaki naosu", "meanings": {"en": "to rewrite", "id": "menulis kembali"}},
+        {"id": 4, "kanji": "考え直す", "hiragana": "かんがえなおす", "romaji": "kan'gae naosu", "meanings": {"en": "to reconsider", "id": "memikirkan kembali"}},
+        {"id": 5, "kanji": "聞き直す", "hiragana": "ききなおす", "romaji": "kiki naosu", "meanings": {"en": "to ask again", "id": "menanyakan kembali"}},
+        {"id": 6, "kanji": "見直す", "hiragana": "みなおす", "romaji": "mi naosu", "meanings": {"en": "to review", "id": "meninjau kembali"}},
+        {"id": 7, "kanji": "持ち直す", "hiragana": "もちなおす", "romaji": "mochi naosu", "meanings": {"en": "to recover", "id": "membaik, pulih kembali"}},
+        {"id": 8, "kanji": "思い直す", "hiragana": "おもいなおす", "romaji": "omoi naosu", "meanings": {"en": "to reconsider", "id": "mempertimbangkan kembali"}},
+        {"id": 9, "kanji": "作り直す", "hiragana": "つくりなおす", "romaji": "tsukuri naosu", "meanings": {"en": "to remake", "id": "membuat kembali"}},
+        {"id": 10, "kanji": "やり直す", "hiragana": "やりなおす", "romaji": "yari naosu", "meanings": {"en": "to redo", "id": "memperbaiki kembali"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "DERAJAT, TINGKAT",
+        "en": "DEGREE, LEVEL"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "できるだけ", "hiragana": "できるだけ", "romaji": "dekiru dake", "meanings": {"en": "as much as possible", "id": "sebisa mungkin"}},
+        {"id": 2, "kanji": "ほぼ", "hiragana": "ほぼ", "romaji": "hobo", "meanings": {"en": "almost", "id": "hampir, sebagian besar"}},
+        {"id": 3, "kanji": "最も", "hiragana": "もっとも", "romaji": "mottomo", "meanings": {"en": "most", "id": "paling"}},
+        {"id": 4, "kanji": "何もかも", "hiragana": "なにもかも", "romaji": "nanimokamo", "meanings": {"en": "everything", "id": "apapun, segalanya"}},
+        {"id": 5, "kanji": "少々", "hiragana": "しょうしょう", "romaji": "shoushou", "meanings": {"en": "a little", "id": "agak, sedikit"}},
+        {"id": 6, "kanji": "相当", "hiragana": "そうとう", "romaji": "soutou", "meanings": {"en": "considerably", "id": "cukup, lumayan"}},
+        {"id": 7, "kanji": "全て", "hiragana": "すべて", "romaji": "subete", "meanings": {"en": "all", "id": "semuanya, seluruhnya"}},
+        {"id": 8, "kanji": "たっぷり", "hiragana": "たっぷり", "romaji": "tappuri", "meanings": {"en": "plenty", "id": "banyak sekali"}},
+        {"id": 9, "kanji": "少し多い", "hiragana": "すこしたおい", "romaji": "sukoshi taoi", "meanings": {"en": "a little more", "id": "sedikit banyak"}},
+        {"id": 10, "kanji": "多少", "hiragana": "たしょう", "romaji": "tashou", "meanings": {"en": "more or less", "id": "termasuk, terhitung"}},
+        {"id": 11, "kanji": "割に", "hiragana": "わりに", "romaji": "wari ni", "meanings": {"en": "comparatively", "id": "termasuk, terhitung"}},
+        {"id": 12, "kanji": "割と", "hiragana": "わりと", "romaji": "wari to", "meanings": {"en": "relatively", "id": "termasuk, terhitung"}}
+      ]
+    }
+  ]
+}

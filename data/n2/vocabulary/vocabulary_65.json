@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "改名", "hiragana": "かいめい", "romaji": "kaimei", "meanings": {"en": "name change", "id": "penggantian nama"}},
+        {"id": 2, "kanji": "改良", "hiragana": "かいりょう", "romaji": "kairyou", "meanings": {"en": "improvement, refinement", "id": "perbaikan, penyempurnaan"}},
+        {"id": 3, "kanji": "開催", "hiragana": "かいさい", "romaji": "kaisai", "meanings": {"en": "holding (an event), organization", "id": "penyelenggaraan"}},
+        {"id": 4, "kanji": "改札口", "hiragana": "かいさつぐち", "romaji": "kaisatsuguchi", "meanings": {"en": "ticket gate", "id": "pintu pemeriksaan karcis"}},
+        {"id": 5, "kanji": "改正", "hiragana": "かいせい", "romaji": "kaisei", "meanings": {"en": "revision, amendment", "id": "revisi, perbaikan, amandemen"}},
+        {"id": 6, "kanji": "改心", "hiragana": "かいしん", "romaji": "kaishin", "meanings": {"en": "reformation of character", "id": "perbaikan kelakuan"}},
+        {"id": 7, "kanji": "改修", "hiragana": "かいしゅう", "romaji": "kaishuu", "meanings": {"en": "repair, restoration", "id": "pembetulan, perbaikan, reparasi"}},
+        {"id": 8, "kanji": "改定", "hiragana": "かいてい", "romaji": "kaitei", "meanings": {"en": "revision (rules/system)", "id": "revisi peraturan/sistem, perubahan ketetapan"}},
+        {"id": 9, "kanji": "開店", "hiragana": "かいてん", "romaji": "kaiten", "meanings": {"en": "opening of a store", "id": "pembukaan toko"}},
+        {"id": 10, "kanji": "回答", "hiragana": "かいとう", "romaji": "kaitou", "meanings": {"en": "answer, reply", "id": "jawaban pertanyaan"}},
+        {"id": 11, "kanji": "改善", "hiragana": "かいぜん", "romaji": "kaizen", "meanings": {"en": "improvement (for progress)", "id": "perbaikan untuk kemajuan"}},
+        {"id": 12, "kanji": "改造", "hiragana": "かいぞう", "romaji": "kaizou", "meanings": {"en": "remodeling, modification", "id": "perubahan bentuk/model"}},
+        {"id": 13, "kanji": "家事", "hiragana": "かじ", "romaji": "kaji", "meanings": {"en": "housework, household chores", "id": "pekerjaan rumah tangga"}},
+        {"id": 14, "kanji": "拡大", "hiragana": "かくだい", "romaji": "kakudai", "meanings": {"en": "expansion, enlargement", "id": "perbesaran, perluasan, pertambahan"}},
+        {"id": 15, "kanji": "各自", "hiragana": "かくじ", "romaji": "kakuji", "meanings": {"en": "each person", "id": "setiap orang masing-masing"}},
+        {"id": 16, "kanji": "勘", "hiragana": "かん", "romaji": "kan", "meanings": {"en": "intuition, feeling", "id": "intuis, perasaan hati"}},
+        {"id": 17, "kanji": "勘定", "hiragana": "かんじょう", "romaji": "kanjou", "meanings": {"en": "bill, account", "id": "bon, tagihan"}},
+        {"id": 18, "kanji": "感情", "hiragana": "かんじょう", "romaji": "kanjyou", "meanings": {"en": "emotion, feeling", "id": "perasaan, emosi"}},
+        {"id": 19, "kanji": "感覚", "hiragana": "かんかく", "romaji": "kankaku", "meanings": {"en": "sense, sensation", "id": "perasaan"}},
+        {"id": 20, "kanji": "関連", "hiragana": "かんれん", "romaji": "kanren", "meanings": {"en": "relation, connection", "id": "kaitan, hubungan, sangkut paut"}},
+        {"id": 21, "kanji": "管理", "hiragana": "かんり", "romaji": "kanri", "meanings": {"en": "management, administration", "id": "pengelolaan, pengaturan, pengawasan"}},
+        {"id": 22, "kanji": "関心", "hiragana": "かんしん", "romaji": "kanshin", "meanings": {"en": "interest, concern", "id": "kepedulian, ketertarikan, perhatian"}},
+        {"id": 23, "kanji": "観測", "hiragana": "かんそく", "romaji": "kansoku", "meanings": {"en": "observation, survey", "id": "pengamatan, observasi"}},
+        {"id": 24, "kanji": "乾燥", "hiragana": "かんそう", "romaji": "kansou", "meanings": {"en": "dryness, dehydration", "id": "kering, kekeringan"}},
+        {"id": 25, "kanji": "監督", "hiragana": "かんとく", "romaji": "kantoku", "meanings": {"en": "supervision, director", "id": "pengawas, sutradara"}},
+        {"id": 26, "kanji": "歓迎", "hiragana": "かんげい", "romaji": "kan'gei", "meanings": {"en": "welcome, reception", "id": "penyambutan, selamat datang"}},
+        {"id": 27, "kanji": "感激", "hiragana": "かんげき", "romaji": "kan'geki", "meanings": {"en": "deep emotion, impression", "id": "kesan yang kuat, emosi yang dalam"}},
+        {"id": 28, "kanji": "空", "hiragana": "から", "romaji": "kara", "meanings": {"en": "empty, false", "id": "kosong, pura-pura, palsu"}},
+        {"id": 29, "kanji": "加速", "hiragana": "かそく", "romaji": "kasoku", "meanings": {"en": "acceleration, increase in speed", "id": "peningkatan kecepatan, akselerasi"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "気配", "hiragana": "けはい", "romaji": "kehai", "meanings": {"en": "sign, indication", "id": "tanda, indikasi"}},
+        {"id": 2, "kanji": "経費", "hiragana": "けいひ", "romaji": "keihi", "meanings": {"en": "expenses, operating cost", "id": "biaya operasional, pengeluaran"}},
+        {"id": 3, "kanji": "景気", "hiragana": "けいき", "romaji": "keiki", "meanings": {"en": "business climate, economic condition", "id": "keadaan pasar, aktivitas bisnis"}},
+        {"id": 4, "kanji": "傾向", "hiragana": "けいこう", "romaji": "keikou", "meanings": {"en": "trend, tendency", "id": "kecenderungan, tendensi"}},
+        {"id": 5, "kanji": "形式", "hiragana": "けいしき", "romaji": "keishiki", "meanings": {"en": "form, format, formalities", "id": "bentuk, tampilan, formalitas"}},
+        {"id": 6, "kanji": "欠陥", "hiragana": "けっかん", "romaji": "kekkan", "meanings": {"en": "defect, flaw, deficiency", "id": "cacat, kekurangan, kelemahan"}},
+        {"id": 7, "kanji": "券", "hiragana": "けん", "romaji": "ken", "meanings": {"en": "ticket, coupon", "id": "kupon, tiket"}},
+        {"id": 8, "kanji": "建築", "hiragana": "けんちく", "romaji": "kenchiku", "meanings": {"en": "architecture, construction", "id": "bangunan, arsitektur"}},
+        {"id": 9, "kanji": "権利", "hiragana": "けんり", "romaji": "kenri", "meanings": {"en": "right, privilege", "id": "hak"}},
+        {"id": 10, "kanji": "謙遜", "hiragana": "けんそん", "romaji": "kenson", "meanings": {"en": "humility, modesty", "id": "kerendahan hati"}},
+        {"id": 11, "kanji": "検討", "hiragana": "けんとう", "romaji": "kentou", "meanings": {"en": "consideration, examination", "id": "pertimbangan, peninjauan"}},
+        {"id": 12, "kanji": "見当", "hiragana": "けんとう", "romaji": "kentou", "meanings": {"en": "guess, estimate, aim", "id": "① perkiraan, dugaan ② maksud, tujuan"}},
+        {"id": 13, "kanji": "結論", "hiragana": "けつろん", "romaji": "ketsuron", "meanings": {"en": "conclusion, decision", "id": "kesimpulan"}},
+        {"id": 14, "kanji": "気分", "hiragana": "きぶん", "romaji": "kibun", "meanings": {"en": "mood, feeling", "id": "perasaan, keadaan kesehatan/lingkungan"}},
+        {"id": 15, "kanji": "期限", "hiragana": "きげん", "romaji": "kigen", "meanings": {"en": "time limit, deadline", "id": "batas waktu, masa berlaku"}},
+        {"id": 16, "kanji": "気分", "hiragana": "きぶん", "romaji": "kibun", "meanings": {"en": "mood, feeling", "id": "suasana hati"}},
+        {"id": 17, "kanji": "基準", "hiragana": "きじゅん", "romaji": "kijyun", "meanings": {"en": "standard, criterion", "id": "patokan, ukuran, standar"}},
+        {"id": 18, "kanji": "きっかけ", "hiragana": "きっかけ", "romaji": "kikkake", "meanings": {"en": "trigger, motive", "id": "alasan semula, motivasi asal"}},
+        {"id": 19, "kanji": "記憶", "hiragana": "きおく", "romaji": "kioku", "meanings": {"en": "memory, recollection", "id": "daya ingat, memori"}},
+        {"id": 20, "kanji": "基礎", "hiragana": "きそ", "romaji": "kiso", "meanings": {"en": "foundation, basis", "id": "dasar, fondasi, landasan"}},
+        {"id": 21, "kanji": "期待", "hiragana": "きたい", "romaji": "kitai", "meanings": {"en": "expectation, hope", "id": "harapan, dambaan"}},
+        {"id": 22, "kanji": "混乱", "hiragana": "こんらん", "romaji": "konran", "meanings": {"en": "confusion, disorder", "id": "kekacauan, kesemerawutan, kekalutan"}},
+        {"id": 23, "kanji": "個性", "hiragana": "こせい", "romaji": "kosei", "meanings": {"en": "individuality, personality", "id": "kepribadian, karakter"}},
+        {"id": 24, "kanji": "ことわざ", "hiragana": "ことわざ", "romaji": "kotowaza", "meanings": {"en": "proverb, saying", "id": "pepatah, peri bahasa"}},
+        {"id": 25, "kanji": "行動", "hiragana": "こうどう", "romaji": "koudou", "meanings": {"en": "action, conduct", "id": "tindakan, perbuatan, tingkah laku"}},
+        {"id": 26, "kanji": "候補", "hiragana": "こうほ", "romaji": "kouho", "meanings": {"en": "candidate, nominee", "id": "calon, kandidat"}},
+        {"id": 27, "kanji": "口実", "hiragana": "こうじつ", "romaji": "koujitsu", "meanings": {"en": "excuse, pretext", "id": "alasan, dalih"}},
+        {"id": 28, "kanji": "考慮", "hiragana": "こうりょ", "romaji": "kouryo", "meanings": {"en": "consideration, taking into account", "id": "pertimbangan"}},
+        {"id": 29, "kanji": "構成", "hiragana": "こうせい", "romaji": "kousei", "meanings": {"en": "structure, composition", "id": "struktur, kerangka, susunan, komposisi"}}
+      ]
+    }
+  ]
+}

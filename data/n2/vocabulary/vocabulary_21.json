@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "TANAMAN, TUMBUH-TUMBUHAN",
+        "en": "PLANTS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "木", "hiragana": "き", "romaji": "ki", "meanings": {"en": "tree", "id": "pohon"}},
+        {"id": 2, "kanji": "茎", "hiragana": "くき", "romaji": "kuki", "meanings": {"en": "stem", "id": "batang, tangkai"}},
+        {"id": 3, "kanji": "草", "hiragana": "くさ", "romaji": "kusa", "meanings": {"en": "grass", "id": "rumput, ilalang"}},
+        {"id": 4, "kanji": "芽", "hiragana": "め", "romaji": "me", "meanings": {"en": "bud", "id": "tunas"}},
+        {"id": 5, "kanji": "雌しべ", "hiragana": "めしべ", "romaji": "meshibe", "meanings": {"en": "pistil", "id": "putik bunga"}},
+        {"id": 6, "kanji": "実", "hiragana": "み", "romaji": "mi", "meanings": {"en": "fruit, seed", "id": "buah, biji"}},
+        {"id": 7, "kanji": "幹", "hiragana": "みき", "romaji": "miki", "meanings": {"en": "trunk", "id": "tangkai pohon"}},
+        {"id": 8, "kanji": "根", "hiragana": "ね", "romaji": "ne", "meanings": {"en": "root", "id": "akar"}},
+        {"id": 9, "kanji": "雄しべ", "hiragana": "おしべ", "romaji": "oshibe", "meanings": {"en": "stamen", "id": "benang sari bunga"}},
+        {"id": 10, "kanji": "種", "hiragana": "たね", "romaji": "tane", "meanings": {"en": "seed", "id": "bibit, benih"}},
+        {"id": 11, "kanji": "つぼみ", "hiragana": "つぼみ", "romaji": "tsubomi", "meanings": {"en": "bud", "id": "pucuk, kuncup"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "生える", "hiragana": "はえる", "romaji": "haeru", "meanings": {"en": "to grow, live", "id": "tumbuh, hidup"}},
+        {"id": 2, "kanji": "開く", "hiragana": "ひらく", "romaji": "hiraku", "meanings": {"en": "to open, bloom", "id": "terbuka, mekar"}},
+        {"id": 3, "kanji": "枯れる", "hiragana": "かれる", "romaji": "kareru", "meanings": {"en": "to wither", "id": "layu, menjadi kuning"}},
+        {"id": 4, "kanji": "実がなる", "hiragana": "みがなる", "romaji": "mi ga naru", "meanings": {"en": "to bear fruit", "id": "berbuah"}},
+        {"id": 5, "kanji": "伸びる", "hiragana": "のびる", "romaji": "nobiru", "meanings": {"en": "to grow, expand", "id": "tumbuh berkembang"}},
+        {"id": 6, "kanji": "咲く", "hiragana": "さく", "romaji": "saku", "meanings": {"en": "to bloom", "id": "mekar, berkembang"}},
+        {"id": 7, "kanji": "成長する", "hiragana": "せいちょうする", "romaji": "seichou suru", "meanings": {"en": "to grow", "id": "tumbuh berkembang"}},
+        {"id": 8, "kanji": "萎む", "hiragana": "しぼむ", "romaji": "shibomu", "meanings": {"en": "to wilt", "id": "layu, menciut"}},
+        {"id": 9, "kanji": "萎れる", "hiragana": "しおれる", "romaji": "shioreru", "meanings": {"en": "to wilt", "id": "layu, menciut"}},
+        {"id": 10, "kanji": "育つ", "hiragana": "そだつ", "romaji": "sodatsu", "meanings": {"en": "to grow up", "id": "tumbuh menjadi besar"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "BINATANG BUAS",
+        "en": "WILD ANIMALS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ひげ", "hiragana": "ひげ", "romaji": "hige", "meanings": {"en": "whiskers, beard", "id": "kumis, jenggot"}}
+      ]
+    }
+  ]
+}

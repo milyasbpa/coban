@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "MUSIM DINGIN",
+        "en": "WINTER SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "餅つき", "hiragana": "もちつき", "romaji": "mochitsuki", "meanings": {"en": "mochi pounding", "id": "tumbuk nasi ketan utk membuat kue ketan"}},
+        {"id": 2, "kanji": "鍋物", "hiragana": "なべもの", "romaji": "nabemono", "meanings": {"en": "hot pot", "id": "masakan yg dimakan sambil dimasak dlm panci"}},
+        {"id": 3, "kanji": "おでん", "hiragana": "おでん", "romaji": "oden", "meanings": {"en": "oden", "id": "(makanan) oden"}},
+        {"id": 4, "kanji": "大掃除", "hiragana": "おおそうじ", "romaji": "oosouji", "meanings": {"en": "major cleaning", "id": "berbenah secara besar-besaran"}},
+        {"id": 5, "kanji": "お歳暮", "hiragana": "おせいぼ", "romaji": "oseibo", "meanings": {"en": "year-end gift", "id": "bingkisan akhir tahun kpd orang yg sudah berjasa"}},
+        {"id": 6, "kanji": "ポインセチア", "hiragana": "ぽいんせちあ", "romaji": "poinsenchia", "meanings": {"en": "poinsettia", "id": "sejenis tanaman (Poinsettia)"}},
+        {"id": 7, "kanji": "プレゼント", "hiragana": "ぷれぜんと", "romaji": "purezento", "meanings": {"en": "present", "id": "hadiah"}},
+        {"id": 8, "kanji": "りんご", "hiragana": "りんご", "romaji": "rin'go", "meanings": {"en": "apple", "id": "buah apel"}},
+        {"id": 9, "kanji": "歳末大売出し", "hiragana": "さいまつおおうりだし", "romaji": "saimatsu oo'uridashi", "meanings": {"en": "year-end big sale", "id": "obral besar akhir tahun"}},
+        {"id": 10, "kanji": "サンタクロース", "hiragana": "さんたくろーす", "romaji": "santakurōsu", "meanings": {"en": "Santa Claus", "id": "sinterklas"}},
+        {"id": 11, "kanji": "セール", "hiragana": "せーる", "romaji": "sēru", "meanings": {"en": "sale", "id": "obral, sale"}},
+        {"id": 12, "kanji": "霜", "hiragana": "しも", "romaji": "shimo", "meanings": {"en": "frost", "id": "embun beku"}},
+        {"id": 13, "kanji": "スキー", "hiragana": "すきー", "romaji": "sukī", "meanings": {"en": "ski", "id": "(olahraga) ski"}},
+        {"id": 14, "kanji": "宝くじ", "hiragana": "たからくじ", "romaji": "takarakuji", "meanings": {"en": "lottery", "id": "lotre"}},
+        {"id": 15, "kanji": "トナカイ", "hiragana": "となかい", "romaji": "tonakai", "meanings": {"en": "reindeer", "id": "rusa kutub"}},
+        {"id": 16, "kanji": "椿", "hiragana": "つばき", "romaji": "tsubaki", "meanings": {"en": "camellia", "id": "bunga kamelia"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "BENCANA AIR",
+        "en": "WATER DISASTER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "氾濫", "hiragana": "はんらん", "romaji": "hanran", "meanings": {"en": "flood", "id": "banjir, air meluap"}},
+        {"id": 2, "kanji": "洪水", "hiragana": "こうずい", "romaji": "kouzui", "meanings": {"en": "flood", "id": "banjir, air bah"}},
+        {"id": 3, "kanji": "流される", "hiragana": "ながされる", "romaji": "nagasareru", "meanings": {"en": "to be swept away", "id": "hanyut (terbawa air)"}},
+        {"id": 4, "kanji": "溺れる", "hiragana": "おぼれる", "romaji": "oboreru", "meanings": {"en": "to drown", "id": "tenggelam"}},
+        {"id": 5, "kanji": "大雨", "hiragana": "おおあめ", "romaji": "ooame", "meanings": {"en": "heavy rain", "id": "hujan deras/lebat"}},
+        {"id": 6, "kanji": "落雷", "hiragana": "らくらい", "romaji": "rakurai", "meanings": {"en": "lightning strike", "id": "petir yang menyambar"}},
+        {"id": 7, "kanji": "さらわれる", "hiragana": "さらわれる", "romaji": "sarawareru", "meanings": {"en": "to be swept away", "id": "tertelan (ombak)"}},
+        {"id": 8, "kanji": "浸水", "hiragana": "しんすい", "romaji": "shinsui", "meanings": {"en": "inundation", "id": "tergenang/terendam air"}},
+        {"id": 9, "kanji": "注中豪雨", "hiragana": "ちゅうちゅうごうう", "romaji": "chuuchuu gou'u", "meanings": {"en": "concentrated heavy rain", "id": "hujan lebat yang terkonsentrasi"}}
+      ]
+    }
+  ]
+}

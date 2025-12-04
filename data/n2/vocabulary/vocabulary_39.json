@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "退ける", "hiragana": "どける", "romaji": "dokeru", "meanings": {"en": "to remove, to put aside", "id": "menyingkirkan, meminggirkan"}},
+        {"id": 2, "kanji": "退く", "hiragana": "どく", "romaji": "doku", "meanings": {"en": "to step aside, to move out of the way", "id": "menyingkir, ke pinggir"}},
+        {"id": 3, "kanji": "怒鳴る", "hiragana": "どなる", "romaji": "donaru", "meanings": {"en": "to shout, to yell", "id": "menghardik, membentak"}},
+        {"id": 4, "kanji": "描く", "hiragana": "えがく", "romaji": "egaku", "meanings": {"en": "to draw, to paint", "id": "melukis, menggambar"}},
+        {"id": 5, "kanji": "膨らむ", "hiragana": "ふくらむ", "romaji": "fukuramu", "meanings": {"en": "to swell, to expand", "id": "menggelembung, membengkak"}},
+        {"id": 6, "kanji": "膨らます", "hiragana": "ふくらます", "romaji": "fukuramasu", "meanings": {"en": "to inflate, to swell", "id": "menggelembungkan, mengembangkan"}},
+        {"id": 7, "kanji": "膨れる", "hiragana": "ふくれる", "romaji": "fukureru", "meanings": {"en": "to swell, to expand", "id": "① menggelembung ② cemberut, masam"}},
+        {"id": 8, "kanji": "触れる", "hiragana": "ふれる", "romaji": "fureru", "meanings": {"en": "to touch, to feel", "id": "menyentuh, mengusap"}},
+        {"id": 9, "kanji": "振り向く", "hiragana": "ふりむく", "romaji": "furimuku", "meanings": {"en": "to turn around, to look back", "id": "menengok, berpaling"}},
+        {"id": 10, "kanji": "震える", "hiragana": "ふるえる", "romaji": "furueru", "meanings": {"en": "to tremble, to shiver", "id": "gemetar, menggigil"}},
+        {"id": 11, "kanji": "塞がる", "hiragana": "ふさがる", "romaji": "fusagaru", "meanings": {"en": "to be blocked, to be closed", "id": "① tersumbat ② terisi penuh"}},
+        {"id": 12, "kanji": "塞ぐ", "hiragana": "ふさぐ", "romaji": "fusagu", "meanings": {"en": "to block, to close", "id": "① menyumbat ② tertekan"}},
+        {"id": 13, "kanji": "防ぐ", "hiragana": "ふせぐ", "romaji": "fusegu", "meanings": {"en": "to prevent, to defend", "id": "mencegah, menghalangi"}},
+        {"id": 14, "kanji": "ふざける", "hiragana": "ふざける", "romaji": "fuzakeru", "meanings": {"en": "to joke, to fool around", "id": "bergurau, berkelakar"}},
+        {"id": 15, "kanji": "がっかりする", "hiragana": "がっかりする", "romaji": "gakkari suru", "meanings": {"en": "to be disappointed", "id": "kecewa"}},
+        {"id": 16, "kanji": "省く", "hiragana": "はぶく", "romaji": "habuku", "meanings": {"en": "to omit, to save", "id": "meniadakan, menghemat"}},
+        {"id": 17, "kanji": "剥がす/剥ぐ", "hiragana": "はがす/はぐ", "romaji": "hagasu/hagu", "meanings": {"en": "to peel off, to strip", "id": "mengelupaskan"}},
+        {"id": 18, "kanji": "励ます", "hiragana": "はげます", "romaji": "hagemasu", "meanings": {"en": "to encourage, to cheer up", "id": "memberikan dukungan, membesarkan hati"}},
+        {"id": 19, "kanji": "励む", "hiragana": "はげむ", "romaji": "hagemu", "meanings": {"en": "to strive, to endeavor", "id": "berusaha keras"}},
+        {"id": 20, "kanji": "測る/計る/量る", "hiragana": "はかる", "romaji": "hakaru", "meanings": {"en": "to measure, to weigh", "id": "mengukur, menimbang"}},
+        {"id": 21, "kanji": "吐く", "hiragana": "はく", "romaji": "haku", "meanings": {"en": "to vomit, to breathe out", "id": "memuntahkan, menghela (nafas)"}},
+        {"id": 22, "kanji": "はまる", "hiragana": "はまる", "romaji": "hamaru", "meanings": {"en": "to fit, to get stuck", "id": "① terjebak, jatuh ② pas, cocok"}},
+        {"id": 23, "kanji": "はめる", "hiragana": "はめる", "romaji": "hameru", "meanings": {"en": "to insert, to put on", "id": "① menjebak ② mencocokan, memakai"}},
+        {"id": 24, "kanji": "跳ねる", "hiragana": "はねる", "romaji": "haneru", "meanings": {"en": "to jump, to leap", "id": "melompat, melambung"}},
+        {"id": 25, "kanji": "反する", "hiragana": "はんする", "romaji": "hansuru", "meanings": {"en": "to oppose, to contradict", "id": "bertentangan, berlawanan"}},
+        {"id": 26, "kanji": "払い戻す", "hiragana": "はらいもどす", "romaji": "haraimodosu", "meanings": {"en": "to refund, to pay back", "id": "mengembalikan pembayaran"}},
+        {"id": 27, "kanji": "張り切る", "hiragana": "はりきる", "romaji": "harikiru", "meanings": {"en": "to be full of energy", "id": "antusias, penuh semangat"}},
+        {"id": 28, "kanji": "挟まる", "hiragana": "はさまる", "romaji": "hasamaru", "meanings": {"en": "to get caught, to be jammed", "id": "terjepit, terhimpit"}},
+        {"id": 29, "kanji": "挟む", "hiragana": "はさむ", "romaji": "hasamu", "meanings": {"en": "to pinch, to cut", "id": "menjepit, menggunting"}}
+      ]
+    }
+  ]
+}

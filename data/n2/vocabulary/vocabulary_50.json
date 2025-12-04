@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "AGARU",
+        "en": "AGARU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "出来上がる", "hiragana": "できあがる", "romaji": "deki agaru", "meanings": {"en": "to be completed", "id": "selesai, jadi"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "AGERU",
+        "en": "AGERU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "見上げる", "hiragana": "みあげる", "romaji": "mi ageru", "meanings": {"en": "to look up", "id": "melihat ke atas, mendongak"}},
+        {"id": 2, "kanji": "持ち上げる", "hiragana": "もちあげる", "romaji": "mochi ageru", "meanings": {"en": "to lift up", "id": "mengangkat naik, menjunjung, menyanjung"}},
+        {"id": 3, "kanji": "取り上げる", "hiragana": "とりあげる", "romaji": "tori ageru", "meanings": {"en": "to take up", "id": "1. membahas (masalah) 2. melucuti"}},
+        {"id": 4, "kanji": "積み上げる", "hiragana": "つみあげる", "romaji": "tsumi ageru", "meanings": {"en": "to pile up", "id": "menumpukkan ke atas, menimbun"}},
+        {"id": 5, "kanji": "打ち上げる", "hiragana": "うちあげる", "romaji": "uchi ageru", "meanings": {"en": "to launch", "id": "1. menembakkan ke atas 2. menyelesaikan"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "AGERU",
+        "en": "AGERU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "鍛え上げる", "hiragana": "きたえあげる", "romaji": "kitae ageru", "meanings": {"en": "to train perfectly", "id": "melatih dengan sempurna"}},
+        {"id": 2, "kanji": "繰り上げる", "hiragana": "くりあげる", "romaji": "kuri ageru", "meanings": {"en": "to advance", "id": "mempercepat"}},
+        {"id": 3, "kanji": "磨き上げる", "hiragana": "みがきあげる", "romaji": "migaki ageru", "meanings": {"en": "to polish perfectly", "id": "memoles dengan sempurna"}}
+      ]
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": "AGERU",
+        "en": "AGERU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "書き上げる", "hiragana": "かきあげる", "romaji": "kaki ageru", "meanings": {"en": "to finish writing", "id": "menyelesaikan penulisan"}},
+        {"id": 2, "kanji": "切り上げる", "hiragana": "きりあげる", "romaji": "kiri ageru", "meanings": {"en": "to finish, to round up", "id": "1. menyelesaikan 2. mempercepat"}},
+        {"id": 3, "kanji": "育て上げる", "hiragana": "そだてあげる", "romaji": "sodate ageru", "meanings": {"en": "to raise successfully", "id": "berhasil membesarkan/mengasuh"}},
+        {"id": 4, "kanji": "読み上げる", "hiragana": "よみあげる", "romaji": "yomi ageru", "meanings": {"en": "to finish reading", "id": "selesai membaca"}}
+      ]
+    },
+    {
+      "id": 5,
+      "category": {
+        "id": "AGERU",
+        "en": "AGERU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "数え上げる", "hiragana": "かぞえあげる", "romaji": "kazoe ageru", "meanings": {"en": "to count one by one", "id": "menghitung satu per satu"}},
+        {"id": 2, "kanji": "読み上げる", "hiragana": "よみあげる", "romaji": "yomi ageru", "meanings": {"en": "to read one by one", "id": "membaca satu per satu"}}
+      ]
+    },
+    {
+      "id": 6,
+      "category": {
+        "id": "AU",
+        "en": "AU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "出し合う", "hiragana": "だしあう", "romaji": "dashi au", "meanings": {"en": "to exchange, to take out together", "id": "saling/bergantian mengeluarkan"}},
+        {"id": 2, "kanji": "言い合う", "hiragana": "いいあう", "romaji": "ii au", "meanings": {"en": "to argue", "id": "saling berantahan"}},
+        {"id": 3, "kanji": "語り合う", "hiragana": "かたりあう", "romaji": "katari au", "meanings": {"en": "to talk together", "id": "saling mengatakan"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT",
+        "en": "ADJECTIVES"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "真実な", "hiragana": "しんじつな", "romaji": "shinjitsu na", "meanings": {"en": "truthful, honest", "id": "jujur, lurus, sejati"}},
+        {"id": 2, "kanji": "神経質な", "hiragana": "しんけいしつな", "romaji": "shinkeishitsu na", "meanings": {"en": "nervous, temperamental", "id": "tegang, temperamental"}},
+        {"id": 3, "kanji": "真剣な", "hiragana": "しんけんな", "romaji": "shinken na", "meanings": {"en": "serious, earnest", "id": "serius, bersungguh-sungguh"}},
+        {"id": 4, "kanji": "深刻な", "hiragana": "しんこくな", "romaji": "shinkoku na", "meanings": {"en": "serious, grave", "id": "parah, serius"}},
+        {"id": 5, "kanji": "しつこい", "hiragana": "しつこい", "romaji": "shitsukoi", "meanings": {"en": "persistent, insistent", "id": "membandel, bersikeras, ngotot"}},
+        {"id": 6, "kanji": "主要な", "hiragana": "しゅうような", "romaji": "shuyou na", "meanings": {"en": "main, principal", "id": "pokok, utama"}},
+        {"id": 7, "kanji": "率直な", "hiragana": "そっちょくな", "romaji": "socchoku na", "meanings": {"en": "frank, straightforward", "id": "terus terang, apa adanya"}},
+        {"id": 8, "kanji": "そそっかしい", "hiragana": "そそっかしい", "romaji": "sosokkashii", "meanings": {"en": "careless, hasty", "id": "ceroboh, lengah, gegabah"}},
+        {"id": 9, "kanji": "騒々しい", "hiragana": "そうぞうしい", "romaji": "souzoushii", "meanings": {"en": "noisy, boisterous", "id": "bising, gaduh, ribut"}},
+        {"id": 10, "kanji": "素直な", "hiragana": "すなおな", "romaji": "sunao na", "meanings": {"en": "obedient, honest", "id": "lurus, patuh, terus terang, apa adanya"}},
+        {"id": 11, "kanji": "鋭い", "hiragana": "するどい", "romaji": "surudoi", "meanings": {"en": "sharp, pointed", "id": "tajam, runcing"}},
+        {"id": 12, "kanji": "単純な", "hiragana": "たんじゅんな", "romaji": "tanjun na", "meanings": {"en": "simple, naive", "id": "sederhana, naif"}},
+        {"id": 13, "kanji": "手軽な", "hiragana": "てがるな", "romaji": "tegaru na", "meanings": {"en": "easy, handy", "id": "mudah, sederhana, terjangkau"}},
+        {"id": 14, "kanji": "手ごろな", "hiragana": "てごろな", "romaji": "tegoro na", "meanings": {"en": "reasonable, suitable", "id": "pantas, layak, pas"}},
+        {"id": 15, "kanji": "適度な", "hiragana": "てきどな", "romaji": "tekido na", "meanings": {"en": "moderate, proper", "id": "cukup, tepat, pas"}},
+        {"id": 16, "kanji": "的確な", "hiragana": "てきかくな", "romaji": "tekikaku na", "meanings": {"en": "accurate, precise", "id": "akurat, tepat"}},
+        {"id": 17, "kanji": "特殊な", "hiragana": "とくしゅな", "romaji": "tokushu na", "meanings": {"en": "special, unique", "id": "istimewa, khusus, unik"}},
+        {"id": 18, "kanji": "とんでもない", "hiragana": "とんでもない", "romaji": "tondemonai", "meanings": {"en": "outrageous, unthinkable", "id": "tidak masuk akal"}},
+        {"id": 19, "kanji": "透明な", "hiragana": "とうめいな", "romaji": "toumei na", "meanings": {"en": "transparent, clear", "id": "tembus pandang, transparan, bening"}},
+        {"id": 20, "kanji": "冷たい", "hiragana": "つめたい", "romaji": "tsumetai", "meanings": {"en": "cold, unfeeling", "id": "dingin, tidak berperasaan"}},
+        {"id": 21, "kanji": "辛い", "hiragana": "つらい", "romaji": "tsurai", "meanings": {"en": "painful, bitter", "id": "menyiksa, menyakitkan, menderita"}},
+        {"id": 22, "kanji": "強気な", "hiragana": "つよきな", "romaji": "tsuyoki na", "meanings": {"en": "confident, strong-willed", "id": "gagah, berani"}},
+        {"id": 23, "kanji": "内気な", "hiragana": "うちきな", "romaji": "uchiki na", "meanings": {"en": "shy, introverted", "id": "penyendiri, pendiam"}},
+        {"id": 24, "kanji": "うるさい", "hiragana": "うるさい", "romaji": "urusai", "meanings": {"en": "noisy, annoying", "id": "bising, ribut, bawel"}},
+        {"id": 25, "kanji": "わがままな", "hiragana": "わがままな", "romaji": "wagamama na", "meanings": {"en": "selfish, egotistical", "id": "keras kepala, egois"}},
+        {"id": 26, "kanji": "優しい", "hiragana": "やさしい", "romaji": "yasashii", "meanings": {"en": "gentle, kind", "id": "ramah, lemah-lembut"}},
+        {"id": 27, "kanji": "緩い", "hiragana": "ゆるい", "romaji": "yurui", "meanings": {"en": "loose, gentle", "id": "longgar, landai"}},
+        {"id": 28, "kanji": "贅沢な", "hiragana": "ぜいたくな", "romaji": "zeitaku na", "meanings": {"en": "luxurious, extravagant", "id": "mewah, berkelebihan"}},
+        {"id": 29, "kanji": "ずるい", "hiragana": "ずるい", "romaji": "zurui", "meanings": {"en": "sly, dishonest", "id": "licik, curang, tidak jujur"}},
+        {"id": 30, "kanji": "ずうずうしい", "hiragana": "ずうずうしい", "romaji": "zuuzuushii", "meanings": {"en": "impudent, shameless", "id": "tidak tahu malu"}}
+      ]
+    }
+  ]
+}

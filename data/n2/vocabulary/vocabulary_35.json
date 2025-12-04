@@ -1,0 +1,303 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT",
+        "en": "ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "順調な",
+          "hiragana": "じゅんちょうな",
+          "romaji": "jyunchou na",
+          "meanings": {
+            "en": "smooth, favorable",
+            "id": "lancar"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "純粋な",
+          "hiragana": "じゅんすいな",
+          "romaji": "jyunsui na",
+          "meanings": {
+            "en": "pure, genuine",
+            "id": "murni, asli"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "重大な",
+          "hiragana": "じゅうだいな",
+          "romaji": "jyuudai na",
+          "meanings": {
+            "en": "important, serious",
+            "id": "penting, serius"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "快適な",
+          "hiragana": "かいてきな",
+          "romaji": "kaiteki na",
+          "meanings": {
+            "en": "comfortable, pleasant",
+            "id": "nyaman, menyenangkan"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "過剰な",
+          "hiragana": "かじょうな",
+          "romaji": "kajyou na",
+          "meanings": {
+            "en": "excessive, overabundant",
+            "id": "berlebihan, keterlaluan"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "確実な",
+          "hiragana": "かくじつな",
+          "romaji": "kakujitsu na",
+          "meanings": {
+            "en": "certain, reliable",
+            "id": "pasti, bisa dipercaya"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "活発な",
+          "hiragana": "かっぱつな",
+          "romaji": "kappatsu na",
+          "meanings": {
+            "en": "active, lively",
+            "id": "linch, aktif, bersemangat"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "賢い",
+          "hiragana": "かしこい",
+          "romaji": "kashikoi",
+          "meanings": {
+            "en": "wise, clever",
+            "id": "cerdik, pandai"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "勝手な",
+          "hiragana": "かってな",
+          "romaji": "katte na",
+          "meanings": {
+            "en": "selfish, as one pleases",
+            "id": "semuanya, seenaknya"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "可哀想な",
+          "hiragana": "かわいそうな",
+          "romaji": "kawaisou na",
+          "meanings": {
+            "en": "pitiful, miserable",
+            "id": "kasihan, malang"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "けち",
+          "hiragana": "けち",
+          "romaji": "kechi",
+          "meanings": {
+            "en": "stingy, miserly",
+            "id": "kikir, pelit"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "煙い",
+          "hiragana": "けむい",
+          "romaji": "kemui",
+          "meanings": {
+            "en": "smoky, suffocating",
+            "id": "berasap, menyesakkan"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "謙虚な",
+          "hiragana": "けんきょな",
+          "romaji": "kenkyo na",
+          "meanings": {
+            "en": "humble, modest",
+            "id": "rendah hati, sederhana"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "険しい",
+          "hiragana": "けわしい",
+          "romaji": "kewashii",
+          "meanings": {
+            "en": "steep, grim",
+            "id": "curam, terjal"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "高価な",
+          "hiragana": "こうかな",
+          "romaji": "kouka na",
+          "meanings": {
+            "en": "expensive, valuable",
+            "id": "mahal, berharga"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "高級な",
+          "hiragana": "こうきゅうな",
+          "romaji": "koukyuu na",
+          "meanings": {
+            "en": "high-class, high-grade",
+            "id": "berkelas, bermutu tinggi"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "くだらない",
+          "hiragana": "くだらない",
+          "romaji": "kudaranai",
+          "meanings": {
+            "en": "worthless, trivial",
+            "id": "tidak bermutu, sepele"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "貴重な",
+          "hiragana": "きちょうな",
+          "romaji": "kichou na",
+          "meanings": {
+            "en": "precious, valuable",
+            "id": "berharga, bernilai tinggi"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "几帳面な",
+          "hiragana": "きちょうめんな",
+          "romaji": "kichoumen na",
+          "meanings": {
+            "en": "methodical, systematic",
+            "id": "teratur, sistematis"
+          }
+        },
+        {
+          "id": 20,
+          "kanji": "奇妙な",
+          "hiragana": "きみょうな",
+          "romaji": "kimyou na",
+          "meanings": {
+            "en": "strange, odd",
+            "id": "ganjil, ajaib, aneh"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "気の毒な",
+          "hiragana": "きのどくな",
+          "romaji": "kinodoku na",
+          "meanings": {
+            "en": "pitiful, unfortunate",
+            "id": "menyedihkan, malang"
+          }
+        },
+        {
+          "id": 22,
+          "kanji": "気楽な",
+          "hiragana": "きらくな",
+          "romaji": "kiraku na",
+          "meanings": {
+            "en": "carefree, comfortable",
+            "id": "santai, nyaman"
+          }
+        },
+        {
+          "id": 23,
+          "kanji": "きつい",
+          "hiragana": "きつい",
+          "romaji": "kitsui",
+          "meanings": {
+            "en": "tight, severe, hard",
+            "id": "ketat, sempit, keras"
+          }
+        },
+        {
+          "id": 24,
+          "kanji": "器用な",
+          "hiragana": "きような",
+          "romaji": "kiyou na",
+          "meanings": {
+            "en": "skillful, clever",
+            "id": "terampil"
+          }
+        },
+        {
+          "id": 25,
+          "kanji": "恋しい",
+          "hiragana": "こいしい",
+          "romaji": "koishii",
+          "meanings": {
+            "en": "longed for, missed",
+            "id": "rindu, kangen"
+          }
+        },
+        {
+          "id": 26,
+          "kanji": "心細い",
+          "hiragana": "こころぼそい",
+          "romaji": "kokorobosoi",
+          "meanings": {
+            "en": "helpless, lonely",
+            "id": "merasa tidak berdaya"
+          }
+        },
+        {
+          "id": 27,
+          "kanji": "快い",
+          "hiragana": "こころよい",
+          "romaji": "kokoroyoi",
+          "meanings": {
+            "en": "pleasant, refreshing",
+            "id": "nyaman, segar, menyenangkan"
+          }
+        },
+        {
+          "id": 28,
+          "kanji": "高度な",
+          "hiragana": "こうどな",
+          "romaji": "koudo na",
+          "meanings": {
+            "en": "advanced, high-level",
+            "id": "tingkat tinggi"
+          }
+        },
+        {
+          "id": 29,
+          "kanji": "公平な",
+          "hiragana": "こうへいな",
+          "romaji": "kouhei na",
+          "meanings": {
+            "en": "fair, impartial",
+            "id": "adil"
+          }
+        }
+      ]
+    }
+  ]
+}

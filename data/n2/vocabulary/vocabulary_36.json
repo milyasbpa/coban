@@ -1,0 +1,303 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT",
+        "en": "ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "くどい",
+          "hiragana": "くどい",
+          "romaji": "kudoi",
+          "meanings": {
+            "en": "verbose, long-winded",
+            "id": "bertele-tele, panjang lebar"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "暗い",
+          "hiragana": "くらい",
+          "romaji": "kurai",
+          "meanings": {
+            "en": "dark, gloomy",
+            "id": "murung, sendu, gelap"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "貧しい",
+          "hiragana": "まずしい",
+          "romaji": "mazushii",
+          "meanings": {
+            "en": "poor",
+            "id": "miskin"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "めでたい",
+          "hiragana": "めでたい",
+          "romaji": "medetai",
+          "meanings": {
+            "en": "happy, auspicious",
+            "id": "membahagiakan, menggembirakan"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "面倒くさい",
+          "hiragana": "めんどうくさい",
+          "romaji": "mendoukusai",
+          "meanings": {
+            "en": "troublesome, bothersome",
+            "id": "merepotkan, menyusahkan"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "申し訳ない",
+          "hiragana": "もうしわけない",
+          "romaji": "moushiwakenai",
+          "meanings": {
+            "en": "inexcusable, sorry",
+            "id": "merasa bersalah, mohon maaf"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "無口な",
+          "hiragana": "むくちな",
+          "romaji": "mukuchi na",
+          "meanings": {
+            "en": "reticent, silent",
+            "id": "pendiam"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "妙な",
+          "hiragana": "みょうな",
+          "romaji": "myou na",
+          "meanings": {
+            "en": "strange, mysterious",
+            "id": "ganjil, ajaib, aneh, misteri"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "何気ない",
+          "hiragana": "なにげない",
+          "romaji": "nanigenai",
+          "meanings": {
+            "en": "casual, unconcerned",
+            "id": "seperti tidak terjadi apa-apa"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "懐かしい",
+          "hiragana": "なつかしい",
+          "romaji": "natsukashii",
+          "meanings": {
+            "en": "nostalgic",
+            "id": "rindu, kangen"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "粘り強い",
+          "hiragana": "ねばりづよい",
+          "romaji": "nebarizuyoi",
+          "meanings": {
+            "en": "persistent, tenacious",
+            "id": "tidak mudah menyerah, tekun"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "鈍い",
+          "hiragana": "にぶい",
+          "romaji": "nibui",
+          "meanings": {
+            "en": "dull, slow",
+            "id": "tumpul, bodoh, lamban"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "憎い",
+          "hiragana": "にくい",
+          "romaji": "nikui",
+          "meanings": {
+            "en": "hateful, detestable",
+            "id": "membangkitkan rasa benci/jengkel"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "憎らしい",
+          "hiragana": "にくらしい",
+          "romaji": "nikurashii",
+          "meanings": {
+            "en": "hateful, annoying",
+            "id": "menjengkelkan, menyebalkan"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "穏やかな",
+          "hiragana": "おだやかな",
+          "romaji": "odayaka na",
+          "meanings": {
+            "en": "calm, gentle",
+            "id": "tenang, hangat, lembut, teduh"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "主な",
+          "hiragana": "おもな",
+          "romaji": "omo na",
+          "meanings": {
+            "en": "main, principal",
+            "id": "pokok, utama, penting"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "思いがけない",
+          "hiragana": "おもいがけない",
+          "romaji": "omoigakenai",
+          "meanings": {
+            "en": "unexpected, unforeseen",
+            "id": "tidak disangka, di luar dugaan"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "おおらかな",
+          "hiragana": "おおらかな",
+          "romaji": "ooraka na",
+          "meanings": {
+            "en": "generous, tolerant",
+            "id": "murah hati, toleran, bijaksana"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "幼い",
+          "hiragana": "おさない",
+          "romaji": "osanai",
+          "meanings": {
+            "en": "childish, immature",
+            "id": "anak-anak, kekanak-kanakan"
+          }
+        },
+        {
+          "id": 20,
+          "kanji": "惜しい",
+          "hiragana": "おしい",
+          "romaji": "oshii",
+          "meanings": {
+            "en": "regrettable, unfortunate",
+            "id": "disayangkan, disesalkan"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "幸いな",
+          "hiragana": "さいわいな",
+          "romaji": "saiwai na",
+          "meanings": {
+            "en": "fortunate, lucky",
+            "id": "beruntung, mujur"
+          }
+        },
+        {
+          "id": 22,
+          "kanji": "爽やかな",
+          "hiragana": "さわやかな",
+          "romaji": "sawayaka na",
+          "meanings": {
+            "en": "refreshing, clear",
+            "id": "menyegarkan, jelas"
+          }
+        },
+        {
+          "id": 23,
+          "kanji": "誠実な",
+          "hiragana": "せいじつな",
+          "romaji": "seijitsu na",
+          "meanings": {
+            "en": "sincere, honest",
+            "id": "tulus, ikhlas, bersungguh-sungguh"
+          }
+        },
+        {
+          "id": 24,
+          "kanji": "正式な",
+          "hiragana": "せいしきな",
+          "romaji": "seishiki na",
+          "meanings": {
+            "en": "formal",
+            "id": "resmi, formil"
+          }
+        },
+        {
+          "id": 25,
+          "kanji": "せっかちな",
+          "hiragana": "せっかちな",
+          "romaji": "sekkachi na",
+          "meanings": {
+            "en": "impatient, hasty",
+            "id": "terburu-buru, tidak sabar, gegabah"
+          }
+        },
+        {
+          "id": 26,
+          "kanji": "積極的な",
+          "hiragana": "せっきょくてきな",
+          "romaji": "sekkkyokuteki na",
+          "meanings": {
+            "en": "active, positive",
+            "id": "aktif, agresif, ambisius"
+          }
+        },
+        {
+          "id": 27,
+          "kanji": "社交的な",
+          "hiragana": "しゃこうてきな",
+          "romaji": "shakouteki na",
+          "meanings": {
+            "en": "sociable",
+            "id": "senang bergaul"
+          }
+        },
+        {
+          "id": 28,
+          "kanji": "仕方ない",
+          "hiragana": "しかたない",
+          "romaji": "shikatanai",
+          "meanings": {
+            "en": "can't be helped",
+            "id": "apa boleh buat"
+          }
+        },
+        {
+          "id": 29,
+          "kanji": "慎重な",
+          "hiragana": "しんちょうな",
+          "romaji": "shinchou na",
+          "meanings": {
+            "en": "careful, cautious",
+            "id": "hati-hati, penuh pertimbangan"
+          }
+        }
+      ]
+    }
+  ]
+}

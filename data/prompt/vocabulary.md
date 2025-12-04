@@ -1,7 +1,7 @@
 ## Prompt
 
 ### Message
-Tolong extract gambar berikut dengan ketentuan:
+Tolong extract gambar berikut ke dalam file dengan ketentuan:
 1. format sama seperti vocabulary.json
 2. kamu letakkan tempatnya di folder n2/vocabulary, dan beri nama vocabulary_{{angka}}.json.Untuk angka nya berdasarkan file yang saya attach + 1. Untuk gambar selanjutnya maka nama file nya vocabulary_{{angka+2}}.json, dan seterusnya
 3. Data yang bisa di extract adalah category.id, vocabulary.kanji, vocabulary.meanings.id, sisa field nya kamu isi sendiri berdasarkan pengetahuan mu

@@ -1,0 +1,303 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA SIFAT",
+        "en": "ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "明るい",
+          "hiragana": "あかるい",
+          "romaji": "akarui",
+          "meanings": {
+            "en": "bright",
+            "id": "cerah"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "飽きっぽい",
+          "hiragana": "あきっぽい",
+          "romaji": "akippoi",
+          "meanings": {
+            "en": "easily bored",
+            "id": "mudah bosan"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "明らかな",
+          "hiragana": "あきらかな",
+          "romaji": "akiraka na",
+          "meanings": {
+            "en": "clear, obvious",
+            "id": "jelas, nyata"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "安易な",
+          "hiragana": "あんいな",
+          "romaji": "an'i na",
+          "meanings": {
+            "en": "practical",
+            "id": "praktis"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "荒い",
+          "hiragana": "あらい",
+          "romaji": "arai",
+          "meanings": {
+            "en": "rough, harsh",
+            "id": "kasar, keras, bengis"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "新たな",
+          "hiragana": "あらたな",
+          "romaji": "arata na",
+          "meanings": {
+            "en": "new",
+            "id": "baru"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "有難い",
+          "hiragana": "ありがたい",
+          "romaji": "arigatai",
+          "meanings": {
+            "en": "thankful, grateful",
+            "id": "bersyukur, berterima kasih"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "慌しい",
+          "hiragana": "あわただしい",
+          "romaji": "awatadashii",
+          "meanings": {
+            "en": "hurried, busy",
+            "id": "tergopoh-gopoh"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "怪しい",
+          "hiragana": "あやしい",
+          "romaji": "ayashii",
+          "meanings": {
+            "en": "suspicious, strange",
+            "id": "aneh, ganjil, mencurigakan"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "馬鹿馬鹿しい",
+          "hiragana": "ばかばかしい",
+          "romaji": "bakabakashii",
+          "meanings": {
+            "en": "ridiculous, absurd",
+            "id": "aneh, menggelikan, tidak wajar"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "平等な",
+          "hiragana": "びょうどうな",
+          "romaji": "byoudou na",
+          "meanings": {
+            "en": "equal, fair",
+            "id": "adil, sama-rata"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "抽象的な",
+          "hiragana": "ちゅうしょうてきな",
+          "romaji": "chuushou teki na",
+          "meanings": {
+            "en": "abstract",
+            "id": "abstrak"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "だらしない",
+          "hiragana": "だらしない",
+          "romaji": "darashinai",
+          "meanings": {
+            "en": "sloppy, untidy",
+            "id": "ceroboh, tidak teratur"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "でたらめな",
+          "hiragana": "でたらめな",
+          "romaji": "detarame na",
+          "meanings": {
+            "en": "random, reckless",
+            "id": "sembrono, sembarangan"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "独特な",
+          "hiragana": "どくとくな",
+          "romaji": "dokutoku na",
+          "meanings": {
+            "en": "unique, distinctive",
+            "id": "khas, unik, khusus"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "偉い",
+          "hiragana": "えらい",
+          "romaji": "erai",
+          "meanings": {
+            "en": "great, eminent",
+            "id": "hebat, terkemuka"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "頑固な",
+          "hiragana": "がんこな",
+          "romaji": "ganko na",
+          "meanings": {
+            "en": "stubborn",
+            "id": "keras kepala"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "豪華な",
+          "hiragana": "ごうかな",
+          "romaji": "gouka na",
+          "meanings": {
+            "en": "luxurious, gorgeous",
+            "id": "mewah, indah, mahal"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "合理的な",
+          "hiragana": "ごうりてきな",
+          "romaji": "gouri teki na",
+          "meanings": {
+            "en": "rational, logical",
+            "id": "rasional, masuk akal"
+          }
+        },
+        {
+          "id": 20,
+          "kanji": "強引な",
+          "hiragana": "ごういんな",
+          "romaji": "gou'in na",
+          "meanings": {
+            "en": "pushy, forceful",
+            "id": "memaksakan"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "具体的な",
+          "hiragana": "ぐたいてきな",
+          "romaji": "gutai teki na",
+          "meanings": {
+            "en": "concrete, specific",
+            "id": "konkrit, nyata"
+          }
+        },
+        {
+          "id": 22,
+          "kanji": "等しい",
+          "hiragana": "ひとしい",
+          "romaji": "hitoshii",
+          "meanings": {
+            "en": "equal, same",
+            "id": "setara, sama-rata"
+          }
+        },
+        {
+          "id": 23,
+          "kanji": "偉大な",
+          "hiragana": "いだいな",
+          "romaji": "idai na",
+          "meanings": {
+            "en": "great, magnificent",
+            "id": "mulia, agung"
+          }
+        },
+        {
+          "id": 24,
+          "kanji": "いい加減な",
+          "hiragana": "いいかげんな",
+          "romaji": "iikan na",
+          "meanings": {
+            "en": "irresponsible, careless",
+            "id": "sembarangan, asal-asalan"
+          }
+        },
+        {
+          "id": 25,
+          "kanji": "異常な",
+          "hiragana": "いじょうな",
+          "romaji": "ijyou na",
+          "meanings": {
+            "en": "abnormal, unusual",
+            "id": "luar biasa"
+          }
+        },
+        {
+          "id": 26,
+          "kanji": "自由奔放な",
+          "hiragana": "じゆうほんぽうな",
+          "romaji": "jiyuu honpou na",
+          "meanings": {
+            "en": "free, unrestrained",
+            "id": "bebas, tidak terikat"
+          }
+        },
+        {
+          "id": 27,
+          "kanji": "邪魔な",
+          "hiragana": "じゃまな",
+          "romaji": "jyama na",
+          "meanings": {
+            "en": "disturbing, obstructive",
+            "id": "mengganggu, merintangi"
+          }
+        },
+        {
+          "id": 28,
+          "kanji": "上品な",
+          "hiragana": "じょうひんな",
+          "romaji": "jyouhin na",
+          "meanings": {
+            "en": "elegant, classy",
+            "id": "anggun, berkelas"
+          }
+        },
+        {
+          "id": 29,
+          "kanji": "上等な",
+          "hiragana": "じょうとうな",
+          "romaji": "jyoutou na",
+          "meanings": {
+            "en": "superior, high quality",
+            "id": "unggul, bermutu tinggi"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "無視", "hiragana": "むし", "romaji": "mushi", "meanings": {"en": "ignore, disregard", "id": "pengabaian, tidak peduli"}},
+        {"id": 2, "kanji": "半ば", "hiragana": "なかば", "romaji": "nakaba", "meanings": {"en": "middle, halfway", "id": "pertengahan"}},
+        {"id": 3, "kanji": "斜め", "hiragana": "ななめ", "romaji": "naname", "meanings": {"en": "slant, inclination", "id": "kemiringan, kecenderungan, condong"}},
+        {"id": 4, "kanji": "納得", "hiragana": "なっとく", "romaji": "nattoku", "meanings": {"en": "consent, understanding", "id": "perasaan bisa mengerti/menerima, setuju"}},
+        {"id": 5, "kanji": "年代", "hiragana": "ねんだい", "romaji": "nendai", "meanings": {"en": "era, age, period", "id": "orde, zaman, generasi, masa"}},
+        {"id": 6, "kanji": "日中", "hiragana": "にっちゅう", "romaji": "nicchuu", "meanings": {"en": "daytime", "id": "siang hari"}},
+        {"id": 7, "kanji": "日常", "hiragana": "にちじょう", "romaji": "nichijou", "meanings": {"en": "everyday, daily life", "id": "kesehari-harian"}},
+        {"id": 8, "kanji": "人間", "hiragana": "にんげん", "romaji": "ningen", "meanings": {"en": "human, person", "id": "manusia, insan"}},
+        {"id": 9, "kanji": "日程", "hiragana": "にってい", "romaji": "nittei", "meanings": {"en": "schedule, agenda", "id": "rencana/agenda harian"}},
+        {"id": 10, "kanji": "能力", "hiragana": "のうりょく", "romaji": "nouryoku", "meanings": {"en": "ability, efficiency", "id": "efisiensi"}},
+        {"id": 11, "kanji": "おまけ", "hiragana": "おまけ", "romaji": "omake", "meanings": {"en": "freebie, bonus", "id": "kemampuan, kapasitas; tambahan, ekstra, bonus"}},
+        {"id": 12, "kanji": "汚染", "hiragana": "おせん", "romaji": "osen", "meanings": {"en": "pollution, contamination", "id": "polusi, pencemaran"}},
+        {"id": 13, "kanji": "応用", "hiragana": "おうよう", "romaji": "ouyou", "meanings": {"en": "application, use", "id": "penggunaan, aplikasi"}},
+        {"id": 14, "kanji": "連続", "hiragana": "れんぞく", "romaji": "renzoku", "meanings": {"en": "continuation, succession", "id": "pemberian hormat, ucapan terima kasih"}},
+        {"id": 15, "kanji": "利益", "hiragana": "りえき", "romaji": "rieki", "meanings": {"en": "profit, benefit", "id": "beruntun, bersambung"}},
+        {"id": 16, "kanji": "臨時", "hiragana": "りんじ", "romaji": "rinji", "meanings": {"en": "temporary, special", "id": "keuntungan, laba; sementara, temporer, tambahan khusus"}},
+        {"id": 17, "kanji": "履歴", "hiragana": "りれき", "romaji": "rireki", "meanings": {"en": "personal history, record", "id": "riwayat hidup"}},
+        {"id": 18, "kanji": "理想", "hiragana": "りそう", "romaji": "risou", "meanings": {"en": "ideal, dream", "id": "idaman, ideal, muluk"}},
+        {"id": 19, "kanji": "差", "hiragana": "さ", "romaji": "sa", "meanings": {"en": "difference, gap", "id": "perbedaan, selisih"}},
+        {"id": 20, "kanji": "差別", "hiragana": "さべつ", "romaji": "sabetsu", "meanings": {"en": "discrimination, distinction", "id": "perbedaan, diskriminasi"}},
+        {"id": 21, "kanji": "作業", "hiragana": "さぎょう", "romaji": "sagyuu", "meanings": {"en": "work, operation", "id": "pekerjaan, pengoperasian"}},
+        {"id": 22, "kanji": "栽培", "hiragana": "さいばい", "romaji": "saibai", "meanings": {"en": "cultivation, farming", "id": "penanaman, pembudi-dayaan"}},
+        {"id": 23, "kanji": "災害", "hiragana": "さいがい", "romaji": "saigai", "meanings": {"en": "disaster, calamity", "id": "bencana, malapetaka"}},
+        {"id": 24, "kanji": "災害", "hiragana": "さいがい", "romaji": "saigai", "meanings": {"en": "disaster, calamity", "id": "bencana, mala petaka"}},
+        {"id": 25, "kanji": "災難", "hiragana": "さいなん", "romaji": "sainan", "meanings": {"en": "misfortune, disaster", "id": "bakat, kemampuan"}},
+        {"id": 26, "kanji": "才能", "hiragana": "さいのう", "romaji": "sainou", "meanings": {"en": "talent, ability", "id": "desakan, tuntutan"}},
+        {"id": 27, "kanji": "催促", "hiragana": "さいそく", "romaji": "saisoku", "meanings": {"en": "demand, request", "id": "batas, perbatasan"}},
+        {"id": 28, "kanji": "境", "hiragana": "さかい", "romaji": "sakai", "meanings": {"en": "border, boundary", "id": "batas, perbatasan"}}
+      ]
+    }
+  ]
+}

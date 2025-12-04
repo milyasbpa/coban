@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "減点", "hiragana": "げんてん", "romaji": "genten", "meanings": {"en": "deduction of points, reduction of value", "id": "pengurangan nilai/angka"}},
+        {"id": 2, "kanji": "現在", "hiragana": "げんざい", "romaji": "genzai", "meanings": {"en": "present, now", "id": "sekarang, saat ini"}},
+        {"id": 3, "kanji": "減塩", "hiragana": "げんえん", "romaji": "gen'en", "meanings": {"en": "salt reduction, low salt", "id": "diet/pengurangan garam"}},
+        {"id": 4, "kanji": "減額", "hiragana": "げんがく", "romaji": "gen'gaku", "meanings": {"en": "reduction of amount (money)", "id": "pengurangan jumlah uang"}},
+        {"id": 5, "kanji": "疑問", "hiragana": "ぎもん", "romaji": "gimon", "meanings": {"en": "question, doubt, puzzle", "id": "pertanyaan, teka-teki, keragu-raguan"}},
+        {"id": 6, "kanji": "義務", "hiragana": "ぎむ", "romaji": "gimu", "meanings": {"en": "duty, obligation", "id": "tugas, kewajiban"}},
+        {"id": 7, "kanji": "娯楽", "hiragana": "ごらく", "romaji": "goraku", "meanings": {"en": "entertainment, amusement", "id": "hiburan"}},
+        {"id": 8, "kanji": "合計", "hiragana": "ごうけい", "romaji": "goukei", "meanings": {"en": "sum total, overall", "id": "jumlah total/keseluruhan"}},
+        {"id": 9, "kanji": "逆", "hiragana": "ぎゃく", "romaji": "gyaku", "meanings": {"en": "reverse, opposite", "id": "kebalikan, sebaliknya"}},
+        {"id": 10, "kanji": "行儀", "hiragana": "ぎょうぎ", "romaji": "gyougi", "meanings": {"en": "manners, behavior", "id": "tata krama, tata cara, perilaku"}},
+        {"id": 11, "kanji": "行事", "hiragana": "ぎょうじ", "romaji": "gyouji", "meanings": {"en": "event, function", "id": "upacara, perayaan"}},
+        {"id": 12, "kanji": "配布", "hiragana": "はいふ", "romaji": "haifu", "meanings": {"en": "distribution, handing out", "id": "distribusi, pembagian"}},
+        {"id": 13, "kanji": "背景", "hiragana": "はいけい", "romaji": "haikei", "meanings": {"en": "background, setting", "id": "latar belakang"}},
+        {"id": 14, "kanji": "発揮", "hiragana": "はっき", "romaji": "hakki", "meanings": {"en": "demonstration, display", "id": "yang dipertunjukkan/diperlihatkan"}},
+        {"id": 15, "kanji": "反抗", "hiragana": "はんこう", "romaji": "hankou", "meanings": {"en": "resistance, opposition", "id": "perlawanan, pembangkangan"}},
+        {"id": 16, "kanji": "半減", "hiragana": "はんげん", "romaji": "han'gen", "meanings": {"en": "halving, reduction by half", "id": "pengurangan 50%"}},
+        {"id": 17, "kanji": "針", "hiragana": "はり", "romaji": "hari", "meanings": {"en": "needle, pin", "id": "jarum"}},
+        {"id": 18, "kanji": "端", "hiragana": "はし", "romaji": "hashi", "meanings": {"en": "edge, end, tip", "id": "ujung, sisi, tepi, pinggir"}},
+        {"id": 19, "kanji": "発生", "hiragana": "はっせい", "romaji": "hassei", "meanings": {"en": "occurrence, happening", "id": "kejadian"}},
+        {"id": 20, "kanji": "発展", "hiragana": "はってん", "romaji": "hatten", "meanings": {"en": "development, expansion", "id": "pengembangan, perluasan"}},
+        {"id": 21, "kanji": "平日", "hiragana": "へいじつ", "romaji": "heijitsu", "meanings": {"en": "weekday, ordinary day", "id": "hari kerja, hari biasa"}},
+        {"id": 22, "kanji": "閉鎖", "hiragana": "へいさ", "romaji": "heisa", "meanings": {"en": "closure, shutdown", "id": "penutupan, pelarangan"}},
+        {"id": 23, "kanji": "日当たり", "hiragana": "ひあたり", "romaji": "hiatari", "meanings": {"en": "sunlight, exposure to sun", "id": "pencahayaan sinar matahari"}},
+        {"id": 24, "kanji": "日帰り", "hiragana": "ひがえり", "romaji": "higaeri", "meanings": {"en": "day trip", "id": "perjalanan pulang pergi dalam hari yg sama"}},
+        {"id": 25, "kanji": "批評", "hiragana": "ひひょう", "romaji": "hihyou", "meanings": {"en": "critique, review", "id": "penilaian, komentar, kritik"}},
+        {"id": 26, "kanji": "秘密", "hiragana": "ひみつ", "romaji": "himitsu", "meanings": {"en": "secret, confidentiality", "id": "rahasia"}},
+        {"id": 27, "kanji": "紐", "hiragana": "ひも", "romaji": "himo", "meanings": {"en": "string, cord", "id": "tali, tambang"}},
+        {"id": 28, "kanji": "品", "hiragana": "ひん", "romaji": "hin", "meanings": {"en": "quality, goods, item", "id": "① martabat ② barang, benda"}}
+      ]
+    }
+  ]
+}

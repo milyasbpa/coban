@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "MUSIM PANAS",
+        "en": "SUMMER SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "入梅", "hiragana": "にゅうばい", "romaji": "nyuubai", "meanings": {"en": "start of rainy season", "id": "permulaan musim hujan"}},
+        {"id": 2, "kanji": "お中元", "hiragana": "おちゅうげん", "romaji": "ochuugen", "meanings": {"en": "midyear gift", "id": "tradisi memberi hadiah pd pertengahan tahun"}},
+        {"id": 3, "kanji": "織姫", "hiragana": "おりひめ", "romaji": "orihime", "meanings": {"en": "Orihime (Vega star)", "id": "bintang Vega"}},
+        {"id": 4, "kanji": "笹", "hiragana": "ささ", "romaji": "sasa", "meanings": {"en": "bamboo plant", "id": "tanaman bambu"}},
+        {"id": 5, "kanji": "そうめん", "hiragana": "そうめん", "romaji": "soumen", "meanings": {"en": "somen noodles", "id": "sejenis mi Jepang"}},
+        {"id": 6, "kanji": "すいか", "hiragana": "すいか", "romaji": "suika", "meanings": {"en": "watermelon", "id": "buah semangka"}},
+        {"id": 7, "kanji": "七夕", "hiragana": "たなばた", "romaji": "tanabata", "meanings": {"en": "Tanabata festival", "id": "festival bintang tanggal 7 Juli"}},
+        {"id": 8, "kanji": "短冊", "hiragana": "たんざく", "romaji": "tanzaku", "meanings": {"en": "tanzaku paper", "id": "kertas untuk menulis haiku"}},
+        {"id": 9, "kanji": "セミ", "hiragana": "せみ", "romaji": "semi", "meanings": {"en": "cicada", "id": "sejenis serangga tonggeret"}},
+        {"id": 10, "kanji": "梅雨明け", "hiragana": "つゆあけ", "romaji": "tsuyu ake", "meanings": {"en": "end of rainy season", "id": "awal musim hujan"}},
+        {"id": 11, "kanji": "梅雨入り", "hiragana": "つゆいり", "romaji": "tsuyu iri", "meanings": {"en": "start of rainy season", "id": "akhir musim hujan"}},
+        {"id": 12, "kanji": "海開き", "hiragana": "うみびらき", "romaji": "umibiraki", "meanings": {"en": "beach opening day", "id": "hari 1 (dlm 1 thn) pantai dibuka untuk umum"}},
+        {"id": 13, "kanji": "山開き", "hiragana": "やまびらき", "romaji": "yamibiraki", "meanings": {"en": "mountain opening day", "id": "hari 1 (dlm 1 thn) gunung dibuka bagi pendaki"}},
+        {"id": 14, "kanji": "浴衣", "hiragana": "ゆかた", "romaji": "yukata", "meanings": {"en": "yukata", "id": "pakaian sehabis mandi terbuat dari katun"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "MUSIM GUGUR",
+        "en": "AUTUMN SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "秋祭り", "hiragana": "あきまつり", "romaji": "aki matsuri", "meanings": {"en": "autumn festival", "id": "festifal musim gugur"}},
+        {"id": 2, "kanji": "秋雨", "hiragana": "あきさめ", "romaji": "akisame", "meanings": {"en": "autumn rain", "id": "hujan musim gugur"}},
+        {"id": 3, "kanji": "勉強", "hiragana": "べんきょう", "romaji": "benkyou", "meanings": {"en": "study", "id": "belajar"}},
+        {"id": 4, "kanji": "読書", "hiragana": "どくしょ", "romaji": "dokusho", "meanings": {"en": "reading", "id": "baca buku"}},
+        {"id": 5, "kanji": "イチョウ", "hiragana": "いちょう", "romaji": "ichou", "meanings": {"en": "ginkgo", "id": "buah ginko"}},
+        {"id": 6, "kanji": "十五夜", "hiragana": "じゅうごや", "romaji": "jyuugoya", "meanings": {"en": "full moon night", "id": "malam bulan purnama"}},
+        {"id": 7, "kanji": "柿", "hiragana": "かき", "romaji": "kaki", "meanings": {"en": "persimmon", "id": "sejenis buah kesemek"}},
+        {"id": 8, "kanji": "菊", "hiragana": "きく", "romaji": "kiku", "meanings": {"en": "chrysanthemum", "id": "bunga krisan"}},
+        {"id": 9, "kanji": "木枯らし", "hiragana": "こがらし", "romaji": "kogarashi", "meanings": {"en": "cold winter wind", "id": "angin dingin yg kencang awal musim dingin"}},
+        {"id": 10, "kanji": "小春日和", "hiragana": "こはるびより", "romaji": "koharubiyori", "meanings": {"en": "Indian summer", "id": "musim gugur yang hangat"}},
+        {"id": 11, "kanji": "行楽", "hiragana": "こうらく", "romaji": "kouraku", "meanings": {"en": "excursion", "id": "hiburan, bersenang-senang"}}
+      ]
+    }
+  ]
+}

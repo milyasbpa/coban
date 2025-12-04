@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "RUMAH DI JEPANG",
+        "en": "JAPANESE HOUSE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "垣根", "hiragana": "かきね", "romaji": "kakine", "meanings": {"en": "hedge", "id": "pagar tanaman"}},
+        {"id": 2, "kanji": "窓", "hiragana": "まど", "romaji": "mado", "meanings": {"en": "window", "id": "jendela"}},
+        {"id": 3, "kanji": "門", "hiragana": "もん", "romaji": "mon", "meanings": {"en": "gate", "id": "pintu gerbang"}},
+        {"id": 4, "kanji": "屋根", "hiragana": "やね", "romaji": "yane", "meanings": {"en": "roof", "id": "atap"}},
+        {"id": 5, "kanji": "郵便受け", "hiragana": "ゆうびんうけ", "romaji": "yuubin uke", "meanings": {"en": "mailbox", "id": "kotak surat/pos"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "APARTEMEN",
+        "en": "APARTMENT"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ベランダ", "hiragana": "べらんだ", "romaji": "beranda", "meanings": {"en": "veranda", "id": "beranda, teras, serambi"}},
+        {"id": 2, "kanji": "チャイム", "hiragana": "ちゃいむ", "romaji": "chaimu", "meanings": {"en": "doorbell", "id": "bel pintu"}},
+        {"id": 3, "kanji": "エントランス", "hiragana": "えんとらんす", "romaji": "entoransu", "meanings": {"en": "entrance lobby", "id": "lobi pintu masuk"}},
+        {"id": 4, "kanji": "エレベーター", "hiragana": "えれべーたー", "romaji": "erebētā", "meanings": {"en": "elevator", "id": "lift, elevator"}},
+        {"id": 5, "kanji": "外壁", "hiragana": "がいへき", "romaji": "gaiheki", "meanings": {"en": "outer wall", "id": "tembok luar"}},
+        {"id": 6, "kanji": "非常口", "hiragana": "ひじょうぐち", "romaji": "hijyouguchi", "meanings": {"en": "emergency exit", "id": "pintu darurat"}},
+        {"id": 7, "kanji": "インターホン", "hiragana": "いんたーほん", "romaji": "intāhon", "meanings": {"en": "intercom", "id": "intercom (sistem komunikasi dalam gedung)"}},
+        {"id": 8, "kanji": "階段", "hiragana": "かいだん", "romaji": "kaidan", "meanings": {"en": "stairs", "id": "tangga"}},
+        {"id": 9, "kanji": "火災報知機", "hiragana": "かさいほうちき", "romaji": "kasai houchiki", "meanings": {"en": "fire alarm", "id": "alarm kebakaran"}},
+        {"id": 10, "kanji": "屋上", "hiragana": "おくじょう", "romaji": "okujyou", "meanings": {"en": "rooftop", "id": "atap bagian atas, rooftop"}},
+        {"id": 11, "kanji": "新聞受け", "hiragana": "しんぶんうけ", "romaji": "shinbun uke", "meanings": {"en": "newspaper box", "id": "kotak surat kabar"}},
+        {"id": 12, "kanji": "外廊下", "hiragana": "そとろうか", "romaji": "soto rouka", "meanings": {"en": "outer corridor", "id": "lorong luar"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "TAHUN BARU",
+        "en": "NEW YEAR"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "元日", "hiragana": "がんじつ", "romaji": "ganjitsu", "meanings": {"en": "January 1st", "id": "tanggal 1 Januari"}},
+        {"id": 2, "kanji": "元旦", "hiragana": "がんたん", "romaji": "gantan", "meanings": {"en": "New Year's Day", "id": "hari pertama tahun baru"}},
+        {"id": 3, "kanji": "初詣", "hiragana": "はつもうで", "romaji": "hatsumoude", "meanings": {"en": "first shrine visit", "id": "kunjungan ke kuil pada tgl 1 Januari"}},
+        {"id": 4, "kanji": "門松", "hiragana": "かどまつ", "romaji": "kadomatsu", "meanings": {"en": "New Year's pine decoration", "id": "dekorasi batang cemara di pintu rumah pada tahun baru"}}
+      ]
+    }
+  ]
+}

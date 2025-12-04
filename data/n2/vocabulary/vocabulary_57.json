@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KEADAAN",
+        "en": "CONDITION"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ぼんやり(と)", "hiragana": "ぼんやり(と)", "romaji": "bon'yari (to)", "meanings": {"en": "absent-mindedly, idly", "id": "linglung, bengong, bodoh, malas"}},
+        {"id": 2, "kanji": "ちゃんと", "hiragana": "ちゃんと", "romaji": "chanto", "meanings": {"en": "properly, neatly", "id": "teratur, rapi, selayaknya"}},
+        {"id": 3, "kanji": "どっと", "hiragana": "どっと", "romaji": "dotto", "meanings": {"en": "all at once", "id": "bersama-sama sekaligus"}},
+        {"id": 4, "kanji": "ふと", "hiragana": "ふと", "romaji": "futo", "meanings": {"en": "suddenly", "id": "kebetulan, tidak disangka-sangka"}},
+        {"id": 5, "kanji": "ぎっしり", "hiragana": "ぎっしり", "romaji": "gisshiri", "meanings": {"en": "tightly, densely", "id": "penuh sesak, padat"}},
+        {"id": 6, "kanji": "果たして", "hiragana": "はたして", "romaji": "hatashite", "meanings": {"en": "as expected", "id": "sudah diduga, memang sesungguhnya"}},
+        {"id": 7, "kanji": "一度に", "hiragana": "いちどに", "romaji": "ichido ni", "meanings": {"en": "at once", "id": "sekaligus"}},
+        {"id": 8, "kanji": "未だに", "hiragana": "いまだに", "romaji": "imada ni", "meanings": {"en": "still", "id": "sampai sekarangpun"}},
+        {"id": 9, "kanji": "一斉に", "hiragana": "いっせいに", "romaji": "issei ni", "meanings": {"en": "all at once", "id": "serempak, serentak, bersamaan"}},
+        {"id": 10, "kanji": "一気に", "hiragana": "いっきに", "romaji": "ikki ni", "meanings": {"en": "in one go", "id": "secara langsung tanpa perantara"}},
+        {"id": 11, "kanji": "直に", "hiragana": "じかに", "romaji": "jika ni", "meanings": {"en": "directly", "id": "malah (sebaliknya), bahkan"}},
+        {"id": 12, "kanji": "必ずしも", "hiragana": "かならずしも", "romaji": "kanarazushimo", "meanings": {"en": "not always", "id": "tidak selalu, tidak pasti harus"}},
+        {"id": 13, "kanji": "こっそり", "hiragana": "こっそり", "romaji": "kossori", "meanings": {"en": "secretly", "id": "secara diam-diam, perlahan-lahan"}},
+        {"id": 14, "kanji": "むしろ", "hiragana": "むしろ", "romaji": "mushiro", "meanings": {"en": "rather", "id": "lebih baik, lebih tepat, malah"}},
+        {"id": 15, "kanji": "恐らく", "hiragana": "おそらく", "romaji": "osoraku", "meanings": {"en": "probably", "id": "barangkali, mungkin, jangan-jangan"}},
+        {"id": 16, "kanji": "さっさと", "hiragana": "さっさと", "romaji": "sassa to", "meanings": {"en": "quickly", "id": "dengan cepat/segera"}},
+        {"id": 17, "kanji": "さっと", "hiragana": "さっと", "romaji": "satto", "meanings": {"en": "quickly", "id": "secepat kilat, tiba-tiba"}},
+        {"id": 18, "kanji": "せっせと", "hiragana": "せっせと", "romaji": "sesse to", "meanings": {"en": "diligently", "id": "dengan tekun/giat, penuh perhatian"}},
+        {"id": 19, "kanji": "しんと/シーンと", "hiragana": "しんと/シーンと", "romaji": "shin to/shin to", "meanings": {"en": "silent", "id": "hening, sunyi senyap"}},
+        {"id": 20, "kanji": "相互に", "hiragana": "そうごに", "romaji": "sougo ni", "meanings": {"en": "mutually", "id": "saling, timbal balik satu sama lain"}},
+        {"id": 21, "kanji": "すっと", "hiragana": "すっと", "romaji": "sutto", "meanings": {"en": "smoothly", "id": "lega, ringan dan cepat, tegak lurus"}},
+        {"id": 22, "kanji": "たいして", "hiragana": "たいして", "romaji": "taishite", "meanings": {"en": "not so much", "id": "tidak sedemikian…"}},
+        {"id": 23, "kanji": "単に", "hiragana": "たんに", "romaji": "tan ni", "meanings": {"en": "simply", "id": "semata-mata hanya…"}},
+        {"id": 24, "kanji": "伴に", "hiragana": "ともに", "romaji": "tomo ni", "meanings": {"en": "together with", "id": "bersamaan dengan…"}},
+        {"id": 25, "kanji": "ざっと", "hiragana": "ざっと", "romaji": "zatto", "meanings": {"en": "roughly", "id": "sambil lalu, kira-kira, cepat"}},
+        {"id": 26, "kanji": "ずらりと", "hiragana": "ずらりと", "romaji": "zurari to", "meanings": {"en": "in a row", "id": "berderet-deret, berbaris-baris"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA BERULANG",
+        "en": "REDUPLICATED WORDS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "びしょびしょ", "hiragana": "びしょびしょ", "romaji": "bisho-bisho", "meanings": {"en": "soaking wet", "id": "basah kuyup"}},
+        {"id": 2, "kanji": "ぶらぶら", "hiragana": "ぶらぶら", "romaji": "bura-bura", "meanings": {"en": "wandering, dangling", "id": "1. jalan-jalan, berkeliaran 2. berayun-ayun"}}
+      ]
+    }
+  ]
+}

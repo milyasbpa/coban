@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KEKERAPAN",
+        "en": "FREQUENCY"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "めったに", "hiragana": "めったに", "romaji": "metta ni", "meanings": {"en": "rarely, hardly ever", "id": "jarang sekali, hampir tidak pernah"}},
+        {"id": 2, "kanji": "しばしば", "hiragana": "しばしば", "romaji": "shiba-shiba", "meanings": {"en": "often, frequently", "id": "sering sekali, kerap kali"}},
+        {"id": 3, "kanji": "しょっちゅう", "hiragana": "しょっちゅう", "romaji": "shocchuu", "meanings": {"en": "always, constantly", "id": "sering, terus menerus"}},
+        {"id": 4, "kanji": "たびたび", "hiragana": "たびたび", "romaji": "tabi-tabi", "meanings": {"en": "often, repeatedly", "id": "banyak kali, sering kali"}},
+        {"id": 5, "kanji": "絶えず", "hiragana": "たえず", "romaji": "taezu", "meanings": {"en": "constantly", "id": "tidak putus-putusnya, tanpa henti"}},
+        {"id": 6, "kanji": "たまに", "hiragana": "たまに", "romaji": "tama ni", "meanings": {"en": "occasionally", "id": "kadang-kadang, sekali-sekali"}},
+        {"id": 7, "kanji": "常に", "hiragana": "つねに", "romaji": "tsune ni", "meanings": {"en": "always, usually", "id": "selalu, biasanya, setiap kali"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "PERUBAHAN",
+        "en": "CHANGE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "再び", "hiragana": "ふたたび", "romaji": "futatabi", "meanings": {"en": "again, once more", "id": "sekali lagi, kembali"}},
+        {"id": 2, "kanji": "一段と", "hiragana": "いちだんと", "romaji": "ichidan to", "meanings": {"en": "much more", "id": "jauh melebihi"}},
+        {"id": 3, "kanji": "一層", "hiragana": "いっそう", "romaji": "issou", "meanings": {"en": "more, even more", "id": "lebih banyak lagi"}},
+        {"id": 4, "kanji": "徐々に", "hiragana": "じょじょに", "romaji": "jojo ni", "meanings": {"en": "gradually", "id": "sedikit demi sedikit, perlahan-lahan"}},
+        {"id": 5, "kanji": "結局", "hiragana": "けっきょく", "romaji": "kekkyoku", "meanings": {"en": "eventually, after all", "id": "akhirnya, alhasil"}},
+        {"id": 6, "kanji": "更に", "hiragana": "さらに", "romaji": "sara ni", "meanings": {"en": "furthermore, even more", "id": "lebih-lebih lagi"}},
+        {"id": 7, "kanji": "次第に", "hiragana": "しだいに", "romaji": "shidai ni", "meanings": {"en": "gradually", "id": "perlahan-lahan, semakin"}},
+        {"id": 8, "kanji": "たちまち", "hiragana": "たちまち", "romaji": "tachimachi", "meanings": {"en": "instantly", "id": "langsung, dalam sekejap"}},
+        {"id": 9, "kanji": "より", "hiragana": "より", "romaji": "yori", "meanings": {"en": "than", "id": "daripada"}},
+        {"id": 10, "kanji": "漸く", "hiragana": "ようやく", "romaji": "youyaku", "meanings": {"en": "finally", "id": "lambat laun akhirnya…"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "WAKTU",
+        "en": "TIME"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "一時", "hiragana": "いちじ", "romaji": "ichiji", "meanings": {"en": "for a moment", "id": "sesaat pernah, sementara"}},
+        {"id": 2, "kanji": "いきなり", "hiragana": "いきなり", "romaji": "ikinari", "meanings": {"en": "suddenly", "id": "tiba-tiba, mendadak"}},
+        {"id": 3, "kanji": "いずれ", "hiragana": "いずれ", "romaji": "izure", "meanings": {"en": "sometime, eventually", "id": "1. suatu saat nanti 2. yg manapun"}},
+        {"id": 4, "kanji": "事前に", "hiragana": "じぜんに", "romaji": "jizen ni", "meanings": {"en": "beforehand", "id": "sebelumnya"}},
+        {"id": 5, "kanji": "今度", "hiragana": "こんど", "romaji": "kondo", "meanings": {"en": "next time", "id": "nanti, lain kali, berikutnya"}},
+        {"id": 6, "kanji": "今後", "hiragana": "こんご", "romaji": "kon'go", "meanings": {"en": "from now on", "id": "mulai dari sekarang, selanjutnya"}},
+        {"id": 7, "kanji": "まもなく", "hiragana": "まもなく", "romaji": "ma mo naku", "meanings": {"en": "soon", "id": "dalam waktu singkat, tidak lama lagi"}}
+      ]
+    }
+  ]
+}

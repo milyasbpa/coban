@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "BENCANA ANGIN",
+        "en": "WIND DISASTER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "嵐", "hiragana": "あらし", "romaji": "arashi", "meanings": {"en": "storm", "id": "angin topan, angin puyuh"}},
+        {"id": 2, "kanji": "暴風雨", "hiragana": "ぼうふうう", "romaji": "boufuu'u", "meanings": {"en": "stormy rain", "id": "hujan badai"}},
+        {"id": 3, "kanji": "台風", "hiragana": "たいふう", "romaji": "taifuu", "meanings": {"en": "typhoon", "id": "taifun"}},
+        {"id": 4, "kanji": "竜巻", "hiragana": "たつまき", "romaji": "tatsumaki", "meanings": {"en": "tornado", "id": "angin putting beliung"}},
+        {"id": 5, "kanji": "突風", "hiragana": "とっぷう", "romaji": "toppuu", "meanings": {"en": "sudden gust", "id": "angin yang tiba-tiba kencang"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "IKLIM, CUACA",
+        "en": "CLIMATE, WEATHER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "日照り", "hiragana": "ひでり", "romaji": "hideri", "meanings": {"en": "long drought", "id": "kemarau panjang"}},
+        {"id": 2, "kanji": "かんばつ", "hiragana": "かんばつ", "romaji": "kanbatsu", "meanings": {"en": "long drought", "id": "kemarau panjang"}},
+        {"id": 3, "kanji": "冷害", "hiragana": "れいがい", "romaji": "reigai", "meanings": {"en": "cold damage", "id": "kerusakan hasil panen akibat cuaca dingin"}},
+        {"id": 4, "kanji": "雪", "hiragana": "ゆき", "romaji": "yuki", "meanings": {"en": "snow", "id": "salju"}},
+        {"id": 5, "kanji": "吹雪", "hiragana": "ふぶき", "romaji": "fubuki", "meanings": {"en": "snowstorm", "id": "badai salju"}},
+        {"id": 6, "kanji": "雪崩", "hiragana": "なだれ", "romaji": "nadare", "meanings": {"en": "avalanche", "id": "salju longsor"}},
+        {"id": 7, "kanji": "大雪", "hiragana": "おおゆき", "romaji": "ooyuki", "meanings": {"en": "heavy snow", "id": "salju lebat"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "KECELAKAAN",
+        "en": "ACCIDENTS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ぶつかる", "hiragana": "ぶつかる", "romaji": "butsukaru", "meanings": {"en": "to collide", "id": "membentur, menabrak"}},
+        {"id": 2, "kanji": "現場", "hiragana": "げんば", "romaji": "genba", "meanings": {"en": "scene", "id": "lokasi kejadian, (di) lapangan"}},
+        {"id": 3, "kanji": "撥ねられる", "hiragana": "はねられる", "romaji": "hanerareru", "meanings": {"en": "to be splashed", "id": "terciprat, tersisihkan"}},
+        {"id": 4, "kanji": "被害者", "hiragana": "ひがいしゃ", "romaji": "higaisha", "meanings": {"en": "victim", "id": "korban yang menderita kerugian"}},
+        {"id": 5, "kanji": "ひかれる", "hiragana": "ひかれる", "romaji": "hikareru", "meanings": {"en": "to be run over", "id": "terlindas"}},
+        {"id": 6, "kanji": "意識不明", "hiragana": "いしきふめい", "romaji": "ishiki fumei", "meanings": {"en": "unconscious", "id": "tidak sadar"}},
+        {"id": 7, "kanji": "重傷", "hiragana": "じゅうしょう", "romaji": "jyuushou", "meanings": {"en": "serious injury", "id": "luka parah"}}
+      ]
+    }
+  ]
+}

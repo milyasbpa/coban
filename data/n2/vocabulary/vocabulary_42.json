@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "砕ける", "hiragana": "くだける", "romaji": "kudakeru", "meanings": {"en": "to break, to be broken", "id": "① pecah, hancur ② tidak resmi, santai"}},
+        {"id": 2, "kanji": "砕く", "hiragana": "くだく", "romaji": "kudaku", "meanings": {"en": "to break, to smash", "id": "memecahkan, menghancurkan"}},
+        {"id": 3, "kanji": "区切る", "hiragana": "くぎる", "romaji": "kugiru", "meanings": {"en": "to divide, to separate", "id": "memenggal, membagi, memisahkan"}},
+        {"id": 4, "kanji": "組み立てる", "hiragana": "くみたてる", "romaji": "kumitateru", "meanings": {"en": "to assemble, to construct", "id": "merakit"}},
+        {"id": 5, "kanji": "組む", "hiragana": "くむ", "romaji": "kumu", "meanings": {"en": "to put together, to unite", "id": "menggabungkan, menjalin"}},
+        {"id": 6, "kanji": "暮れる", "hiragana": "くれる", "romaji": "kureru", "meanings": {"en": "to get dark, to end", "id": "berakhir, berlalu"}},
+        {"id": 7, "kanji": "苦しむ", "hiragana": "くるしむ", "romaji": "kurushimu", "meanings": {"en": "to suffer, to be troubled", "id": "menderita, merasakan sakit/susah"}},
+        {"id": 8, "kanji": "くたびれる", "hiragana": "くたびれる", "romaji": "kutabireru", "meanings": {"en": "to get tired, to be exhausted", "id": "letih, lelah, penat"}},
+        {"id": 9, "kanji": "くっつく", "hiragana": "くっつく", "romaji": "kuttsuku", "meanings": {"en": "to stick, to adhere", "id": "menempelkan, melekatkan"}},
+        {"id": 10, "kanji": "くっつける", "hiragana": "くっつける", "romaji": "kuttsukeru", "meanings": {"en": "to stick, to attach", "id": "menempel, melekat"}},
+        {"id": 11, "kanji": "加える", "hiragana": "くわえる", "romaji": "kuwaeru", "meanings": {"en": "to add, to include", "id": "menambahkan, menggabungkan"}},
+        {"id": 12, "kanji": "加わる", "hiragana": "くわわる", "romaji": "kuwawaru", "meanings": {"en": "to join, to be added", "id": "bertambah, tergabung"}},
+        {"id": 13, "kanji": "悔やむ", "hiragana": "くやむ", "romaji": "kuyamu", "meanings": {"en": "to regret, to mourn", "id": "menyesali, bersedih"}},
+        {"id": 14, "kanji": "崩れる", "hiragana": "くずれる", "romaji": "kuzureru", "meanings": {"en": "to collapse, to crumble", "id": "runtuh, berantakan"}},
+        {"id": 15, "kanji": "崩す", "hiragana": "くずす", "romaji": "kuzusu", "meanings": {"en": "to destroy, to break down", "id": "meruntuhkan, membongkar"}},
+        {"id": 16, "kanji": "撒く", "hiragana": "まく", "romaji": "maku", "meanings": {"en": "to scatter, to sprinkle", "id": "menyipratkan, menyemprotkan"}},
+        {"id": 17, "kanji": "学ぶ", "hiragana": "まなぶ", "romaji": "manabu", "meanings": {"en": "to learn, to study", "id": "belajar"}},
+        {"id": 18, "kanji": "招く", "hiragana": "まねく", "romaji": "maneku", "meanings": {"en": "to invite, to beckon", "id": "mengundang, mengajak"}},
+        {"id": 19, "kanji": "増す", "hiragana": "ます", "romaji": "masu", "meanings": {"en": "to increase, to grow", "id": "bertambah, meningkat"}},
+        {"id": 20, "kanji": "回る", "hiragana": "まわる", "romaji": "mawaru", "meanings": {"en": "to turn, to go around", "id": "① berputar, berkeliling ② sampai giliran"}},
+        {"id": 21, "kanji": "回す", "hiragana": "まわす", "romaji": "mawasu", "meanings": {"en": "to turn, to rotate", "id": "memutar, mengelilingi"}},
+        {"id": 22, "kanji": "目立つ", "hiragana": "めだつ", "romaji": "medatsu", "meanings": {"en": "to stand out, to be conspicuous", "id": "menyolok, menonjol"}},
+        {"id": 23, "kanji": "恵まれる", "hiragana": "めぐまれる", "romaji": "megumareru", "meanings": {"en": "to be blessed, to be fortunate", "id": "dikaruniai, diberkahi, bernasib baik"}},
+        {"id": 24, "kanji": "巡る", "hiragana": "めぐる", "romaji": "meguru", "meanings": {"en": "to go around, to circulate", "id": "berputar, berkeliling"}},
+        {"id": 25, "kanji": "目覚める", "hiragana": "めざめる", "romaji": "mezameru", "meanings": {"en": "to wake up, to become aware", "id": "bangun, sadar"}},
+        {"id": 26, "kanji": "目指す", "hiragana": "めざす", "romaji": "mezasu", "meanings": {"en": "to aim, to pursue", "id": "mencincar, bertujuan"}},
+        {"id": 27, "kanji": "乱れる", "hiragana": "みだれる", "romaji": "midareru", "meanings": {"en": "to be disordered, to be disturbed", "id": "kacau, berantakan"}},
+        {"id": 28, "kanji": "乱す", "hiragana": "みだす", "romaji": "midasu", "meanings": {"en": "to disturb, to disorder", "id": "mengacaukan, memberantaki"}},
+        {"id": 29, "kanji": "見舞う", "hiragana": "みまう", "romaji": "mimau", "meanings": {"en": "to visit, to call on", "id": "menjenguk, berkunjung"}}
+      ]
+    }
+  ]
+}

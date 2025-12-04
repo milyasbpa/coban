@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KOMU",
+        "en": "KOMU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "逃げ込む", "hiragana": "にげこむ", "romaji": "nige komu", "meanings": {"en": "to run and hide", "id": "melarikan diri dan menerobos masuk"}},
+        {"id": 2, "kanji": "飲み込む", "hiragana": "のみこむ", "romaji": "nomi komu", "meanings": {"en": "to swallow", "id": "menelan bulat-bulat"}},
+        {"id": 3, "kanji": "落ち込む", "hiragana": "おちこむ", "romaji": "ochi komu", "meanings": {"en": "to fall into", "id": "jatuh ke dalam"}},
+        {"id": 4, "kanji": "追い込む", "hiragana": "おいこむ", "romaji": "oi komu", "meanings": {"en": "to herd into", "id": "memasukkan (mengejar agar masuk)"}},
+        {"id": 5, "kanji": "刺し込む", "hiragana": "さしこむ", "romaji": "sashi komu", "meanings": {"en": "to stick in", "id": "menancapkan, memasukkan"}},
+        {"id": 6, "kanji": "攻め込む", "hiragana": "せめこむ", "romaji": "seme komu", "meanings": {"en": "to invade", "id": "menyerang masuk"}},
+        {"id": 7, "kanji": "染み込む", "hiragana": "しみこむ", "romaji": "shimi komu", "meanings": {"en": "to soak in", "id": "menyerap/meresap ke dalam"}},
+        {"id": 8, "kanji": "注ぎ込む", "hiragana": "そそぎこむ", "romaji": "sosogi komu", "meanings": {"en": "to pour into", "id": "menuangkan ke dalam"}},
+        {"id": 9, "kanji": "住み込む", "hiragana": "すみこむ", "romaji": "sumi komu", "meanings": {"en": "to live in", "id": "tinggal di dalam"}},
+        {"id": 10, "kanji": "飛び込む", "hiragana": "とびこむ", "romaji": "tobi komu", "meanings": {"en": "to dive into", "id": "terjun ke dalam"}},
+        {"id": 11, "kanji": "泊まり込む", "hiragana": "とまりこむ", "romaji": "tomari komu", "meanings": {"en": "to stay overnight", "id": "menginap di dalam"}},
+        {"id": 12, "kanji": "詰め込む", "hiragana": "つめこむ", "romaji": "tsume komu", "meanings": {"en": "to cram", "id": "menjejalkan ke dalam"}},
+        {"id": 13, "kanji": "打ち込む", "hiragana": "うちこむ", "romaji": "uchi komu", "meanings": {"en": "to drive in", "id": "menancapkan ke dalam, memantnek"}},
+        {"id": 14, "kanji": "呼び込む", "hiragana": "よびこむ", "romaji": "yobi komu", "meanings": {"en": "to call in", "id": "memanggil masuk"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KOMU",
+        "en": "KOMU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "黙り込む", "hiragana": "だまりこむ", "romaji": "damari komu", "meanings": {"en": "to remain silent", "id": "terus menerus diam"}},
+        {"id": 2, "kanji": "老け込む", "hiragana": "ふけこむ", "romaji": "fuke komu", "meanings": {"en": "to grow old", "id": "terus menerus menua"}},
+        {"id": 3, "kanji": "塞ぎ込む", "hiragana": "ふさぎこむ", "romaji": "fusagi komu", "meanings": {"en": "to be depressed", "id": "terus menerus muram/murung/tertekan"}},
+        {"id": 4, "kanji": "話し込む", "hiragana": "はなしこむ", "romaji": "hanashi komu", "meanings": {"en": "to talk for a long time", "id": "terus menerus berbicara"}},
+        {"id": 5, "kanji": "寝込む", "hiragana": "ねこむ", "romaji": "ne komu", "meanings": {"en": "to be bedridden", "id": "terus menerus tidur"}},
+        {"id": 6, "kanji": "煮込む", "hiragana": "にこむ", "romaji": "ni komu", "meanings": {"en": "to stew", "id": "terus menerus menggodok"}},
+        {"id": 7, "kanji": "教え込む", "hiragana": "おしえこむ", "romaji": "oshie komu", "meanings": {"en": "to teach thoroughly", "id": "terus menerus mengajarkan"}},
+        {"id": 8, "kanji": "座り込む", "hiragana": "すわりこむ", "romaji": "suwari komu", "meanings": {"en": "to sit down", "id": "terus menerus duduk"}},
+        {"id": 9, "kanji": "頼み込む", "hiragana": "たのみこむ", "romaji": "tanomi komu", "meanings": {"en": "to beg", "id": "terus menerus memohon"}},
+        {"id": 10, "kanji": "売り込む", "hiragana": "うりこむ", "romaji": "uri komu", "meanings": {"en": "to try to sell", "id": "terus menerus berusaha menjual"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "低下", "hiragana": "ていか", "romaji": "teika", "meanings": {"en": "decline, deterioration", "id": "penurunan, kemerosotan"}},
+        {"id": 2, "kanji": "定価", "hiragana": "ていか", "romaji": "teika", "meanings": {"en": "fixed price", "id": "harga pas"}},
+        {"id": 3, "kanji": "抵抗", "hiragana": "ていこう", "romaji": "teikou", "meanings": {"en": "resistance, opposition", "id": "perlawanan, pertahanan"}},
+        {"id": 4, "kanji": "訂正", "hiragana": "ていせい", "romaji": "teisei", "meanings": {"en": "correction, revision", "id": "pembetulan, revisi, koreksi"}},
+        {"id": 5, "kanji": "提出", "hiragana": "ていしゅつ", "romaji": "teishutsu", "meanings": {"en": "submission, presentation", "id": "pemberhentian, penyetopan, pengajuan, penyerahan"}},
+        {"id": 6, "kanji": "敵", "hiragana": "てき", "romaji": "teki", "meanings": {"en": "enemy, opponent", "id": "musuh, lawan"}},
+        {"id": 7, "kanji": "手間", "hiragana": "てま", "romaji": "tema", "meanings": {"en": "labor, time, effort", "id": "waktu dan usaha/tenaga/upaya"}},
+        {"id": 8, "kanji": "典型", "hiragana": "てんけい", "romaji": "tenkei", "meanings": {"en": "type, model, epitome", "id": "ciri khas yang mewakili"}},
+        {"id": 9, "kanji": "天候", "hiragana": "てんこう", "romaji": "tenkou", "meanings": {"en": "weather", "id": "cuaca"}},
+        {"id": 10, "kanji": "手続き", "hiragana": "てつづき", "romaji": "tetsuzuki", "meanings": {"en": "procedure, process", "id": "prosedur, tata cara"}},
+        {"id": 11, "kanji": "徹底", "hiragana": "てってい", "romaji": "tettei", "meanings": {"en": "thoroughness, completeness", "id": "tuntas, tandas"}},
+        {"id": 12, "kanji": "土地", "hiragana": "とち", "romaji": "tochi", "meanings": {"en": "land, region", "id": "tanah, daerah"}},
+        {"id": 13, "kanji": "徒歩", "hiragana": "とほ", "romaji": "toho", "meanings": {"en": "walking, on foot", "id": "jalan kaki"}},
+        {"id": 14, "kanji": "都会", "hiragana": "とかい", "romaji": "tokai", "meanings": {"en": "city, urban area", "id": "kota"}},
+        {"id": 15, "kanji": "共働き", "hiragana": "ともばたらき", "romaji": "tomo bataraki", "meanings": {"en": "dual-income household", "id": "(suami istri) sama-sama bekerja"}},
+        {"id": 16, "kanji": "投票", "hiragana": "とうひょう", "romaji": "touhyou", "meanings": {"en": "voting, poll", "id": "pemberian suara (pemilu)"}},
+        {"id": 17, "kanji": "登場", "hiragana": "とうじょう", "romaji": "toujou", "meanings": {"en": "appearance, entry", "id": "kemunculan, penampilan"}},
+        {"id": 18, "kanji": "当選", "hiragana": "とうせん", "romaji": "tousen", "meanings": {"en": "being elected, winning", "id": "yang terpilih"}},
+        {"id": 19, "kanji": "統一", "hiragana": "とういつ", "romaji": "tou'itsu", "meanings": {"en": "unification, uniformity", "id": "penyeragaman, penyatuan"}},
+        {"id": 20, "kanji": "粒", "hiragana": "つぶ", "romaji": "tsubu", "meanings": {"en": "grain, bead", "id": "butiran, biji"}},
+        {"id": 21, "kanji": "追加", "hiragana": "ついか", "romaji": "suika", "meanings": {"en": "addition, supplement", "id": "tambahan"}},
+        {"id": 22, "kanji": "通過", "hiragana": "つうか", "romaji": "tsuuka", "meanings": {"en": "passing through, transit", "id": "lewat, lintas"}},
+        {"id": 23, "kanji": "運", "hiragana": "うん", "romaji": "un", "meanings": {"en": "fortune, luck", "id": "nasib, peruntungan"}},
+        {"id": 24, "kanji": "輪", "hiragana": "わ", "romaji": "wa", "meanings": {"en": "ring, wheel", "id": "lingkaran, roda"}},
+        {"id": 25, "kanji": "話題", "hiragana": "わだい", "romaji": "wadai", "meanings": {"en": "topic, subject", "id": "topik pembicaraan"}},
+        {"id": 26, "kanji": "脇", "hiragana": "わき", "romaji": "waki", "meanings": {"en": "side, armpit", "id": "① samping, sebelah ② ketiak"}},
+        {"id": 27, "kanji": "割引", "hiragana": "わりびき", "romaji": "waribiki", "meanings": {"en": "discount, reduction", "id": "potongan harga, diskon"}}
+      ]
+    }
+  ]
+}

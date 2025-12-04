@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "TAHUN BARU",
+        "en": "NEW YEAR"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "書初め", "hiragana": "かきぞめ", "romaji": "kakizome", "meanings": {"en": "New Year's calligraphy", "id": "tulisan kaligrafi untuk tahun baru"}},
+        {"id": 2, "kanji": "年賀状", "hiragana": "ねんがじょう", "romaji": "nen'gajyou", "meanings": {"en": "New Year's card", "id": "kartu ucapan selamat tahun baru"}},
+        {"id": 3, "kanji": "お餅", "hiragana": "おもち", "romaji": "omochi", "meanings": {"en": "rice cake", "id": "kue ketan"}},
+        {"id": 4, "kanji": "お節料理", "hiragana": "おせちりょうり", "romaji": "osechi ryouri", "meanings": {"en": "New Year's cuisine", "id": "masakan hidangan tahun baru"}},
+        {"id": 5, "kanji": "お正月", "hiragana": "おしょうがつ", "romaji": "oshougatsu", "meanings": {"en": "New Year", "id": "tahun baru"}},
+        {"id": 6, "kanji": "お年玉", "hiragana": "おとしだま", "romaji": "otoshidama", "meanings": {"en": "New Year's gift money", "id": "angpao, amplop berisi uang"}},
+        {"id": 7, "kanji": "お屠蘇", "hiragana": "おとそ", "romaji": "otoso", "meanings": {"en": "New Year's sake", "id": "minuman keras khusus tahun baru"}},
+        {"id": 8, "kanji": "お雑煮", "hiragana": "おぞうに", "romaji": "ozouni", "meanings": {"en": "New Year's soup", "id": "kue ketan yg dimasak dengan sayur-sayuran"}},
+        {"id": 9, "kanji": "しめ飾り", "hiragana": "しめかざり", "romaji": "shimekazari", "meanings": {"en": "decorative rice straw", "id": "ornamen dekorasi"}},
+        {"id": 10, "kanji": "新年会", "hiragana": "しんねんかい", "romaji": "shinnenkai", "meanings": {"en": "New Year's party", "id": "pesta tahun baru"}},
+        {"id": 11, "kanji": "新春", "hiragana": "しんしゅん", "romaji": "shinshun", "meanings": {"en": "New Year, early spring", "id": "tahun baru, awal musim semi"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "MUSIM SEMI",
+        "en": "SPRING SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ゴールデンウィーク", "hiragana": "ごーるでんうぃーく", "romaji": "gōruden uīku", "meanings": {"en": "Golden Week", "id": "liburan panjang di akhir April s/d awal Mei"}},
+        {"id": 2, "kanji": "春", "hiragana": "はる", "romaji": "haru", "meanings": {"en": "spring", "id": "musim semi"}},
+        {"id": 3, "kanji": "ひな祭り", "hiragana": "ひなまつり", "romaji": "hina matsuri", "meanings": {"en": "Doll Festival", "id": "festival anak perempuan tgl 3 Maret"}},
+        {"id": 4, "kanji": "雛人形/お雛様", "hiragana": "ひなにんぎょう/おひなさま", "romaji": "hina nin'gyou/ohina-sama", "meanings": {"en": "Hina dolls", "id": "boneka pajangan saat festival anak perempuan"}},
+        {"id": 5, "kanji": "子供の日", "hiragana": "こどものひ", "romaji": "kodomo no hi", "meanings": {"en": "Children's Day", "id": "hari anak-anak tgl 5 Mei"}},
+        {"id": 6, "kanji": "鯉のぼり", "hiragana": "こいのぼり", "romaji": "koi nobori", "meanings": {"en": "koi-shaped flag", "id": "bendera berbentuk ikan koi"}},
+        {"id": 7, "kanji": "豆まき", "hiragana": "まめまき", "romaji": "mame maki", "meanings": {"en": "bean throwing", "id": "ritual melempar kacang saat memasuki musim semi"}},
+        {"id": 8, "kanji": "桃の節句", "hiragana": "もものせっく", "romaji": "momo no sekku", "meanings": {"en": "Peach Festival", "id": "festival anak perempuan tgl 3 Maret"}},
+        {"id": 9, "kanji": "入学式", "hiragana": "にゅうがくしき", "romaji": "nyuugaku shiki", "meanings": {"en": "school entrance ceremony", "id": "upacara masuk sekolah"}},
+        {"id": 10, "kanji": "入社式", "hiragana": "にゅうしゃしき", "romaji": "nyuusha shiki", "meanings": {"en": "company entrance ceremony", "id": "upacara penerimaan karyawan baru"}},
+        {"id": 11, "kanji": "お墓参り", "hiragana": "おはかまいり", "romaji": "ohakamairi", "meanings": {"en": "grave visit", "id": "kunjungan ke makam/kuburan"}},
+        {"id": 12, "kanji": "お花見", "hiragana": "おはなみ", "romaji": "ohanami", "meanings": {"en": "cherry blossom viewing", "id": "menikmati musim bunga sakura"}},
+        {"id": 13, "kanji": "お彼岸", "hiragana": "おひがん", "romaji": "ohigan", "meanings": {"en": "Higan", "id": "waktu ziarah ke makam leluhur"}},
+        {"id": 14, "kanji": "桜", "hiragana": "さくら", "romaji": "sakura", "meanings": {"en": "cherry blossom", "id": "(bunga) sakura"}}
+      ]
+    }
+  ]
+}

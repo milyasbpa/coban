@@ -1,0 +1,281 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "AWALAN NON-/BELUM",
+        "en": "NON-/NOT YET PREFIXES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "非常勤",
+          "hiragana": "ひじょうきん",
+          "romaji": "hijyoukin",
+          "meanings": {
+            "en": "part-time worker",
+            "id": "(pekerja) tidak tetap, paruh waktu"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "非常識",
+          "hiragana": "ひじょうしき",
+          "romaji": "hijyoushiki",
+          "meanings": {
+            "en": "unreasonable, thoughtless",
+            "id": "tidak berpikiran sehat"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "非科学的",
+          "hiragana": "ひかがくてき",
+          "romaji": "hikagaku teki",
+          "meanings": {
+            "en": "unscientific",
+            "id": "tidak ilmiah"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "非課税",
+          "hiragana": "ひかぜい",
+          "romaji": "hikazei",
+          "meanings": {
+            "en": "tax-free",
+            "id": "tidak kena pajak"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "非公開",
+          "hiragana": "ひこうかい",
+          "romaji": "hikoukai",
+          "meanings": {
+            "en": "private, confidential",
+            "id": "tidak terbuka, pribadi, rahasia"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "非日常",
+          "hiragana": "ひにちじょう",
+          "romaji": "hinichijyou",
+          "meanings": {
+            "en": "extraordinary, not daily life",
+            "id": "bukan kehidupan sehari-hari"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "非論理的",
+          "hiragana": "ひろんりてき",
+          "romaji": "hironri teki",
+          "meanings": {
+            "en": "illogical",
+            "id": "tidak logis, tidak masuk akal"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "未払い",
+          "hiragana": "みはらい",
+          "romaji": "mihara",
+          "meanings": {
+            "en": "unpaid, outstanding",
+            "id": "tunggakan, belum lunas"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "未開発",
+          "hiragana": "みかいはつ",
+          "romaji": "mikaihatsu",
+          "meanings": {
+            "en": "undeveloped, backward",
+            "id": "belum berkembang, masih terbelakang"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "未解決",
+          "hiragana": "みかいけつ",
+          "romaji": "mikaiketsu",
+          "meanings": {
+            "en": "unsolved, unresolved",
+            "id": "belum terselesaikan, belum teratasi"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "未完成",
+          "hiragana": "みかんせい",
+          "romaji": "mikannsei",
+          "meanings": {
+            "en": "unfinished, incomplete",
+            "id": "belum selesai, belum rampung"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "未経験",
+          "hiragana": "みけいけん",
+          "romaji": "mikeiken",
+          "meanings": {
+            "en": "inexperienced",
+            "id": "belum berpengalaman"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "未成年",
+          "hiragana": "みせいねん",
+          "romaji": "miseinen",
+          "meanings": {
+            "en": "minor, underage",
+            "id": "belum dewasa, di bawah umur"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "AWALAN TANPA",
+        "en": "WITHOUT PREFIXES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "無経験",
+          "hiragana": "むけいけん",
+          "romaji": "mukeiken",
+          "meanings": {
+            "en": "inexperienced",
+            "id": "belum berpengalaman"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "無意味",
+          "hiragana": "むいみ",
+          "romaji": "muimi",
+          "meanings": {
+            "en": "meaningless",
+            "id": "tidak berarti, tanpa arti"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "無意識",
+          "hiragana": "むいしき",
+          "romaji": "muishiki",
+          "meanings": {
+            "en": "unconscious, unaware",
+            "id": "tidak sengaja, tidak menyadari"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "無関係",
+          "hiragana": "むかんけい",
+          "romaji": "mukankei",
+          "meanings": {
+            "en": "irrelevant, unrelated",
+            "id": "tidak ada hubungan, tidak relevan"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "無関心",
+          "hiragana": "むかんしん",
+          "romaji": "mukanshin",
+          "meanings": {
+            "en": "indifferent, unconcerned",
+            "id": "tidak peduli, tidak acuh"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "無計画",
+          "hiragana": "むけいかく",
+          "romaji": "mukeikaku",
+          "meanings": {
+            "en": "unplanned",
+            "id": "tidak terencana"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "無気力",
+          "hiragana": "むきりょく",
+          "romaji": "mukiryoku",
+          "meanings": {
+            "en": "lethargic, listless",
+            "id": "tidak bergairah, lesu, lemas"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "無理解",
+          "hiragana": "むりかい",
+          "romaji": "murikai",
+          "meanings": {
+            "en": "lack of understanding",
+            "id": "tidak pengertian"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "無差別",
+          "hiragana": "むさべつ",
+          "romaji": "musabetsu",
+          "meanings": {
+            "en": "indiscriminate",
+            "id": "tidak pandang bulu, tidak membedakan"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "無責任",
+          "hiragana": "むせきにん",
+          "romaji": "musekinin",
+          "meanings": {
+            "en": "irresponsible",
+            "id": "tidak bertanggung-jawab"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "無抵抗",
+          "hiragana": "むていこう",
+          "romaji": "muteikou",
+          "meanings": {
+            "en": "unresisting, passive",
+            "id": "tanpa perlawanan"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "KATA SIFAT",
+        "en": "ADJECTIVES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "あいまいな",
+          "hiragana": "あいまいな",
+          "romaji": "aimai na",
+          "meanings": {
+            "en": "ambiguous, vague",
+            "id": "tidak tegas, tidak jelas"
+          }
+        }
+      ]
+    }
+  ]
+}

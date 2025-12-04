@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "産地", "hiragana": "さんち", "romaji": "sanchi", "meanings": {"en": "production area", "id": "daerah penghasil"}},
+        {"id": 2, "kanji": "参考", "hiragana": "さんこう", "romaji": "sankou", "meanings": {"en": "reference", "id": "referensi"}},
+        {"id": 3, "kanji": "撮影", "hiragana": "さつえい", "romaji": "satsuei", "meanings": {"en": "filming, shooting", "id": "pemotretan, pengambilan film"}},
+        {"id": 4, "kanji": "設置", "hiragana": "せっち", "romaji": "secchi", "meanings": {"en": "installation, establishment", "id": "pembentukan, pemasangan, instalasi"}},
+        {"id": 5, "kanji": "世代", "hiragana": "せだい", "romaji": "sedai", "meanings": {"en": "generation", "id": "generasi"}},
+        {"id": 6, "kanji": "制度", "hiragana": "せいど", "romaji": "seido", "meanings": {"en": "system, organization", "id": "sistem, struktur organisasi"}},
+        {"id": 7, "kanji": "制限", "hiragana": "せいげん", "romaji": "seigen", "meanings": {"en": "restriction, limitation", "id": "pembatasan"}},
+        {"id": 8, "kanji": "請求", "hiragana": "せいきゅう", "romaji": "seikyuu", "meanings": {"en": "request, claim", "id": "permintaan, permohonan"}},
+        {"id": 9, "kanji": "性能", "hiragana": "せいのう", "romaji": "seinou", "meanings": {"en": "performance, ability", "id": "daya guna, efisiensi, kemampuan"}},
+        {"id": 10, "kanji": "成立", "hiragana": "せいりつ", "romaji": "seiritsu", "meanings": {"en": "formation, establishment", "id": "pembentukan, realisasi, pengesahan"}},
+        {"id": 11, "kanji": "制作", "hiragana": "せいさく", "romaji": "seisaku", "meanings": {"en": "production, creation", "id": "buatan, produksi, hasil karya"}},
+        {"id": 12, "kanji": "精神", "hiragana": "せいしん", "romaji": "seishin", "meanings": {"en": "spirit, mind", "id": "kejiwaan, rohani, mental, spiritual"}},
+        {"id": 13, "kanji": "製造", "hiragana": "せいぞう", "romaji": "seizou", "meanings": {"en": "manufacture, production", "id": "produksi, pembuatan"}},
+        {"id": 14, "kanji": "世辞", "hiragana": "せじ", "romaji": "seji", "meanings": {"en": "flattery, compliment", "id": "pujian yang bersifat menjilat"}},
+        {"id": 15, "kanji": "設計", "hiragana": "せっけい", "romaji": "sekkei", "meanings": {"en": "design, planning", "id": "desain, perancangan"}},
+        {"id": 16, "kanji": "栓", "hiragana": "せん", "romaji": "sen", "meanings": {"en": "plug, stopper", "id": "sumbat, tutup botol"}},
+        {"id": 17, "kanji": "専攻", "hiragana": "せんこう", "romaji": "senkou", "meanings": {"en": "major, specialization", "id": "fakultas, jurusan, spesialisasi"}},
+        {"id": 18, "kanji": "選択", "hiragana": "せんたく", "romaji": "sentaku", "meanings": {"en": "selection, choice", "id": "pemilihan, seleksi"}},
+        {"id": 19, "kanji": "説", "hiragana": "せつ", "romaji": "setsu", "meanings": {"en": "theory, opinion", "id": "① pendapat ② teori ③ kabar angin"}},
+        {"id": 20, "kanji": "設備", "hiragana": "せつび", "romaji": "setsubi", "meanings": {"en": "equipment, facilities", "id": "perlengkapan, fasilitas"}},
+        {"id": 21, "kanji": "設定", "hiragana": "せってい", "romaji": "settei", "meanings": {"en": "setting, establishment", "id": "pengaturan, pengadaan, penentuan"}},
+        {"id": 22, "kanji": "社会", "hiragana": "しゃかい", "romaji": "shakai", "meanings": {"en": "society, community", "id": "masyarakat, komunitas"}},
+        {"id": 23, "kanji": "刺激", "hiragana": "しげき", "romaji": "shigeki", "meanings": {"en": "stimulus, stimulation", "id": "rangsangan, stimulasi"}},
+        {"id": 24, "kanji": "指示", "hiragana": "しじ", "romaji": "shiji", "meanings": {"en": "instruction, direction", "id": "petunjuk, perintah, instruksi"}},
+        {"id": 25, "kanji": "司会", "hiragana": "しかい", "romaji": "shikai", "meanings": {"en": "moderator, master of ceremonies", "id": "pemandu acara, pemimpin upacara"}},
+        {"id": 26, "kanji": "失格", "hiragana": "しっかく", "romaji": "shikkaku", "meanings": {"en": "disqualification", "id": "diskualifikasi, tidak memenuhi syarat"}},
+        {"id": 27, "kanji": "神経", "hiragana": "しんけい", "romaji": "shinkei", "meanings": {"en": "nerve", "id": "saraf"}},
+        {"id": 28, "kanji": "審判", "hiragana": "しんぱん", "romaji": "shinpan", "meanings": {"en": "referee, judgment", "id": "① juri, wasit ② keputusan, pertimbangan"}},
+        {"id": 29, "kanji": "信頼", "hiragana": "しんらい", "romaji": "shinrai", "meanings": {"en": "trust, reliance", "id": "kepercayaan, yang diandalkan"}}
+      ]
+    }
+  ]
+}

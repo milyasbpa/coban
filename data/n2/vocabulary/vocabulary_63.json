@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "皮肉", "hiragana": "ひにく", "romaji": "hiniku", "meanings": {"en": "sarcasm, irony", "id": "sindiran, ejekan"}},
+        {"id": 2, "kanji": "筆者", "hiragana": "ひっしゃ", "romaji": "hissha", "meanings": {"en": "author, writer", "id": "penulis, pengarang"}},
+        {"id": 3, "kanji": "費用", "hiragana": "ひよう", "romaji": "hiyou", "meanings": {"en": "cost, expense", "id": "biaya, pengeluaran, ongkos"}},
+        {"id": 4, "kanji": "日付", "hiragana": "ひづけ", "romaji": "hidzuke", "meanings": {"en": "date", "id": "tanggal"}},
+        {"id": 5, "kanji": "ほか", "hiragana": "ほか", "romaji": "hoka", "meanings": {"en": "other, besides", "id": "selain, yang lain"}},
+        {"id": 6, "kanji": "保険", "hiragana": "ほけん", "romaji": "hoken", "meanings": {"en": "insurance", "id": "asuransi"}},
+        {"id": 7, "kanji": "本気", "hiragana": "ほんき", "romaji": "honki", "meanings": {"en": "seriousness, earnestness", "id": "kesungguhan hati, keseriusan"}},
+        {"id": 8, "kanji": "保証", "hiragana": "ほしょう", "romaji": "hoshou", "meanings": {"en": "guarantee, warranty", "id": "jaminan, garansi"}},
+        {"id": 9, "kanji": "方言", "hiragana": "ほうげん", "romaji": "hougen", "meanings": {"en": "dialect", "id": "dialek, logat"}},
+        {"id": 10, "kanji": "方向", "hiragana": "ほうこう", "romaji": "houkou", "meanings": {"en": "direction, way", "id": "arah, jurusan"}},
+        {"id": 11, "kanji": "方針", "hiragana": "ほうしん", "romaji": "houshin", "meanings": {"en": "policy, plan", "id": "kebijaksanaan, haluan"}},
+        {"id": 12, "kanji": "表", "hiragana": "ひょう", "romaji": "hyou", "meanings": {"en": "table, chart", "id": "daftar, jadwal"}},
+        {"id": 13, "kanji": "評判", "hiragana": "ひょうばん", "romaji": "hyouban", "meanings": {"en": "reputation, fame", "id": "reputasi, nama baik"}},
+        {"id": 14, "kanji": "標準", "hiragana": "ひょうじゅん", "romaji": "hyoujyun", "meanings": {"en": "standard, norm", "id": "patokan, norma, standar"}},
+        {"id": 15, "kanji": "評価", "hiragana": "ひょうか", "romaji": "hyouka", "meanings": {"en": "evaluation, assessment", "id": "penilaian, evaluasi, taksiran"}},
+        {"id": 16, "kanji": "秒", "hiragana": "びょう", "romaji": "byou", "meanings": {"en": "second (time)", "id": "satuan, sepatak, detik"}},
+        {"id": 17, "kanji": "一人前", "hiragana": "いちにんまえ", "romaji": "ichininmae", "meanings": {"en": "adult, full portion", "id": "① dewasa ② satu porsi"}},
+        {"id": 18, "kanji": "遺伝", "hiragana": "いでん", "romaji": "iden", "meanings": {"en": "heredity, inheritance", "id": "keturunan"}},
+        {"id": 19, "kanji": "移動", "hiragana": "いどう", "romaji": "idou", "meanings": {"en": "movement, transfer", "id": "perpindahan, pergeseran"}},
+        {"id": 20, "kanji": "意義", "hiragana": "いぎ", "romaji": "igi", "meanings": {"en": "meaning, significance", "id": "arti, makna, nilai"}},
+        {"id": 21, "kanji": "違反", "hiragana": "いはん", "romaji": "ihan", "meanings": {"en": "violation, breach", "id": "pelanggaran (peraturan dll)"}},
+        {"id": 22, "kanji": "言い訳", "hiragana": "いいわけ", "romaji": "iiwake", "meanings": {"en": "excuse, explanation", "id": "alasan, dalih"}},
+        {"id": 23, "kanji": "維持", "hiragana": "いじ", "romaji": "iji", "meanings": {"en": "maintenance, preservation", "id": "pertahanan, pemeliharaan"}},
+        {"id": 24, "kanji": "生き甲斐", "hiragana": "いきがい", "romaji": "ikigai", "meanings": {"en": "purpose in life", "id": "alasan/makna kehidupan"}},
+        {"id": 25, "kanji": "勢い", "hiragana": "いきおい", "romaji": "ikioi", "meanings": {"en": "force, vigor", "id": "daya, kekuatan, tenaga"}},
+        {"id": 26, "kanji": "一般", "hiragana": "いっぱん", "romaji": "ippan", "meanings": {"en": "general, ordinary", "id": "umum, biasa"}},
+        {"id": 27, "kanji": "一方", "hiragana": "いっぽう", "romaji": "ippou", "meanings": {"en": "one side, direction", "id": "satu sisi/arah"}},
+        {"id": 28, "kanji": "意思", "hiragana": "いし", "romaji": "ishi", "meanings": {"en": "intention, will", "id": "kemauan, tekad"}},
+        {"id": 29, "kanji": "石", "hiragana": "いし", "romaji": "ishi", "meanings": {"en": "stone, rock", "id": "batu"}}
+      ]
+    }
+  ]
+}

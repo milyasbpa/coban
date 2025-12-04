@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "交替", "hiragana": "こうたい", "romaji": "koutai", "meanings": {"en": "alternation, exchange, shift", "id": "pergantian, pertukaran, giliran"}},
+        {"id": 2, "kanji": "肯定", "hiragana": "こうてい", "romaji": "koutei", "meanings": {"en": "affirmation, positive", "id": "penegasan, afirmasi, positif"}},
+        {"id": 3, "kanji": "区別", "hiragana": "くべつ", "romaji": "kubetsu", "meanings": {"en": "distinction, discrimination", "id": "perbedaan, diskriminasi"}},
+        {"id": 4, "kanji": "工夫", "hiragana": "くふう", "romaji": "kufuu", "meanings": {"en": "device, scheme, ingenuity", "id": "upaya, usaha, akal, cara"}},
+        {"id": 5, "kanji": "苦情", "hiragana": "くじょう", "romaji": "kujyou", "meanings": {"en": "complaint, grievance", "id": "keluhan, pengaduan"}},
+        {"id": 6, "kanji": "苦労", "hiragana": "くろう", "romaji": "kurou", "meanings": {"en": "hardship, effort", "id": "jerih-payah, kerja keras"}},
+        {"id": 7, "kanji": "空想", "hiragana": "くうそう", "romaji": "kuusou", "meanings": {"en": "fantasy, daydream", "id": "khayalan, imajinasi, fantasi"}},
+        {"id": 8, "kanji": "屑", "hiragana": "くず", "romaji": "kuzu", "meanings": {"en": "waste, scrap", "id": "sampah, remah, serpihan, limbah"}},
+        {"id": 9, "kanji": "許可", "hiragana": "きょか", "romaji": "kyoka", "meanings": {"en": "permission, approval", "id": "izin, persetujuan"}},
+        {"id": 10, "kanji": "供給", "hiragana": "きょうきゅう", "romaji": "kyoukyuu", "meanings": {"en": "supply, provision", "id": "suplai, penyaluran persediaan"}},
+        {"id": 11, "kanji": "吸収", "hiragana": "きゅうしゅう", "romaji": "kyuushuu", "meanings": {"en": "absorption, assimilation", "id": "penyerapan, absorpsi"}},
+        {"id": 12, "kanji": "急増", "hiragana": "きゅうぞう", "romaji": "kyuuzou", "meanings": {"en": "rapid increase", "id": "penambahan dengan cepat dan tiba-tiba"}},
+        {"id": 13, "kanji": "間", "hiragana": "ま", "romaji": "ma", "meanings": {"en": "interval, space, time", "id": "saat, ruang, jarak, waktu"}},
+        {"id": 14, "kanji": "窓口", "hiragana": "まどぐち", "romaji": "madoguchi", "meanings": {"en": "window, counter", "id": "loket"}},
+        {"id": 15, "kanji": "迷子", "hiragana": "まいご", "romaji": "maigo", "meanings": {"en": "lost child", "id": "anak tersesat, tersesat"}},
+        {"id": 16, "kanji": "真似", "hiragana": "まね", "romaji": "mane", "meanings": {"en": "imitation, mimicry", "id": "tiruan, jiplakan"}},
+        {"id": 17, "kanji": "摩擦", "hiragana": "まさつ", "romaji": "masatsu", "meanings": {"en": "friction, conflict", "id": "pergesekan, konflik, friksi"}},
+        {"id": 18, "kanji": "名簿", "hiragana": "めいぼ", "romaji": "meibo", "meanings": {"en": "register, list of names", "id": "daftar nama"}},
+        {"id": 19, "kanji": "面", "hiragana": "めん", "romaji": "men", "meanings": {"en": "face, surface, aspect", "id": "muka, sisi, segi, aspek, topeng"}},
+        {"id": 20, "kanji": "見かけ", "hiragana": "みかけ", "romaji": "mikake", "meanings": {"en": "appearance, look", "id": "penampilan, rupa, tampang"}},
+        {"id": 21, "kanji": "見方", "hiragana": "みかた", "romaji": "mikata", "meanings": {"en": "viewpoint, ally", "id": "teman, pendukung"}},
+        {"id": 22, "kanji": "民族", "hiragana": "みんぞく", "romaji": "minzoku", "meanings": {"en": "ethnic group, people", "id": "bangsa, suku"}},
+        {"id": 23, "kanji": "密閉", "hiragana": "みっぺい", "romaji": "mippei", "meanings": {"en": "airtight, sealed", "id": "keadaan tertutup rapat"}},
+        {"id": 24, "kanji": "魅力", "hiragana": "みりょく", "romaji": "miryoku", "meanings": {"en": "charm, appeal", "id": "daya tarik, pesona"}},
+        {"id": 25, "kanji": "者", "hiragana": "もの", "romaji": "mono", "meanings": {"en": "person", "id": "orang"}},
+        {"id": 26, "kanji": "元", "hiragana": "もと", "romaji": "moto", "meanings": {"en": "origin, source", "id": "asal, sumber, awal"}},
+        {"id": 27, "kanji": "無断", "hiragana": "むだん", "romaji": "mudan", "meanings": {"en": "without permission", "id": "tanpa izin/sepengatahuan"}},
+        {"id": 28, "kanji": "矛盾", "hiragana": "むじゅん", "romaji": "mujyun", "meanings": {"en": "contradiction, inconsistency", "id": "tidak selaras, kontradiksi"}},
+        {"id": 29, "kanji": "無料", "hiragana": "むりょう", "romaji": "muryou", "meanings": {"en": "free of charge", "id": "gratis, cuma-cuma"}}
+      ]
+    }
+  ]
+}

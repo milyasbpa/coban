@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BERULANG",
+        "en": "REDUPLICATED WORDS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "どきどき", "hiragana": "どきどき", "romaji": "doki-doki", "meanings": {"en": "throbbing, pounding", "id": "berdebar-debar, deg-degan"}},
+        {"id": 2, "kanji": "ふらふら", "hiragana": "ふらふら", "romaji": "fura-fura", "meanings": {"en": "staggering, reeling", "id": "sempoyongan, terhuyung-huyung"}},
+        {"id": 3, "kanji": "いきいき", "hiragana": "いきいき", "romaji": "iki-iki", "meanings": {"en": "lively, vivid", "id": "bersemangat, segar, hidup"}},
+        {"id": 4, "kanji": "かんかん", "hiragana": "かんかん", "romaji": "kan-kan", "meanings": {"en": "furious, blazing", "id": "berapi-api, berdentang-dentang"}},
+        {"id": 5, "kanji": "にこにこ", "hiragana": "にこにこ", "romaji": "niko-niko", "meanings": {"en": "smiling", "id": "tersenyum-senyum"}},
+        {"id": 6, "kanji": "にやにや", "hiragana": "にやにや", "romaji": "niya-niya", "meanings": {"en": "grinning", "id": "tertawa-tawa, cengengesan"}},
+        {"id": 7, "kanji": "のろのろ", "hiragana": "のろのろ", "romaji": "noro-noro", "meanings": {"en": "slowly", "id": "lamban, berat"}},
+        {"id": 8, "kanji": "ぺこぺこ", "hiragana": "ぺこぺこ", "romaji": "peko-peko", "meanings": {"en": "hungry, bowing", "id": "1. lapar sekali 2. terbungkuk-bungkuk"}},
+        {"id": 9, "kanji": "うろうろ", "hiragana": "うろうろ", "romaji": "uro-uro", "meanings": {"en": "wandering", "id": "di sana-sini, di mana-mana"}},
+        {"id": 10, "kanji": "ぞくぞく", "hiragana": "ぞくぞく", "romaji": "zoku-zoku", "meanings": {"en": "shivering, continuously", "id": "mondar-mandir, terus menerus, berkelanjutan"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "LAIN-LAIN",
+        "en": "MISCELLANEOUS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "ついでに", "hiragana": "ついでに", "romaji": "suide ni", "meanings": {"en": "incidentally", "id": "sekalian, kebetulan, sambil lalu"}},
+        {"id": 2, "kanji": "とりあえず", "hiragana": "とりあえず", "romaji": "toriaezu", "meanings": {"en": "for now", "id": "sementara ini, yang paling penting"}},
+        {"id": 3, "kanji": "万が一", "hiragana": "まんがいち", "romaji": "man ga ichi", "meanings": {"en": "if by any chance", "id": "kalau-kalau, seandainya, dalam hal"}},
+        {"id": 4, "kanji": "偶然", "hiragana": "ぐうぜん", "romaji": "guuzen", "meanings": {"en": "by chance", "id": "kebetulan, tanpa sengaja"}},
+        {"id": 5, "kanji": "たまたま", "hiragana": "たまたま", "romaji": "tama-tama", "meanings": {"en": "occasionally", "id": "kebetulan, tidak sengaja"}},
+        {"id": 6, "kanji": "実際に", "hiragana": "じっさいに", "romaji": "jissai ni", "meanings": {"en": "actually", "id": "sesungguhnya, kenyataannya"}},
+        {"id": 7, "kanji": "同様", "hiragana": "どうよう", "romaji": "douyou", "meanings": {"en": "similarly", "id": "serupa, sama"}},
+        {"id": 8, "kanji": "元々", "hiragana": "もともと", "romaji": "moto-moto", "meanings": {"en": "originally", "id": "mula-mula, sejak awal, aslinya"}},
+        {"id": 9, "kanji": "本来", "hiragana": "ほんらい", "romaji": "honrai", "meanings": {"en": "originally", "id": "sebenarnya, semestinya, sepantasnya"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "KATA PENGHUBUNG",
+        "en": "CONJUNCTIONS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "あるいは", "hiragana": "あるいは", "romaji": "aruiwa", "meanings": {"en": "or, maybe", "id": "atau, mungkin"}},
+        {"id": 2, "kanji": "だが", "hiragana": "だが", "romaji": "daga", "meanings": {"en": "but, however", "id": "tapi, hanya saja"}},
+        {"id": 3, "kanji": "だって", "hiragana": "だって", "romaji": "datte", "meanings": {"en": "because", "id": "karena, habisnya..."}}
+      ]
+    }
+  ]
+}

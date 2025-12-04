@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA GABUNGAN",
+        "en": "COMPOUND VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "舞い上がる", "hiragana": "まいあがる", "romaji": "mai agaru", "meanings": {"en": "to soar, to fly up", "id": "terbang melayang"}},
+        {"id": 2, "kanji": "燃え上がる", "hiragana": "もえあがる", "romaji": "moe agaru", "meanings": {"en": "to blaze up", "id": "berkobar-kobar"}},
+        {"id": 3, "kanji": "盛り上がる", "hiragana": "もりあがる", "romaji": "mori agaru", "meanings": {"en": "to swell, to rise", "id": "meninggi, menggungung"}},
+        {"id": 4, "kanji": "立ち上がる", "hiragana": "たちあがる", "romaji": "tachi agaru", "meanings": {"en": "to stand up, to get up", "id": "1. berdiri 2. memulai kembali"}},
+        {"id": 5, "kanji": "飛び上がる", "hiragana": "とびあがる", "romaji": "tobi agaru", "meanings": {"en": "to jump up, to fly up", "id": "terbang, melambung"}},
+        {"id": 6, "kanji": "浮き上がる", "hiragana": "うきあがる", "romaji": "uki agaru", "meanings": {"en": "to float up", "id": "mengapung ke permukaan, timbul"}},
+        {"id": 7, "kanji": "沸き上がる", "hiragana": "わきあがる", "romaji": "waki agaru", "meanings": {"en": "to boil up", "id": "1. bergolak 2. mulai mendidih"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "AGARU",
+        "en": "AGARU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "縮み上がる", "hiragana": "ちぢみあがる", "romaji": "chijimi agaru", "meanings": {"en": "to shrink up", "id": "sangat menyusut, sangat ketakutan"}},
+        {"id": 2, "kanji": "震え上がる", "hiragana": "ふるえあがる", "romaji": "furue agaru", "meanings": {"en": "to tremble", "id": "sangat gemetar, sangat menggigil"}},
+        {"id": 3, "kanji": "晴れ上がる", "hiragana": "はれあがる", "romaji": "hare agaru", "meanings": {"en": "to clear up", "id": "sangat cerah"}},
+        {"id": 4, "kanji": "干上がる", "hiragana": "ひあがる", "romaji": "hi agaru", "meanings": {"en": "to dry up", "id": "sangat kering"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "MUSIM GUGUR",
+        "en": "AUTUMN SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "紅葉/もみじ", "hiragana": "こうよう/もみじ", "romaji": "kouyou/momiji", "meanings": {"en": "autumn leaves", "id": "dedaunan yg memerah atau menguning"}},
+        {"id": 2, "kanji": "松茸", "hiragana": "まつたけ", "romaji": "matsutake", "meanings": {"en": "matsutake mushroom", "id": "sejenis jamur"}},
+        {"id": 3, "kanji": "紅葉", "hiragana": "もみじ", "romaji": "momiji", "meanings": {"en": "red leaves", "id": "daun yang memerah atau menguning saat musim gugur"}},
+        {"id": 4, "kanji": "長雨", "hiragana": "ながあめ", "romaji": "naga ame", "meanings": {"en": "long rain", "id": "hujan terus menerus"}},
+        {"id": 5, "kanji": "さんま", "hiragana": "さんま", "romaji": "sanma", "meanings": {"en": "Pacific saury", "id": "sejenis ikan tambak makarel"}},
+        {"id": 6, "kanji": "新米", "hiragana": "しんまい", "romaji": "shinmai", "meanings": {"en": "new rice", "id": "beras baru panen"}},
+        {"id": 7, "kanji": "食欲増進", "hiragana": "しょくよくぞうしん", "romaji": "shokuyoku zoushin", "meanings": {"en": "increased appetite", "id": "bertambah nafsu makan"}},
+        {"id": 8, "kanji": "すすき", "hiragana": "すすき", "romaji": "susuki", "meanings": {"en": "Japanese pampas grass", "id": "sejenis rumput Jepang"}},
+        {"id": 9, "kanji": "台風", "hiragana": "たいふう", "romaji": "taifuu", "meanings": {"en": "typhoon", "id": "taifun, angin topan"}},
+        {"id": 10, "kanji": "月見", "hiragana": "つきみ", "romaji": "tsukimi", "meanings": {"en": "moon viewing", "id": "menikmati pemandangan bulan purnama"}},
+        {"id": 11, "kanji": "夜長", "hiragana": "よなが", "romaji": "yonaga", "meanings": {"en": "long night", "id": "malam yang terasa panjang"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "MUSIM DINGIN",
+        "en": "WINTER SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "バーゲン", "hiragana": "ばーげん", "romaji": "bāgen", "meanings": {"en": "bargain", "id": "potongan harga"}},
+        {"id": 2, "kanji": "ボーナス", "hiragana": "ぼーなす", "romaji": "bōnasu", "meanings": {"en": "bonus", "id": "bonus, tambahan upah"}},
+        {"id": 3, "kanji": "忘年会", "hiragana": "ぼうねんかい", "romaji": "bounenkai", "meanings": {"en": "year-end party", "id": "pesta akhir tahun"}},
+        {"id": 4, "kanji": "冬", "hiragana": "ふゆ", "romaji": "fuyu", "meanings": {"en": "winter", "id": "musim dingin"}},
+        {"id": 5, "kanji": "初雪", "hiragana": "はつゆき", "romaji": "hatsu yuki", "meanings": {"en": "first snow", "id": "salju yang turun pertama"}},
+        {"id": 6, "kanji": "日向ぼっこ", "hiragana": "ひなたぼっこ", "romaji": "hinatabokko", "meanings": {"en": "sunbathing", "id": "berjemur menghangatkan tubuh"}},
+        {"id": 7, "kanji": "イルミネーション", "hiragana": "いるみねーしょん", "romaji": "iruminēshon", "meanings": {"en": "illumination", "id": "lampu penerangan"}},
+        {"id": 8, "kanji": "ケーキ", "hiragana": "けーき", "romaji": "kēki", "meanings": {"en": "cake", "id": "kue keik"}},
+        {"id": 9, "kanji": "帰省", "hiragana": "きせい", "romaji": "kisei", "meanings": {"en": "homecoming", "id": "pulang kampung"}},
+        {"id": 10, "kanji": "コチョウラン", "hiragana": "こちょうらん", "romaji": "kochouran", "meanings": {"en": "Phalaenopsis orchid", "id": "sejenis bunga (Phalaenopsis)"}},
+        {"id": 11, "kanji": "こたつ", "hiragana": "こたつ", "romaji": "kotatsu", "meanings": {"en": "kotatsu", "id": "meja kecil dengan penghangat kaki"}},
+        {"id": 12, "kanji": "クリスマス", "hiragana": "くりすます", "romaji": "kurisumasu", "meanings": {"en": "Christmas", "id": "natal"}},
+        {"id": 13, "kanji": "クリスマスツリー", "hiragana": "くりすますつりー", "romaji": "kurisumasutsurī", "meanings": {"en": "Christmas tree", "id": "pohon natal"}},
+        {"id": 14, "kanji": "みかん", "hiragana": "みかん", "romaji": "mikan", "meanings": {"en": "mandarin orange", "id": "jeruk"}}
+      ]
+    }
+  ]
+}

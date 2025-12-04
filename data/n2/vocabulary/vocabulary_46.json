@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "鎮まる/静まる", "hiragana": "しずまる", "romaji": "shizumaru", "meanings": {"en": "to calm down, to become quiet", "id": "mereda, menjadi tenang"}},
+        {"id": 2, "kanji": "鎮める/静める", "hiragana": "しずめる", "romaji": "shizumeru", "meanings": {"en": "to calm, to quiet", "id": "meredakan, menenangkan"}},
+        {"id": 3, "kanji": "沈める", "hiragana": "しずめる", "romaji": "shizumeru", "meanings": {"en": "to sink, to submerge", "id": "menenggelamkan, membenamkan"}},
+        {"id": 4, "kanji": "生じる", "hiragana": "しょうじる", "romaji": "shoujiru", "meanings": {"en": "to produce, to cause", "id": "menghasilkan, menimbulkan, menimbulkan"}},
+        {"id": 5, "kanji": "沈む", "hiragana": "しずむ", "romaji": "shizumu", "meanings": {"en": "to sink, to go down", "id": "① tenggelam, terbenam ② mengendap"}},
+        {"id": 6, "kanji": "添える", "hiragana": "そえる", "romaji": "soeru", "meanings": {"en": "to add, to attach", "id": "melampirkan, menambahkan"}},
+        {"id": 7, "kanji": "染まる", "hiragana": "そまる", "romaji": "somaru", "meanings": {"en": "to be dyed, to be influenced", "id": "① diwarnai, disepuh ② dipengaruhi"}},
+        {"id": 8, "kanji": "染める", "hiragana": "そめる", "romaji": "someru", "meanings": {"en": "to dye, to color", "id": "① mewarnai, menyepuh ② mempengaruhi"}},
+        {"id": 9, "kanji": "備える", "hiragana": "そなえる", "romaji": "sonaeru", "meanings": {"en": "to prepare, to furnish", "id": "mempersiapkan, melengkapi"}},
+        {"id": 10, "kanji": "備わる", "hiragana": "そなわる", "romaji": "sonawaru", "meanings": {"en": "to be furnished, to be equipped", "id": "dipersiapkan, dilengkapi"}},
+        {"id": 11, "kanji": "逸らす", "hiragana": "そらす", "romaji": "sorasu", "meanings": {"en": "to turn away, to divert", "id": "mengalihkan, memalingkan"}},
+        {"id": 12, "kanji": "逸れる", "hiragana": "それる", "romaji": "soreru", "meanings": {"en": "to stray, to deviate", "id": "menyimpang, meleset"}},
+        {"id": 13, "kanji": "注ぐ", "hiragana": "そそぐ", "romaji": "sosogu", "meanings": {"en": "to pour, to flow", "id": "menuangkan, mencurahkan"}},
+        {"id": 14, "kanji": "相当する", "hiragana": "そうとうする", "romaji": "soutou suru", "meanings": {"en": "to correspond, to be suitable", "id": "① dapat disamakan/disetarakan ② cukup"}},
+        {"id": 15, "kanji": "優れる", "hiragana": "すぐれる", "romaji": "sugureru", "meanings": {"en": "to excel, to surpass", "id": "unggul, menonjol"}},
+        {"id": 16, "kanji": "透き通る", "hiragana": "すきとおる", "romaji": "sukitooru", "meanings": {"en": "to be transparent, to be clear", "id": "tembus pandang, transparan"}},
+        {"id": 17, "kanji": "救う", "hiragana": "すくう", "romaji": "sukuu", "meanings": {"en": "to save, to rescue", "id": "menolong, menyelamatkan"}},
+        {"id": 18, "kanji": "澄む", "hiragana": "すむ", "romaji": "sumu", "meanings": {"en": "to clear, to become clear", "id": "menjadi jernih/bersih"}},
+        {"id": 19, "kanji": "すすぐ", "hiragana": "すすぐ", "romaji": "susugu", "meanings": {"en": "to rinse, to wash out", "id": "membilas"}},
+        {"id": 20, "kanji": "すすぐ", "hiragana": "すすぐ", "romaji": "susugu", "meanings": {"en": "to gargle", "id": "berkumur-kumur"}},
+        {"id": 21, "kanji": "吸う", "hiragana": "すう", "romaji": "suu", "meanings": {"en": "to inhale, to suck", "id": "① menghirup, menyeruput ② membuang ingus"}},
+        {"id": 22, "kanji": "立ち止まる", "hiragana": "たちどまる", "romaji": "tachidomaru", "meanings": {"en": "to stop walking, to halt", "id": "menghentikan langkah"}},
+        {"id": 23, "kanji": "蓄える", "hiragana": "たくわえる", "romaji": "takuwaeru", "meanings": {"en": "to store, to save", "id": "menimbun, menabung, menyimpan"}},
+        {"id": 24, "kanji": "ためらう", "hiragana": "ためらう", "romaji": "tamerau", "meanings": {"en": "to hesitate, to waver", "id": "bimbang, ragu"}},
+        {"id": 25, "kanji": "達する", "hiragana": "たっする", "romaji": "tassuru", "meanings": {"en": "to reach, to attain", "id": "mencapai, sampai"}},
+        {"id": 26, "kanji": "戦う", "hiragana": "たたかう", "romaji": "tatakau", "meanings": {"en": "to fight, to battle", "id": "berperang, bertempur"}},
+        {"id": 27, "kanji": "闘う", "hiragana": "たたかう", "romaji": "tatakau", "meanings": {"en": "to fight, to struggle", "id": "berjuang, bergulat"}},
+        {"id": 28, "kanji": "例える", "hiragana": "たとえる", "romaji": "tatoeru", "meanings": {"en": "to compare, to liken", "id": "mengumpamakan, mengandaikan"}}
+      ]
+    }
+  ]
+}

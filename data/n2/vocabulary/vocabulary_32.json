@@ -1,0 +1,312 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "AWALAN NEGATIF",
+        "en": "NEGATIVE PREFIXES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "不確実",
+          "hiragana": "ふかくじつ",
+          "romaji": "fukakujitsu",
+          "meanings": {
+            "en": "uncertain, unclear",
+            "id": "tidak pasti, tidak jelas"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "不可能",
+          "hiragana": "ふかのう",
+          "romaji": "fukanou",
+          "meanings": {
+            "en": "impossible",
+            "id": "tidak mungkin"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "不完全",
+          "hiragana": "ふかんぜん",
+          "romaji": "fukanzen",
+          "meanings": {
+            "en": "incomplete, imperfect",
+            "id": "tidak lengkap, tidak sempurna"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "不景気",
+          "hiragana": "ふけいき",
+          "romaji": "fukeiki",
+          "meanings": {
+            "en": "recession, sluggish (business)",
+            "id": "(bisnis) tidak bergairah, lesu, lamban"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "不健康",
+          "hiragana": "ふけんこう",
+          "romaji": "fukenkou",
+          "meanings": {
+            "en": "unhealthy",
+            "id": "tidak sehat"
+          }
+        },
+        {
+          "id": 6,
+          "kanji": "不機嫌",
+          "hiragana": "ふきげん",
+          "romaji": "fukigen",
+          "meanings": {
+            "en": "bad mood, sullen",
+            "id": "tidak senang, murung, cemberut"
+          }
+        },
+        {
+          "id": 7,
+          "kanji": "不規則",
+          "hiragana": "ふきそく",
+          "romaji": "fukisoku",
+          "meanings": {
+            "en": "irregular",
+            "id": "tidak teratur"
+          }
+        },
+        {
+          "id": 8,
+          "kanji": "不公平",
+          "hiragana": "ふこうへい",
+          "romaji": "fukouhei",
+          "meanings": {
+            "en": "unfair",
+            "id": "tidak adil"
+          }
+        },
+        {
+          "id": 9,
+          "kanji": "不許可",
+          "hiragana": "ふきょか",
+          "romaji": "fukyoka",
+          "meanings": {
+            "en": "not permitted",
+            "id": "tidak diizinkan"
+          }
+        },
+        {
+          "id": 10,
+          "kanji": "不真面目",
+          "hiragana": "ふまじめ",
+          "romaji": "fumajime",
+          "meanings": {
+            "en": "not serious",
+            "id": "tidak serius"
+          }
+        },
+        {
+          "id": 11,
+          "kanji": "不向き",
+          "hiragana": "ふむき",
+          "romaji": "fumuki",
+          "meanings": {
+            "en": "unsuitable, inappropriate",
+            "id": "tidak sesuai, tidak pantas"
+          }
+        },
+        {
+          "id": 12,
+          "kanji": "不慣れ",
+          "hiragana": "ふなれ",
+          "romaji": "funare",
+          "meanings": {
+            "en": "unaccustomed, inexperienced",
+            "id": "tidak terbiasa, tidak berpengalaman"
+          }
+        },
+        {
+          "id": 13,
+          "kanji": "不作法",
+          "hiragana": "ふさほう",
+          "romaji": "fusahou",
+          "meanings": {
+            "en": "ill-mannered",
+            "id": "tidak bertata-krama"
+          }
+        },
+        {
+          "id": 14,
+          "kanji": "不正確",
+          "hiragana": "ふせいかく",
+          "romaji": "fuseikaku",
+          "meanings": {
+            "en": "inaccurate, incorrect",
+            "id": "tidak tepat, tidak benar"
+          }
+        },
+        {
+          "id": 15,
+          "kanji": "不成功",
+          "hiragana": "ふせいこう",
+          "romaji": "fuseikou",
+          "meanings": {
+            "en": "unsuccessful, failed",
+            "id": "tidak berhasil, tidak sukses"
+          }
+        },
+        {
+          "id": 16,
+          "kanji": "不幸せ",
+          "hiragana": "ふしあわせ",
+          "romaji": "fushiawase",
+          "meanings": {
+            "en": "unhappy",
+            "id": "tidak bahagia"
+          }
+        },
+        {
+          "id": 17,
+          "kanji": "不親切",
+          "hiragana": "ふしんせつ",
+          "romaji": "fushinsetsu",
+          "meanings": {
+            "en": "unkind, not friendly",
+            "id": "tidak ramah"
+          }
+        },
+        {
+          "id": 18,
+          "kanji": "不自然",
+          "hiragana": "ふしぜん",
+          "romaji": "fushizen",
+          "meanings": {
+            "en": "unnatural",
+            "id": "tidak wajar, tidak alamiah"
+          }
+        },
+        {
+          "id": 19,
+          "kanji": "不確か",
+          "hiragana": "ふたしか",
+          "romaji": "futashika",
+          "meanings": {
+            "en": "uncertain, doubtful",
+            "id": "tidak pasti, tidak jelas, meragukan"
+          }
+        },
+        {
+          "id": 20,
+          "kanji": "不定期的",
+          "hiragana": "ふていきてき",
+          "romaji": "futeiki teki",
+          "meanings": {
+            "en": "irregular, not periodic",
+            "id": "tidak berkala"
+          }
+        },
+        {
+          "id": 21,
+          "kanji": "不適応",
+          "hiragana": "ふてきおう",
+          "romaji": "futeki'ou",
+          "meanings": {
+            "en": "maladaptation, not suitable",
+            "id": "tidak sesuai, tidak selaras"
+          }
+        },
+        {
+          "id": 22,
+          "kanji": "不用心",
+          "hiragana": "ふようじん",
+          "romaji": "fuyoujin",
+          "meanings": {
+            "en": "careless, not cautious",
+            "id": "tidak waspada, tidak hati-hati"
+          }
+        },
+        {
+          "id": 23,
+          "kanji": "不愉快",
+          "hiragana": "ふゆかい",
+          "romaji": "fuyukai",
+          "meanings": {
+            "en": "unpleasant",
+            "id": "tidak menyenangkan"
+          }
+        },
+        {
+          "id": 24,
+          "kanji": "不均衡",
+          "hiragana": "ふきんこう",
+          "romaji": "fukinkou",
+          "meanings": {
+            "en": "unbalanced, disproportionate",
+            "id": "tidak berimbang, tidak sebanding"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "AWALAN ANTI",
+        "en": "ANTI PREFIXES"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "反比例",
+          "hiragana": "はんひれい",
+          "romaji": "hanhirei",
+          "meanings": {
+            "en": "anti war",
+            "id": "anti perang"
+          }
+        },
+        {
+          "id": 2,
+          "kanji": "反政府",
+          "hiragana": "はんせいふ",
+          "romaji": "hanseifu",
+          "meanings": {
+            "en": "anti government",
+            "id": "anti pemerintah"
+          }
+        },
+        {
+          "id": 3,
+          "kanji": "反社会的",
+          "hiragana": "はんしゃかいてき",
+          "romaji": "hanshakai teki",
+          "meanings": {
+            "en": "anti social rules",
+            "id": "anti aturan bermasyarakat"
+          }
+        },
+        {
+          "id": 4,
+          "kanji": "反体制",
+          "hiragana": "はんたいせい",
+          "romaji": "hantaisei",
+          "meanings": {
+            "en": "anti law enforcement",
+            "id": "anti penegakan hukum"
+          }
+        },
+        {
+          "id": 5,
+          "kanji": "非現実的",
+          "hiragana": "ひげんじつてき",
+          "romaji": "higenjitsu teki",
+          "meanings": {
+            "en": "unrealistic",
+            "id": "tidak realistis"
+          }
+        }
+      ]
+    }
+  ]
+}

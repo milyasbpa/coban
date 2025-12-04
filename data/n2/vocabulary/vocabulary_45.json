@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "追う", "hiragana": "おう", "romaji": "ou", "meanings": {"en": "to chase, to pursue", "id": "mengejar, mengikuti"}},
+        {"id": 2, "kanji": "負う", "hiragana": "おう", "romaji": "ou", "meanings": {"en": "to bear, to take responsibility", "id": "menanggung, mengalami, menderita"}},
+        {"id": 3, "kanji": "略す", "hiragana": "りゃくす", "romaji": "ryakusu", "meanings": {"en": "to abbreviate, to shorten", "id": "menyingkat, mempersingkat"}},
+        {"id": 4, "kanji": "錆びる", "hiragana": "さびる", "romaji": "sabiru", "meanings": {"en": "to rust", "id": "berkarat"}},
+        {"id": 5, "kanji": "下がる", "hiragana": "さがる", "romaji": "sagaru", "meanings": {"en": "to go down, to drop", "id": "turun, menurun"}},
+        {"id": 6, "kanji": "下げる", "hiragana": "さげる", "romaji": "sageru", "meanings": {"en": "to lower, to reduce", "id": "menurunkan"}},
+        {"id": 7, "kanji": "逆らう", "hiragana": "さからう", "romaji": "sakarau", "meanings": {"en": "to go against, to oppose", "id": "memantang, membantah, melawan"}},
+        {"id": 8, "kanji": "避ける", "hiragana": "さける", "romaji": "sakeru", "meanings": {"en": "to avoid, to evade", "id": "menghindar, mengelak"}},
+        {"id": 9, "kanji": "妨げる", "hiragana": "さまたげる", "romaji": "samatageru", "meanings": {"en": "to hinder, to obstruct", "id": "menghalangi, merintangi"}},
+        {"id": 10, "kanji": "去る", "hiragana": "さる", "romaji": "saru", "meanings": {"en": "to leave, to go away", "id": "① yang lalu ② meninggalkan"}},
+        {"id": 11, "kanji": "支える", "hiragana": "ささえる", "romaji": "sasaeru", "meanings": {"en": "to support, to sustain", "id": "menyangga, menopang"}},
+        {"id": 12, "kanji": "指す", "hiragana": "さす", "romaji": "sasu", "meanings": {"en": "to point, to indicate", "id": "① menunjuk ② bermain (catur) ③ melapor"}},
+        {"id": 13, "kanji": "触る", "hiragana": "さわる", "romaji": "sawaru", "meanings": {"en": "to touch, to feel", "id": "menyentuh, meraba"}},
+        {"id": 14, "kanji": "迫る", "hiragana": "せまる", "romaji": "semaru", "meanings": {"en": "to approach, to press", "id": "mendesak, mendekat"}},
+        {"id": 15, "kanji": "攻める", "hiragana": "せめる", "romaji": "semeru", "meanings": {"en": "to attack, to assault", "id": "menyerang, menyerbu"}},
+        {"id": 16, "kanji": "背負う", "hiragana": "せおう", "romaji": "seo'u", "meanings": {"en": "to carry on one's back", "id": "memanggul (pada punggung)"}},
+        {"id": 17, "kanji": "接する", "hiragana": "せっする", "romaji": "sessuru", "meanings": {"en": "to touch, to come in contact", "id": "bergaul, berhubungan, melayani"}},
+        {"id": 18, "kanji": "しゃがむ", "hiragana": "しゃがむ", "romaji": "shagamu", "meanings": {"en": "to squat", "id": "berjongkok"}},
+        {"id": 19, "kanji": "仕上がる", "hiragana": "しあがる", "romaji": "shiagaru", "meanings": {"en": "to be finished, to be completed", "id": "selesai, rampung"}},
+        {"id": 20, "kanji": "仕上げる", "hiragana": "しあげる", "romaji": "shiageru", "meanings": {"en": "to finish, to complete", "id": "menyelesaikan, merampungkan"}},
+        {"id": 21, "kanji": "縛る", "hiragana": "しばる", "romaji": "shibaru", "meanings": {"en": "to tie, to bind", "id": "mengikat, menjerat, membalut"}},
+        {"id": 22, "kanji": "絞る", "hiragana": "しぼる", "romaji": "shiboru", "meanings": {"en": "to squeeze, to wring", "id": "① memeras ② memperkecil"}},
+        {"id": 23, "kanji": "支払う", "hiragana": "しはらう", "romaji": "shiharau", "meanings": {"en": "to pay", "id": "membayar"}},
+        {"id": 24, "kanji": "敷く", "hiragana": "しく", "romaji": "shiku", "meanings": {"en": "to spread out, to lay out", "id": "membentang, menggelar"}},
+        {"id": 25, "kanji": "しまう", "hiragana": "しまう", "romaji": "shimau", "meanings": {"en": "to finish, to put away", "id": "① tuntas ② kejadian yg tak dikehendaki"}},
+        {"id": 26, "kanji": "湿る", "hiragana": "しめる", "romaji": "shimeru", "meanings": {"en": "to be damp, to be moist", "id": "menjadi lembab/basah"}},
+        {"id": 27, "kanji": "占める", "hiragana": "しめる", "romaji": "shimeru", "meanings": {"en": "to occupy, to hold", "id": "mencakup, menempati"}},
+        {"id": 28, "kanji": "示す", "hiragana": "しめす", "romaji": "shimesu", "meanings": {"en": "to show, to indicate", "id": "menunjukkan, mempertunjukkan"}},
+        {"id": 29, "kanji": "従う", "hiragana": "したがう", "romaji": "shitagau", "meanings": {"en": "to follow, to obey", "id": "mengikuti, mematuhi"}}
+      ]
+    }
+  ]
+}

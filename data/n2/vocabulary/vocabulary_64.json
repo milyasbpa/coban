@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "意識", "hiragana": "いしき", "romaji": "ishiki", "meanings": {"en": "consciousness, awareness", "id": "kesadaran, kewaspadaan"}},
+        {"id": 2, "kanji": "一定", "hiragana": "いってい", "romaji": "ittei", "meanings": {"en": "fixed, definite, certain", "id": "pasti, tetap, tentu"}},
+        {"id": 3, "kanji": "意欲", "hiragana": "いよく", "romaji": "iyoku", "meanings": {"en": "will, desire, ambition", "id": "gairah, kemauan, nafsu"}},
+        {"id": 4, "kanji": "事情", "hiragana": "じじょう", "romaji": "jijyou", "meanings": {"en": "circumstances, situation", "id": "urusan, keadaan, situasi"}},
+        {"id": 5, "kanji": "時期", "hiragana": "じき", "romaji": "jiki", "meanings": {"en": "time, period, opportunity", "id": "masa, waktu, kesempatan"}},
+        {"id": 6, "kanji": "人物", "hiragana": "じんぶつ", "romaji": "jinbutsu", "meanings": {"en": "person, character", "id": "tokoh"}},
+        {"id": 7, "kanji": "人工", "hiragana": "じんこう", "romaji": "jinkou", "meanings": {"en": "artificial, man-made", "id": "buatan, tiruan"}},
+        {"id": 8, "kanji": "人生", "hiragana": "じんせい", "romaji": "jinsei", "meanings": {"en": "human life", "id": "kehidupan manusia"}},
+        {"id": 9, "kanji": "実施", "hiragana": "じっし", "romaji": "jisshi", "meanings": {"en": "implementation, execution", "id": "pelaksanaan, penyelenggaraan"}},
+        {"id": 10, "kanji": "事態", "hiragana": "じたい", "romaji": "jitai", "meanings": {"en": "situation, state of affairs", "id": "perkembangan situasi"}},
+        {"id": 11, "kanji": "実物", "hiragana": "じつぶつ", "romaji": "jitsubutsu", "meanings": {"en": "real thing, actual object", "id": "benda asli"}},
+        {"id": 12, "kanji": "持続", "hiragana": "じぞく", "romaji": "jizoku", "meanings": {"en": "continuation, sustainability", "id": "realisasi"}},
+        {"id": 13, "kanji": "状況", "hiragana": "じょうきょう", "romaji": "jyoukyou", "meanings": {"en": "situation, condition", "id": "keadaan, situasi, kondisi"}},
+        {"id": 14, "kanji": "上昇", "hiragana": "じょうしょう", "romaji": "jyoushou", "meanings": {"en": "rise, increase", "id": "kenaikan, lonjakan"}},
+        {"id": 15, "kanji": "受験", "hiragana": "じゅけん", "romaji": "jyuken", "meanings": {"en": "taking an exam", "id": "ikut ujian"}},
+        {"id": 16, "kanji": "寿命", "hiragana": "じゅみょう", "romaji": "jyumyou", "meanings": {"en": "lifespan, life expectancy", "id": "batas usia kehidupan"}},
+        {"id": 17, "kanji": "順序", "hiragana": "じゅんじょ", "romaji": "jyunjyo", "meanings": {"en": "order, sequence", "id": "urutan, tata-tertib, aturan"}},
+        {"id": 18, "kanji": "重視", "hiragana": "じゅうし", "romaji": "jyuushi", "meanings": {"en": "importance, emphasis", "id": "yang dianggap penting"}},
+        {"id": 19, "kanji": "需要", "hiragana": "じゅよう", "romaji": "jyuyou", "meanings": {"en": "demand, need", "id": "kebutuhan, permintaan"}},
+        {"id": 20, "kanji": "価値", "hiragana": "かち", "romaji": "kachi", "meanings": {"en": "value, worth", "id": "nilai, harga"}},
+        {"id": 21, "kanji": "改築", "hiragana": "かいちく", "romaji": "kaichiku", "meanings": {"en": "reconstruction, rebuilding", "id": "pembangunan kembali, rekonstruksi"}},
+        {"id": 22, "kanji": "回復", "hiragana": "かいふく", "romaji": "kaifuku", "meanings": {"en": "recovery, restoration", "id": "pemulihan, sehat kembali"}},
+        {"id": 23, "kanji": "介護", "hiragana": "かいご", "romaji": "kaigo", "meanings": {"en": "nursing, care", "id": "pengasuhan, perawatan"}},
+        {"id": 24, "kanji": "改行", "hiragana": "かいぎょう", "romaji": "kaigyou", "meanings": {"en": "new line, paragraph break", "id": "penggantian garis/paragraf baru"}},
+        {"id": 25, "kanji": "開業", "hiragana": "かいぎょう", "romaji": "kaigyou", "meanings": {"en": "opening a business, starting practice", "id": "pembukaan usaha/praktek"}},
+        {"id": 26, "kanji": "開放", "hiragana": "かいほう", "romaji": "kaihou", "meanings": {"en": "opening, release, liberalization", "id": "keadaan terbuka/bebas, lepas"}},
+        {"id": 27, "kanji": "改革", "hiragana": "かいかく", "romaji": "kaikaku", "meanings": {"en": "reform, reformation", "id": "reformasi"}}
+      ]
+    }
+  ]
+}

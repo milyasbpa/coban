@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "突く", "hiragana": "つく", "romaji": "tsuku", "meanings": {"en": "to stab, to thrust", "id": "menusuk, menikam, menyerang"}},
+        {"id": 2, "kanji": "務まる", "hiragana": "つとまる", "romaji": "tsutomaru", "meanings": {"en": "to be fit for, to be equal to", "id": "pantas (mengemban suatu tugas)"}},
+        {"id": 3, "kanji": "務める", "hiragana": "つとめる", "romaji": "tsutomeru", "meanings": {"en": "to serve, to work", "id": "berdinas, bertugas, bekerja"}},
+        {"id": 4, "kanji": "努める", "hiragana": "つとめる", "romaji": "tsutomeru", "meanings": {"en": "to endeavor, to strive", "id": "berusaha, berikhtiar"}},
+        {"id": 5, "kanji": "うばう", "hiragana": "うばう", "romaji": "ubau", "meanings": {"en": "to snatch, to steal", "id": "menjabat, berperan"}},
+        {"id": 6, "kanji": "打ち消す", "hiragana": "うちけす", "romaji": "uchikesu", "meanings": {"en": "to deny, to negate", "id": "merampas, merubut"}},
+        {"id": 7, "kanji": "飢える", "hiragana": "うえる", "romaji": "ueru", "meanings": {"en": "to starve, to be hungry", "id": "menyangkal, menghilangkan"}},
+        {"id": 8, "kanji": "浮かぶ", "hiragana": "うかぶ", "romaji": "ukabu", "meanings": {"en": "to float, to rise", "id": "① menderita kelaparan ② haus"}},
+        {"id": 9, "kanji": "浮かべる", "hiragana": "うかべる", "romaji": "ukaberu", "meanings": {"en": "to float, to set afloat", "id": "mengapungkan, menimbulkan, timbul"}},
+        {"id": 10, "kanji": "浮く/浮かぶ", "hiragana": "うく/うかぶ", "romaji": "uku/ukabu", "meanings": {"en": "to float, to be buoyant", "id": "mengapung, terapung, timbul"}},
+        {"id": 11, "kanji": "受け持つ", "hiragana": "うけもつ", "romaji": "ukemotsu", "meanings": {"en": "to take charge of, to be responsible for", "id": "bertanggung jawab"}},
+        {"id": 12, "kanji": "受けたまわる", "hiragana": "うけたまわる", "romaji": "uketamawaru", "meanings": {"en": "to hear, to be told", "id": "menerima, mengerti, mendengarkan"}},
+        {"id": 13, "kanji": "受け取る", "hiragana": "うけとる", "romaji": "uketoru", "meanings": {"en": "to receive, to accept", "id": "menerima, mendapat, memahami"}},
+        {"id": 14, "kanji": "うなずく", "hiragana": "うなずく", "romaji": "unazuku", "meanings": {"en": "to nod, to agree", "id": "mengangguk"}},
+        {"id": 15, "kanji": "裏返す", "hiragana": "うらがえす", "romaji": "uragaesu", "meanings": {"en": "to turn over, to flip over", "id": "membalikkan"}},
+        {"id": 16, "kanji": "裏切る", "hiragana": "うらぎる", "romaji": "uragiru", "meanings": {"en": "to betray", "id": "berkhianat, membelot"}},
+        {"id": 17, "kanji": "恨む", "hiragana": "うらむ", "romaji": "uramu", "meanings": {"en": "to resent, to bear a grudge", "id": "mendendam, membenci"}},
+        {"id": 18, "kanji": "占う", "hiragana": "うらなう", "romaji": "uranau", "meanings": {"en": "to tell fortunes, to predict", "id": "meramalkan"}},
+        {"id": 19, "kanji": "羨む", "hiragana": "うらやむ", "romaji": "urayamu", "meanings": {"en": "to envy", "id": "iri"}},
+        {"id": 20, "kanji": "売れる", "hiragana": "うれる", "romaji": "ureru", "meanings": {"en": "to sell well, to be in demand", "id": "laku, laris, bisa dijual"}},
+        {"id": 21, "kanji": "売り切れる", "hiragana": "うりきれる", "romaji": "urikireru", "meanings": {"en": "to be sold out", "id": "habis terjual"}},
+        {"id": 22, "kanji": "失う", "hiragana": "うしなう", "romaji": "ushinau", "meanings": {"en": "to lose, to miss", "id": "kehilangan"}},
+        {"id": 23, "kanji": "薄まる/薄れる", "hiragana": "うすまる/うすれる", "romaji": "usumaru/usureru", "meanings": {"en": "to become thin, to fade", "id": "menipis, menjadi encer"}},
+        {"id": 24, "kanji": "薄める", "hiragana": "うすめる", "romaji": "usumeru", "meanings": {"en": "to dilute, to thin", "id": "menipiskan, mengencerkan"}},
+        {"id": 25, "kanji": "疑う", "hiragana": "うたがう", "romaji": "utagau", "meanings": {"en": "to doubt, to suspect", "id": "mencurigai, meragukan"}},
+        {"id": 26, "kanji": "撃つ", "hiragana": "うつ", "romaji": "utsu", "meanings": {"en": "to shoot, to attack", "id": "menembak, menyerang"}},
+        {"id": 27, "kanji": "映る", "hiragana": "うつる", "romaji": "utsuru", "meanings": {"en": "to be reflected, to be projected", "id": "terpantul, terkesan"}},
+        {"id": 28, "kanji": "映す", "hiragana": "うつす", "romaji": "utsusu", "meanings": {"en": "to reflect, to project", "id": "memantulkan, merefleksikan"}},
+        {"id": 29, "kanji": "敬う", "hiragana": "うやまう", "romaji": "uyamau", "meanings": {"en": "to respect, to honor", "id": "menghormati, memuja, memuliakan"}}
+      ]
+    }
+  ]
+}

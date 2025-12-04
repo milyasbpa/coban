@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "MUSIM SEMI",
+        "en": "SPRING SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "成人の日", "hiragana": "せいじんのひ", "romaji": "seijin no hi", "meanings": {"en": "Coming of Age Day", "id": "hari orang dewasa"}},
+        {"id": 2, "kanji": "節分", "hiragana": "せつぶん", "romaji": "setsubun", "meanings": {"en": "Setsubun", "id": "1 hari sebelum masuk musim semi"}},
+        {"id": 3, "kanji": "新入社員", "hiragana": "しんにゅうしゃいん", "romaji": "shinnyuu shain", "meanings": {"en": "new employee", "id": "pegawai baru"}},
+        {"id": 4, "kanji": "新入生", "hiragana": "しんにゅうせい", "romaji": "shinnyuusei", "meanings": {"en": "new student", "id": "murid baru"}},
+        {"id": 5, "kanji": "卒業式", "hiragana": "そつぎょうしき", "romaji": "sotsugyou shiki", "meanings": {"en": "graduation ceremony", "id": "upacara kelulusan, wisuda"}},
+        {"id": 6, "kanji": "うめ", "hiragana": "うめ", "romaji": "ume", "meanings": {"en": "plum blossom", "id": "(bunga) prem"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "MUSIM PANAS",
+        "en": "SUMMER SEASON"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "アイスクリーム", "hiragana": "あいすくりーむ", "romaji": "aisukurīmu", "meanings": {"en": "ice cream", "id": "es krim"}},
+        {"id": 2, "kanji": "アイスキャンディ", "hiragana": "あいすきゃんでぃ", "romaji": "aisu kyandī", "meanings": {"en": "ice candy", "id": "es bonbon, es lilin"}},
+        {"id": 3, "kanji": "天の川", "hiragana": "あまのがわ", "romaji": "ama no gawa", "meanings": {"en": "Milky Way", "id": "galaksi, bimasakti"}},
+        {"id": 4, "kanji": "梅雨", "hiragana": "ばいう/つゆ", "romaji": "bai'u/tsuyu", "meanings": {"en": "rainy season", "id": "musim hujan di awal musim panas"}},
+        {"id": 5, "kanji": "花火大会", "hiragana": "はなびたいかい", "romaji": "hanabi taikai", "meanings": {"en": "fireworks festival", "id": "pesta kembang api"}},
+        {"id": 6, "kanji": "彦星", "hiragana": "ひこぼし", "romaji": "hikoboshi", "meanings": {"en": "Altair star", "id": "bintang altair"}},
+        {"id": 7, "kanji": "冷麦", "hiragana": "ひやむぎ", "romaji": "hiyamugi", "meanings": {"en": "cold wheat noodles", "id": "mi gandum dingin"}},
+        {"id": 8, "kanji": "冷やし中華", "hiragana": "ひやしちゅうか", "romaji": "hiyashi chuuka", "meanings": {"en": "cold Chinese noodles", "id": "mi dingin dengan saus pencelup"}},
+        {"id": 9, "kanji": "蚊", "hiragana": "か", "romaji": "ka", "meanings": {"en": "mosquito", "id": "nyamuk"}},
+        {"id": 10, "kanji": "カブトムシ", "hiragana": "かぶとむし", "romaji": "kabutomushi", "meanings": {"en": "beetle", "id": "kumbang"}},
+        {"id": 11, "kanji": "海水浴", "hiragana": "かいすいよく", "romaji": "kaisuiyoku", "meanings": {"en": "sea bathing", "id": "mandi air laut"}},
+        {"id": 12, "kanji": "かき氷", "hiragana": "かきごおり", "romaji": "kakigoori", "meanings": {"en": "shaved ice", "id": "(minuman) es serut campur"}},
+        {"id": 13, "kanji": "蚊取り線香", "hiragana": "かとりせんこう", "romaji": "katori senkou", "meanings": {"en": "mosquito coil", "id": "obat nyamuk bakar"}},
+        {"id": 14, "kanji": "金魚すくい", "hiragana": "きんぎょすくい", "romaji": "kin'gyo sukui", "meanings": {"en": "goldfish scooping", "id": "menciduk ikan mas koki"}},
+        {"id": 15, "kanji": "帰省", "hiragana": "きせい", "romaji": "kisei", "meanings": {"en": "homecoming", "id": "pulang kampung"}},
+        {"id": 16, "kanji": "高校野球", "hiragana": "こうこうやきゅう", "romaji": "koukou yakyuu", "meanings": {"en": "high school baseball", "id": "pertandingan bola kasti antar SMU"}},
+        {"id": 17, "kanji": "夏祭り", "hiragana": "なつまつり", "romaji": "natsu matsuri", "meanings": {"en": "summer festival", "id": "festival musim panas"}},
+        {"id": 18, "kanji": "夏休み", "hiragana": "なつやすみ", "romaji": "natsu yasumi", "meanings": {"en": "summer vacation", "id": "liburan musim panas"}}
+      ]
+    }
+  ]
+}

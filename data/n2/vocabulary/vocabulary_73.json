@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "役割", "hiragana": "やくわり", "romaji": "yakuwari", "meanings": {"en": "role, duty, responsibility", "id": "pembagian peran/tanggung-jawab"}},
+        {"id": 2, "kanji": "予備", "hiragana": "よび", "romaji": "yobi", "meanings": {"en": "preparation, reserve", "id": "persiapan, cadangan"}},
+        {"id": 3, "kanji": "余暇", "hiragana": "よか", "romaji": "yoka", "meanings": {"en": "leisure, free time", "id": "waktu luang/senggang"}},
+        {"id": 4, "kanji": "予期", "hiragana": "よき", "romaji": "yoki", "meanings": {"en": "expectation, anticipation", "id": "harapan, perkiraan, dugaan"}},
+        {"id": 5, "kanji": "世論", "hiragana": "よろん", "romaji": "yoron", "meanings": {"en": "public opinion", "id": "pendapat umum, opini publik"}},
+        {"id": 6, "kanji": "予算", "hiragana": "よさん", "romaji": "yosan", "meanings": {"en": "budget, estimate", "id": "anggaran"}},
+        {"id": 7, "kanji": "余所", "hiragana": "よそ", "romaji": "yoso", "meanings": {"en": "other place, neglect", "id": "① orang lain, lainnya ② pengabaian"}},
+        {"id": 8, "kanji": "予測", "hiragana": "よそく", "romaji": "yosoku", "meanings": {"en": "prediction, forecast", "id": "perkiraan, dugaan, prediksi"}},
+        {"id": 9, "kanji": "要求", "hiragana": "ようきゅう", "romaji": "youkyuu", "meanings": {"en": "demand, request", "id": "permintaan, tuntutan"}},
+        {"id": 10, "kanji": "様子", "hiragana": "ようす", "romaji": "yousu", "meanings": {"en": "state, appearance", "id": "① keadaan ② kelihatannya"}},
+        {"id": 11, "kanji": "用途", "hiragana": "ようと", "romaji": "youto", "meanings": {"en": "use, purpose", "id": "kegunaan, cara penggunaan"}},
+        {"id": 12, "kanji": "余裕", "hiragana": "よゆう", "romaji": "yoyuu", "meanings": {"en": "surplus, margin", "id": "kelebihan, luang, longgar"}},
+        {"id": 13, "kanji": "湯気", "hiragana": "ゆげ", "romaji": "yuge", "meanings": {"en": "steam, vapor", "id": "asap uap air"}},
+        {"id": 14, "kanji": "行方", "hiragana": "ゆくえ", "romaji": "yukue", "meanings": {"en": "whereabouts, outcome", "id": "arah/tujuan kepergian, keberadaan"}},
+        {"id": 15, "kanji": "材料", "hiragana": "ざいりょう", "romaji": "zairyou", "meanings": {"en": "material, ingredient", "id": "bahan, material"}},
+        {"id": 16, "kanji": "全力", "hiragana": "ぜんりょく", "romaji": "zenryoku", "meanings": {"en": "full power, all one's might", "id": "sekuat tenaga"}},
+        {"id": 17, "kanji": "全身", "hiragana": "ぜんしん", "romaji": "zenshin", "meanings": {"en": "whole body", "id": "seluruh tubuh"}},
+        {"id": 18, "kanji": "全体", "hiragana": "ぜんたい", "romaji": "zentai", "meanings": {"en": "whole, entirety", "id": "keseluruhan"}},
+        {"id": 19, "kanji": "増大", "hiragana": "ぞうだい", "romaji": "zoudai", "meanings": {"en": "increase, enlargement", "id": "penambahan, peningkatan, pembesaran"}},
+        {"id": 20, "kanji": "増額", "hiragana": "ぞうがく", "romaji": "zougaku", "meanings": {"en": "increase in amount", "id": "penambahan/peningkatan jumlah uang"}},
+        {"id": 21, "kanji": "増減", "hiragana": "ぞうげん", "romaji": "zougen", "meanings": {"en": "increase and decrease, fluctuation", "id": "tambah kurang, fluktuasi"}},
+        {"id": 22, "kanji": "増発", "hiragana": "ぞうはつ", "romaji": "zouhatsu", "meanings": {"en": "increase in number", "id": "penambahan jumlah keberangkatan/pencetakan-uang"}},
+        {"id": 23, "kanji": "増量", "hiragana": "ぞうりょう", "romaji": "zouryou", "meanings": {"en": "increase in quantity", "id": "penambahan kwantitas/dosis (obat)"}},
+        {"id": 24, "kanji": "増産", "hiragana": "ぞうさん", "romaji": "zousan", "meanings": {"en": "increase in production", "id": "penambahan produksi"}},
+        {"id": 25, "kanji": "増収", "hiragana": "ぞうしゅう", "romaji": "zoushuu", "meanings": {"en": "increase in income", "id": "penambahan pemasukan/penghasilan"}},
+        {"id": 26, "kanji": "増水", "hiragana": "ぞうすい", "romaji": "zousui", "meanings": {"en": "rise in water level", "id": "peningkatan volume air"}},
+        {"id": 27, "kanji": "増税", "hiragana": "ぞうぜい", "romaji": "zouzei", "meanings": {"en": "tax increase", "id": "penambahan nilai pajak"}},
+        {"id": 28, "kanji": "増員", "hiragana": "ぞういん", "romaji": "zou'in", "meanings": {"en": "increase in staff", "id": "penambahan jumlah anggota"}}
+      ]
+    }
+  ]
+}

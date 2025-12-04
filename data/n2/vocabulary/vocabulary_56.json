@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "WAKTU",
+        "en": "TIME"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "後(に)", "hiragana": "のち(に)", "romaji": "nochi (ni)", "meanings": {"en": "afterwards", "id": "kemudian, sesudah itu"}},
+        {"id": 2, "kanji": "先ほど", "hiragana": "さきほど", "romaji": "saki hodo", "meanings": {"en": "just now", "id": "baru saja, tadi"}},
+        {"id": 3, "kanji": "早速", "hiragana": "さっそく", "romaji": "sassoku", "meanings": {"en": "at once", "id": "segera, langsung"}},
+        {"id": 4, "kanji": "至急", "hiragana": "しきゅう", "romaji": "shikyuu", "meanings": {"en": "urgent", "id": "sangat mendesak, darurat"}},
+        {"id": 5, "kanji": "そのうち(に)", "hiragana": "そのうち(に)", "romaji": "sono uchi (ni)", "meanings": {"en": "soon", "id": "sementara itu, tidak lama lagi"}},
+        {"id": 6, "kanji": "既に", "hiragana": "すでに", "romaji": "sudeni", "meanings": {"en": "already", "id": "sudah, dulu, sebelumnya"}},
+        {"id": 7, "kanji": "とっくに", "hiragana": "とっくに", "romaji": "tokku ni", "meanings": {"en": "long ago", "id": "secepatnya, langsung, serta-merta"}},
+        {"id": 8, "kanji": "当時", "hiragana": "とうじ", "romaji": "touji", "meanings": {"en": "at that time", "id": "sudah sejak tadi, jauh sebelumnya"}},
+        {"id": 9, "kanji": "当日", "hiragana": "とうじつ", "romaji": "toujitsu", "meanings": {"en": "that day", "id": "masa itu, saat itu"}},
+        {"id": 10, "kanji": "やがて", "hiragana": "やがて", "romaji": "yagate", "meanings": {"en": "soon", "id": "hari tersebut/yang bersangkutan"}},
+        {"id": 11, "kanji": "間もなく", "hiragana": "まもなく", "romaji": "ma mo naku", "meanings": {"en": "soon", "id": "tidak lama lagi/kemudian"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "PERASAAN",
+        "en": "FEELINGS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "あいにく", "hiragana": "あいにく", "romaji": "ainiku", "meanings": {"en": "unfortunately", "id": "sayang sekali, tidak beruntung"}},
+        {"id": 2, "kanji": "あいのじょう", "hiragana": "あいのじょう", "romaji": "ai no jyou", "meanings": {"en": "as expected", "id": "memang kenyataannya"}},
+        {"id": 3, "kanji": "どうか", "hiragana": "どうか", "romaji": "douka", "meanings": {"en": "please", "id": "mohon dengan amat sangat"}},
+        {"id": 4, "kanji": "どうにか", "hiragana": "どうにか", "romaji": "dou ni ka", "meanings": {"en": "somehow", "id": "1. mohon usahakan 2. dengan segala upaya akhirnya"}},
+        {"id": 5, "kanji": "どうにも", "hiragana": "どうにも", "romaji": "dou ni mo", "meanings": {"en": "not at all", "id": "(tidak) sama sekali"}},
+        {"id": 6, "kanji": "どうせ", "hiragana": "どうせ", "romaji": "douse", "meanings": {"en": "anyway", "id": "toh, bagaimanapun juga, memang"}},
+        {"id": 7, "kanji": "いよいよ", "hiragana": "いよいよ", "romaji": "iyo-iyo", "meanings": {"en": "at last", "id": "sudah saatnya, tidak lama lagi, semakin"}},
+        {"id": 8, "kanji": "実に", "hiragana": "じつに", "romaji": "jitsu ni", "meanings": {"en": "really", "id": "sungguh-sungguh"}},
+        {"id": 9, "kanji": "なんだか", "hiragana": "なんだか", "romaji": "nanda ka", "meanings": {"en": "somehow", "id": "entah kenapa, agaknya"}},
+        {"id": 10, "kanji": "なんとか", "hiragana": "なんとか", "romaji": "nanto ka", "meanings": {"en": "somehow", "id": "1. mohon kiranya 2. dgn segala upaya akhirnya"}},
+        {"id": 11, "kanji": "なんとも", "hiragana": "なんとも", "romaji": "nanto mo", "meanings": {"en": "not at all", "id": "1. apapun (tidak) 2. betapa"}},
+        {"id": 12, "kanji": "なんとなく", "hiragana": "なんとなく", "romaji": "nanto naku", "meanings": {"en": "vaguely", "id": "samar-samar, tidak jelas (alasannya)"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "KEADAAN",
+        "en": "CONDITION"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "あっさり", "hiragana": "あっさり", "romaji": "assari", "meanings": {"en": "plain, simple", "id": "sederhana, tawar, tidak gurih"}},
+        {"id": 2, "kanji": "ぱったり(と)", "hiragana": "ばったり(と)", "romaji": "battari (to)", "meanings": {"en": "suddenly", "id": "sekonyong-konyong, tiba-tiba, kebetulan"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "匂う", "hiragana": "におう", "romaji": "nio'u", "meanings": {"en": "to smell, to be fragrant", "id": "beraroma, berbau (tidak sedap)"}},
+        {"id": 2, "kanji": "睨む", "hiragana": "にらむ", "romaji": "niramu", "meanings": {"en": "to glare at, to scowl", "id": "membelalak, melotot, menatap tajam"}},
+        {"id": 3, "kanji": "延べる", "hiragana": "のべる", "romaji": "noberu", "meanings": {"en": "to state, to express", "id": "menguraikan, mengutarakan"}},
+        {"id": 4, "kanji": "除く", "hiragana": "のぞく", "romaji": "nozoku", "meanings": {"en": "to remove, to exclude", "id": "① kecuali ② mengabaikan, meniadakan"}},
+        {"id": 5, "kanji": "縫う", "hiragana": "ぬう", "romaji": "nuu", "meanings": {"en": "to sew, to stitch", "id": "① menjahit ② menerobos (ruang sempit)"}},
+        {"id": 6, "kanji": "溺れる", "hiragana": "おぼれる", "romaji": "oboreru", "meanings": {"en": "to drown", "id": "tenggelam"}},
+        {"id": 7, "kanji": "落ち着く", "hiragana": "おちつく", "romaji": "ochitsuku", "meanings": {"en": "to calm down, to settle down", "id": "merasa tenang, merasa mantap"}},
+        {"id": 8, "kanji": "脅かす/脅す", "hiragana": "おどかす/おどす", "romaji": "odokasu/odosu", "meanings": {"en": "to threaten, to intimidate", "id": "mengancam, menakut-nakuti"}},
+        {"id": 9, "kanji": "終える", "hiragana": "おえる", "romaji": "oeru", "meanings": {"en": "to finish, to complete", "id": "menyelesaikan"}},
+        {"id": 10, "kanji": "補う", "hiragana": "おぎなう", "romaji": "oginau", "meanings": {"en": "to supplement, to compensate", "id": "menambah, menutupi kekurangan"}},
+        {"id": 11, "kanji": "追いかける", "hiragana": "おいかける", "romaji": "oikakeru", "meanings": {"en": "to chase, to pursue", "id": "terkejar, menyusul"}},
+        {"id": 12, "kanji": "追い越す", "hiragana": "おいこす", "romaji": "oikosu", "meanings": {"en": "to overtake, to pass", "id": "melampaui, melewati, tersusul"}},
+        {"id": 13, "kanji": "追いつく", "hiragana": "おいつく", "romaji": "oitsuku", "meanings": {"en": "to catch up with", "id": "mengejar, menguber"}},
+        {"id": 14, "kanji": "侵す", "hiragana": "おかす", "romaji": "okasu", "meanings": {"en": "to invade, to violate", "id": "melanggar, menyerbu"}},
+        {"id": 15, "kanji": "犯す", "hiragana": "おかす", "romaji": "okasu", "meanings": {"en": "to commit (crime)", "id": "melakukan, berbuat (kesalahan, dosa)"}},
+        {"id": 16, "kanji": "冒す", "hiragana": "おかす", "romaji": "okasu", "meanings": {"en": "to risk, to brave", "id": "menentang, menghadap, menanggung"}},
+        {"id": 17, "kanji": "覆う", "hiragana": "おおう", "romaji": "ou", "meanings": {"en": "to cover, to conceal", "id": "menutup, menyelubungi, menyampul"}},
+        {"id": 18, "kanji": "収まる", "hiragana": "おさまる", "romaji": "osamaru", "meanings": {"en": "to fit into, to be settled", "id": "① teratasi ② tersimpan, muat"}},
+        {"id": 19, "kanji": "納まる", "hiragana": "おさまる", "romaji": "osamaru", "meanings": {"en": "to be delivered, to be paid", "id": "① selesai ② merasa puas"}},
+        {"id": 20, "kanji": "治まる", "hiragana": "おさまる", "romaji": "osamaru", "meanings": {"en": "to be governed, to be ruled", "id": "mengamankan, memerintah, mengatur"}},
+        {"id": 21, "kanji": "治める", "hiragana": "おさめる", "romaji": "osameru", "meanings": {"en": "to govern, to rule", "id": "① meraih ② menyimpan, memuat"}},
+        {"id": 22, "kanji": "収める", "hiragana": "おさめる", "romaji": "osameru", "meanings": {"en": "to store, to put away", "id": "① menyelesaikan ② menekan"}},
+        {"id": 23, "kanji": "納める", "hiragana": "おさめる", "romaji": "osameru", "meanings": {"en": "to pay, to deliver", "id": "membayar"}},
+        {"id": 24, "kanji": "治める", "hiragana": "おさめる", "romaji": "osameru", "meanings": {"en": "to govern, to rule", "id": "mengatur"}},
+        {"id": 25, "kanji": "恐れる", "hiragana": "おそれる", "romaji": "osoreru", "meanings": {"en": "to fear, to be afraid of", "id": "takut, khawatir"}},
+        {"id": 26, "kanji": "衰える", "hiragana": "おとろえる", "romaji": "otororeru", "meanings": {"en": "to decline, to weaken", "id": "melemah, mundur, menurun"}},
+        {"id": 27, "kanji": "劣える", "hiragana": "おとれる", "romaji": "otoreru", "meanings": {"en": "to be inferior, to lose", "id": "kalah, kurang bermutu"}},
+        {"id": 28, "kanji": "訪れる", "hiragana": "おとずれる", "romaji": "otozureru", "meanings": {"en": "to visit, to call on", "id": "① mengunjungi, bertamu ② tiba"}},
+        {"id": 29, "kanji": "応じる", "hiragana": "おうじる", "romaji": "oujiru", "meanings": {"en": "to respond, to comply", "id": "menjawab, memenuhi, menyesuaikan"}},
+        {"id": 30, "kanji": "及ぶ", "hiragana": "およぶ", "romaji": "oyobu", "meanings": {"en": "to reach, to extend", "id": "① mencapai ② setara, sejajar"}}
+      ]
+    }
+  ]
+}

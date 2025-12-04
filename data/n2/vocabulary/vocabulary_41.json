@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA KERJA",
+        "en": "VERBS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "欠かす", "hiragana": "かかす", "romaji": "kakasu", "meanings": {"en": "to lack, to miss", "id": "① kekurangan, kehilangan ② lalai"}},
+        {"id": 2, "kanji": "関わる", "hiragana": "かかわる", "romaji": "kakawaru", "meanings": {"en": "to be related, to concern", "id": "berhubungan dengan"}},
+        {"id": 3, "kanji": "欠ける", "hiragana": "かける", "romaji": "kakeru", "meanings": {"en": "to be lacking, to be chipped", "id": "① kurang, hilang ② gompal, somplak"}},
+        {"id": 4, "kanji": "悲しむ", "hiragana": "かなしむ", "romaji": "kanashimu", "meanings": {"en": "to grieve, to mourn", "id": "bersedih, berduka"}},
+        {"id": 5, "kanji": "兼ねる", "hiragana": "かねる", "romaji": "kaneru", "meanings": {"en": "to combine, to be unable to", "id": "① merangkap ② mustahil ③ sungkan"}},
+        {"id": 6, "kanji": "枯らす", "hiragana": "からす", "romaji": "karasu", "meanings": {"en": "to wither, to dry up", "id": "membuat menjadi layu"}},
+        {"id": 7, "kanji": "枯れる", "hiragana": "かれる", "romaji": "kareru", "meanings": {"en": "to wither, to wilt", "id": "layu, menguning"}},
+        {"id": 8, "kanji": "稼ぐ", "hiragana": "かせぐ", "romaji": "kasegu", "meanings": {"en": "to earn, to make money", "id": "mendapatkan, memperoleh"}},
+        {"id": 9, "kanji": "固まる", "hiragana": "かたまる", "romaji": "katamaru", "meanings": {"en": "to harden, to solidify", "id": "① mengeras, menggumpal ② berkelompok"}},
+        {"id": 10, "kanji": "固める", "hiragana": "かためる", "romaji": "katameru", "meanings": {"en": "to harden, to strengthen", "id": "① memperkokoh ② menyatukan"}},
+        {"id": 11, "kanji": "傾ける", "hiragana": "かたむける", "romaji": "katamukeru", "meanings": {"en": "to tilt, to incline", "id": "memiringkan, menyandarkan"}},
+        {"id": 12, "kanji": "傾く", "hiragana": "かたむく", "romaji": "katamuku", "meanings": {"en": "to incline, to lean", "id": "miring, condong, cenderung"}},
+        {"id": 13, "kanji": "語る", "hiragana": "かたる", "romaji": "kataru", "meanings": {"en": "to talk, to tell", "id": "bercerita (secara berurutan)"}},
+        {"id": 14, "kanji": "偏る", "hiragana": "かたよる", "romaji": "katayoru", "meanings": {"en": "to be biased, to be one-sided", "id": "tidak seimbang"}},
+        {"id": 15, "kanji": "担う", "hiragana": "かつぐ", "romaji": "katsugu", "meanings": {"en": "to carry on one's shoulder", "id": "memikul"}},
+        {"id": 16, "kanji": "可愛がる", "hiragana": "かわいがる", "romaji": "kawaigaru", "meanings": {"en": "to love, to be affectionate", "id": "memanjakan, menyayangi"}},
+        {"id": 17, "kanji": "削る", "hiragana": "けずる", "romaji": "kezuru", "meanings": {"en": "to shave, to scrape", "id": "meraut, menyerut, mengikis"}},
+        {"id": 18, "kanji": "嫌う", "hiragana": "きらう", "romaji": "kirau", "meanings": {"en": "to hate, to dislike", "id": "membenci, merasa tidak suka"}},
+        {"id": 19, "kanji": "刻む", "hiragana": "きざむ", "romaji": "kizamu", "meanings": {"en": "to carve, to engrave", "id": "mengiris, menggores, mengukir"}},
+        {"id": 20, "kanji": "気付く", "hiragana": "きづく", "romaji": "kizuku", "meanings": {"en": "to notice, to become aware", "id": "menyadari"}},
+        {"id": 21, "kanji": "焦げる", "hiragana": "こげる", "romaji": "kogeru", "meanings": {"en": "to burn, to be scorched", "id": "hangus, terbakar"}},
+        {"id": 22, "kanji": "漕ぐ", "hiragana": "こぐ", "romaji": "kogu", "meanings": {"en": "to row, to pedal", "id": "mengayuh, mendayung, memompa"}},
+        {"id": 23, "kanji": "好む", "hiragana": "このむ", "romaji": "konomu", "meanings": {"en": "to like, to prefer", "id": "suka, gemar"}},
+        {"id": 24, "kanji": "凍る", "hiragana": "こおる", "romaji": "kooru", "meanings": {"en": "to freeze", "id": "membeku, menjadi es"}},
+        {"id": 25, "kanji": "転ぶ", "hiragana": "ころぶ", "romaji": "korobu", "meanings": {"en": "to fall down, to tumble", "id": "jatuh terlungkup"}},
+        {"id": 26, "kanji": "転がる", "hiragana": "ころがる", "romaji": "korogaru", "meanings": {"en": "to roll, to tumble", "id": "berguling-guling, bergelinding"}},
+        {"id": 27, "kanji": "転がす", "hiragana": "ころがす", "romaji": "korogasu", "meanings": {"en": "to roll, to tumble", "id": "mengguling-gulingkan, menggelindingkan"}},
+        {"id": 28, "kanji": "異なる", "hiragana": "ことなる", "romaji": "kotonaru", "meanings": {"en": "to differ, to be different", "id": "berbeda, berlainan"}},
+        {"id": 29, "kanji": "配る", "hiragana": "くばる", "romaji": "kubaru", "meanings": {"en": "to distribute, to hand out", "id": "membagi-bagikan, menyebarkan"}}
+      ]
+    }
+  ]
+}

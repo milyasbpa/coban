@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "DASU",
+        "en": "DASU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "持ち出す", "hiragana": "もちだす", "romaji": "mochi dasu", "meanings": {"en": "to take out", "id": "membawa keluar"}},
+        {"id": 2, "kanji": "投げ出す", "hiragana": "なげだす", "romaji": "nage dasu", "meanings": {"en": "to throw out", "id": "melempar keluar, membuang"}},
+        {"id": 3, "kanji": "逃げ出す", "hiragana": "にげだす", "romaji": "nige dasu", "meanings": {"en": "to run away", "id": "melarikan diri (keluar/menjauh)"}},
+        {"id": 4, "kanji": "追い出す", "hiragana": "おいだす", "romaji": "oi dasu", "meanings": {"en": "to drive out", "id": "mengusir keluar, memecat"}},
+        {"id": 5, "kanji": "探し出す", "hiragana": "さがしだす", "romaji": "sagashi dasu", "meanings": {"en": "to search out", "id": "mencari (mengeluarkan), mendapatkan"}},
+        {"id": 6, "kanji": "飛び出す", "hiragana": "とびだす", "romaji": "tobi dasu", "meanings": {"en": "to jump out", "id": "melesat keluar"}},
+        {"id": 7, "kanji": "連れ出す", "hiragana": "つれだす", "romaji": "tsure dasu", "meanings": {"en": "to take out (someone)", "id": "mengajak keluar"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "DASU",
+        "en": "DASU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "歩き出す", "hiragana": "あるきだす", "romaji": "aruki dasu", "meanings": {"en": "to start walking", "id": "mulai berjalan"}},
+        {"id": 2, "kanji": "話し出す", "hiragana": "はなしだす", "romaji": "hanashi dasu", "meanings": {"en": "to start talking", "id": "mulai berbicara"}},
+        {"id": 3, "kanji": "言い出す", "hiragana": "いいだす", "romaji": "ii dasu", "meanings": {"en": "to start saying", "id": "mulai mengatakan"}},
+        {"id": 4, "kanji": "駆け出す", "hiragana": "かけだす", "romaji": "kake dasu", "meanings": {"en": "to start running", "id": "mulai berlari"}},
+        {"id": 5, "kanji": "書き出す", "hiragana": "かきだす", "romaji": "kaki dasu", "meanings": {"en": "to start writing", "id": "mulai menulis"}},
+        {"id": 6, "kanji": "泣き出す", "hiragana": "なきだす", "romaji": "naki dasu", "meanings": {"en": "to start crying", "id": "mulai menangis"}},
+        {"id": 7, "kanji": "降り出す", "hiragana": "ふりだす", "romaji": "furi dasu", "meanings": {"en": "to start to fall", "id": "mulai turun"}},
+        {"id": 8, "kanji": "飛び出す", "hiragana": "とびだす", "romaji": "tobi dasu", "meanings": {"en": "to start flying", "id": "mulai beterbangan"}},
+        {"id": 9, "kanji": "動き出す", "hiragana": "うごきだす", "romaji": "ugoki dasu", "meanings": {"en": "to start moving", "id": "mulai bergerak"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "KOMU",
+        "en": "KOMU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "怒鳴り込む", "hiragana": "どなりこむ", "romaji": "donari komu", "meanings": {"en": "to shout into", "id": "menyemburkan maki-makian"}},
+        {"id": 2, "kanji": "運び込む", "hiragana": "はこびこむ", "romaji": "hakobi komu", "meanings": {"en": "to carry in", "id": "mengangkut ke dalam"}},
+        {"id": 3, "kanji": "払い込む", "hiragana": "はらいこむ", "romaji": "harai komu", "meanings": {"en": "to pay in", "id": "memasukkan uang, membayar"}},
+        {"id": 4, "kanji": "引き込む", "hiragana": "ひきこむ", "romaji": "hiki komu", "meanings": {"en": "to pull in", "id": "menarik ke dalam"}},
+        {"id": 5, "kanji": "引っ込む", "hiragana": "ひっこむ", "romaji": "hik-komu", "meanings": {"en": "to withdraw", "id": "melesak ke dalam"}},
+        {"id": 6, "kanji": "惚れ込む", "hiragana": "ほれこむ", "romaji": "hore komu", "meanings": {"en": "to fall deeply in love", "id": "benar-benar jatuh cinta"}},
+        {"id": 7, "kanji": "駆け込む", "hiragana": "かけこむ", "romaji": "kake komu", "meanings": {"en": "to rush in", "id": "menerobos/menyelip masuk"}},
+        {"id": 8, "kanji": "書き込む", "hiragana": "かきこむ", "romaji": "kaki komu", "meanings": {"en": "to fill in, to write in", "id": "mengisi (kolom), mencatat"}},
+        {"id": 9, "kanji": "巻き込む", "hiragana": "まきこむ", "romaji": "maki komu", "meanings": {"en": "to get involved", "id": "terlibat, terjebak (dalam...)"}}
+      ]
+    }
+  ]
+}

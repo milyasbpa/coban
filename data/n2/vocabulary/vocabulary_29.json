@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "BENCANA AIR",
+        "en": "WATER DISASTER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "水没", "hiragana": "すいぼつ", "romaji": "suibotsu", "meanings": {"en": "submersion", "id": "tenggelam dalam air"}},
+        {"id": 2, "kanji": "水害", "hiragana": "すいがい", "romaji": "suigai", "meanings": {"en": "flood disaster", "id": "musibah kebanjiran"}},
+        {"id": 3, "kanji": "水難事故", "hiragana": "すいなんじこ", "romaji": "suinan jiko", "meanings": {"en": "water accident", "id": "kecelakaan di air"}},
+        {"id": 4, "kanji": "高波", "hiragana": "たかなみ", "romaji": "takanami", "meanings": {"en": "high wave", "id": "gelombang tinggi"}},
+        {"id": 5, "kanji": "堤防決壊", "hiragana": "ていぼうけっかい", "romaji": "teibou kekkai", "meanings": {"en": "dam break", "id": "bendungan/tanggul jebol"}},
+        {"id": 6, "kanji": "津波", "hiragana": "つなみ", "romaji": "tsunami", "meanings": {"en": "tsunami", "id": "tsunami"}},
+        {"id": 7, "kanji": "増水", "hiragana": "ぞうすい", "romaji": "zousui", "meanings": {"en": "increase in water volume", "id": "peningkatan volume air"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "BENCANA TANAH",
+        "en": "LAND DISASTER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "崖崩れ", "hiragana": "がけくずれ", "romaji": "gake kuzure", "meanings": {"en": "landslide", "id": "tebing/tanah longsor"}},
+        {"id": 2, "kanji": "地震", "hiragana": "じしん", "romaji": "jishin", "meanings": {"en": "earthquake", "id": "gempa bumi"}},
+        {"id": 3, "kanji": "地割れ", "hiragana": "じわれ", "romaji": "jware", "meanings": {"en": "ground crack", "id": "tanah retak-retak karena gempa"}},
+        {"id": 4, "kanji": "マグニチュード", "hiragana": "まぐにちゅーど", "romaji": "magunichūdo", "meanings": {"en": "magnitude", "id": "satuan getaran gempa (magnitude)"}},
+        {"id": 5, "kanji": "震度", "hiragana": "しんど", "romaji": "shindo", "meanings": {"en": "seismic intensity", "id": "besarnya getaran gempa"}},
+        {"id": 6, "kanji": "震源", "hiragana": "しんげん", "romaji": "shin'gen", "meanings": {"en": "epicenter", "id": "pusat gempa"}},
+        {"id": 7, "kanji": "山崩れ", "hiragana": "やまくずれ", "romaji": "yama kuzure", "meanings": {"en": "mountain landslide", "id": "gunung/tanah longsor"}},
+        {"id": 8, "kanji": "余震", "hiragana": "よしん", "romaji": "yoshin", "meanings": {"en": "aftershock", "id": "gempa susulan"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "BENCANA API",
+        "en": "FIRE DISASTER"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "爆発事故", "hiragana": "ばくはつじこ", "romaji": "bakuhatsu jiko", "meanings": {"en": "explosion accident", "id": "kecelakaan ledakan"}},
+        {"id": 2, "kanji": "噴火", "hiragana": "ふんか", "romaji": "funka", "meanings": {"en": "eruption", "id": "letusan, ledakan"}},
+        {"id": 3, "kanji": "火事/火災", "hiragana": "かじ/かさい", "romaji": "kaji/kasai", "meanings": {"en": "fire", "id": "bencana kebakaran"}},
+        {"id": 4, "kanji": "森林火災/山火事", "hiragana": "しんりんかさい/やまかじ", "romaji": "shinrin kasai/yama kaji", "meanings": {"en": "forest fire", "id": "kebakaran hutan"}}
+      ]
+    }
+  ]
+}

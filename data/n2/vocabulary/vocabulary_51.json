@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "AU",
+        "en": "AU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "見詰め合う", "hiragana": "みつめあう", "romaji": "mitsume au", "meanings": {"en": "to look at each other", "id": "saling menatap"}},
+        {"id": 2, "kanji": "向かい合う", "hiragana": "むかいあう", "romaji": "mukai au", "meanings": {"en": "to face each other", "id": "saling berhadapan"}},
+        {"id": 3, "kanji": "助け合う", "hiragana": "たすけあう", "romaji": "tasuke au", "meanings": {"en": "to help each other", "id": "saling bantu membantu"}},
+        {"id": 4, "kanji": "分け合う", "hiragana": "わけあう", "romaji": "wake au", "meanings": {"en": "to share with each other", "id": "saling berbagi"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "AWASERU",
+        "en": "AWASERU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "重ね合わせる", "hiragana": "かさねあわせる", "romaji": "kasane awaseru", "meanings": {"en": "to stack up", "id": "menjadikan satu tumpukan"}},
+        {"id": 2, "kanji": "組み合わせる", "hiragana": "くみあわせる", "romaji": "kumi awaseru", "meanings": {"en": "to combine", "id": "menyatukan, mengkombinasikan"}},
+        {"id": 3, "kanji": "照らし合わせる", "hiragana": "てらしあわせる", "romaji": "terashi awaseru", "meanings": {"en": "to compare, to check", "id": "menyocokkan, menjadikan sinkron"}},
+        {"id": 4, "kanji": "問い合わせる", "hiragana": "といあわせる", "romaji": "toi awaseru", "meanings": {"en": "to inquire", "id": "memastikan, menanyakan"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "AWASERU",
+        "en": "AWASERU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "待ち合わせる", "hiragana": "まちあわせる", "romaji": "machi awaseru", "meanings": {"en": "to wait for someone", "id": "menantikan untuk bertemu"}},
+        {"id": 2, "kanji": "見合う", "hiragana": "みあわせる", "romaji": "mi awaseru", "meanings": {"en": "to look at each other", "id": "berpandang-pandangan"}},
+        {"id": 3, "kanji": "申し合わせる", "hiragana": "もうしあわせる", "romaji": "moushi awaseru", "meanings": {"en": "to agree", "id": "sama-sama setuju"}},
+        {"id": 4, "kanji": "誘い合わせる", "hiragana": "さそいあわせる", "romaji": "sasoi awaseru", "meanings": {"en": "to invite together", "id": "mengajak bersama-sama"}},
+        {"id": 5, "kanji": "隣り合わせる", "hiragana": "となりあわせる", "romaji": "tonari awaseru", "meanings": {"en": "to be next to each other", "id": "bertetanggaan, berdampingan"}}
+      ]
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": "AWASERU",
+        "en": "AWASERU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "居合わせる", "hiragana": "いあわせる", "romaji": "i awaseru", "meanings": {"en": "to happen to be present", "id": "kebetulan berada di tempat kejadian"}},
+        {"id": 2, "kanji": "持ち合わせる", "hiragana": "もちあわせる", "romaji": "mochi awaseru", "meanings": {"en": "to happen to have", "id": "kebetulan membawa"}},
+        {"id": 3, "kanji": "乗り合わせる", "hiragana": "のりあわせる", "romaji": "nori awaseru", "meanings": {"en": "to happen to ride together", "id": "kebetulan naik kendaraan yang sama"}}
+      ]
+    },
+    {
+      "id": 5,
+      "category": {
+        "id": "DASU",
+        "en": "DASU"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "引っ張り出す", "hiragana": "ひっぱりだす", "romaji": "hippari dasu", "meanings": {"en": "to pull out", "id": "menarik/menyeret keluar"}},
+        {"id": 2, "kanji": "放り出す", "hiragana": "ほうりだす", "romaji": "houri dasu", "meanings": {"en": "to throw out", "id": "melempar keluar"}},
+        {"id": 3, "kanji": "貸し出す", "hiragana": "かしだす", "romaji": "kashi dasu", "meanings": {"en": "to lend out", "id": "meminjamkan, menyewakan"}},
+        {"id": 4, "kanji": "聞き出す", "hiragana": "ききだす", "romaji": "kiki dasu", "meanings": {"en": "to extract information", "id": "meminta keterangan"}},
+        {"id": 5, "kanji": "見つけ出す", "hiragana": "みつけだす", "romaji": "mitsuke dasu", "meanings": {"en": "to find out", "id": "mendapatkan (mencari keluar)"}}
+      ]
+    }
+  ]
+}

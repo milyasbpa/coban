@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "BINATANG BUAS",
+        "en": "WILD ANIMALS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "吠える", "hiragana": "ほえる", "romaji": "hoeru", "meanings": {"en": "to bark", "id": "menyalak, menggonggong"}},
+        {"id": 2, "kanji": "蹄", "hiragana": "ひづめ", "romaji": "hizume", "meanings": {"en": "hoof", "id": "kuku (kuda)"}},
+        {"id": 3, "kanji": "牙", "hiragana": "きば", "romaji": "kiba", "meanings": {"en": "fang", "id": "gigi taring"}},
+        {"id": 4, "kanji": "前足", "hiragana": "まえあし", "romaji": "mae ashi", "meanings": {"en": "foreleg", "id": "kaki depan"}},
+        {"id": 5, "kanji": "尾", "hiragana": "お", "romaji": "o", "meanings": {"en": "tail", "id": "ekor, buntut"}},
+        {"id": 6, "kanji": "しっぽ", "hiragana": "しっぽ", "romaji": "shippo", "meanings": {"en": "tail", "id": "ekor, buntut"}},
+        {"id": 7, "kanji": "たてがみ", "hiragana": "たてがみ", "romaji": "tategami", "meanings": {"en": "mane", "id": "bulu tengkuk"}},
+        {"id": 8, "kanji": "爪", "hiragana": "つめ", "romaji": "tsume", "meanings": {"en": "claw, nail", "id": "cakar, kuku"}},
+        {"id": 9, "kanji": "唸る", "hiragana": "うなる", "romaji": "unaru", "meanings": {"en": "to growl", "id": "mengeram"}},
+        {"id": 10, "kanji": "後ろ足", "hiragana": "うしろあし", "romaji": "ushiro ashi", "meanings": {"en": "hind leg", "id": "kaki belakang"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "BURUNG",
+        "en": "BIRDS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "くちばし", "hiragana": "くちばし", "romaji": "kuchibashi", "meanings": {"en": "beak", "id": "paruh (unggas)"}},
+        {"id": 2, "kanji": "羽", "hiragana": "はね", "romaji": "hane", "meanings": {"en": "feather, wing", "id": "sayap"}},
+        {"id": 3, "kanji": "雌", "hiragana": "めす", "romaji": "mesu", "meanings": {"en": "female", "id": "betina"}},
+        {"id": 4, "kanji": "鳴く", "hiragana": "なく", "romaji": "naku", "meanings": {"en": "to chirp", "id": "berkicau, berbunyi"}},
+        {"id": 5, "kanji": "雄", "hiragana": "おす", "romaji": "osu", "meanings": {"en": "male", "id": "jantan"}},
+        {"id": 6, "kanji": "さえずる", "hiragana": "さえずる", "romaji": "saezuru", "meanings": {"en": "to twitter", "id": "berkicau, menciicit"}},
+        {"id": 7, "kanji": "翼", "hiragana": "つばさ", "romaji": "tsubasa", "meanings": {"en": "wing", "id": "sayap"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "RUMAH DI JEPANG",
+        "en": "JAPANESE HOUSE"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "煙突", "hiragana": "えんとつ", "romaji": "entotsu", "meanings": {"en": "chimney", "id": "cerobong asap"}},
+        {"id": 2, "kanji": "玄関", "hiragana": "げんかん", "romaji": "genkan", "meanings": {"en": "entrance", "id": "pintu masuk/depan"}},
+        {"id": 3, "kanji": "表札", "hiragana": "ひょうさつ", "romaji": "hyousatsu", "meanings": {"en": "nameplate", "id": "papan nama di pintu masuk rumah"}},
+        {"id": 4, "kanji": "花壇", "hiragana": "かだん", "romaji": "kadan", "meanings": {"en": "flower bed", "id": "tempat menanam bunga"}}
+      ]
+    }
+  ]
+}

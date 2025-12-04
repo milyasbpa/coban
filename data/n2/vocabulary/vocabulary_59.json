@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "KATA PENGHUBUNG",
+        "en": "CONJUNCTIONS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "では", "hiragana": "では", "romaji": "dewa", "meanings": {"en": "then, so", "id": "kalau begitu, jadi"}},
+        {"id": 2, "kanji": "なぜなら", "hiragana": "なぜなら", "romaji": "nazeara", "meanings": {"en": "because", "id": "alasannya karena"}},
+        {"id": 3, "kanji": "さて", "hiragana": "さて", "romaji": "sate", "meanings": {"en": "well, now", "id": "nah, baiklah, adapun"}},
+        {"id": 4, "kanji": "しかも", "hiragana": "しかも", "romaji": "shikamo", "meanings": {"en": "moreover", "id": "dan juga, tapi, lagi pula"}},
+        {"id": 5, "kanji": "そもそも", "hiragana": "そもそも", "romaji": "somo-somo", "meanings": {"en": "in the first place", "id": "sejak semula, sebenarnya"}},
+        {"id": 6, "kanji": "すると", "hiragana": "すると", "romaji": "suru to", "meanings": {"en": "then, thereupon", "id": "lalu, lantas, segera saja"}},
+        {"id": 7, "kanji": "ただ", "hiragana": "ただ", "romaji": "tada", "meanings": {"en": "but, only", "id": "tapi (sayangnya)"}},
+        {"id": 8, "kanji": "ところが", "hiragana": "ところが", "romaji": "tokoro ga", "meanings": {"en": "however", "id": "tapi (di luar dugaan)"}}
+      ]
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": "KATA PELENGKAP",
+        "en": "SUPPLEMENTARY WORDS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "あらゆる", "hiragana": "あらゆる", "romaji": "arayuru", "meanings": {"en": "all, every", "id": "segenap, segala"}},
+        {"id": 2, "kanji": "ある", "hiragana": "ある", "romaji": "aru", "meanings": {"en": "a, some", "id": "suatu, sesuatu"}},
+        {"id": 3, "kanji": "いわゆる", "hiragana": "いわゆる", "romaji": "iwayuru", "meanings": {"en": "so-called", "id": "yang dikatakan/disebut"}},
+        {"id": 4, "kanji": "大した", "hiragana": "たいした", "romaji": "taishita", "meanings": {"en": "great, considerable", "id": "sangat luar biasa"}}
+      ]
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": "KATA BENDA",
+        "en": "NOUNS"
+      },
+      "vocabulary": [
+        {"id": 1, "kanji": "赤字", "hiragana": "あかじ", "romaji": "akaji", "meanings": {"en": "deficit, loss", "id": "kerugian, tekor"}},
+        {"id": 2, "kanji": "案", "hiragana": "あん", "romaji": "an", "meanings": {"en": "plan, suggestion", "id": "usulan, saran"}},
+        {"id": 3, "kanji": "安定", "hiragana": "あんてい", "romaji": "antei", "meanings": {"en": "stability", "id": "kestabilan, kemantapan"}},
+        {"id": 4, "kanji": "跡", "hiragana": "あと", "romaji": "ato", "meanings": {"en": "trace, mark", "id": "bekas, tanda, noda, jejak"}},
+        {"id": 5, "kanji": "圧力", "hiragana": "あつりょく", "romaji": "atsuryoku", "meanings": {"en": "pressure", "id": "tekanan, dorongan, paksaan, desakan"}},
+        {"id": 6, "kanji": "場", "hiragana": "ば", "romaji": "ba", "meanings": {"en": "place, space", "id": "tempat, ruang"}},
+        {"id": 7, "kanji": "倍増", "hiragana": "ばいぞう", "romaji": "baizou", "meanings": {"en": "doubling, increase", "id": "penggandaan, 2 kali lipat"}},
+        {"id": 8, "kanji": "爆発", "hiragana": "ばくはつ", "romaji": "bakuhatsu", "meanings": {"en": "explosion", "id": "ledakan, letusan"}},
+        {"id": 9, "kanji": "便", "hiragana": "べん", "romaji": "ben", "meanings": {"en": "convenience, facility", "id": "kemudahan, fasilitas"}}
+      ]
+    }
+  ]
+}
