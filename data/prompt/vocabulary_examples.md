@@ -2,7 +2,7 @@
 
 ### Message
 
-Tolong buatkan examples masing-masing kata dengan ketentuan:
+Tolong buatkan 3 examples masing-masing kata dengan ketentuan:
 
 1. mengikuti struktur pada vocabulary_examples.json
 

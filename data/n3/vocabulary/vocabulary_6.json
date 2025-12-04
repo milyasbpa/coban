@@ -7,9 +7,126 @@
         "en": "B Section"
       },
       "vocabulary": [
-        {"id": 1, "kanji": "ぶつける", "hiragana": "ぶつける", "romaji": "butsukeru", "meanings": {"en": "bump, hit", "id": "menabrakkan, membenturkan"}},
-        {"id": 2, "kanji": "物理", "hiragana": "ぶつり", "romaji": "butsuri", "meanings": {"en": "physics", "id": "fisika"}},
-        {"id": 3, "kanji": "物理学", "hiragana": "ぶつりがく", "romaji": "butsurigaku", "meanings": {"en": "physical science", "id": "ilmu fisika, ilmu alam"}}
+        {
+          "id": 1,
+          "kanji": "ぶつける",
+          "hiragana": "ぶつける",
+          "romaji": "butsukeru",
+          "meanings": { "en": "bump, hit", "id": "menabrakkan, membenturkan" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "頭を壁にぶつけました。",
+              "furigana": "あたまをかべにぶつけました。",
+              "romaji": "atama o kabe ni butsukemashita.",
+              "meanings": {
+                "id": "Saya membenturkan kepala ke dinding.",
+                "en": "I bumped my head against the wall."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "車を柱にぶつけてしまいました。",
+              "furigana": "くるまをはしらにぶつけてしまいました。",
+              "romaji": "kuruma o hashira ni butsukete shimaimashita.",
+              "meanings": {
+                "id": "Saya menabrakkan mobil ke tiang.",
+                "en": "I accidentally hit the car against a pole."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "手を机にぶつけました。",
+              "furigana": "てをつくえにぶつけました。",
+              "romaji": "te o tsukue ni butsukemashita.",
+              "meanings": {
+                "id": "Saya membenturkan tangan ke meja.",
+                "en": "I hit my hand against the desk."
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "kanji": "物理",
+          "hiragana": "ぶつり",
+          "romaji": "butsuri",
+          "meanings": { "en": "physics", "id": "fisika" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "物理を勉強しています。",
+              "furigana": "ぶつりをべんきょうしています。",
+              "romaji": "butsuri o benkyou shiteimasu.",
+              "meanings": {
+                "id": "Saya belajar fisika.",
+                "en": "I study physics."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "物理の先生は優しいです。",
+              "furigana": "ぶつりのせんせいはやさしいです。",
+              "romaji": "butsuri no sensei wa yasashii desu.",
+              "meanings": {
+                "id": "Guru fisika baik hati.",
+                "en": "The physics teacher is kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "物理のテストがあります。",
+              "furigana": "ぶつりのてすとがあります。",
+              "romaji": "butsuri no tesuto ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian fisika.",
+                "en": "There is a physics test."
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "kanji": "物理学",
+          "hiragana": "ぶつりがく",
+          "romaji": "butsurigaku",
+          "meanings": {
+            "en": "physical science",
+            "id": "ilmu fisika, ilmu alam"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "物理学を専攻しています。",
+              "furigana": "ぶつりがくをせんこうしています。",
+              "romaji": "butsurigaku o senkou shiteimasu.",
+              "meanings": {
+                "id": "Saya mengambil jurusan ilmu fisika.",
+                "en": "I major in physical science."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "物理学の本を読みました。",
+              "furigana": "ぶつりがくのほんをよみました。",
+              "romaji": "butsurigaku no hon o yomimashita.",
+              "meanings": {
+                "id": "Saya membaca buku ilmu fisika.",
+                "en": "I read a book on physical science."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "物理学は面白いです。",
+              "furigana": "ぶつりがくはおもしろいです。",
+              "romaji": "butsurigaku wa omoshiroi desu.",
+              "meanings": {
+                "id": "Ilmu fisika itu menarik.",
+                "en": "Physical science is interesting."
+              }
+            }
+          ]
+        }
       ]
     },
     {
@@ -19,30 +136,957 @@
         "en": "C Section"
       },
       "vocabulary": [
-        {"id": 1, "kanji": "チャイム", "hiragana": "チャイム", "romaji": "chaimu", "meanings": {"en": "chime, doorbell", "id": "bunyi lonceng, bel pintu"}},
-        {"id": 2, "kanji": "着く", "hiragana": "つく", "romaji": "chaku", "meanings": {"en": "arrive", "id": "tiba"}},
-        {"id": 3, "kanji": "ちゃんと", "hiragana": "ちゃんと", "romaji": "chanto", "meanings": {"en": "properly, orderly", "id": "dengan teratur, dengan selayaknya"}},
-        {"id": 4, "kanji": "茶碗", "hiragana": "ちゃわん", "romaji": "chawan", "meanings": {"en": "rice bowl, tea cup", "id": "mangkuk nasi, cangkir teh"}},
-        {"id": 5, "kanji": "チェック", "hiragana": "チェック", "romaji": "chekku", "meanings": {"en": "checkered pattern", "id": "motif kotak-kotak"}},
-        {"id": 6, "kanji": "父", "hiragana": "ちち", "romaji": "chichi", "meanings": {"en": "father", "id": "ayah, bapak [saya]"}},
-        {"id": 7, "kanji": "違い", "hiragana": "ちがい", "romaji": "chigai", "meanings": {"en": "difference", "id": "perbedaan, selisih"}},
-        {"id": 8, "kanji": "地方", "hiragana": "ちほう", "romaji": "chihou", "meanings": {"en": "region, area", "id": "daerah, wilayah, kawasan"}},
-        {"id": 9, "kanji": "縮む", "hiragana": "ちぢむ", "romaji": "chijimu", "meanings": {"en": "shrink, contract", "id": "susut, ciut, memendek"}},
-        {"id": 10, "kanji": "地下", "hiragana": "ちか", "romaji": "chika", "meanings": {"en": "underground", "id": "bawah tanah"}},
-        {"id": 11, "kanji": "近道", "hiragana": "ちかみち", "romaji": "chikamichi", "meanings": {"en": "shortcut", "id": "jalan pintas"}},
-        {"id": 12, "kanji": "痴漢", "hiragana": "ちかん", "romaji": "chikan", "meanings": {"en": "molester", "id": "hidung belang, pengganggu wanita"}},
-        {"id": 13, "kanji": "近づける", "hiragana": "ちかづける", "romaji": "chikazukeru", "meanings": {"en": "bring closer", "id": "mendekatkan"}},
-        {"id": 14, "kanji": "近づく", "hiragana": "ちかづく", "romaji": "chikazuku", "meanings": {"en": "approach", "id": "menjadi dekat, mendekat"}},
-        {"id": 15, "kanji": "チケット", "hiragana": "チケット", "romaji": "chiketto", "meanings": {"en": "ticket", "id": "karcis, tiket"}},
-        {"id": 16, "kanji": "遅刻", "hiragana": "ちこく", "romaji": "chikoku", "meanings": {"en": "lateness, delay", "id": "kelambatan, keterlambatan"}},
-        {"id": 17, "kanji": "地球", "hiragana": "ちきゅう", "romaji": "chikyuu", "meanings": {"en": "earth, globe", "id": "dunia, bumi"}},
-        {"id": 18, "kanji": "チーム", "hiragana": "チーム", "romaji": "chīmu", "meanings": {"en": "team", "id": "regu, tim"}},
-        {"id": 19, "kanji": "散らかる", "hiragana": "ちらかる", "romaji": "chirakaru", "meanings": {"en": "be scattered", "id": "berantakan, berserakan"}},
-        {"id": 20, "kanji": "散らかす", "hiragana": "ちらかす", "romaji": "chirakasu", "meanings": {"en": "scatter", "id": "memberantaki"}},
-        {"id": 21, "kanji": "散らす", "hiragana": "ちらす", "romaji": "chirasu", "meanings": {"en": "scatter, disperse", "id": "menaburkan, memencarkan"}},
-        {"id": 22, "kanji": "地理", "hiragana": "ちり", "romaji": "chiri", "meanings": {"en": "geography", "id": "geografi, ilmu bumi"}},
-        {"id": 23, "kanji": "ちりとり", "hiragana": "ちりとり", "romaji": "chiritori", "meanings": {"en": "dustpan", "id": "pengki sampah"}},
-        {"id": 24, "kanji": "散る", "hiragana": "ちる", "romaji": "chiru", "meanings": {"en": "fall, scatter", "id": "berguguran, berserakan"}}
+        {
+          "id": 1,
+          "kanji": "チャイム",
+          "hiragana": "チャイム",
+          "romaji": "chaimu",
+          "meanings": {
+            "en": "chime, doorbell",
+            "id": "bunyi lonceng, bel pintu"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "チャイムが鳴りました。",
+              "furigana": "ちゃいむがなりました。",
+              "romaji": "chaimu ga narimashita.",
+              "meanings": {
+                "id": "Bel pintu berbunyi.",
+                "en": "The doorbell rang."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "チャイムを押してください。",
+              "furigana": "ちゃいむをおしてください。",
+              "romaji": "chaimu o oshite kudasai.",
+              "meanings": {
+                "id": "Tolong tekan bel pintu.",
+                "en": "Please press the doorbell."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "学校のチャイムが聞こえます。",
+              "furigana": "がっこうのちゃいむがきこえます。",
+              "romaji": "gakkou no chaimu ga kikoemasu.",
+              "meanings": {
+                "id": "Bunyi lonceng sekolah terdengar.",
+                "en": "The school chime can be heard."
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "kanji": "着く",
+          "hiragana": "つく",
+          "romaji": "chaku",
+          "meanings": { "en": "arrive", "id": "tiba" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "駅に着きました。",
+              "furigana": "えきにつきました。",
+              "romaji": "eki ni tsukimashita.",
+              "meanings": {
+                "id": "Saya tiba di stasiun.",
+                "en": "I arrived at the station."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "家に着くのは何時ですか。",
+              "furigana": "いえにつくのはなんじですか。",
+              "romaji": "ie ni tsuku no wa nanji desu ka.",
+              "meanings": {
+                "id": "Jam berapa tiba di rumah?",
+                "en": "What time do you arrive home?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "飛行機が空港に着きます。",
+              "furigana": "ひこうきがくうこうにつきます。",
+              "romaji": "hikouki ga kuukou ni tsukimasu.",
+              "meanings": {
+                "id": "Pesawat tiba di bandara.",
+                "en": "The airplane arrives at the airport."
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "kanji": "ちゃんと",
+          "hiragana": "ちゃんと",
+          "romaji": "chanto",
+          "meanings": {
+            "en": "properly, orderly",
+            "id": "dengan teratur, dengan selayaknya"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "宿題をちゃんとやりました。",
+              "furigana": "しゅくだいをちゃんとやりました。",
+              "romaji": "shukudai o chanto yarimashita.",
+              "meanings": {
+                "id": "Saya mengerjakan PR dengan baik.",
+                "en": "I did my homework properly."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ちゃんと食べてください。",
+              "furigana": "ちゃんとたべてください。",
+              "romaji": "chanto tabete kudasai.",
+              "meanings": {
+                "id": "Tolong makan dengan baik.",
+                "en": "Please eat properly."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ちゃんと話しましょう。",
+              "furigana": "ちゃんとはなしましょう。",
+              "romaji": "chanto hanashimashou.",
+              "meanings": {
+                "id": "Mari bicara dengan baik.",
+                "en": "Let's talk properly."
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "kanji": "茶碗",
+          "hiragana": "ちゃわん",
+          "romaji": "chawan",
+          "meanings": {
+            "en": "rice bowl, tea cup",
+            "id": "mangkuk nasi, cangkir teh"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "茶碗にご飯を入れます。",
+              "furigana": "ちゃわんにごはんをいれます。",
+              "romaji": "chawan ni gohan o iremasu.",
+              "meanings": {
+                "id": "Saya memasukkan nasi ke mangkuk.",
+                "en": "I put rice in the bowl."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新しい茶碗を買いました。",
+              "furigana": "あたらしいちゃわんをかいました。",
+              "romaji": "atarashii chawan o kaimashita.",
+              "meanings": {
+                "id": "Saya membeli mangkuk baru.",
+                "en": "I bought a new rice bowl."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "茶碗が割れました。",
+              "furigana": "ちゃわんがわれました。",
+              "romaji": "chawan ga ware mashita.",
+              "meanings": { "id": "Mangkuknya pecah.", "en": "The bowl broke." }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "kanji": "チェック",
+          "hiragana": "チェック",
+          "romaji": "chekku",
+          "meanings": { "en": "checkered pattern", "id": "motif kotak-kotak" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "チェックのシャツを着ています。",
+              "furigana": "ちぇっくのしゃつをきています。",
+              "romaji": "chekku no shatsu o kiteimasu.",
+              "meanings": {
+                "id": "Saya memakai kemeja kotak-kotak.",
+                "en": "I'm wearing a checkered shirt."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "チェックしてください。",
+              "furigana": "ちぇっくしてください。",
+              "romaji": "chekku shite kudasai.",
+              "meanings": { "id": "Tolong periksa.", "en": "Please check." }
+            },
+            {
+              "id": 3,
+              "sentence": "チェック柄が流行っています。",
+              "furigana": "ちぇっくがらがはやっています。",
+              "romaji": "chekku gara ga hayatteimasu.",
+              "meanings": {
+                "id": "Motif kotak-kotak sedang tren.",
+                "en": "Checkered patterns are in fashion."
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "kanji": "父",
+          "hiragana": "ちち",
+          "romaji": "chichi",
+          "meanings": { "en": "father", "id": "ayah, bapak [saya]" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "父は会社員です。",
+              "furigana": "ちちはかいしゃいんです。",
+              "romaji": "chichi wa kaishain desu.",
+              "meanings": {
+                "id": "Ayah saya adalah pegawai perusahaan.",
+                "en": "My father is a company employee."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "父と一緒に旅行しました。",
+              "furigana": "ちちといっしょにりょこうしました。",
+              "romaji": "chichi to issho ni ryokou shimashita.",
+              "meanings": {
+                "id": "Saya berlibur bersama ayah.",
+                "en": "I traveled with my father."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "父の誕生日です。",
+              "furigana": "ちちのたんじょうびです。",
+              "romaji": "chichi no tanjoubi desu.",
+              "meanings": {
+                "id": "Hari ulang tahun ayah.",
+                "en": "It's my father's birthday."
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "kanji": "違い",
+          "hiragana": "ちがい",
+          "romaji": "chigai",
+          "meanings": { "en": "difference", "id": "perbedaan, selisih" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "二つの違いを説明します。",
+              "furigana": "ふたつのちがいをせつめいします。",
+              "romaji": "futatsu no chigai o setsumei shimasu.",
+              "meanings": {
+                "id": "Saya akan menjelaskan perbedaan dua hal.",
+                "en": "I will explain the difference between two things."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "文化の違いがあります。",
+              "furigana": "ぶんかのちがいがあります。",
+              "romaji": "bunka no chigai ga arimasu.",
+              "meanings": {
+                "id": "Ada perbedaan budaya.",
+                "en": "There are cultural differences."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "違いを見つけてください。",
+              "furigana": "ちがいをみつけてください。",
+              "romaji": "chigai o mitsukete kudasai.",
+              "meanings": {
+                "id": "Tolong temukan perbedaannya.",
+                "en": "Please find the difference."
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "kanji": "地方",
+          "hiragana": "ちほう",
+          "romaji": "chihou",
+          "meanings": {
+            "en": "region, area",
+            "id": "daerah, wilayah, kawasan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地方に住んでいます。",
+              "furigana": "ちほうにすんでいます。",
+              "romaji": "chihou ni sundeimasu.",
+              "meanings": {
+                "id": "Saya tinggal di daerah.",
+                "en": "I live in a region."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "地方の料理は美味しいです。",
+              "furigana": "ちほうのりょうりはおいしいです。",
+              "romaji": "chihou no ryouri wa oishii desu.",
+              "meanings": {
+                "id": "Masakan daerah enak.",
+                "en": "Regional cuisine is delicious."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "地方の祭りに参加しました。",
+              "furigana": "ちほうのまつりにさんかしました。",
+              "romaji": "chihou no matsuri ni sanka shimashita.",
+              "meanings": {
+                "id": "Saya ikut festival daerah.",
+                "en": "I participated in a regional festival."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "縮む",
+          "hiragana": "ちぢむ",
+          "romaji": "chijimu",
+          "meanings": {
+            "en": "shrink, contract",
+            "id": "susut, ciut, memendek"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "服が洗って縮みました。",
+              "furigana": "ふくがあらってちぢみました。",
+              "romaji": "fuku ga aratte chijimimashita.",
+              "meanings": {
+                "id": "Baju menyusut setelah dicuci.",
+                "en": "The clothes shrank after washing."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "縮むことがあります。",
+              "furigana": "ちぢむことがあります。",
+              "romaji": "chijimu koto ga arimasu.",
+              "meanings": {
+                "id": "Kadang-kadang bisa menyusut.",
+                "en": "Sometimes it can shrink."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この布は縮みません。",
+              "furigana": "このぬのはちぢみません。",
+              "romaji": "kono nuno wa chijimimasen.",
+              "meanings": {
+                "id": "Kain ini tidak menyusut.",
+                "en": "This fabric does not shrink."
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "kanji": "地下",
+          "hiragana": "ちか",
+          "romaji": "chika",
+          "meanings": { "en": "underground", "id": "bawah tanah" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地下鉄に乗ります。",
+              "furigana": "ちかてつにのります。",
+              "romaji": "chikatetsu ni norimasu.",
+              "meanings": {
+                "id": "Saya naik kereta bawah tanah.",
+                "en": "I take the subway."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "地下に駐車場があります。",
+              "furigana": "ちかにちゅうしゃじょうがあります。",
+              "romaji": "chika ni chuushajou ga arimasu.",
+              "meanings": {
+                "id": "Ada parkiran di bawah tanah.",
+                "en": "There is a parking lot underground."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "地下の部屋は涼しいです。",
+              "furigana": "ちかのへやはすずしいです。",
+              "romaji": "chika no heya wa suzushii desu.",
+              "meanings": {
+                "id": "Ruangan bawah tanah sejuk.",
+                "en": "The underground room is cool."
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "kanji": "近道",
+          "hiragana": "ちかみち",
+          "romaji": "chikamichi",
+          "meanings": { "en": "shortcut", "id": "jalan pintas" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "近道を通りました。",
+              "furigana": "ちかみちをとおりました。",
+              "romaji": "chikamichi o toorimashita.",
+              "meanings": {
+                "id": "Saya lewat jalan pintas.",
+                "en": "I took a shortcut."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "近道は便利です。",
+              "furigana": "ちかみちはべんりです。",
+              "romaji": "chikamichi wa benri desu.",
+              "meanings": {
+                "id": "Jalan pintas itu praktis.",
+                "en": "Shortcuts are convenient."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "近道を教えてください。",
+              "furigana": "ちかみちをおしえてください。",
+              "romaji": "chikamichi o oshiete kudasai.",
+              "meanings": {
+                "id": "Tolong tunjukkan jalan pintasnya.",
+                "en": "Please show me the shortcut."
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "kanji": "痴漢",
+          "hiragana": "ちかん",
+          "romaji": "chikan",
+          "meanings": {
+            "en": "molester",
+            "id": "hidung belang, pengganggu wanita"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "痴漢に注意してください。",
+              "furigana": "ちかんにちゅういしてください。",
+              "romaji": "chikan ni chuui shite kudasai.",
+              "meanings": {
+                "id": "Hati-hati terhadap pengganggu wanita.",
+                "en": "Beware of molesters."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "痴漢が捕まりました。",
+              "furigana": "ちかんがつかまりました。",
+              "romaji": "chikan ga tsukamarimashita.",
+              "meanings": {
+                "id": "Pelaku pengganggu wanita tertangkap.",
+                "en": "The molester was caught."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "痴漢の被害が増えています。",
+              "furigana": "ちかんのひがいがふえています。",
+              "romaji": "chikan no higai ga fueteimasu.",
+              "meanings": {
+                "id": "Kasus pengganggu wanita meningkat.",
+                "en": "Molestation cases are increasing."
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "kanji": "近づける",
+          "hiragana": "ちかづける",
+          "romaji": "chikazukeru",
+          "meanings": { "en": "bring closer", "id": "mendekatkan" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "顔を近づけて見ました。",
+              "furigana": "かおをちかづけてみました。",
+              "romaji": "kao o chikazukete mimashita.",
+              "meanings": {
+                "id": "Saya mendekatkan wajah untuk melihat.",
+                "en": "I brought my face closer to see."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "椅子を机に近づけます。",
+              "furigana": "いすをつくえにちかづけます。",
+              "romaji": "isu o tsukue ni chikazukemasu.",
+              "meanings": {
+                "id": "Saya mendekatkan kursi ke meja.",
+                "en": "I bring the chair closer to the desk."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "手を火に近づけないでください。",
+              "furigana": "てをひにちかづけないでください。",
+              "romaji": "te o hi ni chikazukenaide kudasai.",
+              "meanings": {
+                "id": "Jangan mendekatkan tangan ke api.",
+                "en": "Don't bring your hand close to the fire."
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "kanji": "近づく",
+          "hiragana": "ちかづく",
+          "romaji": "chikazuku",
+          "meanings": { "en": "approach", "id": "menjadi dekat, mendekat" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "春が近づいています。",
+              "furigana": "はるがちかづいています。",
+              "romaji": "haru ga chikazuiteimasu.",
+              "meanings": {
+                "id": "Musim semi semakin dekat.",
+                "en": "Spring is approaching."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "電車が駅に近づきます。",
+              "furigana": "でんしゃがえきにちかづきます。",
+              "romaji": "densha ga eki ni chikazukimasu.",
+              "meanings": {
+                "id": "Kereta mendekati stasiun.",
+                "en": "The train approaches the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "犬が私に近づいてきました。",
+              "furigana": "いぬがわたしにちかづいてきました。",
+              "romaji": "inu ga watashi ni chikazuite kimashita.",
+              "meanings": {
+                "id": "Anjing mendekati saya.",
+                "en": "The dog came closer to me."
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "kanji": "チケット",
+          "hiragana": "チケット",
+          "romaji": "chiketto",
+          "meanings": { "en": "ticket", "id": "karcis, tiket" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "映画のチケットを買いました。",
+              "furigana": "えいがのちけっとをかいました。",
+              "romaji": "eiga no chiketto o kaimashita.",
+              "meanings": {
+                "id": "Saya membeli tiket film.",
+                "en": "I bought a movie ticket."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "チケットを忘れないでください。",
+              "furigana": "ちけっとをわすれないでください。",
+              "romaji": "chiketto o wasurenaide kudasai.",
+              "meanings": {
+                "id": "Jangan lupa tiketnya.",
+                "en": "Don't forget your ticket."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "コンサートのチケットがあります。",
+              "furigana": "こんさーとのちけっとがあります。",
+              "romaji": "konsaato no chiketto ga arimasu.",
+              "meanings": {
+                "id": "Ada tiket konser.",
+                "en": "There are concert tickets."
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "kanji": "遅刻",
+          "hiragana": "ちこく",
+          "romaji": "chikoku",
+          "meanings": {
+            "en": "lateness, delay",
+            "id": "kelambatan, keterlambatan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "遅刻しないようにしてください。",
+              "furigana": "ちこくしないようにしてください。",
+              "romaji": "chikoku shinai you ni shite kudasai.",
+              "meanings": {
+                "id": "Jangan sampai terlambat.",
+                "en": "Please try not to be late."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "遅刻してしまいました。",
+              "furigana": "ちこくしてしまいました。",
+              "romaji": "chikoku shite shimaimashita.",
+              "meanings": { "id": "Saya terlambat.", "en": "I was late." }
+            },
+            {
+              "id": 3,
+              "sentence": "遅刻はよくありません。",
+              "furigana": "ちこくはよくありません。",
+              "romaji": "chikoku wa yoku arimasen.",
+              "meanings": {
+                "id": "Terlambat itu tidak baik.",
+                "en": "Being late is not good."
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "kanji": "地球",
+          "hiragana": "ちきゅう",
+          "romaji": "chikyuu",
+          "meanings": { "en": "earth, globe", "id": "dunia, bumi" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地球は青い星です。",
+              "furigana": "ちきゅうはあおいほしです。",
+              "romaji": "chikyuu wa aoi hoshi desu.",
+              "meanings": {
+                "id": "Bumi adalah planet biru.",
+                "en": "Earth is a blue planet."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "地球を守りましょう。",
+              "furigana": "ちきゅうをまもりましょう。",
+              "romaji": "chikyuu o mamorimashou.",
+              "meanings": {
+                "id": "Mari kita jaga bumi.",
+                "en": "Let's protect the earth."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "地球の環境が大切です。",
+              "furigana": "ちきゅうのかんきょうがたいせつです。",
+              "romaji": "chikyuu no kankyou ga taisetsu desu.",
+              "meanings": {
+                "id": "Lingkungan bumi itu penting.",
+                "en": "The earth's environment is important."
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "kanji": "チーム",
+          "hiragana": "チーム",
+          "romaji": "chīmu",
+          "meanings": { "en": "team", "id": "regu, tim" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "チームで協力します。",
+              "furigana": "ちーむできょうりょくします。",
+              "romaji": "chiimu de kyouryoku shimasu.",
+              "meanings": {
+                "id": "Kami bekerja sama dalam tim.",
+                "en": "We cooperate as a team."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "チームのメンバーが集まりました。",
+              "furigana": "ちーむのめんばーがあつまりました。",
+              "romaji": "chiimu no menbaa ga atsumarimashita.",
+              "meanings": {
+                "id": "Anggota tim sudah berkumpul.",
+                "en": "The team members have gathered."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "チームで勝ちました。",
+              "furigana": "ちーむでかちました。",
+              "romaji": "chiimu de kachimashita.",
+              "meanings": {
+                "id": "Kami menang sebagai tim.",
+                "en": "We won as a team."
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "kanji": "散らかる",
+          "hiragana": "ちらかる",
+          "romaji": "chirakaru",
+          "meanings": { "en": "be scattered", "id": "berantakan, berserakan" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋が散らかっています。",
+              "furigana": "へやがちらかっています。",
+              "romaji": "heya ga chirakatteimasu.",
+              "meanings": {
+                "id": "Kamar berantakan.",
+                "en": "The room is messy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "机の上が散らかっています。",
+              "furigana": "つくえのうえがちらかっています。",
+              "romaji": "tsukue no ue ga chirakatteimasu.",
+              "meanings": {
+                "id": "Meja berantakan.",
+                "en": "The desk is messy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "散らかると探しにくいです。",
+              "furigana": "ちらかるとさがしにくいです。",
+              "romaji": "chirakaru to sagashi nikui desu.",
+              "meanings": {
+                "id": "Jika berantakan, sulit mencari.",
+                "en": "It's hard to find things when it's messy."
+              }
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "kanji": "散らかす",
+          "hiragana": "ちらかす",
+          "romaji": "chirakasu",
+          "meanings": { "en": "scatter", "id": "memberantaki" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "子供が部屋を散らかしました。",
+              "furigana": "こどもがへやをちらかしました。",
+              "romaji": "kodomo ga heya o chirakashimashita.",
+              "meanings": {
+                "id": "Anak-anak memberantaki kamar.",
+                "en": "The children made the room messy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紙を散らかさないでください。",
+              "furigana": "かみをちらかさないでください。",
+              "romaji": "kami o chirakasa naide kudasai.",
+              "meanings": {
+                "id": "Jangan memberantaki kertas.",
+                "en": "Please don't scatter the papers."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "散らかすと怒られます。",
+              "furigana": "ちらかすとおこられます。",
+              "romaji": "chirakasu to okoraremasu.",
+              "meanings": {
+                "id": "Kalau memberantaki, akan dimarahi.",
+                "en": "If you make a mess, you'll be scolded."
+              }
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "kanji": "散らす",
+          "hiragana": "ちらす",
+          "romaji": "chirasu",
+          "meanings": {
+            "en": "scatter, disperse",
+            "id": "menaburkan, memencarkan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "花びらを散らしました。",
+              "furigana": "はなびらをちらしました。",
+              "romaji": "hanabira o chirashimashita.",
+              "meanings": {
+                "id": "Saya menaburkan kelopak bunga.",
+                "en": "I scattered flower petals."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "紙を散らすのはやめましょう。",
+              "furigana": "かみをちらすのはやめましょう。",
+              "romaji": "kami o chirasu no wa yamemashou.",
+              "meanings": {
+                "id": "Mari berhenti menaburkan kertas.",
+                "en": "Let's stop scattering paper."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "風が葉を散らします。",
+              "furigana": "かぜがはをちらします。",
+              "romaji": "kaze ga ha o chirashimasu.",
+              "meanings": {
+                "id": "Angin menaburkan daun.",
+                "en": "The wind scatters the leaves."
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "kanji": "地理",
+          "hiragana": "ちり",
+          "romaji": "chiri",
+          "meanings": { "en": "geography", "id": "geografi, ilmu bumi" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "地理を勉強しています。",
+              "furigana": "ちりをべんきょうしています。",
+              "romaji": "chiri o benkyou shiteimasu.",
+              "meanings": {
+                "id": "Saya belajar geografi.",
+                "en": "I study geography."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "地理の先生は親切です。",
+              "furigana": "ちりのせんせいはしんせつです。",
+              "romaji": "chiri no sensei wa shinsetsu desu.",
+              "meanings": {
+                "id": "Guru geografi baik hati.",
+                "en": "The geography teacher is kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "地理のテストがあります。",
+              "furigana": "ちりのてすとがあります。",
+              "romaji": "chiri no tesuto ga arimasu.",
+              "meanings": {
+                "id": "Ada ujian geografi.",
+                "en": "There is a geography test."
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "kanji": "ちりとり",
+          "hiragana": "ちりとり",
+          "romaji": "chiritori",
+          "meanings": { "en": "dustpan", "id": "pengki sampah" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ちりとりでゴミを集めます。",
+              "furigana": "ちりとりでごみをあつめます。",
+              "romaji": "chiritori de gomi o atsumemasu.",
+              "meanings": {
+                "id": "Saya mengumpulkan sampah dengan pengki.",
+                "en": "I collect trash with a dustpan."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "新しいちりとりを買いました。",
+              "furigana": "あたらしいちりとりをかいました。",
+              "romaji": "atarashii chiritori o kaimashita.",
+              "meanings": {
+                "id": "Saya membeli pengki baru.",
+                "en": "I bought a new dustpan."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "ちりとりが壊れました。",
+              "furigana": "ちりとりがこわれました。",
+              "romaji": "chiritori ga kowaremashita.",
+              "meanings": {
+                "id": "Pengkinya rusak.",
+                "en": "The dustpan is broken."
+              }
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "kanji": "散る",
+          "hiragana": "ちる",
+          "romaji": "chiru",
+          "meanings": { "en": "fall, scatter", "id": "berguguran, berserakan" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "桜の花が散りました。",
+              "furigana": "さくらのはながちりました。",
+              "romaji": "sakura no hana ga chirimashita.",
+              "meanings": {
+                "id": "Bunga sakura berguguran.",
+                "en": "The cherry blossoms fell."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "葉が風で散ります。",
+              "furigana": "はがかぜでちります。",
+              "romaji": "ha ga kaze de chirimasu.",
+              "meanings": {
+                "id": "Daun berguguran karena angin.",
+                "en": "Leaves fall because of the wind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "紙が床に散りました。",
+              "furigana": "かみがゆかにちりました。",
+              "romaji": "kami ga yuka ni chirimashita.",
+              "meanings": {
+                "id": "Kertas berserakan di lantai.",
+                "en": "The paper scattered on the floor."
+              }
+            }
+          ]
+        }
       ]
     }
   ]

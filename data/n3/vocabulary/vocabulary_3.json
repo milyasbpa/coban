@@ -7,25 +7,1023 @@
         "en": "A Section"
       },
       "vocabulary": [
-        {"id": 1, "kanji": "汗", "hiragana": "あせ", "romaji": "ase", "meanings": {"en": "sweat", "id": "keringat, peluh"}},
-        {"id": 2, "kanji": "汗くさい", "hiragana": "あせくさい", "romaji": "asekusai", "meanings": {"en": "smell of sweat", "id": "bau keringat"}},
-        {"id": 3, "kanji": "足首", "hiragana": "あしくび", "romaji": "ashikubi", "meanings": {"en": "ankle", "id": "pergelangan kaki"}},
-        {"id": 4, "kanji": "遊び", "hiragana": "あそび", "romaji": "asobi", "meanings": {"en": "play, amusement", "id": "permainan, hiburan"}},
-        {"id": 5, "kanji": "明日", "hiragana": "あした", "romaji": "ashita", "meanings": {"en": "tomorrow", "id": "esok, besok"}},
-        {"id": 6, "kanji": "与える", "hiragana": "あたえる", "romaji": "ataeru", "meanings": {"en": "give, present", "id": "memberikan, menyajikan, menyuguhkan"}},
-        {"id": 7, "kanji": "辺り", "hiragana": "あたり", "romaji": "atari", "meanings": {"en": "vicinity, around", "id": "sekitar, seputar, kira-kira"}},
-        {"id": 8, "kanji": "当たり前", "hiragana": "あたりまえ", "romaji": "atarimae", "meanings": {"en": "natural, obvious", "id": "sewajarnya, memang, masuk akal"}},
-        {"id": 9, "kanji": "当たる", "hiragana": "あたる", "romaji": "ataru", "meanings": {"en": "hit, strike", "id": "kena, tepat, terbentur"}},
-        {"id": 10, "kanji": "あて先", "hiragana": "あてさき", "romaji": "atesaki", "meanings": {"en": "address (recipient)", "id": "alamat"}},
-        {"id": 11, "kanji": "集まり", "hiragana": "あつまり", "romaji": "atsumari", "meanings": {"en": "gathering", "id": "kumpulan, perkumpulan, pertemuan"}},
-        {"id": 12, "kanji": "あっという間", "hiragana": "あっというま", "romaji": "attoiuma", "meanings": {"en": "in an instant", "id": "dalam sekejap saja"}},
-        {"id": 13, "kanji": "合う", "hiragana": "あう", "romaji": "au", "meanings": {"en": "fit, match", "id": "cocok, sesuai, serasi, pantas, layak, pas"}},
-        {"id": 14, "kanji": "泡", "hiragana": "あわ", "romaji": "awa", "meanings": {"en": "bubble, foam", "id": "busa, buih, gelembung"}},
-        {"id": 15, "kanji": "合わせる", "hiragana": "あわせる", "romaji": "awaseru", "meanings": {"en": "combine, match", "id": "mempertemukan"}},
-        {"id": 16, "kanji": "慌てる", "hiragana": "あわてる", "romaji": "awateru", "meanings": {"en": "panic, hurry", "id": "terburu-buru, tergesa-gesa, panik, gugup, bingung"}},
-        {"id": 17, "kanji": "怪しい", "hiragana": "あやしい", "romaji": "ayashii", "meanings": {"en": "suspicious, strange", "id": "aneh, mencurigakan"}},
-        {"id": 18, "kanji": "預かる", "hiragana": "あずかる", "romaji": "azukaru", "meanings": {"en": "keep, take care", "id": "menitip, menyimpan, menjaga, mengawasi"}},
-        {"id": 19, "kanji": "預ける", "hiragana": "あずける", "romaji": "azukeru", "meanings": {"en": "entrust, deposit", "id": "menitipkan, mempercayakan, menyimpan"}}
+        {
+          "id": 1,
+          "kanji": "汗",
+          "hiragana": "あせ",
+          "romaji": "ase",
+          "meanings": { "en": "sweat", "id": "keringat, peluh" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "運動して汗をかいた。",
+              "furigana": "うんどうしてあせをかいた。",
+              "romaji": "undou shite ase wo kaita.",
+              "meanings": {
+                "id": "Saya berkeringat setelah berolahraga.",
+                "en": "I sweated after exercising."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "汗がたくさん出た。",
+              "furigana": "あせがたくさんでた。",
+              "romaji": "ase ga takusan deta.",
+              "meanings": {
+                "id": "Keringat keluar banyak.",
+                "en": "A lot of sweat came out."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "暑くて汗をかきました。",
+              "furigana": "あつくてあせをかきました。",
+              "romaji": "atsukute ase wo kakimashita.",
+              "meanings": {
+                "id": "Saya berkeringat karena panas.",
+                "en": "I sweated because it was hot."
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "kanji": "汗くさい",
+          "hiragana": "あせくさい",
+          "romaji": "asekusai",
+          "meanings": { "en": "smell of sweat", "id": "bau keringat" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "汗くさい服を洗った。",
+              "furigana": "あせくさいふくをあらった。",
+              "romaji": "asekusai fuku wo aratta.",
+              "meanings": {
+                "id": "Saya mencuci baju yang bau keringat.",
+                "en": "I washed sweaty-smelling clothes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "部屋が汗くさい。",
+              "furigana": "へやがあせくさい。",
+              "romaji": "heya ga asekusai.",
+              "meanings": {
+                "id": "Ruangan bau keringat.",
+                "en": "The room smells of sweat."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "運動後は汗くさくなる。",
+              "furigana": "うんどうごはあせくさくなる。",
+              "romaji": "undou go wa asekusaku naru.",
+              "meanings": {
+                "id": "Setelah olahraga jadi bau keringat.",
+                "en": "After exercising, you smell of sweat."
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "kanji": "足首",
+          "hiragana": "あしくび",
+          "romaji": "ashikubi",
+          "meanings": { "en": "ankle", "id": "pergelangan kaki" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "足首をひねった。",
+              "furigana": "あしくびをひねった。",
+              "romaji": "ashikubi wo hinetta.",
+              "meanings": {
+                "id": "Pergelangan kaki saya terkilir.",
+                "en": "I twisted my ankle."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "足首が痛いです。",
+              "furigana": "あしくびがいたいです。",
+              "romaji": "ashikubi ga itai desu.",
+              "meanings": {
+                "id": "Pergelangan kaki saya sakit.",
+                "en": "My ankle hurts."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "足首を冷やしてください。",
+              "furigana": "あしくびをひやしてください。",
+              "romaji": "ashikubi wo hiyashite kudasai.",
+              "meanings": {
+                "id": "Tolong kompres pergelangan kaki.",
+                "en": "Please cool your ankle."
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "kanji": "遊び",
+          "hiragana": "あそび",
+          "romaji": "asobi",
+          "meanings": { "en": "play, amusement", "id": "permainan, hiburan" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "公園で遊びました。",
+              "furigana": "こうえんであそびました。",
+              "romaji": "kouen de asobimashita.",
+              "meanings": {
+                "id": "Saya bermain di taman.",
+                "en": "I played in the park."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "遊びが好きです。",
+              "furigana": "あそびがすきです。",
+              "romaji": "asobi ga suki desu.",
+              "meanings": {
+                "id": "Saya suka bermain.",
+                "en": "I like playing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "新しい遊びを覚えた。",
+              "furigana": "あたらしいあそびをおぼえた。",
+              "romaji": "atarashii asobi wo oboeta.",
+              "meanings": {
+                "id": "Saya belajar permainan baru.",
+                "en": "I learned a new game."
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "kanji": "明日",
+          "hiragana": "あした",
+          "romaji": "ashita",
+          "meanings": { "en": "tomorrow", "id": "esok, besok" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "明日は休みです。",
+              "furigana": "あしたはやすみです。",
+              "romaji": "ashita wa yasumi desu.",
+              "meanings": {
+                "id": "Besok libur.",
+                "en": "Tomorrow is a holiday."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "明日会いましょう。",
+              "furigana": "あしたあいましょう。",
+              "romaji": "ashita aimashou.",
+              "meanings": {
+                "id": "Mari bertemu besok.",
+                "en": "Let's meet tomorrow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "明日テストがあります。",
+              "furigana": "あしたテストがあります。",
+              "romaji": "ashita tesuto ga arimasu.",
+              "meanings": {
+                "id": "Besok ada ujian.",
+                "en": "There is a test tomorrow."
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "kanji": "与える",
+          "hiragana": "あたえる",
+          "romaji": "ataeru",
+          "meanings": {
+            "en": "give, present",
+            "id": "memberikan, menyajikan, menyuguhkan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "先生が宿題を与えた。",
+              "furigana": "せんせいがしゅくだいをあたえた。",
+              "romaji": "sensei ga shukudai wo ataeta.",
+              "meanings": {
+                "id": "Guru memberikan PR.",
+                "en": "The teacher gave homework."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "親は子供に愛を与える。",
+              "furigana": "おやはこどもにあいをあたえる。",
+              "romaji": "oya wa kodomo ni ai wo ataeru.",
+              "meanings": {
+                "id": "Orang tua memberikan kasih sayang kepada anak.",
+                "en": "Parents give love to their children."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "賞を与えられた。",
+              "furigana": "しょうをあたえられた。",
+              "romaji": "shou wo ataerareta.",
+              "meanings": {
+                "id": "Saya diberi penghargaan.",
+                "en": "I was given an award."
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "kanji": "辺り",
+          "hiragana": "あたり",
+          "romaji": "atari",
+          "meanings": {
+            "en": "vicinity, around",
+            "id": "sekitar, seputar, kira-kira"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "辺りを見回した。",
+              "furigana": "あたりをみまわした。",
+              "romaji": "atari wo mimawashita.",
+              "meanings": {
+                "id": "Saya melihat sekeliling.",
+                "en": "I looked around."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この辺りは静かです。",
+              "furigana": "このあたりはしずかです。",
+              "romaji": "kono atari wa shizuka desu.",
+              "meanings": {
+                "id": "Daerah ini tenang.",
+                "en": "This area is quiet."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "辺りに人がいない。",
+              "furigana": "あたりにひとがいない。",
+              "romaji": "atari ni hito ga inai.",
+              "meanings": {
+                "id": "Tidak ada orang di sekitar.",
+                "en": "There is no one around."
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "kanji": "当たり前",
+          "hiragana": "あたりまえ",
+          "romaji": "atarimae",
+          "meanings": {
+            "en": "natural, obvious",
+            "id": "sewajarnya, memang, masuk akal"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "それは当たり前です。",
+              "furigana": "それはあたりまえです。",
+              "romaji": "sore wa atarimae desu.",
+              "meanings": {
+                "id": "Itu memang sewajarnya.",
+                "en": "That's natural."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "当たり前のことをしただけです。",
+              "furigana": "あたりまえのことをしただけです。",
+              "romaji": "atarimae no koto wo shita dake desu.",
+              "meanings": {
+                "id": "Saya hanya melakukan hal yang wajar.",
+                "en": "I just did the obvious thing."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "当たり前に挨拶します。",
+              "furigana": "あたりまえにあいさつします。",
+              "romaji": "atarimae ni aisatsu shimasu.",
+              "meanings": {
+                "id": "Salam itu sudah sewajarnya.",
+                "en": "Greeting is natural."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "当たる",
+          "hiragana": "あたる",
+          "romaji": "ataru",
+          "meanings": { "en": "hit, strike", "id": "kena, tepat, terbentur" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ボールが頭に当たった。",
+              "furigana": "ボールがあたまにあたった。",
+              "romaji": "booru ga atama ni atatta.",
+              "meanings": {
+                "id": "Bola kena kepala saya.",
+                "en": "The ball hit my head."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "宝くじが当たった。",
+              "furigana": "たからくじがあたった。",
+              "romaji": "takarakuji ga atatta.",
+              "meanings": {
+                "id": "Saya menang undian.",
+                "en": "I won the lottery."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日が窓に当たる。",
+              "furigana": "ひがまどにあたる。",
+              "romaji": "hi ga mado ni ataru.",
+              "meanings": {
+                "id": "Matahari mengenai jendela.",
+                "en": "The sun hits the window."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "温まる",
+          "hiragana": "あたたまる",
+          "romaji": "atatamaru",
+          "meanings": {
+            "en": "to become warm (atmosphere/mood)",
+            "id": "[suasana menjadi] hangat/ramah"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "部屋が温まった。",
+              "furigana": "へやがあたたまった。",
+              "romaji": "heya ga atatamatta.",
+              "meanings": {
+                "id": "Ruangan menjadi hangat.",
+                "en": "The room became warm."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "心が温まる話です。",
+              "furigana": "こころがあたたまるはなしです。",
+              "romaji": "kokoro ga atatamaru hanashi desu.",
+              "meanings": {
+                "id": "Cerita yang menghangatkan hati.",
+                "en": "A heartwarming story."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "温まる雰囲気が好きです。",
+              "furigana": "あたたまるふんいきがすきです。",
+              "romaji": "atatamaru fun'iki ga suki desu.",
+              "meanings": {
+                "id": "Saya suka suasana yang hangat.",
+                "en": "I like a warm atmosphere."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "暖まる",
+          "hiragana": "あたたまる",
+          "romaji": "atatamaru",
+          "meanings": {
+            "en": "to become warm",
+            "id": "[benda yang menjadi] hangat"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "お風呂で体が暖まる。",
+              "furigana": "おふろでからだがあたたまる。",
+              "romaji": "ofuro de karada ga atatamaru.",
+              "meanings": {
+                "id": "Tubuh menjadi hangat di kamar mandi.",
+                "en": "The body becomes warm in the bath."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "暖まったご飯を食べる。",
+              "furigana": "あたたまったごはんをたべる。",
+              "romaji": "atatamatta gohan wo taberu.",
+              "meanings": {
+                "id": "Makan nasi yang sudah hangat.",
+                "en": "Eat warmed rice."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "暖まるコーヒーが好きです。",
+              "furigana": "あたたまるコーヒーがすきです。",
+              "romaji": "atatamaru koohii ga suki desu.",
+              "meanings": {
+                "id": "Saya suka kopi hangat.",
+                "en": "I like warm coffee."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "温める",
+          "hiragana": "あたためる",
+          "romaji": "atatameru",
+          "meanings": {
+            "en": "to warm; to warm up (atmosphere/mood)",
+            "id": "menghangatkan [suasana]"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "言葉で心を温める。",
+              "furigana": "ことばでこころをあたためる。",
+              "romaji": "kotoba de kokoro wo atatameru.",
+              "meanings": {
+                "id": "Menghangatkan hati dengan kata-kata.",
+                "en": "Warm the heart with words."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "温める話を聞いた。",
+              "furigana": "あたためるはなしをきいた。",
+              "romaji": "atatameru hanashi wo kiita.",
+              "meanings": {
+                "id": "Saya mendengar cerita yang menghangatkan.",
+                "en": "I heard a heartwarming story."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "温める雰囲気を作る。",
+              "furigana": "あたためるふんいきをつくる。",
+              "romaji": "atatameru fun'iki wo tsukuru.",
+              "meanings": {
+                "id": "Menciptakan suasana hangat.",
+                "en": "Create a warm atmosphere."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "暖める",
+          "hiragana": "あたためる",
+          "romaji": "atatameru",
+          "meanings": {
+            "en": "to warm; to warm up (things)",
+            "id": "menghangatkan [benda]"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ご飯を暖めてください。",
+              "furigana": "ごはんをあたためてください。",
+              "romaji": "gohan wo atatamete kudasai.",
+              "meanings": {
+                "id": "Tolong hangatkan nasinya.",
+                "en": "Please warm the rice."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "暖めた牛乳を飲む。",
+              "furigana": "あたためたぎゅうにゅうをのむ。",
+              "romaji": "atatameta gyuunyuu wo nomu.",
+              "meanings": {
+                "id": "Minum susu hangat.",
+                "en": "Drink warmed milk."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "部屋を暖める。",
+              "furigana": "へやをあたためる。",
+              "romaji": "heya wo atatameru.",
+              "meanings": {
+                "id": "Menghangatkan ruangan.",
+                "en": "Warm the room."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "あて名",
+          "hiragana": "あてな",
+          "romaji": "atena",
+          "meanings": {
+            "en": "name and address (of recipient)",
+            "id": "nama dan alamat"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "手紙のあて名を書いた。",
+              "furigana": "てがみのあてなをかいた。",
+              "romaji": "tegami no atena wo kaita.",
+              "meanings": {
+                "id": "Saya menulis nama dan alamat di surat.",
+                "en": "I wrote the name and address on the letter."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あて名が間違っています。",
+              "furigana": "あてながまちがっています。",
+              "romaji": "atena ga machigatte imasu.",
+              "meanings": {
+                "id": "Nama dan alamatnya salah.",
+                "en": "The name and address are wrong."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あて名を確認してください。",
+              "furigana": "あてなをかくにんしてください。",
+              "romaji": "atena wo kakunin shite kudasai.",
+              "meanings": {
+                "id": "Tolong periksa nama dan alamat.",
+                "en": "Please check the name and address."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "当てる",
+          "hiragana": "あてる",
+          "romaji": "ateru",
+          "meanings": {
+            "en": "to hit; to apply; to guess; to estimate",
+            "id": "kena, mengenai, menerka, menebak, menduga"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "問題の答えを当ててください。",
+              "furigana": "もんだいのこたえをあててください。",
+              "romaji": "mondai no kotae wo atete kudasai.",
+              "meanings": {
+                "id": "Tolong tebak jawaban soal.",
+                "en": "Please guess the answer to the question."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "ボールを壁に当てた。",
+              "furigana": "ボールをかべにあてた。",
+              "romaji": "booru wo kabe ni ateta.",
+              "meanings": {
+                "id": "Saya melempar bola ke dinding.",
+                "en": "I hit the ball against the wall."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "日光を顔に当てる。",
+              "furigana": "にっこうをかおにあてる。",
+              "romaji": "nikkou wo kao ni ateru.",
+              "meanings": {
+                "id": "Mengenakan sinar matahari ke wajah.",
+                "en": "Apply sunlight to the face."
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "kanji": "あて先",
+          "hiragana": "あてさき",
+          "romaji": "atesaki",
+          "meanings": { "en": "address (recipient)", "id": "alamat" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あて先を間違えました。",
+              "furigana": "あてさきをまちがえました。",
+              "romaji": "atesaki wo machigaemashita.",
+              "meanings": {
+                "id": "Saya salah alamat tujuan.",
+                "en": "I got the address wrong."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "手紙のあて先を書いてください。",
+              "furigana": "てがみのあてさきをかいてください。",
+              "romaji": "tegami no atesaki wo kaite kudasai.",
+              "meanings": {
+                "id": "Tolong tulis alamat tujuan surat.",
+                "en": "Please write the recipient's address on the letter."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あて先が分かりません。",
+              "furigana": "あてさきがわかりません。",
+              "romaji": "atesaki ga wakarimasen.",
+              "meanings": {
+                "id": "Saya tidak tahu alamat tujuan.",
+                "en": "I don't know the recipient's address."
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "kanji": "集まり",
+          "hiragana": "あつまり",
+          "romaji": "atsumari",
+          "meanings": {
+            "en": "gathering",
+            "id": "kumpulan, perkumpulan, pertemuan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "友達の集まりに参加した。",
+              "furigana": "ともだちのあつまりにさんかした。",
+              "romaji": "tomodachi no atsumari ni sanka shita.",
+              "meanings": {
+                "id": "Saya ikut kumpul teman-teman.",
+                "en": "I joined a gathering of friends."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "集まりは午後からです。",
+              "furigana": "あつまりはごごからです。",
+              "romaji": "atsumari wa gogo kara desu.",
+              "meanings": {
+                "id": "Pertemuan mulai siang.",
+                "en": "The gathering starts in the afternoon."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "大きな集まりがあった。",
+              "furigana": "おおきなあつまりがあった。",
+              "romaji": "ookina atsumari ga atta.",
+              "meanings": {
+                "id": "Ada kumpulan besar.",
+                "en": "There was a big gathering."
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "kanji": "あっという間",
+          "hiragana": "あっというま",
+          "romaji": "attoiuma",
+          "meanings": { "en": "in an instant", "id": "dalam sekejap saja" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "楽しい時間はあっという間に過ぎる。",
+              "furigana": "たのしいじかんはあっというまにすぎる。",
+              "romaji": "tanoshii jikan wa attoiuma ni sugiru.",
+              "meanings": {
+                "id": "Waktu menyenangkan berlalu dalam sekejap.",
+                "en": "Fun times pass in an instant."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あっという間に終わった。",
+              "furigana": "あっというまにおわった。",
+              "romaji": "attoiuma ni owatta.",
+              "meanings": {
+                "id": "Selesai dalam sekejap.",
+                "en": "It ended in an instant."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "一年があっという間だった。",
+              "furigana": "いちねんがあっというまだった。",
+              "romaji": "ichinen ga attoiuma datta.",
+              "meanings": {
+                "id": "Setahun berlalu dalam sekejap.",
+                "en": "A year passed in an instant."
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "kanji": "合う",
+          "hiragana": "あう",
+          "romaji": "au",
+          "meanings": {
+            "en": "fit, match",
+            "id": "cocok, sesuai, serasi, pantas, layak, pas"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この靴は私に合う。",
+              "furigana": "このくつはわたしにあう。",
+              "romaji": "kono kutsu wa watashi ni au.",
+              "meanings": {
+                "id": "Sepatu ini cocok untuk saya.",
+                "en": "These shoes fit me."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "色が合っています。",
+              "furigana": "いろがあっています。",
+              "romaji": "iro ga atteimasu.",
+              "meanings": {
+                "id": "Warnanya cocok.",
+                "en": "The color matches."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "サイズが合わない。",
+              "furigana": "サイズがあわない。",
+              "romaji": "saizu ga awanai.",
+              "meanings": {
+                "id": "Ukurannya tidak pas.",
+                "en": "The size doesn't fit."
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "kanji": "泡",
+          "hiragana": "あわ",
+          "romaji": "awa",
+          "meanings": { "en": "bubble, foam", "id": "busa, buih, gelembung" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "石けんの泡ができた。",
+              "furigana": "せっけんのあわができた。",
+              "romaji": "sekken no awa ga dekita.",
+              "meanings": {
+                "id": "Busa sabun terbentuk.",
+                "en": "Soap bubbles formed."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "泡が消えた。",
+              "furigana": "あわがきえた。",
+              "romaji": "awa ga kieta.",
+              "meanings": {
+                "id": "Buih menghilang.",
+                "en": "The foam disappeared."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "水に泡が立つ。",
+              "furigana": "みずにあわがたつ。",
+              "romaji": "mizu ni awa ga tatsu.",
+              "meanings": {
+                "id": "Buih muncul di air.",
+                "en": "Bubbles appear in the water."
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "kanji": "合わせる",
+          "hiragana": "あわせる",
+          "romaji": "awaseru",
+          "meanings": { "en": "combine, match", "id": "mempertemukan" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "力を合わせて頑張ろう。",
+              "furigana": "ちからをあわせてがんばろう。",
+              "romaji": "chikara wo awasete ganbarou.",
+              "meanings": {
+                "id": "Mari bekerja sama dan berusaha.",
+                "en": "Let's combine our strength and do our best."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "声を合わせて歌う。",
+              "furigana": "こえをあわせてうたう。",
+              "romaji": "koe wo awasete utau.",
+              "meanings": {
+                "id": "Bernyanyi bersama-sama.",
+                "en": "Sing together."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "時計を合わせる。",
+              "furigana": "とけいをあわせる。",
+              "romaji": "tokei wo awaseru.",
+              "meanings": { "id": "Menyamakan jam.", "en": "Set the clock." }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "kanji": "慌てる",
+          "hiragana": "あわてる",
+          "romaji": "awateru",
+          "meanings": {
+            "en": "panic, hurry",
+            "id": "terburu-buru, tergesa-gesa, panik, gugup, bingung"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "遅れて慌てた。",
+              "furigana": "おくれてあわてた。",
+              "romaji": "okurete awateta.",
+              "meanings": {
+                "id": "Saya panik karena terlambat.",
+                "en": "I panicked because I was late."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "慌てずに行動してください。",
+              "furigana": "あわてずにこうどうしてください。",
+              "romaji": "awatezu ni koudou shite kudasai.",
+              "meanings": {
+                "id": "Tolong bertindak tanpa panik.",
+                "en": "Please act without panicking."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "慌てて忘れ物をした。",
+              "furigana": "あわててわすれものをした。",
+              "romaji": "awatete wasuremono wo shita.",
+              "meanings": {
+                "id": "Karena panik, saya lupa barang.",
+                "en": "I forgot something because I was in a hurry."
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "kanji": "怪しい",
+          "hiragana": "あやしい",
+          "romaji": "ayashii",
+          "meanings": {
+            "en": "suspicious, strange",
+            "id": "aneh, mencurigakan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "怪しい人がいる。",
+              "furigana": "あやしいひとがいる。",
+              "romaji": "ayashii hito ga iru.",
+              "meanings": {
+                "id": "Ada orang mencurigakan.",
+                "en": "There is a suspicious person."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "怪しい音が聞こえた。",
+              "furigana": "あやしいおとがきこえた。",
+              "romaji": "ayashii oto ga kikoeta.",
+              "meanings": {
+                "id": "Terdengar suara aneh.",
+                "en": "I heard a strange sound."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "怪しい行動を見た。",
+              "furigana": "あやしいこうどうをみた。",
+              "romaji": "ayashii koudou wo mita.",
+              "meanings": {
+                "id": "Saya melihat tindakan mencurigakan.",
+                "en": "I saw suspicious behavior."
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "kanji": "預かる",
+          "hiragana": "あずかる",
+          "romaji": "azukaru",
+          "meanings": {
+            "en": "keep, take care",
+            "id": "menitip, menyimpan, menjaga, mengawasi"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "荷物を預かります。",
+              "furigana": "にもつをあずかります。",
+              "romaji": "nimotsu wo azukarimasu.",
+              "meanings": {
+                "id": "Saya menitip barang.",
+                "en": "I will keep your luggage."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "子供を預かる仕事です。",
+              "furigana": "こどもをあずかるしごとです。",
+              "romaji": "kodomo wo azukaru shigoto desu.",
+              "meanings": {
+                "id": "Pekerjaan saya menjaga anak-anak.",
+                "en": "My job is to take care of children."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "犬を預かっている。",
+              "furigana": "いぬをあずかっている。",
+              "romaji": "inu wo azukatte iru.",
+              "meanings": {
+                "id": "Saya sedang menjaga anjing.",
+                "en": "I'm taking care of a dog."
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "kanji": "預ける",
+          "hiragana": "あずける",
+          "romaji": "azukeru",
+          "meanings": {
+            "en": "entrust, deposit",
+            "id": "menitipkan, mempercayakan, menyimpan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "銀行にお金を預ける。",
+              "furigana": "ぎんこうにおかねをあずける。",
+              "romaji": "ginkou ni okane wo azukeru.",
+              "meanings": {
+                "id": "Saya menitipkan uang di bank.",
+                "en": "I deposit money in the bank."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "荷物を駅に預けた。",
+              "furigana": "にもつをえきにあずけた。",
+              "romaji": "nimotsu wo eki ni azuketa.",
+              "meanings": {
+                "id": "Saya menitipkan barang di stasiun.",
+                "en": "I left my luggage at the station."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "子供を友達に預けた。",
+              "furigana": "こどもをともだちにあずけた。",
+              "romaji": "kodomo wo tomodachi ni azuketa.",
+              "meanings": {
+                "id": "Saya menitipkan anak ke teman.",
+                "en": "I entrusted my child to a friend."
+              }
+            }
+          ]
+        }
       ]
     },
     {
@@ -35,8 +1033,84 @@
         "en": "B Section"
       },
       "vocabulary": [
-        {"id": 1, "kanji": "バーゲン", "hiragana": "バーゲン", "romaji": "bāgen", "meanings": {"en": "bargain", "id": "harga murah, potongan harga"}},
-        {"id": 2, "kanji": "バーゲンセール", "hiragana": "バーゲンセール", "romaji": "bāgensēru", "meanings": {"en": "bargain sale", "id": "jual murah"}}
+        {
+          "id": 1,
+          "kanji": "バーゲン",
+          "hiragana": "バーゲン",
+          "romaji": "bāgen",
+          "meanings": { "en": "bargain", "id": "harga murah, potongan harga" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "バーゲンで服を買った。",
+              "furigana": "バーゲンでふくをかった。",
+              "romaji": "baagen de fuku wo katta.",
+              "meanings": {
+                "id": "Saya membeli baju saat diskon.",
+                "en": "I bought clothes at a bargain."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "バーゲンは来週からです。",
+              "furigana": "バーゲンはらいしゅうからです。",
+              "romaji": "baagen wa raishuu kara desu.",
+              "meanings": {
+                "id": "Diskon mulai minggu depan.",
+                "en": "The bargain starts next week."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "バーゲンで人が多い。",
+              "furigana": "バーゲンでひとがおおい。",
+              "romaji": "baagen de hito ga ooi.",
+              "meanings": {
+                "id": "Banyak orang saat diskon.",
+                "en": "There are many people at the bargain."
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "kanji": "バーゲンセール",
+          "hiragana": "バーゲンセール",
+          "romaji": "bāgensēru",
+          "meanings": { "en": "bargain sale", "id": "jual murah" },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "バーゲンセールが始まった。",
+              "furigana": "バーゲンセールがはじまった。",
+              "romaji": "baagen seeru ga hajimatta.",
+              "meanings": {
+                "id": "Penjualan murah sudah dimulai.",
+                "en": "The bargain sale has started."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "バーゲンセールで靴を買いました。",
+              "furigana": "バーゲンセールでくつをかいました。",
+              "romaji": "baagen seeru de kutsu wo kaimashita.",
+              "meanings": {
+                "id": "Saya membeli sepatu di penjualan murah.",
+                "en": "I bought shoes at the bargain sale."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "バーゲンセールは三日間です。",
+              "furigana": "バーゲンセールはみっかかんです。",
+              "romaji": "baagen seeru wa mikka kan desu.",
+              "meanings": {
+                "id": "Penjualan murah berlangsung tiga hari.",
+                "en": "The bargain sale lasts for three days."
+              }
+            }
+          ]
+        }
       ]
     }
   ]

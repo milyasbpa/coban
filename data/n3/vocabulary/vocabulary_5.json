@@ -7,35 +7,151 @@
         "en": "B Section"
       },
       "vocabulary": [
-        {"id": 1, "kanji": "貧乏", "hiragana": "びんぼう", "romaji": "binbou", "meanings": {"en": "poor, poverty", "id": "miskin, kemiskinan"}},
-        {"id": 2, "kanji": "便箋", "hiragana": "びんせん", "romaji": "binsen", "meanings": {"en": "letter paper", "id": "kertas surat"}},
-        {"id": 3, "kanji": "ビール", "hiragana": "ビール", "romaji": "bīru", "meanings": {"en": "beer", "id": "bir"}},
-        {"id": 4, "kanji": "美容師", "hiragana": "びようし", "romaji": "biyoushi", "meanings": {"en": "beautician", "id": "perias kecantikan"}},
-        {"id": 5, "kanji": "ボーナス", "hiragana": "ボーナス", "romaji": "bōnasu", "meanings": {"en": "bonus", "id": "tambahan, ekstra, bonus"}},
-        {"id": 6, "kanji": "ボンネット", "hiragana": "ボンネット", "romaji": "bonnetto", "meanings": {"en": "bonnet", "id": "kap mesin mobil"}},
-        {"id": 7, "kanji": "ボランティア", "hiragana": "ボランティア", "romaji": "borantia", "meanings": {"en": "volunteer", "id": "relawan, sukarelawan"}},
-        {"id": 8, "kanji": "ぼろぼろ", "hiragana": "ぼろぼろ", "romaji": "boroboro", "meanings": {"en": "tattered, worn out", "id": "compang-camping, lapuk, koyak"}},
-        {"id": 9, "kanji": "ボタン", "hiragana": "ボタン", "romaji": "botan", "meanings": {"en": "button", "id": "kancing"}},
-        {"id": 10, "kanji": "帽子", "hiragana": "ぼうし", "romaji": "boushi", "meanings": {"en": "hat, cap", "id": "topi, peci"}},
-        {"id": 11, "kanji": "部長", "hiragana": "ぶちょう", "romaji": "buchou", "meanings": {"en": "manager, head of department", "id": "direktur, kepala devisi, kepala bagian"}},
-        {"id": 12, "kanji": "部下", "hiragana": "ぶか", "romaji": "buka", "meanings": {"en": "subordinate", "id": "anak buah, bawahan, staff"}},
-        {"id": 13, "kanji": "物価", "hiragana": "ぶっか", "romaji": "bukka", "meanings": {"en": "prices", "id": "harga barang"}},
-        {"id": 14, "kanji": "分", "hiragana": "ぶん", "romaji": "bun", "meanings": {"en": "part, portion", "id": "bagian"}},
-        {"id": 15, "kanji": "文学", "hiragana": "ぶんがく", "romaji": "bungaku", "meanings": {"en": "literature", "id": "kesusastraan, literature"}},
-        {"id": 16, "kanji": "文学部", "hiragana": "ぶんがくぶ", "romaji": "bungakubu", "meanings": {"en": "faculty of literature", "id": "fakultas kesusastraan/literatur"}},
-        {"id": 17, "kanji": "文化", "hiragana": "ぶんか", "romaji": "bunka", "meanings": {"en": "culture", "id": "kebudayaan, kultur"}},
-        {"id": 18, "kanji": "分数", "hiragana": "ぶんすう", "romaji": "bunsuu", "meanings": {"en": "fraction", "id": "bilangan pecahan"}},
-        {"id": 19, "kanji": "ぶらぶら", "hiragana": "ぶらぶら", "romaji": "burabura", "meanings": {"en": "wander, stroll", "id": "berlenggang-lenggok"}},
-        {"id": 20, "kanji": "ブラインド", "hiragana": "ブラインド", "romaji": "buraindo", "meanings": {"en": "blind (curtain)", "id": "tirai penyekat cahaya"}},
-        {"id": 21, "kanji": "ブランド", "hiragana": "ブランド", "romaji": "burando", "meanings": {"en": "brand", "id": "cap, merk"}},
-        {"id": 22, "kanji": "ブラシ", "hiragana": "ブラシ", "romaji": "burashi", "meanings": {"en": "brush", "id": "sikat"}},
-        {"id": 23, "kanji": "ブラウス", "hiragana": "ブラウス", "romaji": "burausu", "meanings": {"en": "blouse", "id": "blus"}},
-        {"id": 24, "kanji": "ブレーキ", "hiragana": "ブレーキ", "romaji": "bureki", "meanings": {"en": "brake", "id": "rem"}},
-        {"id": 25, "kanji": "ブログ", "hiragana": "ブログ", "romaji": "burogu", "meanings": {"en": "blog", "id": "blog"}},
-        {"id": 26, "kanji": "舞台", "hiragana": "ぶたい", "romaji": "butai", "meanings": {"en": "stage", "id": "panggung, pentas, podium"}},
-        {"id": 27, "kanji": "ぶつ", "hiragana": "ぶつ", "romaji": "butsu", "meanings": {"en": "hit, strike", "id": "mengebuk, memukul"}},
-        {"id": 28, "kanji": "ぶつぶつ", "hiragana": "ぶつぶつ", "romaji": "butsubutsu", "meanings": {"en": "grumble, spots", "id": "bersungut-sungut, bintik-bintik"}},
-        {"id": 29, "kanji": "ぶつかる", "hiragana": "ぶつかる", "romaji": "butsukaru", "meanings": {"en": "bump, collide", "id": "menabrak, membentur"}}
+        {"id": 1, "kanji": "貧乏", "hiragana": "びんぼう", "romaji": "binbou", "meanings": {"en": "poor, poverty", "id": "miskin, kemiskinan"}, "examples": [
+          {"id": 1, "sentence": "彼は貧乏な生活をしています。", "furigana": "かれはびんぼうなせいかつをしています。", "romaji": "kare wa binbou na seikatsu o shiteimasu.", "meanings": {"id": "Dia menjalani kehidupan miskin.", "en": "He lives a poor life."}},
+          {"id": 2, "sentence": "貧乏でも幸せです。", "furigana": "びんぼうでもしあわせです。", "romaji": "binbou demo shiawase desu.", "meanings": {"id": "Meskipun miskin, saya bahagia.", "en": "Even though I'm poor, I'm happy."}},
+          {"id": 3, "sentence": "貧乏な時期がありました。", "furigana": "びんぼうなじきがありました。", "romaji": "binbou na jiki ga arimashita.", "meanings": {"id": "Ada masa saya miskin.", "en": "There was a time I was poor."}}
+        ]},
+        {"id": 2, "kanji": "便箋", "hiragana": "びんせん", "romaji": "binsen", "meanings": {"en": "letter paper", "id": "kertas surat"}, "examples": [
+          {"id": 1, "sentence": "便箋に手紙を書きます。", "furigana": "びんせんにてがみをかきます。", "romaji": "binsen ni tegami o kakimasu.", "meanings": {"id": "Saya menulis surat di kertas surat.", "en": "I write a letter on letter paper."}},
+          {"id": 2, "sentence": "新しい便箋を買いました。", "furigana": "あたらしいびんせんをかいました。", "romaji": "atarashii binsen o kaimashita.", "meanings": {"id": "Saya membeli kertas surat baru.", "en": "I bought new letter paper."}},
+          {"id": 3, "sentence": "便箋が足りません。", "furigana": "びんせんがたりません。", "romaji": "binsen ga tarimasen.", "meanings": {"id": "Kertas suratnya tidak cukup.", "en": "There isn't enough letter paper."}}
+        ]},
+        {"id": 3, "kanji": "ビール", "hiragana": "ビール", "romaji": "bīru", "meanings": {"en": "beer", "id": "bir"}, "examples": [
+          {"id": 1, "sentence": "友達とビールを飲みました。", "furigana": "ともだちとびーるをのみました。", "romaji": "tomodachi to biiru o nomimashita.", "meanings": {"id": "Saya minum bir bersama teman.", "en": "I drank beer with my friends."}},
+          {"id": 2, "sentence": "冷たいビールが好きです。", "furigana": "つめたいびーるがすきです。", "romaji": "tsumetai biiru ga suki desu.", "meanings": {"id": "Saya suka bir dingin.", "en": "I like cold beer."}},
+          {"id": 3, "sentence": "ビールを注文しました。", "furigana": "びーるをちゅうもんしました。", "romaji": "biiru o chuumon shimashita.", "meanings": {"id": "Saya memesan bir.", "en": "I ordered beer."}}
+        ]},
+        {"id": 4, "kanji": "美容師", "hiragana": "びようし", "romaji": "biyoushi", "meanings": {"en": "beautician", "id": "perias kecantikan"}, "examples": [
+          {"id": 1, "sentence": "姉は美容師です。", "furigana": "あねはびようしです。", "romaji": "ane wa biyoushi desu.", "meanings": {"id": "Kakak perempuan saya adalah perias kecantikan.", "en": "My older sister is a beautician."}},
+          {"id": 2, "sentence": "美容師に髪を切ってもらいました。", "furigana": "びようしにかみをきってもらいました。", "romaji": "biyoushi ni kami o kitte moraimashita.", "meanings": {"id": "Saya dipotong rambut oleh perias kecantikan.", "en": "I had my hair cut by a beautician."}},
+          {"id": 3, "sentence": "美容師になりたいです。", "furigana": "びようしになりたいです。", "romaji": "biyoushi ni naritai desu.", "meanings": {"id": "Saya ingin menjadi perias kecantikan.", "en": "I want to become a beautician."}}
+        ]},
+        {"id": 5, "kanji": "ボーナス", "hiragana": "ボーナス", "romaji": "bōnasu", "meanings": {"en": "bonus", "id": "tambahan, ekstra, bonus"}, "examples": [
+          {"id": 1, "sentence": "今年のボーナスは多いです。", "furigana": "ことしのぼーなすはおおいです。", "romaji": "kotoshi no bōnasu wa ooi desu.", "meanings": {"id": "Bonus tahun ini banyak.", "en": "This year's bonus is large."}},
+          {"id": 2, "sentence": "ボーナスで旅行しました。", "furigana": "ぼーなすでりょこうしました。", "romaji": "bōnasu de ryokou shimashita.", "meanings": {"id": "Saya pergi berlibur dengan bonus.", "en": "I traveled with my bonus."}},
+          {"id": 3, "sentence": "ボーナスをもらいました。", "furigana": "ぼーなすをもらいました。", "romaji": "bōnasu o moraimashita.", "meanings": {"id": "Saya menerima bonus.", "en": "I received a bonus."}}
+        ]},
+        {"id": 6, "kanji": "ボンネット", "hiragana": "ボンネット", "romaji": "bonnetto", "meanings": {"en": "bonnet", "id": "kap mesin mobil"}, "examples": [
+          {"id": 1, "sentence": "車のボンネットを開けました。", "furigana": "くるまのぼんねっとをあけました。", "romaji": "kuruma no bonnetto o akemashita.", "meanings": {"id": "Saya membuka kap mesin mobil.", "en": "I opened the car's bonnet."}},
+          {"id": 2, "sentence": "ボンネットが壊れました。", "furigana": "ぼんねっとがこわれました。", "romaji": "bonnetto ga kowaremashita.", "meanings": {"id": "Kap mesin mobil rusak.", "en": "The bonnet is broken."}},
+          {"id": 3, "sentence": "ボンネットを閉めてください。", "furigana": "ぼんねっとをしめてください。", "romaji": "bonnetto o shimete kudasai.", "meanings": {"id": "Tolong tutup kap mesin mobil.", "en": "Please close the bonnet."}}
+        ]},
+        {"id": 7, "kanji": "ボランティア", "hiragana": "ボランティア", "romaji": "borant(e)ia", "meanings": {"en": "volunteer", "id": "relawan, sukarelawan"}, "examples": [
+          {"id": 1, "sentence": "ボランティア活動に参加しました。", "furigana": "ぼらんてぃあかつどうにさんかしました。", "romaji": "borantia katsudou ni sanka shimashita.", "meanings": {"id": "Saya ikut kegiatan relawan.", "en": "I participated in volunteer activities."}},
+          {"id": 2, "sentence": "ボランティアは楽しいです。", "furigana": "ぼらんてぃあはたのしいです。", "romaji": "borantia wa tanoshii desu.", "meanings": {"id": "Relawan itu menyenangkan.", "en": "Volunteering is fun."}},
+          {"id": 3, "sentence": "ボランティアを探しています。", "furigana": "ぼらんてぃあをさがしています。", "romaji": "borantia o sagashiteimasu.", "meanings": {"id": "Saya sedang mencari relawan.", "en": "I'm looking for volunteers."}}
+        ]},
+        {"id": 8, "kanji": "ぼろぼろ", "hiragana": "ぼろぼろ", "romaji": "boroboro", "meanings": {"en": "tattered, worn out", "id": "compang-camping, lapuk, koyak"}, "examples": [
+          {"id": 1, "sentence": "古い服がぼろぼろです。", "furigana": "ふるいふくがぼろぼろです。", "romaji": "furui fuku ga boroboro desu.", "meanings": {"id": "Baju lama itu compang-camping.", "en": "The old clothes are tattered."}},
+          {"id": 2, "sentence": "靴がぼろぼろになりました。", "furigana": "くつがぼろぼろになりました。", "romaji": "kutsu ga boroboro ni narimashita.", "meanings": {"id": "Sepatunya menjadi lapuk.", "en": "The shoes became worn out."}},
+          {"id": 3, "sentence": "本がぼろぼろです。", "furigana": "ほんがぼろぼろです。", "romaji": "hon ga boroboro desu.", "meanings": {"id": "Bukunya koyak.", "en": "The book is torn."}}
+        ]},
+        {"id": 9, "kanji": "ボタン", "hiragana": "ボタン", "romaji": "botan", "meanings": {"en": "button", "id": "kancing"}, "examples": [
+          {"id": 1, "sentence": "シャツのボタンが取れました。", "furigana": "しゃつのぼたんがとれました。", "romaji": "shatsu no botan ga toremashita.", "meanings": {"id": "Kancing baju lepas.", "en": "The shirt's button came off."}},
+          {"id": 2, "sentence": "ボタンを押してください。", "furigana": "ぼたんをおしてください。", "romaji": "botan o oshite kudasai.", "meanings": {"id": "Tolong tekan tombolnya.", "en": "Please press the button."}},
+          {"id": 3, "sentence": "ボタンが小さいです。", "furigana": "ぼたんがちいさいです。", "romaji": "botan ga chiisai desu.", "meanings": {"id": "Kancingnya kecil.", "en": "The button is small."}}
+        ]},
+        {"id": 10, "kanji": "帽子", "hiragana": "ぼうし", "romaji": "boushi", "meanings": {"en": "hat, cap", "id": "topi, peci"}, "examples": [
+          {"id": 1, "sentence": "新しい帽子を買いました。", "furigana": "あたらしいぼうしをかいました。", "romaji": "atarashii boushi o kaimashita.", "meanings": {"id": "Saya membeli topi baru.", "en": "I bought a new hat."}},
+          {"id": 2, "sentence": "帽子をかぶってください。", "furigana": "ぼうしをかぶってください。", "romaji": "boushi o kabutte kudasai.", "meanings": {"id": "Tolong pakai topi.", "en": "Please wear a hat."}},
+          {"id": 3, "sentence": "帽子が似合いますね。", "furigana": "ぼうしがにあいますね。", "romaji": "boushi ga niaimasu ne.", "meanings": {"id": "Topinya cocok ya.", "en": "The hat suits you."}}
+        ]},
+        {"id": 11, "kanji": "部長", "hiragana": "ぶちょう", "romaji": "buchou", "meanings": {"en": "manager, head of department", "id": "direktur, kepala devisi, kepala bagian"}, "examples": [
+          {"id": 1, "sentence": "部長に報告しました。", "furigana": "ぶちょうにほうこくしました。", "romaji": "buchou ni houkoku shimashita.", "meanings": {"id": "Saya melapor ke kepala bagian.", "en": "I reported to the manager."}},
+          {"id": 2, "sentence": "部長は忙しいです。", "furigana": "ぶちょうはいそがしいです。", "romaji": "buchou wa isogashii desu.", "meanings": {"id": "Kepala bagian sibuk.", "en": "The manager is busy."}},
+          {"id": 3, "sentence": "部長の指示を聞きます。", "furigana": "ぶちょうのしじをききます。", "romaji": "buchou no shiji o kikimasu.", "meanings": {"id": "Saya mendengarkan instruksi kepala bagian.", "en": "I listen to the manager's instructions."}}
+        ]},
+        {"id": 12, "kanji": "部下", "hiragana": "ぶか", "romaji": "buka", "meanings": {"en": "subordinate", "id": "anak buah, bawahan, staff"}, "examples": [
+          {"id": 1, "sentence": "部下が増えました。", "furigana": "ぶかがふえました。", "romaji": "buka ga fuemashita.", "meanings": {"id": "Jumlah bawahan bertambah.", "en": "The number of subordinates increased."}},
+          {"id": 2, "sentence": "部下に仕事を任せます。", "furigana": "ぶかにしごとをまかせます。", "romaji": "buka ni shigoto o makasemasu.", "meanings": {"id": "Saya menyerahkan pekerjaan kepada bawahan.", "en": "I entrust work to my subordinates."}},
+          {"id": 3, "sentence": "部下と話し合います。", "furigana": "ぶかとはなしあいます。", "romaji": "buka to hanashiaimasu.", "meanings": {"id": "Saya berdiskusi dengan bawahan.", "en": "I discuss with my subordinates."}}
+        ]},
+        {"id": 13, "kanji": "物価", "hiragana": "ぶっか", "romaji": "bukka", "meanings": {"en": "prices", "id": "harga barang"}, "examples": [
+          {"id": 1, "sentence": "物価が上がっています。", "furigana": "ぶっかがあがっています。", "romaji": "bukka ga agatteimasu.", "meanings": {"id": "Harga barang naik.", "en": "Prices are rising."}},
+          {"id": 2, "sentence": "日本の物価は高いです。", "furigana": "にほんのぶっかはたかいです。", "romaji": "nihon no bukka wa takai desu.", "meanings": {"id": "Harga barang di Jepang mahal.", "en": "Prices in Japan are high."}},
+          {"id": 3, "sentence": "物価の変動があります。", "furigana": "ぶっかのへんどうがあります。", "romaji": "bukka no hendou ga arimasu.", "meanings": {"id": "Ada fluktuasi harga barang.", "en": "There are price fluctuations."}}
+        ]},
+        {"id": 14, "kanji": "分", "hiragana": "ぶん", "romaji": "bun", "meanings": {"en": "part, portion", "id": "bagian"}, "examples": [
+          {"id": 1, "sentence": "分を分けてください。", "furigana": "ぶんをわけてください。", "romaji": "bun o wakete kudasai.", "meanings": {"id": "Tolong bagi bagiannya.", "en": "Please divide the portion."}},
+          {"id": 2, "sentence": "自分の分があります。", "furigana": "じぶんのぶんがあります。", "romaji": "jibun no bun ga arimasu.", "meanings": {"id": "Ada bagian untuk saya.", "en": "There is a portion for me."}},
+          {"id": 3, "sentence": "分を忘れないでください。", "furigana": "ぶんをわすれないでください。", "romaji": "bun o wasurenaide kudasai.", "meanings": {"id": "Jangan lupa bagiannya.", "en": "Don't forget your portion."}}
+        ]},
+        {"id": 15, "kanji": "文学", "hiragana": "ぶんがく", "romaji": "bungaku", "meanings": {"en": "literature", "id": "kesusastraan, literature"}, "examples": [
+          {"id": 1, "sentence": "文学を勉強しています。", "furigana": "ぶんがくをべんきょうしています。", "romaji": "bungaku o benkyou shiteimasu.", "meanings": {"id": "Saya belajar kesusastraan.", "en": "I study literature."}},
+          {"id": 2, "sentence": "日本文学が好きです。", "furigana": "にほんぶんがくがすきです。", "romaji": "nihon bungaku ga suki desu.", "meanings": {"id": "Saya suka kesusastraan Jepang.", "en": "I like Japanese literature."}},
+          {"id": 3, "sentence": "文学部に入学しました。", "furigana": "ぶんがくぶににゅうがくしました。", "romaji": "bungakubu ni nyuugaku shimashita.", "meanings": {"id": "Saya masuk fakultas kesusastraan.", "en": "I entered the faculty of literature."}}
+        ]},
+        {"id": 16, "kanji": "文学部", "hiragana": "ぶんがくぶ", "romaji": "bungakubu", "meanings": {"en": "faculty of literature", "id": "fakultas kesusastraan/literatur"}, "examples": [
+          {"id": 1, "sentence": "文学部で学びます。", "furigana": "ぶんがくぶでまなびます。", "romaji": "bungakubu de manabimasu.", "meanings": {"id": "Saya belajar di fakultas kesusastraan.", "en": "I study at the faculty of literature."}},
+          {"id": 2, "sentence": "文学部の先生は親切です。", "furigana": "ぶんがくぶのせんせいはしんせつです。", "romaji": "bungakubu no sensei wa shinsetsu desu.", "meanings": {"id": "Dosen fakultas kesusastraan baik hati.", "en": "The faculty of literature's professors are kind."}},
+          {"id": 3, "sentence": "文学部に友達がいます。", "furigana": "ぶんがくぶにともだちがいます。", "romaji": "bungakubu ni tomodachi ga imasu.", "meanings": {"id": "Saya punya teman di fakultas kesusastraan.", "en": "I have friends in the faculty of literature."}}
+        ]},
+        {"id": 17, "kanji": "文化", "hiragana": "ぶんか", "romaji": "bunka", "meanings": {"en": "culture", "id": "kebudayaan, kultur"}, "examples": [
+          {"id": 1, "sentence": "日本の文化を学びます。", "furigana": "にほんのぶんかをまなびます。", "romaji": "nihon no bunka o manabimasu.", "meanings": {"id": "Saya belajar budaya Jepang.", "en": "I study Japanese culture."}},
+          {"id": 2, "sentence": "文化祭があります。", "furigana": "ぶんかさいがあります。", "romaji": "bunkasai ga arimasu.", "meanings": {"id": "Ada festival budaya.", "en": "There is a culture festival."}},
+          {"id": 3, "sentence": "文化の違いを感じます。", "furigana": "ぶんかのちがいをかんじます。", "romaji": "bunka no chigai o kanjimasu.", "meanings": {"id": "Saya merasakan perbedaan budaya.", "en": "I feel cultural differences."}}
+        ]},
+        {"id": 18, "kanji": "分数", "hiragana": "ぶんすう", "romaji": "bunsuu", "meanings": {"en": "fraction", "id": "bilangan pecahan"}, "examples": [
+          {"id": 1, "sentence": "分数を習いました。", "furigana": "ぶんすうをならいました。", "romaji": "bunsuu o naraimashita.", "meanings": {"id": "Saya belajar bilangan pecahan.", "en": "I learned fractions."}},
+          {"id": 2, "sentence": "分数の計算は難しいです。", "furigana": "ぶんすうのけいさんはむずかしいです。", "romaji": "bunsuu no keisan wa muzukashii desu.", "meanings": {"id": "Perhitungan pecahan itu sulit.", "en": "Fraction calculations are difficult."}},
+          {"id": 3, "sentence": "分数を使って説明します。", "furigana": "ぶんすうをつかってせつめいします。", "romaji": "bunsuu o tsukatte setsumei shimasu.", "meanings": {"id": "Saya akan menjelaskan dengan pecahan.", "en": "I will explain using fractions."}}
+        ]},
+        {"id": 19, "kanji": "ぶらぶら", "hiragana": "ぶらぶら", "romaji": "burabura", "meanings": {"en": "wander, stroll", "id": "berlenggang-lenggok"}, "examples": [
+          {"id": 1, "sentence": "公園をぶらぶら歩きました。", "furigana": "こうえんをぶらぶらあるきました。", "romaji": "kouen o burabura arukimashita.", "meanings": {"id": "Saya berjalan-jalan di taman.", "en": "I strolled in the park."}},
+          {"id": 2, "sentence": "休日は町をぶらぶらします。", "furigana": "きゅうじつはまちをぶらぶらします。", "romaji": "kyuujitsu wa machi o burabura shimasu.", "meanings": {"id": "Hari libur saya jalan-jalan di kota.", "en": "On holidays I wander around town."}},
+          {"id": 3, "sentence": "友達とぶらぶらしていました。", "furigana": "ともだちとぶらぶらしていました。", "romaji": "tomodachi to burabura shiteimashita.", "meanings": {"id": "Saya sedang jalan-jalan dengan teman.", "en": "I was wandering with my friend."}}
+        ]},
+        {"id": 20, "kanji": "ブラインド", "hiragana": "ブラインド", "romaji": "buraindo", "meanings": {"en": "blind (curtain)", "id": "tirai penyekat cahaya"}, "examples": [
+          {"id": 1, "sentence": "部屋のブラインドを閉めました。", "furigana": "へやのぶらいんどをしめました。", "romaji": "heya no buraindo o shimemashita.", "meanings": {"id": "Saya menutup tirai di kamar.", "en": "I closed the blinds in the room."}},
+          {"id": 2, "sentence": "ブラインドが壊れています。", "furigana": "ぶらいんどがこわれています。", "romaji": "buraindo ga kowareteimasu.", "meanings": {"id": "Tirainya rusak.", "en": "The blinds are broken."}},
+          {"id": 3, "sentence": "新しいブラインドを買いました。", "furigana": "あたらしいぶらいんどをかいました。", "romaji": "atarashii buraindo o kaimashita.", "meanings": {"id": "Saya membeli tirai baru.", "en": "I bought new blinds."}}
+        ]},
+        {"id": 21, "kanji": "ブランド", "hiragana": "ブランド", "romaji": "burando", "meanings": {"en": "brand", "id": "cap, merk"}, "examples": [
+          {"id": 1, "sentence": "有名なブランドの服です。", "furigana": "ゆうめいなぶらんどのふくです。", "romaji": "yuumei na burando no fuku desu.", "meanings": {"id": "Ini baju merek terkenal.", "en": "These are famous brand clothes."}},
+          {"id": 2, "sentence": "ブランドを選びます。", "furigana": "ぶらんどをえらびます。", "romaji": "burando o erabimasu.", "meanings": {"id": "Saya memilih merek.", "en": "I choose a brand."}},
+          {"id": 3, "sentence": "新しいブランドが出ました。", "furigana": "あたらしいぶらんどがでました。", "romaji": "atarashii burando ga demashita.", "meanings": {"id": "Ada merek baru yang keluar.", "en": "A new brand has come out."}}
+        ]},
+        {"id": 22, "kanji": "ブラシ", "hiragana": "ブラシ", "romaji": "burashi", "meanings": {"en": "brush", "id": "sikat"}, "examples": [
+          {"id": 1, "sentence": "歯ブラシを使います。", "furigana": "はぶらしをつかいます。", "romaji": "haburashi o tsukaimasu.", "meanings": {"id": "Saya menggunakan sikat gigi.", "en": "I use a toothbrush."}},
+          {"id": 2, "sentence": "新しいブラシを買いました。", "furigana": "あたらしいぶらしをかいました。", "romaji": "atarashii burashi o kaimashita.", "meanings": {"id": "Saya membeli sikat baru.", "en": "I bought a new brush."}},
+          {"id": 3, "sentence": "ブラシで髪をとかします。", "furigana": "ぶらしでかみをとかします。", "romaji": "burashi de kami o tokashimasu.", "meanings": {"id": "Saya menyisir rambut dengan sikat.", "en": "I comb my hair with a brush."}}
+        ]},
+        {"id": 23, "kanji": "ブラウス", "hiragana": "ブラウス", "romaji": "burausu", "meanings": {"en": "blouse", "id": "blus"}, "examples": [
+          {"id": 1, "sentence": "白いブラウスを着ます。", "furigana": "しろいぶらうすをきます。", "romaji": "shiroi burausu o kimasu.", "meanings": {"id": "Saya memakai blus putih.", "en": "I wear a white blouse."}},
+          {"id": 2, "sentence": "ブラウスが汚れました。", "furigana": "ぶらうすがよごれました。", "romaji": "burausu ga yogoremashita.", "meanings": {"id": "Blusnya kotor.", "en": "The blouse is dirty."}},
+          {"id": 3, "sentence": "新しいブラウスを買いました。", "furigana": "あたらしいぶらうすをかいました。", "romaji": "atarashii burausu o kaimashita.", "meanings": {"id": "Saya membeli blus baru.", "en": "I bought a new blouse."}}
+        ]},
+        {"id": 24, "kanji": "ブレーキ", "hiragana": "ブレーキ", "romaji": "bureki", "meanings": {"en": "brake", "id": "rem"}, "examples": [
+          {"id": 1, "sentence": "車のブレーキが効きません。", "furigana": "くるまのぶれーきがききません。", "romaji": "kuruma no bureki ga kikimasen.", "meanings": {"id": "Rem mobil tidak berfungsi.", "en": "The car's brakes don't work."}},
+          {"id": 2, "sentence": "ブレーキを踏んでください。", "furigana": "ぶれーきをふんでください。", "romaji": "bureki o funde kudasai.", "meanings": {"id": "Tolong injak remnya.", "en": "Please step on the brake."}},
+          {"id": 3, "sentence": "ブレーキが新しいです。", "furigana": "ぶれーきがあたらしいです。", "romaji": "bureki ga atarashii desu.", "meanings": {"id": "Remnya baru.", "en": "The brakes are new."}}
+        ]},
+        {"id": 25, "kanji": "ブログ", "hiragana": "ブログ", "romaji": "burogu", "meanings": {"en": "blog", "id": "blog"}, "examples": [
+          {"id": 1, "sentence": "ブログを書いています。", "furigana": "ぶろぐをかいています。", "romaji": "burogu o kaiteimasu.", "meanings": {"id": "Saya menulis blog.", "en": "I am writing a blog."}},
+          {"id": 2, "sentence": "新しいブログを始めました。", "furigana": "あたらしいぶろぐをはじめました。", "romaji": "atarashii burogu o hajimemashita.", "meanings": {"id": "Saya mulai blog baru.", "en": "I started a new blog."}},
+          {"id": 3, "sentence": "ブログを毎日更新します。", "furigana": "ぶろぐをまいにちこうしんします。", "romaji": "burogu o mainichi koushin shimasu.", "meanings": {"id": "Saya memperbarui blog setiap hari.", "en": "I update my blog every day."}}
+        ]},
+        {"id": 26, "kanji": "舞台", "hiragana": "ぶたい", "romaji": "butai", "meanings": {"en": "stage", "id": "panggung, pentas, podium"}, "examples": [
+          {"id": 1, "sentence": "舞台に立ちました。", "furigana": "ぶたいにたちました。", "romaji": "butai ni tachimashita.", "meanings": {"id": "Saya berdiri di atas panggung.", "en": "I stood on the stage."}},
+          {"id": 2, "sentence": "舞台の照明が明るいです。", "furigana": "ぶたいのしょうめいがあかるいです。", "romaji": "butai no shoumei ga akarui desu.", "meanings": {"id": "Lampu panggung terang.", "en": "The stage lights are bright."}},
+          {"id": 3, "sentence": "舞台で踊りました。", "furigana": "ぶたいでおどりました。", "romaji": "butai de odorimashita.", "meanings": {"id": "Saya menari di panggung.", "en": "I danced on the stage."}}
+        ]},
+        {"id": 27, "kanji": "ぶつ", "hiragana": "ぶつ", "romaji": "butsu", "meanings": {"en": "hit, strike", "id": "mengebuk, memukul"}, "examples": [
+          {"id": 1, "sentence": "壁に頭をぶつけました。", "furigana": "かべにあたまをぶつけました。", "romaji": "kabe ni atama o butsukemashita.", "meanings": {"id": "Saya membenturkan kepala ke dinding.", "en": "I hit my head against the wall."}},
+          {"id": 2, "sentence": "ぶつかってしまいました。", "furigana": "ぶつかってしまいました。", "romaji": "butsukatte shimaimashita.", "meanings": {"id": "Saya tidak sengaja menabrak.", "en": "I accidentally bumped."}},
+          {"id": 3, "sentence": "物をぶつけないでください。", "furigana": "ものをぶつけないでください。", "romaji": "mono o butsukenaide kudasai.", "meanings": {"id": "Jangan membenturkan barang.", "en": "Please don't hit things."}}
+        ]},
+        {"id": 28, "kanji": "ぶつぶつ", "hiragana": "ぶつぶつ", "romaji": "butsubutsu", "meanings": {"en": "grumble, spots", "id": "bersungut-sungut, bintik-bintik"}, "examples": [
+          {"id": 1, "sentence": "彼はぶつぶつ言っています。", "furigana": "かれはぶつぶついっています。", "romaji": "kare wa butsubutsu itteimasu.", "meanings": {"id": "Dia bersungut-sungut.", "en": "He is grumbling."}},
+          {"id": 2, "sentence": "顔にぶつぶつができました。", "furigana": "かおにぶつぶつができました。", "romaji": "kao ni butsubutsu ga dekimashita.", "meanings": {"id": "Muncul bintik-bintik di wajah.", "en": "Spots appeared on my face."}},
+          {"id": 3, "sentence": "ぶつぶつ言わないでください。", "furigana": "ぶつぶついわないでください。", "romaji": "butsubutsu iwanaide kudasai.", "meanings": {"id": "Jangan bersungut-sungut.", "en": "Please don't grumble."}}
+        ]},
+        {"id": 29, "kanji": "ぶつかる", "hiragana": "ぶつかる", "romaji": "butsukaru", "meanings": {"en": "bump, collide", "id": "menabrak, membentur"}, "examples": [
+          {"id": 1, "sentence": "車が壁にぶつかりました。", "furigana": "くるまがかべにぶつかりました。", "romaji": "kuruma ga kabe ni butsukarimashita.", "meanings": {"id": "Mobil menabrak dinding.", "en": "The car bumped into the wall."}},
+          {"id": 2, "sentence": "人とぶつかりました。", "furigana": "ひととぶつかりました。", "romaji": "hito to butsukarimashita.", "meanings": {"id": "Saya bertabrakan dengan orang.", "en": "I bumped into a person."}},
+          {"id": 3, "sentence": "自転車がぶつかりました。", "furigana": "じてんしゃがぶつかりました。", "romaji": "jitensha ga butsukarimashita.", "meanings": {"id": "Sepeda bertabrakan.", "en": "The bicycle collided."}}
+        ]}
       ]
     }
   ]
