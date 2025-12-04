@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": {
+        "id": "WARNA",
+        "en": "COLORS"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "kanji": "色",
+          "hiragana": "いろ",
+          "romaji": "iro",
+          "meanings": {
+            "en": "color",
+            "id": "warna"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "何色が好きですか。",
+              "furigana": "なにいろがすきですか。",
+              "romaji": "nani iro ga suki desu ka.",
+              "meanings": {
+                "id": "Warna apa yang kamu suka?",
+                "en": "What color do you like?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "この色はきれいです。",
+              "furigana": "このいろはきれいです。",
+              "romaji": "kono iro wa kirei desu.",
+              "meanings": {
+                "id": "Warna ini cantik.",
+                "en": "This color is beautiful."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "色々な色があります。",
+              "furigana": "いろいろないろがあります。",
+              "romaji": "iroirona iro ga arimasu.",
+              "meanings": {
+                "id": "Ada berbagai macam warna.",
+                "en": "There are various colors."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
