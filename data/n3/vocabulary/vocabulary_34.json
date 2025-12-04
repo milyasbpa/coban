@@ -20,10 +20,12 @@
         {"id": 11, "kanji": "子育て", "hiragana": "こそだて", "romaji": "kosodate", "meanings": {"en": "childcare", "id": "pengasuhan anak"}},
         {"id": 12, "kanji": "こする", "hiragana": "こする", "romaji": "kosuru", "meanings": {"en": "to rub, to scrub", "id": "menggosok, menggesek, menggores"}},
         {"id": 13, "kanji": "コート", "hiragana": "コート", "romaji": "ko-to", "meanings": {"en": "coat", "id": "mantel, baju dingin"}},
-        {"id": 14, "kanji": "断つ", "hiragana": "たつ", "romaji": "tatsu", "meanings": {"en": "to cut off, to sever", "id": "memutus, memotong"}},
+        {"id": 9, "kanji": "断る", "hiragana": "ことわる", "romaji": "kotowaru", "meanings": { "en": "to refuse, to decline", "id": "menolak, memutus" }},
+        {"id": 9, "kanji": "コットン", "hiragana": "コットン", "romaji": "kotton", "meanings": { "en": "cotton", "id": "kapas, katun" }},
         {"id": 15, "kanji": "交番", "hiragana": "こうばん", "romaji": "kouban", "meanings": {"en": "police box", "id": "pos polisi, kantor polisi"}},
         {"id": 16, "kanji": "興奮", "hiragana": "こうふん", "romaji": "koufun", "meanings": {"en": "excitement", "id": "kegirangan, gairah"}},
         {"id": 17, "kanji": "講義", "hiragana": "こうぎ", "romaji": "kougi", "meanings": {"en": "lecture", "id": "kuliah, ceramah"}},
+        {"id": 9, "kanji": "後輩", "hiragana": "こうはい", "romaji": "kouhai", "meanings": { "en": "junior", "id": "junior, adik kelas" }},
         {"id": 18, "kanji": "後半", "hiragana": "こうはん", "romaji": "kouhan", "meanings": {"en": "second half", "id": "junior, adik kelas, pertengahan akhir"}},
         {"id": 19, "kanji": "工事", "hiragana": "こうじ", "romaji": "kouji", "meanings": {"en": "construction work", "id": "pekerjaan konstruksi/pembangunan"}},
         {"id": 20, "kanji": "工事中", "hiragana": "こうじちゅう", "romaji": "koujichuu", "meanings": {"en": "under construction", "id": "sedang dalam konstruksi/pengerjaan"}},
@@ -32,7 +34,7 @@
         {"id": 23, "kanji": "後悔", "hiragana": "こうかい", "romaji": "koukai", "meanings": {"en": "regret", "id": "penyesalan, perobatan"}},
         {"id": 24, "kanji": "交換", "hiragana": "こうかん", "romaji": "koukan", "meanings": {"en": "exchange, swap", "id": "pertukaran, barter"}},
         {"id": 25, "kanji": "後期", "hiragana": "こうき", "romaji": "kouki", "meanings": {"en": "latter period", "id": "periode akhir, semester kedua"}},
-        {"id": 26, "kanji": "広告", "hiragana": "こうこく", "romaji": "koukou", "meanings": {"en": "advertisement", "id": "iklan, advertensi, reklame"}},
+        {"id": 26, "kanji": "広告", "hiragana": "こうこく", "romaji": "koukoku", "meanings": {"en": "advertisement", "id": "iklan, advertensi, reklame"}},
         {"id": 27, "kanji": "高校", "hiragana": "こうこう", "romaji": "koukou", "meanings": {"en": "high school", "id": "sekolah menengah umum, sekolah lanjutan tingkat atas"}}
       ]
     }

@@ -10,7 +10,7 @@
         {"id": 1, "kanji": "改札口", "hiragana": "かいさつぐち", "romaji": "kaisatsuguchi", "meanings": {"en": "ticket gate", "id": "pintu tempat pemeriksaan karcis"}},
         {"id": 2, "kanji": "会社員", "hiragana": "かいしゃいん", "romaji": "kaishain", "meanings": {"en": "company employee", "id": "pegawai perusahaan/kantor"}},
         {"id": 3, "kanji": "快速", "hiragana": "かいそく", "romaji": "kaisoku", "meanings": {"en": "high speed", "id": "kecepatan tinggi"}},
-        {"id": 4, "kanji": "回数券", "hiragana": "かいすうけん", "romaji": "kaisuken", "meanings": {"en": "commuter pass", "id": "karcis berlangganan"}},
+        {"id": 4, "kanji": "回数券", "hiragana": "かいすうけん", "romaji": "kaisuuken", "meanings": {"en": "commuter pass", "id": "karcis berlangganan"}},
         {"id": 5, "kanji": "かかる", "hiragana": "かかる", "romaji": "kakaru", "meanings": {"en": "to require, to hang, to depend", "id": "memerlukan, tertatur, tersiram, tergantung, terjangkit, terpanggang"}},
         {"id": 6, "kanji": "かかと", "hiragana": "かかと", "romaji": "kakato", "meanings": {"en": "heel", "id": "tumit, belakang telapak kaki"}},
         {"id": 7, "kanji": "かける", "hiragana": "かける", "romaji": "kakeru", "meanings": {"en": "to spend, to sprinkle, to hang, to multiply", "id": "menghabiskan, menabur, menyiram, menggantungkan, memar"}},
@@ -22,6 +22,7 @@
         {"id": 13, "kanji": "かっこいい", "hiragana": "かっこいい", "romaji": "kakkoii", "meanings": {"en": "cool, attractive", "id": "keren, menarik"}},
         {"id": 14, "kanji": "かっこ悪い", "hiragana": "かっこわるい", "romaji": "kakkowarui", "meanings": {"en": "not cool, unattractive", "id": "tidak keren, tidak menarik"}},
         {"id": 15, "kanji": "囲む", "hiragana": "かこむ", "romaji": "kakomu", "meanings": {"en": "to surround, to enclose", "id": "mengelilingi, melingkari, mengepung"}},
+        {"id": 9, "kanji": "かく", "hiragana": "かく", "romaji": "kaku", "meanings": { "en": "to scratch", "id": "menggaruk" }},
         {"id": 16, "kanji": "各駅停車", "hiragana": "かくえきていしゃ", "romaji": "kaku'ekiteisha", "meanings": {"en": "local train", "id": "berhenti pada masing-masing/setiap stasiun, kereta lokal"}},
         {"id": 17, "kanji": "確認", "hiragana": "かくにん", "romaji": "kakunin", "meanings": {"en": "confirmation, verification", "id": "konfirmasi, penegasan, pengesahan, pengakuan"}},
         {"id": 18, "kanji": "隠れる", "hiragana": "かくれる", "romaji": "kakureru", "meanings": {"en": "to hide oneself", "id": "bersembunyi"}},
@@ -32,7 +33,7 @@
         {"id": 23, "kanji": "かむ", "hiragana": "かむ", "romaji": "kamu", "meanings": {"en": "to bite, to chew", "id": "menggigit, mengunyah"}},
         {"id": 24, "kanji": "巻", "hiragana": "かん", "romaji": "kan", "meanings": {"en": "volume, reel", "id": "seri, volume [bacaan, cerita, film]"}},
         {"id": 25, "kanji": "缶", "hiragana": "かん", "romaji": "kan", "meanings": {"en": "can, tin", "id": "kalengan"}},
-        {"id": 26, "kanji": "カーナビ", "hiragana": "カーナビ", "romaji": "kanabi", "meanings": {"en": "car navigation, GPS", "id": "GPS, navigasi mobil"}},
+        {"id": 26, "kanji": "カーナビ", "hiragana": "カーナビ", "romaji": "kaanabi", "meanings": {"en": "car navigation, GPS", "id": "GPS, navigasi mobil"}},
         {"id": 27, "kanji": "家内", "hiragana": "かない", "romaji": "kanai", "meanings": {"en": "my wife, inside the house, family", "id": "istri saya, di dalam rumah, keluarga"}},
         {"id": 28, "kanji": "必ず", "hiragana": "かならず", "romaji": "kanarazu", "meanings": {"en": "certainly, surely", "id": "tentu, pasti"}}
       ]
