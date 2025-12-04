@@ -7,34 +7,1182 @@
         "en": "A Section"
       },
       "vocabulary": [
-        {"id": 1, "kanji": "アクション", "hiragana": "アクション", "romaji": "akushon", "meanings": {"en": "action", "id": "tindakan, aksi"}},
-        {"id": 2, "kanji": "握手", "hiragana": "あくしゅ", "romaji": "akushu", "meanings": {"en": "handshake", "id": "jabatan tangan"}},
-        {"id": 3, "kanji": "アマチュア", "hiragana": "アマチュア", "romaji": "amachua", "meanings": {"en": "amateur", "id": "amatir"}},
-        {"id": 4, "kanji": "雨戸", "hiragana": "あまど", "romaji": "amado", "meanings": {"en": "rain shutter", "id": "jendela dorong bagian luar untuk mencegah hujan atau cuaca dingin"}},
-        {"id": 5, "kanji": "甘やかす", "hiragana": "あまやかす", "romaji": "amayakasu", "meanings": {"en": "spoil, pamper", "id": "memanjakan"}},
-        {"id": 6, "kanji": "網戸", "hiragana": "あみど", "romaji": "amido", "meanings": {"en": "screen door", "id": "kasa, kawat nyamuk"}},
-        {"id": 7, "kanji": "穴", "hiragana": "あな", "romaji": "ana", "meanings": {"en": "hole", "id": "lubang, liang"}},
-        {"id": 8, "kanji": "あなた", "hiragana": "あなた", "romaji": "anata", "meanings": {"en": "you", "id": "anda, kamu"}},
-        {"id": 9, "kanji": "アナウンサー", "hiragana": "アナウンサー", "romaji": "anaunsā", "meanings": {"en": "announcer", "id": "penyiar"}},
-        {"id": 10, "kanji": "アナウンス", "hiragana": "アナウンス", "romaji": "anaunsu", "meanings": {"en": "announcement", "id": "menyiarkan"}},
-        {"id": 11, "kanji": "案外", "hiragana": "あんがい", "romaji": "angai", "meanings": {"en": "unexpectedly", "id": "di luar dugaan, dengan tak diduga-duga"}},
-        {"id": 12, "kanji": "兄", "hiragana": "あに", "romaji": "ani", "meanings": {"en": "older brother", "id": "kakak laki-laki"}},
-        {"id": 13, "kanji": "アニメ", "hiragana": "アニメ", "romaji": "anime", "meanings": {"en": "anime", "id": "film kartun, animasi"}},
-        {"id": 14, "kanji": "アンケート", "hiragana": "アンケート", "romaji": "ankēto", "meanings": {"en": "questionnaire", "id": "angket"}},
-        {"id": 15, "kanji": "暗記", "hiragana": "あんき", "romaji": "anki", "meanings": {"en": "memorization", "id": "hafalan"}},
-        {"id": 16, "kanji": "暗証", "hiragana": "あんしょう", "romaji": "anshou", "meanings": {"en": "password, code", "id": "sandi"}},
-        {"id": 17, "kanji": "安全", "hiragana": "あんぜん", "romaji": "anzen", "meanings": {"en": "safe, safety", "id": "aman, selamat, keselamatan"}},
-        {"id": 18, "kanji": "アップ", "hiragana": "アップ", "romaji": "appu", "meanings": {"en": "up, lift", "id": "naik, atas, angkat"}},
-        {"id": 19, "kanji": "あらかじめ", "hiragana": "あらかじめ", "romaji": "arakajime", "meanings": {"en": "in advance", "id": "terlebih dahulu, di muka, di depan"}},
-        {"id": 20, "kanji": "争う", "hiragana": "あらそう", "romaji": "arasou", "meanings": {"en": "fight, compete", "id": "bertengkar, mengadu, bersaing, berdebat, berjuang, berebut"}},
-        {"id": 21, "kanji": "現れる", "hiragana": "あらわれる", "romaji": "arawareru", "meanings": {"en": "appear", "id": "tampak, muncul, tampil"}},
-        {"id": 22, "kanji": "現す", "hiragana": "あらわす", "romaji": "arawasu", "meanings": {"en": "show, express", "id": "memperunjukkan, memperlihatkan, mengungkapkan"}},
-        {"id": 23, "kanji": "表す", "hiragana": "あらわす", "romaji": "arawasu", "meanings": {"en": "represent, express", "id": "menyatakan, menampilkan, mencerminkan"}},
-        {"id": 24, "kanji": "アレルギー", "hiragana": "アレルギー", "romaji": "arerugī", "meanings": {"en": "allergy", "id": "alergi"}},
-        {"id": 25, "kanji": "アルバイト", "hiragana": "アルバイト", "romaji": "arubaito", "meanings": {"en": "part-time job", "id": "kerja paruh waktu"}},
-        {"id": 26, "kanji": "アルミホイル", "hiragana": "アルミホイル", "romaji": "arumihoruiru", "meanings": {"en": "aluminum foil", "id": "kertas aluminium"}},
-        {"id": 27, "kanji": "麻", "hiragana": "あさ", "romaji": "asa", "meanings": {"en": "hemp", "id": "rami, goni"}},
-        {"id": 28, "kanji": "浅い", "hiragana": "あさい", "romaji": "asai", "meanings": {"en": "shallow", "id": "dangkal"}}
+        {
+          "id": 1,
+          "kanji": "アクション",
+          "hiragana": "アクション",
+          "romaji": "akushon",
+          "meanings": {
+            "en": "action",
+            "id": "tindakan, aksi"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "すぐにアクションを起こしましょう。",
+              "furigana": "すぐにアクションをおこしましょう。",
+              "romaji": "sugu ni akushon wo okoshimashou.",
+              "meanings": {
+                "id": "Mari kita segera mengambil tindakan.",
+                "en": "Let's take action immediately."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "このアクション映画は面白い。",
+              "furigana": "このアクションえいがはおもしろい。",
+              "romaji": "kono akushon eiga wa omoshiroi.",
+              "meanings": {
+                "id": "Film aksi ini menarik.",
+                "en": "This action movie is interesting."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "彼のアクションは素早かった。",
+              "furigana": "かれのアクションはすばやかった。",
+              "romaji": "kare no akushon wa subayakatta.",
+              "meanings": {
+                "id": "Tindakannya cepat.",
+                "en": "His action was quick."
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "kanji": "握手",
+          "hiragana": "あくしゅ",
+          "romaji": "akushu",
+          "meanings": {
+            "en": "handshake",
+            "id": "jabatan tangan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "社長と握手をした。",
+              "furigana": "しゃちょうとあくしゅをした。",
+              "romaji": "shachou to akushu wo shita.",
+              "meanings": {
+                "id": "Saya berjabat tangan dengan direktur.",
+                "en": "I shook hands with the president."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "握手を求められた。",
+              "furigana": "あくしゅをもとめられた。",
+              "romaji": "akushu wo motomerareta.",
+              "meanings": {
+                "id": "Saya diminta berjabat tangan.",
+                "en": "I was asked for a handshake."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "友達と握手して別れた。",
+              "furigana": "ともだちとあくしゅしてわかれた。",
+              "romaji": "tomodachi to akushu shite wakareta.",
+              "meanings": {
+                "id": "Saya berjabat tangan dengan teman dan berpisah.",
+                "en": "I shook hands with my friend and parted."
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "kanji": "アマチュア",
+          "hiragana": "アマチュア",
+          "romaji": "amachua",
+          "meanings": {
+            "en": "amateur",
+            "id": "amatir"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "私はアマチュアのカメラマンです。",
+              "furigana": "わたしはアマチュアのカメラマンです。",
+              "romaji": "watashi wa amachua no kameraman desu.",
+              "meanings": {
+                "id": "Saya adalah fotografer amatir.",
+                "en": "I am an amateur photographer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "アマチュアでも参加できます。",
+              "furigana": "アマチュアでもさんかできます。",
+              "romaji": "amachua demo sanka dekimasu.",
+              "meanings": {
+                "id": "Amatir pun bisa berpartisipasi.",
+                "en": "Even amateurs can participate."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "彼はアマチュアだが上手だ。",
+              "furigana": "かれはアマチュアだがじょうずだ。",
+              "romaji": "kare wa amachua da ga jouzu da.",
+              "meanings": {
+                "id": "Dia amatir tapi pandai.",
+                "en": "He's an amateur but skilled."
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "kanji": "雨戸",
+          "hiragana": "あまど",
+          "romaji": "amado",
+          "meanings": {
+            "en": "rain shutter",
+            "id": "jendela dorong bagian luar untuk mencegah hujan atau cuaca dingin"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "台風の前に雨戸を閉めた。",
+              "furigana": "たいふうのまえにあまどをしめた。",
+              "romaji": "taifuu no mae ni amado wo shimeta.",
+              "meanings": {
+                "id": "Saya menutup jendela pelindung sebelum topan.",
+                "en": "I closed the rain shutters before the typhoon."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "朝になったら雨戸を開けます。",
+              "furigana": "あさになったらあまどをあけます。",
+              "romaji": "asa ni nattara amado wo akemasu.",
+              "meanings": {
+                "id": "Saya akan membuka jendela pelindung saat pagi.",
+                "en": "I'll open the rain shutters in the morning."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "古い家には雨戸がついている。",
+              "furigana": "ふるいいえにはあまどがついている。",
+              "romaji": "furui ie ni wa amado ga tsuite iru.",
+              "meanings": {
+                "id": "Rumah tua memiliki jendela pelindung hujan.",
+                "en": "Old houses have rain shutters."
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "kanji": "甘やかす",
+          "hiragana": "あまやかす",
+          "romaji": "amayakasu",
+          "meanings": {
+            "en": "spoil, pamper",
+            "id": "memanjakan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "子供を甘やかしすぎてはいけない。",
+              "furigana": "こどもをあまやかしすぎてはいけない。",
+              "romaji": "kodomo wo amayakashi sugite wa ikenai.",
+              "meanings": {
+                "id": "Tidak boleh terlalu memanjakan anak.",
+                "en": "You shouldn't spoil children too much."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "祖母は孫を甘やかす。",
+              "furigana": "そぼはまごをあまやかす。",
+              "romaji": "sobo wa mago wo amayakasu.",
+              "meanings": {
+                "id": "Nenek memanjakan cucunya.",
+                "en": "Grandmother spoils her grandchild."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "自分を甘やかさないでください。",
+              "furigana": "じぶんをあまやかさないでください。",
+              "romaji": "jibun wo amayakasanai de kudasai.",
+              "meanings": {
+                "id": "Jangan memanjakan diri sendiri.",
+                "en": "Don't pamper yourself."
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "kanji": "網戸",
+          "hiragana": "あみど",
+          "romaji": "amido",
+          "meanings": {
+            "en": "screen door",
+            "id": "kasa, kawat nyamuk"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "網戸を閉めて蚊を防ぐ。",
+              "furigana": "あみどをしめてかをふせぐ。",
+              "romaji": "amido wo shimete ka wo fusegu.",
+              "meanings": {
+                "id": "Tutup kasa untuk mencegah nyamuk.",
+                "en": "Close the screen door to prevent mosquitoes."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "網戸に穴が開いている。",
+              "furigana": "あみどにあながあいている。",
+              "romaji": "amido ni ana ga aite iru.",
+              "meanings": {
+                "id": "Ada lubang di kasa.",
+                "en": "There's a hole in the screen door."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "夏は網戸にしておきます。",
+              "furigana": "なつはあみどにしておきます。",
+              "romaji": "natsu wa amido ni shite okimasu.",
+              "meanings": {
+                "id": "Di musim panas, saya membiarkan kasa terpasang.",
+                "en": "I keep the screen door on in summer."
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "kanji": "穴",
+          "hiragana": "あな",
+          "romaji": "ana",
+          "meanings": {
+            "en": "hole",
+            "id": "lubang, liang"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "靴下に穴が開いた。",
+              "furigana": "くつしたにあながあいた。",
+              "romaji": "kutsushita ni ana ga aita.",
+              "meanings": {
+                "id": "Kaus kaki berlubang.",
+                "en": "There's a hole in my sock."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "壁に穴を開ける。",
+              "furigana": "かべにあなをあける。",
+              "romaji": "kabe ni ana wo akeru.",
+              "meanings": {
+                "id": "Membuat lubang di dinding.",
+                "en": "Make a hole in the wall."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "この穴は深い。",
+              "furigana": "このあなはふかい。",
+              "romaji": "kono ana wa fukai.",
+              "meanings": {
+                "id": "Lubang ini dalam.",
+                "en": "This hole is deep."
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "kanji": "あなた",
+          "hiragana": "あなた",
+          "romaji": "anata",
+          "meanings": {
+            "en": "you",
+            "id": "anda, kamu"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あなたはどう思いますか。",
+              "furigana": "あなたはどうおもいますか。",
+              "romaji": "anata wa dou omoimasu ka.",
+              "meanings": {
+                "id": "Bagaimana pendapat Anda?",
+                "en": "What do you think?"
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あなたの名前は何ですか。",
+              "furigana": "あなたのなまえはなんですか。",
+              "romaji": "anata no namae wa nan desu ka.",
+              "meanings": {
+                "id": "Siapa nama Anda?",
+                "en": "What is your name?"
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あなたに会えて嬉しい。",
+              "furigana": "あなたにあえてうれしい。",
+              "romaji": "anata ni aete ureshii.",
+              "meanings": {
+                "id": "Saya senang bertemu dengan Anda.",
+                "en": "I'm happy to meet you."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "kanji": "アナウンサー",
+          "hiragana": "アナウンサー",
+          "romaji": "anaunsā",
+          "meanings": {
+            "en": "announcer",
+            "id": "penyiar"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "彼女はテレビのアナウンサーです。",
+              "furigana": "かのじょはテレビのアナウンサーです。",
+              "romaji": "kanojo wa terebi no anaunsaa desu.",
+              "meanings": {
+                "id": "Dia adalah penyiar televisi.",
+                "en": "She is a TV announcer."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "アナウンサーになるのが夢だ。",
+              "furigana": "アナウンサーになるのがゆめだ。",
+              "romaji": "anaunsaa ni naru no ga yume da.",
+              "meanings": {
+                "id": "Menjadi penyiar adalah impian saya.",
+                "en": "Becoming an announcer is my dream."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "有名なアナウンサーに会った。",
+              "furigana": "ゆうめいなアナウンサーにあった。",
+              "romaji": "yuumei na anaunsaa ni atta.",
+              "meanings": {
+                "id": "Saya bertemu penyiar terkenal.",
+                "en": "I met a famous announcer."
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "kanji": "アナウンス",
+          "hiragana": "アナウンス",
+          "romaji": "anaunsu",
+          "meanings": {
+            "en": "announcement",
+            "id": "menyiarkan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "駅でアナウンスが流れた。",
+              "furigana": "えきでアナウンスがながれた。",
+              "romaji": "eki de anaunsu ga nagareta.",
+              "meanings": {
+                "id": "Pengumuman mengalir di stasiun.",
+                "en": "An announcement was made at the station."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "大事なアナウンスがあります。",
+              "furigana": "だいじなアナウンスがあります。",
+              "romaji": "daiji na anaunsu ga arimasu.",
+              "meanings": {
+                "id": "Ada pengumuman penting.",
+                "en": "There's an important announcement."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アナウンスをよく聞いてください。",
+              "furigana": "アナウンスをよくきいてください。",
+              "romaji": "anaunsu wo yoku kiite kudasai.",
+              "meanings": {
+                "id": "Tolong dengarkan pengumuman dengan baik.",
+                "en": "Please listen carefully to the announcement."
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "kanji": "案外",
+          "hiragana": "あんがい",
+          "romaji": "angai",
+          "meanings": {
+            "en": "unexpectedly",
+            "id": "di luar dugaan, dengan tak diduga-duga"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "案外簡単にできた。",
+              "furigana": "あんがいかんたんにできた。",
+              "romaji": "angai kantan ni dekita.",
+              "meanings": {
+                "id": "Ternyata bisa dilakukan dengan mudah.",
+                "en": "It was unexpectedly easy."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "彼は案外親切だった。",
+              "furigana": "かれはあんがいしんせつだった。",
+              "romaji": "kare wa angai shinsetsu datta.",
+              "meanings": {
+                "id": "Dia ternyata baik hati.",
+                "en": "He was unexpectedly kind."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "案外早く終わった。",
+              "furigana": "あんがいはやくおわった。",
+              "romaji": "angai hayaku owatta.",
+              "meanings": {
+                "id": "Ternyata selesai lebih cepat.",
+                "en": "It finished unexpectedly early."
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "kanji": "兄",
+          "hiragana": "あに",
+          "romaji": "ani",
+          "meanings": {
+            "en": "older brother",
+            "id": "kakak laki-laki"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "兄は大学生です。",
+              "furigana": "あにはだいがくせいです。",
+              "romaji": "ani wa daigakusei desu.",
+              "meanings": {
+                "id": "Kakak laki-laki saya adalah mahasiswa.",
+                "en": "My older brother is a university student."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "兄と買い物に行った。",
+              "furigana": "あにとかいものにいった。",
+              "romaji": "ani to kaimono ni itta.",
+              "meanings": {
+                "id": "Saya pergi berbelanja dengan kakak laki-laki.",
+                "en": "I went shopping with my older brother."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "兄は私より背が高い。",
+              "furigana": "あにはわたしよりせがたかい。",
+              "romaji": "ani wa watashi yori se ga takai.",
+              "meanings": {
+                "id": "Kakak laki-laki saya lebih tinggi dari saya.",
+                "en": "My older brother is taller than me."
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "kanji": "アニメ",
+          "hiragana": "アニメ",
+          "romaji": "anime",
+          "meanings": {
+            "en": "anime",
+            "id": "film kartun, animasi"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "日本のアニメが好きです。",
+              "furigana": "にほんのアニメがすきです。",
+              "romaji": "nihon no anime ga suki desu.",
+              "meanings": {
+                "id": "Saya suka anime Jepang.",
+                "en": "I like Japanese anime."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "毎週アニメを見ています。",
+              "furigana": "まいしゅうアニメをみています。",
+              "romaji": "maishuu anime wo mite imasu.",
+              "meanings": {
+                "id": "Saya menonton anime setiap minggu.",
+                "en": "I watch anime every week."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "このアニメは面白い。",
+              "furigana": "このアニメはおもしろい。",
+              "romaji": "kono anime wa omoshiroi.",
+              "meanings": {
+                "id": "Anime ini menarik.",
+                "en": "This anime is interesting."
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "kanji": "アンケート",
+          "hiragana": "アンケート",
+          "romaji": "ankēto",
+          "meanings": {
+            "en": "questionnaire",
+            "id": "angket"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "アンケートに答えてください。",
+              "furigana": "アンケートにこたえてください。",
+              "romaji": "ankeeto ni kotaete kudasai.",
+              "meanings": {
+                "id": "Tolong jawab angket ini.",
+                "en": "Please answer the questionnaire."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "アンケートの結果を発表した。",
+              "furigana": "アンケートのけっかをはっぴょうした。",
+              "romaji": "ankeeto no kekka wo happyou shita.",
+              "meanings": {
+                "id": "Hasil angket diumumkan.",
+                "en": "The questionnaire results were announced."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アンケートに協力しました。",
+              "furigana": "アンケートにきょうりょくしました。",
+              "romaji": "ankeeto ni kyouryoku shimashita.",
+              "meanings": {
+                "id": "Saya berpartisipasi dalam angket.",
+                "en": "I cooperated with the questionnaire."
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "kanji": "暗記",
+          "hiragana": "あんき",
+          "romaji": "anki",
+          "meanings": {
+            "en": "memorization",
+            "id": "hafalan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "漢字を暗記している。",
+              "furigana": "かんじをあんきしている。",
+              "romaji": "kanji wo anki shite iru.",
+              "meanings": {
+                "id": "Saya sedang menghafal kanji.",
+                "en": "I'm memorizing kanji."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "暗記するのが苦手です。",
+              "furigana": "あんきするのがにがてです。",
+              "romaji": "anki suru no ga nigate desu.",
+              "meanings": {
+                "id": "Saya tidak pandai menghafal.",
+                "en": "I'm not good at memorization."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "単語を暗記しなければならない。",
+              "furigana": "たんごをあんきしなければならない。",
+              "romaji": "tango wo anki shinakereba naranai.",
+              "meanings": {
+                "id": "Saya harus menghafal kosakata.",
+                "en": "I must memorize vocabulary."
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "kanji": "暗証",
+          "hiragana": "あんしょう",
+          "romaji": "anshou",
+          "meanings": {
+            "en": "password, code",
+            "id": "sandi"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "暗証番号を入力してください。",
+              "furigana": "あんしょうばんごうをにゅうりょくしてください。",
+              "romaji": "anshou bangou wo nyuuryoku shite kudasai.",
+              "meanings": {
+                "id": "Tolong masukkan kode sandi.",
+                "en": "Please enter your password."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "暗証番号を忘れてしまった。",
+              "furigana": "あんしょうばんごうをわすれてしまった。",
+              "romaji": "anshou bangou wo wasurete shimatta.",
+              "meanings": {
+                "id": "Saya lupa kode sandinya.",
+                "en": "I forgot my password."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "暗証番号は秘密にしてください。",
+              "furigana": "あんしょうばんごうはひみつにしてください。",
+              "romaji": "anshou bangou wa himitsu ni shite kudasai.",
+              "meanings": {
+                "id": "Tolong rahasiakan kode sandi Anda.",
+                "en": "Please keep your password secret."
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "kanji": "安全",
+          "hiragana": "あんぜん",
+          "romaji": "anzen",
+          "meanings": {
+            "en": "safe, safety",
+            "id": "aman, selamat, keselamatan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "ここは安全な場所です。",
+              "furigana": "ここはあんぜんなばしょです。",
+              "romaji": "koko wa anzen na basho desu.",
+              "meanings": {
+                "id": "Di sini adalah tempat yang aman.",
+                "en": "This is a safe place."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "安全に注意してください。",
+              "furigana": "あんぜんにちゅういしてください。",
+              "romaji": "anzen ni chuui shite kudasai.",
+              "meanings": {
+                "id": "Tolong perhatikan keselamatan.",
+                "en": "Please pay attention to safety."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "交通安全を守りましょう。",
+              "furigana": "こうつうあんぜんをまもりましょう。",
+              "romaji": "koutsuu anzen wo mamorimashou.",
+              "meanings": {
+                "id": "Mari jaga keselamatan lalu lintas.",
+                "en": "Let's observe traffic safety."
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "kanji": "アップ",
+          "hiragana": "アップ",
+          "romaji": "appu",
+          "meanings": {
+            "en": "up, lift",
+            "id": "naik, atas, angkat"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "給料がアップした。",
+              "furigana": "きゅうりょうがアップした。",
+              "romaji": "kyuuryou ga appu shita.",
+              "meanings": {
+                "id": "Gaji naik.",
+                "en": "My salary went up."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "スピードアップしましょう。",
+              "furigana": "スピードアップしましょう。",
+              "romaji": "supiido appu shimashou.",
+              "meanings": {
+                "id": "Mari tingkatkan kecepatan.",
+                "en": "Let's speed up."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "写真をアップロードした。",
+              "furigana": "しゃしんをアップロードした。",
+              "romaji": "shashin wo appuroodo shita.",
+              "meanings": {
+                "id": "Saya mengunggah foto.",
+                "en": "I uploaded a photo."
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "kanji": "あらかじめ",
+          "hiragana": "あらかじめ",
+          "romaji": "arakajime",
+          "meanings": {
+            "en": "in advance",
+            "id": "terlebih dahulu, di muka, di depan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "あらかじめ予約してください。",
+              "furigana": "あらかじめよやくしてください。",
+              "romaji": "arakajime yoyaku shite kudasai.",
+              "meanings": {
+                "id": "Tolong reservasi terlebih dahulu.",
+                "en": "Please make a reservation in advance."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "あらかじめ準備しておいた。",
+              "furigana": "あらかじめじゅんびしておいた。",
+              "romaji": "arakajime junbi shite oita.",
+              "meanings": {
+                "id": "Saya sudah mempersiapkan sebelumnya.",
+                "en": "I prepared in advance."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "あらかじめ連絡してください。",
+              "furigana": "あらかじめれんらくしてください。",
+              "romaji": "arakajime renraku shite kudasai.",
+              "meanings": {
+                "id": "Tolong hubungi terlebih dahulu.",
+                "en": "Please contact us in advance."
+              }
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "kanji": "争う",
+          "hiragana": "あらそう",
+          "romaji": "arasou",
+          "meanings": {
+            "en": "fight, compete",
+            "id": "bertengkar, mengadu, bersaing, berdebat, berjuang, berebut"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "兄弟で争っている。",
+              "furigana": "きょうだいであらそっている。",
+              "romaji": "kyoudai de arasotte iru.",
+              "meanings": {
+                "id": "Kakak beradik sedang bertengkar.",
+                "en": "The siblings are fighting."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "優勝を争う試合だ。",
+              "furigana": "ゆうしょうをあらそうしあいだ。",
+              "romaji": "yuushou wo arasou shiai da.",
+              "meanings": {
+                "id": "Ini adalah pertandingan untuk memperebutkan juara.",
+                "en": "It's a match competing for the championship."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "二人は激しく争った。",
+              "furigana": "ふたりははげしくあらそった。",
+              "romaji": "futari wa hageshiku arasotta.",
+              "meanings": {
+                "id": "Dua orang itu bertengkar hebat.",
+                "en": "The two fought fiercely."
+              }
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "kanji": "現れる",
+          "hiragana": "あらわれる",
+          "romaji": "arawareru",
+          "meanings": {
+            "en": "appear",
+            "id": "tampak, muncul, tampil"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "突然彼が現れた。",
+              "furigana": "とつぜんかれがあらわれた。",
+              "romaji": "totsuzen kare ga arawareta.",
+              "meanings": {
+                "id": "Dia muncul tiba-tiba.",
+                "en": "He appeared suddenly."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "虹が空に現れた。",
+              "furigana": "にじがそらにあらわれた。",
+              "romaji": "niji ga sora ni arawareta.",
+              "meanings": {
+                "id": "Pelangi muncul di langit.",
+                "en": "A rainbow appeared in the sky."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "問題が現れ始めた。",
+              "furigana": "もんだいがあらわれはじめた。",
+              "romaji": "mondai ga araware hajimeta.",
+              "meanings": {
+                "id": "Masalah mulai muncul.",
+                "en": "Problems began to appear."
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "kanji": "現す",
+          "hiragana": "あらわす",
+          "romaji": "arawasu",
+          "meanings": {
+            "en": "show, express",
+            "id": "memperunjukkan, memperlihatkan, mengungkapkan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "感謝の気持ちを現した。",
+              "furigana": "かんしゃのきもちをあらわした。",
+              "romaji": "kansha no kimochi wo arawashita.",
+              "meanings": {
+                "id": "Saya mengungkapkan rasa terima kasih.",
+                "en": "I expressed my gratitude."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "彼は本心を現さない。",
+              "furigana": "かれはほんしんをあらわさない。",
+              "romaji": "kare wa honshin wo arawasanai.",
+              "meanings": {
+                "id": "Dia tidak menunjukkan perasaan sebenarnya.",
+                "en": "He doesn't show his true feelings."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "正体を現しなさい。",
+              "furigana": "しょうたいをあらわしなさい。",
+              "romaji": "shoutai wo arawashinasai.",
+              "meanings": {
+                "id": "Tunjukkan jati dirimu.",
+                "en": "Reveal your true identity."
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "kanji": "表す",
+          "hiragana": "あらわす",
+          "romaji": "arawasu",
+          "meanings": {
+            "en": "represent, express",
+            "id": "menyatakan, menampilkan, mencerminkan"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "この絵は平和を表している。",
+              "furigana": "このえはへいわをあらわしている。",
+              "romaji": "kono e wa heiwa wo arawashite iru.",
+              "meanings": {
+                "id": "Lukisan ini menyatakan perdamaian.",
+                "en": "This painting represents peace."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "数字で表してください。",
+              "furigana": "すうじであらわしてください。",
+              "romaji": "suuji de arawashite kudasai.",
+              "meanings": {
+                "id": "Tolong nyatakan dengan angka.",
+                "en": "Please express it in numbers."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "言葉で表すのは難しい。",
+              "furigana": "ことばであらわすのはむずかしい。",
+              "romaji": "kotoba de arawasu no wa muzukashii.",
+              "meanings": {
+                "id": "Sulit mengungkapkan dengan kata-kata.",
+                "en": "It's difficult to express in words."
+              }
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "kanji": "アレルギー",
+          "hiragana": "アレルギー",
+          "romaji": "arerugī",
+          "meanings": {
+            "en": "allergy",
+            "id": "alergi"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "卵にアレルギーがあります。",
+              "furigana": "たまごにアレルギーがあります。",
+              "romaji": "tamago ni arerugi ga arimasu.",
+              "meanings": {
+                "id": "Saya alergi telur.",
+                "en": "I'm allergic to eggs."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "花粉症はアレルギーの一つです。",
+              "furigana": "かふんしょうはアレルギーのひとつです。",
+              "romaji": "kafunshou wa arerugi no hitotsu desu.",
+              "meanings": {
+                "id": "Hay fever adalah salah satu jenis alergi.",
+                "en": "Hay fever is one type of allergy."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アレルギー反応が出た。",
+              "furigana": "アレルギーはんのうがでた。",
+              "romaji": "arerugi hannou ga deta.",
+              "meanings": {
+                "id": "Reaksi alergi muncul.",
+                "en": "An allergic reaction occurred."
+              }
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "kanji": "アルバイト",
+          "hiragana": "アルバイト",
+          "romaji": "arubaito",
+          "meanings": {
+            "en": "part-time job",
+            "id": "kerja paruh waktu"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "週末にアルバイトをしています。",
+              "furigana": "しゅうまつにアルバイトをしています。",
+              "romaji": "shuumatsu ni arubaito wo shite imasu.",
+              "meanings": {
+                "id": "Saya bekerja paruh waktu di akhir pekan.",
+                "en": "I work part-time on weekends."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "アルバイトを探している。",
+              "furigana": "アルバイトをさがしている。",
+              "romaji": "arubaito wo sagashite iru.",
+              "meanings": {
+                "id": "Saya sedang mencari pekerjaan paruh waktu.",
+                "en": "I'm looking for a part-time job."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "コンビニでアルバイトをしている。",
+              "furigana": "コンビニでアルバイトをしている。",
+              "romaji": "konbini de arubaito wo shite iru.",
+              "meanings": {
+                "id": "Saya bekerja paruh waktu di minimarket.",
+                "en": "I work part-time at a convenience store."
+              }
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "kanji": "アルミホイル",
+          "hiragana": "アルミホイル",
+          "romaji": "arumihoruiru",
+          "meanings": {
+            "en": "aluminum foil",
+            "id": "kertas aluminium"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "アルミホイルで包んでください。",
+              "furigana": "アルミホイルでつつんでください。",
+              "romaji": "arumihoiru de tsutsunde kudasai.",
+              "meanings": {
+                "id": "Tolong bungkus dengan kertas aluminium.",
+                "en": "Please wrap it with aluminum foil."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "アルミホイルを買ってきた。",
+              "furigana": "アルミホイルをかってきた。",
+              "romaji": "arumihoiru wo katte kita.",
+              "meanings": {
+                "id": "Saya membeli kertas aluminium.",
+                "en": "I bought aluminum foil."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "アルミホイルがなくなった。",
+              "furigana": "アルミホイルがなくなった。",
+              "romaji": "arumihoiru ga nakunatta.",
+              "meanings": {
+                "id": "Kertas aluminiumnya habis.",
+                "en": "We ran out of aluminum foil."
+              }
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "kanji": "麻",
+          "hiragana": "あさ",
+          "romaji": "asa",
+          "meanings": {
+            "en": "hemp",
+            "id": "rami, goni"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "麻の服は涼しい。",
+              "furigana": "あさのふくはすずしい。",
+              "romaji": "asa no fuku wa suzushii.",
+              "meanings": {
+                "id": "Pakaian rami sejuk.",
+                "en": "Hemp clothes are cool."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "麻で作られたバッグだ。",
+              "furigana": "あさでつくられたバッグだ。",
+              "romaji": "asa de tsukurareta baggu da.",
+              "meanings": {
+                "id": "Ini tas yang terbuat dari rami.",
+                "en": "It's a bag made of hemp."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "夏は麻の服を着る。",
+              "furigana": "なつはあさのふくをきる。",
+              "romaji": "natsu wa asa no fuku wo kiru.",
+              "meanings": {
+                "id": "Di musim panas saya memakai pakaian rami.",
+                "en": "I wear hemp clothes in summer."
+              }
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "kanji": "浅い",
+          "hiragana": "あさい",
+          "romaji": "asai",
+          "meanings": {
+            "en": "shallow",
+            "id": "dangkal"
+          },
+          "examples": [
+            {
+              "id": 1,
+              "sentence": "このプールは浅い。",
+              "furigana": "このプールはあさい。",
+              "romaji": "kono puuru wa asai.",
+              "meanings": {
+                "id": "Kolam ini dangkal.",
+                "en": "This pool is shallow."
+              }
+            },
+            {
+              "id": 2,
+              "sentence": "川が浅くなった。",
+              "furigana": "かわがあさくなった。",
+              "romaji": "kawa ga asaku natta.",
+              "meanings": {
+                "id": "Sungai menjadi dangkal.",
+                "en": "The river became shallow."
+              }
+            },
+            {
+              "id": 3,
+              "sentence": "知識が浅い。",
+              "furigana": "ちしきがあさい。",
+              "romaji": "chishiki ga asai.",
+              "meanings": {
+                "id": "Pengetahuannya dangkal.",
+                "en": "The knowledge is shallow."
+              }
+            }
+          ]
+        }
       ]
     }
   ]
