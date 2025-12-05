@@ -35,9 +35,9 @@ export function VocabularyLessonContainer() {
       {/* Header */}
       <LessonHeader />
 
-      {/* Selection Bottom Nav - Slides down from top when active */}
+      {/* Selection Bottom Nav - Sticky below header with slide animation */}
       <div
-        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+        className={`sticky top-14 z-40 overflow-hidden transition-all duration-500 ease-in-out ${
           isSelectionMode
             ? "max-h-96 opacity-100"
             : "max-h-0 opacity-0"
