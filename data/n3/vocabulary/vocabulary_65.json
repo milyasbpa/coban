@@ -22,11 +22,29 @@
         {"id": 13, "kanji": "ストレス", "hiragana": "ストレス", "romaji": "sutoresu", "meanings": {"en": "stress", "id": "perasaan tertekan, stres (stress)"}},
         {"id": 14, "kanji": "ストーリー", "hiragana": "ストーリー", "romaji": "sutōrī", "meanings": {"en": "story", "id": "cerita, kisah (story)"}},
         {"id": 15, "kanji": "スーツ", "hiragana": "スーツ", "romaji": "sūtsu", "meanings": {"en": "suit", "id": "pakaian setelan (suit)"}},
-        {"id": 16, "kanji": "数学", "hiragana": "すうがく", "romaji": "suugaku", "meanings": {"en": "mathematics", "id": "matematika, ilmu pasti"}},
+        {"id": 16, "kanji": "数学", "hiragana": "すうがく", "romaji": "suugaku", "meanings": {"en": "mathematics", "id": "matematika, ilmu pasti"}}
+      ]
+    },
+     {
+      "id": 14,
+      "category": {
+        "id": "T",
+        "en": "T Section"
+      },
+      "vocabulary": [
         {"id": 17, "kanji": "食べ放題", "hiragana": "たべほうだい", "romaji": "tabehoudai", "meanings": {"en": "all you can eat", "id": "makan sepuasnya"}},
         {"id": 18, "kanji": "立ち上がる", "hiragana": "たちあがる", "romaji": "tachiagaru", "meanings": {"en": "to stand up, to rise", "id": "berdiri, bangkit, bangun"}},
         {"id": 19, "kanji": "ただ", "hiragana": "ただ", "romaji": "tada", "meanings": {"en": "only, just", "id": "hanya, cuma"}},
-        {"id": 20, "kanji": "貝", "hiragana": "かい", "romaji": "kai", "meanings": {"en": "shell, shellfish", "id": "gratis, cuma-cuma"}},
+       {
+  "id": 9,
+  "kanji": "只",
+  "hiragana": "ただ",
+  "romaji": "tada",
+  "meanings": {
+    "en": "free of charge",
+    "id": "gratis, cuma-cuma"
+  }
+},
         {"id": 21, "kanji": "ただいま", "hiragana": "ただいま", "romaji": "tadaima", "meanings": {"en": "I'm home, just now", "id": "① baru saja ② sekarang, segera ③ saya sudah pulang"}},
         {"id": 22, "kanji": "互いに", "hiragana": "たがいに", "romaji": "tagaini", "meanings": {"en": "mutually, each other", "id": "saling, satu sama lainnya"}},
         {"id": 23, "kanji": "対", "hiragana": "たい", "romaji": "tai", "meanings": {"en": "versus, against", "id": "① lawan ② dibandingkan"}},

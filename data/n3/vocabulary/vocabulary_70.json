@@ -22,7 +22,16 @@
         {"id": 13, "kanji": "年寄り", "hiragana": "としより", "romaji": "toshiyori", "meanings": {"en": "elderly person", "id": "orang lanjut usia, orang yang tua"}},
         {"id": 14, "kanji": "図書館", "hiragana": "としょかん", "romaji": "toshokan", "meanings": {"en": "library", "id": "perpustakaan"}},
         {"id": 15, "kanji": "トースター", "hiragana": "とーすたー", "romaji": "tōsutā", "meanings": {"en": "toaster", "id": "alat pemanggang (toaster)"}},
-        {"id": 16, "kanji": "~後", "hiragana": "~ご", "romaji": "~go", "meanings": {"en": "after", "id": "tepat setelah..."}},
+{
+  "id": 9,
+  "kanji": "とたん",
+  "hiragana": "とたん",
+  "romaji": "totan",
+  "meanings": {
+    "en": "just as..., the moment that...",
+    "id": "tepat setelah..."
+  }
+},
         {"id": 17, "kanji": "とても", "hiragana": "とても", "romaji": "totemo", "meanings": {"en": "very, extremely", "id": "amat, sangat"}},
         {"id": 18, "kanji": "突然", "hiragana": "とつぜん", "romaji": "totsuzen", "meanings": {"en": "suddenly, abruptly", "id": "mendadak, tiba-tiba, sekonyong-konyong"}},
         {"id": 19, "kanji": "等", "hiragana": "とう", "romaji": "tou", "meanings": {"en": "class, rank", "id": "kelas, rengking"}},
