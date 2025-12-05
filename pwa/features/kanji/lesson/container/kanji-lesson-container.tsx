@@ -30,8 +30,16 @@ export function KanjiLessonContainer() {
       {/* Header */}
       <LessonHeader />
 
-      {/* Selection Bottom Navigation - Only show when in selection mode */}
-      {isSelectionMode && <SelectionBottomNav />}
+      {/* Selection Bottom Navigation - Slides down from top when active */}
+      <div
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+          isSelectionMode
+            ? "max-h-96 opacity-100"
+            : "max-h-0 opacity-0"
+        }`}
+      >
+        <SelectionBottomNav />
+      </div>
 
       {/* Kanji List */}
       <KanjiList />

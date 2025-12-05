@@ -106,18 +106,6 @@ export function SelectionBottomNav() {
     selectAll(filtered.map((v) => v.id));
   };
 
-  const handleSelectNewOnly = () => {
-    const filtered = vocabularyList.filter((vocab) => {
-      const accuracy = getVocabularyAccuracy(
-        vocab.id.toString(),
-        level,
-        categoryId || ""
-      );
-      return accuracy === null; // Only new vocabulary
-    });
-    selectAll(filtered.map((v) => v.id));
-  };
-
   const handleExerciseStart = (exerciseType: string) => {
     if (!categoryId || selectedVocabularyIds.size === 0) return;
 
