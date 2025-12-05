@@ -5,10 +5,7 @@ import { Card } from "@/pwa/core/components/card";
 import { Confetti } from "@/pwa/core/components/confetti";
 import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-exercise.store";
 import { RotateCcw } from "lucide-react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useSearchParams } from "next/navigation";
-import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 
 function getScoreColor(score: number) {
   if (score >= 90) {
@@ -37,10 +34,6 @@ function getScoreColor(score: number) {
 
 export function VocabularyReadingGameResult() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const categoryId = searchParams.get("categoryId");
-  const level = searchParams.get("level") || "N5";
-  const { language } = useLanguage();
 
   const {
     gameState: { score, isRetryMode },
@@ -50,7 +43,6 @@ export function VocabularyReadingGameResult() {
     canRetry,
     startRetryMode,
     restartGame,
-    initializeExercise,
   } = useVocabularyReadingExerciseStore();
 
   const scoreColors = getScoreColor(score);
@@ -64,11 +56,8 @@ export function VocabularyReadingGameResult() {
     startRetryMode();
   };
 
-  const handleGameRestart = async () => {
-    if (!categoryId) return;
-    
+  const handleGameRestart = () => {
     restartGame();
-    await initializeExercise(level, categoryId, undefined, language);
   };
 
   const handleBackToHome = () => {

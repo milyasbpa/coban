@@ -80,6 +80,10 @@ export const VocabularyWritingGameResult = () => {
     store.startRetryMode();
   };
 
+  const handlePlayAgain = () => {
+    store.restartGame();
+  };
+
   const handleBack = () => {
     router.back();
   };
@@ -153,6 +157,15 @@ export const VocabularyWritingGameResult = () => {
                 Retry Wrong Questions ({wrongAnswers})
               </Button>
             )}
+
+            <Button
+              onClick={handlePlayAgain}
+              className="w-full"
+              variant={store.canRetry() && !isRetryMode ? "outline" : "default"}
+              size="lg"
+            >
+              Play Again
+            </Button>
 
             <Button
               onClick={handleBack}

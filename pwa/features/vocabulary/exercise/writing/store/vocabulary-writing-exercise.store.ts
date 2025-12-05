@@ -332,7 +332,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
     })),
 
   restartGame: () => {
-    const { gameState: { questions, level, categoryId } } = get();
+    const { gameState: { questions, level, categoryId, distractorPool } } = get();
     set({
       gameState: {
         questions,
@@ -343,6 +343,7 @@ export const useVocabularyWritingExerciseStore = create<VocabularyWritingExercis
         score: 0,
         level,
         categoryId,
+        distractorPool,
       },
       questionState: {
         currentQuestionIndex: 0,
