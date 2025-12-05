@@ -11,12 +11,17 @@ import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-s
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
 
 export function VocabularyLessonContainer() {
-  const { isSelectionMode } = useVocabularySelection();
+  const { isSelectionMode, initializeSelectionMode } = useVocabularySelection();
   const { isAuthenticated, user } = useLoginStore();
   const { initializeUser, isInitialized } = useVocabularyScoreStore();
   
   // Auto-save current page URL for restoration after restart
   useLastVisitedPage();
+
+  // Initialize selection mode from localStorage on mount
+  useEffect(() => {
+    initializeSelectionMode();
+  }, [initializeSelectionMode]);
 
   // Initialize vocabulary score store when user is authenticated
   useEffect(() => {

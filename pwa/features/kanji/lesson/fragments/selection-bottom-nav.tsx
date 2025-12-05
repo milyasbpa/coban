@@ -114,9 +114,8 @@ export function SelectionBottomNav() {
       window.location.href = `/kanji/exercise/writing?${baseUrl}`;
     }
 
-    // Clear selection after navigation
+    // Clear selection after navigation (but keep selection mode active)
     clearSelection();
-    toggleSelectionMode();
   };
 
   const handleBulkReset = async () => {

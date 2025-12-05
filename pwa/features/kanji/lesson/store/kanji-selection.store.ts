@@ -1,6 +1,8 @@
 import { create } from 'zustand';
 import { KanjiDetail } from '@/pwa/core/services/kanji';
 
+const STORAGE_KEY = 'kanji-selection-mode';
+
 interface KanjiSelectionState {
   isSelectionMode: boolean;
   selectedKanjiIds: Set<number>;
@@ -11,22 +13,51 @@ interface KanjiSelectionState {
   clearSelection: () => void;
   selectAll: (ids: number[]) => void;
   setKanjiList: (list: KanjiDetail[]) => void;
+  initializeSelectionMode: () => void;
 }
+
+// Helper functions for localStorage
+const saveSelectionMode = (mode: boolean) => {
+  if (typeof window !== 'undefined') {
+    if (mode) {
+      localStorage.setItem(STORAGE_KEY, 'true');
+    } else {
+      localStorage.removeItem(STORAGE_KEY);
+    }
+  }
+};
+
+const loadSelectionMode = (): boolean => {
+  if (typeof window !== 'undefined') {
+    return localStorage.getItem(STORAGE_KEY) === 'true';
+  }
+  return false;
+};
 
 export const useKanjiSelection = create<KanjiSelectionState>((set, get) => ({
   isSelectionMode: false,
   selectedKanjiIds: new Set(),
   kanjiList: [],
   
+  initializeSelectionMode: () => {
+    const savedMode = loadSelectionMode();
+    if (savedMode) {
+      set({ isSelectionMode: true });
+    }
+  },
+  
   toggleSelectionMode: () => {
     const currentMode = get().isSelectionMode;
+    const newMode = !currentMode;
+    saveSelectionMode(newMode);
     set({ 
-      isSelectionMode: !currentMode,
+      isSelectionMode: newMode,
       selectedKanjiIds: new Set() // Clear selection when toggling mode
     });
   },
   
   setSelectionMode: (mode: boolean) => {
+    saveSelectionMode(mode);
     set({ 
       isSelectionMode: mode,
       selectedKanjiIds: mode ? get().selectedKanjiIds : new Set()

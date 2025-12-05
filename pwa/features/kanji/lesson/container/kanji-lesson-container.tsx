@@ -11,12 +11,17 @@ import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
 
 export function KanjiLessonContainer() {
-  const { isSelectionMode } = useKanjiSelection();
+  const { isSelectionMode, initializeSelectionMode } = useKanjiSelection();
   const { isAuthenticated, user } = useLoginStore();
   const { initializeUser, isInitialized } = useKanjiScoreStore();
   
   // Auto-save current page URL for restoration after restart
   useLastVisitedPage();
+
+  // Initialize selection mode from localStorage on mount
+  useEffect(() => {
+    initializeSelectionMode();
+  }, [initializeSelectionMode]);
 
   // Initialize kanji score store when user is authenticated
   useEffect(() => {

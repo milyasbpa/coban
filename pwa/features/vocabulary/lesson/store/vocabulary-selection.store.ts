@@ -1,6 +1,8 @@
 import { create } from 'zustand';
 import { VocabularyWord } from '@/pwa/core/services/vocabulary';
 
+const STORAGE_KEY = 'vocabulary-selection-mode';
+
 interface VocabularySelectionState {
   isSelectionMode: boolean;
   selectedVocabularyIds: Set<number>;
@@ -11,22 +13,51 @@ interface VocabularySelectionState {
   clearSelection: () => void;
   selectAll: (ids: number[]) => void;
   setVocabularyList: (list: VocabularyWord[]) => void;
+  initializeSelectionMode: () => void;
 }
+
+// Helper functions for localStorage
+const saveSelectionMode = (mode: boolean) => {
+  if (typeof window !== 'undefined') {
+    if (mode) {
+      localStorage.setItem(STORAGE_KEY, 'true');
+    } else {
+      localStorage.removeItem(STORAGE_KEY);
+    }
+  }
+};
+
+const loadSelectionMode = (): boolean => {
+  if (typeof window !== 'undefined') {
+    return localStorage.getItem(STORAGE_KEY) === 'true';
+  }
+  return false;
+};
 
 export const useVocabularySelection = create<VocabularySelectionState>((set, get) => ({
   isSelectionMode: false,
   selectedVocabularyIds: new Set(),
   vocabularyList: [],
   
+  initializeSelectionMode: () => {
+    const savedMode = loadSelectionMode();
+    if (savedMode) {
+      set({ isSelectionMode: true });
+    }
+  },
+  
   toggleSelectionMode: () => {
     const currentMode = get().isSelectionMode;
+    const newMode = !currentMode;
+    saveSelectionMode(newMode);
     set({ 
-      isSelectionMode: !currentMode,
+      isSelectionMode: newMode,
       selectedVocabularyIds: new Set() // Clear selection when toggling mode
     });
   },
   
   setSelectionMode: (mode: boolean) => {
+    saveSelectionMode(mode);
     set({ 
       isSelectionMode: mode,
       selectedVocabularyIds: mode ? get().selectedVocabularyIds : new Set()
