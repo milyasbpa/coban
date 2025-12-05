@@ -18,7 +18,7 @@
         {"id": 9, "kanji": "驚き", "hiragana": "おどろき", "romaji": "odoroki", "meanings": {"en": "surprise, astonishment", "id": "kejutan, keheranan"}},
         {"id": 10, "kanji": "オフ", "hiragana": "オフ", "romaji": "ofu", "meanings": {"en": "off, break", "id": "① mati ② istirahat ③ potongan (off)"}},
         {"id": 11, "kanji": "オフィス", "hiragana": "オフィス", "romaji": "ofuisu", "meanings": {"en": "office", "id": "kantor (office)"}},
-        {"id": 12, "kanji": "元気", "hiragana": "げんき", "romaji": "genki", "meanings": {"en": "healthy, energetic", "id": "sehat"}},
+        {"id": 12, "kanji": "お元気", "hiragana": "おげんき", "romaji": "ogenki", "meanings": {"en": "healthy, energetic", "id": "sehat"}},
         {"id": 13, "kanji": "おごり", "hiragana": "おごり", "romaji": "ogori", "meanings": {"en": "treat, feast", "id": "traktiran, jamuan"}},
         {"id": 14, "kanji": "おごる", "hiragana": "おごる", "romaji": "ogoru", "meanings": {"en": "to treat, to feast", "id": "mentraktir, menjamu"}},
         {"id": 15, "kanji": "お昼", "hiragana": "おひる", "romaji": "ohiru", "meanings": {"en": "lunch", "id": "makan siang"}},
@@ -28,11 +28,11 @@
         {"id": 19, "kanji": "お辞儀", "hiragana": "おじぎ", "romaji": "ojigi", "meanings": {"en": "bow (greeting)", "id": "menghormat dengan membungkukkan badan"}},
         {"id": 20, "kanji": "おじいさん", "hiragana": "おじいさん", "romaji": "ojiisan", "meanings": {"en": "grandfather (honorific)", "id": "kakek [bentuk hormat, panggilan]"}},
         {"id": 21, "kanji": "おじさん", "hiragana": "おじさん", "romaji": "ojisan", "meanings": {"en": "uncle (honorific)", "id": "paman, oom [bentuk hormat, panggilan]"}},
-        {"id": 22, "kanji": "お邪魔", "hiragana": "おじゃま", "romaji": "ojama", "meanings": {"en": "disturbance", "id": "maaf saya mengganggu"}},
-        {"id": 23, "kanji": "お嬢様", "hiragana": "おじょうさま", "romaji": "ojousama", "meanings": {"en": "young lady", "id": "nona, anak putri"}},
+        {"id": 22, "kanji": "お邪魔", "hiragana": "おじゃま", "romaji": "ojyama", "meanings": {"en": "disturbance", "id": "maaf saya mengganggu"}},
+        {"id": 9, "kanji": "お嬢さん", "hiragana": "おじょうさん", "romaji": "ojyousan", "meanings": { "en": "young lady, daughter, miss", "id": "nona, anak putri" }},
         {"id": 24, "kanji": "お母さん", "hiragana": "おかあさん", "romaji": "okaasan", "meanings": {"en": "mother", "id": "ibu, mama"}},
         {"id": 25, "kanji": "お帰り", "hiragana": "おかえり", "romaji": "okaeri", "meanings": {"en": "welcome home", "id": "selamat tiba kembali, selamat pulang kembali"}},
-        {"id": 26, "kanji": "おかげさま", "hiragana": "おかげさま", "romaji": "okagesama", "meanings": {"en": "thanks to you", "id": "berkat perlindungan, berkat kemurahan-hati"}},
+       {"id": 9, "kanji": "お陰様で", "hiragana": "おかげさまで", "romaji": "okagesamade", "meanings": { "en": "thanks to, owing to, fortunately", "id": "berkat perlindungan, berkat kemurahan hati" }},
         {"id": 27, "kanji": "おかけになる", "hiragana": "おかけになる", "romaji": "okakeninaru", "meanings": {"en": "to sit (honorific)", "id": "[bentuk hormat] duduk"}},
         {"id": 28, "kanji": "お金持ち", "hiragana": "おかねもち", "romaji": "okanemochi", "meanings": {"en": "rich person", "id": "orang kaya"}}
       ]

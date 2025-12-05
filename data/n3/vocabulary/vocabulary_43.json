@@ -3,15 +3,24 @@
     {
       "id": 1,
       "category": {
-        "id": "N",
-        "en": "N Section"
+        "id": "M",
+        "en": "M Section"
       },
       "vocabulary": [
         {"id": 1, "kanji": "明後年", "hiragana": "みょうごねん", "romaji": "myougonen", "meanings": {"en": "two years from now", "id": "2 tahun yang akan datang"}},
         {"id": 2, "kanji": "明後日", "hiragana": "みょうごにち", "romaji": "myougonichi", "meanings": {"en": "day after tomorrow", "id": "besok lusa"}},
         {"id": 3, "kanji": "明年", "hiragana": "みょうねん", "romaji": "myounen", "meanings": {"en": "next year", "id": "tahun depan"}},
         {"id": 4, "kanji": "ミュージカル", "hiragana": "ミュージカル", "romaji": "myuujikaru", "meanings": {"en": "musical", "id": "musikal (musical)"}},
-        {"id": 5, "kanji": "ミュージシャン", "hiragana": "ミュージシャン", "romaji": "myuujishan", "meanings": {"en": "musician", "id": "musikus (musician)"}},
+        {"id": 5, "kanji": "ミュージシャン", "hiragana": "ミュージシャン", "romaji": "myuujishan", "meanings": {"en": "musician", "id": "musikus (musician)"}}
+      ]
+    },
+     {
+      "id": 1,
+      "category": {
+        "id": "N",
+        "en": "N Section"
+      },
+      "vocabulary": [
         {"id": 6, "kanji": "鍋", "hiragana": "なべ", "romaji": "nabe", "meanings": {"en": "pot, pan", "id": "panci, periuk"}},
         {"id": 7, "kanji": "なだらか", "hiragana": "なだらか", "romaji": "nadaraka", "meanings": {"en": "gentle, easy", "id": "landai"}},
         {"id": 8, "kanji": "撫でる", "hiragana": "なでる", "romaji": "naderu", "meanings": {"en": "to stroke, to caress", "id": "membelai, mengelus"}},
