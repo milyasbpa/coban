@@ -21,12 +21,11 @@ interface VocabularyLessonSectionProps {
 }
 
 export function VocabularyLessonSection({ showProgress = false }: VocabularyLessonSectionProps) {
-  const { selectedLevel } = useHomeSettingsStore();
+  const { selectedLevel, vocabularyFilterTab, setVocabularyFilterTab } = useHomeSettingsStore();
   const { openVocabularyExerciseModal } = useHomeStore();
   const { getCategoryProgress, isInitialized } = useVocabularyScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
-  const [filterTab, setFilterTab] = useState<"all" | "in-progress" | "finished">("in-progress");
 
   const CATEGORIES_PER_TAB = 10;
 
@@ -61,21 +60,21 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
 
   // Apply filter based on selected filter tab
   const filteredCategories = useMemo(() => {
-    if (filterTab === "all") {
+    if (vocabularyFilterTab === "all") {
       return sortedCategories;
-    } else if (filterTab === "in-progress") {
+    } else if (vocabularyFilterTab === "in-progress") {
       return sortedCategories.filter((category) => {
         const progress = getCategoryProgress(category.id.toString(), selectedLevel);
         return progress > 0 && progress < 100;
       });
-    } else if (filterTab === "finished") {
+    } else if (vocabularyFilterTab === "finished") {
       return sortedCategories.filter((category) => {
         const progress = getCategoryProgress(category.id.toString(), selectedLevel);
         return progress === 100;
       }).sort((a, b) => a.id - b.id); // Sort finished by lesson number
     }
     return sortedCategories;
-  }, [sortedCategories, filterTab, selectedLevel, getCategoryProgress]);
+  }, [sortedCategories, vocabularyFilterTab, selectedLevel, getCategoryProgress]);
 
   // Divide vocabulary categories into tabs (pagination with limit 10)
   const categoryTabs = useMemo(() => {
@@ -98,7 +97,7 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
 
   // Reset to Part 1 when filter changes
   const handleFilterChange = (value: string) => {
-    setFilterTab(value as "all" | "in-progress" | "finished");
+    setVocabularyFilterTab(value as "all" | "in-progress" | "finished");
     setActiveTab("1");
   };
 
@@ -139,7 +138,7 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
     return (
       <div className="space-y-4">
         {/* Filter Tabs */}
-        <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+        <Tabs value={vocabularyFilterTab} onValueChange={handleFilterChange} className="w-full">
           <TabsList className="grid w-full grid-cols-3">
             <TabsTrigger value="all" className="text-xs">
               All
@@ -157,9 +156,9 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
         {categoryTabs[0].categories.length === 0 ? (
           <div className="py-8 text-center">
             <p className="text-muted-foreground">
-              {filterTab === "finished"
+              {vocabularyFilterTab === "finished"
                 ? "No completed lessons yet. Keep learning! 💪"
-                : filterTab === "in-progress"
+                : vocabularyFilterTab === "in-progress"
                 ? "No lessons in progress. Start learning now! 🚀"
                 : "No lessons available"}
             </p>
@@ -188,9 +187,9 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
 
   // Display with tabs if categories > 10
   return (
-    <div className="space-y-4">
+      <div className="space-y-4">
       {/* Filter Tabs */}
-      <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+      <Tabs value={vocabularyFilterTab} onValueChange={handleFilterChange} className="w-full">
         <TabsList className="grid w-full grid-cols-3">
           <TabsTrigger value="all" className="text-xs sm:text-sm">
             All
@@ -222,9 +221,9 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
             {tab.categories.length === 0 ? (
               <div className="py-8 text-center">
                 <p className="text-muted-foreground">
-                  {filterTab === "finished"
+                  {vocabularyFilterTab === "finished"
                     ? "No completed lessons in this part yet. Keep learning! 💪"
-                    : filterTab === "in-progress"
+                    : vocabularyFilterTab === "in-progress"
                     ? "No lessons in progress in this part. Start learning now! 🚀"
                     : "No lessons available in this part"}
                 </p>

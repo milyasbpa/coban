@@ -20,12 +20,11 @@ interface KanjiStrokeLessonsSectionProps {
 }
 
 export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeLessonsSectionProps) {
-  const { selectedLevel } = useHomeSettingsStore();
+  const { selectedLevel, kanjiStrokeFilterTab, setKanjiStrokeFilterTab } = useHomeSettingsStore();
   const { openKanjiExerciseModal } = useHomeStore();
   const { getLessonProgress, isInitialized } = useKanjiScoreStore();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("1");
-  const [filterTab, setFilterTab] = useState<"all" | "in-progress" | "finished">("in-progress");
 
   // Reset to tab 1 when selected level changed
   useEffect(() => {
@@ -64,21 +63,21 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
 
   // Apply filter based on selected filter tab
   const filteredLessons = useMemo(() => {
-    if (filterTab === "all") {
+    if (kanjiStrokeFilterTab === "all") {
       return sortedLessons;
-    } else if (filterTab === "in-progress") {
+    } else if (kanjiStrokeFilterTab === "in-progress") {
       return sortedLessons.filter((lesson) => {
         const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
         return progress > 0 && progress < 100;
       });
-    } else if (filterTab === "finished") {
+    } else if (kanjiStrokeFilterTab === "finished") {
       return sortedLessons.filter((lesson) => {
         const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
         return progress === 100;
       }).sort((a, b) => a.id - b.id); // Sort finished by lesson number
     }
     return sortedLessons;
-  }, [sortedLessons, filterTab, selectedLevel, getLessonProgress]);
+  }, [sortedLessons, kanjiStrokeFilterTab, selectedLevel, getLessonProgress]);
 
   // Bagi stroke lessons ke dalam tab-tab (pagination dengan limit 10)
   const lessonTabs = useMemo(() => {
@@ -100,7 +99,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
 
   // Reset to Part 1 when filter changes
   const handleFilterChange = (value: string) => {
-    setFilterTab(value as "all" | "in-progress" | "finished");
+    setKanjiStrokeFilterTab(value as "all" | "in-progress" | "finished");
     setActiveTab("1");
   };
 
@@ -138,7 +137,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
     return (
       <div className="space-y-4">
         {/* Filter Tabs */}
-        <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+        <Tabs value={kanjiStrokeFilterTab} onValueChange={handleFilterChange} className="w-full">
           <TabsList className="grid w-full grid-cols-3">
             <TabsTrigger value="all" className="text-xs">
               All
@@ -156,9 +155,9 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
         {lessonTabs[0].lessons.length === 0 ? (
           <div className="py-8 text-center">
             <p className="text-muted-foreground">
-              {filterTab === "finished"
+              {kanjiStrokeFilterTab === "finished"
                 ? "No completed lessons yet. Keep learning! 💪"
-                : filterTab === "in-progress"
+                : kanjiStrokeFilterTab === "in-progress"
                 ? "No lessons in progress. Start learning now! 🚀"
                 : "No lessons available"}
             </p>
@@ -186,9 +185,9 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
 
   // Tampilkan dengan tabs jika lessons > 10
   return (
-    <div className="space-y-4">
+      <div className="space-y-4">
       {/* Filter Tabs */}
-      <Tabs value={filterTab} onValueChange={handleFilterChange} className="w-full">
+      <Tabs value={kanjiStrokeFilterTab} onValueChange={handleFilterChange} className="w-full">
         <TabsList className="grid w-full grid-cols-3">
           <TabsTrigger value="all" className="text-xs sm:text-sm">
             All
@@ -233,11 +232,11 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
         {lessonTabs.map((tab) => (
           <TabsContent key={tab.id} value={tab.id} className="space-y-4">
             {tab.lessons.length === 0 ? (
-              <div className="py-8 text-center">
+                  <div className="py-8 text-center">
                 <p className="text-muted-foreground">
-                  {filterTab === "finished"
+                  {kanjiStrokeFilterTab === "finished"
                     ? "No completed lessons in this part yet. Keep learning! 💪"
-                    : filterTab === "in-progress"
+                    : kanjiStrokeFilterTab === "in-progress"
                     ? "No lessons in progress in this part. Start learning now! 🚀"
                     : "No lessons available in this part"}
                 </p>
