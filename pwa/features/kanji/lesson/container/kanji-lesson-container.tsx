@@ -7,16 +7,29 @@ import { SelectionBottomNav } from "../fragments/selection-bottom-nav";
 import { ScrollFloatingButton } from "@/pwa/core/components/scroll-floating-button";
 import { useKanjiSelection } from "../store/kanji-selection.store";
 import { useLastVisitedPage } from "@/pwa/core/lib/hooks/use-last-visited-page";
+import { useScrollRestoration } from "@/pwa/core/lib/hooks/use-scroll-restoration";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
+import { useSearchParams } from "next/navigation";
 
 export function KanjiLessonContainer() {
   const { isSelectionMode, initializeSelectionMode } = useKanjiSelection();
   const { isAuthenticated, user } = useLoginStore();
   const { initializeUser, isInitialized } = useKanjiScoreStore();
+  const searchParams = useSearchParams();
+  
+  const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
+  const level = searchParams.get("level") || "N5";
   
   // Auto-save current page URL for restoration after restart
   useLastVisitedPage();
+
+  // Auto-save and restore scroll position
+  const scrollKey = topicId 
+    ? `kanji-scroll-topic-${topicId}-${level}`
+    : `kanji-scroll-${lessonId}-${level}`;
+  useScrollRestoration(scrollKey);
 
   // Initialize selection mode from localStorage on mount
   useEffect(() => {

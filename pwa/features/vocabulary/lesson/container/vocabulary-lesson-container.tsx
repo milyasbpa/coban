@@ -7,16 +7,25 @@ import { VocabularyList } from "../fragments/vocabulary-list";
 import { ScrollFloatingButton } from "@/pwa/core/components/scroll-floating-button";
 import { useVocabularySelection } from "../store/vocabulary-selection.store";
 import { useLastVisitedPage } from "@/pwa/core/lib/hooks/use-last-visited-page";
+import { useScrollRestoration } from "@/pwa/core/lib/hooks/use-scroll-restoration";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
+import { useSearchParams } from "next/navigation";
 
 export function VocabularyLessonContainer() {
   const { isSelectionMode, initializeSelectionMode } = useVocabularySelection();
   const { isAuthenticated, user } = useLoginStore();
   const { initializeUser, isInitialized } = useVocabularyScoreStore();
+  const searchParams = useSearchParams();
+  
+  const categoryId = searchParams.get("categoryId");
+  const level = searchParams.get("level") || "N5";
   
   // Auto-save current page URL for restoration after restart
   useLastVisitedPage();
+
+  // Auto-save and restore scroll position
+  useScrollRestoration(`vocabulary-scroll-${categoryId}-${level}`);
 
   // Initialize selection mode from localStorage on mount
   useEffect(() => {
