@@ -44,7 +44,7 @@ export function useScrollRestoration(storageKey: string) {
     if (savedScroll) {
       // Delay to ensure DOM is fully rendered
       // Offset to account for sticky header (56px = h-14) + selection nav (if visible)
-      const offset = 150; // Adjust this value to control how much higher
+      const offset = 180; // Adjust this value to control how much higher
       const targetScroll = Math.max(0, parseInt(savedScroll) - offset);
       
       setTimeout(() => {
