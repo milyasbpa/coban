@@ -5,23 +5,35 @@ import { ArrowLeft } from 'lucide-react';
 import { AppHeader } from '@/pwa/core/components/app-header';
 import { useVocabularyWritingExerciseStore } from '../store/vocabulary-writing-exercise.store';
 import { useLoginStore } from '@/pwa/features/login/store';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { clearLastVisitedPage } from '@/pwa/core/lib/hooks/use-last-visited-page';
 import { signOut } from 'firebase/auth';
 import { auth } from '@/pwa/core/config/firebase';
 
 export function VocabularyWritingHeader() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { gameState, questionState, getCurrentQuestionNumber, getTotalQuestions } = useVocabularyWritingExerciseStore();
   const { isAuthenticated, user, logout: storeLogout } = useLoginStore();
   const currentQuestionIndex = getCurrentQuestionNumber();
   const totalQuestions = getTotalQuestions();
   const score = gameState.score;
   
+  const categoryId = searchParams.get("categoryId");
+  const level = searchParams.get("level");
+  const selectedVocabularyParam = searchParams.get("selectedVocabulary");
+  
   const progress = totalQuestions > 0 ? ((currentQuestionIndex) / totalQuestions) * 100 : 0;
   
+  const getBackUrl = () => {
+    if (selectedVocabularyParam && categoryId && level) {
+      return `/vocabulary/lesson?categoryId=${categoryId}&level=${level}`;
+    }
+    return "/";
+  };
+  
   const handleBack = () => {
-    router.back();
+    router.push(getBackUrl());
   };
 
   const handleLogout = async () => {
@@ -43,7 +55,7 @@ export function VocabularyWritingHeader() {
       <AppHeader
         leftSide={{
           type: "back",
-          href: "/",
+          href: getBackUrl(),
           icon: ArrowLeft,
           onClick: handleBack,
         }}
