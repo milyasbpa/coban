@@ -10,6 +10,7 @@ import { VocabularyService } from "@/pwa/core/services/vocabulary";
 import { RotateCcw, PenLine, Link2 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo } from "react";
+import Link from "next/link";
 
 function getScoreColor(score: number) {
   if (score >= 90) {
@@ -125,10 +126,6 @@ export function VocabularyReadingGameResult() {
 
   const handleGameRestart = () => {
     restartGame();
-  };
-
-  const handleBackToHome = () => {
-    router.push("/");
   };
 
   const handleNavigateToExercise = (exerciseType: "writing" | "pairing") => {
@@ -257,13 +254,14 @@ export function VocabularyReadingGameResult() {
               Play Again
             </Button>
             
-            <Button
-              onClick={handleBackToHome}
-              variant="outline"
-              className="w-full"
-            >
-              Back to Home
-            </Button>
+            <Link href={selectedVocabularyParam && categoryId && level ? `/vocabulary/lesson?categoryId=${categoryId}&level=${level}` : "/"} className="w-full">
+              <Button
+                variant="outline"
+                className="w-full"
+              >
+                Back to Home
+              </Button>
+            </Link>
           </div>
         </Card>
       </div>

@@ -12,6 +12,7 @@ import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { integrateVocabularyWritingExerciseScore } from "../utils/scoring-integration";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
+import Link from "next/link";
 
 export const VocabularyWritingGameResult = () => {
   const router = useRouter();
@@ -142,10 +143,6 @@ export const VocabularyWritingGameResult = () => {
 
   const handlePlayAgain = () => {
     store.restartGame();
-  };
-
-  const handleBack = () => {
-    router.back();
   };
 
   const handleNavigateToExercise = (exerciseType: "reading" | "pairing") => {
@@ -279,14 +276,15 @@ export const VocabularyWritingGameResult = () => {
               Play Again
             </Button>
 
-            <Button
-              onClick={handleBack}
-              className="w-full"
-              variant="outline"
-              size="lg"
-            >
-              Back to Home
-            </Button>
+            <Link href={selectedVocabularyParam && categoryId && level ? `/vocabulary/lesson?categoryId=${categoryId}&level=${level}` : "/"} className="w-full">
+              <Button
+                variant="outline"
+                size="lg"
+                className="w-full"
+              >
+                Back to Home
+              </Button>
+            </Link>
           </div>
         </Card>
       </div>
