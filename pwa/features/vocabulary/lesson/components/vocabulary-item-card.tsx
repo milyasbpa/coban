@@ -2,7 +2,13 @@
 
 import { useState } from "react";
 import { Card } from "@/pwa/core/components/card";
-import { Volume2, ChevronDown, ChevronUp, MoreVertical, RotateCcw } from "lucide-react";
+import {
+  Volume2,
+  ChevronDown,
+  ChevronUp,
+  MoreVertical,
+  RotateCcw,
+} from "lucide-react";
 import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { useVocabularyDisplayOptions } from "../store/display-options.store";
@@ -26,11 +32,11 @@ import {
   AlertDialogTitle,
 } from "@/pwa/core/components/alert-dialog";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
-import { 
-  getMasteryLevel, 
-  shouldDisplayMastery, 
+import {
+  getMasteryLevel,
+  shouldDisplayMastery,
   formatAccuracy,
-  calculateAverageAccuracy 
+  calculateAverageAccuracy,
 } from "@/pwa/core/lib/utils/mastery";
 
 interface VocabularyItemCardProps {
@@ -54,7 +60,8 @@ export function VocabularyItemCard({
   const { language } = useLanguage();
   const { isSelectionMode, selectedVocabularyIds, toggleVocabularySelection } =
     useVocabularySelection();
-  const { resetVocabularyStatistics, getVocabularyAccuracy } = useVocabularyScoreStore();
+  const { resetVocabularyStatistics, getVocabularyAccuracy } =
+    useVocabularyScoreStore();
   const isSelected = selectedVocabularyIds.has(vocabulary.id);
   const hasExamples = vocabulary.examples && vocabulary.examples.length > 0;
 
@@ -105,7 +112,11 @@ export function VocabularyItemCard({
 
   const handleReset = async () => {
     try {
-      await resetVocabularyStatistics(vocabulary.id.toString(), level, categoryId);
+      await resetVocabularyStatistics(
+        vocabulary.id.toString(),
+        level,
+        categoryId
+      );
       setShowResetDialog(false);
     } catch (error) {
       console.error("Error resetting vocabulary statistics:", error);
@@ -157,14 +168,17 @@ export function VocabularyItemCard({
   };
 
   // Helper function to highlight meanings (handles comma-separated meanings)
-  const highlightMatchingMeanings = (text: string, vocabularyMeaning: string) => {
+  const highlightMatchingMeanings = (
+    text: string,
+    vocabularyMeaning: string
+  ) => {
     if (!text || !vocabularyMeaning) return text;
 
     // Split vocabulary meaning by comma and trim whitespace
     const meaningWords = vocabularyMeaning
-      .split(',')
-      .map(word => word.trim())
-      .filter(word => word.length > 0);
+      .split(",")
+      .map((word) => word.trim())
+      .filter((word) => word.length > 0);
 
     // If no words found, return original text
     if (meaningWords.length === 0) return text;
@@ -190,11 +204,13 @@ export function VocabularyItemCard({
         // Check if word matches at current position (case insensitive)
         if (lowerRestOfText.startsWith(lowerWord)) {
           // Check boundaries - word should be standalone (not part of bigger word)
-          const charBefore = currentIndex > 0 ? remainingText[currentIndex - 1] : ' ';
-          const charAfter = currentIndex + word.length < remainingText.length 
-            ? remainingText[currentIndex + word.length] 
-            : ' ';
-          
+          const charBefore =
+            currentIndex > 0 ? remainingText[currentIndex - 1] : " ";
+          const charAfter =
+            currentIndex + word.length < remainingText.length
+              ? remainingText[currentIndex + word.length]
+              : " ";
+
           const isWordBoundaryBefore = /[\s,;.!?]/.test(charBefore);
           const isWordBoundaryAfter = /[\s,;.!?]/.test(charAfter);
 
@@ -205,9 +221,7 @@ export function VocabularyItemCard({
                 key={`meaning-${keyCounter++}`}
                 className={cn(
                   "font-bold transition-colors rounded px-0.5",
-                  isSelected
-                    ? "text-primary bg-primary/20"
-                    : "text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/30"
+                  "text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/30"
                 )}
               >
                 {remainingText.slice(currentIndex, currentIndex + word.length)}
@@ -223,7 +237,7 @@ export function VocabularyItemCard({
       // If no match found, add current character
       if (!matched) {
         // Collect unmatched characters until next potential match
-        let unmatchedText = '';
+        let unmatchedText = "";
         let tempIndex = currentIndex;
         let foundNextMatch = false;
 
@@ -481,13 +495,16 @@ export function VocabularyItemCard({
           <AlertDialogHeader>
             <AlertDialogTitle>Reset Statistics?</AlertDialogTitle>
             <AlertDialogDescription>
-              This will reset all progress and statistics for &quot;{vocabulary.kanji}&quot;. 
-              This action cannot be undone.
+              This will reset all progress and statistics for &quot;
+              {vocabulary.kanji}&quot;. This action cannot be undone.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
             <AlertDialogCancel>Cancel</AlertDialogCancel>
-            <AlertDialogAction onClick={handleReset} className="bg-destructive hover:bg-destructive/90">
+            <AlertDialogAction
+              onClick={handleReset}
+              className="bg-destructive hover:bg-destructive/90"
+            >
               Reset
             </AlertDialogAction>
           </AlertDialogFooter>
