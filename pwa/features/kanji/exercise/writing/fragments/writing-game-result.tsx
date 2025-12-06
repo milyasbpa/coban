@@ -3,14 +3,24 @@
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
 import { Confetti } from "@/pwa/core/components/confetti";
-import { RotateCcw, Home } from "lucide-react";
+import { RotateCcw, Home, BookOpen, Link2 } from "lucide-react";
 
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
+import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { getScoreColor } from "../../pairing/utils";
+import { useEffect, useMemo } from "react";
 
 export function WritingGameResult() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const { user, isAuthenticated } = useLoginStore();
+  const { currentUserScore, getExerciseProgress, initializeUser } = useKanjiScoreStore();
+
+  const lessonId = searchParams.get("lessonId");
+  const topicId = searchParams.get("topicId");
+  const level = searchParams.get("level") || "N5";
 
   // Get data from store instead of props
   const {
@@ -24,12 +34,48 @@ export function WritingGameResult() {
     getWrongQuestions,
   } = useWritingExerciseStore();
 
+  // Initialize user score
+  useEffect(() => {
+    if (isAuthenticated && user?.uid && !currentUserScore) {
+      initializeUser(user.uid, level as "N5" | "N4" | "N3" | "N2" | "N1");
+    }
+  }, [isAuthenticated, user, currentUserScore, level, initializeUser]);
+
+  // Calculate exercise progress
+  const exerciseProgress = useMemo(() => {
+    const identifier = topicId || lessonId;
+    if (!identifier || !currentUserScore) {
+      return { reading: 0, pairing: 0 };
+    }
+
+    return {
+      reading: getExerciseProgress("reading", identifier, level),
+      pairing: getExerciseProgress("pairing", identifier, level),
+    };
+  }, [topicId, lessonId, level, currentUserScore, getExerciseProgress]);
+
   const handleRestart = () => {
     resetExercise();
   };
 
   const handleBackToHome = () => {
     router.back();
+  };
+
+  const handleNavigateToExercise = (exerciseType: "reading" | "pairing") => {
+    const identifier = topicId || lessonId;
+    if (!identifier) return;
+
+    const baseUrl = `/kanji/exercise/${exerciseType}`;
+    const params = new URLSearchParams({ level });
+
+    if (topicId) {
+      params.append("topicId", topicId);
+    } else if (lessonId) {
+      params.append("lessonId", lessonId);
+    }
+
+    router.push(`${baseUrl}?${params.toString()}`);
   };
 
   const handleRetry = () => {
@@ -76,8 +122,44 @@ export function WritingGameResult() {
             </div>
           </div>
 
-          {/* Action Buttons */}
+          {/* Continue to Other Exercises */}
           <div className="space-y-3 pt-4">
+            <div className="text-sm font-medium text-foreground">
+              Continue to Other Exercises
+            </div>
+            <div className="grid grid-cols-2 gap-3">
+              {/* Reading Exercise */}
+              <button
+                onClick={() => handleNavigateToExercise("reading")}
+                className="flex items-center justify-center gap-2 h-10 px-4 rounded-md border-2 border-border hover:border-primary hover:bg-accent transition-all duration-200 group"
+              >
+                <BookOpen className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                <span className="text-sm font-medium text-foreground">
+                  Reading
+                </span>
+                <span className={`text-sm font-bold ${getScoreColor(exerciseProgress.reading).text}`}>
+                  {exerciseProgress.reading}%
+                </span>
+              </button>
+
+              {/* Pairing Exercise */}
+              <button
+                onClick={() => handleNavigateToExercise("pairing")}
+                className="flex items-center justify-center gap-2 h-10 px-4 rounded-md border-2 border-border hover:border-primary hover:bg-accent transition-all duration-200 group"
+              >
+                <Link2 className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                <span className="text-sm font-medium text-foreground">
+                  Pairing
+                </span>
+                <span className={`text-sm font-bold ${getScoreColor(exerciseProgress.pairing).text}`}>
+                  {exerciseProgress.pairing}%
+                </span>
+              </button>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="space-y-3 pt-4 border-t border-border">
             {/* Retry Button - only show if there are wrong questions and not in retry mode */}
             {showRetryButton && (
               <Button

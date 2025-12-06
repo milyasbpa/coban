@@ -1,24 +1,37 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
 import { Confetti } from "@/pwa/core/components/confetti";
 import { useVocabularyWritingExerciseStore } from "../store/vocabulary-writing-exercise.store";
 import { getScoreColor } from "../../utils/score-colors";
-import { RotateCcw } from "lucide-react";
-import { useEffect, useState } from "react";
+import { RotateCcw, BookOpen, Link2 } from "lucide-react";
+import { useEffect, useState, useMemo } from "react";
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { integrateVocabularyWritingExerciseScore } from "../utils/scoring-integration";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
+import { VocabularyService } from "@/pwa/core/services/vocabulary";
 
 export const VocabularyWritingGameResult = () => {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const store = useVocabularyWritingExerciseStore();
   const { user, isAuthenticated } = useLoginStore();
-  const { refreshUserScore } = useVocabularyScoreStore();
+  const { currentUserScore, getExerciseProgress, refreshUserScore, initializeUser } = useVocabularyScoreStore();
 
   const [isScoreIntegrated, setIsScoreIntegrated] = useState(false);
+
+  const selectedVocabularyParam = searchParams.get("selectedVocabulary");
+
+  const selectedVocabularyIds = useMemo(() => {
+    return selectedVocabularyParam
+      ? selectedVocabularyParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
+      : undefined;
+  }, [selectedVocabularyParam]);
 
   const score = store.gameState.score;
   const totalQuestions = store.getTotalQuestions();
@@ -31,6 +44,53 @@ export const VocabularyWritingGameResult = () => {
   // Score is already in percentage (0-100), no need to calculate again
   const isPerfectScore = score === 100;
   const scoreColors = getScoreColor(score);
+
+  // Initialize user score
+  useEffect(() => {
+    if (isAuthenticated && user?.uid && !currentUserScore) {
+      initializeUser(user.uid, level as "N5" | "N4" | "N3" | "N2" | "N1");
+    }
+  }, [isAuthenticated, user, currentUserScore, level, initializeUser]);
+
+  // Calculate exercise progress
+  const exerciseProgress = useMemo(() => {
+    if (!categoryId || !currentUserScore) {
+      return { reading: 0, pairing: 0 };
+    }
+
+    if (selectedVocabularyIds && selectedVocabularyIds.length > 0) {
+      const categoryData = VocabularyService.getVocabularyByCategory(
+        parseInt(categoryId),
+        level
+      );
+      if (!categoryData) return { reading: 0, pairing: 0 };
+
+      const categoryMastery = currentUserScore.vocabularyMastery[level]?.[categoryId];
+      if (!categoryMastery) return { reading: 0, pairing: 0 };
+
+      let readingCompleted = 0;
+      let pairingCompleted = 0;
+
+      selectedVocabularyIds.forEach((vocabId) => {
+        const mastery = categoryMastery[vocabId.toString()];
+        if (mastery) {
+          if (mastery.exerciseScores.reading > 0) readingCompleted++;
+          if (mastery.exerciseScores.pairing > 0) pairingCompleted++;
+        }
+      });
+
+      const total = selectedVocabularyIds.length;
+      return {
+        reading: Math.round((readingCompleted / total) * 100),
+        pairing: Math.round((pairingCompleted / total) * 100),
+      };
+    }
+
+    return {
+      reading: getExerciseProgress("reading", categoryId, level),
+      pairing: getExerciseProgress("pairing", categoryId, level),
+    };
+  }, [categoryId, level, selectedVocabularyIds, currentUserScore, getExerciseProgress]);
 
   // Integrate score with vocabulary scoring system (only once)
   useEffect(() => {
@@ -86,6 +146,22 @@ export const VocabularyWritingGameResult = () => {
 
   const handleBack = () => {
     router.back();
+  };
+
+  const handleNavigateToExercise = (exerciseType: "reading" | "pairing") => {
+    if (!categoryId) return;
+
+    const baseUrl = `/vocabulary/exercise/${exerciseType}`;
+    const params = new URLSearchParams({
+      categoryId,
+      level,
+    });
+
+    if (selectedVocabularyParam) {
+      params.append("selectedVocabulary", selectedVocabularyParam);
+    }
+
+    router.push(`${baseUrl}?${params.toString()}`);
   };
 
   return (
@@ -144,8 +220,44 @@ export const VocabularyWritingGameResult = () => {
             </div>
           </div>
 
-          {/* Action Buttons */}
+          {/* Continue to Other Exercises */}
           <div className="space-y-3 pt-4">
+            <div className="text-sm font-medium text-foreground">
+              Continue to Other Exercises
+            </div>
+            <div className="grid grid-cols-2 gap-3">
+              {/* Reading Exercise */}
+              <button
+                onClick={() => handleNavigateToExercise("reading")}
+                className="flex items-center justify-center gap-2 h-10 px-4 rounded-md border-2 border-border hover:border-primary hover:bg-accent transition-all duration-200 group"
+              >
+                <BookOpen className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                <span className="text-sm font-medium text-foreground">
+                  Reading
+                </span>
+                <span className={`text-sm font-bold ${getScoreColor(exerciseProgress.reading).text}`}>
+                  {exerciseProgress.reading}%
+                </span>
+              </button>
+
+              {/* Pairing Exercise */}
+              <button
+                onClick={() => handleNavigateToExercise("pairing")}
+                className="flex items-center justify-center gap-2 h-10 px-4 rounded-md border-2 border-border hover:border-primary hover:bg-accent transition-all duration-200 group"
+              >
+                <Link2 className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                <span className="text-sm font-medium text-foreground">
+                  Pairing
+                </span>
+                <span className={`text-sm font-bold ${getScoreColor(exerciseProgress.pairing).text}`}>
+                  {exerciseProgress.pairing}%
+                </span>
+              </button>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="space-y-3 pt-4 border-t border-border">
             {store.canRetry() && !isRetryMode && (
               <Button
                 onClick={handleRetry}

@@ -4,8 +4,12 @@ import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
 import { Confetti } from "@/pwa/core/components/confetti";
 import { useVocabularyReadingExerciseStore } from "../store/vocabulary-reading-exercise.store";
-import { RotateCcw } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
+import { useLoginStore } from "@/pwa/features/login/store/login.store";
+import { VocabularyService } from "@/pwa/core/services/vocabulary";
+import { RotateCcw, PenLine, Link2 } from "lucide-react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useMemo } from "react";
 
 function getScoreColor(score: number) {
   if (score >= 90) {
@@ -34,6 +38,22 @@ function getScoreColor(score: number) {
 
 export function VocabularyReadingGameResult() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const { user, isAuthenticated } = useLoginStore();
+  const { currentUserScore, getExerciseProgress, initializeUser } = useVocabularyScoreStore();
+
+  const categoryId = searchParams.get("categoryId");
+  const level = searchParams.get("level") || "N5";
+  const selectedVocabularyParam = searchParams.get("selectedVocabulary");
+
+  const selectedVocabularyIds = useMemo(() => {
+    return selectedVocabularyParam
+      ? selectedVocabularyParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
+      : undefined;
+  }, [selectedVocabularyParam]);
 
   const {
     gameState: { score, isRetryMode },
@@ -44,6 +64,53 @@ export function VocabularyReadingGameResult() {
     startRetryMode,
     restartGame,
   } = useVocabularyReadingExerciseStore();
+
+  // Initialize user score
+  useEffect(() => {
+    if (isAuthenticated && user?.uid && !currentUserScore) {
+      initializeUser(user.uid, level as "N5" | "N4" | "N3" | "N2" | "N1");
+    }
+  }, [isAuthenticated, user, currentUserScore, level, initializeUser]);
+
+  // Calculate exercise progress
+  const exerciseProgress = useMemo(() => {
+    if (!categoryId || !currentUserScore) {
+      return { writing: 0, pairing: 0 };
+    }
+
+    if (selectedVocabularyIds && selectedVocabularyIds.length > 0) {
+      const categoryData = VocabularyService.getVocabularyByCategory(
+        parseInt(categoryId),
+        level
+      );
+      if (!categoryData) return { writing: 0, pairing: 0 };
+
+      const categoryMastery = currentUserScore.vocabularyMastery[level]?.[categoryId];
+      if (!categoryMastery) return { writing: 0, pairing: 0 };
+
+      let writingCompleted = 0;
+      let pairingCompleted = 0;
+
+      selectedVocabularyIds.forEach((vocabId) => {
+        const mastery = categoryMastery[vocabId.toString()];
+        if (mastery) {
+          if (mastery.exerciseScores.writing > 0) writingCompleted++;
+          if (mastery.exerciseScores.pairing > 0) pairingCompleted++;
+        }
+      });
+
+      const total = selectedVocabularyIds.length;
+      return {
+        writing: Math.round((writingCompleted / total) * 100),
+        pairing: Math.round((pairingCompleted / total) * 100),
+      };
+    }
+
+    return {
+      writing: getExerciseProgress("writing", categoryId, level),
+      pairing: getExerciseProgress("pairing", categoryId, level),
+    };
+  }, [categoryId, level, selectedVocabularyIds, currentUserScore, getExerciseProgress]);
 
   const scoreColors = getScoreColor(score);
   const isPerfectScore = score === 100;
@@ -62,6 +129,22 @@ export function VocabularyReadingGameResult() {
 
   const handleBackToHome = () => {
     router.push("/");
+  };
+
+  const handleNavigateToExercise = (exerciseType: "writing" | "pairing") => {
+    if (!categoryId) return;
+
+    const baseUrl = `/vocabulary/exercise/${exerciseType}`;
+    const params = new URLSearchParams({
+      categoryId,
+      level,
+    });
+
+    if (selectedVocabularyParam) {
+      params.append("selectedVocabulary", selectedVocabularyParam);
+    }
+
+    router.push(`${baseUrl}?${params.toString()}`);
   };
 
   return (
@@ -116,8 +199,44 @@ export function VocabularyReadingGameResult() {
             </div>
           </div>
 
-          {/* Action Buttons */}
+          {/* Continue to Other Exercises */}
           <div className="space-y-3 pt-4">
+            <div className="text-sm font-medium text-foreground">
+              Continue to Other Exercises
+            </div>
+            <div className="grid grid-cols-2 gap-3">
+              {/* Writing Exercise */}
+              <button
+                onClick={() => handleNavigateToExercise("writing")}
+                className="flex items-center justify-center gap-2 h-10 px-4 rounded-md border-2 border-border hover:border-primary hover:bg-accent transition-all duration-200 group"
+              >
+                <PenLine className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                <span className="text-sm font-medium text-foreground">
+                  Writing
+                </span>
+                <span className={`text-sm font-bold ${getScoreColor(exerciseProgress.writing).text}`}>
+                  {exerciseProgress.writing}%
+                </span>
+              </button>
+
+              {/* Pairing Exercise */}
+              <button
+                onClick={() => handleNavigateToExercise("pairing")}
+                className="flex items-center justify-center gap-2 h-10 px-4 rounded-md border-2 border-border hover:border-primary hover:bg-accent transition-all duration-200 group"
+              >
+                <Link2 className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                <span className="text-sm font-medium text-foreground">
+                  Pairing
+                </span>
+                <span className={`text-sm font-bold ${getScoreColor(exerciseProgress.pairing).text}`}>
+                  {exerciseProgress.pairing}%
+                </span>
+              </button>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="space-y-3 pt-4 border-t border-border">
             {/* Retry Button - only show if there are wrong answers and not in retry mode */}
             {canShowRetry && (
               <Button
