@@ -43,8 +43,12 @@ export function useScrollRestoration(storageKey: string) {
     const savedScroll = localStorage.getItem(storageKey);
     if (savedScroll) {
       // Delay to ensure DOM is fully rendered
+      // Offset to account for sticky header (56px = h-14) + selection nav (if visible)
+      const offset = 150; // Adjust this value to control how much higher
+      const targetScroll = Math.max(0, parseInt(savedScroll) - offset);
+      
       setTimeout(() => {
-        window.scrollTo(0, parseInt(savedScroll));
+        window.scrollTo(0, targetScroll);
       }, 100);
     }
   }, [storageKey]);
