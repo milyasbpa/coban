@@ -100,9 +100,7 @@ export function VocabularyItemCard({
 
   const toggleExpand = (e: React.MouseEvent) => {
     e.stopPropagation();
-    if (!isSelectionMode) {
-      setIsExpanded(!isExpanded);
-    }
+    setIsExpanded(!isExpanded);
   };
 
   const handleReset = async () => {
