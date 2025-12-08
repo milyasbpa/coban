@@ -118,15 +118,6 @@ export function formatAccuracy(accuracy: number): string {
 }
 
 /**
- * Check if item should display mastery badge
- * @param accuracy - Accuracy percentage
- * @returns True if accuracy > 0 (not new)
- */
-export function shouldDisplayMastery(accuracy: number): boolean {
-  return accuracy > 0;
-}
-
-/**
  * Get mastery filter options for selection UI
  * @returns Array of mastery level options for filtering
  */

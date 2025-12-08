@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Card } from "@/pwa/core/components/card";
 import {
   Volume2,
@@ -8,6 +8,9 @@ import {
   ChevronUp,
   MoreVertical,
   RotateCcw,
+  Edit3,
+  Book,
+  Users,
 } from "lucide-react";
 import { VocabularyWord } from "@/pwa/core/services/vocabulary";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
@@ -34,7 +37,6 @@ import {
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
 import {
   getMasteryLevel,
-  shouldDisplayMastery,
   formatAccuracy,
   calculateAverageAccuracy,
 } from "@/pwa/core/lib/utils/mastery";
@@ -60,7 +62,7 @@ export function VocabularyItemCard({
   const { language } = useLanguage();
   const { isSelectionMode, selectedVocabularyIds, toggleVocabularySelection } =
     useVocabularySelection();
-  const { resetVocabularyStatistics, getVocabularyAccuracy } =
+  const { resetVocabularyStatistics, getVocabularyAccuracy, currentUserScore } =
     useVocabularyScoreStore();
   const isSelected = selectedVocabularyIds.has(vocabulary.id);
   const hasExamples = vocabulary.examples && vocabulary.examples.length > 0;
@@ -71,11 +73,24 @@ export function VocabularyItemCard({
     level,
     categoryId
   );
-  const accuracy = vocabularyAccuracy || 0;
+  // getVocabularyAccuracy returns null if no attempts, or 0-100 if there are attempts
+  // We want to show badge when user has attempted (even if accuracy is 0%), not when no attempts yet
+  const accuracy = vocabularyAccuracy ?? 0;
+  const hasAttempts = vocabularyAccuracy !== null;
   const masteryConfig = getMasteryLevel(accuracy);
-  const showMastery = shouldDisplayMastery(accuracy);
+  const showMastery = hasAttempts; // Show badge if user has made any attempts, regardless of accuracy
 
-  const handleClick = () => {
+  // Calculate exercise completion status
+  const exerciseStatus = useMemo(() => {
+    const categoryMastery = currentUserScore?.vocabularyMastery[level]?.[categoryId];
+    const mastery = categoryMastery?.[vocabulary.id.toString()];
+    
+    return {
+      writing: (mastery?.exerciseScores?.writing ?? 0) > 0,
+      reading: (mastery?.exerciseScores?.reading ?? 0) > 0,
+      pairing: (mastery?.exerciseScores?.pairing ?? 0) > 0,
+    };
+  }, [currentUserScore, level, categoryId, vocabulary.id]);  const handleClick = () => {
     if (isSelectionMode) {
       toggleVocabularySelection(vocabulary.id);
     } else if (onClick) {
@@ -344,7 +359,7 @@ export function VocabularyItemCard({
 
             {/* Mastery Badge - Small chip below content */}
             {showMastery && (
-              <div className="mt-0.5">
+              <div className="flex items-center gap-1.5 mt-0.5">
                 <span
                   className={cn(
                     "inline-flex items-center text-[10px] font-bold px-1.5 py-0.5 rounded transition-colors",
@@ -354,6 +369,69 @@ export function VocabularyItemCard({
                 >
                   {formatAccuracy(accuracy)}
                 </span>
+
+                {/* Exercise Status Icons */}
+                <div className="flex items-center gap-1">
+                  {/* Writing */}
+                  <div
+                    className={cn(
+                      "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                      exerciseStatus.writing
+                        ? "bg-green-100 dark:bg-green-900/30"
+                        : "bg-muted"
+                    )}
+                    title="Writing Exercise"
+                  >
+                    <Edit3
+                      className={cn(
+                        "h-3 w-3",
+                        exerciseStatus.writing
+                          ? "text-green-600 dark:text-green-400"
+                          : "text-muted-foreground"
+                      )}
+                    />
+                  </div>
+
+                  {/* Reading */}
+                  <div
+                    className={cn(
+                      "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                      exerciseStatus.reading
+                        ? "bg-green-100 dark:bg-green-900/30"
+                        : "bg-muted"
+                    )}
+                    title="Reading Exercise"
+                  >
+                    <Book
+                      className={cn(
+                        "h-3 w-3",
+                        exerciseStatus.reading
+                          ? "text-green-600 dark:text-green-400"
+                          : "text-muted-foreground"
+                      )}
+                    />
+                  </div>
+
+                  {/* Pairing */}
+                  <div
+                    className={cn(
+                      "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                      exerciseStatus.pairing
+                        ? "bg-green-100 dark:bg-green-900/30"
+                        : "bg-muted"
+                    )}
+                    title="Pairing Exercise"
+                  >
+                    <Users
+                      className={cn(
+                        "h-3 w-3",
+                        exerciseStatus.pairing
+                          ? "text-green-600 dark:text-green-400"
+                          : "text-muted-foreground"
+                      )}
+                    />
+                  </div>
+                </div>
               </div>
             )}
           </div>

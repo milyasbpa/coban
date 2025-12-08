@@ -3,7 +3,7 @@
 import { Badge } from "@/pwa/core/components/badge";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
-import { Volume2, MoreVertical, RotateCcw } from "lucide-react";
+import { Volume2, MoreVertical, RotateCcw, Edit3, Book, Users } from "lucide-react";
 import { KanjiDetail } from "../utils/kanji";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useKanjiSelection } from "../store/kanji-selection.store";
@@ -16,7 +16,7 @@ import { useDisplayOptions } from "../store/display-options.store";
 import { cn } from "@/pwa/core/lib/utils";
 import { playAudio } from "@/pwa/core/lib/utils/audio";
 import { KanjiStrokeAnimator } from "./kanji-stroke-animator";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -36,7 +36,6 @@ import {
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import {
   getMasteryLevel,
-  shouldDisplayMastery,
   formatAccuracy,
 } from "@/pwa/core/lib/utils/mastery";
 
@@ -51,16 +50,40 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
   const { isSelectionMode, selectedKanjiIds, toggleKanjiSelection } =
     useKanjiSelection();
   const { displayOptions } = useDisplayOptions();
-  const { resetKanjiStatistics, getKanjiAccuracy } = useKanjiScoreStore();
+  const { resetKanjiStatistics, getKanjiAccuracy, currentUserScore } = useKanjiScoreStore();
   const isSelected = selectedKanjiIds.has(kanji.id);
   const [isAnimating, setIsAnimating] = useState(false);
   const [showResetDialog, setShowResetDialog] = useState(false);
 
   // Get kanji mastery level
   const kanjiAccuracy = getKanjiAccuracy(kanji.id.toString(), level);
-  const accuracy = kanjiAccuracy || 0;
+  // getKanjiAccuracy returns null if no attempts, or 0-100 if there are attempts
+  // We want to show badge when user has attempted (even if accuracy is 0%), not when no attempts yet
+  const accuracy = kanjiAccuracy ?? 0;
+  const hasAttempts = kanjiAccuracy !== null;
   const masteryConfig = getMasteryLevel(accuracy);
-  const showMastery = shouldDisplayMastery(accuracy);
+  const showMastery = hasAttempts; // Show badge if user has made any attempts, regardless of accuracy
+
+  // Calculate exercise completion status
+  const exerciseStatus = useMemo(() => {
+    const kanjiMastery = currentUserScore?.kanjiMastery[level]?.[kanji.id.toString()];
+    
+    if (!kanjiMastery?.words) {
+      return {
+        writing: false,
+        reading: false,
+        pairing: false,
+      };
+    }
+    
+    // Check if any word in this kanji has completed each exercise type
+    const words = Object.values(kanjiMastery.words);
+    return {
+      writing: words.some((word) => (word.exerciseScores?.writing ?? 0) > 0),
+      reading: words.some((word) => (word.exerciseScores?.reading ?? 0) > 0),
+      pairing: words.some((word) => (word.exerciseScores?.pairing ?? 0) > 0),
+    };
+  }, [currentUserScore, level, kanji.id]);
 
   const handleCardClick = () => {
     if (isSelectionMode) {
@@ -188,9 +211,10 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
               </div>
             )}
 
-            {/* Mastery Badge - Small chip below meaning */}
-            {showMastery && (
-              <div className="mt-0.5">
+            {/* Mastery Badge and Exercise Status Icons */}
+            <div className="flex items-center gap-1 mt-0.5">
+              {/* Mastery Badge */}
+              {showMastery && (
                 <span
                   className={cn(
                     "inline-flex items-center text-[10px] font-bold px-1.5 py-0.5 rounded transition-colors",
@@ -200,8 +224,50 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
                 >
                   {formatAccuracy(accuracy)}
                 </span>
+              )}
+
+              {/* Exercise Status Icons */}
+              <div className="flex items-center gap-0.5">
+                {/* Writing */}
+                <div
+                  className={cn(
+                    "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                    exerciseStatus.writing
+                      ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
+                      : "bg-muted text-muted-foreground"
+                  )}
+                  title="Writing Exercise"
+                >
+                  <Edit3 className="h-2.5 w-2.5" />
+                </div>
+
+                {/* Reading */}
+                <div
+                  className={cn(
+                    "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                    exerciseStatus.reading
+                      ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
+                      : "bg-muted text-muted-foreground"
+                  )}
+                  title="Reading Exercise"
+                >
+                  <Book className="h-2.5 w-2.5" />
+                </div>
+
+                {/* Pairing */}
+                <div
+                  className={cn(
+                    "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                    exerciseStatus.pairing
+                      ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
+                      : "bg-muted text-muted-foreground"
+                  )}
+                  title="Pairing Exercise"
+                >
+                  <Users className="h-2.5 w-2.5" />
+                </div>
               </div>
-            )}
+            </div>
           </div>
         </div>
 
