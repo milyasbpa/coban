@@ -1,45 +1,120 @@
 {
   "id": 17,
-  "character": "主",
+  "character": "去",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "おも",
-        "romanji": "omo",
+        "furigana": "さ",
+        "romanji": "sa",
         "examples": [
           {
             "id": 1,
-            "word": "主な",
-            "furigana": "おもな",
-            "romanji": "omona",
+            "word": "去る",
+            "furigana": "さる",
+            "romanji": "saru",
             "meanings": {
-              "id": "pokok, utama",
-              "en": "main"
-            }
+              "id": "berlalu, meninggalkan",
+              "en": "to leave, to pass"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼はこの町を去りました。",
+                "furigana": "かれはこのまちをさりました。",
+                "romaji": "kare wa kono machi wo sarimashita.",
+                "meanings": {
+                  "id": "Dia meninggalkan kota ini.",
+                  "en": "He left this town."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ぬし",
-        "romanji": "nushi",
-        "examples": []
+        "furigana": "ざ",
+        "romanji": "za",
+        "examples": [
+          {
+            "id": 1,
+            "word": "置き去り",
+            "furigana": "おきざり",
+            "romanji": "okizari",
+            "meanings": {
+              "id": "perbuatan meninggalkan",
+              "en": "leaving behind"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "荷物を置き去りにしてしまいました。",
+                "furigana": "にもつをおきざりにしてしまいました。",
+                "romaji": "nimotsu wo okizari ni shite shimaimashita.",
+                "meanings": {
+                  "id": "Saya tidak sengaja meninggalkan barang bawaan.",
+                  "en": "I accidentally left my luggage behind."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "on": [
       {
-        "furigana": "シュ",
-        "romanji": "shu",
+        "furigana": "キョ",
+        "romanji": "kyo",
         "examples": [
           {
-            "id": 2,
-            "word": "主人",
-            "furigana": "しゅじん",
-            "romanji": "shujin",
+            "id": 1,
+            "word": "去年",
+            "furigana": "きょねん",
+            "romanji": "kyonen",
             "meanings": {
-              "id": "suami, tuan",
-              "en": "husband, master"
-            }
+              "id": "tahun lalu",
+              "en": "last year"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "去年、日本に行きました。",
+                "furigana": "きょねん、にほんにいきました。",
+                "romaji": "kyonen, nihon ni ikimashita.",
+                "meanings": {
+                  "id": "Tahun lalu, saya pergi ke Jepang.",
+                  "en": "Last year, I went to Japan."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "過去",
+            "furigana": "かこ",
+            "romanji": "kako",
+            "meanings": {
+              "id": "masa lalu",
+              "en": "past"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "過去のことは忘れましょう。",
+                "furigana": "かこのことはわすれましょう。",
+                "romaji": "kako no koto wa wasuremashou.",
+                "meanings": {
+                  "id": "Mari kita lupakan masa lalu.",
+                  "en": "Let's forget about the past."
+                }
+              }
+            ]
           }
         ]
       }
@@ -47,7 +122,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "pokok, utama",
-    "en": "main, master"
+    "id": "pergi, lalu",
+    "en": "leave, past"
   }
 }
