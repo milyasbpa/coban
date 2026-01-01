@@ -1,40 +1,136 @@
 {
   "id": 15,
-  "character": "目",
+  "character": "主",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "め",
-        "romanji": "me",
+        "furigana": "おも",
+        "romanji": "omo",
         "examples": [
           {
             "id": 1,
-            "word": "目",
-            "furigana": "め",
-            "romanji": "me",
+            "word": "主な",
+            "furigana": "おもな",
+            "romanji": "omona",
             "meanings": {
-              "id": "mata",
-              "en": "eye"
-            }
+              "id": "pokok, utama",
+              "en": "main, principal"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この町の主な産業は農業です。",
+                "furigana": "このまちのおもなさんぎょうはのうぎょうです。",
+                "romaji": "kono machi no omona sangyou wa nougyou desu.",
+                "meanings": {
+                  "id": "Industri utama kota ini adalah pertanian.",
+                  "en": "The main industry of this town is agriculture."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ぬし",
+        "romanji": "nushi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "持ち主",
+            "furigana": "もちぬし",
+            "romanji": "mochinushi",
+            "meanings": {
+              "id": "pemilik",
+              "en": "owner"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この鞄の持ち主を探しています。",
+                "furigana": "このかばんのもちぬしをさがしています。",
+                "romaji": "kono kaban no mochinushi wo sagashite imasu.",
+                "meanings": {
+                  "id": "Saya sedang mencari pemilik tas ini.",
+                  "en": "I am looking for the owner of this bag."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "モク",
-        "romanji": "moku",
+        "furigana": "シュ",
+        "romanji": "shu",
         "examples": [
           {
-            "id": 2,
-            "word": "目的",
-            "furigana": "もくてき",
-            "romanji": "mokuteki",
+            "id": 1,
+            "word": "主人",
+            "furigana": "しゅじん",
+            "romanji": "shujin",
             "meanings": {
-              "id": "tujuan",
-              "en": "purpose"
-            }
+              "id": "suami, tuan",
+              "en": "husband, master"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "主人は会社に行きました。",
+                "furigana": "しゅじんはかいしゃにいきました。",
+                "romaji": "shujin wa kaisha ni ikimashita.",
+                "meanings": {
+                  "id": "Suami saya pergi ke kantor.",
+                  "en": "My husband went to the office."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "主食",
+            "furigana": "しゅしょく",
+            "romanji": "shushoku",
+            "meanings": {
+              "id": "makanan pokok",
+              "en": "staple food"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本人の主食はご飯です。",
+                "furigana": "にほんじんのしゅしょくはごはんです。",
+                "romaji": "nihonjin no shushoku wa gohan desu.",
+                "meanings": {
+                  "id": "Makanan pokok orang Jepang adalah nasi.",
+                  "en": "The staple food of Japanese people is rice."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "主張",
+            "furigana": "しゅちょう",
+            "romanji": "shuchou",
+            "meanings": {
+              "id": "pendapat, tuntutan",
+              "en": "assertion, claim"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼の主張は正しいと思います。",
+                "furigana": "かれのしゅちょうはただしいとおもいます。",
+                "romaji": "kare no shuchou wa tadashii to omoimasu.",
+                "meanings": {
+                  "id": "Saya pikir pendapatnya benar.",
+                  "en": "I think his assertion is correct."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mata",
-    "en": "eye"
+    "id": "utama, tuan",
+    "en": "main, master"
   }
 }
