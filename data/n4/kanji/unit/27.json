@@ -1,51 +1,119 @@
 {
   "id": 27,
-  "character": "以",
-  "strokes": 5,
+  "character": "自",
+  "strokes": 6,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "イ",
-        "romanji": "i",
+        "furigana": "みずか",
+        "romanji": "mizuka",
         "examples": [
           {
             "id": 1,
-            "word": "以上",
-            "furigana": "いじょう",
-            "romanji": "ijou",
+            "word": "自ら",
+            "furigana": "みずから",
+            "romanji": "mizukara",
             "meanings": {
-              "id": "di atas",
-              "en": "above"
-            }
-          },
-          {
-            "id": 2,
-            "word": "以内",
-            "furigana": "いない",
-            "romanji": "inai",
-            "meanings": {
-              "id": "di dalam",
-              "en": "within"
-            }
-          },
-          {
-            "id": 3,
-            "word": "以外",
-            "furigana": "いがい",
-            "romanji": "igai",
-            "meanings": {
-              "id": "di luar, kecuali",
-              "en": "outside, except"
-            }
+              "id": "diri sendiri",
+              "en": "oneself"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は自ら問題を解決しました。",
+                "furigana": "かれはみずからもんだいをかいけつしました。",
+                "romaji": "kare wa mizukara mondai wo kaiketsu shimashita.",
+                "meanings": {
+                  "id": "Dia menyelesaikan masalah sendiri.",
+                  "en": "He solved the problem himself."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": null
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "自動",
+            "furigana": "じどう",
+            "romanji": "jidou",
+            "meanings": {
+              "id": "otomatis",
+              "en": "automatic"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "このドアは自動で開きます。",
+                "furigana": "このドアはじどうであきます。",
+                "romaji": "kono doa wa jidou de akimasu.",
+                "meanings": {
+                  "id": "Pintu ini terbuka secara otomatis.",
+                  "en": "This door opens automatically."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "自由",
+            "furigana": "じゆう",
+            "romanji": "jiyuu",
+            "meanings": {
+              "id": "bebas",
+              "en": "freedom, free"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "休みの日は自由に過ごします。",
+                "furigana": "やすみのひはじゆうにすごします。",
+                "romaji": "yasumi no hi wa jiyuu ni sugoshimasu.",
+                "meanings": {
+                  "id": "Saya menghabiskan hari libur dengan bebas.",
+                  "en": "I spend my days off freely."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "自然",
+          "furigana": "しぜん",
+          "romanji": "shizen",
+          "meanings": {
+            "id": "alamiah, alam",
+            "en": "nature, natural"
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "この公園は自然が豊かです。",
+              "furigana": "このこうえんはしぜんがゆたかです。",
+              "romaji": "kono kouen wa shizen ga yutaka desu.",
+              "meanings": {
+                "id": "Taman ini kaya akan alam.",
+                "en": "This park is rich in nature."
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   "meanings": {
-    "id": "di atas",
-    "en": "by means of, above"
+    "id": "diri sendiri",
+    "en": "self, oneself"
   }
 }
