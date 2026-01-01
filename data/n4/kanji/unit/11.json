@@ -1,29 +1,64 @@
 {
   "id": 11,
-  "character": "公",
+  "character": "犬",
   "strokes": 4,
   "readings": {
     "kun": [
       {
-        "furigana": "おおやけ",
-        "romanji": "ooyake",
-        "examples": []
+        "furigana": "いぬ",
+        "romanji": "inu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "犬",
+            "furigana": "いぬ",
+            "romanji": "inu",
+            "meanings": {
+              "id": "anjing",
+              "en": "dog"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は犬を飼っています。",
+                "furigana": "わたしはいぬをかっています。",
+                "romaji": "watashi wa inu wo katte imasu.",
+                "meanings": {
+                  "id": "Saya memelihara anjing.",
+                  "en": "I have a dog."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "on": [
       {
-        "furigana": "コウ",
-        "romanji": "kou",
+        "furigana": "ケン",
+        "romanji": "ken",
         "examples": [
           {
             "id": 1,
-            "word": "公園",
-            "furigana": "こうえん",
-            "romanji": "kouen",
+            "word": "番犬",
+            "furigana": "ばんけん",
+            "romanji": "banken",
             "meanings": {
-              "id": "taman",
-              "en": "park"
-            }
+              "id": "anjing penjaga",
+              "en": "guard dog, watchdog"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "大きな番犬が家を守っています。",
+                "furigana": "おおきなばんけんがいえをまもっています。",
+                "romaji": "ookina banken ga ie wo mamotte imasu.",
+                "meanings": {
+                  "id": "Anjing penjaga yang besar menjaga rumah.",
+                  "en": "A large guard dog is protecting the house."
+                }
+              }
+            ]
           }
         ]
       }
@@ -31,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "umum, resmi",
-    "en": "public"
+    "id": "anjing",
+    "en": "dog"
   }
 }
