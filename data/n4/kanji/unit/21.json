@@ -1,40 +1,79 @@
 {
   "id": 21,
-  "character": "広",
+  "character": "以",
   "strokes": 5,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "ひろ",
-        "romanji": "hiro",
+        "furigana": "イ",
+        "romanji": "i",
         "examples": [
           {
             "id": 1,
-            "word": "広い",
-            "furigana": "ひろい",
-            "romanji": "hiroi",
+            "word": "以上",
+            "furigana": "いじょう",
+            "romanji": "ijou",
             "meanings": {
-              "id": "luas",
-              "en": "wide"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "コウ",
-        "romanji": "kou",
-        "examples": [
+              "id": "di atas, lebih dari",
+              "en": "above, more than"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "18歳以上の人だけ入れます。",
+                "furigana": "じゅうはっさいいじょうのひとだけはいれます。",
+                "romaji": "juuhassai ijou no hito dake hairemasu.",
+                "meanings": {
+                  "id": "Hanya orang berusia 18 tahun ke atas yang bisa masuk.",
+                  "en": "Only people 18 years old and above can enter."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "広告",
-            "furigana": "こうこく",
-            "romanji": "koukoku",
+            "word": "以内",
+            "furigana": "いない",
+            "romanji": "inai",
             "meanings": {
-              "id": "iklan",
-              "en": "advertisement"
-            }
+              "id": "di dalam, dalam",
+              "en": "within, inside"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "1週間以内に返事をください。",
+                "furigana": "いっしゅうかんいないにへんじをください。",
+                "romaji": "isshuukan inai ni henji wo kudasai.",
+                "meanings": {
+                  "id": "Tolong berikan balasan dalam waktu 1 minggu.",
+                  "en": "Please give a reply within one week."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "以外",
+            "furigana": "いがい",
+            "romanji": "igai",
+            "meanings": {
+              "id": "di luar, selain",
+              "en": "except, other than"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日曜日以外は働いています。",
+                "furigana": "にちようびいがいははたらいています。",
+                "romaji": "nichiyoubi igai wa hataraite imasu.",
+                "meanings": {
+                  "id": "Saya bekerja selain hari Minggu.",
+                  "en": "I work except on Sundays."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "luas",
-    "en": "wide, spacious"
+    "id": "lebih dari, selain",
+    "en": "more than, beyond"
   }
 }
