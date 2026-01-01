@@ -1,81 +1,94 @@
 {
   "id": 16,
-  "character": "立",
+  "character": "広",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "た",
-        "romanji": "ta",
+        "furigana": "ひろ",
+        "romanji": "hiro",
         "examples": [
           {
             "id": 1,
-            "word": "立つ",
-            "furigana": "たつ",
-            "romanji": "tatsu",
+            "word": "広い",
+            "furigana": "ひろい",
+            "romanji": "hiroi",
             "meanings": {
-              "id": "berdiri",
-              "en": "to stand"
-            }
+              "id": "luas",
+              "en": "wide, spacious"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この部屋は広くて明るいです。",
+                "furigana": "このへやはひろくてあかるいです。",
+                "romaji": "kono heya wa hirokute akarui desu.",
+                "meanings": {
+                  "id": "Ruangan ini luas dan terang.",
+                  "en": "This room is spacious and bright."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "立場",
-            "furigana": "たちば",
-            "romanji": "tachiba",
+            "word": "広々",
+            "furigana": "ひろびろ",
+            "romanji": "hirobiro",
             "meanings": {
-              "id": "posisi",
-              "en": "position"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "たち",
-        "romanji": "tachi",
-        "examples": [
-          {
-            "id": 2,
-            "word": "立場",
-            "furigana": "たちば",
-            "romanji": "tachiba",
-            "meanings": {
-              "id": "posisi",
-              "en": "position"
-            }
+              "id": "lapang, terbentang",
+              "en": "spacious, vast"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "広々とした公園で遊びました。",
+                "furigana": "ひろびろとしたこうえんであそびました。",
+                "romaji": "hirobiro to shita kouen de asobimashita.",
+                "meanings": {
+                  "id": "Saya bermain di taman yang lapang.",
+                  "en": "I played in the spacious park."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "リツ",
-        "romanji": "ritsu",
-        "examples": []
-      },
-      {
-        "furigana": "リュウ",
-        "romanji": "ryuu",
-        "examples": []
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "広告",
+            "furigana": "こうこく",
+            "romanji": "koukoku",
+            "meanings": {
+              "id": "iklan",
+              "en": "advertisement"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新聞で広告を見ました。",
+                "furigana": "しんぶんでこうこくをみました。",
+                "romaji": "shinbun de koukoku wo mimashita.",
+                "meanings": {
+                  "id": "Saya melihat iklan di koran.",
+                  "en": "I saw an advertisement in the newspaper."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 3,
-          "word": "立派",
-          "furigana": "りっぱ",
-          "romanji": "rippa",
-          "meanings": {
-            "id": "hebat, megah",
-            "en": "splendid"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "berdiri",
-    "en": "stand"
+    "id": "luas",
+    "en": "wide, spacious"
   }
 }
