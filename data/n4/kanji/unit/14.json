@@ -1,39 +1,64 @@
 {
   "id": 14,
-  "character": "不",
-  "strokes": 4,
+  "character": "市",
+  "strokes": 5,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "フ",
-        "romanji": "fu",
+        "furigana": "いち",
+        "romanji": "ichi",
         "examples": [
           {
             "id": 1,
-            "word": "不便",
-            "furigana": "ふべん",
-            "romanji": "fuben",
+            "word": "市場",
+            "furigana": "いちば",
+            "romanji": "ichiba",
             "meanings": {
-              "id": "tidak praktis",
-              "en": "inconvenient"
-            }
+              "id": "pasar",
+              "en": "market"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎週日曜日に市場で買い物をします。",
+                "furigana": "まいしゅうにちようびにいちばでかいものをします。",
+                "romaji": "maishuu nichiyoubi ni ichiba de kaimono wo shimasu.",
+                "meanings": {
+                  "id": "Setiap minggu hari Minggu saya berbelanja di pasar.",
+                  "en": "I go shopping at the market every Sunday."
+                }
+              }
+            ]
           }
         ]
-      },
+      }
+    ],
+    "on": [
       {
-        "furigana": "ブ",
-        "romanji": "bu",
+        "furigana": "シ",
+        "romanji": "shi",
         "examples": [
           {
-            "id": 2,
-            "word": "不気味",
-            "furigana": "ぶきみ",
-            "romanji": "bukimi",
+            "id": 1,
+            "word": "都市",
+            "furigana": "とし",
+            "romanji": "toshi",
             "meanings": {
-              "id": "mengerikan, aneh",
-              "en": "eerie, weird"
-            }
+              "id": "kota",
+              "en": "city"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この都市は人口が多いです。",
+                "furigana": "このとしはじんこうがおおいです。",
+                "romaji": "kono toshi wa jinkou ga ooi desu.",
+                "meanings": {
+                  "id": "Kota ini memiliki populasi yang banyak.",
+                  "en": "This city has a large population."
+                }
+              }
+            ]
           }
         ]
       }
@@ -41,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "tidak praktis",
-    "en": "not, un-"
+    "id": "pasar, kota",
+    "en": "market, city"
   }
 }
