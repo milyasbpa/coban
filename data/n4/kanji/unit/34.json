@@ -1,50 +1,108 @@
 {
   "id": 34,
-  "character": "考",
+  "character": "同",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "かんが",
-        "romanji": "kanga",
+        "furigana": "おな",
+        "romanji": "ona",
         "examples": [
           {
             "id": 1,
-            "word": "考える",
-            "furigana": "かんがえる",
-            "romanji": "kangaeru",
+            "word": "同じ",
+            "furigana": "おなじ",
+            "romanji": "onaji",
             "meanings": {
-              "id": "berpikir",
-              "en": "to think"
-            }
-          },
-          {
-            "id": 2,
-            "word": "考え",
-            "furigana": "かんがえ",
-            "romanji": "kangae",
-            "meanings": {
-              "id": "pikiran",
-              "en": "thought"
-            }
+              "id": "sama",
+              "en": "same"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私たちは同じクラスです。",
+                "furigana": "わたしたちはおなじクラスです。",
+                "romaji": "watashitachi wa onaji kurasu desu.",
+                "meanings": {
+                  "id": "Kami sekelas.",
+                  "en": "We are in the same class."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "コウ",
-        "romanji": "kou",
+        "furigana": "ドウ",
+        "romanji": "dou",
         "examples": [
           {
-            "id": 3,
-            "word": "参考",
-            "furigana": "さんこう",
-            "romanji": "sankou",
+            "id": 1,
+            "word": "同情",
+            "furigana": "どうじょう",
+            "romanji": "doujou",
             "meanings": {
-              "id": "referensi",
-              "en": "reference"
-            }
+              "id": "iba, simpati",
+              "en": "sympathy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼の話を聞いて、同情しました。",
+                "furigana": "かれのはなしをきいて、どうじょうしました。",
+                "romaji": "kare no hanashi wo kiite, doujou shimashita.",
+                "meanings": {
+                  "id": "Setelah mendengar ceritanya, saya merasa iba.",
+                  "en": "After hearing his story, I felt sympathy."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "同時",
+            "furigana": "どうじ",
+            "romanji": "douji",
+            "meanings": {
+              "id": "serempak, bersamaan",
+              "en": "simultaneous, at the same time"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "二つのことを同時にできません。",
+                "furigana": "ふたつのことをどうじにできません。",
+                "romaji": "futatsu no koto wo douji ni dekimasen.",
+                "meanings": {
+                  "id": "Saya tidak bisa melakukan dua hal bersamaan.",
+                  "en": "I can't do two things at the same time."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "同居",
+            "furigana": "どうきょ",
+            "romanji": "doukyo",
+            "meanings": {
+              "id": "tinggal bersama",
+              "en": "living together"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "祖父母と同居しています。",
+                "furigana": "そふぼとどうきょしています。",
+                "romaji": "sofubo to doukyo shite imasu.",
+                "meanings": {
+                  "id": "Saya tinggal bersama kakek nenek.",
+                  "en": "I live together with my grandparents."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berpikir",
-    "en": "think"
+    "id": "sama",
+    "en": "same"
   }
 }
