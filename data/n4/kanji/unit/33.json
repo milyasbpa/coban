@@ -1,66 +1,35 @@
 {
   "id": 33,
-  "character": "色",
+  "character": "肉",
   "strokes": 6,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "いろ",
-        "romanji": "iro",
+        "furigana": "ニク",
+        "romanji": "niku",
         "examples": [
           {
             "id": 1,
-            "word": "色",
-            "furigana": "いろ",
-            "romanji": "iro",
+            "word": "牛肉",
+            "furigana": "ぎゅうにく",
+            "romanji": "gyuuniku",
             "meanings": {
-              "id": "warna",
-              "en": "color"
-            }
-          },
-          {
-            "id": 2,
-            "word": "色々",
-            "furigana": "いろいろ",
-            "romanji": "iroiro",
-            "meanings": {
-              "id": "macam-macam",
-              "en": "various"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ショク",
-        "romanji": "shoku",
-        "examples": [
-          {
-            "id": 3,
-            "word": "特色",
-            "furigana": "とくしょく",
-            "romanji": "tokushoku",
-            "meanings": {
-              "id": "karakteristik",
-              "en": "characteristic"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "シキ",
-        "romanji": "shiki",
-        "examples": [
-          {
-            "id": 4,
-            "word": "景色",
-            "furigana": "けしき",
-            "romanji": "keshiki",
-            "meanings": {
-              "id": "pemandangan",
-              "en": "scenery"
-            }
+              "id": "daging sapi",
+              "en": "beef"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "牛肉を使って料理を作りました。",
+                "furigana": "ぎゅうにくをつかってりょうりをつくりました。",
+                "romaji": "gyuuniku wo tsukatte ryouri wo tsukurimashita.",
+                "meanings": {
+                  "id": "Saya membuat masakan menggunakan daging sapi.",
+                  "en": "I made a dish using beef."
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +37,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "warna",
-    "en": "color"
+    "id": "daging",
+    "en": "meat"
   }
 }
