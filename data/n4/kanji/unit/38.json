@@ -1,47 +1,94 @@
 {
   "id": 38,
-  "character": "死",
-  "strokes": 6,
+  "character": "走",
+  "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "し",
-        "romanji": "shi",
+        "furigana": "はし",
+        "romanji": "hashi",
         "examples": [
           {
             "id": 1,
-            "word": "死ぬ",
-            "furigana": "しぬ",
-            "romanji": "shinu",
+            "word": "走る",
+            "furigana": "はしる",
+            "romanji": "hashiru",
             "meanings": {
-              "id": "mati, meninggal",
-              "en": "to die"
-            }
-          },
-          {
-            "id": 2,
-            "word": "死体",
-            "furigana": "したい",
-            "romanji": "shitai",
-            "meanings": {
-              "id": "jasad, mayat",
-              "en": "dead body"
-            }
+              "id": "berlari",
+              "en": "to run"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎朝公園で走っています。",
+                "furigana": "まいあさこうえんではしっています。",
+                "romaji": "maiasa kouen de hashitte imasu.",
+                "meanings": {
+                  "id": "Saya berlari di taman setiap pagi.",
+                  "en": "I run in the park every morning."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シ",
-        "romanji": "shi",
-        "examples": []
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "走者",
+            "furigana": "そうしゃ",
+            "romanji": "sousha",
+            "meanings": {
+              "id": "pelari",
+              "en": "runner"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "マラソンの走者が通り過ぎました。",
+                "furigana": "マラソンのそうしゃがとおりすぎました。",
+                "romaji": "marason no sousha ga toori sugimashita.",
+                "meanings": {
+                  "id": "Pelari maraton telah melewati.",
+                  "en": "The marathon runner passed by."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "逃走",
+            "furigana": "とうそう",
+            "romanji": "tousou",
+            "meanings": {
+              "id": "melarikan diri",
+              "en": "escape, flight"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "犯人は逃走しました。",
+                "furigana": "はんにんはとうそうしました。",
+                "romaji": "hannin wa tousou shimashita.",
+                "meanings": {
+                  "id": "Penjahat melarikan diri.",
+                  "en": "The criminal escaped."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "exception": null
   },
   "meanings": {
-    "id": "mati, meninggal",
-    "en": "death, die"
+    "id": "berlari",
+    "en": "run"
   }
 }
