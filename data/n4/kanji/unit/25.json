@@ -1,66 +1,108 @@
 {
   "id": 25,
-  "character": "世",
+  "character": "用",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "よ",
-        "romanji": "yo",
+        "furigana": "もち",
+        "romanji": "mochi",
         "examples": [
           {
             "id": 1,
-            "word": "世の中",
-            "furigana": "よのなか",
-            "romanji": "yononaka",
+            "word": "用いる",
+            "furigana": "もちいる",
+            "romanji": "mochiiru",
             "meanings": {
-              "id": "dalam dunia",
-              "en": "the world"
-            }
+              "id": "menggunakan",
+              "en": "to use"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この道具を用いて作業します。",
+                "furigana": "このどうぐをもちいてさぎょうします。",
+                "romaji": "kono dougu wo mochiite sagyou shimasu.",
+                "meanings": {
+                  "id": "Saya bekerja menggunakan alat ini.",
+                  "en": "I work using this tool."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "セ",
-        "romanji": "se",
+        "furigana": "ヨウ",
+        "romanji": "you",
         "examples": [
           {
-            "id": 2,
-            "word": "世界",
-            "furigana": "せかい",
-            "romanji": "sekai",
+            "id": 1,
+            "word": "用事",
+            "furigana": "ようじ",
+            "romanji": "youji",
             "meanings": {
-              "id": "dunia",
-              "en": "world"
-            }
+              "id": "urusan",
+              "en": "business, errand"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は用事があるので、早く帰ります。",
+                "furigana": "きょうはようじがあるので、はやくかえります。",
+                "romaji": "kyou wa youji ga aru node, hayaku kaerimasu.",
+                "meanings": {
+                  "id": "Karena hari ini ada urusan, saya pulang lebih awal.",
+                  "en": "Since I have business today, I'll go home early."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "利用",
+            "furigana": "りよう",
+            "romanji": "riyou",
+            "meanings": {
+              "id": "penggunaan",
+              "en": "use, utilization"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "図書館を利用して勉強しました。",
+                "furigana": "としょかんをりようしてべんきょうしました。",
+                "romaji": "toshokan wo riyou shite benkyou shimashita.",
+                "meanings": {
+                  "id": "Saya belajar dengan menggunakan perpustakaan.",
+                  "en": "I studied using the library."
+                }
+              }
+            ]
           },
           {
             "id": 3,
-            "word": "世紀",
-            "furigana": "せいき",
-            "romanji": "seiki",
+            "word": "費用",
+            "furigana": "ひよう",
+            "romanji": "hiyou",
             "meanings": {
-              "id": "abad",
-              "en": "century"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "セイ",
-        "romanji": "sei",
-        "examples": [
-          {
-            "id": 3,
-            "word": "世紀",
-            "furigana": "せいき",
-            "romanji": "seiki",
-            "meanings": {
-              "id": "abad",
-              "en": "century"
-            }
+              "id": "biaya, ongkos",
+              "en": "cost, expense"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "旅行の費用はいくらですか。",
+                "furigana": "りょこうのひようはいくらですか。",
+                "romaji": "ryokou no hiyou wa ikura desu ka.",
+                "meanings": {
+                  "id": "Berapa biaya perjalanan?",
+                  "en": "How much is the travel cost?"
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "dalam dunia",
-    "en": "world, generation"
+    "id": "menggunakan, urusan",
+    "en": "use, business"
   }
 }
