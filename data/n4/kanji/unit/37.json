@@ -1,40 +1,130 @@
 {
   "id": 37,
-  "character": "同",
+  "character": "考",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "おな",
-        "romanji": "ona",
+        "furigana": "かんが",
+        "romanji": "kanga",
         "examples": [
           {
             "id": 1,
-            "word": "同じ",
-            "furigana": "おなじ",
-            "romanji": "onaji",
+            "word": "考える",
+            "furigana": "かんがえる",
+            "romanji": "kangaeru",
             "meanings": {
-              "id": "sama",
-              "en": "same"
-            }
+              "id": "berpikir",
+              "en": "to think"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "将来のことを考えています。",
+                "furigana": "しょうらいのことをかんがえています。",
+                "romaji": "shourai no koto wo kangaete imasu.",
+                "meanings": {
+                  "id": "Saya sedang memikirkan masa depan.",
+                  "en": "I am thinking about the future."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "考え",
+            "furigana": "かんがえ",
+            "romanji": "kangae",
+            "meanings": {
+              "id": "pikiran",
+              "en": "thought, idea"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "あなたの考えを聞かせてください。",
+                "furigana": "あなたのかんがえをきかせてください。",
+                "romaji": "anata no kangae wo kikasete kudasai.",
+                "meanings": {
+                  "id": "Tolong ceritakan pikiran Anda.",
+                  "en": "Please tell me your thoughts."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ドウ",
-        "romanji": "dou",
+        "furigana": "コウ",
+        "romanji": "kou",
         "examples": [
           {
-            "id": 2,
-            "word": "同情",
-            "furigana": "どうじょう",
-            "romanji": "doujou",
+            "id": 1,
+            "word": "参考",
+            "furigana": "さんこう",
+            "romanji": "sankou",
             "meanings": {
-              "id": "simpati",
-              "en": "sympathy"
-            }
+              "id": "referensi",
+              "en": "reference"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この本を参考にしてレポートを書きました。",
+                "furigana": "このほんをさんこうにしてレポートをかきました。",
+                "romaji": "kono hon wo sankou ni shite repooto wo kakimashita.",
+                "meanings": {
+                  "id": "Saya menulis laporan dengan mereferensi buku ini.",
+                  "en": "I wrote a report using this book as a reference."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "思考",
+            "furigana": "しこう",
+            "romanji": "shikou",
+            "meanings": {
+              "id": "pemikiran",
+              "en": "thinking, thought"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "論理的な思考が必要です。",
+                "furigana": "ろんりてきなしこうがひつようです。",
+                "romaji": "ronriteki na shikou ga hitsuyou desu.",
+                "meanings": {
+                  "id": "Pemikiran logis diperlukan.",
+                  "en": "Logical thinking is necessary."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "考案",
+            "furigana": "こうあん",
+            "romanji": "kouan",
+            "meanings": {
+              "id": "perencanaan, rancangan",
+              "en": "plan, device"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しいアイデアを考案しました。",
+                "furigana": "あたらしいアイデアをこうあんしました。",
+                "romaji": "atarashii aidea wo kouan shimashita.",
+                "meanings": {
+                  "id": "Saya merancang ide baru.",
+                  "en": "I devised a new idea."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "sama",
-    "en": "same"
+    "id": "berpikir",
+    "en": "think, consider"
   }
 }
