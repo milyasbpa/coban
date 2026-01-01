@@ -17,7 +17,41 @@
             "meanings": {
               "id": "dapur",
               "en": "kitchen"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "母は台所で料理をしています。",
+                "furigana": "ははは だいどころで りょうりを しています。",
+                "romaji": "haha wa daidokoro de ryouri wo shite imasu.",
+                "meanings": {
+                  "id": "Ibu sedang memasak di dapur.",
+                  "en": "My mother is cooking in the kitchen."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "一台",
+            "furigana": "いちだい",
+            "romanji": "ichidai",
+            "meanings": {
+              "id": "satu unit (mesin/kendaraan)",
+              "en": "one unit (machine/vehicle)"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "車を一台買いました。",
+                "furigana": "くるまを いちだい かいました。",
+                "romaji": "kuruma wo ichidai kaimashita.",
+                "meanings": {
+                  "id": "Saya membeli satu mobil.",
+                  "en": "I bought one car."
+                }
+              }
+            ]
           }
         ]
       },
@@ -26,14 +60,26 @@
         "romanji": "tai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "台風",
             "furigana": "たいふう",
             "romanji": "taifuu",
             "meanings": {
               "id": "taifun",
               "en": "typhoon"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "台風が来るので、外に出ないでください。",
+                "furigana": "たいふうが くるので、そとに でないで ください。",
+                "romaji": "taifuu ga kuru node, soto ni denaide kudasai.",
+                "meanings": {
+                  "id": "Karena taifun akan datang, tolong jangan keluar.",
+                  "en": "Since a typhoon is coming, please don't go outside."
+                }
+              }
+            ]
           }
         ]
       }
@@ -41,7 +87,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "dapur",
-    "en": "platform, stand"
+    "id": "meja, unit",
+    "en": "platform, stand, counter"
   }
 }
