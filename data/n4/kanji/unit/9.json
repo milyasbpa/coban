@@ -1,60 +1,158 @@
 {
   "id": 9,
-  "character": "止",
+  "character": "切",
   "strokes": 4,
   "readings": {
     "kun": [
       {
-        "furigana": "と",
-        "romanji": "to",
+        "furigana": "き",
+        "romanji": "ki",
         "examples": [
           {
             "id": 1,
-            "word": "止まる",
-            "furigana": "とまる",
-            "romanji": "tomaru",
+            "word": "切る",
+            "furigana": "きる",
+            "romanji": "kiru",
             "meanings": {
-              "id": "berhenti, tahan",
-              "en": "to stop"
-            }
-          },
-          {
-            "id": 2,
-            "word": "止める",
-            "furigana": "とめる",
-            "romanji": "tomeru",
-            "meanings": {
-              "id": "memberhentikan, menahan",
-              "en": "to stop (something)"
-            }
+              "id": "memotong",
+              "en": "to cut"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "包丁で野菜を切ります。",
+                "furigana": "ほうちょうでやさいをきります。",
+                "romaji": "houchou de yasai wo kirimasu.",
+                "meanings": {
+                  "id": "Saya memotong sayuran dengan pisau.",
+                  "en": "I cut vegetables with a knife."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "とど",
-        "romanji": "todo",
-        "examples": []
-      },
-      {
-        "furigana": "ど",
-        "romanji": "do",
-        "examples": []
+        "furigana": "きっ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "切手",
+            "furigana": "きって",
+            "romanji": "kitte",
+            "meanings": {
+              "id": "perangko",
+              "en": "stamp"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "郵便局で切手を買いました。",
+                "furigana": "ゆうびんきょくできってをかいました。",
+                "romaji": "yuubinkyoku de kitte wo kaimashita.",
+                "meanings": {
+                  "id": "Saya membeli perangko di kantor pos.",
+                  "en": "I bought stamps at the post office."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "切符",
+            "furigana": "きっぷ",
+            "romanji": "kippu",
+            "meanings": {
+              "id": "karcis, tiket",
+              "en": "ticket"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "駅で切符を買ってください。",
+                "furigana": "えきできっぷをかってください。",
+                "romaji": "eki de kippu wo katte kudasai.",
+                "meanings": {
+                  "id": "Tolong beli tiket di stasiun.",
+                  "en": "Please buy a ticket at the station."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "on": [
       {
-        "furigana": "シ",
-        "romanji": "shi",
+        "furigana": "セツ",
+        "romanji": "setsu",
         "examples": [
           {
-            "id": 3,
-            "word": "禁止",
-            "furigana": "きんし",
-            "romanji": "kinshi",
+            "id": 1,
+            "word": "親切",
+            "furigana": "しんせつ",
+            "romanji": "shinsetsu",
             "meanings": {
-              "id": "larangan",
-              "en": "prohibition"
-            }
+              "id": "ramah",
+              "en": "kind, kindness"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "あの店員はとても親切です。",
+                "furigana": "あのてんいんはとてもしんせつです。",
+                "romaji": "ano ten'in wa totemo shinsetsu desu.",
+                "meanings": {
+                  "id": "Pegawai toko itu sangat ramah.",
+                  "en": "That store clerk is very kind."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "大切",
+            "furigana": "たいせつ",
+            "romanji": "taisetsu",
+            "meanings": {
+              "id": "penting",
+              "en": "important, precious"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "健康は大切です。",
+                "furigana": "けんこうはたいせつです。",
+                "romaji": "kenkou wa taisetsu desu.",
+                "meanings": {
+                  "id": "Kesehatan itu penting.",
+                  "en": "Health is important."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "切断",
+            "furigana": "せつだん",
+            "romanji": "setsudan",
+            "meanings": {
+              "id": "memotong, memutuskan",
+              "en": "cutting, severing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "電話が切断されました。",
+                "furigana": "でんわがせつだんされました。",
+                "romaji": "denwa ga setsudan saremashita.",
+                "meanings": {
+                  "id": "Teleponnya terputus.",
+                  "en": "The phone was disconnected."
+                }
+              }
+            ]
           }
         ]
       }
@@ -62,7 +160,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berhenti, tahan",
-    "en": "stop"
+    "id": "memotong",
+    "en": "cut"
   }
 }
