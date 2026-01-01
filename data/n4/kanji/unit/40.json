@@ -1,39 +1,86 @@
 {
   "id": 40,
-  "character": "社",
+  "character": "体",
   "strokes": 7,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "シャ",
-        "romanji": "sha",
+        "furigana": "からだ",
+        "romanji": "karada",
         "examples": [
           {
             "id": 1,
-            "word": "会社",
-            "furigana": "かいしゃ",
-            "romanji": "kaisha",
+            "word": "体",
+            "furigana": "からだ",
+            "romanji": "karada",
             "meanings": {
-              "id": "perusahaan, kantor",
-              "en": "company"
-            }
+              "id": "badan, tubuh",
+              "en": "body"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "体の調子が悪いです。",
+                "furigana": "からだのちょうしがわるいです。",
+                "romaji": "karada no choushi ga warui desu.",
+                "meanings": {
+                  "id": "Kondisi badan saya tidak baik.",
+                  "en": "My body condition is not good."
+                }
+              }
+            ]
           }
         ]
-      },
+      }
+    ],
+    "on": [
       {
-        "furigana": "ジャ",
-        "romanji": "ja",
+        "furigana": "タイ",
+        "romanji": "tai",
         "examples": [
           {
-            "id": 2,
-            "word": "神社",
-            "furigana": "じんじゃ",
-            "romanji": "jinja",
+            "id": 1,
+            "word": "体育",
+            "furigana": "たいいく",
+            "romanji": "taiiku",
             "meanings": {
-              "id": "kuil Shinto",
-              "en": "Shinto shrine"
-            }
+              "id": "pendidikan olahraga",
+              "en": "physical education"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "体育の授業が好きです。",
+                "furigana": "たいいくのじゅぎょうがすきです。",
+                "romaji": "taiiku no jugyou ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka pelajaran olahraga.",
+                  "en": "I like physical education class."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "車体",
+            "furigana": "しゃたい",
+            "romanji": "shatai",
+            "meanings": {
+              "id": "body mobil",
+              "en": "vehicle body"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "事故で車体が壊れました。",
+                "furigana": "じこでしゃたいがこわれました。",
+                "romaji": "jiko de shatai ga kowaremashita.",
+                "meanings": {
+                  "id": "Body mobil rusak karena kecelakaan.",
+                  "en": "The vehicle body was damaged in the accident."
+                }
+              }
+            ]
           }
         ]
       }
@@ -41,7 +88,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "perusahaan, kuil Shinto",
-    "en": "company, shrine"
+    "id": "badan, tubuh",
+    "en": "body"
   }
 }
