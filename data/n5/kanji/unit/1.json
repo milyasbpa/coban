@@ -1,0 +1,169 @@
+{
+  "id": 1,
+  "character": "一",
+  "strokes": 1,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひと",
+        "romanji": "hito",
+        "examples": [
+          {
+            "id": 1,
+            "word": "一つ",
+            "furigana": "ひとつ",
+            "romanji": "hitotsu",
+            "meanings": {
+              "id": "satu buah",
+              "en": "one"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "りんごを一つください。",
+                "furigana": "りんごをひとつください。",
+                "romaji": "ringo wo hitotsu kudasai.",
+                "meanings": {
+                  "id": "Tolong berikan satu buah apel.",
+                  "en": "Please give me one apple."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "一人",
+            "furigana": "ひとり",
+            "romanji": "hitori",
+            "meanings": {
+              "id": "satu orang",
+              "en": "one"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "一人で行きます。",
+                "furigana": "ひとりでいきます。",
+                "romaji": "hitori de ikimasu.",
+                "meanings": {
+                  "id": "Saya pergi sendiri.",
+                  "en": "I go alone."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イチ",
+        "romanji": "ichi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "一月",
+            "furigana": "いちがつ",
+            "romanji": "ichigatsu",
+            "meanings": {
+              "id": "Januari",
+              "en": "January"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "一月は寒いです。",
+                "furigana": "いちがつはさむいです。",
+                "romaji": "ichigatsu wa samui desu.",
+                "meanings": {
+                  "id": "Bulan Januari dingin.",
+                  "en": "January is cold."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "一年",
+            "furigana": "いちねん",
+            "romanji": "ichinen",
+            "meanings": {
+              "id": "satu tahun",
+              "en": "one year"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本に一年住みます。",
+                "furigana": "にほんにいちねんすみます。",
+                "romaji": "nihon ni ichinen sumimasu.",
+                "meanings": {
+                  "id": "Saya tinggal di Jepang selama satu tahun.",
+                  "en": "I will live in Japan for one year."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "イツ",
+        "romanji": "itsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "一本",
+            "furigana": "いっぽん",
+            "romanji": "ippon",
+            "meanings": {
+              "id": "satu batang",
+              "en": "one (long) item"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ペンを一本買いました。",
+                "furigana": "ペンをいっぽんかいました。",
+                "romaji": "pen wo ippon kaimashita.",
+                "meanings": {
+                  "id": "Saya membeli satu batang pulpen.",
+                  "en": "I bought one pen."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "一日",
+          "furigana": "ついたち",
+          "romanji": "tsuitachi",
+          "meanings": {
+            "id": "tanggal satu",
+            "en": "first day of the month"
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "今日は一月一日です。",
+              "furigana": "きょうはいちがつついたちです。",
+              "romaji": "kyou wa ichigatsu tsuitachi desu.",
+              "meanings": {
+                "id": "Hari ini tanggal 1 Januari.",
+                "en": "Today is January 1st."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "satu",
+    "en": "one"
+  }
+}
