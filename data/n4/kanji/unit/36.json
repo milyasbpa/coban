@@ -1,40 +1,108 @@
 {
   "id": 36,
-  "character": "自",
+  "character": "有",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "みずか",
-        "romanji": "mizuka",
+        "furigana": "あ",
+        "romanji": "a",
         "examples": [
           {
             "id": 1,
-            "word": "自ら",
-            "furigana": "みずから",
-            "romanji": "mizukara",
+            "word": "有る",
+            "furigana": "ある",
+            "romanji": "aru",
             "meanings": {
-              "id": "diri sendiri",
-              "en": "oneself"
-            }
+              "id": "ada",
+              "en": "to exist, to have"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "机の上に本が有ります。",
+                "furigana": "つくえのうえにほんがあります。",
+                "romaji": "tsukue no ue ni hon ga arimasu.",
+                "meanings": {
+                  "id": "Ada buku di atas meja.",
+                  "en": "There is a book on the desk."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ジ",
-        "romanji": "ji",
+        "furigana": "ユウ",
+        "romanji": "yuu",
         "examples": [
           {
-            "id": 2,
-            "word": "自動",
-            "furigana": "じどう",
-            "romanji": "jidou",
+            "id": 1,
+            "word": "有料",
+            "furigana": "ゆうりょう",
+            "romanji": "yuuryou",
             "meanings": {
-              "id": "otomatis",
-              "en": "automatic"
-            }
+              "id": "dipungut biaya",
+              "en": "charged, paid"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この駐車場は有料です。",
+                "furigana": "このちゅうしゃじょうはゆうりょうです。",
+                "romaji": "kono chuushajou wa yuuryou desu.",
+                "meanings": {
+                  "id": "Tempat parkir ini dipungut biaya.",
+                  "en": "This parking lot is charged."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "有利",
+            "furigana": "ゆうり",
+            "romanji": "yuuri",
+            "meanings": {
+              "id": "ada untung, menguntungkan",
+              "en": "advantageous, profitable"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この条件は私に有利です。",
+                "furigana": "このじょうけんはわたしにゆうりです。",
+                "romaji": "kono jouken wa watashi ni yuuri desu.",
+                "meanings": {
+                  "id": "Kondisi ini menguntungkan bagi saya.",
+                  "en": "This condition is advantageous for me."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "所有",
+            "furigana": "しょゆう",
+            "romanji": "shoyuu",
+            "meanings": {
+              "id": "kepemilikan",
+              "en": "ownership, possession"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この土地は私の所有です。",
+                "furigana": "このとちはわたしのしょゆうです。",
+                "romaji": "kono tochi wa watashi no shoyuu desu.",
+                "meanings": {
+                  "id": "Tanah ini kepemilikan saya.",
+                  "en": "This land is my possession."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "diri sendiri",
-    "en": "self"
+    "id": "ada, memiliki",
+    "en": "exist, have"
   }
 }
