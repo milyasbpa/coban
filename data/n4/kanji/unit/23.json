@@ -16,7 +16,19 @@
             "meanings": {
               "id": "betul, benar",
               "en": "correct"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この答えは正しいですか。",
+                "furigana": "このこたえはただしいですか。",
+                "romaji": "kono kotae wa tadashii desu ka.",
+                "meanings": {
+                  "id": "Apakah jawaban ini benar?",
+                  "en": "Is this answer correct?"
+                }
+              }
+            ]
           }
         ]
       }
@@ -27,14 +39,48 @@
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "正確",
             "furigana": "せいかく",
             "romanji": "seikaku",
             "meanings": {
               "id": "tepat",
               "en": "accurate"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "正確な時間を教えてください。",
+                "furigana": "せいかくなじかんをおしえてください。",
+                "romaji": "seikaku na jikan wo oshiete kudasai.",
+                "meanings": {
+                  "id": "Tolong beritahu saya waktu yang tepat.",
+                  "en": "Please tell me the accurate time."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "正解",
+            "furigana": "せいかい",
+            "romanji": "seikai",
+            "meanings": {
+              "id": "jawaban yang benar",
+              "en": "correct answer"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この問題の正解が分かりません。",
+                "furigana": "このもんだいのせいかいがわかりません。",
+                "romaji": "kono mondai no seikai ga wakarimasen.",
+                "meanings": {
+                  "id": "Saya tidak tahu jawaban yang benar untuk soal ini.",
+                  "en": "I don't know the correct answer to this problem."
+                }
+              }
+            ]
           }
         ]
       },
@@ -43,14 +89,26 @@
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "正直",
             "furigana": "しょうじき",
             "romanji": "shoujiki",
             "meanings": {
               "id": "jujur",
               "en": "honest"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "正直に言ってください。",
+                "furigana": "しょうじきにいってください。",
+                "romaji": "shoujiki ni itte kudasai.",
+                "meanings": {
+                  "id": "Tolong katakan dengan jujur.",
+                  "en": "Please speak honestly."
+                }
+              }
+            ]
           }
         ]
       }
