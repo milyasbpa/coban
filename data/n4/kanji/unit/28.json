@@ -1,56 +1,64 @@
 {
   "id": 28,
-  "character": "来",
+  "character": "字",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "こめ",
-        "romanji": "kome",
+        "furigana": "あざ",
+        "romanji": "aza",
         "examples": [
           {
             "id": 1,
-            "word": "米",
-            "furigana": "こめ",
-            "romanji": "kome",
+            "word": "字",
+            "furigana": "あざ",
+            "romanji": "aza",
             "meanings": {
-              "id": "beras",
-              "en": "rice"
-            }
+              "id": "bagian dari desa",
+              "en": "section of village"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私の家は○○字にあります。",
+                "furigana": "わたしのいえは○○あざにあります。",
+                "romaji": "watashi no ie wa ○○ aza ni arimasu.",
+                "meanings": {
+                  "id": "Rumah saya ada di bagian desa ○○.",
+                  "en": "My house is in the ○○ section of the village."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ベイ",
-        "romanji": "bei",
+        "furigana": "ジ",
+        "romanji": "ji",
         "examples": [
           {
-            "id": 2,
-            "word": "米国",
-            "furigana": "べいこく",
-            "romanji": "beikoku",
+            "id": 1,
+            "word": "名字",
+            "furigana": "みょうじ",
+            "romanji": "myouji",
             "meanings": {
-              "id": "Amerika",
-              "en": "America"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "マイ",
-        "romanji": "mai",
-        "examples": [
-          {
-            "id": 3,
-            "word": "日本米",
-            "furigana": "にほんまい",
-            "romanji": "nihonmai",
-            "meanings": {
-              "id": "beras Jepang",
-              "en": "Japanese rice"
-            }
+              "id": "nama keluarga",
+              "en": "family name, surname"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "あなたの名字は何ですか。",
+                "furigana": "あなたのみょうじはなんですか。",
+                "romaji": "anata no myouji wa nan desu ka.",
+                "meanings": {
+                  "id": "Apa nama keluarga Anda?",
+                  "en": "What is your family name?"
+                }
+              }
+            ]
           }
         ]
       }
@@ -58,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "beras",
-    "en": "rice"
+    "id": "huruf, karakter",
+    "en": "character, letter"
   }
 }
