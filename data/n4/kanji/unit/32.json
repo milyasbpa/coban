@@ -1,45 +1,136 @@
 {
   "id": 32,
-  "character": "地",
+  "character": "色",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "ち",
-        "romanji": "chi",
+        "furigana": "いろ",
+        "romanji": "iro",
         "examples": [
           {
             "id": 1,
-            "word": "地図",
-            "furigana": "ちず",
-            "romanji": "chizu",
+            "word": "色",
+            "furigana": "いろ",
+            "romanji": "iro",
             "meanings": {
-              "id": "peta",
-              "en": "map"
-            }
+              "id": "warna",
+              "en": "color"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "好きな色は何ですか。",
+                "furigana": "すきないろはなんですか。",
+                "romaji": "suki na iro wa nan desu ka.",
+                "meanings": {
+                  "id": "Warna apa yang Anda sukai?",
+                  "en": "What color do you like?"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "色々",
+            "furigana": "いろいろ",
+            "romanji": "iroiro",
+            "meanings": {
+              "id": "macam-macam",
+              "en": "various"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "色々な国を旅行したいです。",
+                "furigana": "いろいろなくにをりょこうしたいです。",
+                "romaji": "iroiro na kuni wo ryokou shitai desu.",
+                "meanings": {
+                  "id": "Saya ingin bepergian ke berbagai negara.",
+                  "en": "I want to travel to various countries."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "チ",
-        "romanji": "chi",
-        "examples": []
-      },
-      {
-        "furigana": "ジ",
-        "romanji": "ji",
+        "furigana": "ショク",
+        "romanji": "shoku",
         "examples": [
           {
-            "id": 2,
-            "word": "地面",
-            "furigana": "じめん",
-            "romanji": "jimen",
+            "id": 1,
+            "word": "特色",
+            "furigana": "とくしょく",
+            "romanji": "tokushoku",
             "meanings": {
-              "id": "permukaan tanah",
-              "en": "ground surface"
-            }
+              "id": "karakteristik",
+              "en": "characteristic"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この町の特色は古い建物です。",
+                "furigana": "このまちのとくしょくはふるいたてものです。",
+                "romaji": "kono machi no tokushoku wa furui tatemono desu.",
+                "meanings": {
+                  "id": "Karakteristik kota ini adalah bangunan-bangunan tua.",
+                  "en": "The characteristic of this town is old buildings."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "シキ",
+        "romanji": "shiki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "景色",
+            "furigana": "けしき",
+            "romanji": "keshiki",
+            "meanings": {
+              "id": "pemandangan",
+              "en": "scenery, landscape"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "山の景色がとてもきれいでした。",
+                "furigana": "やまのけしきがとてもきれいでした。",
+                "romaji": "yama no keshiki ga totemo kirei deshita.",
+                "meanings": {
+                  "id": "Pemandangan gunung sangat indah.",
+                  "en": "The mountain scenery was very beautiful."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "色素",
+            "furigana": "しきそ",
+            "romanji": "shikiso",
+            "meanings": {
+              "id": "zat warna",
+              "en": "pigment"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この食品には色素が入っています。",
+                "furigana": "このしょくひんにはしきそがはいっています。",
+                "romaji": "kono shokuhin ni wa shikiso ga haitte imasu.",
+                "meanings": {
+                  "id": "Makanan ini mengandung zat warna.",
+                  "en": "This food contains pigment."
+                }
+              }
+            ]
           }
         ]
       }
@@ -47,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "tanah",
-    "en": "ground, earth"
+    "id": "warna",
+    "en": "color"
   }
 }
