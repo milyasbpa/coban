@@ -1,36 +1,144 @@
 {
   "id": 6,
-  "character": "文",
+  "character": "止",
   "strokes": 4,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "ブン",
-        "romanji": "bun",
+        "furigana": "と",
+        "romanji": "to",
         "examples": [
           {
             "id": 1,
-            "word": "文化",
-            "furigana": "ぶんか",
-            "romanji": "bunka",
+            "word": "止まる",
+            "furigana": "とまる",
+            "romanji": "tomaru",
             "meanings": {
-              "id": "kebudayaan",
-              "en": "culture"
-            }
+              "id": "berhenti, tahan",
+              "en": "to stop, to halt"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "バスがバス停に止まりました。",
+                "furigana": "バスがバスていにとまりました。",
+                "romaji": "basu ga basutei ni tomarimashita.",
+                "meanings": {
+                  "id": "Bus berhenti di halte.",
+                  "en": "The bus stopped at the bus stop."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "止める",
+            "furigana": "とめる",
+            "romanji": "tomeru",
+            "meanings": {
+              "id": "memberhentikan, menahan",
+              "en": "to stop something"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ここに車を止めてもいいですか。",
+                "furigana": "ここにくるまをとめてもいいですか。",
+                "romaji": "koko ni kuruma wo tometemo ii desu ka.",
+                "meanings": {
+                  "id": "Bolehkah saya parkir mobil di sini?",
+                  "en": "May I park my car here?"
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "モン",
-        "romanji": "mon",
-        "examples": []
+        "furigana": "ど",
+        "romanji": "do",
+        "examples": [
+          {
+            "id": 1,
+            "word": "通行止め",
+            "furigana": "つうこうどめ",
+            "romanji": "tsuukoudome",
+            "meanings": {
+              "id": "ditutup (larangan untuk lewat)",
+              "en": "road closed, no thoroughfare"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この道は工事で通行止めです。",
+                "furigana": "このみちはこうじでつうこうどめです。",
+                "romaji": "kono michi wa kouji de tsuukoudome desu.",
+                "meanings": {
+                  "id": "Jalan ini ditutup karena konstruksi.",
+                  "en": "This road is closed due to construction."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "禁止",
+            "furigana": "きんし",
+            "romanji": "kinshi",
+            "meanings": {
+              "id": "larangan",
+              "en": "prohibition, ban"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ここは駐車禁止です。",
+                "furigana": "ここはちゅうしゃきんしです。",
+                "romaji": "koko wa chuusha kinshi desu.",
+                "meanings": {
+                  "id": "Di sini parkir dilarang.",
+                  "en": "Parking is prohibited here."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "中止",
+            "furigana": "ちゅうし",
+            "romanji": "chuushi",
+            "meanings": {
+              "id": "batal",
+              "en": "cancellation, suspension"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "雨で試合が中止になりました。",
+                "furigana": "あめでしあいがちゅうしになりました。",
+                "romaji": "ame de shiai ga chuushi ni narimashita.",
+                "meanings": {
+                  "id": "Pertandingan dibatalkan karena hujan.",
+                  "en": "The match was cancelled due to rain."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "exception": null
   },
   "meanings": {
-    "id": "kebudayaan",
-    "en": "sentence, literature"
+    "id": "berhenti",
+    "en": "stop"
   }
 }
