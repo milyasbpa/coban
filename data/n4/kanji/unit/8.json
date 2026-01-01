@@ -1,40 +1,35 @@
 {
   "id": 8,
-  "character": "内",
+  "character": "区",
   "strokes": 4,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "うち",
-        "romanji": "uchi",
+        "furigana": "ク",
+        "romanji": "ku",
         "examples": [
           {
             "id": 1,
-            "word": "内側",
-            "furigana": "うちがわ",
-            "romanji": "uchigawa",
+            "word": "地区",
+            "furigana": "ちく",
+            "romanji": "chiku",
             "meanings": {
-              "id": "bagian dalam",
-              "en": "inside"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ナイ",
-        "romanji": "nai",
-        "examples": [
-          {
-            "id": 2,
-            "word": "家内",
-            "furigana": "かない",
-            "romanji": "kanai",
-            "meanings": {
-              "id": "istri (saya)",
-              "en": "my wife"
-            }
+              "id": "distrik",
+              "en": "district, area"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この地区は静かで住みやすいです。",
+                "furigana": "このちくはしずかですみやすいです。",
+                "romaji": "kono chiku wa shizuka de sumiyasui desu.",
+                "meanings": {
+                  "id": "Distrik ini tenang dan nyaman untuk ditinggali.",
+                  "en": "This district is quiet and easy to live in."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +37,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "bagian dalam",
-    "en": "inside"
+    "id": "distrik, wilayah",
+    "en": "district, ward"
   }
 }
