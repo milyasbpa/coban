@@ -16,7 +16,41 @@
             "meanings": {
               "id": "sore hari",
               "en": "evening"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夕方、公園を散歩します。",
+                "furigana": "ゆうがた、こうえんをさんぽします。",
+                "romaji": "yuugata, kouen wo sanpo shimasu.",
+                "meanings": {
+                  "id": "Sore hari, saya berjalan-jalan di taman.",
+                  "en": "In the evening, I take a walk in the park."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "夕飯",
+            "furigana": "ゆうはん",
+            "romanji": "yuuhan",
+            "meanings": {
+              "id": "makan malam",
+              "en": "dinner"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日の夕飯は何ですか。",
+                "furigana": "きょうのゆうはんはなんですか。",
+                "romaji": "kyou no yuuhan wa nan desu ka.",
+                "meanings": {
+                  "id": "Makan malam hari ini apa?",
+                  "en": "What is dinner today?"
+                }
+              }
+            ]
           }
         ]
       }
@@ -25,7 +59,30 @@
       {
         "furigana": "セキ",
         "romanji": "seki",
-        "examples": []
+        "examples": [
+          {
+            "id": 1,
+            "word": "一朝一夕",
+            "furigana": "いっちょういっせき",
+            "romanji": "ichouisseki",
+            "meanings": {
+              "id": "dalam waktu singkat",
+              "en": "one morning and evening, short time"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本語は一朝一夕には上手になりません。",
+                "furigana": "にほんごはいっちょういっせきにはじょうずになりません。",
+                "romaji": "nihongo wa ichouisseki ni wa jouzu ni narimasen.",
+                "meanings": {
+                  "id": "Bahasa Jepang tidak bisa menjadi mahir dalam waktu singkat.",
+                  "en": "Japanese cannot become proficient overnight."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "exception": {
@@ -38,7 +95,19 @@
           "meanings": {
             "id": "festival 7 Juli",
             "en": "Tanabata festival"
-          }
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "七夕に願い事を書きました。",
+              "furigana": "たなばたにねがいごとをかきました。",
+              "romaji": "tanabata ni negaigoto wo kakimashita.",
+              "meanings": {
+                "id": "Saya menulis permohonan di festival Tanabata.",
+                "en": "I wrote a wish at the Tanabata festival."
+              }
+            }
+          ]
         }
       ]
     }
