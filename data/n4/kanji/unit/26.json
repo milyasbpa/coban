@@ -1,82 +1,64 @@
 {
   "id": 26,
-  "character": "去",
+  "character": "田",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "さ",
-        "romanji": "sa",
+        "furigana": "た",
+        "romanji": "ta",
         "examples": [
           {
             "id": 1,
-            "word": "去る",
-            "furigana": "さる",
-            "romanji": "saru",
+            "word": "田んぼ",
+            "furigana": "たんぼ",
+            "romanji": "tanbo",
             "meanings": {
-              "id": "berlalu, meninggalkan",
-              "en": "to leave"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "さる",
-        "romanji": "saru",
-        "examples": [
-          {
-            "id": 1,
-            "word": "去る",
-            "furigana": "さる",
-            "romanji": "saru",
-            "meanings": {
-              "id": "berlalu, meninggalkan",
-              "en": "to leave"
-            }
+              "id": "sawah",
+              "en": "rice field"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "田んぼで米を育てています。",
+                "furigana": "たんぼでこめをそだてています。",
+                "romaji": "tanbo de kome wo sodatete imasu.",
+                "meanings": {
+                  "id": "Saya sedang menanam padi di sawah.",
+                  "en": "I am growing rice in the rice field."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "キョ",
-        "romanji": "kyo",
+        "furigana": "デン",
+        "romanji": "den",
         "examples": [
           {
-            "id": 3,
-            "word": "去年",
-            "furigana": "きょねん",
-            "romanji": "kyonen",
+            "id": 1,
+            "word": "水田",
+            "furigana": "すいでん",
+            "romanji": "suiden",
             "meanings": {
-              "id": "tahun lalu",
-              "en": "last year"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "コ",
-        "romanji": "ko",
-        "examples": [
-          {
-            "id": 2,
-            "word": "過去去り",
-            "furigana": "かこさり",
-            "romanji": "kakosari",
-            "meanings": {
-              "id": "perbuatan meninggalkan",
-              "en": "act of leaving"
-            }
-          },
-          {
-            "id": 4,
-            "word": "過去",
-            "furigana": "かこ",
-            "romanji": "kako",
-            "meanings": {
-              "id": "masa lalu",
-              "en": "past"
-            }
+              "id": "sawah",
+              "en": "rice paddy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この地域には水田がたくさんあります。",
+                "furigana": "このちいきにはすいでんがたくさんあります。",
+                "romaji": "kono chiiki ni wa suiden ga takusan arimasu.",
+                "meanings": {
+                  "id": "Di daerah ini ada banyak sawah.",
+                  "en": "There are many rice paddies in this area."
+                }
+              }
+            ]
           }
         ]
       }
@@ -84,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berlalu, meninggalkan",
-    "en": "leave, past"
+    "id": "sawah",
+    "en": "rice field"
   }
 }
