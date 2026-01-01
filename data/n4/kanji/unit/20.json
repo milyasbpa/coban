@@ -1,50 +1,136 @@
 {
   "id": 20,
-  "character": "写",
+  "character": "代",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "うつ",
-        "romanji": "utsu",
+        "furigana": "か",
+        "romanji": "ka",
         "examples": [
           {
             "id": 1,
-            "word": "写す",
-            "furigana": "うつす",
-            "romanji": "utsusu",
+            "word": "代わる",
+            "furigana": "かわる",
+            "romanji": "kawaru",
             "meanings": {
-              "id": "mengkopi, menyalin",
-              "en": "to copy"
-            }
+              "id": "ganti, berubah",
+              "en": "to change, to replace"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生の代わりに私が説明します。",
+                "furigana": "せんせいのかわりにわたしがせつめいします。",
+                "romaji": "sensei no kawari ni watashi ga setsumei shimasu.",
+                "meanings": {
+                  "id": "Saya akan menjelaskan menggantikan guru.",
+                  "en": "I will explain in place of the teacher."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "写し",
-            "furigana": "うつし",
-            "romanji": "utsushi",
+            "word": "代える",
+            "furigana": "かえる",
+            "romanji": "kaeru",
             "meanings": {
-              "id": "kopi, salinan",
-              "en": "copy"
-            }
+              "id": "mengganti, mengubah",
+              "en": "to replace, to change"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "古い電池を新しいのに代えました。",
+                "furigana": "ふるいでんちをあたらしいのにかえました。",
+                "romaji": "furui denchi wo atarashii no ni kaemashita.",
+                "meanings": {
+                  "id": "Saya mengganti baterai lama dengan yang baru.",
+                  "en": "I replaced the old battery with a new one."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シャ",
-        "romanji": "sha",
+        "furigana": "タイ",
+        "romanji": "tai",
         "examples": [
           {
-            "id": 3,
-            "word": "写真",
-            "furigana": "しゃしん",
-            "romanji": "shashin",
+            "id": 1,
+            "word": "交代",
+            "furigana": "こうたい",
+            "romanji": "koutai",
             "meanings": {
-              "id": "foto",
-              "en": "photograph"
-            }
+              "id": "bergantian, penggantian",
+              "en": "alternation, shift"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "午後から交代で仕事をします。",
+                "furigana": "ごごからこうたいでしごとをします。",
+                "romaji": "gogo kara koutai de shigoto wo shimasu.",
+                "meanings": {
+                  "id": "Mulai siang kami bekerja secara bergantian.",
+                  "en": "We will work in shifts from the afternoon."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ダイ",
+        "romanji": "dai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "現代",
+            "furigana": "げんだい",
+            "romanji": "gendai",
+            "meanings": {
+              "id": "zaman modern",
+              "en": "modern times"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "現代の生活は便利になりました。",
+                "furigana": "げんだいのせいかつはべんりになりました。",
+                "romaji": "gendai no seikatsu wa benri ni narimashita.",
+                "meanings": {
+                  "id": "Kehidupan zaman modern menjadi nyaman.",
+                  "en": "Modern life has become convenient."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "修理代",
+            "furigana": "しゅうりだい",
+            "romanji": "shuuridai",
+            "meanings": {
+              "id": "ongkos servis",
+              "en": "repair cost"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "修理代が高かったので、新しいのを買いました。",
+                "furigana": "しゅうりだいがたかかったので、あたらしいのをかいました。",
+                "romaji": "shuuridai ga takakatta node, atarashii no wo kaimashita.",
+                "meanings": {
+                  "id": "Karena ongkos servis mahal, saya membeli yang baru.",
+                  "en": "Since the repair cost was expensive, I bought a new one."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mengkopi, menyalin",
-    "en": "copy, photograph"
+    "id": "ganti, zaman",
+    "en": "replace, generation"
   }
 }
