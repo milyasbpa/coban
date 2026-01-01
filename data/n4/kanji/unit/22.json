@@ -1,40 +1,86 @@
 {
   "id": 22,
-  "character": "仕",
+  "character": "写",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "つか",
-        "romanji": "tsuka",
+        "furigana": "うつ",
+        "romanji": "utsu",
         "examples": [
           {
             "id": 1,
-            "word": "仕える",
-            "furigana": "つかえる",
-            "romanji": "tsukaeru",
+            "word": "写す",
+            "furigana": "うつす",
+            "romanji": "utsusu",
             "meanings": {
-              "id": "melayani",
-              "en": "to serve"
-            }
+              "id": "mengkopi, menyalin",
+              "en": "to copy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "黒板の文字をノートに写しました。",
+                "furigana": "こくばんのもじをノートにうつしました。",
+                "romaji": "kokuban no moji wo nooto ni utsushimashita.",
+                "meanings": {
+                  "id": "Saya menyalin tulisan di papan tulis ke buku catatan.",
+                  "en": "I copied the writing on the blackboard to my notebook."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "写し",
+            "furigana": "うつし",
+            "romanji": "utsushi",
+            "meanings": {
+              "id": "copy, salinan",
+              "en": "copy, duplicate"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "書類の写しを作ってください。",
+                "furigana": "しょるいのうつしをつくってください。",
+                "romaji": "shorui no utsushi wo tsukutte kudasai.",
+                "meanings": {
+                  "id": "Tolong buat salinan dokumen.",
+                  "en": "Please make a copy of the document."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シ",
-        "romanji": "shi",
+        "furigana": "シャ",
+        "romanji": "sha",
         "examples": [
           {
-            "id": 2,
-            "word": "仕事",
-            "furigana": "しごと",
-            "romanji": "shigoto",
+            "id": 1,
+            "word": "写真",
+            "furigana": "しゃしん",
+            "romanji": "shashin",
             "meanings": {
-              "id": "pekerjaan",
-              "en": "work"
-            }
+              "id": "foto",
+              "en": "photograph"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "旅行で写真をたくさん撮りました。",
+                "furigana": "りょこうでしゃしんをたくさんとりました。",
+                "romaji": "ryokou de shashin wo takusan torimashita.",
+                "meanings": {
+                  "id": "Saya mengambil banyak foto saat perjalanan.",
+                  "en": "I took a lot of photos during the trip."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +88,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "melayani",
-    "en": "serve, work"
+    "id": "menyalin, foto",
+    "en": "copy, photograph"
   }
 }
