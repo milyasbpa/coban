@@ -1,83 +1,118 @@
 {
   "id": 12,
-  "character": "切",
+  "character": "文",
   "strokes": 4,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "き",
-        "romanji": "ki",
+        "furigana": "ブン",
+        "romanji": "bun",
         "examples": [
           {
             "id": 1,
-            "word": "切る",
-            "furigana": "きる",
-            "romanji": "kiru",
+            "word": "文学",
+            "furigana": "ぶんがく",
+            "romanji": "bungaku",
             "meanings": {
-              "id": "memotong",
-              "en": "to cut"
-            }
+              "id": "literatur",
+              "en": "literature"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "大学で日本文学を勉強しています。",
+                "furigana": "だいがくでにほんぶんがくをべんきょうしています。",
+                "romaji": "daigaku de nihon bungaku wo benkyou shite imasu.",
+                "meanings": {
+                  "id": "Saya belajar literatur Jepang di universitas.",
+                  "en": "I'm studying Japanese literature at university."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "切手",
-            "furigana": "きって",
-            "romanji": "kitte",
+            "word": "文化",
+            "furigana": "ぶんか",
+            "romanji": "bunka",
             "meanings": {
-              "id": "perangko",
-              "en": "stamp"
-            }
-          },
-          {
-            "id": 3,
-            "word": "切符",
-            "furigana": "きっぷ",
-            "romanji": "kippu",
-            "meanings": {
-              "id": "kartu, tiket",
-              "en": "ticket"
-            }
+              "id": "kebudayaan",
+              "en": "culture"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本の文化に興味があります。",
+                "furigana": "にほんのぶんかにきょうみがあります。",
+                "romaji": "nihon no bunka ni kyoumi ga arimasu.",
+                "meanings": {
+                  "id": "Saya tertarik dengan budaya Jepang.",
+                  "en": "I'm interested in Japanese culture."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "きつ",
-        "romanji": "kitsu",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "セツ",
-        "romanji": "setsu",
+        "furigana": "モン",
+        "romanji": "mon",
         "examples": [
           {
-            "id": 4,
-            "word": "親切",
-            "furigana": "しんせつ",
-            "romanji": "shinsetsu",
+            "id": 1,
+            "word": "注文",
+            "furigana": "ちゅうもん",
+            "romanji": "chuumon",
             "meanings": {
-              "id": "ramah",
-              "en": "kind"
-            }
-          },
-          {
-            "id": 5,
-            "word": "大切",
-            "furigana": "たいせつ",
-            "romanji": "taisetsu",
-            "meanings": {
-              "id": "penting",
-              "en": "important"
-            }
+              "id": "pesanan",
+              "en": "order"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "レストランで料理を注文しました。",
+                "furigana": "レストランでりょうりをちゅうもんしました。",
+                "romaji": "resutoran de ryouri wo chuumon shimashita.",
+                "meanings": {
+                  "id": "Saya memesan makanan di restoran.",
+                  "en": "I ordered food at the restaurant."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": null
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "文字",
+          "furigana": "もじ",
+          "romanji": "moji",
+          "meanings": {
+            "id": "huruf",
+            "en": "letter, character"
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "この文字が読めません。",
+              "furigana": "このもじがよめません。",
+              "romaji": "kono moji ga yomemasen.",
+              "meanings": {
+                "id": "Saya tidak bisa membaca huruf ini.",
+                "en": "I can't read this character."
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   "meanings": {
-    "id": "memotong",
-    "en": "cut"
+    "id": "tulisan, literatur",
+    "en": "sentence, literature"
   }
 }
