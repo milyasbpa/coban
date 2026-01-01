@@ -1,55 +1,122 @@
 {
   "id": 10,
-  "character": "方",
+  "character": "心",
   "strokes": 4,
   "readings": {
     "kun": [
       {
-        "furigana": "かた",
-        "romanji": "kata",
-        "examples": []
-      },
-      {
-        "furigana": "がた",
-        "romanji": "gata",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ホウ",
-        "romanji": "hou",
+        "furigana": "こころ",
+        "romanji": "kokoro",
         "examples": [
           {
-            "id": 2,
-            "word": "方法",
-            "furigana": "ほうほう",
-            "romanji": "houhou",
+            "id": 1,
+            "word": "心",
+            "furigana": "こころ",
+            "romanji": "kokoro",
             "meanings": {
-              "id": "cara",
-              "en": "method"
-            }
+              "id": "hati, pikiran",
+              "en": "heart, mind"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼女は優しい心を持っています。",
+                "furigana": "かのじょはやさしいこころをもっています。",
+                "romaji": "kanojo wa yasashii kokoro wo motte imasu.",
+                "meanings": {
+                  "id": "Dia memiliki hati yang lembut.",
+                  "en": "She has a kind heart."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ごころ",
+        "romanji": "gokoro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "親心",
+            "furigana": "おやごころ",
+            "romanji": "oyagokoro",
+            "meanings": {
+              "id": "cinta kasih sayang orang tua",
+              "en": "parental love"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "親心がよく分かりました。",
+                "furigana": "おやごころがよくわかりました。",
+                "romaji": "oyagokoro ga yoku wakarimashita.",
+                "meanings": {
+                  "id": "Saya sangat memahami kasih sayang orang tua.",
+                  "en": "I understood parental love well."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 1,
-          "word": "書き方",
-          "furigana": "かきかた",
-          "romanji": "kakikata",
-          "meanings": {
-            "id": "cara tulis",
-            "en": "way to write"
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 1,
+            "word": "心配",
+            "furigana": "しんぱい",
+            "romanji": "shinpai",
+            "meanings": {
+              "id": "khawatir",
+              "en": "worry, anxiety"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "試験のことが心配です。",
+                "furigana": "しけんのことがしんぱいです。",
+                "romaji": "shiken no koto ga shinpai desu.",
+                "meanings": {
+                  "id": "Saya khawatir tentang ujian.",
+                  "en": "I'm worried about the exam."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "安心",
+            "furigana": "あんしん",
+            "romanji": "anshin",
+            "meanings": {
+              "id": "tenang",
+              "en": "relief, peace of mind"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "家族が無事で安心しました。",
+                "furigana": "かぞくがぶじであんしんしました。",
+                "romaji": "kazoku ga buji de anshin shimashita.",
+                "meanings": {
+                  "id": "Saya lega karena keluarga selamat.",
+                  "en": "I was relieved that my family was safe."
+                }
+              }
+            ]
           }
-        }
-      ]
-    }
+        ]
+      }
+    ],
+    "exception": null
   },
   "meanings": {
-    "id": "cara tulis",
-    "en": "direction, way"
+    "id": "hati, pikiran",
+    "en": "heart, mind"
   }
 }
