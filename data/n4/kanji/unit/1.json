@@ -1,0 +1,100 @@
+{
+  "id": 1,
+  "character": "力",
+  "strokes": 2,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ちから",
+        "romanji": "chikara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "力",
+            "furigana": "ちから",
+            "romanji": "chikara",
+            "meanings": {
+              "id": "tenaga",
+              "en": "power"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は力が強いです。",
+                "furigana": "かれはちからがつよいです。",
+                "romaji": "kare wa chikara ga tsuyoi desu.",
+                "meanings": {
+                  "id": "Dia memiliki tenaga yang kuat.",
+                  "en": "He has strong power."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リョク",
+        "romanji": "ryoku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "能力",
+            "furigana": "のうりょく",
+            "romanji": "nouryoku",
+            "meanings": {
+              "id": "kemampuan",
+              "en": "ability"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼女は日本語の能力が高いです。",
+                "furigana": "かのじょはにほんごののうりょくがたかいです。",
+                "romaji": "kanojo wa nihongo no nouryoku ga takai desu.",
+                "meanings": {
+                  "id": "Kemampuan bahasa Jepangnya tinggi.",
+                  "en": "Her Japanese ability is high."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "リキ",
+        "romanji": "riki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "馬力",
+            "furigana": "ばりき",
+            "romanji": "bariki",
+            "meanings": {
+              "id": "daya kuda",
+              "en": "horse power"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この車は馬力があります。",
+                "furigana": "このくるまはばりきがあります。",
+                "romaji": "kono kuruma wa bariki ga arimasu.",
+                "meanings": {
+                  "id": "Mobil ini memiliki tenaga kuda.",
+                  "en": "This car has horsepower."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tenaga, daya",
+    "en": "power, strength"
+  }
+}
