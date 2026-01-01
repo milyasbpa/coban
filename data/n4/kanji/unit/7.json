@@ -1,40 +1,85 @@
 {
   "id": 7,
-  "character": "牛",
+  "character": "不",
   "strokes": 4,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "うし",
-        "romanji": "ushi",
+        "furigana": "フ",
+        "romanji": "fu",
         "examples": [
           {
             "id": 1,
-            "word": "牛",
-            "furigana": "うし",
-            "romanji": "ushi",
+            "word": "不便",
+            "furigana": "ふべん",
+            "romanji": "fuben",
             "meanings": {
-              "id": "sapi",
-              "en": "cow"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ギュウ",
-        "romanji": "gyuu",
-        "examples": [
+              "id": "tidak praktis",
+              "en": "inconvenient"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "駅から遠いので不便です。",
+                "furigana": "えきからとおいのでふべんです。",
+                "romaji": "eki kara tooi node fuben desu.",
+                "meanings": {
+                  "id": "Karena jauh dari stasiun, tidak praktis.",
+                  "en": "It's inconvenient because it's far from the station."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "牛乳",
-            "furigana": "ぎゅうにゅう",
-            "romanji": "gyuunyuu",
+            "word": "不安",
+            "furigana": "ふあん",
+            "romanji": "fuan",
             "meanings": {
-              "id": "susu sapi",
-              "en": "milk"
-            }
+              "id": "tidak tenang, khawatir",
+              "en": "anxiety, worry"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "試験の結果が不安です。",
+                "furigana": "しけんのけっかがふあんです。",
+                "romaji": "shiken no kekka ga fuan desu.",
+                "meanings": {
+                  "id": "Saya khawatir tentang hasil ujian.",
+                  "en": "I'm anxious about the exam results."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "不気味",
+            "furigana": "ぶきみ",
+            "romanji": "bukimi",
+            "meanings": {
+              "id": "mencekam, aneh",
+              "en": "eerie, creepy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夜の森は不気味でした。",
+                "furigana": "よるのもりはぶきみでした。",
+                "romaji": "yoru no mori wa bukimi deshita.",
+                "meanings": {
+                  "id": "Hutan di malam hari terasa mencekam.",
+                  "en": "The forest at night was eerie."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +87,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "sapi",
-    "en": "cow, bull"
+    "id": "tidak, un-",
+    "en": "not, un-"
   }
 }
