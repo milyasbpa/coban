@@ -1,40 +1,92 @@
 {
   "id": 4,
-  "character": "犬",
+  "character": "元",
   "strokes": 4,
   "readings": {
     "kun": [
       {
-        "furigana": "いぬ",
-        "romanji": "inu",
+        "furigana": "もと",
+        "romanji": "moto",
         "examples": [
           {
             "id": 1,
-            "word": "犬",
-            "furigana": "いぬ",
-            "romanji": "inu",
+            "word": "元",
+            "furigana": "もと",
+            "romanji": "moto",
             "meanings": {
-              "id": "anjing",
-              "en": "dog"
-            }
+              "id": "asal, dasar",
+              "en": "origin, basis"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この話は本当の事が元になっています。",
+                "furigana": "このはなしはほんとうのことがもとになっています。",
+                "romaji": "kono hanashi wa hontou no koto ga moto ni natte imasu.",
+                "meanings": {
+                  "id": "Cerita ini berdasarkan kejadian nyata.",
+                  "en": "This story is based on true events."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ケン",
-        "romanji": "ken",
+        "furigana": "ゲン",
+        "romanji": "gen",
         "examples": [
           {
-            "id": 2,
-            "word": "番犬",
-            "furigana": "ばんけん",
-            "romanji": "banken",
+            "id": 1,
+            "word": "元気",
+            "furigana": "げんき",
+            "romanji": "genki",
             "meanings": {
-              "id": "anjing penjaga",
-              "en": "guard dog"
-            }
+              "id": "sehat",
+              "en": "healthy, energetic"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "祖母は90歳ですが、とても元気です。",
+                "furigana": "そぼは90さいですが、とてもげんきです。",
+                "romaji": "sobo wa 90-sai desu ga, totemo genki desu.",
+                "meanings": {
+                  "id": "Nenek saya berusia 90 tahun, tetapi sangat sehat.",
+                  "en": "My grandmother is 90 years old, but very healthy."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ガン",
+        "romanji": "gan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "元日",
+            "furigana": "がんじつ",
+            "romanji": "ganjitsu",
+            "meanings": {
+              "id": "hari pertama di tahun baru",
+              "en": "New Year's Day"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "元日に家族で神社に行きました。",
+                "furigana": "がんじつにかぞくでじんじゃにいきました。",
+                "romaji": "ganjitsu ni kazoku de jinja ni ikimashita.",
+                "meanings": {
+                  "id": "Pada hari pertama tahun baru, saya pergi ke kuil dengan keluarga.",
+                  "en": "On New Year's Day, I went to the shrine with my family."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +94,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "anjing",
-    "en": "dog"
+    "id": "asal, sumber",
+    "en": "origin, source"
   }
 }
