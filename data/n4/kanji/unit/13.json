@@ -1,33 +1,108 @@
 {
   "id": 13,
-  "character": "予",
+  "character": "方",
   "strokes": 4,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "ヨ",
-        "romanji": "yo",
+        "furigana": "かた",
+        "romanji": "kata",
         "examples": [
           {
             "id": 1,
-            "word": "予定",
-            "furigana": "よてい",
-            "romanji": "yotei",
+            "word": "書き方",
+            "furigana": "かきかた",
+            "romanji": "kakikata",
             "meanings": {
-              "id": "rencana",
-              "en": "plan"
-            }
+              "id": "cara tulis",
+              "en": "way of writing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "漢字の書き方を教えてください。",
+                "furigana": "かんじのかきかたをおしえてください。",
+                "romaji": "kanji no kakikata wo oshiete kudasai.",
+                "meanings": {
+                  "id": "Tolong ajarkan cara menulis kanji.",
+                  "en": "Please teach me how to write kanji."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "天気予報",
-            "furigana": "てんきよほう",
-            "romanji": "tenkiyohou",
+            "word": "夕方",
+            "furigana": "ゆうがた",
+            "romanji": "yuugata",
             "meanings": {
-              "id": "ramalan cuaca",
-              "en": "weather forecast"
-            }
+              "id": "senja",
+              "en": "evening"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夕方に友達と会います。",
+                "furigana": "ゆうがたにともだちとあいます。",
+                "romaji": "yuugata ni tomodachi to aimasu.",
+                "meanings": {
+                  "id": "Saya akan bertemu teman di senja hari.",
+                  "en": "I will meet my friend in the evening."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "方法",
+            "furigana": "ほうほう",
+            "romanji": "houhou",
+            "meanings": {
+              "id": "cara",
+              "en": "method, way"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この問題の方法が分かりません。",
+                "furigana": "このもんだいのほうほうがわかりません。",
+                "romaji": "kono mondai no houhou ga wakarimasen.",
+                "meanings": {
+                  "id": "Saya tidak tahu cara menyelesaikan masalah ini.",
+                  "en": "I don't know the method for this problem."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "方面",
+            "furigana": "ほうめん",
+            "romanji": "houmen",
+            "meanings": {
+              "id": "jurusan, arah",
+              "en": "direction, district"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "駅はどの方面ですか。",
+                "furigana": "えきはどのほうめんですか。",
+                "romaji": "eki wa dono houmen desu ka.",
+                "meanings": {
+                  "id": "Stasiun ke arah mana?",
+                  "en": "Which direction is the station?"
+                }
+              }
+            ]
           }
         ]
       }
@@ -35,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "rencana",
-    "en": "plan, beforehand"
+    "id": "arah, cara",
+    "en": "direction, way"
   }
 }
