@@ -1,76 +1,122 @@
 {
   "id": 24,
-  "character": "代",
+  "character": "世",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "か",
-        "romanji": "ka",
+        "furigana": "よ",
+        "romanji": "yo",
         "examples": [
           {
             "id": 1,
-            "word": "代わる",
-            "furigana": "かわる",
-            "romanji": "kawaru",
+            "word": "世の中",
+            "furigana": "よのなか",
+            "romanji": "yononaka",
             "meanings": {
-              "id": "ganti, berubah",
-              "en": "to replace"
-            }
-          },
-          {
-            "id": 2,
-            "word": "代える",
-            "furigana": "かえる",
-            "romanji": "kaeru",
-            "meanings": {
-              "id": "mengganti, mengubah",
-              "en": "to change"
-            }
+              "id": "dalam dunia",
+              "en": "the world, society"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "世の中は変わっていきます。",
+                "furigana": "よのなかはかわっていきます。",
+                "romaji": "yononaka wa kawatte ikimasu.",
+                "meanings": {
+                  "id": "Dunia terus berubah.",
+                  "en": "The world keeps changing."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ダイ",
-        "romanji": "dai",
+        "furigana": "セ",
+        "romanji": "se",
         "examples": [
           {
-            "id": 4,
-            "word": "現代",
-            "furigana": "げんだい",
-            "romanji": "gendai",
+            "id": 1,
+            "word": "世界",
+            "furigana": "せかい",
+            "romanji": "sekai",
             "meanings": {
-              "id": "zaman modern",
-              "en": "modern times"
-            }
+              "id": "dunia",
+              "en": "world"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "世界中を旅行したいです。",
+                "furigana": "せかいじゅうをりょこうしたいです。",
+                "romaji": "sekaijuu wo ryokou shitai desu.",
+                "meanings": {
+                  "id": "Saya ingin bepergian ke seluruh dunia.",
+                  "en": "I want to travel around the world."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "出世",
+            "furigana": "しゅっせ",
+            "romanji": "shusse",
+            "meanings": {
+              "id": "promosi, naik pangkat",
+              "en": "promotion, success"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は若いのに出世しました。",
+                "furigana": "かれはわかいのにしゅっせしました。",
+                "romaji": "kare wa wakai noni shusse shimashita.",
+                "meanings": {
+                  "id": "Meskipun masih muda, dia mendapat promosi.",
+                  "en": "Even though he is young, he got promoted."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ガイ",
-        "romanji": "gai",
-        "examples": []
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "世紀",
+            "furigana": "せいき",
+            "romanji": "seiki",
+            "meanings": {
+              "id": "abad",
+              "en": "century"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "21世紀は科学技術が発展しています。",
+                "furigana": "にじゅういっせいきはかがくぎじゅつがはってんしています。",
+                "romaji": "nijuuisseiki wa kagaku gijutsu ga hatten shite imasu.",
+                "meanings": {
+                  "id": "Abad ke-21, teknologi sains berkembang.",
+                  "en": "Science and technology are developing in the 21st century."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 3,
-          "word": "交代",
-          "furigana": "こうたい",
-          "romanji": "koutai",
-          "meanings": {
-            "id": "bergantian, penggantian",
-            "en": "alternation"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "ganti, berubah",
-    "en": "substitute, generation"
+    "id": "dunia, generasi",
+    "en": "world, generation"
   }
 }
