@@ -1,82 +1,94 @@
 {
   "id": 35,
-  "character": "合",
+  "character": "早",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "あ",
-        "romanji": "a",
+        "furigana": "はや",
+        "romanji": "haya",
         "examples": [
           {
             "id": 1,
-            "word": "合う",
-            "furigana": "あう",
-            "romanji": "au",
+            "word": "早い",
+            "furigana": "はやい",
+            "romanji": "hayai",
             "meanings": {
-              "id": "cocok",
-              "en": "to match"
-            }
+              "id": "pagi-pagi, cepat",
+              "en": "early, fast"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎朝早く起きます。",
+                "furigana": "まいあさはやくおきます。",
+                "romaji": "maiasa hayaku okimasu.",
+                "meanings": {
+                  "id": "Saya bangun pagi-pagi setiap hari.",
+                  "en": "I wake up early every morning."
+                }
+              }
+            ]
           }
         ]
-      },
-      {
-        "furigana": "あわ",
-        "romanji": "awa",
-        "examples": []
       }
     ],
     "on": [
       {
-        "furigana": "ゴウ",
-        "romanji": "gou",
+        "furigana": "ソウ",
+        "romanji": "sou",
         "examples": [
           {
-            "id": 3,
-            "word": "合計",
-            "furigana": "ごうけい",
-            "romanji": "goukei",
+            "id": 1,
+            "word": "早期",
+            "furigana": "そうき",
+            "romanji": "souki",
             "meanings": {
-              "id": "total, jumlah",
-              "en": "total"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ガッ",
-        "romanji": "gatsu",
-        "examples": [
+              "id": "tahap awal",
+              "en": "early stage"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "病気の早期発見が大切です。",
+                "furigana": "びょうきのそうきはっけんがたいせつです。",
+                "romaji": "byouki no souki hakken ga taisetsu desu.",
+                "meanings": {
+                  "id": "Deteksi dini penyakit itu penting.",
+                  "en": "Early detection of illness is important."
+                }
+              }
+            ]
+          },
           {
-            "id": 4,
-            "word": "合併",
-            "furigana": "がっぺい",
-            "romanji": "gappei",
+            "id": 2,
+            "word": "早朝",
+            "furigana": "そうちょう",
+            "romanji": "souchou",
             "meanings": {
-              "id": "gabungan, asosiasi",
-              "en": "merger"
-            }
+              "id": "pagi-pagi sekali",
+              "en": "early morning"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "早朝にジョギングをします。",
+                "furigana": "そうちょうにジョギングをします。",
+                "romaji": "souchou ni jogingu wo shimasu.",
+                "meanings": {
+                  "id": "Saya jogging di pagi-pagi sekali.",
+                  "en": "I jog in the early morning."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "試合",
-          "furigana": "しあい",
-          "romanji": "shiai",
-          "meanings": {
-            "id": "pertandingan",
-            "en": "match, game"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "cocok",
-    "en": "match, fit"
+    "id": "pagi-pagi, cepat",
+    "en": "early, fast"
   }
 }
