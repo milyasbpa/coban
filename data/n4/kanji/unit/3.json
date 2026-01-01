@@ -17,7 +17,41 @@
             "meanings": {
               "id": "pabrik",
               "en": "factory"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は自動車工場で働いています。",
+                "furigana": "ちちはじどうしゃこうじょうではたらいています。",
+                "romaji": "chichi wa jidousha koujou de hataraite imasu.",
+                "meanings": {
+                  "id": "Ayah bekerja di pabrik mobil.",
+                  "en": "My father works at a car factory."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "工業",
+            "furigana": "こうぎょう",
+            "romanji": "kougyou",
+            "meanings": {
+              "id": "industri",
+              "en": "industry"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この町は工業が盛んです。",
+                "furigana": "このまちはこうぎょうがさかんです。",
+                "romaji": "kono machi wa kougyou ga sakan desu.",
+                "meanings": {
+                  "id": "Kota ini industrinya berkembang pesat.",
+                  "en": "This town has a thriving industry."
+                }
+              }
+            ]
           }
         ]
       },
@@ -33,7 +67,19 @@
             "meanings": {
               "id": "tukang kayu",
               "en": "carpenter"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は有名な大工です。",
+                "furigana": "かれはゆうめいなだいくです。",
+                "romaji": "kare wa yuumei na daiku desu.",
+                "meanings": {
+                  "id": "Dia adalah tukang kayu yang terkenal.",
+                  "en": "He is a famous carpenter."
+                }
+              }
+            ]
           }
         ]
       }
