@@ -1,40 +1,130 @@
 {
   "id": 31,
-  "character": "多",
+  "character": "死",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "おお",
-        "romanji": "oo",
+        "furigana": "し",
+        "romanji": "shi",
         "examples": [
           {
             "id": 1,
-            "word": "多い",
-            "furigana": "おおい",
-            "romanji": "ooi",
+            "word": "死ぬ",
+            "furigana": "しぬ",
+            "romanji": "shinu",
             "meanings": {
-              "id": "banyak",
-              "en": "many"
-            }
+              "id": "mati, meninggal",
+              "en": "to die"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "祖父は去年、病気で死にました。",
+                "furigana": "そふはきょねん、びょうきでしにました。",
+                "romaji": "sofu wa kyonen, byouki de shinimashita.",
+                "meanings": {
+                  "id": "Kakek meninggal tahun lalu karena sakit.",
+                  "en": "My grandfather died of illness last year."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "死神",
+            "furigana": "しにがみ",
+            "romanji": "shinigami",
+            "meanings": {
+              "id": "dewa kematian",
+              "en": "god of death"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この映画には死神が出てきます。",
+                "furigana": "このえいがにはしにがみがでてきます。",
+                "romaji": "kono eiga ni wa shinigami ga dete kimasu.",
+                "meanings": {
+                  "id": "Dewa kematian muncul di film ini.",
+                  "en": "The god of death appears in this movie."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "タ",
-        "romanji": "ta",
+        "furigana": "シ",
+        "romanji": "shi",
         "examples": [
           {
-            "id": 2,
-            "word": "多分",
-            "furigana": "たぶん",
-            "romanji": "tabun",
+            "id": 1,
+            "word": "死体",
+            "furigana": "したい",
+            "romanji": "shitai",
             "meanings": {
-              "id": "sedikit banyak",
-              "en": "probably"
-            }
+              "id": "jasad, mayat",
+              "en": "corpse, dead body"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "森で死体が見つかりました。",
+                "furigana": "もりでしたいがみつかりました。",
+                "romaji": "mori de shitai ga mitsukarimashita.",
+                "meanings": {
+                  "id": "Jasad ditemukan di hutan.",
+                  "en": "A corpse was found in the forest."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "死亡",
+            "furigana": "しぼう",
+            "romanji": "shibou",
+            "meanings": {
+              "id": "kematian",
+              "en": "death"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "事故で3人が死亡しました。",
+                "furigana": "じこでさんにんがしぼうしました。",
+                "romaji": "jiko de sannin ga shibou shimashita.",
+                "meanings": {
+                  "id": "Tiga orang meninggal dalam kecelakaan.",
+                  "en": "Three people died in the accident."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "死後",
+            "furigana": "しご",
+            "romanji": "shigo",
+            "meanings": {
+              "id": "setelah kematian",
+              "en": "after death"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "死後の世界について考えました。",
+                "furigana": "しごのせかいについてかんがえました。",
+                "romaji": "shigo no sekai ni tsuite kangaemashita.",
+                "meanings": {
+                  "id": "Saya berpikir tentang dunia setelah kematian.",
+                  "en": "I thought about the world after death."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "banyak",
-    "en": "many, much"
+    "id": "mati, kematian",
+    "en": "death, die"
   }
 }
