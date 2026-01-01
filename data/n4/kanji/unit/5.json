@@ -1,55 +1,94 @@
 {
   "id": 5,
-  "character": "心",
+  "character": "牛",
   "strokes": 4,
   "readings": {
     "kun": [
       {
-        "furigana": "こころ",
-        "romanji": "kokoro",
-        "examples": []
-      },
-      {
-        "furigana": "ごころ",
-        "romanji": "gokoro",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "シン",
-        "romanji": "shin",
+        "furigana": "うし",
+        "romanji": "ushi",
         "examples": [
           {
-            "id": 2,
-            "word": "心配",
-            "furigana": "しんぱい",
-            "romanji": "shinpai",
+            "id": 1,
+            "word": "牛",
+            "furigana": "うし",
+            "romanji": "ushi",
             "meanings": {
-              "id": "khawatir",
-              "en": "worry"
-            }
+              "id": "sapi",
+              "en": "cow, cattle"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "牧場でたくさんの牛を見ました。",
+                "furigana": "ぼくじょうでたくさんのうしをみました。",
+                "romaji": "bokujou de takusan no ushi wo mimashita.",
+                "meanings": {
+                  "id": "Saya melihat banyak sapi di peternakan.",
+                  "en": "I saw many cows at the ranch."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 1,
-          "word": "親心",
-          "furigana": "おやごころ",
-          "romanji": "oyagokoro",
-          "meanings": {
-            "id": "cinta kasih orangtua",
-            "en": "parental love"
+    "on": [
+      {
+        "furigana": "ギュウ",
+        "romanji": "gyuu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "牛肉",
+            "furigana": "ぎゅうにく",
+            "romanji": "gyuuniku",
+            "meanings": {
+              "id": "daging sapi",
+              "en": "beef"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日のメニューは牛肉のステーキです。",
+                "furigana": "きょうのメニューはぎゅうにくのステーキです。",
+                "romaji": "kyou no menyuu wa gyuuniku no suteeki desu.",
+                "meanings": {
+                  "id": "Menu hari ini adalah steak daging sapi.",
+                  "en": "Today's menu is beef steak."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "牛乳",
+            "furigana": "ぎゅうにゅう",
+            "romanji": "gyuunyuu",
+            "meanings": {
+              "id": "susu sapi",
+              "en": "milk"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎朝、牛乳を飲みます。",
+                "furigana": "まいあさ、ぎゅうにゅうをのみます。",
+                "romaji": "maiasa, gyuunyuu wo nomimasu.",
+                "meanings": {
+                  "id": "Setiap pagi, saya minum susu.",
+                  "en": "Every morning, I drink milk."
+                }
+              }
+            ]
           }
-        }
-      ]
-    }
+        ]
+      }
+    ],
+    "exception": null
   },
   "meanings": {
-    "id": "hati, pikiran",
-    "en": "heart, mind"
+    "id": "sapi",
+    "en": "cow, cattle"
   }
 }
