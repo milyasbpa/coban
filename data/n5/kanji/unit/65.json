@@ -1,0 +1,58 @@
+{
+  "id": 65,
+  "character": "車",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くるま",
+        "romanji": "kuruma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "車",
+            "furigana": "くるま",
+            "romanji": "kuruma",
+            "meanings": {
+              "id": "kendaraan",
+              "en": "car"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャ",
+        "romanji": "sha",
+        "examples": [
+          {
+            "id": 2,
+            "word": "自動車",
+            "furigana": "じどうしゃ",
+            "romanji": "jidousha",
+            "meanings": {
+              "id": "roda gigi, persneling",
+              "en": "automobile"
+            }
+          },
+          {
+            "id": 3,
+            "word": "車掌",
+            "furigana": "しゃしょう",
+            "romanji": "shashou",
+            "meanings": {
+              "id": "kondektur",
+              "en": "conductor"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kendaraan",
+    "en": "car, vehicle"
+  }
+}

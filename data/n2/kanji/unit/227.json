@@ -1,0 +1,48 @@
+{
+  "id": 227,
+  "character": "祭",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まつ",
+        "romanji": "matsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "祭り",
+            "furigana": "まつり",
+            "romanji": "matsuri",
+            "meanings": {
+              "id": "perayaan festival",
+              "en": "festival"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "祭日",
+            "furigana": "さいじつ",
+            "romanji": "saijitsu",
+            "meanings": {
+              "id": "hari raya nasional",
+              "en": "national holiday"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perayaan festival, hari raya nasional",
+    "en": "festival, national holiday"
+  }
+}

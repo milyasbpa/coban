@@ -1,0 +1,48 @@
+{
+  "id": 302,
+  "character": "敬",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うやま",
+        "romanji": "uyama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "敬う",
+            "furigana": "うやまう",
+            "romanji": "uyamau",
+            "meanings": {
+              "id": "menghormati",
+              "en": "to respect"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "敬語",
+            "furigana": "けいご",
+            "romanji": "keigo",
+            "meanings": {
+              "id": "bentuk bahasa hormat",
+              "en": "honorific form"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menghormati, bentuk bahasa hormat",
+    "en": "respect, honorific form"
+  }
+}

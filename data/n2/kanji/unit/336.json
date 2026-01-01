@@ -1,0 +1,31 @@
+{
+  "id": 336,
+  "character": "賃",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "チン",
+        "romanji": "chin",
+        "examples": [
+          {
+            "id": 1,
+            "word": "賃金",
+            "furigana": "ちんぎん",
+            "romanji": "chingin",
+            "meanings": {
+              "id": "upah, gaji",
+              "en": "wage, salary"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "upah, gaji, sewa",
+    "en": "wages, salary, rent"
+  }
+}

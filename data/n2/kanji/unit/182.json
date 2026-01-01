@@ -1,0 +1,48 @@
+{
+  "id": 182,
+  "character": "酌",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "く",
+        "romanji": "ku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "酌む",
+            "furigana": "くむ",
+            "romanji": "kumu",
+            "meanings": {
+              "id": "menimba, menyerok",
+              "en": "to ladle, to scoop"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャク",
+        "romanji": "shaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "お酌する",
+            "furigana": "おしゃくする",
+            "romanji": "oshaku suru",
+            "meanings": {
+              "id": "menuangkan minuman keras",
+              "en": "to serve alcohol"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menimba, menyerok, menuangkan minuman keras",
+    "en": "to ladle, to serve (alcohol)"
+  }
+}

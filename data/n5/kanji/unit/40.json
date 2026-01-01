@@ -1,0 +1,74 @@
+{
+  "id": 40,
+  "character": "右",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みぎ",
+        "romanji": "migi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "右側",
+            "furigana": "みぎがわ",
+            "romanji": "migigawa",
+            "meanings": {
+              "id": "sebelah kanan",
+              "en": "right side"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ウ",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 2,
+            "word": "右折",
+            "furigana": "うせつ",
+            "romanji": "usetsu",
+            "meanings": {
+              "id": "belok kanan",
+              "en": "right turn"
+            }
+          },
+          {
+            "id": 3,
+            "word": "左右",
+            "furigana": "さゆう",
+            "romanji": "sayuu",
+            "meanings": {
+              "id": "kiri dan kanan",
+              "en": "left and right"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ユウ",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "左右",
+            "furigana": "さゆう",
+            "romanji": "sayuu",
+            "meanings": {
+              "id": "kiri dan kanan",
+              "en": "left and right"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kanan",
+    "en": "right"
+  }
+}

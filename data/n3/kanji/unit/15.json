@@ -1,0 +1,69 @@
+{
+  "id": 15,
+  "character": "夫",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おっと",
+        "romanji": "otto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夫",
+            "furigana": "おっと",
+            "romanji": "otto",
+            "meanings": {
+              "id": "suami",
+              "en": "husband"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "夫人",
+            "furigana": "ふじん",
+            "romanji": "fujin",
+            "meanings": {
+              "id": "nyonya, istri",
+              "en": "wife, lady"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "フウ",
+        "romanji": "fuu",
+        "examples": []
+      },
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "大丈夫",
+            "furigana": "だいじょうぶ",
+            "romanji": "daijoubu",
+            "meanings": {
+              "id": "tidak apa apa",
+              "en": "all right, okay, no problem"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "suami",
+    "en": "husband"
+  }
+}

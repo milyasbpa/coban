@@ -1,0 +1,53 @@
+{
+  "id": 394,
+  "character": "解",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "解く",
+            "furigana": "とく",
+            "romanji": "toku",
+            "meanings": {
+              "id": "melepaskan",
+              "en": "to release"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "解散",
+            "furigana": "かいさん",
+            "romanji": "kaisan",
+            "meanings": {
+              "id": "pembubaran",
+              "en": "dissolution"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲ",
+        "romanji": "ge",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melepaskan, pembubaran",
+    "en": "release, dissolution"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 423,
+  "character": "増",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "増す",
+            "furigana": "ます",
+            "romanji": "masu",
+            "meanings": {
+              "id": "meningkat",
+              "en": "increase"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ふ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "増える",
+            "furigana": "ふえる",
+            "romanji": "fueru",
+            "meanings": {
+              "id": "bertambah",
+              "en": "to increase"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゾウ",
+        "romanji": "zou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "増加",
+            "furigana": "ぞうか",
+            "romanji": "zouka",
+            "meanings": {
+              "id": "penambahan",
+              "en": "addition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meningkat, bertambah, penambahan",
+    "en": "increase, addition"
+  }
+}

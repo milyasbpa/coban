@@ -1,0 +1,48 @@
+{
+  "id": 296,
+  "character": "診",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "み",
+        "romanji": "mi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "診る",
+            "furigana": "みる",
+            "romanji": "miru",
+            "meanings": {
+              "id": "mendiagnosis",
+              "en": "to diagnose"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "診断",
+            "furigana": "しんだん",
+            "romanji": "shindan",
+            "meanings": {
+              "id": "diagnosis",
+              "en": "diagnosis"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mendiagnosis, diagnosis",
+    "en": "diagnose, diagnosis"
+  }
+}

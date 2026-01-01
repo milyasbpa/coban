@@ -1,0 +1,48 @@
+{
+  "id": 95,
+  "character": "買",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "買う",
+            "furigana": "かう",
+            "romanji": "kau",
+            "meanings": {
+              "id": "membeli",
+              "en": "to buy"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "バイ",
+        "romanji": "bai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "買収",
+            "furigana": "ばいしゅう",
+            "romanji": "baishuu",
+            "meanings": {
+              "id": "pembelian",
+              "en": "acquisition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membeli",
+    "en": "buy"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 320,
+  "character": "腕",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うで",
+        "romanji": "ude",
+        "examples": [
+          {
+            "id": 1,
+            "word": "腕時計",
+            "furigana": "うでどけい",
+            "romanji": "udedokei",
+            "meanings": {
+              "id": "jam tangan",
+              "en": "wristwatch"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ワン",
+        "romanji": "wan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "腕力",
+            "furigana": "わんりょく",
+            "romanji": "wanryoku",
+            "meanings": {
+              "id": "kekuatan lengan",
+              "en": "arm strength"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jam tangan, kekuatan lengan",
+    "en": "wristwatch, arm strength"
+  }
+}

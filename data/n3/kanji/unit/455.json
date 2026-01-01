@@ -1,0 +1,71 @@
+{
+  "id": 455,
+  "character": "難",
+  "strokes": 18,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むずか",
+        "romanji": "muzuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "難しい",
+            "furigana": "むずかしい",
+            "romanji": "muzukashii",
+            "meanings": {
+              "id": "susah, sulit, rumit",
+              "en": "difficult, hard, complicated"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": []
+      },
+      {
+        "furigana": "がた",
+        "romanji": "gata",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ナン",
+        "romanji": "nan",
+        "examples": [
+          {
+            "id": 3,
+            "word": "難問",
+            "furigana": "なんもん",
+            "romanji": "nanmon",
+            "meanings": {
+              "id": "masalah pelik",
+              "en": "tricky problem"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "言い難い",
+          "furigana": "いいがたい",
+          "romanji": "iigatai",
+          "meanings": {
+            "id": "susah dikatakan",
+            "en": "hard to say"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "susah, sulit, rumit, susah dikatakan, masalah pelik",
+    "en": "difficult, hard, complicated, hard to say, tricky problem"
+  }
+}

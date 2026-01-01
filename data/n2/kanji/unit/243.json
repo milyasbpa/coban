@@ -1,0 +1,60 @@
+{
+  "id": 243,
+  "character": "脚",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あし",
+        "romanji": "ashi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キャク",
+        "romanji": "kyaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "三脚",
+            "furigana": "さんきゃく",
+            "romanji": "sankyaku",
+            "meanings": {
+              "id": "tripod",
+              "en": "tripod"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "机の脚",
+          "furigana": "つくえのあし",
+          "romanji": "tsukue no ashi",
+          "meanings": {
+            "id": "kaki meja",
+            "en": "table leg"
+          }
+        },
+        {
+          "id": 3,
+          "word": "脚立",
+          "furigana": "きゃたつ",
+          "romanji": "kyatatsu",
+          "meanings": {
+            "id": "penyangga kaki",
+            "en": "leg support, stepladder"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kaki meja, tripod, penyangga kaki",
+    "en": "table leg, tripod, leg support"
+  }
+}

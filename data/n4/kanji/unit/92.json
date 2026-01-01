@@ -1,0 +1,41 @@
+{
+  "id": 92,
+  "character": "研",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 1,
+            "word": "研究",
+            "furigana": "けんきゅう",
+            "romanji": "kenkyuu",
+            "meanings": {
+              "id": "penelitian",
+              "en": "research"
+            }
+          },
+          {
+            "id": 2,
+            "word": "研修",
+            "furigana": "けんしゅう",
+            "romanji": "kenshuu",
+            "meanings": {
+              "id": "pembelajaran dan pelatihan",
+              "en": "training"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "penelitian",
+    "en": "research, study"
+  }
+}

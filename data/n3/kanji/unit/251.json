@@ -1,0 +1,48 @@
+{
+  "id": 251,
+  "character": "座",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すわ",
+        "romanji": "suwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "座る",
+            "furigana": "すわる",
+            "romanji": "suwaru",
+            "meanings": {
+              "id": "duduk",
+              "en": "to sit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ザ",
+        "romanji": "za",
+        "examples": [
+          {
+            "id": 2,
+            "word": "正座",
+            "furigana": "せいざ",
+            "romanji": "seiza",
+            "meanings": {
+              "id": "berlutut",
+              "en": "to kneel"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "duduk, berlutut",
+    "en": "sit, kneel"
+  }
+}

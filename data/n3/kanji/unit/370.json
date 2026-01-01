@@ -1,0 +1,48 @@
+{
+  "id": 370,
+  "character": "焼",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "や",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "焼き鳥",
+            "furigana": "やきとり",
+            "romanji": "yakitori",
+            "meanings": {
+              "id": "sate ayam",
+              "en": "grilled chicken"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "燃焼",
+            "furigana": "ねんしょう",
+            "romanji": "nenshou",
+            "meanings": {
+              "id": "pembakaran",
+              "en": "burning"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sate ayam, pembakaran",
+    "en": "grilled chicken, burning"
+  }
+}

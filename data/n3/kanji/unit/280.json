@@ -1,0 +1,48 @@
+{
+  "id": 280,
+  "character": "許",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆる",
+        "romanji": "yuru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "許す",
+            "furigana": "ゆるす",
+            "romanji": "yurusu",
+            "meanings": {
+              "id": "mengizinkan",
+              "en": "to permit, to allow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョ",
+        "romanji": "kyo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "許可",
+            "furigana": "きょか",
+            "romanji": "kyoka",
+            "meanings": {
+              "id": "izin, persetujuan",
+              "en": "permission, approval, authorization"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "izin, persetujuan",
+    "en": "permission, approval"
+  }
+}

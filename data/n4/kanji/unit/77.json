@@ -1,0 +1,98 @@
+{
+  "id": 77,
+  "character": "発",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ハツ",
+        "romanji": "hatsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "発明",
+            "furigana": "はつめい",
+            "romanji": "hatsumei",
+            "meanings": {
+              "id": "berkering",
+              "en": "invention"
+            }
+          },
+          {
+            "id": 4,
+            "word": "髪作",
+            "furigana": "はつさく",
+            "romanji": "hatsusaku",
+            "meanings": {
+              "id": "kambuh",
+              "en": "hairstyle"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "パツ",
+        "romanji": "patsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "出発",
+            "furigana": "しゅっぱつ",
+            "romanji": "shuppatsu",
+            "meanings": {
+              "id": "keberangkatan",
+              "en": "departure"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ハッ",
+        "romanji": "hat",
+        "examples": [
+          {
+            "id": 2,
+            "word": "発見",
+            "furigana": "はっけん",
+            "romanji": "hakken",
+            "meanings": {
+              "id": "berkerangkat",
+              "en": "discovery"
+            }
+          },
+          {
+            "id": 3,
+            "word": "発明",
+            "furigana": "はつめい",
+            "romanji": "hatsumei",
+            "meanings": {
+              "id": "berkering",
+              "en": "invention"
+            }
+          },
+          {
+            "id": 4,
+            "word": "髪作",
+            "furigana": "はつさく",
+            "romanji": "hatsusaku",
+            "meanings": {
+              "id": "kambuh",
+              "en": "hairstyle"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ホツ",
+        "romanji": "hotsu",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keberangkatan",
+    "en": "departure, emit"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 267,
+  "character": "斜",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なな",
+        "romanji": "nana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "斜め",
+            "furigana": "ななめ",
+            "romanji": "naname",
+            "meanings": {
+              "id": "miring",
+              "en": "slant, slope"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャ",
+        "romanji": "sha",
+        "examples": [
+          {
+            "id": 2,
+            "word": "斜面",
+            "furigana": "しゃめん",
+            "romanji": "shamen",
+            "meanings": {
+              "id": "lereng, bidang miring",
+              "en": "slope, inclined plane"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "miring, lereng, bidang miring",
+    "en": "slant, slope, inclined plane"
+  }
+}

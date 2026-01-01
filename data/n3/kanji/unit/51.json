@@ -1,0 +1,64 @@
+{
+  "id": 51,
+  "character": "血",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ち",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "血",
+            "furigana": "ち",
+            "romanji": "chi",
+            "meanings": {
+              "id": "darah",
+              "en": "blood"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケツ",
+        "romanji": "ketsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "貧血",
+            "furigana": "ひんけつ",
+            "romanji": "hinketsu",
+            "meanings": {
+              "id": "anemia",
+              "en": "anemia"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケッ",
+        "romanji": "ke",
+        "examples": [
+          {
+            "id": 2,
+            "word": "貧血",
+            "furigana": "ひんけつ",
+            "romanji": "hinketsu",
+            "meanings": {
+              "id": "anemia",
+              "en": "anemia"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "darah",
+    "en": "blood"
+  }
+}

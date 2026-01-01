@@ -1,0 +1,63 @@
+{
+  "id": 198,
+  "character": "要",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "要る",
+            "furigana": "いる",
+            "romanji": "iru",
+            "meanings": {
+              "id": "perlu",
+              "en": "need"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かなめ",
+        "romanji": "kaname",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "要",
+            "furigana": "よう",
+            "romanji": "you",
+            "meanings": {
+              "id": "paling perlu",
+              "en": "essential / important"
+            }
+          },
+          {
+            "id": 3,
+            "word": "重要",
+            "furigana": "じゅうよう",
+            "romanji": "juuyou",
+            "meanings": {
+              "id": "penting",
+              "en": "important"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perlu, paling perlu, penting",
+    "en": "need, most needed, important"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 96,
+  "character": "起",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "起きる",
+            "furigana": "おきる",
+            "romanji": "okiru",
+            "meanings": {
+              "id": "bangun",
+              "en": "to wake up"
+            }
+          },
+          {
+            "id": 2,
+            "word": "起こる",
+            "furigana": "おこる",
+            "romanji": "okoru",
+            "meanings": {
+              "id": "terjadi",
+              "en": "to occur"
+            }
+          },
+          {
+            "id": 3,
+            "word": "起こす",
+            "furigana": "おこす",
+            "romanji": "okosu",
+            "meanings": {
+              "id": "membangunkan, memulai",
+              "en": "to wake up (someone), to start"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 4,
+            "word": "起立",
+            "furigana": "きりつ",
+            "romanji": "kiritsu",
+            "meanings": {
+              "id": "siap, berdiri",
+              "en": "standing up"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bangun",
+    "en": "rise, wake up"
+  }
+}

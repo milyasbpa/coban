@@ -1,0 +1,48 @@
+{
+  "id": 80,
+  "character": "品",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しな",
+        "romanji": "shina",
+        "examples": [
+          {
+            "id": 1,
+            "word": "品物",
+            "furigana": "しなもの",
+            "romanji": "shinamono",
+            "meanings": {
+              "id": "barang-barang",
+              "en": "goods"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒン",
+        "romanji": "hin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "品質",
+            "furigana": "ひんしつ",
+            "romanji": "hinshitsu",
+            "meanings": {
+              "id": "mutu",
+              "en": "quality"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "barang-barang",
+    "en": "goods, quality"
+  }
+}

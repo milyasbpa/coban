@@ -1,0 +1,44 @@
+{
+  "id": 115,
+  "character": "状",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "状況",
+            "furigana": "じょうきょう",
+            "romanji": "joukyou",
+            "meanings": {
+              "id": "keadaan",
+              "en": "condition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "近況",
+          "furigana": "きんきょう",
+          "romanji": "kinkyou",
+          "meanings": {
+            "id": "kabar",
+            "en": "news"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "keadaan, kabar",
+    "en": "condition, news"
+  }
+}

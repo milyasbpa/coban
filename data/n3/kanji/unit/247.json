@@ -1,0 +1,64 @@
+{
+  "id": 247,
+  "character": "酒",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さけ",
+        "romanji": "sake",
+        "examples": [
+          {
+            "id": 1,
+            "word": "酒",
+            "furigana": "さけ",
+            "romanji": "sake",
+            "meanings": {
+              "id": "minuman keras",
+              "en": "alcohol"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さか",
+        "romanji": "saka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "酒屋",
+            "furigana": "さかや",
+            "romanji": "sakaya",
+            "meanings": {
+              "id": "toko arak",
+              "en": "liquor store"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "日本酒",
+            "furigana": "にほんしゅ",
+            "romanji": "nihonshu",
+            "meanings": {
+              "id": "arak Jepang",
+              "en": "sake"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "minuman keras, toko arak, arak Jepang",
+    "en": "alcohol, liquor store, sake"
+  }
+}

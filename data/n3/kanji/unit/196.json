@@ -1,0 +1,41 @@
+{
+  "id": 196,
+  "character": "単",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "タン",
+        "romanji": "tan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "単語",
+            "furigana": "たんご",
+            "romanji": "tango",
+            "meanings": {
+              "id": "kosakata",
+              "en": "vocabulary"
+            }
+          },
+          {
+            "id": 2,
+            "word": "簡単",
+            "furigana": "かんたん",
+            "romanji": "kantan",
+            "meanings": {
+              "id": "mudah",
+              "en": "easy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kosakata, mudah",
+    "en": "vocabulary, easy"
+  }
+}

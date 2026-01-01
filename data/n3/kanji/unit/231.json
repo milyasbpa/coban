@@ -1,0 +1,53 @@
+{
+  "id": 231,
+  "character": "捕",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "捕らえる",
+            "furigana": "とらえる",
+            "romanji": "toraeru",
+            "meanings": {
+              "id": "menangkap",
+              "en": "to catch"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "つか",
+        "romanji": "tsuka",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホ",
+        "romanji": "ho",
+        "examples": [
+          {
+            "id": 2,
+            "word": "捕虜",
+            "furigana": "ほりょ",
+            "romanji": "horyo",
+            "meanings": {
+              "id": "tawanan",
+              "en": "prisoner"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menangkap, tawanan",
+    "en": "to catch, prisoner"
+  }
+}

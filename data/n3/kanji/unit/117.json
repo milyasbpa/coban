@@ -1,0 +1,48 @@
+{
+  "id": 117,
+  "character": "似",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "に",
+        "romanji": "ni",
+        "examples": [
+          {
+            "id": 1,
+            "word": "似る",
+            "furigana": "にる",
+            "romanji": "niru",
+            "meanings": {
+              "id": "mirip, menyerupai",
+              "en": "similar, resemble"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "類似",
+            "furigana": "るいじ",
+            "romanji": "ruiji",
+            "meanings": {
+              "id": "kemiripan, keserupaan",
+              "en": "similarity"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mirip, menyerupai, kemiripan, keserupaan",
+    "en": "similar, resemble, similarity"
+  }
+}

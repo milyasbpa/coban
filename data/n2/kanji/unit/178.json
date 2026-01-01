@@ -1,0 +1,74 @@
+{
+  "id": 178,
+  "character": "恵",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "めぐ",
+        "romanji": "megu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "恵み",
+            "furigana": "めぐみ",
+            "romanji": "megumi",
+            "meanings": {
+              "id": "berkah, karunia",
+              "en": "blessing, gift"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "恩恵",
+            "furigana": "おんけい",
+            "romanji": "onkei",
+            "meanings": {
+              "id": "berkah, karunia",
+              "en": "benefit, favor"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "エ",
+        "romanji": "e",
+        "examples": [
+          {
+            "id": 2,
+            "word": "恩恵",
+            "furigana": "おんけい",
+            "romanji": "onkei",
+            "meanings": {
+              "id": "berkah, karunia",
+              "en": "benefit, favor"
+            }
+          },
+          {
+            "id": 3,
+            "word": "知恵",
+            "furigana": "ちえ",
+            "romanji": "chie",
+            "meanings": {
+              "id": "akal budi, kecerdasan",
+              "en": "wisdom, intelligence"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berkah, karunia, akal budi, kecerdasan",
+    "en": "blessing, gift, wisdom, intelligence"
+  }
+}

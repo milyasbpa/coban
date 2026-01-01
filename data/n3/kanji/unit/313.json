@@ -1,0 +1,48 @@
+{
+  "id": 313,
+  "character": "頂",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いただ",
+        "romanji": "itada",
+        "examples": [
+          {
+            "id": 2,
+            "word": "頂く",
+            "furigana": "いただく",
+            "romanji": "itadaku",
+            "meanings": {
+              "id": "menerima (bentuk merendah)",
+              "en": "to receive (humble)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "頂上",
+            "furigana": "ちょうじょう",
+            "romanji": "choujou",
+            "meanings": {
+              "id": "puncak, tertinggi",
+              "en": "peak, highest"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menerima (bentuk merendah), puncak, tertinggi",
+    "en": "receive (humble), peak, highest"
+  }
+}

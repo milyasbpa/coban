@@ -1,0 +1,58 @@
+{
+  "id": 114,
+  "character": "黒",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くろ",
+        "romanji": "kuro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "黒",
+            "furigana": "くろ",
+            "romanji": "kuro",
+            "meanings": {
+              "id": "warna hitam",
+              "en": "black"
+            }
+          },
+          {
+            "id": 2,
+            "word": "黒い",
+            "furigana": "くろい",
+            "romanji": "kuroi",
+            "meanings": {
+              "id": "hitam",
+              "en": "black (adjective)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コク",
+        "romanji": "koku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "黒板",
+            "furigana": "こくばん",
+            "romanji": "kokuban",
+            "meanings": {
+              "id": "papan tulis",
+              "en": "blackboard"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "warna hitam",
+    "en": "black"
+  }
+}

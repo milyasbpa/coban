@@ -1,0 +1,61 @@
+{
+  "id": 53,
+  "character": "先",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さき",
+        "romanji": "saki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "先",
+            "furigana": "さき",
+            "romanji": "saki",
+            "meanings": {
+              "id": "usia",
+              "en": "ahead"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 3,
+            "word": "先生",
+            "furigana": "せんせい",
+            "romanji": "sensei",
+            "meanings": {
+              "id": "guru",
+              "en": "teacher"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "宛先",
+          "furigana": "あてさき",
+          "romanji": "atesaki",
+          "meanings": {
+            "id": "nama & alamat penerima surat",
+            "en": "addressee"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "dahulu",
+    "en": "before, ahead"
+  }
+}

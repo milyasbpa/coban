@@ -1,0 +1,64 @@
+{
+  "id": 304,
+  "character": "尊",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とうと",
+        "romanji": "touto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "尊い",
+            "furigana": "とうとい",
+            "romanji": "toutoi",
+            "meanings": {
+              "id": "mulia, agung, luhur",
+              "en": "noble, exalted"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "たっと",
+        "romanji": "tatto",
+        "examples": [
+          {
+            "id": 2,
+            "word": "尊ぶ",
+            "furigana": "たっとぶ",
+            "romanji": "tatobu",
+            "meanings": {
+              "id": "mulia, agung, luhur",
+              "en": "to respect, to honor"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソン",
+        "romanji": "son",
+        "examples": [
+          {
+            "id": 3,
+            "word": "尊重",
+            "furigana": "そんちょう",
+            "romanji": "sonchou",
+            "meanings": {
+              "id": "menghormati",
+              "en": "to respect"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mulia, agung, luhur, menghormati",
+    "en": "noble, exalted, to respect"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 30,
+  "character": "札",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふだ",
+        "romanji": "fuda",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サツ",
+        "romanji": "satsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "札束",
+            "furigana": "さつたば",
+            "romanji": "satsutaba",
+            "meanings": {
+              "id": "gepok uang kertas",
+              "en": "bundle of banknotes"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "名札",
+          "furigana": "なふだ",
+          "romanji": "nafuda",
+          "meanings": {
+            "id": "label nama",
+            "en": "name tag"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "label nama, gepokan uang kertas",
+    "en": "name tag, banknote"
+  }
+}

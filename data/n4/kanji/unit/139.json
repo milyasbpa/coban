@@ -1,0 +1,58 @@
+{
+  "id": 139,
+  "character": "歌",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うた",
+        "romanji": "uta",
+        "examples": [
+          {
+            "id": 1,
+            "word": "歌",
+            "furigana": "うた",
+            "romanji": "uta",
+            "meanings": {
+              "id": "lagu",
+              "en": "song"
+            }
+          },
+          {
+            "id": 2,
+            "word": "歌う",
+            "furigana": "うたう",
+            "romanji": "utau",
+            "meanings": {
+              "id": "bernyanyi",
+              "en": "to sing"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 3,
+            "word": "歌手",
+            "furigana": "かしゅ",
+            "romanji": "kashu",
+            "meanings": {
+              "id": "penyanyi",
+              "en": "singer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lagu",
+    "en": "song"
+  }
+}

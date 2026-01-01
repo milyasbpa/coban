@@ -1,0 +1,48 @@
+{
+  "id": 145,
+  "character": "泣",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "な",
+        "romanji": "na",
+        "examples": [
+          {
+            "id": 1,
+            "word": "泣く",
+            "furigana": "なく",
+            "romanji": "naku",
+            "meanings": {
+              "id": "menangis",
+              "en": "to cry"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "号泣",
+            "furigana": "ごうきゅう",
+            "romanji": "goukyuu",
+            "meanings": {
+              "id": "meraung-raung",
+              "en": "to wail"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menangis, meraung-raung",
+    "en": "cry, wail"
+  }
+}

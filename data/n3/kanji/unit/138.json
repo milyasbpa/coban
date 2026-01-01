@@ -1,0 +1,41 @@
+{
+  "id": 138,
+  "character": "届",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とど",
+        "romanji": "todo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "届く",
+            "furigana": "とどく",
+            "romanji": "todoku",
+            "meanings": {
+              "id": "sampai, menjangkau",
+              "en": "to reach"
+            }
+          },
+          {
+            "id": 2,
+            "word": "届ける",
+            "furigana": "とどける",
+            "romanji": "todokeru",
+            "meanings": {
+              "id": "melaporkan, menyampaikan",
+              "en": "to report, deliver"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sampai, menjangkau, melaporkan, menyampaikan",
+    "en": "reach, report, deliver"
+  }
+}

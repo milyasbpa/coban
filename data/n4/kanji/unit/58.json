@@ -1,0 +1,65 @@
+{
+  "id": 58,
+  "character": "歩",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あろ",
+        "romanji": "aro",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホ",
+        "romanji": "ho",
+        "examples": [
+          {
+            "id": 2,
+            "word": "歩道",
+            "furigana": "ほどう",
+            "romanji": "hodou",
+            "meanings": {
+              "id": "trotoar",
+              "en": "sidewalk"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ボ",
+        "romanji": "bo",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "歩く",
+          "furigana": "あるく",
+          "romanji": "aruku",
+          "meanings": {
+            "id": "berjalan",
+            "en": "to walk"
+          }
+        },
+        {
+          "id": 3,
+          "word": "散歩",
+          "furigana": "さんぽ",
+          "romanji": "sanpo",
+          "meanings": {
+            "id": "jalan-jalan (kaki)",
+            "en": "walk, stroll"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "berjalan",
+    "en": "walk"
+  }
+}

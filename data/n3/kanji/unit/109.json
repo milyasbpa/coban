@@ -1,0 +1,48 @@
+{
+  "id": 109,
+  "character": "努",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つと",
+        "romanji": "tsuto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "努める",
+            "furigana": "つとめる",
+            "romanji": "tsutomeru",
+            "meanings": {
+              "id": "rajin",
+              "en": "diligent"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ド",
+        "romanji": "do",
+        "examples": [
+          {
+            "id": 2,
+            "word": "努力",
+            "furigana": "どりょく",
+            "romanji": "doryoku",
+            "meanings": {
+              "id": "usaha keras",
+              "en": "hard work"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rajin, usaha keras",
+    "en": "diligent, hard work"
+  }
+}

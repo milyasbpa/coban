@@ -1,0 +1,48 @@
+{
+  "id": 176,
+  "character": "限",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かぎ",
+        "romanji": "kagi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "限る",
+            "furigana": "かぎる",
+            "romanji": "kagiru",
+            "meanings": {
+              "id": "membatasi",
+              "en": "to limit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "限界",
+            "furigana": "げんかい",
+            "romanji": "genkai",
+            "meanings": {
+              "id": "batasan",
+              "en": "boundary"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membatasi, batasan",
+    "en": "limit, boundary"
+  }
+}

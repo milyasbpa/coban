@@ -1,0 +1,60 @@
+{
+  "id": 367,
+  "character": "無",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ム",
+        "romanji": "mu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "無料",
+            "furigana": "むりょう",
+            "romanji": "muryou",
+            "meanings": {
+              "id": "gratis, cuma-cuma",
+              "en": "free"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "無事",
+            "furigana": "ぶじ",
+            "romanji": "buji",
+            "meanings": {
+              "id": "selamat",
+              "en": "safe"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "無い",
+          "furigana": "ない",
+          "romanji": "nai",
+          "meanings": {
+            "id": "tidak ada, tidak memiliki",
+            "en": "not exist, not have"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tidak, tidak ada, gratis, cuma-cuma, selamat",
+    "en": "none, free, safe"
+  }
+}

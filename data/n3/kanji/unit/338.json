@@ -1,0 +1,57 @@
+{
+  "id": 338,
+  "character": "絵",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "絵画",
+            "furigana": "かいが",
+            "romanji": "kaiga",
+            "meanings": {
+              "id": "gambar, lukisan",
+              "en": "painting, picture"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "エ",
+        "romanji": "e",
+        "examples": [
+          {
+            "id": 1,
+            "word": "絵",
+            "furigana": "え",
+            "romanji": "e",
+            "meanings": {
+              "id": "lukisan, gambar",
+              "en": "picture, painting"
+            }
+          },
+          {
+            "id": 3,
+            "word": "絵本",
+            "furigana": "えほん",
+            "romanji": "ehon",
+            "meanings": {
+              "id": "buku gambar",
+              "en": "sketchbook"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lukisan, gambar, buku gambar",
+    "en": "painting, picture, sketchbook"
+  }
+}

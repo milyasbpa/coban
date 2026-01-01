@@ -1,0 +1,48 @@
+{
+  "id": 25,
+  "character": "打",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 1,
+            "word": "打つ",
+            "furigana": "うつ",
+            "romanji": "utsu",
+            "meanings": {
+              "id": "memukul",
+              "en": "to hit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ダ",
+        "romanji": "da",
+        "examples": [
+          {
+            "id": 2,
+            "word": "打者",
+            "furigana": "だしゃ",
+            "romanji": "dasha",
+            "meanings": {
+              "id": "pemukul bola",
+              "en": "batter"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memukul",
+    "en": "hit, strike"
+  }
+}

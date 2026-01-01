@@ -1,0 +1,31 @@
+{
+  "id": 107,
+  "character": "館",
+  "strokes": 16,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "図書館",
+            "furigana": "としょかん",
+            "romanji": "toshokan",
+            "meanings": {
+              "id": "perpustakaan",
+              "en": "library"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gedung",
+    "en": "building, hall"
+  }
+}

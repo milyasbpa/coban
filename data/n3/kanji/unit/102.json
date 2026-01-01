@@ -1,0 +1,48 @@
+{
+  "id": 102,
+  "character": "抜",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ぬ",
+        "romanji": "nu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "抜き",
+            "furigana": "ぬき",
+            "romanji": "nuki",
+            "meanings": {
+              "id": "tanpa",
+              "en": "without"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "バツ",
+        "romanji": "batsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "抜群",
+            "furigana": "ばつぐん",
+            "romanji": "batsugun",
+            "meanings": {
+              "id": "istimewa",
+              "en": "outstanding"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tanpa, istimewa",
+    "en": "without, special"
+  }
+}

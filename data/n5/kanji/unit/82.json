@@ -1,0 +1,48 @@
+{
+  "id": 82,
+  "character": "春",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はる",
+        "romanji": "haru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "春",
+            "furigana": "はる",
+            "romanji": "haru",
+            "meanings": {
+              "id": "musim semi",
+              "en": "spring"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュン",
+        "romanji": "shun",
+        "examples": [
+          {
+            "id": 2,
+            "word": "春季",
+            "furigana": "しゅんき",
+            "romanji": "shunki",
+            "meanings": {
+              "id": "musim semi",
+              "en": "spring season"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "musim semi",
+    "en": "spring"
+  }
+}

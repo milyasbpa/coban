@@ -1,0 +1,63 @@
+{
+  "id": 167,
+  "character": "放",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はな",
+        "romanji": "hana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "放す",
+            "furigana": "はなす",
+            "romanji": "hanasu",
+            "meanings": {
+              "id": "melepas",
+              "en": "to release / let go"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ほう",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "放る",
+            "furigana": "ほうる",
+            "romanji": "houru",
+            "meanings": {
+              "id": "melempar",
+              "en": "to throw"
+            }
+          },
+          {
+            "id": 3,
+            "word": "放送",
+            "furigana": "ほうそう",
+            "romanji": "housou",
+            "meanings": {
+              "id": "penyiaran",
+              "en": "broadcast"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melempar, penyiaran",
+    "en": "throw, broadcast"
+  }
+}

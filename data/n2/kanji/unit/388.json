@@ -1,0 +1,31 @@
+{
+  "id": 388,
+  "character": "領",
+  "strokes": 14,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "リョウ",
+        "romanji": "ryou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "領収証",
+            "furigana": "りょうしゅうしょう",
+            "romanji": "ryoushuushou",
+            "meanings": {
+              "id": "kuitansi",
+              "en": "receipt"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kuitansi",
+    "en": "receipt"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": 4,
+  "character": "八",
+  "strokes": 2,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やっ",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "八つ",
+            "furigana": "やっつ",
+            "romanji": "yattsu",
+            "meanings": {
+              "id": "delapan buah",
+              "en": "eight"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "や",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "八つ",
+            "furigana": "やっつ",
+            "romanji": "yattsu",
+            "meanings": {
+              "id": "delapan buah",
+              "en": "eight"
+            }
+          },
+          {
+            "id": 2,
+            "word": "八百屋",
+            "furigana": "やおや",
+            "romanji": "yaoya",
+            "meanings": {
+              "id": "toko sayur dan buah",
+              "en": "greengrocer"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハチ",
+        "romanji": "hachi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "八年",
+            "furigana": "はちねん",
+            "romanji": "hachinen",
+            "meanings": {
+              "id": "delapan tahun",
+              "en": "eight years"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 4,
+          "word": "八百",
+          "furigana": "はっぴゃく",
+          "romanji": "happyaku",
+          "meanings": {
+            "id": "delapan ratus",
+            "en": "eight hundred"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "delapan",
+    "en": "eight"
+  }
+}

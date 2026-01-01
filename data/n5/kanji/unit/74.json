@@ -1,0 +1,97 @@
+{
+  "id": 74,
+  "character": "学",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まな",
+        "romanji": "mana",
+        "examples": [
+          {
+            "id": 4,
+            "word": "学ぶ",
+            "furigana": "まなぶ",
+            "romanji": "manabu",
+            "meanings": {
+              "id": "belajar",
+              "en": "to learn"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガク",
+        "romanji": "gaku",
+        "examples": [
+          {
+            "id": 5,
+            "word": "学生",
+            "furigana": "がくせい",
+            "romanji": "gakusei",
+            "meanings": {
+              "id": "pelajar, murid",
+              "en": "student"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ガッ",
+        "romanji": "gat",
+        "examples": [
+          {
+            "id": 6,
+            "word": "学校",
+            "furigana": "がっこう",
+            "romanji": "gakkou",
+            "meanings": {
+              "id": "sekolah",
+              "en": "school"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "金魚",
+          "furigana": "きんぎょ",
+          "romanji": "kingyo",
+          "meanings": {
+            "id": "ikan mas koki",
+            "en": "goldfish"
+          }
+        },
+        {
+          "id": 2,
+          "word": "金色",
+          "furigana": "きんいろ",
+          "romanji": "kiniro",
+          "meanings": {
+            "id": "warna emas",
+            "en": "golden color"
+          }
+        },
+        {
+          "id": 3,
+          "word": "黄金",
+          "furigana": "おうごん",
+          "romanji": "ougon",
+          "meanings": {
+            "id": "emas",
+            "en": "gold"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "belajar",
+    "en": "study, learn"
+  }
+}

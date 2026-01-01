@@ -1,0 +1,95 @@
+{
+  "id": 83,
+  "character": "空",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "空く",
+            "furigana": "あく",
+            "romanji": "aku",
+            "meanings": {
+              "id": "kosong",
+              "en": "empty"
+            }
+          },
+          {
+            "id": 3,
+            "word": "青空",
+            "furigana": "あおぞら",
+            "romanji": "aozora",
+            "meanings": {
+              "id": "langit biru",
+              "en": "blue sky"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "そら",
+        "romanji": "sora",
+        "examples": [
+          {
+            "id": 2,
+            "word": "空色",
+            "furigana": "そらいろ",
+            "romanji": "sorairo",
+            "meanings": {
+              "id": "warna langit",
+              "en": "sky color"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぞら",
+        "romanji": "zora",
+        "examples": []
+      },
+      {
+        "furigana": "から",
+        "romanji": "kara",
+        "examples": [
+          {
+            "id": 4,
+            "word": "空手",
+            "furigana": "からて",
+            "romanji": "karate",
+            "meanings": {
+              "id": "karate, tangan kosong",
+              "en": "karate, empty hand"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "クウ",
+        "romanji": "kuu",
+        "examples": [
+          {
+            "id": 5,
+            "word": "空港",
+            "furigana": "くうこう",
+            "romanji": "kuukou",
+            "meanings": {
+              "id": "bandara",
+              "en": "airport"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kosong, warna langit, langit biru, karate, tangan kosong, bandara",
+    "en": "empty, sky color, blue sky, karate, airport"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 72,
+  "character": "麦",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むぎ",
+        "romanji": "mugi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "麦畑",
+            "furigana": "むぎばたけ",
+            "romanji": "mugibatake",
+            "meanings": {
+              "id": "ladang gandum",
+              "en": "wheat field"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "バク",
+        "romanji": "baku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "麦芽糖",
+            "furigana": "ばくがとう",
+            "romanji": "bakugatou",
+            "meanings": {
+              "id": "gula gandum",
+              "en": "malt sugar"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ladang gandum, gula gandum",
+    "en": "wheat field, malt sugar"
+  }
+}

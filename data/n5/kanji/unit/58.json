@@ -1,0 +1,47 @@
+{
+  "id": 58,
+  "character": "気",
+  "strokes": 6,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "気持ち",
+            "furigana": "きもち",
+            "romanji": "kimochi",
+            "meanings": {
+              "id": "perasaan",
+              "en": "feeling"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケ",
+        "romanji": "ke",
+        "examples": [
+          {
+            "id": 2,
+            "word": "気配",
+            "furigana": "けはい",
+            "romanji": "kehai",
+            "meanings": {
+              "id": "tanda, indikasi",
+              "en": "sign, indication"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perasaan",
+    "en": "spirit, feeling"
+  }
+}

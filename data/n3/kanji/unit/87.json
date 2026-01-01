@@ -1,0 +1,48 @@
+{
+  "id": 87,
+  "character": "返",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かえ",
+        "romanji": "kae",
+        "examples": [
+          {
+            "id": 1,
+            "word": "返す",
+            "furigana": "かえす",
+            "romanji": "kaesu",
+            "meanings": {
+              "id": "mengembalikan",
+              "en": "to return"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘン",
+        "romanji": "hen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "返還",
+            "furigana": "へんかん",
+            "romanji": "henkan",
+            "meanings": {
+              "id": "pengembalian",
+              "en": "restitution"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengembalikan",
+    "en": "return"
+  }
+}

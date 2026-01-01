@@ -1,0 +1,48 @@
+{
+  "id": 98,
+  "character": "求",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もと",
+        "romanji": "moto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "求める",
+            "furigana": "もとめる",
+            "romanji": "motomeru",
+            "meanings": {
+              "id": "minta, perlu",
+              "en": "to request, need"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "求人",
+            "furigana": "きゅうじん",
+            "romanji": "kyuujin",
+            "meanings": {
+              "id": "kebutuhan tenaga kerja",
+              "en": "job vacancy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "minta, perlu, kebutuhan tenaga kerja",
+    "en": "request, need, labor demand"
+  }
+}

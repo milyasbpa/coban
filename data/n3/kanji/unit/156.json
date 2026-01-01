@@ -1,0 +1,64 @@
+{
+  "id": 156,
+  "character": "苦",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くる",
+        "romanji": "kuru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "苦しい",
+            "furigana": "くるしい",
+            "romanji": "kurushii",
+            "meanings": {
+              "id": "menderita",
+              "en": "painful / suffering"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "にが",
+        "romanji": "niga",
+        "examples": [
+          {
+            "id": 3,
+            "word": "苦い",
+            "furigana": "にがい",
+            "romanji": "nigai",
+            "meanings": {
+              "id": "pahit",
+              "en": "bitter"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ク",
+        "romanji": "ku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "苦心",
+            "furigana": "くしん",
+            "romanji": "kushin",
+            "meanings": {
+              "id": "usaha, upaya",
+              "en": "effort"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menderita, pahit, usaha, upaya",
+    "en": "suffer, bitter, effort"
+  }
+}

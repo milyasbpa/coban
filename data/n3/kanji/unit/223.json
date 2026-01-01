@@ -1,0 +1,48 @@
+{
+  "id": 223,
+  "character": "島",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しま",
+        "romanji": "shima",
+        "examples": [
+          {
+            "id": 1,
+            "word": "島",
+            "furigana": "しま",
+            "romanji": "shima",
+            "meanings": {
+              "id": "pulau",
+              "en": "island"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "列島",
+            "furigana": "れっとう",
+            "romanji": "retto",
+            "meanings": {
+              "id": "kepulauan",
+              "en": "archipelago"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pulau, kepulauan",
+    "en": "island, archipelago"
+  }
+}

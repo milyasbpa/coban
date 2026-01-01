@@ -1,0 +1,47 @@
+{
+  "id": 457,
+  "character": "類",
+  "strokes": 18,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たぐ",
+        "romanji": "tagu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ルイ",
+        "romanji": "rui",
+        "examples": [
+          {
+            "id": 1,
+            "word": "種類",
+            "furigana": "しゅるい",
+            "romanji": "shurui",
+            "meanings": {
+              "id": "jenis-jenis (yang sama)",
+              "en": "types (same)"
+            }
+          },
+          {
+            "id": 2,
+            "word": "書類",
+            "furigana": "しょるい",
+            "romanji": "shorui",
+            "meanings": {
+              "id": "dokumen",
+              "en": "document"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jenis-jenis (yang sama), dokumen",
+    "en": "types (same), document"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 117,
+  "character": "理",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "リ",
+        "romanji": "ri",
+        "examples": [
+          {
+            "id": 1,
+            "word": "理由",
+            "furigana": "りゆう",
+            "romanji": "riyuu",
+            "meanings": {
+              "id": "alasan",
+              "en": "reason"
+            }
+          },
+          {
+            "id": 2,
+            "word": "理想的",
+            "furigana": "りそうてき",
+            "romanji": "risouteki",
+            "meanings": {
+              "id": "ideal",
+              "en": "ideal"
+            }
+          },
+          {
+            "id": 3,
+            "word": "料理",
+            "furigana": "りょうり",
+            "romanji": "ryouri",
+            "meanings": {
+              "id": "masakan",
+              "en": "cooking"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "alasan",
+    "en": "reason, logic"
+  }
+}

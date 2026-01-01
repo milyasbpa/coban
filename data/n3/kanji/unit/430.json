@@ -1,0 +1,48 @@
+{
+  "id": 430,
+  "character": "震",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふる",
+        "romanji": "furu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "震う",
+            "furigana": "ふるう",
+            "romanji": "furuu",
+            "meanings": {
+              "id": "gemetar",
+              "en": "tremble"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "地震",
+            "furigana": "じしん",
+            "romanji": "jishin",
+            "meanings": {
+              "id": "gempa bumi",
+              "en": "earthquake"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gemetar, gempa bumi",
+    "en": "tremble, earthquake"
+  }
+}

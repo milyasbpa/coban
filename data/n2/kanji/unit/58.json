@@ -1,0 +1,49 @@
+{
+  "id": 58,
+  "character": "坊",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ボウ",
+        "romanji": "bou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "坊主",
+            "furigana": "ぼうず",
+            "romanji": "bouzu",
+            "meanings": {
+              "id": "cukuran botak, biksu",
+              "en": "shaven head, monk"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ボツ",
+        "romanji": "botsu",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "坊ちゃん",
+          "furigana": "ぼっちゃん",
+          "romanji": "botchan",
+          "meanings": {
+            "id": "anak laki-laki kecil",
+            "en": "little boy"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "cukuran botak, biksu, anak laki-laki kecil",
+    "en": "shaven head, monk, little boy"
+  }
+}

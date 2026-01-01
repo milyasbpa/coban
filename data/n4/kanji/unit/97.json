@@ -1,0 +1,58 @@
+{
+  "id": 97,
+  "character": "帰",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かえ",
+        "romanji": "kae",
+        "examples": [
+          {
+            "id": 1,
+            "word": "帰る",
+            "furigana": "かえる",
+            "romanji": "kaeru",
+            "meanings": {
+              "id": "pulang",
+              "en": "to return"
+            }
+          },
+          {
+            "id": 2,
+            "word": "帰り道",
+            "furigana": "かえりみち",
+            "romanji": "kaerimichi",
+            "meanings": {
+              "id": "jalan pulang",
+              "en": "way home"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 3,
+            "word": "帰国",
+            "furigana": "きこく",
+            "romanji": "kikoku",
+            "meanings": {
+              "id": "pulang ke negeri sendiri",
+              "en": "returning to one's country"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pulang",
+    "en": "return, go home"
+  }
+}

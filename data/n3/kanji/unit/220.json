@@ -1,0 +1,55 @@
+{
+  "id": 220,
+  "character": "骨",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ほね",
+        "romanji": "hone",
+        "examples": [
+          {
+            "id": 1,
+            "word": "骨",
+            "furigana": "ほね",
+            "romanji": "hone",
+            "meanings": {
+              "id": "tulang",
+              "en": "bone"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コツ",
+        "romanji": "kotsu",
+        "examples": []
+      },
+      {
+        "furigana": "コツ",
+        "romanji": "kotsu",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "骨折",
+          "furigana": "こっせつ",
+          "romanji": "kossetsu",
+          "meanings": {
+            "id": "patah tulang",
+            "en": "fracture"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tulang, patah tulang",
+    "en": "bone, fracture"
+  }
+}

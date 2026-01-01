@@ -1,0 +1,64 @@
+{
+  "id": 136,
+  "character": "栄",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さか",
+        "romanji": "saka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "栄える",
+            "furigana": "さかえる",
+            "romanji": "sakaeru",
+            "meanings": {
+              "id": "makmur, maju",
+              "en": "to prosper, to flourish"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 2,
+            "word": "栄える",
+            "furigana": "はえる",
+            "romanji": "haeru",
+            "meanings": {
+              "id": "berkilau, cemerlang",
+              "en": "to shine, to be brilliant"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エイ",
+        "romanji": "ei",
+        "examples": [
+          {
+            "id": 3,
+            "word": "栄養",
+            "furigana": "えいよう",
+            "romanji": "eiyou",
+            "meanings": {
+              "id": "gizi, nutrisi",
+              "en": "nutrition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "makmur, maju, berkilau, cemerlang, gizi, nutrisi",
+    "en": "prosperous, brilliant, nutrition"
+  }
+}

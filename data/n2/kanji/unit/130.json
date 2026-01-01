@@ -1,0 +1,31 @@
+{
+  "id": 130,
+  "character": "県",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 1,
+            "word": "県立",
+            "furigana": "けんりつ",
+            "romanji": "kenritsu",
+            "meanings": {
+              "id": "didirikan oleh pemerintah daerah",
+              "en": "established by local government"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "didirikan oleh pemerintah daerah",
+    "en": "prefecture, established by local government"
+  }
+}

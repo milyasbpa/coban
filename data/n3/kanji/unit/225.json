@@ -1,0 +1,53 @@
+{
+  "id": 225,
+  "character": "殺",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ころ",
+        "romanji": "koro",
+        "examples": [
+          {
+            "id": 2,
+            "word": "殺す",
+            "furigana": "ころす",
+            "romanji": "korosu",
+            "meanings": {
+              "id": "membunuh",
+              "en": "to kill"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サツ",
+        "romanji": "satsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "殺人",
+            "furigana": "さつじん",
+            "romanji": "satsujin",
+            "meanings": {
+              "id": "pembunuh",
+              "en": "killer"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "セツ",
+        "romanji": "setsu",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pembunuh, membunuh",
+    "en": "killer, to kill"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 305,
+  "character": "貴",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たっと",
+        "romanji": "tatto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "貴い",
+            "furigana": "たっとい",
+            "romanji": "tattoi",
+            "meanings": {
+              "id": "bangsawan, ningrat, mulia",
+              "en": "noble, precious, honorable"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "とうと",
+        "romanji": "touto",
+        "examples": [
+          {
+            "id": 2,
+            "word": "貴い",
+            "furigana": "とうとい",
+            "romanji": "toutoi",
+            "meanings": {
+              "id": "bangsawan, ningrat",
+              "en": "noble, aristocrat"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 3,
+            "word": "貴重",
+            "furigana": "きちょう",
+            "romanji": "kichou",
+            "meanings": {
+              "id": "berharga",
+              "en": "valuable"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bangsawan, ningrat, berharga",
+    "en": "noble, aristocrat, valuable"
+  }
+}

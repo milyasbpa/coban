@@ -1,0 +1,64 @@
+{
+  "id": 60,
+  "character": "米",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こめ",
+        "romanji": "kome",
+        "examples": [
+          {
+            "id": 1,
+            "word": "米",
+            "furigana": "こめ",
+            "romanji": "kome",
+            "meanings": {
+              "id": "beras",
+              "en": "rice"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ベイ",
+        "romanji": "bei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "米国",
+            "furigana": "べいこく",
+            "romanji": "beikoku",
+            "meanings": {
+              "id": "Amerika Serikat",
+              "en": "United States"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "マイ",
+        "romanji": "mai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "新米",
+            "furigana": "しんまい",
+            "romanji": "shinmai",
+            "meanings": {
+              "id": "beras baru",
+              "en": "new rice"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "beras",
+    "en": "rice"
+  }
+}

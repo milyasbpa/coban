@@ -1,0 +1,66 @@
+{
+  "id": 52,
+  "character": "別",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わか",
+        "romanji": "waka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "別れる",
+            "furigana": "わかれる",
+            "romanji": "wakareru",
+            "meanings": {
+              "id": "berpisah",
+              "en": "to separate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ベツ",
+        "romanji": "betsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "特別",
+            "furigana": "とくべつ",
+            "romanji": "tokubetsu",
+            "meanings": {
+              "id": "istimewa, khusus",
+              "en": "special"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ベチ",
+        "romanji": "bechi",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "別荘",
+          "furigana": "べっそう",
+          "romanji": "bessou",
+          "meanings": {
+            "id": "villa",
+            "en": "villa"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "berpisah",
+    "en": "separate, different"
+  }
+}

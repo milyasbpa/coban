@@ -1,0 +1,48 @@
+{
+  "id": 45,
+  "character": "母",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はは",
+        "romanji": "haha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "母親",
+            "furigana": "ははおや",
+            "romanji": "hahaoya",
+            "meanings": {
+              "id": "orang tua perempuan, ibu",
+              "en": "mother"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ボ",
+        "romanji": "bo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "父母",
+            "furigana": "ふぼ",
+            "romanji": "fubo",
+            "meanings": {
+              "id": "ayah dan ibu",
+              "en": "parents"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ibu",
+    "en": "mother"
+  }
+}

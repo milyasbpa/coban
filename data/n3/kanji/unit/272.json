@@ -1,0 +1,64 @@
+{
+  "id": 272,
+  "character": "描",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "描く",
+            "furigana": "かく",
+            "romanji": "kaku",
+            "meanings": {
+              "id": "menggambar",
+              "en": "to draw"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "えが",
+        "romanji": "ega",
+        "examples": [
+          {
+            "id": 2,
+            "word": "描く",
+            "furigana": "えがく",
+            "romanji": "egaku",
+            "meanings": {
+              "id": "melukis",
+              "en": "to paint"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ビョウ",
+        "romanji": "byou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "描写",
+            "furigana": "びょうしゃ",
+            "romanji": "byousha",
+            "meanings": {
+              "id": "gambaran, lukisan",
+              "en": "picture, depiction"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menggambar, melukis, gambaran, lukisan",
+    "en": "draw, paint, picture"
+  }
+}

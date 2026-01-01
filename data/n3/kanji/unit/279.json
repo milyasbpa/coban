@@ -1,0 +1,69 @@
+{
+  "id": 279,
+  "character": "訪",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おとず",
+        "romanji": "otozu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "訪れる",
+            "furigana": "おとずれる",
+            "romanji": "otozureru",
+            "meanings": {
+              "id": "mengunjungi",
+              "en": "to visit"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "たず",
+        "romanji": "tazu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "訪れる",
+            "furigana": "たずれる",
+            "romanji": "tazureru",
+            "meanings": {
+              "id": "mengunjungi",
+              "en": "to visit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "訪問",
+            "furigana": "ほうもん",
+            "romanji": "houmon",
+            "meanings": {
+              "id": "kunjungan",
+              "en": "visitation"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ボウ",
+        "romanji": "bou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengunjungi, kunjungan",
+    "en": "visit, visitation"
+  }
+}

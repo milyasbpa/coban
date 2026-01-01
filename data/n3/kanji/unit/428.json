@@ -1,0 +1,47 @@
+{
+  "id": 428,
+  "character": "権",
+  "strokes": 15,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 1,
+            "word": "権利",
+            "furigana": "けんり",
+            "romanji": "kenri",
+            "meanings": {
+              "id": "hak",
+              "en": "right"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゴン",
+        "romanji": "gon",
+        "examples": [
+          {
+            "id": 2,
+            "word": "権化",
+            "furigana": "ごんげ",
+            "romanji": "gonge",
+            "meanings": {
+              "id": "inkarnasi",
+              "en": "incarnation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hak, inkarnasi",
+    "en": "right, incarnation"
+  }
+}

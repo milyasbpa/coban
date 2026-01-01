@@ -1,0 +1,90 @@
+{
+  "id": 185,
+  "character": "従",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "したが",
+        "romanji": "shitaga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "従う",
+            "furigana": "したがう",
+            "romanji": "shitagau",
+            "meanings": {
+              "id": "mengikuti, mematuhi",
+              "en": "to follow, to obey"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "従順する",
+            "furigana": "じゅうじゅんする",
+            "romanji": "juujun suru",
+            "meanings": {
+              "id": "patuh, taat",
+              "en": "to be obedient"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "従容",
+            "furigana": "しょうよう",
+            "romanji": "shouyou",
+            "meanings": {
+              "id": "tenang, damai",
+              "en": "calm, composed, serene"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジュ",
+        "romanji": "ju",
+        "examples": [
+          {
+            "id": 2,
+            "word": "従順する",
+            "furigana": "じゅうじゅんする",
+            "romanji": "juujun suru",
+            "meanings": {
+              "id": "patuh, taat",
+              "en": "to be obedient"
+            }
+          },
+          {
+            "id": 4,
+            "word": "従三位",
+            "furigana": "じゅさんみ",
+            "romanji": "jusanmi",
+            "meanings": {
+              "id": "urutan 3 terakhir",
+              "en": "last three ranks"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengikuti, mematuhi, patuh, taat, tenang, damai, urutan 3 terakhir",
+    "en": "to follow, to obey, obedient, peaceful, last three ranks"
+  }
+}

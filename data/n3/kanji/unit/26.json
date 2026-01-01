@@ -1,0 +1,74 @@
+{
+  "id": 26,
+  "character": "由",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よし",
+        "romanji": "yoshi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "由",
+            "furigana": "よし",
+            "romanji": "jiyuu",
+            "meanings": {
+              "id": "keadaan, maksud/tujuan",
+              "en": "reason, cause, circumstances, purpose"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ユウ",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "自由",
+            "furigana": "じゆう",
+            "romanji": "jiyuu",
+            "meanings": {
+              "id": "kebebasan",
+              "en": "freedom"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ユ",
+        "romanji": "yu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "自由",
+            "furigana": "じゆう",
+            "romanji": "jiyuu",
+            "meanings": {
+              "id": "kebebasan",
+              "en": "freedom"
+            }
+          },
+          {
+            "id": 3,
+            "word": "由緒",
+            "furigana": "ゆいしょ",
+            "romanji": "yuisho",
+            "meanings": {
+              "id": "silsilah, asal usul",
+              "en": "history, pedigree, lineage"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keadaan, maksud, tujuan",
+    "en": "reason, cause"
+  }
+}

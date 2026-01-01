@@ -1,0 +1,48 @@
+{
+  "id": 312,
+  "character": "盗",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ぬす",
+        "romanji": "nusu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "盗む",
+            "furigana": "ぬすむ",
+            "romanji": "nusumu",
+            "meanings": {
+              "id": "mencuri",
+              "en": "to steal"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "盗難",
+            "furigana": "とうなん",
+            "romanji": "tounan",
+            "meanings": {
+              "id": "pencurian, perampasan",
+              "en": "theft, robbery"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencuri, pencurian, perampasan",
+    "en": "steal, theft, robbery"
+  }
+}

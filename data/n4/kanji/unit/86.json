@@ -1,0 +1,64 @@
+{
+  "id": 86,
+  "character": "便",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たよ",
+        "romanji": "tayo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "便り",
+            "furigana": "たより",
+            "romanji": "tayori",
+            "meanings": {
+              "id": "surat, berita",
+              "en": "news, letter"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ベン",
+        "romanji": "ben",
+        "examples": [
+          {
+            "id": 2,
+            "word": "便利",
+            "furigana": "べんり",
+            "romanji": "benri",
+            "meanings": {
+              "id": "praktis",
+              "en": "convenient"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ビン",
+        "romanji": "bin",
+        "examples": [
+          {
+            "id": 3,
+            "word": "郵便局",
+            "furigana": "ゆうびんきょく",
+            "romanji": "yuubinkyoku",
+            "meanings": {
+              "id": "kantor pos",
+              "en": "post office"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "surat, berita",
+    "en": "convenience, mail"
+  }
+}

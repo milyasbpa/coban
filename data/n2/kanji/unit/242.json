@@ -1,0 +1,48 @@
+{
+  "id": 242,
+  "character": "崩",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くず",
+        "romanji": "kuzu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "崩れる",
+            "furigana": "くずれる",
+            "romanji": "kuzureru",
+            "meanings": {
+              "id": "runtuh, longsor",
+              "en": "to collapse, to landslide"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "崩壊する",
+            "furigana": "ほうかいする",
+            "romanji": "houkai suru",
+            "meanings": {
+              "id": "rusak, roboh",
+              "en": "to break down, to fall apart"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "runtuh, longsor, rusak, roboh",
+    "en": "collapse, landslide, broken, ruined"
+  }
+}

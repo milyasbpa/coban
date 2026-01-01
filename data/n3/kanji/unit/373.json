@@ -1,0 +1,41 @@
+{
+  "id": 373,
+  "character": "禁",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "キン",
+        "romanji": "kin",
+        "examples": [
+          {
+            "id": 1,
+            "word": "禁止",
+            "furigana": "きんし",
+            "romanji": "kinshi",
+            "meanings": {
+              "id": "larangan, dilarang",
+              "en": "prohibition, forbidden"
+            }
+          },
+          {
+            "id": 2,
+            "word": "禁煙",
+            "furigana": "きんえん",
+            "romanji": "kin'en",
+            "meanings": {
+              "id": "larangan merokok",
+              "en": "no smoking"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "larangan, dilarang, larangan merokok",
+    "en": "prohibition, forbidden, no smoking"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 286,
+  "character": "軽",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かる",
+        "romanji": "karu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "軽い",
+            "furigana": "かるい",
+            "romanji": "karui",
+            "meanings": {
+              "id": "ringan, enteng",
+              "en": "light"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "軽傷",
+            "furigana": "けいしょう",
+            "romanji": "keishou",
+            "meanings": {
+              "id": "luka ringan",
+              "en": "minor injury"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ringan, luka ringan",
+    "en": "light, minor injury"
+  }
+}

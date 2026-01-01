@@ -1,0 +1,80 @@
+{
+  "id": 432,
+  "character": "厳",
+  "strokes": 17,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きび",
+        "romanji": "kibi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "厳しい",
+            "furigana": "きびしい",
+            "romanji": "kibishii",
+            "meanings": {
+              "id": "ketat, tegas",
+              "en": "strict, stern"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "おごそ",
+        "romanji": "ogoso",
+        "examples": [
+          {
+            "id": 2,
+            "word": "厳か",
+            "furigana": "おごそか",
+            "romanji": "ogosoka",
+            "meanings": {
+              "id": "khidmat, serius",
+              "en": "solemn, serious"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 3,
+            "word": "厳重",
+            "furigana": "げんじゅう",
+            "romanji": "genjuu",
+            "meanings": {
+              "id": "berat, keras, serius",
+              "en": "heavy, hard, serious"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゴン",
+        "romanji": "gon",
+        "examples": [
+          {
+            "id": 4,
+            "word": "荘厳",
+            "furigana": "そうごん",
+            "romanji": "shougon",
+            "meanings": {
+              "id": "khidmat, serius, agung",
+              "en": "solemn, dignified, magnificent"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ketat, tegas, khidmat, serius, berat, keras, khidmat, serius",
+    "en": "strict, stern, solemn, serious, heavy, hard"
+  }
+}

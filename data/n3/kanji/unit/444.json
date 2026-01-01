@@ -1,0 +1,53 @@
+{
+  "id": 444,
+  "character": "橋",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はし",
+        "romanji": "hashi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "橋",
+            "furigana": "はし",
+            "romanji": "hashi",
+            "meanings": {
+              "id": "jembatan",
+              "en": "bridge"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ばし",
+        "romanji": "bashi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "歩道橋",
+            "furigana": "ほどうきょう",
+            "romanji": "hodoukyou",
+            "meanings": {
+              "id": "jembatan penyeberangan",
+              "en": "pedestrian bridge"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jembatan, jembatan penyeberangan",
+    "en": "bridge, pedestrian bridge"
+  }
+}

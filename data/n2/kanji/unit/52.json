@@ -1,0 +1,48 @@
+{
+  "id": 52,
+  "character": "囲",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かこ",
+        "romanji": "kako",
+        "examples": [
+          {
+            "id": 1,
+            "word": "囲む",
+            "furigana": "かこむ",
+            "romanji": "kakomu",
+            "meanings": {
+              "id": "mengelilingi",
+              "en": "to surround"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 2,
+            "word": "範囲",
+            "furigana": "はんい",
+            "romanji": "hani",
+            "meanings": {
+              "id": "batasan, lingkup",
+              "en": "boundary, scope"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengelilingi, batasan, lingkup",
+    "en": "to surround, boundary, scope"
+  }
+}

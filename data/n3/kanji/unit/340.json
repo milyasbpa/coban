@@ -1,0 +1,48 @@
+{
+  "id": 340,
+  "character": "歯",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "歯ブラシ",
+            "furigana": "はぶらし",
+            "romanji": "haburashi",
+            "meanings": {
+              "id": "sikat gigi",
+              "en": "toothbrush"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "歯科医",
+            "furigana": "しかい",
+            "romanji": "shikai",
+            "meanings": {
+              "id": "dokter gigi",
+              "en": "dentist"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sikat gigi, dokter gigi",
+    "en": "toothbrush, dentist"
+  }
+}

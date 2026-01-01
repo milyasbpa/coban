@@ -1,0 +1,48 @@
+{
+  "id": 24,
+  "character": "丘",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おか",
+        "romanji": "oka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "丘",
+            "furigana": "おか",
+            "romanji": "oka",
+            "meanings": {
+              "id": "bukit",
+              "en": "hill"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "砂丘",
+            "furigana": "さきゅう",
+            "romanji": "sakyuu",
+            "meanings": {
+              "id": "bukit pasir",
+              "en": "sand dune"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bukit, bukit pasir",
+    "en": "hill, sand dune"
+  }
+}

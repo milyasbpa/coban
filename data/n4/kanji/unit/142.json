@@ -1,0 +1,51 @@
+{
+  "id": 142,
+  "character": "曜",
+  "strokes": 18,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 1,
+            "word": "何曜日",
+            "furigana": "なんようび",
+            "romanji": "nanyoubi",
+            "meanings": {
+              "id": "hari apa",
+              "en": "what day"
+            }
+          },
+          {
+            "id": 2,
+            "word": "日曜日",
+            "furigana": "にちようび",
+            "romanji": "nichiyoubi",
+            "meanings": {
+              "id": "hari Minggu",
+              "en": "Sunday"
+            }
+          },
+          {
+            "id": 3,
+            "word": "月曜日",
+            "furigana": "げつようび",
+            "romanji": "getsuyoubi",
+            "meanings": {
+              "id": "hari Senin",
+              "en": "Monday"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hari apa",
+    "en": "day of the week"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 404,
+  "character": "関",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かか",
+        "romanji": "kaka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "関わる",
+            "furigana": "かかわる",
+            "romanji": "kakawaru",
+            "meanings": {
+              "id": "berurusan, bersangkutan",
+              "en": "to concern, to relate"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "せき",
+        "romanji": "seki",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "関心",
+            "furigana": "かんしん",
+            "romanji": "kanshin",
+            "meanings": {
+              "id": "ketertarikan, kepedulian",
+              "en": "interest, care"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berurusan, bersangkutan, ketertarikan, kepedulian",
+    "en": "concern, interest, care"
+  }
+}

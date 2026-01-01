@@ -1,0 +1,80 @@
+{
+  "id": 43,
+  "character": "北",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きた",
+        "romanji": "kita",
+        "examples": [
+          {
+            "id": 1,
+            "word": "北",
+            "furigana": "きた",
+            "romanji": "kita",
+            "meanings": {
+              "id": "utara",
+              "en": "north"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホク",
+        "romanji": "hoku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "東北",
+            "furigana": "とうほく",
+            "romanji": "touhoku",
+            "meanings": {
+              "id": "timur laut",
+              "en": "northeast"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ボク",
+        "romanji": "boku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "南北",
+            "furigana": "なんぼく",
+            "romanji": "nanboku",
+            "meanings": {
+              "id": "selatan dan utara",
+              "en": "north and south"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ホッ",
+        "romanji": "hot",
+        "examples": [
+          {
+            "id": 4,
+            "word": "北海道",
+            "furigana": "ほっかいどう",
+            "romanji": "hokkaido",
+            "meanings": {
+              "id": "nama tempat Hokkaido",
+              "en": "Hokkaido"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "utara",
+    "en": "north"
+  }
+}

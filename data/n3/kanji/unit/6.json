@@ -1,0 +1,53 @@
+{
+  "id": 6,
+  "character": "欠",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "欠ける",
+            "furigana": "かける",
+            "romanji": "kakeru",
+            "meanings": {
+              "id": "kurang",
+              "en": "to be lack, to be missing"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケツ",
+        "romanji": "ketsu",
+        "examples": []
+      },
+      {
+        "furigana": "ケッ",
+        "romanji": "kek",
+        "examples": [
+          {
+            "id": 2,
+            "word": "欠席",
+            "furigana": "けっせき",
+            "romanji": "kesseki",
+            "meanings": {
+              "id": "absen",
+              "en": "absence"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kurang",
+    "en": "lack"
+  }
+}

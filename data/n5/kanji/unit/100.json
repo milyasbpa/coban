@@ -1,0 +1,103 @@
+{
+  "id": 100,
+  "character": "新",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あたら",
+        "romanji": "atara",
+        "examples": [
+          {
+            "id": 3,
+            "word": "新しい",
+            "furigana": "あたらしい",
+            "romanji": "atarashii",
+            "meanings": {
+              "id": "baru",
+              "en": "new"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "あら",
+        "romanji": "ara",
+        "examples": [
+          {
+            "id": 4,
+            "word": "新た",
+            "furigana": "あらた",
+            "romanji": "arata",
+            "meanings": {
+              "id": "baru",
+              "en": "new"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "にい",
+        "romanji": "nii",
+        "examples": [
+          {
+            "id": 5,
+            "word": "新妻",
+            "furigana": "にいづま",
+            "romanji": "niizuma",
+            "meanings": {
+              "id": "istri yang baru dinikahi",
+              "en": "new bride"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 6,
+            "word": "新鮮",
+            "furigana": "しんせん",
+            "romanji": "shinsen",
+            "meanings": {
+              "id": "segar, baru",
+              "en": "fresh"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "昔話",
+          "furigana": "むかしばなし",
+          "romanji": "mukashibanashi",
+          "meanings": {
+            "id": "dongeng",
+            "en": "old story"
+          }
+        },
+        {
+          "id": 2,
+          "word": "話題",
+          "furigana": "わだい",
+          "romanji": "wadai",
+          "meanings": {
+            "id": "topik pembicaraan",
+            "en": "topic"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "baru",
+    "en": "new"
+  }
+}

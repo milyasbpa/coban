@@ -1,0 +1,96 @@
+{
+  "id": 161,
+  "character": "直",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なお",
+        "romanji": "nao",
+        "examples": [
+          {
+            "id": 1,
+            "word": "直す",
+            "furigana": "なおす",
+            "romanji": "naosu",
+            "meanings": {
+              "id": "memperbaiki",
+              "en": "to fix"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "すぐ",
+        "romanji": "sugu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "直ぐ",
+            "furigana": "すぐ",
+            "romanji": "sugu",
+            "meanings": {
+              "id": "segera",
+              "en": "immediately"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ただ",
+        "romanji": "tada",
+        "examples": [
+          {
+            "id": 3,
+            "word": "直ちに",
+            "furigana": "ただちに",
+            "romanji": "tadachini",
+            "meanings": {
+              "id": "serta merta",
+              "en": "instantly"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョク",
+        "romanji": "choku",
+        "examples": [
+          {
+            "id": 4,
+            "word": "直接",
+            "furigana": "ちょくせつ",
+            "romanji": "chokusetsu",
+            "meanings": {
+              "id": "langsung",
+              "en": "direct"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジキ",
+        "romanji": "jiki",
+        "examples": [
+          {
+            "id": 5,
+            "word": "正直",
+            "furigana": "しょうじき",
+            "romanji": "shoujiki",
+            "meanings": {
+              "id": "jujur",
+              "en": "honest"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memperbaiki, segera, serta merta, langsung, jujur",
+    "en": "fix, immediately, instantly, direct, honest"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 5,
+  "character": "氏",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うじ",
+        "romanji": "uji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "氏神",
+            "furigana": "うじがみ",
+            "romanji": "ujigami",
+            "meanings": {
+              "id": "dewa pelindung",
+              "en": "guardian deity"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "氏名",
+            "furigana": "しめい",
+            "romanji": "shimei",
+            "meanings": {
+              "id": "nama lengkap",
+              "en": "full name"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dewa pelindung, nama lengkap",
+    "en": "guardian deity, surname"
+  }
+}

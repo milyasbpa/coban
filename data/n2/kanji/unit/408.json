@@ -1,0 +1,48 @@
+{
+  "id": 408,
+  "character": "導",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みちび",
+        "romanji": "michibi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "導く",
+            "furigana": "みちびく",
+            "romanji": "michibiku",
+            "meanings": {
+              "id": "membimbing",
+              "en": "to guide"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "導体",
+            "furigana": "どうたい",
+            "romanji": "doutai",
+            "meanings": {
+              "id": "konduktor",
+              "en": "conductor"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membimbing, konduktor",
+    "en": "to guide, conductor"
+  }
+}

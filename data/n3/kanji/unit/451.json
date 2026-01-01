@@ -1,0 +1,58 @@
+{
+  "id": 451,
+  "character": "積",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "積む",
+            "furigana": "つむ",
+            "romanji": "tsumu",
+            "meanings": {
+              "id": "memuat",
+              "en": "to load"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": []
+      },
+      {
+        "furigana": "せっ",
+        "romanji": "set",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "積雪",
+            "furigana": "せきせつ",
+            "romanji": "sekisetsu",
+            "meanings": {
+              "id": "tumpukan salju",
+              "en": "snow pile"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memuat, tumpukan salju",
+    "en": "load, snow pile"
+  }
+}

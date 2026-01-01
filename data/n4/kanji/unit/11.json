@@ -1,0 +1,37 @@
+{
+  "id": 11,
+  "character": "公",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おおやけ",
+        "romanji": "ooyake",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "公園",
+            "furigana": "こうえん",
+            "romanji": "kouen",
+            "meanings": {
+              "id": "taman",
+              "en": "park"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "umum, resmi",
+    "en": "public"
+  }
+}

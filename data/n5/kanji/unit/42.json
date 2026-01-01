@@ -1,0 +1,106 @@
+{
+  "id": 42,
+  "character": "出",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "で",
+        "romanji": "de",
+        "examples": [
+          {
+            "id": 1,
+            "word": "出る",
+            "furigana": "でる",
+            "romanji": "deru",
+            "meanings": {
+              "id": "keluar",
+              "en": "to go out"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "だ",
+        "romanji": "da",
+        "examples": [
+          {
+            "id": 2,
+            "word": "出す",
+            "furigana": "だす",
+            "romanji": "dasu",
+            "meanings": {
+              "id": "mengeluarkan",
+              "en": "to take out"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュツ",
+        "romanji": "shutsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "輸出",
+            "furigana": "ゆしゅつ",
+            "romanji": "yushutsu",
+            "meanings": {
+              "id": "ekspor",
+              "en": "export"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シュッ",
+        "romanji": "shut",
+        "examples": [
+          {
+            "id": 3,
+            "word": "輸出",
+            "furigana": "ゆしゅつ",
+            "romanji": "yushutsu",
+            "meanings": {
+              "id": "ekspor",
+              "en": "export"
+            }
+          },
+          {
+            "id": 4,
+            "word": "出国",
+            "furigana": "しゅっこく",
+            "romanji": "shukkoく",
+            "meanings": {
+              "id": "ke luar negeri",
+              "en": "departure from country"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "スイ",
+        "romanji": "sui",
+        "examples": [
+          {
+            "id": 5,
+            "word": "出納",
+            "furigana": "すいとう",
+            "romanji": "suitou",
+            "meanings": {
+              "id": "pengeluaran dan pendapatan",
+              "en": "receipts and expenditures"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keluar",
+    "en": "exit, go out"
+  }
+}

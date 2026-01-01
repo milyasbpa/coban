@@ -1,0 +1,53 @@
+{
+  "id": 63,
+  "character": "何",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なに",
+        "romanji": "nani",
+        "examples": []
+      },
+      {
+        "furigana": "なん",
+        "romanji": "nan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "何時",
+            "furigana": "なんじ",
+            "romanji": "nanji",
+            "meanings": {
+              "id": "jam berapa",
+              "en": "what time"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "幾何",
+            "furigana": "きか",
+            "romanji": "kika",
+            "meanings": {
+              "id": "geometri, ilmu ukur",
+              "en": "geometry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "apa",
+    "en": "what"
+  }
+}

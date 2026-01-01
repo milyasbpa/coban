@@ -1,0 +1,64 @@
+{
+  "id": 365,
+  "character": "覚",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おぼ",
+        "romanji": "obo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "覚える",
+            "furigana": "おぼえる",
+            "romanji": "oboeru",
+            "meanings": {
+              "id": "mengingat",
+              "en": "to remember"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "覚める",
+            "furigana": "さめる",
+            "romanji": "sameru",
+            "meanings": {
+              "id": "terjaga, sadar",
+              "en": "to awake, to be aware"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カク",
+        "romanji": "kaku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "覚悟",
+            "furigana": "かくご",
+            "romanji": "kakugo",
+            "meanings": {
+              "id": "ketetapan hati",
+              "en": "determination"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengingat, terjaga, sadar, ketetapan hati",
+    "en": "remember, awake, aware, determination"
+  }
+}

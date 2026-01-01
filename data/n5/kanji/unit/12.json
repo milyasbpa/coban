@@ -1,0 +1,61 @@
+{
+  "id": 12,
+  "character": "川",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かわ",
+        "romanji": "kawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "川",
+            "furigana": "かわ",
+            "romanji": "kawa",
+            "meanings": {
+              "id": "sungai",
+              "en": "river"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 3,
+            "word": "河川",
+            "furigana": "かせん",
+            "romanji": "kasen",
+            "meanings": {
+              "id": "sungai-sungai",
+              "en": "rivers"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "小川",
+          "furigana": "おがわ",
+          "romanji": "ogawa",
+          "meanings": {
+            "id": "sungai kecil",
+            "en": "small river"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "sungai",
+    "en": "river"
+  }
+}

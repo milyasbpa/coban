@@ -1,0 +1,90 @@
+{
+  "id": 24,
+  "character": "石",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いし",
+        "romanji": "ishi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "石",
+            "furigana": "いし",
+            "romanji": "ishi",
+            "meanings": {
+              "id": "batu",
+              "en": "stone"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "石油",
+            "furigana": "せきゆ",
+            "romanji": "sekiyu",
+            "meanings": {
+              "id": "minyak bumi",
+              "en": "petroleum"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "セッ",
+        "romanji": "se",
+        "examples": [
+          {
+            "id": 2,
+            "word": "石油",
+            "furigana": "せきゆ",
+            "romanji": "sekiyu",
+            "meanings": {
+              "id": "minyak bumi",
+              "en": "petroleum"
+            }
+          },
+          {
+            "id": 3,
+            "word": "石鹸",
+            "furigana": "せっけん",
+            "romanji": "sekken",
+            "meanings": {
+              "id": "sabun",
+              "en": "soap"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シャク",
+        "romanji": "shaku",
+        "examples": [
+          {
+            "id": 4,
+            "word": "磁石",
+            "furigana": "じしゃく",
+            "romanji": "jishaku",
+            "meanings": {
+              "id": "magnet",
+              "en": "magnet"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "batu",
+    "en": "stone"
+  }
+}

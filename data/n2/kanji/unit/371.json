@@ -1,0 +1,64 @@
+{
+  "id": 371,
+  "character": "滴",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "したた",
+        "romanji": "shitata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "滴る",
+            "furigana": "したたる",
+            "romanji": "shitataru",
+            "meanings": {
+              "id": "menetes",
+              "en": "to drip"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "しずく",
+        "romanji": "shizuku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "滴",
+            "furigana": "しずく",
+            "romanji": "shizuku",
+            "meanings": {
+              "id": "tetesan",
+              "en": "drop"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テキ",
+        "romanji": "teki",
+        "examples": [
+          {
+            "id": 3,
+            "word": "水滴",
+            "furigana": "すいてき",
+            "romanji": "suiteki",
+            "meanings": {
+              "id": "tetesan air",
+              "en": "water drop"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menetes, tetesan, tetesan air",
+    "en": "drip, drop, water drop"
+  }
+}

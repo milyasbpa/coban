@@ -1,0 +1,48 @@
+{
+  "id": 281,
+  "character": "暑",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あつ",
+        "romanji": "atsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "暑い",
+            "furigana": "あつい",
+            "romanji": "atsui",
+            "meanings": {
+              "id": "(udara) panas",
+              "en": "hot (weather)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショ",
+        "romanji": "sho",
+        "examples": [
+          {
+            "id": 2,
+            "word": "猛暑",
+            "furigana": "もうしょ",
+            "romanji": "mousho",
+            "meanings": {
+              "id": "panas yang luar biasa",
+              "en": "extremely hot weather"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "panas, panas yang luar biasa",
+    "en": "hot, extremely hot"
+  }
+}

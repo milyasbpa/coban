@@ -1,0 +1,48 @@
+{
+  "id": 366,
+  "character": "誘",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さそ",
+        "romanji": "saso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "誘う",
+            "furigana": "さそう",
+            "romanji": "sasou",
+            "meanings": {
+              "id": "mengundang, mengajak",
+              "en": "invite, tempt"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ユウ",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "誘惑",
+            "furigana": "ゆうわく",
+            "romanji": "yuuwaku",
+            "meanings": {
+              "id": "godaan",
+              "en": "temptation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengundang, mengajak, godaan",
+    "en": "invite, tempt"
+  }
+}

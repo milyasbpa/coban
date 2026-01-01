@@ -1,0 +1,48 @@
+{
+  "id": 406,
+  "character": "種",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たね",
+        "romanji": "tane",
+        "examples": [
+          {
+            "id": 1,
+            "word": "種",
+            "furigana": "たね",
+            "romanji": "tane",
+            "meanings": {
+              "id": "bibit, benih",
+              "en": "seed"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "種類",
+            "furigana": "しゅるい",
+            "romanji": "shurui",
+            "meanings": {
+              "id": "jenis, macam",
+              "en": "kind, type"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bibit, benih, jenis, macam",
+    "en": "seed, kind, type"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 22,
+  "character": "仕",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つか",
+        "romanji": "tsuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "仕える",
+            "furigana": "つかえる",
+            "romanji": "tsukaeru",
+            "meanings": {
+              "id": "melayani",
+              "en": "to serve"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "仕事",
+            "furigana": "しごと",
+            "romanji": "shigoto",
+            "meanings": {
+              "id": "pekerjaan",
+              "en": "work"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melayani",
+    "en": "serve, work"
+  }
+}

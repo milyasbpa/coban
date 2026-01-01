@@ -1,0 +1,48 @@
+{
+  "id": 93,
+  "character": "病",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "や",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "病む",
+            "furigana": "やむ",
+            "romanji": "yamu",
+            "meanings": {
+              "id": "jatuh sakit",
+              "en": "to fall ill"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ビョウ",
+        "romanji": "byou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "病気",
+            "furigana": "びょうき",
+            "romanji": "byouki",
+            "meanings": {
+              "id": "penyakit",
+              "en": "illness"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jatuh sakit",
+    "en": "illness, disease"
+  }
+}

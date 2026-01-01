@@ -1,0 +1,74 @@
+{
+  "id": 15,
+  "character": "女",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おんな",
+        "romanji": "onna",
+        "examples": [
+          {
+            "id": 1,
+            "word": "女",
+            "furigana": "おんな",
+            "romanji": "onna",
+            "meanings": {
+              "id": "wanita, perempuan",
+              "en": "woman"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "め",
+        "romanji": "me",
+        "examples": [
+          {
+            "id": 2,
+            "word": "女神",
+            "furigana": "めがみ",
+            "romanji": "megami",
+            "meanings": {
+              "id": "dewi",
+              "en": "goddess"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョ",
+        "romanji": "jo",
+        "examples": [
+          {
+            "id": 3,
+            "word": "女性",
+            "furigana": "じょせい",
+            "romanji": "josei",
+            "meanings": {
+              "id": "wanita, perempuan",
+              "en": "woman, female"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ニョ",
+        "romanji": "nyo",
+        "examples": []
+      },
+      {
+        "furigana": "ニョウ",
+        "romanji": "nyou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "wanita, perempuan",
+    "en": "woman"
+  }
+}

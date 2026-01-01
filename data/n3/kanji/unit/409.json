@@ -1,0 +1,48 @@
+{
+  "id": 409,
+  "character": "疑",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うたが",
+        "romanji": "utaga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "疑う",
+            "furigana": "うたがう",
+            "romanji": "utagau",
+            "meanings": {
+              "id": "mencurigai, meragukan",
+              "en": "to suspect, to doubt"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ギ",
+        "romanji": "gi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "疑惑",
+            "furigana": "ぎわく",
+            "romanji": "giwaku",
+            "meanings": {
+              "id": "keragu-raguan",
+              "en": "uncertainty"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencurigai, meragukan, keragu-raguan",
+    "en": "suspect, doubt, uncertainty"
+  }
+}

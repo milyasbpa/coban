@@ -1,0 +1,50 @@
+{
+  "id": 260,
+  "character": "粒",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つぶ",
+        "romanji": "tsubu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リュウ",
+        "romanji": "ryuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "粒子",
+            "furigana": "りゅうし",
+            "romanji": "ryuushi",
+            "meanings": {
+              "id": "butiran halus",
+              "en": "fine grain, particle"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "雨粒",
+          "furigana": "あまつぶ",
+          "romanji": "amatsubu",
+          "meanings": {
+            "id": "tetesan air hujan",
+            "en": "raindrop"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tetesan air hujan, butiran halus",
+    "en": "raindrop, fine grain"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 244,
+  "character": "流",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なが",
+        "romanji": "naga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "流れる",
+            "furigana": "ながれる",
+            "romanji": "nagareru",
+            "meanings": {
+              "id": "mengalir",
+              "en": "to flow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リュウ",
+        "romanji": "ryuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "交流",
+            "furigana": "こうりゅう",
+            "romanji": "kouryuu",
+            "meanings": {
+              "id": "pertukaran",
+              "en": "exchange"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ル",
+        "romanji": "ru",
+        "examples": [
+          {
+            "id": 3,
+            "word": "流浪",
+            "furigana": "るろう",
+            "romanji": "rurou",
+            "meanings": {
+              "id": "mengembara",
+              "en": "wander"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengalir, pertukaran, mengembara",
+    "en": "flow, exchange, wander"
+  }
+}

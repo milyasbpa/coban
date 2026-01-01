@@ -1,0 +1,48 @@
+{
+  "id": 266,
+  "character": "彩",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いろど",
+        "romanji": "irodo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "彩る",
+            "furigana": "いろどる",
+            "romanji": "irodoru",
+            "meanings": {
+              "id": "mewarnai",
+              "en": "to color"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "彩色",
+            "furigana": "さいしき",
+            "romanji": "saishiki",
+            "meanings": {
+              "id": "pewarnaan, berwarna",
+              "en": "coloring, colored"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mewarnai, pewarnaan, berwarna",
+    "en": "to color, coloring, colored"
+  }
+}

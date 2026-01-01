@@ -1,0 +1,53 @@
+{
+  "id": 32,
+  "character": "地",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ち",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "地図",
+            "furigana": "ちず",
+            "romanji": "chizu",
+            "meanings": {
+              "id": "peta",
+              "en": "map"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チ",
+        "romanji": "chi",
+        "examples": []
+      },
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "地面",
+            "furigana": "じめん",
+            "romanji": "jimen",
+            "meanings": {
+              "id": "permukaan tanah",
+              "en": "ground surface"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tanah",
+    "en": "ground, earth"
+  }
+}

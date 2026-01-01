@@ -1,0 +1,48 @@
+{
+  "id": 315,
+  "character": "寒",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さむ",
+        "romanji": "samu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "寒い",
+            "furigana": "さむい",
+            "romanji": "samui",
+            "meanings": {
+              "id": "dingin",
+              "en": "cold"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "寒暑",
+            "furigana": "かんしょ",
+            "romanji": "kansho",
+            "meanings": {
+              "id": "udara dingin & panas",
+              "en": "cold & hot air"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dingin, udara dingin & panas",
+    "en": "cold, cold & hot air"
+  }
+}

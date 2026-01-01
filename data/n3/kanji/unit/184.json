@@ -1,0 +1,41 @@
+{
+  "id": 184,
+  "character": "科",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "科目",
+            "furigana": "かもく",
+            "romanji": "kamoku",
+            "meanings": {
+              "id": "mata pelajaran",
+              "en": "school subject"
+            }
+          },
+          {
+            "id": 2,
+            "word": "科学",
+            "furigana": "かがく",
+            "romanji": "kagaku",
+            "meanings": {
+              "id": "ilmu pengetahuan",
+              "en": "science"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mata pelajaran, ilmu pengetahuan",
+    "en": "subject, science"
+  }
+}

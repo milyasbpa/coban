@@ -1,0 +1,58 @@
+{
+  "id": 234,
+  "character": "恐",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おそ",
+        "romanji": "oso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "恐れる",
+            "furigana": "おそれる",
+            "romanji": "osoreru",
+            "meanings": {
+              "id": "takut, khawatir",
+              "en": "to fear, to worry"
+            }
+          },
+          {
+            "id": 2,
+            "word": "恐ろしい",
+            "furigana": "おそろしい",
+            "romanji": "osoroshii",
+            "meanings": {
+              "id": "menakutkan",
+              "en": "scary"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "恐縮",
+            "furigana": "きょうしゅく",
+            "romanji": "kyoushuku",
+            "meanings": {
+              "id": "sungkan",
+              "en": "shy, sorry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "takut, khawatir, menakutkan, sungkan",
+    "en": "fear, worry, scary, shy"
+  }
+}

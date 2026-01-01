@@ -1,0 +1,64 @@
+{
+  "id": 202,
+  "character": "華",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はな",
+        "romanji": "hana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "華やか",
+            "furigana": "はなやか",
+            "romanji": "hanayaka",
+            "meanings": {
+              "id": "meriah",
+              "en": "splendid, gorgeous"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "華道",
+            "furigana": "かどう",
+            "romanji": "kadou",
+            "meanings": {
+              "id": "seni merangkai bunga",
+              "en": "flower arrangement"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲ",
+        "romanji": "ge",
+        "examples": [
+          {
+            "id": 3,
+            "word": "蓮華",
+            "furigana": "れんげ",
+            "romanji": "renge",
+            "meanings": {
+              "id": "bunga teratai",
+              "en": "lotus flower"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meriah, seni merangkai bunga, bunga teratai",
+    "en": "splendid, flower arrangement, lotus flower"
+  }
+}

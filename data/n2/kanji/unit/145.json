@@ -1,0 +1,93 @@
+{
+  "id": 145,
+  "character": "香",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "香り",
+            "furigana": "かおり",
+            "romanji": "kaori",
+            "meanings": {
+              "id": "aroma, bau harum",
+              "en": "aroma, fragrance"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かお",
+        "romanji": "kao",
+        "examples": [
+          {
+            "id": 2,
+            "word": "香り",
+            "furigana": "かおり",
+            "romanji": "kaori",
+            "meanings": {
+              "id": "aroma, bau harum",
+              "en": "aroma, fragrance"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "香水",
+            "furigana": "こうすい",
+            "romanji": "kousui",
+            "meanings": {
+              "id": "minyak wangi",
+              "en": "perfume"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "香車",
+            "furigana": "きょうしゃ",
+            "romanji": "kyousha",
+            "meanings": {
+              "id": "buah catur spear",
+              "en": "chess piece (spear)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "色香",
+          "furigana": "いろか",
+          "romanji": "iroka",
+          "meanings": {
+            "id": "daya pikat, pesona",
+            "en": "charm, allure"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "daya pikat, pesona, aroma, bau harum, minyak wangi, buah catur spear",
+    "en": "fragrance, charm, perfume, chess piece (spear)"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": 33,
+  "character": "友",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とも",
+        "romanji": "tomo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "友だち",
+            "furigana": "ともだち",
+            "romanji": "tomodachi",
+            "meanings": {
+              "id": "teman, sahabat",
+              "en": "friend"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ユウ",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "友人",
+            "furigana": "ゆうじん",
+            "romanji": "yuujin",
+            "meanings": {
+              "id": "teman, sahabat",
+              "en": "friend"
+            }
+          },
+          {
+            "id": 3,
+            "word": "友親",
+            "furigana": "ゆうしん",
+            "romanji": "yuushin",
+            "meanings": {
+              "id": "orang tua laki-laki, ayah",
+              "en": "close friend"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "teman",
+    "en": "friend"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 337,
+  "character": "結",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むす",
+        "romanji": "musu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "結ぶ",
+            "furigana": "むすぶ",
+            "romanji": "musubu",
+            "meanings": {
+              "id": "menghubungkan, mengikat",
+              "en": "to connect, to tie"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゆ",
+        "romanji": "yu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "結う",
+            "furigana": "ゆう",
+            "romanji": "yuu",
+            "meanings": {
+              "id": "mengikat (rambut, tali, dsb)",
+              "en": "to tie, to bind (hair, string, etc.)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケツ",
+        "romanji": "ketsu",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "結果",
+          "furigana": "けっか",
+          "romanji": "kekka",
+          "meanings": {
+            "id": "hasil, akibat",
+            "en": "result"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menghubungkan, mengikat, hasil, akibat",
+    "en": "connect, tie, result"
+  }
+}

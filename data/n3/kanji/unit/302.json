@@ -1,0 +1,47 @@
+{
+  "id": 302,
+  "character": "責",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "せ",
+        "romanji": "se",
+        "examples": [
+          {
+            "id": 1,
+            "word": "責める",
+            "furigana": "せめる",
+            "romanji": "semeru",
+            "meanings": {
+              "id": "menyalahkan",
+              "en": "to blame"
+            }
+          },
+          {
+            "id": 2,
+            "word": "責任",
+            "furigana": "せきにん",
+            "romanji": "sekinin",
+            "meanings": {
+              "id": "tanggung jawab",
+              "en": "responsibility"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyalahkan, tanggung jawab",
+    "en": "blame, responsibility"
+  }
+}

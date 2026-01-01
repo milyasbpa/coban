@@ -1,0 +1,92 @@
+{
+  "id": 187,
+  "character": "納",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おさ",
+        "romanji": "osa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "納める",
+            "furigana": "おさめる",
+            "romanji": "osameru",
+            "meanings": {
+              "id": "membayar, menyimpan",
+              "en": "to pay, to store"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ノウ",
+        "romanji": "nou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "納税",
+            "furigana": "のうぜい",
+            "romanji": "nouzei",
+            "meanings": {
+              "id": "pembayaran pajak",
+              "en": "tax payment"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ナン",
+        "romanji": "nan",
+        "examples": []
+      },
+      {
+        "furigana": "ナットウ",
+        "romanji": "nattou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "納豆",
+            "furigana": "なっとう",
+            "romanji": "nattou",
+            "meanings": {
+              "id": "kedelai fermentasi",
+              "en": "fermented soybeans"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "納屋",
+          "furigana": "なや",
+          "romanji": "naya",
+          "meanings": {
+            "id": "gudang, lumbung",
+            "en": "warehouse, barn"
+          }
+        },
+        {
+          "id": 5,
+          "word": "出納",
+          "furigana": "すいとう",
+          "romanji": "suitou",
+          "meanings": {
+            "id": "pemasukan & pengeluaran",
+            "en": "income & expenditure"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "membayar, menyimpan, pembayaran pajak, gudang, lumbung, gudang penyimpanan, kedelai fermentasi, pemasukan & pengeluaran",
+    "en": "to pay, to store, tax payment, warehouse, fermented soybeans, income & expenditure"
+  }
+}

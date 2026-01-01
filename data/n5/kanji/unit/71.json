@@ -1,0 +1,64 @@
+{
+  "id": 71,
+  "character": "赤",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あか",
+        "romanji": "aka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "赤い",
+            "furigana": "あかい",
+            "romanji": "akai",
+            "meanings": {
+              "id": "merah",
+              "en": "red"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "赤道",
+            "furigana": "せきどう",
+            "romanji": "sekidou",
+            "meanings": {
+              "id": "khatulistiwa",
+              "en": "equator"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シャク",
+        "romanji": "shaku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "赤銅",
+            "furigana": "しゃくどう",
+            "romanji": "shakudou",
+            "meanings": {
+              "id": "tembaga merah",
+              "en": "red copper"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "merah",
+    "en": "red"
+  }
+}

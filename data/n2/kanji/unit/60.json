@@ -1,0 +1,50 @@
+{
+  "id": 60,
+  "character": "阪",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さか",
+        "romanji": "saka",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 2,
+            "word": "阪神",
+            "furigana": "はんしん",
+            "romanji": "hanshin",
+            "meanings": {
+              "id": "Kobe",
+              "en": "Kobe"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "大阪",
+          "furigana": "おおさか",
+          "romanji": "oosaka",
+          "meanings": {
+            "id": "Osaka",
+            "en": "Osaka"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "nama kota Osaka & Kobe",
+    "en": "Osaka & Kobe (city name)"
+  }
+}

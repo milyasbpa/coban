@@ -1,0 +1,48 @@
+{
+  "id": 206,
+  "character": "草",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くさ",
+        "romanji": "kusa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "草木",
+            "furigana": "くさき",
+            "romanji": "kusaki",
+            "meanings": {
+              "id": "rumput",
+              "en": "grass"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "草食",
+            "furigana": "そうしょく",
+            "romanji": "soushoku",
+            "meanings": {
+              "id": "herbivora",
+              "en": "herbivore"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rumput, herbivora",
+    "en": "grass, herbivore"
+  }
+}

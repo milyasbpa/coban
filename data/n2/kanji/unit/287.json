@@ -1,0 +1,48 @@
+{
+  "id": 287,
+  "character": "硬",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "硬い",
+            "furigana": "かたい",
+            "romanji": "katai",
+            "meanings": {
+              "id": "keras",
+              "en": "hard"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "硬貨",
+            "furigana": "こうか",
+            "romanji": "kouka",
+            "meanings": {
+              "id": "uang logam, koin",
+              "en": "coin"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keras, uang logam, konsisten, kuat, kokoh",
+    "en": "hard, coin, consistent, strong"
+  }
+}

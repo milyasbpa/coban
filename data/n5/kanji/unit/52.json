@@ -1,0 +1,58 @@
+{
+  "id": 52,
+  "character": "年",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とし",
+        "romanji": "toshi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "年",
+            "furigana": "とし",
+            "romanji": "toshi",
+            "meanings": {
+              "id": "tahun",
+              "en": "year"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ネン",
+        "romanji": "nen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "危年",
+            "furigana": "きねん",
+            "romanji": "kinen",
+            "meanings": {
+              "id": "tahun/usia yg tidak beruntung",
+              "en": "unlucky year"
+            }
+          },
+          {
+            "id": 3,
+            "word": "年齢",
+            "furigana": "ねんれい",
+            "romanji": "nenrei",
+            "meanings": {
+              "id": "usia",
+              "en": "age"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tahun",
+    "en": "year"
+  }
+}

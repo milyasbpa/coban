@@ -1,0 +1,63 @@
+{
+  "id": 321,
+  "character": "就",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "就く",
+            "furigana": "つく",
+            "romanji": "tsuku",
+            "meanings": {
+              "id": "mendapat (kedudukan)",
+              "en": "to get (position)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "就職",
+            "furigana": "しゅうしょく",
+            "romanji": "shuushoku",
+            "meanings": {
+              "id": "dapat pekerjaan",
+              "en": "to get a job"
+            }
+          },
+          {
+            "id": 3,
+            "word": "就業",
+            "furigana": "しゅうぎょう",
+            "romanji": "shuugyou",
+            "meanings": {
+              "id": "prestasi, pencapaian",
+              "en": "achievement"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジュ",
+        "romanji": "ju",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mendapat (kedudukan), dapat pekerjaan, prestasi, pencapaian",
+    "en": "to get (position), to get a job, achievement"
+  }
+}

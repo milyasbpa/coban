@@ -1,0 +1,48 @@
+{
+  "id": 309,
+  "character": "統",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 1,
+            "word": "統べる",
+            "furigana": "すべる",
+            "romanji": "suberu",
+            "meanings": {
+              "id": "mengendalikan",
+              "en": "to control"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "統一",
+            "furigana": "とういつ",
+            "romanji": "touitsu",
+            "meanings": {
+              "id": "menyatu, seragam",
+              "en": "unite, uniform"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengendalikan, menyatu, seragam",
+    "en": "to control, unite, uniform"
+  }
+}

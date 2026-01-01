@@ -1,0 +1,47 @@
+{
+  "id": 72,
+  "character": "茶",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "チャ",
+        "romanji": "cha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "お茶",
+            "furigana": "おちゃ",
+            "romanji": "ocha",
+            "meanings": {
+              "id": "teh",
+              "en": "tea"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "サ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "茶道",
+            "furigana": "さどう",
+            "romanji": "sadou",
+            "meanings": {
+              "id": "seni minum teh",
+              "en": "tea ceremony"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "teh",
+    "en": "tea"
+  }
+}

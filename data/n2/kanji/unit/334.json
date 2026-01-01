@@ -1,0 +1,48 @@
+{
+  "id": 334,
+  "character": "傾",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "傾ける",
+            "furigana": "かたむける",
+            "romanji": "katamukeru",
+            "meanings": {
+              "id": "mencondongkan",
+              "en": "to incline"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "傾向",
+            "furigana": "けいこう",
+            "romanji": "keikou",
+            "meanings": {
+              "id": "kecenderungan",
+              "en": "tendency"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencondongkan, kecenderungan",
+    "en": "to incline, tendency"
+  }
+}

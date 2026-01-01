@@ -1,0 +1,48 @@
+{
+  "id": 125,
+  "character": "免",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まぬか",
+        "romanji": "manuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "免れる",
+            "furigana": "まぬかれる",
+            "romanji": "manukareru",
+            "meanings": {
+              "id": "terhindar",
+              "en": "to avoid"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "メン",
+        "romanji": "men",
+        "examples": [
+          {
+            "id": 2,
+            "word": "免許証",
+            "furigana": "めんきょしょう",
+            "romanji": "menkyoshou",
+            "meanings": {
+              "id": "surat izin",
+              "en": "license, permit"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "terhindar, surat izin",
+    "en": "to avoid, license"
+  }
+}

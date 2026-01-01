@@ -1,0 +1,50 @@
+{
+  "id": 2,
+  "character": "夕",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆう",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夕方",
+            "furigana": "ゆうがた",
+            "romanji": "yuugata",
+            "meanings": {
+              "id": "sore hari",
+              "en": "evening"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "七夕",
+          "furigana": "たなばた",
+          "romanji": "tanabata",
+          "meanings": {
+            "id": "festival 7 Juli",
+            "en": "Tanabata festival"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "senja",
+    "en": "evening"
+  }
+}

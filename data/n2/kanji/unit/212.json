@@ -1,0 +1,54 @@
+{
+  "id": 212,
+  "character": "撃",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": []
+      },
+      {
+        "furigana": "ボウ",
+        "romanji": "bou",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "砲撃",
+          "furigana": "ほうげき",
+          "romanji": "houbeki",
+          "meanings": {
+            "id": "pengeboman",
+            "en": "bombardment, shelling"
+          }
+        },
+        {
+          "id": 2,
+          "word": "鉄砲",
+          "furigana": "てっぽう",
+          "romanji": "teggou",
+          "meanings": {
+            "id": "senapan, pistol",
+            "en": "gun, rifle, firearm"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "senapan, pistol",
+    "en": "gun, pistol"
+  }
+}

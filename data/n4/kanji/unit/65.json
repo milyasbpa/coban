@@ -1,0 +1,102 @@
+{
+  "id": 65,
+  "character": "物",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もの",
+        "romanji": "mono",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ブツ",
+        "romanji": "butsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "動物",
+            "furigana": "どうぶつ",
+            "romanji": "doubutsu",
+            "meanings": {
+              "id": "binatang",
+              "en": "animal"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ブッ",
+        "romanji": "butsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "動物",
+            "furigana": "どうぶつ",
+            "romanji": "doubutsu",
+            "meanings": {
+              "id": "binatang",
+              "en": "animal"
+            }
+          },
+          {
+            "id": 4,
+            "word": "物価",
+            "furigana": "ぶっか",
+            "romanji": "bukka",
+            "meanings": {
+              "id": "harga barang",
+              "en": "commodity prices"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "モツ",
+        "romanji": "motsu",
+        "examples": [
+          {
+            "id": 5,
+            "word": "食物",
+            "furigana": "しょくもつ",
+            "romanji": "shokumotsu",
+            "meanings": {
+              "id": "barang bawaan",
+              "en": "food"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "品物",
+          "furigana": "しなもの",
+          "romanji": "shinamono",
+          "meanings": {
+            "id": "barang-barang",
+            "en": "goods"
+          }
+        },
+        {
+          "id": 2,
+          "word": "買い物",
+          "furigana": "かいもの",
+          "romanji": "kaimono",
+          "meanings": {
+            "id": "belanja",
+            "en": "shopping"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "barang-barang",
+    "en": "thing, object"
+  }
+}

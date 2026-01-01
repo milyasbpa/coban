@@ -1,0 +1,48 @@
+{
+  "id": 287,
+  "character": "雪",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆき",
+        "romanji": "yuki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "雪",
+            "furigana": "ゆき",
+            "romanji": "yuki",
+            "meanings": {
+              "id": "salju",
+              "en": "snow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セツ",
+        "romanji": "setsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "雪原",
+            "furigana": "せつげん",
+            "romanji": "setsugen",
+            "meanings": {
+              "id": "dataran salju",
+              "en": "snowfield"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "salju, dataran salju",
+    "en": "snow, snowfield"
+  }
+}

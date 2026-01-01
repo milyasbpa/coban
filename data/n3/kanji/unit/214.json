@@ -1,0 +1,58 @@
+{
+  "id": 214,
+  "character": "飛",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "飛ぶ",
+            "furigana": "とぶ",
+            "romanji": "tobu",
+            "meanings": {
+              "id": "terbang",
+              "en": "to fly"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "飛行機",
+            "furigana": "ひこうき",
+            "romanji": "hikouki",
+            "meanings": {
+              "id": "pesawat",
+              "en": "airplane"
+            }
+          },
+          {
+            "id": 3,
+            "word": "飛行士",
+            "furigana": "ひこうし",
+            "romanji": "hikoushi",
+            "meanings": {
+              "id": "pilot",
+              "en": "pilot"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "terbang, pesawat, pilot",
+    "en": "fly, airplane, pilot"
+  }
+}

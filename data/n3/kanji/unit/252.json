@@ -1,0 +1,31 @@
+{
+  "id": 252,
+  "character": "庫",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "倉庫",
+            "furigana": "そうこ",
+            "romanji": "souko",
+            "meanings": {
+              "id": "gudang",
+              "en": "warehouse"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gudang",
+    "en": "warehouse"
+  }
+}

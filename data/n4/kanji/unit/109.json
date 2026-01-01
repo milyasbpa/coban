@@ -1,0 +1,58 @@
+{
+  "id": 109,
+  "character": "間",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "問い",
+            "furigana": "とい",
+            "romanji": "toi",
+            "meanings": {
+              "id": "pertanyaan",
+              "en": "question"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "モン",
+        "romanji": "mon",
+        "examples": [
+          {
+            "id": 2,
+            "word": "問題",
+            "furigana": "もんだい",
+            "romanji": "mondai",
+            "meanings": {
+              "id": "soal, masalah",
+              "en": "problem"
+            }
+          },
+          {
+            "id": 3,
+            "word": "訪問",
+            "furigana": "ほうもん",
+            "romanji": "houmon",
+            "meanings": {
+              "id": "kunjungan",
+              "en": "visit"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pertanyaan",
+    "en": "question, ask"
+  }
+}

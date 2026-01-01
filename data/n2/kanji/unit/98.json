@@ -1,0 +1,48 @@
+{
+  "id": 98,
+  "character": "松",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まつ",
+        "romanji": "matsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "松原",
+            "furigana": "まつばら",
+            "romanji": "matsubara",
+            "meanings": {
+              "id": "hutan pinus",
+              "en": "pine forest"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "松竹梅",
+            "furigana": "しょうちくばい",
+            "romanji": "shouchikubai",
+            "meanings": {
+              "id": "simbol kebahagiaan",
+              "en": "symbol of happiness"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hutan pinus, simbol kebahagiaan",
+    "en": "pine forest, symbol of happiness"
+  }
+}

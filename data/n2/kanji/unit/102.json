@@ -1,0 +1,50 @@
+{
+  "id": 102,
+  "character": "泥",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "どろ",
+        "romanji": "doro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "泥棒",
+            "furigana": "どろぼう",
+            "romanji": "dorobou",
+            "meanings": {
+              "id": "maling, pencuri",
+              "en": "thief"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "デイ",
+        "romanji": "dei",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "天地泥の差",
+          "furigana": "てんちどろのさ",
+          "romanji": "tenchidoro no sa",
+          "meanings": {
+            "id": "antara langit & bumi",
+            "en": "between sky & earth"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "maling, pencuri, antara langit & bumi",
+    "en": "thief, between sky & earth"
+  }
+}

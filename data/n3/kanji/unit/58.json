@@ -1,0 +1,53 @@
+{
+  "id": 58,
+  "character": "各",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おのおの",
+        "romanji": "onoono",
+        "examples": [
+          {
+            "id": 1,
+            "word": "各々",
+            "furigana": "おのおの",
+            "romanji": "onoono",
+            "meanings": {
+              "id": "masing-masing",
+              "en": "each"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カク",
+        "romanji": "kaku",
+        "examples": []
+      },
+      {
+        "furigana": "カッ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "各国",
+            "furigana": "かっこく",
+            "romanji": "kakkoku",
+            "meanings": {
+              "id": "setiap negara",
+              "en": "each country"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "masing masing",
+    "en": "each"
+  }
+}

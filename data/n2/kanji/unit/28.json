@@ -1,0 +1,65 @@
+{
+  "id": 28,
+  "character": "皮",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かわ",
+        "romanji": "kawa",
+        "examples": []
+      },
+      {
+        "furigana": "がわ",
+        "romanji": "gawa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "皮膚",
+            "furigana": "ひふ",
+            "romanji": "hifu",
+            "meanings": {
+              "id": "kulit (manusia)",
+              "en": "human skin"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "生皮",
+          "furigana": "なまかわ",
+          "romanji": "namakawa",
+          "meanings": {
+            "id": "kulit mentah",
+            "en": "raw skin"
+          }
+        },
+        {
+          "id": 2,
+          "word": "毛皮",
+          "furigana": "けがわ",
+          "romanji": "kegawa",
+          "meanings": {
+            "id": "bulu kulit binatang",
+            "en": "animal fur"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kulit mentah, bulu kulit binatang, kulit (manusia)",
+    "en": "raw skin, animal fur, human skin"
+  }
+}

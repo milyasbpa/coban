@@ -1,0 +1,50 @@
+{
+  "id": 411,
+  "character": "様",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さま",
+        "romanji": "sama",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "様子",
+            "furigana": "ようす",
+            "romanji": "yousu",
+            "meanings": {
+              "id": "keadaan",
+              "en": "condition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "お嬢様",
+          "furigana": "おじょうさま",
+          "romanji": "ojousama",
+          "meanings": {
+            "id": "nona, anak putri",
+            "en": "miss, young lady"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "nona, anak putri, keadaan",
+    "en": "miss, young lady, condition"
+  }
+}

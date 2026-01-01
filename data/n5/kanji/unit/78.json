@@ -1,0 +1,112 @@
+{
+  "id": 78,
+  "character": "後",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あと",
+        "romanji": "ato",
+        "examples": [
+          {
+            "id": 1,
+            "word": "後",
+            "furigana": "あと",
+            "romanji": "ato",
+            "meanings": {
+              "id": "sesudah",
+              "en": "after"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "うし",
+        "romanji": "ushi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "後ろ",
+            "furigana": "うしろ",
+            "romanji": "ushiro",
+            "meanings": {
+              "id": "belakang",
+              "en": "behind"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "のち",
+        "romanji": "nochi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "後ほど",
+            "furigana": "のちほど",
+            "romanji": "nochihodo",
+            "meanings": {
+              "id": "nanti",
+              "en": "later"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "おく",
+        "romanji": "oku",
+        "examples": [
+          {
+            "id": 4,
+            "word": "後れる",
+            "furigana": "おくれる",
+            "romanji": "okureru",
+            "meanings": {
+              "id": "terbelakang, ketinggalan",
+              "en": "to be late"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 5,
+            "word": "食後",
+            "furigana": "しょくご",
+            "romanji": "shokugo",
+            "meanings": {
+              "id": "sesudah makan",
+              "en": "after meal"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 6,
+            "word": "後輩",
+            "furigana": "こうはい",
+            "romanji": "kouhai",
+            "meanings": {
+              "id": "junior, adik kelas",
+              "en": "junior"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sesudah",
+    "en": "after, behind"
+  }
+}

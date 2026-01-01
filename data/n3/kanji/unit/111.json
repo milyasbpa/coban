@@ -1,0 +1,48 @@
+{
+  "id": 111,
+  "character": "卵",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たまご",
+        "romanji": "tamago",
+        "examples": [
+          {
+            "id": 1,
+            "word": "卵",
+            "furigana": "たまご",
+            "romanji": "tamago",
+            "meanings": {
+              "id": "telur",
+              "en": "egg"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ラン",
+        "romanji": "ran",
+        "examples": [
+          {
+            "id": 2,
+            "word": "卵白",
+            "furigana": "らんぱく",
+            "romanji": "ranpaku",
+            "meanings": {
+              "id": "putih telur",
+              "en": "egg white"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "telur, putih telur",
+    "en": "egg, egg white"
+  }
+}

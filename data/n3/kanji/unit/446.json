@@ -1,0 +1,64 @@
+{
+  "id": 446,
+  "character": "頼",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たの",
+        "romanji": "tano",
+        "examples": [
+          {
+            "id": 1,
+            "word": "頼む",
+            "furigana": "たのむ",
+            "romanji": "tanomu",
+            "meanings": {
+              "id": "meminta (tolong)",
+              "en": "to ask (for help)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "たよ",
+        "romanji": "tayo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "頼る",
+            "furigana": "たよる",
+            "romanji": "tayoru",
+            "meanings": {
+              "id": "mengandalkan, mempercayakan",
+              "en": "to rely, to entrust"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ライ",
+        "romanji": "rai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "依頼",
+            "furigana": "いらい",
+            "romanji": "irai",
+            "meanings": {
+              "id": "permohonan, permintaan",
+              "en": "request"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meminta (tolong), mengandalkan, mempercayakan, permohonan, permintaan",
+    "en": "ask (for help), rely, entrust, request"
+  }
+}

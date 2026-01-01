@@ -1,0 +1,48 @@
+{
+  "id": 180,
+  "character": "悩",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なや",
+        "romanji": "naya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "悩む",
+            "furigana": "なやむ",
+            "romanji": "nayamu",
+            "meanings": {
+              "id": "bingung, pusing",
+              "en": "to be troubled, to be confused"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ノウ",
+        "romanji": "nou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "悩殺",
+            "furigana": "のうさつ",
+            "romanji": "nousatsu",
+            "meanings": {
+              "id": "mempesona",
+              "en": "charming, captivating"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bingung, pusing, mempesona",
+    "en": "troubled, confused, charming"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 35,
+  "character": "天",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あめ",
+        "romanji": "ame",
+        "examples": [
+          {
+            "id": 1,
+            "word": "天",
+            "furigana": "あめ",
+            "romanji": "ame",
+            "meanings": {
+              "id": "langit",
+              "en": "heaven"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "あま",
+        "romanji": "ama",
+        "examples": [
+          {
+            "id": 2,
+            "word": "天の川",
+            "furigana": "あまのがわ",
+            "romanji": "amanogawa",
+            "meanings": {
+              "id": "bima sakti",
+              "en": "Milky Way"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テン",
+        "romanji": "ten",
+        "examples": [
+          {
+            "id": 3,
+            "word": "天国",
+            "furigana": "てんごく",
+            "romanji": "tengoku",
+            "meanings": {
+              "id": "surga",
+              "en": "paradise"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "langit",
+    "en": "heaven, sky"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": 61,
+  "character": "夜",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よる",
+        "romanji": "yoru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夜",
+            "furigana": "よる",
+            "romanji": "yoru",
+            "meanings": {
+              "id": "malam",
+              "en": "night"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夜",
+            "furigana": "よる",
+            "romanji": "yoru",
+            "meanings": {
+              "id": "malam",
+              "en": "night"
+            }
+          },
+          {
+            "id": 2,
+            "word": "夜中",
+            "furigana": "よなか",
+            "romanji": "yonaka",
+            "meanings": {
+              "id": "tengah malam",
+              "en": "midnight"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヤ",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 3,
+            "word": "徹夜",
+            "furigana": "てつや",
+            "romanji": "tetsuya",
+            "meanings": {
+              "id": "bergadang",
+              "en": "staying up all night"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "malam",
+    "en": "night"
+  }
+}

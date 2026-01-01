@@ -1,0 +1,46 @@
+{
+  "id": 100,
+  "character": "特",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "トク",
+        "romanji": "toku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "特に",
+            "furigana": "とくに",
+            "romanji": "toku ni",
+            "meanings": {
+              "id": "khususnya",
+              "en": "especially"
+            }
+          },
+          {
+            "id": 2,
+            "word": "特別",
+            "furigana": "とくべつ",
+            "romanji": "tokubetsu",
+            "meanings": {
+              "id": "istimewa, khusus",
+              "en": "special"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "トッ",
+        "romanji": "tot",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "khususnya",
+    "en": "special"
+  }
+}

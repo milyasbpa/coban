@@ -1,0 +1,64 @@
+{
+  "id": 293,
+  "character": "裁",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さば",
+        "romanji": "saba",
+        "examples": [
+          {
+            "id": 1,
+            "word": "裁く",
+            "furigana": "さばく",
+            "romanji": "sabaku",
+            "meanings": {
+              "id": "mengadili",
+              "en": "to judge"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 2,
+            "word": "裁つ",
+            "furigana": "たつ",
+            "romanji": "tatsu",
+            "meanings": {
+              "id": "memotong, menggunting",
+              "en": "to cut"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "裁判",
+            "furigana": "さいばん",
+            "romanji": "saiban",
+            "meanings": {
+              "id": "pengadilan",
+              "en": "court, trial"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengadili, memotong, menggunting, pengadilan",
+    "en": "judge, cut, court"
+  }
+}

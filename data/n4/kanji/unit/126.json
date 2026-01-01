@@ -1,0 +1,58 @@
+{
+  "id": 126,
+  "character": "場",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ば",
+        "romanji": "ba",
+        "examples": [
+          {
+            "id": 1,
+            "word": "場所",
+            "furigana": "ばしょ",
+            "romanji": "basho",
+            "meanings": {
+              "id": "tempat",
+              "en": "place"
+            }
+          },
+          {
+            "id": 2,
+            "word": "場合",
+            "furigana": "ばあい",
+            "romanji": "baai",
+            "meanings": {
+              "id": "hal, kasus",
+              "en": "case"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "駐車場",
+            "furigana": "ちゅうしゃじょう",
+            "romanji": "chuushajou",
+            "meanings": {
+              "id": "tempat parkir",
+              "en": "parking lot"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tempat",
+    "en": "place, field"
+  }
+}

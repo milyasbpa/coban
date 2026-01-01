@@ -1,0 +1,31 @@
+{
+  "id": 116,
+  "character": "毒",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ドク",
+        "romanji": "doku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "毒薬",
+            "furigana": "どくやく",
+            "romanji": "dokuyaku",
+            "meanings": {
+              "id": "racun",
+              "en": "poison"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "racun",
+    "en": "poison"
+  }
+}

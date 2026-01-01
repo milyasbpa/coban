@@ -1,0 +1,48 @@
+{
+  "id": 54,
+  "character": "店",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みせ",
+        "romanji": "mise",
+        "examples": [
+          {
+            "id": 1,
+            "word": "店",
+            "furigana": "みせ",
+            "romanji": "mise",
+            "meanings": {
+              "id": "toko",
+              "en": "shop"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テン",
+        "romanji": "ten",
+        "examples": [
+          {
+            "id": 2,
+            "word": "喫茶店",
+            "furigana": "きっさてん",
+            "romanji": "kissaten",
+            "meanings": {
+              "id": "kafe",
+              "en": "cafe"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "toko",
+    "en": "shop, store"
+  }
+}

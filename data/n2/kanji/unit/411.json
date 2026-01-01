@@ -1,0 +1,64 @@
+{
+  "id": 411,
+  "character": "暴",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あば",
+        "romanji": "aba",
+        "examples": [
+          {
+            "id": 1,
+            "word": "暴れる",
+            "furigana": "あばれる",
+            "romanji": "abareru",
+            "meanings": {
+              "id": "mengamuk, rusuh",
+              "en": "to rampage, riot"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ボウ",
+        "romanji": "bou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "暴風",
+            "furigana": "ぼうふう",
+            "romanji": "boufuu",
+            "meanings": {
+              "id": "badai, angin ribut",
+              "en": "storm, gale"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "バク",
+        "romanji": "baku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "暴露",
+            "furigana": "ばくろ",
+            "romanji": "bakuro",
+            "meanings": {
+              "id": "penyingkapan",
+              "en": "revelation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengamuk, rusuh, badai, angin ribut, penyingkapan",
+    "en": "rampage, riot, storm, revelation"
+  }
+}

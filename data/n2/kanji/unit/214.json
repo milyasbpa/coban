@@ -1,0 +1,48 @@
+{
+  "id": 214,
+  "character": "埋",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 1,
+            "word": "埋める",
+            "furigana": "うめる",
+            "romanji": "umeru",
+            "meanings": {
+              "id": "menguburkan",
+              "en": "to bury"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "マイ",
+        "romanji": "mai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "埋葬",
+            "furigana": "まいそう",
+            "romanji": "maisou",
+            "meanings": {
+              "id": "penguburan, pemakaman",
+              "en": "burial, funeral"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menguburkan, penguburan, pemakaman",
+    "en": "to bury, burial, funeral"
+  }
+}

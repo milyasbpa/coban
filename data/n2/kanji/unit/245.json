@@ -1,0 +1,48 @@
+{
+  "id": 245,
+  "character": "豚",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ぶた",
+        "romanji": "buta",
+        "examples": [
+          {
+            "id": 1,
+            "word": "豚肉",
+            "furigana": "ぶたにく",
+            "romanji": "butaniku",
+            "meanings": {
+              "id": "daging babi",
+              "en": "pork"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トン",
+        "romanji": "ton",
+        "examples": [
+          {
+            "id": 2,
+            "word": "豚骨",
+            "furigana": "とんこつ",
+            "romanji": "tonkotsu",
+            "meanings": {
+              "id": "tulang babi",
+              "en": "pig bone"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "daging babi, tulang babi",
+    "en": "pork, pig bone"
+  }
+}

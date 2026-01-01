@@ -1,0 +1,41 @@
+{
+  "id": 122,
+  "character": "堂",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "食堂",
+            "furigana": "しょくどう",
+            "romanji": "shokudou",
+            "meanings": {
+              "id": "kantin",
+              "en": "dining hall"
+            }
+          },
+          {
+            "id": 2,
+            "word": "講堂",
+            "furigana": "こうどう",
+            "romanji": "koudou",
+            "meanings": {
+              "id": "ruang rapat",
+              "en": "auditorium"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kedinginan",
+    "en": "hall, temple"
+  }
+}

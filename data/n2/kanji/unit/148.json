@@ -1,0 +1,48 @@
+{
+  "id": 148,
+  "character": "泉",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いずみ",
+        "romanji": "izumi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "泉",
+            "furigana": "いずみ",
+            "romanji": "izumi",
+            "meanings": {
+              "id": "mata air",
+              "en": "spring, fountain"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "温泉",
+            "furigana": "おんせん",
+            "romanji": "onsen",
+            "meanings": {
+              "id": "sumber air panas",
+              "en": "hot spring"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mata air, sumber air panas",
+    "en": "spring, hot spring"
+  }
+}

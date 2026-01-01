@@ -1,0 +1,48 @@
+{
+  "id": 265,
+  "character": "残",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "のこ",
+        "romanji": "noko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "残る",
+            "furigana": "のこる",
+            "romanji": "nokoru",
+            "meanings": {
+              "id": "tertinggal",
+              "en": "to remain"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ザン",
+        "romanji": "zan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "残業",
+            "furigana": "ざんぎょう",
+            "romanji": "zangyou",
+            "meanings": {
+              "id": "lembur",
+              "en": "overtime"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tertinggal, lembur",
+    "en": "remain, overtime"
+  }
+}

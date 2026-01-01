@@ -1,0 +1,48 @@
+{
+  "id": 59,
+  "character": "坂",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さか",
+        "romanji": "saka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "坂道",
+            "furigana": "さかみち",
+            "romanji": "sakamichi",
+            "meanings": {
+              "id": "jalan tanjakan",
+              "en": "slope"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 2,
+            "word": "急坂",
+            "furigana": "きゅうはん",
+            "romanji": "kyuuhan",
+            "meanings": {
+              "id": "tanjakan curam",
+              "en": "steep hill"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jalan tanjakan, tanjakan curam",
+    "en": "slope, steep hill"
+  }
+}

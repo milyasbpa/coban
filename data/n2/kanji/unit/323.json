@@ -1,0 +1,61 @@
+{
+  "id": 323,
+  "character": "酢",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 1,
+            "word": "酢",
+            "furigana": "す",
+            "romanji": "su",
+            "meanings": {
+              "id": "cuka",
+              "en": "vinegar"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サク",
+        "romanji": "saku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "酢酸",
+            "furigana": "さくさん",
+            "romanji": "sakusan",
+            "meanings": {
+              "id": "asam asetat",
+              "en": "acetic acid"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "梅酢",
+          "furigana": "うめず",
+          "romanji": "umezu",
+          "meanings": {
+            "id": "cuka dari buah prem",
+            "en": "plum vinegar"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "cuka, cuka dari buah prem, asam asetat",
+    "en": "vinegar, plum vinegar, acetic acid"
+  }
+}

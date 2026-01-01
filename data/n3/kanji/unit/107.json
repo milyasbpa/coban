@@ -1,0 +1,48 @@
+{
+  "id": 107,
+  "character": "否",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いな",
+        "romanji": "ina",
+        "examples": [
+          {
+            "id": 1,
+            "word": "否",
+            "furigana": "いな",
+            "romanji": "ina",
+            "meanings": {
+              "id": "tidak, menolak",
+              "en": "no, refuse"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "否定",
+            "furigana": "ひてい",
+            "romanji": "hitei",
+            "meanings": {
+              "id": "penyangkalan",
+              "en": "denial"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tidak, menolak, penyangkalan",
+    "en": "no, refuse, denial"
+  }
+}

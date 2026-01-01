@@ -1,0 +1,48 @@
+{
+  "id": 35,
+  "character": "申",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もう",
+        "romanji": "mou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "申す",
+            "furigana": "もうす",
+            "romanji": "mousu",
+            "meanings": {
+              "id": "berkata (bentuk sopan)",
+              "en": "to say (humble form)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "申告",
+            "furigana": "しんこく",
+            "romanji": "shinkoku",
+            "meanings": {
+              "id": "laporan",
+              "en": "report; declaration"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berkata",
+    "en": "say"
+  }
+}

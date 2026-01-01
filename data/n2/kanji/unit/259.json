@@ -1,0 +1,48 @@
+{
+  "id": 259,
+  "character": "張",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "張る",
+            "furigana": "はる",
+            "romanji": "haru",
+            "meanings": {
+              "id": "merentangkan",
+              "en": "to stretch"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "緊張する",
+            "furigana": "きんちょうする",
+            "romanji": "kinchou suru",
+            "meanings": {
+              "id": "merasa tegang",
+              "en": "to feel tense"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "merentangkan, merasa tegang",
+    "en": "to stretch, to feel tense"
+  }
+}

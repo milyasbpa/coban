@@ -1,0 +1,47 @@
+{
+  "id": 72,
+  "character": "因",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イン",
+        "romanji": "in",
+        "examples": [
+          {
+            "id": 1,
+            "word": "因",
+            "furigana": "いん",
+            "romanji": "in",
+            "meanings": {
+              "id": "karena",
+              "en": "cause"
+            }
+          },
+          {
+            "id": 2,
+            "word": "原因",
+            "furigana": "げんいん",
+            "romanji": "gen'in",
+            "meanings": {
+              "id": "penyebab, alasan",
+              "en": "reason"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "karena",
+    "en": "cause"
+  }
+}

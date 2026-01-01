@@ -1,0 +1,58 @@
+{
+  "id": 179,
+  "character": "恋",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こい",
+        "romanji": "koi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "恋する",
+            "furigana": "こいする",
+            "romanji": "koisuru",
+            "meanings": {
+              "id": "jatuh cinta",
+              "en": "to fall in love"
+            }
+          },
+          {
+            "id": 2,
+            "word": "恋人",
+            "furigana": "こいびと",
+            "romanji": "koibito",
+            "meanings": {
+              "id": "kekasih, pacar",
+              "en": "lover, sweetheart"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レン",
+        "romanji": "ren",
+        "examples": [
+          {
+            "id": 3,
+            "word": "恋愛",
+            "furigana": "れんあい",
+            "romanji": "ren'ai",
+            "meanings": {
+              "id": "perasaan jatuh cinta",
+              "en": "romantic love"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jatuh cinta, kekasih, pacar, perasaan jatuh cinta",
+    "en": "to fall in love, lover, feeling of love"
+  }
+}

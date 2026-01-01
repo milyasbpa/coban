@@ -1,0 +1,48 @@
+{
+  "id": 446,
+  "character": "響",
+  "strokes": 20,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひび",
+        "romanji": "hibi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "響く",
+            "furigana": "ひびく",
+            "romanji": "hibiku",
+            "meanings": {
+              "id": "bergema, bergaung",
+              "en": "echo, reverberate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "影響",
+            "furigana": "えいきょう",
+            "romanji": "eikyou",
+            "meanings": {
+              "id": "pengaruh, dampak",
+              "en": "influence, impact"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bergema, bergaung, pengaruh, dampak",
+    "en": "echo, reverberate, influence, impact"
+  }
+}

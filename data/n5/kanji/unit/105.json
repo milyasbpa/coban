@@ -1,0 +1,48 @@
+{
+  "id": 105,
+  "character": "語",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "語る",
+            "furigana": "かたる",
+            "romanji": "kataru",
+            "meanings": {
+              "id": "berkata, bercerita",
+              "en": "to tell"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 2,
+            "word": "日本語",
+            "furigana": "にほんご",
+            "romanji": "nihongo",
+            "meanings": {
+              "id": "bahasa Jepang",
+              "en": "Japanese language"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bahasa",
+    "en": "language, word"
+  }
+}

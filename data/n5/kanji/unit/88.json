@@ -1,0 +1,48 @@
+{
+  "id": 88,
+  "character": "時",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とき",
+        "romanji": "toki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "時々",
+            "furigana": "ときどき",
+            "romanji": "tokidoki",
+            "meanings": {
+              "id": "kadang-kadang",
+              "en": "sometimes"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "時間",
+            "furigana": "じかん",
+            "romanji": "jikan",
+            "meanings": {
+              "id": "waktu",
+              "en": "time"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "waktu",
+    "en": "time"
+  }
+}

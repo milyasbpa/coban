@@ -1,0 +1,58 @@
+{
+  "id": 96,
+  "character": "身",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "み",
+        "romanji": "mi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "身内",
+            "furigana": "みうち",
+            "romanji": "miuchi",
+            "meanings": {
+              "id": "keluarga sendiri",
+              "en": "own family"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "自身",
+            "furigana": "じしん",
+            "romanji": "jishin",
+            "meanings": {
+              "id": "sendiri",
+              "en": "oneself"
+            }
+          },
+          {
+            "id": 3,
+            "word": "身体",
+            "furigana": "しんたい",
+            "romanji": "shintai",
+            "meanings": {
+              "id": "badan, tubuh",
+              "en": "body"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keluarga sendiri, sendiri, badan/tubuh",
+    "en": "own family, oneself, body"
+  }
+}

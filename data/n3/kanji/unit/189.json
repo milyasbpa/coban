@@ -1,0 +1,53 @@
+{
+  "id": 189,
+  "character": "保",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かかり",
+        "romanji": "kakari",
+        "examples": [
+          {
+            "id": 1,
+            "word": "保",
+            "furigana": "かかり",
+            "romanji": "kakari",
+            "meanings": {
+              "id": "tugas, urusan",
+              "en": "task, matter"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "がかり",
+        "romanji": "gakari",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "関係",
+            "furigana": "かんけい",
+            "romanji": "kankei",
+            "meanings": {
+              "id": "hubungan",
+              "en": "relation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tugas, urusan, hubungan",
+    "en": "task, matter, relation"
+  }
+}

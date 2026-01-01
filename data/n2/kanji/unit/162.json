@@ -1,0 +1,47 @@
+{
+  "id": 162,
+  "character": "封",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "フウ",
+        "romanji": "fuu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "封筒",
+            "furigana": "ふうとう",
+            "romanji": "fuutou",
+            "meanings": {
+              "id": "amplop",
+              "en": "envelope"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "封建的",
+            "furigana": "ほうけんてき",
+            "romanji": "houkenteki",
+            "meanings": {
+              "id": "feodal, konservatif",
+              "en": "feudal, conservative"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "amplop",
+    "en": "envelope"
+  }
+}

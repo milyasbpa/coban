@@ -1,0 +1,48 @@
+{
+  "id": 18,
+  "character": "幼",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おさな",
+        "romanji": "osana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "幼い",
+            "furigana": "おさない",
+            "romanji": "osanai",
+            "meanings": {
+              "id": "muda usia, bayi",
+              "en": "young, infant"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "幼稚園",
+            "furigana": "ようちえん",
+            "romanji": "youchien",
+            "meanings": {
+              "id": "taman kanak-kanak",
+              "en": "kindergarten"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "muda usia, bayi, taman kanak-kanak",
+    "en": "young, infant, kindergarten"
+  }
+}

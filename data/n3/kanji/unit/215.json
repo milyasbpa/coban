@@ -1,0 +1,79 @@
+{
+  "id": 215,
+  "character": "背",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "せ",
+        "romanji": "se",
+        "examples": [
+          {
+            "id": 1,
+            "word": "背",
+            "furigana": "せ",
+            "romanji": "se",
+            "meanings": {
+              "id": "tinggi",
+              "en": "tall"
+            }
+          },
+          {
+            "id": 2,
+            "word": "背中",
+            "furigana": "せなか",
+            "romanji": "senaka",
+            "meanings": {
+              "id": "punggung",
+              "en": "back"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "せい",
+        "romanji": "sei",
+        "examples": []
+      },
+      {
+        "furigana": "そむ",
+        "romanji": "somu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "背く",
+            "furigana": "そむく",
+            "romanji": "somuku",
+            "meanings": {
+              "id": "bertentangan",
+              "en": "to go against / to disobey"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハイ",
+        "romanji": "hai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "背景",
+            "furigana": "はいけい",
+            "romanji": "haikei",
+            "meanings": {
+              "id": "latar belakang",
+              "en": "background"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tinggi, punggung, bertentangan, latar belakang",
+    "en": "tall, back, contrary, background"
+  }
+}

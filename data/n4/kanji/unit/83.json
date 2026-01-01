@@ -1,0 +1,48 @@
+{
+  "id": 83,
+  "character": "計",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はか",
+        "romanji": "haka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "計る",
+            "furigana": "はかる",
+            "romanji": "hakaru",
+            "meanings": {
+              "id": "mengukur",
+              "en": "to measure"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "時計",
+            "furigana": "とけい",
+            "romanji": "tokei",
+            "meanings": {
+              "id": "jam (tangan/dinding)",
+              "en": "clock, watch"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengukur",
+    "en": "measure, plan"
+  }
+}

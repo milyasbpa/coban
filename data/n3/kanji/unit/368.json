@@ -1,0 +1,46 @@
+{
+  "id": 368,
+  "character": "然",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ゼン",
+        "romanji": "zen",
+        "examples": [
+          {
+            "id": 1,
+            "word": "自然",
+            "furigana": "しぜん",
+            "romanji": "shizen",
+            "meanings": {
+              "id": "alam, alamiah",
+              "en": "nature, natural"
+            }
+          },
+          {
+            "id": 2,
+            "word": "全然",
+            "furigana": "ぜんぜん",
+            "romanji": "zenzen",
+            "meanings": {
+              "id": "sama sekali (tidak)",
+              "en": "not at all"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ネン",
+        "romanji": "nen",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "alam, alamiah, sama sekali (tidak)",
+    "en": "nature, natural, not at all"
+  }
+}

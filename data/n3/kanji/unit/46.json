@@ -1,0 +1,64 @@
+{
+  "id": 46,
+  "character": "全",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すべ",
+        "romanji": "sube",
+        "examples": [
+          {
+            "id": 2,
+            "word": "全て",
+            "furigana": "すべて",
+            "romanji": "subete",
+            "meanings": {
+              "id": "semua, segalanya",
+              "en": "everything; all"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "まった",
+        "romanji": "matta",
+        "examples": [
+          {
+            "id": 1,
+            "word": "全く",
+            "furigana": "まったく",
+            "romanji": "mattaku",
+            "meanings": {
+              "id": "sama sekali",
+              "en": "completely; entirely"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゼン",
+        "romanji": "zen",
+        "examples": [
+          {
+            "id": 3,
+            "word": "全部",
+            "furigana": "ぜんぶ",
+            "romanji": "zenbu",
+            "meanings": {
+              "id": "semua, seluruh",
+              "en": "all; whole"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sama sekali",
+    "en": "all, whole"
+  }
+}

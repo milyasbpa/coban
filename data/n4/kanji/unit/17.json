@@ -1,0 +1,53 @@
+{
+  "id": 17,
+  "character": "主",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おも",
+        "romanji": "omo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "主な",
+            "furigana": "おもな",
+            "romanji": "omona",
+            "meanings": {
+              "id": "pokok, utama",
+              "en": "main"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぬし",
+        "romanji": "nushi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "主人",
+            "furigana": "しゅじん",
+            "romanji": "shujin",
+            "meanings": {
+              "id": "suami, tuan",
+              "en": "husband, master"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pokok, utama",
+    "en": "main, master"
+  }
+}

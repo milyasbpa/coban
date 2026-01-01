@@ -1,0 +1,86 @@
+{
+  "id": 133,
+  "character": "供",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "そな",
+        "romanji": "sona",
+        "examples": [
+          {
+            "id": 1,
+            "word": "供える",
+            "furigana": "そなえる",
+            "romanji": "sonaeru",
+            "meanings": {
+              "id": "menghidangkan",
+              "en": "to serve"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "とも",
+        "romanji": "tomo",
+        "examples": []
+      },
+      {
+        "furigana": "ども",
+        "romanji": "domo",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "提供",
+            "furigana": "ていきょう",
+            "romanji": "teikyou",
+            "meanings": {
+              "id": "persembahan",
+              "en": "offering"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ク",
+        "romanji": "ku",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "お供",
+          "furigana": "おとも",
+          "romanji": "otomo",
+          "meanings": {
+            "id": "peserta",
+            "en": "participant"
+          }
+        },
+        {
+          "id": 3,
+          "word": "子供",
+          "furigana": "こども",
+          "romanji": "kodomo",
+          "meanings": {
+            "id": "anak-anak",
+            "en": "children"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menghidangkan, peserta, anak-anak, persembahan",
+    "en": "serve, participant, children, offering"
+  }
+}

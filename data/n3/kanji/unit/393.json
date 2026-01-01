@@ -1,0 +1,48 @@
+{
+  "id": 393,
+  "character": "続",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つづ",
+        "romanji": "tsuzu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "続く",
+            "furigana": "つづく",
+            "romanji": "tsuzuku",
+            "meanings": {
+              "id": "bersambung",
+              "en": "to continue"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゾク",
+        "romanji": "zoku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "連続",
+            "furigana": "れんぞく",
+            "romanji": "renzoku",
+            "meanings": {
+              "id": "beruntun",
+              "en": "consecutive"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bersambung, beruntun",
+    "en": "continue, consecutive"
+  }
+}

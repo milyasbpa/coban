@@ -1,0 +1,48 @@
+{
+  "id": 71,
+  "character": "虫",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むし",
+        "romanji": "mushi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "虫",
+            "furigana": "むし",
+            "romanji": "mushi",
+            "meanings": {
+              "id": "serangga",
+              "en": "insect"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チュウ",
+        "romanji": "chuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "幼虫",
+            "furigana": "ようちゅう",
+            "romanji": "youchuu",
+            "meanings": {
+              "id": "larva",
+              "en": "larva"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "serangga",
+    "en": "insect"
+  }
+}

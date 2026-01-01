@@ -1,0 +1,74 @@
+{
+  "id": 16,
+  "character": "子",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "子",
+            "furigana": "こ",
+            "romanji": "ko",
+            "meanings": {
+              "id": "anak",
+              "en": "child"
+            }
+          },
+          {
+            "id": 2,
+            "word": "子供",
+            "furigana": "こども",
+            "romanji": "kodomo",
+            "meanings": {
+              "id": "anak-anak",
+              "en": "children"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 4,
+            "word": "子孫",
+            "furigana": "しそん",
+            "romanji": "shison",
+            "meanings": {
+              "id": "anak cucu",
+              "en": "descendants"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ス",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 3,
+            "word": "息子",
+            "furigana": "むすこ",
+            "romanji": "musuko",
+            "meanings": {
+              "id": "anak yang tersesa/kesasar",
+              "en": "son"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "anak",
+    "en": "child"
+  }
+}

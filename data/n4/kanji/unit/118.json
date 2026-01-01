@@ -1,0 +1,51 @@
+{
+  "id": 118,
+  "character": "族",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ゾク",
+        "romanji": "zoku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "家族",
+            "furigana": "かぞく",
+            "romanji": "kazoku",
+            "meanings": {
+              "id": "keluarga",
+              "en": "family"
+            }
+          },
+          {
+            "id": 2,
+            "word": "民族",
+            "furigana": "みんぞく",
+            "romanji": "minzoku",
+            "meanings": {
+              "id": "bangsa, ras",
+              "en": "ethnic group"
+            }
+          },
+          {
+            "id": 3,
+            "word": "貴族",
+            "furigana": "きぞく",
+            "romanji": "kizoku",
+            "meanings": {
+              "id": "bangsawan",
+              "en": "nobility"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keluarga",
+    "en": "tribe, family"
+  }
+}

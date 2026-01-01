@@ -1,0 +1,48 @@
+{
+  "id": 448,
+  "character": "濃",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "濃い",
+            "furigana": "こい",
+            "romanji": "koi",
+            "meanings": {
+              "id": "pekat, kental",
+              "en": "thick, dense"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ノウ",
+        "romanji": "nou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "濃度",
+            "furigana": "のうど",
+            "romanji": "noudo",
+            "meanings": {
+              "id": "kekentalan, konsentrasi",
+              "en": "concentration"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pekat, kental, kekentalan, konsentrasi",
+    "en": "thick, dense, concentration"
+  }
+}

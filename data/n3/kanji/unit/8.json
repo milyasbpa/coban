@@ -1,0 +1,64 @@
+{
+  "id": 8,
+  "character": "反",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "そ",
+        "romanji": "so",
+        "examples": [
+          {
+            "id": 1,
+            "word": "反る",
+            "furigana": "そる",
+            "romanji": "soru",
+            "meanings": {
+              "id": "melengkung, menekuk",
+              "en": "to bend, to warp, to curve"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 2,
+            "word": "反応",
+            "furigana": "はんのう",
+            "romanji": "hannou",
+            "meanings": {
+              "id": "reaksi, respon",
+              "en": "reaction"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "タン",
+        "romanji": "tan",
+        "examples": [
+          {
+            "id": 3,
+            "word": "反",
+            "furigana": "たん",
+            "romanji": "tan",
+            "meanings": {
+              "id": "satuan ukuran tanah di jepang",
+              "en": "tan (area unit in japan)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melengkung",
+    "en": "anti, opposite"
+  }
+}

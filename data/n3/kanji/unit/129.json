@@ -1,0 +1,53 @@
+{
+  "id": 129,
+  "character": "乳",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ち",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "乳首",
+            "furigana": "ちくび",
+            "romanji": "chikubi",
+            "meanings": {
+              "id": "puting susu",
+              "en": "nipple"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ちち",
+        "romanji": "chichi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ニュウ",
+        "romanji": "nyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "牛乳",
+            "furigana": "ぎゅうにゅう",
+            "romanji": "gyuunyuu",
+            "meanings": {
+              "id": "susu sapi",
+              "en": "cow's milk"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "puting susu, susu sapi",
+    "en": "nipple, cow's milk"
+  }
+}

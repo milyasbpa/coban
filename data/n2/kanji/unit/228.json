@@ -1,0 +1,64 @@
+{
+  "id": 228,
+  "character": "都",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みやこ",
+        "romanji": "miyako",
+        "examples": [
+          {
+            "id": 1,
+            "word": "都",
+            "furigana": "みやこ",
+            "romanji": "miyako",
+            "meanings": {
+              "id": "ibu kota",
+              "en": "capital"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ト",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 2,
+            "word": "都市",
+            "furigana": "とし",
+            "romanji": "toshi",
+            "meanings": {
+              "id": "kota",
+              "en": "city"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ツ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "都合",
+            "furigana": "つごう",
+            "romanji": "tsugou",
+            "meanings": {
+              "id": "kesempatan, keadaan",
+              "en": "opportunity, condition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ibu kota, kota, kesempatan, keadaan",
+    "en": "capital, city, opportunity, condition"
+  }
+}

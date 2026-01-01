@@ -1,0 +1,48 @@
+{
+  "id": 392,
+  "character": "置",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "置く",
+            "furigana": "おく",
+            "romanji": "oku",
+            "meanings": {
+              "id": "meletakkan, menaruh",
+              "en": "to put, to place"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チ",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "位置",
+            "furigana": "いち",
+            "romanji": "ichi",
+            "meanings": {
+              "id": "lokasi, tempat",
+              "en": "location"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meletakkan, menaruh, lokasi, tempat",
+    "en": "put, place, location"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 235,
+  "character": "恥",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "恥ずかしい",
+            "furigana": "はずかしい",
+            "romanji": "hazukashii",
+            "meanings": {
+              "id": "malu",
+              "en": "ashamed"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "はじ",
+        "romanji": "haji",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チ",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "無恥",
+            "furigana": "むち",
+            "romanji": "muchi",
+            "meanings": {
+              "id": "tidak tahu malu",
+              "en": "shameless"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "malu, tidak tahu malu",
+    "en": "shame, shameless"
+  }
+}

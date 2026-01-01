@@ -1,0 +1,48 @@
+{
+  "id": 369,
+  "character": "悲",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かな",
+        "romanji": "kana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "悲しい",
+            "furigana": "かなしい",
+            "romanji": "kanashii",
+            "meanings": {
+              "id": "sedih, pilu",
+              "en": "sad"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "悲観",
+            "furigana": "ひかん",
+            "romanji": "hikan",
+            "meanings": {
+              "id": "sikap pesimis",
+              "en": "pessimistic"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sedih, pilu, sikap pesimis",
+    "en": "sad, pessimistic"
+  }
+}

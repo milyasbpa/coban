@@ -1,0 +1,44 @@
+{
+  "id": 107,
+  "character": "屈",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "クツ",
+        "romanji": "kutsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "退屈",
+            "furigana": "たいくつ",
+            "romanji": "taikutsu",
+            "meanings": {
+              "id": "membosankan",
+              "en": "boring"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "屈伏",
+          "furigana": "くっぷく",
+          "romanji": "kuppuku",
+          "meanings": {
+            "id": "pengakuan kalah",
+            "en": "admission of defeat"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "membosankan, pengakuan kalah",
+    "en": "boring, admission of defeat"
+  }
+}

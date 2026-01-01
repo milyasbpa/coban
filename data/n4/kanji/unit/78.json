@@ -1,0 +1,51 @@
+{
+  "id": 78,
+  "character": "室",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "シツ",
+        "romanji": "shitsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "教室",
+            "furigana": "きょうしつ",
+            "romanji": "kyoushitsu",
+            "meanings": {
+              "id": "ruang kelas",
+              "en": "classroom"
+            }
+          },
+          {
+            "id": 2,
+            "word": "研究室",
+            "furigana": "けんきゅうしつ",
+            "romanji": "kenkyuushitsu",
+            "meanings": {
+              "id": "ruang penelitian",
+              "en": "research room"
+            }
+          },
+          {
+            "id": 3,
+            "word": "室内",
+            "furigana": "しつない",
+            "romanji": "shitsunai",
+            "meanings": {
+              "id": "dalam ruangan",
+              "en": "indoor"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ruang kelas",
+    "en": "room"
+  }
+}

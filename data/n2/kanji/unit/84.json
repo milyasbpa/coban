@@ -1,0 +1,48 @@
+{
+  "id": 84,
+  "character": "宝",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たから",
+        "romanji": "takara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "宝物",
+            "furigana": "たからもの",
+            "romanji": "takaramono",
+            "meanings": {
+              "id": "barang berharga",
+              "en": "treasure"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "宝石",
+            "furigana": "ほうせき",
+            "romanji": "houseki",
+            "meanings": {
+              "id": "batu permata",
+              "en": "jewel"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "barang berharga, batu permata",
+    "en": "treasure, jewel"
+  }
+}

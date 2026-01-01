@@ -1,0 +1,48 @@
+{
+  "id": 295,
+  "character": "窓",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まど",
+        "romanji": "mado",
+        "examples": [
+          {
+            "id": 1,
+            "word": "窓口",
+            "furigana": "まどぐち",
+            "romanji": "madoguchi",
+            "meanings": {
+              "id": "loket",
+              "en": "window, counter"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "同窓会",
+            "furigana": "どうそうかい",
+            "romanji": "dousoukai",
+            "meanings": {
+              "id": "reuni alumni",
+              "en": "alumni reunion"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "loket, reuni alumni",
+    "en": "window, alumni reunion"
+  }
+}

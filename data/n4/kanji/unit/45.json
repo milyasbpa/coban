@@ -1,0 +1,48 @@
+{
+  "id": 45,
+  "character": "町",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まち",
+        "romanji": "machi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "町",
+            "furigana": "まち",
+            "romanji": "machi",
+            "meanings": {
+              "id": "kota",
+              "en": "town"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "町長",
+            "furigana": "ちょうちょう",
+            "romanji": "chouchou",
+            "meanings": {
+              "id": "walikota",
+              "en": "mayor"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kota",
+    "en": "town"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 345,
+  "character": "飼",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "飼う",
+            "furigana": "かう",
+            "romanji": "kau",
+            "meanings": {
+              "id": "memelihara",
+              "en": "to keep"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "飼育",
+            "furigana": "しいく",
+            "romanji": "shiiku",
+            "meanings": {
+              "id": "pemeliharaan",
+              "en": "breeding"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memelihara, pemeliharaan",
+    "en": "to keep, breeding"
+  }
+}

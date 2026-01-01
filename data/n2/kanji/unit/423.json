@@ -1,0 +1,48 @@
+{
+  "id": 423,
+  "character": "賢",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かしこ",
+        "romanji": "kashiko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "賢い",
+            "furigana": "かしこい",
+            "romanji": "kashikoi",
+            "meanings": {
+              "id": "cerdik, pandai",
+              "en": "wise, clever"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "賢明",
+            "furigana": "けんめい",
+            "romanji": "kenmei",
+            "meanings": {
+              "id": "bijaksana, arif",
+              "en": "intelligent, wise"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cerdik, pandai, bijaksana, arif",
+    "en": "wise, clever, intelligent"
+  }
+}

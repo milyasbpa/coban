@@ -1,0 +1,48 @@
+{
+  "id": 203,
+  "character": "耕",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たがや",
+        "romanji": "tagaya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "耕す",
+            "furigana": "たがやす",
+            "romanji": "tagayasu",
+            "meanings": {
+              "id": "membajak tanah",
+              "en": "to plow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "耕作",
+            "furigana": "こうさく",
+            "romanji": "kousaku",
+            "meanings": {
+              "id": "pembajakan tanah",
+              "en": "plowing"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membajak tanah, pembajakan tanah",
+    "en": "to plow, plowing"
+  }
+}

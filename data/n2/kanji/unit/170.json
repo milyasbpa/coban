@@ -1,0 +1,48 @@
+{
+  "id": 170,
+  "character": "姿",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すがた",
+        "romanji": "sugata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "姿",
+            "furigana": "すがた",
+            "romanji": "sugata",
+            "meanings": {
+              "id": "sosok, perawakan",
+              "en": "figure, appearance"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "姿勢",
+            "furigana": "しせい",
+            "romanji": "shisei",
+            "meanings": {
+              "id": "postur, sikap",
+              "en": "posture, attitude"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sosok, perawakan, postur, sikap",
+    "en": "figure, appearance, posture, attitude"
+  }
+}

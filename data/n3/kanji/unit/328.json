@@ -1,0 +1,48 @@
+{
+  "id": 328,
+  "character": "喜",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よろこ",
+        "romanji": "yoroko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "喜ぶ",
+            "furigana": "よろこぶ",
+            "romanji": "yorokobu",
+            "meanings": {
+              "id": "gembira, senang",
+              "en": "happy"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "喜劇",
+            "furigana": "きげき",
+            "romanji": "kigeki",
+            "meanings": {
+              "id": "komedi",
+              "en": "comedy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gembira, senang, komedi",
+    "en": "happy, comedy"
+  }
+}

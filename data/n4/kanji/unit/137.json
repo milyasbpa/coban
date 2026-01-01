@@ -1,0 +1,90 @@
+{
+  "id": 137,
+  "character": "楽",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たの",
+        "romanji": "tano",
+        "examples": [
+          {
+            "id": 1,
+            "word": "楽しい",
+            "furigana": "たのしい",
+            "romanji": "tanoshii",
+            "meanings": {
+              "id": "menyenangkan",
+              "en": "enjoyable"
+            }
+          },
+          {
+            "id": 2,
+            "word": "楽しむ",
+            "furigana": "たのしむ",
+            "romanji": "tanoshimu",
+            "meanings": {
+              "id": "menikmati",
+              "en": "to enjoy"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガク",
+        "romanji": "gaku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "音楽",
+            "furigana": "おんがく",
+            "romanji": "ongaku",
+            "meanings": {
+              "id": "musik",
+              "en": "music"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ラク",
+        "romanji": "raku",
+        "examples": [
+          {
+            "id": 4,
+            "word": "楽",
+            "furigana": "らく",
+            "romanji": "raku",
+            "meanings": {
+              "id": "nyaman, mudah",
+              "en": "easy"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ラッ",
+        "romanji": "rat",
+        "examples": [
+          {
+            "id": 5,
+            "word": "楽観的",
+            "furigana": "らっかんてき",
+            "romanji": "rakkanteki",
+            "meanings": {
+              "id": "optimisme",
+              "en": "optimistic"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyenangkan",
+    "en": "enjoyable, music"
+  }
+}

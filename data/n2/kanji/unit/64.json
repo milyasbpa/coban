@@ -1,0 +1,44 @@
+{
+  "id": 64,
+  "character": "沢",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "タク",
+        "romanji": "taku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "沢山",
+            "furigana": "たくさん",
+            "romanji": "takusan",
+            "meanings": {
+              "id": "banyak",
+              "en": "many"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "沢水",
+          "furigana": "さわみず",
+          "romanji": "sawamizu",
+          "meanings": {
+            "id": "air rawa, air alami dari lembah",
+            "en": "swamp water, natural valley water"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "air rawa, banyak",
+    "en": "marsh water, many"
+  }
+}

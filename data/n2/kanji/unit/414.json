@@ -1,0 +1,48 @@
+{
+  "id": 414,
+  "character": "壊",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こわ",
+        "romanji": "kowa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "壊す",
+            "furigana": "こわす",
+            "romanji": "kowasu",
+            "meanings": {
+              "id": "merusak",
+              "en": "to break"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "破壊",
+            "furigana": "はかい",
+            "romanji": "hakai",
+            "meanings": {
+              "id": "kerusakan, perusakan",
+              "en": "damage, destruction"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "merusak, kerusakan, perusakan",
+    "en": "to break, damage, destruction"
+  }
+}

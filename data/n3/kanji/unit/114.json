@@ -1,0 +1,53 @@
+{
+  "id": 114,
+  "character": "更",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さら",
+        "romanji": "sara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "更に",
+            "furigana": "さらに",
+            "romanji": "sarani",
+            "meanings": {
+              "id": "selanjutnya",
+              "en": "next"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ふ",
+        "romanji": "fu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "更改",
+            "furigana": "こうかい",
+            "romanji": "koukai",
+            "meanings": {
+              "id": "merubah",
+              "en": "change"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "selanjutnya, bertambah, larut, merubah",
+    "en": "next, increase, late, change"
+  }
+}

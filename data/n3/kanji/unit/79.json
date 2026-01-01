@@ -1,0 +1,64 @@
+{
+  "id": 79,
+  "character": "折",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "折り紙",
+            "furigana": "おりがみ",
+            "romanji": "origami",
+            "meanings": {
+              "id": "kertas lipat",
+              "en": "origami"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "おり",
+        "romanji": "ori",
+        "examples": [
+          {
+            "id": 1,
+            "word": "折り紙",
+            "furigana": "おりがみ",
+            "romanji": "origami",
+            "meanings": {
+              "id": "kertas lipat",
+              "en": "origami"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セツ",
+        "romanji": "setsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "右折",
+            "furigana": "うせつ",
+            "romanji": "usetsu",
+            "meanings": {
+              "id": "belok kanan",
+              "en": "turn right"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lipat, belok",
+    "en": "fold, turn"
+  }
+}

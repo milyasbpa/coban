@@ -1,0 +1,47 @@
+{
+  "id": 424,
+  "character": "縦",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たて",
+        "romanji": "tate",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "縦線",
+            "furigana": "じゅうせん",
+            "romanji": "juusen",
+            "meanings": {
+              "id": "garis tegak, vertikal",
+              "en": "vertical line"
+            }
+          },
+          {
+            "id": 2,
+            "word": "縦覧",
+            "furigana": "じゅうらん",
+            "romanji": "juuran",
+            "meanings": {
+              "id": "bebas menyaksikan",
+              "en": "to view freely"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "garis tegak, vertikal, bebas menyaksikan",
+    "en": "vertical line, to view freely"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 269,
+  "character": "捨",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 1,
+            "word": "捨てる",
+            "furigana": "すてる",
+            "romanji": "suteru",
+            "meanings": {
+              "id": "membuang",
+              "en": "to throw away"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャ",
+        "romanji": "sha",
+        "examples": [
+          {
+            "id": 2,
+            "word": "四捨五入",
+            "furigana": "ししゃごにゅう",
+            "romanji": "shishagonyuu",
+            "meanings": {
+              "id": "pembulatan angka ke atas",
+              "en": "rounding up"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membuang, pembulatan angka ke atas",
+    "en": "throw away, rounding up"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 428,
+  "character": "謝",
+  "strokes": 17,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あやま",
+        "romanji": "ayama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "謝る",
+            "furigana": "あやまる",
+            "romanji": "ayamaru",
+            "meanings": {
+              "id": "meminta maaf",
+              "en": "to apologize"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャ",
+        "romanji": "sha",
+        "examples": [
+          {
+            "id": 2,
+            "word": "謝罪する",
+            "furigana": "しゃざいする",
+            "romanji": "shazai suru",
+            "meanings": {
+              "id": "meminta maaf",
+              "en": "to apologize"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meminta maaf",
+    "en": "to apologize"
+  }
+}

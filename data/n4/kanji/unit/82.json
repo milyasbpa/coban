@@ -1,0 +1,79 @@
+{
+  "id": 82,
+  "character": "音",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おと",
+        "romanji": "oto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "音",
+            "furigana": "おと",
+            "romanji": "oto",
+            "meanings": {
+              "id": "bunyi",
+              "en": "sound"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ね",
+        "romanji": "ne",
+        "examples": [
+          {
+            "id": 2,
+            "word": "音色",
+            "furigana": "ねいろ",
+            "romanji": "neiro",
+            "meanings": {
+              "id": "nada",
+              "en": "tone"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オン",
+        "romanji": "on",
+        "examples": [
+          {
+            "id": 3,
+            "word": "音楽",
+            "furigana": "おんがく",
+            "romanji": "ongaku",
+            "meanings": {
+              "id": "musik",
+              "en": "music"
+            }
+          },
+          {
+            "id": 4,
+            "word": "発音",
+            "furigana": "はつおん",
+            "romanji": "hatsuon",
+            "meanings": {
+              "id": "pelafalan",
+              "en": "pronunciation"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "イン",
+        "romanji": "in",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bunyi",
+    "en": "sound"
+  }
+}

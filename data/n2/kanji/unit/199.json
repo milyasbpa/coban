@@ -1,0 +1,31 @@
+{
+  "id": 199,
+  "character": "症",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "症状",
+            "furigana": "しょうじょう",
+            "romanji": "shoujou",
+            "meanings": {
+              "id": "gejala penyakit",
+              "en": "symptom"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gejala penyakit",
+    "en": "symptom, disease"
+  }
+}

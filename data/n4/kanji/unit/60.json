@@ -1,0 +1,82 @@
+{
+  "id": 60,
+  "character": "所",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ところ",
+        "romanji": "tokoro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "所",
+            "furigana": "ところ",
+            "romanji": "tokoro",
+            "meanings": {
+              "id": "tempat",
+              "en": "place"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "どころ",
+        "romanji": "dokoro",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショ",
+        "romanji": "sho",
+        "examples": [
+          {
+            "id": 3,
+            "word": "所有権",
+            "furigana": "しょゆうけん",
+            "romanji": "shoyuuken",
+            "meanings": {
+              "id": "hak kepemilikan",
+              "en": "ownership"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョ",
+        "romanji": "jo",
+        "examples": [
+          {
+            "id": 4,
+            "word": "近所",
+            "furigana": "きんじょ",
+            "romanji": "kinjo",
+            "meanings": {
+              "id": "tetangga, berdekat",
+              "en": "neighborhood"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "台所",
+          "furigana": "だいどころ",
+          "romanji": "daidokoro",
+          "meanings": {
+            "id": "dapur",
+            "en": "kitchen"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tempat",
+    "en": "place"
+  }
+}

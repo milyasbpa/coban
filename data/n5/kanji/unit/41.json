@@ -1,0 +1,48 @@
+{
+  "id": 41,
+  "character": "左",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひだり",
+        "romanji": "hidari",
+        "examples": [
+          {
+            "id": 1,
+            "word": "左側",
+            "furigana": "ひだりがわ",
+            "romanji": "hidarigawa",
+            "meanings": {
+              "id": "sebelah kiri",
+              "en": "left side"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "左折",
+            "furigana": "させつ",
+            "romanji": "sasetsu",
+            "meanings": {
+              "id": "belok kiri",
+              "en": "left turn"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kiri",
+    "en": "left"
+  }
+}

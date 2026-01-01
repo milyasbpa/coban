@@ -1,0 +1,48 @@
+{
+  "id": 210,
+  "character": "迷",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まよ",
+        "romanji": "mayo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "迷う",
+            "furigana": "まよう",
+            "romanji": "mayou",
+            "meanings": {
+              "id": "bingung",
+              "en": "confused"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "メイ",
+        "romanji": "mei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "迷信",
+            "furigana": "めいしん",
+            "romanji": "meishin",
+            "meanings": {
+              "id": "takhayul",
+              "en": "superstition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bingung, takhayul",
+    "en": "confused, superstition"
+  }
+}

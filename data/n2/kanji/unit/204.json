@@ -1,0 +1,48 @@
+{
+  "id": 204,
+  "character": "挙",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "挙げる",
+            "furigana": "あげる",
+            "romanji": "ageru",
+            "meanings": {
+              "id": "mengadakan",
+              "en": "to hold, to raise"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョ",
+        "romanji": "kyo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "選挙",
+            "furigana": "せんきょ",
+            "romanji": "senkyo",
+            "meanings": {
+              "id": "pemilihan umum",
+              "en": "election"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengadakan, pemilihan umum",
+    "en": "to hold, election"
+  }
+}

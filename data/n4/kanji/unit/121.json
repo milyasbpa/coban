@@ -1,0 +1,84 @@
+{
+  "id": 121,
+  "character": "悪",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わる",
+        "romanji": "waru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "悪い",
+            "furigana": "わるい",
+            "romanji": "warui",
+            "meanings": {
+              "id": "buruk, jelek",
+              "en": "bad"
+            }
+          },
+          {
+            "id": 2,
+            "word": "悪気",
+            "furigana": "わるぎ",
+            "romanji": "warugi",
+            "meanings": {
+              "id": "maksud jahat",
+              "en": "ill will"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "アク",
+        "romanji": "aku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "悪夢",
+            "furigana": "あくむ",
+            "romanji": "akumu",
+            "meanings": {
+              "id": "mimpi buruk",
+              "en": "nightmare"
+            }
+          },
+          {
+            "id": 4,
+            "word": "悪楽",
+            "furigana": "おらく",
+            "romanji": "oraku",
+            "meanings": {
+              "id": "kedinginan",
+              "en": "cold"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "オ",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 4,
+            "word": "悪楽",
+            "furigana": "おらく",
+            "romanji": "oraku",
+            "meanings": {
+              "id": "kedinginan",
+              "en": "cold"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "buruk, jelek",
+    "en": "bad, evil"
+  }
+}

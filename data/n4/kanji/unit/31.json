@@ -1,0 +1,48 @@
+{
+  "id": 31,
+  "character": "多",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おお",
+        "romanji": "oo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "多い",
+            "furigana": "おおい",
+            "romanji": "ooi",
+            "meanings": {
+              "id": "banyak",
+              "en": "many"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タ",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 2,
+            "word": "多分",
+            "furigana": "たぶん",
+            "romanji": "tabun",
+            "meanings": {
+              "id": "sedikit banyak",
+              "en": "probably"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "banyak",
+    "en": "many, much"
+  }
+}

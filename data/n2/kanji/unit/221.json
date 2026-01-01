@@ -1,0 +1,64 @@
+{
+  "id": 221,
+  "character": "著",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あらわ",
+        "romanji": "arawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "著す",
+            "furigana": "あらわす",
+            "romanji": "arawasu",
+            "meanings": {
+              "id": "mengarang, menerbitkan",
+              "en": "to write, to publish"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "いちじる",
+        "romanji": "ichijiru",
+        "examples": [
+          {
+            "id": 2,
+            "word": "著しい",
+            "furigana": "いちじるしい",
+            "romanji": "ichijirushii",
+            "meanings": {
+              "id": "hebat sekali",
+              "en": "remarkable"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョ",
+        "romanji": "cho",
+        "examples": [
+          {
+            "id": 3,
+            "word": "著者",
+            "furigana": "ちょしゃ",
+            "romanji": "chosha",
+            "meanings": {
+              "id": "pengarang, penulis",
+              "en": "author, writer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengarang, menerbitkan, hebat sekali, pengarang, penulis",
+    "en": "to write, to publish, remarkable, author"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 274,
+  "character": "猫",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ねこ",
+        "romanji": "neko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "猫",
+            "furigana": "ねこ",
+            "romanji": "neko",
+            "meanings": {
+              "id": "kucing",
+              "en": "cat"
+            }
+          },
+          {
+            "id": 2,
+            "word": "猫額",
+            "furigana": "ねこびたい",
+            "romanji": "nekobitai",
+            "meanings": {
+              "id": "dahi kucing",
+              "en": "cat's forehead"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ビョウ",
+        "romanji": "byou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kucing, dahi kucing",
+    "en": "cat, cat's forehead"
+  }
+}

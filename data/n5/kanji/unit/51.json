@@ -1,0 +1,75 @@
+{
+  "id": 51,
+  "character": "百",
+  "strokes": 6,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ヒャク",
+        "romanji": "hyaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "百",
+            "furigana": "ひゃく",
+            "romanji": "hyaku",
+            "meanings": {
+              "id": "seratus",
+              "en": "hundred"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ヒャッ",
+        "romanji": "hyat",
+        "examples": []
+      },
+      {
+        "furigana": "ビャク",
+        "romanji": "byaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "三百",
+            "furigana": "さんびゃく",
+            "romanji": "sanbyaku",
+            "meanings": {
+              "id": "seratus batang",
+              "en": "three hundred"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "六百",
+          "furigana": "ろっぴゃく",
+          "romanji": "roppyaku",
+          "meanings": {
+            "id": "tiga ratus",
+            "en": "six hundred"
+          }
+        },
+        {
+          "id": 4,
+          "word": "八百",
+          "furigana": "はっぴゃく",
+          "romanji": "happyaku",
+          "meanings": {
+            "id": "enam ratus",
+            "en": "eight hundred"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "seratus",
+    "en": "hundred"
+  }
+}

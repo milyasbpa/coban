@@ -1,0 +1,64 @@
+{
+  "id": 23,
+  "character": "正",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ただ",
+        "romanji": "tada",
+        "examples": [
+          {
+            "id": 1,
+            "word": "正しい",
+            "furigana": "ただしい",
+            "romanji": "tadashii",
+            "meanings": {
+              "id": "betul, benar",
+              "en": "correct"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "正確",
+            "furigana": "せいかく",
+            "romanji": "seikaku",
+            "meanings": {
+              "id": "tepat",
+              "en": "accurate"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "正直",
+            "furigana": "しょうじき",
+            "romanji": "shoujiki",
+            "meanings": {
+              "id": "jujur",
+              "en": "honest"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "betul, benar",
+    "en": "correct, right"
+  }
+}

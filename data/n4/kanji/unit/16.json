@@ -1,0 +1,81 @@
+{
+  "id": 16,
+  "character": "立",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 1,
+            "word": "立つ",
+            "furigana": "たつ",
+            "romanji": "tatsu",
+            "meanings": {
+              "id": "berdiri",
+              "en": "to stand"
+            }
+          },
+          {
+            "id": 2,
+            "word": "立場",
+            "furigana": "たちば",
+            "romanji": "tachiba",
+            "meanings": {
+              "id": "posisi",
+              "en": "position"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "たち",
+        "romanji": "tachi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "立場",
+            "furigana": "たちば",
+            "romanji": "tachiba",
+            "meanings": {
+              "id": "posisi",
+              "en": "position"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リツ",
+        "romanji": "ritsu",
+        "examples": []
+      },
+      {
+        "furigana": "リュウ",
+        "romanji": "ryuu",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "立派",
+          "furigana": "りっぱ",
+          "romanji": "rippa",
+          "meanings": {
+            "id": "hebat, megah",
+            "en": "splendid"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "berdiri",
+    "en": "stand"
+  }
+}

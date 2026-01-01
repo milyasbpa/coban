@@ -1,0 +1,48 @@
+{
+  "id": 278,
+  "character": "筒",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つつ",
+        "romanji": "tsutsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "筒",
+            "furigana": "つつ",
+            "romanji": "tsutsu",
+            "meanings": {
+              "id": "pipa, tabung",
+              "en": "pipe, tube, cylinder"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "水筒",
+            "furigana": "すいとう",
+            "romanji": "suitou",
+            "meanings": {
+              "id": "termos, botol air",
+              "en": "thermos, water bottle"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pipa, tabung, termos, botol air",
+    "en": "pipe, tube, thermos, water bottle"
+  }
+}

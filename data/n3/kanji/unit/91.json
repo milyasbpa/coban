@@ -1,0 +1,48 @@
+{
+  "id": 91,
+  "character": "戻",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もど",
+        "romanji": "modo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "戻る",
+            "furigana": "もどる",
+            "romanji": "modoru",
+            "meanings": {
+              "id": "kembali",
+              "en": "to return"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レイ",
+        "romanji": "rei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "戻道",
+            "furigana": "れいどう",
+            "romanji": "reidou",
+            "meanings": {
+              "id": "tidak logis",
+              "en": "illogical"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kembali, tidak logis",
+    "en": "return, illogical"
+  }
+}

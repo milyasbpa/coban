@@ -1,0 +1,53 @@
+{
+  "id": 358,
+  "character": "遅",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おそ",
+        "romanji": "oso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "遅い",
+            "furigana": "おそい",
+            "romanji": "osoi",
+            "meanings": {
+              "id": "lambat, lamban",
+              "en": "slow"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "おく",
+        "romanji": "oku",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チ",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "遅延",
+            "furigana": "ちえん",
+            "romanji": "chien",
+            "meanings": {
+              "id": "kelambatan",
+              "en": "delay"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lambat, lamban, kelambatan",
+    "en": "slow, delay"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": 59,
+  "character": "有",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "有る",
+            "furigana": "ある",
+            "romanji": "aru",
+            "meanings": {
+              "id": "ada",
+              "en": "to exist"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ユウ",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "有料",
+            "furigana": "ゆうりょう",
+            "romanji": "yuuryou",
+            "meanings": {
+              "id": "dikenakan biaya",
+              "en": "fee required"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ウ",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 2,
+            "word": "有料",
+            "furigana": "ゆうりょう",
+            "romanji": "yuuryou",
+            "meanings": {
+              "id": "dikenakan biaya",
+              "en": "fee required"
+            }
+          },
+          {
+            "id": 3,
+            "word": "有無",
+            "furigana": "うむ",
+            "romanji": "umu",
+            "meanings": {
+              "id": "ada atau tidak",
+              "en": "existence or nonexistence"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ada",
+    "en": "exist, have"
+  }
+}

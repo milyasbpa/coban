@@ -1,0 +1,41 @@
+{
+  "id": 151,
+  "character": "洞",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "洞窟",
+            "furigana": "どうくつ",
+            "romanji": "doukutsu",
+            "meanings": {
+              "id": "goa, lubang",
+              "en": "cave, cavern"
+            }
+          },
+          {
+            "id": 2,
+            "word": "洞察",
+            "furigana": "どうさつ",
+            "romanji": "dousatsu",
+            "meanings": {
+              "id": "pemahaman",
+              "en": "insight, understanding"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "goa, lubang, pemahaman",
+    "en": "cave, hole, understanding"
+  }
+}

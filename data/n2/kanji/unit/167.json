@@ -1,0 +1,48 @@
+{
+  "id": 167,
+  "character": "契",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ちぎ",
+        "romanji": "chigi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "契る",
+            "furigana": "ちぎる",
+            "romanji": "chigiru",
+            "meanings": {
+              "id": "bersumpah, berjanji",
+              "en": "to vow, to promise"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "契約書",
+            "furigana": "けいやくしょ",
+            "romanji": "keiyakusho",
+            "meanings": {
+              "id": "surat kontrak",
+              "en": "contract document"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bersumpah, berjanji, surat kontrak",
+    "en": "to vow, to promise, contract"
+  }
+}

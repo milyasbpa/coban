@@ -1,0 +1,64 @@
+{
+  "id": 153,
+  "character": "染",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "そ",
+        "romanji": "so",
+        "examples": [
+          {
+            "id": 1,
+            "word": "染める",
+            "furigana": "そめる",
+            "romanji": "someru",
+            "meanings": {
+              "id": "menyepuh",
+              "en": "to dye"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "し",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "染み",
+            "furigana": "しみ",
+            "romanji": "shimi",
+            "meanings": {
+              "id": "noda",
+              "en": "stain"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 3,
+            "word": "汚染",
+            "furigana": "おせん",
+            "romanji": "osen",
+            "meanings": {
+              "id": "polusi",
+              "en": "pollution"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyepuh, noda, polusi",
+    "en": "to dye, stain, pollution"
+  }
+}

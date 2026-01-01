@@ -1,0 +1,47 @@
+{
+  "id": 361,
+  "character": "跡",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あと",
+        "romanji": "ato",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "足跡",
+            "furigana": "そくせき",
+            "romanji": "sokuseki",
+            "meanings": {
+              "id": "jejak kaki",
+              "en": "footprint"
+            }
+          },
+          {
+            "id": 2,
+            "word": "遺跡",
+            "furigana": "いせき",
+            "romanji": "iseki",
+            "meanings": {
+              "id": "peninggalan bersejarah",
+              "en": "historic remains"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jejak kaki, peninggalan bersejarah",
+    "en": "footprint, historic remains"
+  }
+}

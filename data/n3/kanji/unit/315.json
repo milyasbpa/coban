@@ -1,0 +1,55 @@
+{
+  "id": 315,
+  "character": "替",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": []
+      },
+      {
+        "furigana": "が",
+        "romanji": "ga",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "交替",
+            "furigana": "こうたい",
+            "romanji": "koutai",
+            "meanings": {
+              "id": "pergantian, giliran",
+              "en": "replacement, turn"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "着替え",
+          "furigana": "きがえ",
+          "romanji": "kigae",
+          "meanings": {
+            "id": "pakaian ganti",
+            "en": "change clothes"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "pakaian ganti, pergantian, giliran",
+    "en": "change clothes, replacement, turn"
+  }
+}

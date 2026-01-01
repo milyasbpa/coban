@@ -1,0 +1,48 @@
+{
+  "id": 417,
+  "character": "燃",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "も",
+        "romanji": "mo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "燃える",
+            "furigana": "もえる",
+            "romanji": "moeru",
+            "meanings": {
+              "id": "terbakar",
+              "en": "to burn"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ネン",
+        "romanji": "nen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "燃料",
+            "furigana": "ねんりょう",
+            "romanji": "nenryou",
+            "meanings": {
+              "id": "bahan bakar",
+              "en": "fuel"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "terbakar, bahan bakar",
+    "en": "burn, fuel"
+  }
+}

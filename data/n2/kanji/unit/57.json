@@ -1,0 +1,92 @@
+{
+  "id": 57,
+  "character": "声",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こえ",
+        "romanji": "koe",
+        "examples": [
+          {
+            "id": 1,
+            "word": "声",
+            "furigana": "こえ",
+            "romanji": "koe",
+            "meanings": {
+              "id": "suara",
+              "en": "voice"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こわ",
+        "romanji": "kowa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 3,
+            "word": "音声",
+            "furigana": "おんせい",
+            "romanji": "onsei",
+            "meanings": {
+              "id": "warna suara",
+              "en": "tone"
+            }
+          },
+          {
+            "id": 4,
+            "word": "声帯",
+            "furigana": "せいたい",
+            "romanji": "seitai",
+            "meanings": {
+              "id": "pita suara",
+              "en": "vocal cord"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 5,
+            "word": "大音声",
+            "furigana": "だいおんじょう",
+            "romanji": "daionjou",
+            "meanings": {
+              "id": "suara menggelegar",
+              "en": "booming voice"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "歌声",
+          "furigana": "うたごえ",
+          "romanji": "utagoe",
+          "meanings": {
+            "id": "suara nyanyian",
+            "en": "singing voice"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "suara, suara nyanyian, warna suara, pita suara, suara menggelegar",
+    "en": "voice, singing voice, tone, vocal cord, booming voice"
+  }
+}

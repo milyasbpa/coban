@@ -1,0 +1,80 @@
+{
+  "id": 67,
+  "character": "来",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "く",
+        "romanji": "ku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "来る",
+            "furigana": "くる",
+            "romanji": "kuru",
+            "meanings": {
+              "id": "datang",
+              "en": "to come"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "来ない",
+            "furigana": "こない",
+            "romanji": "konai",
+            "meanings": {
+              "id": "tidak datang",
+              "en": "not come"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "きた",
+        "romanji": "kita",
+        "examples": [
+          {
+            "id": 3,
+            "word": "来る",
+            "furigana": "きたる",
+            "romanji": "kitaru",
+            "meanings": {
+              "id": "yang akan datang",
+              "en": "coming"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ライ",
+        "romanji": "rai",
+        "examples": [
+          {
+            "id": 4,
+            "word": "来年",
+            "furigana": "らいねん",
+            "romanji": "rainen",
+            "meanings": {
+              "id": "tahun depan",
+              "en": "next year"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "datang",
+    "en": "come"
+  }
+}

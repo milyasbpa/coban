@@ -1,0 +1,48 @@
+{
+  "id": 115,
+  "character": "周",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まわ",
+        "romanji": "mawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "周り",
+            "furigana": "まわり",
+            "romanji": "mawari",
+            "meanings": {
+              "id": "keliling, putaran",
+              "en": "circumference, rotation"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "周囲",
+            "furigana": "しゅうい",
+            "romanji": "shuui",
+            "meanings": {
+              "id": "lingkaran, lingkungan",
+              "en": "circle, environment"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keliling, putaran, lingkaran, lingkungan",
+    "en": "circumference, rotation, circle, environment"
+  }
+}

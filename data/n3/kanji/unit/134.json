@@ -1,0 +1,47 @@
+{
+  "id": 134,
+  "character": "例",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たと",
+        "romanji": "tato",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レイ",
+        "romanji": "rei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "例",
+            "furigana": "れい",
+            "romanji": "rei",
+            "meanings": {
+              "id": "contoh",
+              "en": "example"
+            }
+          },
+          {
+            "id": 2,
+            "word": "例文",
+            "furigana": "れいぶん",
+            "romanji": "reibun",
+            "meanings": {
+              "id": "contoh kalimat",
+              "en": "sentence example"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "contoh, contoh kalimat",
+    "en": "example, sentence example"
+  }
+}

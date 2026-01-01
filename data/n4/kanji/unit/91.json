@@ -1,0 +1,58 @@
+{
+  "id": 91,
+  "character": "度",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たび",
+        "romanji": "tabi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "度々",
+            "furigana": "たびたび",
+            "romanji": "tabitabi",
+            "meanings": {
+              "id": "sering kali",
+              "en": "often"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ド",
+        "romanji": "do",
+        "examples": [
+          {
+            "id": 2,
+            "word": "温度",
+            "furigana": "おんど",
+            "romanji": "ondo",
+            "meanings": {
+              "id": "suhu, temperatur",
+              "en": "temperature"
+            }
+          },
+          {
+            "id": 3,
+            "word": "態度",
+            "furigana": "たいど",
+            "romanji": "taido",
+            "meanings": {
+              "id": "sikap",
+              "en": "attitude"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sering kali",
+    "en": "degree, times"
+  }
+}

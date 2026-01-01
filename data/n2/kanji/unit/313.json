@@ -1,0 +1,47 @@
+{
+  "id": 313,
+  "character": "象",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ゾウ",
+        "romanji": "zou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "象",
+            "furigana": "ぞう",
+            "romanji": "zou",
+            "meanings": {
+              "id": "gajah",
+              "en": "elephant"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "象徴",
+            "furigana": "しょうちょう",
+            "romanji": "shouchou",
+            "meanings": {
+              "id": "simbol, lambang",
+              "en": "symbol, emblem"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gajah, simbol, lambang",
+    "en": "elephant, symbol, emblem"
+  }
+}

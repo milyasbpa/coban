@@ -1,0 +1,50 @@
+{
+  "id": 325,
+  "character": "媛",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひめ",
+        "romanji": "hime",
+        "examples": [
+          {
+            "id": 2,
+            "word": "媛",
+            "furigana": "ひめ",
+            "romanji": "hime",
+            "meanings": {
+              "id": "wanita bermartabat",
+              "en": "noble woman"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エン",
+        "romanji": "en",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "愛媛",
+          "furigana": "えひめ",
+          "romanji": "ehime",
+          "meanings": {
+            "id": "(nama tempat) Ehime",
+            "en": "Ehime (place name)"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "(nama tempat) Ehime, wanita bermartabat",
+    "en": "Ehime (place name), noble woman"
+  }
+}

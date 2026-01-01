@@ -1,0 +1,92 @@
+{
+  "id": 25,
+  "character": "月",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つき",
+        "romanji": "tsuki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "月見",
+            "furigana": "つきみ",
+            "romanji": "tsukimi",
+            "meanings": {
+              "id": "menikmati pemandangan bulan",
+              "en": "moon viewing"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "つく",
+        "romanji": "tsuku",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲツ",
+        "romanji": "getsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "満月",
+            "furigana": "まんげつ",
+            "romanji": "mangetsu",
+            "meanings": {
+              "id": "bulan purnama",
+              "en": "full moon"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ガツ",
+        "romanji": "gatsu",
+        "examples": [
+          {
+            "id": 5,
+            "word": "正月",
+            "furigana": "しょうがつ",
+            "romanji": "shougatsu",
+            "meanings": {
+              "id": "tahun baru",
+              "en": "New Year"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "三日月",
+          "furigana": "みかづき",
+          "romanji": "mikazuki",
+          "meanings": {
+            "id": "bulan sabit",
+            "en": "crescent moon"
+          }
+        },
+        {
+          "id": 4,
+          "word": "月給",
+          "furigana": "げっきゅう",
+          "romanji": "gekkyuu",
+          "meanings": {
+            "id": "gaji bulanan",
+            "en": "monthly salary"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "bulan",
+    "en": "month, moon"
+  }
+}

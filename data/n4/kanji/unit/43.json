@@ -1,0 +1,66 @@
+{
+  "id": 43,
+  "character": "弟",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おとうと",
+        "romanji": "otouto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "弟",
+            "furigana": "おとうと",
+            "romanji": "otouto",
+            "meanings": {
+              "id": "adik laki-laki (saya)",
+              "en": "younger brother"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テイ",
+        "romanji": "tei",
+        "examples": []
+      },
+      {
+        "furigana": "ダイ",
+        "romanji": "dai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "兄弟",
+            "furigana": "きょうだい",
+            "romanji": "kyoudai",
+            "meanings": {
+              "id": "kakak beradik (laki-laki)",
+              "en": "brothers"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "弟子",
+          "furigana": "でし",
+          "romanji": "deshi",
+          "meanings": {
+            "id": "anak didik",
+            "en": "disciple"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "adik laki-laki (saya)",
+    "en": "younger brother"
+  }
+}

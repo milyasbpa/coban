@@ -1,0 +1,64 @@
+{
+  "id": 273,
+  "character": "接",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "接ぐ",
+            "furigana": "つぐ",
+            "romanji": "tsugu",
+            "meanings": {
+              "id": "menyambung",
+              "en": "to connect"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セツ",
+        "romanji": "setsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "面接",
+            "furigana": "めんせつ",
+            "romanji": "mensetsu",
+            "meanings": {
+              "id": "wawancara",
+              "en": "interview"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "セッ",
+        "romanji": "set",
+        "examples": [
+          {
+            "id": 2,
+            "word": "面接",
+            "furigana": "めんせつ",
+            "romanji": "mensetsu",
+            "meanings": {
+              "id": "wawancara",
+              "en": "interview"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyambung, wawancara",
+    "en": "connect, interview"
+  }
+}

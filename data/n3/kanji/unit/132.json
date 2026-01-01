@@ -1,0 +1,48 @@
+{
+  "id": 132,
+  "character": "価",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あたい",
+        "romanji": "atai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "価する",
+            "furigana": "あたいする",
+            "romanji": "ataisuru",
+            "meanings": {
+              "id": "berhak, patut mendapatkan",
+              "en": "deserve"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "価格",
+            "furigana": "かかく",
+            "romanji": "kakaku",
+            "meanings": {
+              "id": "harga",
+              "en": "price"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berhak, patut mendapatkan, harga",
+    "en": "deserve, price"
+  }
+}

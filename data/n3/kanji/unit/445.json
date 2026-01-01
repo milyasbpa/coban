@@ -1,0 +1,48 @@
+{
+  "id": 445,
+  "character": "機",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はた",
+        "romanji": "hata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "機",
+            "furigana": "はた",
+            "romanji": "hata",
+            "meanings": {
+              "id": "mesin tenun",
+              "en": "loom"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "機会",
+            "furigana": "きかい",
+            "romanji": "kikai",
+            "meanings": {
+              "id": "kesempatan, peluang",
+              "en": "opportunity, chance"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mesin tenun, kesempatan, peluang",
+    "en": "loom, opportunity, chance"
+  }
+}

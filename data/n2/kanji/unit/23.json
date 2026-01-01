@@ -1,0 +1,48 @@
+{
+  "id": 23,
+  "character": "穴",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あな",
+        "romanji": "ana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "穴",
+            "furigana": "あな",
+            "romanji": "ana",
+            "meanings": {
+              "id": "lubang, goa",
+              "en": "hole, cave"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケツ",
+        "romanji": "ketsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "墓穴",
+            "furigana": "ぼけつ",
+            "romanji": "boketsu",
+            "meanings": {
+              "id": "liang kubur",
+              "en": "grave"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lubang, goa, liang kubur",
+    "en": "hole, cave, grave"
+  }
+}

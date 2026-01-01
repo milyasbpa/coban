@@ -1,0 +1,48 @@
+{
+  "id": 95,
+  "character": "祈",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いの",
+        "romanji": "ino",
+        "examples": [
+          {
+            "id": 1,
+            "word": "祈る",
+            "furigana": "いのる",
+            "romanji": "inoru",
+            "meanings": {
+              "id": "berdoa",
+              "en": "to pray"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "祈願",
+            "furigana": "きがん",
+            "romanji": "kigan",
+            "meanings": {
+              "id": "doa permohonan",
+              "en": "prayer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berdoa, doa permohonan",
+    "en": "to pray, prayer"
+  }
+}

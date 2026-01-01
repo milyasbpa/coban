@@ -1,0 +1,58 @@
+{
+  "id": 84,
+  "character": "思",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おも",
+        "romanji": "omo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "思う",
+            "furigana": "おもう",
+            "romanji": "omou",
+            "meanings": {
+              "id": "berpikir",
+              "en": "to think"
+            }
+          },
+          {
+            "id": 2,
+            "word": "思い出す",
+            "furigana": "おもいだす",
+            "romanji": "omoidasu",
+            "meanings": {
+              "id": "mengenang",
+              "en": "to remember"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "思考",
+            "furigana": "しこう",
+            "romanji": "shikou",
+            "meanings": {
+              "id": "pemikiran",
+              "en": "thought"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berpikir",
+    "en": "think"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": 98,
+  "character": "間",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あいだ",
+        "romanji": "aida",
+        "examples": [
+          {
+            "id": 1,
+            "word": "間",
+            "furigana": "あいだ",
+            "romanji": "aida",
+            "meanings": {
+              "id": "antara, selama",
+              "en": "between"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 3,
+            "word": "時間",
+            "furigana": "じかん",
+            "romanji": "jikan",
+            "meanings": {
+              "id": "waktu",
+              "en": "time"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 4,
+            "word": "世間",
+            "furigana": "せけん",
+            "romanji": "seken",
+            "meanings": {
+              "id": "dunia, duniawi",
+              "en": "world"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 5,
+            "word": "人間",
+            "furigana": "にんげん",
+            "romanji": "ningen",
+            "meanings": {
+              "id": "manusia",
+              "en": "human being"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "客間",
+          "furigana": "きゃくま",
+          "romanji": "kyakuma",
+          "meanings": {
+            "id": "ruang tamu",
+            "en": "guest room"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "antara",
+    "en": "between, interval"
+  }
+}

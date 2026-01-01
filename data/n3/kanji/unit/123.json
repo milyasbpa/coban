@@ -1,0 +1,47 @@
+{
+  "id": 123,
+  "character": "押",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "押す",
+            "furigana": "おす",
+            "romanji": "osu",
+            "meanings": {
+              "id": "mendorong",
+              "en": "to push"
+            }
+          },
+          {
+            "id": 2,
+            "word": "押印",
+            "furigana": "おういん",
+            "romanji": "ouin",
+            "meanings": {
+              "id": "cap",
+              "en": "stamp"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オウ",
+        "romanji": "ou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mendorong, cap",
+    "en": "push, stamp"
+  }
+}

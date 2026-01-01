@@ -1,0 +1,95 @@
+{
+  "id": 105,
+  "character": "初",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はつ",
+        "romanji": "hatsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "初耳",
+            "furigana": "はつみみ",
+            "romanji": "hatsumimi",
+            "meanings": {
+              "id": "pertama kali mendengar",
+              "en": "first time hearing"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "はじ",
+        "romanji": "haji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "初め",
+            "furigana": "はじめ",
+            "romanji": "hajime",
+            "meanings": {
+              "id": "awal",
+              "en": "beginning"
+            }
+          },
+          {
+            "id": 4,
+            "word": "初める",
+            "furigana": "はじめる",
+            "romanji": "hajimeru",
+            "meanings": {
+              "id": "mulai",
+              "en": "to start"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "うい",
+        "romanji": "ui",
+        "examples": [
+          {
+            "id": 3,
+            "word": "初陣",
+            "furigana": "ういじん",
+            "romanji": "uijin",
+            "meanings": {
+              "id": "pertempuran",
+              "en": "first battle"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "そ",
+        "romanji": "so",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショ",
+        "romanji": "sho",
+        "examples": [
+          {
+            "id": 5,
+            "word": "初級",
+            "furigana": "しょきゅう",
+            "romanji": "shokyuu",
+            "meanings": {
+              "id": "tingkat dasar",
+              "en": "basic level"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pertama kali, awal, pertempuran, mulai, tingkat dasar",
+    "en": "first time, beginning, battle, start, basic level"
+  }
+}

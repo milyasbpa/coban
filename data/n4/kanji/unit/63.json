@@ -1,0 +1,41 @@
+{
+  "id": 63,
+  "character": "服",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "フク",
+        "romanji": "fuku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "洋服",
+            "furigana": "ようふく",
+            "romanji": "youfuku",
+            "meanings": {
+              "id": "baju, pakaian ala barat",
+              "en": "western clothes"
+            }
+          },
+          {
+            "id": 2,
+            "word": "服用",
+            "furigana": "ふくよう",
+            "romanji": "fukuyou",
+            "meanings": {
+              "id": "pemakaian obat",
+              "en": "taking medicine"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "baju, pakaian ala barat",
+    "en": "clothes"
+  }
+}

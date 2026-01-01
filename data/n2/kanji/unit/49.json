@@ -1,0 +1,66 @@
+{
+  "id": 49,
+  "character": "印",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しるし",
+        "romanji": "shirushi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "印",
+            "furigana": "しるし",
+            "romanji": "shirushi",
+            "meanings": {
+              "id": "tanda, lambang",
+              "en": "mark, symbol, sign"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "じるし",
+        "romanji": "jirushi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イン",
+        "romanji": "in",
+        "examples": [
+          {
+            "id": 3,
+            "word": "印刷",
+            "furigana": "いんさつ",
+            "romanji": "insatsu",
+            "meanings": {
+              "id": "percetakan",
+              "en": "printing"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "矢印",
+          "furigana": "やじるし",
+          "romanji": "yajirushi",
+          "meanings": {
+            "id": "tanda panah",
+            "en": "arrow mark"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tanda, lambang, tanda panah, percetakan",
+    "en": "mark, symbol, arrow mark, printing"
+  }
+}

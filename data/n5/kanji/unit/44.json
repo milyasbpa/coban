@@ -1,0 +1,48 @@
+{
+  "id": 44,
+  "character": "半",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なか",
+        "romanji": "naka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "半ば",
+            "furigana": "なかば",
+            "romanji": "nakaba",
+            "meanings": {
+              "id": "pertengahan",
+              "en": "middle"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 2,
+            "word": "半分",
+            "furigana": "はんぶん",
+            "romanji": "hanbun",
+            "meanings": {
+              "id": "setengah, separuh",
+              "en": "half"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "setengah",
+    "en": "half"
+  }
+}

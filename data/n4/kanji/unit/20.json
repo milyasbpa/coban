@@ -1,0 +1,58 @@
+{
+  "id": 20,
+  "character": "写",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うつ",
+        "romanji": "utsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "写す",
+            "furigana": "うつす",
+            "romanji": "utsusu",
+            "meanings": {
+              "id": "mengkopi, menyalin",
+              "en": "to copy"
+            }
+          },
+          {
+            "id": 2,
+            "word": "写し",
+            "furigana": "うつし",
+            "romanji": "utsushi",
+            "meanings": {
+              "id": "kopi, salinan",
+              "en": "copy"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャ",
+        "romanji": "sha",
+        "examples": [
+          {
+            "id": 3,
+            "word": "写真",
+            "furigana": "しゃしん",
+            "romanji": "shashin",
+            "meanings": {
+              "id": "foto",
+              "en": "photograph"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengkopi, menyalin",
+    "en": "copy, photograph"
+  }
+}

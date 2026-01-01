@@ -1,0 +1,58 @@
+{
+  "id": 34,
+  "character": "考",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かんが",
+        "romanji": "kanga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "考える",
+            "furigana": "かんがえる",
+            "romanji": "kangaeru",
+            "meanings": {
+              "id": "berpikir",
+              "en": "to think"
+            }
+          },
+          {
+            "id": 2,
+            "word": "考え",
+            "furigana": "かんがえ",
+            "romanji": "kangae",
+            "meanings": {
+              "id": "pikiran",
+              "en": "thought"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "参考",
+            "furigana": "さんこう",
+            "romanji": "sankou",
+            "meanings": {
+              "id": "referensi",
+              "en": "reference"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berpikir",
+    "en": "think"
+  }
+}

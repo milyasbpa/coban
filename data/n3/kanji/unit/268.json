@@ -1,0 +1,48 @@
+{
+  "id": 268,
+  "character": "険",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "けわ",
+        "romanji": "kewa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "険しい",
+            "furigana": "けわしい",
+            "romanji": "kewashii",
+            "meanings": {
+              "id": "curam",
+              "en": "steep"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "危険",
+            "furigana": "きけん",
+            "romanji": "kiken",
+            "meanings": {
+              "id": "bahaya",
+              "en": "danger"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "curam, bahaya",
+    "en": "steep, danger"
+  }
+}

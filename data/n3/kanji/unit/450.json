@@ -1,0 +1,48 @@
+{
+  "id": 450,
+  "character": "整",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ととの",
+        "romanji": "totono",
+        "examples": [
+          {
+            "id": 1,
+            "word": "整える",
+            "furigana": "ととのえる",
+            "romanji": "totonoeru",
+            "meanings": {
+              "id": "merapikan",
+              "en": "to arrange"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "均整",
+            "furigana": "きんせい",
+            "romanji": "kinsei",
+            "meanings": {
+              "id": "keseimbangan yang stabil",
+              "en": "stable balance"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "merapikan, keseimbangan yang stabil",
+    "en": "arrange, stable balance"
+  }
+}

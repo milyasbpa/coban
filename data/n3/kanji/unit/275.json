@@ -1,0 +1,53 @@
+{
+  "id": 275,
+  "character": "得",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "え",
+        "romanji": "e",
+        "examples": [
+          {
+            "id": 1,
+            "word": "得る",
+            "furigana": "える",
+            "romanji": "eru",
+            "meanings": {
+              "id": "mendapatkan",
+              "en": "to obtain"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トク",
+        "romanji": "toku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "得意",
+            "furigana": "とくい",
+            "romanji": "tokui",
+            "meanings": {
+              "id": "bangga",
+              "en": "proud"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mendapatkan, bangga",
+    "en": "obtain, proud"
+  }
+}

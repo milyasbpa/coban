@@ -1,0 +1,64 @@
+{
+  "id": 317,
+  "character": "登",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "のぼ",
+        "romanji": "nobo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "登る",
+            "furigana": "のぼる",
+            "romanji": "noboru",
+            "meanings": {
+              "id": "naik, mendaki",
+              "en": "to climb"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "登録",
+            "furigana": "とうろく",
+            "romanji": "touroku",
+            "meanings": {
+              "id": "pendaftaran",
+              "en": "register"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ト",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 2,
+            "word": "登録",
+            "furigana": "とうろく",
+            "romanji": "touroku",
+            "meanings": {
+              "id": "pendaftaran",
+              "en": "register"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "naik, mendaki, pendaftaran",
+    "en": "climb, register"
+  }
+}

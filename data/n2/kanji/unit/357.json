@@ -1,0 +1,80 @@
+{
+  "id": 357,
+  "character": "嫌",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きら",
+        "romanji": "kira",
+        "examples": [
+          {
+            "id": 1,
+            "word": "嫌う",
+            "furigana": "きらう",
+            "romanji": "kirau",
+            "meanings": {
+              "id": "membenci, tidak suka",
+              "en": "hate, dislike"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "いや",
+        "romanji": "iya",
+        "examples": [
+          {
+            "id": 2,
+            "word": "嫌味",
+            "furigana": "いやみ",
+            "romanji": "iyami",
+            "meanings": {
+              "id": "menyebalkan",
+              "en": "annoying"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 3,
+            "word": "嫌悪",
+            "furigana": "けんお",
+            "romanji": "ken'o",
+            "meanings": {
+              "id": "perasaan benci",
+              "en": "feeling of hate"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 4,
+            "word": "機嫌",
+            "furigana": "きげん",
+            "romanji": "kigen",
+            "meanings": {
+              "id": "suasana hati",
+              "en": "mood"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membenci, tidak suka, menyebalkan, perasaan benci, suasana hati",
+    "en": "hate, dislike, annoying, feeling of hate, mood"
+  }
+}

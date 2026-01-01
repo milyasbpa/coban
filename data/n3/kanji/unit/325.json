@@ -1,0 +1,48 @@
+{
+  "id": 325,
+  "character": "満",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "み",
+        "romanji": "mi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "満ちる",
+            "furigana": "みちる",
+            "romanji": "michiru",
+            "meanings": {
+              "id": "penuh",
+              "en": "full"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "マン",
+        "romanji": "man",
+        "examples": [
+          {
+            "id": 2,
+            "word": "満足",
+            "furigana": "まんぞく",
+            "romanji": "manzoku",
+            "meanings": {
+              "id": "memuaskan",
+              "en": "satisfy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "penuh, memuaskan",
+    "en": "full, satisfy"
+  }
+}

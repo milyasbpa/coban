@@ -1,0 +1,48 @@
+{
+  "id": 245,
+  "character": "涙",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なみだ",
+        "romanji": "namida",
+        "examples": [
+          {
+            "id": 1,
+            "word": "涙",
+            "furigana": "なみだ",
+            "romanji": "namida",
+            "meanings": {
+              "id": "air mata",
+              "en": "tears"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ルイ",
+        "romanji": "rui",
+        "examples": [
+          {
+            "id": 2,
+            "word": "催涙ガス",
+            "furigana": "さいるいがす",
+            "romanji": "sairuigasu",
+            "meanings": {
+              "id": "gas air mata",
+              "en": "tear gas"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "air mata, gas air mata",
+    "en": "tears, tear gas"
+  }
+}

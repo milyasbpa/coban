@@ -1,0 +1,48 @@
+{
+  "id": 343,
+  "character": "滞",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とどこお",
+        "romanji": "todokoo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "滞る",
+            "furigana": "とどこおる",
+            "romanji": "todokooru",
+            "meanings": {
+              "id": "tertunggak",
+              "en": "overdue"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "滞在する",
+            "furigana": "たいざいする",
+            "romanji": "taizai suru",
+            "meanings": {
+              "id": "menetap",
+              "en": "to stay"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tertunggak, menetap",
+    "en": "overdue, stay"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 169,
+  "character": "取",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "取り上げる",
+            "furigana": "とりあげる",
+            "romanji": "toriageru",
+            "meanings": {
+              "id": "mengangkat",
+              "en": "to take up"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "取得",
+            "furigana": "しゅとく",
+            "romanji": "shutoku",
+            "meanings": {
+              "id": "perolehan",
+              "en": "acquisition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengangkat, perolehan",
+    "en": "take, acquisition"
+  }
+}

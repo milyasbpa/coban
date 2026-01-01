@@ -1,0 +1,46 @@
+{
+  "id": 439,
+  "character": "験",
+  "strokes": 18,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 1,
+            "word": "試験",
+            "furigana": "しけん",
+            "romanji": "shiken",
+            "meanings": {
+              "id": "ulangan, ujian",
+              "en": "test, exam"
+            }
+          },
+          {
+            "id": 2,
+            "word": "験",
+            "furigana": "けん",
+            "romanji": "ken",
+            "meanings": {
+              "id": "khasiat",
+              "en": "efficacy"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ulangan, ujian, khasiat",
+    "en": "test, exam, efficacy"
+  }
+}

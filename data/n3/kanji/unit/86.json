@@ -1,0 +1,80 @@
+{
+  "id": 86,
+  "character": "冷",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つめ",
+        "romanji": "tsume",
+        "examples": [
+          {
+            "id": 1,
+            "word": "冷たい",
+            "furigana": "つめたい",
+            "romanji": "tsumetai",
+            "meanings": {
+              "id": "dingin",
+              "en": "cold"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ひ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "冷やす",
+            "furigana": "ひやす",
+            "romanji": "hiyasu",
+            "meanings": {
+              "id": "mendinginkan",
+              "en": "to cool"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 3,
+            "word": "冷める",
+            "furigana": "さめる",
+            "romanji": "sameru",
+            "meanings": {
+              "id": "menjadi dingin",
+              "en": "to become cold"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レイ",
+        "romanji": "rei",
+        "examples": [
+          {
+            "id": 4,
+            "word": "冷蔵庫",
+            "furigana": "れいぞうこ",
+            "romanji": "reizouko",
+            "meanings": {
+              "id": "kulkas",
+              "en": "refrigerator"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dingin",
+    "en": "cold"
+  }
+}

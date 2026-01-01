@@ -1,0 +1,48 @@
+{
+  "id": 53,
+  "character": "究",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きわ",
+        "romanji": "kiwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "究める",
+            "furigana": "きわめる",
+            "romanji": "kiwameru",
+            "meanings": {
+              "id": "mendalam permasalahan",
+              "en": "to investigate thoroughly"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "研究",
+            "furigana": "けんきゅう",
+            "romanji": "kenkyuu",
+            "meanings": {
+              "id": "penelitian",
+              "en": "research"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mendalam permasalahan",
+    "en": "research, investigate"
+  }
+}

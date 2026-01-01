@@ -1,0 +1,53 @@
+{
+  "id": 314,
+  "character": "袋",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふくろ",
+        "romanji": "fukuro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "袋",
+            "furigana": "ふくろ",
+            "romanji": "fukuro",
+            "meanings": {
+              "id": "kantung, karung",
+              "en": "bag, sack"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぶくろ",
+        "romanji": "bukuro",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "郵袋",
+            "furigana": "ゆうたい",
+            "romanji": "yuutai",
+            "meanings": {
+              "id": "kantung surat pos",
+              "en": "mailbag"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kantung, karung, kantung surat pos",
+    "en": "bag, sack, mailbag"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": 52,
+  "character": "老",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おぶ",
+        "romanji": "obu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ロウ",
+        "romanji": "rou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "老人",
+            "furigana": "ろうじん",
+            "romanji": "roujin",
+            "meanings": {
+              "id": "orang lanjut usia",
+              "en": "elderly person"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "老いる",
+          "furigana": "おいる",
+          "romanji": "oiru",
+          "meanings": {
+            "id": "tua",
+            "en": "old"
+          }
+        },
+        {
+          "id": 2,
+          "word": "老ける",
+          "furigana": "ふける",
+          "romanji": "fukeru",
+          "meanings": {
+            "id": "menjadi tua",
+            "en": "to grow old"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tua",
+    "en": "old"
+  }
+}

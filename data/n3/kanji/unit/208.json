@@ -1,0 +1,64 @@
+{
+  "id": 208,
+  "character": "逃",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "に",
+        "romanji": "ni",
+        "examples": [
+          {
+            "id": 1,
+            "word": "逃げる",
+            "furigana": "にげる",
+            "romanji": "nigeru",
+            "meanings": {
+              "id": "kabur",
+              "en": "to escape"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "のが",
+        "romanji": "noga",
+        "examples": [
+          {
+            "id": 2,
+            "word": "逃す",
+            "furigana": "のがす",
+            "romanji": "nogasu",
+            "meanings": {
+              "id": "kehilangan",
+              "en": "to lose"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "逃避",
+            "furigana": "とうひ",
+            "romanji": "touhi",
+            "meanings": {
+              "id": "melarikan diri",
+              "en": "run away"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kabur, kehilangan, melarikan diri",
+    "en": "escape, lose, run away"
+  }
+}

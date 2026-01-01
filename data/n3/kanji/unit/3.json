@@ -1,0 +1,48 @@
+{
+  "id": 3,
+  "character": "与",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あた",
+        "romanji": "ata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "与える",
+            "furigana": "あたえる",
+            "romanji": "ataeru",
+            "meanings": {
+              "id": "memberi",
+              "en": "to give"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "給与",
+            "furigana": "きゅうよ",
+            "romanji": "kyūyo",
+            "meanings": {
+              "id": "gaji, upah",
+              "en": "salary, pay, compensation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memberi",
+    "en": "give"
+  }
+}

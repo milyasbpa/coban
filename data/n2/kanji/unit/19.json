@@ -1,0 +1,48 @@
+{
+  "id": 19,
+  "character": "永",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なが",
+        "romanji": "naga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "永い",
+            "furigana": "ながい",
+            "romanji": "nagai",
+            "meanings": {
+              "id": "lama sekali",
+              "en": "very long"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エイ",
+        "romanji": "ei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "永遠",
+            "furigana": "えいえん",
+            "romanji": "eien",
+            "meanings": {
+              "id": "selama-lamanya",
+              "en": "forever"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lama sekali, selama-lamanya",
+    "en": "eternity, forever"
+  }
+}

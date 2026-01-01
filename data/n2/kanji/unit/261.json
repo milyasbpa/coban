@@ -1,0 +1,63 @@
+{
+  "id": 261,
+  "character": "眼",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まなこ",
+        "romanji": "manako",
+        "examples": [
+          {
+            "id": 1,
+            "word": "眼",
+            "furigana": "まなこ",
+            "romanji": "manako",
+            "meanings": {
+              "id": "mata",
+              "en": "eye"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガン",
+        "romanji": "gan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "眼球",
+            "furigana": "がんきゅう",
+            "romanji": "gankyuu",
+            "meanings": {
+              "id": "bola mata",
+              "en": "eyeball"
+            }
+          },
+          {
+            "id": 3,
+            "word": "慧眼",
+            "furigana": "けいがん",
+            "romanji": "keigan",
+            "meanings": {
+              "id": "pandangan yg tajam",
+              "en": "sharp vision, insight"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mata, bola mata, pandangan yg tajam",
+    "en": "eye, eyeball, sharp vision"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 94,
+  "character": "飲",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "の",
+        "romanji": "no",
+        "examples": [
+          {
+            "id": 1,
+            "word": "飲む",
+            "furigana": "のむ",
+            "romanji": "nomu",
+            "meanings": {
+              "id": "minum",
+              "en": "to drink"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イン",
+        "romanji": "in",
+        "examples": [
+          {
+            "id": 2,
+            "word": "飲料",
+            "furigana": "いんりょう",
+            "romanji": "inryou",
+            "meanings": {
+              "id": "minuman",
+              "en": "beverage"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "minum",
+    "en": "drink"
+  }
+}

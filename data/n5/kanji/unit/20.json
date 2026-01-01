@@ -1,0 +1,80 @@
+{
+  "id": 20,
+  "character": "小",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ちい",
+        "romanji": "chii",
+        "examples": [
+          {
+            "id": 1,
+            "word": "小さい",
+            "furigana": "ちいさい",
+            "romanji": "chiisai",
+            "meanings": {
+              "id": "kecil",
+              "en": "small"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "小鳥",
+            "furigana": "ことり",
+            "romanji": "kotori",
+            "meanings": {
+              "id": "anak burung, burung kecil",
+              "en": "small bird"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 3,
+            "word": "小川",
+            "furigana": "おがわ",
+            "romanji": "ogawa",
+            "meanings": {
+              "id": "sungai kecil",
+              "en": "small river"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "小学校",
+            "furigana": "しょうがっこう",
+            "romanji": "shougakkou",
+            "meanings": {
+              "id": "sekolah dasar",
+              "en": "elementary school"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kecil",
+    "en": "small"
+  }
+}

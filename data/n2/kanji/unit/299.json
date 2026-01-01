@@ -1,0 +1,48 @@
+{
+  "id": 299,
+  "character": "温",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あたた",
+        "romanji": "atata",
+        "examples": [
+          {
+            "id": 2,
+            "word": "温かい",
+            "furigana": "あたたかい",
+            "romanji": "atatakai",
+            "meanings": {
+              "id": "(benda) hangat",
+              "en": "warm (object)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オン",
+        "romanji": "on",
+        "examples": [
+          {
+            "id": 1,
+            "word": "温泉",
+            "furigana": "おんせん",
+            "romanji": "onsen",
+            "meanings": {
+              "id": "sumber air panas",
+              "en": "hot spring"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "(benda) hangat, sumber air panas",
+    "en": "warm (object), hot spring"
+  }
+}

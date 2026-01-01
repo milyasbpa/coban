@@ -1,0 +1,48 @@
+{
+  "id": 309,
+  "character": "深",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふか",
+        "romanji": "fuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "深い",
+            "furigana": "ふかい",
+            "romanji": "fukai",
+            "meanings": {
+              "id": "dalam, mendalam",
+              "en": "deep"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "深刻",
+            "furigana": "しんこく",
+            "romanji": "shinkoku",
+            "meanings": {
+              "id": "serius, parah",
+              "en": "serious"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dalam, mendalam, serius, parah",
+    "en": "deep, serious"
+  }
+}

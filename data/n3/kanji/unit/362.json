@@ -1,0 +1,48 @@
+{
+  "id": 362,
+  "character": "最",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もっと",
+        "romanji": "motto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "最も",
+            "furigana": "もっとも",
+            "romanji": "mottomo",
+            "meanings": {
+              "id": "paling",
+              "en": "most"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "最近",
+            "furigana": "さいきん",
+            "romanji": "saikin",
+            "meanings": {
+              "id": "akhir-akhir ini",
+              "en": "recently"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "paling, akhir-akhir ini",
+    "en": "most, recently"
+  }
+}

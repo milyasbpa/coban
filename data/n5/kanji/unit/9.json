@@ -1,0 +1,60 @@
+{
+  "id": 9,
+  "character": "千",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ち",
+        "romanji": "chi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 1,
+            "word": "千円",
+            "furigana": "せんえん",
+            "romanji": "sen'en",
+            "meanings": {
+              "id": "seribu yen",
+              "en": "thousand yen"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "三千",
+          "furigana": "さんぜん",
+          "romanji": "sanzen",
+          "meanings": {
+            "id": "tiga ribu",
+            "en": "three thousand"
+          }
+        },
+        {
+          "id": 3,
+          "word": "一万",
+          "furigana": "いちまん",
+          "romanji": "ichiman",
+          "meanings": {
+            "id": "sepuluh ribu",
+            "en": "ten thousand"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "seribu",
+    "en": "thousand"
+  }
+}

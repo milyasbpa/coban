@@ -1,0 +1,55 @@
+{
+  "id": 186,
+  "character": "型",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": []
+      },
+      {
+        "furigana": "かたち",
+        "romanji": "katachi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "体型",
+            "furigana": "たいけい",
+            "romanji": "taikei",
+            "meanings": {
+              "id": "bentuk tubuh",
+              "en": "body shape"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "小型",
+          "furigana": "こがた",
+          "romanji": "kogata",
+          "meanings": {
+            "id": "bentuk kecil",
+            "en": "small form"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "bentuk kecil, bentuk tubuh",
+    "en": "small form, body shape"
+  }
+}

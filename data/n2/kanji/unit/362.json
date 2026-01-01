@@ -1,0 +1,82 @@
+{
+  "id": 362,
+  "character": "殿",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "との",
+        "romanji": "tono",
+        "examples": [
+          {
+            "id": 1,
+            "word": "殿",
+            "furigana": "との",
+            "romanji": "tono",
+            "meanings": {
+              "id": "yang terhormat bapak/ibu",
+              "en": "lord, milord, esteemed person, Mr./Mrs. (honorific)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "どの",
+        "romanji": "dono",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テン",
+        "romanji": "ten",
+        "examples": [
+          {
+            "id": 3,
+            "word": "御殿",
+            "furigana": "ごてん",
+            "romanji": "goten",
+            "meanings": {
+              "id": "istana",
+              "en": "palace"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "デン",
+        "romanji": "den",
+        "examples": [
+          {
+            "id": 4,
+            "word": "沈殿",
+            "furigana": "ちんでん",
+            "romanji": "chinden",
+            "meanings": {
+              "id": "pengendapan",
+              "en": "sedimentation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "山口健殿",
+          "furigana": "やまぐちけんどの",
+          "romanji": "yamaguchi ken dono",
+          "meanings": {
+            "id": "Yth. Bpk. Yamada",
+            "en": "Mr. Yamaguchi"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "Yang terhormat Bapak/Ibu, Yth. Bpk. Yamada, istana, pengendapan",
+    "en": "honorific Mr./Ms., palace, sedimentation"
+  }
+}

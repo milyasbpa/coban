@@ -1,0 +1,49 @@
+{
+  "id": 19,
+  "character": "皿",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さら",
+        "romanji": "sara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "皿洗い",
+            "furigana": "さらあらい",
+            "romanji": "saraarai",
+            "meanings": {
+              "id": "mencuci piring",
+              "en": "washing dishes"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ざら",
+        "romanji": "zara",
+        "examples": []
+      }
+    ],
+    "on": [],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "小皿",
+          "furigana": "こざら",
+          "romanji": "kozara",
+          "meanings": {
+            "id": "piring kecil",
+            "en": "small plate"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "mencuci piring",
+    "en": "plate, dish"
+  }
+}

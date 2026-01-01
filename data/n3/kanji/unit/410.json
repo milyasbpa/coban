@@ -1,0 +1,53 @@
+{
+  "id": 410,
+  "character": "髪",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かみ",
+        "romanji": "kami",
+        "examples": [
+          {
+            "id": 1,
+            "word": "髪の毛",
+            "furigana": "かみのけ",
+            "romanji": "kaminoke",
+            "meanings": {
+              "id": "rambut",
+              "en": "hair"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハツ",
+        "romanji": "hatsu",
+        "examples": []
+      },
+      {
+        "furigana": "パツ",
+        "romanji": "patsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "金髪",
+            "furigana": "きんぱつ",
+            "romanji": "kinpatsu",
+            "meanings": {
+              "id": "rambut pirang",
+              "en": "blonde hair"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rambut, rambut pirang",
+    "en": "hair, blonde hair"
+  }
+}

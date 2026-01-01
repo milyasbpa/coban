@@ -1,0 +1,47 @@
+{
+  "id": 40,
+  "character": "社",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "シャ",
+        "romanji": "sha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "会社",
+            "furigana": "かいしゃ",
+            "romanji": "kaisha",
+            "meanings": {
+              "id": "perusahaan, kantor",
+              "en": "company"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジャ",
+        "romanji": "ja",
+        "examples": [
+          {
+            "id": 2,
+            "word": "神社",
+            "furigana": "じんじゃ",
+            "romanji": "jinja",
+            "meanings": {
+              "id": "kuil Shinto",
+              "en": "Shinto shrine"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perusahaan, kuil Shinto",
+    "en": "company, shrine"
+  }
+}

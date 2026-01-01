@@ -1,0 +1,31 @@
+{
+  "id": 101,
+  "character": "電",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "デン",
+        "romanji": "den",
+        "examples": [
+          {
+            "id": 1,
+            "word": "電気",
+            "furigana": "でんき",
+            "romanji": "denki",
+            "meanings": {
+              "id": "listrik",
+              "en": "electricity"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "listrik",
+    "en": "electricity"
+  }
+}

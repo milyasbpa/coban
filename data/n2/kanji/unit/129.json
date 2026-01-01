@@ -1,0 +1,48 @@
+{
+  "id": 129,
+  "character": "首",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くび",
+        "romanji": "kubi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "首輪",
+            "furigana": "くびわ",
+            "romanji": "kubiwa",
+            "meanings": {
+              "id": "rantai leher (binatang)",
+              "en": "collar (animal)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "首都",
+            "furigana": "しゅと",
+            "romanji": "shuto",
+            "meanings": {
+              "id": "ibu kota",
+              "en": "capital city"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rantai leher (binatang), ibu kota",
+    "en": "neck (animal), capital city"
+  }
+}

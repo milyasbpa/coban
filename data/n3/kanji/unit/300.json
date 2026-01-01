@@ -1,0 +1,48 @@
+{
+  "id": 300,
+  "character": "務",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つと",
+        "romanji": "tsuto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "務める",
+            "furigana": "つとめる",
+            "romanji": "tsutomeru",
+            "meanings": {
+              "id": "menjabat",
+              "en": "to hold office"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ム",
+        "romanji": "mu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "業務",
+            "furigana": "ぎょうむ",
+            "romanji": "gyoumu",
+            "meanings": {
+              "id": "bisnis",
+              "en": "business"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menjabat, bisnis",
+    "en": "hold office, business"
+  }
+}

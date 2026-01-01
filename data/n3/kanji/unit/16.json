@@ -1,0 +1,47 @@
+{
+  "id": 16,
+  "character": "戸",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "戸",
+            "furigana": "と",
+            "romanji": "todana",
+            "meanings": {
+              "id": "pintu",
+              "en": "door"
+            }
+          },
+          {
+            "id": 2,
+            "word": "戸棚",
+            "furigana": "とだな",
+            "romanji": "todana",
+            "meanings": {
+              "id": "kartu keluarga",
+              "en": "cupboard"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pintu",
+    "en": "door"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": 136,
+  "character": "辞",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "や",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "辞める",
+            "furigana": "やめる",
+            "romanji": "yameru",
+            "meanings": {
+              "id": "mengundurkan diri",
+              "en": "to resign"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "辞書",
+            "furigana": "じしょ",
+            "romanji": "jisho",
+            "meanings": {
+              "id": "kamus",
+              "en": "dictionary"
+            }
+          },
+          {
+            "id": 3,
+            "word": "お辞儀",
+            "furigana": "おじぎ",
+            "romanji": "ojigi",
+            "meanings": {
+              "id": "memberi hormat",
+              "en": "bow"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengundurkan diri",
+    "en": "resign, words"
+  }
+}

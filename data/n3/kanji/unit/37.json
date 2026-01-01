@@ -1,0 +1,48 @@
+{
+  "id": 37,
+  "character": "加",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くわ",
+        "romanji": "kuwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "加える",
+            "furigana": "くわえる",
+            "romanji": "kuwaeru",
+            "meanings": {
+              "id": "menambah",
+              "en": "to add"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "参加",
+            "furigana": "さんか",
+            "romanji": "sanka",
+            "meanings": {
+              "id": "partisipasi, ikut serta",
+              "en": "participation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menambah",
+    "en": "add"
+  }
+}

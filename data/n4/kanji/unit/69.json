@@ -1,0 +1,48 @@
+{
+  "id": 69,
+  "character": "知",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "し",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "知らせる",
+            "furigana": "しらせる",
+            "romanji": "shiraseru",
+            "meanings": {
+              "id": "memberitahu",
+              "en": "to inform"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チ",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "知識",
+            "furigana": "ちしき",
+            "romanji": "chishiki",
+            "meanings": {
+              "id": "pengetahuan",
+              "en": "knowledge"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memberitahu",
+    "en": "know, inform"
+  }
+}

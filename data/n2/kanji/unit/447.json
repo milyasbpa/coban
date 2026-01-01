@@ -1,0 +1,79 @@
+{
+  "id": 447,
+  "character": "競",
+  "strokes": 20,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きそ",
+        "romanji": "kiso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "競う",
+            "furigana": "きそう",
+            "romanji": "kisou",
+            "meanings": {
+              "id": "berlomba, bersaing",
+              "en": "compete, rivalry"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "せ",
+        "romanji": "se",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "競売",
+            "furigana": "きょうばい",
+            "romanji": "kyoubai",
+            "meanings": {
+              "id": "lelang",
+              "en": "auction"
+            }
+          },
+          {
+            "id": 3,
+            "word": "競争",
+            "furigana": "きょうそう",
+            "romanji": "kyousou",
+            "meanings": {
+              "id": "persaingan",
+              "en": "competition"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 4,
+            "word": "競馬",
+            "furigana": "けいば",
+            "romanji": "keiba",
+            "meanings": {
+              "id": "pacuan kuda",
+              "en": "horse race"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berlomba, bersaing, lelang, persaingan, pacuan kuda",
+    "en": "compete, rivalry, auction, horse race"
+  }
+}

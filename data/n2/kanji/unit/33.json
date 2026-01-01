@@ -1,0 +1,31 @@
+{
+  "id": 33,
+  "character": "刊",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "朝刊",
+            "furigana": "ちょうかん",
+            "romanji": "choukan",
+            "meanings": {
+              "id": "koran pagi",
+              "en": "morning newspaper"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "koran pagi",
+    "en": "morning newspaper"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 240,
+  "character": "造",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つく",
+        "romanji": "tsuku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "造る",
+            "furigana": "つくる",
+            "romanji": "tsukuru",
+            "meanings": {
+              "id": "membuat (dalam skala besar)",
+              "en": "to make (large scale)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゾウ",
+        "romanji": "zou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "製造",
+            "furigana": "せいぞう",
+            "romanji": "seizou",
+            "meanings": {
+              "id": "produksi",
+              "en": "production"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membuat (dalam skala besar), produksi",
+    "en": "make (large scale), production"
+  }
+}

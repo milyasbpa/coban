@@ -1,0 +1,41 @@
+{
+  "id": 175,
+  "character": "協",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "協会",
+            "furigana": "きょうかい",
+            "romanji": "kyoukai",
+            "meanings": {
+              "id": "asosiasi",
+              "en": "association"
+            }
+          },
+          {
+            "id": 2,
+            "word": "協力",
+            "furigana": "きょうりょく",
+            "romanji": "kyouryoku",
+            "meanings": {
+              "id": "kerja sama",
+              "en": "cooperation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "asosiasi, kerja sama",
+    "en": "association, cooperation"
+  }
+}

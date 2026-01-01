@@ -1,0 +1,53 @@
+{
+  "id": 90,
+  "character": "夏",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なつ",
+        "romanji": "natsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夏",
+            "furigana": "なつ",
+            "romanji": "natsu",
+            "meanings": {
+              "id": "musim panas",
+              "en": "summer"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "夏季",
+            "furigana": "かき",
+            "romanji": "kaki",
+            "meanings": {
+              "id": "musim panas",
+              "en": "summer season"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲ",
+        "romanji": "ge",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "musim panas",
+    "en": "summer"
+  }
+}

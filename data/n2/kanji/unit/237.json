@@ -1,0 +1,48 @@
+{
+  "id": 237,
+  "character": "涼",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すず",
+        "romanji": "suzu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "涼しい",
+            "furigana": "すずしい",
+            "romanji": "suzushii",
+            "meanings": {
+              "id": "sejuk",
+              "en": "cool"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リョウ",
+        "romanji": "ryou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "涼風",
+            "furigana": "りょうふう",
+            "romanji": "ryoufuu",
+            "meanings": {
+              "id": "angin sejuk",
+              "en": "cool breeze"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sejuk, angin sejuk",
+    "en": "cool, breeze"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 178,
+  "character": "厚",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あつ",
+        "romanji": "atsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "厚い",
+            "furigana": "あつい",
+            "romanji": "atsui",
+            "meanings": {
+              "id": "tebal",
+              "en": "thick"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "厚意",
+            "furigana": "こうい",
+            "romanji": "koui",
+            "meanings": {
+              "id": "kebaikan hati",
+              "en": "kindness"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tebal, kebaikan hati",
+    "en": "thick, kindness"
+  }
+}

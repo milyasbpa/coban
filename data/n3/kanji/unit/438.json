@@ -1,0 +1,64 @@
+{
+  "id": 438,
+  "character": "調",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しら",
+        "romanji": "shira",
+        "examples": [
+          {
+            "id": 1,
+            "word": "調べる",
+            "furigana": "しらべる",
+            "romanji": "shiraberu",
+            "meanings": {
+              "id": "memeriksa, menyelidiki",
+              "en": "to examine, to investigate"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ととの",
+        "romanji": "totono",
+        "examples": [
+          {
+            "id": 2,
+            "word": "調える",
+            "furigana": "ととのえる",
+            "romanji": "totonoeru",
+            "meanings": {
+              "id": "merapikan",
+              "en": "to arrange"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "調査",
+            "furigana": "ちょうさ",
+            "romanji": "chousa",
+            "meanings": {
+              "id": "pemeriksaan, penyelidikan",
+              "en": "investigation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memeriksa, menyelidiki, merapikan, pemeriksaan, penyelidikan",
+    "en": "examine, investigate, arrange, investigation"
+  }
+}

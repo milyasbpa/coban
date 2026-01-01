@@ -1,0 +1,48 @@
+{
+  "id": 61,
+  "character": "攻",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "せ",
+        "romanji": "se",
+        "examples": [
+          {
+            "id": 1,
+            "word": "攻める",
+            "furigana": "せめる",
+            "romanji": "semeru",
+            "meanings": {
+              "id": "menyerang",
+              "en": "to attack"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "攻撃",
+            "furigana": "こうげき",
+            "romanji": "kougeki",
+            "meanings": {
+              "id": "serangan",
+              "en": "attack"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyerang, serangan",
+    "en": "to attack, attack"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 382,
+  "character": "預",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あず",
+        "romanji": "azu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "預ける",
+            "furigana": "あずける",
+            "romanji": "azukeru",
+            "meanings": {
+              "id": "menitipkan",
+              "en": "to entrust"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "預金",
+            "furigana": "よきん",
+            "romanji": "yokin",
+            "meanings": {
+              "id": "deposito",
+              "en": "deposit"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menitipkan, deposito",
+    "en": "entrust, deposit"
+  }
+}

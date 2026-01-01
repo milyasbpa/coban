@@ -1,0 +1,48 @@
+{
+  "id": 402,
+  "character": "夢",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆめ",
+        "romanji": "yume",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夢",
+            "furigana": "ゆめ",
+            "romanji": "yume",
+            "meanings": {
+              "id": "mimpi, impian",
+              "en": "dream"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ム",
+        "romanji": "mu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "悪夢",
+            "furigana": "あくむ",
+            "romanji": "akumu",
+            "meanings": {
+              "id": "mimpi buruk",
+              "en": "nightmare"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mimpi, impian, mimpi buruk",
+    "en": "dream, nightmare"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 32,
+  "character": "氷",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こおり",
+        "romanji": "koori",
+        "examples": [
+          {
+            "id": 1,
+            "word": "氷",
+            "furigana": "こおり",
+            "romanji": "koori",
+            "meanings": {
+              "id": "es batu",
+              "en": "ice"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ひ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "氷雨",
+            "furigana": "ひさめ",
+            "romanji": "hisame",
+            "meanings": {
+              "id": "hujan es di musim panas",
+              "en": "hail; summer hail"
+            }
+          },
+          {
+            "id": 3,
+            "word": "氷山",
+            "furigana": "ひょうざん",
+            "romanji": "hyouzan",
+            "meanings": {
+              "id": "gunung es",
+              "en": "iceberg"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒョウ",
+        "romanji": "hyou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "es batu",
+    "en": "ice"
+  }
+}

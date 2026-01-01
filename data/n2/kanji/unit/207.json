@@ -1,0 +1,48 @@
+{
+  "id": 207,
+  "character": "軒",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "のき",
+        "romanji": "noki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "軒下",
+            "furigana": "のきした",
+            "romanji": "nokishita",
+            "meanings": {
+              "id": "di bawah atap emperan rumah",
+              "en": "under the eaves"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "一軒屋",
+            "furigana": "いっけんや",
+            "romanji": "ikkenya",
+            "meanings": {
+              "id": "1 bangunan rumah",
+              "en": "one building"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "di bawah atap emperan rumah, 1 bangunan rumah",
+    "en": "under the eaves, one building"
+  }
+}

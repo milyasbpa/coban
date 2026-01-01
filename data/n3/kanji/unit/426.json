@@ -1,0 +1,48 @@
+{
+  "id": 426,
+  "character": "慣",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "な",
+        "romanji": "na",
+        "examples": [
+          {
+            "id": 1,
+            "word": "慣れ",
+            "furigana": "なれ",
+            "romanji": "nare",
+            "meanings": {
+              "id": "kebiasaan",
+              "en": "habit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "慣習",
+            "furigana": "かんしゅう",
+            "romanji": "kanshuu",
+            "meanings": {
+              "id": "tradisi, kebiasaan",
+              "en": "custom, tradition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kebiasaan, tradisi, kebiasaan",
+    "en": "habit, custom, tradition"
+  }
+}

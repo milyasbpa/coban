@@ -1,0 +1,48 @@
+{
+  "id": 30,
+  "character": "召",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "め",
+        "romanji": "me",
+        "examples": [
+          {
+            "id": 1,
+            "word": "召し上がる",
+            "furigana": "めしあがる",
+            "romanji": "meshiagaru",
+            "meanings": {
+              "id": "bersantap",
+              "en": "to eat, to drink (polite)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "召集",
+            "furigana": "しょうしゅう",
+            "romanji": "shoushuu",
+            "meanings": {
+              "id": "memangil bersama",
+              "en": "calling together, summoning"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bersantap",
+    "en": "summon"
+  }
+}

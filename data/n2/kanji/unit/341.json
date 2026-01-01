@@ -1,0 +1,48 @@
+{
+  "id": 341,
+  "character": "源",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みなもと",
+        "romanji": "minamoto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "源",
+            "furigana": "みなもと",
+            "romanji": "minamoto",
+            "meanings": {
+              "id": "sumber, muara",
+              "en": "source, origin"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "水源",
+            "furigana": "すいげん",
+            "romanji": "suigen",
+            "meanings": {
+              "id": "sumber air",
+              "en": "water source"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sumber, muara, sumber air",
+    "en": "source, origin, water source"
+  }
+}

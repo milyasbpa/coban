@@ -1,0 +1,53 @@
+{
+  "id": 213,
+  "character": "怒",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おこ",
+        "romanji": "oko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "怒る",
+            "furigana": "おこる",
+            "romanji": "okoru",
+            "meanings": {
+              "id": "marah",
+              "en": "angry"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "いか",
+        "romanji": "ika",
+        "examples": [
+          {
+            "id": 2,
+            "word": "怒り",
+            "furigana": "いかり",
+            "romanji": "ikari",
+            "meanings": {
+              "id": "kemarahan",
+              "en": "anger"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ド",
+        "romanji": "do",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "marah, kemarahan",
+    "en": "angry, anger"
+  }
+}

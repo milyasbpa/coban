@@ -1,0 +1,58 @@
+{
+  "id": 99,
+  "character": "旅",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たび",
+        "romanji": "tabi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "旅",
+            "furigana": "たび",
+            "romanji": "tabi",
+            "meanings": {
+              "id": "perjalanan",
+              "en": "journey"
+            }
+          },
+          {
+            "id": 2,
+            "word": "旅人",
+            "furigana": "たびびと",
+            "romanji": "tabibito",
+            "meanings": {
+              "id": "pelancong",
+              "en": "traveler"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リョ",
+        "romanji": "ryo",
+        "examples": [
+          {
+            "id": 3,
+            "word": "旅行",
+            "furigana": "りょこう",
+            "romanji": "ryokou",
+            "meanings": {
+              "id": "darmawisata",
+              "en": "trip"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perjalanan",
+    "en": "journey, travel"
+  }
+}

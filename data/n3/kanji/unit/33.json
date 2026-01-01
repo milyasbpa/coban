@@ -1,0 +1,74 @@
+{
+  "id": 33,
+  "character": "失",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うしな",
+        "romanji": "ushina",
+        "examples": [
+          {
+            "id": 1,
+            "word": "失う",
+            "furigana": "うしなう",
+            "romanji": "ushinau",
+            "meanings": {
+              "id": "kehilangan",
+              "en": "to lose"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シツ",
+        "romanji": "shitsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "失礼",
+            "furigana": "しつれい",
+            "romanji": "shitsurei",
+            "meanings": {
+              "id": "tidak sopan",
+              "en": "rude; impolite"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シッ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "失礼",
+            "furigana": "しつれい",
+            "romanji": "shitsurei",
+            "meanings": {
+              "id": "tidak sopan",
+              "en": "rude; impolite"
+            }
+          },
+          {
+            "id": 3,
+            "word": "失敗",
+            "furigana": "しっぱい",
+            "romanji": "shippai",
+            "meanings": {
+              "id": "gagal",
+              "en": "failure; mistake"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kehilangan",
+    "en": "lose"
+  }
+}

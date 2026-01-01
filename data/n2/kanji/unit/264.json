@@ -1,0 +1,48 @@
+{
+  "id": 264,
+  "character": "進",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すす",
+        "romanji": "susu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "進む",
+            "furigana": "すすむ",
+            "romanji": "susumu",
+            "meanings": {
+              "id": "maju",
+              "en": "to advance"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "進歩",
+            "furigana": "しんぽ",
+            "romanji": "shinpo",
+            "meanings": {
+              "id": "kemajuan",
+              "en": "progress"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "maju, kemajuan",
+    "en": "to advance, progress"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 434,
+  "character": "濯",
+  "strokes": 17,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すす",
+        "romanji": "susu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "濯ぐ",
+            "furigana": "すすぐ",
+            "romanji": "susugu",
+            "meanings": {
+              "id": "membilas",
+              "en": "to rinse"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タク",
+        "romanji": "taku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "洗濯",
+            "furigana": "せんたく",
+            "romanji": "sentaku",
+            "meanings": {
+              "id": "cucian",
+              "en": "laundry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membilas, cucian",
+    "en": "to rinse, laundry"
+  }
+}

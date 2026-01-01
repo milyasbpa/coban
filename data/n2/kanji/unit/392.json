@@ -1,0 +1,47 @@
+{
+  "id": 392,
+  "character": "噴",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "噴く",
+            "furigana": "ふく",
+            "romanji": "fuku",
+            "meanings": {
+              "id": "menyemprotkan",
+              "en": "to spray"
+            }
+          },
+          {
+            "id": 2,
+            "word": "噴射",
+            "furigana": "ふんしゃ",
+            "romanji": "funsha",
+            "meanings": {
+              "id": "semprotan",
+              "en": "spray"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フン",
+        "romanji": "fun",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyemprotkan, semprotan",
+    "en": "to spray, spray"
+  }
+}

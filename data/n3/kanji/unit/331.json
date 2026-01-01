@@ -1,0 +1,58 @@
+{
+  "id": 331,
+  "character": "富",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "富む",
+            "furigana": "とむ",
+            "romanji": "tomu",
+            "meanings": {
+              "id": "kaya, berlimpah",
+              "en": "to be rich, abundant"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "とみ",
+        "romanji": "tomi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "富裕",
+            "furigana": "ふゆう",
+            "romanji": "fuyuu",
+            "meanings": {
+              "id": "kaya, makmur",
+              "en": "rich, prosperous"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "フウ",
+        "romanji": "fuu",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kaya, berlimpah, makmur",
+    "en": "rich, abundant, prosperous"
+  }
+}

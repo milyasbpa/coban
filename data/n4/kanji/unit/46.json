@@ -1,0 +1,58 @@
+{
+  "id": 46,
+  "character": "住",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 1,
+            "word": "住む",
+            "furigana": "すむ",
+            "romanji": "sumu",
+            "meanings": {
+              "id": "tinggal",
+              "en": "to live"
+            }
+          },
+          {
+            "id": 2,
+            "word": "住まい",
+            "furigana": "すまい",
+            "romanji": "sumai",
+            "meanings": {
+              "id": "tempat tinggal",
+              "en": "residence"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "住所",
+            "furigana": "じゅうしょ",
+            "romanji": "juusho",
+            "meanings": {
+              "id": "alamat",
+              "en": "address"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tinggal",
+    "en": "live, reside"
+  }
+}

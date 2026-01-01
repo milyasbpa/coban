@@ -1,0 +1,47 @@
+{
+  "id": 276,
+  "character": "筋",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すじ",
+        "romanji": "suji",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キン",
+        "romanji": "kin",
+        "examples": [
+          {
+            "id": 1,
+            "word": "脚筋",
+            "furigana": "きゃくきん",
+            "romanji": "kyakukin",
+            "meanings": {
+              "id": "otot kaki",
+              "en": "leg muscle"
+            }
+          },
+          {
+            "id": 2,
+            "word": "筋肉",
+            "furigana": "きんにく",
+            "romanji": "kinniku",
+            "meanings": {
+              "id": "otot, urat",
+              "en": "muscle, tendon"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "otot kaki, otot, urat",
+    "en": "leg muscle, muscle, tendon"
+  }
+}

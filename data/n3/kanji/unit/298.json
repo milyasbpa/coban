@@ -1,0 +1,41 @@
+{
+  "id": 298,
+  "character": "部",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "学部",
+            "furigana": "がくぶ",
+            "romanji": "gakubu",
+            "meanings": {
+              "id": "fakultas",
+              "en": "faculty"
+            }
+          },
+          {
+            "id": 2,
+            "word": "部分",
+            "furigana": "ぶぶん",
+            "romanji": "bubun",
+            "meanings": {
+              "id": "bagian, porsi",
+              "en": "part, portion"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "fakultas, bagian, porsi",
+    "en": "faculty, part, portion"
+  }
+}

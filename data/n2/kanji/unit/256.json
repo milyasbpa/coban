@@ -1,0 +1,48 @@
+{
+  "id": 256,
+  "character": "乾",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かわ",
+        "romanji": "kawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "乾く",
+            "furigana": "かわく",
+            "romanji": "kawaku",
+            "meanings": {
+              "id": "kering",
+              "en": "to dry"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "乾燥",
+            "furigana": "かんそう",
+            "romanji": "kansou",
+            "meanings": {
+              "id": "keadaan kering",
+              "en": "dryness"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kering, keadaan kering",
+    "en": "dry, dryness"
+  }
+}

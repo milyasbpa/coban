@@ -1,0 +1,55 @@
+{
+  "id": 5,
+  "character": "心",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こころ",
+        "romanji": "kokoro",
+        "examples": []
+      },
+      {
+        "furigana": "ごころ",
+        "romanji": "gokoro",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "心配",
+            "furigana": "しんぱい",
+            "romanji": "shinpai",
+            "meanings": {
+              "id": "khawatir",
+              "en": "worry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "親心",
+          "furigana": "おやごころ",
+          "romanji": "oyagokoro",
+          "meanings": {
+            "id": "cinta kasih orangtua",
+            "en": "parental love"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "hati, pikiran",
+    "en": "heart, mind"
+  }
+}

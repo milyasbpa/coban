@@ -1,0 +1,74 @@
+{
+  "id": 7,
+  "character": "太",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふと",
+        "romanji": "futo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "太る",
+            "furigana": "ふとる",
+            "romanji": "futoru",
+            "meanings": {
+              "id": "gemuk",
+              "en": "fat"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タ",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 2,
+            "word": "太刀",
+            "furigana": "たち",
+            "romanji": "tachi",
+            "meanings": {
+              "id": "pedang",
+              "en": "sword"
+            }
+          },
+          {
+            "id": 3,
+            "word": "太陽",
+            "furigana": "たいよう",
+            "romanji": "taiyou",
+            "meanings": {
+              "id": "matahari",
+              "en": "sun"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "太陽",
+            "furigana": "たいよう",
+            "romanji": "taiyou",
+            "meanings": {
+              "id": "matahari",
+              "en": "sun"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gemuk, pedang, matahari",
+    "en": "fat, sword, sun"
+  }
+}

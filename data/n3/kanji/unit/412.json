@@ -1,0 +1,48 @@
+{
+  "id": 412,
+  "character": "構",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かま",
+        "romanji": "kama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "構える",
+            "furigana": "かまえる",
+            "romanji": "kamaeru",
+            "meanings": {
+              "id": "membangun",
+              "en": "to build"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "構造",
+            "furigana": "こうぞう",
+            "romanji": "kouzou",
+            "meanings": {
+              "id": "struktur, susunan",
+              "en": "structure, composition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membangun, struktur, susunan",
+    "en": "build, structure, composition"
+  }
+}

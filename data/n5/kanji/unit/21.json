@@ -1,0 +1,48 @@
+{
+  "id": 21,
+  "character": "五",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いつ",
+        "romanji": "itsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "五つ",
+            "furigana": "いつつ",
+            "romanji": "itsutsu",
+            "meanings": {
+              "id": "lima buah",
+              "en": "five"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 2,
+            "word": "五年",
+            "furigana": "ごねん",
+            "romanji": "gonen",
+            "meanings": {
+              "id": "lima tahun",
+              "en": "five years"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lima",
+    "en": "five"
+  }
+}

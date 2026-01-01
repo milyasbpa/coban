@@ -1,0 +1,71 @@
+{
+  "id": 8,
+  "character": "三",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みっ",
+        "romanji": "mit",
+        "examples": [
+          {
+            "id": 1,
+            "word": "三つ",
+            "furigana": "みっつ",
+            "romanji": "mittsu",
+            "meanings": {
+              "id": "tiga buah",
+              "en": "three"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サン",
+        "romanji": "san",
+        "examples": [
+          {
+            "id": 3,
+            "word": "三年",
+            "furigana": "さんねん",
+            "romanji": "sannen",
+            "meanings": {
+              "id": "tiga tahun",
+              "en": "three years"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "三重",
+          "furigana": "みえ",
+          "romanji": "mie",
+          "meanings": {
+            "id": "tiga lapis",
+            "en": "three layers"
+          }
+        },
+        {
+          "id": 4,
+          "word": "千葉",
+          "furigana": "ちば",
+          "romanji": "chiba",
+          "meanings": {
+            "id": "nama tempat Chiba",
+            "en": "Chiba (place name)"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tiga",
+    "en": "three"
+  }
+}

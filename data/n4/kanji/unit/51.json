@@ -1,0 +1,47 @@
+{
+  "id": 51,
+  "character": "役",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ヤク",
+        "romanji": "yaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "役に立つ",
+            "furigana": "やくにたつ",
+            "romanji": "yakunitatsu",
+            "meanings": {
+              "id": "berguna",
+              "en": "to be useful"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "エキ",
+        "romanji": "eki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "兵役",
+            "furigana": "へいえき",
+            "romanji": "heieki",
+            "meanings": {
+              "id": "dinas kemiliteran",
+              "en": "military service"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berguna",
+    "en": "role, service"
+  }
+}

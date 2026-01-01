@@ -1,0 +1,48 @@
+{
+  "id": 230,
+  "character": "容",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "容れる",
+            "furigana": "いれる",
+            "romanji": "ireru",
+            "meanings": {
+              "id": "memasukkan",
+              "en": "to insert"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "内容",
+            "furigana": "ないよう",
+            "romanji": "naiyou",
+            "meanings": {
+              "id": "isi, inti",
+              "en": "content, core"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memasukkan, isi, inti",
+    "en": "insert, content, core"
+  }
+}

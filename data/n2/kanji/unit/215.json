@@ -1,0 +1,48 @@
+{
+  "id": 215,
+  "character": "異",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こと",
+        "romanji": "koto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "異なる",
+            "furigana": "ことなる",
+            "romanji": "kotonaru",
+            "meanings": {
+              "id": "berbeda, berlainan",
+              "en": "different, various"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 2,
+            "word": "異文化",
+            "furigana": "いぶんか",
+            "romanji": "ibunka",
+            "meanings": {
+              "id": "kebudayaan berbeda",
+              "en": "different culture"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berbeda, berlainan, kebudayaan berbeda",
+    "en": "different, various, different culture"
+  }
+}

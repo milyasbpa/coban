@@ -1,0 +1,64 @@
+{
+  "id": 95,
+  "character": "借",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "借りる",
+            "furigana": "かりる",
+            "romanji": "kariru",
+            "meanings": {
+              "id": "meminjam",
+              "en": "to borrow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャク",
+        "romanji": "shaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "借家",
+            "furigana": "しゃくや",
+            "romanji": "shakuya",
+            "meanings": {
+              "id": "rumah sewaan",
+              "en": "rented house"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シャッ",
+        "romanji": "shat",
+        "examples": [
+          {
+            "id": 3,
+            "word": "借金",
+            "furigana": "しゃっきん",
+            "romanji": "shakkin",
+            "meanings": {
+              "id": "hutang",
+              "en": "debt"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meminjam",
+    "en": "borrow, rent"
+  }
+}

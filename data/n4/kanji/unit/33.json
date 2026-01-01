@@ -1,0 +1,74 @@
+{
+  "id": 33,
+  "character": "色",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いろ",
+        "romanji": "iro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "色",
+            "furigana": "いろ",
+            "romanji": "iro",
+            "meanings": {
+              "id": "warna",
+              "en": "color"
+            }
+          },
+          {
+            "id": 2,
+            "word": "色々",
+            "furigana": "いろいろ",
+            "romanji": "iroiro",
+            "meanings": {
+              "id": "macam-macam",
+              "en": "various"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショク",
+        "romanji": "shoku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "特色",
+            "furigana": "とくしょく",
+            "romanji": "tokushoku",
+            "meanings": {
+              "id": "karakteristik",
+              "en": "characteristic"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シキ",
+        "romanji": "shiki",
+        "examples": [
+          {
+            "id": 4,
+            "word": "景色",
+            "furigana": "けしき",
+            "romanji": "keshiki",
+            "meanings": {
+              "id": "pemandangan",
+              "en": "scenery"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "warna",
+    "en": "color"
+  }
+}

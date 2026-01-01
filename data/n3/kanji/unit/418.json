@@ -1,0 +1,53 @@
+{
+  "id": 418,
+  "character": "緑",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みどり",
+        "romanji": "midori",
+        "examples": [
+          {
+            "id": 1,
+            "word": "緑",
+            "furigana": "みどり",
+            "romanji": "midori",
+            "meanings": {
+              "id": "hijau",
+              "en": "green"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リョク",
+        "romanji": "ryoku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "緑茶",
+            "furigana": "りょくちゃ",
+            "romanji": "ryokucha",
+            "meanings": {
+              "id": "teh hijau",
+              "en": "green tea"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ロク",
+        "romanji": "roku",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hijau, teh hijau",
+    "en": "green, green tea"
+  }
+}

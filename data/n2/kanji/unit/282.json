@@ -1,0 +1,47 @@
+{
+  "id": 282,
+  "character": "童",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わらべ",
+        "romanji": "warabe",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "童謡",
+            "furigana": "どうよう",
+            "romanji": "douyou",
+            "meanings": {
+              "id": "lagu anak-anak",
+              "en": "children's song"
+            }
+          },
+          {
+            "id": 2,
+            "word": "童話",
+            "furigana": "どうわ",
+            "romanji": "douwa",
+            "meanings": {
+              "id": "cerita anak-anak",
+              "en": "children's story"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lagu anak-anak, cerita anak-anak",
+    "en": "children's song, children's story"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 213,
+  "character": "益",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "エキ",
+        "romanji": "eki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "利益",
+            "furigana": "りえき",
+            "romanji": "rieki",
+            "meanings": {
+              "id": "keuntungan",
+              "en": "profit"
+            }
+          },
+          {
+            "id": 2,
+            "word": "有益",
+            "furigana": "ゆうえき",
+            "romanji": "yuu'eki",
+            "meanings": {
+              "id": "kegunaan",
+              "en": "usefulness"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ヤク",
+        "romanji": "yaku",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keuntungan, kebenaran, kegunaan",
+    "en": "profit, benefit, usefulness"
+  }
+}

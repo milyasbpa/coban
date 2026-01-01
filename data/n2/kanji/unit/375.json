@@ -1,0 +1,106 @@
+{
+  "id": 375,
+  "character": "端",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はし",
+        "romanji": "hashi",
+        "examples": []
+      },
+      {
+        "furigana": "ば",
+        "romanji": "ba",
+        "examples": []
+      },
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 3,
+            "word": "端数",
+            "furigana": "はすう",
+            "romanji": "hasuu",
+            "meanings": {
+              "id": "angka pecahan",
+              "en": "fraction"
+            }
+          },
+          {
+            "id": 4,
+            "word": "半端",
+            "furigana": "はんぱ",
+            "romanji": "hanpa",
+            "meanings": {
+              "id": "kepalang-tanggung",
+              "en": "half-hearted"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぱ",
+        "romanji": "pa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タン",
+        "romanji": "tan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "両端",
+            "furigana": "りょうたん",
+            "romanji": "ryoutan",
+            "meanings": {
+              "id": "kedua ujung",
+              "en": "both ends"
+            }
+          },
+          {
+            "id": 6,
+            "word": "極端",
+            "furigana": "きょくたん",
+            "romanji": "kyokutan",
+            "meanings": {
+              "id": "ekstrim, radikal",
+              "en": "extreme, radical"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "道端",
+          "furigana": "みちばた",
+          "romanji": "michibata",
+          "meanings": {
+            "id": "pinggir jalan",
+            "en": "roadside"
+          }
+        },
+        {
+          "id": 5,
+          "word": "軒端",
+          "furigana": "のきば",
+          "romanji": "nokiba",
+          "meanings": {
+            "id": "tepi lisplang",
+            "en": "eaves"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kedua ujung, pinggir jalan, angka pecahan, kepalang-tanggung, tepi lisplang, ekstrim, radikal",
+    "en": "edge, end, roadside, fraction, half-hearted, eaves, extreme, radical"
+  }
+}

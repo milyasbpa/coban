@@ -1,0 +1,51 @@
+{
+  "id": 134,
+  "character": "意",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "意味",
+            "furigana": "いみ",
+            "romanji": "imi",
+            "meanings": {
+              "id": "arti",
+              "en": "meaning"
+            }
+          },
+          {
+            "id": 2,
+            "word": "意見",
+            "furigana": "いけん",
+            "romanji": "iken",
+            "meanings": {
+              "id": "pendapat",
+              "en": "opinion"
+            }
+          },
+          {
+            "id": 3,
+            "word": "注意",
+            "furigana": "ちゅうい",
+            "romanji": "chuui",
+            "meanings": {
+              "id": "perhatian",
+              "en": "attention"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "arti",
+    "en": "meaning, intention"
+  }
+}

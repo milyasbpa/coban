@@ -1,0 +1,48 @@
+{
+  "id": 88,
+  "character": "岩",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いわ",
+        "romanji": "iwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "岩場",
+            "furigana": "いわば",
+            "romanji": "iwaba",
+            "meanings": {
+              "id": "tempat berbatu karang",
+              "en": "rocky place"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガン",
+        "romanji": "gan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "岩石",
+            "furigana": "がんせき",
+            "romanji": "ganseki",
+            "meanings": {
+              "id": "batu karang",
+              "en": "coral rock"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tempat berbatu karang, batu karang",
+    "en": "rocky place, coral rock"
+  }
+}

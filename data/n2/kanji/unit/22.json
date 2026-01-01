@@ -1,0 +1,31 @@
+{
+  "id": 22,
+  "character": "庁",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "官庁",
+            "furigana": "かんちょう",
+            "romanji": "kanchou",
+            "meanings": {
+              "id": "kantor pemerintahan",
+              "en": "government office"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kantor pemerintahan",
+    "en": "government office"
+  }
+}

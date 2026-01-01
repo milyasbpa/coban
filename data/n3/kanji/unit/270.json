@@ -1,0 +1,53 @@
+{
+  "id": 270,
+  "character": "探",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さが",
+        "romanji": "saga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "探す",
+            "furigana": "さがす",
+            "romanji": "sagasu",
+            "meanings": {
+              "id": "mencari",
+              "en": "to search"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さぐ",
+        "romanji": "sagu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タン",
+        "romanji": "tan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "探検",
+            "furigana": "たんけん",
+            "romanji": "tanken",
+            "meanings": {
+              "id": "eksplorasi",
+              "en": "exploration"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencari, eksplorasi",
+    "en": "search, exploration"
+  }
+}

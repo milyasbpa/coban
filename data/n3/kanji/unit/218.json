@@ -1,0 +1,74 @@
+{
+  "id": 218,
+  "character": "除",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "のぞ",
+        "romanji": "nozo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "除く",
+            "furigana": "のぞく",
+            "romanji": "nozoku",
+            "meanings": {
+              "id": "membasmi, meniadakan",
+              "en": "eliminate, remove"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "掃除",
+            "furigana": "そうじ",
+            "romanji": "souji",
+            "meanings": {
+              "id": "pembenahan",
+              "en": "improvement"
+            }
+          },
+          {
+            "id": 3,
+            "word": "除外",
+            "furigana": "じょがい",
+            "romanji": "jogai",
+            "meanings": {
+              "id": "pengecualian",
+              "en": "exception"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョ",
+        "romanji": "jo",
+        "examples": [
+          {
+            "id": 3,
+            "word": "除外",
+            "furigana": "じょがい",
+            "romanji": "jogai",
+            "meanings": {
+              "id": "pengecualian",
+              "en": "exception"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membasmi, meniadakan, pembenahan, pengecualian",
+    "en": "eliminate, remove, improvement, exception"
+  }
+}

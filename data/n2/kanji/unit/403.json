@@ -1,0 +1,48 @@
+{
+  "id": 403,
+  "character": "撃",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 1,
+            "word": "撃つ",
+            "furigana": "うつ",
+            "romanji": "utsu",
+            "meanings": {
+              "id": "menembak",
+              "en": "to shoot"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲキ",
+        "romanji": "geki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "撃破",
+            "furigana": "げきは",
+            "romanji": "gekiha",
+            "meanings": {
+              "id": "serangan memusnahkan",
+              "en": "annihilation attack"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menembak, serangan memusnahkan",
+    "en": "to shoot, annihilation attack"
+  }
+}

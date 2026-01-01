@@ -1,0 +1,48 @@
+{
+  "id": 224,
+  "character": "馬",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うま",
+        "romanji": "uma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "馬",
+            "furigana": "うま",
+            "romanji": "uma",
+            "meanings": {
+              "id": "kuda",
+              "en": "horse"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "バ",
+        "romanji": "ba",
+        "examples": [
+          {
+            "id": 2,
+            "word": "馬鹿",
+            "furigana": "ばか",
+            "romanji": "baka",
+            "meanings": {
+              "id": "bodoh",
+              "en": "foolish"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kuda, bodoh",
+    "en": "horse, foolish"
+  }
+}

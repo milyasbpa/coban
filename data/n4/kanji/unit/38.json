@@ -1,0 +1,47 @@
+{
+  "id": 38,
+  "character": "死",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "し",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "死ぬ",
+            "furigana": "しぬ",
+            "romanji": "shinu",
+            "meanings": {
+              "id": "mati, meninggal",
+              "en": "to die"
+            }
+          },
+          {
+            "id": 2,
+            "word": "死体",
+            "furigana": "したい",
+            "romanji": "shitai",
+            "meanings": {
+              "id": "jasad, mayat",
+              "en": "dead body"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mati, meninggal",
+    "en": "death, die"
+  }
+}

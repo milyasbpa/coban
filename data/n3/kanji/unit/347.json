@@ -1,0 +1,48 @@
+{
+  "id": 347,
+  "character": "報",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むく",
+        "romanji": "muku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "報いる",
+            "furigana": "むくいる",
+            "romanji": "mukuiru",
+            "meanings": {
+              "id": "memberikan imbalan",
+              "en": "to reward"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "報告",
+            "furigana": "ほうこく",
+            "romanji": "houkoku",
+            "meanings": {
+              "id": "laporan",
+              "en": "report"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memberikan imbalan, laporan",
+    "en": "reward, report"
+  }
+}

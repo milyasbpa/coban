@@ -1,0 +1,48 @@
+{
+  "id": 416,
+  "character": "認",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みと",
+        "romanji": "mito",
+        "examples": [
+          {
+            "id": 1,
+            "word": "認める",
+            "furigana": "みとめる",
+            "romanji": "mitomeru",
+            "meanings": {
+              "id": "mengakui",
+              "en": "admit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ニン",
+        "romanji": "nin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "認識",
+            "furigana": "にんしき",
+            "romanji": "ninshiki",
+            "meanings": {
+              "id": "kenal, paham",
+              "en": "recognize, understand"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengakui, kenal, paham",
+    "en": "admit, recognize, understand"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 255,
+  "character": "章",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "文章",
+            "furigana": "ぶんしょう",
+            "romanji": "bunshou",
+            "meanings": {
+              "id": "karangan, tulisan",
+              "en": "writing, composition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "karangan, tulisan",
+    "en": "chapter, writing"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 351,
+  "character": "費",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つい",
+        "romanji": "tsui",
+        "examples": [
+          {
+            "id": 1,
+            "word": "費やす",
+            "furigana": "ついやす",
+            "romanji": "tsuiyasu",
+            "meanings": {
+              "id": "menghabiskan, memboroskan",
+              "en": "to spend, to waste"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "費用",
+            "furigana": "ひよう",
+            "romanji": "hiyou",
+            "meanings": {
+              "id": "biaya, ongkos",
+              "en": "cost, fee"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menghabiskan, memboroskan, biaya, ongkos",
+    "en": "spend, waste, cost, fee"
+  }
+}

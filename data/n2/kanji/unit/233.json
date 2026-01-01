@@ -1,0 +1,48 @@
+{
+  "id": 233,
+  "character": "崎",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さき",
+        "romanji": "saki",
+        "examples": []
+      },
+      {
+        "furigana": "ざき",
+        "romanji": "zaki",
+        "examples": []
+      }
+    ],
+    "on": [],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "高崎市",
+          "furigana": "たかさきし",
+          "romanji": "takasaki-shi",
+          "meanings": {
+            "id": "(nama kota) Takasaki",
+            "en": "Takasaki (city)"
+          }
+        },
+        {
+          "id": 2,
+          "word": "宮崎",
+          "furigana": "みやざき",
+          "romanji": "miyazaki",
+          "meanings": {
+            "id": "(nama tempat) Miyazaki",
+            "en": "Miyazaki (place name)"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "(nama kota) Takasaki, (nama tempat) Miyazaki",
+    "en": "Takasaki (city), Miyazaki (place name)"
+  }
+}

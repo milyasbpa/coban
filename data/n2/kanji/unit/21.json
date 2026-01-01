@@ -1,0 +1,31 @@
+{
+  "id": 21,
+  "character": "圧",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "アツ",
+        "romanji": "atsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "血圧",
+            "furigana": "けつあつ",
+            "romanji": "ketsuatsu",
+            "meanings": {
+              "id": "tekanan darah",
+              "en": "blood pressure"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tekanan darah",
+    "en": "pressure"
+  }
+}

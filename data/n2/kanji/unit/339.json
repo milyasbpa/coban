@@ -1,0 +1,48 @@
+{
+  "id": 339,
+  "character": "携",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たずさ",
+        "romanji": "tazusa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "携わる",
+            "furigana": "たずさわる",
+            "romanji": "tazusawaru",
+            "meanings": {
+              "id": "mengambil bagian",
+              "en": "to participate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "携帯",
+            "furigana": "けいたい",
+            "romanji": "keitai",
+            "meanings": {
+              "id": "bawa",
+              "en": "to carry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengambil bagian, bawa",
+    "en": "to participate, to carry"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 49,
+  "character": "回",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まわ",
+        "romanji": "mawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "回る",
+            "furigana": "まわる",
+            "romanji": "mawaru",
+            "meanings": {
+              "id": "berputar, berkeliling",
+              "en": "to turn; to go around"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "回答",
+            "furigana": "かいとう",
+            "romanji": "kaitou",
+            "meanings": {
+              "id": "jawaban",
+              "en": "answer; reply"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berputar, berkeliling",
+    "en": "turn, rotate"
+  }
+}

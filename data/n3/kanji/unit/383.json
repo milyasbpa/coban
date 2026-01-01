@@ -1,0 +1,48 @@
+{
+  "id": 383,
+  "character": "園",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "その",
+        "romanji": "sono",
+        "examples": [
+          {
+            "id": 2,
+            "word": "園",
+            "furigana": "その",
+            "romanji": "sono",
+            "meanings": {
+              "id": "taman, kebun",
+              "en": "garden, park"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エン",
+        "romanji": "en",
+        "examples": [
+          {
+            "id": 1,
+            "word": "園芸",
+            "furigana": "えんげい",
+            "romanji": "engei",
+            "meanings": {
+              "id": "teknik perkebunan",
+              "en": "horticulture"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kebun, taman, teknik perkebunan",
+    "en": "garden, park, horticulture"
+  }
+}

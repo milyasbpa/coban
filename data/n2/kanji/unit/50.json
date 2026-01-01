@@ -1,0 +1,48 @@
+{
+  "id": 50,
+  "character": "羊",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひつじ",
+        "romanji": "hitsuji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "羊",
+            "furigana": "ひつじ",
+            "romanji": "hitsuji",
+            "meanings": {
+              "id": "domba, biri-biri",
+              "en": "sheep"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "羊毛",
+            "furigana": "ようもう",
+            "romanji": "youmou",
+            "meanings": {
+              "id": "bulu domba, wool",
+              "en": "wool"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "domba, biri-biri, bulu domba, wool",
+    "en": "sheep, wool"
+  }
+}

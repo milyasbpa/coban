@@ -1,0 +1,48 @@
+{
+  "id": 222,
+  "character": "眠",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ねむ",
+        "romanji": "nemu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "眠い",
+            "furigana": "ねむい",
+            "romanji": "nemui",
+            "meanings": {
+              "id": "mengantuk",
+              "en": "sleepy"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ミン",
+        "romanji": "min",
+        "examples": [
+          {
+            "id": 2,
+            "word": "冬眠",
+            "furigana": "とうみん",
+            "romanji": "toumin",
+            "meanings": {
+              "id": "tidur musim dingin",
+              "en": "hibernation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengantuk, tidur musim dingin",
+    "en": "sleepy, hibernation"
+  }
+}

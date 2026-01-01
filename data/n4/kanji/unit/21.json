@@ -1,0 +1,48 @@
+{
+  "id": 21,
+  "character": "広",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひろ",
+        "romanji": "hiro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "広い",
+            "furigana": "ひろい",
+            "romanji": "hiroi",
+            "meanings": {
+              "id": "luas",
+              "en": "wide"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "広告",
+            "furigana": "こうこく",
+            "romanji": "koukoku",
+            "meanings": {
+              "id": "iklan",
+              "en": "advertisement"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "luas",
+    "en": "wide, spacious"
+  }
+}

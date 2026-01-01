@@ -1,0 +1,36 @@
+{
+  "id": 405,
+  "character": "精",
+  "strokes": 14,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": []
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "不精",
+            "furigana": "ぶしょう",
+            "romanji": "bushou",
+            "meanings": {
+              "id": "malas, lamban",
+              "en": "lazy, indolent"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "malas, lamban",
+    "en": "lazy, slow"
+  }
+}

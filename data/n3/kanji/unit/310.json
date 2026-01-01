@@ -1,0 +1,63 @@
+{
+  "id": 310,
+  "character": "混",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "混じる",
+            "furigana": "まじる",
+            "romanji": "majiru",
+            "meanings": {
+              "id": "bercampur",
+              "en": "to mix"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "混雑",
+            "furigana": "こんざつ",
+            "romanji": "konzatsu",
+            "meanings": {
+              "id": "padat, penuh sesak",
+              "en": "crowded"
+            }
+          },
+          {
+            "id": 3,
+            "word": "混乱",
+            "furigana": "こんらん",
+            "romanji": "konran",
+            "meanings": {
+              "id": "kacau, kalut",
+              "en": "confused"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コン",
+        "romanji": "kon",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bercampur, padat, penuh sesak, kacau, kalut",
+    "en": "mix, crowded, confused"
+  }
+}

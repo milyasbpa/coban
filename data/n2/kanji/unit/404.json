@@ -1,0 +1,47 @@
+{
+  "id": 404,
+  "character": "輩",
+  "strokes": 15,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ハイ",
+        "romanji": "hai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "後輩",
+            "furigana": "こうはい",
+            "romanji": "kouhai",
+            "meanings": {
+              "id": "junior, adik kelas",
+              "en": "junior"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "パイ",
+        "romanji": "pai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "先輩",
+            "furigana": "せんぱい",
+            "romanji": "senpai",
+            "meanings": {
+              "id": "senior, kakak kelas",
+              "en": "senior"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "junior, adik kelas, senior, kakak kelas",
+    "en": "junior, senior"
+  }
+}

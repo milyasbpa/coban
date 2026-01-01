@@ -1,0 +1,48 @@
+{
+  "id": 416,
+  "character": "激",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はげ",
+        "romanji": "hage",
+        "examples": [
+          {
+            "id": 1,
+            "word": "激しい",
+            "furigana": "はげしい",
+            "romanji": "hageshii",
+            "meanings": {
+              "id": "dahsyat, hebat",
+              "en": "intense, great"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲキ",
+        "romanji": "geki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "激励",
+            "furigana": "げきれい",
+            "romanji": "gekirei",
+            "meanings": {
+              "id": "dorongan (semangat)",
+              "en": "encouragement"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dahsyat, hebat, dorongan (semangat)",
+    "en": "intense, great, encouragement"
+  }
+}

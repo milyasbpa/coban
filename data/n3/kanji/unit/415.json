@@ -1,0 +1,48 @@
+{
+  "id": 415,
+  "character": "誤",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あやま",
+        "romanji": "ayama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "誤る",
+            "furigana": "あやまる",
+            "romanji": "ayamaru",
+            "meanings": {
+              "id": "salah, keliru",
+              "en": "wrong, mistake"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 2,
+            "word": "誤解",
+            "furigana": "ごかい",
+            "romanji": "gokai",
+            "meanings": {
+              "id": "salah paham",
+              "en": "misunderstanding"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "salah, keliru, salah paham",
+    "en": "wrong, mistake, misunderstanding"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 208,
+  "character": "致",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いた",
+        "romanji": "ita",
+        "examples": [
+          {
+            "id": 1,
+            "word": "致す",
+            "furigana": "いたす",
+            "romanji": "itasu",
+            "meanings": {
+              "id": "melakukan, berbuat",
+              "en": "to do, to perform"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チ",
+        "romanji": "chi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "致命的",
+            "furigana": "ちめいてき",
+            "romanji": "chimeiteki",
+            "meanings": {
+              "id": "fatal, mematikan",
+              "en": "fatal, deadly"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melakukan, berbuat, fatal, mematikan",
+    "en": "to do, fatal, deadly"
+  }
+}

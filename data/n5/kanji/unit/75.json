@@ -1,0 +1,64 @@
+{
+  "id": 75,
+  "character": "雨",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あめ",
+        "romanji": "ame",
+        "examples": [
+          {
+            "id": 1,
+            "word": "雨",
+            "furigana": "あめ",
+            "romanji": "ame",
+            "meanings": {
+              "id": "hujan",
+              "en": "rain"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "あま",
+        "romanji": "ama",
+        "examples": [
+          {
+            "id": 2,
+            "word": "雨傘",
+            "furigana": "あまがさ",
+            "romanji": "amagasa",
+            "meanings": {
+              "id": "payung hujan",
+              "en": "umbrella"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ウ",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 3,
+            "word": "梅雨",
+            "furigana": "つゆ",
+            "romanji": "tsuyu",
+            "meanings": {
+              "id": "curah hujan",
+              "en": "rainy season"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hujan",
+    "en": "rain"
+  }
+}

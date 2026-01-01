@@ -1,0 +1,48 @@
+{
+  "id": 29,
+  "character": "安",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やす",
+        "romanji": "yasu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "安い",
+            "furigana": "やすい",
+            "romanji": "yasui",
+            "meanings": {
+              "id": "murah",
+              "en": "cheap"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "アン",
+        "romanji": "an",
+        "examples": [
+          {
+            "id": 2,
+            "word": "安全",
+            "furigana": "あんぜん",
+            "romanji": "anzen",
+            "meanings": {
+              "id": "aman",
+              "en": "safe"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "murah",
+    "en": "cheap, peaceful"
+  }
+}

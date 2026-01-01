@@ -1,0 +1,80 @@
+{
+  "id": 269,
+  "character": "盛",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "も",
+        "romanji": "mo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "盛る",
+            "furigana": "もる",
+            "romanji": "moru",
+            "meanings": {
+              "id": "menghidangkan",
+              "en": "to serve"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さか",
+        "romanji": "saka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "盛ん",
+            "furigana": "さかん",
+            "romanji": "sakan",
+            "meanings": {
+              "id": "aktif, maju",
+              "en": "active, prosperous"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 3,
+            "word": "盛大",
+            "furigana": "せいだい",
+            "romanji": "seidai",
+            "meanings": {
+              "id": "megah, besar-besaran",
+              "en": "grand, magnificent"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "繁盛",
+            "furigana": "はんじょう",
+            "romanji": "hanjou",
+            "meanings": {
+              "id": "kemakmuran",
+              "en": "prosperity"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menghidangkan, aktif, maju, megah, besar-besaran, kemakmuran",
+    "en": "to serve, active, prosperous, grand, prosperity"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": 131,
+  "character": "働",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はたら",
+        "romanji": "hatara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "働く",
+            "furigana": "はたらく",
+            "romanji": "hataraku",
+            "meanings": {
+              "id": "bekerja",
+              "en": "to work"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "労働",
+            "furigana": "ろうどう",
+            "romanji": "roudou",
+            "meanings": {
+              "id": "kerja, pekerjaan",
+              "en": "labor"
+            }
+          },
+          {
+            "id": 3,
+            "word": "労働者",
+            "furigana": "ろうどうしゃ",
+            "romanji": "roudousha",
+            "meanings": {
+              "id": "buruh, pekerja",
+              "en": "worker"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bekerja",
+    "en": "work"
+  }
+}

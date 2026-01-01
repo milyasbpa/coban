@@ -1,0 +1,68 @@
+{
+  "id": 180,
+  "character": "面",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おも",
+        "romanji": "omo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "面白い",
+            "furigana": "おもしろい",
+            "romanji": "omoshiroi",
+            "meanings": {
+              "id": "menarik",
+              "en": "interesting"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "おもて",
+        "romanji": "omote",
+        "examples": []
+      },
+      {
+        "furigana": "つら",
+        "romanji": "tsura",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "メン",
+        "romanji": "men",
+        "examples": [
+          {
+            "id": 2,
+            "word": "面接",
+            "furigana": "めんせつ",
+            "romanji": "mensetsu",
+            "meanings": {
+              "id": "wawancara",
+              "en": "interview"
+            }
+          },
+          {
+            "id": 3,
+            "word": "面",
+            "furigana": "めん",
+            "romanji": "men",
+            "meanings": {
+              "id": "permukaan, wajah",
+              "en": "surface, face"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menarik, wawancara, permukaan, wajah",
+    "en": "interesting, interview, surface, face"
+  }
+}

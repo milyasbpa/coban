@@ -1,0 +1,64 @@
+{
+  "id": 13,
+  "character": "土",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つち",
+        "romanji": "tsuchi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "土",
+            "furigana": "つち",
+            "romanji": "tsuchi",
+            "meanings": {
+              "id": "tanah",
+              "en": "soil"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ド",
+        "romanji": "do",
+        "examples": [
+          {
+            "id": 2,
+            "word": "土曜日",
+            "furigana": "どようび",
+            "romanji": "doyoubi",
+            "meanings": {
+              "id": "hari sabtu",
+              "en": "Saturday"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ト",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 3,
+            "word": "土地",
+            "furigana": "とち",
+            "romanji": "tochi",
+            "meanings": {
+              "id": "tanah, daratan",
+              "en": "land"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tanah",
+    "en": "soil, earth"
+  }
+}

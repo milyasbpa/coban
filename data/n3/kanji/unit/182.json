@@ -1,0 +1,31 @@
+{
+  "id": 182,
+  "character": "点",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "テン",
+        "romanji": "ten",
+        "examples": [
+          {
+            "id": 1,
+            "word": "点数",
+            "furigana": "てんすう",
+            "romanji": "tensuu",
+            "meanings": {
+              "id": "skor",
+              "en": "score"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "angka, nilai, skor",
+    "en": "number, score"
+  }
+}

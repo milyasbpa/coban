@@ -1,0 +1,31 @@
+{
+  "id": 456,
+  "character": "観",
+  "strokes": 18,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "観光",
+            "furigana": "かんこう",
+            "romanji": "kankou",
+            "meanings": {
+              "id": "pariwisata",
+              "en": "tourism"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pariwisata",
+    "en": "tourism"
+  }
+}

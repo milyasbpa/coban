@@ -1,0 +1,48 @@
+{
+  "id": 341,
+  "character": "晴",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "晴れる",
+            "furigana": "はれる",
+            "romanji": "hareru",
+            "meanings": {
+              "id": "menjadi cerah",
+              "en": "to become clear"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "晴天",
+            "furigana": "せいてん",
+            "romanji": "seiten",
+            "meanings": {
+              "id": "cuaca cerah",
+              "en": "clear weather"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menjadi cerah, cuaca cerah",
+    "en": "become clear, clear weather"
+  }
+}

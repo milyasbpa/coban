@@ -1,0 +1,74 @@
+{
+  "id": 76,
+  "character": "再",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふたた",
+        "romanji": "futata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "再び",
+            "furigana": "ふたたび",
+            "romanji": "futatabi",
+            "meanings": {
+              "id": "lagi",
+              "en": "again"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "再開",
+            "furigana": "さいかい",
+            "romanji": "saikai",
+            "meanings": {
+              "id": "pembukaan kembali",
+              "en": "reopening"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "サ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "再開",
+            "furigana": "さいかい",
+            "romanji": "saikai",
+            "meanings": {
+              "id": "pembukaan kembali",
+              "en": "reopening"
+            }
+          },
+          {
+            "id": 3,
+            "word": "再来週",
+            "furigana": "さらいしゅう",
+            "romanji": "saraishuu",
+            "meanings": {
+              "id": "2 minggu yang akan datang",
+              "en": "two weeks later"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lagi",
+    "en": "again"
+  }
+}

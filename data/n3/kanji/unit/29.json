@@ -1,0 +1,64 @@
+{
+  "id": 29,
+  "character": "必",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かなら",
+        "romanji": "kanara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "必ず",
+            "furigana": "かならず",
+            "romanji": "kanarazu",
+            "meanings": {
+              "id": "selalu, tanpa terkecuali",
+              "en": "always, without exception, surely"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒツ",
+        "romanji": "hitsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "必要",
+            "furigana": "ひつよう",
+            "romanji": "hitsuyou",
+            "meanings": {
+              "id": "penting, perlu",
+              "en": "necessary"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ヒッ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "必要",
+            "furigana": "ひつよう",
+            "romanji": "hitsuyou",
+            "meanings": {
+              "id": "penting, perlu",
+              "en": "necessary"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "selalu, tanpa terkecuali",
+    "en": "necessary"
+  }
+}

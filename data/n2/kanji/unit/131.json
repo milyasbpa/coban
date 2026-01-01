@@ -1,0 +1,80 @@
+{
+  "id": 131,
+  "character": "省",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はぶ",
+        "romanji": "habu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "省く",
+            "furigana": "はぶく",
+            "romanji": "habuku",
+            "meanings": {
+              "id": "menghemat, meniadakan",
+              "en": "to economize, to omit"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かえり",
+        "romanji": "kaeri",
+        "examples": [
+          {
+            "id": 2,
+            "word": "省みる",
+            "furigana": "かえりみる",
+            "romanji": "kaerimiru",
+            "meanings": {
+              "id": "mengintrospeksi",
+              "en": "to introspect"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "省略",
+            "furigana": "しょうりゃく",
+            "romanji": "shouryaku",
+            "meanings": {
+              "id": "singkatan",
+              "en": "abbreviation"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 4,
+            "word": "反省する",
+            "furigana": "はんせいする",
+            "romanji": "hansei suru",
+            "meanings": {
+              "id": "mengintrospeksi",
+              "en": "to reflect, to introspect"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menghemat, meniadakan, mengintrospeksi, singkatan",
+    "en": "to economize, to omit, introspection, abbreviation"
+  }
+}

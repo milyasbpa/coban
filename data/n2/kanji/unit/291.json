@@ -1,0 +1,44 @@
+{
+  "id": 291,
+  "character": "喫",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "キツ",
+        "romanji": "kitsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "喫煙",
+            "furigana": "きつえん",
+            "romanji": "kitsuen",
+            "meanings": {
+              "id": "merokok",
+              "en": "smoking"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "喫茶店",
+          "furigana": "きっさてん",
+          "romanji": "kissaten",
+          "meanings": {
+            "id": "kafe, warung kopi",
+            "en": "cafe, coffee shop"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "merokok, kafe, warung kopi",
+    "en": "smoke, cafe, coffee shop"
+  }
+}

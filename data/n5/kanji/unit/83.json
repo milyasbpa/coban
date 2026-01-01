@@ -1,0 +1,48 @@
+{
+  "id": 83,
+  "character": "秋",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あき",
+        "romanji": "aki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "秋",
+            "furigana": "あき",
+            "romanji": "aki",
+            "meanings": {
+              "id": "musim gugur",
+              "en": "autumn"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "秋季",
+            "furigana": "しゅうき",
+            "romanji": "shuuki",
+            "meanings": {
+              "id": "musim gugur",
+              "en": "autumn season"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "musim gugur",
+    "en": "autumn"
+  }
+}

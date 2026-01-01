@@ -1,0 +1,48 @@
+{
+  "id": 211,
+  "character": "変",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "変わる",
+            "furigana": "かわる",
+            "romanji": "kawaru",
+            "meanings": {
+              "id": "berubah",
+              "en": "to change"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘン",
+        "romanji": "hen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "大変",
+            "furigana": "たいへん",
+            "romanji": "taihen",
+            "meanings": {
+              "id": "sangat",
+              "en": "very"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berubah, sangat",
+    "en": "change, very"
+  }
+}

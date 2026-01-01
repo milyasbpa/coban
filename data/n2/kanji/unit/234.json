@@ -1,0 +1,48 @@
+{
+  "id": 234,
+  "character": "渇",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かわ",
+        "romanji": "kawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "渇く",
+            "furigana": "かわく",
+            "romanji": "kawaku",
+            "meanings": {
+              "id": "haus",
+              "en": "to be thirsty"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カツ",
+        "romanji": "katsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "渇望する",
+            "furigana": "かつぼうする",
+            "romanji": "katsubou suru",
+            "meanings": {
+              "id": "mendambakan",
+              "en": "to long for"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "haus, mendambakan",
+    "en": "thirsty, to long for"
+  }
+}

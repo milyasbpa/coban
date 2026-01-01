@@ -1,0 +1,48 @@
+{
+  "id": 87,
+  "character": "高",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たか",
+        "romanji": "taka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "高い",
+            "furigana": "たかい",
+            "romanji": "takai",
+            "meanings": {
+              "id": "tinggi, mahal",
+              "en": "high, expensive"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "高校",
+            "furigana": "こうこう",
+            "romanji": "koukou",
+            "meanings": {
+              "id": "SMU, SMA",
+              "en": "high school"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tinggi",
+    "en": "high, tall"
+  }
+}

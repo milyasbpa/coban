@@ -1,0 +1,48 @@
+{
+  "id": 285,
+  "character": "球",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たま",
+        "romanji": "tama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "球",
+            "furigana": "たま",
+            "romanji": "tama",
+            "meanings": {
+              "id": "bola, bola lampu",
+              "en": "ball, light bulb"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "地球",
+            "furigana": "ちきゅう",
+            "romanji": "chikyuu",
+            "meanings": {
+              "id": "dunia, bumi",
+              "en": "world, earth"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bola, bola lampu, dunia, bumi",
+    "en": "ball, light bulb, world, earth"
+  }
+}

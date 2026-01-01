@@ -1,0 +1,48 @@
+{
+  "id": 4,
+  "character": "犬",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いぬ",
+        "romanji": "inu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "犬",
+            "furigana": "いぬ",
+            "romanji": "inu",
+            "meanings": {
+              "id": "anjing",
+              "en": "dog"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "番犬",
+            "furigana": "ばんけん",
+            "romanji": "banken",
+            "meanings": {
+              "id": "anjing penjaga",
+              "en": "guard dog"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "anjing",
+    "en": "dog"
+  }
+}

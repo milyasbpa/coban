@@ -1,0 +1,48 @@
+{
+  "id": 100,
+  "character": "技",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わざ",
+        "romanji": "waza",
+        "examples": [
+          {
+            "id": 1,
+            "word": "技",
+            "furigana": "わざ",
+            "romanji": "waza",
+            "meanings": {
+              "id": "kemampuan",
+              "en": "skill"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ギ",
+        "romanji": "gi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "技術",
+            "furigana": "ぎじゅつ",
+            "romanji": "gijutsu",
+            "meanings": {
+              "id": "teknik",
+              "en": "technique"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kemampuan, teknik",
+    "en": "skill, technique"
+  }
+}

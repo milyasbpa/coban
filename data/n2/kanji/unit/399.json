@@ -1,0 +1,48 @@
+{
+  "id": 399,
+  "character": "潔",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いさぎよ",
+        "romanji": "isagiyo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "潔い",
+            "furigana": "いさぎよい",
+            "romanji": "isagiyoi",
+            "meanings": {
+              "id": "lugas, terbuka",
+              "en": "frank, open"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケツ",
+        "romanji": "ketsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "清潔",
+            "furigana": "せいけつ",
+            "romanji": "seiketsu",
+            "meanings": {
+              "id": "bersih, kebersihan",
+              "en": "clean, cleanliness"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lugas, terbuka, bersih, kebersihan",
+    "en": "frank, open, clean, cleanliness"
+  }
+}

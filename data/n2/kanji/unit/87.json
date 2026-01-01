@@ -1,0 +1,63 @@
+{
+  "id": 87,
+  "character": "岸",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きし",
+        "romanji": "kishi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "岸辺",
+            "furigana": "きしべ",
+            "romanji": "kishibe",
+            "meanings": {
+              "id": "tepian pantai/sungai",
+              "en": "shore; bank; waterside"
+            }
+          },
+          {
+            "id": 3,
+            "word": "岸辺",
+            "furigana": "きしべ",
+            "romanji": "kishibe",
+            "meanings": {
+              "id": "tepi sungai",
+              "en": "river edge"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぎし",
+        "romanji": "gishi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガン",
+        "romanji": "gan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "海岸",
+            "furigana": "かいがん",
+            "romanji": "kaigan",
+            "meanings": {
+              "id": "tepian pantai",
+              "en": "beach"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tepian pantai/sungai, tepi sungai",
+    "en": "beach/river bank, river edge"
+  }
+}

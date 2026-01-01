@@ -1,0 +1,70 @@
+{
+  "id": 310,
+  "character": "博",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ハク",
+        "romanji": "haku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "博物館",
+            "furigana": "はくぶつかん",
+            "romanji": "hakubutsukan",
+            "meanings": {
+              "id": "museum",
+              "en": "museum"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "バク",
+        "romanji": "baku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "賭博",
+            "furigana": "とばく",
+            "romanji": "tobaku",
+            "meanings": {
+              "id": "perjudian",
+              "en": "gambling"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "万博",
+          "furigana": "ばんぱく",
+          "romanji": "banpaku",
+          "meanings": {
+            "id": "expo",
+            "en": "expo"
+          }
+        },
+        {
+          "id": 4,
+          "word": "博士",
+          "furigana": "はかせ",
+          "romanji": "hakase",
+          "meanings": {
+            "id": "gelar doktor",
+            "en": "doctorate"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "museum, perjudian, expo, gelar doktor",
+    "en": "museum, gambling, expo, doctorate"
+  }
+}

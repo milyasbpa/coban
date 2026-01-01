@@ -1,0 +1,53 @@
+{
+  "id": 77,
+  "character": "寺",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "てら",
+        "romanji": "tera",
+        "examples": [
+          {
+            "id": 1,
+            "word": "寺",
+            "furigana": "てら",
+            "romanji": "tera",
+            "meanings": {
+              "id": "kuil",
+              "en": "temple"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "でら",
+        "romanji": "dera",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "古寺",
+            "furigana": "こじ",
+            "romanji": "koji",
+            "meanings": {
+              "id": "kuil tua",
+              "en": "old temple"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kuil",
+    "en": "temple"
+  }
+}

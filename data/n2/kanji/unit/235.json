@@ -1,0 +1,48 @@
+{
+  "id": 235,
+  "character": "渋",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しぶ",
+        "romanji": "shibu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "渋い",
+            "furigana": "しぶい",
+            "romanji": "shibui",
+            "meanings": {
+              "id": "sepat, masam",
+              "en": "astringent, sour"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "苦渋",
+            "furigana": "くじゅう",
+            "romanji": "kujuu",
+            "meanings": {
+              "id": "kepedihan",
+              "en": "bitterness, anguish"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sepat, masam, kepedihan",
+    "en": "astringent, sour, bitterness"
+  }
+}

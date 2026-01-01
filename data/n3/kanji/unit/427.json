@@ -1,0 +1,48 @@
+{
+  "id": 427,
+  "character": "横",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よこ",
+        "romanji": "yoko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "横道",
+            "furigana": "よこみち",
+            "romanji": "yokomichi",
+            "meanings": {
+              "id": "jalan samping",
+              "en": "side road"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オウ",
+        "romanji": "ou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "横断",
+            "furigana": "おうだん",
+            "romanji": "oudan",
+            "meanings": {
+              "id": "menyeberang",
+              "en": "to cross"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jalan samping, menyeberang",
+    "en": "side road, cross"
+  }
+}

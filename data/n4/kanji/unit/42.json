@@ -1,0 +1,48 @@
+{
+  "id": 42,
+  "character": "体",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "からだ",
+        "romanji": "karada",
+        "examples": [
+          {
+            "id": 1,
+            "word": "体",
+            "furigana": "からだ",
+            "romanji": "karada",
+            "meanings": {
+              "id": "badan, tubuh",
+              "en": "body"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "体育",
+            "furigana": "たいいく",
+            "romanji": "taiiku",
+            "meanings": {
+              "id": "pendidikan olahraga",
+              "en": "physical education"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "badan, tubuh",
+    "en": "body"
+  }
+}

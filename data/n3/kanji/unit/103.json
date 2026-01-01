@@ -1,0 +1,47 @@
+{
+  "id": 103,
+  "character": "対",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "対策",
+            "furigana": "たいさく",
+            "romanji": "taisaku",
+            "meanings": {
+              "id": "penanggulangan",
+              "en": "countermeasure"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ツイ",
+        "romanji": "tsui",
+        "examples": [
+          {
+            "id": 2,
+            "word": "一対",
+            "furigana": "いっつい",
+            "romanji": "ittsui",
+            "meanings": {
+              "id": "satu pasang",
+              "en": "a pair"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "penanggulangan, satu pasang",
+    "en": "countermeasure, pair"
+  }
+}

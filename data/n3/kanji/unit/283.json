@@ -1,0 +1,64 @@
+{
+  "id": 283,
+  "character": "船",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふね",
+        "romanji": "fune",
+        "examples": [
+          {
+            "id": 1,
+            "word": "船",
+            "furigana": "ふね",
+            "romanji": "fune",
+            "meanings": {
+              "id": "kapal laut",
+              "en": "ship"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ふな",
+        "romanji": "funa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "船便",
+            "furigana": "ふなびん",
+            "romanji": "funabin",
+            "meanings": {
+              "id": "pos laut",
+              "en": "sea mail"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 3,
+            "word": "風船",
+            "furigana": "ふうせん",
+            "romanji": "fuusen",
+            "meanings": {
+              "id": "balon",
+              "en": "balloon"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kapal laut, pos laut, balon",
+    "en": "ship, sea mail, balloon"
+  }
+}

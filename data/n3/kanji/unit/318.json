@@ -1,0 +1,47 @@
+{
+  "id": 318,
+  "character": "換",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "換える",
+            "furigana": "かえる",
+            "romanji": "kaeru",
+            "meanings": {
+              "id": "menukar (menjadi benda lain)",
+              "en": "to exchange"
+            }
+          },
+          {
+            "id": 2,
+            "word": "換気",
+            "furigana": "かんき",
+            "romanji": "kanki",
+            "meanings": {
+              "id": "ventilasi udara",
+              "en": "ventilation"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menukar (menjadi benda lain), ventilasi udara",
+    "en": "exchange, ventilation"
+  }
+}

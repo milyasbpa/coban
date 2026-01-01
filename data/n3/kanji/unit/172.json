@@ -1,0 +1,69 @@
+{
+  "id": 172,
+  "character": "幸",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さち",
+        "romanji": "sachi",
+        "examples": []
+      },
+      {
+        "furigana": "しあわ",
+        "romanji": "shiawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "幸せ",
+            "furigana": "しあわせ",
+            "romanji": "shiawase",
+            "meanings": {
+              "id": "kebahagiaan",
+              "en": "happiness"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さいわ",
+        "romanji": "saiwa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "幸い",
+            "furigana": "さいわい",
+            "romanji": "saiwai",
+            "meanings": {
+              "id": "beruntung",
+              "en": "lucky"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "不幸",
+            "furigana": "ふこう",
+            "romanji": "fukou",
+            "meanings": {
+              "id": "malang, sial",
+              "en": "unlucky"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kebahagiaan, beruntung, malang, sial",
+    "en": "happiness, lucky, unlucky"
+  }
+}

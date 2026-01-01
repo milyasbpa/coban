@@ -1,0 +1,31 @@
+{
+  "id": 2,
+  "character": "士",
+  "strokes": 3,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "弁護士",
+            "furigana": "べんごし",
+            "romanji": "bengoshi",
+            "meanings": {
+              "id": "pengacara",
+              "en": "lawyer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pengacara",
+    "en": "lawyer"
+  }
+}

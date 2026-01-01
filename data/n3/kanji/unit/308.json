@@ -1,0 +1,55 @@
+{
+  "id": 308,
+  "character": "敗",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やぶ",
+        "romanji": "yabu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "敗る",
+            "furigana": "やぶる",
+            "romanji": "yaburu",
+            "meanings": {
+              "id": "menyobek",
+              "en": "to tear"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハイ",
+        "romanji": "hai",
+        "examples": []
+      },
+      {
+        "furigana": "バイ",
+        "romanji": "bai",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "失敗",
+          "furigana": "しっぱい",
+          "romanji": "shippai",
+          "meanings": {
+            "id": "gagal",
+            "en": "failure"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menyobek, gagal",
+    "en": "tear, fail"
+  }
+}

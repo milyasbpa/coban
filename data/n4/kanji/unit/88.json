@@ -1,0 +1,71 @@
+{
+  "id": 88,
+  "character": "風",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かぜ",
+        "romanji": "kaze",
+        "examples": [
+          {
+            "id": 1,
+            "word": "風",
+            "furigana": "かぜ",
+            "romanji": "kaze",
+            "meanings": {
+              "id": "angin",
+              "en": "wind"
+            }
+          },
+          {
+            "id": 3,
+            "word": "風邪",
+            "furigana": "かぜ",
+            "romanji": "kaze",
+            "meanings": {
+              "id": "masuk angin",
+              "en": "cold (illness)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フウ",
+        "romanji": "fuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "風船",
+            "furigana": "ふうせん",
+            "romanji": "fuusen",
+            "meanings": {
+              "id": "balon udara",
+              "en": "balloon"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 4,
+          "word": "風呂",
+          "furigana": "ふろ",
+          "romanji": "furo",
+          "meanings": {
+            "id": "kamar mandi",
+            "en": "bath"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "angin",
+    "en": "wind"
+  }
+}

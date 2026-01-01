@@ -1,0 +1,48 @@
+{
+  "id": 327,
+  "character": "勧",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すす",
+        "romanji": "susu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "勧める",
+            "furigana": "すすめる",
+            "romanji": "susumeru",
+            "meanings": {
+              "id": "menyarankan",
+              "en": "to recommend"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "勧告する",
+            "furigana": "かんこくする",
+            "romanji": "kankoku suru",
+            "meanings": {
+              "id": "menegur",
+              "en": "to admonish"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyarankan, menegur",
+    "en": "to recommend, to admonish"
+  }
+}

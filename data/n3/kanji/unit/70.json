@@ -1,0 +1,48 @@
+{
+  "id": 70,
+  "character": "曲",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "曲がる",
+            "furigana": "まがる",
+            "romanji": "magaru",
+            "meanings": {
+              "id": "melengkung, belok",
+              "en": "to bend, turn"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョク",
+        "romanji": "kyoku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "曲線",
+            "furigana": "きょくせん",
+            "romanji": "kyokusen",
+            "meanings": {
+              "id": "garis lengkung",
+              "en": "curved line"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melengkung, belok",
+    "en": "curve"
+  }
+}

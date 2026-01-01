@@ -1,0 +1,48 @@
+{
+  "id": 11,
+  "character": "公",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おおやけ",
+        "romanji": "ooyake",
+        "examples": [
+          {
+            "id": 1,
+            "word": "公",
+            "furigana": "おおやけ",
+            "romanji": "ooyake",
+            "meanings": {
+              "id": "resmi, umum",
+              "en": "public, official, open"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "公園",
+            "furigana": "こうえん",
+            "romanji": "kouen",
+            "meanings": {
+              "id": "taman",
+              "en": "park"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "resmi, umum",
+    "en": "public"
+  }
+}

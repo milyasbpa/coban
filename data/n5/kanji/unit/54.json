@@ -1,0 +1,96 @@
+{
+  "id": 54,
+  "character": "行",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "行く",
+            "furigana": "いく",
+            "romanji": "iku",
+            "meanings": {
+              "id": "pergi",
+              "en": "to go"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゆ",
+        "romanji": "yu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "行方",
+            "furigana": "ゆくえ",
+            "romanji": "yukue",
+            "meanings": {
+              "id": "keberadaan",
+              "en": "whereabouts"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "おこな",
+        "romanji": "okona",
+        "examples": [
+          {
+            "id": 3,
+            "word": "行う",
+            "furigana": "おこなう",
+            "romanji": "okonau",
+            "meanings": {
+              "id": "menyelenggarakan",
+              "en": "to conduct"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "旅行",
+            "furigana": "りょこう",
+            "romanji": "ryokou",
+            "meanings": {
+              "id": "kelakuan, tingkah laku",
+              "en": "travel"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ギョウ",
+        "romanji": "gyou",
+        "examples": [
+          {
+            "id": 5,
+            "word": "行列",
+            "furigana": "ぎょうれつ",
+            "romanji": "gyouretsu",
+            "meanings": {
+              "id": "barisan, antrian",
+              "en": "queue"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pergi",
+    "en": "go, conduct"
+  }
+}

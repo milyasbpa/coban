@@ -1,0 +1,52 @@
+{
+  "id": 333,
+  "character": "勤",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つと",
+        "romanji": "tsuto",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キン",
+        "romanji": "kin",
+        "examples": [
+          {
+            "id": 1,
+            "word": "勤務",
+            "furigana": "きんむ",
+            "romanji": "kinmu",
+            "meanings": {
+              "id": "bekerja, berdinas",
+              "en": "work, serve"
+            }
+          },
+          {
+            "id": 2,
+            "word": "勤勉",
+            "furigana": "きんべん",
+            "romanji": "kinben",
+            "meanings": {
+              "id": "rajin, tekun, giat",
+              "en": "diligent"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゴウ",
+        "romanji": "gou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bekerja, berdinas, rajin, tekun, giat",
+    "en": "work, serve, diligent"
+  }
+}

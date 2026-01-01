@@ -1,0 +1,82 @@
+{
+  "id": 32,
+  "character": "辺",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あた",
+        "romanji": "ata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "辺り",
+            "furigana": "あたり",
+            "romanji": "atari",
+            "meanings": {
+              "id": "sekitar, sekeliling",
+              "en": "vicinity, nearby area"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぺ",
+        "romanji": "pe",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘン",
+        "romanji": "hen",
+        "examples": [
+          {
+            "id": 3,
+            "word": "周辺",
+            "furigana": "しゅうへん",
+            "romanji": "shuuhen",
+            "meanings": {
+              "id": "sekitar",
+              "en": "vicinity"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ペン",
+        "romanji": "pen",
+        "examples": [
+          {
+            "id": 4,
+            "word": "近辺",
+            "furigana": "きんぺん",
+            "romanji": "kinpen",
+            "meanings": {
+              "id": "daerah sekitar",
+              "en": "surrounding area"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "海辺",
+          "furigana": "うみべ",
+          "romanji": "umibe",
+          "meanings": {
+            "id": "tepi pantai",
+            "en": "beach"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "sekitar, tepi pantai, daerah sekitar",
+    "en": "vicinity, beach, surrounding area"
+  }
+}

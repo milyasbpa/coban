@@ -1,0 +1,48 @@
+{
+  "id": 78,
+  "character": "乱",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みだ",
+        "romanji": "mida",
+        "examples": [
+          {
+            "id": 1,
+            "word": "乱れる",
+            "furigana": "みだれる",
+            "romanji": "midareru",
+            "meanings": {
+              "id": "kacau, berantakan",
+              "en": "chaotic, disorderly"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ラン",
+        "romanji": "ran",
+        "examples": [
+          {
+            "id": 2,
+            "word": "乱暴",
+            "furigana": "らんぼう",
+            "romanji": "ranbou",
+            "meanings": {
+              "id": "brutal, kasar",
+              "en": "brutal, rough"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kacau, berantakan, brutal, kasar",
+    "en": "chaotic, disorderly, brutal, rough"
+  }
+}

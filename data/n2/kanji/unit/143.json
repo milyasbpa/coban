@@ -1,0 +1,65 @@
+{
+  "id": 143,
+  "character": "柄",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "がら",
+        "romanji": "gara",
+        "examples": []
+      },
+      {
+        "furigana": "え",
+        "romanji": "e",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘイ",
+        "romanji": "hei",
+        "examples": [
+          {
+            "id": 3,
+            "word": "横柄",
+            "furigana": "おうへい",
+            "romanji": "ouhei",
+            "meanings": {
+              "id": "sombong, angkuh",
+              "en": "arrogant, haughty"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "花柄",
+          "furigana": "はながら",
+          "romanji": "hanagara",
+          "meanings": {
+            "id": "motif bunga",
+            "en": "flower pattern"
+          }
+        },
+        {
+          "id": 2,
+          "word": "長柄",
+          "furigana": "ながえ",
+          "romanji": "nagae",
+          "meanings": {
+            "id": "tangkai",
+            "en": "long stem"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "motif bunga, tangkai, sombong, angkuh",
+    "en": "pattern, stem, arrogant"
+  }
+}

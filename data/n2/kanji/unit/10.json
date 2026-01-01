@@ -1,0 +1,101 @@
+{
+  "id": 10,
+  "character": "匹",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひき",
+        "romanji": "hiki",
+        "examples": []
+      },
+      {
+        "furigana": "びき",
+        "romanji": "biki",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒツ",
+        "romanji": "hitsu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "馬匹",
+            "furigana": "ばひつ",
+            "romanji": "bahitsu",
+            "meanings": {
+              "id": "kuda",
+              "en": "horse"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ヒッ",
+        "romanji": "hitsu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "馬匹",
+            "furigana": "ばひつ",
+            "romanji": "bahitsu",
+            "meanings": {
+              "id": "kuda",
+              "en": "horse"
+            }
+          },
+          {
+            "id": 5,
+            "word": "匹敵",
+            "furigana": "ひってき",
+            "romanji": "hitteki",
+            "meanings": {
+              "id": "setara, sederajat",
+              "en": "equal, equivalent"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "二匹",
+          "furigana": "にひき",
+          "romanji": "nihiki",
+          "meanings": {
+            "id": "2 ekor",
+            "en": "2 animals"
+          }
+        },
+        {
+          "id": 2,
+          "word": "三匹",
+          "furigana": "さんびき",
+          "romanji": "sanbiki",
+          "meanings": {
+            "id": "3 ekor",
+            "en": "3 animals"
+          }
+        },
+        {
+          "id": 3,
+          "word": "六匹",
+          "furigana": "ろっぴき",
+          "romanji": "roppiki",
+          "meanings": {
+            "id": "6 ekor",
+            "en": "6 animals"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "ekor, kuda, setara, sederajat",
+    "en": "counter for animals, horse, equal"
+  }
+}

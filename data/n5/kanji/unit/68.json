@@ -1,0 +1,48 @@
+{
+  "id": 68,
+  "character": "見",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "み",
+        "romanji": "mi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "見る",
+            "furigana": "みる",
+            "romanji": "miru",
+            "meanings": {
+              "id": "melihat",
+              "en": "to see"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "見物",
+            "furigana": "けんぶつ",
+            "romanji": "kenbutsu",
+            "meanings": {
+              "id": "tamasya, wisata",
+              "en": "sightseeing"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melihat",
+    "en": "see, look"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": 48,
+  "character": "売",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 1,
+            "word": "売る",
+            "furigana": "うる",
+            "romanji": "uru",
+            "meanings": {
+              "id": "menjual",
+              "en": "to sell"
+            }
+          },
+          {
+            "id": 2,
+            "word": "売り場",
+            "furigana": "うりば",
+            "romanji": "uriba",
+            "meanings": {
+              "id": "tempat menjual",
+              "en": "sales area"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "バイ",
+        "romanji": "bai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "売店",
+            "furigana": "ばいてん",
+            "romanji": "baiten",
+            "meanings": {
+              "id": "toko, kios",
+              "en": "shop, stand"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menjual",
+    "en": "sell"
+  }
+}

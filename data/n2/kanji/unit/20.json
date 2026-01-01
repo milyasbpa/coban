@@ -1,0 +1,50 @@
+{
+  "id": 20,
+  "character": "汁",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しる",
+        "romanji": "shiru",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "肉汁",
+            "furigana": "にくじゅう",
+            "romanji": "nikujuu",
+            "meanings": {
+              "id": "kaldu daging",
+              "en": "meat broth"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "味噌汁",
+          "furigana": "みそしる",
+          "romanji": "misoshiru",
+          "meanings": {
+            "id": "sup tauco",
+            "en": "miso soup"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "sup tauco, kaldu daging",
+    "en": "soup, broth"
+  }
+}

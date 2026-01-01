@@ -1,0 +1,58 @@
+{
+  "id": 116,
+  "character": "教",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おし",
+        "romanji": "oshi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "教える",
+            "furigana": "おしえる",
+            "romanji": "oshieru",
+            "meanings": {
+              "id": "mengajar",
+              "en": "to teach"
+            }
+          },
+          {
+            "id": 2,
+            "word": "教え",
+            "furigana": "おしえ",
+            "romanji": "oshie",
+            "meanings": {
+              "id": "ajaran",
+              "en": "teaching"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "教室",
+            "furigana": "きょうしつ",
+            "romanji": "kyoushitsu",
+            "meanings": {
+              "id": "kelas",
+              "en": "classroom"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengajar",
+    "en": "teach"
+  }
+}

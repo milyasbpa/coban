@@ -1,0 +1,66 @@
+{
+  "id": 68,
+  "character": "事",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こと",
+        "romanji": "koto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "事",
+            "furigana": "こと",
+            "romanji": "koto",
+            "meanings": {
+              "id": "hal",
+              "en": "thing"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ごと",
+        "romanji": "goto",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 3,
+            "word": "事故",
+            "furigana": "じこ",
+            "romanji": "jiko",
+            "meanings": {
+              "id": "kecelakaan",
+              "en": "accident"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "仕事",
+          "furigana": "しごと",
+          "romanji": "shigoto",
+          "meanings": {
+            "id": "pekerjaan",
+            "en": "work"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "hal",
+    "en": "matter, thing"
+  }
+}

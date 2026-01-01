@@ -1,0 +1,64 @@
+{
+  "id": 338,
+  "character": "傷",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いた",
+        "romanji": "ita",
+        "examples": [
+          {
+            "id": 1,
+            "word": "傷む",
+            "furigana": "いたむ",
+            "romanji": "itamu",
+            "meanings": {
+              "id": "luka, koyak",
+              "en": "wound, tear"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "きず",
+        "romanji": "kizu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "傷つける",
+            "furigana": "きずつける",
+            "romanji": "kizutsukeru",
+            "meanings": {
+              "id": "melukai",
+              "en": "to injure"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "重傷",
+            "furigana": "じゅうしょう",
+            "romanji": "juushou",
+            "meanings": {
+              "id": "luka parah",
+              "en": "serious wound"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "luka, koyak, melukai, luka parah",
+    "en": "wound, tear, to injure, serious wound"
+  }
+}

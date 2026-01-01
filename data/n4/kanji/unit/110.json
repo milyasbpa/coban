@@ -1,0 +1,58 @@
+{
+  "id": 110,
+  "character": "終",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "終わる",
+            "furigana": "おわる",
+            "romanji": "owaru",
+            "meanings": {
+              "id": "mengakhiri",
+              "en": "to end"
+            }
+          },
+          {
+            "id": 2,
+            "word": "終える",
+            "furigana": "おえる",
+            "romanji": "oeru",
+            "meanings": {
+              "id": "berakhir, selesai",
+              "en": "to finish"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "終点",
+            "furigana": "しゅうてん",
+            "romanji": "shuuten",
+            "meanings": {
+              "id": "stasiun (pembentukan) terakhir",
+              "en": "terminal station"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengakhiri",
+    "en": "end, finish"
+  }
+}

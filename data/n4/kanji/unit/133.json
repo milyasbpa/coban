@@ -1,0 +1,66 @@
+{
+  "id": 133,
+  "character": "園",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "その",
+        "romanji": "sono",
+        "examples": [
+          {
+            "id": 1,
+            "word": "園",
+            "furigana": "その",
+            "romanji": "sono",
+            "meanings": {
+              "id": "kebun",
+              "en": "garden"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぞの",
+        "romanji": "zono",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エン",
+        "romanji": "en",
+        "examples": [
+          {
+            "id": 3,
+            "word": "動物園",
+            "furigana": "どうぶつえん",
+            "romanji": "doubutsuen",
+            "meanings": {
+              "id": "kebun binatang",
+              "en": "zoo"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "花園",
+          "furigana": "はなぞの",
+          "romanji": "hanazono",
+          "meanings": {
+            "id": "kebun bunga",
+            "en": "flower garden"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kebun",
+    "en": "garden, park"
+  }
+}

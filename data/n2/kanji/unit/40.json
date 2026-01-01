@@ -1,0 +1,48 @@
+{
+  "id": 40,
+  "character": "舌",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "した",
+        "romanji": "shita",
+        "examples": [
+          {
+            "id": 1,
+            "word": "舌",
+            "furigana": "した",
+            "romanji": "shita",
+            "meanings": {
+              "id": "lidah",
+              "en": "tongue"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゼツ",
+        "romanji": "zetsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "弁舌",
+            "furigana": "べんぜつ",
+            "romanji": "benzetsu",
+            "meanings": {
+              "id": "perkataan, cara bicara",
+              "en": "speech, eloquence"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lidah",
+    "en": "tongue"
+  }
+}

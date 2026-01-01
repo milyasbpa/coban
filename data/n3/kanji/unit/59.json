@@ -1,0 +1,69 @@
+{
+  "id": 59,
+  "character": "次",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つぎ",
+        "romanji": "tsugi",
+        "examples": []
+      },
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "次ぐ",
+            "furigana": "つぐ",
+            "romanji": "tsugu",
+            "meanings": {
+              "id": "berlanjut",
+              "en": "to follow; to succeed"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "次男",
+            "furigana": "じなん",
+            "romanji": "jinan",
+            "meanings": {
+              "id": "putra kedua",
+              "en": "second son"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "次第",
+            "furigana": "しだい",
+            "romanji": "shidai",
+            "meanings": {
+              "id": "selekasnya",
+              "en": "as soon as; depending on"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "selanjutnya",
+    "en": "next"
+  }
+}

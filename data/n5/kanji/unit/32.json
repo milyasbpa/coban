@@ -1,0 +1,76 @@
+{
+  "id": 32,
+  "character": "手",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "て",
+        "romanji": "te",
+        "examples": [
+          {
+            "id": 1,
+            "word": "手",
+            "furigana": "て",
+            "romanji": "te",
+            "meanings": {
+              "id": "tangan",
+              "en": "hand"
+            }
+          },
+          {
+            "id": 3,
+            "word": "手紙",
+            "furigana": "てがみ",
+            "romanji": "tegami",
+            "meanings": {
+              "id": "kendali, kekang",
+              "en": "letter"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "歌手",
+            "furigana": "かしゅ",
+            "romanji": "kashu",
+            "meanings": {
+              "id": "penyanyi",
+              "en": "singer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "人手",
+          "furigana": "ひとで",
+          "romanji": "hitode",
+          "meanings": {
+            "id": "tenaga bantuan",
+            "en": "helping hand"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tangan",
+    "en": "hand"
+  }
+}

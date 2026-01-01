@@ -1,0 +1,53 @@
+{
+  "id": 118,
+  "character": "助",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たす",
+        "romanji": "tas",
+        "examples": [
+          {
+            "id": 1,
+            "word": "助ける",
+            "furigana": "たすける",
+            "romanji": "tasukeru",
+            "meanings": {
+              "id": "menolong",
+              "en": "to help"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "すけ",
+        "romanji": "suke",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョ",
+        "romanji": "jo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "助手",
+            "furigana": "じょしゅ",
+            "romanji": "joshu",
+            "meanings": {
+              "id": "asisten",
+              "en": "assistant"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menolong, asisten",
+    "en": "help, assistant"
+  }
+}

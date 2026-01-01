@@ -1,0 +1,44 @@
+{
+  "id": 253,
+  "character": "鹿",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しか",
+        "romanji": "shika",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鹿",
+            "furigana": "しか",
+            "romanji": "shika",
+            "meanings": {
+              "id": "rusa, kijang",
+              "en": "deer"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "鹿児島",
+          "furigana": "かごしま",
+          "romanji": "kagoshima",
+          "meanings": {
+            "id": "(nama tempat) Kagoshima",
+            "en": "Kagoshima (place name)"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "rusa, kijang, (nama tempat) Kagoshima",
+    "en": "deer, Kagoshima (place name)"
+  }
+}

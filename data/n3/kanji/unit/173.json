@@ -1,0 +1,64 @@
+{
+  "id": 173,
+  "character": "昔",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むかし",
+        "romanji": "mukashi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "昔",
+            "furigana": "むかし",
+            "romanji": "mukashi",
+            "meanings": {
+              "id": "dahulu kala",
+              "en": "long ago / in the past"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "昔日",
+            "furigana": "せきじつ",
+            "romanji": "sekijitsu",
+            "meanings": {
+              "id": "tempo dulu",
+              "en": "old times"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジャク",
+        "romanji": "jaku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "今昔",
+            "furigana": "こんじゃく",
+            "romanji": "konjaku",
+            "meanings": {
+              "id": "sekarang dan dahulu",
+              "en": "now and then"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dahulu kala, tempo dulu, sekarang dan dahulu",
+    "en": "long ago, old times, now and then"
+  }
+}

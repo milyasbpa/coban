@@ -1,0 +1,74 @@
+{
+  "id": 103,
+  "character": "聞",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "聞く",
+            "furigana": "きく",
+            "romanji": "kiku",
+            "meanings": {
+              "id": "mendengar, bertanya",
+              "en": "to hear, to ask"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ブン",
+        "romanji": "bun",
+        "examples": [
+          {
+            "id": 2,
+            "word": "新聞",
+            "furigana": "しんぶん",
+            "romanji": "shinbun",
+            "meanings": {
+              "id": "surat kabar, koran",
+              "en": "newspaper"
+            }
+          },
+          {
+            "id": 3,
+            "word": "聞聞する",
+            "furigana": "ぶんもんする",
+            "romanji": "bunmonsuru",
+            "meanings": {
+              "id": "mendengarkan",
+              "en": "to listen"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "モン",
+        "romanji": "mon",
+        "examples": [
+          {
+            "id": 3,
+            "word": "聞聞する",
+            "furigana": "ぶんもんする",
+            "romanji": "bunmonsuru",
+            "meanings": {
+              "id": "mendengarkan",
+              "en": "to listen"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mendengar",
+    "en": "hear, ask"
+  }
+}

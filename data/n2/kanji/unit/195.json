@@ -1,0 +1,48 @@
+{
+  "id": 195,
+  "character": "討",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 1,
+            "word": "討つ",
+            "furigana": "うつ",
+            "romanji": "utsu",
+            "meanings": {
+              "id": "membalas (dendam)",
+              "en": "to retaliate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "討論",
+            "furigana": "とうろん",
+            "romanji": "touron",
+            "meanings": {
+              "id": "diskusi, bincang-bincang",
+              "en": "discussion, debate"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membalas (dendam), diskusi, bincang-bincang",
+    "en": "to retaliate, discussion, talk"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 415,
+  "character": "壁",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かべ",
+        "romanji": "kabe",
+        "examples": [
+          {
+            "id": 1,
+            "word": "壁紙",
+            "furigana": "かべがみ",
+            "romanji": "kabegami",
+            "meanings": {
+              "id": "kertas dinding",
+              "en": "wallpaper"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘキ",
+        "romanji": "heki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "壁面",
+            "furigana": "へきめん",
+            "romanji": "hekimen",
+            "meanings": {
+              "id": "permukaan dinding",
+              "en": "wall surface"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kertas dinding, permukaan dinding",
+    "en": "wallpaper, wall surface"
+  }
+}

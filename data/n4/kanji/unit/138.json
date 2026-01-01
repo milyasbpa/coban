@@ -1,0 +1,66 @@
+{
+  "id": 138,
+  "character": "試",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こころ",
+        "romanji": "kokoro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "試みる",
+            "furigana": "こころみる",
+            "romanji": "kokoromiru",
+            "meanings": {
+              "id": "mencoba",
+              "en": "to try"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ためし",
+        "romanji": "tameshi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "試合",
+            "furigana": "しあい",
+            "romanji": "shiai",
+            "meanings": {
+              "id": "pertandingan",
+              "en": "match"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "試す",
+          "furigana": "ためす",
+          "romanji": "tamesu",
+          "meanings": {
+            "id": "menguji, mencoba",
+            "en": "to test"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "mencoba",
+    "en": "try, test"
+  }
+}

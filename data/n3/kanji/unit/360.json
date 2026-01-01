@@ -1,0 +1,48 @@
+{
+  "id": 360,
+  "character": "量",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はか",
+        "romanji": "haka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "量る",
+            "furigana": "はかる",
+            "romanji": "hakaru",
+            "meanings": {
+              "id": "mengukur",
+              "en": "to measure"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リョウ",
+        "romanji": "ryou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "重量",
+            "furigana": "じゅうりょう",
+            "romanji": "juuryou",
+            "meanings": {
+              "id": "beratnya, jumlah berat",
+              "en": "weight, amount"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengukur, beratnya, jumlah berat",
+    "en": "measure, weight, amount"
+  }
+}

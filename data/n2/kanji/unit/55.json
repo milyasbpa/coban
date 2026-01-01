@@ -1,0 +1,64 @@
+{
+  "id": 55,
+  "character": "床",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆか",
+        "romanji": "yuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "床",
+            "furigana": "ゆか",
+            "romanji": "yuka",
+            "meanings": {
+              "id": "lantai",
+              "en": "floor"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "とこ",
+        "romanji": "toko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "床の間",
+            "furigana": "とこのま",
+            "romanji": "tokonoma",
+            "meanings": {
+              "id": "ruang kecil dalam ruang tatami",
+              "en": "small room in tatami"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "起床",
+            "furigana": "きしょう",
+            "romanji": "kishou",
+            "meanings": {
+              "id": "bangun tidur",
+              "en": "get up"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lantai, ruang kecil dalam ruang, tatami, bangun tidur",
+    "en": "floor, small room, tatami, get up"
+  }
+}

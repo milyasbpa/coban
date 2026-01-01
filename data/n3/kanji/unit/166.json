@@ -1,0 +1,63 @@
+{
+  "id": 166,
+  "character": "育",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "そだ",
+        "romanji": "soda",
+        "examples": [
+          {
+            "id": 1,
+            "word": "育つ",
+            "furigana": "そだつ",
+            "romanji": "sodatsu",
+            "meanings": {
+              "id": "tumbuh",
+              "en": "to grow"
+            }
+          },
+          {
+            "id": 2,
+            "word": "育てる",
+            "furigana": "そだてる",
+            "romanji": "sodateru",
+            "meanings": {
+              "id": "membesarkan, membina",
+              "en": "to raise, foster"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "はぐく",
+        "romanji": "haguku",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イク",
+        "romanji": "iku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "教育",
+            "furigana": "きょういく",
+            "romanji": "kyouiku",
+            "meanings": {
+              "id": "pendidikan",
+              "en": "education"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tumbuh, membesarkan, membina, pendidikan",
+    "en": "grow, raise, foster, education"
+  }
+}

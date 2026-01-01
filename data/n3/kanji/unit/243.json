@@ -1,0 +1,53 @@
+{
+  "id": 243,
+  "character": "凍",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こお",
+        "romanji": "koo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "凍る",
+            "furigana": "こおる",
+            "romanji": "kooru",
+            "meanings": {
+              "id": "beku",
+              "en": "to freeze"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こご",
+        "romanji": "kogo",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "凍結",
+            "furigana": "とうけつ",
+            "romanji": "touketsu",
+            "meanings": {
+              "id": "pembekuan",
+              "en": "freezing"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "beku, pembekuan",
+    "en": "freeze, freezing"
+  }
+}

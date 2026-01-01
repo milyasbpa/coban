@@ -1,0 +1,64 @@
+{
+  "id": 403,
+  "character": "煙",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "けむ",
+        "romanji": "kemu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "煙",
+            "furigana": "けむり",
+            "romanji": "kemuri",
+            "meanings": {
+              "id": "asap",
+              "en": "smoke"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "けむり",
+        "romanji": "kemuri",
+        "examples": [
+          {
+            "id": 1,
+            "word": "煙",
+            "furigana": "けむり",
+            "romanji": "kemuri",
+            "meanings": {
+              "id": "asap",
+              "en": "smoke"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エン",
+        "romanji": "en",
+        "examples": [
+          {
+            "id": 2,
+            "word": "喫煙",
+            "furigana": "きつえん",
+            "romanji": "kitsuen",
+            "meanings": {
+              "id": "merokok",
+              "en": "smoking"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "asap, merokok",
+    "en": "smoke, smoking"
+  }
+}

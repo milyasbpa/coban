@@ -1,0 +1,47 @@
+{
+  "id": 63,
+  "character": "存",
+  "strokes": 6,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ソン",
+        "romanji": "son",
+        "examples": [
+          {
+            "id": 1,
+            "word": "存在",
+            "furigana": "そんざい",
+            "romanji": "sonzai",
+            "meanings": {
+              "id": "keberadaan",
+              "en": "existence"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゾン",
+        "romanji": "zon",
+        "examples": [
+          {
+            "id": 2,
+            "word": "存じる",
+            "furigana": "ぞんじる",
+            "romanji": "zonjiru",
+            "meanings": {
+              "id": "mengetahui",
+              "en": "to know"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keberadaan",
+    "en": "existence"
+  }
+}

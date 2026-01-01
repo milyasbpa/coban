@@ -1,0 +1,48 @@
+{
+  "id": 444,
+  "character": "鏡",
+  "strokes": 19,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かがみ",
+        "romanji": "kagami",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鏡",
+            "furigana": "かがみ",
+            "romanji": "kagami",
+            "meanings": {
+              "id": "cermin",
+              "en": "mirror"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "望遠鏡",
+            "furigana": "ぼうえんきょう",
+            "romanji": "bouenkyou",
+            "meanings": {
+              "id": "teropong, teleskop",
+              "en": "telescope"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cermin, teropong, teleskop",
+    "en": "mirror, telescope"
+  }
+}

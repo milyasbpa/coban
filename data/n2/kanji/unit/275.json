@@ -1,0 +1,48 @@
+{
+  "id": 275,
+  "character": "森",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もり",
+        "romanji": "mori",
+        "examples": [
+          {
+            "id": 2,
+            "word": "森",
+            "furigana": "もり",
+            "romanji": "mori",
+            "meanings": {
+              "id": "hutan",
+              "en": "forest"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "しん",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 1,
+            "word": "森林",
+            "furigana": "しんりん",
+            "romanji": "shinrin",
+            "meanings": {
+              "id": "hutan rimba",
+              "en": "forest, jungle"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hutan rimba, hutan",
+    "en": "forest, jungle"
+  }
+}

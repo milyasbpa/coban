@@ -1,0 +1,130 @@
+{
+  "id": 17,
+  "character": "上",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うえ",
+        "romanji": "ue",
+        "examples": [
+          {
+            "id": 1,
+            "word": "上",
+            "furigana": "うえ",
+            "romanji": "ue",
+            "meanings": {
+              "id": "atas",
+              "en": "above"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "うわ",
+        "romanji": "uwa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "上着",
+            "furigana": "うわぎ",
+            "romanji": "uwagi",
+            "meanings": {
+              "id": "jaket",
+              "en": "jacket"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かみ",
+        "romanji": "kami",
+        "examples": []
+      },
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 4,
+            "word": "上がる",
+            "furigana": "あがる",
+            "romanji": "agaru",
+            "meanings": {
+              "id": "mengangkat",
+              "en": "to go up"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "のぼ",
+        "romanji": "nobo",
+        "examples": [
+          {
+            "id": 5,
+            "word": "上る",
+            "furigana": "のぼる",
+            "romanji": "noboru",
+            "meanings": {
+              "id": "naik",
+              "en": "to climb"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 6,
+            "word": "上司",
+            "furigana": "じょうし",
+            "romanji": "joushi",
+            "meanings": {
+              "id": "atasan, boss",
+              "en": "boss, superior"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 7,
+            "word": "上人",
+            "furigana": "しょうにん",
+            "romanji": "shounin",
+            "meanings": {
+              "id": "santa, orang suci",
+              "en": "saint"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "川上",
+          "furigana": "かわかみ",
+          "romanji": "kawakami",
+          "meanings": {
+            "id": "hulu sungai",
+            "en": "upstream"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "atas",
+    "en": "above, up"
+  }
+}

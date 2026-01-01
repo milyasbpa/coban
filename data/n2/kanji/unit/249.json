@@ -1,0 +1,48 @@
+{
+  "id": 249,
+  "character": "掃",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "掃く",
+            "furigana": "はく",
+            "romanji": "haku",
+            "meanings": {
+              "id": "menyapu",
+              "en": "to sweep"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "掃除する",
+            "furigana": "そうじする",
+            "romanji": "souji suru",
+            "meanings": {
+              "id": "berbenah",
+              "en": "to clean up"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyapu, berbenah",
+    "en": "to sweep, to clean up"
+  }
+}

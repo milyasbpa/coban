@@ -1,0 +1,48 @@
+{
+  "id": 112,
+  "character": "述",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "の",
+        "romanji": "no",
+        "examples": [
+          {
+            "id": 1,
+            "word": "述べる",
+            "furigana": "のべる",
+            "romanji": "noberu",
+            "meanings": {
+              "id": "mengutarakan",
+              "en": "to state"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュツ",
+        "romanji": "jutsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "述語",
+            "furigana": "じゅつご",
+            "romanji": "jutsugo",
+            "meanings": {
+              "id": "predikat",
+              "en": "predicate"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengutarakan, predikat",
+    "en": "to state, predicate"
+  }
+}

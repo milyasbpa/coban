@@ -1,0 +1,48 @@
+{
+  "id": 262,
+  "character": "記",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しる",
+        "romanji": "shiru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "記す",
+            "furigana": "しるす",
+            "romanji": "shirusu",
+            "meanings": {
+              "id": "mencatat",
+              "en": "to record"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "記者",
+            "furigana": "きしゃ",
+            "romanji": "kisha",
+            "meanings": {
+              "id": "wartawan, jurnalis",
+              "en": "journalist"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencatat, wartawan, jurnalis",
+    "en": "record, journalist"
+  }
+}

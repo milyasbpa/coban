@@ -1,0 +1,71 @@
+{
+  "id": 81,
+  "character": "海",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うみ",
+        "romanji": "umi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "海",
+            "furigana": "うみ",
+            "romanji": "umi",
+            "meanings": {
+              "id": "laut",
+              "en": "sea"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 4,
+            "word": "海峡",
+            "furigana": "かいきょう",
+            "romanji": "kaikyou",
+            "meanings": {
+              "id": "angkatan laut",
+              "en": "strait"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "食事",
+          "furigana": "しょくじ",
+          "romanji": "shokuji",
+          "meanings": {
+            "id": "makanan",
+            "en": "meal"
+          }
+        },
+        {
+          "id": 2,
+          "word": "断食",
+          "furigana": "だんじき",
+          "romanji": "danjiki",
+          "meanings": {
+            "id": "puasa",
+            "en": "fasting"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "laut",
+    "en": "sea, ocean"
+  }
+}

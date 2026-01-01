@@ -1,0 +1,48 @@
+{
+  "id": 41,
+  "character": "犯",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おか",
+        "romanji": "oka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "犯す",
+            "furigana": "おかす",
+            "romanji": "okasu",
+            "meanings": {
+              "id": "melakukan kejahatan",
+              "en": "to commit a crime"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 2,
+            "word": "犯罪",
+            "furigana": "はんざい",
+            "romanji": "hanzai",
+            "meanings": {
+              "id": "kejahatan",
+              "en": "crime"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melakukan kejahatan",
+    "en": "crime"
+  }
+}

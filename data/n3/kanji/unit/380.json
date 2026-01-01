@@ -1,0 +1,41 @@
+{
+  "id": 380,
+  "character": "資",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "資源",
+            "furigana": "しげん",
+            "romanji": "shigen",
+            "meanings": {
+              "id": "sumber",
+              "en": "resource"
+            }
+          },
+          {
+            "id": 2,
+            "word": "資金",
+            "furigana": "しきん",
+            "romanji": "shikin",
+            "meanings": {
+              "id": "modal, dana",
+              "en": "capital, fund"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sumber, modal, dana",
+    "en": "resource, capital, fund"
+  }
+}

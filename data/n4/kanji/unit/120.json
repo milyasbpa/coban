@@ -1,0 +1,48 @@
+{
+  "id": 120,
+  "character": "菜",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "な",
+        "romanji": "na",
+        "examples": [
+          {
+            "id": 1,
+            "word": "菜",
+            "furigana": "な",
+            "romanji": "na",
+            "meanings": {
+              "id": "sayur-sayuran",
+              "en": "vegetable"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "野菜",
+            "furigana": "やさい",
+            "romanji": "yasai",
+            "meanings": {
+              "id": "sayur mayur",
+              "en": "vegetables"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sayur-sayuran",
+    "en": "vegetable"
+  }
+}

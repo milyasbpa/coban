@@ -1,0 +1,64 @@
+{
+  "id": 29,
+  "character": "中",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なか",
+        "romanji": "naka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "中",
+            "furigana": "なか",
+            "romanji": "naka",
+            "meanings": {
+              "id": "dalam",
+              "en": "inside"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チュウ",
+        "romanji": "chuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "中学校",
+            "furigana": "ちゅうがっこう",
+            "romanji": "chuugakkou",
+            "meanings": {
+              "id": "SMP",
+              "en": "middle school"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "一日中",
+            "furigana": "いちにちじゅう",
+            "romanji": "ichinichijuu",
+            "meanings": {
+              "id": "seharian",
+              "en": "all day long"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dalam",
+    "en": "middle, inside"
+  }
+}

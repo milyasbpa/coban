@@ -1,0 +1,53 @@
+{
+  "id": 22,
+  "character": "末",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すえ",
+        "romanji": "sue",
+        "examples": [
+          {
+            "id": 1,
+            "word": "末",
+            "furigana": "すえ",
+            "romanji": "sue",
+            "meanings": {
+              "id": "akhir",
+              "en": "end"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "マツ",
+        "romanji": "matsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "週末",
+            "furigana": "しゅうまつ",
+            "romanji": "shuumatsu",
+            "meanings": {
+              "id": "akhir minggu",
+              "en": "weekend"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "バツ",
+        "romanji": "batsu",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "akhir",
+    "en": "end"
+  }
+}

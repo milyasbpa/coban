@@ -1,0 +1,48 @@
+{
+  "id": 45,
+  "character": "灯",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "灯",
+            "furigana": "ひ",
+            "romanji": "hi",
+            "meanings": {
+              "id": "penerangan",
+              "en": "light"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "灯台",
+            "furigana": "とうだい",
+            "romanji": "toudai",
+            "meanings": {
+              "id": "mercusuar",
+              "en": "lighthouse"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "penerangan, mercusuar",
+    "en": "light, lighthouse"
+  }
+}

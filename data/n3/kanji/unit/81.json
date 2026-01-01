@@ -1,0 +1,48 @@
+{
+  "id": 81,
+  "character": "快",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こころよ",
+        "romanji": "kokoroyo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "快い",
+            "furigana": "こころよい",
+            "romanji": "kokoroyoi",
+            "meanings": {
+              "id": "nyaman",
+              "en": "pleasant"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "快晴",
+            "furigana": "かいせい",
+            "romanji": "kaisei",
+            "meanings": {
+              "id": "cuaca baik",
+              "en": "fine weather"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "nyaman",
+    "en": "comfortable"
+  }
+}

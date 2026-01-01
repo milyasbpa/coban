@@ -1,0 +1,48 @@
+{
+  "id": 324,
+  "character": "港",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みなと",
+        "romanji": "minato",
+        "examples": [
+          {
+            "id": 1,
+            "word": "港",
+            "furigana": "みなと",
+            "romanji": "minato",
+            "meanings": {
+              "id": "pelabuhan",
+              "en": "port"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "空港",
+            "furigana": "くうこう",
+            "romanji": "kuukou",
+            "meanings": {
+              "id": "bandara",
+              "en": "airport"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pelabuhan, bandara",
+    "en": "port, airport"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 73,
+  "character": "昼",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひる",
+        "romanji": "hiru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "昼ね",
+            "furigana": "ひるね",
+            "romanji": "hirune",
+            "meanings": {
+              "id": "tidur siang",
+              "en": "afternoon nap"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チュウ",
+        "romanji": "chuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "昼食",
+            "furigana": "ちゅうしょく",
+            "romanji": "chuushoku",
+            "meanings": {
+              "id": "makan siang",
+              "en": "lunch"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tidur siang",
+    "en": "daytime, noon"
+  }
+}

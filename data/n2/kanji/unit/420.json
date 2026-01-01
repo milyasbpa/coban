@@ -1,0 +1,58 @@
+{
+  "id": 420,
+  "character": "隣",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "となり",
+        "romanji": "tonari",
+        "examples": [
+          {
+            "id": 1,
+            "word": "隣り合う",
+            "furigana": "となりあう",
+            "romanji": "tonariau",
+            "meanings": {
+              "id": "bersebelahan",
+              "en": "next to"
+            }
+          },
+          {
+            "id": 2,
+            "word": "隣の家",
+            "furigana": "となりのいえ",
+            "romanji": "tonari no ie",
+            "meanings": {
+              "id": "rumah sebelah",
+              "en": "neighboring house"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リン",
+        "romanji": "rin",
+        "examples": [
+          {
+            "id": 3,
+            "word": "隣家",
+            "furigana": "りんか",
+            "romanji": "rinka",
+            "meanings": {
+              "id": "tetangga sebelah rumah",
+              "en": "neighbor"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bersebelahan, rumah sebelah, tetangga sebelah rumah",
+    "en": "next to, neighboring house, neighbor"
+  }
+}

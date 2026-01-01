@@ -1,0 +1,48 @@
+{
+  "id": 303,
+  "character": "善",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "善い",
+            "furigana": "よい",
+            "romanji": "yoi",
+            "meanings": {
+              "id": "bagus, baik",
+              "en": "good"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゼン",
+        "romanji": "zen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "善意",
+            "furigana": "ぜんい",
+            "romanji": "zen'i",
+            "meanings": {
+              "id": "maksud yang baik",
+              "en": "good intention"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bagus, baik, maksud yang baik",
+    "en": "good, virtuous, good intention"
+  }
+}

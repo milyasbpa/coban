@@ -1,0 +1,58 @@
+{
+  "id": 301,
+  "character": "情",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なさ",
+        "romanji": "nasa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "情け",
+            "furigana": "なさけ",
+            "romanji": "nasake",
+            "meanings": {
+              "id": "simpati, nurani",
+              "en": "sympathy, conscience"
+            }
+          },
+          {
+            "id": 2,
+            "word": "情けない",
+            "furigana": "なさけない",
+            "romanji": "nasakenai",
+            "meanings": {
+              "id": "menyedihkan",
+              "en": "sad"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "情報",
+            "furigana": "じょうほう",
+            "romanji": "jouhou",
+            "meanings": {
+              "id": "informasi",
+              "en": "information"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "simpati, nurani, menyedihkan, informasi",
+    "en": "sympathy, conscience, sad, information"
+  }
+}

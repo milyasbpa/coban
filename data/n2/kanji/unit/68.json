@@ -1,0 +1,74 @@
+{
+  "id": 68,
+  "character": "我",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わ",
+        "romanji": "wa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "我が国",
+            "furigana": "わがくに",
+            "romanji": "wagakuni",
+            "meanings": {
+              "id": "negeri kami",
+              "en": "our country"
+            }
+          },
+          {
+            "id": 2,
+            "word": "我々",
+            "furigana": "われわれ",
+            "romanji": "wareware",
+            "meanings": {
+              "id": "kami, kita",
+              "en": "we, us"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "われ",
+        "romanji": "ware",
+        "examples": [
+          {
+            "id": 2,
+            "word": "我々",
+            "furigana": "われわれ",
+            "romanji": "wareware",
+            "meanings": {
+              "id": "kami, kita",
+              "en": "we, us"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガ",
+        "romanji": "ga",
+        "examples": [
+          {
+            "id": 3,
+            "word": "我意",
+            "furigana": "がい",
+            "romanji": "gai",
+            "meanings": {
+              "id": "kemauan sendiri",
+              "en": "self-will"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "negeri kami, kami, kita, kemauan sendiri",
+    "en": "our country, we, self-will"
+  }
+}

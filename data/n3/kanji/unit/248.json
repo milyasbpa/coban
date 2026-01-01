@@ -1,0 +1,74 @@
+{
+  "id": 248,
+  "character": "浮",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 1,
+            "word": "浮く",
+            "furigana": "うく",
+            "romanji": "uku",
+            "meanings": {
+              "id": "mengapung",
+              "en": "to float"
+            }
+          },
+          {
+            "id": 2,
+            "word": "浮気",
+            "furigana": "うわき",
+            "romanji": "uwaki",
+            "meanings": {
+              "id": "kecurangan",
+              "en": "fraud"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "うわ",
+        "romanji": "uwa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "浮気",
+            "furigana": "うわき",
+            "romanji": "uwaki",
+            "meanings": {
+              "id": "kecurangan",
+              "en": "fraud"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "浮腫",
+            "furigana": "ふしゅ",
+            "romanji": "fushu",
+            "meanings": {
+              "id": "pembengkakan",
+              "en": "swelling"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengapung, kecurangan, pembengkakan",
+    "en": "float, fraud, swelling"
+  }
+}

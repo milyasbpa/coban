@@ -1,0 +1,64 @@
+{
+  "id": 14,
+  "character": "化",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ば",
+        "romanji": "ba",
+        "examples": [
+          {
+            "id": 1,
+            "word": "化ける",
+            "furigana": "ばける",
+            "romanji": "bakeru",
+            "meanings": {
+              "id": "menjelma",
+              "en": "to transform"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "文化",
+            "furigana": "ぶんか",
+            "romanji": "bunka",
+            "meanings": {
+              "id": "kebudayaan",
+              "en": "culture, civilization"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケ",
+        "romanji": "ke",
+        "examples": [
+          {
+            "id": 3,
+            "word": "化粧",
+            "furigana": "けしょう",
+            "romanji": "keshou",
+            "meanings": {
+              "id": "rias wajah",
+              "en": "makeup, cosmetics"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menjelma, kebudayaan",
+    "en": "change, transform"
+  }
+}

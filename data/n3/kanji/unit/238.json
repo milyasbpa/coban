@@ -1,0 +1,74 @@
+{
+  "id": 238,
+  "character": "連",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "連れる",
+            "furigana": "つれる",
+            "romanji": "tsureru",
+            "meanings": {
+              "id": "mengajak",
+              "en": "to invite"
+            }
+          },
+          {
+            "id": 2,
+            "word": "連なる",
+            "furigana": "つらなる",
+            "romanji": "tsuranaru",
+            "meanings": {
+              "id": "berderet",
+              "en": "in a row"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "つら",
+        "romanji": "tsura",
+        "examples": [
+          {
+            "id": 2,
+            "word": "連なる",
+            "furigana": "つらなる",
+            "romanji": "tsuranaru",
+            "meanings": {
+              "id": "berderet",
+              "en": "in a row"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レン",
+        "romanji": "ren",
+        "examples": [
+          {
+            "id": 3,
+            "word": "連絡",
+            "furigana": "れんらく",
+            "romanji": "renraku",
+            "meanings": {
+              "id": "hubungan",
+              "en": "connection"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengajak, berderet, hubungan",
+    "en": "invite, in a row, connection"
+  }
+}

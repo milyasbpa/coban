@@ -1,0 +1,48 @@
+{
+  "id": 190,
+  "character": "保",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たも",
+        "romanji": "tamo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "保つ",
+            "furigana": "たもつ",
+            "romanji": "tamotsu",
+            "meanings": {
+              "id": "menjaga",
+              "en": "to protect"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホ",
+        "romanji": "ho",
+        "examples": [
+          {
+            "id": 2,
+            "word": "保険",
+            "furigana": "ほけん",
+            "romanji": "hoken",
+            "meanings": {
+              "id": "asuransi",
+              "en": "insurance"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menjaga, asuransi",
+    "en": "protect, insurance"
+  }
+}

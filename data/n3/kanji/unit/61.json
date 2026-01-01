@@ -1,0 +1,69 @@
+{
+  "id": 61,
+  "character": "守",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まも",
+        "romanji": "mamo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "守る",
+            "furigana": "まもる",
+            "romanji": "mamoru",
+            "meanings": {
+              "id": "melindungi",
+              "en": "to protect"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "も",
+        "romanji": "mo",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "守備",
+            "furigana": "しゅび",
+            "romanji": "shubi",
+            "meanings": {
+              "id": "pertahanan",
+              "en": "defense"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ス",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 3,
+            "word": "留守",
+            "furigana": "るす",
+            "romanji": "rusu",
+            "meanings": {
+              "id": "tidak di tempat/rumah",
+              "en": "absence"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melindungi",
+    "en": "protect"
+  }
+}

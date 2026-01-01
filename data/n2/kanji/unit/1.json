@@ -1,0 +1,47 @@
+{
+  "id": 1,
+  "character": "丁",
+  "strokes": 2,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "テイ",
+        "romanji": "tei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "丁寧",
+            "furigana": "ていねい",
+            "romanji": "teinei",
+            "meanings": {
+              "id": "sopan, teliti",
+              "en": "polite, meticulous"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "丁目",
+            "furigana": "ちょうめ",
+            "romanji": "choume",
+            "meanings": {
+              "id": "pembagian tata kota",
+              "en": "city block"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sopan, teliti, pembagian tata kota",
+    "en": "polite, meticulous, city block"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 197,
+  "character": "浜",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はま",
+        "romanji": "hama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "浜辺",
+            "furigana": "はまべ",
+            "romanji": "hamabe",
+            "meanings": {
+              "id": "tepi pantai",
+              "en": "beach"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒン",
+        "romanji": "hin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "海浜",
+            "furigana": "かいひん",
+            "romanji": "kaihin",
+            "meanings": {
+              "id": "tanggul pesisir pantai",
+              "en": "coastal embankment"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tepi pantai, tanggul pesisir pantai",
+    "en": "beach, coastal embankment"
+  }
+}

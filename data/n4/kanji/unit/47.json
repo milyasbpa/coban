@@ -1,0 +1,104 @@
+{
+  "id": 47,
+  "character": "作",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つく",
+        "romanji": "tsuku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "作る",
+            "furigana": "つくる",
+            "romanji": "tsukuru",
+            "meanings": {
+              "id": "membuat, bikin",
+              "en": "to make"
+            }
+          },
+          {
+            "id": 2,
+            "word": "作り方",
+            "furigana": "つくりかた",
+            "romanji": "tsukurikata",
+            "meanings": {
+              "id": "cara buat, cara bikin",
+              "en": "how to make"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サク",
+        "romanji": "saku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "作文",
+            "furigana": "さくぶん",
+            "romanji": "sakubun",
+            "meanings": {
+              "id": "karangan",
+              "en": "composition"
+            }
+          },
+          {
+            "id": 4,
+            "word": "作品",
+            "furigana": "さくひん",
+            "romanji": "sakuhin",
+            "meanings": {
+              "id": "gubahan (lagu)",
+              "en": "work (art)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "サ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 3,
+            "word": "作文",
+            "furigana": "さくぶん",
+            "romanji": "sakubun",
+            "meanings": {
+              "id": "karangan",
+              "en": "composition"
+            }
+          },
+          {
+            "id": 4,
+            "word": "作品",
+            "furigana": "さくひん",
+            "romanji": "sakuhin",
+            "meanings": {
+              "id": "gubahan (lagu)",
+              "en": "work (art)"
+            }
+          },
+          {
+            "id": 5,
+            "word": "作法",
+            "furigana": "さほう",
+            "romanji": "sahou",
+            "meanings": {
+              "id": "tata krama, kelakuan",
+              "en": "manners"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membuat, bikin",
+    "en": "make, create"
+  }
+}

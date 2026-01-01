@@ -1,0 +1,48 @@
+{
+  "id": 412,
+  "character": "養",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やしな",
+        "romanji": "yashina",
+        "examples": [
+          {
+            "id": 1,
+            "word": "養う",
+            "furigana": "やしなう",
+            "romanji": "yashinau",
+            "meanings": {
+              "id": "memberi nafkah",
+              "en": "to support"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "養殖",
+            "furigana": "ようしょく",
+            "romanji": "youshoku",
+            "meanings": {
+              "id": "membiakkan",
+              "en": "to breed"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memberi nafkah, membiakkan",
+    "en": "to support, to breed"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 355,
+  "character": "節",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふし",
+        "romanji": "fushi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セツ",
+        "romanji": "setsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "季節",
+            "furigana": "きせつ",
+            "romanji": "kisetsu",
+            "meanings": {
+              "id": "musim",
+              "en": "season"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "セチ",
+        "romanji": "sechi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "節会",
+            "furigana": "せちえ",
+            "romanji": "sechie",
+            "meanings": {
+              "id": "acara resepsi di istana",
+              "en": "imperial ceremony"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "指の節",
+          "furigana": "ゆびのふし",
+          "romanji": "yubi no fushi",
+          "meanings": {
+            "id": "sendi jari",
+            "en": "finger joint"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "sendi jari, musim, acara resepsi di istana",
+    "en": "joint, season, imperial ceremony"
+  }
+}

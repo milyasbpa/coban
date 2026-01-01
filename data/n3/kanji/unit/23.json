@@ -1,0 +1,31 @@
+{
+  "id": 23,
+  "character": "号",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ゴウ",
+        "romanji": "gou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "番号",
+            "furigana": "ばんごう",
+            "romanji": "bangou",
+            "meanings": {
+              "id": "nomor",
+              "en": "number"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "nomor",
+    "en": "number"
+  }
+}

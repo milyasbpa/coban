@@ -1,0 +1,51 @@
+{
+  "id": 27,
+  "character": "以",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "以上",
+            "furigana": "いじょう",
+            "romanji": "ijou",
+            "meanings": {
+              "id": "di atas",
+              "en": "above"
+            }
+          },
+          {
+            "id": 2,
+            "word": "以内",
+            "furigana": "いない",
+            "romanji": "inai",
+            "meanings": {
+              "id": "di dalam",
+              "en": "within"
+            }
+          },
+          {
+            "id": 3,
+            "word": "以外",
+            "furigana": "いがい",
+            "romanji": "igai",
+            "meanings": {
+              "id": "di luar, kecuali",
+              "en": "outside, except"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "di atas",
+    "en": "by means of, above"
+  }
+}

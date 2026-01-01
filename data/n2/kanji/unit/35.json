@@ -1,0 +1,64 @@
+{
+  "id": 35,
+  "character": "仮",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かり",
+        "romanji": "kari",
+        "examples": [
+          {
+            "id": 1,
+            "word": "仮免許",
+            "furigana": "かりめんきょ",
+            "romanji": "karimenkyo",
+            "meanings": {
+              "id": "surat izin palsu",
+              "en": "false license"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "仮定",
+            "furigana": "かてい",
+            "romanji": "katei",
+            "meanings": {
+              "id": "hipotesis, perkiraan",
+              "en": "hypothesis, estimate"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケ",
+        "romanji": "ke",
+        "examples": [
+          {
+            "id": 3,
+            "word": "仮病",
+            "furigana": "けびょう",
+            "romanji": "kebyou",
+            "meanings": {
+              "id": "pura-pura sakit",
+              "en": "feign illness"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "surat izin palsu, hipotesis, perkiraan, pura-pura sakit",
+    "en": "false license, hypothesis, estimate, feign illness"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 332,
+  "character": "群",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "む",
+        "romanji": "mu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "群れ",
+            "furigana": "むれ",
+            "romanji": "mure",
+            "meanings": {
+              "id": "kerumunan, gerombol",
+              "en": "crowd, group"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "グン",
+        "romanji": "gun",
+        "examples": [
+          {
+            "id": 2,
+            "word": "群馬",
+            "furigana": "ぐんま",
+            "romanji": "gunma",
+            "meanings": {
+              "id": "(nama tempat) Gunma",
+              "en": "Gunma (place name)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kerumunan, gerombol, (nama tempat) Gunma",
+    "en": "crowd, group, Gunma (place name)"
+  }
+}

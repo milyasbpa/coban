@@ -1,0 +1,50 @@
+{
+  "id": 402,
+  "character": "輪",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わ",
+        "romanji": "wa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リン",
+        "romanji": "rin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "車輪",
+            "furigana": "しゃりん",
+            "romanji": "sharin",
+            "meanings": {
+              "id": "roda kendaraan",
+              "en": "vehicle wheel"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "指輪",
+          "furigana": "ゆびわ",
+          "romanji": "yubiwa",
+          "meanings": {
+            "id": "cincin",
+            "en": "ring"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "cincin, roda kendaraan",
+    "en": "ring, vehicle wheel"
+  }
+}

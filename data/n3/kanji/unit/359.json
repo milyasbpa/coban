@@ -1,0 +1,64 @@
+{
+  "id": 359,
+  "character": "等",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひと",
+        "romanji": "hito",
+        "examples": [
+          {
+            "id": 1,
+            "word": "等しい",
+            "furigana": "ひとしい",
+            "romanji": "hitoshii",
+            "meanings": {
+              "id": "setara, sejajar, identik",
+              "en": "equal, identical"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "等価",
+            "furigana": "とうか",
+            "romanji": "touka",
+            "meanings": {
+              "id": "nilai yang sama",
+              "en": "same value"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "平等",
+            "furigana": "びょうどう",
+            "romanji": "byoudou",
+            "meanings": {
+              "id": "keadilan, adil",
+              "en": "justice, fair"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "setara, sejajar, identik, nilai yang sama, keadilan, adil",
+    "en": "equal, identical, same value, justice"
+  }
+}

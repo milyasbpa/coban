@@ -1,0 +1,48 @@
+{
+  "id": 119,
+  "character": "野",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "の",
+        "romanji": "no",
+        "examples": [
+          {
+            "id": 1,
+            "word": "野原",
+            "furigana": "のはら",
+            "romanji": "nohara",
+            "meanings": {
+              "id": "padang rumput",
+              "en": "field"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヤ",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 2,
+            "word": "野球",
+            "furigana": "やきゅう",
+            "romanji": "yakyuu",
+            "meanings": {
+              "id": "(sejenis) bola kasti",
+              "en": "baseball"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "padang rumput",
+    "en": "field, plain"
+  }
+}

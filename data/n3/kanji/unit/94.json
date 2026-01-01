@@ -1,0 +1,48 @@
+{
+  "id": 94,
+  "character": "利",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "利く",
+            "furigana": "きく",
+            "romanji": "kiku",
+            "meanings": {
+              "id": "efektif",
+              "en": "to be effective"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リ",
+        "romanji": "ri",
+        "examples": [
+          {
+            "id": 2,
+            "word": "利用",
+            "furigana": "りよう",
+            "romanji": "riyou",
+            "meanings": {
+              "id": "menggunakan",
+              "en": "to use"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "efektif, menggunakan",
+    "en": "effective, use"
+  }
+}

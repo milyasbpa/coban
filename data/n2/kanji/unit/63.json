@@ -1,0 +1,48 @@
+{
+  "id": 63,
+  "character": "沖",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おき",
+        "romanji": "oki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "沖",
+            "furigana": "おき",
+            "romanji": "oki",
+            "meanings": {
+              "id": "lepas pantai",
+              "en": "offshore"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チュウ",
+        "romanji": "chuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "天沖",
+            "furigana": "てんちゅう",
+            "romanji": "tenchuu",
+            "meanings": {
+              "id": "naik ke langit/surga",
+              "en": "ascend to heaven"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lepas pantai, naik ke langit/surga",
+    "en": "offshore, ascend to heaven"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 296,
+  "character": "宿",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やど",
+        "romanji": "yado",
+        "examples": [
+          {
+            "id": 1,
+            "word": "宿屋",
+            "furigana": "やどや",
+            "romanji": "yadoya",
+            "meanings": {
+              "id": "rumah penginapan",
+              "en": "inn"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュク",
+        "romanji": "shuku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "宿題",
+            "furigana": "しゅくだい",
+            "romanji": "shukudai",
+            "meanings": {
+              "id": "pekerjaan rumah",
+              "en": "homework"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rumah penginapan, pekerjaan rumah",
+    "en": "inn, homework"
+  }
+}

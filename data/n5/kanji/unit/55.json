@@ -1,0 +1,48 @@
+{
+  "id": 55,
+  "character": "休",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やす",
+        "romanji": "yasu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "休む",
+            "furigana": "やすむ",
+            "romanji": "yasumu",
+            "meanings": {
+              "id": "beristirahat",
+              "en": "to rest"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "休日",
+            "furigana": "きゅうじつ",
+            "romanji": "kyuujitsu",
+            "meanings": {
+              "id": "hari libur",
+              "en": "holiday"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "istirahat",
+    "en": "rest"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 330,
+  "character": "税",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ゼイ",
+        "romanji": "zei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "税金",
+            "furigana": "ぜいきん",
+            "romanji": "zeikin",
+            "meanings": {
+              "id": "uang pajak, bea cukai",
+              "en": "tax, customs"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "uang pajak, bea cukai",
+    "en": "tax, customs"
+  }
+}

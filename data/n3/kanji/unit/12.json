@@ -1,0 +1,31 @@
+{
+  "id": 12,
+  "character": "予",
+  "strokes": 4,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ヨ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "予定",
+            "furigana": "よてい",
+            "romanji": "yotei",
+            "meanings": {
+              "id": "rencana",
+              "en": "plan"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rencana",
+    "en": "plan, beforehand"
+  }
+}

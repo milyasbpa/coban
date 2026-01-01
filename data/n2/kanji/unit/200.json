@@ -1,0 +1,63 @@
+{
+  "id": 200,
+  "character": "針",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はり",
+        "romanji": "hari",
+        "examples": [
+          {
+            "id": 1,
+            "word": "針",
+            "furigana": "はり",
+            "romanji": "hari",
+            "meanings": {
+              "id": "jarum, kail",
+              "en": "needle, hook"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ばり",
+        "romanji": "bari",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "注射針",
+            "furigana": "ちゅうしゃしん",
+            "romanji": "chuushashin",
+            "meanings": {
+              "id": "jarum suntik",
+              "en": "syringe needle"
+            }
+          },
+          {
+            "id": 3,
+            "word": "方針",
+            "furigana": "ほうしん",
+            "romanji": "houshin",
+            "meanings": {
+              "id": "haluan, kebijaksanaan",
+              "en": "policy, principle, course of action"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jarum, kail, jarum suntik",
+    "en": "needle, hook, syringe"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 98,
+  "character": "通",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とお",
+        "romanji": "too",
+        "examples": [
+          {
+            "id": 1,
+            "word": "通る",
+            "furigana": "とおる",
+            "romanji": "tooru",
+            "meanings": {
+              "id": "melewati",
+              "en": "to pass"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かよ",
+        "romanji": "kayo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "通う",
+            "furigana": "かよう",
+            "romanji": "kayou",
+            "meanings": {
+              "id": "pulang pergi",
+              "en": "to commute"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ツウ",
+        "romanji": "tsuu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "普通",
+            "furigana": "ふつう",
+            "romanji": "futsuu",
+            "meanings": {
+              "id": "biasanya",
+              "en": "usually"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melewati",
+    "en": "pass through, commute"
+  }
+}

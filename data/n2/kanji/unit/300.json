@@ -1,0 +1,31 @@
+{
+  "id": 300,
+  "character": "湾",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ワン",
+        "romanji": "wan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "ジャカルタ湾",
+            "furigana": "ジャカルタわん",
+            "romanji": "jakaruta wan",
+            "meanings": {
+              "id": "teluk Jakarta",
+              "en": "Jakarta bay"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "teluk Jakarta",
+    "en": "Jakarta bay, bay"
+  }
+}

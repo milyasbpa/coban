@@ -1,0 +1,48 @@
+{
+  "id": 249,
+  "character": "疲",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つか",
+        "romanji": "tsuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "疲れる",
+            "furigana": "つかれる",
+            "romanji": "tsukareru",
+            "meanings": {
+              "id": "lelah, letih",
+              "en": "tired, weary"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "疲労",
+            "furigana": "ひろう",
+            "romanji": "hirou",
+            "meanings": {
+              "id": "kelelahan",
+              "en": "fatigue"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lelah, letih, kelelahan",
+    "en": "tired, fatigue"
+  }
+}

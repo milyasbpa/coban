@@ -1,0 +1,90 @@
+{
+  "id": 127,
+  "character": "実",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "み",
+        "romanji": "mi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "実",
+            "furigana": "み",
+            "romanji": "mi",
+            "meanings": {
+              "id": "buah, biji",
+              "en": "fruit, seed"
+            }
+          },
+          {
+            "id": 2,
+            "word": "実る",
+            "furigana": "みのる",
+            "romanji": "minoru",
+            "meanings": {
+              "id": "berbuah, berhasil",
+              "en": "bear fruit, succeed"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "みの",
+        "romanji": "mino",
+        "examples": [
+          {
+            "id": 2,
+            "word": "実る",
+            "furigana": "みのる",
+            "romanji": "minoru",
+            "meanings": {
+              "id": "berbuah, berhasil",
+              "en": "bear fruit, succeed"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジツ",
+        "romanji": "jitsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "実力",
+            "furigana": "じつりょく",
+            "romanji": "jitsuryoku",
+            "meanings": {
+              "id": "kemampuan",
+              "en": "ability"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジッ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 3,
+            "word": "実力",
+            "furigana": "じつりょく",
+            "romanji": "jitsuryoku",
+            "meanings": {
+              "id": "kemampuan",
+              "en": "ability"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "buah, biji, berbuah, berhasil, kemampuan",
+    "en": "fruit, seed, bear fruit, succeed, ability"
+  }
+}

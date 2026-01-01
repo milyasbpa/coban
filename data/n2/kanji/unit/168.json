@@ -1,0 +1,63 @@
+{
+  "id": 168,
+  "character": "柔",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やわ",
+        "romanji": "yawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "柔らかい",
+            "furigana": "やわらかい",
+            "romanji": "yawarakai",
+            "meanings": {
+              "id": "lunak, empuk",
+              "en": "soft, tender"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "柔道",
+            "furigana": "じゅうどう",
+            "romanji": "juudou",
+            "meanings": {
+              "id": "judo",
+              "en": "judo"
+            }
+          },
+          {
+            "id": 3,
+            "word": "柔術",
+            "furigana": "じゅうじゅつ",
+            "romanji": "juujutsu",
+            "meanings": {
+              "id": "lemah-lembut",
+              "en": "gentle art"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ニュウ",
+        "romanji": "nyuu",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lunak, empuk, judo, lemah-lembut",
+    "en": "soft, gentle, judo"
+  }
+}

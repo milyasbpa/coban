@@ -1,0 +1,48 @@
+{
+  "id": 398,
+  "character": "寝",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ね",
+        "romanji": "ne",
+        "examples": [
+          {
+            "id": 1,
+            "word": "寝る",
+            "furigana": "ねる",
+            "romanji": "neru",
+            "meanings": {
+              "id": "tidur",
+              "en": "to sleep"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "寝室",
+            "furigana": "しんしつ",
+            "romanji": "shinshitsu",
+            "meanings": {
+              "id": "kamar tidur",
+              "en": "bedroom"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tidur, kamar tidur",
+    "en": "sleep, bedroom"
+  }
+}

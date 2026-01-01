@@ -1,0 +1,64 @@
+{
+  "id": 314,
+  "character": "街",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まち",
+        "romanji": "machi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "街角",
+            "furigana": "まちかど",
+            "romanji": "machikado",
+            "meanings": {
+              "id": "sudut kota",
+              "en": "city corner"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "街道",
+            "furigana": "かいどう",
+            "romanji": "kaidou",
+            "meanings": {
+              "id": "jalan raya",
+              "en": "street, highway"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ガイ",
+        "romanji": "gai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "商店街",
+            "furigana": "しょうてんがい",
+            "romanji": "shoutengai",
+            "meanings": {
+              "id": "pertokoan",
+              "en": "shopping district"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sudut kota, jalan raya, pertokoan",
+    "en": "city corner, street, shopping district"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 157,
+  "character": "拾",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひろ",
+        "romanji": "hiro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "拾う",
+            "furigana": "ひろう",
+            "romanji": "hirou",
+            "meanings": {
+              "id": "memungut",
+              "en": "to pick up"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "拾万円",
+            "furigana": "じゅうまんえん",
+            "romanji": "juuman'en",
+            "meanings": {
+              "id": "seratus ribu yen",
+              "en": "hundred thousand yen"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "拾得",
+          "furigana": "しゅうとく",
+          "romanji": "shuutoku",
+          "meanings": {
+            "id": "pungut kembali",
+            "en": "to recover, to collect"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "memungut, pungut kembali, seratus ribu yen",
+    "en": "to pick up, to collect, hundred thousand yen"
+  }
+}

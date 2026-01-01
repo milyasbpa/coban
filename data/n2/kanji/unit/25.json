@@ -1,0 +1,48 @@
+{
+  "id": 25,
+  "character": "甘",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あま",
+        "romanji": "ama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "甘い",
+            "furigana": "あまい",
+            "romanji": "amai",
+            "meanings": {
+              "id": "manis, muluk",
+              "en": "sweet, naive"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "甘味料",
+            "furigana": "かんみりょう",
+            "romanji": "kanmiryou",
+            "meanings": {
+              "id": "bahan pemanis",
+              "en": "sweetener"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "manis, muluk, bahan pemanis",
+    "en": "sweet, sweetener"
+  }
+}

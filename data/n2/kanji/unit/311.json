@@ -1,0 +1,66 @@
+{
+  "id": 311,
+  "character": "幅",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はば",
+        "romanji": "haba",
+        "examples": [
+          {
+            "id": 1,
+            "word": "幅広い",
+            "furigana": "はばひろい",
+            "romanji": "habahiroi",
+            "meanings": {
+              "id": "ukuran yang lebar",
+              "en": "wide"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フク",
+        "romanji": "fuku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "紙幅",
+            "furigana": "しふく",
+            "romanji": "shifuku",
+            "meanings": {
+              "id": "ukuran kertas",
+              "en": "paper size"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ブク",
+        "romanji": "buku",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "全幅",
+          "furigana": "ぜんぷく",
+          "romanji": "zenpuku",
+          "meanings": {
+            "id": "lebar keseluruhan",
+            "en": "total width"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "ukuran yang lebar, ukuran kertas, lebar keseluruhan",
+    "en": "width, paper size, total width"
+  }
+}

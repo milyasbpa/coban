@@ -1,0 +1,48 @@
+{
+  "id": 28,
+  "character": "水",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みず",
+        "romanji": "mizu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "水",
+            "furigana": "みず",
+            "romanji": "mizu",
+            "meanings": {
+              "id": "air",
+              "en": "water"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "スイ",
+        "romanji": "sui",
+        "examples": [
+          {
+            "id": 2,
+            "word": "水泳",
+            "furigana": "すいえい",
+            "romanji": "suiei",
+            "meanings": {
+              "id": "tetesan air",
+              "en": "swimming"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "air",
+    "en": "water"
+  }
+}

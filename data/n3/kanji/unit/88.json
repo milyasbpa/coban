@@ -1,0 +1,48 @@
+{
+  "id": 88,
+  "character": "迎",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むか",
+        "romanji": "muka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "迎え",
+            "furigana": "むかえ",
+            "romanji": "mukae",
+            "meanings": {
+              "id": "menyambut",
+              "en": "to welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲイ",
+        "romanji": "gei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "迎合",
+            "furigana": "げいごう",
+            "romanji": "geigou",
+            "meanings": {
+              "id": "sanjungan",
+              "en": "flattery"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyambut",
+    "en": "welcome"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 284,
+  "character": "閉",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "し",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "閉める",
+            "furigana": "しめる",
+            "romanji": "shimeru",
+            "meanings": {
+              "id": "menutup",
+              "en": "to close"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘイ",
+        "romanji": "hei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "閉会",
+            "furigana": "へいかい",
+            "romanji": "heikai",
+            "meanings": {
+              "id": "penutupan",
+              "en": "closure"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menutup, penutupan",
+    "en": "close, closure"
+  }
+}

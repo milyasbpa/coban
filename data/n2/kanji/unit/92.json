@@ -1,0 +1,47 @@
+{
+  "id": 92,
+  "character": "拍",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ハク",
+        "romanji": "haku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "拍手",
+            "furigana": "はくしゅ",
+            "romanji": "hakushu",
+            "meanings": {
+              "id": "tepukan tangan",
+              "en": "clap"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ヒョウ",
+        "romanji": "hyou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "拍子",
+            "furigana": "ひょうし",
+            "romanji": "hyoushi",
+            "meanings": {
+              "id": "ketukan, irama",
+              "en": "beat, rhythm"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tepukan tangan, ketukan, irama",
+    "en": "clap, beat, rhythm"
+  }
+}

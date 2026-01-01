@@ -1,0 +1,41 @@
+{
+  "id": 87,
+  "character": "界",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "世界",
+            "furigana": "せかい",
+            "romanji": "sekai",
+            "meanings": {
+              "id": "dunia",
+              "en": "world"
+            }
+          },
+          {
+            "id": 2,
+            "word": "境界",
+            "furigana": "きょうかい",
+            "romanji": "kyoukai",
+            "meanings": {
+              "id": "batas, limit",
+              "en": "boundary"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dunia",
+    "en": "world, boundary"
+  }
+}

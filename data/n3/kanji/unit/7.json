@@ -1,0 +1,48 @@
+{
+  "id": 7,
+  "character": "支",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ささ",
+        "romanji": "sasa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "支え",
+            "furigana": "ささえ",
+            "romanji": "sasae",
+            "meanings": {
+              "id": "penyangga, penopang",
+              "en": "support, prop, foundation, backing"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "支援",
+            "furigana": "しえん",
+            "romanji": "shien",
+            "meanings": {
+              "id": "bantuan, dukungan",
+              "en": "support"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "penyangga, penopang",
+    "en": "support"
+  }
+}

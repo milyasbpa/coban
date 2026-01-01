@@ -1,0 +1,31 @@
+{
+  "id": 292,
+  "character": "停",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "テイ",
+        "romanji": "tei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "停留所",
+            "furigana": "ていりゅうじょ",
+            "romanji": "teiryuujo",
+            "meanings": {
+              "id": "halte",
+              "en": "bus stop, station"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "halte",
+    "en": "stop, station"
+  }
+}

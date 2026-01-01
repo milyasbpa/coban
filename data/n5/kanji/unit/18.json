@@ -1,0 +1,145 @@
+{
+  "id": 18,
+  "character": "下",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "した",
+        "romanji": "shita",
+        "examples": [
+          {
+            "id": 1,
+            "word": "下",
+            "furigana": "した",
+            "romanji": "shita",
+            "meanings": {
+              "id": "bawah",
+              "en": "below"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "しも",
+        "romanji": "shimo",
+        "examples": []
+      },
+      {
+        "furigana": "もと",
+        "romanji": "moto",
+        "examples": []
+      },
+      {
+        "furigana": "さ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 4,
+            "word": "下がる",
+            "furigana": "さがる",
+            "romanji": "sagaru",
+            "meanings": {
+              "id": "turun, jatuh",
+              "en": "to go down"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "くだ",
+        "romanji": "kuda",
+        "examples": [
+          {
+            "id": 5,
+            "word": "下る",
+            "furigana": "くだる",
+            "romanji": "kudaru",
+            "meanings": {
+              "id": "turun, menuruni",
+              "en": "to descend"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 6,
+            "word": "下ろす",
+            "furigana": "おろす",
+            "romanji": "orosu",
+            "meanings": {
+              "id": "menurunkan, menjatuhkan",
+              "en": "to lower"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "川下",
+            "furigana": "かわしも",
+            "romanji": "kawashimo",
+            "meanings": {
+              "id": "hilir sungai",
+              "en": "downstream"
+            }
+          },
+          {
+            "id": 7,
+            "word": "地下",
+            "furigana": "ちか",
+            "romanji": "chika",
+            "meanings": {
+              "id": "bawah tanah",
+              "en": "underground"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゲ",
+        "romanji": "ge",
+        "examples": [
+          {
+            "id": 8,
+            "word": "上下",
+            "furigana": "じょうげ",
+            "romanji": "jouge",
+            "meanings": {
+              "id": "atas dan bawah",
+              "en": "up and down"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "足下",
+          "furigana": "あしもと",
+          "romanji": "ashimoto",
+          "meanings": {
+            "id": "sekitar pijakan kaki",
+            "en": "at one's feet"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "bawah",
+    "en": "below, down"
+  }
+}

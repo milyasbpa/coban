@@ -1,0 +1,50 @@
+{
+  "id": 174,
+  "character": "梅",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うめ",
+        "romanji": "ume",
+        "examples": [
+          {
+            "id": 1,
+            "word": "梅の花",
+            "furigana": "うめのはな",
+            "romanji": "ume no hana",
+            "meanings": {
+              "id": "bunga prem",
+              "en": "plum blossom"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "バイ",
+        "romanji": "bai",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "梅雨",
+          "furigana": "つゆ",
+          "romanji": "tsuyu",
+          "meanings": {
+            "id": "musim hujan",
+            "en": "rainy season"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "bunga prem, musim hujan",
+    "en": "plum blossom, rainy season"
+  }
+}

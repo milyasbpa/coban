@@ -1,0 +1,33 @@
+{
+  "id": 271,
+  "character": "掛",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": []
+      }
+    ],
+    "on": [],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "出掛ける",
+          "furigana": "でかける",
+          "romanji": "dekakeru",
+          "meanings": {
+            "id": "keluar rumah",
+            "en": "to go out"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "keluar rumah",
+    "en": "go out"
+  }
+}

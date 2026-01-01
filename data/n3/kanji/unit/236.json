@@ -1,0 +1,44 @@
+{
+  "id": 236,
+  "character": "娘",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むすめ",
+        "romanji": "musume",
+        "examples": [
+          {
+            "id": 1,
+            "word": "娘婿",
+            "furigana": "むすめむこ",
+            "romanji": "musumemuko",
+            "meanings": {
+              "id": "menantu laki-laki",
+              "en": "son-in-law"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "小娘",
+          "furigana": "こむすめ",
+          "romanji": "komusume",
+          "meanings": {
+            "id": "perempuan kecil",
+            "en": "little girl"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menantu laki-laki, perempuan kecil",
+    "en": "daughter-in-law, little girl"
+  }
+}

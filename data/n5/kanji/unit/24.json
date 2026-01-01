@@ -1,0 +1,107 @@
+{
+  "id": 24,
+  "character": "日",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "日陰",
+            "furigana": "ひかげ",
+            "romanji": "hikage",
+            "meanings": {
+              "id": "tempat teduh",
+              "en": "shade"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "び",
+        "romanji": "bi",
+        "examples": []
+      },
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ニチ",
+        "romanji": "nichi",
+        "examples": [
+          {
+            "id": 4,
+            "word": "日常",
+            "furigana": "にちじょう",
+            "romanji": "nichijou",
+            "meanings": {
+              "id": "sehari-hari",
+              "en": "daily"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジツ",
+        "romanji": "jitsu",
+        "examples": [
+          {
+            "id": 6,
+            "word": "休日",
+            "furigana": "きゅうじつ",
+            "romanji": "kyuujitsu",
+            "meanings": {
+              "id": "hari libur",
+              "en": "holiday"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "今日",
+          "furigana": "きょう",
+          "romanji": "kyou",
+          "meanings": {
+            "id": "sinar matahari dari barat",
+            "en": "today"
+          }
+        },
+        {
+          "id": 3,
+          "word": "二日",
+          "furigana": "ふつか",
+          "romanji": "futsuka",
+          "meanings": {
+            "id": "tanggal 2, 2 hari",
+            "en": "second day"
+          }
+        },
+        {
+          "id": 5,
+          "word": "日光",
+          "furigana": "にっこう",
+          "romanji": "nikkou",
+          "meanings": {
+            "id": "sinar matahari",
+            "en": "sunlight"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "hari, matahari",
+    "en": "day, sun"
+  }
+}

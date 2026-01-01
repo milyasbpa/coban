@@ -1,0 +1,50 @@
+{
+  "id": 319,
+  "character": "集",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つの",
+        "romanji": "tsuno",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "集集",
+            "furigana": "しゅうしゅう",
+            "romanji": "shuushuu",
+            "meanings": {
+              "id": "pengumpulan",
+              "en": "collection"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "集まる",
+          "furigana": "あつまる",
+          "romanji": "atsumaru",
+          "meanings": {
+            "id": "mengumpulkan",
+            "en": "to gather"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "mengumpulkan, perekrutan, pengumpulan",
+    "en": "gather, recruit, collection"
+  }
+}

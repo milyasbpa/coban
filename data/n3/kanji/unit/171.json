@@ -1,0 +1,48 @@
+{
+  "id": 171,
+  "character": "呼",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "呼ぶ",
+            "furigana": "よぶ",
+            "romanji": "yobu",
+            "meanings": {
+              "id": "memanggil",
+              "en": "to call"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "呼吸",
+            "furigana": "こきゅう",
+            "romanji": "kokyuu",
+            "meanings": {
+              "id": "pernafasan",
+              "en": "respiration"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memanggil, pernafasan",
+    "en": "call, respiration"
+  }
+}

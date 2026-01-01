@@ -1,0 +1,71 @@
+{
+  "id": 112,
+  "character": "習",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なら",
+        "romanji": "nara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "習う",
+            "furigana": "ならう",
+            "romanji": "narau",
+            "meanings": {
+              "id": "belajar",
+              "en": "to learn"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "習慣",
+            "furigana": "しゅうかん",
+            "romanji": "shuukan",
+            "meanings": {
+              "id": "pengulangan pelajaran",
+              "en": "habit"
+            }
+          },
+          {
+            "id": 4,
+            "word": "復習",
+            "furigana": "ふくしゅう",
+            "romanji": "fukushuu",
+            "meanings": {
+              "id": "bagian",
+              "en": "review"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "見習い",
+          "furigana": "みならい",
+          "romanji": "minarai",
+          "meanings": {
+            "id": "latihan, magang",
+            "en": "apprentice"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "belajar",
+    "en": "learn, practice"
+  }
+}

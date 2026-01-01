@@ -1,0 +1,58 @@
+{
+  "id": 115,
+  "character": "転",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ころ",
+        "romanji": "koro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "転ぶ",
+            "furigana": "ころぶ",
+            "romanji": "korobu",
+            "meanings": {
+              "id": "jatuh terguling",
+              "en": "to fall down"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テン",
+        "romanji": "ten",
+        "examples": [
+          {
+            "id": 2,
+            "word": "運転",
+            "furigana": "うんてん",
+            "romanji": "unten",
+            "meanings": {
+              "id": "kemudi",
+              "en": "driving"
+            }
+          },
+          {
+            "id": 3,
+            "word": "自転車",
+            "furigana": "じてんしゃ",
+            "romanji": "jitensha",
+            "meanings": {
+              "id": "sepeda",
+              "en": "bicycle"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jatuh terguling",
+    "en": "turn, roll"
+  }
+}

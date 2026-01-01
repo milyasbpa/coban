@@ -1,0 +1,64 @@
+{
+  "id": 46,
+  "character": "兄",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あに",
+        "romanji": "ani",
+        "examples": [
+          {
+            "id": 1,
+            "word": "兄",
+            "furigana": "あに",
+            "romanji": "ani",
+            "meanings": {
+              "id": "abang",
+              "en": "older brother"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "父兄",
+            "furigana": "ふけい",
+            "romanji": "fukei",
+            "meanings": {
+              "id": "wali",
+              "en": "guardian"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "兄弟",
+            "furigana": "きょうだい",
+            "romanji": "kyoudai",
+            "meanings": {
+              "id": "kakak beradik",
+              "en": "siblings"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kakak laki-laki",
+    "en": "older brother"
+  }
+}

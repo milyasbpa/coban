@@ -1,0 +1,47 @@
+{
+  "id": 346,
+  "character": "復",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "フク",
+        "romanji": "fuku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "復習",
+            "furigana": "ふくしゅう",
+            "romanji": "fukushuu",
+            "meanings": {
+              "id": "pengulangan pelajaran",
+              "en": "review"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "フッ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "復習",
+            "furigana": "ふくしゅう",
+            "romanji": "fukushuu",
+            "meanings": {
+              "id": "pengulangan pelajaran",
+              "en": "review"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pengulangan pelajaran",
+    "en": "review, repetition"
+  }
+}

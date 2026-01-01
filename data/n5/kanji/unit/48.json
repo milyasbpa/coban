@@ -1,0 +1,98 @@
+{
+  "id": 48,
+  "character": "白",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しろ",
+        "romanji": "shiro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "白い",
+            "furigana": "しろい",
+            "romanji": "shiroi",
+            "meanings": {
+              "id": "putih",
+              "en": "white"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "しら",
+        "romanji": "shira",
+        "examples": [
+          {
+            "id": 2,
+            "word": "白髪",
+            "furigana": "しらが",
+            "romanji": "shiraga",
+            "meanings": {
+              "id": "dinding putih",
+              "en": "white hair"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハク",
+        "romanji": "haku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "白米",
+            "furigana": "はくまい",
+            "romanji": "hakumai",
+            "meanings": {
+              "id": "beras putih",
+              "en": "white rice"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "バク",
+        "romanji": "baku",
+        "examples": []
+      },
+      {
+        "furigana": "ビャク",
+        "romanji": "byaku",
+        "examples": [
+          {
+            "id": 5,
+            "word": "白檀",
+            "furigana": "びゃくだん",
+            "romanji": "byakudan",
+            "meanings": {
+              "id": "kayu cendana",
+              "en": "sandalwood"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 4,
+          "word": "蛋白質",
+          "furigana": "たんぱくしつ",
+          "romanji": "tanpakushitsu",
+          "meanings": {
+            "id": "protein, zat putih telur",
+            "en": "protein"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "putih",
+    "en": "white"
+  }
+}

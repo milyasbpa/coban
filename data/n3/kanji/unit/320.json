@@ -1,0 +1,53 @@
+{
+  "id": 320,
+  "character": "葉",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "葉",
+            "furigana": "は",
+            "romanji": "ha",
+            "meanings": {
+              "id": "daun",
+              "en": "leaf"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ば",
+        "romanji": "ba",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "紅葉",
+            "furigana": "こうよう",
+            "romanji": "kouyou",
+            "meanings": {
+              "id": "daun musim gugur",
+              "en": "autumn leaf"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "daun, daun musim gugur",
+    "en": "leaf, autumn leaf"
+  }
+}

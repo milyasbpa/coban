@@ -1,0 +1,53 @@
+{
+  "id": 219,
+  "character": "粉",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "小麦粉",
+            "furigana": "こむぎこ",
+            "romanji": "komugiko",
+            "meanings": {
+              "id": "tepung terigu",
+              "en": "wheat flour"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こな",
+        "romanji": "kona",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フン",
+        "romanji": "fun",
+        "examples": [
+          {
+            "id": 2,
+            "word": "花粉",
+            "furigana": "かふん",
+            "romanji": "kafun",
+            "meanings": {
+              "id": "serbuk sari",
+              "en": "pollen"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tepung terigu, serbuk sari",
+    "en": "wheat flour, pollen"
+  }
+}

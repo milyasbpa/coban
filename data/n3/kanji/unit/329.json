@@ -1,0 +1,48 @@
+{
+  "id": 329,
+  "character": "程",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ほど",
+        "romanji": "hodo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "程",
+            "furigana": "ほど",
+            "romanji": "hodo",
+            "meanings": {
+              "id": "batasan, tidak se...",
+              "en": "limit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テイ",
+        "romanji": "tei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "程度",
+            "furigana": "ていど",
+            "romanji": "teido",
+            "meanings": {
+              "id": "derajat, tingkat",
+              "en": "degree, level"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "batasan, tidak se..., derajat, tingkat",
+    "en": "limit, degree, level"
+  }
+}

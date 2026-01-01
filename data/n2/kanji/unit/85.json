@@ -1,0 +1,57 @@
+{
+  "id": 85,
+  "character": "依",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "依頼",
+            "furigana": "いらい",
+            "romanji": "irai",
+            "meanings": {
+              "id": "permohonan, permintaan",
+              "en": "request"
+            }
+          },
+          {
+            "id": 2,
+            "word": "帰依",
+            "furigana": "きえ",
+            "romanji": "kie",
+            "meanings": {
+              "id": "berserah diri (agama)",
+              "en": "surrender (religion)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "エ",
+        "romanji": "e",
+        "examples": [
+          {
+            "id": 2,
+            "word": "帰依",
+            "furigana": "きえ",
+            "romanji": "kie",
+            "meanings": {
+              "id": "berserah diri (agama)",
+              "en": "surrender (religion)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "permohonan, permintaan, berserah diri (agama)",
+    "en": "request, surrender (religion)"
+  }
+}

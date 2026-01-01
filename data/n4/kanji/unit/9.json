@@ -1,0 +1,68 @@
+{
+  "id": 9,
+  "character": "止",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "止まる",
+            "furigana": "とまる",
+            "romanji": "tomaru",
+            "meanings": {
+              "id": "berhenti, tahan",
+              "en": "to stop"
+            }
+          },
+          {
+            "id": 2,
+            "word": "止める",
+            "furigana": "とめる",
+            "romanji": "tomeru",
+            "meanings": {
+              "id": "memberhentikan, menahan",
+              "en": "to stop (something)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "とど",
+        "romanji": "todo",
+        "examples": []
+      },
+      {
+        "furigana": "ど",
+        "romanji": "do",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "禁止",
+            "furigana": "きんし",
+            "romanji": "kinshi",
+            "meanings": {
+              "id": "larangan",
+              "en": "prohibition"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berhenti, tahan",
+    "en": "stop"
+  }
+}

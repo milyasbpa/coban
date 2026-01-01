@@ -1,0 +1,48 @@
+{
+  "id": 205,
+  "character": "兼",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "兼ねる",
+            "furigana": "かねる",
+            "romanji": "kaneru",
+            "meanings": {
+              "id": "mustahil",
+              "en": "impossible"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "兼業",
+            "furigana": "けんぎょう",
+            "romanji": "kengyou",
+            "meanings": {
+              "id": "pekerjaan sampingan",
+              "en": "side job"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mustahil, pekerjaan sampingan",
+    "en": "impossible, side job"
+  }
+}

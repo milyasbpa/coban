@@ -1,0 +1,48 @@
+{
+  "id": 47,
+  "character": "冬",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふゆ",
+        "romanji": "fuyu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "冬",
+            "furigana": "ふゆ",
+            "romanji": "fuyu",
+            "meanings": {
+              "id": "musim dingin",
+              "en": "winter"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "冬季",
+            "furigana": "とうき",
+            "romanji": "touki",
+            "meanings": {
+              "id": "musim dingin",
+              "en": "winter season"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "musim dingin",
+    "en": "winter"
+  }
+}

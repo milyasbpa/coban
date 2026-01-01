@@ -1,0 +1,64 @@
+{
+  "id": 60,
+  "character": "名",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "な",
+        "romanji": "na",
+        "examples": [
+          {
+            "id": 1,
+            "word": "名前",
+            "furigana": "なまえ",
+            "romanji": "namae",
+            "meanings": {
+              "id": "nama",
+              "en": "name"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "メイ",
+        "romanji": "mei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "名刺",
+            "furigana": "めいし",
+            "romanji": "meishi",
+            "meanings": {
+              "id": "kartu nama",
+              "en": "business card"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ミョウ",
+        "romanji": "myou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "名字",
+            "furigana": "みょうじ",
+            "romanji": "myouji",
+            "meanings": {
+              "id": "nama keluarga",
+              "en": "surname"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "nama",
+    "en": "name"
+  }
+}

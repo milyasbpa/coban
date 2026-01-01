@@ -1,0 +1,48 @@
+{
+  "id": 436,
+  "character": "縮",
+  "strokes": 17,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ちぢ",
+        "romanji": "chiji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "縮まる",
+            "furigana": "ちぢまる",
+            "romanji": "chijimaru",
+            "meanings": {
+              "id": "menyusut, menciut",
+              "en": "shrink, contract"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュク",
+        "romanji": "shuku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "縮小コピー",
+            "furigana": "しゅくしょうコピー",
+            "romanji": "shukushou kopii",
+            "meanings": {
+              "id": "copy perkecil",
+              "en": "reduce copy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyusut, menciut, copy perkecil",
+    "en": "shrink, contract, reduce copy"
+  }
+}

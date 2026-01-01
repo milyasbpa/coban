@@ -1,0 +1,48 @@
+{
+  "id": 36,
+  "character": "自",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みずか",
+        "romanji": "mizuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "自ら",
+            "furigana": "みずから",
+            "romanji": "mizukara",
+            "meanings": {
+              "id": "diri sendiri",
+              "en": "oneself"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "自動",
+            "furigana": "じどう",
+            "romanji": "jidou",
+            "meanings": {
+              "id": "otomatis",
+              "en": "automatic"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "diri sendiri",
+    "en": "self"
+  }
+}

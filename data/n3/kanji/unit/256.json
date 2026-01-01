@@ -1,0 +1,48 @@
+{
+  "id": 256,
+  "character": "候",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "そうろう",
+        "romanji": "sourou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "候",
+            "furigana": "そうろう",
+            "romanji": "sourou",
+            "meanings": {
+              "id": "cuaca",
+              "en": "weather"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "気候",
+            "furigana": "きこう",
+            "romanji": "kikou",
+            "meanings": {
+              "id": "iklim",
+              "en": "climate"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cuaca, iklim, nilai, harga",
+    "en": "weather, climate, value, price"
+  }
+}

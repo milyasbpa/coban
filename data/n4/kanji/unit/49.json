@@ -1,0 +1,70 @@
+{
+  "id": 49,
+  "character": "利",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リ",
+        "romanji": "ri",
+        "examples": [
+          {
+            "id": 1,
+            "word": "便利",
+            "furigana": "べんり",
+            "romanji": "benri",
+            "meanings": {
+              "id": "praktis",
+              "en": "convenient"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "医者",
+          "furigana": "いしゃ",
+          "romanji": "isha",
+          "meanings": {
+            "id": "dokter",
+            "en": "doctor"
+          }
+        },
+        {
+          "id": 3,
+          "word": "医院",
+          "furigana": "いいん",
+          "romanji": "iin",
+          "meanings": {
+            "id": "klinik",
+            "en": "clinic"
+          }
+        },
+        {
+          "id": 4,
+          "word": "医学",
+          "furigana": "いがく",
+          "romanji": "igaku",
+          "meanings": {
+            "id": "kedokteran",
+            "en": "medical science"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "keidal",
+    "en": "profit, advantage"
+  }
+}

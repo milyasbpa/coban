@@ -1,0 +1,48 @@
+{
+  "id": 410,
+  "character": "影",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かげ",
+        "romanji": "kage",
+        "examples": [
+          {
+            "id": 1,
+            "word": "影絵",
+            "furigana": "かげえ",
+            "romanji": "kagee",
+            "meanings": {
+              "id": "gambar bayangan",
+              "en": "shadow image"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エイ",
+        "romanji": "ei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "影響",
+            "furigana": "えいきょう",
+            "romanji": "eikyou",
+            "meanings": {
+              "id": "pengaruh, dampak",
+              "en": "influence, impact"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gambar bayangan, pengaruh, dampak",
+    "en": "shadow image, influence, impact"
+  }
+}

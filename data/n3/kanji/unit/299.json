@@ -1,0 +1,63 @@
+{
+  "id": 299,
+  "character": "常",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つね",
+        "romanji": "tsune",
+        "examples": [
+          {
+            "id": 1,
+            "word": "常に",
+            "furigana": "つねに",
+            "romanji": "tsune ni",
+            "meanings": {
+              "id": "selalu, biasanya",
+              "en": "always, usually"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "とこ",
+        "romanji": "toko",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "常夜",
+            "furigana": "じょうや",
+            "romanji": "jouya",
+            "meanings": {
+              "id": "senantiasa malam",
+              "en": "eternal night, perpetual night"
+            }
+          },
+          {
+            "id": 3,
+            "word": "正常",
+            "furigana": "せいじょう",
+            "romanji": "seijou",
+            "meanings": {
+              "id": "normal, biasa",
+              "en": "normal"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sering, biasanya, senantiasa, normal, biasa",
+    "en": "often, usually, always, normal"
+  }
+}

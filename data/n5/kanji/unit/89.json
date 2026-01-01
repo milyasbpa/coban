@@ -1,0 +1,80 @@
+{
+  "id": 89,
+  "character": "家",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いえ",
+        "romanji": "ie",
+        "examples": [
+          {
+            "id": 1,
+            "word": "家",
+            "furigana": "いえ",
+            "romanji": "ie",
+            "meanings": {
+              "id": "rumah",
+              "en": "house"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "や",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 2,
+            "word": "家主",
+            "furigana": "やぬし",
+            "romanji": "yanushi",
+            "meanings": {
+              "id": "pemilik/tuan rumah",
+              "en": "landlord"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 3,
+            "word": "家族",
+            "furigana": "かぞく",
+            "romanji": "kazoku",
+            "meanings": {
+              "id": "keluarga",
+              "en": "family"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケ",
+        "romanji": "ke",
+        "examples": [
+          {
+            "id": 4,
+            "word": "家来",
+            "furigana": "けらい",
+            "romanji": "kerai",
+            "meanings": {
+              "id": "pembantu, kaki-tangan",
+              "en": "retainer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rumah",
+    "en": "house, home"
+  }
+}

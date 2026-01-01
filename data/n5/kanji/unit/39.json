@@ -1,0 +1,48 @@
+{
+  "id": 39,
+  "character": "古",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふる",
+        "romanji": "furu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "古い",
+            "furigana": "ふるい",
+            "romanji": "furui",
+            "meanings": {
+              "id": "tua, lama",
+              "en": "old"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "古典",
+            "furigana": "こてん",
+            "romanji": "koten",
+            "meanings": {
+              "id": "klasik",
+              "en": "classic"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lama",
+    "en": "old"
+  }
+}

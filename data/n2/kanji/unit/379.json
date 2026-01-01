@@ -1,0 +1,48 @@
+{
+  "id": 379,
+  "character": "憎",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "にく",
+        "romanji": "niku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "憎む",
+            "furigana": "にくむ",
+            "romanji": "nikumu",
+            "meanings": {
+              "id": "membenci, memusuhi",
+              "en": "to hate, to be hostile"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゾウ",
+        "romanji": "zou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "憎悪",
+            "furigana": "ぞうお",
+            "romanji": "zouo",
+            "meanings": {
+              "id": "kebencian",
+              "en": "hatred"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membenci, memusuhi, kebencian",
+    "en": "hate, enmity, hatred"
+  }
+}

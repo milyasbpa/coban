@@ -1,0 +1,77 @@
+{
+  "id": 132,
+  "character": "鉄",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "テツ",
+        "romanji": "tetsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "地下鉄",
+            "furigana": "ちかてつ",
+            "romanji": "chikatetsu",
+            "meanings": {
+              "id": "kereta bawah tanah",
+              "en": "subway"
+            }
+          },
+          {
+            "id": 2,
+            "word": "鉄道",
+            "furigana": "てつどう",
+            "romanji": "tetsudou",
+            "meanings": {
+              "id": "rel kereta",
+              "en": "railway"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "テッ",
+        "romanji": "tet",
+        "examples": [
+          {
+            "id": 1,
+            "word": "地下鉄",
+            "furigana": "ちかてつ",
+            "romanji": "chikatetsu",
+            "meanings": {
+              "id": "kereta bawah tanah",
+              "en": "subway"
+            }
+          },
+          {
+            "id": 2,
+            "word": "鉄道",
+            "furigana": "てつどう",
+            "romanji": "tetsudou",
+            "meanings": {
+              "id": "rel kereta",
+              "en": "railway"
+            }
+          },
+          {
+            "id": 3,
+            "word": "鉄板",
+            "furigana": "てっぱん",
+            "romanji": "teppan",
+            "meanings": {
+              "id": "plat besi",
+              "en": "iron plate"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kereta bawah tanah",
+    "en": "iron, steel"
+  }
+}

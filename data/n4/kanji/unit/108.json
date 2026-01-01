@@ -1,0 +1,58 @@
+{
+  "id": 108,
+  "character": "強",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つよ",
+        "romanji": "tsuyo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "強い",
+            "furigana": "つよい",
+            "romanji": "tsuyoi",
+            "meanings": {
+              "id": "kuat, keras",
+              "en": "strong"
+            }
+          },
+          {
+            "id": 2,
+            "word": "強気",
+            "furigana": "つよき",
+            "romanji": "tsuyoki",
+            "meanings": {
+              "id": "nekat, bersikeras",
+              "en": "bullish"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "勉強",
+            "furigana": "べんきょう",
+            "romanji": "benkyou",
+            "meanings": {
+              "id": "berkekuatan, keras",
+              "en": "study"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kuat, keras",
+    "en": "strong"
+  }
+}

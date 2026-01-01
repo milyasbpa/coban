@@ -1,0 +1,61 @@
+{
+  "id": 244,
+  "character": "脱",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ぬ",
+        "romanji": "nu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "脱ぐ",
+            "furigana": "ぬぐ",
+            "romanji": "nugu",
+            "meanings": {
+              "id": "melepas (pakaian)",
+              "en": "to take off (clothes)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ダツ",
+        "romanji": "datsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "脱税",
+            "furigana": "だつぜい",
+            "romanji": "datsuzei",
+            "meanings": {
+              "id": "penghindaran pajak",
+              "en": "tax evasion"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "脱線",
+          "furigana": "だっせん",
+          "romanji": "dassen",
+          "meanings": {
+            "id": "keluar dari rel, anjlok",
+            "en": "derail, plummet"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "melepas (pakaian), penghindaran pajak, keluar dari rel, anjlok",
+    "en": "to take off (clothes), tax evasion, derail, plummet"
+  }
+}

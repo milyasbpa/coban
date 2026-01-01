@@ -1,0 +1,48 @@
+{
+  "id": 277,
+  "character": "移",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うつ",
+        "romanji": "utsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "移る",
+            "furigana": "うつる",
+            "romanji": "utsuru",
+            "meanings": {
+              "id": "pindah, beralih",
+              "en": "to move, to shift"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 2,
+            "word": "移動",
+            "furigana": "いどう",
+            "romanji": "idou",
+            "meanings": {
+              "id": "perpindahan",
+              "en": "transfer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pindah, beralih, perpindahan",
+    "en": "move, shift, transfer"
+  }
+}

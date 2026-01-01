@@ -1,0 +1,53 @@
+{
+  "id": 348,
+  "character": "勝",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "勝つ",
+            "furigana": "かつ",
+            "romanji": "katsu",
+            "meanings": {
+              "id": "menang",
+              "en": "to win"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かさ",
+        "romanji": "kasa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "勝負",
+            "furigana": "しょうぶ",
+            "romanji": "shoubu",
+            "meanings": {
+              "id": "menang atau kalah",
+              "en": "win or lose"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menang, menang atau kalah",
+    "en": "win, win or lose"
+  }
+}

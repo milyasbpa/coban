@@ -1,0 +1,48 @@
+{
+  "id": 50,
+  "character": "向",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "む",
+        "romanji": "mu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "向かう",
+            "furigana": "むかう",
+            "romanji": "mukau",
+            "meanings": {
+              "id": "menghadap",
+              "en": "to face; to head toward"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "方向",
+            "furigana": "ほうこう",
+            "romanji": "houkou",
+            "meanings": {
+              "id": "arah",
+              "en": "direction"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menghadap",
+    "en": "face, direction"
+  }
+}

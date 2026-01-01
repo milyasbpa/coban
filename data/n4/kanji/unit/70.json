@@ -1,0 +1,58 @@
+{
+  "id": 70,
+  "character": "味",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あじ",
+        "romanji": "aji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "味",
+            "furigana": "あじ",
+            "romanji": "aji",
+            "meanings": {
+              "id": "rasa",
+              "en": "taste"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ミ",
+        "romanji": "mi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "意味",
+            "furigana": "いみ",
+            "romanji": "imi",
+            "meanings": {
+              "id": "arti",
+              "en": "meaning"
+            }
+          },
+          {
+            "id": 3,
+            "word": "興味",
+            "furigana": "きょうみ",
+            "romanji": "kyoumi",
+            "meanings": {
+              "id": "hobi",
+              "en": "interest"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rasa",
+    "en": "taste, flavor"
+  }
+}

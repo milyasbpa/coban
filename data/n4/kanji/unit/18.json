@@ -1,0 +1,47 @@
+{
+  "id": 18,
+  "character": "台",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ダイ",
+        "romanji": "dai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "台所",
+            "furigana": "だいどころ",
+            "romanji": "daidokoro",
+            "meanings": {
+              "id": "dapur",
+              "en": "kitchen"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "台風",
+            "furigana": "たいふう",
+            "romanji": "taifuu",
+            "meanings": {
+              "id": "taifun",
+              "en": "typhoon"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dapur",
+    "en": "platform, stand"
+  }
+}

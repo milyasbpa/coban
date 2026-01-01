@@ -1,0 +1,44 @@
+{
+  "id": 113,
+  "character": "部",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "全部",
+            "furigana": "ぜんぶ",
+            "romanji": "zenbu",
+            "meanings": {
+              "id": "semua",
+              "en": "all"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "部屋",
+          "furigana": "へや",
+          "romanji": "heya",
+          "meanings": {
+            "id": "ruangan, kamar",
+            "en": "room"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "bagian",
+    "en": "part, section"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 61,
+  "character": "会",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "会う",
+            "furigana": "あう",
+            "romanji": "au",
+            "meanings": {
+              "id": "bertemu",
+              "en": "to meet"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "会議",
+            "furigana": "かいぎ",
+            "romanji": "kaigi",
+            "meanings": {
+              "id": "rapat",
+              "en": "meeting"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "エ",
+        "romanji": "e",
+        "examples": [
+          {
+            "id": 3,
+            "word": "会得",
+            "furigana": "えとく",
+            "romanji": "etoku",
+            "meanings": {
+              "id": "pemahaman, pengertian",
+              "en": "understanding"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bertemu",
+    "en": "meet, association"
+  }
+}

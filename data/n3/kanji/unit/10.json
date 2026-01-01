@@ -1,0 +1,48 @@
+{
+  "id": 10,
+  "character": "互",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たが",
+        "romanji": "taga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "互い",
+            "furigana": "たがい",
+            "romanji": "tagai",
+            "meanings": {
+              "id": "saling, satu sama lain",
+              "en": "each other, one another"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 2,
+            "word": "相互",
+            "furigana": "そうご",
+            "romanji": "sougo",
+            "meanings": {
+              "id": "timbal balik, saling",
+              "en": "mutual, reciprocal"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "saling, satu sama lain",
+    "en": "mutual"
+  }
+}

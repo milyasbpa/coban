@@ -1,0 +1,74 @@
+{
+  "id": 124,
+  "character": "開",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "開ける",
+            "furigana": "あける",
+            "romanji": "akeru",
+            "meanings": {
+              "id": "membuka",
+              "en": "to open"
+            }
+          },
+          {
+            "id": 2,
+            "word": "開く",
+            "furigana": "あく",
+            "romanji": "aku",
+            "meanings": {
+              "id": "terbuka",
+              "en": "to open (intransitive)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ひら",
+        "romanji": "hira",
+        "examples": [
+          {
+            "id": 3,
+            "word": "開く",
+            "furigana": "ひらく",
+            "romanji": "hiraku",
+            "meanings": {
+              "id": "buka",
+              "en": "to open (transitive)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 4,
+            "word": "開始",
+            "furigana": "かいし",
+            "romanji": "kaishi",
+            "meanings": {
+              "id": "mulai",
+              "en": "start"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membuka",
+    "en": "open"
+  }
+}

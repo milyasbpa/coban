@@ -1,0 +1,48 @@
+{
+  "id": 443,
+  "character": "蔵",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くら",
+        "romanji": "kura",
+        "examples": [
+          {
+            "id": 1,
+            "word": "蔵",
+            "furigana": "くら",
+            "romanji": "kura",
+            "meanings": {
+              "id": "gudang",
+              "en": "warehouse"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゾウ",
+        "romanji": "zou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "蔵相",
+            "furigana": "ぞうしょう",
+            "romanji": "zoushou",
+            "meanings": {
+              "id": "mentri keuangan",
+              "en": "finance minister"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "gudang, mentri keuangan",
+    "en": "warehouse, finance minister"
+  }
+}

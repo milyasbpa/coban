@@ -1,0 +1,48 @@
+{
+  "id": 317,
+  "character": "雇",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やと",
+        "romanji": "yato",
+        "examples": [
+          {
+            "id": 1,
+            "word": "雇う",
+            "furigana": "やとう",
+            "romanji": "yatou",
+            "meanings": {
+              "id": "mempekerjakan",
+              "en": "to employ"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "雇用",
+            "furigana": "こよう",
+            "romanji": "koyou",
+            "meanings": {
+              "id": "hal mempekerjakan",
+              "en": "employment"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mempekerjakan, hal mempekerjakan",
+    "en": "to employ, employment"
+  }
+}

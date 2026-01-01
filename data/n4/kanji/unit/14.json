@@ -1,0 +1,47 @@
+{
+  "id": 14,
+  "character": "不",
+  "strokes": 4,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "フ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "不便",
+            "furigana": "ふべん",
+            "romanji": "fuben",
+            "meanings": {
+              "id": "tidak praktis",
+              "en": "inconvenient"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "不気味",
+            "furigana": "ぶきみ",
+            "romanji": "bukimi",
+            "meanings": {
+              "id": "mengerikan, aneh",
+              "en": "eerie, weird"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tidak praktis",
+    "en": "not, un-"
+  }
+}

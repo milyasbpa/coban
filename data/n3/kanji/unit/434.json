@@ -1,0 +1,48 @@
+{
+  "id": 434,
+  "character": "選",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "えら",
+        "romanji": "era",
+        "examples": [
+          {
+            "id": 1,
+            "word": "選ぶ",
+            "furigana": "えらぶ",
+            "romanji": "erabu",
+            "meanings": {
+              "id": "memilih",
+              "en": "to choose"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "選挙",
+            "furigana": "せんきょ",
+            "romanji": "senkyo",
+            "meanings": {
+              "id": "pemilihan (umum)",
+              "en": "election"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memilih, pemilihan (umum)",
+    "en": "choose, election"
+  }
+}

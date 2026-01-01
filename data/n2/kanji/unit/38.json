@@ -1,0 +1,48 @@
+{
+  "id": 38,
+  "character": "吐",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "吐く",
+            "furigana": "はく",
+            "romanji": "haku",
+            "meanings": {
+              "id": "memuntahkan",
+              "en": "to vomit"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ト",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 2,
+            "word": "吐血",
+            "furigana": "とけつ",
+            "romanji": "toketsu",
+            "meanings": {
+              "id": "muntah darah",
+              "en": "spit blood"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memuntahkan, muntah darah",
+    "en": "to vomit, spit blood"
+  }
+}

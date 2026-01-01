@@ -1,0 +1,41 @@
+{
+  "id": 282,
+  "character": "婚",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "コン",
+        "romanji": "kon",
+        "examples": [
+          {
+            "id": 1,
+            "word": "結婚",
+            "furigana": "けっこん",
+            "romanji": "kekkon",
+            "meanings": {
+              "id": "menikah",
+              "en": "marriage"
+            }
+          },
+          {
+            "id": 2,
+            "word": "婚約",
+            "furigana": "こんやく",
+            "romanji": "konyaku",
+            "meanings": {
+              "id": "pertunangan",
+              "en": "engagement"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menikah, pertunangan",
+    "en": "marriage, engagement"
+  }
+}

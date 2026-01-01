@@ -1,0 +1,47 @@
+{
+  "id": 343,
+  "character": "偉",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "えら",
+        "romanji": "era",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "偉人",
+            "furigana": "いじん",
+            "romanji": "ijin",
+            "meanings": {
+              "id": "hebat, terkemuka",
+              "en": "great, eminent"
+            }
+          },
+          {
+            "id": 2,
+            "word": "偉大",
+            "furigana": "いだい",
+            "romanji": "idai",
+            "meanings": {
+              "id": "mulya, besar",
+              "en": "noble, big"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hebat, terkemuka, mulya, besar",
+    "en": "great, eminent, noble, big"
+  }
+}

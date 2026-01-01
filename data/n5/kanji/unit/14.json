@@ -1,0 +1,76 @@
+{
+  "id": 14,
+  "character": "口",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くち",
+        "romanji": "kuchi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "口",
+            "furigana": "くち",
+            "romanji": "kuchi",
+            "meanings": {
+              "id": "mulut",
+              "en": "mouth"
+            }
+          },
+          {
+            "id": 4,
+            "word": "口調",
+            "furigana": "くちょう",
+            "romanji": "kuchou",
+            "meanings": {
+              "id": "nada bicara",
+              "en": "tone of voice"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "人口",
+            "furigana": "じんこう",
+            "romanji": "jinkou",
+            "meanings": {
+              "id": "populasi, jumlah penduduk",
+              "en": "population"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ク",
+        "romanji": "ku",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "出口",
+          "furigana": "でぐち",
+          "romanji": "deguchi",
+          "meanings": {
+            "id": "pintu keluar",
+            "en": "exit"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "mulut",
+    "en": "mouth"
+  }
+}

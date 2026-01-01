@@ -1,0 +1,48 @@
+{
+  "id": 150,
+  "character": "洗",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あら",
+        "romanji": "ara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "洗う",
+            "furigana": "あらう",
+            "romanji": "arau",
+            "meanings": {
+              "id": "mencuci",
+              "en": "to wash"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "洗濯",
+            "furigana": "せんたく",
+            "romanji": "sentaku",
+            "meanings": {
+              "id": "cucian",
+              "en": "laundry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencuci, cucian",
+    "en": "to wash, laundry"
+  }
+}

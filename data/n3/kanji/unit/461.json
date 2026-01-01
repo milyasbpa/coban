@@ -1,0 +1,48 @@
+{
+  "id": 461,
+  "character": "願",
+  "strokes": 19,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ねが",
+        "romanji": "nega",
+        "examples": [
+          {
+            "id": 1,
+            "word": "願う",
+            "furigana": "ねがう",
+            "romanji": "negau",
+            "meanings": {
+              "id": "mengharapkan, meminta",
+              "en": "to hope, to wish, to request"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガン",
+        "romanji": "gan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "願望",
+            "furigana": "がんぼう",
+            "romanji": "ganbou",
+            "meanings": {
+              "id": "pengharapan, tekad, kerinduan",
+              "en": "hope, determination, longing"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengharapkan, meminta, pengharapan, tekad, kerinduan",
+    "en": "hope, wish, request, determination, longing"
+  }
+}

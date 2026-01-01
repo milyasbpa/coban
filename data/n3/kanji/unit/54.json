@@ -1,0 +1,64 @@
+{
+  "id": 54,
+  "character": "危",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あぶ",
+        "romanji": "abu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "危ない",
+            "furigana": "あぶない",
+            "romanji": "abunai",
+            "meanings": {
+              "id": "berbahaya",
+              "en": "dangerous"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "あや",
+        "romanji": "aya",
+        "examples": [
+          {
+            "id": 2,
+            "word": "危うく",
+            "furigana": "あやうく",
+            "romanji": "ayauku",
+            "meanings": {
+              "id": "nyaris",
+              "en": "nearly; almost"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 3,
+            "word": "危機",
+            "furigana": "きき",
+            "romanji": "kiki",
+            "meanings": {
+              "id": "krisis",
+              "en": "crisis"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berbahaya",
+    "en": "dangerous"
+  }
+}

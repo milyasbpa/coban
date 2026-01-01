@@ -1,0 +1,74 @@
+{
+  "id": 129,
+  "character": "集",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あつ",
+        "romanji": "atsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "集める",
+            "furigana": "あつめる",
+            "romanji": "atsumeru",
+            "meanings": {
+              "id": "mengumpulkan",
+              "en": "to gather"
+            }
+          },
+          {
+            "id": 2,
+            "word": "集まる",
+            "furigana": "あつまる",
+            "romanji": "atsumaru",
+            "meanings": {
+              "id": "berkumpul",
+              "en": "to gather (intransitive)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "つど",
+        "romanji": "tsudo",
+        "examples": [
+          {
+            "id": 3,
+            "word": "集う",
+            "furigana": "つどう",
+            "romanji": "tsudou",
+            "meanings": {
+              "id": "berkumpul, bertemu",
+              "en": "to gather, meet"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "集会",
+            "furigana": "しゅうかい",
+            "romanji": "shuukai",
+            "meanings": {
+              "id": "pertemuan",
+              "en": "meeting"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengumpulkan",
+    "en": "gather, collect"
+  }
+}

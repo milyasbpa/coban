@@ -1,0 +1,47 @@
+{
+  "id": 108,
+  "character": "判",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 1,
+            "word": "判子",
+            "furigana": "はんこ",
+            "romanji": "hanko",
+            "meanings": {
+              "id": "cap",
+              "en": "seal"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "バン",
+        "romanji": "ban",
+        "examples": [
+          {
+            "id": 2,
+            "word": "裁判",
+            "furigana": "さいばん",
+            "romanji": "saiban",
+            "meanings": {
+              "id": "pengadilan",
+              "en": "judgment, court"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cap, pengadilan",
+    "en": "seal, judgment"
+  }
+}

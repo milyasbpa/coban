@@ -1,0 +1,63 @@
+{
+  "id": 30,
+  "character": "今",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いま",
+        "romanji": "ima",
+        "examples": [
+          {
+            "id": 1,
+            "word": "今",
+            "furigana": "いま",
+            "romanji": "ima",
+            "meanings": {
+              "id": "sekarang",
+              "en": "now"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コン",
+        "romanji": "kon",
+        "examples": [
+          {
+            "id": 2,
+            "word": "今月",
+            "furigana": "こんげつ",
+            "romanji": "kongetsu",
+            "meanings": {
+              "id": "bulan ini",
+              "en": "this month"
+            }
+          },
+          {
+            "id": 3,
+            "word": "古今",
+            "furigana": "ここん",
+            "romanji": "kokon",
+            "meanings": {
+              "id": "dulu dan sekarang",
+              "en": "past and present"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "キン",
+        "romanji": "kin",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sekarang",
+    "en": "now"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 97,
+  "character": "林",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はやし",
+        "romanji": "hayashi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "林",
+            "furigana": "はやし",
+            "romanji": "hayashi",
+            "meanings": {
+              "id": "hutan belukar",
+              "en": "grove"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ばやし",
+        "romanji": "bayashi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リン",
+        "romanji": "rin",
+        "examples": [
+          {
+            "id": 3,
+            "word": "密林",
+            "furigana": "みつりん",
+            "romanji": "mitsurin",
+            "meanings": {
+              "id": "hutan belantara",
+              "en": "jungle"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "松林",
+          "furigana": "まつばやし",
+          "romanji": "matsubayashi",
+          "meanings": {
+            "id": "hutan pinus",
+            "en": "pine forest"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "hutan belukar, hutan pinus, hutan belantara",
+    "en": "grove, pine forest, jungle"
+  }
+}

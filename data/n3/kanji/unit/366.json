@@ -1,0 +1,48 @@
+{
+  "id": 366,
+  "character": "営",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いとな",
+        "romanji": "itona",
+        "examples": [
+          {
+            "id": 2,
+            "word": "営む",
+            "furigana": "いとなむ",
+            "romanji": "itonamu",
+            "meanings": {
+              "id": "mengelola, berusaha",
+              "en": "to manage, to operate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エイ",
+        "romanji": "ei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "経営",
+            "furigana": "けいえい",
+            "romanji": "keiei",
+            "meanings": {
+              "id": "manajemen",
+              "en": "management"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengelola, berusaha, manajemen",
+    "en": "manage, operate, management"
+  }
+}

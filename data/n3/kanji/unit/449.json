@@ -1,0 +1,48 @@
+{
+  "id": 449,
+  "character": "薄",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うす",
+        "romanji": "usu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "薄い",
+            "furigana": "うすい",
+            "romanji": "usui",
+            "meanings": {
+              "id": "tipis",
+              "en": "thin"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハク",
+        "romanji": "haku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "薄弱",
+            "furigana": "はくじゃく",
+            "romanji": "hakujaku",
+            "meanings": {
+              "id": "lemah, tidak memadai",
+              "en": "weak, insufficient"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tipis, lemah, tidak memadai",
+    "en": "thin, weak, insufficient"
+  }
+}

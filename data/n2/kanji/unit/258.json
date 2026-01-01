@@ -1,0 +1,37 @@
+{
+  "id": 258,
+  "character": "帳",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とばり",
+        "romanji": "tobari",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "帳簿",
+            "furigana": "ちょうぼ",
+            "romanji": "choubo",
+            "meanings": {
+              "id": "buku besar (akunting)",
+              "en": "ledger, accounting book"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "buku besar (akunting)",
+    "en": "ledger, accounting book"
+  }
+}

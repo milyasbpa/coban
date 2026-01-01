@@ -1,0 +1,48 @@
+{
+  "id": 84,
+  "character": "持",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "も",
+        "romanji": "mo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "持つ",
+            "furigana": "もつ",
+            "romanji": "motsu",
+            "meanings": {
+              "id": "memegang, memiliki",
+              "en": "to hold"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "持参する",
+            "furigana": "じさんする",
+            "romanji": "jisansuru",
+            "meanings": {
+              "id": "membawa",
+              "en": "to bring"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memegang",
+    "en": "hold, have"
+  }
+}

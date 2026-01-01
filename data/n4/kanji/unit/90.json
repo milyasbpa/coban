@@ -1,0 +1,94 @@
+{
+  "id": 90,
+  "character": "建",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 1,
+            "word": "建つ",
+            "furigana": "たつ",
+            "romanji": "tatsu",
+            "meanings": {
+              "id": "berdiri",
+              "en": "to stand (building)"
+            }
+          },
+          {
+            "id": 2,
+            "word": "建てる",
+            "furigana": "たてる",
+            "romanji": "tateru",
+            "meanings": {
+              "id": "mendirikan",
+              "en": "to build"
+            }
+          },
+          {
+            "id": 3,
+            "word": "建物",
+            "furigana": "たてもの",
+            "romanji": "tatemono",
+            "meanings": {
+              "id": "gedung, bangunan",
+              "en": "building"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "たて",
+        "romanji": "tate",
+        "examples": [
+          {
+            "id": 2,
+            "word": "建てる",
+            "furigana": "たてる",
+            "romanji": "tateru",
+            "meanings": {
+              "id": "mendirikan",
+              "en": "to build"
+            }
+          },
+          {
+            "id": 3,
+            "word": "建物",
+            "furigana": "たてもの",
+            "romanji": "tatemono",
+            "meanings": {
+              "id": "gedung, bangunan",
+              "en": "building"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 4,
+            "word": "建設",
+            "furigana": "けんせつ",
+            "romanji": "kensetsu",
+            "meanings": {
+              "id": "konstruksi",
+              "en": "construction"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berdiri",
+    "en": "build, construct"
+  }
+}

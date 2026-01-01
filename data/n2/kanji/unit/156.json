@@ -1,0 +1,48 @@
+{
+  "id": 156,
+  "character": "侵",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おか",
+        "romanji": "oka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "侵す",
+            "furigana": "おかす",
+            "romanji": "okasu",
+            "meanings": {
+              "id": "melanggar",
+              "en": "to violate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "侵入する",
+            "furigana": "しんにゅうする",
+            "romanji": "shinnyuu suru",
+            "meanings": {
+              "id": "menyerobot masuk",
+              "en": "to invade, to intrude"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melanggar, menyerobot masuk",
+    "en": "to invade, to violate"
+  }
+}

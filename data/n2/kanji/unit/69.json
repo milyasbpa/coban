@@ -1,0 +1,48 @@
+{
+  "id": 69,
+  "character": "災",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わざわ",
+        "romanji": "wazawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "災い",
+            "furigana": "わざわい",
+            "romanji": "wazawai",
+            "meanings": {
+              "id": "bencana, malapetaka",
+              "en": "disaster, calamity"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "災難",
+            "furigana": "さいなん",
+            "romanji": "sainan",
+            "meanings": {
+              "id": "bencana, malapetaka",
+              "en": "disaster, calamity"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bencana, malapetaka",
+    "en": "disaster, calamity"
+  }
+}

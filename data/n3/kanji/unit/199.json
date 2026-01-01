@@ -1,0 +1,69 @@
+{
+  "id": 199,
+  "character": "負",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "負ける",
+            "furigana": "まける",
+            "romanji": "makeru",
+            "meanings": {
+              "id": "kalah",
+              "en": "to lose"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 2,
+            "word": "負う",
+            "furigana": "おう",
+            "romanji": "ou",
+            "meanings": {
+              "id": "membawa",
+              "en": "to carry"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "フ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "負担",
+            "furigana": "ふたん",
+            "romanji": "futan",
+            "meanings": {
+              "id": "beban",
+              "en": "burden"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kalah, membawa, beban",
+    "en": "lose, carry, burden"
+  }
+}

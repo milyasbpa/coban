@@ -1,0 +1,33 @@
+{
+  "id": 105,
+  "character": "背",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "背任",
+          "furigana": "はいにん",
+          "romanji": "hainin",
+          "meanings": {
+            "id": "pengesahan, pengukuhan",
+            "en": "approval, confirmation"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "pengesahan, pengukuhan",
+    "en": "approval, confirmation"
+  }
+}

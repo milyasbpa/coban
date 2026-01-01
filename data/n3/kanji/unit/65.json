@@ -1,0 +1,58 @@
+{
+  "id": 65,
+  "character": "衣",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ころも",
+        "romanji": "koromo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "衣",
+            "furigana": "ころも",
+            "romanji": "koromo",
+            "meanings": {
+              "id": "lapisan, jubah",
+              "en": "robe"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 2,
+            "word": "衣服",
+            "furigana": "いふく",
+            "romanji": "ifuku",
+            "meanings": {
+              "id": "baju",
+              "en": "clothes"
+            }
+          },
+          {
+            "id": 3,
+            "word": "更衣室",
+            "furigana": "こういしつ",
+            "romanji": "kouishitsu",
+            "meanings": {
+              "id": "ruang ganti",
+              "en": "changing room"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lapisan, jubah",
+    "en": "clothes"
+  }
+}

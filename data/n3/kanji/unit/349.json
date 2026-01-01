@@ -1,0 +1,48 @@
+{
+  "id": 349,
+  "character": "痛",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いた",
+        "romanji": "ita",
+        "examples": [
+          {
+            "id": 1,
+            "word": "痛い",
+            "furigana": "いたい",
+            "romanji": "itai",
+            "meanings": {
+              "id": "sakit",
+              "en": "pain"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ツウ",
+        "romanji": "tsuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "頭痛",
+            "furigana": "ずつう",
+            "romanji": "zutsuu",
+            "meanings": {
+              "id": "sakit kepala",
+              "en": "headache"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sakit, sakit kepala",
+    "en": "pain, headache"
+  }
+}

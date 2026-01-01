@@ -1,0 +1,48 @@
+{
+  "id": 253,
+  "character": "庭",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "にわ",
+        "romanji": "niwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "庭",
+            "furigana": "にわ",
+            "romanji": "niwa",
+            "meanings": {
+              "id": "perkarangan",
+              "en": "garden"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テイ",
+        "romanji": "tei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "家庭",
+            "furigana": "かてい",
+            "romanji": "katei",
+            "meanings": {
+              "id": "rumah tangga",
+              "en": "household"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perkarangan, rumah tangga",
+    "en": "garden, household"
+  }
+}

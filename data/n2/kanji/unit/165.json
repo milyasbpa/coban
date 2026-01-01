@@ -1,0 +1,48 @@
+{
+  "id": 165,
+  "character": "巻",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "巻く",
+            "furigana": "まく",
+            "romanji": "maku",
+            "meanings": {
+              "id": "menggulung, membalut",
+              "en": "to roll up, to wrap"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "全巻",
+            "furigana": "ぜんかん",
+            "romanji": "zenkan",
+            "meanings": {
+              "id": "seluruh jilid",
+              "en": "all volumes"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menggulung, membalut, seluruh jilid",
+    "en": "to roll up, to wrap, volume"
+  }
+}

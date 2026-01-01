@@ -1,0 +1,48 @@
+{
+  "id": 108,
+  "character": "刷",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 1,
+            "word": "刷る",
+            "furigana": "する",
+            "romanji": "suru",
+            "meanings": {
+              "id": "menyetak",
+              "en": "to print"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サツ",
+        "romanji": "satsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "印刷",
+            "furigana": "いんさつ",
+            "romanji": "insatsu",
+            "meanings": {
+              "id": "cetakan",
+              "en": "print"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyetak, cetakan",
+    "en": "to print, print"
+  }
+}

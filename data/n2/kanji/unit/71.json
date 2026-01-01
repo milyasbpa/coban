@@ -1,0 +1,48 @@
+{
+  "id": 71,
+  "character": "辛",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "から",
+        "romanji": "kara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "辛い",
+            "furigana": "からい",
+            "romanji": "karai",
+            "meanings": {
+              "id": "pedas, asin",
+              "en": "spicy, salty"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "辛苦",
+            "furigana": "しんく",
+            "romanji": "shinku",
+            "meanings": {
+              "id": "derita, susah payah",
+              "en": "suffering, hardship"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pedas, asin, derita, susah payah",
+    "en": "spicy, salty, suffering, hardship"
+  }
+}

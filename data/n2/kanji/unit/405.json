@@ -1,0 +1,47 @@
+{
+  "id": 405,
+  "character": "敵",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かたき",
+        "romanji": "kataki",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "テキ",
+        "romanji": "teki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "敵",
+            "furigana": "てき",
+            "romanji": "teki",
+            "meanings": {
+              "id": "musuh, lawan",
+              "en": "enemy, opponent"
+            }
+          },
+          {
+            "id": 2,
+            "word": "大敵",
+            "furigana": "たいてき",
+            "romanji": "taiteki",
+            "meanings": {
+              "id": "musuh besar",
+              "en": "great enemy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "musuh, lawan, musuh besar",
+    "en": "enemy, opponent, great enemy"
+  }
+}

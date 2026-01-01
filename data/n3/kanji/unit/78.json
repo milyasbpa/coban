@@ -1,0 +1,53 @@
+{
+  "id": 78,
+  "character": "角",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かど",
+        "romanji": "kado",
+        "examples": [
+          {
+            "id": 1,
+            "word": "角",
+            "furigana": "かど",
+            "romanji": "kado",
+            "meanings": {
+              "id": "sudut",
+              "en": "corner"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "つの",
+        "romanji": "tsuno",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カク",
+        "romanji": "kaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "四角",
+            "furigana": "しかく",
+            "romanji": "shikaku",
+            "meanings": {
+              "id": "persegi empat",
+              "en": "square"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sudut",
+    "en": "corner"
+  }
+}

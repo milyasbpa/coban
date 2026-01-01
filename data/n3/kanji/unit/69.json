@@ -1,0 +1,48 @@
+{
+  "id": 69,
+  "character": "耳",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みみ",
+        "romanji": "mimi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "耳",
+            "furigana": "みみ",
+            "romanji": "mimi",
+            "meanings": {
+              "id": "telinga",
+              "en": "ear"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 2,
+            "word": "耳鼻科",
+            "furigana": "じびか",
+            "romanji": "jibika",
+            "meanings": {
+              "id": "bagian THT",
+              "en": "ENT department"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "telinga",
+    "en": "ear"
+  }
+}

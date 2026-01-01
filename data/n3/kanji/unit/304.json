@@ -1,0 +1,48 @@
+{
+  "id": 304,
+  "character": "望",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "のぞ",
+        "romanji": "nozo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "望む",
+            "furigana": "のぞむ",
+            "romanji": "nozomu",
+            "meanings": {
+              "id": "berharap",
+              "en": "to hope"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ボウ",
+        "romanji": "bou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "希望",
+            "furigana": "きぼう",
+            "romanji": "kibou",
+            "meanings": {
+              "id": "harapan, keinginan",
+              "en": "wish, desire"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berharap, harapan, keinginan",
+    "en": "hope, wish, desire"
+  }
+}

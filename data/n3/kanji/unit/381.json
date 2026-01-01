@@ -1,0 +1,64 @@
+{
+  "id": 381,
+  "character": "数",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かず",
+        "romanji": "kazu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "数",
+            "furigana": "かず",
+            "romanji": "kazu",
+            "meanings": {
+              "id": "jumlah",
+              "en": "number"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かぞ",
+        "romanji": "kazo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "数える",
+            "furigana": "かぞえる",
+            "romanji": "kazoeru",
+            "meanings": {
+              "id": "menghitung",
+              "en": "to count"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "スウ",
+        "romanji": "suu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "数学",
+            "furigana": "すうがく",
+            "romanji": "suugaku",
+            "meanings": {
+              "id": "matematika",
+              "en": "mathematics"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jumlah, menghitung, matematika",
+    "en": "number, count, mathematics"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 181,
+  "character": "指",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆび",
+        "romanji": "yubi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "指",
+            "furigana": "ゆび",
+            "romanji": "yubi",
+            "meanings": {
+              "id": "jari",
+              "en": "finger"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "指す",
+            "furigana": "さす",
+            "romanji": "sasu",
+            "meanings": {
+              "id": "menunjuk",
+              "en": "to point"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "指導",
+            "furigana": "しどう",
+            "romanji": "shidou",
+            "meanings": {
+              "id": "bimbingan",
+              "en": "guidance"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jari, menunjuk, bimbingan",
+    "en": "finger, to point, guidance"
+  }
+}

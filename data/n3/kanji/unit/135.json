@@ -1,0 +1,47 @@
+{
+  "id": 135,
+  "character": "性",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "性別",
+            "furigana": "せいべつ",
+            "romanji": "seibetsu",
+            "meanings": {
+              "id": "jenis kelamin",
+              "en": "gender"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "相性",
+            "furigana": "あいしょう",
+            "romanji": "aishou",
+            "meanings": {
+              "id": "kecocokan",
+              "en": "compatibility"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jenis kelamin, kecocokan",
+    "en": "gender, compatibility"
+  }
+}

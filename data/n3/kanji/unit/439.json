@@ -1,0 +1,83 @@
+{
+  "id": 439,
+  "character": "熱",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あつ",
+        "romanji": "atsu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ネツ",
+        "romanji": "netsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "熱",
+            "furigana": "ねつ",
+            "romanji": "netsu",
+            "meanings": {
+              "id": "(benda) panas",
+              "en": "hot (object)"
+            }
+          },
+          {
+            "id": 2,
+            "word": "熱意",
+            "furigana": "ねつい",
+            "romanji": "netsui",
+            "meanings": {
+              "id": "antusias",
+              "en": "enthusiasm"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ネッ",
+        "romanji": "net",
+        "examples": [
+          {
+            "id": 1,
+            "word": "熱",
+            "furigana": "ねつ",
+            "romanji": "netsu",
+            "meanings": {
+              "id": "(benda) panas",
+              "en": "hot (object)"
+            }
+          },
+          {
+            "id": 2,
+            "word": "熱意",
+            "furigana": "ねつい",
+            "romanji": "netsui",
+            "meanings": {
+              "id": "antusias",
+              "en": "enthusiasm"
+            }
+          },
+          {
+            "id": 3,
+            "word": "熱心",
+            "furigana": "ねっしん",
+            "romanji": "nesshin",
+            "meanings": {
+              "id": "tekun, ulet, rajin",
+              "en": "enthusiastic, diligent"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "(benda) panas, antusias",
+    "en": "hot (object), enthusiasm"
+  }
+}

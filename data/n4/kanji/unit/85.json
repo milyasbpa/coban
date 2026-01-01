@@ -1,0 +1,79 @@
+{
+  "id": 85,
+  "character": "重",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おも",
+        "romanji": "omo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "重い",
+            "furigana": "おもい",
+            "romanji": "omoi",
+            "meanings": {
+              "id": "berat",
+              "en": "heavy"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かさ",
+        "romanji": "kasa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "重なる",
+            "furigana": "かさなる",
+            "romanji": "kasanaru",
+            "meanings": {
+              "id": "menumpukan",
+              "en": "to pile up"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "重要",
+            "furigana": "じゅうよう",
+            "romanji": "juuyou",
+            "meanings": {
+              "id": "penting",
+              "en": "important"
+            }
+          },
+          {
+            "id": 4,
+            "word": "体重",
+            "furigana": "たいじゅう",
+            "romanji": "taijuu",
+            "meanings": {
+              "id": "berharga",
+              "en": "body weight"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berat",
+    "en": "heavy, important"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 8,
+  "character": "井",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "井戸",
+            "furigana": "いど",
+            "romanji": "ido",
+            "meanings": {
+              "id": "sumur",
+              "en": "well"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "油井",
+            "furigana": "ゆせい",
+            "romanji": "yusei",
+            "meanings": {
+              "id": "sumur minyak",
+              "en": "oil well"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "天井",
+            "furigana": "てんじょう",
+            "romanji": "tenjou",
+            "meanings": {
+              "id": "langit-langit",
+              "en": "ceiling"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sumur, sumur minyak, langit-langit",
+    "en": "well, oil well, ceiling"
+  }
+}

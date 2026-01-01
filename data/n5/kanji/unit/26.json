@@ -1,0 +1,58 @@
+{
+  "id": 26,
+  "character": "木",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "木",
+            "furigana": "き",
+            "romanji": "ki",
+            "meanings": {
+              "id": "pohon, kayu",
+              "en": "tree, wood"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "木陰",
+            "furigana": "こかげ",
+            "romanji": "kokage",
+            "meanings": {
+              "id": "tempat rindang",
+              "en": "shade of tree"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "モク",
+        "romanji": "moku",
+        "examples": []
+      },
+      {
+        "furigana": "ボク",
+        "romanji": "boku",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pohon, kayu",
+    "en": "tree, wood"
+  }
+}

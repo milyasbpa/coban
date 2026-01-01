@@ -1,0 +1,31 @@
+{
+  "id": 80,
+  "character": "局",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "キョク",
+        "romanji": "kyoku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "郵便局",
+            "furigana": "ゆうびんきょく",
+            "romanji": "yuubinkyoku",
+            "meanings": {
+              "id": "kantor pos",
+              "en": "post office"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kantor pos",
+    "en": "post office"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 39,
+  "character": "吸",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 1,
+            "word": "吸う",
+            "furigana": "すう",
+            "romanji": "suu",
+            "meanings": {
+              "id": "menghisap",
+              "en": "to suck"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "吸収",
+            "furigana": "きゅうしゅう",
+            "romanji": "kyuushuu",
+            "meanings": {
+              "id": "penyerapan",
+              "en": "absorption"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menghisap, penyerapan",
+    "en": "to suck, absorption"
+  }
+}

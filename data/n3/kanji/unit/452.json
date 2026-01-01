@@ -1,0 +1,53 @@
+{
+  "id": 452,
+  "character": "優",
+  "strokes": 17,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やさ",
+        "romanji": "yasa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "優しい",
+            "furigana": "やさしい",
+            "romanji": "yasashii",
+            "meanings": {
+              "id": "lemah lembut, baik",
+              "en": "gentle, kind"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "すぐ",
+        "romanji": "sugu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ユウ",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "優秀",
+            "furigana": "ゆうしゅう",
+            "romanji": "yuushuu",
+            "meanings": {
+              "id": "unggul, cemerlang",
+              "en": "excellent, brilliant"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lemah lembut, baik, unggul, cemerlang",
+    "en": "gentle, kind, excellent, brilliant"
+  }
+}

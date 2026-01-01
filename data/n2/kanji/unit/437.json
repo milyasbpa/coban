@@ -1,0 +1,48 @@
+{
+  "id": 437,
+  "character": "鮮",
+  "strokes": 17,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あざ",
+        "romanji": "aza",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鮮やか",
+            "furigana": "あざやか",
+            "romanji": "azayaka",
+            "meanings": {
+              "id": "cerah, cemerlang",
+              "en": "bright, brilliant"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "新鮮",
+            "furigana": "しんせん",
+            "romanji": "shinsen",
+            "meanings": {
+              "id": "segar, baru",
+              "en": "fresh, new"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cerah, cemerlang, segar, baru",
+    "en": "bright, brilliant, fresh, new"
+  }
+}

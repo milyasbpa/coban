@@ -1,0 +1,50 @@
+{
+  "id": 327,
+  "character": "湯",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆ",
+        "romanji": "yu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "熱湯",
+            "furigana": "ねっとう",
+            "romanji": "nettou",
+            "meanings": {
+              "id": "air mendidih",
+              "en": "boiling water"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "お湯",
+          "furigana": "おゆ",
+          "romanji": "oyu",
+          "meanings": {
+            "id": "air panas",
+            "en": "hot water"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "air panas, air mendidih",
+    "en": "hot water, boiling water"
+  }
+}

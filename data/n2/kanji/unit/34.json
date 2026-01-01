@@ -1,0 +1,31 @@
+{
+  "id": 34,
+  "character": "刑",
+  "strokes": 6,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "刑務所",
+            "furigana": "けいむしょ",
+            "romanji": "keimusho",
+            "meanings": {
+              "id": "penjara",
+              "en": "prison"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "penjara",
+    "en": "prison, punishment"
+  }
+}

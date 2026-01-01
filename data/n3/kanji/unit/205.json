@@ -1,0 +1,74 @@
+{
+  "id": 205,
+  "character": "神",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かみ",
+        "romanji": "kami",
+        "examples": [
+          {
+            "id": 1,
+            "word": "神",
+            "furigana": "かみ",
+            "romanji": "kami",
+            "meanings": {
+              "id": "tuhan",
+              "en": "god"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かん",
+        "romanji": "kan",
+        "examples": []
+      },
+      {
+        "furigana": "こう",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "神戸",
+            "furigana": "こうべ",
+            "romanji": "koube",
+            "meanings": {
+              "id": "Kobe",
+              "en": "Kobe"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "神経",
+            "furigana": "しんけい",
+            "romanji": "shinkei",
+            "meanings": {
+              "id": "saraf",
+              "en": "nerve"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジン",
+        "romanji": "jin",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tuhan, saraf, kobe",
+    "en": "god, nerve, Kobe"
+  }
+}

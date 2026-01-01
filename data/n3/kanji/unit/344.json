@@ -1,0 +1,48 @@
+{
+  "id": 344,
+  "character": "備",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "そな",
+        "romanji": "sona",
+        "examples": [
+          {
+            "id": 1,
+            "word": "備える",
+            "furigana": "そなえる",
+            "romanji": "sonaeru",
+            "meanings": {
+              "id": "mempersiapkan",
+              "en": "to prepare"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ビ",
+        "romanji": "bi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "準備",
+            "furigana": "じゅんび",
+            "romanji": "junbi",
+            "meanings": {
+              "id": "persiapan",
+              "en": "preparation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mempersiapkan, persiapan",
+    "en": "prepare, preparation"
+  }
+}

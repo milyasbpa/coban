@@ -1,0 +1,48 @@
+{
+  "id": 65,
+  "character": "沈",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しず",
+        "romanji": "shizu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "沈む",
+            "furigana": "しずむ",
+            "romanji": "shizumu",
+            "meanings": {
+              "id": "tenggelam, terbenam",
+              "en": "to sink"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チン",
+        "romanji": "chin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "沈殿",
+            "furigana": "ちんでん",
+            "romanji": "chinden",
+            "meanings": {
+              "id": "pengendapan",
+              "en": "sedimentation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tenggelam, terbenam, pengendapan",
+    "en": "to sink, sedimentation"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 354,
+  "character": "雲",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くも",
+        "romanji": "kumo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "雲",
+            "furigana": "くも",
+            "romanji": "kumo",
+            "meanings": {
+              "id": "awan",
+              "en": "cloud"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ウン",
+        "romanji": "un",
+        "examples": [
+          {
+            "id": 2,
+            "word": "雲泥",
+            "furigana": "うんでい",
+            "romanji": "undei",
+            "meanings": {
+              "id": "bumi dan langit",
+              "en": "earth and sky"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "awan, bumi dan langit",
+    "en": "cloud, earth and sky"
+  }
+}

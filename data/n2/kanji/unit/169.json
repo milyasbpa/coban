@@ -1,0 +1,48 @@
+{
+  "id": 169,
+  "character": "乗",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "の",
+        "romanji": "no",
+        "examples": [
+          {
+            "id": 1,
+            "word": "乗る",
+            "furigana": "のる",
+            "romanji": "noru",
+            "meanings": {
+              "id": "naik (kendaraan)",
+              "en": "to ride, to get on"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "乗車",
+            "furigana": "じょうしゃ",
+            "romanji": "jousha",
+            "meanings": {
+              "id": "naik (kendaraan)",
+              "en": "boarding (vehicle)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "naik (kendaraan)",
+    "en": "to ride, to get on (vehicle)"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 426,
+  "character": "操",
+  "strokes": 16,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あやつ",
+        "romanji": "ayatsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "操る",
+            "furigana": "あやつる",
+            "romanji": "ayatsuru",
+            "meanings": {
+              "id": "menangani",
+              "en": "to handle"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "みさお",
+        "romanji": "misao",
+        "examples": [
+          {
+            "id": 2,
+            "word": "操",
+            "furigana": "みさお",
+            "romanji": "misao",
+            "meanings": {
+              "id": "kesucian",
+              "en": "chastity"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "操作",
+            "furigana": "そうさ",
+            "romanji": "sousa",
+            "meanings": {
+              "id": "penanganan",
+              "en": "operation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menangani, kesucian, penanganan",
+    "en": "to handle, chastity, operation"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 173,
+  "character": "桜",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さくら",
+        "romanji": "sakura",
+        "examples": [
+          {
+            "id": 1,
+            "word": "桜の花",
+            "furigana": "さくらのはな",
+            "romanji": "sakura no hana",
+            "meanings": {
+              "id": "bunga sakura",
+              "en": "cherry blossom"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オウ",
+        "romanji": "ou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "観桜",
+            "furigana": "かんおう",
+            "romanji": "kan'ou",
+            "meanings": {
+              "id": "menonton bunga sakura",
+              "en": "cherry blossom viewing"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bunga sakura, menonton bunga sakura",
+    "en": "cherry blossom, cherry blossom viewing"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 259,
+  "character": "倒",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たお",
+        "romanji": "tao",
+        "examples": [
+          {
+            "id": 1,
+            "word": "倒れる",
+            "furigana": "たおれる",
+            "romanji": "taoreru",
+            "meanings": {
+              "id": "jatuh, roboh",
+              "en": "to fall, collapse"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "倒産",
+            "furigana": "とうさん",
+            "romanji": "tousan",
+            "meanings": {
+              "id": "bangkrut",
+              "en": "bankrupt"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jatuh, roboh, mati, bangkrut",
+    "en": "fall, collapse, die, bankrupt"
+  }
+}

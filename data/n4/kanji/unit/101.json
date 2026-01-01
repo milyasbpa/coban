@@ -1,0 +1,68 @@
+{
+  "id": 101,
+  "character": "荷",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "に",
+        "romanji": "ni",
+        "examples": [
+          {
+            "id": 1,
+            "word": "荷物",
+            "furigana": "にもつ",
+            "romanji": "nimotsu",
+            "meanings": {
+              "id": "barang bawaan",
+              "en": "luggage"
+            }
+          },
+          {
+            "id": 2,
+            "word": "荷作り",
+            "furigana": "にづくり",
+            "romanji": "nizukuri",
+            "meanings": {
+              "id": "paking",
+              "en": "packing"
+            }
+          },
+          {
+            "id": 4,
+            "word": "入荷",
+            "furigana": "にゅうか",
+            "romanji": "nyuuka",
+            "meanings": {
+              "id": "pemasukan barang",
+              "en": "arrival of goods"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 3,
+            "word": "出荷",
+            "furigana": "しゅっか",
+            "romanji": "shukka",
+            "meanings": {
+              "id": "pengeluaran barang",
+              "en": "shipment"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "barang bawaan",
+    "en": "luggage, cargo"
+  }
+}

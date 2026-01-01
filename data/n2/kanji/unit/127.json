@@ -1,0 +1,37 @@
+{
+  "id": 127,
+  "character": "効",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "効果",
+            "furigana": "こうか",
+            "romanji": "kouka",
+            "meanings": {
+              "id": "khasiat",
+              "en": "effect, efficacy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berkhasiat",
+    "en": "effective, efficacious"
+  }
+}

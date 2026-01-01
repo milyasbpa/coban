@@ -1,0 +1,48 @@
+{
+  "id": 386,
+  "character": "暖",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あたた",
+        "romanji": "atata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "暖かい",
+            "furigana": "あたたかい",
+            "romanji": "atatakai",
+            "meanings": {
+              "id": "benda yang hangat",
+              "en": "warm thing"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ダン",
+        "romanji": "dan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "温暖化",
+            "furigana": "おんだんか",
+            "romanji": "ondanka",
+            "meanings": {
+              "id": "pemanasan global",
+              "en": "global warming"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "benda yang hangat, pemanasan global",
+    "en": "warm thing, global warming"
+  }
+}

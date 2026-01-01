@@ -1,0 +1,48 @@
+{
+  "id": 141,
+  "character": "独",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひと",
+        "romanji": "hito",
+        "examples": [
+          {
+            "id": 1,
+            "word": "独り言",
+            "furigana": "ひとりごと",
+            "romanji": "hitorigoto",
+            "meanings": {
+              "id": "bicara sendiri",
+              "en": "talking to oneself"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドク",
+        "romanji": "doku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "独立",
+            "furigana": "どくりつ",
+            "romanji": "dokuritsu",
+            "meanings": {
+              "id": "merdeka, mandiri",
+              "en": "independence"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bicara sendiri, merdeka, mandiri",
+    "en": "alone, independent"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 350,
+  "character": "期",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "期間",
+            "furigana": "きかん",
+            "romanji": "kikan",
+            "meanings": {
+              "id": "masa, jangka waktu",
+              "en": "period"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 2,
+            "word": "一期",
+            "furigana": "いちご",
+            "romanji": "ichigo",
+            "meanings": {
+              "id": "seumur hidup",
+              "en": "lifetime"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "masa, jangka waktu, seumur hidup",
+    "en": "period, lifetime"
+  }
+}

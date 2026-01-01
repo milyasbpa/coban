@@ -1,0 +1,48 @@
+{
+  "id": 101,
+  "character": "投",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "なげ",
+        "romanji": "nage",
+        "examples": [
+          {
+            "id": 1,
+            "word": "投げる",
+            "furigana": "なげる",
+            "romanji": "nageru",
+            "meanings": {
+              "id": "melempar",
+              "en": "to throw"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "投資",
+            "furigana": "とうし",
+            "romanji": "toushi",
+            "meanings": {
+              "id": "investasi",
+              "en": "investment"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melempar, investasi",
+    "en": "throw, invest"
+  }
+}

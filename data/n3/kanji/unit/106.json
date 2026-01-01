@@ -1,0 +1,48 @@
+{
+  "id": 106,
+  "character": "改",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あらた",
+        "romanji": "arata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "改める",
+            "furigana": "あらためる",
+            "romanji": "aratameru",
+            "meanings": {
+              "id": "memperbaiki",
+              "en": "to improve"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "改革",
+            "furigana": "かいかく",
+            "romanji": "kaikaku",
+            "meanings": {
+              "id": "inovasi",
+              "en": "innovation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memperbaiki, inovasi",
+    "en": "improve, innovation"
+  }
+}

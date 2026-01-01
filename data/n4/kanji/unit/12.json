@@ -1,0 +1,83 @@
+{
+  "id": 12,
+  "character": "切",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "切る",
+            "furigana": "きる",
+            "romanji": "kiru",
+            "meanings": {
+              "id": "memotong",
+              "en": "to cut"
+            }
+          },
+          {
+            "id": 2,
+            "word": "切手",
+            "furigana": "きって",
+            "romanji": "kitte",
+            "meanings": {
+              "id": "perangko",
+              "en": "stamp"
+            }
+          },
+          {
+            "id": 3,
+            "word": "切符",
+            "furigana": "きっぷ",
+            "romanji": "kippu",
+            "meanings": {
+              "id": "kartu, tiket",
+              "en": "ticket"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "きつ",
+        "romanji": "kitsu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セツ",
+        "romanji": "setsu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "親切",
+            "furigana": "しんせつ",
+            "romanji": "shinsetsu",
+            "meanings": {
+              "id": "ramah",
+              "en": "kind"
+            }
+          },
+          {
+            "id": 5,
+            "word": "大切",
+            "furigana": "たいせつ",
+            "romanji": "taisetsu",
+            "meanings": {
+              "id": "penting",
+              "en": "important"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memotong",
+    "en": "cut"
+  }
+}

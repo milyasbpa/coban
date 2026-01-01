@@ -1,0 +1,49 @@
+{
+  "id": 356,
+  "character": "達",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "タツ",
+        "romanji": "tatsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "上達",
+            "furigana": "じょうたつ",
+            "romanji": "joutatsu",
+            "meanings": {
+              "id": "kemajuan, peningkatan kemampuan",
+              "en": "improvement, progress (in skill)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ダツ",
+        "romanji": "datsu",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "達成",
+          "furigana": "たっせい",
+          "romanji": "tassei",
+          "meanings": {
+            "id": "pencapaian (sasaran)",
+            "en": "achievement"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kemajuan (bidang keterampilan), pencapaian (sasaran)",
+    "en": "progress, achievement"
+  }
+}

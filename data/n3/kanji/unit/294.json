@@ -1,0 +1,64 @@
+{
+  "id": 294,
+  "character": "細",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ほそ",
+        "romanji": "hoso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "細い",
+            "furigana": "ほそい",
+            "romanji": "hosoi",
+            "meanings": {
+              "id": "kurus, ramping",
+              "en": "thin, slim"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こま",
+        "romanji": "koma",
+        "examples": [
+          {
+            "id": 2,
+            "word": "細かい",
+            "furigana": "こまかい",
+            "romanji": "komakai",
+            "meanings": {
+              "id": "halus, kecil",
+              "en": "small, fine"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "細菌",
+            "furigana": "さいきん",
+            "romanji": "saikin",
+            "meanings": {
+              "id": "bakteri",
+              "en": "bacteria"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kurus, ramping, halus, kecil, bakteri",
+    "en": "thin, small, bacteria"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 324,
+  "character": "鈍",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "にぶ",
+        "romanji": "nibu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鈍い",
+            "furigana": "にぶい",
+            "romanji": "nibui",
+            "meanings": {
+              "id": "tumpul, lamban",
+              "en": "dull, slow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドン",
+        "romanji": "don",
+        "examples": [
+          {
+            "id": 2,
+            "word": "鈍感",
+            "furigana": "どんかん",
+            "romanji": "donkan",
+            "meanings": {
+              "id": "bebal, tidak peka",
+              "en": "insensitive"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tumpul, lamban, bebal, tidak peka",
+    "en": "dull, slow, insensitive"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 4,
+  "character": "双",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふた",
+        "romanji": "futa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "双子",
+            "furigana": "ふたご",
+            "romanji": "futago",
+            "meanings": {
+              "id": "anak kembar",
+              "en": "twins"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "双方",
+            "furigana": "そうほう",
+            "romanji": "souhou",
+            "meanings": {
+              "id": "dua pihak/arah",
+              "en": "both sides/directions"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "anak kembar, dua pihak/arah",
+    "en": "twins, two sides/directions"
+  }
+}

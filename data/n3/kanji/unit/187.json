@@ -1,0 +1,41 @@
+{
+  "id": 187,
+  "character": "信",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 1,
+            "word": "信号",
+            "furigana": "しんごう",
+            "romanji": "shingou",
+            "meanings": {
+              "id": "lampu lalu lintas",
+              "en": "traffic light"
+            }
+          },
+          {
+            "id": 2,
+            "word": "自信",
+            "furigana": "じしん",
+            "romanji": "jishin",
+            "meanings": {
+              "id": "percaya diri",
+              "en": "confidence"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lampu lalu lintas, percaya diri",
+    "en": "traffic light, confidence"
+  }
+}

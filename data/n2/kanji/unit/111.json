@@ -1,0 +1,48 @@
+{
+  "id": 111,
+  "character": "延",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "の",
+        "romanji": "no",
+        "examples": [
+          {
+            "id": 1,
+            "word": "延ばす",
+            "furigana": "のばす",
+            "romanji": "nobasu",
+            "meanings": {
+              "id": "menunda",
+              "en": "to postpone"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エン",
+        "romanji": "en",
+        "examples": [
+          {
+            "id": 2,
+            "word": "延期",
+            "furigana": "えんき",
+            "romanji": "enki",
+            "meanings": {
+              "id": "penundaan",
+              "en": "postponement"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menunda, penundaan",
+    "en": "to postpone, postponement"
+  }
+}

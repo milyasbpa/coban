@@ -1,0 +1,48 @@
+{
+  "id": 159,
+  "character": "城",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しろ",
+        "romanji": "shiro",
+        "examples": [
+          {
+            "id": 1,
+            "word": "城",
+            "furigana": "しろ",
+            "romanji": "shiro",
+            "meanings": {
+              "id": "benteng",
+              "en": "castle"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "城塞",
+            "furigana": "じょうさい",
+            "romanji": "jousai",
+            "meanings": {
+              "id": "benteng pelindung",
+              "en": "fortress"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "benteng, benteng pelindung",
+    "en": "castle, fortress"
+  }
+}

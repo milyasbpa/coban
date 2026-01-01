@@ -1,0 +1,74 @@
+{
+  "id": 236,
+  "character": "清",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きよ",
+        "romanji": "kiyo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "清める",
+            "furigana": "きよめる",
+            "romanji": "kiyomeru",
+            "meanings": {
+              "id": "menyucikan",
+              "en": "to purify"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "清潔",
+            "furigana": "せいけつ",
+            "romanji": "seiketsu",
+            "meanings": {
+              "id": "bersih",
+              "en": "clean"
+            }
+          },
+          {
+            "id": 3,
+            "word": "清浄",
+            "furigana": "せいじょう",
+            "romanji": "seijou",
+            "meanings": {
+              "id": "bersih",
+              "en": "clean, pure"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "清浄",
+            "furigana": "せいじょう",
+            "romanji": "seijou",
+            "meanings": {
+              "id": "bersih",
+              "en": "clean, pure"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyucikan, bersih",
+    "en": "to purify, clean"
+  }
+}

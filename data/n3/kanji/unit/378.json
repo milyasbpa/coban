@@ -1,0 +1,48 @@
+{
+  "id": 378,
+  "character": "裏",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うら",
+        "romanji": "ura",
+        "examples": [
+          {
+            "id": 1,
+            "word": "裏口",
+            "furigana": "うらぐち",
+            "romanji": "uraguchi",
+            "meanings": {
+              "id": "pintu belakang",
+              "en": "back door"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リ",
+        "romanji": "ri",
+        "examples": [
+          {
+            "id": 2,
+            "word": "脳裏",
+            "furigana": "のうり",
+            "romanji": "nouri",
+            "meanings": {
+              "id": "dalam benak, dalam otak",
+              "en": "in mind, in brain"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pintu belakang, dalam benak, dalam otak",
+    "en": "back door, in mind, in brain"
+  }
+}

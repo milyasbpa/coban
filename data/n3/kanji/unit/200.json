@@ -1,0 +1,63 @@
+{
+  "id": 200,
+  "character": "政",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まつりごと",
+        "romanji": "matsurigoto",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "政",
+            "furigana": "せい",
+            "romanji": "sei",
+            "meanings": {
+              "id": "politik",
+              "en": "politics / government"
+            }
+          },
+          {
+            "id": 2,
+            "word": "政府",
+            "furigana": "せいふ",
+            "romanji": "seifu",
+            "meanings": {
+              "id": "pemerintah",
+              "en": "government"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "摂政",
+            "furigana": "せっしょう",
+            "romanji": "sesshou",
+            "meanings": {
+              "id": "bupati",
+              "en": "regent"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "politik, pemerintah, bupati",
+    "en": "politics, government, regent"
+  }
+}

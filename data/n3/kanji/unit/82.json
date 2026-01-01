@@ -1,0 +1,46 @@
+{
+  "id": 82,
+  "character": "役",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ヤク",
+        "romanji": "yaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "役",
+            "furigana": "やく",
+            "romanji": "yaku",
+            "meanings": {
+              "id": "kewajiban",
+              "en": "duty"
+            }
+          },
+          {
+            "id": 2,
+            "word": "役者",
+            "furigana": "やくしゃ",
+            "romanji": "yakusha",
+            "meanings": {
+              "id": "mempkerjakan",
+              "en": "actor"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "エキ",
+        "romanji": "eki",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kewajiban",
+    "en": "duty"
+  }
+}

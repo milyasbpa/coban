@@ -1,0 +1,48 @@
+{
+  "id": 297,
+  "character": "寄",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "寄る",
+            "furigana": "よる",
+            "romanji": "yoru",
+            "meanings": {
+              "id": "mampir, singgah",
+              "en": "to stop by"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "寄生虫",
+            "furigana": "きせいちゅう",
+            "romanji": "kiseichuu",
+            "meanings": {
+              "id": "cacing perut",
+              "en": "parasite"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mampir, singgah, cacing perut",
+    "en": "stop by, parasite"
+  }
+}

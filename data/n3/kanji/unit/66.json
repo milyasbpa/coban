@@ -1,0 +1,64 @@
+{
+  "id": 66,
+  "character": "交",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "交じる",
+            "furigana": "まじる",
+            "romanji": "majiru",
+            "meanings": {
+              "id": "mencampur",
+              "en": "to mix"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "まじ",
+        "romanji": "maji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "交じる",
+            "furigana": "まじる",
+            "romanji": "majiru",
+            "meanings": {
+              "id": "mencampur",
+              "en": "to mix"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "交通",
+            "furigana": "こうつう",
+            "romanji": "koutsu",
+            "meanings": {
+              "id": "lalu lintas",
+              "en": "traffic"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencampur",
+    "en": "mix"
+  }
+}

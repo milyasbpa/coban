@@ -1,0 +1,48 @@
+{
+  "id": 97,
+  "character": "君",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きみ",
+        "romanji": "kimi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "君",
+            "furigana": "きみ",
+            "romanji": "kimi",
+            "meanings": {
+              "id": "kamu",
+              "en": "you"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "クン",
+        "romanji": "kun",
+        "examples": [
+          {
+            "id": 2,
+            "word": "君子",
+            "furigana": "くんし",
+            "romanji": "kunshi",
+            "meanings": {
+              "id": "pria kebajikan",
+              "en": "virtuous man"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kamu, pria kebajikan",
+    "en": "you, virtuous man"
+  }
+}

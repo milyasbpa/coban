@@ -1,0 +1,48 @@
+{
+  "id": 331,
+  "character": "詳",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くわ",
+        "romanji": "kuwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "詳しい",
+            "furigana": "くわしい",
+            "romanji": "kuwashii",
+            "meanings": {
+              "id": "terperinci, detil",
+              "en": "detailed, precise"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "詳細",
+            "furigana": "しょうさい",
+            "romanji": "shousai",
+            "meanings": {
+              "id": "terperinci, detil",
+              "en": "details"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "terperinci, detil",
+    "en": "detailed, precise"
+  }
+}

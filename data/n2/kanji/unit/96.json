@@ -1,0 +1,48 @@
+{
+  "id": 96,
+  "character": "枝",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "えだ",
+        "romanji": "eda",
+        "examples": [
+          {
+            "id": 1,
+            "word": "枝",
+            "furigana": "えだ",
+            "romanji": "eda",
+            "meanings": {
+              "id": "dahan, ranting",
+              "en": "branch, twig"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "分枝",
+            "furigana": "ぶんし",
+            "romanji": "bunshi",
+            "meanings": {
+              "id": "bagian belahan dahan",
+              "en": "branch part"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dahan, ranting, bagian belahan dahan",
+    "en": "branch, twig, branch part"
+  }
+}

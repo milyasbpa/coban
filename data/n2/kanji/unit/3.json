@@ -1,0 +1,48 @@
+{
+  "id": 3,
+  "character": "及",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "およ",
+        "romanji": "oyo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "及ぶ",
+            "furigana": "およぶ",
+            "romanji": "oyobu",
+            "meanings": {
+              "id": "mencapai",
+              "en": "to reach"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "普及",
+            "furigana": "ふきゅう",
+            "romanji": "fukyuu",
+            "meanings": {
+              "id": "tersebar, populer",
+              "en": "spread, popular"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencapai, setara",
+    "en": "to reach, equal"
+  }
+}

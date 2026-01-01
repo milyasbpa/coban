@@ -1,0 +1,69 @@
+{
+  "id": 38,
+  "character": "平",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひら",
+        "romanji": "hira",
+        "examples": []
+      },
+      {
+        "furigana": "たい",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "平ら",
+            "furigana": "たいら",
+            "romanji": "taira",
+            "meanings": {
+              "id": "rata, datar",
+              "en": "flat; level"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘイ",
+        "romanji": "hei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "平和",
+            "furigana": "へいわ",
+            "romanji": "heiwa",
+            "meanings": {
+              "id": "kedamaian",
+              "en": "peace"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ビョウ",
+        "romanji": "byou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "平等",
+            "furigana": "びょうどう",
+            "romanji": "byoudou",
+            "meanings": {
+              "id": "sama rata, adil",
+              "en": "equality; fairness"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rata, datar",
+    "en": "flat, peaceful"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": 57,
+  "character": "始",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はじ",
+        "romanji": "haji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "始まる",
+            "furigana": "はじまる",
+            "romanji": "hajimaru",
+            "meanings": {
+              "id": "mulai",
+              "en": "to begin"
+            }
+          },
+          {
+            "id": 2,
+            "word": "始める",
+            "furigana": "はじめる",
+            "romanji": "hajimeru",
+            "meanings": {
+              "id": "memulai",
+              "en": "to start"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "始発",
+            "furigana": "しはつ",
+            "romanji": "shihatsu",
+            "meanings": {
+              "id": "kereta pertama (berangkat)",
+              "en": "first train"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mulai",
+    "en": "begin, start"
+  }
+}

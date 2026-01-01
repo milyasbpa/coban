@@ -1,0 +1,48 @@
+{
+  "id": 41,
+  "character": "充",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "充てる",
+            "furigana": "あてる",
+            "romanji": "ateru",
+            "meanings": {
+              "id": "menempatkan, mengalokasikan",
+              "en": "to assign, to allocate, to set"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "充実",
+            "furigana": "じゅうじつ",
+            "romanji": "juujitsu",
+            "meanings": {
+              "id": "padat, lengkap",
+              "en": "full, complete"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menempatkan, padat, lengkap",
+    "en": "to fill, full, complete"
+  }
+}

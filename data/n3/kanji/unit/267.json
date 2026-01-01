@@ -1,0 +1,84 @@
+{
+  "id": 267,
+  "character": "帯",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "帯びる",
+            "furigana": "おびる",
+            "romanji": "obiru",
+            "meanings": {
+              "id": "memakai",
+              "en": "to wear"
+            }
+          },
+          {
+            "id": 2,
+            "word": "帯",
+            "furigana": "おび",
+            "romanji": "obi",
+            "meanings": {
+              "id": "ikat pinggang",
+              "en": "belt"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "おび",
+        "romanji": "obi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "帯びる",
+            "furigana": "おびる",
+            "romanji": "obiru",
+            "meanings": {
+              "id": "memakai",
+              "en": "to wear"
+            }
+          },
+          {
+            "id": 2,
+            "word": "帯",
+            "furigana": "おび",
+            "romanji": "obi",
+            "meanings": {
+              "id": "ikat pinggang",
+              "en": "belt"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "熱帯",
+            "furigana": "ねったい",
+            "romanji": "nettai",
+            "meanings": {
+              "id": "zona tropis",
+              "en": "tropical zone"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memakai, ikat pinggang, zona tropis",
+    "en": "wear, belt, tropical zone"
+  }
+}

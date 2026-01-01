@@ -1,0 +1,64 @@
+{
+  "id": 39,
+  "character": "足",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あし",
+        "romanji": "ashi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "足",
+            "furigana": "あし",
+            "romanji": "ashi",
+            "meanings": {
+              "id": "kaki",
+              "en": "foot"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 2,
+            "word": "足りる",
+            "furigana": "たりる",
+            "romanji": "tariru",
+            "meanings": {
+              "id": "cukup",
+              "en": "to be sufficient"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソク",
+        "romanji": "soku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "一足",
+            "furigana": "いっそく",
+            "romanji": "issoku",
+            "meanings": {
+              "id": "satu pasang (sepatu)",
+              "en": "one pair (shoes)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kaki",
+    "en": "foot, leg"
+  }
+}

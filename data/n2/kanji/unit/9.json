@@ -1,0 +1,48 @@
+{
+  "id": 9,
+  "character": "片",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "片道",
+            "furigana": "かたみち",
+            "romanji": "katamichi",
+            "meanings": {
+              "id": "satu jalan/jurusan",
+              "en": "one way/direction"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘン",
+        "romanji": "hen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "破片",
+            "furigana": "はへん",
+            "romanji": "hahen",
+            "meanings": {
+              "id": "pecahan, serpihan",
+              "en": "fragment, chip"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "satu jalan/jurusan, pecahan, serpihan",
+    "en": "one way/direction, fragment, chip"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 48,
+  "character": "忙",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いそが",
+        "romanji": "isoga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "忙しい",
+            "furigana": "いそがしい",
+            "romanji": "isogashii",
+            "meanings": {
+              "id": "sibuk",
+              "en": "busy"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ボウ",
+        "romanji": "bou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "多忙",
+            "furigana": "たぼう",
+            "romanji": "tabou",
+            "meanings": {
+              "id": "tekanan kerja",
+              "en": "busyness; being very busy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sibuk",
+    "en": "busy"
+  }
+}

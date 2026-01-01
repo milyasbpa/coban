@@ -1,0 +1,48 @@
+{
+  "id": 106,
+  "character": "肩",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "肩",
+            "furigana": "かた",
+            "romanji": "kata",
+            "meanings": {
+              "id": "pundak, bahu",
+              "en": "shoulder"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "肩甲骨",
+            "furigana": "けんこうこつ",
+            "romanji": "kenkoukotsu",
+            "meanings": {
+              "id": "tulang belikat",
+              "en": "scapula"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pundak, bahu, tulang belikat",
+    "en": "shoulder, scapula"
+  }
+}

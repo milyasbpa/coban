@@ -1,0 +1,41 @@
+{
+  "id": 194,
+  "character": "約",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ヤク",
+        "romanji": "yaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "約",
+            "furigana": "やく",
+            "romanji": "yaku",
+            "meanings": {
+              "id": "kira-kira",
+              "en": "approximately / about"
+            }
+          },
+          {
+            "id": 2,
+            "word": "予約",
+            "furigana": "よやく",
+            "romanji": "yoyaku",
+            "meanings": {
+              "id": "pemesanan tempat",
+              "en": "reservation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kira-kira, pemesanan tempat",
+    "en": "about, reservation"
+  }
+}

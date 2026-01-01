@@ -1,0 +1,64 @@
+{
+  "id": 175,
+  "character": "胸",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むね",
+        "romanji": "mune",
+        "examples": [
+          {
+            "id": 1,
+            "word": "胸",
+            "furigana": "むね",
+            "romanji": "mune",
+            "meanings": {
+              "id": "dada, buah dada",
+              "en": "chest, breast"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "むな",
+        "romanji": "muna",
+        "examples": [
+          {
+            "id": 2,
+            "word": "胸毛",
+            "furigana": "むなげ",
+            "romanji": "munage",
+            "meanings": {
+              "id": "bulu dada",
+              "en": "chest hair"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "胸囲",
+            "furigana": "きょうい",
+            "romanji": "kyoui",
+            "meanings": {
+              "id": "lingkar dada",
+              "en": "chest circumference"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dada, buah dada, bulu dada, lingkar dada",
+    "en": "chest, breast, chest hair, chest circumference"
+  }
+}

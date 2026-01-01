@@ -1,0 +1,53 @@
+{
+  "id": 140,
+  "character": "命",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いのち",
+        "romanji": "inochi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "命",
+            "furigana": "いのち",
+            "romanji": "inochi",
+            "meanings": {
+              "id": "nyawa",
+              "en": "life"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "メイ",
+        "romanji": "mei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "革命",
+            "furigana": "かくめい",
+            "romanji": "kakumei",
+            "meanings": {
+              "id": "revolusi",
+              "en": "revolution"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ミョウ",
+        "romanji": "myou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "nyawa, revolusi",
+    "en": "life, revolution"
+  }
+}

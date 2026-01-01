@@ -1,0 +1,90 @@
+{
+  "id": 84,
+  "character": "形",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かたち",
+        "romanji": "katachi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "形",
+            "furigana": "かたち",
+            "romanji": "katachi",
+            "meanings": {
+              "id": "bentuk",
+              "en": "shape"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "形",
+            "furigana": "かたち",
+            "romanji": "katachi",
+            "meanings": {
+              "id": "bentuk",
+              "en": "shape"
+            }
+          },
+          {
+            "id": 2,
+            "word": "形見",
+            "furigana": "かたみ",
+            "romanji": "katami",
+            "meanings": {
+              "id": "barang peninggalan",
+              "en": "keepsake"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 3,
+            "word": "形式",
+            "furigana": "けいしき",
+            "romanji": "keishiki",
+            "meanings": {
+              "id": "formalitas",
+              "en": "formality"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ギョウ",
+        "romanji": "gyou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "人形",
+            "furigana": "にんぎょう",
+            "romanji": "ningyou",
+            "meanings": {
+              "id": "boneka",
+              "en": "doll"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bentuk",
+    "en": "shape"
+  }
+}

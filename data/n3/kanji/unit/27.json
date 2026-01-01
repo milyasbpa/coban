@@ -1,0 +1,58 @@
+{
+  "id": 27,
+  "character": "他",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ほか",
+        "romanji": "hoka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "他",
+            "furigana": "ほか",
+            "romanji": "hoka",
+            "meanings": {
+              "id": "lain, selain",
+              "en": "other"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タ",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 2,
+            "word": "他者",
+            "furigana": "たしゃ",
+            "romanji": "tasha",
+            "meanings": {
+              "id": "orang lain",
+              "en": "others"
+            }
+          },
+          {
+            "id": 3,
+            "word": "他方",
+            "furigana": "たほう",
+            "romanji": "tahou",
+            "meanings": {
+              "id": "cara lain",
+              "en": "the other side, on the other hand"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "lain, selain",
+    "en": "other"
+  }
+}

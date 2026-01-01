@@ -1,0 +1,68 @@
+{
+  "id": 125,
+  "character": "貸",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "貸す",
+            "furigana": "かす",
+            "romanji": "kasu",
+            "meanings": {
+              "id": "meminjamkan",
+              "en": "to lend"
+            }
+          },
+          {
+            "id": 2,
+            "word": "貸し出す",
+            "furigana": "かしだす",
+            "romanji": "kashidasu",
+            "meanings": {
+              "id": "kasih pinjam",
+              "en": "to lend out"
+            }
+          },
+          {
+            "id": 4,
+            "word": "貸家",
+            "furigana": "かしや",
+            "romanji": "kashiya",
+            "meanings": {
+              "id": "sewa, carter",
+              "en": "rental house"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "賃貸",
+            "furigana": "ちんたい",
+            "romanji": "chintai",
+            "meanings": {
+              "id": "pinjaman",
+              "en": "rental"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meminjamkan",
+    "en": "lend"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 80,
+  "character": "食",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 1,
+            "word": "食べる",
+            "furigana": "たべる",
+            "romanji": "taberu",
+            "meanings": {
+              "id": "makan",
+              "en": "to eat"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショク",
+        "romanji": "shoku",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "食う",
+          "furigana": "くう",
+          "romanji": "kuu",
+          "meanings": {
+            "id": "makan",
+            "en": "to eat"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "makan",
+    "en": "eat, food"
+  }
+}

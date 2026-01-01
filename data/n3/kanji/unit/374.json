@@ -1,0 +1,47 @@
+{
+  "id": 374,
+  "character": "鉄",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "テツ",
+        "romanji": "tetsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鉄道",
+            "furigana": "てつどう",
+            "romanji": "tetsudou",
+            "meanings": {
+              "id": "rel kereta",
+              "en": "railway"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "テッ",
+        "romanji": "tet",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鉄道",
+            "furigana": "てつどう",
+            "romanji": "tetsudou",
+            "meanings": {
+              "id": "rel kereta",
+              "en": "railway"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rel kereta",
+    "en": "railway"
+  }
+}

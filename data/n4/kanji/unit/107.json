@@ -1,0 +1,73 @@
+{
+  "id": 107,
+  "character": "閉",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "し",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "閉める",
+            "furigana": "しめる",
+            "romanji": "shimeru",
+            "meanings": {
+              "id": "menutup",
+              "en": "to close"
+            }
+          },
+          {
+            "id": 2,
+            "word": "閉まる",
+            "furigana": "しまる",
+            "romanji": "shimaru",
+            "meanings": {
+              "id": "tutup",
+              "en": "to be closed"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヘイ",
+        "romanji": "hei",
+        "examples": [
+          {
+            "id": 3,
+            "word": "閉鎖",
+            "furigana": "へいさ",
+            "romanji": "heisa",
+            "meanings": {
+              "id": "mengalihkan, menjamakan",
+              "en": "closure"
+            }
+          },
+          {
+            "id": 4,
+            "word": "閉店",
+            "furigana": "へいてん",
+            "romanji": "heiten",
+            "meanings": {
+              "id": "tutup toko",
+              "en": "store closing"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menutup",
+    "en": "close, shut"
+  }
+}

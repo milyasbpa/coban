@@ -1,0 +1,36 @@
+{
+  "id": 361,
+  "character": "景",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": []
+      },
+      {
+        "furigana": "ケ",
+        "romanji": "ke",
+        "examples": [
+          {
+            "id": 1,
+            "word": "景色",
+            "furigana": "けしき",
+            "romanji": "keshiki",
+            "meanings": {
+              "id": "pemandangan",
+              "en": "scenery"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pemandangan",
+    "en": "scenery"
+  }
+}

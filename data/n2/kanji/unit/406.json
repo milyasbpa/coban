@@ -1,0 +1,57 @@
+{
+  "id": 406,
+  "character": "徹",
+  "strokes": 15,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "テツ",
+        "romanji": "tetsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "徹夜",
+            "furigana": "てつや",
+            "romanji": "tetsuya",
+            "meanings": {
+              "id": "bergadang",
+              "en": "stay up late"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "テッ",
+        "romanji": "te",
+        "examples": [
+          {
+            "id": 1,
+            "word": "徹夜",
+            "furigana": "てつや",
+            "romanji": "tetsuya",
+            "meanings": {
+              "id": "bergadang",
+              "en": "stay up late"
+            }
+          },
+          {
+            "id": 2,
+            "word": "徹底的",
+            "furigana": "てっていてき",
+            "romanji": "tetteiteki",
+            "meanings": {
+              "id": "secara tuntas",
+              "en": "thoroughly"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bergadang, secara tuntas",
+    "en": "stay up late, thoroughly"
+  }
+}

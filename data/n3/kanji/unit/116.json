@@ -1,0 +1,48 @@
+{
+  "id": 116,
+  "character": "位",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くらい",
+        "romanji": "kurai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "位",
+            "furigana": "くらい",
+            "romanji": "kurai",
+            "meanings": {
+              "id": "peringkat, pangkat",
+              "en": "rank, position"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 2,
+            "word": "位置",
+            "furigana": "いち",
+            "romanji": "ichi",
+            "meanings": {
+              "id": "posisi, lokasi",
+              "en": "position, location"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "peringkat, pangkat, posisi, lokasi",
+    "en": "rank, position, location"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 242,
+  "character": "般",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 2,
+            "word": "諸般",
+            "furigana": "しょはん",
+            "romanji": "shohan",
+            "meanings": {
+              "id": "berbagai macam",
+              "en": "various"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "パン",
+        "romanji": "pan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "一般",
+            "furigana": "いっぱん",
+            "romanji": "ippan",
+            "meanings": {
+              "id": "umum, biasa",
+              "en": "general, usual"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "umum, biasa, berbagai macam",
+    "en": "general, usual, various"
+  }
+}

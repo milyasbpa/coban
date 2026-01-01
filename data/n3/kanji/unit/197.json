@@ -1,0 +1,44 @@
+{
+  "id": 197,
+  "character": "昨",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "サク",
+        "romanji": "saku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "昨年",
+            "furigana": "さくねん",
+            "romanji": "sakunen",
+            "meanings": {
+              "id": "tahun lalu",
+              "en": "last year"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "昨日",
+          "furigana": "きのう",
+          "romanji": "kinou",
+          "meanings": {
+            "id": "kemarin",
+            "en": "yesterday"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kemarin, tahun lalu",
+    "en": "yesterday, last year"
+  }
+}

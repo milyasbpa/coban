@@ -1,0 +1,64 @@
+{
+  "id": 305,
+  "character": "断",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ことわ",
+        "romanji": "kotowa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "断る",
+            "furigana": "ことわる",
+            "romanji": "kotowaru",
+            "meanings": {
+              "id": "menolak",
+              "en": "to refuse"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 2,
+            "word": "断つ",
+            "furigana": "たつ",
+            "romanji": "tatsu",
+            "meanings": {
+              "id": "memutuskan, menghentikan",
+              "en": "to sever, to cut off, to stop"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ダン",
+        "romanji": "dan",
+        "examples": [
+          {
+            "id": 3,
+            "word": "断定",
+            "furigana": "だんてい",
+            "romanji": "dantei",
+            "meanings": {
+              "id": "kesimpulan",
+              "en": "conclusion"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menolak, memutus, memutuskan, kesimpulan",
+    "en": "refuse, decide, conclusion"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 92,
+  "character": "完",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "完成",
+            "furigana": "かんせい",
+            "romanji": "kansei",
+            "meanings": {
+              "id": "komplit",
+              "en": "complete"
+            }
+          },
+          {
+            "id": 2,
+            "word": "完全",
+            "furigana": "かんぜん",
+            "romanji": "kanzen",
+            "meanings": {
+              "id": "sempurna",
+              "en": "perfect"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "komplit, sempurna",
+    "en": "complete, perfect"
+  }
+}

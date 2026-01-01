@@ -1,0 +1,48 @@
+{
+  "id": 308,
+  "character": "紫",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むらさき",
+        "romanji": "murasaki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "紫色",
+            "furigana": "むらさきいろ",
+            "romanji": "murasakiiro",
+            "meanings": {
+              "id": "warna ungu",
+              "en": "purple"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "紫外線",
+            "furigana": "しがいせん",
+            "romanji": "shigaisen",
+            "meanings": {
+              "id": "sinar ultra violet",
+              "en": "ultraviolet ray"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "warna ungu, sinar ultra violet",
+    "en": "purple, ultraviolet ray"
+  }
+}

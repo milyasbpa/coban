@@ -1,0 +1,64 @@
+{
+  "id": 41,
+  "character": "言",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "言う",
+            "furigana": "いう",
+            "romanji": "iu",
+            "meanings": {
+              "id": "berkata",
+              "en": "to say"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "言語",
+            "furigana": "げんご",
+            "romanji": "gengo",
+            "meanings": {
+              "id": "bahasa",
+              "en": "language"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゴン",
+        "romanji": "gon",
+        "examples": [
+          {
+            "id": 3,
+            "word": "伝言",
+            "furigana": "でんごん",
+            "romanji": "dengon",
+            "meanings": {
+              "id": "pesan (berita)",
+              "en": "message"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berkata",
+    "en": "say, speak"
+  }
+}

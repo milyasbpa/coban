@@ -1,0 +1,74 @@
+{
+  "id": 79,
+  "character": "南",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みなみ",
+        "romanji": "minami",
+        "examples": [
+          {
+            "id": 1,
+            "word": "南",
+            "furigana": "みなみ",
+            "romanji": "minami",
+            "meanings": {
+              "id": "selatan",
+              "en": "south"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ナ",
+        "romanji": "na",
+        "examples": [
+          {
+            "id": 2,
+            "word": "南無",
+            "furigana": "なむ",
+            "romanji": "namu",
+            "meanings": {
+              "id": "aku berserah kepada Buddha",
+              "en": "devotion to Buddha"
+            }
+          },
+          {
+            "id": 3,
+            "word": "南極",
+            "furigana": "なんきょく",
+            "romanji": "nankyoku",
+            "meanings": {
+              "id": "kutub selatan",
+              "en": "South Pole"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ナン",
+        "romanji": "nan",
+        "examples": [
+          {
+            "id": 3,
+            "word": "南極",
+            "furigana": "なんきょく",
+            "romanji": "nankyoku",
+            "meanings": {
+              "id": "kutub selatan",
+              "en": "South Pole"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "selatan",
+    "en": "south"
+  }
+}

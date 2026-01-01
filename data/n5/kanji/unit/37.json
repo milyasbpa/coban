@@ -1,0 +1,126 @@
+{
+  "id": 37,
+  "character": "生",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "生きる",
+            "furigana": "いきる",
+            "romanji": "ikiru",
+            "meanings": {
+              "id": "hidup",
+              "en": "to live"
+            }
+          },
+          {
+            "id": 7,
+            "word": "一生",
+            "furigana": "いっしょう",
+            "romanji": "isshou",
+            "meanings": {
+              "id": "seumur hidup",
+              "en": "whole life"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 2,
+            "word": "生まれる",
+            "furigana": "うまれる",
+            "romanji": "umareru",
+            "meanings": {
+              "id": "lahir",
+              "en": "to be born"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 3,
+            "word": "生える",
+            "furigana": "はえる",
+            "romanji": "haeru",
+            "meanings": {
+              "id": "tumbuh",
+              "en": "to grow"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": []
+      },
+      {
+        "furigana": "なま",
+        "romanji": "nama",
+        "examples": [
+          {
+            "id": 4,
+            "word": "生で",
+            "furigana": "なまで",
+            "romanji": "namade",
+            "meanings": {
+              "id": "dengan tanpa campuran",
+              "en": "raw"
+            }
+          },
+          {
+            "id": 5,
+            "word": "生野菜",
+            "furigana": "なまやさい",
+            "romanji": "namayasai",
+            "meanings": {
+              "id": "sayuran mentah",
+              "en": "raw vegetables"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 6,
+            "word": "先生",
+            "furigana": "せんせい",
+            "romanji": "sensei",
+            "meanings": {
+              "id": "murid, siswa",
+              "en": "teacher"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hidup",
+    "en": "life, birth"
+  }
+}

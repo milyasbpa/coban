@@ -1,0 +1,37 @@
+{
+  "id": 94,
+  "character": "牧",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まき",
+        "romanji": "maki",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ボク",
+        "romanji": "boku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "牧場",
+            "furigana": "ぼくじょう",
+            "romanji": "bokujou",
+            "meanings": {
+              "id": "padang gembala",
+              "en": "pasture, ranch"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "padang gembala",
+    "en": "pasture, ranch"
+  }
+}

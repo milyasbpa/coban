@@ -1,0 +1,60 @@
+{
+  "id": 166,
+  "character": "逆",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さか",
+        "romanji": "saka",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ギャク",
+        "romanji": "gyaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "逆線",
+            "furigana": "ぎゃくせん",
+            "romanji": "gyakusen",
+            "meanings": {
+              "id": "terbalik",
+              "en": "reverse"
+            }
+          },
+          {
+            "id": 2,
+            "word": "逆流",
+            "furigana": "ぎゃくりゅう",
+            "romanji": "gyakuryuu",
+            "meanings": {
+              "id": "berlawanan arus",
+              "en": "countercurrent"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "逆行",
+          "furigana": "ぎゃっこう",
+          "romanji": "gyakkou",
+          "meanings": {
+            "id": "gerakan mundur",
+            "en": "retreat, retrograde"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "terbalik, berlawanan arus, gerakan mundur",
+    "en": "reverse, contrary, retreat"
+  }
+}

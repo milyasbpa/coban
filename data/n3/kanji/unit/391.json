@@ -1,0 +1,48 @@
+{
+  "id": 391,
+  "character": "罪",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つみ",
+        "romanji": "tsumi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "罪",
+            "furigana": "つみ",
+            "romanji": "tsumi",
+            "meanings": {
+              "id": "dosa",
+              "en": "sin"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ザイ",
+        "romanji": "zai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "謝罪",
+            "furigana": "しゃざい",
+            "romanji": "shazai",
+            "meanings": {
+              "id": "permintaan maaf",
+              "en": "apology"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dosa, permintaan maaf",
+    "en": "sin, apology"
+  }
+}

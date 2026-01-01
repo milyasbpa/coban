@@ -1,0 +1,74 @@
+{
+  "id": 81,
+  "character": "映",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うつ",
+        "romanji": "utsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "映る",
+            "furigana": "うつる",
+            "romanji": "utsuru",
+            "meanings": {
+              "id": "terpantul",
+              "en": "to be reflected"
+            }
+          },
+          {
+            "id": 2,
+            "word": "映す",
+            "furigana": "うつす",
+            "romanji": "utsusu",
+            "meanings": {
+              "id": "memantulkan",
+              "en": "to reflect"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 3,
+            "word": "映える",
+            "furigana": "はえる",
+            "romanji": "haeru",
+            "meanings": {
+              "id": "bercahaya, cemerlang",
+              "en": "to shine, stand out"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エイ",
+        "romanji": "ei",
+        "examples": [
+          {
+            "id": 4,
+            "word": "映画",
+            "furigana": "えいが",
+            "romanji": "eiga",
+            "meanings": {
+              "id": "film",
+              "en": "movie"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "terpantul",
+    "en": "reflect, project"
+  }
+}

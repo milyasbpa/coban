@@ -1,0 +1,48 @@
+{
+  "id": 407,
+  "character": "鼻",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はな",
+        "romanji": "hana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鼻",
+            "furigana": "はな",
+            "romanji": "hana",
+            "meanings": {
+              "id": "hidung",
+              "en": "nose"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ビ",
+        "romanji": "bi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "耳鼻科",
+            "furigana": "じびか",
+            "romanji": "jibika",
+            "meanings": {
+              "id": "bagian THT",
+              "en": "ENT part"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hidung, bagian THT",
+    "en": "nose, ENT part"
+  }
+}

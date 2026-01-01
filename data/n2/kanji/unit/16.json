@@ -1,0 +1,47 @@
+{
+  "id": 16,
+  "character": "功",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "成功",
+            "furigana": "せいこう",
+            "romanji": "seikou",
+            "meanings": {
+              "id": "keberhasilan",
+              "en": "success"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ク",
+        "romanji": "ku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "功徳",
+            "furigana": "くどく",
+            "romanji": "kudoku",
+            "meanings": {
+              "id": "kelakuan welas asih",
+              "en": "benevolent deed"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "keberhasilan, kelakuan welas asih",
+    "en": "achievement, merit, benevolence"
+  }
+}

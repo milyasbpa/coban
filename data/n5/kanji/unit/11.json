@@ -1,0 +1,61 @@
+{
+  "id": 11,
+  "character": "山",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "やま",
+        "romanji": "yama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "山",
+            "furigana": "やま",
+            "romanji": "yama",
+            "meanings": {
+              "id": "gunung",
+              "en": "mountain"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サン",
+        "romanji": "san",
+        "examples": [
+          {
+            "id": 2,
+            "word": "富士山",
+            "furigana": "ふじさん",
+            "romanji": "fujisan",
+            "meanings": {
+              "id": "gunung Fuji",
+              "en": "Mount Fuji"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "火山",
+          "furigana": "かざん",
+          "romanji": "kazan",
+          "meanings": {
+            "id": "gunung berapi",
+            "en": "volcano"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "gunung",
+    "en": "mountain"
+  }
+}

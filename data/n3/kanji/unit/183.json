@@ -1,0 +1,48 @@
+{
+  "id": 183,
+  "character": "美",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うつく",
+        "romanji": "utsuku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "美しい",
+            "furigana": "うつくしい",
+            "romanji": "utsukushii",
+            "meanings": {
+              "id": "cantik, indah",
+              "en": "beautiful"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ビ",
+        "romanji": "bi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "美人",
+            "furigana": "びじん",
+            "romanji": "bijin",
+            "meanings": {
+              "id": "wanita cantik",
+              "en": "pretty woman"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cantik, indah, wanita cantik",
+    "en": "beautiful, pretty woman"
+  }
+}

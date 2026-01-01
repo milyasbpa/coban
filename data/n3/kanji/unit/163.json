@@ -1,0 +1,71 @@
+{
+  "id": 163,
+  "character": "表",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おもて",
+        "romanji": "omote",
+        "examples": [
+          {
+            "id": 1,
+            "word": "表",
+            "furigana": "おもて",
+            "romanji": "omote",
+            "meanings": {
+              "id": "permukaan",
+              "en": "surface"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "あらわ",
+        "romanji": "arawa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "表す",
+            "furigana": "あらわす",
+            "romanji": "arawasu",
+            "meanings": {
+              "id": "menampilkan",
+              "en": "to display"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒョウ",
+        "romanji": "hyou",
+        "examples": []
+      },
+      {
+        "furigana": "ビョウ",
+        "romanji": "byou",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "発表",
+          "furigana": "はっぴょう",
+          "romanji": "happyou",
+          "meanings": {
+            "id": "presentasi",
+            "en": "presentation"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "permukaan, menampilkan, presentasi",
+    "en": "surface, display, presentation"
+  }
+}

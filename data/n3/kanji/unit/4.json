@@ -1,0 +1,60 @@
+{
+  "id": 4,
+  "character": "亡",
+  "strokes": 3,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ボウ",
+        "romanji": "bou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "滅亡",
+            "furigana": "めつぼう",
+            "romanji": "metsubō",
+            "meanings": {
+              "id": "keruntuhan",
+              "en": "downfall, ruin, extinction"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "モウ",
+        "romanji": "mou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "亡者",
+            "furigana": "もうじゃ",
+            "romanji": "mōja",
+            "meanings": {
+              "id": "roh gentayangan",
+              "en": "ghost"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "亡くす",
+          "furigana": "なくす",
+          "romanji": "nakusu",
+          "meanings": {
+            "id": "kehilangan (karena mati)",
+            "en": "to lose (death)"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kehilangan (karena mati)",
+    "en": "deceased"
+  }
+}

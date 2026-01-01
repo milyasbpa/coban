@@ -1,0 +1,48 @@
+{
+  "id": 56,
+  "character": "当",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "当たる",
+            "furigana": "あたる",
+            "romanji": "ataru",
+            "meanings": {
+              "id": "kena",
+              "en": "to be hit; to strike"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "当然",
+            "furigana": "とうぜん",
+            "romanji": "touzen",
+            "meanings": {
+              "id": "sudah sepatutnya",
+              "en": "naturally; of course"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kena",
+    "en": "hit, appropriate"
+  }
+}

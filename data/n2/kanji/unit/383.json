@@ -1,0 +1,48 @@
+{
+  "id": 383,
+  "character": "暮",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "く",
+        "romanji": "ku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "暮らす",
+            "furigana": "くらす",
+            "romanji": "kurasu",
+            "meanings": {
+              "id": "hidup, tinggal",
+              "en": "live, reside"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ボ",
+        "romanji": "bo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "お歳暮",
+            "furigana": "おせいぼ",
+            "romanji": "oseibo",
+            "meanings": {
+              "id": "hantaran akhir tahun",
+              "en": "year-end gift"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "hidup, tinggal, hantaran akhir tahun",
+    "en": "live, reside, year-end gift"
+  }
+}

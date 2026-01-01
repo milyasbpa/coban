@@ -1,0 +1,48 @@
+{
+  "id": 364,
+  "character": "腰",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こし",
+        "romanji": "koshi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "腰",
+            "furigana": "こし",
+            "romanji": "koshi",
+            "meanings": {
+              "id": "pinggang",
+              "en": "waist"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "腰痛",
+            "furigana": "ようつう",
+            "romanji": "youtsuu",
+            "meanings": {
+              "id": "sakit pinggang",
+              "en": "back pain"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pinggang, sakit pinggang",
+    "en": "waist, back pain"
+  }
+}

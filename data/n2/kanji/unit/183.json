@@ -1,0 +1,84 @@
+{
+  "id": 183,
+  "character": "修",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おさ",
+        "romanji": "osa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "修まる",
+            "furigana": "おさまる",
+            "romanji": "osamaru",
+            "meanings": {
+              "id": "kelakuan (membaik), memperbaiki diri",
+              "en": "to conduct oneself well, to improve one’s behavior"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュ",
+        "romanji": "shu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "修する",
+            "furigana": "しゅうする",
+            "romanji": "shuu suru",
+            "meanings": {
+              "id": "bertapa",
+              "en": "to train, to discipline"
+            }
+          },
+          {
+            "id": 3,
+            "word": "修理する",
+            "furigana": "しゅうりする",
+            "romanji": "shuuri suru",
+            "meanings": {
+              "id": "mereparasi",
+              "en": "to repair"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "修する",
+            "furigana": "しゅうする",
+            "romanji": "shuu suru",
+            "meanings": {
+              "id": "bertapa",
+              "en": "to train, to discipline"
+            }
+          },
+          {
+            "id": 3,
+            "word": "修理する",
+            "furigana": "しゅうりする",
+            "romanji": "shuuri suru",
+            "meanings": {
+              "id": "mereparasi",
+              "en": "to repair"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "(kelakuan) membaiki, bertapa, mereparasi",
+    "en": "to repair, to improve, to train"
+  }
+}

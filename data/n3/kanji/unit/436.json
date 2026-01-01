@@ -1,0 +1,44 @@
+{
+  "id": 436,
+  "character": "課",
+  "strokes": 15,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "課題",
+            "furigana": "かだい",
+            "romanji": "kadai",
+            "meanings": {
+              "id": "judul",
+              "en": "title"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "相談",
+          "furigana": "そうだん",
+          "romanji": "soudan",
+          "meanings": {
+            "id": "konsultasi",
+            "en": "consultation"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "judul, konsultasi",
+    "en": "title, consultation"
+  }
+}

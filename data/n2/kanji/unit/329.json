@@ -1,0 +1,76 @@
+{
+  "id": 329,
+  "character": "詰",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "詰まる",
+            "furigana": "つまる",
+            "romanji": "tsumaru",
+            "meanings": {
+              "id": "tersumbat, menyusut",
+              "en": "blocked, shrunk"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "づめ",
+        "romanji": "zume",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キツ",
+        "romanji": "kitsu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "詰問",
+            "furigana": "きつもん",
+            "romanji": "kitsumon",
+            "meanings": {
+              "id": "pertanyaan memojokkan",
+              "en": "cornering question"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "缶詰",
+          "furigana": "かんづめ",
+          "romanji": "kanzume",
+          "meanings": {
+            "id": "makanan kalengan",
+            "en": "canned food"
+          }
+        },
+        {
+          "id": 4,
+          "word": "詰責",
+          "furigana": "きっせき",
+          "romanji": "kisseki",
+          "meanings": {
+            "id": "kecaman, celaan",
+            "en": "criticism"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tersumbat, menyusut, makanan kalengan, pertanyaan memojokkan, kecaman, celaan",
+    "en": "blocked, shrunk, canned food, cornering question, criticism"
+  }
+}

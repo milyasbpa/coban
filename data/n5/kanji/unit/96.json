@@ -1,0 +1,64 @@
+{
+  "id": 96,
+  "character": "道",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "みち",
+        "romanji": "michi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "道",
+            "furigana": "みち",
+            "romanji": "michi",
+            "meanings": {
+              "id": "jalan, jalanan",
+              "en": "road"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "道路",
+            "furigana": "どうろ",
+            "romanji": "douro",
+            "meanings": {
+              "id": "jalan, jalanan",
+              "en": "road"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "神道",
+            "furigana": "しんとう",
+            "romanji": "shintou",
+            "meanings": {
+              "id": "kepercayaan Shinto",
+              "en": "Shinto"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jalan",
+    "en": "road, way"
+  }
+}

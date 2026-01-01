@@ -1,0 +1,48 @@
+{
+  "id": 387,
+  "character": "踊",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おど",
+        "romanji": "odo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "踊る",
+            "furigana": "おどる",
+            "romanji": "odoru",
+            "meanings": {
+              "id": "tarian, dansa",
+              "en": "dance"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "民踊",
+            "furigana": "みんよう",
+            "romanji": "minyou",
+            "meanings": {
+              "id": "tarian rakyat",
+              "en": "folk dance"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tarian, dansa, tarian rakyat",
+    "en": "dance, folk dance"
+  }
+}

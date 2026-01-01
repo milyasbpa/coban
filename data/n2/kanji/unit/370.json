@@ -1,0 +1,47 @@
+{
+  "id": 370,
+  "character": "漁",
+  "strokes": 14,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ギョ",
+        "romanji": "gyo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "漁業",
+            "furigana": "ぎょぎょう",
+            "romanji": "gyogyou",
+            "meanings": {
+              "id": "perikanan",
+              "en": "fishing industry"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "リョウ",
+        "romanji": "ryou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "漁師",
+            "furigana": "りょうし",
+            "romanji": "ryoushi",
+            "meanings": {
+              "id": "nelayan",
+              "en": "fisherman"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perikanan, nelayan",
+    "en": "fishing, fisherman"
+  }
+}

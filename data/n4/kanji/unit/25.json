@@ -1,0 +1,74 @@
+{
+  "id": 25,
+  "character": "世",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "世の中",
+            "furigana": "よのなか",
+            "romanji": "yononaka",
+            "meanings": {
+              "id": "dalam dunia",
+              "en": "the world"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セ",
+        "romanji": "se",
+        "examples": [
+          {
+            "id": 2,
+            "word": "世界",
+            "furigana": "せかい",
+            "romanji": "sekai",
+            "meanings": {
+              "id": "dunia",
+              "en": "world"
+            }
+          },
+          {
+            "id": 3,
+            "word": "世紀",
+            "furigana": "せいき",
+            "romanji": "seiki",
+            "meanings": {
+              "id": "abad",
+              "en": "century"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 3,
+            "word": "世紀",
+            "furigana": "せいき",
+            "romanji": "seiki",
+            "meanings": {
+              "id": "abad",
+              "en": "century"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dalam dunia",
+    "en": "world, generation"
+  }
+}

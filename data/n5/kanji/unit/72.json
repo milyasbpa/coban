@@ -1,0 +1,90 @@
+{
+  "id": 72,
+  "character": "言",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "言う",
+            "furigana": "いう",
+            "romanji": "iu",
+            "meanings": {
+              "id": "berkata",
+              "en": "to say"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "こと",
+        "romanji": "koto",
+        "examples": [
+          {
+            "id": 2,
+            "word": "言葉",
+            "furigana": "ことば",
+            "romanji": "kotoba",
+            "meanings": {
+              "id": "kata, bahasa",
+              "en": "word, language"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 4,
+            "word": "言語",
+            "furigana": "げんご",
+            "romanji": "gengo",
+            "meanings": {
+              "id": "bahasa",
+              "en": "language"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゴン",
+        "romanji": "gon",
+        "examples": [
+          {
+            "id": 3,
+            "word": "最言",
+            "furigana": "さいごん",
+            "romanji": "saigon",
+            "meanings": {
+              "id": "igauan, mengigau",
+              "en": "delirium"
+            }
+          },
+          {
+            "id": 5,
+            "word": "伝言",
+            "furigana": "でんごん",
+            "romanji": "dengon",
+            "meanings": {
+              "id": "pesan",
+              "en": "message"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berkata",
+    "en": "say, word"
+  }
+}

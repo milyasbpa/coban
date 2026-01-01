@@ -1,0 +1,44 @@
+{
+  "id": 1,
+  "character": "了",
+  "strokes": 2,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "リョウ",
+        "romanji": "ryou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "完了",
+            "furigana": "かんりょう",
+            "romanji": "kanryou",
+            "meanings": {
+              "id": "penyelesaian",
+              "en": "settlement"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "了解",
+          "furigana": "リョカイ",
+          "romanji": "ryokai",
+          "meanings": {
+            "id": "pengertian",
+            "en": "understanding"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "selesai",
+    "en": "completion"
+  }
+}

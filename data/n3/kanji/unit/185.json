@@ -1,0 +1,47 @@
+{
+  "id": 185,
+  "character": "客",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "キャク",
+        "romanji": "kyaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "客間",
+            "furigana": "きゃくま",
+            "romanji": "kyakuma",
+            "meanings": {
+              "id": "ruang tamu",
+              "en": "guest room"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "客死",
+            "furigana": "かくし",
+            "romanji": "kakushi",
+            "meanings": {
+              "id": "meninggal di luar negeri",
+              "en": "die abroad"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ruang tamu, meninggal di luar negeri",
+    "en": "guest room, die abroad"
+  }
+}

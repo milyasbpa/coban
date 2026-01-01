@@ -1,0 +1,48 @@
+{
+  "id": 56,
+  "character": "励",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はげ",
+        "romanji": "hage",
+        "examples": [
+          {
+            "id": 1,
+            "word": "励む",
+            "furigana": "はげむ",
+            "romanji": "hagemu",
+            "meanings": {
+              "id": "berupaya, berikhtiar",
+              "en": "to strive"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レイ",
+        "romanji": "rei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "激励",
+            "furigana": "げきれい",
+            "romanji": "gekierei",
+            "meanings": {
+              "id": "dorongan",
+              "en": "encouragement"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berupaya, berikhtiar, dorongan",
+    "en": "to strive, encouragement"
+  }
+}

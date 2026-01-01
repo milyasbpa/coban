@@ -1,0 +1,74 @@
+{
+  "id": 46,
+  "character": "光",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひか",
+        "romanji": "hika",
+        "examples": [
+          {
+            "id": 1,
+            "word": "光る",
+            "furigana": "ひかる",
+            "romanji": "hikaru",
+            "meanings": {
+              "id": "bercahaya",
+              "en": "to shine"
+            }
+          },
+          {
+            "id": 2,
+            "word": "光",
+            "furigana": "ひかり",
+            "romanji": "hikari",
+            "meanings": {
+              "id": "cahaya",
+              "en": "light"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ひかり",
+        "romanji": "hikari",
+        "examples": [
+          {
+            "id": 2,
+            "word": "光",
+            "furigana": "ひかり",
+            "romanji": "hikari",
+            "meanings": {
+              "id": "cahaya",
+              "en": "light"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "日光",
+            "furigana": "にっこう",
+            "romanji": "nikkou",
+            "meanings": {
+              "id": "cahaya matahari",
+              "en": "sunlight"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bercahaya, cahaya, cahaya matahari",
+    "en": "shine, light, sunlight"
+  }
+}

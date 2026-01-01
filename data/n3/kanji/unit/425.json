@@ -1,0 +1,41 @@
+{
+  "id": 425,
+  "character": "適",
+  "strokes": 14,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "テキ",
+        "romanji": "teki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "適切",
+            "furigana": "てきせつ",
+            "romanji": "tekisetsu",
+            "meanings": {
+              "id": "tepat, pas, sesuai",
+              "en": "suitable, fit"
+            }
+          },
+          {
+            "id": 2,
+            "word": "最適",
+            "furigana": "さいてき",
+            "romanji": "saiteki",
+            "meanings": {
+              "id": "paling cocok",
+              "en": "best match"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tepat, pas, sesuai, paling cocok",
+    "en": "suitable, fit, best match"
+  }
+}

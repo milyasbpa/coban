@@ -1,0 +1,64 @@
+{
+  "id": 217,
+  "character": "降",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "お",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "降りる",
+            "furigana": "おりる",
+            "romanji": "oriru",
+            "meanings": {
+              "id": "turun",
+              "en": "descend"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ふ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "降る",
+            "furigana": "ふる",
+            "romanji": "furu",
+            "meanings": {
+              "id": "turun, jatuh",
+              "en": "to fall (rain, snow)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "降参",
+            "furigana": "こうさん",
+            "romanji": "kousan",
+            "meanings": {
+              "id": "menyerah",
+              "en": "surrender"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "turun, jatuh, menyerah",
+    "en": "descend, fall, surrender"
+  }
+}

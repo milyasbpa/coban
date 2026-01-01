@@ -1,0 +1,74 @@
+{
+  "id": 280,
+  "character": "畳",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たた",
+        "romanji": "tata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "畳む",
+            "furigana": "たたむ",
+            "romanji": "tatamu",
+            "meanings": {
+              "id": "melipat, mengakhiri",
+              "en": "to fold, to finish"
+            }
+          },
+          {
+            "id": 2,
+            "word": "畳",
+            "furigana": "たたみ",
+            "romanji": "tatami",
+            "meanings": {
+              "id": "alas ruang ala Jepang",
+              "en": "Japanese mat"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "たたみ",
+        "romanji": "tatami",
+        "examples": [
+          {
+            "id": 2,
+            "word": "畳",
+            "furigana": "たたみ",
+            "romanji": "tatami",
+            "meanings": {
+              "id": "alas ruang ala Jepang",
+              "en": "Japanese mat"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "六畳",
+            "furigana": "ろくじょう",
+            "romanji": "rokujou",
+            "meanings": {
+              "id": "ukuran ruangan (6-tatami)",
+              "en": "room size (6-tatami)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melipat, mengakhiri, alas ruang ala Jepang, ukuran ruangan (6-tatami)",
+    "en": "to fold, to finish, Japanese mat, room size (6-tatami)"
+  }
+}

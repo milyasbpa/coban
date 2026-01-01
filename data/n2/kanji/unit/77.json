@@ -1,0 +1,48 @@
+{
+  "id": 77,
+  "character": "別",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わか",
+        "romanji": "waka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "別れる",
+            "furigana": "わかれる",
+            "romanji": "wakareru",
+            "meanings": {
+              "id": "berpisah, bercerai",
+              "en": "to separate, divorce"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ベツ",
+        "romanji": "betsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "特別",
+            "furigana": "とくべつ",
+            "romanji": "tokubetsu",
+            "meanings": {
+              "id": "istimewa, khusus",
+              "en": "special"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berpisah, bercerai, istimewa, khusus",
+    "en": "to separate, special"
+  }
+}

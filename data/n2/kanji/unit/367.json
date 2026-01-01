@@ -1,0 +1,60 @@
+{
+  "id": 367,
+  "character": "罰",
+  "strokes": 14,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "バツ",
+        "romanji": "batsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "重罰",
+            "furigana": "じゅうばつ",
+            "romanji": "juubatsu",
+            "meanings": {
+              "id": "hukuman berat",
+              "en": "severe punishment"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "バチ",
+        "romanji": "bachi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "仏罰",
+            "furigana": "ぶつばち",
+            "romanji": "butsubachi",
+            "meanings": {
+              "id": "hukuman Buddha",
+              "en": "Buddhist penalty"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "罰金",
+          "furigana": "ばっきん",
+          "romanji": "bakkin",
+          "meanings": {
+            "id": "denda",
+            "en": "fine"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "hukuman berat, denda, hukuman Buddha",
+    "en": "punishment, fine, Buddhist penalty"
+  }
+}

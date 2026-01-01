@@ -1,0 +1,48 @@
+{
+  "id": 459,
+  "character": "額",
+  "strokes": 18,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ひたい",
+        "romanji": "hitai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "額",
+            "furigana": "ひたい",
+            "romanji": "hitai",
+            "meanings": {
+              "id": "kening",
+              "en": "forehead"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ガク",
+        "romanji": "gaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "総額",
+            "furigana": "そうがく",
+            "romanji": "sougaku",
+            "meanings": {
+              "id": "jumlah uang",
+              "en": "amount of money"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kening, jumlah uang",
+    "en": "forehead, amount of money"
+  }
+}

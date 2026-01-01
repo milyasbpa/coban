@@ -1,0 +1,48 @@
+{
+  "id": 43,
+  "character": "企",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くわだ",
+        "romanji": "kuwada",
+        "examples": [
+          {
+            "id": 1,
+            "word": "企てる",
+            "furigana": "くわだてる",
+            "romanji": "kuwadateru",
+            "meanings": {
+              "id": "merencanakan",
+              "en": "to plan"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "企画",
+            "furigana": "きかく",
+            "romanji": "kikaku",
+            "meanings": {
+              "id": "rencana",
+              "en": "plan"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "merencanakan, rencana",
+    "en": "to plan, plan"
+  }
+}

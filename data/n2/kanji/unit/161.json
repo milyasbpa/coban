@@ -1,0 +1,48 @@
+{
+  "id": 161,
+  "character": "珍",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "めずら",
+        "romanji": "mezura",
+        "examples": [
+          {
+            "id": 1,
+            "word": "珍しい",
+            "furigana": "めずらしい",
+            "romanji": "mezurashii",
+            "meanings": {
+              "id": "langka",
+              "en": "rare"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チン",
+        "romanji": "chin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "珍味",
+            "furigana": "ちんみ",
+            "romanji": "chinmi",
+            "meanings": {
+              "id": "makanan lezat yg langka",
+              "en": "delicacy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "langka, makanan lezat yg langka",
+    "en": "rare, delicacy"
+  }
+}

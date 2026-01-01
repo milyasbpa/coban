@@ -1,0 +1,53 @@
+{
+  "id": 400,
+  "character": "遠",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とお",
+        "romanji": "too",
+        "examples": [
+          {
+            "id": 1,
+            "word": "遠い",
+            "furigana": "とおい",
+            "romanji": "tooi",
+            "meanings": {
+              "id": "jauh",
+              "en": "far"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エン",
+        "romanji": "en",
+        "examples": [
+          {
+            "id": 2,
+            "word": "永遠",
+            "furigana": "えいえん",
+            "romanji": "eien",
+            "meanings": {
+              "id": "abadi, kekal, selamanya",
+              "en": "eternal, forever"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "オン",
+        "romanji": "on",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jauh, abadi, kekal, selamanya",
+    "en": "far, eternal, forever"
+  }
+}

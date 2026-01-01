@@ -1,0 +1,48 @@
+{
+  "id": 121,
+  "character": "昇",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "のぼ",
+        "romanji": "nobo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "昇る",
+            "furigana": "のぼる",
+            "romanji": "noboru",
+            "meanings": {
+              "id": "menanjak, naik",
+              "en": "to climb, to rise"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "昇進",
+            "furigana": "しょうしん",
+            "romanji": "shoushin",
+            "meanings": {
+              "id": "promosi, naik pangkat",
+              "en": "promotion, advancement"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menanjak, naik",
+    "en": "to climb, to rise"
+  }
+}

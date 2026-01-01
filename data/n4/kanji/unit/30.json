@@ -1,0 +1,48 @@
+{
+  "id": 30,
+  "character": "早",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はや",
+        "romanji": "haya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "早い",
+            "furigana": "はやい",
+            "romanji": "hayai",
+            "meanings": {
+              "id": "pagi-pagi, cepat",
+              "en": "early"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "早朝",
+            "furigana": "そうちょう",
+            "romanji": "souchou",
+            "meanings": {
+              "id": "pagi-pagi sekali",
+              "en": "early morning"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pagi-pagi, cepat",
+    "en": "early, fast"
+  }
+}

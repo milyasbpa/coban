@@ -1,0 +1,48 @@
+{
+  "id": 207,
+  "character": "退",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しりぞ",
+        "romanji": "shirizo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "退く",
+            "furigana": "しりぞく",
+            "romanji": "shirizoku",
+            "meanings": {
+              "id": "mengundurkan diri",
+              "en": "to resign"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "退院",
+            "furigana": "たいいん",
+            "romanji": "taiin",
+            "meanings": {
+              "id": "keluar rumah sakit",
+              "en": "discharge from hospital"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengundurkan diri, keluar rumah sakit",
+    "en": "resign, discharge from hospital"
+  }
+}

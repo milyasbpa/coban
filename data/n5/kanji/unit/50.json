@@ -1,0 +1,91 @@
+{
+  "id": 50,
+  "character": "吸",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 5,
+            "word": "吸う",
+            "furigana": "すう",
+            "romanji": "suu",
+            "meanings": {
+              "id": "menghisap",
+              "en": "to inhale"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 6,
+            "word": "吸収",
+            "furigana": "きゅうしゅう",
+            "romanji": "kyuushuu",
+            "meanings": {
+              "id": "penghisapan, absorbsi",
+              "en": "absorption"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "夕立",
+          "furigana": "ゆうだち",
+          "romanji": "yuudachi",
+          "meanings": {
+            "id": "hujan di musim panas",
+            "en": "evening shower"
+          }
+        },
+        {
+          "id": 2,
+          "word": "独立",
+          "furigana": "どくりつ",
+          "romanji": "dokuritsu",
+          "meanings": {
+            "id": "kemerdekaan",
+            "en": "independence"
+          }
+        },
+        {
+          "id": 3,
+          "word": "立春",
+          "furigana": "りっしゅん",
+          "romanji": "risshun",
+          "meanings": {
+            "id": "awal musim semi",
+            "en": "beginning of spring"
+          }
+        },
+        {
+          "id": 4,
+          "word": "建立",
+          "furigana": "こんりゅう",
+          "romanji": "konryuu",
+          "meanings": {
+            "id": "pendirian (bangunan)",
+            "en": "construction"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menghisap",
+    "en": "inhale, suck"
+  }
+}

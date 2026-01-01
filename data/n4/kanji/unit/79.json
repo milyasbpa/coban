@@ -1,0 +1,60 @@
+{
+  "id": 79,
+  "character": "屋",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "や",
+        "romanji": "ya",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オク",
+        "romanji": "oku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "屋上",
+            "furigana": "おくじょう",
+            "romanji": "okujou",
+            "meanings": {
+              "id": "atap",
+              "en": "rooftop"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "本屋",
+          "furigana": "ほんや",
+          "romanji": "honya",
+          "meanings": {
+            "id": "toko buku",
+            "en": "bookstore"
+          }
+        },
+        {
+          "id": 2,
+          "word": "肉屋",
+          "furigana": "にくや",
+          "romanji": "nikuya",
+          "meanings": {
+            "id": "toko daging",
+            "en": "butcher shop"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "toko buku",
+    "en": "shop, house"
+  }
+}

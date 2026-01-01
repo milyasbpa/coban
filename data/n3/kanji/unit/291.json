@@ -1,0 +1,49 @@
+{
+  "id": 291,
+  "character": "側",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "がわ",
+        "romanji": "gawa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソク",
+        "romanji": "soku",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "西側",
+          "furigana": "にしがわ",
+          "romanji": "nishigawa",
+          "meanings": {
+            "id": "bagian barat",
+            "en": "west side"
+          }
+        },
+        {
+          "id": 2,
+          "word": "右側",
+          "furigana": "みぎがわ",
+          "romanji": "migigawa",
+          "meanings": {
+            "id": "sebelah kanan",
+            "en": "right side"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "bagian barat, sebelah kanan",
+    "en": "west side, right side"
+  }
+}

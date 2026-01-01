@@ -1,0 +1,48 @@
+{
+  "id": 164,
+  "character": "革",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かわ",
+        "romanji": "kawa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "革靴",
+            "furigana": "かわぐつ",
+            "romanji": "kawagutsu",
+            "meanings": {
+              "id": "sepatu kulit",
+              "en": "leather shoes"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カク",
+        "romanji": "kaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "革命",
+            "furigana": "かくめい",
+            "romanji": "kakumei",
+            "meanings": {
+              "id": "revolusi",
+              "en": "revolution"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sepatu kulit, revolusi",
+    "en": "leather, revolution"
+  }
+}

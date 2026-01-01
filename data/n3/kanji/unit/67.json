@@ -1,0 +1,69 @@
+{
+  "id": 67,
+  "character": "汚",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きたな",
+        "romanji": "kitana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "汚い",
+            "furigana": "きたない",
+            "romanji": "kitanai",
+            "meanings": {
+              "id": "kotor",
+              "en": "dirty"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "よご",
+        "romanji": "yogo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "汚す",
+            "furigana": "よごす",
+            "romanji": "yogosu",
+            "meanings": {
+              "id": "mengotori",
+              "en": "to make dirty"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "けが",
+        "romanji": "kega",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オ",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 3,
+            "word": "汚染",
+            "furigana": "おせん",
+            "romanji": "osen",
+            "meanings": {
+              "id": "polusi",
+              "en": "pollution"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kotor",
+    "en": "dirty"
+  }
+}

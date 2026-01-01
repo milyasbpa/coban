@@ -1,0 +1,48 @@
+{
+  "id": 337,
+  "character": "催",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もよお",
+        "romanji": "moyoo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "催す",
+            "furigana": "もよおす",
+            "romanji": "moyoosu",
+            "meanings": {
+              "id": "mengadakan acara",
+              "en": "to hold an event"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "催眠術",
+            "furigana": "さいみんじゅつ",
+            "romanji": "saiminjutsu",
+            "meanings": {
+              "id": "ilmu hipnotis",
+              "en": "hypnosis"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengadakan acara, ilmu hipnotis",
+    "en": "to hold an event, hypnosis"
+  }
+}

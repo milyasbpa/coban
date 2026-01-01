@@ -1,0 +1,44 @@
+{
+  "id": 126,
+  "character": "武",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "武士",
+            "furigana": "ぶし",
+            "romanji": "bushi",
+            "meanings": {
+              "id": "samurai, pendekar",
+              "en": "samurai, warrior"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "武者",
+          "furigana": "むしゃ",
+          "romanji": "musha",
+          "meanings": {
+            "id": "kesatria, pejuang",
+            "en": "knight, fighter"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "samurai, pendekar, kesatria, pejuang",
+    "en": "samurai, warrior"
+  }
+}

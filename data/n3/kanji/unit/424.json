@@ -1,0 +1,53 @@
+{
+  "id": 424,
+  "character": "雑",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "まじ",
+        "romanji": "maji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "雑じる",
+            "furigana": "まじる",
+            "romanji": "majiru",
+            "meanings": {
+              "id": "bercampur",
+              "en": "to mix"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ザツ",
+        "romanji": "zatsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "雑音",
+            "furigana": "ざつおん",
+            "romanji": "zatsuon",
+            "meanings": {
+              "id": "suara bising",
+              "en": "noisy sound"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゾウ",
+        "romanji": "zou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bercampur, suara bising",
+    "en": "mix, noisy sound"
+  }
+}

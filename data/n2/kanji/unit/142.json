@@ -1,0 +1,48 @@
+{
+  "id": 142,
+  "character": "枯",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "枯れる",
+            "furigana": "かれる",
+            "romanji": "kareru",
+            "meanings": {
+              "id": "layu, menguning",
+              "en": "to wither, to turn yellow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "枯死する",
+            "furigana": "こしする",
+            "romanji": "koshisuru",
+            "meanings": {
+              "id": "mati layu",
+              "en": "to die withered"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "layu, menguning, mati layu",
+    "en": "wither, yellow, die withered"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": 6,
+  "character": "十",
+  "strokes": 2,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "とお",
+        "romanji": "too",
+        "examples": [
+          {
+            "id": 1,
+            "word": "十日",
+            "furigana": "とおか",
+            "romanji": "tooka",
+            "meanings": {
+              "id": "tanggal sepuluh",
+              "en": "tenth day"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "十日",
+            "furigana": "とおか",
+            "romanji": "tooka",
+            "meanings": {
+              "id": "tanggal sepuluh",
+              "en": "tenth day"
+            }
+          },
+          {
+            "id": 2,
+            "word": "十色",
+            "furigana": "といろ",
+            "romanji": "toiro",
+            "meanings": {
+              "id": "sepuluh warna",
+              "en": "ten colors"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "juu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "十字路",
+            "furigana": "じゅうじろ",
+            "romanji": "juujiro",
+            "meanings": {
+              "id": "perempatan jalan",
+              "en": "crossroads"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジュッ",
+        "romanji": "jut",
+        "examples": [
+          {
+            "id": 4,
+            "word": "十回",
+            "furigana": "じゅっかい",
+            "romanji": "jukkai",
+            "meanings": {
+              "id": "sepuluh kali",
+              "en": "ten times"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sepuluh",
+    "en": "ten"
+  }
+}

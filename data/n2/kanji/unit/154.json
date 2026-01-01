@@ -1,0 +1,48 @@
+{
+  "id": 154,
+  "character": "津",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "津波",
+            "furigana": "つなみ",
+            "romanji": "tsunami",
+            "meanings": {
+              "id": "tsunami",
+              "en": "tsunami"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "興味津々",
+            "furigana": "きょうみしんしん",
+            "romanji": "kyoumi shinshin",
+            "meanings": {
+              "id": "menarik minat",
+              "en": "very interested"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tsunami, menarik minat",
+    "en": "tsunami, to attract interest"
+  }
+}

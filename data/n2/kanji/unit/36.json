@@ -1,0 +1,48 @@
+{
+  "id": 36,
+  "character": "江",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "え",
+        "romanji": "e",
+        "examples": [
+          {
+            "id": 1,
+            "word": "江戸",
+            "furigana": "えど",
+            "romanji": "edo",
+            "meanings": {
+              "id": "(zaman) Edo",
+              "en": "Edo period"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "江湖",
+            "furigana": "こうこ",
+            "romanji": "kouko",
+            "meanings": {
+              "id": "sungai dan danau",
+              "en": "river and lake"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "(zaman) Edo, sungai dan danau",
+    "en": "Edo period, river, lake"
+  }
+}

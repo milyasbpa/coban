@@ -1,0 +1,48 @@
+{
+  "id": 64,
+  "character": "在",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "在る",
+            "furigana": "ある",
+            "romanji": "aru",
+            "meanings": {
+              "id": "ada",
+              "en": "to exist"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ザイ",
+        "romanji": "zai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "在学",
+            "furigana": "ざいがく",
+            "romanji": "zaigaku",
+            "meanings": {
+              "id": "ada di sekolah",
+              "en": "attending school"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "ada",
+    "en": "exist"
+  }
+}

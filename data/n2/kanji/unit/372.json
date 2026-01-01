@@ -1,0 +1,63 @@
+{
+  "id": 372,
+  "character": "境",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さかい",
+        "romanji": "sakai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "境",
+            "furigana": "さかい",
+            "romanji": "sakai",
+            "meanings": {
+              "id": "batas, perbatasan",
+              "en": "boundary, border, frontier, region"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "境界",
+            "furigana": "きょうかい",
+            "romanji": "kyoukai",
+            "meanings": {
+              "id": "batas, perbatasan",
+              "en": "border, boundary"
+            }
+          },
+          {
+            "id": 3,
+            "word": "寺境",
+            "furigana": "じきょう",
+            "romanji": "jikyou",
+            "meanings": {
+              "id": "dalam lingkungan rumah ibadah",
+              "en": "temple precinct"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "batas, perbatasan, dalam lingkungan rumah ibadah",
+    "en": "border, boundary, temple precinct"
+  }
+}

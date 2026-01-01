@@ -1,0 +1,48 @@
+{
+  "id": 85,
+  "character": "困",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こま",
+        "romanji": "koma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "困る",
+            "furigana": "こまる",
+            "romanji": "komaru",
+            "meanings": {
+              "id": "susah, repot",
+              "en": "to be troubled"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コン",
+        "romanji": "kon",
+        "examples": [
+          {
+            "id": 2,
+            "word": "貧困",
+            "furigana": "ひんこん",
+            "romanji": "hinkon",
+            "meanings": {
+              "id": "miskin dan susah",
+              "en": "poverty"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "susah, repot",
+    "en": "trouble"
+  }
+}

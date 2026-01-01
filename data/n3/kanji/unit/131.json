@@ -1,0 +1,64 @@
+{
+  "id": 131,
+  "character": "彼",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かれ",
+        "romanji": "kare",
+        "examples": [
+          {
+            "id": 1,
+            "word": "彼",
+            "furigana": "かれ",
+            "romanji": "kare",
+            "meanings": {
+              "id": "dia (laki-laki)",
+              "en": "he"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "かの",
+        "romanji": "kano",
+        "examples": [
+          {
+            "id": 2,
+            "word": "彼女",
+            "furigana": "かのじょ",
+            "romanji": "kanojo",
+            "meanings": {
+              "id": "dia (perempuan)",
+              "en": "she"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヒ",
+        "romanji": "hi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "彼岸",
+            "furigana": "ひがん",
+            "romanji": "higan",
+            "meanings": {
+              "id": "minggu ekuinok",
+              "en": "equinox week"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dia (laki-laki), dia (perempuan), minggu ekuinok",
+    "en": "he, she, equinox week"
+  }
+}

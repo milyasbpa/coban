@@ -1,0 +1,48 @@
+{
+  "id": 177,
+  "character": "専",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もっぱ",
+        "romanji": "moppa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "専ら",
+            "furigana": "もっぱら",
+            "romanji": "moppara",
+            "meanings": {
+              "id": "khusus, spesial",
+              "en": "special"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セン",
+        "romanji": "sen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "専門",
+            "furigana": "せんもん",
+            "romanji": "senmon",
+            "meanings": {
+              "id": "spesialisasi, ahli",
+              "en": "specialization, expert"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "khusus, spesial, spesialisasi, ahli",
+    "en": "special, specialization, expert"
+  }
+}

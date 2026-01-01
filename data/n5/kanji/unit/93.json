@@ -1,0 +1,48 @@
+{
+  "id": 93,
+  "character": "朝",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あさ",
+        "romanji": "asa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "朝",
+            "furigana": "あさ",
+            "romanji": "asa",
+            "meanings": {
+              "id": "pagi",
+              "en": "morning"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チョウ",
+        "romanji": "chou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "朝食",
+            "furigana": "ちょうしょく",
+            "romanji": "choushoku",
+            "meanings": {
+              "id": "sarapan pagi",
+              "en": "breakfast"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pagi",
+    "en": "morning"
+  }
+}

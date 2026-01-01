@@ -1,0 +1,47 @@
+{
+  "id": 73,
+  "character": "児",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "児童",
+            "furigana": "じどう",
+            "romanji": "jidou",
+            "meanings": {
+              "id": "kanak-kanak",
+              "en": "child"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ニ",
+        "romanji": "ni",
+        "examples": [
+          {
+            "id": 2,
+            "word": "小児科",
+            "furigana": "しょうにか",
+            "romanji": "shounika",
+            "meanings": {
+              "id": "ilmu kedokteran",
+              "en": "pediatrics"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kanak-kanak, ilmu kedokteran",
+    "en": "child, pediatrics"
+  }
+}

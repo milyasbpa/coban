@@ -1,0 +1,55 @@
+{
+  "id": 10,
+  "character": "方",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": []
+      },
+      {
+        "furigana": "がた",
+        "romanji": "gata",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "方法",
+            "furigana": "ほうほう",
+            "romanji": "houhou",
+            "meanings": {
+              "id": "cara",
+              "en": "method"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "書き方",
+          "furigana": "かきかた",
+          "romanji": "kakikata",
+          "meanings": {
+            "id": "cara tulis",
+            "en": "way to write"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "cara tulis",
+    "en": "direction, way"
+  }
+}

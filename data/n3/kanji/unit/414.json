@@ -1,0 +1,48 @@
+{
+  "id": 414,
+  "character": "鳴",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "な",
+        "romanji": "na",
+        "examples": [
+          {
+            "id": 1,
+            "word": "鳴く",
+            "furigana": "なく",
+            "romanji": "naku",
+            "meanings": {
+              "id": "(binatang) berbunyi",
+              "en": "animal sound"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "メイ",
+        "romanji": "mei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "雷鳴",
+            "furigana": "らいめい",
+            "romanji": "raimei",
+            "meanings": {
+              "id": "guntur, geledek",
+              "en": "thunder, lightning"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "(binatang) berbunyi, guntur, geledek",
+    "en": "animal sound, thunder, lightning"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 74,
+  "character": "即",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ソク",
+        "romanji": "soku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "即席",
+            "furigana": "そくせき",
+            "romanji": "sokuseki",
+            "meanings": {
+              "id": "instan",
+              "en": "instant"
+            }
+          },
+          {
+            "id": 2,
+            "word": "即席",
+            "furigana": "そくせき",
+            "romanji": "sokuseki",
+            "meanings": {
+              "id": "tanpa persiapan",
+              "en": "without preparation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "instan, tanpa persiapan",
+    "en": "instant, without preparation"
+  }
+}

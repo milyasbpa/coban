@@ -1,0 +1,48 @@
+{
+  "id": 270,
+  "character": "握",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "にぎ",
+        "romanji": "nigi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "握る",
+            "furigana": "にぎる",
+            "romanji": "nigiru",
+            "meanings": {
+              "id": "menggenggam kuat",
+              "en": "to grip tightly"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "アク",
+        "romanji": "aku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "握手",
+            "furigana": "あくしゅ",
+            "romanji": "akushu",
+            "meanings": {
+              "id": "jabatan tangan",
+              "en": "handshake"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menggenggam kuat, jabatan tangan",
+    "en": "to grip tightly, handshake"
+  }
+}

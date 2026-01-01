@@ -1,0 +1,82 @@
+{
+  "id": 35,
+  "character": "合",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "合う",
+            "furigana": "あう",
+            "romanji": "au",
+            "meanings": {
+              "id": "cocok",
+              "en": "to match"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "あわ",
+        "romanji": "awa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴウ",
+        "romanji": "gou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "合計",
+            "furigana": "ごうけい",
+            "romanji": "goukei",
+            "meanings": {
+              "id": "total, jumlah",
+              "en": "total"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ガッ",
+        "romanji": "gatsu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "合併",
+            "furigana": "がっぺい",
+            "romanji": "gappei",
+            "meanings": {
+              "id": "gabungan, asosiasi",
+              "en": "merger"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "試合",
+          "furigana": "しあい",
+          "romanji": "shiai",
+          "meanings": {
+            "id": "pertandingan",
+            "en": "match, game"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "cocok",
+    "en": "match, fit"
+  }
+}

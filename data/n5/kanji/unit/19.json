@@ -1,0 +1,64 @@
+{
+  "id": 19,
+  "character": "大",
+  "strokes": 3,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おお",
+        "romanji": "oo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "大きい",
+            "furigana": "おおきい",
+            "romanji": "ookii",
+            "meanings": {
+              "id": "besar",
+              "en": "big"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ダイ",
+        "romanji": "dai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "大学",
+            "furigana": "だいがく",
+            "romanji": "daigaku",
+            "meanings": {
+              "id": "universitas, perguruan tinggi",
+              "en": "university"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "大量",
+            "furigana": "たいりょう",
+            "romanji": "tairyou",
+            "meanings": {
+              "id": "jumlah besar",
+              "en": "large quantity"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "besar",
+    "en": "big, large"
+  }
+}

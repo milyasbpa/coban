@@ -1,0 +1,48 @@
+{
+  "id": 193,
+  "character": "捜",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さが",
+        "romanji": "saga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "捜す",
+            "furigana": "さがす",
+            "romanji": "sagasu",
+            "meanings": {
+              "id": "mencari, melacak",
+              "en": "to search, to track"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "捜査",
+            "furigana": "そうさ",
+            "romanji": "sousa",
+            "meanings": {
+              "id": "pencarian, pelacakan",
+              "en": "search, investigation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mencari, melacak, pencarian, pelacakan",
+    "en": "to search, to track, search, tracking"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": 74,
+  "character": "列",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つら",
+        "romanji": "tsura",
+        "examples": [
+          {
+            "id": 1,
+            "word": "列れる",
+            "furigana": "つられる",
+            "romanji": "tsurareru",
+            "meanings": {
+              "id": "melebar",
+              "en": "to spread"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レツ",
+        "romanji": "retsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "系列",
+            "furigana": "けいれつ",
+            "romanji": "keiretsu",
+            "meanings": {
+              "id": "serial",
+              "en": "series"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "レッ",
+        "romanji": "re",
+        "examples": [
+          {
+            "id": 2,
+            "word": "系列",
+            "furigana": "けいれつ",
+            "romanji": "keiretsu",
+            "meanings": {
+              "id": "serial",
+              "en": "series"
+            }
+          },
+          {
+            "id": 3,
+            "word": "列車",
+            "furigana": "れっしゃ",
+            "romanji": "ressha",
+            "meanings": {
+              "id": "kereta",
+              "en": "train"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melebarkan",
+    "en": "row, line"
+  }
+}

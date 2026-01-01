@@ -1,0 +1,48 @@
+{
+  "id": 263,
+  "character": "患",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わずら",
+        "romanji": "wazura",
+        "examples": [
+          {
+            "id": 1,
+            "word": "患う",
+            "furigana": "わずらう",
+            "romanji": "wazurau",
+            "meanings": {
+              "id": "menderita penyakit",
+              "en": "to suffer illness"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "患者",
+            "furigana": "かんじゃ",
+            "romanji": "kanja",
+            "meanings": {
+              "id": "pasien, penderita",
+              "en": "patient"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menderita penyakit, pasien, penderita",
+    "en": "to suffer illness, patient"
+  }
+}

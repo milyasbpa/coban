@@ -1,0 +1,63 @@
+{
+  "id": 146,
+  "character": "星",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ほし",
+        "romanji": "hoshi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "星明",
+            "furigana": "せいめい",
+            "romanji": "seimei",
+            "meanings": {
+              "id": "sinar bintang",
+              "en": "starlight"
+            }
+          },
+          {
+            "id": 2,
+            "word": "星座",
+            "furigana": "せいざ",
+            "romanji": "seiza",
+            "meanings": {
+              "id": "bintang (zodiak)",
+              "en": "constellation, zodiac"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "明星",
+            "furigana": "みょうじょう",
+            "romanji": "myoujou",
+            "meanings": {
+              "id": "bintang venus",
+              "en": "Venus (star)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sinar bintang, bintang (zodiak), bintang venus",
+    "en": "star, zodiac, Venus"
+  }
+}

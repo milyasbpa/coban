@@ -1,0 +1,64 @@
+{
+  "id": 73,
+  "character": "成",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "な",
+        "romanji": "na",
+        "examples": [
+          {
+            "id": 1,
+            "word": "成る",
+            "furigana": "なる",
+            "romanji": "naru",
+            "meanings": {
+              "id": "menjadi",
+              "en": "to become"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "成立",
+            "furigana": "せいりつ",
+            "romanji": "seiritsu",
+            "meanings": {
+              "id": "realisasi",
+              "en": "realization"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "成就",
+            "furigana": "じょうじゅ",
+            "romanji": "jouju",
+            "meanings": {
+              "id": "pemenuhan",
+              "en": "fulfillment"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menjadi",
+    "en": "become"
+  }
+}

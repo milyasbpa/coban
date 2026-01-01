@@ -1,0 +1,47 @@
+{
+  "id": 66,
+  "character": "画",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ガ",
+        "romanji": "ga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "映画",
+            "furigana": "えいが",
+            "romanji": "eiga",
+            "meanings": {
+              "id": "film",
+              "en": "movie"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "カク",
+        "romanji": "kaku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "画数",
+            "furigana": "かくすう",
+            "romanji": "kakusuu",
+            "meanings": {
+              "id": "jumlah struk",
+              "en": "stroke count"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "film",
+    "en": "picture, stroke"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": 111,
+  "character": "動",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うご",
+        "romanji": "ugo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "動く",
+            "furigana": "うごく",
+            "romanji": "ugoku",
+            "meanings": {
+              "id": "bergerak",
+              "en": "to move"
+            }
+          },
+          {
+            "id": 2,
+            "word": "動き",
+            "furigana": "うごき",
+            "romanji": "ugoki",
+            "meanings": {
+              "id": "gerakan",
+              "en": "movement"
+            }
+          },
+          {
+            "id": 3,
+            "word": "動かす",
+            "furigana": "うごかす",
+            "romanji": "ugokasu",
+            "meanings": {
+              "id": "menggerakkan",
+              "en": "to move something"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "動物",
+            "furigana": "どうぶつ",
+            "romanji": "doubutsu",
+            "meanings": {
+              "id": "binatang",
+              "en": "animal"
+            }
+          },
+          {
+            "id": 5,
+            "word": "運動",
+            "furigana": "うんどう",
+            "romanji": "undou",
+            "meanings": {
+              "id": "olahraga",
+              "en": "exercise"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bergerak",
+    "en": "move, motion"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 51,
+  "character": "糸",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いと",
+        "romanji": "ito",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "絹糸",
+            "furigana": "けんし",
+            "romanji": "kenshi",
+            "meanings": {
+              "id": "benang sutera",
+              "en": "silk thread"
+            }
+          },
+          {
+            "id": 2,
+            "word": "製糸業",
+            "furigana": "せいしぎょう",
+            "romanji": "seishigyou",
+            "meanings": {
+              "id": "produksi benang sutera",
+              "en": "silk production"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "benang sutera, produksi benang sutera",
+    "en": "silk thread, silk production"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 189,
+  "character": "畜",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "チク",
+        "romanji": "chiku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "畜産業",
+            "furigana": "ちくさんぎょう",
+            "romanji": "chikusangyou",
+            "meanings": {
+              "id": "peternakan",
+              "en": "animal husbandry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "peternakan",
+    "en": "livestock, animal husbandry"
+  }
+}

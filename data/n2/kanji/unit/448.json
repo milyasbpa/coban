@@ -1,0 +1,31 @@
+{
+  "id": 448,
+  "character": "護",
+  "strokes": 20,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 1,
+            "word": "看護師",
+            "furigana": "かんごし",
+            "romanji": "kangoshi",
+            "meanings": {
+              "id": "perawat",
+              "en": "nurse"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perawat",
+    "en": "nurse"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 241,
+  "character": "差",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "差す",
+            "furigana": "さす",
+            "romanji": "sasu",
+            "meanings": {
+              "id": "menggunakan",
+              "en": "to use"
+            }
+          },
+          {
+            "id": 2,
+            "word": "差別",
+            "furigana": "さべつ",
+            "romanji": "sabetsu",
+            "meanings": {
+              "id": "diskriminasi",
+              "en": "discrimination"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サ",
+        "romanji": "sa",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menggunakan, diskriminasi",
+    "en": "use, discrimination"
+  }
+}

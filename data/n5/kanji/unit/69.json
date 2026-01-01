@@ -1,0 +1,48 @@
+{
+  "id": 69,
+  "character": "近",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ちか",
+        "romanji": "chika",
+        "examples": [
+          {
+            "id": 1,
+            "word": "近い",
+            "furigana": "ちかい",
+            "romanji": "chikai",
+            "meanings": {
+              "id": "dekat",
+              "en": "near"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キン",
+        "romanji": "kin",
+        "examples": [
+          {
+            "id": 2,
+            "word": "近所",
+            "furigana": "きんじょ",
+            "romanji": "kinjo",
+            "meanings": {
+              "id": "sekitar, bertetanggaan",
+              "en": "neighborhood"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dekat",
+    "en": "near"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 396,
+  "character": "感",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 1,
+            "word": "感謝",
+            "furigana": "かんしゃ",
+            "romanji": "kansha",
+            "meanings": {
+              "id": "terima kasih",
+              "en": "gratitude"
+            }
+          },
+          {
+            "id": 2,
+            "word": "感情",
+            "furigana": "かんじょう",
+            "romanji": "kanjou",
+            "meanings": {
+              "id": "perasaan, emosi",
+              "en": "feeling, emotion"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perasaan, emosi",
+    "en": "feeling, emotion"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 345,
+  "character": "御",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おん",
+        "romanji": "on",
+        "examples": [
+          {
+            "id": 1,
+            "word": "御中",
+            "furigana": "おんちゅう",
+            "romanji": "onchuu",
+            "meanings": {
+              "id": "bapak/ibu yang terhormat",
+              "en": "dear sir/madam"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴ",
+        "romanji": "go",
+        "examples": [
+          {
+            "id": 2,
+            "word": "御飯",
+            "furigana": "ごはん",
+            "romanji": "gohan",
+            "meanings": {
+              "id": "nasi, makan pagi/siang",
+              "en": "rice, breakfast/lunch"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ギョ",
+        "romanji": "gyo",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bapak ibu yang terhormat, nasi, makan pagi/siang",
+    "en": "honorable parents, rice, breakfast/lunch"
+  }
+}

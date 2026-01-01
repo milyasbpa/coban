@@ -1,0 +1,48 @@
+{
+  "id": 326,
+  "character": "減",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "へ",
+        "romanji": "he",
+        "examples": [
+          {
+            "id": 1,
+            "word": "減る",
+            "furigana": "へる",
+            "romanji": "heru",
+            "meanings": {
+              "id": "berkurang, menyusut",
+              "en": "to decrease"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゲン",
+        "romanji": "gen",
+        "examples": [
+          {
+            "id": 2,
+            "word": "減少",
+            "furigana": "げんしょう",
+            "romanji": "genshou",
+            "meanings": {
+              "id": "pengurangan, penurunan",
+              "en": "reduction"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berkurang, menyusut, pengurangan, penurunan",
+    "en": "decrease, reduction"
+  }
+}

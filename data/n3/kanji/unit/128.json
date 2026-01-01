@@ -1,0 +1,48 @@
+{
+  "id": 128,
+  "character": "突",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "突く",
+            "furigana": "つく",
+            "romanji": "tsuku",
+            "meanings": {
+              "id": "menyodok",
+              "en": "to poke"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トツ",
+        "romanji": "totsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "突然",
+            "furigana": "とつぜん",
+            "romanji": "totsuzen",
+            "meanings": {
+              "id": "tiba-tiba",
+              "en": "suddenly"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menyodok, tiba-tiba",
+    "en": "poke, suddenly"
+  }
+}

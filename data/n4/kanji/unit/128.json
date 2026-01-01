@@ -1,0 +1,68 @@
+{
+  "id": 128,
+  "character": "運",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はこ",
+        "romanji": "hako",
+        "examples": [
+          {
+            "id": 1,
+            "word": "運ぶ",
+            "furigana": "はこぶ",
+            "romanji": "hakobu",
+            "meanings": {
+              "id": "mengangkut",
+              "en": "to carry"
+            }
+          },
+          {
+            "id": 2,
+            "word": "運び",
+            "furigana": "はこび",
+            "romanji": "hakobi",
+            "meanings": {
+              "id": "angkutan, transportasi",
+              "en": "transport"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ウン",
+        "romanji": "un",
+        "examples": [
+          {
+            "id": 3,
+            "word": "運",
+            "furigana": "うん",
+            "romanji": "un",
+            "meanings": {
+              "id": "nasib",
+              "en": "luck"
+            }
+          },
+          {
+            "id": 4,
+            "word": "運転",
+            "furigana": "うんてん",
+            "romanji": "unten",
+            "meanings": {
+              "id": "kemudi",
+              "en": "driving"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengangkut",
+    "en": "carry, transport"
+  }
+}

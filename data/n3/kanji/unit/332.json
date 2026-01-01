@@ -1,0 +1,69 @@
+{
+  "id": 332,
+  "character": "割",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わり",
+        "romanji": "wari",
+        "examples": [
+          {
+            "id": 1,
+            "word": "割引",
+            "furigana": "わりびき",
+            "romanji": "waribiki",
+            "meanings": {
+              "id": "potongan harga",
+              "en": "discount"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さ",
+        "romanji": "sa",
+        "examples": []
+      },
+      {
+        "furigana": "わ",
+        "romanji": "wa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "割引",
+            "furigana": "わりびき",
+            "romanji": "waribiki",
+            "meanings": {
+              "id": "potongan harga",
+              "en": "discount"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カツ",
+        "romanji": "katsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "分割",
+            "furigana": "ぶんかつ",
+            "romanji": "bunkatsu",
+            "meanings": {
+              "id": "cicilan, angsuran",
+              "en": "installment"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "potongan harga, cicilan, angsuran",
+    "en": "discount, installment"
+  }
+}

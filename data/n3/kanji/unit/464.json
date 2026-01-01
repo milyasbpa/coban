@@ -1,0 +1,41 @@
+{
+  "id": 464,
+  "character": "議",
+  "strokes": 20,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ギ",
+        "romanji": "gi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "議員",
+            "furigana": "ぎいん",
+            "romanji": "giin",
+            "meanings": {
+              "id": "anggota majelis",
+              "en": "assembly member"
+            }
+          },
+          {
+            "id": 2,
+            "word": "会議",
+            "furigana": "かいぎ",
+            "romanji": "kaigi",
+            "meanings": {
+              "id": "rapat, pertemuan",
+              "en": "meeting"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "anggota majelis, rapat, pertemuan",
+    "en": "assembly member, meeting"
+  }
+}

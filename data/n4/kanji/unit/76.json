@@ -1,0 +1,58 @@
+{
+  "id": 76,
+  "character": "急",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いそ",
+        "romanji": "iso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "急ぐ",
+            "furigana": "いそぐ",
+            "romanji": "isogu",
+            "meanings": {
+              "id": "terburu-buru",
+              "en": "to hurry"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キュウ",
+        "romanji": "kyuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "急用",
+            "furigana": "きゅうよう",
+            "romanji": "kyuuyou",
+            "meanings": {
+              "id": "keperluan mendadak",
+              "en": "urgent business"
+            }
+          },
+          {
+            "id": 3,
+            "word": "特急",
+            "furigana": "とっきゅう",
+            "romanji": "tokkyuu",
+            "meanings": {
+              "id": "pelafalan",
+              "en": "express train"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "terburu-buru",
+    "en": "hurry, sudden"
+  }
+}

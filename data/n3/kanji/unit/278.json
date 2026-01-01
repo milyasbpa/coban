@@ -1,0 +1,47 @@
+{
+  "id": 278,
+  "character": "商",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あきな",
+        "romanji": "akina",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "商業",
+            "furigana": "しょうぎょう",
+            "romanji": "shougyou",
+            "meanings": {
+              "id": "berdagang, menjual",
+              "en": "trade"
+            }
+          },
+          {
+            "id": 2,
+            "word": "商社",
+            "furigana": "しょうしゃ",
+            "romanji": "shousha",
+            "meanings": {
+              "id": "perusahaan dagang",
+              "en": "trading company"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berdagang, perusahaan dagang",
+    "en": "trade, trading company"
+  }
+}

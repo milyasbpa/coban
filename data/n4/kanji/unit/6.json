@@ -1,0 +1,36 @@
+{
+  "id": 6,
+  "character": "文",
+  "strokes": 4,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ブン",
+        "romanji": "bun",
+        "examples": [
+          {
+            "id": 1,
+            "word": "文化",
+            "furigana": "ぶんか",
+            "romanji": "bunka",
+            "meanings": {
+              "id": "kebudayaan",
+              "en": "culture"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "モン",
+        "romanji": "mon",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kebudayaan",
+    "en": "sentence, literature"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 106,
+  "character": "料",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "リョウ",
+        "romanji": "ryou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "料理",
+            "furigana": "りょうり",
+            "romanji": "ryouri",
+            "meanings": {
+              "id": "masakan",
+              "en": "cooking"
+            }
+          },
+          {
+            "id": 2,
+            "word": "材料",
+            "furigana": "ざいりょう",
+            "romanji": "zairyou",
+            "meanings": {
+              "id": "upah, gaji",
+              "en": "materials"
+            }
+          },
+          {
+            "id": 3,
+            "word": "給料",
+            "furigana": "きゅうりょう",
+            "romanji": "kyuuryou",
+            "meanings": {
+              "id": "bahan",
+              "en": "salary"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "masakan",
+    "en": "cooking, fee"
+  }
+}

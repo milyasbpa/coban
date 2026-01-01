@@ -1,0 +1,64 @@
+{
+  "id": 413,
+  "character": "静",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "しず",
+        "romanji": "shizu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "静か",
+            "furigana": "しずか",
+            "romanji": "shizuka",
+            "meanings": {
+              "id": "tenang, sunyi",
+              "en": "quiet, calm"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "静止",
+            "furigana": "せいし",
+            "romanji": "seishi",
+            "meanings": {
+              "id": "tidak bergerak",
+              "en": "still"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ジョウ",
+        "romanji": "jou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "静脈",
+            "furigana": "じょうみゃく",
+            "romanji": "joumyaku",
+            "meanings": {
+              "id": "pembuluh darah",
+              "en": "blood vessel"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tenang, sunyi, tidak bergerak, pembuluh darah",
+    "en": "quiet, calm, still, blood vessel"
+  }
+}

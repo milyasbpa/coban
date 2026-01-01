@@ -1,0 +1,64 @@
+{
+  "id": 372,
+  "character": "越",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "越す",
+            "furigana": "こす",
+            "romanji": "kosu",
+            "meanings": {
+              "id": "melewati (tempat, waktu)",
+              "en": "to pass (place, time)"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "エツ",
+        "romanji": "etsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "超越",
+            "furigana": "ちょうえつ",
+            "romanji": "chouetsu",
+            "meanings": {
+              "id": "kelebihan",
+              "en": "excess"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "エッ",
+        "romanji": "et",
+        "examples": [
+          {
+            "id": 2,
+            "word": "超越",
+            "furigana": "ちょうえつ",
+            "romanji": "chouetsu",
+            "meanings": {
+              "id": "kelebihan",
+              "en": "excess"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melewati (tempat, waktu), kelebihan",
+    "en": "pass (place, time), excess"
+  }
+}

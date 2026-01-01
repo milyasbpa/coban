@@ -1,0 +1,65 @@
+{
+  "id": 144,
+  "character": "法",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "法律",
+            "furigana": "ほうりつ",
+            "romanji": "houritsu",
+            "meanings": {
+              "id": "peraturan",
+              "en": "law"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ハツ",
+        "romanji": "hatsu",
+        "examples": []
+      },
+      {
+        "furigana": "ホッ",
+        "romanji": "ho",
+        "examples": [
+          {
+            "id": 1,
+            "word": "法律",
+            "furigana": "ほうりつ",
+            "romanji": "houritsu",
+            "meanings": {
+              "id": "peraturan",
+              "en": "law"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "法度",
+          "furigana": "はっと",
+          "romanji": "hatto",
+          "meanings": {
+            "id": "larangan",
+            "en": "prohibition"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "peraturan, larangan",
+    "en": "law, prohibition"
+  }
+}

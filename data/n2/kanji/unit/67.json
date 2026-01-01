@@ -1,0 +1,48 @@
+{
+  "id": 67,
+  "character": "村",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "むら",
+        "romanji": "mura",
+        "examples": [
+          {
+            "id": 1,
+            "word": "村",
+            "furigana": "むら",
+            "romanji": "mura",
+            "meanings": {
+              "id": "kampung, desa",
+              "en": "village"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソン",
+        "romanji": "son",
+        "examples": [
+          {
+            "id": 2,
+            "word": "農村",
+            "furigana": "のうそん",
+            "romanji": "nouson",
+            "meanings": {
+              "id": "desa pertanian",
+              "en": "farming village"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kampung, desa, desa pertanian",
+    "en": "village, farming village"
+  }
+}

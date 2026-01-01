@@ -1,0 +1,48 @@
+{
+  "id": 117,
+  "character": "委",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆだ",
+        "romanji": "yuda",
+        "examples": [
+          {
+            "id": 1,
+            "word": "委ねる",
+            "furigana": "ゆだねる",
+            "romanji": "yudaneru",
+            "meanings": {
+              "id": "mempercayakan",
+              "en": "to entrust"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 2,
+            "word": "委託",
+            "furigana": "いたく",
+            "romanji": "itaku",
+            "meanings": {
+              "id": "konsinyasi, pendelegasian",
+              "en": "consignment, delegation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mempercayakan, konsinyasi, pendelegasian",
+    "en": "to entrust, consignment, delegation"
+  }
+}

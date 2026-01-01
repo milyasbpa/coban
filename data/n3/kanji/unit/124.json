@@ -1,0 +1,69 @@
+{
+  "id": 124,
+  "character": "抱",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いだ",
+        "romanji": "ida",
+        "examples": []
+      },
+      {
+        "furigana": "かか",
+        "romanji": "kaka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "抱える",
+            "furigana": "かかえる",
+            "romanji": "kakaeru",
+            "meanings": {
+              "id": "memeluk",
+              "en": "to hold"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "だ",
+        "romanji": "da",
+        "examples": [
+          {
+            "id": 1,
+            "word": "抱く",
+            "furigana": "だく",
+            "romanji": "daku",
+            "meanings": {
+              "id": "memeluk",
+              "en": "to embrace"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホウ",
+        "romanji": "hou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "抱負",
+            "furigana": "ほうふ",
+            "romanji": "houfu",
+            "meanings": {
+              "id": "aspirasi",
+              "en": "aspiration"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memeluk, aspirasi",
+    "en": "embrace, aspiration"
+  }
+}

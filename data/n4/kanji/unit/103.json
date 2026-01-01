@@ -1,0 +1,89 @@
+{
+  "id": 103,
+  "character": "真",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "真夜中",
+            "furigana": "まよなか",
+            "romanji": "mayonaka",
+            "meanings": {
+              "id": "tengah malam",
+              "en": "midnight"
+            }
+          },
+          {
+            "id": 2,
+            "word": "真暗",
+            "furigana": "まっくら",
+            "romanji": "makkura",
+            "meanings": {
+              "id": "gelap gulita",
+              "en": "pitch dark"
+            }
+          },
+          {
+            "id": 3,
+            "word": "真中",
+            "furigana": "まんなか",
+            "romanji": "mannaka",
+            "meanings": {
+              "id": "tengah-tengah",
+              "en": "center"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "まつ",
+        "romanji": "matsu",
+        "examples": []
+      },
+      {
+        "furigana": "まん",
+        "romanji": "man",
+        "examples": [
+          {
+            "id": 3,
+            "word": "真中",
+            "furigana": "まんなか",
+            "romanji": "mannaka",
+            "meanings": {
+              "id": "tengah-tengah",
+              "en": "center"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シン",
+        "romanji": "shin",
+        "examples": [
+          {
+            "id": 4,
+            "word": "真実",
+            "furigana": "しんじつ",
+            "romanji": "shinjitsu",
+            "meanings": {
+              "id": "kesungguhan",
+              "en": "truth"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tengah malam",
+    "en": "true, real"
+  }
+}

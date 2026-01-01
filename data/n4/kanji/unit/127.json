@@ -1,0 +1,60 @@
+{
+  "id": 127,
+  "character": "飯",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "めし",
+        "romanji": "meshi",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 2,
+            "word": "ご飯",
+            "furigana": "ごはん",
+            "romanji": "gohan",
+            "meanings": {
+              "id": "nasi",
+              "en": "rice"
+            }
+          },
+          {
+            "id": 3,
+            "word": "夕飯",
+            "furigana": "ゆうはん",
+            "romanji": "yuuhan",
+            "meanings": {
+              "id": "makan malam",
+              "en": "dinner"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "焼き飯",
+          "furigana": "やきめし",
+          "romanji": "yakimeshi",
+          "meanings": {
+            "id": "nasi goreng",
+            "en": "fried rice"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "nasi goreng",
+    "en": "rice, meal"
+  }
+}

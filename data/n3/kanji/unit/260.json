@@ -1,0 +1,36 @@
+{
+  "id": 260,
+  "character": "格",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "カク",
+        "romanji": "kaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "格差",
+            "furigana": "かくさ",
+            "romanji": "kakusa",
+            "meanings": {
+              "id": "perbedaan",
+              "en": "difference"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "perbedaan",
+    "en": "difference"
+  }
+}

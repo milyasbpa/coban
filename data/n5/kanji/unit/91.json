@@ -1,0 +1,71 @@
+{
+  "id": 91,
+  "character": "紙",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かみ",
+        "romanji": "kami",
+        "examples": [
+          {
+            "id": 2,
+            "word": "紙",
+            "furigana": "かみ",
+            "romanji": "kami",
+            "meanings": {
+              "id": "kertas",
+              "en": "paper"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夏至",
+            "furigana": "げし",
+            "romanji": "geshi",
+            "meanings": {
+              "id": "hari saat terang terlama pada musim panas",
+              "en": "summer solstice"
+            }
+          },
+          {
+            "id": 4,
+            "word": "紙幣",
+            "furigana": "しへい",
+            "romanji": "shihei",
+            "meanings": {
+              "id": "uang kertas",
+              "en": "paper money"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "手紙",
+          "furigana": "てがみ",
+          "romanji": "tegami",
+          "meanings": {
+            "id": "surat",
+            "en": "letter"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kertas",
+    "en": "paper"
+  }
+}

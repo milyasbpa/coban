@@ -1,0 +1,48 @@
+{
+  "id": 2,
+  "character": "二",
+  "strokes": 2,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふた",
+        "romanji": "futa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "二つ",
+            "furigana": "ふたつ",
+            "romanji": "futatsu",
+            "meanings": {
+              "id": "dua buah",
+              "en": "two"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ニ",
+        "romanji": "ni",
+        "examples": [
+          {
+            "id": 2,
+            "word": "二年",
+            "furigana": "にねん",
+            "romanji": "ninen",
+            "meanings": {
+              "id": "dua tahun",
+              "en": "two years"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "dua",
+    "en": "two"
+  }
+}

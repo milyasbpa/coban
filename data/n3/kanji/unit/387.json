@@ -1,0 +1,48 @@
+{
+  "id": 387,
+  "character": "靴",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くつ",
+        "romanji": "kutsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "靴",
+            "furigana": "くつ",
+            "romanji": "kutsu",
+            "meanings": {
+              "id": "sepatu",
+              "en": "shoes"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "軍靴",
+            "furigana": "ぐんか",
+            "romanji": "gunka",
+            "meanings": {
+              "id": "sepatu militer",
+              "en": "military shoes"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sepatu, sepatu militer",
+    "en": "shoes, military shoes"
+  }
+}

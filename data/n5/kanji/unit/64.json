@@ -1,0 +1,64 @@
+{
+  "id": 64,
+  "character": "男",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おとこ",
+        "romanji": "otoko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "男",
+            "furigana": "おとこ",
+            "romanji": "otoko",
+            "meanings": {
+              "id": "laki-laki, pria",
+              "en": "man"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ダン",
+        "romanji": "dan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "男性",
+            "furigana": "だんせい",
+            "romanji": "dansei",
+            "meanings": {
+              "id": "laki-laki, pria",
+              "en": "male"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ナン",
+        "romanji": "nan",
+        "examples": [
+          {
+            "id": 3,
+            "word": "長男",
+            "furigana": "ちょうなん",
+            "romanji": "chounan",
+            "meanings": {
+              "id": "putra sulung",
+              "en": "eldest son"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "laki-laki",
+    "en": "man, male"
+  }
+}

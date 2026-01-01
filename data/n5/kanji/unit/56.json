@@ -1,0 +1,77 @@
+{
+  "id": 56,
+  "character": "西",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "にし",
+        "romanji": "nishi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "西",
+            "furigana": "にし",
+            "romanji": "nishi",
+            "meanings": {
+              "id": "pintu barat",
+              "en": "west"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セイ",
+        "romanji": "sei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "西洋人",
+            "furigana": "せいようじん",
+            "romanji": "seiyoujin",
+            "meanings": {
+              "id": "orang barat",
+              "en": "westerner"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "西国",
+            "furigana": "さいごく",
+            "romanji": "saigoku",
+            "meanings": {
+              "id": "negara bagian barat Jepang",
+              "en": "western Japan"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 4,
+          "word": "東西",
+          "furigana": "とうざい",
+          "romanji": "touzai",
+          "meanings": {
+            "id": "timur dan barat",
+            "en": "east and west"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "barat",
+    "en": "west"
+  }
+}

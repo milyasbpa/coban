@@ -1,0 +1,47 @@
+{
+  "id": 81,
+  "character": "宗",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "宗教",
+            "furigana": "しゅうきょう",
+            "romanji": "shuukyou",
+            "meanings": {
+              "id": "agama",
+              "en": "religion"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ソウ",
+        "romanji": "sou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "宗家",
+            "furigana": "そうけ",
+            "romanji": "souke",
+            "meanings": {
+              "id": "pimpinan aliran kesenian",
+              "en": "sect leader"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "agama, pimpinan aliran kesenian",
+    "en": "religion, sect leader"
+  }
+}

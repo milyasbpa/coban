@@ -1,0 +1,53 @@
+{
+  "id": 71,
+  "character": "使",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つか",
+        "romanji": "tsuka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "使う",
+            "furigana": "つかう",
+            "romanji": "tsukau",
+            "meanings": {
+              "id": "menggunakan",
+              "en": "to use"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "つかい",
+        "romanji": "tsukai",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "大使館",
+            "furigana": "たいしかん",
+            "romanji": "taishikan",
+            "meanings": {
+              "id": "kedutaan besar",
+              "en": "embassy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menggunakan",
+    "en": "use, employ"
+  }
+}

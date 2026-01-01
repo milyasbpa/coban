@@ -1,0 +1,53 @@
+{
+  "id": 293,
+  "character": "経",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "へ",
+        "romanji": "he",
+        "examples": [
+          {
+            "id": 1,
+            "word": "経る",
+            "furigana": "へる",
+            "romanji": "heru",
+            "meanings": {
+              "id": "melalui, berlalu",
+              "en": "to pass"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケイ",
+        "romanji": "kei",
+        "examples": [
+          {
+            "id": 2,
+            "word": "経験",
+            "furigana": "けいけん",
+            "romanji": "keiken",
+            "meanings": {
+              "id": "pengalaman",
+              "en": "experience"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melalui, berlalu, pengalaman",
+    "en": "pass, experience"
+  }
+}

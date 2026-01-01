@@ -1,0 +1,48 @@
+{
+  "id": 353,
+  "character": "照",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "て",
+        "romanji": "te",
+        "examples": [
+          {
+            "id": 1,
+            "word": "照らす",
+            "furigana": "てらす",
+            "romanji": "terasu",
+            "meanings": {
+              "id": "menerangi",
+              "en": "to illuminate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "照明",
+            "furigana": "しょうめい",
+            "romanji": "shoumei",
+            "meanings": {
+              "id": "penerangan",
+              "en": "illumination"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menerangi, penerangan",
+    "en": "to illuminate, illumination"
+  }
+}

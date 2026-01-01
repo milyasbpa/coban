@@ -1,0 +1,48 @@
+{
+  "id": 99,
+  "character": "吹",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ふ",
+        "romanji": "fu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "吹く",
+            "furigana": "ふく",
+            "romanji": "fuku",
+            "meanings": {
+              "id": "meniup",
+              "en": "to blow"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "スイ",
+        "romanji": "sui",
+        "examples": [
+          {
+            "id": 2,
+            "word": "吹奏",
+            "furigana": "すいそう",
+            "romanji": "suisou",
+            "meanings": {
+              "id": "alat musik tiup",
+              "en": "wind instrument"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meniup, alat musik tiup",
+    "en": "blow, wind instrument"
+  }
+}

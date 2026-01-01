@@ -1,0 +1,41 @@
+{
+  "id": 342,
+  "character": "晩",
+  "strokes": 12,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "バン",
+        "romanji": "ban",
+        "examples": [
+          {
+            "id": 1,
+            "word": "晩餐",
+            "furigana": "ばんさん",
+            "romanji": "bansan",
+            "meanings": {
+              "id": "makan malam",
+              "en": "dinner"
+            }
+          },
+          {
+            "id": 2,
+            "word": "今晩",
+            "furigana": "こんばん",
+            "romanji": "konban",
+            "meanings": {
+              "id": "malam ini",
+              "en": "tonight"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "makan malam, malam ini",
+    "en": "dinner, tonight"
+  }
+}

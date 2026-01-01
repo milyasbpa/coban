@@ -1,0 +1,64 @@
+{
+  "id": 237,
+  "character": "速",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はや",
+        "romanji": "haya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "速い",
+            "furigana": "はやい",
+            "romanji": "hayai",
+            "meanings": {
+              "id": "cepat",
+              "en": "fast / quick"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "すみ",
+        "romanji": "sumi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "速やか",
+            "furigana": "すみやか",
+            "romanji": "sumiyaka",
+            "meanings": {
+              "id": "cepat, tanpa tunda",
+              "en": "immediate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソク",
+        "romanji": "soku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "急速",
+            "furigana": "きゅうそく",
+            "romanji": "kyuusoku",
+            "meanings": {
+              "id": "laju pesat",
+              "en": "rapid"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cepat, laju pesat, cepat tanpa tunda",
+    "en": "fast, rapid, immediate"
+  }
+}

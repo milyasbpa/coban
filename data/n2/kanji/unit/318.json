@@ -1,0 +1,66 @@
+{
+  "id": 318,
+  "character": "傘",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かさ",
+        "romanji": "kasa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "傘",
+            "furigana": "かさ",
+            "romanji": "kasa",
+            "meanings": {
+              "id": "payung",
+              "en": "umbrella"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "がさ",
+        "romanji": "gasa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サン",
+        "romanji": "san",
+        "examples": [
+          {
+            "id": 3,
+            "word": "落下傘",
+            "furigana": "らっかさん",
+            "romanji": "rakkasan",
+            "meanings": {
+              "id": "parasut, terjun payung",
+              "en": "parachute"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "雨傘",
+          "furigana": "あまがさ",
+          "romanji": "amagasa",
+          "meanings": {
+            "id": "payung hujan",
+            "en": "rain umbrella"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "payung",
+    "en": "umbrella"
+  }
+}

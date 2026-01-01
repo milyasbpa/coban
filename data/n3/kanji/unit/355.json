@@ -1,0 +1,64 @@
+{
+  "id": 355,
+  "character": "遊",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あそ",
+        "romanji": "aso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "遊ぶ",
+            "furigana": "あそぶ",
+            "romanji": "asobu",
+            "meanings": {
+              "id": "bermain, main",
+              "en": "to play"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ユウ",
+        "romanji": "yuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "遊園地",
+            "furigana": "ゆうえんち",
+            "romanji": "yuuenchi",
+            "meanings": {
+              "id": "taman rekreasi",
+              "en": "amusement park"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ユ",
+        "romanji": "yu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "遊園地",
+            "furigana": "ゆうえんち",
+            "romanji": "yuuenchi",
+            "meanings": {
+              "id": "taman rekreasi",
+              "en": "amusement park"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bermain, main, taman rekreasi",
+    "en": "play, amusement park"
+  }
+}

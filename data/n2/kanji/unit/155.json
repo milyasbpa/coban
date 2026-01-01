@@ -1,0 +1,47 @@
+{
+  "id": 155,
+  "character": "律",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "リツ",
+        "romanji": "ritsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "法律",
+            "furigana": "ほうりつ",
+            "romanji": "houritsu",
+            "meanings": {
+              "id": "undang-undang",
+              "en": "law"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "リチ",
+        "romanji": "richi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "律儀",
+            "furigana": "りちぎ",
+            "romanji": "richigi",
+            "meanings": {
+              "id": "teliti, jujur, patuh",
+              "en": "precise, honest, obedient"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "undang-undang, teliti, jujur, patuh",
+    "en": "law, precise, honest, obedient"
+  }
+}

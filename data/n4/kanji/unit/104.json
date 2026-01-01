@@ -1,0 +1,51 @@
+{
+  "id": 104,
+  "character": "院",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "イン",
+        "romanji": "in",
+        "examples": [
+          {
+            "id": 1,
+            "word": "病院",
+            "furigana": "びょういん",
+            "romanji": "byouin",
+            "meanings": {
+              "id": "rumah sakit",
+              "en": "hospital"
+            }
+          },
+          {
+            "id": 2,
+            "word": "入院",
+            "furigana": "にゅういん",
+            "romanji": "nyuuin",
+            "meanings": {
+              "id": "masuk rumah sakit",
+              "en": "hospitalization"
+            }
+          },
+          {
+            "id": 3,
+            "word": "退院",
+            "furigana": "たいいん",
+            "romanji": "taiin",
+            "meanings": {
+              "id": "keluar rumah sakit",
+              "en": "discharge from hospital"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rumah sakit",
+    "en": "institution, hospital"
+  }
+}

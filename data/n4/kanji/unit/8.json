@@ -1,0 +1,48 @@
+{
+  "id": 8,
+  "character": "内",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うち",
+        "romanji": "uchi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "内側",
+            "furigana": "うちがわ",
+            "romanji": "uchigawa",
+            "meanings": {
+              "id": "bagian dalam",
+              "en": "inside"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ナイ",
+        "romanji": "nai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "家内",
+            "furigana": "かない",
+            "romanji": "kanai",
+            "meanings": {
+              "id": "istri (saya)",
+              "en": "my wife"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bagian dalam",
+    "en": "inside"
+  }
+}

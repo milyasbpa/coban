@@ -1,0 +1,63 @@
+{
+  "id": 47,
+  "character": "合",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゴウ",
+        "romanji": "gou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "合意",
+            "furigana": "ごうい",
+            "romanji": "goui",
+            "meanings": {
+              "id": "persetujuan",
+              "en": "agreement; consent"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "カ",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 2,
+            "word": "合戦",
+            "furigana": "かっせん",
+            "romanji": "kassen",
+            "meanings": {
+              "id": "peperangan",
+              "en": "battle; fight"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ツ",
+        "romanji": "tsu",
+        "examples": []
+      },
+      {
+        "furigana": "ガッ",
+        "romanji": "ga",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "cocok, pantas",
+    "en": "fit, match"
+  }
+}

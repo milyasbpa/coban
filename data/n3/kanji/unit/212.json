@@ -1,0 +1,48 @@
+{
+  "id": 212,
+  "character": "故",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ゆえ",
+        "romanji": "yue",
+        "examples": [
+          {
+            "id": 2,
+            "word": "故",
+            "furigana": "ゆえ",
+            "romanji": "yue",
+            "meanings": {
+              "id": "alasan, karena",
+              "en": "reason, because"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "事故",
+            "furigana": "じこ",
+            "romanji": "jiko",
+            "meanings": {
+              "id": "kecelakaan",
+              "en": "accident"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "alasan, karena, kecelakaan",
+    "en": "reason, because, accident"
+  }
+}

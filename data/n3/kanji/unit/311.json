@@ -1,0 +1,53 @@
+{
+  "id": 311,
+  "character": "済",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "す",
+        "romanji": "su",
+        "examples": [
+          {
+            "id": 1,
+            "word": "済む",
+            "furigana": "すむ",
+            "romanji": "sumu",
+            "meanings": {
+              "id": "selesai, cukup",
+              "en": "to finish, enough"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": []
+      },
+      {
+        "furigana": "ザイ",
+        "romanji": "zai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "経済",
+            "furigana": "けいざい",
+            "romanji": "keizai",
+            "meanings": {
+              "id": "ekonomi",
+              "en": "economy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "selesai, cukup, ekonomi",
+    "en": "finish, enough, economy"
+  }
+}

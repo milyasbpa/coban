@@ -1,0 +1,48 @@
+{
+  "id": 19,
+  "character": "用",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もち",
+        "romanji": "mochi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "用いる",
+            "furigana": "もちいる",
+            "romanji": "mochiiru",
+            "meanings": {
+              "id": "menggunakan",
+              "en": "to use"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨウ",
+        "romanji": "you",
+        "examples": [
+          {
+            "id": 2,
+            "word": "用事",
+            "furigana": "ようじ",
+            "romanji": "youji",
+            "meanings": {
+              "id": "urusan",
+              "en": "business"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menggunakan",
+    "en": "use"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": 26,
+  "character": "去",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "さ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "去る",
+            "furigana": "さる",
+            "romanji": "saru",
+            "meanings": {
+              "id": "berlalu, meninggalkan",
+              "en": "to leave"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "さる",
+        "romanji": "saru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "去る",
+            "furigana": "さる",
+            "romanji": "saru",
+            "meanings": {
+              "id": "berlalu, meninggalkan",
+              "en": "to leave"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョ",
+        "romanji": "kyo",
+        "examples": [
+          {
+            "id": 3,
+            "word": "去年",
+            "furigana": "きょねん",
+            "romanji": "kyonen",
+            "meanings": {
+              "id": "tahun lalu",
+              "en": "last year"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "コ",
+        "romanji": "ko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "過去去り",
+            "furigana": "かこさり",
+            "romanji": "kakosari",
+            "meanings": {
+              "id": "perbuatan meninggalkan",
+              "en": "act of leaving"
+            }
+          },
+          {
+            "id": 4,
+            "word": "過去",
+            "furigana": "かこ",
+            "romanji": "kako",
+            "meanings": {
+              "id": "masa lalu",
+              "en": "past"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berlalu, meninggalkan",
+    "en": "leave, past"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 110,
+  "character": "良",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リョウ",
+        "romanji": "ryou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "良好",
+            "furigana": "りょうこう",
+            "romanji": "ryoukou",
+            "meanings": {
+              "id": "baik, bagus",
+              "en": "good"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "仲良し",
+          "furigana": "なかよし",
+          "romanji": "nakayoshi",
+          "meanings": {
+            "id": "akrab, intim",
+            "en": "close, intimate"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "akrab, intim, baik, bagus",
+    "en": "close, intimate, good"
+  }
+}

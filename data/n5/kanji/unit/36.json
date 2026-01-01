@@ -1,0 +1,64 @@
+{
+  "id": 36,
+  "character": "少",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すく",
+        "romanji": "suku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "少ない",
+            "furigana": "すくない",
+            "romanji": "sukunai",
+            "meanings": {
+              "id": "kurang",
+              "en": "few"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "すこ",
+        "romanji": "suko",
+        "examples": [
+          {
+            "id": 2,
+            "word": "少し",
+            "furigana": "すこし",
+            "romanji": "sukoshi",
+            "meanings": {
+              "id": "sedikit, agak",
+              "en": "a little"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "少年",
+            "furigana": "しょうねん",
+            "romanji": "shounen",
+            "meanings": {
+              "id": "pemuda",
+              "en": "young man"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sedikit",
+    "en": "few, little"
+  }
+}

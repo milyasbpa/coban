@@ -1,0 +1,48 @@
+{
+  "id": 248,
+  "character": "採",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "採る",
+            "furigana": "とる",
+            "romanji": "toru",
+            "meanings": {
+              "id": "menggunakan",
+              "en": "to use, to take"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "採用する",
+            "furigana": "さいようする",
+            "romanji": "saiyou suru",
+            "meanings": {
+              "id": "mempekerjakan",
+              "en": "to employ"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menggunakan, mempekerjakan",
+    "en": "to use, to employ"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 251,
+  "character": "健",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "すこ",
+        "romanji": "suko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "健やか",
+            "furigana": "すこやか",
+            "romanji": "sukoyaka",
+            "meanings": {
+              "id": "sehat",
+              "en": "healthy"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "健康",
+            "furigana": "けんこう",
+            "romanji": "kenkou",
+            "meanings": {
+              "id": "sehat dan sempurna",
+              "en": "perfect health"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sehat, sehat dan sempurna",
+    "en": "healthy, perfect health"
+  }
+}

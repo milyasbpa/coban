@@ -1,0 +1,66 @@
+{
+  "id": 422,
+  "character": "際",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "きわ",
+        "romanji": "kiwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "際立つ",
+            "furigana": "きわだつ",
+            "romanji": "kiwadatsu",
+            "meanings": {
+              "id": "menyolok, menonjol",
+              "en": "stand out"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ぎわ",
+        "romanji": "giwa",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サイ",
+        "romanji": "sai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "国際",
+            "furigana": "こくさい",
+            "romanji": "kokusai",
+            "meanings": {
+              "id": "internasional",
+              "en": "international"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "手際",
+          "furigana": "てぎわ",
+          "romanji": "tegiwa",
+          "meanings": {
+            "id": "cara penanganan",
+            "en": "handling method"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menyolok, menonjol, cara penanganan, internasional",
+    "en": "stand out, handling method, international"
+  }
+}

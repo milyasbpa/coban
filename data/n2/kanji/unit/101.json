@@ -1,0 +1,48 @@
+{
+  "id": 101,
+  "character": "沼",
+  "strokes": 8,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ぬま",
+        "romanji": "numa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "沼",
+            "furigana": "ぬま",
+            "romanji": "numa",
+            "meanings": {
+              "id": "tanah rawa",
+              "en": "swamp"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "沼沢",
+            "furigana": "しょうたく",
+            "romanji": "shoutaku",
+            "meanings": {
+              "id": "rawa",
+              "en": "marsh"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tanah rawa, rawa",
+    "en": "swamp, marsh"
+  }
+}

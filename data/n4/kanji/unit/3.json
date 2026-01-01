@@ -1,0 +1,47 @@
+{
+  "id": 3,
+  "character": "工",
+  "strokes": 3,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "工場",
+            "furigana": "こうじょう",
+            "romanji": "koujou",
+            "meanings": {
+              "id": "pabrik",
+              "en": "factory"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ク",
+        "romanji": "ku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "大工",
+            "furigana": "だいく",
+            "romanji": "daiku",
+            "meanings": {
+              "id": "tukang kayu",
+              "en": "carpenter"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pabrik, kerajinan",
+    "en": "craft, construction"
+  }
+}

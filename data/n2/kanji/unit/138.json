@@ -1,0 +1,74 @@
+{
+  "id": 138,
+  "character": "荒",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あ",
+        "romanji": "a",
+        "examples": [
+          {
+            "id": 1,
+            "word": "荒れる",
+            "furigana": "あれる",
+            "romanji": "areru",
+            "meanings": {
+              "id": "bergelombang",
+              "en": "to be stormy, to be rough"
+            }
+          },
+          {
+            "id": 2,
+            "word": "荒い",
+            "furigana": "あらい",
+            "romanji": "arai",
+            "meanings": {
+              "id": "kasar, keras",
+              "en": "rough, harsh"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "あら",
+        "romanji": "ara",
+        "examples": [
+          {
+            "id": 2,
+            "word": "荒い",
+            "furigana": "あらい",
+            "romanji": "arai",
+            "meanings": {
+              "id": "kasar, keras",
+              "en": "rough, harsh"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コウ",
+        "romanji": "kou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "荒城",
+            "furigana": "こうじょう",
+            "romanji": "koujou",
+            "meanings": {
+              "id": "benteng terbengkalai",
+              "en": "abandoned castle"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bergelombang, kasar, keras, benteng terbengkalai",
+    "en": "rough, wild, abandoned fortress"
+  }
+}

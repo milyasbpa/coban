@@ -1,0 +1,48 @@
+{
+  "id": 399,
+  "character": "違",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ちが",
+        "romanji": "chiga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "違う",
+            "furigana": "ちがう",
+            "romanji": "chigau",
+            "meanings": {
+              "id": "berbeda, berlainan",
+              "en": "different"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 2,
+            "word": "違反",
+            "furigana": "いはん",
+            "romanji": "ihan",
+            "meanings": {
+              "id": "pelanggaran",
+              "en": "violation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berbeda, berlainan, pelanggaran",
+    "en": "different, violation"
+  }
+}

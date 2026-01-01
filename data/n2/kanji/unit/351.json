@@ -1,0 +1,48 @@
+{
+  "id": 351,
+  "character": "雷",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かみなり",
+        "romanji": "kaminari",
+        "examples": [
+          {
+            "id": 1,
+            "word": "雷",
+            "furigana": "かみなり",
+            "romanji": "kaminari",
+            "meanings": {
+              "id": "guntur",
+              "en": "thunder"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ライ",
+        "romanji": "rai",
+        "examples": [
+          {
+            "id": 2,
+            "word": "雷雨",
+            "furigana": "らいう",
+            "romanji": "raiu",
+            "meanings": {
+              "id": "hujan guntur",
+              "en": "thunderstorm"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "guntur, hujan guntur",
+    "en": "thunder, thunderstorm"
+  }
+}

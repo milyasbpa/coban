@@ -1,0 +1,61 @@
+{
+  "id": 247,
+  "character": "掘",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ほ",
+        "romanji": "ho",
+        "examples": [
+          {
+            "id": 1,
+            "word": "掘る",
+            "furigana": "ほる",
+            "romanji": "horu",
+            "meanings": {
+              "id": "menggali",
+              "en": "to dig"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "クツ",
+        "romanji": "kutsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "採掘",
+            "furigana": "さいくつ",
+            "romanji": "saikutsu",
+            "meanings": {
+              "id": "penggalian tambang",
+              "en": "mining"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "掘削",
+          "furigana": "くっさく",
+          "romanji": "kussaku",
+          "meanings": {
+            "id": "penggalian",
+            "en": "excavation"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menggali, penggalian tambang, penggalian",
+    "en": "to dig, mining, excavation"
+  }
+}

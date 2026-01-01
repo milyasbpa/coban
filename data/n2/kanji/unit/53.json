@@ -1,0 +1,48 @@
+{
+  "id": 53,
+  "character": "応",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こた",
+        "romanji": "kota",
+        "examples": [
+          {
+            "id": 1,
+            "word": "応える",
+            "furigana": "こたえる",
+            "romanji": "kotaeru",
+            "meanings": {
+              "id": "bereaksi, merespons",
+              "en": "to respond"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "オウ",
+        "romanji": "ou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "応援",
+            "furigana": "おうえん",
+            "romanji": "ouen",
+            "meanings": {
+              "id": "dukungan, bantuan",
+              "en": "support, help"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "bereaksi, merespons, dukungan, bantuan",
+    "en": "to respond, support, help"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 90,
+  "character": "伺",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "うかが",
+        "romanji": "ukaga",
+        "examples": [
+          {
+            "id": 1,
+            "word": "伺う",
+            "furigana": "うかがう",
+            "romanji": "ukagau",
+            "meanings": {
+              "id": "menanyakan",
+              "en": "to ask"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 3,
+            "word": "奉伺",
+            "furigana": "ほうし",
+            "romanji": "houshi",
+            "meanings": {
+              "id": "pelayanan",
+              "en": "service"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "何",
+          "furigana": "なに",
+          "romanji": "nani",
+          "meanings": {
+            "id": "pertanyaan",
+            "en": "question"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "menanyakan, pertanyaan, pelayanan",
+    "en": "ask, question, service"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 105,
+  "character": "員",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "イン",
+        "romanji": "in",
+        "examples": [
+          {
+            "id": 1,
+            "word": "店員",
+            "furigana": "てんいん",
+            "romanji": "ten'in",
+            "meanings": {
+              "id": "pelayan toko",
+              "en": "shop clerk"
+            }
+          },
+          {
+            "id": 2,
+            "word": "会員",
+            "furigana": "かいいん",
+            "romanji": "kaiin",
+            "meanings": {
+              "id": "anggota perkumpulan",
+              "en": "member"
+            }
+          },
+          {
+            "id": 3,
+            "word": "議員",
+            "furigana": "ぎいん",
+            "romanji": "giin",
+            "meanings": {
+              "id": "anggota majelis",
+              "en": "member of parliament"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pelayan toko",
+    "en": "member, staff"
+  }
+}

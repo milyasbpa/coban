@@ -1,0 +1,48 @@
+{
+  "id": 26,
+  "character": "民",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "たみ",
+        "romanji": "tami",
+        "examples": [
+          {
+            "id": 1,
+            "word": "民",
+            "furigana": "たみ",
+            "romanji": "tami",
+            "meanings": {
+              "id": "rakyat",
+              "en": "people"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ミン",
+        "romanji": "min",
+        "examples": [
+          {
+            "id": 2,
+            "word": "民話",
+            "furigana": "みんわ",
+            "romanji": "minwa",
+            "meanings": {
+              "id": "cerita rakyat",
+              "en": "folk tale"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rakyat, cerita rakyat",
+    "en": "people, folk tale"
+  }
+}

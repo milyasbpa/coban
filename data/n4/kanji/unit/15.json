@@ -1,0 +1,48 @@
+{
+  "id": 15,
+  "character": "目",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "め",
+        "romanji": "me",
+        "examples": [
+          {
+            "id": 1,
+            "word": "目",
+            "furigana": "め",
+            "romanji": "me",
+            "meanings": {
+              "id": "mata",
+              "en": "eye"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "モク",
+        "romanji": "moku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "目的",
+            "furigana": "もくてき",
+            "romanji": "mokuteki",
+            "meanings": {
+              "id": "tujuan",
+              "en": "purpose"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mata",
+    "en": "eye"
+  }
+}

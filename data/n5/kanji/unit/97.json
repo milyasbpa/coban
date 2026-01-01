@@ -1,0 +1,64 @@
+{
+  "id": 97,
+  "character": "着",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "き",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "着る",
+            "furigana": "きる",
+            "romanji": "kiru",
+            "meanings": {
+              "id": "mengenakan (pakaian)",
+              "en": "to wear"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "着く",
+            "furigana": "つく",
+            "romanji": "tsuku",
+            "meanings": {
+              "id": "tiba, sampai",
+              "en": "to arrive"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "チャク",
+        "romanji": "chaku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "到着",
+            "furigana": "とうちゃく",
+            "romanji": "touchaku",
+            "meanings": {
+              "id": "tiba, sampai",
+              "en": "arrival"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "memakai",
+    "en": "wear, arrive"
+  }
+}

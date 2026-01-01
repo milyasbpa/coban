@@ -1,0 +1,49 @@
+{
+  "id": 433,
+  "character": "箱",
+  "strokes": 15,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はこ",
+        "romanji": "hako",
+        "examples": [
+          {
+            "id": 1,
+            "word": "箱",
+            "furigana": "はこ",
+            "romanji": "hako",
+            "meanings": {
+              "id": "kotak, peti, dus",
+              "en": "box, chest, case"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ばこ",
+        "romanji": "bako",
+        "examples": []
+      }
+    ],
+    "on": [],
+    "exception": {
+      "examples": [
+        {
+          "id": 2,
+          "word": "私書箱",
+          "furigana": "ししょばこ",
+          "romanji": "shishobako",
+          "meanings": {
+            "id": "kotak pos",
+            "en": "mailbox"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "kotak, peti, dus, kotak pos",
+    "en": "box, chest, case, mailbox"
+  }
+}

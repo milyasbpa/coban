@@ -1,0 +1,63 @@
+{
+  "id": 254,
+  "character": "産",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "う",
+        "romanji": "u",
+        "examples": [
+          {
+            "id": 1,
+            "word": "産む",
+            "furigana": "うむ",
+            "romanji": "umu",
+            "meanings": {
+              "id": "melahirkan, menelurkan",
+              "en": "to give birth, to lay eggs"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "うぶ",
+        "romanji": "ubu",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "サン",
+        "romanji": "san",
+        "examples": [
+          {
+            "id": 2,
+            "word": "未産",
+            "furigana": "みさん",
+            "romanji": "misan",
+            "meanings": {
+              "id": "masih hijau, naif",
+              "en": "naive, inexperienced"
+            }
+          },
+          {
+            "id": 3,
+            "word": "産業",
+            "furigana": "さんぎょう",
+            "romanji": "sangyou",
+            "meanings": {
+              "id": "industri",
+              "en": "industry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "melahirkan, menelurkan, masih hijau, naif, industri",
+    "en": "to give birth, to lay eggs, naive, industry"
+  }
+}

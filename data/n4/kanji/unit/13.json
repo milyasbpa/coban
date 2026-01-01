@@ -1,0 +1,41 @@
+{
+  "id": 13,
+  "character": "予",
+  "strokes": 4,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ヨ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "予定",
+            "furigana": "よてい",
+            "romanji": "yotei",
+            "meanings": {
+              "id": "rencana",
+              "en": "plan"
+            }
+          },
+          {
+            "id": 2,
+            "word": "天気予報",
+            "furigana": "てんきよほう",
+            "romanji": "tenkiyohou",
+            "meanings": {
+              "id": "ramalan cuaca",
+              "en": "weather forecast"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "rencana",
+    "en": "plan, beforehand"
+  }
+}

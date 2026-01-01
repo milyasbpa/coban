@@ -1,0 +1,41 @@
+{
+  "id": 170,
+  "character": "具",
+  "strokes": 8,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "グ",
+        "romanji": "gu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "具合",
+            "furigana": "ぐあい",
+            "romanji": "guai",
+            "meanings": {
+              "id": "kondisi",
+              "en": "condition"
+            }
+          },
+          {
+            "id": 2,
+            "word": "道具",
+            "furigana": "どうぐ",
+            "romanji": "dougu",
+            "meanings": {
+              "id": "alat-alat",
+              "en": "tools"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kondisi, alat-alat",
+    "en": "condition, tools"
+  }
+}

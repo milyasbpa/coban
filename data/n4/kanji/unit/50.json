@@ -1,0 +1,51 @@
+{
+  "id": 50,
+  "character": "医",
+  "strokes": 7,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "イ",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "医者",
+            "furigana": "いしゃ",
+            "romanji": "isha",
+            "meanings": {
+              "id": "dokter",
+              "en": "doctor"
+            }
+          },
+          {
+            "id": 2,
+            "word": "医院",
+            "furigana": "いいん",
+            "romanji": "iin",
+            "meanings": {
+              "id": "klinik",
+              "en": "clinic"
+            }
+          },
+          {
+            "id": 3,
+            "word": "医学",
+            "furigana": "いがく",
+            "romanji": "igaku",
+            "meanings": {
+              "id": "kedokteran",
+              "en": "medical science"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "praktis",
+    "en": "medical, doctor"
+  }
+}

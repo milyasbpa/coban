@@ -1,0 +1,53 @@
+{
+  "id": 263,
+  "character": "留",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "留める",
+            "furigana": "とめる",
+            "romanji": "tomeru",
+            "meanings": {
+              "id": "meninggalkan",
+              "en": "to leave"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リュウ",
+        "romanji": "ryuu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "留学",
+            "furigana": "りゅうがく",
+            "romanji": "ryuugaku",
+            "meanings": {
+              "id": "belajar di luar negeri",
+              "en": "study abroad"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ル",
+        "romanji": "ru",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meninggalkan, belajar di luar negeri",
+    "en": "leave, study abroad"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 86,
+  "character": "書",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "か",
+        "romanji": "ka",
+        "examples": [
+          {
+            "id": 1,
+            "word": "書く",
+            "furigana": "かく",
+            "romanji": "kaku",
+            "meanings": {
+              "id": "menulis",
+              "en": "to write"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショ",
+        "romanji": "sho",
+        "examples": [
+          {
+            "id": 2,
+            "word": "書類",
+            "furigana": "しょるい",
+            "romanji": "shorui",
+            "meanings": {
+              "id": "dokumen",
+              "en": "document"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menulis",
+    "en": "write, book"
+  }
+}

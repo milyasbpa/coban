@@ -1,0 +1,33 @@
+{
+  "id": 225,
+  "character": "券",
+  "strokes": 11,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "第一",
+          "furigana": "だいいち",
+          "romanji": "daiichi",
+          "meanings": {
+            "id": "nomor satu, yang pertama",
+            "en": "number one, first"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "tiket, karcis",
+    "en": "ticket, coupon"
+  }
+}

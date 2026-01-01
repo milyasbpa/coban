@@ -1,0 +1,64 @@
+{
+  "id": 336,
+  "character": "絶",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "た",
+        "romanji": "ta",
+        "examples": [
+          {
+            "id": 1,
+            "word": "絶える",
+            "furigana": "たえる",
+            "romanji": "taeru",
+            "meanings": {
+              "id": "terhenti, terputus",
+              "en": "to stop, to break off"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ゼツ",
+        "romanji": "zetsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "絶望",
+            "furigana": "ぜつぼう",
+            "romanji": "zetsubou",
+            "meanings": {
+              "id": "keputus-asaan",
+              "en": "despair"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゼッ",
+        "romanji": "zet",
+        "examples": [
+          {
+            "id": 2,
+            "word": "絶望",
+            "furigana": "ぜつぼう",
+            "romanji": "zetsubou",
+            "meanings": {
+              "id": "keputus-asaan",
+              "en": "despair"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "terhenti, terputus, keputus-asaan",
+    "en": "stop, despair"
+  }
+}

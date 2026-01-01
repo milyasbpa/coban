@@ -1,0 +1,48 @@
+{
+  "id": 419,
+  "character": "練",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ね",
+        "romanji": "ne",
+        "examples": [
+          {
+            "id": 1,
+            "word": "練る",
+            "furigana": "ねる",
+            "romanji": "neru",
+            "meanings": {
+              "id": "meremas",
+              "en": "knead"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "レン",
+        "romanji": "ren",
+        "examples": [
+          {
+            "id": 2,
+            "word": "練習",
+            "furigana": "れんしゅう",
+            "romanji": "renshuu",
+            "meanings": {
+              "id": "latihan",
+              "en": "practice"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "meremas, latihan",
+    "en": "knead, practice"
+  }
+}

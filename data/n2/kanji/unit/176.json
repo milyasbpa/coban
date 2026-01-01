@@ -1,0 +1,47 @@
+{
+  "id": 176,
+  "character": "脂",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あぶら",
+        "romanji": "abura",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "脂肉",
+            "furigana": "しにく",
+            "romanji": "shiniku",
+            "meanings": {
+              "id": "daging gemuk",
+              "en": "fatty meat"
+            }
+          },
+          {
+            "id": 2,
+            "word": "脂肪",
+            "furigana": "しぼう",
+            "romanji": "shibou",
+            "meanings": {
+              "id": "lemak",
+              "en": "fat"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "daging gemuk, lemak",
+    "en": "fat, grease"
+  }
+}

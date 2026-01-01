@@ -1,0 +1,31 @@
+{
+  "id": 350,
+  "character": "零",
+  "strokes": 13,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "レイ",
+        "romanji": "rei",
+        "examples": [
+          {
+            "id": 1,
+            "word": "零下",
+            "furigana": "れいか",
+            "romanji": "reika",
+            "meanings": {
+              "id": "di bawah 0°C",
+              "en": "below zero, subzero"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "di bawah 0°C",
+    "en": "below 0°C"
+  }
+}

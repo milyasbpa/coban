@@ -1,0 +1,63 @@
+{
+  "id": 99,
+  "character": "話",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はな",
+        "romanji": "hana",
+        "examples": [
+          {
+            "id": 1,
+            "word": "話す",
+            "furigana": "はなす",
+            "romanji": "hanasu",
+            "meanings": {
+              "id": "berbicara",
+              "en": "to speak"
+            }
+          },
+          {
+            "id": 2,
+            "word": "話",
+            "furigana": "はなし",
+            "romanji": "hanashi",
+            "meanings": {
+              "id": "pembicaraan",
+              "en": "story, talk"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "はなし",
+        "romanji": "hanashi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "話",
+            "furigana": "はなし",
+            "romanji": "hanashi",
+            "meanings": {
+              "id": "pembicaraan",
+              "en": "story, talk"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ワ",
+        "romanji": "wa",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berbicara",
+    "en": "talk, speak"
+  }
+}

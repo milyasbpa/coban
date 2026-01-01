@@ -1,0 +1,58 @@
+{
+  "id": 93,
+  "character": "告",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "つ",
+        "romanji": "tsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "告げる",
+            "furigana": "つげる",
+            "romanji": "tsugeru",
+            "meanings": {
+              "id": "mengadu",
+              "en": "to report"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "コク",
+        "romanji": "koku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "広告",
+            "furigana": "こうこく",
+            "romanji": "koukoku",
+            "meanings": {
+              "id": "iklan",
+              "en": "advertisement"
+            }
+          },
+          {
+            "id": 3,
+            "word": "警告",
+            "furigana": "けいこく",
+            "romanji": "keikoku",
+            "meanings": {
+              "id": "peringatan",
+              "en": "warning"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mengadu, iklan, peringatan",
+    "en": "report, advertise, warn"
+  }
+}

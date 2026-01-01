@@ -1,0 +1,64 @@
+{
+  "id": 104,
+  "character": "読",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "読む",
+            "furigana": "よむ",
+            "romanji": "yomu",
+            "meanings": {
+              "id": "membaca",
+              "en": "to read"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドク",
+        "romanji": "doku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "読書",
+            "furigana": "どくしょ",
+            "romanji": "dokusho",
+            "meanings": {
+              "id": "baca buku",
+              "en": "reading"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "読点",
+            "furigana": "とうてん",
+            "romanji": "touten",
+            "meanings": {
+              "id": "tanda baca koma",
+              "en": "comma"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membaca",
+    "en": "read"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": 38,
+  "character": "本",
+  "strokes": 5,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もと",
+        "romanji": "moto",
+        "examples": []
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ホン",
+        "romanji": "hon",
+        "examples": [
+          {
+            "id": 1,
+            "word": "本",
+            "furigana": "ほん",
+            "romanji": "hon",
+            "meanings": {
+              "id": "pangkal, dasar",
+              "en": "book"
+            }
+          },
+          {
+            "id": 2,
+            "word": "二本",
+            "furigana": "にほん",
+            "romanji": "nihon",
+            "meanings": {
+              "id": "2 batang",
+              "en": "two (long objects)"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ボン",
+        "romanji": "bon",
+        "examples": [
+          {
+            "id": 4,
+            "word": "三本",
+            "furigana": "さんぼん",
+            "romanji": "sanbon",
+            "meanings": {
+              "id": "3 batang",
+              "en": "three (long objects)"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 3,
+          "word": "一本",
+          "furigana": "いっぽん",
+          "romanji": "ippon",
+          "meanings": {
+            "id": "1 batang",
+            "en": "one (long object)"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "buku",
+    "en": "book"
+  }
+}

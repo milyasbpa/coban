@@ -1,0 +1,41 @@
+{
+  "id": 102,
+  "character": "席",
+  "strokes": 10,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "セキ",
+        "romanji": "seki",
+        "examples": [
+          {
+            "id": 1,
+            "word": "席",
+            "furigana": "せき",
+            "romanji": "seki",
+            "meanings": {
+              "id": "tempat duduk",
+              "en": "seat"
+            }
+          },
+          {
+            "id": 2,
+            "word": "出席",
+            "furigana": "しゅっせき",
+            "romanji": "shusseki",
+            "meanings": {
+              "id": "hadir",
+              "en": "attendance"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tempat duduk",
+    "en": "seat"
+  }
+}

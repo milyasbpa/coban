@@ -1,0 +1,48 @@
+{
+  "id": 112,
+  "character": "余",
+  "strokes": 7,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "あま",
+        "romanji": "ama",
+        "examples": [
+          {
+            "id": 1,
+            "word": "余る",
+            "furigana": "あまる",
+            "romanji": "amaru",
+            "meanings": {
+              "id": "sisa",
+              "en": "remainder"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヨ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "余暇",
+            "furigana": "よか",
+            "romanji": "yoka",
+            "meanings": {
+              "id": "waktu luang",
+              "en": "free time"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sisa, waktu luang",
+    "en": "remainder, free time"
+  }
+}

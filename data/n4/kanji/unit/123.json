@@ -1,0 +1,74 @@
+{
+  "id": 123,
+  "character": "答",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "こた",
+        "romanji": "kota",
+        "examples": [
+          {
+            "id": 1,
+            "word": "答え",
+            "furigana": "こたえ",
+            "romanji": "kotae",
+            "meanings": {
+              "id": "jawaban",
+              "en": "answer"
+            }
+          },
+          {
+            "id": 2,
+            "word": "答える",
+            "furigana": "こたえる",
+            "romanji": "kotaeru",
+            "meanings": {
+              "id": "menjawab",
+              "en": "to answer"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "トウ",
+        "romanji": "tou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "答案用紙",
+            "furigana": "とうあんようし",
+            "romanji": "touanyoushi",
+            "meanings": {
+              "id": "lembar jawaban",
+              "en": "answer sheet"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 4,
+            "word": "問答",
+            "furigana": "もんどう",
+            "romanji": "mondou",
+            "meanings": {
+              "id": "tanya jawab",
+              "en": "question and answer"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "jawaban",
+    "en": "answer"
+  }
+}

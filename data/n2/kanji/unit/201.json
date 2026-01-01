@@ -1,0 +1,48 @@
+{
+  "id": 201,
+  "character": "射",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "い",
+        "romanji": "i",
+        "examples": [
+          {
+            "id": 1,
+            "word": "射る",
+            "furigana": "いる",
+            "romanji": "iru",
+            "meanings": {
+              "id": "membidik",
+              "en": "to shoot"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シャ",
+        "romanji": "sha",
+        "examples": [
+          {
+            "id": 2,
+            "word": "放射線",
+            "furigana": "ほうしゃせん",
+            "romanji": "houshasen",
+            "meanings": {
+              "id": "sinar radiasi",
+              "en": "radiation ray"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "membidik, sinar radiasi",
+    "en": "to shoot, radiation ray"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 20,
+  "character": "冊",
+  "strokes": 5,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "サツ",
+        "romanji": "satsu",
+        "examples": []
+      },
+      {
+        "furigana": "サク",
+        "romanji": "saku",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "冊子",
+          "furigana": "さっし",
+          "romanji": "sasshi",
+          "meanings": {
+            "id": "buku kecil, brosur",
+            "en": "booklet"
+          }
+        },
+        {
+          "id": 2,
+          "word": "短冊",
+          "furigana": "たんざく",
+          "romanji": "tanzaku",
+          "meanings": {
+            "id": "doa/catatan (tanabata)",
+            "en": "tanzaku (tanabata)"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "buku kecil, brosur",
+    "en": "book, counter for books"
+  }
+}

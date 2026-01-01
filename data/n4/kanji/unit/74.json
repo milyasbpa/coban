@@ -1,0 +1,74 @@
+{
+  "id": 74,
+  "character": "待",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "ま",
+        "romanji": "ma",
+        "examples": [
+          {
+            "id": 1,
+            "word": "待つ",
+            "furigana": "まつ",
+            "romanji": "matsu",
+            "meanings": {
+              "id": "menunggu",
+              "en": "to wait"
+            }
+          },
+          {
+            "id": 2,
+            "word": "待合室",
+            "furigana": "まちあいしつ",
+            "romanji": "machiaishitsu",
+            "meanings": {
+              "id": "ruang tunggu",
+              "en": "waiting room"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "まち",
+        "romanji": "machi",
+        "examples": [
+          {
+            "id": 2,
+            "word": "待合室",
+            "furigana": "まちあいしつ",
+            "romanji": "machiaishitsu",
+            "meanings": {
+              "id": "ruang tunggu",
+              "en": "waiting room"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "タイ",
+        "romanji": "tai",
+        "examples": [
+          {
+            "id": 3,
+            "word": "招待",
+            "furigana": "しょうたい",
+            "romanji": "shoutai",
+            "meanings": {
+              "id": "undangan",
+              "en": "invitation"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "menunggu",
+    "en": "wait"
+  }
+}

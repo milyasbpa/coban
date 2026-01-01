@@ -1,0 +1,64 @@
+{
+  "id": 266,
+  "character": "笑",
+  "strokes": 10,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "わら",
+        "romanji": "wara",
+        "examples": [
+          {
+            "id": 1,
+            "word": "笑う",
+            "furigana": "わらう",
+            "romanji": "warau",
+            "meanings": {
+              "id": "tertawa",
+              "en": "to laugh"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "え",
+        "romanji": "e",
+        "examples": [
+          {
+            "id": 2,
+            "word": "笑顔",
+            "furigana": "えがお",
+            "romanji": "egao",
+            "meanings": {
+              "id": "senyum",
+              "en": "smile"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ショウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 3,
+            "word": "笑納",
+            "furigana": "しょうのう",
+            "romanji": "shounou",
+            "meanings": {
+              "id": "terima dengan senang",
+              "en": "accept gladly, accept with pleasure"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "tertawa, senyum",
+    "en": "laugh, smile"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 353,
+  "character": "幾",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いく",
+        "romanji": "iku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "幾つ",
+            "furigana": "いくつ",
+            "romanji": "ikutsu",
+            "meanings": {
+              "id": "berapa buah",
+              "en": "how many"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キ",
+        "romanji": "ki",
+        "examples": [
+          {
+            "id": 2,
+            "word": "幾何",
+            "furigana": "きか",
+            "romanji": "kika",
+            "meanings": {
+              "id": "ilmu ukur, geometri",
+              "en": "geometry"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "berapa buah, ilmu ukur, geometri",
+    "en": "how many, geometry"
+  }
+}

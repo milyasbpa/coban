@@ -1,0 +1,95 @@
+{
+  "id": 22,
+  "character": "六",
+  "strokes": 4,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "む",
+        "romanji": "mu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "六つ",
+            "furigana": "むっつ",
+            "romanji": "muttsu",
+            "meanings": {
+              "id": "enam buah",
+              "en": "six"
+            }
+          },
+          {
+            "id": 2,
+            "word": "六日",
+            "furigana": "むいか",
+            "romanji": "muika",
+            "meanings": {
+              "id": "tanggal 6, 6 hari",
+              "en": "sixth day"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "むっ",
+        "romanji": "mut",
+        "examples": [
+          {
+            "id": 1,
+            "word": "六つ",
+            "furigana": "むっつ",
+            "romanji": "muttsu",
+            "meanings": {
+              "id": "enam buah",
+              "en": "six"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "むい",
+        "romanji": "mui",
+        "examples": [
+          {
+            "id": 2,
+            "word": "六日",
+            "furigana": "むいか",
+            "romanji": "muika",
+            "meanings": {
+              "id": "tanggal 6, 6 hari",
+              "en": "sixth day"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ロク",
+        "romanji": "roku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "六年",
+            "furigana": "ろくねん",
+            "romanji": "rokunen",
+            "meanings": {
+              "id": "enam tahun",
+              "en": "six years"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "リク",
+        "romanji": "riku",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "enam",
+    "en": "six"
+  }
+}

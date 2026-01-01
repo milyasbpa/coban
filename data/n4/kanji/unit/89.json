@@ -1,0 +1,57 @@
+{
+  "id": 89,
+  "character": "祖",
+  "strokes": 9,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "ソ",
+        "romanji": "so",
+        "examples": [
+          {
+            "id": 1,
+            "word": "祖父",
+            "furigana": "そふ",
+            "romanji": "sofu",
+            "meanings": {
+              "id": "kakek (saya)",
+              "en": "grandfather"
+            }
+          },
+          {
+            "id": 2,
+            "word": "祖母",
+            "furigana": "そぼ",
+            "romanji": "sobo",
+            "meanings": {
+              "id": "nenek (saya)",
+              "en": "grandmother"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "ゾ",
+        "romanji": "zo",
+        "examples": [
+          {
+            "id": 3,
+            "word": "先祖",
+            "furigana": "せんぞ",
+            "romanji": "senzo",
+            "meanings": {
+              "id": "leluhur",
+              "en": "ancestor"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kakek (saya)",
+    "en": "ancestor, grandfather"
+  }
+}

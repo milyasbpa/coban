@@ -1,0 +1,48 @@
+{
+  "id": 37,
+  "character": "同",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "おな",
+        "romanji": "ona",
+        "examples": [
+          {
+            "id": 1,
+            "word": "同じ",
+            "furigana": "おなじ",
+            "romanji": "onaji",
+            "meanings": {
+              "id": "sama",
+              "en": "same"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 2,
+            "word": "同情",
+            "furigana": "どうじょう",
+            "romanji": "doujou",
+            "meanings": {
+              "id": "simpati",
+              "en": "sympathy"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "sama",
+    "en": "same"
+  }
+}

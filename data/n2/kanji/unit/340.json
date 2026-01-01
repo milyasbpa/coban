@@ -1,0 +1,48 @@
+{
+  "id": 340,
+  "character": "損",
+  "strokes": 13,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "そこ",
+        "romanji": "soko",
+        "examples": [
+          {
+            "id": 1,
+            "word": "損なう",
+            "furigana": "そこなう",
+            "romanji": "sokonau",
+            "meanings": {
+              "id": "merugikan",
+              "en": "to harm"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ソン",
+        "romanji": "son",
+        "examples": [
+          {
+            "id": 2,
+            "word": "損害",
+            "furigana": "そんがい",
+            "romanji": "songai",
+            "meanings": {
+              "id": "kerugian, kerusakan",
+              "en": "loss, damage"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "merugikan, kerugian, kerusakan",
+    "en": "to harm, loss, damage"
+  }
+}

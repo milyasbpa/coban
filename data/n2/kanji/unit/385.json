@@ -1,0 +1,48 @@
+{
+  "id": 385,
+  "character": "管",
+  "strokes": 14,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "くだ",
+        "romanji": "kuda",
+        "examples": [
+          {
+            "id": 1,
+            "word": "管",
+            "furigana": "くだ",
+            "romanji": "kuda",
+            "meanings": {
+              "id": "pipa, slang",
+              "en": "pipe, tube"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カン",
+        "romanji": "kan",
+        "examples": [
+          {
+            "id": 2,
+            "word": "管理",
+            "furigana": "かんり",
+            "romanji": "kanri",
+            "meanings": {
+              "id": "pengelolaan",
+              "en": "management"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "pipa, slang, pengelolaan",
+    "en": "pipe, tube, management"
+  }
+}

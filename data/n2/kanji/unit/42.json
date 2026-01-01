@@ -1,0 +1,47 @@
+{
+  "id": 42,
+  "character": "灰",
+  "strokes": 6,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "はい",
+        "romanji": "hai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "灰皿",
+            "furigana": "はいざら",
+            "romanji": "haizara",
+            "meanings": {
+              "id": "asbak",
+              "en": "ashtray"
+            }
+          },
+          {
+            "id": 2,
+            "word": "灰",
+            "furigana": "はい",
+            "romanji": "hai",
+            "meanings": {
+              "id": "abu, debu",
+              "en": "ash, dust"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": []
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "asbak, abu, debu",
+    "en": "ashtray, ash, dust"
+  }
+}

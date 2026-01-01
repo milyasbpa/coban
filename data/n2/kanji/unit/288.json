@@ -1,0 +1,48 @@
+{
+  "id": 288,
+  "character": "堅",
+  "strokes": 12,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "かた",
+        "romanji": "kata",
+        "examples": [
+          {
+            "id": 1,
+            "word": "堅い",
+            "furigana": "かたい",
+            "romanji": "katai",
+            "meanings": {
+              "id": "kokoh, kuat, keras",
+              "en": "firm, solid"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ケン",
+        "romanji": "ken",
+        "examples": [
+          {
+            "id": 2,
+            "word": "堅実",
+            "furigana": "けんじつ",
+            "romanji": "kenjitsu",
+            "meanings": {
+              "id": "konsisten, kuat, kokoh",
+              "en": "consistent, strong"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "kokoh, kuat, keras",
+    "en": "firm, solid, hard"
+  }
+}

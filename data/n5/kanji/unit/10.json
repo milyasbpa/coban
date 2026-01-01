@@ -1,0 +1,33 @@
+{
+  "id": 10,
+  "character": "万",
+  "strokes": 3,
+  "readings": {
+    "kun": [],
+    "on": [
+      {
+        "furigana": "マン",
+        "romanji": "man",
+        "examples": []
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "万国",
+          "furigana": "ばんこく",
+          "romanji": "bankoku",
+          "meanings": {
+            "id": "seluruh negara",
+            "en": "all nations"
+          }
+        }
+      ]
+    }
+  },
+  "meanings": {
+    "id": "sepuluh ribu",
+    "en": "ten thousand"
+  }
+}

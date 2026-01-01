@@ -1,0 +1,48 @@
+{
+  "id": 265,
+  "character": "設",
+  "strokes": 11,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "もう",
+        "romanji": "mou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "設ける",
+            "furigana": "もうける",
+            "romanji": "moukeru",
+            "meanings": {
+              "id": "mempersiapkan",
+              "en": "to prepare"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "セツ",
+        "romanji": "setsu",
+        "examples": [
+          {
+            "id": 2,
+            "word": "設立",
+            "furigana": "せつりつ",
+            "romanji": "setsuritsu",
+            "meanings": {
+              "id": "mendirikan, membentuk",
+              "en": "to establish, to form"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "mempersiapkan, mendirikan, membentuk",
+    "en": "to prepare, to establish, to form"
+  }
+}

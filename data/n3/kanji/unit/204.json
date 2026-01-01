@@ -1,0 +1,64 @@
+{
+  "id": 204,
+  "character": "祝",
+  "strokes": 9,
+  "readings": {
+    "kun": [
+      {
+        "furigana": "いわ",
+        "romanji": "iwa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "祝う",
+            "furigana": "いわう",
+            "romanji": "iwau",
+            "meanings": {
+              "id": "merayakan",
+              "en": "to celebrate"
+            }
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シュク",
+        "romanji": "shuku",
+        "examples": [
+          {
+            "id": 2,
+            "word": "祝日",
+            "furigana": "しゅくじつ",
+            "romanji": "shukujitsu",
+            "meanings": {
+              "id": "hari raya",
+              "en": "holiday"
+            }
+          }
+        ]
+      },
+      {
+        "furigana": "シュウ",
+        "romanji": "shuu",
+        "examples": [
+          {
+            "id": 3,
+            "word": "祝儀",
+            "furigana": "しゅうぎ",
+            "romanji": "shuugi",
+            "meanings": {
+              "id": "hadiah perayaan",
+              "en": "celebration gift"
+            }
+          }
+        ]
+      }
+    ],
+    "exception": null
+  },
+  "meanings": {
+    "id": "merayakan, hari raya, hadiah perayaan",
+    "en": "celebrate, holiday, celebration gift"
+  }
+}
