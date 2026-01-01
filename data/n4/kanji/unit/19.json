@@ -1,40 +1,108 @@
 {
   "id": 19,
-  "character": "用",
+  "character": "仕",
   "strokes": 5,
   "readings": {
     "kun": [
       {
-        "furigana": "もち",
-        "romanji": "mochi",
+        "furigana": "つか",
+        "romanji": "tsuka",
         "examples": [
           {
             "id": 1,
-            "word": "用いる",
-            "furigana": "もちいる",
-            "romanji": "mochiiru",
+            "word": "仕える",
+            "furigana": "つかえる",
+            "romanji": "tsukaeru",
             "meanings": {
-              "id": "menggunakan",
-              "en": "to use"
-            }
+              "id": "melayani",
+              "en": "to serve"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は王様に仕えています。",
+                "furigana": "かれはおうさまにつかえています。",
+                "romaji": "kare wa ousama ni tsukaete imasu.",
+                "meanings": {
+                  "id": "Dia melayani raja.",
+                  "en": "He serves the king."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ヨウ",
-        "romanji": "you",
+        "furigana": "シ",
+        "romanji": "shi",
         "examples": [
           {
-            "id": 2,
-            "word": "用事",
-            "furigana": "ようじ",
-            "romanji": "youji",
+            "id": 1,
+            "word": "仕事",
+            "furigana": "しごと",
+            "romanji": "shigoto",
             "meanings": {
-              "id": "urusan",
-              "en": "business"
-            }
+              "id": "pekerjaan",
+              "en": "work, job"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "明日は仕事が休みです。",
+                "furigana": "あしたはしごとがやすみです。",
+                "romaji": "ashita wa shigoto ga yasumi desu.",
+                "meanings": {
+                  "id": "Besok pekerjaan libur.",
+                  "en": "Tomorrow is a day off from work."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "仕方",
+            "furigana": "しかた",
+            "romanji": "shikata",
+            "meanings": {
+              "id": "cara, upaya",
+              "en": "way, method"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "仕方がないので、諦めました。",
+                "furigana": "しかたがないので、あきらめました。",
+                "romaji": "shikata ga nai node, akiramemashita.",
+                "meanings": {
+                  "id": "Karena tidak ada cara lain, saya menyerah.",
+                  "en": "Since there's no other way, I gave up."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "奉仕",
+            "furigana": "ほうし",
+            "romanji": "houshi",
+            "meanings": {
+              "id": "pengabdian",
+              "en": "service, devotion"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "地域のために奉仕活動をしています。",
+                "furigana": "ちいきのためにほうしかつどうをしています。",
+                "romaji": "chiiki no tame ni houshi katsudou wo shite imasu.",
+                "meanings": {
+                  "id": "Saya melakukan kegiatan pengabdian untuk daerah.",
+                  "en": "I am doing service activities for the community."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "menggunakan",
-    "en": "use"
+    "id": "melayani, pekerjaan",
+    "en": "serve, work"
   }
 }
