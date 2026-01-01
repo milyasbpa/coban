@@ -1,40 +1,64 @@
 {
   "id": 29,
-  "character": "安",
+  "character": "池",
   "strokes": 6,
   "readings": {
     "kun": [
       {
-        "furigana": "やす",
-        "romanji": "yasu",
+        "furigana": "いけ",
+        "romanji": "ike",
         "examples": [
           {
             "id": 1,
-            "word": "安い",
-            "furigana": "やすい",
-            "romanji": "yasui",
+            "word": "池",
+            "furigana": "いけ",
+            "romanji": "ike",
             "meanings": {
-              "id": "murah",
-              "en": "cheap"
-            }
+              "id": "kolam",
+              "en": "pond"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "公園の池に魚がたくさんいます。",
+                "furigana": "こうえんのいけにさかながたくさんいます。",
+                "romaji": "kouen no ike ni sakana ga takusan imasu.",
+                "meanings": {
+                  "id": "Ada banyak ikan di kolam taman.",
+                  "en": "There are many fish in the park pond."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "アン",
-        "romanji": "an",
+        "furigana": "チ",
+        "romanji": "chi",
         "examples": [
           {
-            "id": 2,
-            "word": "安全",
-            "furigana": "あんぜん",
-            "romanji": "anzen",
+            "id": 1,
+            "word": "電池",
+            "furigana": "でんち",
+            "romanji": "denchi",
             "meanings": {
-              "id": "aman",
-              "en": "safe"
-            }
+              "id": "baterai",
+              "en": "battery"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "電池が切れたので、新しいのを買いました。",
+                "furigana": "でんちがきれたので、あたらしいのをかいました。",
+                "romaji": "denchi ga kireta node, atarashii no wo kaimashita.",
+                "meanings": {
+                  "id": "Karena baterainya habis, saya membeli yang baru.",
+                  "en": "Since the battery ran out, I bought a new one."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "murah",
-    "en": "cheap, peaceful"
+    "id": "kolam",
+    "en": "pond"
   }
 }
