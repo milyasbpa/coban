@@ -1,56 +1,130 @@
 {
   "id": 39,
-  "character": "足",
+  "character": "売",
   "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "あし",
-        "romanji": "ashi",
+        "furigana": "う",
+        "romanji": "u",
         "examples": [
           {
             "id": 1,
-            "word": "足",
-            "furigana": "あし",
-            "romanji": "ashi",
+            "word": "売る",
+            "furigana": "うる",
+            "romanji": "uru",
             "meanings": {
-              "id": "kaki",
-              "en": "foot"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "た",
-        "romanji": "ta",
-        "examples": [
+              "id": "menjual",
+              "en": "to sell"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "古い本を売りました。",
+                "furigana": "ふるいほんをうりました。",
+                "romaji": "furui hon wo urimashita.",
+                "meanings": {
+                  "id": "Saya menjual buku lama.",
+                  "en": "I sold old books."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "足りる",
-            "furigana": "たりる",
-            "romanji": "tariru",
+            "word": "売り場",
+            "furigana": "うりば",
+            "romanji": "uriba",
             "meanings": {
-              "id": "cukup",
-              "en": "to be sufficient"
-            }
+              "id": "tempat menjual",
+              "en": "sales counter, sales floor"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "果物の売り場はどこですか。",
+                "furigana": "くだもののうりばはどこですか。",
+                "romaji": "kudamono no uriba wa doko desu ka.",
+                "meanings": {
+                  "id": "Di mana tempat penjualan buah?",
+                  "en": "Where is the fruit sales counter?"
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ソク",
-        "romanji": "soku",
+        "furigana": "バイ",
+        "romanji": "bai",
         "examples": [
           {
-            "id": 3,
-            "word": "一足",
-            "furigana": "いっそく",
-            "romanji": "issoku",
+            "id": 1,
+            "word": "売店",
+            "furigana": "ばいてん",
+            "romanji": "baiten",
             "meanings": {
-              "id": "satu pasang (sepatu)",
-              "en": "one pair (shoes)"
-            }
+              "id": "toko, kios",
+              "en": "shop, stand"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "駅の売店で飲み物を買いました。",
+                "furigana": "えきのばいてんでのみものをかいました。",
+                "romaji": "eki no baiten de nomimono wo kaimashita.",
+                "meanings": {
+                  "id": "Saya membeli minuman di kios stasiun.",
+                  "en": "I bought a drink at the station kiosk."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "商売",
+            "furigana": "しょうばい",
+            "romanji": "shoubai",
+            "meanings": {
+              "id": "dagang",
+              "en": "business, trade"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は商売をしています。",
+                "furigana": "ちちはしょうばいをしています。",
+                "romaji": "chichi wa shoubai wo shite imasu.",
+                "meanings": {
+                  "id": "Ayah sedang berdagang.",
+                  "en": "My father is doing business."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "販売",
+            "furigana": "はんばい",
+            "romanji": "hanbai",
+            "meanings": {
+              "id": "penjualan",
+              "en": "sales, selling"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新商品の販売が始まりました。",
+                "furigana": "しんしょうひんのはんばいがはじまりました。",
+                "romaji": "shinshouhin no hanbai ga hajimarimashita.",
+                "meanings": {
+                  "id": "Penjualan produk baru telah dimulai.",
+                  "en": "Sales of the new product have started."
+                }
+              }
+            ]
           }
         ]
       }
@@ -58,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "kaki",
-    "en": "foot, leg"
+    "id": "menjual",
+    "en": "sell"
   }
 }
