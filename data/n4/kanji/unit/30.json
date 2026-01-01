@@ -1,40 +1,85 @@
 {
   "id": 30,
-  "character": "早",
+  "character": "地",
   "strokes": 6,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "はや",
-        "romanji": "haya",
+        "furigana": "チ",
+        "romanji": "chi",
         "examples": [
           {
             "id": 1,
-            "word": "早い",
-            "furigana": "はやい",
-            "romanji": "hayai",
+            "word": "地図",
+            "furigana": "ちず",
+            "romanji": "chizu",
             "meanings": {
-              "id": "pagi-pagi, cepat",
-              "en": "early"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ソウ",
-        "romanji": "sou",
-        "examples": [
+              "id": "peta",
+              "en": "map"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "地図を見ながら駅を探しました。",
+                "furigana": "ちずをみながらえきをさがしました。",
+                "romaji": "chizu wo minagara eki wo sagashimashita.",
+                "meanings": {
+                  "id": "Saya mencari stasiun sambil melihat peta.",
+                  "en": "I looked for the station while looking at the map."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "早朝",
-            "furigana": "そうちょう",
-            "romanji": "souchou",
+            "word": "土地",
+            "furigana": "とち",
+            "romanji": "tochi",
             "meanings": {
-              "id": "pagi-pagi sekali",
-              "en": "early morning"
-            }
+              "id": "tanah",
+              "en": "land"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この土地は高いです。",
+                "furigana": "このとちはたかいです。",
+                "romaji": "kono tochi wa takai desu.",
+                "meanings": {
+                  "id": "Tanah ini mahal.",
+                  "en": "This land is expensive."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ジ",
+        "romanji": "ji",
+        "examples": [
+          {
+            "id": 1,
+            "word": "地面",
+            "furigana": "じめん",
+            "romanji": "jimen",
+            "meanings": {
+              "id": "permukaan tanah",
+              "en": "ground, surface"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "雨で地面が濡れています。",
+                "furigana": "あめでじめんがぬれています。",
+                "romaji": "ame de jimen ga nurete imasu.",
+                "meanings": {
+                  "id": "Permukaan tanah basah karena hujan.",
+                  "en": "The ground is wet from the rain."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +87,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "pagi-pagi, cepat",
-    "en": "early, fast"
+    "id": "tanah, tempat",
+    "en": "ground, land"
   }
 }
