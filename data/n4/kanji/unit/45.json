@@ -1,48 +1,125 @@
 {
   "id": 45,
-  "character": "町",
+  "character": "弟",
   "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "まち",
-        "romanji": "machi",
+        "furigana": "おとうと",
+        "romanji": "otouto",
         "examples": [
           {
             "id": 1,
-            "word": "町",
-            "furigana": "まち",
-            "romanji": "machi",
+            "word": "弟",
+            "furigana": "おとうと",
+            "romanji": "otouto",
             "meanings": {
-              "id": "kota",
-              "en": "town"
-            }
+              "id": "adik laki-laki (saya)",
+              "en": "younger brother"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "弟は高校生です。",
+                "furigana": "おとうとはこうこうせいです。",
+                "romaji": "otouto wa koukousei desu.",
+                "meanings": {
+                  "id": "Adik laki-laki saya adalah siswa SMA.",
+                  "en": "My younger brother is a high school student."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "チョウ",
-        "romanji": "chou",
+        "furigana": "テイ",
+        "romanji": "tei",
         "examples": [
           {
-            "id": 2,
-            "word": "町長",
-            "furigana": "ちょうちょう",
-            "romanji": "chouchou",
+            "id": 1,
+            "word": "師弟",
+            "furigana": "してい",
+            "romanji": "shitei",
             "meanings": {
-              "id": "walikota",
-              "en": "mayor"
-            }
+              "id": "guru dan murid",
+              "en": "teacher and student"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "師弟の関係を大切にしています。",
+                "furigana": "していのかんけいをたいせつにしています。",
+                "romaji": "shitei no kankei wo taisetsu ni shite imasu.",
+                "meanings": {
+                  "id": "Saya menjaga hubungan guru dan murid dengan baik.",
+                  "en": "I value the teacher-student relationship."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ダイ",
+        "romanji": "dai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "兄弟",
+            "furigana": "きょうだい",
+            "romanji": "kyoudai",
+            "meanings": {
+              "id": "kakak beradik (laki-laki)",
+              "en": "brothers, siblings"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は兄弟が三人います。",
+                "furigana": "わたしはきょうだいがさんにんいます。",
+                "romaji": "watashi wa kyoudai ga sannin imasu.",
+                "meanings": {
+                  "id": "Saya memiliki tiga saudara.",
+                  "en": "I have three siblings."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": null
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "弟子",
+          "furigana": "でし",
+          "romanji": "deshi",
+          "meanings": {
+            "id": "murid, siswa magang",
+            "en": "disciple, pupil"
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "彼は有名な先生の弟子です。",
+              "furigana": "かれはゆうめいなせんせいのでしです。",
+              "romaji": "kare wa yuumei na sensei no deshi desu.",
+              "meanings": {
+                "id": "Dia adalah murid dari guru terkenal.",
+                "en": "He is a disciple of a famous teacher."
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   "meanings": {
-    "id": "kota",
-    "en": "town"
+    "id": "adik laki-laki",
+    "en": "younger brother"
   }
 }
