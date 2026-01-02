@@ -1,66 +1,100 @@
 {
   "id": 43,
-  "character": "弟",
+  "character": "私",
   "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "おとうと",
-        "romanji": "otouto",
+        "furigana": "わたし",
+        "romanji": "watashi",
         "examples": [
           {
             "id": 1,
-            "word": "弟",
-            "furigana": "おとうと",
-            "romanji": "otouto",
+            "word": "私",
+            "furigana": "わたし",
+            "romanji": "watashi",
             "meanings": {
-              "id": "adik laki-laki (saya)",
-              "en": "younger brother"
-            }
+              "id": "saya",
+              "en": "I, me"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は学生です。",
+                "furigana": "わたしはがくせいです。",
+                "romaji": "watashi wa gakusei desu.",
+                "meanings": {
+                  "id": "Saya adalah pelajar.",
+                  "en": "I am a student."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "わたくし",
+        "romanji": "watakushi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "私",
+            "furigana": "わたくし",
+            "romanji": "watakushi",
+            "meanings": {
+              "id": "saya (bentuk merendah)",
+              "en": "I, me (formal)"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は田中と申します。",
+                "furigana": "わたくしはたなかともうします。",
+                "romaji": "watakushi wa tanaka to moushimasu.",
+                "meanings": {
+                  "id": "Saya bernama Tanaka (formal).",
+                  "en": "My name is Tanaka (formal)."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "テイ",
-        "romanji": "tei",
-        "examples": []
-      },
-      {
-        "furigana": "ダイ",
-        "romanji": "dai",
+        "furigana": "シ",
+        "romanji": "shi",
         "examples": [
           {
-            "id": 3,
-            "word": "兄弟",
-            "furigana": "きょうだい",
-            "romanji": "kyoudai",
+            "id": 1,
+            "word": "私立",
+            "furigana": "しりつ",
+            "romanji": "shiritsu",
             "meanings": {
-              "id": "kakak beradik (laki-laki)",
-              "en": "brothers"
-            }
+              "id": "swasta",
+              "en": "private"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私立の学校に通っています。",
+                "furigana": "しりつのがっこうにかよっています。",
+                "romaji": "shiritsu no gakkou ni kayotte imasu.",
+                "meanings": {
+                  "id": "Saya bersekolah di sekolah swasta.",
+                  "en": "I attend a private school."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "弟子",
-          "furigana": "でし",
-          "romanji": "deshi",
-          "meanings": {
-            "id": "anak didik",
-            "en": "disciple"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "adik laki-laki (saya)",
-    "en": "younger brother"
+    "id": "saya",
+    "en": "I, private"
   }
 }
