@@ -1,40 +1,158 @@
 {
   "id": 54,
-  "character": "店",
+  "character": "夜",
   "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "みせ",
-        "romanji": "mise",
+        "furigana": "よる",
+        "romanji": "yoru",
         "examples": [
           {
             "id": 1,
-            "word": "店",
-            "furigana": "みせ",
-            "romanji": "mise",
+            "word": "夜",
+            "furigana": "よる",
+            "romanji": "yoru",
             "meanings": {
-              "id": "toko",
-              "en": "shop"
-            }
+              "id": "malam",
+              "en": "night"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夜は静かに勉強します。",
+                "furigana": "よるはしずかにべんきょうします。",
+                "romaji": "yoru wa shizuka ni benkyou shimasu.",
+                "meanings": {
+                  "id": "Saya belajar dengan tenang di malam hari.",
+                  "en": "I study quietly at night."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "よ",
+        "romanji": "yo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "夜中",
+            "furigana": "よなか",
+            "romanji": "yonaka",
+            "meanings": {
+              "id": "tengah malam",
+              "en": "midnight"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夜中に電話がかかってきました。",
+                "furigana": "よなかにでんわがかかってきました。",
+                "romaji": "yonaka ni denwa ga kakatte kimashita.",
+                "meanings": {
+                  "id": "Ada telepon masuk tengah malam.",
+                  "en": "A phone call came in the middle of the night."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "夜明け",
+            "furigana": "よあけ",
+            "romanji": "yoake",
+            "meanings": {
+              "id": "fajar",
+              "en": "dawn, daybreak"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夜明けに散歩するのが好きです。",
+                "furigana": "よあけにさんぽするのがすきです。",
+                "romaji": "yoake ni sanpo suru no ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka berjalan-jalan saat fajar.",
+                  "en": "I like to take a walk at dawn."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "テン",
-        "romanji": "ten",
+        "furigana": "ヤ",
+        "romanji": "ya",
         "examples": [
           {
-            "id": 2,
-            "word": "喫茶店",
-            "furigana": "きっさてん",
-            "romanji": "kissaten",
+            "id": 1,
+            "word": "夜景",
+            "furigana": "やけい",
+            "romanji": "yakei",
             "meanings": {
-              "id": "kafe",
-              "en": "cafe"
-            }
+              "id": "pemandangan malam",
+              "en": "night view"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "東京の夜景はとてもきれいです。",
+                "furigana": "とうきょうのやけいはとてもきれいです。",
+                "romaji": "toukyou no yakei wa totemo kirei desu.",
+                "meanings": {
+                  "id": "Pemandangan malam Tokyo sangat indah.",
+                  "en": "Tokyo's night view is very beautiful."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "今夜",
+            "furigana": "こんや",
+            "romanji": "konya",
+            "meanings": {
+              "id": "malam ini",
+              "en": "tonight"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今夜は友達と食事に行きます。",
+                "furigana": "こんやはともだちとしょくじにいきます。",
+                "romaji": "konya wa tomodachi to shokuji ni ikimasu.",
+                "meanings": {
+                  "id": "Malam ini saya akan pergi makan dengan teman.",
+                  "en": "Tonight I will go to dinner with my friend."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "徹夜",
+            "furigana": "てつや",
+            "romanji": "tetsuya",
+            "meanings": {
+              "id": "bergadang",
+              "en": "staying up all night"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "試験の前に徹夜で勉強しました。",
+                "furigana": "しけんのまえにてつやでべんきょうしました。",
+                "romaji": "shiken no mae ni tetsuya de benkyou shimashita.",
+                "meanings": {
+                  "id": "Saya bergadang belajar sebelum ujian.",
+                  "en": "I stayed up all night studying before the exam."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +160,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "toko",
-    "en": "shop, store"
+    "id": "malam",
+    "en": "night, evening"
   }
 }
