@@ -1,40 +1,63 @@
 {
   "id": 53,
-  "character": "究",
-  "strokes": 7,
+  "character": "京",
+  "strokes": 8,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "きわ",
-        "romanji": "kiwa",
+        "furigana": "キョウ",
+        "romanji": "kyou",
         "examples": [
           {
             "id": 1,
-            "word": "究める",
-            "furigana": "きわめる",
-            "romanji": "kiwameru",
+            "word": "京都",
+            "furigana": "きょうと",
+            "romanji": "kyouto",
             "meanings": {
-              "id": "mendalam permasalahan",
-              "en": "to investigate thoroughly"
-            }
+              "id": "Kyoto",
+              "en": "Kyoto"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来月、京都へ旅行に行きます。",
+                "furigana": "らいげつ、きょうとへりょこうにいきます。",
+                "romaji": "raigetsu, kyouto e ryokou ni ikimasu.",
+                "meanings": {
+                  "id": "Bulan depan saya akan pergi berlibur ke Kyoto.",
+                  "en": "Next month, I will go on a trip to Kyoto."
+                }
+              }
+            ]
           }
         ]
-      }
-    ],
-    "on": [
+      },
       {
-        "furigana": "キュウ",
-        "romanji": "kyuu",
+        "furigana": "ケイ",
+        "romanji": "kei",
         "examples": [
           {
-            "id": 2,
-            "word": "研究",
-            "furigana": "けんきゅう",
-            "romanji": "kenkyuu",
+            "id": 1,
+            "word": "京阪",
+            "furigana": "けいはん",
+            "romanji": "keihan",
             "meanings": {
-              "id": "penelitian",
-              "en": "research"
-            }
+              "id": "Kyoto-Osaka",
+              "en": "Kyoto-Osaka"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "京阪電車で大阪に行きました。",
+                "furigana": "けいはんでんしゃでおおさかにいきました。",
+                "romaji": "keihan densha de oosaka ni ikimashita.",
+                "meanings": {
+                  "id": "Saya pergi ke Osaka dengan kereta Keihan.",
+                  "en": "I went to Osaka by Keihan train."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +65,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mendalam permasalahan",
-    "en": "research, investigate"
+    "id": "ibukota",
+    "en": "capital"
   }
 }
