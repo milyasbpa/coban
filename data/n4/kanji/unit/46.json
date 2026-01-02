@@ -1,50 +1,86 @@
 {
   "id": 46,
-  "character": "住",
+  "character": "町",
   "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "す",
-        "romanji": "su",
+        "furigana": "まち",
+        "romanji": "machi",
         "examples": [
           {
             "id": 1,
-            "word": "住む",
-            "furigana": "すむ",
-            "romanji": "sumu",
+            "word": "町",
+            "furigana": "まち",
+            "romanji": "machi",
             "meanings": {
-              "id": "tinggal",
-              "en": "to live"
-            }
+              "id": "kota",
+              "en": "town, city"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この町は静かで住みやすいです。",
+                "furigana": "このまちはしずかですみやすいです。",
+                "romaji": "kono machi wa shizuka de sumiyasui desu.",
+                "meanings": {
+                  "id": "Kota ini tenang dan nyaman untuk ditinggali.",
+                  "en": "This town is quiet and easy to live in."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "住まい",
-            "furigana": "すまい",
-            "romanji": "sumai",
+            "word": "下町",
+            "furigana": "したまち",
+            "romanji": "shitamachi",
             "meanings": {
-              "id": "tempat tinggal",
-              "en": "residence"
-            }
+              "id": "bagian kota yang ramai",
+              "en": "downtown, old town district"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "下町で美味しいラーメン屋を見つけました。",
+                "furigana": "したまちでおいしいラーメンやをみつけました。",
+                "romaji": "shitamachi de oishii raamenya wo mitsukemashita.",
+                "meanings": {
+                  "id": "Saya menemukan kedai ramen yang enak di bagian kota yang ramai.",
+                  "en": "I found a delicious ramen shop in the downtown area."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ジュウ",
-        "romanji": "juu",
+        "furigana": "チョウ",
+        "romanji": "chou",
         "examples": [
           {
-            "id": 3,
-            "word": "住所",
-            "furigana": "じゅうしょ",
-            "romanji": "juusho",
+            "id": 1,
+            "word": "町長",
+            "furigana": "ちょうちょう",
+            "romanji": "chouchou",
             "meanings": {
-              "id": "alamat",
-              "en": "address"
-            }
+              "id": "wali kota",
+              "en": "mayor"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "町長は新しい公園を作ると言いました。",
+                "furigana": "ちょうちょうはあたらしいこうえんをつくるといいました。",
+                "romaji": "chouchou wa atarashii kouen wo tsukuru to iimashita.",
+                "meanings": {
+                  "id": "Wali kota mengatakan akan membuat taman baru.",
+                  "en": "The mayor said he would build a new park."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +88,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "tinggal",
-    "en": "live, reside"
+    "id": "kota",
+    "en": "town, city"
   }
 }
