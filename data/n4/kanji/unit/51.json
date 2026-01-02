@@ -1,39 +1,108 @@
 {
   "id": 51,
-  "character": "役",
-  "strokes": 7,
+  "character": "始",
+  "strokes": 8,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "ヤク",
-        "romanji": "yaku",
+        "furigana": "はじ",
+        "romanji": "haji",
         "examples": [
           {
             "id": 1,
-            "word": "役に立つ",
-            "furigana": "やくにたつ",
-            "romanji": "yakunitatsu",
+            "word": "始まる",
+            "furigana": "はじまる",
+            "romanji": "hajimaru",
             "meanings": {
-              "id": "berguna",
-              "en": "to be useful"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "エキ",
-        "romanji": "eki",
-        "examples": [
+              "id": "mulai",
+              "en": "to begin, to start"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "授業は9時に始まります。",
+                "furigana": "じゅぎょうは9じにはじまります。",
+                "romaji": "jugyou wa kuji ni hajimarimasu.",
+                "meanings": {
+                  "id": "Kelas dimulai pada pukul 9.",
+                  "en": "Class starts at 9 o'clock."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "兵役",
-            "furigana": "へいえき",
-            "romanji": "heieki",
+            "word": "始める",
+            "furigana": "はじめる",
+            "romanji": "hajimeru",
             "meanings": {
-              "id": "dinas kemiliteran",
-              "en": "military service"
-            }
+              "id": "memulai",
+              "en": "to begin, to start (transitive)"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "明日から新しい仕事を始めます。",
+                "furigana": "あしたからあたらしいしごとをはじめます。",
+                "romaji": "ashita kara atarashii shigoto wo hajimemasu.",
+                "meanings": {
+                  "id": "Besok saya akan memulai pekerjaan baru.",
+                  "en": "I will start a new job from tomorrow."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "始発",
+            "furigana": "しはつ",
+            "romanji": "shihatsu",
+            "meanings": {
+              "id": "kereta pertama (berangkat)",
+              "en": "first train"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "始発に乗って空港に行きました。",
+                "furigana": "しはつにのってくうこうにいきました。",
+                "romaji": "shihatsu ni notte kuukou ni ikimashita.",
+                "meanings": {
+                  "id": "Saya naik kereta pertama dan pergi ke bandara.",
+                  "en": "I took the first train and went to the airport."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "開始",
+            "furigana": "かいし",
+            "romanji": "kaishi",
+            "meanings": {
+              "id": "mulai",
+              "en": "start, commencement"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "試合の開始時間は午後2時です。",
+                "furigana": "しあいのかいしじかんはごご2じです。",
+                "romaji": "shiai no kaishi jikan wa gogo niji desu.",
+                "meanings": {
+                  "id": "Waktu mulai pertandingan adalah pukul 2 siang.",
+                  "en": "The start time of the match is 2 PM."
+                }
+              }
+            ]
           }
         ]
       }
@@ -41,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berguna",
-    "en": "role, service"
+    "id": "mulai",
+    "en": "begin, start"
   }
 }
