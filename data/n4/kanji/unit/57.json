@@ -1,50 +1,86 @@
 {
   "id": 57,
-  "character": "始",
+  "character": "注",
   "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "はじ",
-        "romanji": "haji",
+        "furigana": "そそ",
+        "romanji": "soso",
         "examples": [
           {
             "id": 1,
-            "word": "始まる",
-            "furigana": "はじまる",
-            "romanji": "hajimaru",
+            "word": "注ぐ",
+            "furigana": "そそぐ",
+            "romanji": "sosogu",
             "meanings": {
-              "id": "mulai",
-              "en": "to begin"
-            }
-          },
-          {
-            "id": 2,
-            "word": "始める",
-            "furigana": "はじめる",
-            "romanji": "hajimeru",
-            "meanings": {
-              "id": "memulai",
-              "en": "to start"
-            }
+              "id": "menuang",
+              "en": "to pour"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "コップに水を注いでください。",
+                "furigana": "コップにみずをそそいでください。",
+                "romaji": "koppu ni mizu wo sosoide kudasai.",
+                "meanings": {
+                  "id": "Tolong tuangkan air ke gelas.",
+                  "en": "Please pour water into the glass."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シ",
-        "romanji": "shi",
+        "furigana": "チュウ",
+        "romanji": "chuu",
         "examples": [
           {
-            "id": 3,
-            "word": "始発",
-            "furigana": "しはつ",
-            "romanji": "shihatsu",
+            "id": 1,
+            "word": "注意",
+            "furigana": "ちゅうい",
+            "romanji": "chuui",
             "meanings": {
-              "id": "kereta pertama (berangkat)",
-              "en": "first train"
-            }
+              "id": "perhatian",
+              "en": "attention, caution"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "車に注意して道を渡ってください。",
+                "furigana": "くるまにちゅういしてみちをわたってください。",
+                "romaji": "kuruma ni chuui shite michi wo watatte kudasai.",
+                "meanings": {
+                  "id": "Tolong hati-hati dengan mobil saat menyeberang jalan.",
+                  "en": "Please be careful of cars when crossing the street."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "注文",
+            "furigana": "ちゅうもん",
+            "romanji": "chuumon",
+            "meanings": {
+              "id": "pesanan",
+              "en": "order"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "レストランで料理を注文しました。",
+                "furigana": "レストランでりょうりをちゅうもんしました。",
+                "romaji": "resutoran de ryouri wo chuumon shimashita.",
+                "meanings": {
+                  "id": "Saya memesan makanan di restoran.",
+                  "en": "I ordered food at the restaurant."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +88,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mulai",
-    "en": "begin, start"
+    "id": "menuang",
+    "en": "pour, concentrate"
   }
 }
