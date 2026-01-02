@@ -1,65 +1,100 @@
 {
   "id": 58,
-  "character": "歩",
+  "character": "門",
   "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "あろ",
-        "romanji": "aro",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ホ",
-        "romanji": "ho",
+        "furigana": "かど",
+        "romanji": "kado",
         "examples": [
           {
-            "id": 2,
-            "word": "歩道",
-            "furigana": "ほどう",
-            "romanji": "hodou",
+            "id": 1,
+            "word": "門",
+            "furigana": "かど",
+            "romanji": "kado",
             "meanings": {
-              "id": "trotoar",
-              "en": "sidewalk"
-            }
+              "id": "pintu gerbang",
+              "en": "gate"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "学校の門の前で待っています。",
+                "furigana": "がっこうのかどのまえでまっています。",
+                "romaji": "gakkou no kado no mae de matte imasu.",
+                "meanings": {
+                  "id": "Saya sedang menunggu di depan gerbang sekolah.",
+                  "en": "I am waiting in front of the school gate."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ボ",
-        "romanji": "bo",
-        "examples": []
+        "furigana": "と",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "門",
+            "furigana": "と",
+            "romanji": "to",
+            "meanings": {
+              "id": "pintu",
+              "en": "door, gate"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "お寺の門をくぐって中に入りました。",
+                "furigana": "おてらのとをくぐってなかにはいりました。",
+                "romaji": "otera no to wo kugutte naka ni hairimashita.",
+                "meanings": {
+                  "id": "Saya melewati gerbang kuil dan masuk ke dalam.",
+                  "en": "I passed through the temple gate and entered inside."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 1,
-          "word": "歩く",
-          "furigana": "あるく",
-          "romanji": "aruku",
-          "meanings": {
-            "id": "berjalan",
-            "en": "to walk"
+    "on": [
+      {
+        "furigana": "モン",
+        "romanji": "mon",
+        "examples": [
+          {
+            "id": 1,
+            "word": "門",
+            "furigana": "もん",
+            "romanji": "mon",
+            "meanings": {
+              "id": "pintu gerbang",
+              "en": "gate"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "公園の正門は朝6時に開きます。",
+                "furigana": "こうえんのせいもんはあさ6じにひらきます。",
+                "romaji": "kouen no seimon wa asa rokuji ni hirakimasu.",
+                "meanings": {
+                  "id": "Gerbang utama taman dibuka pada pukul 6 pagi.",
+                  "en": "The main gate of the park opens at 6 AM."
+                }
+              }
+            ]
           }
-        },
-        {
-          "id": 3,
-          "word": "散歩",
-          "furigana": "さんぽ",
-          "romanji": "sanpo",
-          "meanings": {
-            "id": "jalan-jalan (kaki)",
-            "en": "walk, stroll"
-          }
-        }
-      ]
-    }
+        ]
+      }
+    ],
+    "exception": null
   },
   "meanings": {
-    "id": "berjalan",
-    "en": "walk"
+    "id": "pintu gerbang",
+    "en": "gate"
   }
 }
