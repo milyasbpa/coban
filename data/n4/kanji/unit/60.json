@@ -1,82 +1,122 @@
 {
   "id": 60,
-  "character": "所",
+  "character": "歩",
   "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "ところ",
-        "romanji": "tokoro",
+        "furigana": "ある",
+        "romanji": "aru",
         "examples": [
           {
             "id": 1,
-            "word": "所",
-            "furigana": "ところ",
-            "romanji": "tokoro",
+            "word": "歩く",
+            "furigana": "あるく",
+            "romanji": "aruku",
             "meanings": {
-              "id": "tempat",
-              "en": "place"
-            }
+              "id": "berjalan",
+              "en": "to walk"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎朝30分歩いています。",
+                "furigana": "まいあさ30ぷんあるいています。",
+                "romaji": "maiasa sanjuppun aruite imasu.",
+                "meanings": {
+                  "id": "Saya berjalan 30 menit setiap pagi.",
+                  "en": "I walk for 30 minutes every morning."
+                }
+              }
+            ]
           }
         ]
-      },
-      {
-        "furigana": "どころ",
-        "romanji": "dokoro",
-        "examples": []
       }
     ],
     "on": [
       {
-        "furigana": "ショ",
-        "romanji": "sho",
+        "furigana": "ホ",
+        "romanji": "ho",
         "examples": [
           {
-            "id": 3,
-            "word": "所有権",
-            "furigana": "しょゆうけん",
-            "romanji": "shoyuuken",
+            "id": 1,
+            "word": "歩道",
+            "furigana": "ほどう",
+            "romanji": "hodou",
             "meanings": {
-              "id": "hak kepemilikan",
-              "en": "ownership"
-            }
+              "id": "trotoar",
+              "en": "sidewalk"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "歩道を歩いて学校に行きます。",
+                "furigana": "ほどうをあるいてがっこうにいきます。",
+                "romaji": "hodou wo aruite gakkou ni ikimasu.",
+                "meanings": {
+                  "id": "Saya berjalan di trotoar untuk pergi ke sekolah.",
+                  "en": "I walk on the sidewalk to go to school."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ジョ",
-        "romanji": "jo",
+        "furigana": "ポ",
+        "romanji": "po",
         "examples": [
           {
-            "id": 4,
-            "word": "近所",
-            "furigana": "きんじょ",
-            "romanji": "kinjo",
+            "id": 1,
+            "word": "散歩",
+            "furigana": "さんぽ",
+            "romanji": "sanpo",
             "meanings": {
-              "id": "tetangga, berdekat",
-              "en": "neighborhood"
-            }
+              "id": "jalan-jalan (kaki)",
+              "en": "walk, stroll"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夕方に公園で散歩するのが好きです。",
+                "furigana": "ゆうがたにこうえんでさんぽするのがすきです。",
+                "romaji": "yuugata ni kouen de sanpo suru no ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka jalan-jalan di taman saat sore.",
+                  "en": "I like to take a walk in the park in the evening."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "進歩",
+            "furigana": "しんぽ",
+            "romanji": "shinpo",
+            "meanings": {
+              "id": "kemajuan",
+              "en": "progress, advancement"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本語の勉強が進歩してきました。",
+                "furigana": "にほんごのべんきょうがしんぽしてきました。",
+                "romaji": "nihongo no benkyou ga shinpo shite kimashita.",
+                "meanings": {
+                  "id": "Belajar bahasa Jepang saya telah mengalami kemajuan.",
+                  "en": "My Japanese study has made progress."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "台所",
-          "furigana": "だいどころ",
-          "romanji": "daidokoro",
-          "meanings": {
-            "id": "dapur",
-            "en": "kitchen"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "tempat",
-    "en": "place"
+    "id": "berjalan",
+    "en": "walk, step"
   }
 }
