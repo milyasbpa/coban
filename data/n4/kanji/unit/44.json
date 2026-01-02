@@ -1,40 +1,79 @@
 {
   "id": 44,
-  "character": "走",
+  "character": "医",
   "strokes": 7,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "はし",
-        "romanji": "hashi",
+        "furigana": "イ",
+        "romanji": "i",
         "examples": [
           {
             "id": 1,
-            "word": "走る",
-            "furigana": "はしる",
-            "romanji": "hashiru",
+            "word": "医者",
+            "furigana": "いしゃ",
+            "romanji": "isha",
             "meanings": {
-              "id": "berlari",
-              "en": "to run"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ソウ",
-        "romanji": "sou",
-        "examples": [
+              "id": "dokter",
+              "en": "doctor"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "風邪を引いたので、医者に行きました。",
+                "furigana": "かぜをひいたので、いしゃにいきました。",
+                "romaji": "kaze wo hiita node, isha ni ikimashita.",
+                "meanings": {
+                  "id": "Karena masuk angin, saya pergi ke dokter.",
+                  "en": "Since I caught a cold, I went to the doctor."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "逃走",
-            "furigana": "とうそう",
-            "romanji": "tousou",
+            "word": "医院",
+            "furigana": "いいん",
+            "romanji": "iin",
             "meanings": {
-              "id": "melarikan diri",
-              "en": "escape"
-            }
+              "id": "klinik",
+              "en": "clinic"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "近くの医院で診察を受けました。",
+                "furigana": "ちかくのいいんでしんさつをうけました。",
+                "romaji": "chikaku no iin de shinsatsu wo ukemashita.",
+                "meanings": {
+                  "id": "Saya mendapat pemeriksaan di klinik terdekat.",
+                  "en": "I received an examination at a nearby clinic."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "医学",
+            "furigana": "いがく",
+            "romanji": "igaku",
+            "meanings": {
+              "id": "kedokteran",
+              "en": "medical science"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "弟は医学を勉強しています。",
+                "furigana": "おとうとはいがくをべんきょうしています。",
+                "romaji": "otouto wa igaku wo benkyou shite imasu.",
+                "meanings": {
+                  "id": "Adik laki-laki saya belajar kedokteran.",
+                  "en": "My younger brother is studying medicine."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berlari",
-    "en": "run"
+    "id": "kedokteran",
+    "en": "medicine, doctor"
   }
 }
