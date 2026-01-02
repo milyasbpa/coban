@@ -1,51 +1,97 @@
 {
   "id": 50,
-  "character": "医",
-  "strokes": 7,
+  "character": "姉",
+  "strokes": 8,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "イ",
-        "romanji": "i",
+        "furigana": "あね",
+        "romanji": "ane",
         "examples": [
           {
             "id": 1,
-            "word": "医者",
-            "furigana": "いしゃ",
-            "romanji": "isha",
+            "word": "姉",
+            "furigana": "あね",
+            "romanji": "ane",
             "meanings": {
-              "id": "dokter",
-              "en": "doctor"
-            }
-          },
-          {
-            "id": 2,
-            "word": "医院",
-            "furigana": "いいん",
-            "romanji": "iin",
-            "meanings": {
-              "id": "klinik",
-              "en": "clinic"
-            }
-          },
-          {
-            "id": 3,
-            "word": "医学",
-            "furigana": "いがく",
-            "romanji": "igaku",
-            "meanings": {
-              "id": "kedokteran",
-              "en": "medical science"
-            }
+              "id": "kakak perempuan (saya)",
+              "en": "older sister"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "姉は看護師として働いています。",
+                "furigana": "あねはかんごしとしてはたらいています。",
+                "romaji": "ane wa kangoshi to shite hataraite imasu.",
+                "meanings": {
+                  "id": "Kakak perempuan saya bekerja sebagai perawat.",
+                  "en": "My older sister works as a nurse."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": null
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "姉妹",
+            "furigana": "しまい",
+            "romanji": "shimai",
+            "meanings": {
+              "id": "kakak beradik (perempuan)",
+              "en": "sisters"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "あの姉妹はとても仲が良いです。",
+                "furigana": "あのしまいはとてもなかがよいです。",
+                "romaji": "ano shimai wa totemo naka ga yoi desu.",
+                "meanings": {
+                  "id": "Kakak beradik perempuan itu sangat akur.",
+                  "en": "Those sisters get along very well."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "exception": {
+      "examples": [
+        {
+          "id": 1,
+          "word": "お姉さん",
+          "furigana": "おねえさん",
+          "romanji": "oneesan",
+          "meanings": {
+            "id": "kakak perempuan",
+            "en": "older sister (polite)"
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "お姉さんは今どこに住んでいますか。",
+              "furigana": "おねえさんはいまどこにすんでいますか。",
+              "romaji": "oneesan wa ima doko ni sunde imasu ka.",
+              "meanings": {
+                "id": "Kakak perempuan Anda sekarang tinggal di mana?",
+                "en": "Where does your older sister live now?"
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   "meanings": {
-    "id": "praktis",
-    "en": "medical, doctor"
+    "id": "kakak perempuan",
+    "en": "older sister"
   }
 }
