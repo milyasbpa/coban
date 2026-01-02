@@ -1,70 +1,72 @@
 {
   "id": 49,
-  "character": "利",
-  "strokes": 7,
+  "character": "妹",
+  "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "き",
-        "romanji": "ki",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "リ",
-        "romanji": "ri",
+        "furigana": "いもうと",
+        "romanji": "imouto",
         "examples": [
           {
             "id": 1,
-            "word": "便利",
-            "furigana": "べんり",
-            "romanji": "benri",
+            "word": "妹",
+            "furigana": "いもうと",
+            "romanji": "imouto",
             "meanings": {
-              "id": "praktis",
-              "en": "convenient"
-            }
+              "id": "adik perempuan (saya)",
+              "en": "younger sister"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "妹は中学生です。",
+                "furigana": "いもうとはちゅうがくせいです。",
+                "romaji": "imouto wa chuugakusei desu.",
+                "meanings": {
+                  "id": "Adik perempuan saya adalah siswa SMP.",
+                  "en": "My younger sister is a junior high school student."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "医者",
-          "furigana": "いしゃ",
-          "romanji": "isha",
-          "meanings": {
-            "id": "dokter",
-            "en": "doctor"
+    "on": [
+      {
+        "furigana": "スイ",
+        "romanji": "sui",
+        "examples": [
+          {
+            "id": 1,
+            "word": "姉妹",
+            "furigana": "しまい",
+            "romanji": "shimai",
+            "meanings": {
+              "id": "kakak beradik (perempuan)",
+              "en": "sisters"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私には姉妹が二人います。",
+                "furigana": "わたしにはしまいがふたりいます。",
+                "romaji": "watashi ni wa shimai ga futari imasu.",
+                "meanings": {
+                  "id": "Saya memiliki dua saudara perempuan.",
+                  "en": "I have two sisters."
+                }
+              }
+            ]
           }
-        },
-        {
-          "id": 3,
-          "word": "医院",
-          "furigana": "いいん",
-          "romanji": "iin",
-          "meanings": {
-            "id": "klinik",
-            "en": "clinic"
-          }
-        },
-        {
-          "id": 4,
-          "word": "医学",
-          "furigana": "いがく",
-          "romanji": "igaku",
-          "meanings": {
-            "id": "kedokteran",
-            "en": "medical science"
-          }
-        }
-      ]
-    }
+        ]
+      }
+    ],
+    "exception": null
   },
   "meanings": {
-    "id": "keidal",
-    "en": "profit, advantage"
+    "id": "adik perempuan",
+    "en": "younger sister"
   }
 }
