@@ -1,40 +1,142 @@
 {
   "id": 42,
-  "character": "体",
+  "character": "作",
   "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "からだ",
-        "romanji": "karada",
+        "furigana": "つく",
+        "romanji": "tsuku",
         "examples": [
           {
             "id": 1,
-            "word": "体",
-            "furigana": "からだ",
-            "romanji": "karada",
+            "word": "作る",
+            "furigana": "つくる",
+            "romanji": "tsukuru",
             "meanings": {
-              "id": "badan, tubuh",
-              "en": "body"
-            }
+              "id": "membuat, bikin",
+              "en": "to make, to create"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "母と一緒に料理を作りました。",
+                "furigana": "ははといっしょにりょうりをつくりました。",
+                "romaji": "haha to issho ni ryouri wo tsukurimashita.",
+                "meanings": {
+                  "id": "Saya membuat masakan bersama ibu.",
+                  "en": "I made a meal together with my mother."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "作り方",
+            "furigana": "つくりかた",
+            "romanji": "tsukurikata",
+            "meanings": {
+              "id": "cara buat, cara bikin",
+              "en": "how to make, method of making"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この料理の作り方を教えてください。",
+                "furigana": "このりょうりのつくりかたをおしえてください。",
+                "romaji": "kono ryouri no tsukurikata wo oshiete kudasai.",
+                "meanings": {
+                  "id": "Tolong ajarkan cara membuat masakan ini.",
+                  "en": "Please teach me how to make this dish."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "タイ",
-        "romanji": "tai",
+        "furigana": "サク",
+        "romanji": "saku",
         "examples": [
           {
-            "id": 2,
-            "word": "体育",
-            "furigana": "たいいく",
-            "romanji": "taiiku",
+            "id": 1,
+            "word": "作文",
+            "furigana": "さくぶん",
+            "romanji": "sakubun",
             "meanings": {
-              "id": "pendidikan olahraga",
-              "en": "physical education"
-            }
+              "id": "karangan",
+              "en": "composition, essay"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本語で作文を書きました。",
+                "furigana": "にほんごでさくぶんをかきました。",
+                "romaji": "nihongo de sakubun wo kakimashita.",
+                "meanings": {
+                  "id": "Saya menulis karangan dalam bahasa Jepang.",
+                  "en": "I wrote a composition in Japanese."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "サッ",
+        "romanji": "satsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "作曲",
+            "furigana": "さっきょく",
+            "romanji": "sakkyoku",
+            "meanings": {
+              "id": "gubahan (lagu)",
+              "en": "composition (music)"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は新しい曲を作曲しました。",
+                "furigana": "かれはあたらしいきょくをさっきょくしました。",
+                "romaji": "kare wa atarashii kyoku wo sakkyoku shimashita.",
+                "meanings": {
+                  "id": "Dia menggubah lagu baru.",
+                  "en": "He composed a new song."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "サ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 1,
+            "word": "作法",
+            "furigana": "さほう",
+            "romanji": "sahou",
+            "meanings": {
+              "id": "tata krama, kelakuan",
+              "en": "manners, etiquette"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本の作法を勉強しています。",
+                "furigana": "にほんのさほうをべんきょうしています。",
+                "romaji": "nihon no sahou wo benkyou shite imasu.",
+                "meanings": {
+                  "id": "Saya sedang mempelajari tata krama Jepang.",
+                  "en": "I am studying Japanese etiquette."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +144,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "badan, tubuh",
-    "en": "body"
+    "id": "membuat, bikin",
+    "en": "make, create"
   }
 }
