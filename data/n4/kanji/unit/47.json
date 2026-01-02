@@ -1,96 +1,108 @@
 {
   "id": 47,
-  "character": "作",
+  "character": "究",
   "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "つく",
-        "romanji": "tsuku",
+        "furigana": "きわ",
+        "romanji": "kiwa",
         "examples": [
           {
             "id": 1,
-            "word": "作る",
-            "furigana": "つくる",
-            "romanji": "tsukuru",
+            "word": "究める",
+            "furigana": "きわめる",
+            "romanji": "kiwameru",
             "meanings": {
-              "id": "membuat, bikin",
-              "en": "to make"
-            }
-          },
-          {
-            "id": 2,
-            "word": "作り方",
-            "furigana": "つくりかた",
-            "romanji": "tsukurikata",
-            "meanings": {
-              "id": "cara buat, cara bikin",
-              "en": "how to make"
-            }
+              "id": "mendalami permasalahan",
+              "en": "to master, to investigate thoroughly"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は日本の歴史を究めたいと思っています。",
+                "furigana": "かれはにほんのれきしをきわめたいとおもっています。",
+                "romaji": "kare wa nihon no rekishi wo kiwametai to omotte imasu.",
+                "meanings": {
+                  "id": "Dia ingin mendalami sejarah Jepang.",
+                  "en": "He wants to master Japanese history."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "サク",
-        "romanji": "saku",
+        "furigana": "キュウ",
+        "romanji": "kyuu",
         "examples": [
           {
+            "id": 1,
+            "word": "究極",
+            "furigana": "きゅうきょく",
+            "romanji": "kyuukyoku",
+            "meanings": {
+              "id": "terakhir",
+              "en": "ultimate, final"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "これが究極の答えだと思います。",
+                "furigana": "これがきゅうきょくのこたえだとおもいます。",
+                "romaji": "kore ga kyuukyoku no kotae da to omoimasu.",
+                "meanings": {
+                  "id": "Saya pikir ini adalah jawaban terakhir.",
+                  "en": "I think this is the ultimate answer."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "究明",
+            "furigana": "きゅうめい",
+            "romanji": "kyuumei",
+            "meanings": {
+              "id": "penyelidikan",
+              "en": "investigation, inquiry"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "事故の原因を究明する必要があります。",
+                "furigana": "じこのげんいんをきゅうめいするひつようがあります。",
+                "romaji": "jiko no gen'in wo kyuumei suru hitsuyou ga arimasu.",
+                "meanings": {
+                  "id": "Perlu menyelidiki penyebab kecelakaan.",
+                  "en": "It is necessary to investigate the cause of the accident."
+                }
+              }
+            ]
+          },
+          {
             "id": 3,
-            "word": "作文",
-            "furigana": "さくぶん",
-            "romanji": "sakubun",
+            "word": "研究",
+            "furigana": "けんきゅう",
+            "romanji": "kenkyuu",
             "meanings": {
-              "id": "karangan",
-              "en": "composition"
-            }
-          },
-          {
-            "id": 4,
-            "word": "作品",
-            "furigana": "さくひん",
-            "romanji": "sakuhin",
-            "meanings": {
-              "id": "gubahan (lagu)",
-              "en": "work (art)"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "サ",
-        "romanji": "sa",
-        "examples": [
-          {
-            "id": 3,
-            "word": "作文",
-            "furigana": "さくぶん",
-            "romanji": "sakubun",
-            "meanings": {
-              "id": "karangan",
-              "en": "composition"
-            }
-          },
-          {
-            "id": 4,
-            "word": "作品",
-            "furigana": "さくひん",
-            "romanji": "sakuhin",
-            "meanings": {
-              "id": "gubahan (lagu)",
-              "en": "work (art)"
-            }
-          },
-          {
-            "id": 5,
-            "word": "作法",
-            "furigana": "さほう",
-            "romanji": "sahou",
-            "meanings": {
-              "id": "tata krama, kelakuan",
-              "en": "manners"
-            }
+              "id": "penelitian",
+              "en": "research, study"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "大学で経済について研究しています。",
+                "furigana": "だいがくでけいざいについてけんきゅうしています。",
+                "romaji": "daigaku de keizai ni tsuite kenkyuu shite imasu.",
+                "meanings": {
+                  "id": "Saya sedang meneliti tentang ekonomi di universitas.",
+                  "en": "I am researching economics at university."
+                }
+              }
+            ]
           }
         ]
       }
@@ -98,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "membuat, bikin",
-    "en": "make, create"
+    "id": "menyelidiki",
+    "en": "investigate, study"
   }
 }
