@@ -1,40 +1,114 @@
 {
   "id": 56,
-  "character": "妹",
+  "character": "者",
   "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "いもうと",
-        "romanji": "imouto",
+        "furigana": "もの",
+        "romanji": "mono",
         "examples": [
           {
             "id": 1,
-            "word": "妹",
-            "furigana": "いもうと",
-            "romanji": "imouto",
+            "word": "怠け者",
+            "furigana": "なまけもの",
+            "romanji": "namakemono",
             "meanings": {
-              "id": "adik perempuan (saya)",
-              "en": "younger sister"
-            }
+              "id": "pemalas",
+              "en": "lazy person"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は怠け者だから宿題をしません。",
+                "furigana": "かれはなまけものだからしゅくだいをしません。",
+                "romaji": "kare wa namakemono da kara shukudai wo shimasen.",
+                "meanings": {
+                  "id": "Dia tidak mengerjakan PR karena pemalas.",
+                  "en": "He doesn't do his homework because he is lazy."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "マイ",
-        "romanji": "mai",
+        "furigana": "シャ",
+        "romanji": "sha",
         "examples": [
           {
-            "id": 2,
-            "word": "姉妹",
-            "furigana": "しまい",
-            "romanji": "shimai",
+            "id": 1,
+            "word": "医者",
+            "furigana": "いしゃ",
+            "romanji": "isha",
             "meanings": {
-              "id": "kakak beradik (perempuan)",
-              "en": "sisters"
-            }
+              "id": "dokter",
+              "en": "doctor"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "医者になるために勉強しています。",
+                "furigana": "いしゃになるためにべんきょうしています。",
+                "romaji": "isha ni naru tame ni benkyou shite imasu.",
+                "meanings": {
+                  "id": "Saya sedang belajar untuk menjadi dokter.",
+                  "en": "I am studying to become a doctor."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "記者",
+            "furigana": "きしゃ",
+            "romanji": "kisha",
+            "meanings": {
+              "id": "wartawan",
+              "en": "journalist, reporter"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "姉は新聞社の記者として働いています。",
+                "furigana": "あねはしんぶんしゃのきしゃとしてはたらいています。",
+                "romaji": "ane wa shinbunsha no kisha to shite hataraite imasu.",
+                "meanings": {
+                  "id": "Kakak perempuan saya bekerja sebagai wartawan di perusahaan koran.",
+                  "en": "My older sister works as a journalist at a newspaper company."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ジャ",
+        "romanji": "jya",
+        "examples": [
+          {
+            "id": 1,
+            "word": "患者",
+            "furigana": "かんじゃ",
+            "romanji": "kanjya",
+            "meanings": {
+              "id": "pasien",
+              "en": "patient"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "病院にはたくさんの患者がいます。",
+                "furigana": "びょういんにはたくさんのかんじゃがいます。",
+                "romaji": "byouin ni wa takusan no kanjya ga imasu.",
+                "meanings": {
+                  "id": "Ada banyak pasien di rumah sakit.",
+                  "en": "There are many patients in the hospital."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +116,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "adik perempuan (saya)",
-    "en": "younger sister"
+    "id": "orang",
+    "en": "person"
   }
 }
