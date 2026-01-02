@@ -1,56 +1,130 @@
 {
   "id": 41,
-  "character": "言",
+  "character": "住",
   "strokes": 7,
   "readings": {
     "kun": [
       {
-        "furigana": "い",
-        "romanji": "i",
+        "furigana": "す",
+        "romanji": "su",
         "examples": [
           {
             "id": 1,
-            "word": "言う",
-            "furigana": "いう",
-            "romanji": "iu",
+            "word": "住む",
+            "furigana": "すむ",
+            "romanji": "sumu",
             "meanings": {
-              "id": "berkata",
-              "en": "to say"
-            }
+              "id": "tinggal",
+              "en": "to live, to reside"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "東京に住んでいます。",
+                "furigana": "とうきょうにすんでいます。",
+                "romaji": "toukyou ni sunde imasu.",
+                "meanings": {
+                  "id": "Saya tinggal di Tokyo.",
+                  "en": "I live in Tokyo."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "住まい",
+            "furigana": "すまい",
+            "romanji": "sumai",
+            "meanings": {
+              "id": "tempat tinggal",
+              "en": "residence, dwelling"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい住まいを探しています。",
+                "furigana": "あたらしいすまいをさがしています。",
+                "romaji": "atarashii sumai wo sagashite imasu.",
+                "meanings": {
+                  "id": "Saya sedang mencari tempat tinggal baru.",
+                  "en": "I am looking for a new residence."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ゲン",
-        "romanji": "gen",
+        "furigana": "ジュウ",
+        "romanji": "jyuu",
         "examples": [
+          {
+            "id": 1,
+            "word": "住所",
+            "furigana": "じゅうしょ",
+            "romanji": "jyuusho",
+            "meanings": {
+              "id": "alamat",
+              "en": "address"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "住所を教えてください。",
+                "furigana": "じゅうしょをおしえてください。",
+                "romaji": "jyuusho wo oshiete kudasai.",
+                "meanings": {
+                  "id": "Tolong beritahu alamat Anda.",
+                  "en": "Please tell me your address."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "言語",
-            "furigana": "げんご",
-            "romanji": "gengo",
+            "word": "住宅",
+            "furigana": "じゅうたく",
+            "romanji": "jyuutaku",
             "meanings": {
-              "id": "bahasa",
-              "en": "language"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ゴン",
-        "romanji": "gon",
-        "examples": [
+              "id": "perumahan",
+              "en": "residence, housing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい住宅を建てました。",
+                "furigana": "あたらしいじゅうたくをたてました。",
+                "romaji": "atarashii jyuutaku wo tatemashita.",
+                "meanings": {
+                  "id": "Saya membangun perumahan baru.",
+                  "en": "I built a new house."
+                }
+              }
+            ]
+          },
           {
             "id": 3,
-            "word": "伝言",
-            "furigana": "でんごん",
-            "romanji": "dengon",
+            "word": "移住",
+            "furigana": "いじゅう",
+            "romanji": "ijyuu",
             "meanings": {
-              "id": "pesan (berita)",
-              "en": "message"
-            }
+              "id": "migrasi",
+              "en": "migration, emigration"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "海外に移住する予定です。",
+                "furigana": "かいがいにいじゅうするよていです。",
+                "romaji": "kaigai ni ijyuu suru yotei desu.",
+                "meanings": {
+                  "id": "Saya berencana untuk migrasi ke luar negeri.",
+                  "en": "I plan to migrate overseas."
+                }
+              }
+            ]
           }
         ]
       }
@@ -58,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berkata",
-    "en": "say, speak"
+    "id": "tinggal",
+    "en": "live, reside"
   }
 }
