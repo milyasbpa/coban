@@ -1,40 +1,79 @@
 {
   "id": 55,
-  "character": "姉",
+  "character": "服",
   "strokes": 8,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "あね",
-        "romanji": "ane",
+        "furigana": "フク",
+        "romanji": "fuku",
         "examples": [
           {
             "id": 1,
-            "word": "姉",
-            "furigana": "あね",
-            "romanji": "ane",
+            "word": "洋服",
+            "furigana": "ようふく",
+            "romanji": "youfuku",
             "meanings": {
-              "id": "kakak perempuan (saya)",
-              "en": "older sister"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "シ",
-        "romanji": "shi",
-        "examples": [
+              "id": "baju, pakaian ala barat",
+              "en": "Western clothes, clothing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい洋服を買いに行きました。",
+                "furigana": "あたらしいようふくをかいにいきました。",
+                "romaji": "atarashii youfuku wo kai ni ikimashita.",
+                "meanings": {
+                  "id": "Saya pergi untuk membeli pakaian baru.",
+                  "en": "I went to buy new clothes."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "姉妹",
-            "furigana": "しまい",
-            "romanji": "shimai",
+            "word": "服装",
+            "furigana": "ふくそう",
+            "romanji": "fukusou",
             "meanings": {
-              "id": "kakak beradik (perempuan)",
-              "en": "sisters"
-            }
+              "id": "pakaian",
+              "en": "clothing, attire"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "面接の時は服装に気をつけてください。",
+                "furigana": "めんせつのときはふくそうにきをつけてください。",
+                "romaji": "mensetsu no toki wa fukusou ni ki wo tsukete kudasai.",
+                "meanings": {
+                  "id": "Tolong perhatikan pakaian Anda saat wawancara.",
+                  "en": "Please pay attention to your attire during the interview."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "服用",
+            "furigana": "ふくよう",
+            "romanji": "fukuyou",
+            "meanings": {
+              "id": "pemakaian obat",
+              "en": "taking medicine"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この薬は食後に服用してください。",
+                "furigana": "このくすりはしょくごにふくようしてください。",
+                "romaji": "kono kusuri wa shokugo ni fukuyou shite kudasai.",
+                "meanings": {
+                  "id": "Tolong minum obat ini setelah makan.",
+                  "en": "Please take this medicine after meals."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "kakak perempuan (saya)",
-    "en": "older sister"
+    "id": "pakaian",
+    "en": "clothes, clothing"
   }
 }
