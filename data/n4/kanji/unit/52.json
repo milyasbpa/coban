@@ -1,66 +1,116 @@
 {
   "id": 52,
-  "character": "別",
-  "strokes": 7,
+  "character": "知",
+  "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "わか",
-        "romanji": "waka",
+        "furigana": "し",
+        "romanji": "shi",
         "examples": [
           {
             "id": 1,
-            "word": "別れる",
-            "furigana": "わかれる",
-            "romanji": "wakareru",
+            "word": "知らせる",
+            "furigana": "しらせる",
+            "romanji": "shiraseru",
             "meanings": {
-              "id": "berpisah",
-              "en": "to separate"
-            }
+              "id": "memberitahu",
+              "en": "to inform, to notify"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "予定が変わったら知らせてください。",
+                "furigana": "よていがかわったらしらせてください。",
+                "romaji": "yotei ga kawattara shirasete kudasai.",
+                "meanings": {
+                  "id": "Tolong beritahu saya jika jadwal berubah.",
+                  "en": "Please let me know if the schedule changes."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "知っている",
+            "furigana": "しっている",
+            "romanji": "shitteiru",
+            "meanings": {
+              "id": "mengenal, tahu",
+              "en": "to know"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "その人のことをよく知っています。",
+                "furigana": "そのひとのことをよくしっています。",
+                "romaji": "sono hito no koto wo yoku shitte imasu.",
+                "meanings": {
+                  "id": "Saya mengenal orang itu dengan baik.",
+                  "en": "I know that person well."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ベツ",
-        "romanji": "betsu",
+        "furigana": "チ",
+        "romanji": "chi",
         "examples": [
           {
-            "id": 2,
-            "word": "特別",
-            "furigana": "とくべつ",
-            "romanji": "tokubetsu",
+            "id": 1,
+            "word": "知人",
+            "furigana": "ちじん",
+            "romanji": "chijin",
             "meanings": {
-              "id": "istimewa, khusus",
-              "en": "special"
-            }
+              "id": "kenalan",
+              "en": "acquaintance"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昨日、駅で知人に会いました。",
+                "furigana": "きのう、えきでちじんにあいました。",
+                "romaji": "kinou, eki de chijin ni aimashita.",
+                "meanings": {
+                  "id": "Kemarin saya bertemu dengan kenalan di stasiun.",
+                  "en": "Yesterday, I met an acquaintance at the station."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "知識",
+            "furigana": "ちしき",
+            "romanji": "chishiki",
+            "meanings": {
+              "id": "pengetahuan",
+              "en": "knowledge"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本文化についての知識が必要です。",
+                "furigana": "にほんぶんかについてのちしきがひつようです。",
+                "romaji": "nihon bunka ni tsuite no chishiki ga hitsuyou desu.",
+                "meanings": {
+                  "id": "Pengetahuan tentang budaya Jepang diperlukan.",
+                  "en": "Knowledge about Japanese culture is necessary."
+                }
+              }
+            ]
           }
         ]
-      },
-      {
-        "furigana": "ベチ",
-        "romanji": "bechi",
-        "examples": []
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 3,
-          "word": "別荘",
-          "furigana": "べっそう",
-          "romanji": "bessou",
-          "meanings": {
-            "id": "villa",
-            "en": "villa"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "berpisah",
-    "en": "separate, different"
+    "id": "mengetahui",
+    "en": "know, wisdom"
   }
 }
