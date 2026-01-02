@@ -1,50 +1,130 @@
 {
   "id": 48,
-  "character": "売",
-  "strokes": 7,
+  "character": "味",
+  "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "う",
-        "romanji": "u",
+        "furigana": "あじ",
+        "romanji": "aji",
         "examples": [
           {
             "id": 1,
-            "word": "売る",
-            "furigana": "うる",
-            "romanji": "uru",
+            "word": "味",
+            "furigana": "あじ",
+            "romanji": "aji",
             "meanings": {
-              "id": "menjual",
-              "en": "to sell"
-            }
+              "id": "rasa",
+              "en": "taste, flavor"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この料理は味がとても良いです。",
+                "furigana": "このりょうりはあじがとてもよいです。",
+                "romaji": "kono ryouri wa aji ga totemo yoi desu.",
+                "meanings": {
+                  "id": "Masakan ini rasanya sangat enak.",
+                  "en": "This dish has a very good taste."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "売り場",
-            "furigana": "うりば",
-            "romanji": "uriba",
+            "word": "味わう",
+            "furigana": "あじわう",
+            "romanji": "ajiwau",
             "meanings": {
-              "id": "tempat menjual",
-              "en": "sales area"
-            }
+              "id": "menikmati",
+              "en": "to savor, to enjoy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ゆっくり食事を味わいたいです。",
+                "furigana": "ゆっくりしょくじをあじわいたいです。",
+                "romaji": "yukkuri shokuji wo ajiwaitai desu.",
+                "meanings": {
+                  "id": "Saya ingin menikmati makanan dengan santai.",
+                  "en": "I want to enjoy the meal slowly."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "バイ",
-        "romanji": "bai",
+        "furigana": "ミ",
+        "romanji": "mi",
         "examples": [
           {
-            "id": 3,
-            "word": "売店",
-            "furigana": "ばいてん",
-            "romanji": "baiten",
+            "id": 1,
+            "word": "意味",
+            "furigana": "いみ",
+            "romanji": "imi",
             "meanings": {
-              "id": "toko, kios",
-              "en": "shop, stand"
-            }
+              "id": "arti",
+              "en": "meaning"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この言葉の意味が分かりません。",
+                "furigana": "このことばのいみがわかりません。",
+                "romaji": "kono kotoba no imi ga wakarimasen.",
+                "meanings": {
+                  "id": "Saya tidak mengerti arti kata ini.",
+                  "en": "I don't understand the meaning of this word."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "興味",
+            "furigana": "きょうみ",
+            "romanji": "kyoumi",
+            "meanings": {
+              "id": "hobi",
+              "en": "interest, hobby"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は音楽に興味があります。",
+                "furigana": "わたしはおんがくにきょうみがあります。",
+                "romaji": "watashi wa ongaku ni kyoumi ga arimasu.",
+                "meanings": {
+                  "id": "Saya memiliki minat pada musik.",
+                  "en": "I have an interest in music."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "味覚",
+            "furigana": "みかく",
+            "romanji": "mikaku",
+            "meanings": {
+              "id": "indera perasa",
+              "en": "sense of taste"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "風邪を引いて味覚がおかしくなりました。",
+                "furigana": "かぜをひいてみかくがおかしくなりました。",
+                "romaji": "kaze wo hiite mikaku ga okashiku narimashita.",
+                "meanings": {
+                  "id": "Saya masuk angin dan indera perasa saya menjadi aneh.",
+                  "en": "I caught a cold and my sense of taste became strange."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "menjual",
-    "en": "sell"
+    "id": "rasa",
+    "en": "taste, flavor"
   }
 }
