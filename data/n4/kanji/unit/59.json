@@ -1,40 +1,85 @@
 {
   "id": 59,
-  "character": "泳",
+  "character": "画",
   "strokes": 8,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "およ",
-        "romanji": "oyo",
+        "furigana": "ガ",
+        "romanji": "ga",
         "examples": [
           {
             "id": 1,
-            "word": "泳ぐ",
-            "furigana": "およぐ",
-            "romanji": "oyogu",
+            "word": "映画",
+            "furigana": "えいが",
+            "romanji": "eiga",
             "meanings": {
-              "id": "berenang",
-              "en": "to swim"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "エイ",
-        "romanji": "ei",
-        "examples": [
+              "id": "film",
+              "en": "movie, film"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "週末に友達と映画を見に行きます。",
+                "furigana": "しゅうまつにともだちとえいがをみにいきます。",
+                "romaji": "shuumatsu ni tomodachi to eiga wo mi ni ikimasu.",
+                "meanings": {
+                  "id": "Saya akan pergi menonton film dengan teman di akhir pekan.",
+                  "en": "I will go to watch a movie with my friend on the weekend."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "水泳",
-            "furigana": "すいえい",
-            "romanji": "suiei",
+            "word": "画家",
+            "furigana": "がか",
+            "romanji": "gaka",
             "meanings": {
-              "id": "renang",
-              "en": "swimming"
-            }
+              "id": "pelukis",
+              "en": "painter, artist"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は有名な画家になりたいと思っています。",
+                "furigana": "かれはゆうめいながかになりたいとおもっています。",
+                "romaji": "kare wa yuumei na gaka ni naritai to omotte imasu.",
+                "meanings": {
+                  "id": "Dia ingin menjadi pelukis terkenal.",
+                  "en": "He wants to become a famous painter."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "カク",
+        "romanji": "kaku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "画数",
+            "furigana": "かくすう",
+            "romanji": "kakusuu",
+            "meanings": {
+              "id": "jumlah goresan",
+              "en": "number of strokes"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この漢字は画数が多いので覚えにくいです。",
+                "furigana": "このかんじはかくすうがおおいのでおぼえにくいです。",
+                "romaji": "kono kanji wa kakusuu ga ooi node oboenikui desu.",
+                "meanings": {
+                  "id": "Kanji ini sulit diingat karena jumlah goresannya banyak.",
+                  "en": "This kanji is hard to memorize because it has many strokes."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +87,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berenang",
-    "en": "swim"
+    "id": "gambar",
+    "en": "picture, drawing"
   }
 }
