@@ -1,40 +1,130 @@
 {
   "id": 73,
-  "character": "昼",
+  "character": "思",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "ひる",
-        "romanji": "hiru",
+        "furigana": "おも",
+        "romanji": "omo",
         "examples": [
           {
             "id": 1,
-            "word": "昼ね",
-            "furigana": "ひるね",
-            "romanji": "hirune",
+            "word": "思う",
+            "furigana": "おもう",
+            "romanji": "omou",
             "meanings": {
-              "id": "tidur siang",
-              "en": "afternoon nap"
-            }
+              "id": "berpikir",
+              "en": "to think"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本は面白い国だと思います。",
+                "furigana": "にほんはおもしろいくにだとおもいます。",
+                "romaji": "nihon wa omoshiroi kuni da to omoimasu.",
+                "meanings": {
+                  "id": "Saya pikir Jepang adalah negara yang menarik.",
+                  "en": "I think Japan is an interesting country."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "思い出す",
+            "furigana": "おもいだす",
+            "romanji": "omoidasu",
+            "meanings": {
+              "id": "mengenang",
+              "en": "to recall, to remember"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昔の友達を思い出しました。",
+                "furigana": "むかしのともだちをおもいだしました。",
+                "romaji": "mukashi no tomodachi wo omoidashimashita.",
+                "meanings": {
+                  "id": "Saya mengenang teman lama.",
+                  "en": "I remembered an old friend."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "思いやり",
+            "furigana": "おもいやり",
+            "romanji": "omoiyari",
+            "meanings": {
+              "id": "simpati",
+              "en": "consideration, sympathy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は思いやりがある人です。",
+                "furigana": "かれはおもいやりがあるひとです。",
+                "romaji": "kare wa omoiyari ga aru hito desu.",
+                "meanings": {
+                  "id": "Dia adalah orang yang memiliki simpati.",
+                  "en": "He is a person with consideration."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "チュウ",
-        "romanji": "chuu",
+        "furigana": "シ",
+        "romanji": "shi",
         "examples": [
           {
-            "id": 2,
-            "word": "昼食",
-            "furigana": "ちゅうしょく",
-            "romanji": "chuushoku",
+            "id": 1,
+            "word": "思考",
+            "furigana": "しこう",
+            "romanji": "shikou",
             "meanings": {
-              "id": "makan siang",
-              "en": "lunch"
-            }
+              "id": "pemikiran",
+              "en": "thought, thinking"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "論理的な思考が必要です。",
+                "furigana": "ろんりてきなしこうがひつようです。",
+                "romaji": "ronriteki na shikou ga hitsuyou desu.",
+                "meanings": {
+                  "id": "Pemikiran logis diperlukan.",
+                  "en": "Logical thinking is necessary."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "思想",
+            "furigana": "しそう",
+            "romanji": "shisou",
+            "meanings": {
+              "id": "ideologi",
+              "en": "thought, ideology"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼の思想について学びました。",
+                "furigana": "かれのしそうについてまなびました。",
+                "romaji": "kare no shisou ni tsuite manabimashita.",
+                "meanings": {
+                  "id": "Saya mempelajari tentang ideologinya.",
+                  "en": "I learned about his ideology."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "tidur siang",
-    "en": "daytime, noon"
+    "id": "berpikir",
+    "en": "think"
   }
 }
