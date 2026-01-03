@@ -1,43 +1,136 @@
 {
   "id": 118,
-  "character": "族",
-  "strokes": 11,
+  "character": "開",
+  "strokes": 12,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "ゾク",
-        "romanji": "zoku",
+        "furigana": "あ",
+        "romanji": "a",
         "examples": [
           {
             "id": 1,
-            "word": "家族",
-            "furigana": "かぞく",
-            "romanji": "kazoku",
+            "word": "開ける",
+            "furigana": "あける",
+            "romanji": "akeru",
             "meanings": {
-              "id": "keluarga",
-              "en": "family"
-            }
+              "id": "membuka",
+              "en": "to open"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "窓を開けてください。",
+                "furigana": "まどをあけてください。",
+                "romaji": "mado wo akete kudasai.",
+                "meanings": {
+                  "id": "Tolong buka jendelanya.",
+                  "en": "Please open the window."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "民族",
-            "furigana": "みんぞく",
-            "romanji": "minzoku",
+            "word": "開く",
+            "furigana": "あく",
+            "romanji": "aku",
             "meanings": {
-              "id": "bangsa, ras",
-              "en": "ethnic group"
-            }
+              "id": "terbuka",
+              "en": "to open, to be opened"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ドアが開きました。",
+                "furigana": "ドアがあきました。",
+                "romaji": "doa ga akimashita.",
+                "meanings": {
+                  "id": "Pintunya terbuka.",
+                  "en": "The door opened."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ひら",
+        "romanji": "hira",
+        "examples": [
+          {
+            "id": 1,
+            "word": "開く",
+            "furigana": "ひらく",
+            "romanji": "hiraku",
+            "meanings": {
+              "id": "buka",
+              "en": "to open, to hold"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来週パーティーを開きます。",
+                "furigana": "らいしゅうパーティーをひらきます。",
+                "romaji": "raishuu paatii wo hirakimasu.",
+                "meanings": {
+                  "id": "Minggu depan akan mengadakan pesta.",
+                  "en": "We will hold a party next week."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "カイ",
+        "romanji": "kai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "開始",
+            "furigana": "かいし",
+            "romanji": "kaishi",
+            "meanings": {
+              "id": "mulai",
+              "en": "start, beginning"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "会議は9時に開始します。",
+                "furigana": "かいぎは9じにかいしします。",
+                "romaji": "kaigi wa ku ji ni kaishi shimasu.",
+                "meanings": {
+                  "id": "Rapat dimulai jam 9.",
+                  "en": "The meeting starts at 9 o'clock."
+                }
+              }
+            ]
           },
           {
-            "id": 3,
-            "word": "貴族",
-            "furigana": "きぞく",
-            "romanji": "kizoku",
+            "id": 2,
+            "word": "開店",
+            "furigana": "かいてん",
+            "romanji": "kaiten",
             "meanings": {
-              "id": "bangsawan",
-              "en": "nobility"
-            }
+              "id": "buka toko",
+              "en": "opening a store"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "お店は朝10時に開店します。",
+                "furigana": "おみせはあさ10じにかいてんします。",
+                "romaji": "omise wa asa juu ji ni kaiten shimasu.",
+                "meanings": {
+                  "id": "Toko buka jam 10 pagi.",
+                  "en": "The store opens at 10 AM."
+                }
+              }
+            ]
           }
         ]
       }
@@ -45,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "keluarga",
-    "en": "tribe, family"
+    "id": "membuka",
+    "en": "open"
   }
 }
