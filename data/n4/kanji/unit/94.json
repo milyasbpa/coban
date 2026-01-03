@@ -1,23 +1,130 @@
 {
   "id": 94,
-  "character": "勉",
+  "character": "旅",
   "strokes": 10,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "ベン",
-        "romanji": "ben",
+        "furigana": "たび",
+        "romanji": "tabi",
         "examples": [
           {
             "id": 1,
-            "word": "勉強",
-            "furigana": "べんきょう",
-            "romanji": "benkyou",
+            "word": "旅",
+            "furigana": "たび",
+            "romanji": "tabi",
             "meanings": {
-              "id": "pelajaran, belajar",
-              "en": "study"
-            }
+              "id": "perjalanan",
+              "en": "journey, travel"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "旅に出たいです。",
+                "furigana": "たびにでたいです。",
+                "romaji": "tabi ni detai desu.",
+                "meanings": {
+                  "id": "Saya ingin pergi dalam perjalanan.",
+                  "en": "I want to go on a journey."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "旅人",
+            "furigana": "たびびと",
+            "romanji": "tabibito",
+            "meanings": {
+              "id": "pelancong",
+              "en": "traveler"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昔、旅人がこの道を通りました。",
+                "furigana": "むかし、たびびとがこのみちをとおりました。",
+                "romaji": "mukashi, tabibito ga kono michi wo toorimashita.",
+                "meanings": {
+                  "id": "Dulu, pelancong melewati jalan ini.",
+                  "en": "Long ago, travelers passed through this road."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "リョ",
+        "romanji": "ryo",
+        "examples": [
+          {
+            "id": 3,
+            "word": "旅行",
+            "furigana": "りょこう",
+            "romanji": "ryokou",
+            "meanings": {
+              "id": "darmawisata",
+              "en": "trip, travel"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夏休みに海外旅行に行きます。",
+                "furigana": "なつやすみにかいがいりょこうにいきます。",
+                "romaji": "natsuyasumi ni kaigai ryokou ni ikimasu.",
+                "meanings": {
+                  "id": "Saya akan pergi ke luar negeri saat liburan musim panas.",
+                  "en": "I will go on an overseas trip during summer vacation."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "旅館",
+            "furigana": "りょかん",
+            "romanji": "ryokan",
+            "meanings": {
+              "id": "hotel gaya jepang",
+              "en": "Japanese-style inn"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "温泉がある旅館に泊まりたいです。",
+                "furigana": "おんせんがあるりょかんにとまりたいです。",
+                "romaji": "onsen ga aru ryokan ni tomaritai desu.",
+                "meanings": {
+                  "id": "Saya ingin menginap di ryokan yang memiliki pemandian air panas.",
+                  "en": "I want to stay at a ryokan that has a hot spring."
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "word": "旅券",
+            "furigana": "りょけん",
+            "romanji": "ryoken",
+            "meanings": {
+              "id": "paspor",
+              "en": "passport"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "旅券を忘れないでください。",
+                "furigana": "りょけんをわすれないでください。",
+                "romaji": "ryoken wo wasurenai de kudasai.",
+                "meanings": {
+                  "id": "Jangan lupa paspor Anda.",
+                  "en": "Please don't forget your passport."
+                }
+              }
+            ]
           }
         ]
       }
@@ -25,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "pelajaran, belajar",
-    "en": "study, diligence"
+    "id": "perjalanan",
+    "en": "travel, journey"
   }
 }
