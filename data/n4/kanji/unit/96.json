@@ -1,60 +1,79 @@
 {
   "id": 96,
-  "character": "起",
+  "character": "院",
   "strokes": 10,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "お",
-        "romanji": "o",
+        "furigana": "イン",
+        "romanji": "in",
         "examples": [
           {
             "id": 1,
-            "word": "起きる",
-            "furigana": "おきる",
-            "romanji": "okiru",
+            "word": "病院",
+            "furigana": "びょういん",
+            "romanji": "byouin",
             "meanings": {
-              "id": "bangun",
-              "en": "to wake up"
-            }
+              "id": "rumah sakit",
+              "en": "hospital"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "風邪を引いたので、病院に行きました。",
+                "furigana": "かぜをひいたので、びょういんにいきました。",
+                "romaji": "kaze wo hiita node, byouin ni ikimashita.",
+                "meanings": {
+                  "id": "Karena masuk angin, saya pergi ke rumah sakit.",
+                  "en": "Because I caught a cold, I went to the hospital."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "起こる",
-            "furigana": "おこる",
-            "romanji": "okoru",
+            "word": "入院",
+            "furigana": "にゅういん",
+            "romanji": "nyuuin",
             "meanings": {
-              "id": "terjadi",
-              "en": "to occur"
-            }
+              "id": "masuk rumah sakit",
+              "en": "hospitalization"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は来週入院します。",
+                "furigana": "ちちはらいしゅうにゅういんします。",
+                "romaji": "chichi wa raishuu nyuuin shimasu.",
+                "meanings": {
+                  "id": "Ayah akan masuk rumah sakit minggu depan.",
+                  "en": "My father will be hospitalized next week."
+                }
+              }
+            ]
           },
           {
             "id": 3,
-            "word": "起こす",
-            "furigana": "おこす",
-            "romanji": "okosu",
+            "word": "退院",
+            "furigana": "たいいん",
+            "romanji": "taiin",
             "meanings": {
-              "id": "membangunkan, memulai",
-              "en": "to wake up (someone), to start"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "キ",
-        "romanji": "ki",
-        "examples": [
-          {
-            "id": 4,
-            "word": "起立",
-            "furigana": "きりつ",
-            "romanji": "kiritsu",
-            "meanings": {
-              "id": "siap, berdiri",
-              "en": "standing up"
-            }
+              "id": "keluar rumah sakit",
+              "en": "hospital discharge"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "もうすぐ退院できます。",
+                "furigana": "もうすぐたいいんできます。",
+                "romaji": "mousugu taiin dekimasu.",
+                "meanings": {
+                  "id": "Saya segera bisa keluar dari rumah sakit.",
+                  "en": "I will be able to leave the hospital soon."
+                }
+              }
+            ]
           }
         ]
       }
@@ -62,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "bangun",
-    "en": "rise, wake up"
+    "id": "institusi",
+    "en": "institution"
   }
 }
