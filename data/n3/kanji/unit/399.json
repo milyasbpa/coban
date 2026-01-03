@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ちが",
         "romanji": "chiga",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berbeda, berlainan",
               "en": "different"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イ",
         "romanji": "i",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "違反",
             "furigana": "いはん",
             "romanji": "ihan",
             "meanings": {
               "id": "pelanggaran",
               "en": "violation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

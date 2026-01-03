@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おんな",
         "romanji": "onna",
         "examples": [
@@ -21,11 +22,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "め",
         "romanji": "me",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "女神",
             "furigana": "めがみ",
             "romanji": "megami",
@@ -39,11 +41,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョ",
         "romanji": "jo",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "女性",
             "furigana": "じょせい",
             "romanji": "josei",
@@ -55,11 +58,13 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ニョ",
         "romanji": "nyo",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "ニョウ",
         "romanji": "nyou",
         "examples": []

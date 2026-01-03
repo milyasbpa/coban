@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まき",
         "romanji": "maki",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ボク",
         "romanji": "boku",
         "examples": [
@@ -23,7 +25,8 @@
             "meanings": {
               "id": "padang gembala",
               "en": "pasture, ranch"
-            }
+            },
+            "sentences": []
           }
         ]
       }

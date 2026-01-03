@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くわだ",
         "romanji": "kuwada",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "merencanakan",
               "en": "to plan"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キ",
         "romanji": "ki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "企画",
             "furigana": "きかく",
             "romanji": "kikaku",
             "meanings": {
               "id": "rencana",
               "en": "plan"
-            }
+            },
+            "sentences": []
           }
         ]
       }

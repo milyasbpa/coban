@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "とも",
         "romanji": "tomo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "suami & istri bekerja",
               "en": "dual-income (both husband and wife working)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "共感",
             "furigana": "きょうかん",
             "romanji": "kyoukan",
             "meanings": {
               "id": "simpati",
               "en": "sympathy; empathy"
-            }
+            },
+            "sentences": []
           }
         ]
       }

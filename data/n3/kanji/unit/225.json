@@ -5,24 +5,27 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ころ",
         "romanji": "koro",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "殺す",
             "furigana": "ころす",
             "romanji": "korosu",
             "meanings": {
               "id": "membunuh",
               "en": "to kill"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サツ",
         "romanji": "satsu",
         "examples": [
@@ -34,11 +37,13 @@
             "meanings": {
               "id": "pembunuh",
               "en": "killer"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "セツ",
         "romanji": "setsu",
         "examples": []

@@ -6,34 +6,38 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ボウ",
         "romanji": "bou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "滅亡",
             "furigana": "めつぼう",
             "romanji": "metsubō",
             "meanings": {
               "id": "keruntuhan",
               "en": "downfall, ruin, extinction"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "モウ",
         "romanji": "mou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "亡者",
             "furigana": "もうじゃ",
             "romanji": "mōja",
             "meanings": {
               "id": "roh gentayangan",
               "en": "ghost"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -48,7 +52,8 @@
           "meanings": {
             "id": "kehilangan (karena mati)",
             "en": "to lose (death)"
-          }
+          },
+          "sentences": []
         }
       ]
     }

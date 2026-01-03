@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "よ",
         "romanji": "yo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bagus, baik",
               "en": "good"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゼン",
         "romanji": "zen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "善意",
             "furigana": "ぜんい",
             "romanji": "zen'i",
             "meanings": {
               "id": "maksud yang baik",
               "en": "good intention"
-            }
+            },
+            "sentences": []
           }
         ]
       }

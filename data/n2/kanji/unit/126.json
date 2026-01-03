@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ブ",
         "romanji": "bu",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "samurai, pendekar",
               "en": "samurai, warrior"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -25,14 +27,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "武者",
           "furigana": "むしゃ",
           "romanji": "musha",
           "meanings": {
             "id": "kesatria, pejuang",
             "en": "knight, fighter"
-          }
+          },
+          "sentences": []
         }
       ]
     }

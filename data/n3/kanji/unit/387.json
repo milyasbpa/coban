@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くつ",
         "romanji": "kutsu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "sepatu",
               "en": "shoes"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "軍靴",
             "furigana": "ぐんか",
             "romanji": "gunka",
             "meanings": {
               "id": "sepatu militer",
               "en": "military shoes"
-            }
+            },
+            "sentences": []
           }
         ]
       }

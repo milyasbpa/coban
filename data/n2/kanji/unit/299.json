@@ -5,24 +5,27 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あたた",
         "romanji": "atata",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "温かい",
             "furigana": "あたたかい",
             "romanji": "atatakai",
             "meanings": {
               "id": "(benda) hangat",
               "en": "warm (object)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "オン",
         "romanji": "on",
         "examples": [
@@ -34,7 +37,8 @@
             "meanings": {
               "id": "sumber air panas",
               "en": "hot spring"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おさ",
         "romanji": "osa",
         "examples": [
@@ -16,61 +17,68 @@
             "meanings": {
               "id": "kelakuan (membaik), memperbaiki diri",
               "en": "to conduct oneself well, to improve one’s behavior"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュ",
         "romanji": "shu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "修する",
             "furigana": "しゅうする",
             "romanji": "shuu suru",
             "meanings": {
               "id": "bertapa",
               "en": "to train, to discipline"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "修理する",
             "furigana": "しゅうりする",
             "romanji": "shuuri suru",
             "meanings": {
               "id": "mereparasi",
               "en": "to repair"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "修する",
             "furigana": "しゅうする",
             "romanji": "shuu suru",
             "meanings": {
               "id": "bertapa",
               "en": "to train, to discipline"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "修理する",
             "furigana": "しゅうりする",
             "romanji": "shuuri suru",
             "meanings": {
               "id": "mereparasi",
               "en": "to repair"
-            }
+            },
+            "sentences": []
           }
         ]
       }

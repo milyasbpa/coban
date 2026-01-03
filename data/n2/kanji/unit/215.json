@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こと",
         "romanji": "koto",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berbeda, berlainan",
               "en": "different, various"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イ",
         "romanji": "i",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "異文化",
             "furigana": "いぶんか",
             "romanji": "ibunka",
             "meanings": {
               "id": "kebudayaan berbeda",
               "en": "different culture"
-            }
+            },
+            "sentences": []
           }
         ]
       }

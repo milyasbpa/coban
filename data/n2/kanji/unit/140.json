@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "せま",
         "romanji": "sema",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "sempit",
               "en": "narrow, small"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "せば",
         "romanji": "seba",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "狭める",
             "furigana": "せばめる",
             "romanji": "sebameru",
             "meanings": {
               "id": "mempersempit",
               "en": "to narrow, to constrict"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "狭量",
             "furigana": "きょうりょう",
             "romanji": "kyouryou",
             "meanings": {
               "id": "kepicikan",
               "en": "narrow-mindedness"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こえ",
         "romanji": "koe",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "suara",
               "en": "voice"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "こわ",
         "romanji": "kowa",
         "examples": []
@@ -28,44 +31,49 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "音声",
             "furigana": "おんせい",
             "romanji": "onsei",
             "meanings": {
               "id": "warna suara",
               "en": "tone"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "声帯",
             "furigana": "せいたい",
             "romanji": "seitai",
             "meanings": {
               "id": "pita suara",
               "en": "vocal cord"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "大音声",
             "furigana": "だいおんじょう",
             "romanji": "daionjou",
             "meanings": {
               "id": "suara menggelegar",
               "en": "booming voice"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -73,14 +81,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "歌声",
           "furigana": "うたごえ",
           "romanji": "utagoe",
           "meanings": {
             "id": "suara nyanyian",
             "en": "singing voice"
-          }
+          },
+          "sentences": []
         }
       ]
     }

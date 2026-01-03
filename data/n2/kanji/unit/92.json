@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ハク",
         "romanji": "haku",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "tepukan tangan",
               "en": "clap"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ヒョウ",
         "romanji": "hyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "拍子",
             "furigana": "ひょうし",
             "romanji": "hyoushi",
             "meanings": {
               "id": "ketukan, irama",
               "en": "beat, rhythm"
-            }
+            },
+            "sentences": []
           }
         ]
       }

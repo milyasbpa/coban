@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つ",
         "romanji": "tsu",
         "examples": [
@@ -16,16 +17,19 @@
             "meanings": {
               "id": "memuat",
               "en": "to load"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "セキ",
         "romanji": "seki",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "せっ",
         "romanji": "set",
         "examples": []
@@ -33,18 +37,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セキ",
         "romanji": "seki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "積雪",
             "furigana": "せきせつ",
             "romanji": "sekisetsu",
             "meanings": {
               "id": "tumpukan salju",
               "en": "snow pile"
-            }
+            },
+            "sentences": []
           }
         ]
       }

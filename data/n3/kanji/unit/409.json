@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うたが",
         "romanji": "utaga",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mencurigai, meragukan",
               "en": "to suspect, to doubt"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ギ",
         "romanji": "gi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "疑惑",
             "furigana": "ぎわく",
             "romanji": "giwaku",
             "meanings": {
               "id": "keragu-raguan",
               "en": "uncertainty"
-            }
+            },
+            "sentences": []
           }
         ]
       }

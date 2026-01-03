@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "にわ",
         "romanji": "niwa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "perkarangan",
               "en": "garden"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "テイ",
         "romanji": "tei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "家庭",
             "furigana": "かてい",
             "romanji": "katei",
             "meanings": {
               "id": "rumah tangga",
               "en": "household"
-            }
+            },
+            "sentences": []
           }
         ]
       }

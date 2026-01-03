@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "タツ",
         "romanji": "tatsu",
         "examples": [
@@ -17,11 +18,13 @@
             "meanings": {
               "id": "kemajuan, peningkatan kemampuan",
               "en": "improvement, progress (in skill)"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ダツ",
         "romanji": "datsu",
         "examples": []
@@ -30,14 +33,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "達成",
           "furigana": "たっせい",
           "romanji": "tassei",
           "meanings": {
             "id": "pencapaian (sasaran)",
             "en": "achievement"
-          }
+          },
+          "sentences": []
         }
       ]
     }

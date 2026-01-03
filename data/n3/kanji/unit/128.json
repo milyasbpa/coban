@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つ",
         "romanji": "tsu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menyodok",
               "en": "to poke"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トツ",
         "romanji": "totsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "突然",
             "furigana": "とつぜん",
             "romanji": "totsuzen",
             "meanings": {
               "id": "tiba-tiba",
               "en": "suddenly"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あわ",
         "romanji": "awa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "busa, buih, gelembung",
               "en": "foam, bubble"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "泡沫",
             "furigana": "ほうまつ",
             "romanji": "houmatsu",
             "meanings": {
               "id": "busa, buih, hal yang fana",
               "en": "bubble, foam, transient thing"
-            }
+            },
+            "sentences": []
           }
         ]
       }

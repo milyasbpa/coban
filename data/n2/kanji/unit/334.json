@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かた",
         "romanji": "kata",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mencondongkan",
               "en": "to incline"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "傾向",
             "furigana": "けいこう",
             "romanji": "keikou",
             "meanings": {
               "id": "kecenderungan",
               "en": "tendency"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こおり",
         "romanji": "koori",
         "examples": [
@@ -16,39 +17,44 @@
             "meanings": {
               "id": "es batu",
               "en": "ice"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ひ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "氷雨",
             "furigana": "ひさめ",
             "romanji": "hisame",
             "meanings": {
               "id": "hujan es di musim panas",
               "en": "hail; summer hail"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "氷山",
             "furigana": "ひょうざん",
             "romanji": "hyouzan",
             "meanings": {
               "id": "gunung es",
               "en": "iceberg"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒョウ",
         "romanji": "hyou",
         "examples": []

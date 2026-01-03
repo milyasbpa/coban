@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menyapu",
               "en": "to sweep"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "掃除する",
             "furigana": "そうじする",
             "romanji": "souji suru",
             "meanings": {
               "id": "berbenah",
               "en": "to clean up"
-            }
+            },
+            "sentences": []
           }
         ]
       }

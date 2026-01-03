@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かず",
         "romanji": "kazu",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "jumlah",
               "en": "number"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "かぞ",
         "romanji": "kazo",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "数える",
             "furigana": "かぞえる",
             "romanji": "kazoeru",
             "meanings": {
               "id": "menghitung",
               "en": "to count"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "スウ",
         "romanji": "suu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "数学",
             "furigana": "すうがく",
             "romanji": "suugaku",
             "meanings": {
               "id": "matematika",
               "en": "mathematics"
-            }
+            },
+            "sentences": []
           }
         ]
       }

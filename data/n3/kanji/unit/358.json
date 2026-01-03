@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おそ",
         "romanji": "oso",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "lambat, lamban",
               "en": "slow"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "おく",
         "romanji": "oku",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チ",
         "romanji": "chi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "遅延",
             "furigana": "ちえん",
             "romanji": "chien",
             "meanings": {
               "id": "kelambatan",
               "en": "delay"
-            }
+            },
+            "sentences": []
           }
         ]
       }

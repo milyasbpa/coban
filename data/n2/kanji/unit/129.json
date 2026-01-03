@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くび",
         "romanji": "kubi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "rantai leher (binatang)",
               "en": "collar (animal)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュ",
         "romanji": "shu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "首都",
             "furigana": "しゅと",
             "romanji": "shuto",
             "meanings": {
               "id": "ibu kota",
               "en": "capital city"
-            }
+            },
+            "sentences": []
           }
         ]
       }

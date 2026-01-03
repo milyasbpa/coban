@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "sikat gigi",
               "en": "toothbrush"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "歯科医",
             "furigana": "しかい",
             "romanji": "shikai",
             "meanings": {
               "id": "dokter gigi",
               "en": "dentist"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はい",
         "romanji": "hai",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "asbak",
               "en": "ashtray"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,13 +28,15 @@
             "meanings": {
               "id": "abu, debu",
               "en": "ash, dust"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カイ",
         "romanji": "kai",
         "examples": []

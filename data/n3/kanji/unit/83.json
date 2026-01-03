@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふせ",
         "romanji": "fuse",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mempertahankan",
               "en": "to defend"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ボウ",
         "romanji": "bou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "防止",
             "furigana": "ぼうし",
             "romanji": "boushi",
             "meanings": {
               "id": "pencegahan",
               "en": "prevention"
-            }
+            },
+            "sentences": []
           }
         ]
       }

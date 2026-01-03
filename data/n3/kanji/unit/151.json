@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まい",
         "romanji": "mai",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "datang",
               "en": "to come"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サン",
         "romanji": "san",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "参加",
             "furigana": "さんか",
             "romanji": "sanka",
             "meanings": {
               "id": "partisipasi",
               "en": "participation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

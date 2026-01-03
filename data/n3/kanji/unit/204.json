@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いわ",
         "romanji": "iwa",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "merayakan",
               "en": "to celebrate"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュク",
         "romanji": "shuku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "祝日",
             "furigana": "しゅくじつ",
             "romanji": "shukujitsu",
             "meanings": {
               "id": "hari raya",
               "en": "holiday"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "祝儀",
             "furigana": "しゅうぎ",
             "romanji": "shuugi",
             "meanings": {
               "id": "hadiah perayaan",
               "en": "celebration gift"
-            }
+            },
+            "sentences": []
           }
         ]
       }

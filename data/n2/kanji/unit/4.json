@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふた",
         "romanji": "futa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "anak kembar",
               "en": "twins"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "双方",
             "furigana": "そうほう",
             "romanji": "souhou",
             "meanings": {
               "id": "dua pihak/arah",
               "en": "both sides/directions"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はげ",
         "romanji": "hage",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berupaya, berikhtiar",
               "en": "to strive"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "レイ",
         "romanji": "rei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "激励",
             "furigana": "げきれい",
             "romanji": "gekierei",
             "meanings": {
               "id": "dorongan",
               "en": "encouragement"
-            }
+            },
+            "sentences": []
           }
         ]
       }

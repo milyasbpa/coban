@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "き",
         "romanji": "ki",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
@@ -23,7 +25,8 @@
             "meanings": {
               "id": "khasiat",
               "en": "effect, efficacy"
-            }
+            },
+            "sentences": []
           }
         ]
       }

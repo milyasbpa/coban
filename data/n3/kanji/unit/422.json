@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きわ",
         "romanji": "kiwa",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "menyolok, menonjol",
               "en": "stand out"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ぎわ",
         "romanji": "giwa",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サイ",
         "romanji": "sai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "国際",
             "furigana": "こくさい",
             "romanji": "kokusai",
             "meanings": {
               "id": "internasional",
               "en": "international"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -47,14 +52,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "手際",
           "furigana": "てぎわ",
           "romanji": "tegiwa",
           "meanings": {
             "id": "cara penanganan",
             "en": "handling method"
-          }
+          },
+          "sentences": []
         }
       ]
     }

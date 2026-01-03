@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かみ",
         "romanji": "kami",
         "examples": [
@@ -16,50 +17,57 @@
             "meanings": {
               "id": "tuhan",
               "en": "god"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "かん",
         "romanji": "kan",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "こう",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "神戸",
             "furigana": "こうべ",
             "romanji": "koube",
             "meanings": {
               "id": "Kobe",
               "en": "Kobe"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シン",
         "romanji": "shin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "神経",
             "furigana": "しんけい",
             "romanji": "shinkei",
             "meanings": {
               "id": "saraf",
               "en": "nerve"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジン",
         "romanji": "jin",
         "examples": []

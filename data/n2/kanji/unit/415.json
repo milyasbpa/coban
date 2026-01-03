@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かべ",
         "romanji": "kabe",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kertas dinding",
               "en": "wallpaper"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘキ",
         "romanji": "heki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "壁面",
             "furigana": "へきめん",
             "romanji": "hekimen",
             "meanings": {
               "id": "permukaan dinding",
               "en": "wall surface"
-            }
+            },
+            "sentences": []
           }
         ]
       }

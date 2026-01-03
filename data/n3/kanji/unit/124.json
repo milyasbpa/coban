@@ -5,27 +5,31 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いだ",
         "romanji": "ida",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "かか",
         "romanji": "kaka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "抱える",
             "furigana": "かかえる",
             "romanji": "kakaeru",
             "meanings": {
               "id": "memeluk",
               "en": "to hold"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 3,
         "furigana": "だ",
         "romanji": "da",
         "examples": [
@@ -37,25 +41,28 @@
             "meanings": {
               "id": "memeluk",
               "en": "to embrace"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "抱負",
             "furigana": "ほうふ",
             "romanji": "houfu",
             "meanings": {
               "id": "aspirasi",
               "en": "aspiration"
-            }
+            },
+            "sentences": []
           }
         ]
       }

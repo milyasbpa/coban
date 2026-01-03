@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こ",
         "romanji": "ko",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "tepung terigu",
               "en": "wheat flour"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "こな",
         "romanji": "kona",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "フン",
         "romanji": "fun",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "花粉",
             "furigana": "かふん",
             "romanji": "kafun",
             "meanings": {
               "id": "serbuk sari",
               "en": "pollen"
-            }
+            },
+            "sentences": []
           }
         ]
       }

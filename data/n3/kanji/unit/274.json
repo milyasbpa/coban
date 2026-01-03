@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ねこ",
         "romanji": "neko",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "kucing",
               "en": "cat"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,13 +28,15 @@
             "meanings": {
               "id": "dahi kucing",
               "en": "cat's forehead"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ビョウ",
         "romanji": "byou",
         "examples": []

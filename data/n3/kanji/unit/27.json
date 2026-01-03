@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ほか",
         "romanji": "hoka",
         "examples": [
@@ -16,35 +17,39 @@
             "meanings": {
               "id": "lain, selain",
               "en": "other"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "タ",
         "romanji": "ta",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "他者",
             "furigana": "たしゃ",
             "romanji": "tasha",
             "meanings": {
               "id": "orang lain",
               "en": "others"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "他方",
             "furigana": "たほう",
             "romanji": "tahou",
             "meanings": {
               "id": "cara lain",
               "en": "the other side, on the other hand"
-            }
+            },
+            "sentences": []
           }
         ]
       }

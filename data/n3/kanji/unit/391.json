@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つみ",
         "romanji": "tsumi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "dosa",
               "en": "sin"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ザイ",
         "romanji": "zai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "謝罪",
             "furigana": "しゃざい",
             "romanji": "shazai",
             "meanings": {
               "id": "permintaan maaf",
               "en": "apology"
-            }
+            },
+            "sentences": []
           }
         ]
       }

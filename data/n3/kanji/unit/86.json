@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つめ",
         "romanji": "tsume",
         "examples": [
@@ -16,57 +17,64 @@
             "meanings": {
               "id": "dingin",
               "en": "cold"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ひ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "冷やす",
             "furigana": "ひやす",
             "romanji": "hiyasu",
             "meanings": {
               "id": "mendinginkan",
               "en": "to cool"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 3,
         "furigana": "さ",
         "romanji": "sa",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "冷める",
             "furigana": "さめる",
             "romanji": "sameru",
             "meanings": {
               "id": "menjadi dingin",
               "en": "to become cold"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "レイ",
         "romanji": "rei",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "冷蔵庫",
             "furigana": "れいぞうこ",
             "romanji": "reizouko",
             "meanings": {
               "id": "kulkas",
               "en": "refrigerator"
-            }
+            },
+            "sentences": []
           }
         ]
       }

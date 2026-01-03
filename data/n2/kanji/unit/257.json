@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やわ",
         "romanji": "yawa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "lunak, empuk",
               "en": "soft, tender"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ナン",
         "romanji": "nan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "軟骨",
             "furigana": "なんこつ",
             "romanji": "nankotsu",
             "meanings": {
               "id": "tulang rawan",
               "en": "cartilage"
-            }
+            },
+            "sentences": []
           }
         ]
       }

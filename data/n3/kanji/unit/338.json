@@ -6,22 +6,25 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "カイ",
         "romanji": "kai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "絵画",
             "furigana": "かいが",
             "romanji": "kaiga",
             "meanings": {
               "id": "gambar, lukisan",
               "en": "painting, picture"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "エ",
         "romanji": "e",
         "examples": [
@@ -33,17 +36,19 @@
             "meanings": {
               "id": "lukisan, gambar",
               "en": "picture, painting"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "絵本",
             "furigana": "えほん",
             "romanji": "ehon",
             "meanings": {
               "id": "buku gambar",
               "en": "sketchbook"
-            }
+            },
+            "sentences": []
           }
         ]
       }

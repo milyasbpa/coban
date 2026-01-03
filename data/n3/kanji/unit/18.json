@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひ",
         "romanji": "hi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menarik",
               "en": "to pull"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イン",
         "romanji": "in",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "引力",
             "furigana": "いんりょく",
             "romanji": "inryoku",
             "meanings": {
               "id": "gravitasi",
               "en": "gravity"
-            }
+            },
+            "sentences": []
           }
         ]
       }

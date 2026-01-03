@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "テツ",
         "romanji": "tetsu",
         "examples": [
@@ -17,11 +18,13 @@
             "meanings": {
               "id": "bergadang",
               "en": "stay up late"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "テッ",
         "romanji": "te",
         "examples": [
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "bergadang",
               "en": "stay up late"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -43,7 +47,8 @@
             "meanings": {
               "id": "secara tuntas",
               "en": "thoroughly"
-            }
+            },
+            "sentences": []
           }
         ]
       }

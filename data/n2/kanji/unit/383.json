@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "く",
         "romanji": "ku",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "hidup, tinggal",
               "en": "live, reside"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ボ",
         "romanji": "bo",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "お歳暮",
             "furigana": "おせいぼ",
             "romanji": "oseibo",
             "meanings": {
               "id": "hantaran akhir tahun",
               "en": "year-end gift"
-            }
+            },
+            "sentences": []
           }
         ]
       }

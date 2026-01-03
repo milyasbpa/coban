@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ギョ",
         "romanji": "gyo",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "perikanan",
               "en": "fishing industry"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "リョウ",
         "romanji": "ryou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "漁師",
             "furigana": "りょうし",
             "romanji": "ryoushi",
             "meanings": {
               "id": "nelayan",
               "en": "fisherman"
-            }
+            },
+            "sentences": []
           }
         ]
       }

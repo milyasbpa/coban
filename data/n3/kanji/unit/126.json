@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さだ",
         "romanji": "sada",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "menetapkan",
               "en": "to determine"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "テイ",
         "romanji": "tei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "決定",
             "furigana": "けってい",
             "romanji": "kettei",
             "meanings": {
               "id": "keputusan",
               "en": "decision"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "定規",
             "furigana": "じょうぎ",
             "romanji": "jougi",
             "meanings": {
               "id": "penggaris",
               "en": "ruler"
-            }
+            },
+            "sentences": []
           }
         ]
       }

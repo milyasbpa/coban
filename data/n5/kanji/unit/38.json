@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "もと",
         "romanji": "moto",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホン",
         "romanji": "hon",
         "examples": [
@@ -38,11 +40,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ボン",
         "romanji": "bon",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "三本",
             "furigana": "さんぼん",
             "romanji": "sanbon",
@@ -57,7 +60,7 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "一本",
           "furigana": "いっぽん",
           "romanji": "ippon",

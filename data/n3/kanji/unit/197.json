@@ -6,18 +6,20 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "サク",
         "romanji": "saku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "昨年",
             "furigana": "さくねん",
             "romanji": "sakunen",
             "meanings": {
               "id": "tahun lalu",
               "en": "last year"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -32,7 +34,8 @@
           "meanings": {
             "id": "kemarin",
             "en": "yesterday"
-          }
+          },
+          "sentences": []
         }
       ]
     }

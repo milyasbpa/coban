@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memelihara",
               "en": "to keep"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "飼育",
             "furigana": "しいく",
             "romanji": "shiiku",
             "meanings": {
               "id": "pemeliharaan",
               "en": "breeding"
-            }
+            },
+            "sentences": []
           }
         ]
       }

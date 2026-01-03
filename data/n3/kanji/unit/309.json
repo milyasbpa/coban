@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふか",
         "romanji": "fuka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "dalam, mendalam",
               "en": "deep"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シン",
         "romanji": "shin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "深刻",
             "furigana": "しんこく",
             "romanji": "shinkoku",
             "meanings": {
               "id": "serius, parah",
               "en": "serious"
-            }
+            },
+            "sentences": []
           }
         ]
       }

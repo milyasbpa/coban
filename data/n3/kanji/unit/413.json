@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しず",
         "romanji": "shizu",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "tenang, sunyi",
               "en": "quiet, calm"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "静止",
             "furigana": "せいし",
             "romanji": "seishi",
             "meanings": {
               "id": "tidak bergerak",
               "en": "still"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "静脈",
             "furigana": "じょうみゃく",
             "romanji": "joumyaku",
             "meanings": {
               "id": "pembuluh darah",
               "en": "blood vessel"
-            }
+            },
+            "sentences": []
           }
         ]
       }

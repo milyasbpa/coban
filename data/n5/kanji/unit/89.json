@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いえ",
         "romanji": "ie",
         "examples": [
@@ -21,11 +22,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "や",
         "romanji": "ya",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "家主",
             "furigana": "やぬし",
             "romanji": "yanushi",
@@ -39,11 +41,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "家族",
             "furigana": "かぞく",
             "romanji": "kazoku",
@@ -55,11 +58,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ケ",
         "romanji": "ke",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "家来",
             "furigana": "けらい",
             "romanji": "kerai",

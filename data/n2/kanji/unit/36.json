@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "え",
         "romanji": "e",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "(zaman) Edo",
               "en": "Edo period"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "江湖",
             "furigana": "こうこ",
             "romanji": "kouko",
             "meanings": {
               "id": "sungai dan danau",
               "en": "river and lake"
-            }
+            },
+            "sentences": []
           }
         ]
       }

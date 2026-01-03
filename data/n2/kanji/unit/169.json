@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "の",
         "romanji": "no",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "naik (kendaraan)",
               "en": "to ride, to get on"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "乗車",
             "furigana": "じょうしゃ",
             "romanji": "jousha",
             "meanings": {
               "id": "naik (kendaraan)",
               "en": "boarding (vehicle)"
-            }
+            },
+            "sentences": []
           }
         ]
       }

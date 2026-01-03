@@ -5,22 +5,25 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "すべ",
         "romanji": "sube",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "全て",
             "furigana": "すべて",
             "romanji": "subete",
             "meanings": {
               "id": "semua, segalanya",
               "en": "everything; all"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "まった",
         "romanji": "matta",
         "examples": [
@@ -32,25 +35,28 @@
             "meanings": {
               "id": "sama sekali",
               "en": "completely; entirely"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゼン",
         "romanji": "zen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "全部",
             "furigana": "ぜんぶ",
             "romanji": "zenbu",
             "meanings": {
               "id": "semua, seluruh",
               "en": "all; whole"
-            }
+            },
+            "sentences": []
           }
         ]
       }

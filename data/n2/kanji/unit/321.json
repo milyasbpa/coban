@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つ",
         "romanji": "tsu",
         "examples": [
@@ -16,39 +17,44 @@
             "meanings": {
               "id": "mendapat (kedudukan)",
               "en": "to get (position)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "就職",
             "furigana": "しゅうしょく",
             "romanji": "shuushoku",
             "meanings": {
               "id": "dapat pekerjaan",
               "en": "to get a job"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "就業",
             "furigana": "しゅうぎょう",
             "romanji": "shuugyou",
             "meanings": {
               "id": "prestasi, pencapaian",
               "en": "achievement"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジュ",
         "romanji": "ju",
         "examples": []

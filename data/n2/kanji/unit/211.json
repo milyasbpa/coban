@@ -5,24 +5,27 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こうむ",
         "romanji": "koumu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "被る",
             "furigana": "こうむる",
             "romanji": "koumuru",
             "meanings": {
               "id": "menderita, mendapat",
               "en": "to suffer, to receive"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒ",
         "romanji": "hi",
         "examples": [
@@ -34,7 +37,8 @@
             "meanings": {
               "id": "korban, penderita",
               "en": "victim"
-            }
+            },
+            "sentences": []
           }
         ]
       }

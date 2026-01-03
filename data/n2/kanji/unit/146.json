@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ほし",
         "romanji": "hoshi",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
@@ -23,7 +25,8 @@
             "meanings": {
               "id": "sinar bintang",
               "en": "starlight"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -33,23 +36,26 @@
             "meanings": {
               "id": "bintang (zodiak)",
               "en": "constellation, zodiac"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "明星",
             "furigana": "みょうじょう",
             "romanji": "myoujou",
             "meanings": {
               "id": "bintang venus",
               "en": "Venus (star)"
-            }
+            },
+            "sentences": []
           }
         ]
       }

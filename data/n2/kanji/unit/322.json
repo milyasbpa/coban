@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
@@ -17,11 +18,13 @@
             "meanings": {
               "id": "khalayak ramai",
               "en": "crowd"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジュ",
         "romanji": "ju",
         "examples": []
@@ -30,14 +33,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "衆生",
           "furigana": "しゅじょう",
           "romanji": "shujou",
           "meanings": {
             "id": "satwa, makhluk hidup",
             "en": "creatures, living beings"
-          }
+          },
+          "sentences": []
         }
       ]
     }

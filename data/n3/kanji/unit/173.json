@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むかし",
         "romanji": "mukashi",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "dahulu kala",
               "en": "long ago / in the past"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セキ",
         "romanji": "seki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "昔日",
             "furigana": "せきじつ",
             "romanji": "sekijitsu",
             "meanings": {
               "id": "tempo dulu",
               "en": "old times"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジャク",
         "romanji": "jaku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "今昔",
             "furigana": "こんじゃく",
             "romanji": "konjaku",
             "meanings": {
               "id": "sekarang dan dahulu",
               "en": "now and then"
-            }
+            },
+            "sentences": []
           }
         ]
       }

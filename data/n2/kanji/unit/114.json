@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かた",
         "romanji": "kata",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "keras",
               "en": "hard"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コ",
         "romanji": "ko",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "固定する",
             "furigana": "こていする",
             "romanji": "koteisuru",
             "meanings": {
               "id": "menjadikan tetap",
               "en": "to make fixed"
-            }
+            },
+            "sentences": []
           }
         ]
       }

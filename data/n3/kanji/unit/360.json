@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はか",
         "romanji": "haka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengukur",
               "en": "to measure"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リョウ",
         "romanji": "ryou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "重量",
             "furigana": "じゅうりょう",
             "romanji": "juuryou",
             "meanings": {
               "id": "beratnya, jumlah berat",
               "en": "weight, amount"
-            }
+            },
+            "sentences": []
           }
         ]
       }

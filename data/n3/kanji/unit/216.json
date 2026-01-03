@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "みな",
         "romanji": "mina",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "semua",
               "en": "all"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カイ",
         "romanji": "kai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "皆目",
             "furigana": "かいもく",
             "romanji": "kaimoku",
             "meanings": {
               "id": "sama sekali tidak",
               "en": "not at all"
-            }
+            },
+            "sentences": []
           }
         ]
       }

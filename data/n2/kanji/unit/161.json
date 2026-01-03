@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "めずら",
         "romanji": "mezura",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "langka",
               "en": "rare"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チン",
         "romanji": "chin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "珍味",
             "furigana": "ちんみ",
             "romanji": "chinmi",
             "meanings": {
               "id": "makanan lezat yg langka",
               "en": "delicacy"
-            }
+            },
+            "sentences": []
           }
         ]
       }

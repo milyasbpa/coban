@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きた",
         "romanji": "kita",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホク",
         "romanji": "hoku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "東北",
             "furigana": "とうほく",
             "romanji": "touhoku",
@@ -39,11 +41,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ボク",
         "romanji": "boku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "南北",
             "furigana": "なんぼく",
             "romanji": "nanboku",
@@ -55,11 +58,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ホッ",
         "romanji": "hot",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "北海道",
             "furigana": "ほっかいどう",
             "romanji": "hokkaido",

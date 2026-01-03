@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あせ",
         "romanji": "ase",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "keringat",
               "en": "sweat"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "発汗",
             "furigana": "はっかん",
             "romanji": "hakkan",
             "meanings": {
               "id": "berkeringat",
               "en": "perspiration"
-            }
+            },
+            "sentences": []
           }
         ]
       }

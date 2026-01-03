@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やわ",
         "romanji": "yawa",
         "examples": [
@@ -16,39 +17,44 @@
             "meanings": {
               "id": "lunak, empuk",
               "en": "soft, tender"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "柔道",
             "furigana": "じゅうどう",
             "romanji": "juudou",
             "meanings": {
               "id": "judo",
               "en": "judo"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "柔術",
             "furigana": "じゅうじゅつ",
             "romanji": "juujutsu",
             "meanings": {
               "id": "lemah-lembut",
               "en": "gentle art"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ニュウ",
         "romanji": "nyuu",
         "examples": []

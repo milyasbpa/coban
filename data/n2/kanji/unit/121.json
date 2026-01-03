@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "のぼ",
         "romanji": "nobo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menanjak, naik",
               "en": "to climb, to rise"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "昇進",
             "furigana": "しょうしん",
             "romanji": "shoushin",
             "meanings": {
               "id": "promosi, naik pangkat",
               "en": "promotion, advancement"
-            }
+            },
+            "sentences": []
           }
         ]
       }

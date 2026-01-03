@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "すず",
         "romanji": "suzu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "sejuk",
               "en": "cool"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リョウ",
         "romanji": "ryou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "涼風",
             "furigana": "りょうふう",
             "romanji": "ryoufuu",
             "meanings": {
               "id": "angin sejuk",
               "en": "cool breeze"
-            }
+            },
+            "sentences": []
           }
         ]
       }

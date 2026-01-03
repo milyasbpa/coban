@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふし",
         "romanji": "fushi",
         "examples": []
@@ -12,34 +13,38 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セツ",
         "romanji": "setsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "季節",
             "furigana": "きせつ",
             "romanji": "kisetsu",
             "meanings": {
               "id": "musim",
               "en": "season"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "セチ",
         "romanji": "sechi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "節会",
             "furigana": "せちえ",
             "romanji": "sechie",
             "meanings": {
               "id": "acara resepsi di istana",
               "en": "imperial ceremony"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -54,7 +59,8 @@
           "meanings": {
             "id": "sendi jari",
             "en": "finger joint"
-          }
+          },
+          "sentences": []
         }
       ]
     }

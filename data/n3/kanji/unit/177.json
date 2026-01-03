@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "もっぱ",
         "romanji": "moppa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "khusus, spesial",
               "en": "special"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "専門",
             "furigana": "せんもん",
             "romanji": "senmon",
             "meanings": {
               "id": "spesialisasi, ahli",
               "en": "specialization, expert"
-            }
+            },
+            "sentences": []
           }
         ]
       }

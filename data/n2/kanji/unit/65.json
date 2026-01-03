@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しず",
         "romanji": "shizu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "tenggelam, terbenam",
               "en": "to sink"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チン",
         "romanji": "chin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "沈殿",
             "furigana": "ちんでん",
             "romanji": "chinden",
             "meanings": {
               "id": "pengendapan",
               "en": "sedimentation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

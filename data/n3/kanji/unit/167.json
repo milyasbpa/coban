@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はな",
         "romanji": "hana",
         "examples": [
@@ -16,39 +17,44 @@
             "meanings": {
               "id": "melepas",
               "en": "to release / let go"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ほう",
         "romanji": "hou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "放る",
             "furigana": "ほうる",
             "romanji": "houru",
             "meanings": {
               "id": "melempar",
               "en": "to throw"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "放送",
             "furigana": "ほうそう",
             "romanji": "housou",
             "meanings": {
               "id": "penyiaran",
               "en": "broadcast"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": []

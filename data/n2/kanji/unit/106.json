@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かた",
         "romanji": "kata",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "pundak, bahu",
               "en": "shoulder"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケン",
         "romanji": "ken",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "肩甲骨",
             "furigana": "けんこうこつ",
             "romanji": "kenkoukotsu",
             "meanings": {
               "id": "tulang belikat",
               "en": "scapula"
-            }
+            },
+            "sentences": []
           }
         ]
       }

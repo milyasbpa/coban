@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きし",
         "romanji": "kishi",
         "examples": [
@@ -16,21 +17,24 @@
             "meanings": {
               "id": "tepian pantai/sungai",
               "en": "shore; bank; waterside"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "岸辺",
             "furigana": "きしべ",
             "romanji": "kishibe",
             "meanings": {
               "id": "tepi sungai",
               "en": "river edge"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ぎし",
         "romanji": "gishi",
         "examples": []
@@ -38,18 +42,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガン",
         "romanji": "gan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "海岸",
             "furigana": "かいがん",
             "romanji": "kaigan",
             "meanings": {
               "id": "tepian pantai",
               "en": "beach"
-            }
+            },
+            "sentences": []
           }
         ]
       }

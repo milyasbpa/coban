@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はな",
         "romanji": "hana",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "hidung",
               "en": "nose"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ビ",
         "romanji": "bi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "耳鼻科",
             "furigana": "じびか",
             "romanji": "jibika",
             "meanings": {
               "id": "bagian THT",
               "en": "ENT part"
-            }
+            },
+            "sentences": []
           }
         ]
       }

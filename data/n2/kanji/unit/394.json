@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かせ",
         "romanji": "kase",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memperoleh",
               "en": "to earn"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "稼業",
             "furigana": "かぎょう",
             "romanji": "kagyō",
             "meanings": {
               "id": "usaha pencaharian",
               "en": "livelihood"
-            }
+            },
+            "sentences": []
           }
         ]
       }

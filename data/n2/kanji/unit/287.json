@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かた",
         "romanji": "kata",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "keras",
               "en": "hard"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "硬貨",
             "furigana": "こうか",
             "romanji": "kouka",
             "meanings": {
               "id": "uang logam, koin",
               "en": "coin"
-            }
+            },
+            "sentences": []
           }
         ]
       }

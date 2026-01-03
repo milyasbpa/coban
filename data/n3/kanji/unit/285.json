@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たま",
         "romanji": "tama",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bola, bola lampu",
               "en": "ball, light bulb"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キュウ",
         "romanji": "kyuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "地球",
             "furigana": "ちきゅう",
             "romanji": "chikyuu",
             "meanings": {
               "id": "dunia, bumi",
               "en": "world, earth"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "キャク",
         "romanji": "kyaku",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "ruang tamu",
               "en": "guest room"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "客死",
             "furigana": "かくし",
             "romanji": "kakushi",
             "meanings": {
               "id": "meninggal di luar negeri",
               "en": "die abroad"
-            }
+            },
+            "sentences": []
           }
         ]
       }

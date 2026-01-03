@@ -57,8 +57,23 @@ const getTotalWordsInLesson = (lessonId: number, level: string): number => {
   const kanjiList = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
   let totalWords = 0;
   kanjiList.forEach((kanji) => {
-    if (kanji.examples) {
-      totalWords += kanji.examples.length;
+    // Count examples from kun readings
+    kanji.readings.kun.forEach((reading) => {
+      if (reading.examples) {
+        totalWords += reading.examples.length;
+      }
+    });
+    
+    // Count examples from on readings
+    kanji.readings.on.forEach((reading) => {
+      if (reading.examples) {
+        totalWords += reading.examples.length;
+      }
+    });
+    
+    // Count examples from exception readings
+    if (kanji.readings.exception?.examples) {
+      totalWords += kanji.readings.exception.examples.length;
     }
   });
   return totalWords;

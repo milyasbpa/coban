@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "みどり",
         "romanji": "midori",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "hijau",
               "en": "green"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リョク",
         "romanji": "ryoku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "緑茶",
             "furigana": "りょくちゃ",
             "romanji": "ryokucha",
             "meanings": {
               "id": "teh hijau",
               "en": "green tea"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ロク",
         "romanji": "roku",
         "examples": []

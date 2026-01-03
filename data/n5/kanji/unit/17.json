@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うえ",
         "romanji": "ue",
         "examples": [
@@ -21,11 +22,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "うわ",
         "romanji": "uwa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "上着",
             "furigana": "うわぎ",
             "romanji": "uwagi",
@@ -37,16 +39,18 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "かみ",
         "romanji": "kami",
         "examples": []
       },
       {
+        "id": 4,
         "furigana": "あ",
         "romanji": "a",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "上がる",
             "furigana": "あがる",
             "romanji": "agaru",
@@ -58,11 +62,12 @@
         ]
       },
       {
+        "id": 5,
         "furigana": "のぼ",
         "romanji": "nobo",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "上る",
             "furigana": "のぼる",
             "romanji": "noboru",
@@ -76,11 +81,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 6,
+            "id": 1,
             "word": "上司",
             "furigana": "じょうし",
             "romanji": "joushi",
@@ -92,11 +98,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 7,
+            "id": 1,
             "word": "上人",
             "furigana": "しょうにん",
             "romanji": "shounin",
@@ -111,7 +118,7 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "川上",
           "furigana": "かわかみ",
           "romanji": "kawakami",

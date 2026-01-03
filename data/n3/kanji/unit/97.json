@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きみ",
         "romanji": "kimi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kamu",
               "en": "you"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "クン",
         "romanji": "kun",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "君子",
             "furigana": "くんし",
             "romanji": "kunshi",
             "meanings": {
               "id": "pria kebajikan",
               "en": "virtuous man"
-            }
+            },
+            "sentences": []
           }
         ]
       }

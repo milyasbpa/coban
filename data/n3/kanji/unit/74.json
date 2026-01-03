@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つら",
         "romanji": "tsura",
         "examples": [
@@ -16,51 +17,57 @@
             "meanings": {
               "id": "melebar",
               "en": "to spread"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "レツ",
         "romanji": "retsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "系列",
             "furigana": "けいれつ",
             "romanji": "keiretsu",
             "meanings": {
               "id": "serial",
               "en": "series"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "レッ",
         "romanji": "re",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "系列",
             "furigana": "けいれつ",
             "romanji": "keiretsu",
             "meanings": {
               "id": "serial",
               "en": "series"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "列車",
             "furigana": "れっしゃ",
             "romanji": "ressha",
             "meanings": {
               "id": "kereta",
               "en": "train"
-            }
+            },
+            "sentences": []
           }
         ]
       }

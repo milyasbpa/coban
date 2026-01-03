@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うめ",
         "romanji": "ume",
         "examples": [
@@ -16,13 +17,15 @@
             "meanings": {
               "id": "bunga prem",
               "en": "plum blossom"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "バイ",
         "romanji": "bai",
         "examples": []
@@ -31,14 +34,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "梅雨",
           "furigana": "つゆ",
           "romanji": "tsuyu",
           "meanings": {
             "id": "musim hujan",
             "en": "rainy season"
-          }
+          },
+          "sentences": []
         }
       ]
     }

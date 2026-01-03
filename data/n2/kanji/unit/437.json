@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あざ",
         "romanji": "aza",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "cerah, cemerlang",
               "en": "bright, brilliant"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "新鮮",
             "furigana": "しんせん",
             "romanji": "shinsen",
             "meanings": {
               "id": "segar, baru",
               "en": "fresh, new"
-            }
+            },
+            "sentences": []
           }
         ]
       }

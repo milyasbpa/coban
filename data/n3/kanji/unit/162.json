@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やす",
         "romanji": "yasu",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "やさ",
         "romanji": "yasa",
         "examples": [
@@ -21,41 +23,46 @@
             "meanings": {
               "id": "mudah",
               "en": "easy"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "エキ",
         "romanji": "eki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "貿易",
             "furigana": "ぼうえき",
             "romanji": "boueki",
             "meanings": {
               "id": "perdagangan",
               "en": "trade"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "イ",
         "romanji": "i",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "貿易",
             "furigana": "ぼうえき",
             "romanji": "boueki",
             "meanings": {
               "id": "perdagangan",
               "en": "trade"
-            }
+            },
+            "sentences": []
           }
         ]
       }

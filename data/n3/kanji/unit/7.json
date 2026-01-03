@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ささ",
         "romanji": "sasa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "penyangga, penopang",
               "en": "support, prop, foundation, backing"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "支援",
             "furigana": "しえん",
             "romanji": "shien",
             "meanings": {
               "id": "bantuan, dukungan",
               "en": "support"
-            }
+            },
+            "sentences": []
           }
         ]
       }

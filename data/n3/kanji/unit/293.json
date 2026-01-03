@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "へ",
         "romanji": "he",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "melalui, berlalu",
               "en": "to pass"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "経験",
             "furigana": "けいけん",
             "romanji": "keiken",
             "meanings": {
               "id": "pengalaman",
               "en": "experience"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": []

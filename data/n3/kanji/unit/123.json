@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "お",
         "romanji": "o",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "mendorong",
               "en": "to push"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,13 +28,15 @@
             "meanings": {
               "id": "cap",
               "en": "stamp"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "オウ",
         "romanji": "ou",
         "examples": []

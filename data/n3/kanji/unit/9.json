@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おさ",
         "romanji": "osa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menyimpan, memasukkan",
               "en": "to save, to collect"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "収入",
             "furigana": "しゅうにゅう",
             "romanji": "shuunyuu",
             "meanings": {
               "id": "pendapatan, penghasilan",
               "en": "income, earnings, revenue"
-            }
+            },
+            "sentences": []
           }
         ]
       }

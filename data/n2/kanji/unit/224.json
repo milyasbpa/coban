@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "フ",
         "romanji": "fu",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "kode, tanda, symbol",
               "en": "code, symbol"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -25,14 +27,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "切符",
           "furigana": "きっぷ",
           "romanji": "kippu",
           "meanings": {
             "id": "tiket, karcis",
             "en": "ticket"
-          }
+          },
+          "sentences": []
         }
       ]
     }

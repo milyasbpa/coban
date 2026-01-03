@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やぶ",
         "romanji": "yabu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "merobek",
               "en": "to tear"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハ",
         "romanji": "ha",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "破壊",
             "furigana": "はかい",
             "romanji": "hakai",
             "meanings": {
               "id": "perusakan",
               "en": "destruction"
-            }
+            },
+            "sentences": []
           }
         ]
       }

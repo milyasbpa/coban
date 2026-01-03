@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふね",
         "romanji": "fune",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "kapal laut",
               "en": "ship"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ふな",
         "romanji": "funa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "船便",
             "furigana": "ふなびん",
             "romanji": "funabin",
             "meanings": {
               "id": "pos laut",
               "en": "sea mail"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "風船",
             "furigana": "ふうせん",
             "romanji": "fuusen",
             "meanings": {
               "id": "balon",
               "en": "balloon"
-            }
+            },
+            "sentences": []
           }
         ]
       }

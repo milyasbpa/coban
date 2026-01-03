@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なげ",
         "romanji": "nage",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "melempar",
               "en": "to throw"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "投資",
             "furigana": "とうし",
             "romanji": "toushi",
             "meanings": {
               "id": "investasi",
               "en": "investment"
-            }
+            },
+            "sentences": []
           }
         ]
       }

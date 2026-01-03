@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひと",
         "romanji": "hito",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "setara, sejajar, identik",
               "en": "equal, identical"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "等価",
             "furigana": "とうか",
             "romanji": "touka",
             "meanings": {
               "id": "nilai yang sama",
               "en": "same value"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ドウ",
         "romanji": "dou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "平等",
             "furigana": "びょうどう",
             "romanji": "byoudou",
             "meanings": {
               "id": "keadilan, adil",
               "en": "justice, fair"
-            }
+            },
+            "sentences": []
           }
         ]
       }

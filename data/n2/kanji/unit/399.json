@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いさぎよ",
         "romanji": "isagiyo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "lugas, terbuka",
               "en": "frank, open"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケツ",
         "romanji": "ketsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "清潔",
             "furigana": "せいけつ",
             "romanji": "seiketsu",
             "meanings": {
               "id": "bersih, kebersihan",
               "en": "clean, cleanliness"
-            }
+            },
+            "sentences": []
           }
         ]
       }

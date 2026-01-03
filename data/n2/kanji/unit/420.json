@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "となり",
         "romanji": "tonari",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "bersebelahan",
               "en": "next to"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,25 +28,28 @@
             "meanings": {
               "id": "rumah sebelah",
               "en": "neighboring house"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リン",
         "romanji": "rin",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "隣家",
             "furigana": "りんか",
             "romanji": "rinka",
             "meanings": {
               "id": "tetangga sebelah rumah",
               "en": "neighbor"
-            }
+            },
+            "sentences": []
           }
         ]
       }

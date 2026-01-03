@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "お",
         "romanji": "o",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "jatuh, turun",
               "en": "to fall, to drop"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ラク",
         "romanji": "raku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "段落",
             "furigana": "だんらく",
             "romanji": "danraku",
             "meanings": {
               "id": "paragraf",
               "en": "paragraph"
-            }
+            },
+            "sentences": []
           }
         ]
       }

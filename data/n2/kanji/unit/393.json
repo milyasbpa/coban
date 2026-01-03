@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "するど",
         "romanji": "surudo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "tajam, runcing",
               "en": "sharp, pointed"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "エイ",
         "romanji": "ei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "鋭角",
             "furigana": "えいかく",
             "romanji": "eikaku",
             "meanings": {
               "id": "sudut lancip",
               "en": "acute angle"
-            }
+            },
+            "sentences": []
           }
         ]
       }

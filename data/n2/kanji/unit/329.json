@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つ",
         "romanji": "tsu",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "tersumbat, menyusut",
               "en": "blocked, shrunk"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "づめ",
         "romanji": "zume",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キツ",
         "romanji": "kitsu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "詰問",
             "furigana": "きつもん",
             "romanji": "kitsumon",
             "meanings": {
               "id": "pertanyaan memojokkan",
               "en": "cornering question"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -47,24 +52,26 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "缶詰",
           "furigana": "かんづめ",
           "romanji": "kanzume",
           "meanings": {
             "id": "makanan kalengan",
             "en": "canned food"
-          }
+          },
+          "sentences": []
         },
         {
-          "id": 4,
+          "id": 2,
           "word": "詰責",
           "furigana": "きっせき",
           "romanji": "kisseki",
           "meanings": {
             "id": "kecaman, celaan",
             "en": "criticism"
-          }
+          },
+          "sentences": []
         }
       ]
     }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ゆび",
         "romanji": "yubi",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "jari",
               "en": "finger"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "さ",
         "romanji": "sa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "指す",
             "furigana": "さす",
             "romanji": "sasu",
             "meanings": {
               "id": "menunjuk",
               "en": "to point"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "指導",
             "furigana": "しどう",
             "romanji": "shidou",
             "meanings": {
               "id": "bimbingan",
               "en": "guidance"
-            }
+            },
+            "sentences": []
           }
         ]
       }

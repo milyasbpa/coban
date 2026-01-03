@@ -32,11 +32,11 @@ export function WordsListSection() {
   }
 
   const character = getCharacterData(id, level);
-  if (!character || character.examples.length === 0) {
+  const words = getWordsFromCharacter(character || {} as any);
+  
+  if (!character || words.length === 0) {
     return null;
   }
-
-  const words = getWordsFromCharacter(character);
   const kanjiMastery = getKanjiMastery(character.id.toString());
 
   const handleWordClick = (word: WordItem) => {

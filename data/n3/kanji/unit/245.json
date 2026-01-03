@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なみだ",
         "romanji": "namida",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "air mata",
               "en": "tears"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ルイ",
         "romanji": "rui",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "催涙ガス",
             "furigana": "さいるいがす",
             "romanji": "sairuigasu",
             "meanings": {
               "id": "gas air mata",
               "en": "tear gas"
-            }
+            },
+            "sentences": []
           }
         ]
       }

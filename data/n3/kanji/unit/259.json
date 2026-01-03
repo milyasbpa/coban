@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たお",
         "romanji": "tao",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "jatuh, roboh",
               "en": "to fall, collapse"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "倒産",
             "furigana": "とうさん",
             "romanji": "tousan",
             "meanings": {
               "id": "bangkrut",
               "en": "bankrupt"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ドウ",
         "romanji": "dou",
         "examples": []

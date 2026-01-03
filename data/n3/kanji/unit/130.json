@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "う",
         "romanji": "u",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menerima",
               "en": "to receive"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュ",
         "romanji": "ju",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "受験",
             "furigana": "じゅけん",
             "romanji": "juken",
             "meanings": {
               "id": "ikut ujian",
               "en": "take an exam"
-            }
+            },
+            "sentences": []
           }
         ]
       }

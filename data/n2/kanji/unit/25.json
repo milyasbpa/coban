@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あま",
         "romanji": "ama",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "manis, muluk",
               "en": "sweet, naive"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "甘味料",
             "furigana": "かんみりょう",
             "romanji": "kanmiryou",
             "meanings": {
               "id": "bahan pemanis",
               "en": "sweetener"
-            }
+            },
+            "sentences": []
           }
         ]
       }

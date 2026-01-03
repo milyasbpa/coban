@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おさな",
         "romanji": "osana",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "muda usia, bayi",
               "en": "young, infant"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "幼稚園",
             "furigana": "ようちえん",
             "romanji": "youchien",
             "meanings": {
               "id": "taman kanak-kanak",
               "en": "kindergarten"
-            }
+            },
+            "sentences": []
           }
         ]
       }

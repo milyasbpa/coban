@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しめ",
         "romanji": "shime",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menjadi basah/lembab",
               "en": "to get wet/damp"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シツ",
         "romanji": "shitsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "湿度",
             "furigana": "しつど",
             "romanji": "shitsudo",
             "meanings": {
               "id": "derajat kelembaban",
               "en": "humidity level"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -42,14 +46,15 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "湿気",
           "furigana": "しっけ",
           "romanji": "shikke",
           "meanings": {
             "id": "kelembaban udara",
             "en": "air moisture"
-          }
+          },
+          "sentences": []
         }
       ]
     }

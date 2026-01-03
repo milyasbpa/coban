@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つか",
         "romanji": "tsuka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "lelah, letih",
               "en": "tired, weary"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "疲労",
             "furigana": "ひろう",
             "romanji": "hirou",
             "meanings": {
               "id": "kelelahan",
               "en": "fatigue"
-            }
+            },
+            "sentences": []
           }
         ]
       }

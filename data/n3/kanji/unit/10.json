@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たが",
         "romanji": "taga",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "saling, satu sama lain",
               "en": "each other, one another"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゴ",
         "romanji": "go",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "相互",
             "furigana": "そうご",
             "romanji": "sougo",
             "meanings": {
               "id": "timbal balik, saling",
               "en": "mutual, reciprocal"
-            }
+            },
+            "sentences": []
           }
         ]
       }

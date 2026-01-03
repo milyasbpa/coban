@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ぬま",
         "romanji": "numa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "tanah rawa",
               "en": "swamp"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "沼沢",
             "furigana": "しょうたく",
             "romanji": "shoutaku",
             "meanings": {
               "id": "rawa",
               "en": "marsh"
-            }
+            },
+            "sentences": []
           }
         ]
       }

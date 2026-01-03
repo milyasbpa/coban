@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おも",
         "romanji": "omo",
         "examples": [
@@ -16,16 +17,19 @@
             "meanings": {
               "id": "menarik",
               "en": "interesting"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "おもて",
         "romanji": "omote",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "つら",
         "romanji": "tsura",
         "examples": []
@@ -33,28 +37,31 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "メン",
         "romanji": "men",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "面接",
             "furigana": "めんせつ",
             "romanji": "mensetsu",
             "meanings": {
               "id": "wawancara",
               "en": "interview"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "面",
             "furigana": "めん",
             "romanji": "men",
             "meanings": {
               "id": "permukaan, wajah",
               "en": "surface, face"
-            }
+            },
+            "sentences": []
           }
         ]
       }

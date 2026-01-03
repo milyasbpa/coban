@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "み",
         "romanji": "mi",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "buah, biji",
               "en": "fruit, seed"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,57 +28,64 @@
             "meanings": {
               "id": "berbuah, berhasil",
               "en": "bear fruit, succeed"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "みの",
         "romanji": "mino",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "実る",
             "furigana": "みのる",
             "romanji": "minoru",
             "meanings": {
               "id": "berbuah, berhasil",
               "en": "bear fruit, succeed"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジツ",
         "romanji": "jitsu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "実力",
             "furigana": "じつりょく",
             "romanji": "jitsuryoku",
             "meanings": {
               "id": "kemampuan",
               "en": "ability"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジッ",
         "romanji": "ji",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "実力",
             "furigana": "じつりょく",
             "romanji": "jitsuryoku",
             "meanings": {
               "id": "kemampuan",
               "en": "ability"
-            }
+            },
+            "sentences": []
           }
         ]
       }

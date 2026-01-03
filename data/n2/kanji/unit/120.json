@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うけたまわ",
         "romanji": "uketamawa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengerti",
               "en": "to understand"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "承知する",
             "furigana": "しょうちする",
             "romanji": "shouchisuru",
             "meanings": {
               "id": "mengerti",
               "en": "to understand"
-            }
+            },
+            "sentences": []
           }
         ]
       }

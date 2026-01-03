@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "すみ",
         "romanji": "sumi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "pojok, sudut",
               "en": "corner, angle"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "グウ",
         "romanji": "guu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "一隅",
             "furigana": "いちぐう",
             "romanji": "ichiguu",
             "meanings": {
               "id": "pojok, sudut",
               "en": "corner, nook"
-            }
+            },
+            "sentences": []
           }
         ]
       }

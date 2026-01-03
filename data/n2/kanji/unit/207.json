@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "のき",
         "romanji": "noki",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "di bawah atap emperan rumah",
               "en": "under the eaves"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケン",
         "romanji": "ken",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "一軒屋",
             "furigana": "いっけんや",
             "romanji": "ikkenya",
             "meanings": {
               "id": "1 bangunan rumah",
               "en": "one building"
-            }
+            },
+            "sentences": []
           }
         ]
       }

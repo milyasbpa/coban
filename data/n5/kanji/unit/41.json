@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひだり",
         "romanji": "hidari",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サ",
         "romanji": "sa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "左折",
             "furigana": "させつ",
             "romanji": "sasetsu",

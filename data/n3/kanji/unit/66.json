@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ま",
         "romanji": "ma",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "mencampur",
               "en": "to mix"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "まじ",
         "romanji": "maji",
         "examples": [
@@ -32,25 +35,28 @@
             "meanings": {
               "id": "mencampur",
               "en": "to mix"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "交通",
             "furigana": "こうつう",
             "romanji": "koutsu",
             "meanings": {
               "id": "lalu lintas",
               "en": "traffic"
-            }
+            },
+            "sentences": []
           }
         ]
       }

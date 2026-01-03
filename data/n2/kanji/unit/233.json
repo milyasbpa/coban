@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さき",
         "romanji": "saki",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "ざき",
         "romanji": "zaki",
         "examples": []
@@ -26,7 +28,8 @@
           "meanings": {
             "id": "(nama kota) Takasaki",
             "en": "Takasaki (city)"
-          }
+          },
+          "sentences": []
         },
         {
           "id": 2,
@@ -36,7 +39,8 @@
           "meanings": {
             "id": "(nama tempat) Miyazaki",
             "en": "Miyazaki (place name)"
-          }
+          },
+          "sentences": []
         }
       ]
     }

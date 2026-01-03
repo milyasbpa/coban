@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "すわ",
         "romanji": "suwa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "duduk",
               "en": "to sit"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ザ",
         "romanji": "za",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "正座",
             "furigana": "せいざ",
             "romanji": "seiza",
             "meanings": {
               "id": "berlutut",
               "en": "to kneel"
-            }
+            },
+            "sentences": []
           }
         ]
       }

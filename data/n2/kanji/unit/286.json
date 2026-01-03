@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かる",
         "romanji": "karu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "ringan, enteng",
               "en": "light"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "軽傷",
             "furigana": "けいしょう",
             "romanji": "keishou",
             "meanings": {
               "id": "luka ringan",
               "en": "minor injury"
-            }
+            },
+            "sentences": []
           }
         ]
       }

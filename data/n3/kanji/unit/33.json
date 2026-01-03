@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うしな",
         "romanji": "ushina",
         "examples": [
@@ -16,51 +17,57 @@
             "meanings": {
               "id": "kehilangan",
               "en": "to lose"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シツ",
         "romanji": "shitsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "失礼",
             "furigana": "しつれい",
             "romanji": "shitsurei",
             "meanings": {
               "id": "tidak sopan",
               "en": "rude; impolite"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "シッ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "失礼",
             "furigana": "しつれい",
             "romanji": "shitsurei",
             "meanings": {
               "id": "tidak sopan",
               "en": "rude; impolite"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "失敗",
             "furigana": "しっぱい",
             "romanji": "shippai",
             "meanings": {
               "id": "gagal",
               "en": "failure; mistake"
-            }
+            },
+            "sentences": []
           }
         ]
       }

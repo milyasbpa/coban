@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "そだ",
         "romanji": "soda",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "tumbuh",
               "en": "to grow"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,11 +28,13 @@
             "meanings": {
               "id": "membesarkan, membina",
               "en": "to raise, foster"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "はぐく",
         "romanji": "haguku",
         "examples": []
@@ -38,18 +42,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イク",
         "romanji": "iku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "教育",
             "furigana": "きょういく",
             "romanji": "kyouiku",
             "meanings": {
               "id": "pendidikan",
               "en": "education"
-            }
+            },
+            "sentences": []
           }
         ]
       }

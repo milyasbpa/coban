@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "と",
         "romanji": "to",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "menginap",
               "en": "to stay overnight"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハク",
         "romanji": "haku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "宿泊",
             "furigana": "しゅくはく",
             "romanji": "shukuhaku",
             "meanings": {
               "id": "penginapan",
               "en": "lodging"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "パク",
         "romanji": "paku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "一泊",
             "furigana": "いっぱく",
             "romanji": "ippaku",
             "meanings": {
               "id": "satu malam",
               "en": "one night"
-            }
+            },
+            "sentences": []
           }
         ]
       }

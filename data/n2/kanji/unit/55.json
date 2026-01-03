@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ゆか",
         "romanji": "yuka",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "lantai",
               "en": "floor"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "とこ",
         "romanji": "toko",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "床の間",
             "furigana": "とこのま",
             "romanji": "tokonoma",
             "meanings": {
               "id": "ruang kecil dalam ruang tatami",
               "en": "small room in tatami"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "起床",
             "furigana": "きしょう",
             "romanji": "kishou",
             "meanings": {
               "id": "bangun tidur",
               "en": "get up"
-            }
+            },
+            "sentences": []
           }
         ]
       }

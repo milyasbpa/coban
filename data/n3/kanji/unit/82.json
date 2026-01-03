@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ヤク",
         "romanji": "yaku",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "kewajiban",
               "en": "duty"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -27,11 +29,13 @@
             "meanings": {
               "id": "mempkerjakan",
               "en": "actor"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "エキ",
         "romanji": "eki",
         "examples": []

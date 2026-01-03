@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひと",
         "romanji": "hito",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジン",
         "romanji": "jin",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "日本人",
             "furigana": "にほんじん",
             "romanji": "nihonjin",
@@ -39,11 +41,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ニン",
         "romanji": "nin",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "三人",
             "furigana": "さんにん",
             "romanji": "sannin",
@@ -58,7 +61,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "旅人",
           "furigana": "たびびと",
           "romanji": "tabibito",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あらそ",
         "romanji": "araso",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bersaing",
               "en": "to compete"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "戦争",
             "furigana": "せんそう",
             "romanji": "sensou",
             "meanings": {
               "id": "peperangan",
               "en": "war"
-            }
+            },
+            "sentences": []
           }
         ]
       }

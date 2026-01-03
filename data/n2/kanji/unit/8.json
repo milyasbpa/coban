@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "い",
         "romanji": "i",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "sumur",
               "en": "well"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "油井",
             "furigana": "ゆせい",
             "romanji": "yusei",
             "meanings": {
               "id": "sumur minyak",
               "en": "oil well"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "天井",
             "furigana": "てんじょう",
             "romanji": "tenjou",
             "meanings": {
               "id": "langit-langit",
               "en": "ceiling"
-            }
+            },
+            "sentences": []
           }
         ]
       }

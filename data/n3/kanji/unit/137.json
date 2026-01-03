@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "い",
         "romanji": "i",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memiliki",
               "en": "to have"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョ",
         "romanji": "kyo",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "居住",
             "furigana": "きょじゅう",
             "romanji": "kyojuu",
             "meanings": {
               "id": "tempat tinggal",
               "en": "residence"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ハン",
         "romanji": "han",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "grafir",
               "en": "engraving"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "パン",
         "romanji": "pan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "出版",
             "furigana": "しゅっぱん",
             "romanji": "shuppan",
             "meanings": {
               "id": "penerbitan, publikasi",
               "en": "publishing, publication"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -41,14 +45,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "石版",
           "furigana": "せきばん",
           "romanji": "sekiban",
           "meanings": {
             "id": "litograf",
             "en": "lithograph"
-          }
+          },
+          "sentences": []
         }
       ]
     }

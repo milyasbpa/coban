@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まじ",
         "romanji": "maji",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "bercampur",
               "en": "to mix"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ザツ",
         "romanji": "zatsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "雑音",
             "furigana": "ざつおん",
             "romanji": "zatsuon",
             "meanings": {
               "id": "suara bising",
               "en": "noisy sound"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ゾウ",
         "romanji": "zou",
         "examples": []

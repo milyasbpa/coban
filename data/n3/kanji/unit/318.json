@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "menukar (menjadi benda lain)",
               "en": "to exchange"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,13 +28,15 @@
             "meanings": {
               "id": "ventilasi udara",
               "en": "ventilation"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": []

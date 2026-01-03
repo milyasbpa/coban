@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "みやこ",
         "romanji": "miyako",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "ibu kota",
               "en": "capital"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ト",
         "romanji": "to",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "都市",
             "furigana": "とし",
             "romanji": "toshi",
             "meanings": {
               "id": "kota",
               "en": "city"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ツ",
         "romanji": "tsu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "都合",
             "furigana": "つごう",
             "romanji": "tsugou",
             "meanings": {
               "id": "kesempatan, keadaan",
               "en": "opportunity, condition"
-            }
+            },
+            "sentences": []
           }
         ]
       }

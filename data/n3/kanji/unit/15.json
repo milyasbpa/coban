@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おっと",
         "romanji": "otto",
         "examples": [
@@ -16,46 +17,52 @@
             "meanings": {
               "id": "suami",
               "en": "husband"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "フ",
         "romanji": "fu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "夫人",
             "furigana": "ふじん",
             "romanji": "fujin",
             "meanings": {
               "id": "nyonya, istri",
               "en": "wife, lady"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "フウ",
         "romanji": "fuu",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "ブ",
         "romanji": "bu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "大丈夫",
             "furigana": "だいじょうぶ",
             "romanji": "daijoubu",
             "meanings": {
               "id": "tidak apa apa",
               "en": "all right, okay, no problem"
-            }
+            },
+            "sentences": []
           }
         ]
       }

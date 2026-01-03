@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "わか",
         "romanji": "waka",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "muda",
               "en": "young"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "も",
         "romanji": "mo",
         "examples": []
@@ -28,27 +31,31 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジャク",
         "romanji": "jaku",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "ニャク",
         "romanji": "nyaku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "老若",
             "furigana": "ろうにゃく",
             "romanji": "rounyaku",
             "meanings": {
               "id": "tua dan muda",
               "en": "old and young"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 3,
         "furigana": "ジャク",
         "romanji": "jaku",
         "examples": []
@@ -57,14 +64,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "若干",
           "furigana": "じゃっかん",
           "romanji": "jakkan",
           "meanings": {
             "id": "sedikit",
             "en": "few"
-          }
+          },
+          "sentences": []
         }
       ]
     }

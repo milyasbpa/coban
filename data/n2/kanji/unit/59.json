@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さか",
         "romanji": "saka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "jalan tanjakan",
               "en": "slope"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハン",
         "romanji": "han",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "急坂",
             "furigana": "きゅうはん",
             "romanji": "kyuuhan",
             "meanings": {
               "id": "tanjakan curam",
               "en": "steep hill"
-            }
+            },
+            "sentences": []
           }
         ]
       }

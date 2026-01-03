@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きそ",
         "romanji": "kiso",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "berlomba, bersaing",
               "en": "compete, rivalry"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "せ",
         "romanji": "se",
         "examples": []
@@ -28,44 +31,49 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "競売",
             "furigana": "きょうばい",
             "romanji": "kyoubai",
             "meanings": {
               "id": "lelang",
               "en": "auction"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "競争",
             "furigana": "きょうそう",
             "romanji": "kyousou",
             "meanings": {
               "id": "persaingan",
               "en": "competition"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "競馬",
             "furigana": "けいば",
             "romanji": "keiba",
             "meanings": {
               "id": "pacuan kuda",
               "en": "horse race"
-            }
+            },
+            "sentences": []
           }
         ]
       }

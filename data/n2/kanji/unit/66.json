@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "すぎ",
         "romanji": "sugi",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "pohon cedar",
               "en": "cedar tree"
-            }
+            },
+            "sentences": []
           }
         ]
       }

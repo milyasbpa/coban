@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "エキ",
         "romanji": "eki",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "keuntungan",
               "en": "profit"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -27,11 +29,13 @@
             "meanings": {
               "id": "kegunaan",
               "en": "usefulness"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ヤク",
         "romanji": "yaku",
         "examples": []

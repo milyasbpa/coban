@@ -38,11 +38,33 @@ export interface WordItem extends KanjiExample {
 /**
  * Get words list from kanji examples with vocabulary IDs
  * Format vocabularyId as "level_exampleId" for score lookup
+ * Examples are now nested in readings (kun/on/exception)
  */
 export const getWordsFromCharacter = (
   character: CharacterData
 ): WordItem[] => {
-  return character.examples.map((example) => ({
+  const examples: KanjiExample[] = [];
+  
+  // Collect from kun readings
+  character.readings.kun.forEach((reading) => {
+    if (reading.examples) {
+      examples.push(...reading.examples);
+    }
+  });
+  
+  // Collect from on readings
+  character.readings.on.forEach((reading) => {
+    if (reading.examples) {
+      examples.push(...reading.examples);
+    }
+  });
+  
+  // Collect from exception readings
+  if (character.readings.exception?.examples) {
+    examples.push(...character.readings.exception.examples);
+  }
+  
+  return examples.map((example) => ({
     ...example,
     vocabularyId: `${character.level}_${example.id}`,
   }));

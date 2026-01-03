@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "menang",
               "en": "to win"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "かさ",
         "romanji": "kasa",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "勝負",
             "furigana": "しょうぶ",
             "romanji": "shoubu",
             "meanings": {
               "id": "menang atau kalah",
               "en": "win or lose"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あ",
         "romanji": "a",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "ada",
               "en": "to exist"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ザイ",
         "romanji": "zai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "在学",
             "furigana": "ざいがく",
             "romanji": "zaigaku",
             "meanings": {
               "id": "ada di sekolah",
               "en": "attending school"
-            }
+            },
+            "sentences": []
           }
         ]
       }

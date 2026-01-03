@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しら",
         "romanji": "shira",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "memeriksa, menyelidiki",
               "en": "to examine, to investigate"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ととの",
         "romanji": "totono",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "調える",
             "furigana": "ととのえる",
             "romanji": "totonoeru",
             "meanings": {
               "id": "merapikan",
               "en": "to arrange"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チョウ",
         "romanji": "chou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "調査",
             "furigana": "ちょうさ",
             "romanji": "chousa",
             "meanings": {
               "id": "pemeriksaan, penyelidikan",
               "en": "investigation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うち",
         "romanji": "uchi",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "rumah",
               "en": "home"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ナイ",
         "romanji": "nai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "内容",
             "furigana": "ないよう",
             "romanji": "naiyou",
             "meanings": {
               "id": "isi",
               "en": "contents"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ダイ",
         "romanji": "dai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "境内",
             "furigana": "けいだい",
             "romanji": "keidai",
             "meanings": {
               "id": "dalam lingkungan rumah ibadah",
               "en": "sacred enclosure"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "む",
         "romanji": "mu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengukus",
               "en": "to steam"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "蒸気",
             "furigana": "じょうき",
             "romanji": "jouki",
             "meanings": {
               "id": "uap air",
               "en": "steam"
-            }
+            },
+            "sentences": []
           }
         ]
       }

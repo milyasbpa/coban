@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かさ",
         "romanji": "kasa",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "payung",
               "en": "umbrella"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "がさ",
         "romanji": "gasa",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サン",
         "romanji": "san",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "落下傘",
             "furigana": "らっかさん",
             "romanji": "rakkasan",
             "meanings": {
               "id": "parasut, terjun payung",
               "en": "parachute"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -47,14 +52,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "雨傘",
           "furigana": "あまがさ",
           "romanji": "amagasa",
           "meanings": {
             "id": "payung hujan",
             "en": "rain umbrella"
-          }
+          },
+          "sentences": []
         }
       ]
     }

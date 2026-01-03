@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まも",
         "romanji": "mamo",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "melindungi",
               "en": "to protect"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "も",
         "romanji": "mo",
         "examples": []
@@ -28,34 +31,38 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュ",
         "romanji": "shu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "守備",
             "furigana": "しゅび",
             "romanji": "shubi",
             "meanings": {
               "id": "pertahanan",
               "en": "defense"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ス",
         "romanji": "su",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "留守",
             "furigana": "るす",
             "romanji": "rusu",
             "meanings": {
               "id": "tidak di tempat/rumah",
               "en": "absence"
-            }
+            },
+            "sentences": []
           }
         ]
       }

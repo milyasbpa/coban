@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はか",
         "romanji": "haka",
         "examples": [
@@ -57,11 +58,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "時計",
             "furigana": "とけい",
             "romanji": "tokei",
@@ -83,7 +85,7 @@
             ]
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "計画",
             "furigana": "けいかく",
             "romanji": "keikaku",
@@ -105,7 +107,7 @@
             ]
           },
           {
-            "id": 5,
+            "id": 3,
             "word": "計算",
             "furigana": "けいさん",
             "romanji": "keisan",

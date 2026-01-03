@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ま",
         "romanji": "ma",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berdansa, menari",
               "en": "dance"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ブ",
         "romanji": "bu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "舞台",
             "furigana": "ぶたい",
             "romanji": "butai",
             "meanings": {
               "id": "panggung",
               "en": "stage"
-            }
+            },
+            "sentences": []
           }
         ]
       }

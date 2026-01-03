@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふ",
         "romanji": "fu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "meniup",
               "en": "to blow"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "スイ",
         "romanji": "sui",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "吹奏",
             "furigana": "すいそう",
             "romanji": "suisou",
             "meanings": {
               "id": "alat musik tiup",
               "en": "wind instrument"
-            }
+            },
+            "sentences": []
           }
         ]
       }

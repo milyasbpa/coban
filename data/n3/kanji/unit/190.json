@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たも",
         "romanji": "tamo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menjaga",
               "en": "to protect"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホ",
         "romanji": "ho",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "保険",
             "furigana": "ほけん",
             "romanji": "hoken",
             "meanings": {
               "id": "asuransi",
               "en": "insurance"
-            }
+            },
+            "sentences": []
           }
         ]
       }

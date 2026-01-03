@@ -6,22 +6,25 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ライ",
         "romanji": "rai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "礼賛",
             "furigana": "らいさん",
             "romanji": "raisan",
             "meanings": {
               "id": "pemujaan, pujian",
               "en": "praise; adoration"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "レイ",
         "romanji": "rei",
         "examples": [
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "ucapan terima kasih",
               "en": "gratitude; thanks"
-            }
+            },
+            "sentences": []
           }
         ]
       }

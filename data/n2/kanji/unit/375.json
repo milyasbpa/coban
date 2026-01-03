@@ -5,42 +5,48 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はし",
         "romanji": "hashi",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "ば",
         "romanji": "ba",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "端数",
             "furigana": "はすう",
             "romanji": "hasuu",
             "meanings": {
               "id": "angka pecahan",
               "en": "fraction"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "半端",
             "furigana": "はんぱ",
             "romanji": "hanpa",
             "meanings": {
               "id": "kepalang-tanggung",
               "en": "half-hearted"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 4,
         "furigana": "ぱ",
         "romanji": "pa",
         "examples": []
@@ -48,6 +54,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "タン",
         "romanji": "tan",
         "examples": [
@@ -59,17 +66,19 @@
             "meanings": {
               "id": "kedua ujung",
               "en": "both ends"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 6,
+            "id": 2,
             "word": "極端",
             "furigana": "きょくたん",
             "romanji": "kyokutan",
             "meanings": {
               "id": "ekstrim, radikal",
               "en": "extreme, radical"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -77,24 +86,26 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "道端",
           "furigana": "みちばた",
           "romanji": "michibata",
           "meanings": {
             "id": "pinggir jalan",
             "en": "roadside"
-          }
+          },
+          "sentences": []
         },
         {
-          "id": 5,
+          "id": 2,
           "word": "軒端",
           "furigana": "のきば",
           "romanji": "nokiba",
           "meanings": {
             "id": "tepi lisplang",
             "en": "eaves"
-          }
+          },
+          "sentences": []
         }
       ]
     }

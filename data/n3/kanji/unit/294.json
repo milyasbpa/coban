@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ほそ",
         "romanji": "hoso",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "kurus, ramping",
               "en": "thin, slim"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "こま",
         "romanji": "koma",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "細かい",
             "furigana": "こまかい",
             "romanji": "komakai",
             "meanings": {
               "id": "halus, kecil",
               "en": "small, fine"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サイ",
         "romanji": "sai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "細菌",
             "furigana": "さいきん",
             "romanji": "saikin",
             "meanings": {
               "id": "bakteri",
               "en": "bacteria"
-            }
+            },
+            "sentences": []
           }
         ]
       }

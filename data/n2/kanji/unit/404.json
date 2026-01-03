@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ハイ",
         "romanji": "hai",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "junior, adik kelas",
               "en": "junior"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "パイ",
         "romanji": "pai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "先輩",
             "furigana": "せんぱい",
             "romanji": "senpai",
             "meanings": {
               "id": "senior, kakak kelas",
               "en": "senior"
-            }
+            },
+            "sentences": []
           }
         ]
       }

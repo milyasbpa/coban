@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふく",
         "romanji": "fuku",
         "examples": [
@@ -16,13 +17,15 @@
             "meanings": {
               "id": "mengandung, termasuk",
               "en": "to contain, include"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガン",
         "romanji": "gan",
         "examples": []

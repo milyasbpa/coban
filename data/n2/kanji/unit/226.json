@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒョウ",
         "romanji": "hyou",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "pemberian suara",
               "en": "vote"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ピョウ",
         "romanji": "pyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "伝票",
             "furigana": "でんぴょう",
             "romanji": "denpyou",
             "meanings": {
               "id": "formulir, slip",
               "en": "slip, form"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たび",
         "romanji": "tabi",
         "examples": [
@@ -57,11 +58,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リョ",
         "romanji": "ryo",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "旅行",
             "furigana": "りょこう",
             "romanji": "ryokou",
@@ -83,7 +85,7 @@
             ]
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "旅館",
             "furigana": "りょかん",
             "romanji": "ryokan",
@@ -105,7 +107,7 @@
             ]
           },
           {
-            "id": 5,
+            "id": 3,
             "word": "旅券",
             "furigana": "りょけん",
             "romanji": "ryoken",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むす",
         "romanji": "musu",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "menghubungkan, mengikat",
               "en": "to connect, to tie"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ゆ",
         "romanji": "yu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "結う",
             "furigana": "ゆう",
             "romanji": "yuu",
             "meanings": {
               "id": "mengikat (rambut, tali, dsb)",
               "en": "to tie, to bind (hair, string, etc.)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケツ",
         "romanji": "ketsu",
         "examples": []
@@ -47,14 +52,15 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "結果",
           "furigana": "けっか",
           "romanji": "kekka",
           "meanings": {
             "id": "hasil, akibat",
             "en": "result"
-          }
+          },
+          "sentences": []
         }
       ]
     }

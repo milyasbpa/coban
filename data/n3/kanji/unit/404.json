@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かか",
         "romanji": "kaka",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "berurusan, bersangkutan",
               "en": "to concern, to relate"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "せき",
         "romanji": "seki",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "関心",
             "furigana": "かんしん",
             "romanji": "kanshin",
             "meanings": {
               "id": "ketertarikan, kepedulian",
               "en": "interest, care"
-            }
+            },
+            "sentences": []
           }
         ]
       }

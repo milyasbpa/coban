@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "menggambar",
               "en": "to draw"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "えが",
         "romanji": "ega",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "描く",
             "furigana": "えがく",
             "romanji": "egaku",
             "meanings": {
               "id": "melukis",
               "en": "to paint"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ビョウ",
         "romanji": "byou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "描写",
             "furigana": "びょうしゃ",
             "romanji": "byousha",
             "meanings": {
               "id": "gambaran, lukisan",
               "en": "picture, depiction"
-            }
+            },
+            "sentences": []
           }
         ]
       }

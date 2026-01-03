@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひく",
         "romanji": "hiku",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "rendah, pendek",
               "en": "low, short"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "テイ",
         "romanji": "tei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "低下",
             "furigana": "ていか",
             "romanji": "teika",
             "meanings": {
               "id": "penurunan",
               "en": "decline"
-            }
+            },
+            "sentences": []
           }
         ]
       }

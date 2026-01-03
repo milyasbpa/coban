@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "そな",
         "romanji": "sona",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mempersiapkan",
               "en": "to prepare"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ビ",
         "romanji": "bi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "準備",
             "furigana": "じゅんび",
             "romanji": "junbi",
             "meanings": {
               "id": "persiapan",
               "en": "preparation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まか",
         "romanji": "maka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mempercayakan",
               "en": "to entrust"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ニン",
         "romanji": "nin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "任務",
             "furigana": "にんむ",
             "romanji": "ninmu",
             "meanings": {
               "id": "tugas",
               "en": "duty; mission"
-            }
+            },
+            "sentences": []
           }
         ]
       }

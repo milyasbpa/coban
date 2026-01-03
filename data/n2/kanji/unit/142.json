@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "layu, menguning",
               "en": "to wither, to turn yellow"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コ",
         "romanji": "ko",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "枯死する",
             "furigana": "こしする",
             "romanji": "koshisuru",
             "meanings": {
               "id": "mati layu",
               "en": "to die withered"
-            }
+            },
+            "sentences": []
           }
         ]
       }

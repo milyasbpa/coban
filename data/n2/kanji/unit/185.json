@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "したが",
         "romanji": "shitaga",
         "examples": [
@@ -16,67 +17,75 @@
             "meanings": {
               "id": "mengikuti, mematuhi",
               "en": "to follow, to obey"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "従順する",
             "furigana": "じゅうじゅんする",
             "romanji": "juujun suru",
             "meanings": {
               "id": "patuh, taat",
               "en": "to be obedient"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "従容",
             "furigana": "しょうよう",
             "romanji": "shouyou",
             "meanings": {
               "id": "tenang, damai",
               "en": "calm, composed, serene"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 3,
         "furigana": "ジュ",
         "romanji": "ju",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "従順する",
             "furigana": "じゅうじゅんする",
             "romanji": "juujun suru",
             "meanings": {
               "id": "patuh, taat",
               "en": "to be obedient"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "従三位",
             "furigana": "じゅさんみ",
             "romanji": "jusanmi",
             "meanings": {
               "id": "urutan 3 terakhir",
               "en": "last three ranks"
-            }
+            },
+            "sentences": []
           }
         ]
       }

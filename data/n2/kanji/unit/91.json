@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おが",
         "romanji": "oga",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memuja, beribadah",
               "en": "to worship, pray"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハイ",
         "romanji": "hai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "拝観料",
             "furigana": "はいかんりょう",
             "romanji": "haikanryou",
             "meanings": {
               "id": "karcis masuk",
               "en": "admission ticket"
-            }
+            },
+            "sentences": []
           }
         ]
       }

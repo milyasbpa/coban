@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しる",
         "romanji": "shiru",
         "examples": []
@@ -12,18 +13,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "肉汁",
             "furigana": "にくじゅう",
             "romanji": "nikujuu",
             "meanings": {
               "id": "kaldu daging",
               "en": "meat broth"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -38,7 +41,8 @@
           "meanings": {
             "id": "sup tauco",
             "en": "miso soup"
-          }
+          },
+          "sentences": []
         }
       ]
     }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さかずき",
         "romanji": "sakazuki",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "gelas",
               "en": "cup"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハイ",
         "romanji": "hai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "祝杯",
             "furigana": "しゅくはい",
             "romanji": "shukuhai",
             "meanings": {
               "id": "bersulang",
               "en": "toast"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "パイ",
         "romanji": "pai",
         "examples": []

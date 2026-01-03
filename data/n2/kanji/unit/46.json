@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひか",
         "romanji": "hika",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "bercahaya",
               "en": "to shine"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,41 +28,46 @@
             "meanings": {
               "id": "cahaya",
               "en": "light"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ひかり",
         "romanji": "hikari",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "光",
             "furigana": "ひかり",
             "romanji": "hikari",
             "meanings": {
               "id": "cahaya",
               "en": "light"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "日光",
             "furigana": "にっこう",
             "romanji": "nikkou",
             "meanings": {
               "id": "cahaya matahari",
               "en": "sunlight"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "お",
         "romanji": "o",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "kertas lipat",
               "en": "origami"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "おり",
         "romanji": "ori",
         "examples": [
@@ -32,25 +35,28 @@
             "meanings": {
               "id": "kertas lipat",
               "en": "origami"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セツ",
         "romanji": "setsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "右折",
             "furigana": "うせつ",
             "romanji": "usetsu",
             "meanings": {
               "id": "belok kanan",
               "en": "turn right"
-            }
+            },
+            "sentences": []
           }
         ]
       }

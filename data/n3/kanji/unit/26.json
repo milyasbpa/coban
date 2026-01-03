@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "よし",
         "romanji": "yoshi",
         "examples": [
@@ -16,51 +17,57 @@
             "meanings": {
               "id": "keadaan, maksud/tujuan",
               "en": "reason, cause, circumstances, purpose"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ユウ",
         "romanji": "yuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "自由",
             "furigana": "じゆう",
             "romanji": "jiyuu",
             "meanings": {
               "id": "kebebasan",
               "en": "freedom"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ユ",
         "romanji": "yu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "自由",
             "furigana": "じゆう",
             "romanji": "jiyuu",
             "meanings": {
               "id": "kebebasan",
               "en": "freedom"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "由緒",
             "furigana": "ゆいしょ",
             "romanji": "yuisho",
             "meanings": {
               "id": "silsilah, asal usul",
               "en": "history, pedigree, lineage"
-            }
+            },
+            "sentences": []
           }
         ]
       }

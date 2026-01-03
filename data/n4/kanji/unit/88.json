@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "や",
         "romanji": "ya",
         "examples": [
@@ -35,11 +36,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ビョウ",
         "romanji": "byou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "病気",
             "furigana": "びょうき",
             "romanji": "byouki",
@@ -61,7 +63,7 @@
             ]
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "成人病",
             "furigana": "せいじんびょう",
             "romanji": "seijinbyou",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "お",
         "romanji": "o",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "turun",
               "en": "descend"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ふ",
         "romanji": "fu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "降る",
             "furigana": "ふる",
             "romanji": "furu",
             "meanings": {
               "id": "turun, jatuh",
               "en": "to fall (rain, snow)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "降参",
             "furigana": "こうさん",
             "romanji": "kousan",
             "meanings": {
               "id": "menyerah",
               "en": "surrender"
-            }
+            },
+            "sentences": []
           }
         ]
       }

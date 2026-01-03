@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あらわ",
         "romanji": "arawa",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "mengarang, menerbitkan",
               "en": "to write, to publish"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "いちじる",
         "romanji": "ichijiru",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "著しい",
             "furigana": "いちじるしい",
             "romanji": "ichijirushii",
             "meanings": {
               "id": "hebat sekali",
               "en": "remarkable"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チョ",
         "romanji": "cho",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "著者",
             "furigana": "ちょしゃ",
             "romanji": "chosha",
             "meanings": {
               "id": "pengarang, penulis",
               "en": "author, writer"
-            }
+            },
+            "sentences": []
           }
         ]
       }

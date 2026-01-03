@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つね",
         "romanji": "tsune",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "selalu, biasanya",
               "en": "always, usually"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "とこ",
         "romanji": "toko",
         "examples": []
@@ -28,28 +31,31 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "常夜",
             "furigana": "じょうや",
             "romanji": "jouya",
             "meanings": {
               "id": "senantiasa malam",
               "en": "eternal night, perpetual night"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "正常",
             "furigana": "せいじょう",
             "romanji": "seijou",
             "meanings": {
               "id": "normal, biasa",
               "en": "normal"
-            }
+            },
+            "sentences": []
           }
         ]
       }

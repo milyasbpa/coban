@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はな",
         "romanji": "hana",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "meriah",
               "en": "splendid, gorgeous"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "華道",
             "furigana": "かどう",
             "romanji": "kadou",
             "meanings": {
               "id": "seni merangkai bunga",
               "en": "flower arrangement"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ゲ",
         "romanji": "ge",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "蓮華",
             "furigana": "れんげ",
             "romanji": "renge",
             "meanings": {
               "id": "bunga teratai",
               "en": "lotus flower"
-            }
+            },
+            "sentences": []
           }
         ]
       }

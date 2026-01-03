@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ほ",
         "romanji": "ho",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menggali",
               "en": "to dig"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "クツ",
         "romanji": "kutsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "採掘",
             "furigana": "さいくつ",
             "romanji": "saikutsu",
             "meanings": {
               "id": "penggalian tambang",
               "en": "mining"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -42,14 +46,15 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "掘削",
           "furigana": "くっさく",
           "romanji": "kussaku",
           "meanings": {
             "id": "penggalian",
             "en": "excavation"
-          }
+          },
+          "sentences": []
         }
       ]
     }

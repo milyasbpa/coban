@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "す",
         "romanji": "su",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "melampaui",
               "en": "to exceed"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "あやま",
         "romanji": "ayama",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "過ち",
             "furigana": "あやまち",
             "romanji": "ayamachi",
             "meanings": {
               "id": "kesalahan",
               "en": "mistake"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "過去",
             "furigana": "かこ",
             "romanji": "kako",
             "meanings": {
               "id": "lampau, lalu, dulu",
               "en": "past"
-            }
+            },
+            "sentences": []
           }
         ]
       }

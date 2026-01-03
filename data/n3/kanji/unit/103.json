@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "タイ",
         "romanji": "tai",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "penanggulangan",
               "en": "countermeasure"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ツイ",
         "romanji": "tsui",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "一対",
             "furigana": "いっつい",
             "romanji": "ittsui",
             "meanings": {
               "id": "satu pasang",
               "en": "a pair"
-            }
+            },
+            "sentences": []
           }
         ]
       }

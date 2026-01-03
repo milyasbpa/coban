@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かり",
         "romanji": "kari",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "surat izin palsu",
               "en": "false license"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "仮定",
             "furigana": "かてい",
             "romanji": "katei",
             "meanings": {
               "id": "hipotesis, perkiraan",
               "en": "hypothesis, estimate"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ケ",
         "romanji": "ke",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "仮病",
             "furigana": "けびょう",
             "romanji": "kebyou",
             "meanings": {
               "id": "pura-pura sakit",
               "en": "feign illness"
-            }
+            },
+            "sentences": []
           }
         ]
       }

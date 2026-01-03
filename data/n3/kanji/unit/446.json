@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たの",
         "romanji": "tano",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "meminta (tolong)",
               "en": "to ask (for help)"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "たよ",
         "romanji": "tayo",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "頼る",
             "furigana": "たよる",
             "romanji": "tayoru",
             "meanings": {
               "id": "mengandalkan, mempercayakan",
               "en": "to rely, to entrust"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ライ",
         "romanji": "rai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "依頼",
             "furigana": "いらい",
             "romanji": "irai",
             "meanings": {
               "id": "permohonan, permintaan",
               "en": "request"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "のこ",
         "romanji": "noko",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "tertinggal",
               "en": "to remain"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ザン",
         "romanji": "zan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "残業",
             "furigana": "ざんぎょう",
             "romanji": "zangyou",
             "meanings": {
               "id": "lembur",
               "en": "overtime"
-            }
+            },
+            "sentences": []
           }
         ]
       }

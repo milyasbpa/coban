@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "み",
         "romanji": "mi",
         "examples": [
@@ -16,35 +17,39 @@
             "meanings": {
               "id": "keluarga sendiri",
               "en": "own family"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シン",
         "romanji": "shin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "自身",
             "furigana": "じしん",
             "romanji": "jishin",
             "meanings": {
               "id": "sendiri",
               "en": "oneself"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "身体",
             "furigana": "しんたい",
             "romanji": "shintai",
             "meanings": {
               "id": "badan, tubuh",
               "en": "body"
-            }
+            },
+            "sentences": []
           }
         ]
       }

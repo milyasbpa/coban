@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むずか",
         "romanji": "muzuka",
         "examples": [
@@ -16,16 +17,19 @@
             "meanings": {
               "id": "susah, sulit, rumit",
               "en": "difficult, hard, complicated"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "かた",
         "romanji": "kata",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "がた",
         "romanji": "gata",
         "examples": []
@@ -33,18 +37,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ナン",
         "romanji": "nan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "難問",
             "furigana": "なんもん",
             "romanji": "nanmon",
             "meanings": {
               "id": "masalah pelik",
               "en": "tricky problem"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -52,14 +58,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "言い難い",
           "furigana": "いいがたい",
           "romanji": "iigatai",
           "meanings": {
             "id": "susah dikatakan",
             "en": "hard to say"
-          }
+          },
+          "sentences": []
         }
       ]
     }

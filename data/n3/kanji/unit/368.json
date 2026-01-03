@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ゼン",
         "romanji": "zen",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "alam, alamiah",
               "en": "nature, natural"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -27,11 +29,13 @@
             "meanings": {
               "id": "sama sekali (tidak)",
               "en": "not at all"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ネン",
         "romanji": "nen",
         "examples": []

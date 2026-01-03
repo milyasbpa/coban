@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "めぐ",
         "romanji": "megu",
         "examples": [
@@ -16,51 +17,57 @@
             "meanings": {
               "id": "berkah, karunia",
               "en": "blessing, gift"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "恩恵",
             "furigana": "おんけい",
             "romanji": "onkei",
             "meanings": {
               "id": "berkah, karunia",
               "en": "benefit, favor"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "エ",
         "romanji": "e",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "恩恵",
             "furigana": "おんけい",
             "romanji": "onkei",
             "meanings": {
               "id": "berkah, karunia",
               "en": "benefit, favor"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "知恵",
             "furigana": "ちえ",
             "romanji": "chie",
             "meanings": {
               "id": "akal budi, kecerdasan",
               "en": "wisdom, intelligence"
-            }
+            },
+            "sentences": []
           }
         ]
       }

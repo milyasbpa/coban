@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "て",
         "romanji": "te",
         "examples": [
@@ -19,7 +20,7 @@
             }
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "手紙",
             "furigana": "てがみ",
             "romanji": "tegami",
@@ -31,6 +32,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "た",
         "romanji": "ta",
         "examples": []
@@ -38,11 +40,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュ",
         "romanji": "shu",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "歌手",
             "furigana": "かしゅ",
             "romanji": "kashu",
@@ -57,7 +60,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "人手",
           "furigana": "ひとで",
           "romanji": "hitode",

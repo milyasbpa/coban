@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "と",
         "romanji": "to",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mencair, larut",
               "en": "melt, dissolve"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "溶岩",
             "furigana": "ようがん",
             "romanji": "yougan",
             "meanings": {
               "id": "lahar gunung api",
               "en": "volcanic lava"
-            }
+            },
+            "sentences": []
           }
         ]
       }

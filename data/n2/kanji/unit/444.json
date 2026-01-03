@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かがみ",
         "romanji": "kagami",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "cermin",
               "en": "mirror"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "望遠鏡",
             "furigana": "ぼうえんきょう",
             "romanji": "bouenkyou",
             "meanings": {
               "id": "teropong, teleskop",
               "en": "telescope"
-            }
+            },
+            "sentences": []
           }
         ]
       }

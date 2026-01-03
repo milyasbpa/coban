@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あな",
         "romanji": "ana",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "lubang, goa",
               "en": "hole, cave"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケツ",
         "romanji": "ketsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "墓穴",
             "furigana": "ぼけつ",
             "romanji": "boketsu",
             "meanings": {
               "id": "liang kubur",
               "en": "grave"
-            }
+            },
+            "sentences": []
           }
         ]
       }

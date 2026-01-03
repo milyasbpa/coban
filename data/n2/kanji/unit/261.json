@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まなこ",
         "romanji": "manako",
         "examples": [
@@ -16,39 +17,44 @@
             "meanings": {
               "id": "mata",
               "en": "eye"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガン",
         "romanji": "gan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "眼球",
             "furigana": "がんきゅう",
             "romanji": "gankyuu",
             "meanings": {
               "id": "bola mata",
               "en": "eyeball"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "慧眼",
             "furigana": "けいがん",
             "romanji": "keigan",
             "meanings": {
               "id": "pandangan yg tajam",
               "en": "sharp vision, insight"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ゲン",
         "romanji": "gen",
         "examples": []

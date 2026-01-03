@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ねが",
         "romanji": "nega",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengharapkan, meminta",
               "en": "to hope, to wish, to request"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガン",
         "romanji": "gan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "願望",
             "furigana": "がんぼう",
             "romanji": "ganbou",
             "meanings": {
               "id": "pengharapan, tekad, kerinduan",
               "en": "hope, determination, longing"
-            }
+            },
+            "sentences": []
           }
         ]
       }

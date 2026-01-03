@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ころも",
         "romanji": "koromo",
         "examples": [
@@ -16,35 +17,39 @@
             "meanings": {
               "id": "lapisan, jubah",
               "en": "robe"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イ",
         "romanji": "i",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "衣服",
             "furigana": "いふく",
             "romanji": "ifuku",
             "meanings": {
               "id": "baju",
               "en": "clothes"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "更衣室",
             "furigana": "こういしつ",
             "romanji": "kouishitsu",
             "meanings": {
               "id": "ruang ganti",
               "en": "changing room"
-            }
+            },
+            "sentences": []
           }
         ]
       }

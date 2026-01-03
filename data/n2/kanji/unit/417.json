@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "も",
         "romanji": "mo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "terbakar",
               "en": "to burn"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ネン",
         "romanji": "nen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "燃料",
             "furigana": "ねんりょう",
             "romanji": "nenryou",
             "meanings": {
               "id": "bahan bakar",
               "en": "fuel"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なみ",
         "romanji": "nami",
         "examples": [
@@ -16,30 +17,34 @@
             "meanings": {
               "id": "ombak",
               "en": "wave"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハ",
         "romanji": "ha",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "パ",
         "romanji": "pa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "電波",
             "furigana": "でんぱ",
             "romanji": "denpa",
             "meanings": {
               "id": "signal",
               "en": "signal"
-            }
+            },
+            "sentences": []
           }
         ]
       }

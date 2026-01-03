@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "テイ",
         "romanji": "tei",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "sopan, teliti",
               "en": "polite, meticulous"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "チョウ",
         "romanji": "chou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "丁目",
             "furigana": "ちょうめ",
             "romanji": "choume",
             "meanings": {
               "id": "pembagian tata kota",
               "en": "city block"
-            }
+            },
+            "sentences": []
           }
         ]
       }

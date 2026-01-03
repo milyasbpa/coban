@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さわ",
         "romanji": "sawa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bersorak-sorai",
               "en": "to cheer"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "騒言",
             "furigana": "そうげん",
             "romanji": "sougen",
             "meanings": {
               "id": "bunyi bising",
               "en": "noisy sound"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "とお",
         "romanji": "too",
         "examples": [
@@ -21,6 +22,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "と",
         "romanji": "to",
         "examples": [
@@ -49,11 +51,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "十字路",
             "furigana": "じゅうじろ",
             "romanji": "juujiro",
@@ -65,11 +68,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジュッ",
         "romanji": "jut",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "十回",
             "furigana": "じゅっかい",
             "romanji": "jukkai",

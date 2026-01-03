@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まわ",
         "romanji": "mawa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berputar, berkeliling",
               "en": "to turn; to go around"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カイ",
         "romanji": "kai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "回答",
             "furigana": "かいとう",
             "romanji": "kaitou",
             "meanings": {
               "id": "jawaban",
               "en": "answer; reply"
-            }
+            },
+            "sentences": []
           }
         ]
       }

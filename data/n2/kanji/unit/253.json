@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しか",
         "romanji": "shika",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "rusa, kijang",
               "en": "deer"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -25,14 +27,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "鹿児島",
           "furigana": "かごしま",
           "romanji": "kagoshima",
           "meanings": {
             "id": "(nama tempat) Kagoshima",
             "en": "Kagoshima (place name)"
-          }
+          },
+          "sentences": []
         }
       ]
     }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あ",
         "romanji": "a",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menempatkan, mengalokasikan",
               "en": "to assign, to allocate, to set"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "充実",
             "furigana": "じゅうじつ",
             "romanji": "juujitsu",
             "meanings": {
               "id": "padat, lengkap",
               "en": "full, complete"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はり",
         "romanji": "hari",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "jarum, kail",
               "en": "needle, hook"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ばり",
         "romanji": "bari",
         "examples": []
@@ -28,28 +31,31 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シン",
         "romanji": "shin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "注射針",
             "furigana": "ちゅうしゃしん",
             "romanji": "chuushashin",
             "meanings": {
               "id": "jarum suntik",
               "en": "syringe needle"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "方針",
             "furigana": "ほうしん",
             "romanji": "houshin",
             "meanings": {
               "id": "haluan, kebijaksanaan",
               "en": "policy, principle, course of action"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "のぞ",
         "romanji": "nozo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berharap",
               "en": "to hope"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ボウ",
         "romanji": "bou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "希望",
             "furigana": "きぼう",
             "romanji": "kibou",
             "meanings": {
               "id": "harapan, keinginan",
               "en": "wish, desire"
-            }
+            },
+            "sentences": []
           }
         ]
       }

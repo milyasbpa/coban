@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つぎ",
         "romanji": "tsugi",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "つ",
         "romanji": "tsu",
         "examples": [
@@ -21,41 +23,46 @@
             "meanings": {
               "id": "berlanjut",
               "en": "to follow; to succeed"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジ",
         "romanji": "ji",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "次男",
             "furigana": "じなん",
             "romanji": "jinan",
             "meanings": {
               "id": "putra kedua",
               "en": "second son"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "次第",
             "furigana": "しだい",
             "romanji": "shidai",
             "meanings": {
               "id": "selekasnya",
               "en": "as soon as; depending on"
-            }
+            },
+            "sentences": []
           }
         ]
       }

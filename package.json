@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate:kanji": "node scripts/generate-kanji.js",
+    "predev": "npm run generate:kanji",
     "dev": "next dev -p 1997",
+    "prebuild": "npm run generate:kanji",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

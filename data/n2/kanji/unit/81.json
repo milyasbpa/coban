@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "agama",
               "en": "religion"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "宗家",
             "furigana": "そうけ",
             "romanji": "souke",
             "meanings": {
               "id": "pimpinan aliran kesenian",
               "en": "sect leader"
-            }
+            },
+            "sentences": []
           }
         ]
       }

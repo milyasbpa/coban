@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "えだ",
         "romanji": "eda",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "dahan, ranting",
               "en": "branch, twig"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "分枝",
             "furigana": "ぶんし",
             "romanji": "bunshi",
             "meanings": {
               "id": "bagian belahan dahan",
               "en": "branch part"
-            }
+            },
+            "sentences": []
           }
         ]
       }

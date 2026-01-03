@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さかい",
         "romanji": "sakai",
         "examples": [
@@ -16,39 +17,44 @@
             "meanings": {
               "id": "batas, perbatasan",
               "en": "boundary, border, frontier, region"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "境界",
             "furigana": "きょうかい",
             "romanji": "kyoukai",
             "meanings": {
               "id": "batas, perbatasan",
               "en": "border, boundary"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "寺境",
             "furigana": "じきょう",
             "romanji": "jikyou",
             "meanings": {
               "id": "dalam lingkungan rumah ibadah",
               "en": "temple precinct"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": []

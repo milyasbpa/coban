@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "みだ",
         "romanji": "mida",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kacau, berantakan",
               "en": "chaotic, disorderly"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ラン",
         "romanji": "ran",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "乱暴",
             "furigana": "らんぼう",
             "romanji": "ranbou",
             "meanings": {
               "id": "brutal, kasar",
               "en": "brutal, rough"
-            }
+            },
+            "sentences": []
           }
         ]
       }

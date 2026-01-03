@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はやし",
         "romanji": "hayashi",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "hutan belukar",
               "en": "grove"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ばやし",
         "romanji": "bayashi",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リン",
         "romanji": "rin",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "密林",
             "furigana": "みつりん",
             "romanji": "mitsurin",
             "meanings": {
               "id": "hutan belantara",
               "en": "jungle"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -47,14 +52,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "松林",
           "furigana": "まつばやし",
           "romanji": "matsubayashi",
           "meanings": {
             "id": "hutan pinus",
             "en": "pine forest"
-          }
+          },
+          "sentences": []
         }
       ]
     }

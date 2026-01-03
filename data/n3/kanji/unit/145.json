@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "な",
         "romanji": "na",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menangis",
               "en": "to cry"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キュウ",
         "romanji": "kyuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "号泣",
             "furigana": "ごうきゅう",
             "romanji": "goukyuu",
             "meanings": {
               "id": "meraung-raung",
               "en": "to wail"
-            }
+            },
+            "sentences": []
           }
         ]
       }

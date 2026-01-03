@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あず",
         "romanji": "azu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menitipkan",
               "en": "to entrust"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨ",
         "romanji": "yo",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "預金",
             "furigana": "よきん",
             "romanji": "yokin",
             "meanings": {
               "id": "deposito",
               "en": "deposit"
-            }
+            },
+            "sentences": []
           }
         ]
       }

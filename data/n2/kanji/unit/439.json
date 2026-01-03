@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ケン",
         "romanji": "ken",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "ulangan, ujian",
               "en": "test, exam"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -27,11 +29,13 @@
             "meanings": {
               "id": "khasiat",
               "en": "efficacy"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ゲン",
         "romanji": "gen",
         "examples": []

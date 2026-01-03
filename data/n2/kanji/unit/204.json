@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あ",
         "romanji": "a",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengadakan",
               "en": "to hold, to raise"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョ",
         "romanji": "kyo",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "選挙",
             "furigana": "せんきょ",
             "romanji": "senkyo",
             "meanings": {
               "id": "pemilihan umum",
               "en": "election"
-            }
+            },
+            "sentences": []
           }
         ]
       }

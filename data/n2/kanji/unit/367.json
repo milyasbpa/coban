@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "バツ",
         "romanji": "batsu",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "hukuman berat",
               "en": "severe punishment"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "バチ",
         "romanji": "bachi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "仏罰",
             "furigana": "ぶつばち",
             "romanji": "butsubachi",
             "meanings": {
               "id": "hukuman Buddha",
               "en": "Buddhist penalty"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -41,14 +45,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "罰金",
           "furigana": "ばっきん",
           "romanji": "bakkin",
           "meanings": {
             "id": "denda",
             "en": "fine"
-          }
+          },
+          "sentences": []
         }
       ]
     }

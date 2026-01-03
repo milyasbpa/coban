@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "キツ",
         "romanji": "kitsu",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "merokok",
               "en": "smoking"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -25,14 +27,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "喫茶店",
           "furigana": "きっさてん",
           "romanji": "kissaten",
           "meanings": {
             "id": "kafe, warung kopi",
             "en": "cafe, coffee shop"
-          }
+          },
+          "sentences": []
         }
       ]
     }

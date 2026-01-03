@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なお",
         "romanji": "nao",
         "examples": [
@@ -16,73 +17,82 @@
             "meanings": {
               "id": "memperbaiki",
               "en": "to fix"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "すぐ",
         "romanji": "sugu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "直ぐ",
             "furigana": "すぐ",
             "romanji": "sugu",
             "meanings": {
               "id": "segera",
               "en": "immediately"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 3,
         "furigana": "ただ",
         "romanji": "tada",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "直ちに",
             "furigana": "ただちに",
             "romanji": "tadachini",
             "meanings": {
               "id": "serta merta",
               "en": "instantly"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チョク",
         "romanji": "choku",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "直接",
             "furigana": "ちょくせつ",
             "romanji": "chokusetsu",
             "meanings": {
               "id": "langsung",
               "en": "direct"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジキ",
         "romanji": "jiki",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "正直",
             "furigana": "しょうじき",
             "romanji": "shoujiki",
             "meanings": {
               "id": "jujur",
               "en": "honest"
-            }
+            },
+            "sentences": []
           }
         ]
       }

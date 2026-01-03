@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おそ",
         "romanji": "oso",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "takut, khawatir",
               "en": "to fear, to worry"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,25 +28,28 @@
             "meanings": {
               "id": "menakutkan",
               "en": "scary"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "恐縮",
             "furigana": "きょうしゅく",
             "romanji": "kyoushuku",
             "meanings": {
               "id": "sungkan",
               "en": "shy, sorry"
-            }
+            },
+            "sentences": []
           }
         ]
       }

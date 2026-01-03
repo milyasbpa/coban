@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "う",
         "romanji": "u",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memukul",
               "en": "to hit"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ダ",
         "romanji": "da",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "打者",
             "furigana": "だしゃ",
             "romanji": "dasha",
             "meanings": {
               "id": "pemukul bola",
               "en": "batter"
-            }
+            },
+            "sentences": []
           }
         ]
       }

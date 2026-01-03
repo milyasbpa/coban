@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひたい",
         "romanji": "hitai",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kening",
               "en": "forehead"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガク",
         "romanji": "gaku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "総額",
             "furigana": "そうがく",
             "romanji": "sougaku",
             "meanings": {
               "id": "jumlah uang",
               "en": "amount of money"
-            }
+            },
+            "sentences": []
           }
         ]
       }

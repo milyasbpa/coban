@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "もと",
         "romanji": "moto",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "minta, perlu",
               "en": "to request, need"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キュウ",
         "romanji": "kyuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "求人",
             "furigana": "きゅうじん",
             "romanji": "kyuujin",
             "meanings": {
               "id": "kebutuhan tenaga kerja",
               "en": "job vacancy"
-            }
+            },
+            "sentences": []
           }
         ]
       }

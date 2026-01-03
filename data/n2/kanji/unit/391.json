@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うつわ",
         "romanji": "utsuwa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "wadah",
               "en": "container"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キ",
         "romanji": "ki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "器械",
             "furigana": "きかい",
             "romanji": "kikai",
             "meanings": {
               "id": "mesin",
               "en": "machine"
-            }
+            },
+            "sentences": []
           }
         ]
       }

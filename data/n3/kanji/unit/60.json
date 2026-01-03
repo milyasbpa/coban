@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こめ",
         "romanji": "kome",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "beras",
               "en": "rice"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ベイ",
         "romanji": "bei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "米国",
             "furigana": "べいこく",
             "romanji": "beikoku",
             "meanings": {
               "id": "Amerika Serikat",
               "en": "United States"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "マイ",
         "romanji": "mai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "新米",
             "furigana": "しんまい",
             "romanji": "shinmai",
             "meanings": {
               "id": "beras baru",
               "en": "new rice"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うやま",
         "romanji": "uyama",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menghormati",
               "en": "to respect"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "敬語",
             "furigana": "けいご",
             "romanji": "keigo",
             "meanings": {
               "id": "bentuk bahasa hormat",
               "en": "honorific form"
-            }
+            },
+            "sentences": []
           }
         ]
       }

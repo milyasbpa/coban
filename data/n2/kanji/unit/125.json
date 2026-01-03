@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まぬか",
         "romanji": "manuka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "terhindar",
               "en": "to avoid"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "メン",
         "romanji": "men",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "免許証",
             "furigana": "めんきょしょう",
             "romanji": "menkyoshou",
             "meanings": {
               "id": "surat izin",
               "en": "license, permit"
-            }
+            },
+            "sentences": []
           }
         ]
       }

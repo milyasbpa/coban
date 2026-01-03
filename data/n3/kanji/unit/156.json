@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くる",
         "romanji": "kuru",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "menderita",
               "en": "painful / suffering"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "にが",
         "romanji": "niga",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "苦い",
             "furigana": "にがい",
             "romanji": "nigai",
             "meanings": {
               "id": "pahit",
               "en": "bitter"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ク",
         "romanji": "ku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "苦心",
             "furigana": "くしん",
             "romanji": "kushin",
             "meanings": {
               "id": "usaha, upaya",
               "en": "effort"
-            }
+            },
+            "sentences": []
           }
         ]
       }

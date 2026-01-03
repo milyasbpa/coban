@@ -5,24 +5,27 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "もり",
         "romanji": "mori",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "森",
             "furigana": "もり",
             "romanji": "mori",
             "meanings": {
               "id": "hutan",
               "en": "forest"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "しん",
         "romanji": "shin",
         "examples": [
@@ -34,7 +37,8 @@
             "meanings": {
               "id": "hutan rimba",
               "en": "forest, jungle"
-            }
+            },
+            "sentences": []
           }
         ]
       }

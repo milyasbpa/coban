@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くら",
         "romanji": "kura",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "gelap",
               "en": "dark"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "アン",
         "romanji": "an",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "暗記",
             "furigana": "あんき",
             "romanji": "anki",
             "meanings": {
               "id": "hafalan",
               "en": "memorization"
-            }
+            },
+            "sentences": []
           }
         ]
       }

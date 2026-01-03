@@ -6,34 +6,38 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ム",
         "romanji": "mu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "無料",
             "furigana": "むりょう",
             "romanji": "muryou",
             "meanings": {
               "id": "gratis, cuma-cuma",
               "en": "free"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ブ",
         "romanji": "bu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "無事",
             "furigana": "ぶじ",
             "romanji": "buji",
             "meanings": {
               "id": "selamat",
               "en": "safe"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -48,7 +52,8 @@
           "meanings": {
             "id": "tidak ada, tidak memiliki",
             "en": "not exist, not have"
-          }
+          },
+          "sentences": []
         }
       ]
     }

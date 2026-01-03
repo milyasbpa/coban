@@ -5,68 +5,76 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "香り",
             "furigana": "かおり",
             "romanji": "kaori",
             "meanings": {
               "id": "aroma, bau harum",
               "en": "aroma, fragrance"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "かお",
         "romanji": "kao",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "香り",
             "furigana": "かおり",
             "romanji": "kaori",
             "meanings": {
               "id": "aroma, bau harum",
               "en": "aroma, fragrance"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "香水",
             "furigana": "こうすい",
             "romanji": "kousui",
             "meanings": {
               "id": "minyak wangi",
               "en": "perfume"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "香車",
             "furigana": "きょうしゃ",
             "romanji": "kyousha",
             "meanings": {
               "id": "buah catur spear",
               "en": "chess piece (spear)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -81,7 +89,8 @@
           "meanings": {
             "id": "daya pikat, pesona",
             "en": "charm, allure"
-          }
+          },
+          "sentences": []
         }
       ]
     }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くち",
         "romanji": "kuchi",
         "examples": [
@@ -19,7 +20,7 @@
             }
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "口調",
             "furigana": "くちょう",
             "romanji": "kuchou",
@@ -33,11 +34,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "人口",
             "furigana": "じんこう",
             "romanji": "jinkou",
@@ -49,6 +51,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ク",
         "romanji": "ku",
         "examples": []
@@ -57,7 +60,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "出口",
           "furigana": "でぐち",
           "romanji": "deguchi",

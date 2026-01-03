@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なら",
         "romanji": "nara",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "berbaris",
               "en": "to line up"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "なみ",
         "romanji": "nami",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "並木",
             "furigana": "なみき",
             "romanji": "namiki",
             "meanings": {
               "id": "barisan pohon",
               "en": "row of trees"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘイ",
         "romanji": "hei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "並列",
             "furigana": "へいれつ",
             "romanji": "heiretsu",
             "meanings": {
               "id": "paralel",
               "en": "parallel"
-            }
+            },
+            "sentences": []
           }
         ]
       }

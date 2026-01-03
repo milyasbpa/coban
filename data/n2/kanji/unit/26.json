@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たみ",
         "romanji": "tami",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "rakyat",
               "en": "people"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ミン",
         "romanji": "min",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "民話",
             "furigana": "みんわ",
             "romanji": "minwa",
             "meanings": {
               "id": "cerita rakyat",
               "en": "folk tale"
-            }
+            },
+            "sentences": []
           }
         ]
       }

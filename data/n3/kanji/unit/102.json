@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ぬ",
         "romanji": "nu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "tanpa",
               "en": "without"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "バツ",
         "romanji": "batsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "抜群",
             "furigana": "ばつぐん",
             "romanji": "batsugun",
             "meanings": {
               "id": "istimewa",
               "en": "outstanding"
-            }
+            },
+            "sentences": []
           }
         ]
       }

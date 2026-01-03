@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たよ",
         "romanji": "tayo",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "berita",
               "en": "news"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ベン",
         "romanji": "ben",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "便利",
             "furigana": "べんり",
             "romanji": "benri",
             "meanings": {
               "id": "praktis",
               "en": "practical"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ビン",
         "romanji": "bin",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "船便",
             "furigana": "ふなびん",
             "romanji": "funabin",
             "meanings": {
               "id": "pos laut",
               "en": "sea mail"
-            }
+            },
+            "sentences": []
           }
         ]
       }

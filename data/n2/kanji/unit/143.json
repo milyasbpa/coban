@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "がら",
         "romanji": "gara",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "え",
         "romanji": "e",
         "examples": []
@@ -17,18 +19,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘイ",
         "romanji": "hei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "横柄",
             "furigana": "おうへい",
             "romanji": "ouhei",
             "meanings": {
               "id": "sombong, angkuh",
               "en": "arrogant, haughty"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -43,7 +47,8 @@
           "meanings": {
             "id": "motif bunga",
             "en": "flower pattern"
-          }
+          },
+          "sentences": []
         },
         {
           "id": 2,
@@ -53,7 +58,8 @@
           "meanings": {
             "id": "tangkai",
             "en": "long stem"
-          }
+          },
+          "sentences": []
         }
       ]
     }

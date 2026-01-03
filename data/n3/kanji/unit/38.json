@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひら",
         "romanji": "hira",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "たい",
         "romanji": "tai",
         "examples": [
@@ -21,41 +23,46 @@
             "meanings": {
               "id": "rata, datar",
               "en": "flat; level"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘイ",
         "romanji": "hei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "平和",
             "furigana": "へいわ",
             "romanji": "heiwa",
             "meanings": {
               "id": "kedamaian",
               "en": "peace"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ビョウ",
         "romanji": "byou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "平等",
             "furigana": "びょうどう",
             "romanji": "byoudou",
             "meanings": {
               "id": "sama rata, adil",
               "en": "equality; fairness"
-            }
+            },
+            "sentences": []
           }
         ]
       }

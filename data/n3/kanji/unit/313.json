@@ -5,24 +5,27 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いただ",
         "romanji": "itada",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "頂く",
             "furigana": "いただく",
             "romanji": "itadaku",
             "meanings": {
               "id": "menerima (bentuk merendah)",
               "en": "to receive (humble)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チョウ",
         "romanji": "chou",
         "examples": [
@@ -34,7 +37,8 @@
             "meanings": {
               "id": "puncak, tertinggi",
               "en": "peak, highest"
-            }
+            },
+            "sentences": []
           }
         ]
       }

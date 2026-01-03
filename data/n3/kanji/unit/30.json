@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "め",
         "romanji": "me",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bersantap",
               "en": "to eat, to drink (polite)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "召集",
             "furigana": "しょうしゅう",
             "romanji": "shoushuu",
             "meanings": {
               "id": "memangil bersama",
               "en": "calling together, summoning"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひ",
         "romanji": "hi",
         "examples": [
@@ -21,6 +22,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ほ",
         "romanji": "ho",
         "examples": []
@@ -28,11 +30,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "火事",
             "furigana": "かじ",
             "romanji": "kaji",
@@ -42,7 +45,7 @@
             }
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "火事",
             "furigana": "かじ",
             "romanji": "kaji",
@@ -57,7 +60,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "花火",
           "furigana": "はなび",
           "romanji": "hanabi",

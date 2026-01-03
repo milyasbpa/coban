@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
@@ -17,16 +18,19 @@
             "meanings": {
               "id": "peraturan",
               "en": "law"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ハツ",
         "romanji": "hatsu",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "ホッ",
         "romanji": "ho",
         "examples": [
@@ -38,7 +42,8 @@
             "meanings": {
               "id": "peraturan",
               "en": "law"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -46,14 +51,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "法度",
           "furigana": "はっと",
           "romanji": "hatto",
           "meanings": {
             "id": "larangan",
             "en": "prohibition"
-          }
+          },
+          "sentences": []
         }
       ]
     }

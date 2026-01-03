@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "お",
         "romanji": "o",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "tali",
               "en": "cord"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショ",
         "romanji": "sho",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "一緒",
             "furigana": "いっしょ",
             "romanji": "issho",
             "meanings": {
               "id": "bersama-sama",
               "en": "together"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "チョ",
         "romanji": "cho",
         "examples": []

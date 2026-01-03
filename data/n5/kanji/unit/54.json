@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "い",
         "romanji": "i",
         "examples": [
@@ -21,11 +22,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ゆ",
         "romanji": "yu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "行方",
             "furigana": "ゆくえ",
             "romanji": "yukue",
@@ -37,11 +39,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "おこな",
         "romanji": "okona",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "行う",
             "furigana": "おこなう",
             "romanji": "okonau",
@@ -55,11 +58,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "旅行",
             "furigana": "りょこう",
             "romanji": "ryokou",
@@ -71,11 +75,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ギョウ",
         "romanji": "gyou",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "行列",
             "furigana": "ぎょうれつ",
             "romanji": "gyouretsu",

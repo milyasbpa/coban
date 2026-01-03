@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "もう",
         "romanji": "mou",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berkata (bentuk sopan)",
               "en": "to say (humble form)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シン",
         "romanji": "shin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "申告",
             "furigana": "しんこく",
             "romanji": "shinkoku",
             "meanings": {
               "id": "laporan",
               "en": "report; declaration"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ま",
         "romanji": "ma",
         "examples": [
@@ -33,11 +34,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "まっ",
         "romanji": "ma(tsu kecil)",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "真っ暗",
             "furigana": "まっくら",
             "romanji": "makkura",
@@ -61,11 +63,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "まん",
         "romanji": "man",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "真ん中",
             "furigana": "まんなか",
             "romanji": "mannaka",
@@ -91,11 +94,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シン",
         "romanji": "shin",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "真実",
             "furigana": "しんじつ",
             "romanji": "shinjitsu",
@@ -117,7 +121,7 @@
             ]
           },
           {
-            "id": 5,
+            "id": 2,
             "word": "真偽",
             "furigana": "しんぎ",
             "romanji": "shingi",

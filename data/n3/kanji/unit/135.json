@@ -6,22 +6,25 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "性別",
             "furigana": "せいべつ",
             "romanji": "seibetsu",
             "meanings": {
               "id": "jenis kelamin",
               "en": "gender"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "kecocokan",
               "en": "compatibility"
-            }
+            },
+            "sentences": []
           }
         ]
       }

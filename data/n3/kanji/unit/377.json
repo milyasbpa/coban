@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たたか",
         "romanji": "tataka",
         "examples": [
@@ -16,51 +17,57 @@
             "meanings": {
               "id": "berperang",
               "en": "to fight"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "いくさ",
         "romanji": "ikusa",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "戦",
             "furigana": "いくさ",
             "romanji": "ikusa",
             "meanings": {
               "id": "peperangan, pertempuran",
               "en": "war, battle"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "戦争",
             "furigana": "せんそう",
             "romanji": "sensou",
             "meanings": {
               "id": "perang",
               "en": "war"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "挑戦",
             "furigana": "ちょうせん",
             "romanji": "chousen",
             "meanings": {
               "id": "tantangan",
               "en": "challenge"
-            }
+            },
+            "sentences": []
           }
         ]
       }

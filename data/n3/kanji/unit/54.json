@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あぶ",
         "romanji": "abu",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "berbahaya",
               "en": "dangerous"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "あや",
         "romanji": "aya",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "危うく",
             "furigana": "あやうく",
             "romanji": "ayauku",
             "meanings": {
               "id": "nyaris",
               "en": "nearly; almost"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キ",
         "romanji": "ki",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "危機",
             "furigana": "きき",
             "romanji": "kiki",
             "meanings": {
               "id": "krisis",
               "en": "crisis"
-            }
+            },
+            "sentences": []
           }
         ]
       }

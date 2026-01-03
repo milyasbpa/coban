@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ち",
         "romanji": "chi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berguguran, berserakan",
               "en": "to fall, to scatter"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サン",
         "romanji": "san",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "散歩",
             "furigana": "さんぽ",
             "romanji": "sanpo",
             "meanings": {
               "id": "jalan kaki",
               "en": "walk"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "すく",
         "romanji": "suku",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menolong",
               "en": "to help, to rescue"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キュウ",
         "romanji": "kyuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "救助",
             "furigana": "きゅうじょ",
             "romanji": "kyuujo",
             "meanings": {
               "id": "pertolongan",
               "en": "rescue, aid"
-            }
+            },
+            "sentences": []
           }
         ]
       }

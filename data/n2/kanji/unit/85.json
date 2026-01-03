@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "イ",
         "romanji": "i",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "permohonan, permintaan",
               "en": "request"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -27,23 +29,26 @@
             "meanings": {
               "id": "berserah diri (agama)",
               "en": "surrender (religion)"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "エ",
         "romanji": "e",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "帰依",
             "furigana": "きえ",
             "romanji": "kie",
             "meanings": {
               "id": "berserah diri (agama)",
               "en": "surrender (religion)"
-            }
+            },
+            "sentences": []
           }
         ]
       }

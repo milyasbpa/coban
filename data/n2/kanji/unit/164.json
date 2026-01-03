@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かわ",
         "romanji": "kawa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "sepatu kulit",
               "en": "leather shoes"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カク",
         "romanji": "kaku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "革命",
             "furigana": "かくめい",
             "romanji": "kakumei",
             "meanings": {
               "id": "revolusi",
               "en": "revolution"
-            }
+            },
+            "sentences": []
           }
         ]
       }

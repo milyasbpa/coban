@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まよ",
         "romanji": "mayo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bingung",
               "en": "confused"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "メイ",
         "romanji": "mei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "迷信",
             "furigana": "めいしん",
             "romanji": "meishin",
             "meanings": {
               "id": "takhayul",
               "en": "superstition"
-            }
+            },
+            "sentences": []
           }
         ]
       }

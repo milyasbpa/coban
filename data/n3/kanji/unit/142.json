@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おさ",
         "romanji": "osa",
         "examples": [
@@ -16,57 +17,64 @@
             "meanings": {
               "id": "memerintah",
               "en": "to govern"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "なお",
         "romanji": "nao",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "治す",
             "furigana": "なおす",
             "romanji": "naosu",
             "meanings": {
               "id": "menyembuhkan",
               "en": "to heal"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チ",
         "romanji": "chi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "治安",
             "furigana": "ちあん",
             "romanji": "chian",
             "meanings": {
               "id": "keamanan",
               "en": "safety"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ジ",
         "romanji": "ji",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "政治",
             "furigana": "せいじ",
             "romanji": "seiji",
             "meanings": {
               "id": "politik",
               "en": "politics, government"
-            }
+            },
+            "sentences": []
           }
         ]
       }

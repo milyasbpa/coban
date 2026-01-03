@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つく",
         "romanji": "tsuku",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "membuat (dalam skala besar)",
               "en": "to make (large scale)"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゾウ",
         "romanji": "zou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "製造",
             "furigana": "せいぞう",
             "romanji": "seizou",
             "meanings": {
               "id": "produksi",
               "en": "production"
-            }
+            },
+            "sentences": []
           }
         ]
       }

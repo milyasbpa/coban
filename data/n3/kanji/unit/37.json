@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くわ",
         "romanji": "kuwa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menambah",
               "en": "to add"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "参加",
             "furigana": "さんか",
             "romanji": "sanka",
             "meanings": {
               "id": "partisipasi, ikut serta",
               "en": "participation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

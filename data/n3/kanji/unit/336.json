@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "た",
         "romanji": "ta",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "terhenti, terputus",
               "en": "to stop, to break off"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゼツ",
         "romanji": "zetsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "絶望",
             "furigana": "ぜつぼう",
             "romanji": "zetsubou",
             "meanings": {
               "id": "keputus-asaan",
               "en": "despair"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ゼッ",
         "romanji": "zet",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "絶望",
             "furigana": "ぜつぼう",
             "romanji": "zetsubou",
             "meanings": {
               "id": "keputus-asaan",
               "en": "despair"
-            }
+            },
+            "sentences": []
           }
         ]
       }

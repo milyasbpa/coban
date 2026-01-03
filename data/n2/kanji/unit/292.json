@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "よそお",
         "romanji": "yosoo",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "berpenampilan",
               "en": "to dress, to adorn"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "装飾",
             "furigana": "そうしょく",
             "romanji": "soushoku",
             "meanings": {
               "id": "hiasan, dekorasi",
               "en": "decoration"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "衣装",
             "furigana": "いしょう",
             "romanji": "ishou",
             "meanings": {
               "id": "kostum, pakaian",
               "en": "costume, clothing"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "カツ",
         "romanji": "katsu",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "aktivitas",
               "en": "activity"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -27,11 +29,13 @@
             "meanings": {
               "id": "kehidupan",
               "en": "life"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "カツ",
         "romanji": "katsu",
         "examples": [
@@ -43,7 +47,8 @@
             "meanings": {
               "id": "aktivitas",
               "en": "activity"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -53,7 +58,8 @@
             "meanings": {
               "id": "kehidupan",
               "en": "life"
-            }
+            },
+            "sentences": []
           }
         ]
       }

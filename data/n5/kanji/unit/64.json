@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おとこ",
         "romanji": "otoko",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ダン",
         "romanji": "dan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "男性",
             "furigana": "だんせい",
             "romanji": "dansei",
@@ -39,11 +41,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ナン",
         "romanji": "nan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "長男",
             "furigana": "ちょうなん",
             "romanji": "chounan",

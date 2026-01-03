@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あやま",
         "romanji": "ayama",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "meminta maaf",
               "en": "to apologize"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シャ",
         "romanji": "sha",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "謝罪する",
             "furigana": "しゃざいする",
             "romanji": "shazai suru",
             "meanings": {
               "id": "meminta maaf",
               "en": "to apologize"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひと",
         "romanji": "hito",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bicara sendiri",
               "en": "talking to oneself"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ドク",
         "romanji": "doku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "独立",
             "furigana": "どくりつ",
             "romanji": "dokuritsu",
             "meanings": {
               "id": "merdeka, mandiri",
               "en": "independence"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かたち",
         "romanji": "katachi",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "bentuk",
               "en": "shape"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "かた",
         "romanji": "kata",
         "examples": [
@@ -32,7 +35,8 @@
             "meanings": {
               "id": "bentuk",
               "en": "shape"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -42,41 +46,46 @@
             "meanings": {
               "id": "barang peninggalan",
               "en": "keepsake"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "形式",
             "furigana": "けいしき",
             "romanji": "keishiki",
             "meanings": {
               "id": "formalitas",
               "en": "formality"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ギョウ",
         "romanji": "gyou",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "人形",
             "furigana": "にんぎょう",
             "romanji": "ningyou",
             "meanings": {
               "id": "boneka",
               "en": "doll"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まど",
         "romanji": "mado",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "loket",
               "en": "window, counter"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "同窓会",
             "furigana": "どうそうかい",
             "romanji": "dousoukai",
             "meanings": {
               "id": "reuni alumni",
               "en": "alumni reunion"
-            }
+            },
+            "sentences": []
           }
         ]
       }

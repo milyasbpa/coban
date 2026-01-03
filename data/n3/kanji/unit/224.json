@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うま",
         "romanji": "uma",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kuda",
               "en": "horse"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "バ",
         "romanji": "ba",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "馬鹿",
             "furigana": "ばか",
             "romanji": "baka",
             "meanings": {
               "id": "bodoh",
               "en": "foolish"
-            }
+            },
+            "sentences": []
           }
         ]
       }

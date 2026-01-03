@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "わか",
         "romanji": "waka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berpisah, bercerai",
               "en": "to separate, divorce"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ベツ",
         "romanji": "betsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "特別",
             "furigana": "とくべつ",
             "romanji": "tokubetsu",
             "meanings": {
               "id": "istimewa, khusus",
               "en": "special"
-            }
+            },
+            "sentences": []
           }
         ]
       }

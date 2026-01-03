@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "にく",
         "romanji": "niku",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "membenci, memusuhi",
               "en": "to hate, to be hostile"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゾウ",
         "romanji": "zou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "憎悪",
             "furigana": "ぞうお",
             "romanji": "zouo",
             "meanings": {
               "id": "kebencian",
               "en": "hatred"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -6,11 +6,13 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "ケ",
         "romanji": "ke",
         "examples": [
@@ -22,7 +24,8 @@
             "meanings": {
               "id": "pemandangan",
               "en": "scenery"
-            }
+            },
+            "sentences": []
           }
         ]
       }

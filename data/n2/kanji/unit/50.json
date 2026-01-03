@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひつじ",
         "romanji": "hitsuji",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "domba, biri-biri",
               "en": "sheep"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "羊毛",
             "furigana": "ようもう",
             "romanji": "youmou",
             "meanings": {
               "id": "bulu domba, wool",
               "en": "wool"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おとず",
         "romanji": "otozu",
         "examples": [
@@ -16,45 +17,51 @@
             "meanings": {
               "id": "mengunjungi",
               "en": "to visit"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "たず",
         "romanji": "tazu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "訪れる",
             "furigana": "たずれる",
             "romanji": "tazureru",
             "meanings": {
               "id": "mengunjungi",
               "en": "to visit"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "訪問",
             "furigana": "ほうもん",
             "romanji": "houmon",
             "meanings": {
               "id": "kunjungan",
               "en": "visitation"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ボウ",
         "romanji": "bou",
         "examples": []

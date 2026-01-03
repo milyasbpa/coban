@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さち",
         "romanji": "sachi",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "しあわ",
         "romanji": "shiawa",
         "examples": [
@@ -21,41 +23,46 @@
             "meanings": {
               "id": "kebahagiaan",
               "en": "happiness"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 3,
         "furigana": "さいわ",
         "romanji": "saiwa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "幸い",
             "furigana": "さいわい",
             "romanji": "saiwai",
             "meanings": {
               "id": "beruntung",
               "en": "lucky"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "不幸",
             "furigana": "ふこう",
             "romanji": "fukou",
             "meanings": {
               "id": "malang, sial",
               "en": "unlucky"
-            }
+            },
+            "sentences": []
           }
         ]
       }

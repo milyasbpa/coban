@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むく",
         "romanji": "muku",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memberikan imbalan",
               "en": "to reward"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "報告",
             "furigana": "ほうこく",
             "romanji": "houkoku",
             "meanings": {
               "id": "laporan",
               "en": "report"
-            }
+            },
+            "sentences": []
           }
         ]
       }

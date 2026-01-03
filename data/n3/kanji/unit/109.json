@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つと",
         "romanji": "tsuto",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "rajin",
               "en": "diligent"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ド",
         "romanji": "do",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "努力",
             "furigana": "どりょく",
             "romanji": "doryoku",
             "meanings": {
               "id": "usaha keras",
               "en": "hard work"
-            }
+            },
+            "sentences": []
           }
         ]
       }

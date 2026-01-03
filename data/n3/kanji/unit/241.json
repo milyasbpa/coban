@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さ",
         "romanji": "sa",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "menggunakan",
               "en": "to use"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,13 +28,15 @@
             "meanings": {
               "id": "diskriminasi",
               "en": "discrimination"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サ",
         "romanji": "sa",
         "examples": []

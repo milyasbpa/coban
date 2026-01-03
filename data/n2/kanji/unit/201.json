@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "い",
         "romanji": "i",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "membidik",
               "en": "to shoot"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シャ",
         "romanji": "sha",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "放射線",
             "furigana": "ほうしゃせん",
             "romanji": "houshasen",
             "meanings": {
               "id": "sinar radiasi",
               "en": "radiation ray"
-            }
+            },
+            "sentences": []
           }
         ]
       }

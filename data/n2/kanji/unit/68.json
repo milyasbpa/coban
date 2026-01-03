@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "わ",
         "romanji": "wa",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "negeri kami",
               "en": "our country"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,41 +28,46 @@
             "meanings": {
               "id": "kami, kita",
               "en": "we, us"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "われ",
         "romanji": "ware",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "我々",
             "furigana": "われわれ",
             "romanji": "wareware",
             "meanings": {
               "id": "kami, kita",
               "en": "we, us"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガ",
         "romanji": "ga",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "我意",
             "furigana": "がい",
             "romanji": "gai",
             "meanings": {
               "id": "kemauan sendiri",
               "en": "self-will"
-            }
+            },
+            "sentences": []
           }
         ]
       }

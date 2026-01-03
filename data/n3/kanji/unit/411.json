@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さま",
         "romanji": "sama",
         "examples": []
@@ -12,18 +13,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "様子",
             "furigana": "ようす",
             "romanji": "yousu",
             "meanings": {
               "id": "keadaan",
               "en": "condition"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -38,7 +41,8 @@
           "meanings": {
             "id": "nona, anak putri",
             "en": "miss, young lady"
-          }
+          },
+          "sentences": []
         }
       ]
     }

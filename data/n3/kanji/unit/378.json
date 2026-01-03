@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うら",
         "romanji": "ura",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "pintu belakang",
               "en": "back door"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リ",
         "romanji": "ri",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "脳裏",
             "furigana": "のうり",
             "romanji": "nouri",
             "meanings": {
               "id": "dalam benak, dalam otak",
               "en": "in mind, in brain"
-            }
+            },
+            "sentences": []
           }
         ]
       }

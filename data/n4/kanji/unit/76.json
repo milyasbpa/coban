@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おく",
         "romanji": "oku",
         "examples": [
@@ -57,11 +58,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "送金",
             "furigana": "そうきん",
             "romanji": "soukin",
@@ -83,7 +85,7 @@
             ]
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "送別会",
             "furigana": "そうべつかい",
             "romanji": "soubetsukai",
@@ -105,7 +107,7 @@
             ]
           },
           {
-            "id": 5,
+            "id": 3,
             "word": "放送",
             "furigana": "ほうそう",
             "romanji": "housou",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "う",
         "romanji": "u",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menembak",
               "en": "to shoot"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゲキ",
         "romanji": "geki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "撃破",
             "furigana": "げきは",
             "romanji": "gekiha",
             "meanings": {
               "id": "serangan memusnahkan",
               "en": "annihilation attack"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まつりごと",
         "romanji": "matsurigoto",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
@@ -23,7 +25,8 @@
             "meanings": {
               "id": "politik",
               "en": "politics / government"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -33,23 +36,26 @@
             "meanings": {
               "id": "pemerintah",
               "en": "government"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "摂政",
             "furigana": "せっしょう",
             "romanji": "sesshou",
             "meanings": {
               "id": "bupati",
               "en": "regent"
-            }
+            },
+            "sentences": []
           }
         ]
       }

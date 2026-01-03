@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むね",
         "romanji": "mune",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "dada, buah dada",
               "en": "chest, breast"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "むな",
         "romanji": "muna",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "胸毛",
             "furigana": "むなげ",
             "romanji": "munage",
             "meanings": {
               "id": "bulu dada",
               "en": "chest hair"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "胸囲",
             "furigana": "きょうい",
             "romanji": "kyoui",
             "meanings": {
               "id": "lingkar dada",
               "en": "chest circumference"
-            }
+            },
+            "sentences": []
           }
         ]
       }

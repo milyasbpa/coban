@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あそ",
         "romanji": "aso",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "bermain, main",
               "en": "to play"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ユウ",
         "romanji": "yuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "遊園地",
             "furigana": "ゆうえんち",
             "romanji": "yuuenchi",
             "meanings": {
               "id": "taman rekreasi",
               "en": "amusement park"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ユ",
         "romanji": "yu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "遊園地",
             "furigana": "ゆうえんち",
             "romanji": "yuuenchi",
             "meanings": {
               "id": "taman rekreasi",
               "en": "amusement park"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "き",
         "romanji": "ki",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ブン",
         "romanji": "bun",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "新聞",
             "furigana": "しんぶん",
             "romanji": "shinbun",
@@ -37,7 +39,7 @@
             }
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "聞聞する",
             "furigana": "ぶんもんする",
             "romanji": "bunmonsuru",
@@ -49,11 +51,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "モン",
         "romanji": "mon",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "聞聞する",
             "furigana": "ぶんもんする",
             "romanji": "bunmonsuru",

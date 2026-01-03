@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "む",
         "romanji": "mu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kerumunan, gerombol",
               "en": "crowd, group"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "グン",
         "romanji": "gun",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "群馬",
             "furigana": "ぐんま",
             "romanji": "gunma",
             "meanings": {
               "id": "(nama tempat) Gunma",
               "en": "Gunma (place name)"
-            }
+            },
+            "sentences": []
           }
         ]
       }

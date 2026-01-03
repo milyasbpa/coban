@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やしな",
         "romanji": "yashina",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memberi nafkah",
               "en": "to support"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "養殖",
             "furigana": "ようしょく",
             "romanji": "youshoku",
             "meanings": {
               "id": "membiakkan",
               "en": "to breed"
-            }
+            },
+            "sentences": []
           }
         ]
       }

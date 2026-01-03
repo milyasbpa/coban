@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "お",
         "romanji": "o",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "memakai",
               "en": "to wear"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,11 +28,13 @@
             "meanings": {
               "id": "ikat pinggang",
               "en": "belt"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "おび",
         "romanji": "obi",
         "examples": [
@@ -42,7 +46,8 @@
             "meanings": {
               "id": "memakai",
               "en": "to wear"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -52,25 +57,28 @@
             "meanings": {
               "id": "ikat pinggang",
               "en": "belt"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "タイ",
         "romanji": "tai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "熱帯",
             "furigana": "ねったい",
             "romanji": "nettai",
             "meanings": {
               "id": "zona tropis",
               "en": "tropical zone"
-            }
+            },
+            "sentences": []
           }
         ]
       }

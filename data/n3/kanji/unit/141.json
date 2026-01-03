@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あぶら",
         "romanji": "abura",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "minyak, lemak",
               "en": "oil, fat"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ユ",
         "romanji": "yu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "油断",
             "furigana": "ゆだん",
             "romanji": "yudan",
             "meanings": {
               "id": "kurang perhatian",
               "en": "carelessness / inattentiveness"
-            }
+            },
+            "sentences": []
           }
         ]
       }

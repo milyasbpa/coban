@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "と",
         "romanji": "to",
         "examples": [
@@ -16,35 +17,39 @@
             "meanings": {
               "id": "terbang",
               "en": "to fly"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "飛行機",
             "furigana": "ひこうき",
             "romanji": "hikouki",
             "meanings": {
               "id": "pesawat",
               "en": "airplane"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "飛行士",
             "furigana": "ひこうし",
             "romanji": "hikoushi",
             "meanings": {
               "id": "pilot",
               "en": "pilot"
-            }
+            },
+            "sentences": []
           }
         ]
       }

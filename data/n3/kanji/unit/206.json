@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くさ",
         "romanji": "kusa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "rumput",
               "en": "grass"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "草食",
             "furigana": "そうしょく",
             "romanji": "soushoku",
             "meanings": {
               "id": "herbivora",
               "en": "herbivore"
-            }
+            },
+            "sentences": []
           }
         ]
       }

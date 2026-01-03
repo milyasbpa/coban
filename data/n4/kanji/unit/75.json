@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "た",
         "romanji": "ta",
         "examples": [
@@ -55,11 +56,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "たて",
         "romanji": "tate",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "建物",
             "furigana": "たてもの",
             "romanji": "tatemono",
@@ -85,11 +87,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケン",
         "romanji": "ken",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "建設",
             "furigana": "けんせつ",
             "romanji": "kensetsu",
@@ -111,7 +114,7 @@
             ]
           },
           {
-            "id": 5,
+            "id": 2,
             "word": "建築",
             "furigana": "けんちく",
             "romanji": "kenchiku",

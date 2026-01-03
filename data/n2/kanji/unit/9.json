@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かた",
         "romanji": "kata",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "satu jalan/jurusan",
               "en": "one way/direction"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘン",
         "romanji": "hen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "破片",
             "furigana": "はへん",
             "romanji": "hahen",
             "meanings": {
               "id": "pecahan, serpihan",
               "en": "fragment, chip"
-            }
+            },
+            "sentences": []
           }
         ]
       }

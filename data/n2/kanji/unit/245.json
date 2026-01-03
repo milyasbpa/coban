@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ぶた",
         "romanji": "buta",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "daging babi",
               "en": "pork"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トン",
         "romanji": "ton",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "豚骨",
             "furigana": "とんこつ",
             "romanji": "tonkotsu",
             "meanings": {
               "id": "tulang babi",
               "en": "pig bone"
-            }
+            },
+            "sentences": []
           }
         ]
       }

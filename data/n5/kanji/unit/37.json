@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "い",
         "romanji": "i",
         "examples": [
@@ -19,7 +20,7 @@
             }
           },
           {
-            "id": 7,
+            "id": 2,
             "word": "一生",
             "furigana": "いっしょう",
             "romanji": "isshou",
@@ -31,11 +32,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "う",
         "romanji": "u",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "生まれる",
             "furigana": "うまれる",
             "romanji": "umareru",
@@ -47,11 +49,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "生える",
             "furigana": "はえる",
             "romanji": "haeru",
@@ -63,16 +66,18 @@
         ]
       },
       {
+        "id": 4,
         "furigana": "き",
         "romanji": "ki",
         "examples": []
       },
       {
+        "id": 5,
         "furigana": "なま",
         "romanji": "nama",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "生で",
             "furigana": "なまで",
             "romanji": "namade",
@@ -82,7 +87,7 @@
             }
           },
           {
-            "id": 5,
+            "id": 2,
             "word": "生野菜",
             "furigana": "なまやさい",
             "romanji": "namayasai",
@@ -96,11 +101,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 6,
+            "id": 1,
             "word": "先生",
             "furigana": "せんせい",
             "romanji": "sensei",
@@ -112,6 +118,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": []

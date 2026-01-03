@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ちぎ",
         "romanji": "chigi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bersumpah, berjanji",
               "en": "to vow, to promise"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "契約書",
             "furigana": "けいやくしょ",
             "romanji": "keiyakusho",
             "meanings": {
               "id": "surat kontrak",
               "en": "contract document"
-            }
+            },
+            "sentences": []
           }
         ]
       }

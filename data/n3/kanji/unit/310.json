@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ま",
         "romanji": "ma",
         "examples": [
@@ -16,39 +17,44 @@
             "meanings": {
               "id": "bercampur",
               "en": "to mix"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "こ",
         "romanji": "ko",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "混雑",
             "furigana": "こんざつ",
             "romanji": "konzatsu",
             "meanings": {
               "id": "padat, penuh sesak",
               "en": "crowded"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "混乱",
             "furigana": "こんらん",
             "romanji": "konran",
             "meanings": {
               "id": "kacau, kalut",
               "en": "confused"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コン",
         "romanji": "kon",
         "examples": []

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "そな",
         "romanji": "sona",
         "examples": [
@@ -16,16 +17,19 @@
             "meanings": {
               "id": "menghidangkan",
               "en": "to serve"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "とも",
         "romanji": "tomo",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "ども",
         "romanji": "domo",
         "examples": []
@@ -33,22 +37,25 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "提供",
             "furigana": "ていきょう",
             "romanji": "teikyou",
             "meanings": {
               "id": "persembahan",
               "en": "offering"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ク",
         "romanji": "ku",
         "examples": []
@@ -57,24 +64,26 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "お供",
           "furigana": "おとも",
           "romanji": "otomo",
           "meanings": {
             "id": "peserta",
             "en": "participant"
-          }
+          },
+          "sentences": []
         },
         {
-          "id": 3,
+          "id": 2,
           "word": "子供",
           "furigana": "こども",
           "romanji": "kodomo",
           "meanings": {
             "id": "anak-anak",
             "en": "children"
-          }
+          },
+          "sentences": []
         }
       ]
     }

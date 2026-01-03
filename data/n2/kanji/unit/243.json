@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あし",
         "romanji": "ashi",
         "examples": []
@@ -12,18 +13,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キャク",
         "romanji": "kyaku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "三脚",
             "furigana": "さんきゃく",
             "romanji": "sankyaku",
             "meanings": {
               "id": "tripod",
               "en": "tripod"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -38,17 +41,19 @@
           "meanings": {
             "id": "kaki meja",
             "en": "table leg"
-          }
+          },
+          "sentences": []
         },
         {
-          "id": 3,
+          "id": 2,
           "word": "脚立",
           "furigana": "きゃたつ",
           "romanji": "kyatatsu",
           "meanings": {
             "id": "penyangga kaki",
             "en": "leg support, stepladder"
-          }
+          },
+          "sentences": []
         }
       ]
     }

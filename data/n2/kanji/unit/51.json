@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いと",
         "romanji": "ito",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
@@ -23,7 +25,8 @@
             "meanings": {
               "id": "benang sutera",
               "en": "silk thread"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "produksi benang sutera",
               "en": "silk production"
-            }
+            },
+            "sentences": []
           }
         ]
       }

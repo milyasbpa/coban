@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ハツ",
         "romanji": "hatsu",
         "examples": [
@@ -34,11 +35,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "パツ",
         "romanji": "patsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "出発",
             "furigana": "しゅっぱつ",
             "romanji": "shuppatsu",
@@ -62,11 +64,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ハッ",
         "romanji": "ha(tsu kecil)",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "発汗",
             "furigana": "はっかん",
             "romanji": "hakkan",
@@ -90,11 +93,12 @@
         ]
       },
       {
+        "id": 4,
         "furigana": "ホッ",
         "romanji": "ho(tsu kecil)",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "発作",
             "furigana": "ほっさ",
             "romanji": "hossa",

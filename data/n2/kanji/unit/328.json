@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いきお",
         "romanji": "ikio",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "daya, kekuatan",
               "en": "power, strength"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "勢力",
             "furigana": "せいりょく",
             "romanji": "seiryoku",
             "meanings": {
               "id": "kekuasaan, pengaruh",
               "en": "influence, power"
-            }
+            },
+            "sentences": []
           }
         ]
       }

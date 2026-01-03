@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "よ",
         "romanji": "yo",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memanggil",
               "en": "to call"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コ",
         "romanji": "ko",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "呼吸",
             "furigana": "こきゅう",
             "romanji": "kokyuu",
             "meanings": {
               "id": "pernafasan",
               "en": "respiration"
-            }
+            },
+            "sentences": []
           }
         ]
       }

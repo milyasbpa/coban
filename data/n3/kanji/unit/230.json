@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "い",
         "romanji": "i",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memasukkan",
               "en": "to insert"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "内容",
             "furigana": "ないよう",
             "romanji": "naiyou",
             "meanings": {
               "id": "isi, inti",
               "en": "content, core"
-            }
+            },
+            "sentences": []
           }
         ]
       }

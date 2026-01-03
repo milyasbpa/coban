@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ゆう",
         "romanji": "yuu",
         "examples": [
@@ -57,6 +58,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セキ",
         "romanji": "seki",
         "examples": [
@@ -88,7 +90,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "七夕",
           "furigana": "たなばた",
           "romanji": "tanabata",

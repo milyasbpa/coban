@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "した",
         "romanji": "shita",
         "examples": [
@@ -21,21 +22,24 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "しも",
         "romanji": "shimo",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "もと",
         "romanji": "moto",
         "examples": []
       },
       {
+        "id": 4,
         "furigana": "さ",
         "romanji": "sa",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "下がる",
             "furigana": "さがる",
             "romanji": "sagaru",
@@ -47,11 +51,12 @@
         ]
       },
       {
+        "id": 5,
         "furigana": "くだ",
         "romanji": "kuda",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "下る",
             "furigana": "くだる",
             "romanji": "kudaru",
@@ -63,11 +68,12 @@
         ]
       },
       {
+        "id": 6,
         "furigana": "お",
         "romanji": "o",
         "examples": [
           {
-            "id": 6,
+            "id": 1,
             "word": "下ろす",
             "furigana": "おろす",
             "romanji": "orosu",
@@ -81,11 +87,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "川下",
             "furigana": "かわしも",
             "romanji": "kawashimo",
@@ -95,7 +102,7 @@
             }
           },
           {
-            "id": 7,
+            "id": 2,
             "word": "地下",
             "furigana": "ちか",
             "romanji": "chika",
@@ -107,11 +114,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ゲ",
         "romanji": "ge",
         "examples": [
           {
-            "id": 8,
+            "id": 1,
             "word": "上下",
             "furigana": "じょうげ",
             "romanji": "jouge",
@@ -126,7 +134,7 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "足下",
           "furigana": "あしもと",
           "romanji": "ashimoto",

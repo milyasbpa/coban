@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かま",
         "romanji": "kama",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "membangun",
               "en": "to build"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "構造",
             "furigana": "こうぞう",
             "romanji": "kouzou",
             "meanings": {
               "id": "struktur, susunan",
               "en": "structure, composition"
-            }
+            },
+            "sentences": []
           }
         ]
       }

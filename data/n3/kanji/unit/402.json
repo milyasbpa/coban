@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ゆめ",
         "romanji": "yume",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mimpi, impian",
               "en": "dream"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ム",
         "romanji": "mu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "悪夢",
             "furigana": "あくむ",
             "romanji": "akumu",
             "meanings": {
               "id": "mimpi buruk",
               "en": "nightmare"
-            }
+            },
+            "sentences": []
           }
         ]
       }

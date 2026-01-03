@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むすめ",
         "romanji": "musume",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "menantu laki-laki",
               "en": "son-in-law"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -25,14 +27,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "小娘",
           "furigana": "こむすめ",
           "romanji": "komusume",
           "meanings": {
             "id": "perempuan kecil",
             "en": "little girl"
-          }
+          },
+          "sentences": []
         }
       ]
     }

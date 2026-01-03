@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
@@ -17,7 +18,8 @@
             "meanings": {
               "id": "keadaan",
               "en": "condition"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -25,14 +27,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "近況",
           "furigana": "きんきょう",
           "romanji": "kinkyou",
           "meanings": {
             "id": "kabar",
             "en": "news"
-          }
+          },
+          "sentences": []
         }
       ]
     }

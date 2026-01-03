@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あた",
         "romanji": "ata",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "sekitar, sekeliling",
               "en": "vicinity, nearby area"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ぺ",
         "romanji": "pe",
         "examples": []
@@ -28,34 +31,38 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘン",
         "romanji": "hen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "周辺",
             "furigana": "しゅうへん",
             "romanji": "shuuhen",
             "meanings": {
               "id": "sekitar",
               "en": "vicinity"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ペン",
         "romanji": "pen",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "近辺",
             "furigana": "きんぺん",
             "romanji": "kinpen",
             "meanings": {
               "id": "daerah sekitar",
               "en": "surrounding area"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -63,14 +70,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "海辺",
           "furigana": "うみべ",
           "romanji": "umibe",
           "meanings": {
             "id": "tepi pantai",
             "en": "beach"
-          }
+          },
+          "sentences": []
         }
       ]
     }

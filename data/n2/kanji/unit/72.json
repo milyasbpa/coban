@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むぎ",
         "romanji": "mugi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "ladang gandum",
               "en": "wheat field"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "バク",
         "romanji": "baku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "麦芽糖",
             "furigana": "ばくがとう",
             "romanji": "bakugatou",
             "meanings": {
               "id": "gula gandum",
               "en": "malt sugar"
-            }
+            },
+            "sentences": []
           }
         ]
       }

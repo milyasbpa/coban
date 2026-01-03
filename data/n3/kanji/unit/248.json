@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "う",
         "romanji": "u",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "mengapung",
               "en": "to float"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,41 +28,46 @@
             "meanings": {
               "id": "kecurangan",
               "en": "fraud"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "うわ",
         "romanji": "uwa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "浮気",
             "furigana": "うわき",
             "romanji": "uwaki",
             "meanings": {
               "id": "kecurangan",
               "en": "fraud"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "フ",
         "romanji": "fu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "浮腫",
             "furigana": "ふしゅ",
             "romanji": "fushu",
             "meanings": {
               "id": "pembengkakan",
               "en": "swelling"
-            }
+            },
+            "sentences": []
           }
         ]
       }

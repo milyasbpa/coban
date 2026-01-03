@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いの",
         "romanji": "ino",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berdoa",
               "en": "to pray"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キ",
         "romanji": "ki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "祈願",
             "furigana": "きがん",
             "romanji": "kigan",
             "meanings": {
               "id": "doa permohonan",
               "en": "prayer"
-            }
+            },
+            "sentences": []
           }
         ]
       }

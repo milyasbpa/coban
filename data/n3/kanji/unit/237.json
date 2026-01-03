@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はや",
         "romanji": "haya",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "cepat",
               "en": "fast / quick"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "すみ",
         "romanji": "sumi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "速やか",
             "furigana": "すみやか",
             "romanji": "sumiyaka",
             "meanings": {
               "id": "cepat, tanpa tunda",
               "en": "immediate"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソク",
         "romanji": "soku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "急速",
             "furigana": "きゅうそく",
             "romanji": "kyuusoku",
             "meanings": {
               "id": "laju pesat",
               "en": "rapid"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "や",
         "romanji": "ya",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "sate ayam",
               "en": "grilled chicken"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "燃焼",
             "furigana": "ねんしょう",
             "romanji": "nenshou",
             "meanings": {
               "id": "pembakaran",
               "en": "burning"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つ",
         "romanji": "tsu",
         "examples": [
@@ -16,35 +17,39 @@
             "meanings": {
               "id": "mengadu",
               "en": "to report"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コク",
         "romanji": "koku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "広告",
             "furigana": "こうこく",
             "romanji": "koukoku",
             "meanings": {
               "id": "iklan",
               "en": "advertisement"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "警告",
             "furigana": "けいこく",
             "romanji": "keikoku",
             "meanings": {
               "id": "peringatan",
               "en": "warning"
-            }
+            },
+            "sentences": []
           }
         ]
       }

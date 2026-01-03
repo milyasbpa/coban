@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はし",
         "romanji": "hashi",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "jembatan",
               "en": "bridge"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ばし",
         "romanji": "bashi",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "歩道橋",
             "furigana": "ほどうきょう",
             "romanji": "hodoukyou",
             "meanings": {
               "id": "jembatan penyeberangan",
               "en": "pedestrian bridge"
-            }
+            },
+            "sentences": []
           }
         ]
       }

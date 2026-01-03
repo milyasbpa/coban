@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ソウ",
         "romanji": "sou",
         "examples": [
@@ -17,11 +18,13 @@
             "meanings": {
               "id": "pengandaian",
               "en": "supposition"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ソ",
         "romanji": "so",
         "examples": [
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "pengandaian",
               "en": "supposition"
-            }
+            },
+            "sentences": []
           }
         ]
       }

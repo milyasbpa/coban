@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "とど",
         "romanji": "todo",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "sampai, menjangkau",
               "en": "to reach"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,7 +28,8 @@
             "meanings": {
               "id": "melaporkan, menyampaikan",
               "en": "to report, deliver"
-            }
+            },
+            "sentences": []
           }
         ]
       }

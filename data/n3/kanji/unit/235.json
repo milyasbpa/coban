@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "malu",
               "en": "ashamed"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "はじ",
         "romanji": "haji",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チ",
         "romanji": "chi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "無恥",
             "furigana": "むち",
             "romanji": "muchi",
             "meanings": {
               "id": "tidak tahu malu",
               "en": "shameless"
-            }
+            },
+            "sentences": []
           }
         ]
       }

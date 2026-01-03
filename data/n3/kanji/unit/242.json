@@ -6,22 +6,25 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ハン",
         "romanji": "han",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "諸般",
             "furigana": "しょはん",
             "romanji": "shohan",
             "meanings": {
               "id": "berbagai macam",
               "en": "various"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "パン",
         "romanji": "pan",
         "examples": [
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "umum, biasa",
               "en": "general, usual"
-            }
+            },
+            "sentences": []
           }
         ]
       }

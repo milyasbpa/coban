@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なさ",
         "romanji": "nasa",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "simpati, nurani",
               "en": "sympathy, conscience"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,25 +28,28 @@
             "meanings": {
               "id": "menyedihkan",
               "en": "sad"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "情報",
             "furigana": "じょうほう",
             "romanji": "jouhou",
             "meanings": {
               "id": "informasi",
               "en": "information"
-            }
+            },
+            "sentences": []
           }
         ]
       }

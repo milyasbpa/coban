@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くら",
         "romanji": "kura",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "membandingkan",
               "en": "to compare"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "比較",
             "furigana": "ひかく",
             "romanji": "hikaku",
             "meanings": {
               "id": "perbandingan",
               "en": "comparison"
-            }
+            },
+            "sentences": []
           }
         ]
       }

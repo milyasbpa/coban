@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こし",
         "romanji": "koshi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "pinggang",
               "en": "waist"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "腰痛",
             "furigana": "ようつう",
             "romanji": "youtsuu",
             "meanings": {
               "id": "sakit pinggang",
               "en": "back pain"
-            }
+            },
+            "sentences": []
           }
         ]
       }

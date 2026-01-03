@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いき",
         "romanji": "iki",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "sesak nafas",
               "en": "shortness of breath"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "むすこ",
         "romanji": "musuko",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "息子",
             "furigana": "むすこ",
             "romanji": "musuko",
             "meanings": {
               "id": "anak laki-laki",
               "en": "son"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソク",
         "romanji": "soku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "休息",
             "furigana": "きゅうそく",
             "romanji": "kyuusoku",
             "meanings": {
               "id": "istirahat",
               "en": "rest"
-            }
+            },
+            "sentences": []
           }
         ]
       }

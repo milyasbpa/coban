@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひき",
         "romanji": "hiki",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "びき",
         "romanji": "biki",
         "examples": []
@@ -17,44 +19,49 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒツ",
         "romanji": "hitsu",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "馬匹",
             "furigana": "ばひつ",
             "romanji": "bahitsu",
             "meanings": {
               "id": "kuda",
               "en": "horse"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ヒッ",
         "romanji": "hitsu",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "馬匹",
             "furigana": "ばひつ",
             "romanji": "bahitsu",
             "meanings": {
               "id": "kuda",
               "en": "horse"
-            }
+            },
+            "sentences": []
           },
           {
-            "id": 5,
+            "id": 2,
             "word": "匹敵",
             "furigana": "ひってき",
             "romanji": "hitteki",
             "meanings": {
               "id": "setara, sederajat",
               "en": "equal, equivalent"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -69,7 +76,8 @@
           "meanings": {
             "id": "2 ekor",
             "en": "2 animals"
-          }
+          },
+          "sentences": []
         },
         {
           "id": 2,
@@ -79,7 +87,8 @@
           "meanings": {
             "id": "3 ekor",
             "en": "3 animals"
-          }
+          },
+          "sentences": []
         },
         {
           "id": 3,
@@ -89,7 +98,8 @@
           "meanings": {
             "id": "6 ekor",
             "en": "6 animals"
-          }
+          },
+          "sentences": []
         }
       ]
     }

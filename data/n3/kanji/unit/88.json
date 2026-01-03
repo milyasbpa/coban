@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むか",
         "romanji": "muka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menyambut",
               "en": "to welcome"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゲイ",
         "romanji": "gei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "迎合",
             "furigana": "げいごう",
             "romanji": "geigou",
             "meanings": {
               "id": "sanjungan",
               "en": "flattery"
-            }
+            },
+            "sentences": []
           }
         ]
       }

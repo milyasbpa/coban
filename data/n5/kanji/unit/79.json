@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "みなみ",
         "romanji": "minami",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ナ",
         "romanji": "na",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "南無",
             "furigana": "なむ",
             "romanji": "namu",
@@ -37,7 +39,7 @@
             }
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "南極",
             "furigana": "なんきょく",
             "romanji": "nankyoku",
@@ -49,11 +51,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ナン",
         "romanji": "nan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "南極",
             "furigana": "なんきょく",
             "romanji": "nankyoku",

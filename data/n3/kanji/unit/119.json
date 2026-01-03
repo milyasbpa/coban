@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たば",
         "romanji": "taba",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengikat",
               "en": "to bind"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソク",
         "romanji": "soku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "約束",
             "furigana": "やくそく",
             "romanji": "yakusoku",
             "meanings": {
               "id": "janji",
               "en": "promise"
-            }
+            },
+            "sentences": []
           }
         ]
       }

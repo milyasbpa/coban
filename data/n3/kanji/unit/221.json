@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ザイ",
         "romanji": "zai",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "harta benda",
               "en": "property"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "サイ",
         "romanji": "sai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "財布",
             "furigana": "さいふ",
             "romanji": "saifu",
             "meanings": {
               "id": "dompet",
               "en": "wallet"
-            }
+            },
+            "sentences": []
           }
         ]
       }

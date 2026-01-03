@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "え",
         "romanji": "e",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "mendapatkan",
               "en": "to obtain"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "う",
         "romanji": "u",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トク",
         "romanji": "toku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "得意",
             "furigana": "とくい",
             "romanji": "tokui",
             "meanings": {
               "id": "bangga",
               "en": "proud"
-            }
+            },
+            "sentences": []
           }
         ]
       }

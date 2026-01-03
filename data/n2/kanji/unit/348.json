@@ -6,18 +6,20 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "豊富",
             "furigana": "ほうふ",
             "romanji": "houfu",
             "meanings": {
               "id": "kaya, berkelimpahan",
               "en": "rich, abundant"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -32,7 +34,8 @@
           "meanings": {
             "id": "kaya, berkelimpahan",
             "en": "rich, abundant, plentiful"
-          }
+          },
+          "sentences": []
         }
       ]
     }

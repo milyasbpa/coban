@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うらな",
         "romanji": "urana",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "ramalan",
               "en": "fortune-telling"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "し",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "占める",
             "furigana": "しめる",
             "romanji": "shimeru",
             "meanings": {
               "id": "menempati, menduduki",
               "en": "to occupy"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "占領",
             "furigana": "せんりょう",
             "romanji": "senryou",
             "meanings": {
               "id": "pendudukan, penguasaan",
               "en": "occupation, possession"
-            }
+            },
+            "sentences": []
           }
         ]
       }

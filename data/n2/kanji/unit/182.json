@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "く",
         "romanji": "ku",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menimba, menyerok",
               "en": "to ladle, to scoop"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シャク",
         "romanji": "shaku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "お酌する",
             "furigana": "おしゃくする",
             "romanji": "oshaku suru",
             "meanings": {
               "id": "menuangkan minuman keras",
               "en": "to serve alcohol"
-            }
+            },
+            "sentences": []
           }
         ]
       }

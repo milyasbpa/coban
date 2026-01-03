@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うす",
         "romanji": "usu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "tipis",
               "en": "thin"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハク",
         "romanji": "haku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "薄弱",
             "furigana": "はくじゃく",
             "romanji": "hakujaku",
             "meanings": {
               "id": "lemah, tidak memadai",
               "en": "weak, insufficient"
-            }
+            },
+            "sentences": []
           }
         ]
       }

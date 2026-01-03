@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かかり",
         "romanji": "kakari",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "tugas, urusan",
               "en": "task, matter"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "がかり",
         "romanji": "gakari",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "関係",
             "furigana": "かんけい",
             "romanji": "kankei",
             "meanings": {
               "id": "hubungan",
               "en": "relation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

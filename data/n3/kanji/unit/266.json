@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "わら",
         "romanji": "wara",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "tertawa",
               "en": "to laugh"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "え",
         "romanji": "e",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "笑顔",
             "furigana": "えがお",
             "romanji": "egao",
             "meanings": {
               "id": "senyum",
               "en": "smile"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "笑納",
             "furigana": "しょうのう",
             "romanji": "shounou",
             "meanings": {
               "id": "terima dengan senang",
               "en": "accept gladly, accept with pleasure"
-            }
+            },
+            "sentences": []
           }
         ]
       }

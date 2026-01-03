@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ね",
         "romanji": "ne",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "meremas",
               "en": "knead"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "レン",
         "romanji": "ren",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "練習",
             "furigana": "れんしゅう",
             "romanji": "renshuu",
             "meanings": {
               "id": "latihan",
               "en": "practice"
-            }
+            },
+            "sentences": []
           }
         ]
       }

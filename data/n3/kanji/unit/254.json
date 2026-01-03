@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はら",
         "romanji": "hara",
         "examples": []
@@ -12,18 +13,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゲン",
         "romanji": "gen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "原因",
             "furigana": "げんいん",
             "romanji": "gen'in",
             "meanings": {
               "id": "penyebab",
               "en": "cause"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -38,7 +41,8 @@
           "meanings": {
             "id": "padang rumput",
             "en": "field"
-          }
+          },
+          "sentences": []
         }
       ]
     }

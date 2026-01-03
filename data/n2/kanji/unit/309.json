@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "す",
         "romanji": "su",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengendalikan",
               "en": "to control"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "統一",
             "furigana": "とういつ",
             "romanji": "touitsu",
             "meanings": {
               "id": "menyatu, seragam",
               "en": "unite, uniform"
-            }
+            },
+            "sentences": []
           }
         ]
       }

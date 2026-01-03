@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むら",
         "romanji": "mura",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kampung, desa",
               "en": "village"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソン",
         "romanji": "son",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "農村",
             "furigana": "のうそん",
             "romanji": "nouson",
             "meanings": {
               "id": "desa pertanian",
               "en": "farming village"
-            }
+            },
+            "sentences": []
           }
         ]
       }

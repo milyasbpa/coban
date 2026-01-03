@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "や",
         "romanji": "ya",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berhenti, mengundurkan diri",
               "en": "to quit, to resign"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジ",
         "romanji": "ji",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "辞書",
             "furigana": "じしょ",
             "romanji": "jisho",
             "meanings": {
               "id": "kamus",
               "en": "dictionary"
-            }
+            },
+            "sentences": []
           }
         ]
       }

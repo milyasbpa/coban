@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さそ",
         "romanji": "saso",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengundang, mengajak",
               "en": "invite, tempt"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ユウ",
         "romanji": "yuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "誘惑",
             "furigana": "ゆうわく",
             "romanji": "yuuwaku",
             "meanings": {
               "id": "godaan",
               "en": "temptation"
-            }
+            },
+            "sentences": []
           }
         ]
       }

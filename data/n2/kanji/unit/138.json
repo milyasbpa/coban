@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あ",
         "romanji": "a",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "bergelombang",
               "en": "to be stormy, to be rough"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,41 +28,46 @@
             "meanings": {
               "id": "kasar, keras",
               "en": "rough, harsh"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "あら",
         "romanji": "ara",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "荒い",
             "furigana": "あらい",
             "romanji": "arai",
             "meanings": {
               "id": "kasar, keras",
               "en": "rough, harsh"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "荒城",
             "furigana": "こうじょう",
             "romanji": "koujou",
             "meanings": {
               "id": "benteng terbengkalai",
               "en": "abandoned castle"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しま",
         "romanji": "shima",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "pulau",
               "en": "island"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "列島",
             "furigana": "れっとう",
             "romanji": "retto",
             "meanings": {
               "id": "kepulauan",
               "en": "archipelago"
-            }
+            },
+            "sentences": []
           }
         ]
       }

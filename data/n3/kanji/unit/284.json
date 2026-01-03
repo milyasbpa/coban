@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "し",
         "romanji": "shi",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "menutup",
               "en": "to close"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "と",
         "romanji": "to",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘイ",
         "romanji": "hei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "閉会",
             "furigana": "へいかい",
             "romanji": "heikai",
             "meanings": {
               "id": "penutupan",
               "en": "closure"
-            }
+            },
+            "sentences": []
           }
         ]
       }

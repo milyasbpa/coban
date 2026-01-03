@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ほ",
         "romanji": "ho",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "ingin",
               "en": "want"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "はつ",
         "romanji": "hatsu",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨク",
         "romanji": "yoku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "食欲",
             "furigana": "しょくよく",
             "romanji": "shokuyoku",
             "meanings": {
               "id": "nafsu makan",
               "en": "appetite"
-            }
+            },
+            "sentences": []
           }
         ]
       }

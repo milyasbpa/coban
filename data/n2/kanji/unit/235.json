@@ -5,24 +5,27 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しぶ",
         "romanji": "shibu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "渋い",
             "furigana": "しぶい",
             "romanji": "shibui",
             "meanings": {
               "id": "sepat, masam",
               "en": "astringent, sour"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
@@ -34,7 +37,8 @@
             "meanings": {
               "id": "kepedihan",
               "en": "bitterness, anguish"
-            }
+            },
+            "sentences": []
           }
         ]
       }

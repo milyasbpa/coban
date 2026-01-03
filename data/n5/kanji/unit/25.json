@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つき",
         "romanji": "tsuki",
         "examples": [
@@ -21,6 +22,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "つく",
         "romanji": "tsuku",
         "examples": []
@@ -28,11 +30,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゲツ",
         "romanji": "getsu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "満月",
             "furigana": "まんげつ",
             "romanji": "mangetsu",
@@ -44,11 +47,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ガツ",
         "romanji": "gatsu",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "正月",
             "furigana": "しょうがつ",
             "romanji": "shougatsu",
@@ -63,7 +67,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "三日月",
           "furigana": "みかづき",
           "romanji": "mikazuki",
@@ -73,7 +77,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 2,
           "word": "月給",
           "furigana": "げっきゅう",
           "romanji": "gekkyuu",

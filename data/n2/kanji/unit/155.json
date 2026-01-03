@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "リツ",
         "romanji": "ritsu",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "undang-undang",
               "en": "law"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "リチ",
         "romanji": "richi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "律儀",
             "furigana": "りちぎ",
             "romanji": "richigi",
             "meanings": {
               "id": "teliti, jujur, patuh",
               "en": "precise, honest, obedient"
-            }
+            },
+            "sentences": []
           }
         ]
       }

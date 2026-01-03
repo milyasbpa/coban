@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "わた",
         "romanji": "wata",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "melintas, menyebrang",
               "en": "to cross"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ト",
         "romanji": "to",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "渡航",
             "furigana": "とこう",
             "romanji": "tokou",
             "meanings": {
               "id": "perjalanan ke luar negeri",
               "en": "travel abroad"
-            }
+            },
+            "sentences": []
           }
         ]
       }

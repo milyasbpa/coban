@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "で",
         "romanji": "de",
         "examples": [
@@ -21,11 +22,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "だ",
         "romanji": "da",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "出す",
             "furigana": "だす",
             "romanji": "dasu",
@@ -39,11 +41,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュツ",
         "romanji": "shutsu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "輸出",
             "furigana": "ゆしゅつ",
             "romanji": "yushutsu",
@@ -55,11 +58,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "シュッ",
         "romanji": "shut",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "輸出",
             "furigana": "ゆしゅつ",
             "romanji": "yushutsu",
@@ -69,7 +73,7 @@
             }
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "出国",
             "furigana": "しゅっこく",
             "romanji": "shukkoく",
@@ -81,11 +85,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "スイ",
         "romanji": "sui",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "出納",
             "furigana": "すいとう",
             "romanji": "suitou",

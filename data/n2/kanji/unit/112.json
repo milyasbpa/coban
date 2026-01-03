@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "の",
         "romanji": "no",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengutarakan",
               "en": "to state"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュツ",
         "romanji": "jutsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "述語",
             "furigana": "じゅつご",
             "romanji": "jutsugo",
             "meanings": {
               "id": "predikat",
               "en": "predicate"
-            }
+            },
+            "sentences": []
           }
         ]
       }

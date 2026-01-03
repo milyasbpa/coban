@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はか",
         "romanji": "haka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengukur",
               "en": "to measure"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソク",
         "romanji": "soku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "測定",
             "furigana": "そくてい",
             "romanji": "sokutei",
             "meanings": {
               "id": "survei, pemeriksaan",
               "en": "survey, examination"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むらさき",
         "romanji": "murasaki",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "warna ungu",
               "en": "purple"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "紫外線",
             "furigana": "しがいせん",
             "romanji": "shigaisen",
             "meanings": {
               "id": "sinar ultra violet",
               "en": "ultraviolet ray"
-            }
+            },
+            "sentences": []
           }
         ]
       }

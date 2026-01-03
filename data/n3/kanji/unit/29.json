@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かなら",
         "romanji": "kanara",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "selalu, tanpa terkecuali",
               "en": "always, without exception, surely"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒツ",
         "romanji": "hitsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "必要",
             "furigana": "ひつよう",
             "romanji": "hitsuyou",
             "meanings": {
               "id": "penting, perlu",
               "en": "necessary"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ヒッ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "必要",
             "furigana": "ひつよう",
             "romanji": "hitsuyou",
             "meanings": {
               "id": "penting, perlu",
               "en": "necessary"
-            }
+            },
+            "sentences": []
           }
         ]
       }

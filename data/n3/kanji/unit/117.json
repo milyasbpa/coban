@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "に",
         "romanji": "ni",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mirip, menyerupai",
               "en": "similar, resemble"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジ",
         "romanji": "ji",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "類似",
             "furigana": "るいじ",
             "romanji": "ruiji",
             "meanings": {
               "id": "kemiripan, keserupaan",
               "en": "similarity"
-            }
+            },
+            "sentences": []
           }
         ]
       }

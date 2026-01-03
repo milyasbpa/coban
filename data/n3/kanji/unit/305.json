@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ことわ",
         "romanji": "kotowa",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "menolak",
               "en": "to refuse"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "た",
         "romanji": "ta",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "断つ",
             "furigana": "たつ",
             "romanji": "tatsu",
             "meanings": {
               "id": "memutuskan, menghentikan",
               "en": "to sever, to cut off, to stop"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ダン",
         "romanji": "dan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "断定",
             "furigana": "だんてい",
             "romanji": "dantei",
             "meanings": {
               "id": "kesimpulan",
               "en": "conclusion"
-            }
+            },
+            "sentences": []
           }
         ]
       }

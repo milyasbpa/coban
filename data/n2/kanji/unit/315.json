@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さむ",
         "romanji": "samu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "dingin",
               "en": "cold"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "寒暑",
             "furigana": "かんしょ",
             "romanji": "kansho",
             "meanings": {
               "id": "udara dingin & panas",
               "en": "cold & hot air"
-            }
+            },
+            "sentences": []
           }
         ]
       }

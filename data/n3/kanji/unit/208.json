@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "に",
         "romanji": "ni",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "kabur",
               "en": "to escape"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "のが",
         "romanji": "noga",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "逃す",
             "furigana": "のがす",
             "romanji": "nogasu",
             "meanings": {
               "id": "kehilangan",
               "en": "to lose"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "逃避",
             "furigana": "とうひ",
             "romanji": "touhi",
             "meanings": {
               "id": "melarikan diri",
               "en": "run away"
-            }
+            },
+            "sentences": []
           }
         ]
       }

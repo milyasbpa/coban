@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あ",
         "romanji": "a",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kena",
               "en": "to be hit; to strike"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "当然",
             "furigana": "とうぜん",
             "romanji": "touzen",
             "meanings": {
               "id": "sudah sepatutnya",
               "en": "naturally; of course"
-            }
+            },
+            "sentences": []
           }
         ]
       }

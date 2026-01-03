@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くらい",
         "romanji": "kurai",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "peringkat, pangkat",
               "en": "rank, position"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イ",
         "romanji": "i",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "位置",
             "furigana": "いち",
             "romanji": "ichi",
             "meanings": {
               "id": "posisi, lokasi",
               "en": "position, location"
-            }
+            },
+            "sentences": []
           }
         ]
       }

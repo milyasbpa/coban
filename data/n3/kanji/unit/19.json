@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さら",
         "romanji": "sara",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "mencuci piring",
               "en": "washing dishes"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ざら",
         "romanji": "zara",
         "examples": []
@@ -30,14 +33,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "小皿",
           "furigana": "こざら",
           "romanji": "kozara",
           "meanings": {
             "id": "piring kecil",
             "en": "small plate"
-          }
+          },
+          "sentences": []
         }
       ]
     }

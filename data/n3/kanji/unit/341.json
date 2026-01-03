@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "menjadi cerah",
               "en": "to become clear"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "晴天",
             "furigana": "せいてん",
             "romanji": "seiten",
             "meanings": {
               "id": "cuaca cerah",
               "en": "clear weather"
-            }
+            },
+            "sentences": []
           }
         ]
       }

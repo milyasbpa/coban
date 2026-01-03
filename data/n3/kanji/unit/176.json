@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かぎ",
         "romanji": "kagi",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "membatasi",
               "en": "to limit"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゲン",
         "romanji": "gen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "限界",
             "furigana": "げんかい",
             "romanji": "genkai",
             "meanings": {
               "id": "batasan",
               "en": "boundary"
-            }
+            },
+            "sentences": []
           }
         ]
       }

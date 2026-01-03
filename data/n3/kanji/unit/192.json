@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くれない",
         "romanji": "kurenai",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "べに",
         "romanji": "beni",
         "examples": [
@@ -21,25 +23,28 @@
             "meanings": {
               "id": "merah terang",
               "en": "bright red"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "紅茶",
             "furigana": "こうちゃ",
             "romanji": "koucha",
             "meanings": {
               "id": "teh merah",
               "en": "black tea"
-            }
+            },
+            "sentences": []
           }
         ]
       }
@@ -47,14 +52,15 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "口紅",
           "furigana": "くちべに",
           "romanji": "kuchibeni",
           "meanings": {
             "id": "lipstik",
             "en": "lipstick"
-          }
+          },
+          "sentences": []
         }
       ]
     }

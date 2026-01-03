@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くず",
         "romanji": "kuzu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "runtuh, longsor",
               "en": "to collapse, to landslide"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "崩壊する",
             "furigana": "ほうかいする",
             "romanji": "houkai suru",
             "meanings": {
               "id": "rusak, roboh",
               "en": "to break down, to fall apart"
-            }
+            },
+            "sentences": []
           }
         ]
       }

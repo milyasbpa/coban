@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "よ",
         "romanji": "yo",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イン",
         "romanji": "in",
         "examples": [
@@ -23,7 +25,8 @@
             "meanings": {
               "id": "karena",
               "en": "cause"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "penyebab, alasan",
               "en": "reason"
-            }
+            },
+            "sentences": []
           }
         ]
       }

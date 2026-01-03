@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berubah",
               "en": "to change"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘン",
         "romanji": "hen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "大変",
             "furigana": "たいへん",
             "romanji": "taihen",
             "meanings": {
               "id": "sangat",
               "en": "very"
-            }
+            },
+            "sentences": []
           }
         ]
       }

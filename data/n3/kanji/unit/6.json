@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -16,30 +17,34 @@
             "meanings": {
               "id": "kurang",
               "en": "to be lack, to be missing"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケツ",
         "romanji": "ketsu",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "ケッ",
         "romanji": "kek",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "欠席",
             "furigana": "けっせき",
             "romanji": "kesseki",
             "meanings": {
               "id": "absen",
               "en": "absence"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まわ",
         "romanji": "mawa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "keliling, putaran",
               "en": "circumference, rotation"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "周囲",
             "furigana": "しゅうい",
             "romanji": "shuui",
             "meanings": {
               "id": "lingkaran, lingkungan",
               "en": "circle, environment"
-            }
+            },
+            "sentences": []
           }
         ]
       }

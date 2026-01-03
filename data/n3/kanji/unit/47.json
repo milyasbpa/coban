@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あ",
         "romanji": "a",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゴウ",
         "romanji": "gou",
         "examples": [
@@ -23,32 +25,37 @@
             "meanings": {
               "id": "persetujuan",
               "en": "agreement; consent"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "合戦",
             "furigana": "かっせん",
             "romanji": "kassen",
             "meanings": {
               "id": "peperangan",
               "en": "battle; fight"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 3,
         "furigana": "ツ",
         "romanji": "tsu",
         "examples": []
       },
       {
+        "id": 4,
         "furigana": "ガッ",
         "romanji": "ga",
         "examples": []

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たぐ",
         "romanji": "tagu",
         "examples": []
@@ -12,6 +13,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ルイ",
         "romanji": "rui",
         "examples": [
@@ -23,7 +25,8 @@
             "meanings": {
               "id": "jenis-jenis (yang sama)",
               "en": "types (same)"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "dokumen",
               "en": "document"
-            }
+            },
+            "sentences": []
           }
         ]
       }

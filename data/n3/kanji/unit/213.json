@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おこ",
         "romanji": "oko",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "marah",
               "en": "angry"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "いか",
         "romanji": "ika",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "怒り",
             "furigana": "いかり",
             "romanji": "ikari",
             "meanings": {
               "id": "kemarahan",
               "en": "anger"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ド",
         "romanji": "do",
         "examples": []

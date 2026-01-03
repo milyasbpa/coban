@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "す",
         "romanji": "su",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "suka",
               "en": "to like"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "この",
         "romanji": "kono",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "好む",
             "furigana": "このむ",
             "romanji": "konomu",
             "meanings": {
               "id": "suka",
               "en": "to like, to prefer"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "好意",
             "furigana": "こうい",
             "romanji": "koui",
             "meanings": {
               "id": "niat baik",
               "en": "goodwill"
-            }
+            },
+            "sentences": []
           }
         ]
       }

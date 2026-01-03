@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なぐ",
         "romanji": "nagu",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memukul, menonjok",
               "en": "to hit, to punch"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "オウ",
         "romanji": "ou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "殴打",
             "furigana": "おうだ",
             "romanji": "ouda",
             "meanings": {
               "id": "pukulan, tonjokan",
               "en": "blow, strike"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おか",
         "romanji": "oka",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "melakukan kejahatan",
               "en": "to commit a crime"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハン",
         "romanji": "han",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "犯罪",
             "furigana": "はんざい",
             "romanji": "hanzai",
             "meanings": {
               "id": "kejahatan",
               "en": "crime"
-            }
+            },
+            "sentences": []
           }
         ]
       }

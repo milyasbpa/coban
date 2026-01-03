@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ゾウ",
         "romanji": "zou",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "gajah",
               "en": "elephant"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "象徴",
             "furigana": "しょうちょう",
             "romanji": "shouchou",
             "meanings": {
               "id": "simbol, lambang",
               "en": "symbol, emblem"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "よこ",
         "romanji": "yoko",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "jalan samping",
               "en": "side road"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "オウ",
         "romanji": "ou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "横断",
             "furigana": "おうだん",
             "romanji": "oudan",
             "meanings": {
               "id": "menyeberang",
               "en": "to cross"
-            }
+            },
+            "sentences": []
           }
         ]
       }

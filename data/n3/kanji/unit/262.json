@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しる",
         "romanji": "shiru",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mencatat",
               "en": "to record"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キ",
         "romanji": "ki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "記者",
             "furigana": "きしゃ",
             "romanji": "kisha",
             "meanings": {
               "id": "wartawan, jurnalis",
               "en": "journalist"
-            }
+            },
+            "sentences": []
           }
         ]
       }

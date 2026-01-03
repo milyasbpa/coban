@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
@@ -17,23 +18,26 @@
             "meanings": {
               "id": "keberhasilan",
               "en": "success"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ク",
         "romanji": "ku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "功徳",
             "furigana": "くどく",
             "romanji": "kudoku",
             "meanings": {
               "id": "kelakuan welas asih",
               "en": "benevolent deed"
-            }
+            },
+            "sentences": []
           }
         ]
       }

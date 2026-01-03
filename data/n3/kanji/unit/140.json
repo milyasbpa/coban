@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いのち",
         "romanji": "inochi",
         "examples": [
@@ -16,29 +17,33 @@
             "meanings": {
               "id": "nyawa",
               "en": "life"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "メイ",
         "romanji": "mei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "革命",
             "furigana": "かくめい",
             "romanji": "kakumei",
             "meanings": {
               "id": "revolusi",
               "en": "revolution"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ミョウ",
         "romanji": "myou",
         "examples": []

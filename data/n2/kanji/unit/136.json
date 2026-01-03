@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さか",
         "romanji": "saka",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "makmur, maju",
               "en": "to prosper, to flourish"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "栄える",
             "furigana": "はえる",
             "romanji": "haeru",
             "meanings": {
               "id": "berkilau, cemerlang",
               "en": "to shine, to be brilliant"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "エイ",
         "romanji": "ei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "栄養",
             "furigana": "えいよう",
             "romanji": "eiyou",
             "meanings": {
               "id": "gizi, nutrisi",
               "en": "nutrition"
-            }
+            },
+            "sentences": []
           }
         ]
       }

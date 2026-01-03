@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "daun",
               "en": "leaf"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ば",
         "romanji": "ba",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヨウ",
         "romanji": "you",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "紅葉",
             "furigana": "こうよう",
             "romanji": "kouyou",
             "meanings": {
               "id": "daun musim gugur",
               "en": "autumn leaf"
-            }
+            },
+            "sentences": []
           }
         ]
       }

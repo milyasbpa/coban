@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "のぼ",
         "romanji": "nobo",
         "examples": [
@@ -16,41 +17,46 @@
             "meanings": {
               "id": "naik, mendaki",
               "en": "to climb"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "トウ",
         "romanji": "tou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "登録",
             "furigana": "とうろく",
             "romanji": "touroku",
             "meanings": {
               "id": "pendaftaran",
               "en": "register"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ト",
         "romanji": "to",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "登録",
             "furigana": "とうろく",
             "romanji": "touroku",
             "meanings": {
               "id": "pendaftaran",
               "en": "register"
-            }
+            },
+            "sentences": []
           }
         ]
       }

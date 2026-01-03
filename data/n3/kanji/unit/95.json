@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まれ",
         "romanji": "mare",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "jarang",
               "en": "rare"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キ",
         "romanji": "ki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "希望",
             "furigana": "きぼう",
             "romanji": "kibou",
             "meanings": {
               "id": "permintaan",
               "en": "request"
-            }
+            },
+            "sentences": []
           }
         ]
       }

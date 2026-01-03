@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "せ",
         "romanji": "se",
         "examples": [
@@ -16,7 +17,8 @@
             "meanings": {
               "id": "menyalahkan",
               "en": "to blame"
-            }
+            },
+            "sentences": []
           },
           {
             "id": 2,
@@ -26,13 +28,15 @@
             "meanings": {
               "id": "tanggung jawab",
               "en": "responsibility"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セキ",
         "romanji": "seki",
         "examples": []

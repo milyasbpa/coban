@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あら",
         "romanji": "ara",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mencuci",
               "en": "to wash"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "洗濯",
             "furigana": "せんたく",
             "romanji": "sentaku",
             "meanings": {
               "id": "cucian",
               "en": "laundry"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -6,11 +6,13 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "サツ",
         "romanji": "satsu",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "サク",
         "romanji": "saku",
         "examples": []
@@ -26,7 +28,8 @@
           "meanings": {
             "id": "buku kecil, brosur",
             "en": "booklet"
-          }
+          },
+          "sentences": []
         },
         {
           "id": 2,
@@ -36,7 +39,8 @@
           "meanings": {
             "id": "doa/catatan (tanabata)",
             "en": "tanzaku (tanabata)"
-          }
+          },
+          "sentences": []
         }
       ]
     }

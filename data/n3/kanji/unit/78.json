@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かど",
         "romanji": "kado",
         "examples": [
@@ -16,11 +17,13 @@
             "meanings": {
               "id": "sudut",
               "en": "corner"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "つの",
         "romanji": "tsuno",
         "examples": []
@@ -28,18 +31,20 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カク",
         "romanji": "kaku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "四角",
             "furigana": "しかく",
             "romanji": "shikaku",
             "meanings": {
               "id": "persegi empat",
               "en": "square"
-            }
+            },
+            "sentences": []
           }
         ]
       }

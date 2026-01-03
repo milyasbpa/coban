@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "は",
         "romanji": "ha",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "memuntahkan",
               "en": "to vomit"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ト",
         "romanji": "to",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "吐血",
             "furigana": "とけつ",
             "romanji": "toketsu",
             "meanings": {
               "id": "muntah darah",
               "en": "spit blood"
-            }
+            },
+            "sentences": []
           }
         ]
       }

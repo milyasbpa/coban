@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かこ",
         "romanji": "kako",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "mengelilingi",
               "en": "to surround"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イ",
         "romanji": "i",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "範囲",
             "furigana": "はんい",
             "romanji": "hani",
             "meanings": {
               "id": "batasan, lingkup",
               "en": "boundary, scope"
-            }
+            },
+            "sentences": []
           }
         ]
       }

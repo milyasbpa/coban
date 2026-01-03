@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "にし",
         "romanji": "nishi",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "西洋人",
             "furigana": "せいようじん",
             "romanji": "seiyoujin",
@@ -39,11 +41,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "サイ",
         "romanji": "sai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "西国",
             "furigana": "さいごく",
             "romanji": "saigoku",
@@ -58,7 +61,7 @@
     "exception": {
       "examples": [
         {
-          "id": 4,
+          "id": 1,
           "word": "東西",
           "furigana": "とうざい",
           "romanji": "touzai",

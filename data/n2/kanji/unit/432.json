@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きび",
         "romanji": "kibi",
         "examples": [
@@ -16,57 +17,64 @@
             "meanings": {
               "id": "ketat, tegas",
               "en": "strict, stern"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "おごそ",
         "romanji": "ogoso",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "厳か",
             "furigana": "おごそか",
             "romanji": "ogosoka",
             "meanings": {
               "id": "khidmat, serius",
               "en": "solemn, serious"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゲン",
         "romanji": "gen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "厳重",
             "furigana": "げんじゅう",
             "romanji": "genjuu",
             "meanings": {
               "id": "berat, keras, serius",
               "en": "heavy, hard, serious"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "ゴン",
         "romanji": "gon",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "荘厳",
             "furigana": "そうごん",
             "romanji": "shougon",
             "meanings": {
               "id": "khidmat, serius, agung",
               "en": "solemn, dignified, magnificent"
-            }
+            },
+            "sentences": []
           }
         ]
       }

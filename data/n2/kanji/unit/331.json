@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くわ",
         "romanji": "kuwa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "terperinci, detil",
               "en": "detailed, precise"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "詳細",
             "furigana": "しょうさい",
             "romanji": "shousai",
             "meanings": {
               "id": "terperinci, detil",
               "en": "details"
-            }
+            },
+            "sentences": []
           }
         ]
       }

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かわ",
         "romanji": "kawa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "kering",
               "en": "to dry"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "乾燥",
             "furigana": "かんそう",
             "romanji": "kansou",
             "meanings": {
               "id": "keadaan kering",
               "en": "dryness"
-            }
+            },
+            "sentences": []
           }
         ]
       }

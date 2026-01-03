@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さけ",
         "romanji": "sake",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "berteriak, menjerit",
               "en": "to shout, scream"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "叫声",
             "furigana": "きょうせい",
             "romanji": "kyousei",
             "meanings": {
               "id": "pekikan, jeritan",
               "en": "cry, scream"
-            }
+            },
+            "sentences": []
           }
         ]
       }

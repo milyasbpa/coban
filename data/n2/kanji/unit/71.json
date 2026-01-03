@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "から",
         "romanji": "kara",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "pedas, asin",
               "en": "spicy, salty"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シン",
         "romanji": "shin",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "辛苦",
             "furigana": "しんく",
             "romanji": "shinku",
             "meanings": {
               "id": "derita, susah payah",
               "en": "suffering, hardship"
-            }
+            },
+            "sentences": []
           }
         ]
       }

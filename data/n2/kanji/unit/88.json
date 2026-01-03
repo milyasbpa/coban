@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いわ",
         "romanji": "iwa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "tempat berbatu karang",
               "en": "rocky place"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガン",
         "romanji": "gan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "岩石",
             "furigana": "がんせき",
             "romanji": "ganseki",
             "meanings": {
               "id": "batu karang",
               "en": "coral rock"
-            }
+            },
+            "sentences": []
           }
         ]
       }

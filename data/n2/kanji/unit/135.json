@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いさ",
         "romanji": "isa",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bergebu-gebu",
               "en": "to be spirited, to be brave"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ユウ",
         "romanji": "yuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "勇気",
             "furigana": "ゆうき",
             "romanji": "yuuki",
             "meanings": {
               "id": "keberanian",
               "en": "courage, bravery"
-            }
+            },
+            "sentences": []
           }
         ]
       }

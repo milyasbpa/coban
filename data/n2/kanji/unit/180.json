@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なや",
         "romanji": "naya",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "bingung, pusing",
               "en": "to be troubled, to be confused"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ノウ",
         "romanji": "nou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "悩殺",
             "furigana": "のうさつ",
             "romanji": "nousatsu",
             "meanings": {
               "id": "mempesona",
               "en": "charming, captivating"
-            }
+            },
+            "sentences": []
           }
         ]
       }

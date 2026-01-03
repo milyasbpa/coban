@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いた",
         "romanji": "ita",
         "examples": [
@@ -16,25 +17,28 @@
             "meanings": {
               "id": "melakukan, berbuat",
               "en": "to do, to perform"
-            }
+            },
+            "sentences": []
           }
         ]
       }
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チ",
         "romanji": "chi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "致命的",
             "furigana": "ちめいてき",
             "romanji": "chimeiteki",
             "meanings": {
               "id": "fatal, mematikan",
               "en": "fatal, deadly"
-            }
+            },
+            "sentences": []
           }
         ]
       }

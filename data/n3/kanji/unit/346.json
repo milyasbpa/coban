@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "フク",
         "romanji": "fuku",
         "examples": [
@@ -17,11 +18,13 @@
             "meanings": {
               "id": "pengulangan pelajaran",
               "en": "review"
-            }
+            },
+            "sentences": []
           }
         ]
       },
       {
+        "id": 2,
         "furigana": "フッ",
         "romanji": "fu",
         "examples": [
@@ -33,7 +36,8 @@
             "meanings": {
               "id": "pengulangan pelajaran",
               "en": "review"
-            }
+            },
+            "sentences": []
           }
         ]
       }
