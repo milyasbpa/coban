@@ -1,60 +1,120 @@
 {
   "id": 128,
-  "character": "運",
-  "strokes": 12,
+  "character": "薬",
+  "strokes": 16,
   "readings": {
     "kun": [
       {
-        "furigana": "はこ",
-        "romanji": "hako",
+        "furigana": "くすり",
+        "romanji": "kusuri",
         "examples": [
           {
             "id": 1,
-            "word": "運ぶ",
-            "furigana": "はこぶ",
-            "romanji": "hakobu",
+            "word": "薬",
+            "furigana": "くすり",
+            "romanji": "kusuri",
             "meanings": {
-              "id": "mengangkut",
-              "en": "to carry"
-            }
-          },
+              "id": "obat",
+              "en": "medicine"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "薬を飲みました。",
+                "furigana": "くすりをのみました。",
+                "romaji": "kusuri wo nomimashita.",
+                "meanings": {
+                  "id": "Saya minum obat.",
+                  "en": "I took medicine."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ぐすり",
+        "romanji": "gusuri",
+        "examples": [
           {
-            "id": 2,
-            "word": "運び",
-            "furigana": "はこび",
-            "romanji": "hakobi",
+            "id": 1,
+            "word": "風邪薬",
+            "furigana": "かぜぐすり",
+            "romanji": "kazegusuri",
             "meanings": {
-              "id": "angkutan, transportasi",
-              "en": "transport"
-            }
+              "id": "obat flu",
+              "en": "cold medicine"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "風邪薬を買いに行きました。",
+                "furigana": "かぜぐすりをかいにいきました。",
+                "romaji": "kazegusuri wo kai ni ikimashita.",
+                "meanings": {
+                  "id": "Saya pergi membeli obat flu.",
+                  "en": "I went to buy cold medicine."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ウン",
-        "romanji": "un",
+        "furigana": "ヤク",
+        "romanji": "yaku",
         "examples": [
           {
-            "id": 3,
-            "word": "運",
-            "furigana": "うん",
-            "romanji": "un",
+            "id": 1,
+            "word": "薬品",
+            "furigana": "やくひん",
+            "romanji": "yakuhin",
             "meanings": {
-              "id": "nasib",
-              "en": "luck"
-            }
-          },
+              "id": "obat-obatan",
+              "en": "medicine, drugs"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "薬品は冷蔵庫に入れてください。",
+                "furigana": "やくひんはれいぞうこにいれてください。",
+                "romaji": "yakuhin wa reizouko ni irete kudasai.",
+                "meanings": {
+                  "id": "Tolong masukkan obat-obatan ke kulkas.",
+                  "en": "Please put the medicine in the refrigerator."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ヤッ",
+        "romanji": "ya",
+        "examples": [
           {
-            "id": 4,
-            "word": "運転",
-            "furigana": "うんてん",
-            "romanji": "unten",
+            "id": 1,
+            "word": "薬局",
+            "furigana": "やっきょく",
+            "romanji": "yakkyoku",
             "meanings": {
-              "id": "kemudi",
-              "en": "driving"
-            }
+              "id": "apotek",
+              "en": "pharmacy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "近くに薬局がありますか。",
+                "furigana": "ちかくにやっきょくがありますか。",
+                "romaji": "chikaku ni yakkyoku ga arimasu ka.",
+                "meanings": {
+                  "id": "Apakah ada apotek di dekat sini?",
+                  "en": "Is there a pharmacy nearby?"
+                }
+              }
+            ]
           }
         ]
       }
@@ -62,7 +122,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mengangkut",
-    "en": "carry, transport"
+    "id": "obat",
+    "en": "medicine, drug"
   }
 }
