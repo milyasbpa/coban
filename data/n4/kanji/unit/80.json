@@ -1,48 +1,141 @@
 {
   "id": 80,
-  "character": "品",
+  "character": "風",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "しな",
-        "romanji": "shina",
+        "furigana": "かぜ",
+        "romanji": "kaze",
         "examples": [
           {
             "id": 1,
-            "word": "品物",
-            "furigana": "しなもの",
-            "romanji": "shinamono",
+            "word": "風",
+            "furigana": "かぜ",
+            "romanji": "kaze",
             "meanings": {
-              "id": "barang-barang",
-              "en": "goods"
-            }
+              "id": "angin",
+              "en": "wind"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は風が強いです。",
+                "furigana": "きょうはかぜがつよいです。",
+                "romaji": "kyou wa kaze ga tsuyoi desu.",
+                "meanings": {
+                  "id": "Hari ini anginnya kencang.",
+                  "en": "The wind is strong today."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ヒン",
-        "romanji": "hin",
+        "furigana": "フウ",
+        "romanji": "fuu",
         "examples": [
           {
             "id": 2,
-            "word": "品質",
-            "furigana": "ひんしつ",
-            "romanji": "hinshitsu",
+            "word": "風船",
+            "furigana": "ふうせん",
+            "romanji": "fuusen",
             "meanings": {
-              "id": "mutu",
-              "en": "quality"
-            }
+              "id": "balon udara",
+              "en": "balloon"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "子どもたちが風船で遊んでいます。",
+                "furigana": "こどもたちがふうせんであそんでいます。",
+                "romaji": "kodomotachi ga fuusen de asondeimasu.",
+                "meanings": {
+                  "id": "Anak-anak sedang bermain dengan balon.",
+                  "en": "The children are playing with balloons."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "台風",
+            "furigana": "たいふう",
+            "romanji": "taifuu",
+            "meanings": {
+              "id": "angin ribut, taifun",
+              "en": "typhoon"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "台風が来るので、外に出ないでください。",
+                "furigana": "たいふうがくるので、そとにでないでください。",
+                "romaji": "taifuu ga kuru node, soto ni denai de kudasai.",
+                "meanings": {
+                  "id": "Karena taifun akan datang, tolong jangan keluar.",
+                  "en": "Please don't go outside because a typhoon is coming."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": null
+    "exception": {
+      "examples": [
+        {
+          "id": 4,
+          "word": "風邪",
+          "furigana": "かぜ",
+          "romanji": "kaze",
+          "meanings": {
+            "id": "masuk angin",
+            "en": "cold, flu"
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "風邪を引いたので、学校を休みました。",
+              "furigana": "かぜをひいたので、がっこうをやすみました。",
+              "romaji": "kaze wo hiita node, gakkou wo yasumimashita.",
+              "meanings": {
+                "id": "Karena masuk angin, saya tidak masuk sekolah.",
+                "en": "I was absent from school because I caught a cold."
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "word": "風呂",
+          "furigana": "ふろ",
+          "romanji": "furo",
+          "meanings": {
+            "id": "kamar mandi",
+            "en": "bath, bathroom"
+          },
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "毎日お風呂に入ります。",
+              "furigana": "まいにちおふろにはいります。",
+              "romaji": "mainichi ofuro ni hairimasu.",
+              "meanings": {
+                "id": "Saya mandi setiap hari.",
+                "en": "I take a bath every day."
+              }
+            }
+          ]
+        }
+      ]
+    }
   },
   "meanings": {
-    "id": "barang-barang",
-    "en": "goods, quality"
+    "id": "angin",
+    "en": "wind, style"
   }
 }
