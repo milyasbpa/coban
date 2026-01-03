@@ -1,43 +1,86 @@
 {
   "id": 104,
-  "character": "院",
-  "strokes": 10,
+  "character": "問",
+  "strokes": 11,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "イン",
-        "romanji": "in",
+        "furigana": "と",
+        "romanji": "to",
         "examples": [
           {
             "id": 1,
-            "word": "病院",
-            "furigana": "びょういん",
-            "romanji": "byouin",
+            "word": "問い",
+            "furigana": "とい",
+            "romanji": "toi",
             "meanings": {
-              "id": "rumah sakit",
-              "en": "hospital"
-            }
+              "id": "pertanyaan",
+              "en": "question"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生の問いに答えられませんでした。",
+                "furigana": "せんせいのといにこたえられませんでした。",
+                "romaji": "sensei no toi ni kotaeraremasen deshita.",
+                "meanings": {
+                  "id": "Saya tidak bisa menjawab pertanyaan guru.",
+                  "en": "I couldn't answer the teacher's question."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "モン",
+        "romanji": "mon",
+        "examples": [
+          {
+            "id": 1,
+            "word": "問題",
+            "furigana": "もんだい",
+            "romanji": "mondai",
+            "meanings": {
+              "id": "soal, masalah",
+              "en": "problem, question"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この問題は難しくて解けません。",
+                "furigana": "このもんだいはむずかしくてとけません。",
+                "romaji": "kono mondai wa muzukashikute tokemasen.",
+                "meanings": {
+                  "id": "Soal ini sulit dan tidak bisa saya selesaikan.",
+                  "en": "This problem is difficult and I can't solve it."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "入院",
-            "furigana": "にゅういん",
-            "romanji": "nyuuin",
+            "word": "訪問",
+            "furigana": "ほうもん",
+            "romanji": "houmon",
             "meanings": {
-              "id": "masuk rumah sakit",
-              "en": "hospitalization"
-            }
-          },
-          {
-            "id": 3,
-            "word": "退院",
-            "furigana": "たいいん",
-            "romanji": "taiin",
-            "meanings": {
-              "id": "keluar rumah sakit",
-              "en": "discharge from hospital"
-            }
+              "id": "kunjungan",
+              "en": "visit"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来週、お客様の家を訪問する予定です。",
+                "furigana": "らいしゅう、おきゃくさまのいえをほうもんするよていです。",
+                "romaji": "raishuu, okyakusama no ie wo houmon suru yotei desu.",
+                "meanings": {
+                  "id": "Minggu depan, saya berencana mengunjungi rumah pelanggan.",
+                  "en": "Next week, I plan to visit the customer's house."
+                }
+              }
+            ]
           }
         ]
       }
@@ -45,7 +88,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "rumah sakit",
-    "en": "institution, hospital"
+    "id": "pertanyaan, masalah",
+    "en": "question, problem"
   }
 }
