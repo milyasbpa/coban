@@ -1,50 +1,64 @@
 {
   "id": 99,
-  "character": "旅",
-  "strokes": 10,
+  "character": "鳥",
+  "strokes": 11,
   "readings": {
     "kun": [
       {
-        "furigana": "たび",
-        "romanji": "tabi",
+        "furigana": "とり",
+        "romanji": "tori",
         "examples": [
           {
             "id": 1,
-            "word": "旅",
-            "furigana": "たび",
-            "romanji": "tabi",
+            "word": "鳥",
+            "furigana": "とり",
+            "romanji": "tori",
             "meanings": {
-              "id": "perjalanan",
-              "en": "journey"
-            }
-          },
-          {
-            "id": 2,
-            "word": "旅人",
-            "furigana": "たびびと",
-            "romanji": "tabibito",
-            "meanings": {
-              "id": "pelancong",
-              "en": "traveler"
-            }
+              "id": "burung, ayam",
+              "en": "bird, chicken"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "空に鳥が飛んでいます。",
+                "furigana": "そらにとりがとんでいます。",
+                "romaji": "sora ni tori ga tondeimasu.",
+                "meanings": {
+                  "id": "Ada burung yang terbang di langit.",
+                  "en": "Birds are flying in the sky."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "リョ",
-        "romanji": "ryo",
+        "furigana": "チョウ",
+        "romanji": "chou",
         "examples": [
           {
-            "id": 3,
-            "word": "旅行",
-            "furigana": "りょこう",
-            "romanji": "ryokou",
+            "id": 2,
+            "word": "白鳥",
+            "furigana": "はくちょう",
+            "romanji": "hakuchou",
             "meanings": {
-              "id": "darmawisata",
-              "en": "trip"
-            }
+              "id": "angsa",
+              "en": "swan"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "湖に白鳥がいます。",
+                "furigana": "みずうみにはくちょうがいます。",
+                "romaji": "mizuumi ni hakuchou ga imasu.",
+                "meanings": {
+                  "id": "Ada angsa di danau.",
+                  "en": "There are swans in the lake."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "perjalanan",
-    "en": "journey, travel"
+    "id": "burung",
+    "en": "bird"
   }
 }
