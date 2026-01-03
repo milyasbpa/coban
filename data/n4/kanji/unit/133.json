@@ -1,66 +1,87 @@
 {
   "id": 133,
-  "character": "園",
-  "strokes": 13,
+  "character": "曜",
+  "strokes": 18,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "その",
-        "romanji": "sono",
+        "furigana": "ヨウ",
+        "romanji": "you",
         "examples": [
           {
             "id": 1,
-            "word": "園",
-            "furigana": "その",
-            "romanji": "sono",
+            "word": "日曜日",
+            "furigana": "にちようび",
+            "romanji": "nichiyoubi",
             "meanings": {
-              "id": "kebun",
-              "en": "garden"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ぞの",
-        "romanji": "zono",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "エン",
-        "romanji": "en",
-        "examples": [
+              "id": "hari Minggu",
+              "en": "Sunday"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日曜日は休みです。",
+                "furigana": "にちようびはやすみです。",
+                "romaji": "nichiyoubi wa yasumi desu.",
+                "meanings": {
+                  "id": "Hari Minggu libur.",
+                  "en": "Sunday is a day off."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "月曜日",
+            "furigana": "げつようび",
+            "romanji": "getsuyoubi",
+            "meanings": {
+              "id": "hari Senin",
+              "en": "Monday"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "月曜日から学校が始まります。",
+                "furigana": "げつようびからがっこうがはじまります。",
+                "romaji": "getsuyoubi kara gakkou ga hajimarimasu.",
+                "meanings": {
+                  "id": "Sekolah dimulai dari hari Senin.",
+                  "en": "School starts from Monday."
+                }
+              }
+            ]
+          },
           {
             "id": 3,
-            "word": "動物園",
-            "furigana": "どうぶつえん",
-            "romanji": "doubutsuen",
+            "word": "何曜日",
+            "furigana": "なんようび",
+            "romanji": "nanyoubi",
             "meanings": {
-              "id": "kebun binatang",
-              "en": "zoo"
-            }
+              "id": "hari apa",
+              "en": "what day of the week"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は何曜日ですか。",
+                "furigana": "きょうはなんようびですか。",
+                "romaji": "kyou wa nanyoubi desu ka.",
+                "meanings": {
+                  "id": "Hari ini hari apa?",
+                  "en": "What day is it today?"
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "花園",
-          "furigana": "はなぞの",
-          "romanji": "hanazono",
-          "meanings": {
-            "id": "kebun bunga",
-            "en": "flower garden"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "kebun",
-    "en": "garden, park"
+    "id": "hari dalam seminggu",
+    "en": "day of the week"
   }
 }
