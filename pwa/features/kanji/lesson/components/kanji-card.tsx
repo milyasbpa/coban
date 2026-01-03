@@ -348,29 +348,29 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
               {/* Examples for this reading */}
               <div className="space-y-2 pl-3">
                 {reading.examples.map((example, exampleIdx) => (
-                  <div key={`kun-${readingIdx}-ex-${exampleIdx}`} className="space-y-1">
+                  <div key={`kun-${readingIdx}-ex-${exampleIdx}`} className="space-y-2">
                     {/* Word */}
-                    <div className="grid grid-cols-[1fr_auto] gap-2 items-start text-sm">
-                      <div className="flex flex-col gap-1 min-w-0">
-                        <div className="flex items-baseline gap-1 flex-wrap">
+                    <div className="grid grid-cols-[1fr_auto] gap-2 items-start">
+                      <div className="flex flex-col gap-1.5 min-w-0">
+                        <div className="flex items-baseline gap-1 flex-wrap text-base">
                           {displayOptions.japanese && (
-                            <span className="font-semibold text-foreground">
+                            <span className="font-bold text-foreground">
                               {highlightMatchingKanji(example.word, kanji.character)}
                             </span>
                           )}
                           {displayOptions.furigana && (
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-sm">
                               【{example.furigana}】
                             </span>
                           )}
                           {displayOptions.romanji && (
-                            <span className="text-muted-foreground">
+                            <span className="text-muted-foreground text-sm">
                               ({example.romanji})
                             </span>
                           )}
                         </div>
                         {displayOptions.meaning && (
-                          <div className="flex items-baseline gap-1 min-w-0">
+                          <div className="flex items-baseline gap-1 min-w-0 text-sm">
                             <span className="text-muted-foreground font-semibold shrink-0">{language === 'id' ? 'arti' : 'meanings'}:</span>
                             <span className="text-muted-foreground wrap-break-word">
                               {getMeaning(example, language as SupportedLanguage)}
@@ -393,14 +393,14 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
 
                     {/* Sentences */}
                     {example.sentences && example.sentences.length > 0 && (
-                      <div className="pl-4 space-y-1">
+                      <div className="pl-4 space-y-1.5">
                         {example.sentences.map((sentence, sentenceIdx) => (
-                          <div key={`kun-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-0.5">
-                            <div className="flex items-start gap-2 text-xs">
+                          <div key={`kun-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-1">
+                            <div className="flex items-start gap-2 text-sm">
                               <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
                               <div className="flex-1 text-muted-foreground">
-                                <div className="font-medium">{sentence.sentence}</div>
-                                <div className="text-[11px] italic">
+                                <div className="font-medium leading-relaxed">{sentence.sentence}</div>
+                                <div className="text-xs italic mt-0.5 leading-relaxed">
                                   {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
                                 </div>
                               </div>
@@ -455,29 +455,29 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
               {/* Examples for this reading */}
               <div className="space-y-2 pl-3">
                 {reading.examples.map((example, exampleIdx) => (
-                  <div key={`on-${readingIdx}-ex-${exampleIdx}`} className="space-y-1">
+                  <div key={`on-${readingIdx}-ex-${exampleIdx}`} className="space-y-2">
                     {/* Word */}
-                    <div className="grid grid-cols-[1fr_auto] gap-2 items-start text-sm">
-                      <div className="flex flex-col gap-1 min-w-0">
-                        <div className="flex items-baseline gap-1 flex-wrap">
+                    <div className="grid grid-cols-[1fr_auto] gap-2 items-start">
+                      <div className="flex flex-col gap-1.5 min-w-0">
+                        <div className="flex items-baseline gap-1 flex-wrap text-base">
                           {displayOptions.japanese && (
-                            <span className="font-semibold text-foreground">
+                            <span className="font-bold text-foreground">
                               {highlightMatchingKanji(example.word, kanji.character)}
                             </span>
                           )}
                           {displayOptions.furigana && (
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-sm">
                               【{example.furigana}】
                             </span>
                           )}
                           {displayOptions.romanji && (
-                            <span className="text-muted-foreground">
+                            <span className="text-muted-foreground text-sm">
                               ({example.romanji})
                             </span>
                           )}
                         </div>
                         {displayOptions.meaning && (
-                          <div className="flex items-baseline gap-1 min-w-0">
+                          <div className="flex items-baseline gap-1 min-w-0 text-sm">
                             <span className="text-muted-foreground font-semibold shrink-0">{language === 'id' ? 'arti' : 'meanings'}:</span>
                             <span className="text-muted-foreground wrap-break-word">
                               {getMeaning(example, language as SupportedLanguage)}
@@ -500,14 +500,14 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
 
                     {/* Sentences */}
                     {example.sentences && example.sentences.length > 0 && (
-                      <div className="pl-4 space-y-1">
+                      <div className="pl-4 space-y-1.5">
                         {example.sentences.map((sentence, sentenceIdx) => (
-                          <div key={`on-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-0.5">
-                            <div className="flex items-start gap-2 text-xs">
+                          <div key={`on-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-1">
+                            <div className="flex items-start gap-2 text-sm">
                               <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
                               <div className="flex-1 text-muted-foreground">
-                                <div className="font-medium">{sentence.sentence}</div>
-                                <div className="text-[11px] italic">
+                                <div className="font-medium leading-relaxed">{sentence.sentence}</div>
+                                <div className="text-xs italic mt-0.5 leading-relaxed">
                                   {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
                                 </div>
                               </div>
@@ -553,29 +553,29 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
             {/* Examples for exception */}
             <div className="space-y-2 pl-3">
               {kanji.readings.exception.examples.map((example, exampleIdx) => (
-                <div key={`exc-${exampleIdx}`} className="space-y-1">
+                <div key={`exc-${exampleIdx}`} className="space-y-2">
                   {/* Word */}
-                  <div className="grid grid-cols-[1fr_auto] gap-2 items-start text-sm">
-                    <div className="flex flex-col gap-1 min-w-0">
-                      <div className="flex items-baseline gap-1 flex-wrap">
+                  <div className="grid grid-cols-[1fr_auto] gap-2 items-start">
+                    <div className="flex flex-col gap-1.5 min-w-0">
+                      <div className="flex items-baseline gap-1 flex-wrap text-base">
                         {displayOptions.japanese && (
-                          <span className="font-semibold text-foreground">
+                          <span className="font-bold text-foreground">
                             {highlightMatchingKanji(example.word, kanji.character)}
                           </span>
                         )}
                         {displayOptions.furigana && (
-                          <span className="text-muted-foreground text-xs">
+                          <span className="text-muted-foreground text-sm">
                             【{example.furigana}】
                           </span>
                         )}
                         {displayOptions.romanji && (
-                          <span className="text-muted-foreground">
+                          <span className="text-muted-foreground text-sm">
                             ({example.romanji})
                           </span>
                         )}
                       </div>
                       {displayOptions.meaning && (
-                        <div className="flex items-baseline gap-1 min-w-0">
+                        <div className="flex items-baseline gap-1 min-w-0 text-sm">
                           <span className="text-muted-foreground font-semibold shrink-0">{language === 'id' ? 'arti' : 'meanings'}:</span>
                           <span className="text-muted-foreground wrap-break-word">
                             {getMeaning(example, language as SupportedLanguage)}
@@ -598,14 +598,14 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
 
                   {/* Sentences */}
                   {example.sentences && example.sentences.length > 0 && (
-                    <div className="pl-4 space-y-1">
+                    <div className="pl-4 space-y-1.5">
                       {example.sentences.map((sentence, sentenceIdx) => (
-                        <div key={`exc-${exampleIdx}-s-${sentenceIdx}`} className="space-y-0.5">
-                          <div className="flex items-start gap-2 text-xs">
+                        <div key={`exc-${exampleIdx}-s-${sentenceIdx}`} className="space-y-1">
+                          <div className="flex items-start gap-2 text-sm">
                             <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
                             <div className="flex-1 text-muted-foreground">
-                              <div className="font-medium">{sentence.sentence}</div>
-                              <div className="text-[11px] italic">
+                              <div className="font-medium leading-relaxed">{sentence.sentence}</div>
+                              <div className="text-xs italic mt-0.5 leading-relaxed">
                                 {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
                               </div>
                             </div>
