@@ -1,50 +1,79 @@
 {
   "id": 70,
-  "character": "味",
-  "strokes": 8,
+  "character": "室",
+  "strokes": 9,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "あじ",
-        "romanji": "aji",
+        "furigana": "シツ",
+        "romanji": "shitsu",
         "examples": [
           {
             "id": 1,
-            "word": "味",
-            "furigana": "あじ",
-            "romanji": "aji",
+            "word": "教室",
+            "furigana": "きょうしつ",
+            "romanji": "kyoushitsu",
             "meanings": {
-              "id": "rasa",
-              "en": "taste"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ミ",
-        "romanji": "mi",
-        "examples": [
+              "id": "ruang kelas",
+              "en": "classroom"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "教室で日本語を勉強しています。",
+                "furigana": "きょうしつでにほんごをべんきょうしています。",
+                "romaji": "kyoushitsu de nihongo wo benkyou shite imasu.",
+                "meanings": {
+                  "id": "Saya sedang belajar bahasa Jepang di ruang kelas.",
+                  "en": "I am studying Japanese in the classroom."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "意味",
-            "furigana": "いみ",
-            "romanji": "imi",
+            "word": "研究室",
+            "furigana": "けんきゅうしつ",
+            "romanji": "kenkyuushitsu",
             "meanings": {
-              "id": "arti",
-              "en": "meaning"
-            }
+              "id": "ruang penelitian",
+              "en": "research room, laboratory"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "教授は研究室にいます。",
+                "furigana": "きょうじゅはけんきゅうしつにいます。",
+                "romaji": "kyouju wa kenkyuushitsu ni imasu.",
+                "meanings": {
+                  "id": "Profesor ada di ruang penelitian.",
+                  "en": "The professor is in the research room."
+                }
+              }
+            ]
           },
           {
             "id": 3,
-            "word": "興味",
-            "furigana": "きょうみ",
-            "romanji": "kyoumi",
+            "word": "室内",
+            "furigana": "しつない",
+            "romanji": "shitsunai",
             "meanings": {
-              "id": "hobi",
-              "en": "interest"
-            }
+              "id": "dalam ruangan",
+              "en": "indoor, inside the room"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "雨なので室内で運動しました。",
+                "furigana": "あめなのでしつないでうんどうしました。",
+                "romaji": "ame nanode shitsunai de undou shimashita.",
+                "meanings": {
+                  "id": "Karena hujan, saya berolahraga di dalam ruangan.",
+                  "en": "Because it was raining, I exercised indoors."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "rasa",
-    "en": "taste, flavor"
+    "id": "ruangan",
+    "en": "room"
   }
 }
