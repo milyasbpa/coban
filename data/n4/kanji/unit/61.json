@@ -1,66 +1,142 @@
 {
   "id": 61,
-  "character": "夜",
+  "character": "物",
   "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "よる",
-        "romanji": "yoru",
+        "furigana": "もの",
+        "romanji": "mono",
         "examples": [
           {
             "id": 1,
-            "word": "夜",
-            "furigana": "よる",
-            "romanji": "yoru",
+            "word": "品物",
+            "furigana": "しなもの",
+            "romanji": "shinamono",
             "meanings": {
-              "id": "malam",
-              "en": "night"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "よ",
-        "romanji": "yo",
-        "examples": [
-          {
-            "id": 1,
-            "word": "夜",
-            "furigana": "よる",
-            "romanji": "yoru",
-            "meanings": {
-              "id": "malam",
-              "en": "night"
-            }
+              "id": "barang-barang",
+              "en": "goods, articles"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この店には良い品物がたくさんあります。",
+                "furigana": "このみせにはよいしなものがたくさんあります。",
+                "romaji": "kono mise ni wa yoi shinamono ga takusan arimasu.",
+                "meanings": {
+                  "id": "Di toko ini ada banyak barang-barang bagus.",
+                  "en": "There are many good goods in this store."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "夜中",
-            "furigana": "よなか",
-            "romanji": "yonaka",
+            "word": "買い物",
+            "furigana": "かいもの",
+            "romanji": "kaimono",
             "meanings": {
-              "id": "tengah malam",
-              "en": "midnight"
-            }
+              "id": "belanja",
+              "en": "shopping"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "週末に買い物に行きたいです。",
+                "furigana": "しゅうまつにかいものにいきたいです。",
+                "romaji": "shuumatsu ni kaimono ni ikitai desu.",
+                "meanings": {
+                  "id": "Saya ingin pergi belanja di akhir pekan.",
+                  "en": "I want to go shopping on the weekend."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ヤ",
-        "romanji": "ya",
+        "furigana": "ブツ",
+        "romanji": "butsu",
         "examples": [
           {
-            "id": 3,
-            "word": "徹夜",
-            "furigana": "てつや",
-            "romanji": "tetsuya",
+            "id": 1,
+            "word": "動物",
+            "furigana": "どうぶつ",
+            "romanji": "doubutsu",
             "meanings": {
-              "id": "bergadang",
-              "en": "staying up all night"
-            }
+              "id": "binatang",
+              "en": "animal"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "動物園でいろいろな動物を見ました。",
+                "furigana": "どうぶつえんでいろいろなどうぶつをみました。",
+                "romaji": "doubutsuen de iroiro na doubutsu wo mimashita.",
+                "meanings": {
+                  "id": "Saya melihat berbagai macam binatang di kebun binatang.",
+                  "en": "I saw various animals at the zoo."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ブ",
+        "romanji": "bu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "物価",
+            "furigana": "ぶっか",
+            "romanji": "bukka",
+            "meanings": {
+              "id": "harga barang",
+              "en": "prices, cost of living"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この町は物価が高いです。",
+                "furigana": "このまちはぶっかがたかいです。",
+                "romaji": "kono machi wa bukka ga takai desu.",
+                "meanings": {
+                  "id": "Harga barang di kota ini tinggi.",
+                  "en": "Prices are high in this town."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "モツ",
+        "romanji": "motsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "荷物",
+            "furigana": "にもつ",
+            "romanji": "nimotsu",
+            "meanings": {
+              "id": "barang bawaan",
+              "en": "luggage, baggage"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "荷物が重いので手伝ってください。",
+                "furigana": "にもつがおもいのでてつだってください。",
+                "romaji": "nimotsu ga omoi node tetsudatte kudasai.",
+                "meanings": {
+                  "id": "Tolong bantu saya karena barang bawaannya berat.",
+                  "en": "Please help me because the luggage is heavy."
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +144,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "malam",
-    "en": "night"
+    "id": "barang",
+    "en": "thing, object"
   }
 }
