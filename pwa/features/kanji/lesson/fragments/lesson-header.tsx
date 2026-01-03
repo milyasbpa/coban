@@ -29,18 +29,11 @@ export function LessonHeader() {
   const router = useRouter();
 
   const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
 
   // Get lesson title
   let lessonTitle = "Kanji Lesson";
-  if (topicId) {
-    const categories = KanjiService.getTopicCategories(level);
-    const category = categories[topicId];
-    if (category) {
-      lessonTitle = titleCase(category.name);
-    }
-  } else if (lessonId) {
+  if (lessonId) {
     lessonTitle = `Lesson ${lessonId}`;
   }
 
@@ -62,13 +55,10 @@ export function LessonHeader() {
     if (!isAuthenticated) return;
 
     try {
-      // Extract kanji IDs based on lesson type
+      // Extract kanji IDs based on lesson
       let kanjiDetails: Array<{ id: number }> = [];
       
-      if (topicId) {
-        // Topic-based lesson
-        kanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
-      } else if (lessonId) {
+      if (lessonId) {
         // Stroke-based lesson
         kanjiDetails = KanjiService.getKanjiDetailsByLessonId(
           parseInt(lessonId),

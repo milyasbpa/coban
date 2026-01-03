@@ -4,7 +4,7 @@ import { useReadingExerciseStore } from "../store";
 import { getReadingGameData } from "./reading-game";
 
 export function useInitializeReadingGames() {
-  const { lessonId, topicId, level, selectedKanjiIds } =
+  const { lessonId, level, selectedKanjiIds } =
     useExerciseSearchParams();
 
   // Use store
@@ -12,25 +12,14 @@ export function useInitializeReadingGames() {
 
   // Initialize game
   useEffect(() => {
-    if (!lessonId && !topicId) return;
+    if (!lessonId) return;
 
-    if (topicId) {
-      // Initialize with topicId
-      const gameData = getReadingGameData(
-        null,
-        level,
-        selectedKanjiIds,
-        topicId
-      );
-      initializeGame(gameData.questions);
-    } else if (lessonId) {
-      // Initialize with lessonId
-      const gameData = getReadingGameData(
-        parseInt(lessonId),
-        level,
-        selectedKanjiIds
-      );
-      initializeGame(gameData.questions);
-    }
-  }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
+    // Initialize with lessonId
+    const gameData = getReadingGameData(
+      parseInt(lessonId),
+      level,
+      selectedKanjiIds
+    );
+    initializeGame(gameData.questions);
+  }, [lessonId, level, selectedKanjiIds, initializeGame]);
 }

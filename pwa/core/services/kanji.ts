@@ -2,10 +2,6 @@ import n5KanjiData from "@/data/n5/kanji/kanji.json";
 import n4KanjiData from "@/data/n4/kanji/kanji.json";
 import n3KanjiData from "@/data/n3/kanji/kanji.json";
 import n2KanjiData from "@/data/n2/kanji/kanji.json";
-import n5TopicMapping from "@/data/n5/kanji/kanji_topic_mapping.json";
-import n4TopicMapping from "@/data/n4/kanji/kanji_topic_mapping.json";
-import n3TopicMapping from "@/data/n3/kanji/kanji_topic_mapping.json";
-import n2TopicMapping from "@/data/n2/kanji/kanji_topic_mapping.json";
 import { getLessonsByLevel } from "@/pwa/features/home/utils/lesson";
 
 export interface KanjiReading {
@@ -53,13 +49,6 @@ export interface KanjiDetail {
   examples: KanjiExample[];
 }
 
-export interface TopicCategory {
-  name: string;
-  kanji_ids: number[];
-  kanji_characters: string[];
-  description: string;
-}
-
 /**
  * Kanji Service - Centralized data access layer for kanji operations
  * Handles all JSON data imports and basic kanji queries
@@ -84,27 +73,6 @@ export class KanjiService {
   }
 
   /**
-   * Get topic mapping data by level - centralized data source management
-   */
-  private static getTopicMappingData(level: string) {
-    switch (level.toUpperCase()) {
-      case "N5":
-        return n5TopicMapping;
-      case "N4":
-        return n4TopicMapping;
-      case "N3":
-        return n3TopicMapping;
-      case "N2":
-        return n2TopicMapping;
-      case "N1":
-        // Return empty structure for levels that don't have topic mapping yet
-        return { topic_categories: {} };
-      default:
-        return n5TopicMapping; // Default to N5
-    }
-  }
-
-  /**
    * Get kanji details by character list and level
    */
   static getKanjiDetailsByCharacters(
@@ -120,7 +88,7 @@ export class KanjiService {
   }
 
   /**
-   * Get kanji details by ID list and level - more efficient for topic-based queries
+   * Get kanji details by ID list and level - efficient lookup method
    */
   static getKanjiDetailsByIds(
     ids: number[],
@@ -151,48 +119,6 @@ export class KanjiService {
 
     // Lesson now contains full kanji objects - just return them directly!
     return lesson.kanji;
-  }
-
-  /**
-   * Get kanji details by topic ID - optimized to use kanji_ids directly
-   */
-  static getKanjiDetailsByTopicId(
-    topicId: string,
-    level: string
-  ): KanjiDetail[] {
-    const categories = this.getTopicCategories(level);
-    const category = categories[topicId];
-    if (!category) return [];
-
-    // Use kanji_ids directly for better performance instead of converting characters
-    return this.getKanjiDetailsByIds(category.kanji_ids, level);
-  }
-
-  /**
-   * Get all available topic categories
-   */
-  static getTopicCategories(
-    level: string = "N5"
-  ): Record<string, TopicCategory> {
-    const topicMapping = this.getTopicMappingData(level);
-    return topicMapping.topic_categories;
-  }
-
-  /**
-   * Get kanji filtered by topic using kanji_ids 
-   */
-  static getKanjiByTopic(
-    allKanji: KanjiDetail[],
-    topicId: string,
-    level: string = "N5"
-  ): KanjiDetail[] {
-    const topicMapping = this.getTopicMappingData(level);
-    const category = topicMapping.topic_categories[
-      topicId as keyof typeof topicMapping.topic_categories
-    ] as TopicCategory;
-    if (!category || !category.kanji_ids) return [];
-
-    return allKanji.filter((kanji) => category.kanji_ids.includes(kanji.id));
   }
 
   /**

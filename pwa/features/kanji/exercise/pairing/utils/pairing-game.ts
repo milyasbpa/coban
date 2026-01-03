@@ -52,15 +52,11 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 export const getPairingGameData = (
   lessonId: number | null,
   level: string,
-  selectedKanjiIds?: number[],
-  topicId?: string
+  selectedKanjiIds?: number[]
 ) => {
   let allKanjiDetails: KanjiDetail[];
 
-  if (topicId) {
-    // Get kanji details by topic ID
-    allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
-  } else if (lessonId) {
+  if (lessonId) {
     // Get kanji details by lesson ID
     allKanjiDetails = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
   } else {

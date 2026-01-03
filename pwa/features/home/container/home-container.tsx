@@ -5,7 +5,6 @@ import { Header } from "@/pwa/features/home/fragments/header";
 import { LevelSection } from "../fragments/level-section";
 import { CategorySection } from "../fragments/category-section";
 import { KanjiListCTA } from "../fragments/kanji-list-cta";
-import { KanjiLessonTypeToggle } from "../fragments/kanji-lesson-type-toggle";
 import { KanjiLessonsSection } from "../fragments/kanji-lessons-section";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useVocabularyScoreStore } from "@/pwa/features/score/store/vocabulary-score.store";
@@ -26,8 +25,7 @@ function ConditionalControls() {
       <div className="flex items-center justify-between">
         {/* Kanji List CTA */}
         <KanjiListCTA />
-        {/* Lesson Type Toggle */}
-        <KanjiLessonTypeToggle />
+        {/* Removed lesson type toggle - only stroke lessons now */}
       </div>
     );
   }

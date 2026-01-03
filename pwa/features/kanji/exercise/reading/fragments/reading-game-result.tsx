@@ -19,7 +19,6 @@ export function ReadingGameResult() {
   const { currentUserScore, getExerciseProgress, initializeUser } = useKanjiScoreStore();
 
   const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
 
   // Get data from store instead of props
@@ -43,16 +42,15 @@ export function ReadingGameResult() {
 
   // Calculate exercise progress
   const exerciseProgress = useMemo(() => {
-    const identifier = topicId || lessonId;
-    if (!identifier || !currentUserScore) {
+    if (!lessonId || !currentUserScore) {
       return { writing: 0, pairing: 0 };
     }
 
     return {
-      writing: getExerciseProgress("writing", identifier, level),
-      pairing: getExerciseProgress("pairing", identifier, level),
+      writing: getExerciseProgress("writing", lessonId, level),
+      pairing: getExerciseProgress("pairing", lessonId, level),
     };
-  }, [topicId, lessonId, level, currentUserScore, getExerciseProgress]);
+  }, [lessonId, level, currentUserScore, getExerciseProgress]);
 
   const handleRestart = () => {
     restartGame();
@@ -63,17 +61,12 @@ export function ReadingGameResult() {
   };
 
   const handleNavigateToExercise = (exerciseType: "writing" | "pairing") => {
-    const identifier = topicId || lessonId;
-    if (!identifier) return;
+    if (!lessonId) return;
 
     const baseUrl = `/kanji/exercise/${exerciseType}`;
     const params = new URLSearchParams({ level });
 
-    if (topicId) {
-      params.append("topicId", topicId);
-    } else if (lessonId) {
-      params.append("lessonId", lessonId);
-    }
+    params.append("lessonId", lessonId);
 
     router.push(`${baseUrl}?${params.toString()}`);
   };

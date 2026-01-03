@@ -24,15 +24,15 @@ export function PairingHeader() {
   const router = useRouter();
 
   // Get URL parameters for back navigation logic
-  const topicId = searchParams.get("topicId");
+  const lessonId = searchParams.get("lessonId");
   const level = searchParams.get("level");
   const selectedKanji = searchParams.get("selectedKanji");
 
   // Determine back URL based on route context
   const getBackUrl = () => {
     // If coming from exercise with selectedKanji, go back to lesson
-    if (selectedKanji && topicId && level) {
-      return `/kanji/lesson?topicId=${topicId}&level=${level}`;
+    if (selectedKanji && lessonId && level) {
+      return `/kanji/lesson?lessonId=${lessonId}&level=${level}`;
     }
 
     // Default back to home

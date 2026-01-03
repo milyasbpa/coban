@@ -3,7 +3,7 @@ import { useExerciseSearchParams } from "../../utils/hooks";
 import { usePairingGameStore } from "../store";
 
 export function useInitializePairingGame() {
-  const { lessonId, topicId, level, selectedKanjiIds } =
+  const { lessonId, level, selectedKanjiIds } =
     useExerciseSearchParams();
 
   // Store
@@ -11,25 +11,14 @@ export function useInitializePairingGame() {
 
   // Initialize game on mount
   useEffect(() => {
-    if (!lessonId && !topicId) return;
+    if (!lessonId) return;
 
-    if (topicId) {
-      // Initialize with topicId
-      initializeGame({
-        lessonId: null,
-        level,
-        shouldResetSectionIndex: false,
-        selectedKanjiIds,
-        topicId,
-      });
-    } else if (lessonId) {
-      // Initialize with lessonId
-      initializeGame({
-        lessonId: parseInt(lessonId),
-        level,
-        shouldResetSectionIndex: false,
-        selectedKanjiIds,
-      });
-    }
-  }, [lessonId, topicId, level, selectedKanjiIds, initializeGame]);
+    // Initialize with lessonId
+    initializeGame({
+      lessonId: parseInt(lessonId),
+      level,
+      shouldResetSectionIndex: false,
+      selectedKanjiIds,
+    });
+  }, [lessonId, level, selectedKanjiIds, initializeGame]);
 }

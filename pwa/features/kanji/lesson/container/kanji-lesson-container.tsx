@@ -19,16 +19,13 @@ export function KanjiLessonContainer() {
   const searchParams = useSearchParams();
   
   const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
   
   // Auto-save current page URL for restoration after restart
   useLastVisitedPage();
 
   // Auto-save and restore scroll position
-  const scrollKey = topicId 
-    ? `kanji-scroll-topic-${topicId}-${level}`
-    : `kanji-scroll-${lessonId}-${level}`;
+  const scrollKey = `kanji-scroll-${lessonId}-${level}`;
   useScrollRestoration(scrollKey);
 
   // Initialize selection mode from localStorage on mount

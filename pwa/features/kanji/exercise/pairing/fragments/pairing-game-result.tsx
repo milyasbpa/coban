@@ -19,7 +19,6 @@ export function PairingGameResult() {
   const { currentUserScore, getExerciseProgress, initializeUser } = useKanjiScoreStore();
 
   const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
   const selectedKanjiParam = searchParams.get("selectedKanji");
 
@@ -51,16 +50,15 @@ export function PairingGameResult() {
 
   // Calculate exercise progress
   const exerciseProgress = useMemo(() => {
-    const identifier = topicId || lessonId;
-    if (!identifier || !currentUserScore) {
+    if (!lessonId || !currentUserScore) {
       return { writing: 0, reading: 0 };
     }
 
     return {
-      writing: getExerciseProgress("writing", identifier, level),
-      reading: getExerciseProgress("reading", identifier, level),
+      writing: getExerciseProgress("writing", lessonId, level),
+      reading: getExerciseProgress("reading", lessonId, level),
     };
-  }, [topicId, lessonId, level, currentUserScore, getExerciseProgress]);
+  }, [lessonId, level, currentUserScore, getExerciseProgress]);
 
   const scoreColors = getScoreColor(score);
 
@@ -77,31 +75,21 @@ export function PairingGameResult() {
 
   const handleGameRestart = () => {
     // Use the reusable function with section index reset
-    if (!lessonId && !topicId) return;
+    if (!lessonId) return;
 
-    if (topicId) {
-      initializeGame({
-        lessonId: null,
-        level,
-        shouldResetSectionIndex: true,
-        selectedKanjiIds,
-        topicId,
-      });
-    } else if (lessonId) {
-      initializeGame({
-        lessonId: parseInt(lessonId),
-        level,
-        shouldResetSectionIndex: true,
-        selectedKanjiIds,
-      });
-    }
+    initializeGame({
+      lessonId: parseInt(lessonId),
+      level,
+      shouldResetSectionIndex: true,
+      selectedKanjiIds,
+    });
   };
 
   // Determine back URL based on route context
   const getBackUrl = () => {
     // If coming from exercise with selectedKanji, go back to lesson
-    if (selectedKanjiParam && topicId && level) {
-      return `/kanji/lesson?topicId=${topicId}&level=${level}`;
+    if (selectedKanjiParam && lessonId && level) {
+      return `/kanji/lesson?lessonId=${lessonId}&level=${level}`;
     }
 
     // Default back to home
@@ -109,17 +97,12 @@ export function PairingGameResult() {
   };
 
   const handleNavigateToExercise = (exerciseType: "writing" | "reading") => {
-    const identifier = topicId || lessonId;
-    if (!identifier) return;
+    if (!lessonId) return;
 
     const baseUrl = `/kanji/exercise/${exerciseType}`;
     const params = new URLSearchParams({ level });
 
-    if (topicId) {
-      params.append("topicId", topicId);
-    } else if (lessonId) {
-      params.append("lessonId", lessonId);
-    }
+    params.append("lessonId", lessonId);
 
     if (selectedKanjiParam) {
       params.append("selectedKanji", selectedKanjiParam);

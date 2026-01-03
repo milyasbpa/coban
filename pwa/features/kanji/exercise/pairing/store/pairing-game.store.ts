@@ -340,13 +340,11 @@ export const usePairingGameStore = create<PairingGameState>((set, get) => ({
       level,
       shouldResetSectionIndex = false,
       selectedKanjiIds,
-      topicId,
     } = params;
     const gameData = getPairingGameData(
       lessonId,
       level,
-      selectedKanjiIds,
-      topicId
+      selectedKanjiIds
     );
 
     // Shuffle all words first for better randomness
