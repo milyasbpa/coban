@@ -53,5 +53,4 @@ export interface GameInitializationParams {
   level: string;
   shouldResetSectionIndex?: boolean;
   selectedKanjiIds?: number[];
-  topicId?: string;
 }

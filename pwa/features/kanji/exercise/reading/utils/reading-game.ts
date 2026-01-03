@@ -20,6 +20,10 @@ export const getCompositeId = (item: ReadingQuestion | ReadingOption): string =>
   return `${item.kanjiId}-${item.id}`;
 };
 
+export interface ReadingGameData {
+  questions: ReadingQuestion[];
+}
+
 export interface AnswerResult {
   selectedAnswer: ReadingOption; // What user selected
   userAnswer: string; // User input for direct input mode
@@ -109,15 +113,11 @@ export const calculateReadingScore = (
 export const getReadingGameData = (
   lessonId: number | null,
   level: string,
-  selectedKanjiIds?: number[],
-  topicId?: string
-) => {
+  selectedKanjiIds?: number[]
+): ReadingGameData => {
   let allKanjiDetails: KanjiDetail[];
 
-  if (topicId) {
-    // Get kanji details by topic ID
-    allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
-  } else if (lessonId) {
+  if (lessonId) {
     // Get kanji details by lesson ID
     allKanjiDetails = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
   } else {

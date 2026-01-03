@@ -7,4 +7,3 @@ export type { KanjiDetail }
 // Re-export functions from KanjiService
 export const getKanjiDetailsByCharacters = KanjiService.getKanjiDetailsByCharacters
 export const getKanjiDetailsByLessonId = KanjiService.getKanjiDetailsByLessonId
-export const getKanjiDetailsByTopicId = KanjiService.getKanjiDetailsByTopicId

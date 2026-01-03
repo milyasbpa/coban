@@ -5,7 +5,6 @@ export function useExerciseSearchParams() {
   const searchParams = useSearchParams();
 
   const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
   const selectedKanjiParam = searchParams.get("selectedKanji");
 
@@ -19,7 +18,6 @@ export function useExerciseSearchParams() {
   }, [selectedKanjiParam]);
   return {
     lessonId,
-    topicId,
     level,
     selectedKanjiParam,
     selectedKanjiIds,

@@ -33,54 +33,17 @@ export function getKanjiForLesson(
 
 
 /**
- * Get writing questions for a specific lesson or topic - based on examples (words), not individual kanji
+ * Get writing questions for a specific lesson - based on examples (words), not individual kanji
  */
 export function getWritingQuestions(
   level: string,
   lessonId: number | null,
-  selectedKanjiIds?: number[],
-  topicId?: string
+  selectedKanjiIds?: number[]
 ): { questions: WritingQuestion[]; allQuestionsForDistractors?: WritingQuestion[] } {
   const allQuestions: WritingQuestion[] = [];
   const selectedQuestions: WritingQuestion[] = [];
 
-  if (topicId) {
-    // Use KanjiDetail approach for topic-based questions
-    const allKanjiDetails = KanjiService.getKanjiDetailsByTopicId(topicId, level);
-
-    // Collect all questions from all kanji in topic
-    allKanjiDetails.forEach((kanjiDetail) => {
-      kanjiDetail.examples.forEach((example) => {
-        allQuestions.push({
-          ...example,
-          kanjiId: kanjiDetail.id,
-        });
-      });
-    });
-
-    // Filter for selected kanji if provided
-    if (selectedKanjiIds && selectedKanjiIds.length > 0) {
-      const selectedKanjiDetails = allKanjiDetails.filter((kanji) =>
-        selectedKanjiIds.includes(kanji.id)
-      );
-
-      selectedKanjiDetails.forEach((kanjiDetail) => {
-        kanjiDetail.examples.forEach((example) => {
-          selectedQuestions.push({
-            ...example,
-            kanjiId: kanjiDetail.id,
-          });
-        });
-      });
-
-      return {
-        questions: shuffleArray(selectedQuestions),
-        allQuestionsForDistractors: allQuestions,
-      };
-    }
-
-    return { questions: shuffleArray(allQuestions) };
-  } else if (lessonId) {
+  if (lessonId) {
     // Use KanjiDetail approach for lesson-based questions
     const allKanjiItems = getKanjiForLesson(level, lessonId);
 

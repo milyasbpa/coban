@@ -29,7 +29,7 @@ import { useTimerPreferenceStore } from "@/pwa/core/stores/timer-preference.stor
 export function WritingExerciseContainer() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { lessonId, topicId, level, selectedKanjiIds } =
+  const { lessonId, level, selectedKanjiIds } =
     useExerciseSearchParams();
 
   // Get timer value from store (not URL params)
@@ -98,7 +98,7 @@ export function WritingExerciseContainer() {
   useEffect(() => {
     resetExerciseProgress();
     loadQuestions();
-  }, [lessonId, topicId, level, selectedKanjiIds]);
+  }, [lessonId, level, selectedKanjiIds]);
 
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
@@ -107,8 +107,8 @@ export function WritingExerciseContainer() {
   }, [questions, currentQuestionIndex, distractorPool, setupCurrentQuestionStore]);
 
   const loadQuestions = () => {
-    if (!lessonId && !topicId) {
-      console.warn("No lessonId or topicId provided");
+    if (!lessonId) {
+      console.warn("No lessonId provided");
       return;
     }
 
@@ -116,12 +116,11 @@ export function WritingExerciseContainer() {
     const result = getWritingQuestions(
       level,
       lessonId ? parseInt(lessonId) : null,
-      selectedKanjiIds,
-      topicId || undefined
+      selectedKanjiIds
     );
 
     if (result.questions.length === 0) {
-      console.warn("No examples found for this lesson/topic");
+      console.warn("No examples found for this lesson");
       return;
     }
 

@@ -12,16 +12,10 @@ export function KanjiList() {
   const setStoreKanjiList = useKanjiSelection(state => state.setKanjiList);
 
   const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
 
   useEffect(() => {
-    if (topicId) {
-      // Handle topic-based lesson
-      const kanji = KanjiService.getKanjiDetailsByTopicId(topicId, level);
-      setKanjiList(kanji);
-      setStoreKanjiList(kanji);
-    } else if (lessonId) {
+    if (lessonId) {
       // Handle stroke-based lesson
       const kanji = KanjiService.getKanjiDetailsByLessonId(
         parseInt(lessonId),
@@ -30,7 +24,7 @@ export function KanjiList() {
       setKanjiList(kanji);
       setStoreKanjiList(kanji);
     }
-  }, [lessonId, topicId, level, setStoreKanjiList]);
+  }, [lessonId, level, setStoreKanjiList]);
 
   return (
     <div className="px-4 pt-6 pb-24 space-y-4">

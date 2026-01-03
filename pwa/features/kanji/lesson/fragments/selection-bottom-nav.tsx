@@ -48,7 +48,6 @@ export function SelectionBottomNav() {
 
   const selectedCount = selectedKanjiIds.size;
   const lessonId = searchParams.get("lessonId");
-  const topicId = searchParams.get("topicId");
   const level = searchParams.get("level") || "N5";
 
   // Bulk selection handlers
@@ -91,20 +90,15 @@ export function SelectionBottomNav() {
   };
 
   const handleExerciseStart = (exerciseType: string) => {
-    if ((!lessonId && !topicId) || selectedKanjiIds.size === 0) return;
+    if (!lessonId || selectedKanjiIds.size === 0) return;
 
     const selectedKanjiArray = Array.from(selectedKanjiIds);
 
     // Build URL with selected kanji parameters
     const selectedKanjiParam = selectedKanjiArray.join(",");
 
-    // Build base URL with either lessonId or topicId
-    let baseUrl = "";
-    if (topicId) {
-      baseUrl = `topicId=${topicId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
-    } else if (lessonId) {
-      baseUrl = `lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
-    }
+    // Build base URL with lessonId
+    const baseUrl = `lessonId=${lessonId}&level=${level}&selectedKanji=${selectedKanjiParam}`;
 
     if (exerciseType === "pairing") {
       window.location.href = `/kanji/exercise/pairing?${baseUrl}`;

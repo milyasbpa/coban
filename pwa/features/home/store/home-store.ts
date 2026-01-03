@@ -6,8 +6,6 @@ import { KanjiDetail } from '@/pwa/core/services/kanji';
 interface KanjiExerciseModal {
   isOpen: boolean;
   lessonId?: number | null;
-  topicId?: string | null;
-  lessonType: "stroke" | "topic";
   lessonName: string | null;
   kanjiList: KanjiDetail[];
 }
@@ -32,8 +30,6 @@ interface HomeState {
   grammarExerciseModal: GrammarExerciseModal | null;
   openKanjiExerciseModal: (params: {
     lessonId?: number;
-    topicId?: string;
-    lessonType: "stroke" | "topic";
     lessonName: string;
     kanjiList: KanjiDetail[];
   }) => void;
@@ -48,8 +44,6 @@ export const useHomeStore = create<HomeState>((set) => ({
   kanjiExerciseModal: {
     isOpen: false,
     lessonId: null,
-    topicId: null,
-    lessonType: "stroke",
     lessonName: null,
     kanjiList: [],
   },
@@ -61,8 +55,6 @@ export const useHomeStore = create<HomeState>((set) => ({
         ...state.kanjiExerciseModal,
         isOpen: true,
         lessonId: params.lessonId || null,
-        topicId: params.topicId || null,
-        lessonType: params.lessonType,
         lessonName: params.lessonName,
         kanjiList: params.kanjiList,
       },
@@ -73,8 +65,6 @@ export const useHomeStore = create<HomeState>((set) => ({
         ...state.kanjiExerciseModal,
         isOpen: false,
         lessonId: null,
-        topicId: null,
-        lessonType: "stroke",
         lessonName: null,
         kanjiList: [],
       },

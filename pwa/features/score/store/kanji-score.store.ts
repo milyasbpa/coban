@@ -52,22 +52,7 @@ interface KanjiScoreState {
   resetKanjiStatistics: (kanjiId: string, level: string) => Promise<void>;
 }
 
-// Helper functions for topic-aware scoring calculations
-const getTotalWordsInTopic = (topicId: string, level: string): number => {
-  const categories = KanjiService.getTopicCategories(level);
-  const category = categories[topicId];
-  if (!category) return 0;
-
-  let totalWords = 0;
-  category.kanji_ids.forEach((kanjiId) => {
-    const kanji = KanjiService.getKanjiById(kanjiId, level);
-    if (kanji?.examples) {
-      totalWords += kanji.examples.length;
-    }
-  });
-  return totalWords;
-};
-
+// Helper functions for scoring calculations
 const getTotalWordsInLesson = (lessonId: number, level: string): number => {
   const kanjiList = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
   let totalWords = 0;
@@ -87,24 +72,15 @@ const getCorrectWordsInScope = (
 ): number => {
   let correctWords = 0;
 
-  // Determine scope - get kanji IDs that belong to this lesson/topic
+  // Determine scope - get kanji IDs that belong to this lesson
   let scopeKanjiIds: string[] = [];
 
-  if (lessonId.startsWith("topic_")) {
-    const topicId = lessonId.replace("topic_", "");
-    const categories = KanjiService.getTopicCategories(level);
-    const category = categories[topicId];
-    if (category) {
-      scopeKanjiIds = category.kanji_ids.map((id) => id.toString());
-    }
-  } else {
-    const numericLessonId = parseInt(lessonId);
-    const kanjiList = KanjiService.getKanjiDetailsByLessonId(
-      numericLessonId,
-      level
-    );
-    scopeKanjiIds = kanjiList.map((kanji) => kanji.id.toString());
-  }
+  const numericLessonId = parseInt(lessonId);
+  const kanjiList = KanjiService.getKanjiDetailsByLessonId(
+    numericLessonId,
+    level
+  );
+  scopeKanjiIds = kanjiList.map((kanji) => kanji.id.toString());
 
   // Count correct words in scope
   scopeKanjiIds.forEach((kanjiId) => {
@@ -117,7 +93,6 @@ const getCorrectWordsInScope = (
             correctWords++;
           }
         } else {
-          // Count for all exercise types (for topic progress)
           const exerciseTypes: ExerciseType[] = [
             "writing",
             "reading",
@@ -205,21 +180,14 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     }
   },
 
-  // Get lesson progress (topic-aware)
+  // Get lesson progress
   getLessonProgress: (lessonId: string, level: string): number => {
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
-    // Calculate total words in scope (topic or lesson)
-    let totalWords = 0;
-
-    if (lessonId.startsWith("topic_")) {
-      const topicId = lessonId.replace("topic_", "");
-      totalWords = getTotalWordsInTopic(topicId, level);
-    } else {
-      const numericLessonId = parseInt(lessonId);
-      totalWords = getTotalWordsInLesson(numericLessonId, level);
-    }
+    // Calculate total words in lesson
+    const numericLessonId = parseInt(lessonId);
+    const totalWords = getTotalWordsInLesson(numericLessonId, level);
 
     if (totalWords === 0) return 0;
 
@@ -237,7 +205,7 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     return score;
   },
 
-  // Get exercise progress (topic-aware)
+  // Get exercise progress
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
     lessonId: string,
@@ -246,15 +214,9 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
-    // Calculate total words in scope (topic or lesson)
-    let totalWords = 0;
-    if (lessonId.startsWith("topic_")) {
-      const topicId = lessonId.replace("topic_", "");
-      totalWords = getTotalWordsInTopic(topicId, level);
-    } else {
-      const numericLessonId = parseInt(lessonId);
-      totalWords = getTotalWordsInLesson(numericLessonId, level);
-    }
+    // Calculate total words in lesson
+    const numericLessonId = parseInt(lessonId);
+    const totalWords = getTotalWordsInLesson(numericLessonId, level);
 
     if (totalWords === 0) return 0;
 

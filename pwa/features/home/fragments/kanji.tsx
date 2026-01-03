@@ -1,6 +1,5 @@
 import * as React from "react";
 import { KanjiListCTA } from "./kanji-list-cta";
-import { KanjiLessonTypeToggle } from "./kanji-lesson-type-toggle";
 import { KanjiLessonsSection } from "./kanji-lessons-section";
 
 export default function Kanji() {
@@ -9,8 +8,7 @@ export default function Kanji() {
       <div className="flex items-center justify-between">
         {/* Kanji List CTA */}
         <KanjiListCTA />
-        {/* Lesson Type Toggle */}
-        <KanjiLessonTypeToggle />
+        {/* Removed lesson type toggle - only stroke lessons now */}
       </div>
 
       {/* Kanji Lessons Section */}

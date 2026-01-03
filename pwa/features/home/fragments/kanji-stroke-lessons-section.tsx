@@ -109,7 +109,6 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
     if (lesson) {
       openKanjiExerciseModal({
         lessonId: lesson.id,
-        lessonType: "stroke",
         lessonName: `Lesson ${lesson.lessonNumber}`,
         kanjiList: lesson.kanji, // Pass full kanji objects
       });
