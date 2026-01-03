@@ -1,40 +1,158 @@
 {
   "id": 62,
-  "character": "注",
+  "character": "事",
   "strokes": 8,
   "readings": {
     "kun": [
       {
-        "furigana": "そそ",
-        "romanji": "soso",
+        "furigana": "こと",
+        "romanji": "koto",
         "examples": [
           {
             "id": 1,
-            "word": "注ぐ",
-            "furigana": "そそぐ",
-            "romanji": "sosogu",
+            "word": "事",
+            "furigana": "こと",
+            "romanji": "koto",
             "meanings": {
-              "id": "menuang",
-              "en": "to pour"
-            }
+              "id": "hal",
+              "en": "thing, matter"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "大切な事を忘れないでください。",
+                "furigana": "たいせつなことをわすれないでください。",
+                "romaji": "taisetsu na koto wo wasurenaide kudasai.",
+                "meanings": {
+                  "id": "Tolong jangan lupa hal yang penting.",
+                  "en": "Please don't forget important things."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ごと",
+        "romanji": "goto",
+        "examples": [
+          {
+            "id": 1,
+            "word": "仕事",
+            "furigana": "しごと",
+            "romanji": "shigoto",
+            "meanings": {
+              "id": "pekerjaan",
+              "en": "work, job"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日9時から仕事を始めます。",
+                "furigana": "まいにち9じからしごとをはじめます。",
+                "romaji": "mainichi kuji kara shigoto wo hajimemasu.",
+                "meanings": {
+                  "id": "Saya mulai bekerja dari pukul 9 setiap hari.",
+                  "en": "I start work from 9 o'clock every day."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "物事",
+            "furigana": "ものごと",
+            "romanji": "monogoto",
+            "meanings": {
+              "id": "kejadian",
+              "en": "things, matters"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "物事を前向きに考えることが大切です。",
+                "furigana": "ものごとをまえむきにかんがえることがたいせつです。",
+                "romaji": "monogoto wo maemuki ni kangaeru koto ga taisetsu desu.",
+                "meanings": {
+                  "id": "Penting untuk berpikir positif tentang segala hal.",
+                  "en": "It's important to think about things positively."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "チュウ",
-        "romanji": "chuu",
+        "furigana": "ジ",
+        "romanji": "ji",
         "examples": [
           {
-            "id": 2,
-            "word": "注意",
-            "furigana": "ちゅうい",
-            "romanji": "chuui",
+            "id": 1,
+            "word": "事故",
+            "furigana": "じこ",
+            "romanji": "jiko",
             "meanings": {
-              "id": "perhatian",
-              "en": "attention"
-            }
+              "id": "kecelakaan",
+              "en": "accident"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "交通事故に気をつけてください。",
+                "furigana": "こうつうじこにきをつけてください。",
+                "romaji": "koutsuu jiko ni ki wo tsukete kudasai.",
+                "meanings": {
+                  "id": "Tolong hati-hati dengan kecelakaan lalu lintas.",
+                  "en": "Please be careful of traffic accidents."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "事件",
+            "furigana": "じけん",
+            "romanji": "jiken",
+            "meanings": {
+              "id": "perkara, kejadian",
+              "en": "incident, case"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昨日、町で大きな事件がありました。",
+                "furigana": "きのう、まちでおおきなじけんがありました。",
+                "romaji": "kinou, machi de ookina jiken ga arimashita.",
+                "meanings": {
+                  "id": "Kemarin ada kejadian besar di kota.",
+                  "en": "There was a big incident in town yesterday."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "用事",
+            "furigana": "ようじ",
+            "romanji": "youji",
+            "meanings": {
+              "id": "urusan",
+              "en": "errand, business"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は用事があるので早く帰ります。",
+                "furigana": "きょうはようじがあるのではやくかえります。",
+                "romaji": "kyou wa youji ga aru node hayaku kaerimasu.",
+                "meanings": {
+                  "id": "Hari ini saya pulang lebih awal karena ada urusan.",
+                  "en": "I will go home early today because I have an errand."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +160,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "menuang",
-    "en": "pour, attention"
+    "id": "hal",
+    "en": "matter, thing"
   }
 }
