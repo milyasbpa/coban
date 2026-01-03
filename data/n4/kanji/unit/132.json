@@ -1,69 +1,35 @@
 {
   "id": 132,
-  "character": "鉄",
-  "strokes": 13,
+  "character": "題",
+  "strokes": 18,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "テツ",
-        "romanji": "tetsu",
+        "furigana": "ダイ",
+        "romanji": "dai",
         "examples": [
           {
             "id": 1,
-            "word": "地下鉄",
-            "furigana": "ちかてつ",
-            "romanji": "chikatetsu",
+            "word": "問題",
+            "furigana": "もんだい",
+            "romanji": "mondai",
             "meanings": {
-              "id": "kereta bawah tanah",
-              "en": "subway"
-            }
-          },
-          {
-            "id": 2,
-            "word": "鉄道",
-            "furigana": "てつどう",
-            "romanji": "tetsudou",
-            "meanings": {
-              "id": "rel kereta",
-              "en": "railway"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "テッ",
-        "romanji": "tet",
-        "examples": [
-          {
-            "id": 1,
-            "word": "地下鉄",
-            "furigana": "ちかてつ",
-            "romanji": "chikatetsu",
-            "meanings": {
-              "id": "kereta bawah tanah",
-              "en": "subway"
-            }
-          },
-          {
-            "id": 2,
-            "word": "鉄道",
-            "furigana": "てつどう",
-            "romanji": "tetsudou",
-            "meanings": {
-              "id": "rel kereta",
-              "en": "railway"
-            }
-          },
-          {
-            "id": 3,
-            "word": "鉄板",
-            "furigana": "てっぱん",
-            "romanji": "teppan",
-            "meanings": {
-              "id": "plat besi",
-              "en": "iron plate"
-            }
+              "id": "soal, masalah",
+              "en": "question, problem"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この問題は難しいです。",
+                "furigana": "このもんだいはむずかしいです。",
+                "romaji": "kono mondai wa muzukashii desu.",
+                "meanings": {
+                  "id": "Soal ini sulit.",
+                  "en": "This question is difficult."
+                }
+              }
+            ]
           }
         ]
       }
@@ -71,7 +37,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "kereta bawah tanah",
-    "en": "iron, steel"
+    "id": "soal, topik",
+    "en": "topic, subject"
   }
 }
