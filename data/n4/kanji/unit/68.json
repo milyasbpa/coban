@@ -1,66 +1,150 @@
 {
   "id": 68,
-  "character": "事",
-  "strokes": 8,
+  "character": "音",
+  "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "こと",
-        "romanji": "koto",
+        "furigana": "おと",
+        "romanji": "oto",
         "examples": [
           {
             "id": 1,
-            "word": "事",
-            "furigana": "こと",
-            "romanji": "koto",
+            "word": "音",
+            "furigana": "おと",
+            "romanji": "oto",
             "meanings": {
-              "id": "hal",
-              "en": "thing"
-            }
+              "id": "bunyi",
+              "en": "sound"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "外から変な音が聞こえました。",
+                "furigana": "そとからへんなおとがきこえました。",
+                "romaji": "soto kara hen na oto ga kikoemashita.",
+                "meanings": {
+                  "id": "Saya mendengar bunyi aneh dari luar.",
+                  "en": "I heard a strange sound from outside."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ごと",
-        "romanji": "goto",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ジ",
-        "romanji": "ji",
+        "furigana": "ね",
+        "romanji": "ne",
         "examples": [
           {
-            "id": 3,
-            "word": "事故",
-            "furigana": "じこ",
-            "romanji": "jiko",
+            "id": 1,
+            "word": "音色",
+            "furigana": "ねいろ",
+            "romanji": "neiro",
             "meanings": {
-              "id": "kecelakaan",
-              "en": "accident"
-            }
+              "id": "nada",
+              "en": "tone, timbre"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "このピアノは音色がきれいです。",
+                "furigana": "このピアノはねいろがきれいです。",
+                "romaji": "kono piano wa neiro ga kirei desu.",
+                "meanings": {
+                  "id": "Piano ini nadanya indah.",
+                  "en": "This piano has a beautiful tone."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "仕事",
-          "furigana": "しごと",
-          "romanji": "shigoto",
-          "meanings": {
-            "id": "pekerjaan",
-            "en": "work"
+    "on": [
+      {
+        "furigana": "オン",
+        "romanji": "on",
+        "examples": [
+          {
+            "id": 1,
+            "word": "音楽",
+            "furigana": "おんがく",
+            "romanji": "ongaku",
+            "meanings": {
+              "id": "musik",
+              "en": "music"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日音楽を聞いています。",
+                "furigana": "まいにちおんがくをきいています。",
+                "romaji": "mainichi ongaku wo kiite imasu.",
+                "meanings": {
+                  "id": "Saya mendengarkan musik setiap hari.",
+                  "en": "I listen to music every day."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "発音",
+            "furigana": "はつおん",
+            "romanji": "hatsuon",
+            "meanings": {
+              "id": "lafal",
+              "en": "pronunciation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本語の発音を練習しています。",
+                "furigana": "にほんごのはつおんをれんしゅうしています。",
+                "romaji": "nihongo no hatsuon wo renshuu shite imasu.",
+                "meanings": {
+                  "id": "Saya sedang berlatih pelafalan bahasa Jepang.",
+                  "en": "I am practicing Japanese pronunciation."
+                }
+              }
+            ]
           }
-        }
-      ]
-    }
+        ]
+      },
+      {
+        "furigana": "イン",
+        "romanji": "in",
+        "examples": [
+          {
+            "id": 1,
+            "word": "福音",
+            "furigana": "ふくいん",
+            "romanji": "fukuin",
+            "meanings": {
+              "id": "kabar gembira (Kristen)",
+              "en": "gospel, good news"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "教会で福音を聞きました。",
+                "furigana": "きょうかいでふくいんをききました。",
+                "romaji": "kyoukai de fukuin wo kikimashita.",
+                "meanings": {
+                  "id": "Saya mendengar kabar gembira di gereja.",
+                  "en": "I heard the gospel at church."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "exception": null
   },
   "meanings": {
-    "id": "hal",
-    "en": "matter, thing"
+    "id": "bunyi",
+    "en": "sound"
   }
 }
