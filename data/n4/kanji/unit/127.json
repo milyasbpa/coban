@@ -1,60 +1,87 @@
 {
   "id": 127,
-  "character": "飯",
-  "strokes": 12,
+  "character": "質",
+  "strokes": 15,
   "readings": {
-    "kun": [
-      {
-        "furigana": "めし",
-        "romanji": "meshi",
-        "examples": []
-      }
-    ],
+    "kun": [],
     "on": [
       {
-        "furigana": "ハン",
-        "romanji": "han",
+        "furigana": "シツ",
+        "romanji": "shitsu",
         "examples": [
           {
-            "id": 2,
-            "word": "ご飯",
-            "furigana": "ごはん",
-            "romanji": "gohan",
+            "id": 1,
+            "word": "質",
+            "furigana": "しつ",
+            "romanji": "shitsu",
             "meanings": {
-              "id": "nasi",
-              "en": "rice"
-            }
+              "id": "mutu",
+              "en": "quality"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この製品は質がいいです。",
+                "furigana": "このせいひんはしつがいいです。",
+                "romaji": "kono seihin wa shitsu ga ii desu.",
+                "meanings": {
+                  "id": "Produk ini berkualitas bagus.",
+                  "en": "This product has good quality."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "質問",
+            "furigana": "しつもん",
+            "romanji": "shitsumon",
+            "meanings": {
+              "id": "pertanyaan",
+              "en": "question"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "質問がありますか。",
+                "furigana": "しつもんがありますか。",
+                "romaji": "shitsumon ga arimasu ka.",
+                "meanings": {
+                  "id": "Apakah ada pertanyaan?",
+                  "en": "Do you have any questions?"
+                }
+              }
+            ]
           },
           {
             "id": 3,
-            "word": "夕飯",
-            "furigana": "ゆうはん",
-            "romanji": "yuuhan",
+            "word": "性質",
+            "furigana": "せいしつ",
+            "romanji": "seishitsu",
             "meanings": {
-              "id": "makan malam",
-              "en": "dinner"
-            }
+              "id": "karakter, sifat",
+              "en": "nature, character"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は優しい性質です。",
+                "furigana": "かれはやさしいせいしつです。",
+                "romaji": "kare wa yasashii seishitsu desu.",
+                "meanings": {
+                  "id": "Dia bersifat baik hati.",
+                  "en": "He has a kind nature."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 1,
-          "word": "焼き飯",
-          "furigana": "やきめし",
-          "romanji": "yakimeshi",
-          "meanings": {
-            "id": "nasi goreng",
-            "en": "fried rice"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "nasi goreng",
-    "en": "rice, meal"
+    "id": "mutu, kualitas",
+    "en": "quality, nature"
   }
 }
