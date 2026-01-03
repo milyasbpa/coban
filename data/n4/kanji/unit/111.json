@@ -1,70 +1,108 @@
 {
   "id": 111,
-  "character": "動",
+  "character": "菜",
   "strokes": 11,
   "readings": {
     "kun": [
       {
-        "furigana": "うご",
-        "romanji": "ugo",
+        "furigana": "な",
+        "romanji": "na",
         "examples": [
           {
             "id": 1,
-            "word": "動く",
-            "furigana": "うごく",
-            "romanji": "ugoku",
+            "word": "菜",
+            "furigana": "な",
+            "romanji": "na",
             "meanings": {
-              "id": "bergerak",
-              "en": "to move"
-            }
+              "id": "sayur-sayuran",
+              "en": "vegetable, greens"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は菜を買いに行きました。",
+                "furigana": "きょうはなをかいにいきました。",
+                "romaji": "kyou wa na wo kai ni ikimashita.",
+                "meanings": {
+                  "id": "Hari ini saya pergi membeli sayuran.",
+                  "en": "I went to buy vegetables today."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "動き",
-            "furigana": "うごき",
-            "romanji": "ugoki",
+            "word": "菜の花",
+            "furigana": "なのはな",
+            "romanji": "nanohana",
             "meanings": {
-              "id": "gerakan",
-              "en": "movement"
-            }
-          },
-          {
-            "id": 3,
-            "word": "動かす",
-            "furigana": "うごかす",
-            "romanji": "ugokasu",
-            "meanings": {
-              "id": "menggerakkan",
-              "en": "to move something"
-            }
+              "id": "bunga lobak",
+              "en": "rapeseed flower"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "春になると菜の花が咲きます。",
+                "furigana": "はるになるとなのはながさきます。",
+                "romaji": "haru ni naru to nanohana ga sakimasu.",
+                "meanings": {
+                  "id": "Ketika musim semi tiba, bunga lobak bermekaran.",
+                  "en": "When spring comes, rapeseed flowers bloom."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ドウ",
-        "romanji": "dou",
+        "furigana": "サイ",
+        "romanji": "sai",
         "examples": [
           {
-            "id": 4,
-            "word": "動物",
-            "furigana": "どうぶつ",
-            "romanji": "doubutsu",
+            "id": 1,
+            "word": "菜食主義",
+            "furigana": "さいしょくしゅぎ",
+            "romanji": "saishokushugi",
             "meanings": {
-              "id": "binatang",
-              "en": "animal"
-            }
+              "id": "vegetarian",
+              "en": "vegetarianism"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼女は菜食主義者です。",
+                "furigana": "かのじょはさいしょくしゅぎしゃです。",
+                "romaji": "kanojo wa saishokushugisha desu.",
+                "meanings": {
+                  "id": "Dia adalah seorang vegetarian.",
+                  "en": "She is a vegetarian."
+                }
+              }
+            ]
           },
           {
-            "id": 5,
-            "word": "運動",
-            "furigana": "うんどう",
-            "romanji": "undou",
+            "id": 2,
+            "word": "野菜",
+            "furigana": "やさい",
+            "romanji": "yasai",
             "meanings": {
-              "id": "olahraga",
-              "en": "exercise"
-            }
+              "id": "sayur-mayur",
+              "en": "vegetables"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日野菜を食べています。",
+                "furigana": "まいにちやさいをたべています。",
+                "romaji": "mainichi yasai wo tabete imasu.",
+                "meanings": {
+                  "id": "Saya makan sayur-mayur setiap hari.",
+                  "en": "I eat vegetables every day."
+                }
+              }
+            ]
           }
         ]
       }
@@ -72,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "bergerak",
-    "en": "move, motion"
+    "id": "sayur-sayuran",
+    "en": "vegetable, greens"
   }
 }
