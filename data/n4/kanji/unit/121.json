@@ -1,76 +1,79 @@
 {
   "id": 121,
-  "character": "悪",
-  "strokes": 11,
+  "character": "意",
+  "strokes": 13,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "わる",
-        "romanji": "waru",
+        "furigana": "イ",
+        "romanji": "i",
         "examples": [
           {
             "id": 1,
-            "word": "悪い",
-            "furigana": "わるい",
-            "romanji": "warui",
+            "word": "意味",
+            "furigana": "いみ",
+            "romanji": "imi",
             "meanings": {
-              "id": "buruk, jelek",
-              "en": "bad"
-            }
+              "id": "arti",
+              "en": "meaning"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この言葉の意味が分かりません。",
+                "furigana": "このことばのいみがわかりません。",
+                "romaji": "kono kotoba no imi ga wakarimasen.",
+                "meanings": {
+                  "id": "Saya tidak mengerti arti kata ini.",
+                  "en": "I don't understand the meaning of this word."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "悪気",
-            "furigana": "わるぎ",
-            "romanji": "warugi",
+            "word": "意見",
+            "furigana": "いけん",
+            "romanji": "iken",
             "meanings": {
-              "id": "maksud jahat",
-              "en": "ill will"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "アク",
-        "romanji": "aku",
-        "examples": [
-          {
-            "id": 3,
-            "word": "悪夢",
-            "furigana": "あくむ",
-            "romanji": "akumu",
-            "meanings": {
-              "id": "mimpi buruk",
-              "en": "nightmare"
-            }
+              "id": "pendapat",
+              "en": "opinion"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "あなたの意見を聞かせてください。",
+                "furigana": "あなたのいけんをきかせてください。",
+                "romaji": "anata no iken wo kikasete kudasai.",
+                "meanings": {
+                  "id": "Tolong sampaikan pendapat Anda.",
+                  "en": "Please let me hear your opinion."
+                }
+              }
+            ]
           },
           {
-            "id": 4,
-            "word": "悪楽",
-            "furigana": "おらく",
-            "romanji": "oraku",
+            "id": 3,
+            "word": "注意",
+            "furigana": "ちゅうい",
+            "romanji": "chuui",
             "meanings": {
-              "id": "kedinginan",
-              "en": "cold"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "オ",
-        "romanji": "o",
-        "examples": [
-          {
-            "id": 4,
-            "word": "悪楽",
-            "furigana": "おらく",
-            "romanji": "oraku",
-            "meanings": {
-              "id": "kedinginan",
-              "en": "cold"
-            }
+              "id": "perhatian",
+              "en": "attention, caution"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "車に注意してください。",
+                "furigana": "くるまにちゅういしてください。",
+                "romaji": "kuruma ni chuui shite kudasai.",
+                "meanings": {
+                  "id": "Tolong hati-hati dengan mobil.",
+                  "en": "Please be careful of cars."
+                }
+              }
+            ]
           }
         ]
       }
@@ -78,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "buruk, jelek",
-    "en": "bad, evil"
+    "id": "arti, pendapat",
+    "en": "meaning, intention"
   }
 }
