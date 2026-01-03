@@ -1,66 +1,130 @@
 {
   "id": 81,
-  "character": "映",
+  "character": "品",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "うつ",
-        "romanji": "utsu",
+        "furigana": "しな",
+        "romanji": "shina",
         "examples": [
           {
             "id": 1,
-            "word": "映る",
-            "furigana": "うつる",
-            "romanji": "utsuru",
+            "word": "品物",
+            "furigana": "しなもの",
+            "romanji": "shinamono",
             "meanings": {
-              "id": "terpantul",
-              "en": "to be reflected"
-            }
+              "id": "barang-barang",
+              "en": "goods, articles"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この店には品物がたくさんあります。",
+                "furigana": "このみせにはしなものがたくさんあります。",
+                "romaji": "kono mise niwa shinamono ga takusan arimasu.",
+                "meanings": {
+                  "id": "Di toko ini ada banyak barang.",
+                  "en": "There are many goods in this store."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "映す",
-            "furigana": "うつす",
-            "romanji": "utsusu",
+            "word": "品々",
+            "furigana": "しなじな",
+            "romanji": "shinajina",
             "meanings": {
-              "id": "memantulkan",
-              "en": "to reflect"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "は",
-        "romanji": "ha",
-        "examples": [
-          {
-            "id": 3,
-            "word": "映える",
-            "furigana": "はえる",
-            "romanji": "haeru",
-            "meanings": {
-              "id": "bercahaya, cemerlang",
-              "en": "to shine, stand out"
-            }
+              "id": "berjenis-jenis barang",
+              "en": "various goods"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "スーパーには品々が並んでいます。",
+                "furigana": "スーパーにはしなじながならんでいます。",
+                "romaji": "suupaa niwa shinajina ga narandeimasu.",
+                "meanings": {
+                  "id": "Di supermarket berbagai barang tertata.",
+                  "en": "Various goods are lined up in the supermarket."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "エイ",
-        "romanji": "ei",
+        "furigana": "ヒン",
+        "romanji": "hin",
         "examples": [
           {
-            "id": 4,
-            "word": "映画",
-            "furigana": "えいが",
-            "romanji": "eiga",
+            "id": 3,
+            "word": "商品",
+            "furigana": "しょうひん",
+            "romanji": "shouhin",
             "meanings": {
-              "id": "film",
-              "en": "movie"
-            }
+              "id": "barang dagangan",
+              "en": "product, merchandise"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この商品は人気があります。",
+                "furigana": "このしょうひんはにんきがあります。",
+                "romaji": "kono shouhin wa ninki ga arimasu.",
+                "meanings": {
+                  "id": "Produk ini populer.",
+                  "en": "This product is popular."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "上品",
+            "furigana": "じょうひん",
+            "romanji": "jouhin",
+            "meanings": {
+              "id": "terhormat, bermutu",
+              "en": "elegant, refined"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼女は上品な人です。",
+                "furigana": "かのじょはじょうひんなひとです。",
+                "romaji": "kanojo wa jouhin na hito desu.",
+                "meanings": {
+                  "id": "Dia adalah orang yang terhormat.",
+                  "en": "She is an elegant person."
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "word": "品質",
+            "furigana": "ひんしつ",
+            "romanji": "hinshitsu",
+            "meanings": {
+              "id": "mutu",
+              "en": "quality"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この製品は品質がいいです。",
+                "furigana": "このせいひんはひんしつがいいです。",
+                "romaji": "kono seihin wa hinshitsu ga ii desu.",
+                "meanings": {
+                  "id": "Produk ini mutunya bagus.",
+                  "en": "This product has good quality."
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "terpantul",
-    "en": "reflect, project"
+    "id": "barang, kualitas",
+    "en": "goods, quality"
   }
 }
