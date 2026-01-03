@@ -1,60 +1,120 @@
 {
   "id": 125,
-  "character": "貸",
-  "strokes": 12,
+  "character": "説",
+  "strokes": 14,
   "readings": {
     "kun": [
       {
-        "furigana": "か",
-        "romanji": "ka",
+        "furigana": "と",
+        "romanji": "to",
         "examples": [
           {
             "id": 1,
-            "word": "貸す",
-            "furigana": "かす",
-            "romanji": "kasu",
+            "word": "説く",
+            "furigana": "とく",
+            "romanji": "toku",
             "meanings": {
-              "id": "meminjamkan",
-              "en": "to lend"
-            }
-          },
-          {
-            "id": 2,
-            "word": "貸し出す",
-            "furigana": "かしだす",
-            "romanji": "kashidasu",
-            "meanings": {
-              "id": "kasih pinjam",
-              "en": "to lend out"
-            }
-          },
-          {
-            "id": 4,
-            "word": "貸家",
-            "furigana": "かしや",
-            "romanji": "kashiya",
-            "meanings": {
-              "id": "sewa, carter",
-              "en": "rental house"
-            }
+              "id": "menjelaskan",
+              "en": "to explain, to preach"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生が詳しく説いてくれました。",
+                "furigana": "せんせいがくわしくといてくれました。",
+                "romaji": "sensei ga kuwashiku toite kuremashita.",
+                "meanings": {
+                  "id": "Guru menjelaskan dengan detail.",
+                  "en": "The teacher explained in detail."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "タイ",
-        "romanji": "tai",
+        "furigana": "セツ",
+        "romanji": "setsu",
         "examples": [
           {
-            "id": 3,
-            "word": "賃貸",
-            "furigana": "ちんたい",
-            "romanji": "chintai",
+            "id": 1,
+            "word": "説明",
+            "furigana": "せつめい",
+            "romanji": "setsumei",
             "meanings": {
-              "id": "pinjaman",
-              "en": "rental"
-            }
+              "id": "penjelasan",
+              "en": "explanation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "もう一度説明してください。",
+                "furigana": "もういちどせつめいしてください。",
+                "romaji": "mou ichido setsumei shite kudasai.",
+                "meanings": {
+                  "id": "Tolong jelaskan sekali lagi.",
+                  "en": "Please explain once more."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ゼツ",
+        "romanji": "zetsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "演説",
+            "furigana": "えんぜつ",
+            "romanji": "enzetsu",
+            "meanings": {
+              "id": "pidato",
+              "en": "speech"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "首相が演説をしました。",
+                "furigana": "しゅしょうがえんぜつをしました。",
+                "romaji": "shushou ga enzetsu wo shimashita.",
+                "meanings": {
+                  "id": "Perdana menteri berpidato.",
+                  "en": "The prime minister gave a speech."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "セッ",
+        "romanji": "se",
+        "examples": [
+          {
+            "id": 1,
+            "word": "説教",
+            "furigana": "せっきょう",
+            "romanji": "sekkyou",
+            "meanings": {
+              "id": "khotbah, wejangan, ceramah agama",
+              "en": "sermon, lecture"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父に説教されました。",
+                "furigana": "ちちにせっきょうされました。",
+                "romaji": "chichi ni sekkyou saremashita.",
+                "meanings": {
+                  "id": "Saya dinasehati oleh ayah.",
+                  "en": "I was lectured by my father."
+                }
+              }
+            ]
           }
         ]
       }
@@ -62,7 +122,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "meminjamkan",
-    "en": "lend"
+    "id": "penjelasan",
+    "en": "explain, theory"
   }
 }
