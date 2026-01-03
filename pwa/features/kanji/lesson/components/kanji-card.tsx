@@ -3,7 +3,7 @@
 import { Badge } from "@/pwa/core/components/badge";
 import { Button } from "@/pwa/core/components/button";
 import { Card } from "@/pwa/core/components/card";
-import { Volume2, MoreVertical, RotateCcw, Edit3, Book, Users } from "lucide-react";
+import { Volume2, MoreVertical, RotateCcw, Edit3, Book, Users, ChevronDown, ChevronUp } from "lucide-react";
 import { KanjiDetail } from "../utils/kanji";
 import { useLanguage } from "@/pwa/core/lib/hooks/use-language";
 import { useKanjiSelection } from "../store/kanji-selection.store";
@@ -54,6 +54,7 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
   const isSelected = selectedKanjiIds.has(kanji.id);
   const [isAnimating, setIsAnimating] = useState(false);
   const [showResetDialog, setShowResetDialog] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true);
 
   // Get kanji mastery level
   const kanjiAccuracy = getKanjiAccuracy(kanji.id.toString(), level);
@@ -210,215 +211,427 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
                 {kanjiMeaning}
               </div>
             )}
+          </div>
+        </div>
 
-            {/* Mastery Badge and Exercise Status Icons */}
-            <div className="flex items-center gap-1 mt-0.5">
-              {/* Mastery Badge */}
-              {showMastery && (
-                <span
-                  className={cn(
-                    "inline-flex items-center text-[10px] font-bold px-1.5 py-0.5 rounded transition-colors",
-                    masteryConfig.colorClasses.bg,
-                    masteryConfig.colorClasses.text
-                  )}
-                >
-                  {formatAccuracy(accuracy)}
-                </span>
+        {/* Mastery Badge and Exercise Status Icons */}
+        <div className="flex items-center gap-1 ml-auto">
+          {/* Mastery Badge */}
+          {showMastery && (
+            <span
+              className={cn(
+                "inline-flex items-center text-[10px] font-bold px-1.5 py-0.5 rounded transition-colors",
+                masteryConfig.colorClasses.bg,
+                masteryConfig.colorClasses.text
               )}
+            >
+              {formatAccuracy(accuracy)}
+            </span>
+          )}
 
-              {/* Exercise Status Icons */}
-              <div className="flex items-center gap-0.5">
-                {/* Writing */}
-                <div
-                  className={cn(
-                    "w-5 h-5 rounded flex items-center justify-center transition-colors",
-                    exerciseStatus.writing
-                      ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
-                      : "bg-muted text-muted-foreground"
-                  )}
-                  title="Writing Exercise"
-                >
-                  <Edit3 className="h-2.5 w-2.5" />
-                </div>
+          {/* Exercise Status Icons */}
+          <div className="flex items-center gap-0.5">
+            {/* Writing */}
+            <div
+              className={cn(
+                "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                exerciseStatus.writing
+                  ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
+                  : "bg-muted text-muted-foreground"
+              )}
+              title="Writing Exercise"
+            >
+              <Edit3 className="h-2.5 w-2.5" />
+            </div>
 
-                {/* Reading */}
-                <div
-                  className={cn(
-                    "w-5 h-5 rounded flex items-center justify-center transition-colors",
-                    exerciseStatus.reading
-                      ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
-                      : "bg-muted text-muted-foreground"
-                  )}
-                  title="Reading Exercise"
-                >
-                  <Book className="h-2.5 w-2.5" />
-                </div>
+            {/* Reading */}
+            <div
+              className={cn(
+                "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                exerciseStatus.reading
+                  ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
+                  : "bg-muted text-muted-foreground"
+              )}
+              title="Reading Exercise"
+            >
+              <Book className="h-2.5 w-2.5" />
+            </div>
 
-                {/* Pairing */}
-                <div
-                  className={cn(
-                    "w-5 h-5 rounded flex items-center justify-center transition-colors",
-                    exerciseStatus.pairing
-                      ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
-                      : "bg-muted text-muted-foreground"
-                  )}
-                  title="Pairing Exercise"
-                >
-                  <Users className="h-2.5 w-2.5" />
-                </div>
-              </div>
+            {/* Pairing */}
+            <div
+              className={cn(
+                "w-5 h-5 rounded flex items-center justify-center transition-colors",
+                exerciseStatus.pairing
+                  ? "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400"
+                  : "bg-muted text-muted-foreground"
+              )}
+              title="Pairing Exercise"
+            >
+              <Users className="h-2.5 w-2.5" />
             </div>
           </div>
         </div>
 
-        {/* Right side - Readings */}
-        <div className="flex-1 space-y-2">
-          {/* KUN reading */}
-          {!!kanji.readings.kun.length && (
-            <div className="flex items-start gap-2">
-              <Badge
-                variant="secondary"
-                className={cn(
-                  "text-xs font-semibold px-2 py-0.5 transition-colors",
-                  isSelected
-                    ? "bg-primary/80 text-primary-foreground"
-                    : "bg-primary text-primary-foreground"
-                )}
-              >
-                KUN
-              </Badge>
-              <span className="text-sm font-medium text-foreground">
-                {kanji.readings.kun
-                  .map((reading) => `${reading.furigana} (${reading.romanji})`)
-                  .join("、")}
-              </span>
-            </div>
-          )}
-
-          {/* ON reading */}
-          {!!kanji.readings.on.length && (
-            <div className="flex items-start gap-2">
-              <Badge
-                variant="secondary"
-                className={cn(
-                  "text-xs font-semibold px-2 py-0.5 transition-colors",
-                  isSelected
-                    ? "bg-secondary/80 text-secondary-foreground border-primary/20"
-                    : "bg-secondary text-secondary-foreground"
-                )}
-              >
-                ON
-              </Badge>
-              <span className="text-sm font-medium text-foreground">
-                {kanji.readings.on
-                  .map((reading) => `${reading.furigana} (${reading.romanji})`)
-                  .join("、")}
-              </span>
-            </div>
-          )}
-        </div>
-
-        {/* 3-Dot Menu - Only show when not in selection mode */}
+        {/* 3-Dot Menu and Accordion Toggle - Only show when not in selection mode */}
         {!isSelectionMode && (
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <button
-                onClick={(e) => e.stopPropagation()}
-                className="w-8 h-8 rounded-lg bg-muted hover:bg-accent flex items-center justify-center transition-all duration-200"
-              >
-                <MoreVertical className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
-              </button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="start">
-              <DropdownMenuItem
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setShowResetDialog(true);
-                }}
-                className="text-destructive focus:text-destructive"
-              >
-                <RotateCcw className="h-4 w-4 mr-2" />
-                Reset Statistics
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+          <div className="flex items-center gap-2">
+            {/* 3-Dot Menu */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  onClick={(e) => e.stopPropagation()}
+                  className="w-8 h-8 rounded-lg bg-muted hover:bg-accent flex items-center justify-center transition-all duration-200"
+                >
+                  <MoreVertical className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start">
+                <DropdownMenuItem
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setShowResetDialog(true);
+                  }}
+                  className="text-destructive focus:text-destructive"
+                >
+                  <RotateCcw className="h-4 w-4 mr-2" />
+                  Reset Statistics
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+            
+            {/* Accordion Toggle Button */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsExpanded(!isExpanded);
+              }}
+              className="w-8 h-8 rounded-lg bg-muted hover:bg-accent flex items-center justify-center transition-all duration-200"
+            >
+              {isExpanded ? (
+                <ChevronUp className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+              ) : (
+                <ChevronDown className="h-4 w-4 text-muted-foreground hover:text-foreground transition-colors" />
+              )}
+            </button>
+          </div>
         )}
       </div>
 
-      {/* Words Section Badge */}
-      <div className="flex items-center gap-2 pt-2">
-        <Badge
-          variant="secondary"
-          className={cn(
-            "text-xs font-semibold px-2 py-0.5 transition-colors",
-            isSelected
-              ? "bg-primary/80 text-primary-foreground"
-              : "bg-primary text-primary-foreground"
-          )}
-        >
-          {getLocalizedText(language as SupportedLanguage, "Kata", "Words")}
-        </Badge>
-        <div className="flex-1 h-px bg-border/20"></div>
-      </div>
-
-      {/* Example words */}
-      <div className="space-y-1.5 pt-1">
-        {[
-          ...(kanji.readings.kun.flatMap(r => r.examples || [])),
-          ...(kanji.readings.on.flatMap(r => r.examples || [])),
-          ...(kanji.readings.exception?.examples || [])
-        ].map((example, idx) => (
-          <div
-            key={idx}
-            className="grid grid-cols-[1fr_auto] gap-2 items-center text-sm"
-          >
-            {/* Word content with fixed layout */}
-            <div className="grid grid-cols-[auto_1fr] gap-2 items-baseline min-w-0">
-              {/* Left side - Word and readings */}
-              <div className="flex items-baseline gap-1 shrink-0">
-                {displayOptions.japanese && (
-                  <span className="font-semibold text-foreground">
-                    {highlightMatchingKanji(example.word, kanji.character)}
-                  </span>
-                )}
-                {displayOptions.furigana && (
-                  <span className="text-muted-foreground text-xs">
-                    【{example.furigana}】
-                  </span>
-                )}
-                {displayOptions.romanji && (
-                  <span className="text-muted-foreground">
-                    ({example.romanji})
-                  </span>
-                )}
+      {/* Example words grouped by reading - Collapsible */}
+      {isExpanded && (
+        <div className="space-y-3 pt-3">
+        {/* KUN Readings */}
+        {kanji.readings.kun.map((reading, readingIdx) => {
+          // Only show if has examples
+          if (!reading.examples || reading.examples.length === 0) return null;
+          
+          return (
+            <div key={`kun-${readingIdx}`} className="space-y-2">
+              {/* Reading Group Header */}
+              <div className="flex items-center gap-2 px-2 py-1.5 bg-purple-50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-800/30 rounded-lg">
+                <Badge 
+                  variant="secondary"
+                  className={cn(
+                    "text-xs font-semibold px-2 py-0.5 rounded transition-colors",
+                    isSelected
+                      ? "bg-purple-600 dark:bg-purple-700 text-white"
+                      : "bg-purple-600 dark:bg-purple-700 text-white"
+                  )}
+                >
+                  KUN
+                </Badge>
+                <span className="text-sm font-medium text-foreground">
+                  {reading.furigana} ({reading.romanji})
+                </span>
               </div>
 
-              {/* Right side - Colon and meaning with consistent alignment */}
-              {displayOptions.meaning && (
-                <div className="flex items-baseline gap-2 min-w-0">
-                  <span className="text-muted-foreground shrink-0">:</span>
-                  <span className="text-muted-foreground truncate">
-                    {getMeaning(example, language as SupportedLanguage)}
-                  </span>
-                </div>
-              )}
+              {/* Examples for this reading */}
+              <div className="space-y-2 pl-3">
+                {reading.examples.map((example, exampleIdx) => (
+                  <div key={`kun-${readingIdx}-ex-${exampleIdx}`} className="space-y-1">
+                    {/* Word */}
+                    <div className="grid grid-cols-[1fr_auto] gap-2 items-start text-sm">
+                      <div className="flex flex-col gap-1 min-w-0">
+                        <div className="flex items-baseline gap-1 flex-wrap">
+                          {displayOptions.japanese && (
+                            <span className="font-semibold text-foreground">
+                              {highlightMatchingKanji(example.word, kanji.character)}
+                            </span>
+                          )}
+                          {displayOptions.furigana && (
+                            <span className="text-muted-foreground text-xs">
+                              【{example.furigana}】
+                            </span>
+                          )}
+                          {displayOptions.romanji && (
+                            <span className="text-muted-foreground">
+                              ({example.romanji})
+                            </span>
+                          )}
+                        </div>
+                        {displayOptions.meaning && (
+                          <div className="flex items-baseline gap-1 min-w-0">
+                            <span className="text-muted-foreground font-semibold shrink-0">{language === 'id' ? 'arti' : 'meanings'}:</span>
+                            <span className="text-muted-foreground wrap-break-word">
+                              {getMeaning(example, language as SupportedLanguage)}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          playAudio(example.furigana);
+                        }}
+                        className="w-6 h-6 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
+                      >
+                        <Volume2 className="h-3 w-3 text-muted-foreground" />
+                      </Button>
+                    </div>
+
+                    {/* Sentences */}
+                    {example.sentences && example.sentences.length > 0 && (
+                      <div className="pl-4 space-y-1">
+                        {example.sentences.map((sentence, sentenceIdx) => (
+                          <div key={`kun-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-0.5">
+                            <div className="flex items-start gap-2 text-xs">
+                              <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
+                              <div className="flex-1 text-muted-foreground">
+                                <div className="font-medium">{sentence.sentence}</div>
+                                <div className="text-[11px] italic">
+                                  {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
+                                </div>
+                              </div>
+                              <Button
+                                variant="ghost"
+                                size="sm"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  playAudio(sentence.furigana);
+                                }}
+                                className="w-5 h-5 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
+                              >
+                                <Volume2 className="h-2.5 w-2.5 text-muted-foreground" />
+                              </Button>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+
+        {/* ON Readings */}
+        {kanji.readings.on.map((reading, readingIdx) => {
+          // Only show if has examples
+          if (!reading.examples || reading.examples.length === 0) return null;
+          
+          return (
+            <div key={`on-${readingIdx}`} className="space-y-2">
+              {/* Reading Group Header */}
+              <div className="flex items-center gap-2 px-2 py-1.5 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/30 rounded-lg">
+                <Badge 
+                  variant="secondary"
+                  className={cn(
+                    "text-xs font-semibold px-2 py-0.5 rounded transition-colors",
+                    isSelected
+                      ? "bg-blue-500 dark:bg-blue-600 text-white"
+                      : "bg-blue-500 dark:bg-blue-600 text-white"
+                  )}
+                >
+                  ON
+                </Badge>
+                <span className="text-sm font-medium text-foreground">
+                  {reading.furigana} ({reading.romanji})
+                </span>
+              </div>
+
+              {/* Examples for this reading */}
+              <div className="space-y-2 pl-3">
+                {reading.examples.map((example, exampleIdx) => (
+                  <div key={`on-${readingIdx}-ex-${exampleIdx}`} className="space-y-1">
+                    {/* Word */}
+                    <div className="grid grid-cols-[1fr_auto] gap-2 items-start text-sm">
+                      <div className="flex flex-col gap-1 min-w-0">
+                        <div className="flex items-baseline gap-1 flex-wrap">
+                          {displayOptions.japanese && (
+                            <span className="font-semibold text-foreground">
+                              {highlightMatchingKanji(example.word, kanji.character)}
+                            </span>
+                          )}
+                          {displayOptions.furigana && (
+                            <span className="text-muted-foreground text-xs">
+                              【{example.furigana}】
+                            </span>
+                          )}
+                          {displayOptions.romanji && (
+                            <span className="text-muted-foreground">
+                              ({example.romanji})
+                            </span>
+                          )}
+                        </div>
+                        {displayOptions.meaning && (
+                          <div className="flex items-baseline gap-1 min-w-0">
+                            <span className="text-muted-foreground font-semibold shrink-0">{language === 'id' ? 'arti' : 'meanings'}:</span>
+                            <span className="text-muted-foreground wrap-break-word">
+                              {getMeaning(example, language as SupportedLanguage)}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          playAudio(example.furigana);
+                        }}
+                        className="w-6 h-6 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
+                      >
+                        <Volume2 className="h-3 w-3 text-muted-foreground" />
+                      </Button>
+                    </div>
+
+                    {/* Sentences */}
+                    {example.sentences && example.sentences.length > 0 && (
+                      <div className="pl-4 space-y-1">
+                        {example.sentences.map((sentence, sentenceIdx) => (
+                          <div key={`on-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-0.5">
+                            <div className="flex items-start gap-2 text-xs">
+                              <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
+                              <div className="flex-1 text-muted-foreground">
+                                <div className="font-medium">{sentence.sentence}</div>
+                                <div className="text-[11px] italic">
+                                  {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
+                                </div>
+                              </div>
+                              <Button
+                                variant="ghost"
+                                size="sm"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  playAudio(sentence.furigana);
+                                }}
+                                className="w-5 h-5 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
+                              >
+                                <Volume2 className="h-2.5 w-2.5 text-muted-foreground" />
+                              </Button>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+
+        {/* Exception Readings */}
+        {kanji.readings.exception?.examples && kanji.readings.exception.examples.length > 0 && (
+          <div className="space-y-2">
+            {/* Reading Group Header */}
+            <div className="flex items-center gap-2 px-2 py-1.5 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/30 rounded-lg">
+              <Badge 
+                variant="secondary" 
+                className="bg-linear-to-br from-amber-100 to-amber-200 dark:from-amber-200/20 dark:to-amber-300/20 border-amber-200/50 text-amber-900 dark:text-amber-100 text-xs font-semibold px-2 py-0.5 rounded"
+              >
+                EXCEPTION
+              </Badge>
+              <span className="text-sm font-medium text-amber-900 dark:text-amber-100">
+                Special readings
+              </span>
             </div>
 
-            {/* Audio button for each word */}
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={(e) => {
-                e.stopPropagation();
-                playAudio(example.furigana);
-              }}
-              className="w-6 h-6 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
-            >
-              <Volume2 className="h-3 w-3 text-muted-foreground" />
-            </Button>
+            {/* Examples for exception */}
+            <div className="space-y-2 pl-3">
+              {kanji.readings.exception.examples.map((example, exampleIdx) => (
+                <div key={`exc-${exampleIdx}`} className="space-y-1">
+                  {/* Word */}
+                  <div className="grid grid-cols-[1fr_auto] gap-2 items-start text-sm">
+                    <div className="flex flex-col gap-1 min-w-0">
+                      <div className="flex items-baseline gap-1 flex-wrap">
+                        {displayOptions.japanese && (
+                          <span className="font-semibold text-foreground">
+                            {highlightMatchingKanji(example.word, kanji.character)}
+                          </span>
+                        )}
+                        {displayOptions.furigana && (
+                          <span className="text-muted-foreground text-xs">
+                            【{example.furigana}】
+                          </span>
+                        )}
+                        {displayOptions.romanji && (
+                          <span className="text-muted-foreground">
+                            ({example.romanji})
+                          </span>
+                        )}
+                      </div>
+                      {displayOptions.meaning && (
+                        <div className="flex items-baseline gap-1 min-w-0">
+                          <span className="text-muted-foreground font-semibold shrink-0">{language === 'id' ? 'arti' : 'meanings'}:</span>
+                          <span className="text-muted-foreground wrap-break-word">
+                            {getMeaning(example, language as SupportedLanguage)}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        playAudio(example.furigana);
+                      }}
+                      className="w-6 h-6 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
+                    >
+                      <Volume2 className="h-3 w-3 text-muted-foreground" />
+                    </Button>
+                  </div>
+
+                  {/* Sentences */}
+                  {example.sentences && example.sentences.length > 0 && (
+                    <div className="pl-4 space-y-1">
+                      {example.sentences.map((sentence, sentenceIdx) => (
+                        <div key={`exc-${exampleIdx}-s-${sentenceIdx}`} className="space-y-0.5">
+                          <div className="flex items-start gap-2 text-xs">
+                            <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
+                            <div className="flex-1 text-muted-foreground">
+                              <div className="font-medium">{sentence.sentence}</div>
+                              <div className="text-[11px] italic">
+                                {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
+                              </div>
+                            </div>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                playAudio(sentence.furigana);
+                              }}
+                              className="w-5 h-5 p-0 rounded-full bg-muted hover:bg-accent/20 border border-border transition-colors shrink-0"
+                            >
+                              <Volume2 className="h-2.5 w-2.5 text-muted-foreground" />
+                            </Button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
-        ))}
+        )}
       </div>
+      )}
 
       {/* Reset Confirmation Dialog */}
       <AlertDialog open={showResetDialog} onOpenChange={setShowResetDialog}>
