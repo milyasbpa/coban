@@ -1,79 +1,122 @@
 {
   "id": 85,
-  "character": "重",
-  "strokes": 9,
+  "character": "借",
+  "strokes": 10,
   "readings": {
     "kun": [
       {
-        "furigana": "おも",
-        "romanji": "omo",
+        "furigana": "か",
+        "romanji": "ka",
         "examples": [
           {
             "id": 1,
-            "word": "重い",
-            "furigana": "おもい",
-            "romanji": "omoi",
+            "word": "借りる",
+            "furigana": "かりる",
+            "romanji": "kariru",
             "meanings": {
-              "id": "berat",
-              "en": "heavy"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "かさ",
-        "romanji": "kasa",
-        "examples": [
+              "id": "meminjam",
+              "en": "to borrow"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "友達に本を借りました。",
+                "furigana": "ともだちにほんをかりました。",
+                "romaji": "tomodachi ni hon wo karimashita.",
+                "meanings": {
+                  "id": "Saya meminjam buku dari teman.",
+                  "en": "I borrowed a book from my friend."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "重なる",
-            "furigana": "かさなる",
-            "romanji": "kasanaru",
+            "word": "借り賃",
+            "furigana": "かりちん",
+            "romanji": "karichin",
             "meanings": {
-              "id": "menumpukan",
-              "en": "to pile up"
-            }
+              "id": "uang sewa",
+              "en": "rent, rental fee"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "借り賃は毎月払わなければなりません。",
+                "furigana": "かりちんはまいつきはらわなければなりません。",
+                "romaji": "karichin wa maitsuki harawanakereba narimasen.",
+                "meanings": {
+                  "id": "Uang sewa harus dibayar setiap bulan.",
+                  "en": "The rent must be paid every month."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ジュウ",
-        "romanji": "juu",
+        "furigana": "シャク",
+        "romanji": "shaku",
         "examples": [
           {
             "id": 3,
-            "word": "重要",
-            "furigana": "じゅうよう",
-            "romanji": "juuyou",
+            "word": "借家",
+            "furigana": "しゃくや",
+            "romanji": "shakuya",
             "meanings": {
-              "id": "penting",
-              "en": "important"
-            }
-          },
-          {
-            "id": 4,
-            "word": "体重",
-            "furigana": "たいじゅう",
-            "romanji": "taijuu",
-            "meanings": {
-              "id": "berharga",
-              "en": "body weight"
-            }
+              "id": "rumah sewaan",
+              "en": "rented house"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は借家に住んでいます。",
+                "furigana": "わたしはしゃくやにすんでいます。",
+                "romaji": "watashi wa shakuya ni sundeimasu.",
+                "meanings": {
+                  "id": "Saya tinggal di rumah sewaan.",
+                  "en": "I live in a rented house."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "チョウ",
-        "romanji": "chou",
-        "examples": []
+        "furigana": "シャッ",
+        "romanji": "sha(tsu kecil)",
+        "examples": [
+          {
+            "id": 4,
+            "word": "借金",
+            "furigana": "しゃっきん",
+            "romanji": "shakkin",
+            "meanings": {
+              "id": "hutang",
+              "en": "debt"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "借金を返すのが大変です。",
+                "furigana": "しゃっきんをかえすのがたいへんです。",
+                "romaji": "shakkin wo kaesu no ga taihen desu.",
+                "meanings": {
+                  "id": "Membayar hutang itu sulit.",
+                  "en": "It's difficult to pay back the debt."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "exception": null
   },
   "meanings": {
-    "id": "berat",
-    "en": "heavy, important"
+    "id": "meminjam",
+    "en": "borrow, rent"
   }
 }
