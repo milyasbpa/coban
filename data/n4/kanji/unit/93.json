@@ -1,40 +1,79 @@
 {
   "id": 93,
-  "character": "病",
+  "character": "料",
   "strokes": 10,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "や",
-        "romanji": "ya",
+        "furigana": "リョウ",
+        "romanji": "ryou",
         "examples": [
           {
             "id": 1,
-            "word": "病む",
-            "furigana": "やむ",
-            "romanji": "yamu",
+            "word": "料理",
+            "furigana": "りょうり",
+            "romanji": "ryouri",
             "meanings": {
-              "id": "jatuh sakit",
-              "en": "to fall ill"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ビョウ",
-        "romanji": "byou",
-        "examples": [
+              "id": "masakan",
+              "en": "cooking, cuisine"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "母の料理はとてもおいしいです。",
+                "furigana": "ははのりょうりはとてもおいしいです。",
+                "romaji": "haha no ryouri wa totemo oishii desu.",
+                "meanings": {
+                  "id": "Masakan ibu sangat enak.",
+                  "en": "My mother's cooking is very delicious."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "病気",
-            "furigana": "びょうき",
-            "romanji": "byouki",
+            "word": "材料",
+            "furigana": "ざいりょう",
+            "romanji": "zairyou",
             "meanings": {
-              "id": "penyakit",
-              "en": "illness"
-            }
+              "id": "bahan",
+              "en": "material, ingredient"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ケーキを作る材料を買いました。",
+                "furigana": "ケーキをつくるざいりょうをかいました。",
+                "romaji": "keeki wo tsukuru zairyou wo kaimashita.",
+                "meanings": {
+                  "id": "Saya membeli bahan untuk membuat kue.",
+                  "en": "I bought ingredients to make a cake."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "給料",
+            "furigana": "きゅうりょう",
+            "romanji": "kyuuryou",
+            "meanings": {
+              "id": "upah, gaji",
+              "en": "salary, wage"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来週、給料をもらいます。",
+                "furigana": "らいしゅう、きゅうりょうをもらいます。",
+                "romaji": "raishuu, kyuuryou wo moraimasu.",
+                "meanings": {
+                  "id": "Minggu depan saya akan menerima gaji.",
+                  "en": "I will receive my salary next week."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "jatuh sakit",
-    "en": "illness, disease"
+    "id": "bahan, biaya",
+    "en": "material, fee"
   }
 }
