@@ -1,50 +1,136 @@
 {
   "id": 115,
-  "character": "転",
-  "strokes": 11,
+  "character": "答",
+  "strokes": 12,
   "readings": {
     "kun": [
       {
-        "furigana": "ころ",
-        "romanji": "koro",
+        "furigana": "こた",
+        "romanji": "kota",
         "examples": [
           {
             "id": 1,
-            "word": "転ぶ",
-            "furigana": "ころぶ",
-            "romanji": "korobu",
+            "word": "答え",
+            "furigana": "こたえ",
+            "romanji": "kotae",
             "meanings": {
-              "id": "jatuh terguling",
-              "en": "to fall down"
-            }
+              "id": "jawaban",
+              "en": "answer"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この問題の答えが分かりません。",
+                "furigana": "このもんだいのこたえがわかりません。",
+                "romaji": "kono mondai no kotae ga wakarimasen.",
+                "meanings": {
+                  "id": "Saya tidak tahu jawaban soal ini.",
+                  "en": "I don't know the answer to this question."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "答える",
+            "furigana": "こたえる",
+            "romanji": "kotaeru",
+            "meanings": {
+              "id": "menjawab",
+              "en": "to answer"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生の質問に答えました。",
+                "furigana": "せんせいのしつもんにこたえました。",
+                "romaji": "sensei no shitsumon ni kotaemashita.",
+                "meanings": {
+                  "id": "Saya menjawab pertanyaan guru.",
+                  "en": "I answered the teacher's question."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "テン",
-        "romanji": "ten",
+        "furigana": "トウ",
+        "romanji": "tou",
         "examples": [
           {
-            "id": 2,
-            "word": "運転",
-            "furigana": "うんてん",
-            "romanji": "unten",
+            "id": 1,
+            "word": "解答",
+            "furigana": "かいとう",
+            "romanji": "kaitou",
             "meanings": {
-              "id": "kemudi",
-              "en": "driving"
-            }
+              "id": "jawaban",
+              "en": "answer, solution"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "解答を見て確認しました。",
+                "furigana": "かいとうをみてかくにんしました。",
+                "romaji": "kaitou wo mite kakunin shimashita.",
+                "meanings": {
+                  "id": "Saya melihat jawaban dan memastikannya.",
+                  "en": "I checked by looking at the answer."
+                }
+              }
+            ]
           },
           {
-            "id": 3,
-            "word": "自転車",
-            "furigana": "じてんしゃ",
-            "romanji": "jitensha",
+            "id": 2,
+            "word": "答案用紙",
+            "furigana": "とうあんようし",
+            "romanji": "touanyoushi",
             "meanings": {
-              "id": "sepeda",
-              "en": "bicycle"
-            }
+              "id": "lembar jawaban",
+              "en": "answer sheet"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "答案用紙に名前を書いてください。",
+                "furigana": "とうあんようしになまえをかいてください。",
+                "romaji": "touanyoushi ni namae wo kaite kudasai.",
+                "meanings": {
+                  "id": "Tolong tulis nama di lembar jawaban.",
+                  "en": "Please write your name on the answer sheet."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ドウ",
+        "romanji": "dou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "問答",
+            "furigana": "もんどう",
+            "romanji": "mondou",
+            "meanings": {
+              "id": "tanya jawab",
+              "en": "questions and answers"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "授業で先生と問答をしました。",
+                "furigana": "じゅぎょうでせんせいともんどうをしました。",
+                "romaji": "jugyou de sensei to mondou wo shimashita.",
+                "meanings": {
+                  "id": "Saya melakukan tanya jawab dengan guru di kelas.",
+                  "en": "I did questions and answers with the teacher in class."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "jatuh terguling",
-    "en": "turn, roll"
+    "id": "jawaban",
+    "en": "answer, reply"
   }
 }
