@@ -1,43 +1,158 @@
 {
   "id": 105,
-  "character": "員",
-  "strokes": 10,
+  "character": "教",
+  "strokes": 11,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "イン",
-        "romanji": "in",
+        "furigana": "おし",
+        "romanji": "oshi",
         "examples": [
           {
             "id": 1,
-            "word": "店員",
-            "furigana": "てんいん",
-            "romanji": "ten'in",
+            "word": "教える",
+            "furigana": "おしえる",
+            "romanji": "oshieru",
             "meanings": {
-              "id": "pelayan toko",
-              "en": "shop clerk"
-            }
+              "id": "mengajar",
+              "en": "to teach"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は子どもたちに英語を教えています。",
+                "furigana": "わたしはこどもたちにえいごをおしえています。",
+                "romaji": "watashi wa kodomotachi ni eigo wo oshiete imasu.",
+                "meanings": {
+                  "id": "Saya mengajar bahasa Inggris kepada anak-anak.",
+                  "en": "I teach English to children."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "会員",
-            "furigana": "かいいん",
-            "romanji": "kaiin",
+            "word": "教え",
+            "furigana": "おしえ",
+            "romanji": "oshie",
             "meanings": {
-              "id": "anggota perkumpulan",
-              "en": "member"
-            }
+              "id": "ajaran",
+              "en": "teaching, lesson"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生の教えを忘れません。",
+                "furigana": "せんせいのおしえをわすれません。",
+                "romaji": "sensei no oshie wo wasuremasen.",
+                "meanings": {
+                  "id": "Saya tidak akan melupakan ajaran guru.",
+                  "en": "I won't forget the teacher's teachings."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "おそ",
+        "romanji": "oso",
+        "examples": [
+          {
+            "id": 1,
+            "word": "教わる",
+            "furigana": "おそわる",
+            "romanji": "osowaru",
+            "meanings": {
+              "id": "diajarkan, menerima pengajaran",
+              "en": "to be taught, to learn from"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "田中先生に日本語を教わりました。",
+                "furigana": "たなかせんせいににほんごをおそわりました。",
+                "romaji": "Tanaka sensei ni nihongo wo osowarimashita.",
+                "meanings": {
+                  "id": "Saya belajar bahasa Jepang dari guru Tanaka.",
+                  "en": "I learned Japanese from Teacher Tanaka."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "キョウ",
+        "romanji": "kyou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "教室",
+            "furigana": "きょうしつ",
+            "romanji": "kyoushitsu",
+            "meanings": {
+              "id": "kelas",
+              "en": "classroom"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "教室にはたくさんの学生がいます。",
+                "furigana": "きょうしつにはたくさんのがくせいがいます。",
+                "romaji": "kyoushitsu ni wa takusan no gakusei ga imasu.",
+                "meanings": {
+                  "id": "Ada banyak siswa di kelas.",
+                  "en": "There are many students in the classroom."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "教育",
+            "furigana": "きょういく",
+            "romanji": "kyouiku",
+            "meanings": {
+              "id": "pendidikan",
+              "en": "education"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "子どもの教育はとても大切です。",
+                "furigana": "こどものきょういくはとてもたいせつです。",
+                "romaji": "kodomo no kyouiku wa totemo taisetsu desu.",
+                "meanings": {
+                  "id": "Pendidikan anak sangat penting.",
+                  "en": "Children's education is very important."
+                }
+              }
+            ]
           },
           {
             "id": 3,
-            "word": "議員",
-            "furigana": "ぎいん",
-            "romanji": "giin",
+            "word": "宗教",
+            "furigana": "しゅうきょう",
+            "romanji": "shuukyou",
             "meanings": {
-              "id": "anggota majelis",
-              "en": "member of parliament"
-            }
+              "id": "agama",
+              "en": "religion"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "世界にはいろいろな宗教があります。",
+                "furigana": "せかいにはいろいろなしゅうきょうがあります。",
+                "romaji": "sekai ni wa iroiro na shuukyou ga arimasu.",
+                "meanings": {
+                  "id": "Ada berbagai macam agama di dunia.",
+                  "en": "There are various religions in the world."
+                }
+              }
+            ]
           }
         ]
       }
@@ -45,7 +160,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "pelayan toko",
-    "en": "member, staff"
+    "id": "mengajar, ajaran",
+    "en": "teach, education"
   }
 }
