@@ -1,40 +1,158 @@
 {
   "id": 119,
-  "character": "野",
-  "strokes": 11,
+  "character": "集",
+  "strokes": 12,
   "readings": {
     "kun": [
       {
-        "furigana": "の",
-        "romanji": "no",
+        "furigana": "あつ",
+        "romanji": "atsu",
         "examples": [
           {
             "id": 1,
-            "word": "野原",
-            "furigana": "のはら",
-            "romanji": "nohara",
+            "word": "集まる",
+            "furigana": "あつまる",
+            "romanji": "atsumaru",
             "meanings": {
-              "id": "padang rumput",
-              "en": "field"
-            }
+              "id": "berkumpul",
+              "en": "to gather, to assemble"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "友達が公園に集まりました。",
+                "furigana": "ともだちがこうえんにあつまりました。",
+                "romaji": "tomodachi ga kouen ni atsumarimashita.",
+                "meanings": {
+                  "id": "Teman-teman berkumpul di taman.",
+                  "en": "Friends gathered at the park."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "集める",
+            "furigana": "あつめる",
+            "romanji": "atsumeru",
+            "meanings": {
+              "id": "mengumpulkan",
+              "en": "to collect, to gather"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "切手を集めるのが好きです。",
+                "furigana": "きってをあつめるのがすきです。",
+                "romaji": "kitte wo atsumeru no ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka mengumpulkan perangko.",
+                  "en": "I like collecting stamps."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "つど",
+        "romanji": "tsudo",
+        "examples": [
+          {
+            "id": 1,
+            "word": "集う",
+            "furigana": "つどう",
+            "romanji": "tsudou",
+            "meanings": {
+              "id": "berkumpul, bertemu",
+              "en": "to gather, to meet"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "人々が駅前に集っています。",
+                "furigana": "ひとびとがえきまえにつどっています。",
+                "romaji": "hitobito ga ekimae ni tsudotte imasu.",
+                "meanings": {
+                  "id": "Orang-orang berkumpul di depan stasiun.",
+                  "en": "People are gathering in front of the station."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ヤ",
-        "romanji": "ya",
+        "furigana": "シュウ",
+        "romanji": "shuu",
         "examples": [
           {
-            "id": 2,
-            "word": "野球",
-            "furigana": "やきゅう",
-            "romanji": "yakyuu",
+            "id": 1,
+            "word": "集会",
+            "furigana": "しゅうかい",
+            "romanji": "shuukai",
             "meanings": {
-              "id": "(sejenis) bola kasti",
-              "en": "baseball"
-            }
+              "id": "pertemuan",
+              "en": "meeting, gathering"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来週、学校で集会があります。",
+                "furigana": "らいしゅう、がっこうでしゅうかいがあります。",
+                "romaji": "raishuu, gakkou de shuukai ga arimasu.",
+                "meanings": {
+                  "id": "Minggu depan ada pertemuan di sekolah.",
+                  "en": "There is a meeting at school next week."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "集団",
+            "furigana": "しゅうだん",
+            "romanji": "shuudan",
+            "meanings": {
+              "id": "grup, perkumpulan",
+              "en": "group, collective"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "集団で行動しましょう。",
+                "furigana": "しゅうだんでこうどうしましょう。",
+                "romaji": "shuudan de koudou shimashou.",
+                "meanings": {
+                  "id": "Mari bertindak secara berkelompok.",
+                  "en": "Let's act as a group."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "集金",
+            "furigana": "しゅうきん",
+            "romanji": "shuukin",
+            "meanings": {
+              "id": "pengumpulan uang",
+              "en": "collection of money"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎月、集金の日があります。",
+                "furigana": "まいつき、しゅうきんのひがあります。",
+                "romaji": "maitsuki, shuukin no hi ga arimasu.",
+                "meanings": {
+                  "id": "Setiap bulan ada hari pengumpulan uang.",
+                  "en": "There is a money collection day every month."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +160,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "padang rumput",
-    "en": "field, plain"
+    "id": "berkumpul",
+    "en": "gather, collect"
   }
 }
