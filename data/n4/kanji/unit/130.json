@@ -1,40 +1,204 @@
 {
   "id": 130,
-  "character": "暗",
-  "strokes": 13,
+  "character": "頭",
+  "strokes": 16,
   "readings": {
     "kun": [
       {
-        "furigana": "くら",
-        "romanji": "kura",
+        "furigana": "あたま",
+        "romanji": "atama",
         "examples": [
           {
             "id": 1,
-            "word": "暗い",
-            "furigana": "くらい",
-            "romanji": "kurai",
+            "word": "頭",
+            "furigana": "あたま",
+            "romanji": "atama",
             "meanings": {
-              "id": "gelap",
-              "en": "dark"
-            }
+              "id": "kepala",
+              "en": "head"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "頭が痛いです。",
+                "furigana": "あたまがいたいです。",
+                "romaji": "atama ga itai desu.",
+                "meanings": {
+                  "id": "Kepala saya sakit.",
+                  "en": "My head hurts."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "かぶり",
+        "romanji": "kaburi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "頭",
+            "furigana": "かぶり",
+            "romanji": "kaburi",
+            "meanings": {
+              "id": "kepala",
+              "en": "head (counting)"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この帽子は頭に合います。",
+                "furigana": "このぼうしはあたまにあいます。",
+                "romaji": "kono boushi wa atama ni aimasu.",
+                "meanings": {
+                  "id": "Topi ini pas di kepala.",
+                  "en": "This hat fits my head."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "かしら",
+        "romanji": "kashira",
+        "examples": [
+          {
+            "id": 1,
+            "word": "頭文字",
+            "furigana": "かしらもじ",
+            "romanji": "kashiramoji",
+            "meanings": {
+              "id": "inisial",
+              "en": "initial letter"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "名前の頭文字を書いてください。",
+                "furigana": "なまえのかしらもじをかいてください。",
+                "romaji": "namae no kashiramoji wo kaite kudasai.",
+                "meanings": {
+                  "id": "Tolong tulis inisial nama Anda.",
+                  "en": "Please write your name's initial."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "がしら",
+        "romanji": "gashira",
+        "examples": [
+          {
+            "id": 1,
+            "word": "年頭",
+            "furigana": "としがしら",
+            "romanji": "toshigashira",
+            "meanings": {
+              "id": "awal tahun",
+              "en": "beginning of the year"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "年頭に目標を立てました。",
+                "furigana": "ねんとうにもくひょうをたてました。",
+                "romaji": "nentou ni mokuhyou wo tatemashita.",
+                "meanings": {
+                  "id": "Saya membuat target di awal tahun.",
+                  "en": "I set goals at the beginning of the year."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "アン",
-        "romanji": "an",
+        "furigana": "トウ",
+        "romanji": "tou",
         "examples": [
           {
-            "id": 2,
-            "word": "暗記",
-            "furigana": "あんき",
-            "romanji": "anki",
+            "id": 1,
+            "word": "頭部",
+            "furigana": "とうぶ",
+            "romanji": "toubu",
             "meanings": {
-              "id": "hafal",
-              "en": "memorization"
-            }
+              "id": "bagian kepala",
+              "en": "head region"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "頭部を怪我しました。",
+                "furigana": "とうぶをけがしました。",
+                "romaji": "toubu wo kega shimashita.",
+                "meanings": {
+                  "id": "Saya cedera di bagian kepala.",
+                  "en": "I injured my head."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ズ",
+        "romanji": "zu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "頭痛",
+            "furigana": "ずつう",
+            "romanji": "zutsuu",
+            "meanings": {
+              "id": "sakit kepala",
+              "en": "headache"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "頭痛がひどいです。",
+                "furigana": "ずつうがひどいです。",
+                "romaji": "zutsuu ga hidoi desu.",
+                "meanings": {
+                  "id": "Sakit kepala saya parah.",
+                  "en": "My headache is severe."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ト",
+        "romanji": "to",
+        "examples": [
+          {
+            "id": 1,
+            "word": "頭",
+            "furigana": "と",
+            "romanji": "to",
+            "meanings": {
+              "id": "kepala",
+              "en": "head (counter)"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "牛が三頭います。",
+                "furigana": "うしがさんとういます。",
+                "romaji": "ushi ga san tou imasu.",
+                "meanings": {
+                  "id": "Ada tiga ekor sapi.",
+                  "en": "There are three cattle."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +206,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "gelap",
-    "en": "dark"
+    "id": "kepala",
+    "en": "head"
   }
 }
