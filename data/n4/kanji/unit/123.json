@@ -1,66 +1,35 @@
 {
   "id": 123,
-  "character": "答",
-  "strokes": 12,
+  "character": "漢",
+  "strokes": 13,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "こた",
-        "romanji": "kota",
+        "furigana": "カン",
+        "romanji": "kan",
         "examples": [
           {
             "id": 1,
-            "word": "答え",
-            "furigana": "こたえ",
-            "romanji": "kotae",
+            "word": "漢字",
+            "furigana": "かんじ",
+            "romanji": "kanji",
             "meanings": {
-              "id": "jawaban",
-              "en": "answer"
-            }
-          },
-          {
-            "id": 2,
-            "word": "答える",
-            "furigana": "こたえる",
-            "romanji": "kotaeru",
-            "meanings": {
-              "id": "menjawab",
-              "en": "to answer"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "トウ",
-        "romanji": "tou",
-        "examples": [
-          {
-            "id": 3,
-            "word": "答案用紙",
-            "furigana": "とうあんようし",
-            "romanji": "touanyoushi",
-            "meanings": {
-              "id": "lembar jawaban",
-              "en": "answer sheet"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ドウ",
-        "romanji": "dou",
-        "examples": [
-          {
-            "id": 4,
-            "word": "問答",
-            "furigana": "もんどう",
-            "romanji": "mondou",
-            "meanings": {
-              "id": "tanya jawab",
-              "en": "question and answer"
-            }
+              "id": "aksara cina",
+              "en": "Chinese characters"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日漢字を勉強しています。",
+                "furigana": "まいにちかんじをべんきょうしています。",
+                "romaji": "mainichi kanji wo benkyou shite imasu.",
+                "meanings": {
+                  "id": "Saya belajar kanji setiap hari.",
+                  "en": "I study kanji every day."
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +37,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "jawaban",
-    "en": "answer"
+    "id": "aksara cina",
+    "en": "Chinese character"
   }
 }
