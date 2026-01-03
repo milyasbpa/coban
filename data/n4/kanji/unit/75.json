@@ -1,50 +1,136 @@
 {
   "id": 75,
-  "character": "送",
+  "character": "建",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "おく",
-        "romanji": "oku",
+        "furigana": "た",
+        "romanji": "ta",
         "examples": [
           {
             "id": 1,
-            "word": "送る",
-            "furigana": "おくる",
-            "romanji": "okuru",
+            "word": "立つ",
+            "furigana": "たつ",
+            "romanji": "tatsu",
             "meanings": {
-              "id": "mengirim",
-              "en": "to send"
-            }
+              "id": "berdiri",
+              "en": "to stand"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ここに立ってください。",
+                "furigana": "ここにたってください。",
+                "romaji": "koko ni tatte kudasai.",
+                "meanings": {
+                  "id": "Silakan berdiri di sini.",
+                  "en": "Please stand here."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "建てる",
+            "furigana": "たてる",
+            "romanji": "tateru",
+            "meanings": {
+              "id": "mendirikan",
+              "en": "to build"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は新しい家を建てました。",
+                "furigana": "ちちはあたらしいいえをたてました。",
+                "romaji": "chichi wa atarashii ie wo tatemashita.",
+                "meanings": {
+                  "id": "Ayah membangun rumah baru.",
+                  "en": "My father built a new house."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "たて",
+        "romanji": "tate",
+        "examples": [
+          {
+            "id": 3,
+            "word": "建物",
+            "furigana": "たてもの",
+            "romanji": "tatemono",
+            "meanings": {
+              "id": "gedung, bangunan",
+              "en": "building"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この建物は古いですが、きれいです。",
+                "furigana": "このたてものはふるいですが、きれいです。",
+                "romaji": "kono tatemono wa furui desu ga, kirei desu.",
+                "meanings": {
+                  "id": "Bangunan ini tua, tetapi indah.",
+                  "en": "This building is old, but beautiful."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ソウ",
-        "romanji": "sou",
+        "furigana": "ケン",
+        "romanji": "ken",
         "examples": [
           {
-            "id": 2,
-            "word": "送金",
-            "furigana": "そうきん",
-            "romanji": "soukin",
+            "id": 4,
+            "word": "建設",
+            "furigana": "けんせつ",
+            "romanji": "kensetsu",
             "meanings": {
-              "id": "kiriman uang",
-              "en": "money transfer"
-            }
+              "id": "konstruksi",
+              "en": "construction"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい駅の建設が始まりました。",
+                "furigana": "あたらしいえきのけんせつがはじまりました。",
+                "romaji": "atarashii eki no kensetsu ga hajimarimashita.",
+                "meanings": {
+                  "id": "Konstruksi stasiun baru telah dimulai.",
+                  "en": "Construction of the new station has started."
+                }
+              }
+            ]
           },
           {
-            "id": 3,
-            "word": "放送",
-            "furigana": "ほうそう",
-            "romanji": "housou",
+            "id": 5,
+            "word": "建築",
+            "furigana": "けんちく",
+            "romanji": "kenchiku",
             "meanings": {
-              "id": "penyiaran",
-              "en": "broadcast"
-            }
+              "id": "pembangunan, arsitektur",
+              "en": "construction, architecture"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は建築を勉強しています。",
+                "furigana": "かれはけんちくをべんきょうしています。",
+                "romaji": "kare wa kenchiku wo benkyou shiteimasu.",
+                "meanings": {
+                  "id": "Dia sedang belajar arsitektur.",
+                  "en": "He is studying architecture."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mengirim",
-    "en": "send, transport"
+    "id": "membangun, mendirikan",
+    "en": "build, construct"
   }
 }
