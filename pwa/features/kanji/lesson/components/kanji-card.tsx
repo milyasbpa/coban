@@ -398,11 +398,25 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
                           <div key={`kun-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-1">
                             <div className="flex items-start gap-2 text-sm">
                               <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
-                              <div className="flex-1 text-muted-foreground">
-                                <div className="font-medium leading-relaxed">{sentence.sentence}</div>
-                                <div className="text-xs italic mt-0.5 leading-relaxed">
-                                  {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
-                                </div>
+                              <div className="flex-1 space-y-0.5">
+                                {displayOptions.japanese && (
+                                  <div className="font-semibold text-foreground leading-relaxed">{sentence.sentence}</div>
+                                )}
+                                {displayOptions.furigana && (
+                                  <div className="text-xs text-muted-foreground/80 leading-relaxed">
+                                    <span className="font-medium">[</span> {sentence.furigana} <span className="font-medium">]</span>
+                                  </div>
+                                )}
+                                {displayOptions.romanji && (
+                                  <div className="text-xs text-muted-foreground/60 leading-relaxed">
+                                    <span className="font-medium">(</span> {sentence.romaji} <span className="font-medium">)</span>
+                                  </div>
+                                )}
+                                {displayOptions.meaning && (
+                                  <div className="text-xs text-muted-foreground italic leading-relaxed font-medium">
+                                    → {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
+                                  </div>
+                                )}
                               </div>
                               <Button
                                 variant="ghost"
@@ -505,11 +519,25 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
                           <div key={`on-${readingIdx}-ex-${exampleIdx}-s-${sentenceIdx}`} className="space-y-1">
                             <div className="flex items-start gap-2 text-sm">
                               <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
-                              <div className="flex-1 text-muted-foreground">
-                                <div className="font-medium leading-relaxed">{sentence.sentence}</div>
-                                <div className="text-xs italic mt-0.5 leading-relaxed">
-                                  {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
-                                </div>
+                              <div className="flex-1 space-y-0.5">
+                                {displayOptions.japanese && (
+                                  <div className="font-semibold text-foreground leading-relaxed">{sentence.sentence}</div>
+                                )}
+                                {displayOptions.furigana && (
+                                  <div className="text-xs text-muted-foreground/80 leading-relaxed">
+                                    <span className="font-medium">[</span> {sentence.furigana} <span className="font-medium">]</span>
+                                  </div>
+                                )}
+                                {displayOptions.romanji && (
+                                  <div className="text-xs text-muted-foreground/60 leading-relaxed">
+                                    <span className="font-medium">(</span> {sentence.romaji} <span className="font-medium">)</span>
+                                  </div>
+                                )}
+                                {displayOptions.meaning && (
+                                  <div className="text-xs text-muted-foreground italic leading-relaxed font-medium">
+                                    → {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
+                                  </div>
+                                )}
                               </div>
                               <Button
                                 variant="ghost"
@@ -603,11 +631,25 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
                         <div key={`exc-${exampleIdx}-s-${sentenceIdx}`} className="space-y-1">
                           <div className="flex items-start gap-2 text-sm">
                             <span className="text-muted-foreground shrink-0 mt-0.5">💬</span>
-                            <div className="flex-1 text-muted-foreground">
-                              <div className="font-medium leading-relaxed">{sentence.sentence}</div>
-                              <div className="text-xs italic mt-0.5 leading-relaxed">
-                                {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
-                              </div>
+                            <div className="flex-1 space-y-0.5">
+                              {displayOptions.japanese && (
+                                <div className="font-semibold text-foreground leading-relaxed">{sentence.sentence}</div>
+                              )}
+                              {displayOptions.furigana && (
+                                <div className="text-xs text-muted-foreground/80 leading-relaxed">
+                                  <span className="font-medium">[</span> {sentence.furigana} <span className="font-medium">]</span>
+                                </div>
+                              )}
+                              {displayOptions.romanji && (
+                                <div className="text-xs text-muted-foreground/60 leading-relaxed">
+                                  <span className="font-medium">(</span> {sentence.romaji} <span className="font-medium">)</span>
+                                </div>
+                              )}
+                              {displayOptions.meaning && (
+                                <div className="text-xs text-muted-foreground italic leading-relaxed font-medium">
+                                  → {language === 'id' ? sentence.meanings.id : sentence.meanings.en}
+                                </div>
+                              )}
                             </div>
                             <Button
                               variant="ghost"
