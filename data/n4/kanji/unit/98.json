@@ -1,56 +1,108 @@
 {
   "id": 98,
-  "character": "通",
-  "strokes": 10,
+  "character": "終",
+  "strokes": 11,
   "readings": {
     "kun": [
       {
-        "furigana": "とお",
-        "romanji": "too",
+        "furigana": "お",
+        "romanji": "o",
         "examples": [
           {
             "id": 1,
-            "word": "通る",
-            "furigana": "とおる",
-            "romanji": "tooru",
+            "word": "終える",
+            "furigana": "おえる",
+            "romanji": "oeru",
             "meanings": {
-              "id": "melewati",
-              "en": "to pass"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "かよ",
-        "romanji": "kayo",
-        "examples": [
+              "id": "berakhir, tamat",
+              "en": "to finish, end"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "仕事を終えてから帰ります。",
+                "furigana": "しごとをおえてからかえります。",
+                "romaji": "shigoto wo oete kara kaerimasu.",
+                "meanings": {
+                  "id": "Saya pulang setelah menyelesaikan pekerjaan.",
+                  "en": "I will go home after finishing work."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "通う",
-            "furigana": "かよう",
-            "romanji": "kayou",
+            "word": "終わる",
+            "furigana": "おわる",
+            "romanji": "owaru",
             "meanings": {
-              "id": "pulang pergi",
-              "en": "to commute"
-            }
+              "id": "berakhir, selesai",
+              "en": "to end, finish"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "授業は3時に終わります。",
+                "furigana": "じゅぎょうは3じにおわります。",
+                "romaji": "jugyou wa san ji ni owarimasu.",
+                "meanings": {
+                  "id": "Pelajaran selesai pada jam 3.",
+                  "en": "The class ends at 3 o'clock."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ツウ",
-        "romanji": "tsuu",
+        "furigana": "シュウ",
+        "romanji": "shuu",
         "examples": [
           {
             "id": 3,
-            "word": "普通",
-            "furigana": "ふつう",
-            "romanji": "futsuu",
+            "word": "終点",
+            "furigana": "しゅうてん",
+            "romanji": "shuuten",
             "meanings": {
-              "id": "biasanya",
-              "en": "usually"
-            }
+              "id": "stasiun (perhentian terakhir)",
+              "en": "last stop, terminal"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "このバスの終点はどこですか。",
+                "furigana": "このバスのしゅうてんはどこですか。",
+                "romaji": "kono basu no shuuten wa doko desu ka.",
+                "meanings": {
+                  "id": "Di mana perhentian terakhir bus ini?",
+                  "en": "Where is the last stop of this bus?"
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "最終",
+            "furigana": "さいしゅう",
+            "romanji": "saishuu",
+            "meanings": {
+              "id": "terakhir",
+              "en": "final, last"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "最終電車に乗りました。",
+                "furigana": "さいしゅうでんしゃにのりました。",
+                "romaji": "saishuu densha ni norimashita.",
+                "meanings": {
+                  "id": "Saya naik kereta terakhir.",
+                  "en": "I took the last train."
+                }
+              }
+            ]
           }
         ]
       }
@@ -58,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "melewati",
-    "en": "pass through, commute"
+    "id": "berakhir, selesai",
+    "en": "end, finish"
   }
 }
