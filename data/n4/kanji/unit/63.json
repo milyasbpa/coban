@@ -1,33 +1,136 @@
 {
   "id": 63,
-  "character": "服",
+  "character": "使",
   "strokes": 8,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "フク",
-        "romanji": "fuku",
+        "furigana": "つか",
+        "romanji": "tsuka",
         "examples": [
           {
             "id": 1,
-            "word": "洋服",
-            "furigana": "ようふく",
-            "romanji": "youfuku",
+            "word": "使う",
+            "furigana": "つかう",
+            "romanji": "tsukau",
             "meanings": {
-              "id": "baju, pakaian ala barat",
-              "en": "western clothes"
-            }
+              "id": "menggunakan",
+              "en": "to use"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この辞書を使ってもいいですか。",
+                "furigana": "このじしょをつかってもいいですか。",
+                "romaji": "kono jisho wo tsukatte mo ii desu ka.",
+                "meanings": {
+                  "id": "Bolehkah saya menggunakan kamus ini?",
+                  "en": "May I use this dictionary?"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "つかい",
+        "romanji": "tsukai",
+        "examples": [
+          {
+            "id": 1,
+            "word": "召し使い",
+            "furigana": "めしつかい",
+            "romanji": "meshitsukai",
+            "meanings": {
+              "id": "pembantu",
+              "en": "servant"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昔、この家には召し使いがいました。",
+                "furigana": "むかし、このいえにはめしつかいがいました。",
+                "romaji": "mukashi, kono ie ni wa meshitsukai ga imashita.",
+                "meanings": {
+                  "id": "Dulu, di rumah ini ada pembantu.",
+                  "en": "In the past, there was a servant in this house."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "シ",
+        "romanji": "shi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "使用",
+            "furigana": "しよう",
+            "romanji": "shiyou",
+            "meanings": {
+              "id": "penggunaan",
+              "en": "use, usage"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "携帯電話の使用は禁止されています。",
+                "furigana": "けいたいでんわのしようはきんしされています。",
+                "romaji": "keitai denwa no shiyou wa kinshi sarete imasu.",
+                "meanings": {
+                  "id": "Penggunaan telepon genggam dilarang.",
+                  "en": "The use of mobile phones is prohibited."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "服用",
-            "furigana": "ふくよう",
-            "romanji": "fukuyou",
+            "word": "大使",
+            "furigana": "たいし",
+            "romanji": "taishi",
             "meanings": {
-              "id": "pemakaian obat",
-              "en": "taking medicine"
-            }
+              "id": "duta besar",
+              "en": "ambassador"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本の大使が会議に出席しました。",
+                "furigana": "にほんのたいしがかいぎにしゅっせきしました。",
+                "romaji": "nihon no taishi ga kaigi ni shusseki shimashita.",
+                "meanings": {
+                  "id": "Duta besar Jepang menghadiri rapat.",
+                  "en": "The Japanese ambassador attended the meeting."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "大使館",
+            "furigana": "たいしかん",
+            "romanji": "taishikan",
+            "meanings": {
+              "id": "kedutaan besar",
+              "en": "embassy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "ビザをもらうために大使館に行きました。",
+                "furigana": "ビザをもらうためにたいしかんにいきました。",
+                "romaji": "biza wo morau tame ni taishikan ni ikimashita.",
+                "meanings": {
+                  "id": "Saya pergi ke kedutaan besar untuk mendapatkan visa.",
+                  "en": "I went to the embassy to get a visa."
+                }
+              }
+            ]
           }
         ]
       }
@@ -35,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "baju, pakaian ala barat",
-    "en": "clothes"
+    "id": "menggunakan",
+    "en": "use"
   }
 }
