@@ -1,50 +1,64 @@
 {
   "id": 91,
-  "character": "度",
-  "strokes": 9,
+  "character": "弱",
+  "strokes": 10,
   "readings": {
     "kun": [
       {
-        "furigana": "たび",
-        "romanji": "tabi",
+        "furigana": "よわ",
+        "romanji": "yowa",
         "examples": [
           {
             "id": 1,
-            "word": "度々",
-            "furigana": "たびたび",
-            "romanji": "tabitabi",
+            "word": "弱い",
+            "furigana": "よわい",
+            "romanji": "yowai",
             "meanings": {
-              "id": "sering kali",
-              "en": "often"
-            }
+              "id": "lemah",
+              "en": "weak"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は体が弱いです。",
+                "furigana": "わたしはからだがよわいです。",
+                "romaji": "watashi wa karada ga yowai desu.",
+                "meanings": {
+                  "id": "Saya memiliki tubuh yang lemah.",
+                  "en": "I have a weak body."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ド",
-        "romanji": "do",
+        "furigana": "ジャク",
+        "romanji": "jyaku",
         "examples": [
           {
             "id": 2,
-            "word": "温度",
-            "furigana": "おんど",
-            "romanji": "ondo",
+            "word": "弱点",
+            "furigana": "じゃくてん",
+            "romanji": "jyakuten",
             "meanings": {
-              "id": "suhu, temperatur",
-              "en": "temperature"
-            }
-          },
-          {
-            "id": 3,
-            "word": "態度",
-            "furigana": "たいど",
-            "romanji": "taido",
-            "meanings": {
-              "id": "sikap",
-              "en": "attitude"
-            }
+              "id": "kelemahan, kejelekan",
+              "en": "weak point, weakness"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "誰でも弱点があります。",
+                "furigana": "だれでもじゃくてんがあります。",
+                "romaji": "dare demo jyakuten ga arimasu.",
+                "meanings": {
+                  "id": "Setiap orang memiliki kelemahan.",
+                  "en": "Everyone has weaknesses."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "sering kali",
-    "en": "degree, times"
+    "id": "lemah",
+    "en": "weak"
   }
 }
