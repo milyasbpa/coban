@@ -1,46 +1,116 @@
 {
   "id": 100,
-  "character": "特",
-  "strokes": 10,
+  "character": "黒",
+  "strokes": 11,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "トク",
-        "romanji": "toku",
+        "furigana": "くろ",
+        "romanji": "kuro",
         "examples": [
           {
             "id": 1,
-            "word": "特に",
-            "furigana": "とくに",
-            "romanji": "toku ni",
+            "word": "黒",
+            "furigana": "くろ",
+            "romanji": "kuro",
             "meanings": {
-              "id": "khususnya",
-              "en": "especially"
-            }
+              "id": "warna hitam",
+              "en": "black"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "黒が好きです。",
+                "furigana": "くろがすきです。",
+                "romaji": "kuro ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka warna hitam.",
+                  "en": "I like black."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "特別",
-            "furigana": "とくべつ",
-            "romanji": "tokubetsu",
+            "word": "黒い",
+            "furigana": "くろい",
+            "romanji": "kuroi",
             "meanings": {
-              "id": "istimewa, khusus",
-              "en": "special"
-            }
+              "id": "hitam",
+              "en": "black"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "黒い猫がいます。",
+                "furigana": "くろいねこがいます。",
+                "romaji": "kuroi neko ga imasu.",
+                "meanings": {
+                  "id": "Ada kucing hitam.",
+                  "en": "There is a black cat."
+                }
+              }
+            ]
           }
         ]
-      },
+      }
+    ],
+    "on": [
       {
-        "furigana": "トッ",
-        "romanji": "tot",
-        "examples": []
+        "furigana": "コク",
+        "romanji": "koku",
+        "examples": [
+          {
+            "id": 3,
+            "word": "黒板",
+            "furigana": "こくばん",
+            "romanji": "kokuban",
+            "meanings": {
+              "id": "papan tulis",
+              "en": "blackboard"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生が黒板に字を書きました。",
+                "furigana": "せんせいがこくばんにじをかきました。",
+                "romaji": "sensei ga kokuban ni ji wo kakimashita.",
+                "meanings": {
+                  "id": "Guru menulis huruf di papan tulis.",
+                  "en": "The teacher wrote letters on the blackboard."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "暗黒",
+            "furigana": "あんこく",
+            "romanji": "ankoku",
+            "meanings": {
+              "id": "kegelapan",
+              "en": "darkness"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "暗黒の時代が終わりました。",
+                "furigana": "あんこくのじだいがおわりました。",
+                "romaji": "ankoku no jidai ga owarimashita.",
+                "meanings": {
+                  "id": "Zaman kegelapan telah berakhir.",
+                  "en": "The dark age has ended."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "exception": null
   },
   "meanings": {
-    "id": "khususnya",
-    "en": "special"
+    "id": "hitam",
+    "en": "black"
   }
 }
