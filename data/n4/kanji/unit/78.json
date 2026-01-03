@@ -1,43 +1,57 @@
 {
   "id": 78,
-  "character": "室",
+  "character": "研",
   "strokes": 9,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "シツ",
-        "romanji": "shitsu",
+        "furigana": "ケン",
+        "romanji": "ken",
         "examples": [
           {
             "id": 1,
-            "word": "教室",
-            "furigana": "きょうしつ",
-            "romanji": "kyoushitsu",
+            "word": "研究",
+            "furigana": "けんきゅう",
+            "romanji": "kenkyuu",
             "meanings": {
-              "id": "ruang kelas",
-              "en": "classroom"
-            }
+              "id": "penelitian",
+              "en": "research"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私は日本の歴史を研究しています。",
+                "furigana": "わたしはにほんのれきしをけんきゅうしています。",
+                "romaji": "watashi wa nihon no rekishi wo kenkyuu shiteimasu.",
+                "meanings": {
+                  "id": "Saya sedang meneliti sejarah Jepang.",
+                  "en": "I am researching Japanese history."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "研究室",
-            "furigana": "けんきゅうしつ",
-            "romanji": "kenkyuushitsu",
+            "word": "研修",
+            "furigana": "けんしゅう",
+            "romanji": "kenshuu",
             "meanings": {
-              "id": "ruang penelitian",
-              "en": "research room"
-            }
-          },
-          {
-            "id": 3,
-            "word": "室内",
-            "furigana": "しつない",
-            "romanji": "shitsunai",
-            "meanings": {
-              "id": "dalam ruangan",
-              "en": "indoor"
-            }
+              "id": "pembelajaran dan pelatihan",
+              "en": "training"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来月、会社で研修があります。",
+                "furigana": "らいげつ、かいしゃでけんしゅうがあります。",
+                "romaji": "raigetsu, kaisha de kenshuu ga arimasu.",
+                "meanings": {
+                  "id": "Bulan depan ada pelatihan di perusahaan.",
+                  "en": "There will be training at the company next month."
+                }
+              }
+            ]
           }
         ]
       }
@@ -45,7 +59,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "ruang kelas",
-    "en": "room"
+    "id": "penelitian",
+    "en": "research, study"
   }
 }
