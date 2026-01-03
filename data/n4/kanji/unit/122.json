@@ -1,33 +1,85 @@
 {
   "id": 122,
-  "character": "堂",
-  "strokes": 11,
+  "character": "業",
+  "strokes": 13,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "ドウ",
-        "romanji": "dou",
+        "furigana": "ギョウ",
+        "romanji": "gyou",
         "examples": [
           {
             "id": 1,
-            "word": "食堂",
-            "furigana": "しょくどう",
-            "romanji": "shokudou",
+            "word": "工業",
+            "furigana": "こうぎょう",
+            "romanji": "kougyou",
             "meanings": {
-              "id": "kantin",
-              "en": "dining hall"
-            }
+              "id": "industri",
+              "en": "industry"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この国は工業が発達しています。",
+                "furigana": "このくにはこうぎょうがはったつしています。",
+                "romaji": "kono kuni wa kougyou ga hattatsu shite imasu.",
+                "meanings": {
+                  "id": "Industri berkembang di negara ini.",
+                  "en": "Industry is developed in this country."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "講堂",
-            "furigana": "こうどう",
-            "romanji": "koudou",
+            "word": "授業",
+            "furigana": "じゅぎょう",
+            "romanji": "jugyou",
             "meanings": {
-              "id": "ruang rapat",
-              "en": "auditorium"
-            }
+              "id": "kuliah, pelajaran",
+              "en": "class, lesson"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "授業は9時に始まります。",
+                "furigana": "じゅぎょうは9じにはじまります。",
+                "romaji": "jugyou wa ku ji ni hajimarimasu.",
+                "meanings": {
+                  "id": "Pelajaran dimulai jam 9.",
+                  "en": "Classes start at 9 o'clock."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ゴウ",
+        "romanji": "gou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "自業自得",
+            "furigana": "じごうじとく",
+            "romanji": "jigoujitoku",
+            "meanings": {
+              "id": "akibat ulah sendiri",
+              "en": "reaping what you sow"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "それは自業自得ですよ。",
+                "furigana": "それはじごうじとくですよ。",
+                "romaji": "sore wa jigoujitoku desu yo.",
+                "meanings": {
+                  "id": "Itu akibat ulahmu sendiri.",
+                  "en": "That's what you deserve."
+                }
+              }
+            ]
           }
         ]
       }
@@ -35,7 +87,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "kedinginan",
-    "en": "hall, temple"
+    "id": "pekerjaan, industri",
+    "en": "business, industry"
   }
 }
