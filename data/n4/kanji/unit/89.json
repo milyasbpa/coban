@@ -1,49 +1,85 @@
 {
   "id": 89,
-  "character": "祖",
-  "strokes": 9,
+  "character": "特",
+  "strokes": 10,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "ソ",
-        "romanji": "so",
+        "furigana": "トク",
+        "romanji": "toku",
         "examples": [
           {
             "id": 1,
-            "word": "祖父",
-            "furigana": "そふ",
-            "romanji": "sofu",
+            "word": "特に",
+            "furigana": "とくに",
+            "romanji": "tokuni",
             "meanings": {
-              "id": "kakek (saya)",
-              "en": "grandfather"
-            }
+              "id": "khususnya",
+              "en": "especially, particularly"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本料理が好きです。特にすしが好きです。",
+                "furigana": "にほんりょうりがすきです。とくにすしがすきです。",
+                "romaji": "nihon ryouri ga suki desu. tokuni sushi ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka masakan Jepang. Khususnya sushi.",
+                  "en": "I like Japanese food. Especially sushi."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "祖母",
-            "furigana": "そぼ",
-            "romanji": "sobo",
+            "word": "特別",
+            "furigana": "とくべつ",
+            "romanji": "tokubetsu",
             "meanings": {
-              "id": "nenek (saya)",
-              "en": "grandmother"
-            }
+              "id": "istimewa, khusus",
+              "en": "special"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は特別な日です。",
+                "furigana": "きょうはとくべつなひです。",
+                "romaji": "kyou wa tokubetsu na hi desu.",
+                "meanings": {
+                  "id": "Hari ini adalah hari yang istimewa.",
+                  "en": "Today is a special day."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ゾ",
-        "romanji": "zo",
+        "furigana": "トッ",
+        "romanji": "to(tsu kecil)",
         "examples": [
           {
             "id": 3,
-            "word": "先祖",
-            "furigana": "せんぞ",
-            "romanji": "senzo",
+            "word": "特急",
+            "furigana": "とっきゅう",
+            "romanji": "tokkyuu",
             "meanings": {
-              "id": "leluhur",
-              "en": "ancestor"
-            }
+              "id": "super ekspres",
+              "en": "limited express"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "特急に乗れば早く着きます。",
+                "furigana": "とっきゅうにのればはやくつきます。",
+                "romaji": "tokkyuu ni noreba hayaku tsukimasu.",
+                "meanings": {
+                  "id": "Jika naik kereta super ekspres, akan cepat sampai.",
+                  "en": "If you take the limited express, you will arrive quickly."
+                }
+              }
+            ]
           }
         ]
       }
@@ -51,7 +87,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "kakek (saya)",
-    "en": "ancestor, grandfather"
+    "id": "istimewa, khusus",
+    "en": "special"
   }
 }
