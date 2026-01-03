@@ -1,13 +1,92 @@
 {
   "id": 66,
-  "character": "画",
-  "strokes": 8,
+  "character": "映",
+  "strokes": 9,
   "readings": {
-    "kun": [],
+    "kun": [
+      {
+        "furigana": "うつ",
+        "romanji": "utsu",
+        "examples": [
+          {
+            "id": 1,
+            "word": "映る",
+            "furigana": "うつる",
+            "romanji": "utsuru",
+            "meanings": {
+              "id": "terpantul",
+              "en": "to be reflected, to appear"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "鏡に自分の顔が映っています。",
+                "furigana": "かがみにじぶんのかおがうつっています。",
+                "romaji": "kagami ni jibun no kao ga utsutteimasu.",
+                "meanings": {
+                  "id": "Wajah saya terpantul di cermin.",
+                  "en": "My face is reflected in the mirror."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "映す",
+            "furigana": "うつす",
+            "romanji": "utsusu",
+            "meanings": {
+              "id": "memantulkan",
+              "en": "to reflect, to project"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "壁にビデオを映しました。",
+                "furigana": "かべにビデオをうつしました。",
+                "romaji": "kabe ni bideo wo utsushimashita.",
+                "meanings": {
+                  "id": "Saya memproyeksikan video ke dinding.",
+                  "en": "I projected the video onto the wall."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "は",
+        "romanji": "ha",
+        "examples": [
+          {
+            "id": 1,
+            "word": "映える",
+            "furigana": "はえる",
+            "romanji": "haeru",
+            "meanings": {
+              "id": "bercahaya, cemerlang",
+              "en": "to shine, to look attractive"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "青い空に白い雲が映えています。",
+                "furigana": "あおいそらにしろいくもがはえています。",
+                "romaji": "aoi sora ni shiroi kumo ga haete imasu.",
+                "meanings": {
+                  "id": "Awan putih terlihat cemerlang di langit biru.",
+                  "en": "White clouds look brilliant against the blue sky."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "on": [
       {
-        "furigana": "ガ",
-        "romanji": "ga",
+        "furigana": "エイ",
+        "romanji": "ei",
         "examples": [
           {
             "id": 1,
@@ -16,24 +95,64 @@
             "romanji": "eiga",
             "meanings": {
               "id": "film",
-              "en": "movie"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "カク",
-        "romanji": "kaku",
-        "examples": [
+              "en": "movie, film"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "友達と映画を見に行きました。",
+                "furigana": "ともだちとえいがをみにいきました。",
+                "romaji": "tomodachi to eiga wo mi ni ikimashita.",
+                "meanings": {
+                  "id": "Saya pergi menonton film dengan teman.",
+                  "en": "I went to watch a movie with my friend."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "画数",
-            "furigana": "かくすう",
-            "romanji": "kakusuu",
+            "word": "反映",
+            "furigana": "はんえい",
+            "romanji": "han'ei",
             "meanings": {
-              "id": "jumlah struk",
-              "en": "stroke count"
-            }
+              "id": "pantulan, cerminan",
+              "en": "reflection"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "湖に山が反映しています。",
+                "furigana": "みずうみにやまがはんえいしています。",
+                "romaji": "mizuumi ni yama ga han'ei shite imasu.",
+                "meanings": {
+                  "id": "Gunung terpantul di danau.",
+                  "en": "The mountain is reflected in the lake."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "上映",
+            "furigana": "じょうえい",
+            "romanji": "jouei",
+            "meanings": {
+              "id": "pertunjukan",
+              "en": "screening, showing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい映画が来週から上映されます。",
+                "furigana": "あたらしいえいががらいしゅうからじょうえいされます。",
+                "romaji": "atarashii eiga ga raishuu kara jouei saremasu.",
+                "meanings": {
+                  "id": "Film baru akan ditayangkan mulai minggu depan.",
+                  "en": "A new movie will be screened from next week."
+                }
+              }
+            ]
           }
         ]
       }
@@ -41,7 +160,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "film",
-    "en": "picture, stroke"
+    "id": "memantulkan",
+    "en": "reflect, project"
   }
 }
