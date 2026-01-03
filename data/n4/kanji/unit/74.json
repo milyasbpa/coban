@@ -1,66 +1,108 @@
 {
   "id": 74,
-  "character": "待",
+  "character": "急",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "ま",
-        "romanji": "ma",
+        "furigana": "いそ",
+        "romanji": "iso",
         "examples": [
           {
             "id": 1,
-            "word": "待つ",
-            "furigana": "まつ",
-            "romanji": "matsu",
+            "word": "急ぐ",
+            "furigana": "いそぐ",
+            "romanji": "isogu",
             "meanings": {
-              "id": "menunggu",
-              "en": "to wait"
-            }
-          },
-          {
-            "id": 2,
-            "word": "待合室",
-            "furigana": "まちあいしつ",
-            "romanji": "machiaishitsu",
-            "meanings": {
-              "id": "ruang tunggu",
-              "en": "waiting room"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "まち",
-        "romanji": "machi",
-        "examples": [
-          {
-            "id": 2,
-            "word": "待合室",
-            "furigana": "まちあいしつ",
-            "romanji": "machiaishitsu",
-            "meanings": {
-              "id": "ruang tunggu",
-              "en": "waiting room"
-            }
+              "id": "terburu-buru",
+              "en": "to hurry"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "急がないと遅れますよ。",
+                "furigana": "いそがないとおくれますよ。",
+                "romaji": "isoganai to okuremasu yo.",
+                "meanings": {
+                  "id": "Kalau tidak terburu-buru, Anda akan terlambat.",
+                  "en": "If you don't hurry, you'll be late."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "タイ",
-        "romanji": "tai",
+        "furigana": "キュウ",
+        "romanji": "kyuu",
         "examples": [
           {
-            "id": 3,
-            "word": "招待",
-            "furigana": "しょうたい",
-            "romanji": "shoutai",
+            "id": 1,
+            "word": "急に",
+            "furigana": "きゅうに",
+            "romanji": "kyuuni",
             "meanings": {
-              "id": "undangan",
-              "en": "invitation"
-            }
+              "id": "tiba-tiba, mendadak",
+              "en": "suddenly"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "急に雨が降ってきました。",
+                "furigana": "きゅうにあめがふってきました。",
+                "romaji": "kyuuni ame ga futte kimashita.",
+                "meanings": {
+                  "id": "Tiba-tiba turun hujan.",
+                  "en": "It suddenly started raining."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "急用",
+            "furigana": "きゅうよう",
+            "romanji": "kyuuyou",
+            "meanings": {
+              "id": "keperluan mendadak",
+              "en": "urgent business"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "急用ができて行けなくなりました。",
+                "furigana": "きゅうようができていけなくなりました。",
+                "romaji": "kyuuyou ga dekite ikenaku narimashita.",
+                "meanings": {
+                  "id": "Ada keperluan mendadak sehingga tidak bisa pergi.",
+                  "en": "An urgent matter came up and I can't go."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "特急",
+            "furigana": "とっきゅう",
+            "romanji": "tokkyuu",
+            "meanings": {
+              "id": "super ekspress",
+              "en": "limited express"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "特急に乗って東京に行きました。",
+                "furigana": "とっきゅうにのってとうきょうにいきました。",
+                "romaji": "tokkyuu ni notte toukyou ni ikimashita.",
+                "meanings": {
+                  "id": "Saya naik kereta super ekspress ke Tokyo.",
+                  "en": "I took the limited express to Tokyo."
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "menunggu",
-    "en": "wait"
+    "id": "terburu-buru",
+    "en": "hurry, sudden"
   }
 }
