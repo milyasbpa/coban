@@ -1,60 +1,172 @@
 {
   "id": 79,
-  "character": "屋",
+  "character": "重",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "や",
-        "romanji": "ya",
-        "examples": []
-      }
-    ],
-    "on": [
-      {
-        "furigana": "オク",
-        "romanji": "oku",
+        "furigana": "おも",
+        "romanji": "omo",
         "examples": [
           {
-            "id": 3,
-            "word": "屋上",
-            "furigana": "おくじょう",
-            "romanji": "okujou",
+            "id": 1,
+            "word": "重い",
+            "furigana": "おもい",
+            "romanji": "omoi",
             "meanings": {
-              "id": "atap",
-              "en": "rooftop"
-            }
+              "id": "berat",
+              "en": "heavy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "このかばんは重いです。",
+                "furigana": "このかばんはおもいです。",
+                "romaji": "kono kaban wa omoi desu.",
+                "meanings": {
+                  "id": "Tas ini berat.",
+                  "en": "This bag is heavy."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "かさ",
+        "romanji": "kasa",
+        "examples": [
+          {
+            "id": 2,
+            "word": "重ねる",
+            "furigana": "かさねる",
+            "romanji": "kasaneru",
+            "meanings": {
+              "id": "menumpukkan",
+              "en": "to pile up"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "本を重ねて置いてください。",
+                "furigana": "ほんをかさねておいてください。",
+                "romaji": "hon wo kasanete oite kudasai.",
+                "meanings": {
+                  "id": "Tolong tumpukkan buku-buku itu.",
+                  "en": "Please pile up the books."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "重なる",
+            "furigana": "かさなる",
+            "romanji": "kasanaru",
+            "meanings": {
+              "id": "bertumpuk",
+              "en": "to be piled up"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "仕事が重なって忙しいです。",
+                "furigana": "しごとがかさなっていそがしいです。",
+                "romaji": "shigoto ga kasanatte isogashii desu.",
+                "meanings": {
+                  "id": "Pekerjaan menumpuk dan saya sibuk.",
+                  "en": "Work is piling up and I'm busy."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 1,
-          "word": "本屋",
-          "furigana": "ほんや",
-          "romanji": "honya",
-          "meanings": {
-            "id": "toko buku",
-            "en": "bookstore"
+    "on": [
+      {
+        "furigana": "ジュウ",
+        "romanji": "jyuu",
+        "examples": [
+          {
+            "id": 4,
+            "word": "重要",
+            "furigana": "じゅうよう",
+            "romanji": "jyuuyou",
+            "meanings": {
+              "id": "penting",
+              "en": "important"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "これは重要な会議です。",
+                "furigana": "これはじゅうようなかいぎです。",
+                "romaji": "kore wa jyuuyou na kaigi desu.",
+                "meanings": {
+                  "id": "Ini adalah rapat penting.",
+                  "en": "This is an important meeting."
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "word": "体重",
+            "furigana": "たいじゅう",
+            "romanji": "taijyuu",
+            "meanings": {
+              "id": "berat badan",
+              "en": "body weight"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "最近、体重が増えました。",
+                "furigana": "さいきん、たいじゅうがふえました。",
+                "romaji": "saikin, taijyuu ga fuemashita.",
+                "meanings": {
+                  "id": "Baru-baru ini, berat badan saya bertambah.",
+                  "en": "Recently, my body weight has increased."
+                }
+              }
+            ]
           }
-        },
-        {
-          "id": 2,
-          "word": "肉屋",
-          "furigana": "にくや",
-          "romanji": "nikuya",
-          "meanings": {
-            "id": "toko daging",
-            "en": "butcher shop"
+        ]
+      },
+      {
+        "furigana": "チョウ",
+        "romanji": "shou",
+        "examples": [
+          {
+            "id": 6,
+            "word": "貴重",
+            "furigana": "きちょう",
+            "romanji": "kishou",
+            "meanings": {
+              "id": "berharga",
+              "en": "precious, valuable"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "これは貴重な経験でした。",
+                "furigana": "これはきちょうなけいけんでした。",
+                "romaji": "kore wa kishou na keiken deshita.",
+                "meanings": {
+                  "id": "Ini adalah pengalaman yang berharga.",
+                  "en": "This was a valuable experience."
+                }
+              }
+            ]
           }
-        }
-      ]
-    }
+        ]
+      }
+    ],
+    "exception": null
   },
   "meanings": {
-    "id": "toko buku",
-    "en": "shop, house"
+    "id": "berat, penting",
+    "en": "heavy, important"
   }
 }
