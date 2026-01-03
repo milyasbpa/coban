@@ -16,7 +16,19 @@
             "meanings": {
               "id": "kuat, keras",
               "en": "strong"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は力が強いです。",
+                "furigana": "かれはちからがつよいです。",
+                "romaji": "kare wa chikara ga tsuyoi desu.",
+                "meanings": {
+                  "id": "Dia kuat tenaganya.",
+                  "en": "He is strong."
+                }
+              }
+            ]
           },
           {
             "id": 2,
@@ -25,8 +37,20 @@
             "romanji": "tsuyoki",
             "meanings": {
               "id": "nekat, bersikeras",
-              "en": "bullish"
-            }
+              "en": "bullish, assertive"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼女はいつも強気な態度です。",
+                "furigana": "かのじょはいつもつよきなたいどです。",
+                "romaji": "kanojo wa itsumo tsuyoki na taido desu.",
+                "meanings": {
+                  "id": "Dia selalu bersikap tegas.",
+                  "en": "She always has an assertive attitude."
+                }
+              }
+            ]
           }
         ]
       }
@@ -37,14 +61,48 @@
         "romanji": "kyou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
+            "word": "強力",
+            "furigana": "きょうりょく",
+            "romanji": "kyouryoku",
+            "meanings": {
+              "id": "berkekuatan, keras",
+              "en": "powerful, strong"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この薬は強力な効果があります。",
+                "furigana": "このくすりはきょうりょくなこうかがあります。",
+                "romaji": "kono kusuri wa kyouryoku na kouka ga arimasu.",
+                "meanings": {
+                  "id": "Obat ini memiliki efek yang kuat.",
+                  "en": "This medicine has a powerful effect."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
             "word": "勉強",
             "furigana": "べんきょう",
             "romanji": "benkyou",
             "meanings": {
-              "id": "berkekuatan, keras",
-              "en": "study"
-            }
+              "id": "pelajaran, belajar",
+              "en": "study, learning"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日日本語の勉強をしています。",
+                "furigana": "まいにちにほんごのべんきょうをしています。",
+                "romaji": "mainichi nihongo no benkyou wo shite imasu.",
+                "meanings": {
+                  "id": "Saya belajar bahasa Jepang setiap hari.",
+                  "en": "I study Japanese every day."
+                }
+              }
+            ]
           }
         ]
       }
