@@ -1,71 +1,138 @@
 {
   "id": 112,
-  "character": "習",
-  "strokes": 11,
+  "character": "運",
+  "strokes": 12,
   "readings": {
     "kun": [
       {
-        "furigana": "なら",
-        "romanji": "nara",
+        "furigana": "はこ",
+        "romanji": "hako",
         "examples": [
           {
             "id": 1,
-            "word": "習う",
-            "furigana": "ならう",
-            "romanji": "narau",
+            "word": "運ぶ",
+            "furigana": "はこぶ",
+            "romanji": "hakobu",
             "meanings": {
-              "id": "belajar",
-              "en": "to learn"
-            }
+              "id": "mengangkut",
+              "en": "to carry, to transport"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "荷物を部屋まで運びました。",
+                "furigana": "にもつをへやまではこびました。",
+                "romaji": "nimotsu wo heya made hakobimashita.",
+                "meanings": {
+                  "id": "Saya mengangkut barang ke kamar.",
+                  "en": "I carried the luggage to the room."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "運び",
+            "furigana": "はこび",
+            "romanji": "hakobi",
+            "meanings": {
+              "id": "angkutan, transportasi",
+              "en": "transport, carrying"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "荷物の運びは明日です。",
+                "furigana": "にもつのはこびはあしたです。",
+                "romaji": "nimotsu no hakobi wa ashita desu.",
+                "meanings": {
+                  "id": "Pengangkutan barang adalah besok.",
+                  "en": "The transport of goods is tomorrow."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シュウ",
-        "romanji": "shuu",
+        "furigana": "ウン",
+        "romanji": "un",
         "examples": [
           {
-            "id": 3,
-            "word": "習慣",
-            "furigana": "しゅうかん",
-            "romanji": "shuukan",
+            "id": 1,
+            "word": "運",
+            "furigana": "うん",
+            "romanji": "un",
             "meanings": {
-              "id": "pengulangan pelajaran",
-              "en": "habit"
-            }
+              "id": "nasib",
+              "en": "luck, fortune"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は運がいいです。",
+                "furigana": "かれはうんがいいです。",
+                "romaji": "kare wa un ga ii desu.",
+                "meanings": {
+                  "id": "Dia beruntung.",
+                  "en": "He has good luck."
+                }
+              }
+            ]
           },
           {
-            "id": 4,
-            "word": "復習",
-            "furigana": "ふくしゅう",
-            "romanji": "fukushuu",
+            "id": 2,
+            "word": "運転",
+            "furigana": "うんてん",
+            "romanji": "unten",
             "meanings": {
-              "id": "bagian",
-              "en": "review"
-            }
+              "id": "kemudi",
+              "en": "driving, operation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は毎日車を運転します。",
+                "furigana": "ちちはまいにちくるまをうんてんします。",
+                "romaji": "chichi wa mainichi kuruma wo unten shimasu.",
+                "meanings": {
+                  "id": "Ayah mengemudi mobil setiap hari.",
+                  "en": "My father drives a car every day."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "運賃",
+            "furigana": "うんちん",
+            "romanji": "unchin",
+            "meanings": {
+              "id": "ongkos transpor",
+              "en": "fare, freight"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "バスの運賃は200円です。",
+                "furigana": "バスのうんちんは200えんです。",
+                "romaji": "basu no unchin wa 200 en desu.",
+                "meanings": {
+                  "id": "Ongkos bus adalah 200 yen.",
+                  "en": "The bus fare is 200 yen."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "見習い",
-          "furigana": "みならい",
-          "romanji": "minarai",
-          "meanings": {
-            "id": "latihan, magang",
-            "en": "apprentice"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "belajar",
-    "en": "learn, practice"
+    "id": "mengangkut, nasib",
+    "en": "carry, luck, fortune"
   }
 }
