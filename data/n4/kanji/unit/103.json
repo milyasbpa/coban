@@ -1,81 +1,108 @@
 {
   "id": 103,
-  "character": "真",
-  "strokes": 10,
+  "character": "転",
+  "strokes": 11,
   "readings": {
     "kun": [
       {
-        "furigana": "ま",
-        "romanji": "ma",
+        "furigana": "ころ",
+        "romanji": "koro",
         "examples": [
           {
             "id": 1,
-            "word": "真夜中",
-            "furigana": "まよなか",
-            "romanji": "mayonaka",
+            "word": "転ぶ",
+            "furigana": "ころぶ",
+            "romanji": "korobu",
             "meanings": {
-              "id": "tengah malam",
-              "en": "midnight"
-            }
-          },
-          {
-            "id": 2,
-            "word": "真暗",
-            "furigana": "まっくら",
-            "romanji": "makkura",
-            "meanings": {
-              "id": "gelap gulita",
-              "en": "pitch dark"
-            }
-          },
-          {
-            "id": 3,
-            "word": "真中",
-            "furigana": "まんなか",
-            "romanji": "mannaka",
-            "meanings": {
-              "id": "tengah-tengah",
-              "en": "center"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "まつ",
-        "romanji": "matsu",
-        "examples": []
-      },
-      {
-        "furigana": "まん",
-        "romanji": "man",
-        "examples": [
-          {
-            "id": 3,
-            "word": "真中",
-            "furigana": "まんなか",
-            "romanji": "mannaka",
-            "meanings": {
-              "id": "tengah-tengah",
-              "en": "center"
-            }
+              "id": "jatuh terguling",
+              "en": "to fall down, tumble"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "道で転んでしまいました。",
+                "furigana": "みちでころんでしまいました。",
+                "romaji": "michi de koronde shimaimashita.",
+                "meanings": {
+                  "id": "Saya terjatuh di jalan.",
+                  "en": "I fell down on the road."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シン",
-        "romanji": "shin",
+        "furigana": "テン",
+        "romanji": "ten",
         "examples": [
           {
-            "id": 4,
-            "word": "真実",
-            "furigana": "しんじつ",
-            "romanji": "shinjitsu",
+            "id": 2,
+            "word": "転倒",
+            "furigana": "てんとう",
+            "romanji": "tentou",
             "meanings": {
-              "id": "kesungguhan",
-              "en": "truth"
-            }
+              "id": "terbalik",
+              "en": "falling down, tumbling"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "雪で転倒しないように気をつけてください。",
+                "furigana": "ゆきでてんとうしないようにきをつけてください。",
+                "romaji": "yuki de tentou shinai you ni ki wo tsukete kudasai.",
+                "meanings": {
+                  "id": "Tolong hati-hati agar tidak terjatuh di salju.",
+                  "en": "Please be careful not to fall in the snow."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "運転",
+            "furigana": "うんてん",
+            "romanji": "unten",
+            "meanings": {
+              "id": "kemudi",
+              "en": "driving, operation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は車の運転が上手です。",
+                "furigana": "ちちはくるまのうんてんがじょうずです。",
+                "romaji": "chichi wa kuruma no unten ga jouzu desu.",
+                "meanings": {
+                  "id": "Ayah pandai mengemudi mobil.",
+                  "en": "My father is good at driving cars."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "自転車",
+            "furigana": "じてんしゃ",
+            "romanji": "jitensha",
+            "meanings": {
+              "id": "sepeda",
+              "en": "bicycle"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日自転車で学校に行きます。",
+                "furigana": "まいにちじてんしゃでがっこうにいきます。",
+                "romaji": "mainichi jitensha de gakkou ni ikimasu.",
+                "meanings": {
+                  "id": "Saya pergi ke sekolah dengan sepeda setiap hari.",
+                  "en": "I go to school by bicycle every day."
+                }
+              }
+            ]
           }
         ]
       }
@@ -83,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "tengah malam",
-    "en": "true, real"
+    "id": "berputar, berguling",
+    "en": "turn, roll"
   }
 }
