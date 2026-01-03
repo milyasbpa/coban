@@ -1,50 +1,108 @@
 {
   "id": 84,
-  "character": "思",
-  "strokes": 9,
+  "character": "荷",
+  "strokes": 10,
   "readings": {
     "kun": [
       {
-        "furigana": "おも",
-        "romanji": "omo",
+        "furigana": "に",
+        "romanji": "ni",
         "examples": [
           {
             "id": 1,
-            "word": "思う",
-            "furigana": "おもう",
-            "romanji": "omou",
+            "word": "荷物",
+            "furigana": "にもつ",
+            "romanji": "nimotsu",
             "meanings": {
-              "id": "berpikir",
-              "en": "to think"
-            }
+              "id": "barang bawaan",
+              "en": "luggage, baggage"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "荷物が重くて運べません。",
+                "furigana": "にもつがおもくてはこべません。",
+                "romaji": "nimotsu ga omokute hakobemasen.",
+                "meanings": {
+                  "id": "Barang bawaan ini berat dan tidak bisa dibawa.",
+                  "en": "The luggage is heavy and I can't carry it."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "思い出す",
-            "furigana": "おもいだす",
-            "romanji": "omoidasu",
+            "word": "荷造り",
+            "furigana": "にづくり",
+            "romanji": "nizukuri",
             "meanings": {
-              "id": "mengenang",
-              "en": "to remember"
-            }
+              "id": "paking",
+              "en": "packing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "引っ越しのために荷造りをしています。",
+                "furigana": "ひっこしのためににづくりをしています。",
+                "romaji": "hikkoshi no tame ni nizukuri wo shiteimasu.",
+                "meanings": {
+                  "id": "Saya sedang melakukan packing untuk pindahan.",
+                  "en": "I am packing for the move."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シ",
-        "romanji": "shi",
+        "furigana": "カ",
+        "romanji": "ka",
         "examples": [
           {
             "id": 3,
-            "word": "思考",
-            "furigana": "しこう",
-            "romanji": "shikou",
+            "word": "出荷",
+            "furigana": "しゅっか",
+            "romanji": "shukka",
             "meanings": {
-              "id": "pemikiran",
-              "en": "thought"
-            }
+              "id": "pengeluaran barang",
+              "en": "shipment, shipping out"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "商品の出荷は来週です。",
+                "furigana": "しょうひんのしゅっかはらいしゅうです。",
+                "romaji": "shouhin no shukka wa raishuu desu.",
+                "meanings": {
+                  "id": "Pengiriman barang adalah minggu depan.",
+                  "en": "The product shipment is next week."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "入荷",
+            "furigana": "にゅうか",
+            "romanji": "nyuuka",
+            "meanings": {
+              "id": "pemasukan barang",
+              "en": "arrival of goods"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい商品が入荷しました。",
+                "furigana": "あたらしいしょうひんがにゅうかしました。",
+                "romaji": "atarashii shouhin ga nyuuka shimashita.",
+                "meanings": {
+                  "id": "Produk baru telah masuk.",
+                  "en": "New products have arrived."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berpikir",
-    "en": "think"
+    "id": "barang, muatan",
+    "en": "luggage, cargo"
   }
 }
