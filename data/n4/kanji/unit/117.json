@@ -1,43 +1,86 @@
 {
   "id": 117,
-  "character": "理",
-  "strokes": 11,
+  "character": "飯",
+  "strokes": 12,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "リ",
-        "romanji": "ri",
+        "furigana": "めし",
+        "romanji": "meshi",
         "examples": [
           {
             "id": 1,
-            "word": "理由",
-            "furigana": "りゆう",
-            "romanji": "riyuu",
+            "word": "焼き飯",
+            "furigana": "やきめし",
+            "romanji": "yakimeshi",
             "meanings": {
-              "id": "alasan",
-              "en": "reason"
-            }
+              "id": "nasi goreng",
+              "en": "fried rice"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昼ご飯に焼き飯を食べました。",
+                "furigana": "ひるごはんにやきめしをたべました。",
+                "romaji": "hirugohan ni yakimeshi wo tabemashita.",
+                "meanings": {
+                  "id": "Saya makan nasi goreng untuk makan siang.",
+                  "en": "I ate fried rice for lunch."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ハン",
+        "romanji": "han",
+        "examples": [
+          {
+            "id": 1,
+            "word": "ご飯",
+            "furigana": "ごはん",
+            "romanji": "gohan",
+            "meanings": {
+              "id": "nasi",
+              "en": "rice, meal"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日ご飯を食べます。",
+                "furigana": "まいにちごはんをたべます。",
+                "romaji": "mainichi gohan wo tabemasu.",
+                "meanings": {
+                  "id": "Saya makan nasi setiap hari.",
+                  "en": "I eat rice every day."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "理想的",
-            "furigana": "りそうてき",
-            "romanji": "risouteki",
+            "word": "夕飯",
+            "furigana": "ゆうはん",
+            "romanji": "yuuhan",
             "meanings": {
-              "id": "ideal",
-              "en": "ideal"
-            }
-          },
-          {
-            "id": 3,
-            "word": "料理",
-            "furigana": "りょうり",
-            "romanji": "ryouri",
-            "meanings": {
-              "id": "masakan",
-              "en": "cooking"
-            }
+              "id": "makan malam",
+              "en": "dinner"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "夕飯は家族と食べます。",
+                "furigana": "ゆうはんはかぞくとたべます。",
+                "romaji": "yuuhan wa kazoku to tabemasu.",
+                "meanings": {
+                  "id": "Saya makan malam bersama keluarga.",
+                  "en": "I eat dinner with my family."
+                }
+              }
+            ]
           }
         ]
       }
@@ -45,7 +88,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "alasan",
-    "en": "reason, logic"
+    "id": "nasi",
+    "en": "rice, meal"
   }
 }
