@@ -1,50 +1,108 @@
 {
   "id": 116,
-  "character": "教",
-  "strokes": 11,
+  "character": "貸",
+  "strokes": 12,
   "readings": {
     "kun": [
       {
-        "furigana": "おし",
-        "romanji": "oshi",
+        "furigana": "か",
+        "romanji": "ka",
         "examples": [
           {
             "id": 1,
-            "word": "教える",
-            "furigana": "おしえる",
-            "romanji": "oshieru",
+            "word": "貸す",
+            "furigana": "かす",
+            "romanji": "kasu",
             "meanings": {
-              "id": "mengajar",
-              "en": "to teach"
-            }
+              "id": "meminjamkan",
+              "en": "to lend"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "友達に本を貸しました。",
+                "furigana": "ともだちにほんをかしました。",
+                "romaji": "tomodachi ni hon wo kashimashita.",
+                "meanings": {
+                  "id": "Saya meminjamkan buku kepada teman.",
+                  "en": "I lent a book to my friend."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "教え",
-            "furigana": "おしえ",
-            "romanji": "oshie",
+            "word": "貸し出す",
+            "furigana": "かしだす",
+            "romanji": "kashidasu",
             "meanings": {
-              "id": "ajaran",
-              "en": "teaching"
-            }
+              "id": "kasih pinjam",
+              "en": "to lend out"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "図書館は本を貸し出しています。",
+                "furigana": "としょかんはほんをかしだしています。",
+                "romaji": "toshokan wa hon wo kashidashite imasu.",
+                "meanings": {
+                  "id": "Perpustakaan meminjamkan buku.",
+                  "en": "The library lends out books."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "キョウ",
-        "romanji": "kyou",
+        "furigana": "タイ",
+        "romanji": "tai",
         "examples": [
           {
-            "id": 3,
-            "word": "教室",
-            "furigana": "きょうしつ",
-            "romanji": "kyoushitsu",
+            "id": 1,
+            "word": "貸借",
+            "furigana": "たいしゃく",
+            "romanji": "taishaku",
             "meanings": {
-              "id": "kelas",
-              "en": "classroom"
-            }
+              "id": "pinjaman",
+              "en": "loan, lending and borrowing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "貸借の記録を書いています。",
+                "furigana": "たいしゃくのきろくをかいています。",
+                "romaji": "taishaku no kiroku wo kaite imasu.",
+                "meanings": {
+                  "id": "Saya menulis catatan pinjaman.",
+                  "en": "I am writing a loan record."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "賃貸",
+            "furigana": "ちんたい",
+            "romanji": "chintai",
+            "meanings": {
+              "id": "sewa, carter",
+              "en": "rent, rental"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "賃貸アパートを探しています。",
+                "furigana": "ちんたいアパートをさがしています。",
+                "romaji": "chintai apaato wo sagashite imasu.",
+                "meanings": {
+                  "id": "Saya sedang mencari apartemen sewaan.",
+                  "en": "I am looking for a rental apartment."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mengajar",
-    "en": "teach"
+    "id": "meminjamkan",
+    "en": "lend, rent"
   }
 }
