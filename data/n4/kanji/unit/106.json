@@ -1,43 +1,79 @@
 {
   "id": 106,
-  "character": "料",
-  "strokes": 10,
+  "character": "族",
+  "strokes": 11,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "リョウ",
-        "romanji": "ryou",
+        "furigana": "ゾク",
+        "romanji": "zoku",
         "examples": [
           {
             "id": 1,
-            "word": "料理",
-            "furigana": "りょうり",
-            "romanji": "ryouri",
+            "word": "家族",
+            "furigana": "かぞく",
+            "romanji": "kazoku",
             "meanings": {
-              "id": "masakan",
-              "en": "cooking"
-            }
+              "id": "keluarga",
+              "en": "family"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私の家族は5人です。",
+                "furigana": "わたしのかぞくは5にんです。",
+                "romaji": "watashi no kazoku wa go nin desu.",
+                "meanings": {
+                  "id": "Keluarga saya ada 5 orang.",
+                  "en": "My family has 5 people."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "材料",
-            "furigana": "ざいりょう",
-            "romanji": "zairyou",
+            "word": "民族",
+            "furigana": "みんぞく",
+            "romanji": "minzoku",
             "meanings": {
-              "id": "upah, gaji",
-              "en": "materials"
-            }
+              "id": "bangsa, ras",
+              "en": "ethnic group, race"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本にはいろいろな民族が住んでいます。",
+                "furigana": "にほんにはいろいろなみんぞくがすんでいます。",
+                "romaji": "nihon ni wa iroiro na minzoku ga sunde imasu.",
+                "meanings": {
+                  "id": "Di Jepang tinggal berbagai macam bangsa.",
+                  "en": "Various ethnic groups live in Japan."
+                }
+              }
+            ]
           },
           {
             "id": 3,
-            "word": "給料",
-            "furigana": "きゅうりょう",
-            "romanji": "kyuuryou",
+            "word": "貴族",
+            "furigana": "きぞく",
+            "romanji": "kizoku",
             "meanings": {
-              "id": "bahan",
-              "en": "salary"
-            }
+              "id": "bangsawan",
+              "en": "nobility, aristocrat"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昔、この国には貴族がたくさんいました。",
+                "furigana": "むかし、このくにはきぞくがたくさんいました。",
+                "romaji": "mukashi, kono kuni ni wa kizoku ga takusan imashita.",
+                "meanings": {
+                  "id": "Dulu, ada banyak bangsawan di negara ini.",
+                  "en": "In the past, there were many nobles in this country."
+                }
+              }
+            ]
           }
         ]
       }
@@ -45,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "masakan",
-    "en": "cooking, fee"
+    "id": "keluarga, suku",
+    "en": "family, tribe"
   }
 }
