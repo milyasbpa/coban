@@ -1,50 +1,136 @@
 {
   "id": 109,
-  "character": "間",
+  "character": "悪",
   "strokes": 11,
   "readings": {
     "kun": [
       {
-        "furigana": "と",
-        "romanji": "to",
+        "furigana": "わる",
+        "romanji": "waru",
         "examples": [
           {
             "id": 1,
-            "word": "問い",
-            "furigana": "とい",
-            "romanji": "toi",
+            "word": "悪い",
+            "furigana": "わるい",
+            "romanji": "warui",
             "meanings": {
-              "id": "pertanyaan",
-              "en": "question"
-            }
+              "id": "buruk, jelek",
+              "en": "bad, poor"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は天気が悪いです。",
+                "furigana": "きょうはてんきがわるいです。",
+                "romaji": "kyou wa tenki ga warui desu.",
+                "meanings": {
+                  "id": "Hari ini cuacanya buruk.",
+                  "en": "The weather is bad today."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "悪気",
+            "furigana": "わるぎ",
+            "romanji": "warugi",
+            "meanings": {
+              "id": "maksud jahat",
+              "en": "ill will, malice"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は悪気がなくて言いました。",
+                "furigana": "かれはわるぎがなくていいました。",
+                "romaji": "kare wa warugi ga nakute iimashita.",
+                "meanings": {
+                  "id": "Dia mengatakan itu tanpa maksud jahat.",
+                  "en": "He said it without ill will."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "モン",
-        "romanji": "mon",
+        "furigana": "アク",
+        "romanji": "aku",
         "examples": [
           {
-            "id": 2,
-            "word": "問題",
-            "furigana": "もんだい",
-            "romanji": "mondai",
+            "id": 1,
+            "word": "悪夢",
+            "furigana": "あくむ",
+            "romanji": "akumu",
             "meanings": {
-              "id": "soal, masalah",
-              "en": "problem"
-            }
+              "id": "mimpi buruk",
+              "en": "nightmare"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昨日悪夢を見ました。",
+                "furigana": "きのうあくむをみました。",
+                "romaji": "kinou akumu wo mimashita.",
+                "meanings": {
+                  "id": "Kemarin saya bermimpi buruk.",
+                  "en": "I had a nightmare yesterday."
+                }
+              }
+            ]
           },
           {
-            "id": 3,
-            "word": "訪問",
-            "furigana": "ほうもん",
-            "romanji": "houmon",
+            "id": 2,
+            "word": "最悪",
+            "furigana": "さいあく",
+            "romanji": "saiaku",
             "meanings": {
-              "id": "kunjungan",
-              "en": "visit"
-            }
+              "id": "jahat, keji",
+              "en": "worst, terrible"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日は最悪の日でした。",
+                "furigana": "きょうはさいあくのひでした。",
+                "romaji": "kyou wa saiaku no hi deshita.",
+                "meanings": {
+                  "id": "Hari ini adalah hari terburuk.",
+                  "en": "Today was the worst day."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "オ",
+        "romanji": "o",
+        "examples": [
+          {
+            "id": 1,
+            "word": "悪寒",
+            "furigana": "おかん",
+            "romanji": "okan",
+            "meanings": {
+              "id": "kedinginan",
+              "en": "chills, shivering"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "熱が出て悪寒がします。",
+                "furigana": "ねつがでておかんがします。",
+                "romaji": "netsu ga dete okan ga shimasu.",
+                "meanings": {
+                  "id": "Saya demam dan merasa kedinginan.",
+                  "en": "I have a fever and feel chills."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "pertanyaan",
-    "en": "question, ask"
+    "id": "buruk, jahat",
+    "en": "bad, evil"
   }
 }
