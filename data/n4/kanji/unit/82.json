@@ -1,79 +1,138 @@
 {
   "id": 82,
-  "character": "音",
+  "character": "計",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "おと",
-        "romanji": "oto",
+        "furigana": "はか",
+        "romanji": "haka",
         "examples": [
           {
             "id": 1,
-            "word": "音",
-            "furigana": "おと",
-            "romanji": "oto",
+            "word": "計る",
+            "furigana": "はかる",
+            "romanji": "hakaru",
             "meanings": {
-              "id": "bunyi",
-              "en": "sound"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ね",
-        "romanji": "ne",
-        "examples": [
+              "id": "mengukur",
+              "en": "to measure"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "体温を計ってください。",
+                "furigana": "たいおんをはかってください。",
+                "romaji": "taion wo hakatte kudasai.",
+                "meanings": {
+                  "id": "Tolong ukur suhu tubuh Anda.",
+                  "en": "Please measure your body temperature."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "音色",
-            "furigana": "ねいろ",
-            "romanji": "neiro",
+            "word": "計らい",
+            "furigana": "はからい",
+            "romanji": "hakarai",
             "meanings": {
-              "id": "nada",
-              "en": "tone"
-            }
+              "id": "manajemen, kebijaksanaan",
+              "en": "management, consideration"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生の計らいで試験が延期されました。",
+                "furigana": "せんせいのはからいでしけんがえんきされました。",
+                "romaji": "sensei no hakarai de shiken ga enki saremashita.",
+                "meanings": {
+                  "id": "Dengan kebijaksanaan guru, ujian ditunda.",
+                  "en": "The exam was postponed by the teacher's consideration."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "オン",
-        "romanji": "on",
+        "furigana": "ケイ",
+        "romanji": "kei",
         "examples": [
           {
             "id": 3,
-            "word": "音楽",
-            "furigana": "おんがく",
-            "romanji": "ongaku",
+            "word": "時計",
+            "furigana": "とけい",
+            "romanji": "tokei",
             "meanings": {
-              "id": "musik",
-              "en": "music"
-            }
+              "id": "jam (tangan/dinding)",
+              "en": "clock, watch"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい時計を買いたいです。",
+                "furigana": "あたらしいとけいをかいたいです。",
+                "romaji": "atarashii tokei wo kaitai desu.",
+                "meanings": {
+                  "id": "Saya ingin membeli jam tangan baru.",
+                  "en": "I want to buy a new watch."
+                }
+              }
+            ]
           },
           {
             "id": 4,
-            "word": "発音",
-            "furigana": "はつおん",
-            "romanji": "hatsuon",
+            "word": "計画",
+            "furigana": "けいかく",
+            "romanji": "keikaku",
             "meanings": {
-              "id": "pelafalan",
-              "en": "pronunciation"
-            }
+              "id": "perencanaan",
+              "en": "plan"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "旅行の計画を立てています。",
+                "furigana": "りょこうのけいかくをたてています。",
+                "romaji": "ryokou no keikaku wo tateteimasu.",
+                "meanings": {
+                  "id": "Saya sedang membuat rencana perjalanan.",
+                  "en": "I am making a travel plan."
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "word": "計算",
+            "furigana": "けいさん",
+            "romanji": "keisan",
+            "meanings": {
+              "id": "perhitungan",
+              "en": "calculation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この計算が難しくて分かりません。",
+                "furigana": "このけいさんがむずかしくてわかりません。",
+                "romaji": "kono keisan ga muzukashikute wakarimasen.",
+                "meanings": {
+                  "id": "Perhitungan ini sulit dan saya tidak mengerti.",
+                  "en": "This calculation is difficult and I don't understand."
+                }
+              }
+            ]
           }
         ]
-      },
-      {
-        "furigana": "イン",
-        "romanji": "in",
-        "examples": []
       }
     ],
     "exception": null
   },
   "meanings": {
-    "id": "bunyi",
-    "en": "sound"
+    "id": "menghitung, mengukur",
+    "en": "measure, calculate"
   }
 }
