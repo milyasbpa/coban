@@ -1,66 +1,136 @@
 {
   "id": 124,
-  "character": "開",
-  "strokes": 12,
+  "character": "試",
+  "strokes": 13,
   "readings": {
     "kun": [
       {
-        "furigana": "あ",
-        "romanji": "a",
+        "furigana": "こころ",
+        "romanji": "kokoro",
         "examples": [
           {
             "id": 1,
-            "word": "開ける",
-            "furigana": "あける",
-            "romanji": "akeru",
+            "word": "試みる",
+            "furigana": "こころみる",
+            "romanji": "kokoromiru",
             "meanings": {
-              "id": "membuka",
-              "en": "to open"
-            }
-          },
-          {
-            "id": 2,
-            "word": "開く",
-            "furigana": "あく",
-            "romanji": "aku",
-            "meanings": {
-              "id": "terbuka",
-              "en": "to open (intransitive)"
-            }
+              "id": "mencoba",
+              "en": "to try, to attempt"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "新しい方法を試みました。",
+                "furigana": "あたらしいほうほうをこころみました。",
+                "romaji": "atarashii houhou wo kokoromimashita.",
+                "meanings": {
+                  "id": "Saya mencoba metode baru.",
+                  "en": "I tried a new method."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ひら",
-        "romanji": "hira",
+        "furigana": "ため",
+        "romanji": "tame",
         "examples": [
           {
-            "id": 3,
-            "word": "開く",
-            "furigana": "ひらく",
-            "romanji": "hiraku",
+            "id": 1,
+            "word": "試す",
+            "furigana": "ためす",
+            "romanji": "tamesu",
             "meanings": {
-              "id": "buka",
-              "en": "to open (transitive)"
-            }
+              "id": "menguji, mencoba",
+              "en": "to test, to try"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この料理を試してください。",
+                "furigana": "このりょうりをためしてください。",
+                "romaji": "kono ryouri wo tameshite kudasai.",
+                "meanings": {
+                  "id": "Tolong coba masakan ini.",
+                  "en": "Please try this dish."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "カイ",
-        "romanji": "kai",
+        "furigana": "シ",
+        "romanji": "shi",
         "examples": [
           {
-            "id": 4,
-            "word": "開始",
-            "furigana": "かいし",
-            "romanji": "kaishi",
+            "id": 1,
+            "word": "試合",
+            "furigana": "しあい",
+            "romanji": "shiai",
             "meanings": {
-              "id": "mulai",
-              "en": "start"
-            }
+              "id": "pertandingan",
+              "en": "match, game"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "明日、サッカーの試合があります。",
+                "furigana": "あした、サッカーのしあいがあります。",
+                "romaji": "ashita, sakkaa no shiai ga arimasu.",
+                "meanings": {
+                  "id": "Besok ada pertandingan sepak bola.",
+                  "en": "There is a soccer match tomorrow."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "試着",
+            "furigana": "しちゃく",
+            "romanji": "shichaku",
+            "meanings": {
+              "id": "coba (pakaian)",
+              "en": "trying on clothes"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この服を試着してもいいですか。",
+                "furigana": "このふくをしちゃくしてもいいですか。",
+                "romaji": "kono fuku wo shichaku shite mo ii desu ka.",
+                "meanings": {
+                  "id": "Bolehkah saya mencoba baju ini?",
+                  "en": "May I try on these clothes?"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "入試",
+            "furigana": "にゅうし",
+            "romanji": "nyuushi",
+            "meanings": {
+              "id": "ujian masuk",
+              "en": "entrance examination"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来月、大学の入試を受けます。",
+                "furigana": "らいげつ、だいがくのにゅうしをうけます。",
+                "romaji": "raigetsu, daigaku no nyuushi wo ukemasu.",
+                "meanings": {
+                  "id": "Bulan depan saya akan mengikuti ujian masuk universitas.",
+                  "en": "I will take the university entrance exam next month."
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "membuka",
-    "en": "open"
+    "id": "mencoba, ujian",
+    "en": "test, try"
   }
 }
