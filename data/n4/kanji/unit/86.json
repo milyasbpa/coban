@@ -1,56 +1,142 @@
 {
   "id": 86,
-  "character": "便",
-  "strokes": 9,
+  "character": "真",
+  "strokes": 10,
   "readings": {
     "kun": [
       {
-        "furigana": "たよ",
-        "romanji": "tayo",
+        "furigana": "ま",
+        "romanji": "ma",
         "examples": [
           {
             "id": 1,
-            "word": "便り",
-            "furigana": "たより",
-            "romanji": "tayori",
+            "word": "真夜中",
+            "furigana": "まよなか",
+            "romanji": "mayonaka",
             "meanings": {
-              "id": "surat, berita",
-              "en": "news, letter"
-            }
+              "id": "tengah malam buta",
+              "en": "midnight"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "真夜中に電話がかかってきました。",
+                "furigana": "まよなかにでんわがかかってきました。",
+                "romaji": "mayonaka ni denwa ga kakattekimashita.",
+                "meanings": {
+                  "id": "Telepon datang pada tengah malam.",
+                  "en": "A phone call came at midnight."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "まっ",
+        "romanji": "ma(tsu kecil)",
+        "examples": [
+          {
+            "id": 2,
+            "word": "真っ暗",
+            "furigana": "まっくら",
+            "romanji": "makkura",
+            "meanings": {
+              "id": "gelap gulita",
+              "en": "pitch dark"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "部屋が真っ暗で何も見えません。",
+                "furigana": "へやがまっくらでなにもみえません。",
+                "romaji": "heya ga makkura de nani mo miemasen.",
+                "meanings": {
+                  "id": "Ruangan gelap gulita dan tidak terlihat apa-apa.",
+                  "en": "The room is pitch dark and I can't see anything."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "まん",
+        "romanji": "man",
+        "examples": [
+          {
+            "id": 3,
+            "word": "真ん中",
+            "furigana": "まんなか",
+            "romanji": "mannaka",
+            "meanings": {
+              "id": "tengah tengah",
+              "en": "middle, center"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "机の真ん中に花瓶があります。",
+                "furigana": "つくえのまんなかにかびんがあります。",
+                "romaji": "tsukue no mannaka ni kabin ga arimasu.",
+                "meanings": {
+                  "id": "Ada vas bunga di tengah meja.",
+                  "en": "There is a vase in the middle of the table."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ベン",
-        "romanji": "ben",
+        "furigana": "シン",
+        "romanji": "shin",
         "examples": [
           {
-            "id": 2,
-            "word": "便利",
-            "furigana": "べんり",
-            "romanji": "benri",
+            "id": 4,
+            "word": "真実",
+            "furigana": "しんじつ",
+            "romanji": "shinjitsu",
             "meanings": {
-              "id": "praktis",
-              "en": "convenient"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ビン",
-        "romanji": "bin",
-        "examples": [
+              "id": "kesungguhan",
+              "en": "truth"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "真実を話してください。",
+                "furigana": "しんじつをはなしてください。",
+                "romaji": "shinjitsu wo hanashite kudasai.",
+                "meanings": {
+                  "id": "Tolong katakan yang sebenarnya.",
+                  "en": "Please tell the truth."
+                }
+              }
+            ]
+          },
           {
-            "id": 3,
-            "word": "郵便局",
-            "furigana": "ゆうびんきょく",
-            "romanji": "yuubinkyoku",
+            "id": 5,
+            "word": "真偽",
+            "furigana": "しんぎ",
+            "romanji": "shingi",
             "meanings": {
-              "id": "kantor pos",
-              "en": "post office"
-            }
+              "id": "kebenaran",
+              "en": "truth or falsehood"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "その話の真偽を確かめなければなりません。",
+                "furigana": "そのはなしのしんぎをたしかめなければなりません。",
+                "romaji": "sono hanashi no shingi wo tashikamenakereba narimasen.",
+                "meanings": {
+                  "id": "Kita harus memastikan kebenaran cerita itu.",
+                  "en": "We must confirm the truth of that story."
+                }
+              }
+            ]
           }
         ]
       }
@@ -58,7 +144,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "surat, berita",
-    "en": "convenience, mail"
+    "id": "benar, sebenarnya",
+    "en": "true, real"
   }
 }
