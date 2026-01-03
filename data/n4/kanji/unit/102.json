@@ -1,33 +1,108 @@
 {
   "id": 102,
-  "character": "席",
-  "strokes": 10,
+  "character": "野",
+  "strokes": 11,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "セキ",
-        "romanji": "seki",
+        "furigana": "の",
+        "romanji": "no",
         "examples": [
           {
             "id": 1,
-            "word": "席",
-            "furigana": "せき",
-            "romanji": "seki",
+            "word": "野原",
+            "furigana": "のはら",
+            "romanji": "nohara",
             "meanings": {
-              "id": "tempat duduk",
-              "en": "seat"
-            }
+              "id": "padang rumput",
+              "en": "field, meadow"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "野原で遊びました。",
+                "furigana": "のはらであそびました。",
+                "romaji": "nohara de asobimashita.",
+                "meanings": {
+                  "id": "Saya bermain di padang rumput.",
+                  "en": "I played in the field."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "出席",
-            "furigana": "しゅっせき",
-            "romanji": "shusseki",
+            "word": "野良犬",
+            "furigana": "のらいぬ",
+            "romanji": "norainu",
             "meanings": {
-              "id": "hadir",
-              "en": "attendance"
-            }
+              "id": "anjing liar",
+              "en": "stray dog"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "野良犬に気をつけてください。",
+                "furigana": "のらいぬにきをつけてください。",
+                "romaji": "norainu ni ki wo tsukete kudasai.",
+                "meanings": {
+                  "id": "Tolong hati-hati dengan anjing liar.",
+                  "en": "Please be careful of stray dogs."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "on": [
+      {
+        "furigana": "ヤ",
+        "romanji": "ya",
+        "examples": [
+          {
+            "id": 3,
+            "word": "野球",
+            "furigana": "やきゅう",
+            "romanji": "yakyuu",
+            "meanings": {
+              "id": "(sejenis) bola kasti",
+              "en": "baseball"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "週末に野球をします。",
+                "furigana": "しゅうまつにやきゅうをします。",
+                "romaji": "shuumatsu ni yakyuu wo shimasu.",
+                "meanings": {
+                  "id": "Saya bermain baseball pada akhir pekan.",
+                  "en": "I play baseball on weekends."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "野生",
+            "furigana": "やせい",
+            "romanji": "yasei",
+            "meanings": {
+              "id": "liar",
+              "en": "wild"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "野生の動物を見ました。",
+                "furigana": "やせいのどうぶつをみました。",
+                "romaji": "yasei no doubutsu wo mimashita.",
+                "meanings": {
+                  "id": "Saya melihat hewan liar.",
+                  "en": "I saw wild animals."
+                }
+              }
+            ]
           }
         ]
       }
@@ -35,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "tempat duduk",
-    "en": "seat"
+    "id": "lapangan, liar",
+    "en": "field, wild"
   }
 }
