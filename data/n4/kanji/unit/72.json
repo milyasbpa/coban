@@ -1,39 +1,79 @@
 {
   "id": 72,
-  "character": "茶",
+  "character": "界",
   "strokes": 9,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "チャ",
-        "romanji": "cha",
+        "furigana": "カイ",
+        "romanji": "kai",
         "examples": [
           {
             "id": 1,
-            "word": "お茶",
-            "furigana": "おちゃ",
-            "romanji": "ocha",
+            "word": "世界",
+            "furigana": "せかい",
+            "romanji": "sekai",
             "meanings": {
-              "id": "teh",
-              "en": "tea"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "サ",
-        "romanji": "sa",
-        "examples": [
+              "id": "dunia",
+              "en": "world"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "世界中を旅行したいです。",
+                "furigana": "せかいじゅうをりょこうしたいです。",
+                "romaji": "sekaijuu wo ryokou shitai desu.",
+                "meanings": {
+                  "id": "Saya ingin berkeliling dunia.",
+                  "en": "I want to travel around the world."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "茶道",
-            "furigana": "さどう",
-            "romanji": "sadou",
+            "word": "限界",
+            "furigana": "げんかい",
+            "romanji": "genkai",
             "meanings": {
-              "id": "seni minum teh",
-              "en": "tea ceremony"
-            }
+              "id": "batas, limit",
+              "en": "limit, boundary"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "もう限界だと思います。",
+                "furigana": "もうげんかいだとおもいます。",
+                "romaji": "mou genkai da to omoimasu.",
+                "meanings": {
+                  "id": "Saya pikir sudah sampai batas.",
+                  "en": "I think it's already at the limit."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "学界",
+            "furigana": "がっかい",
+            "romanji": "gakkai",
+            "meanings": {
+              "id": "dunia ilmu pengetahuan",
+              "en": "academic world"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は学界で有名な人です。",
+                "furigana": "かれはがっかいでゆうめいなひとです。",
+                "romaji": "kare wa gakkai de yuumei na hito desu.",
+                "meanings": {
+                  "id": "Dia adalah orang terkenal di dunia akademik.",
+                  "en": "He is a famous person in the academic world."
+                }
+              }
+            ]
           }
         ]
       }
@@ -41,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "teh",
-    "en": "tea"
+    "id": "dunia",
+    "en": "world, boundary"
   }
 }
