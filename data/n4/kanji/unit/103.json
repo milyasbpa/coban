@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ころ",
         "romanji": "koro",
         "examples": [
@@ -35,11 +36,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "テン",
         "romanji": "ten",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "転倒",
             "furigana": "てんとう",
             "romanji": "tentou",
@@ -61,7 +63,7 @@
             ]
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "運転",
             "furigana": "うんてん",
             "romanji": "unten",
@@ -83,7 +85,7 @@
             ]
           },
           {
-            "id": 4,
+            "id": 3,
             "word": "自転車",
             "furigana": "じてんしゃ",
             "romanji": "jitensha",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きび",
         "romanji": "kibi",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "おごそ",
         "romanji": "ogoso",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "厳か",
             "furigana": "おごそか",
             "romanji": "ogosoka",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゲン",
         "romanji": "gen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "厳重",
             "furigana": "げんじゅう",
             "romanji": "genjuu",
@@ -58,11 +61,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ゴン",
         "romanji": "gon",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "荘厳",
             "furigana": "そうごん",
             "romanji": "shougon",

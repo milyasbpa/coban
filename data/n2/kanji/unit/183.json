@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おさ",
         "romanji": "osa",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュ",
         "romanji": "shu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "修する",
             "furigana": "しゅうする",
             "romanji": "shuu suru",
@@ -39,7 +41,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "修理する",
             "furigana": "しゅうりする",
             "romanji": "shuuri suru",
@@ -52,11 +54,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "修する",
             "furigana": "しゅうする",
             "romanji": "shuu suru",
@@ -67,7 +70,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "修理する",
             "furigana": "しゅうりする",
             "romanji": "shuuri suru",

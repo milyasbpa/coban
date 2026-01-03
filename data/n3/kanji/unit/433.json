@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はこ",
         "romanji": "hako",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ばこ",
         "romanji": "bako",
         "examples": []
@@ -31,7 +33,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "私書箱",
           "furigana": "ししょばこ",
           "romanji": "shishobako",

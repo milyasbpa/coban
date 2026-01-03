@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "まじ",
         "romanji": "maji",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ザツ",
         "romanji": "zatsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "雑音",
             "furigana": "ざつおん",
             "romanji": "zatsuon",
@@ -41,6 +43,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ゾウ",
         "romanji": "zou",
         "examples": []

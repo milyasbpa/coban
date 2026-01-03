@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "のぞ",
         "romanji": "nozo",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジ",
         "romanji": "ji",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "掃除",
             "furigana": "そうじ",
             "romanji": "souji",
@@ -39,7 +41,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "除外",
             "furigana": "じょがい",
             "romanji": "jogai",
@@ -52,11 +54,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョ",
         "romanji": "jo",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "除外",
             "furigana": "じょがい",
             "romanji": "jogai",

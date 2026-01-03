@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つね",
         "romanji": "tsune",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "とこ",
         "romanji": "toko",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "常夜",
             "furigana": "じょうや",
             "romanji": "jouya",
@@ -44,7 +47,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "正常",
             "furigana": "せいじょう",
             "romanji": "seijou",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なお",
         "romanji": "nao",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "すぐ",
         "romanji": "sugu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "直ぐ",
             "furigana": "すぐ",
             "romanji": "sugu",
@@ -39,11 +41,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ただ",
         "romanji": "tada",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "直ちに",
             "furigana": "ただちに",
             "romanji": "tadachini",
@@ -58,11 +61,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チョク",
         "romanji": "choku",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "直接",
             "furigana": "ちょくせつ",
             "romanji": "chokusetsu",
@@ -75,11 +79,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジキ",
         "romanji": "jiki",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "正直",
             "furigana": "しょうじき",
             "romanji": "shoujiki",

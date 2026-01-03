@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あた",
         "romanji": "ata",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ぺ",
         "romanji": "pe",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘン",
         "romanji": "hen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "周辺",
             "furigana": "しゅうへん",
             "romanji": "shuuhen",
@@ -46,11 +49,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ペン",
         "romanji": "pen",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "近辺",
             "furigana": "きんぺん",
             "romanji": "kinpen",
@@ -66,7 +70,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "海辺",
           "furigana": "うみべ",
           "romanji": "umibe",

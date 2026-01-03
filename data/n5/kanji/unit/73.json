@@ -5,16 +5,18 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かね",
         "romanji": "kane",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "かな",
         "romanji": "kana",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "金槌",
             "furigana": "かなづち",
             "romanji": "kanazuchi",
@@ -28,21 +30,24 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キン",
         "romanji": "kin",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "コン",
         "romanji": "kon",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "ゴン",
         "romanji": "gon",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "黄金",
             "furigana": "おうごん",
             "romanji": "ougon",

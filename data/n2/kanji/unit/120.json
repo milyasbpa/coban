@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "うけたまわ",
         "romanji": "uketamawa",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "承知する",
             "furigana": "しょうちする",
             "romanji": "shouchisuru",

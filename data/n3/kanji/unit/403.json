@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "けむ",
         "romanji": "kemu",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "けむり",
         "romanji": "kemuri",
         "examples": [
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "エン",
         "romanji": "en",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "喫煙",
             "furigana": "きつえん",
             "romanji": "kitsuen",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はな",
         "romanji": "hana",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ほう",
         "romanji": "hou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "放る",
             "furigana": "ほうる",
             "romanji": "houru",
@@ -37,7 +39,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "放送",
             "furigana": "ほうそう",
             "romanji": "housou",
@@ -52,6 +54,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": []

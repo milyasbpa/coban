@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "みどり",
         "romanji": "midori",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "リョク",
         "romanji": "ryoku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "緑茶",
             "furigana": "りょくちゃ",
             "romanji": "ryokucha",
@@ -41,6 +43,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ロク",
         "romanji": "roku",
         "examples": []

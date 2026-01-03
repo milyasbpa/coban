@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いし",
         "romanji": "ishi",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セキ",
         "romanji": "seki",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "石油",
             "furigana": "せきゆ",
             "romanji": "sekiyu",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "セッ",
         "romanji": "se",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "石油",
             "furigana": "せきゆ",
             "romanji": "sekiyu",
@@ -56,7 +59,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "石鹸",
             "furigana": "せっけん",
             "romanji": "sekken",
@@ -69,11 +72,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "シャク",
         "romanji": "shaku",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "磁石",
             "furigana": "じしゃく",
             "romanji": "jishaku",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かぜ",
         "romanji": "kaze",
         "examples": [
@@ -35,11 +36,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "フウ",
         "romanji": "fuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "風船",
             "furigana": "ふうせん",
             "romanji": "fuusen",
@@ -61,7 +63,7 @@
             ]
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "台風",
             "furigana": "たいふう",
             "romanji": "taifuu",
@@ -88,7 +90,7 @@
     "exception": {
       "examples": [
         {
-          "id": 4,
+          "id": 1,
           "word": "風邪",
           "furigana": "かぜ",
           "romanji": "kaze",
@@ -110,7 +112,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 2,
           "word": "風呂",
           "furigana": "ふろ",
           "romanji": "furo",

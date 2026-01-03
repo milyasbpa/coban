@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひろ",
         "romanji": "hiro",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "拾万円",
             "furigana": "じゅうまんえん",
             "romanji": "juuman'en",
@@ -44,7 +46,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "拾得",
           "furigana": "しゅうとく",
           "romanji": "shuutoku",

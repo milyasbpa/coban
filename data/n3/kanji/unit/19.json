@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さら",
         "romanji": "sara",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ざら",
         "romanji": "zara",
         "examples": []
@@ -31,7 +33,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "小皿",
           "furigana": "こざら",
           "romanji": "kozara",

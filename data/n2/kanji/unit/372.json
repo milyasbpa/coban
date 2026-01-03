@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さかい",
         "romanji": "sakai",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "境界",
             "furigana": "きょうかい",
             "romanji": "kyoukai",
@@ -39,7 +41,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "寺境",
             "furigana": "じきょう",
             "romanji": "jikyou",
@@ -52,6 +54,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": []

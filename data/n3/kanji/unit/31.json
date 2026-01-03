@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しめ",
         "romanji": "shime",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジ",
         "romanji": "ji",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "指示",
             "furigana": "しじ",
             "romanji": "shiji",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "シ",
         "romanji": "shi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "指示",
             "furigana": "しじ",
             "romanji": "shiji",
@@ -56,7 +59,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "示唆",
             "furigana": "しさ",
             "romanji": "shisa",

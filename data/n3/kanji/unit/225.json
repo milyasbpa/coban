@@ -5,11 +5,12 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ころ",
         "romanji": "koro",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "殺す",
             "furigana": "ころす",
             "romanji": "korosu",
@@ -24,6 +25,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サツ",
         "romanji": "satsu",
         "examples": [
@@ -41,6 +43,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "セツ",
         "romanji": "setsu",
         "examples": []

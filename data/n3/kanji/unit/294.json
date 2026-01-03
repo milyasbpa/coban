@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ほそ",
         "romanji": "hoso",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "こま",
         "romanji": "koma",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "細かい",
             "furigana": "こまかい",
             "romanji": "komakai",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サイ",
         "romanji": "sai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "細菌",
             "furigana": "さいきん",
             "romanji": "saikin",

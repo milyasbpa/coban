@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "う",
         "romanji": "u",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "うぶ",
         "romanji": "ubu",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サン",
         "romanji": "san",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "未産",
             "furigana": "みさん",
             "romanji": "misan",
@@ -44,7 +47,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "産業",
             "furigana": "さんぎょう",
             "romanji": "sangyou",

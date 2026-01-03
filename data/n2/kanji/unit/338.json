@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いた",
         "romanji": "ita",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "きず",
         "romanji": "kizu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "傷つける",
             "furigana": "きずつける",
             "romanji": "kizutsukeru",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "重傷",
             "furigana": "じゅうしょう",
             "romanji": "juushou",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かお",
         "romanji": "kao",
         "examples": [
@@ -33,11 +34,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "がお",
         "romanji": "gao",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "笑顔",
             "furigana": "えがお",
             "romanji": "egao",
@@ -63,11 +65,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ガン",
         "romanji": "gan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "洗顔",
             "furigana": "せんがん",
             "romanji": "sengan",

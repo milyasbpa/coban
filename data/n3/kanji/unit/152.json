@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ところ",
         "romanji": "tokoro",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "どころ",
         "romanji": "dokoro",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショ",
         "romanji": "sho",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "市役所",
             "furigana": "しやくしょ",
             "romanji": "shiyakusho",
@@ -49,7 +52,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "台所",
           "furigana": "だいどころ",
           "romanji": "daidokoro",

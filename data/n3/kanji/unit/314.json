@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふくろ",
         "romanji": "fukuro",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ぶくろ",
         "romanji": "bukuro",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "タイ",
         "romanji": "tai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "郵袋",
             "furigana": "ゆうたい",
             "romanji": "yuutai",

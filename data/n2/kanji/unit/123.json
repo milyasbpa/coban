@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ハン",
         "romanji": "han",
         "examples": [
@@ -23,11 +24,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "パン",
         "romanji": "pan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "出版",
             "furigana": "しゅっぱん",
             "romanji": "shuppan",
@@ -43,7 +45,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "石版",
           "furigana": "せきばん",
           "romanji": "sekiban",

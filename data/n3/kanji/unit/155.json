@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "わか",
         "romanji": "waka",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "も",
         "romanji": "mo",
         "examples": []
@@ -29,16 +31,18 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジャク",
         "romanji": "jaku",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "ニャク",
         "romanji": "nyaku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "老若",
             "furigana": "ろうにゃく",
             "romanji": "rounyaku",
@@ -51,6 +55,7 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ジャク",
         "romanji": "jaku",
         "examples": []
@@ -59,7 +64,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "若干",
           "furigana": "じゃっかん",
           "romanji": "jakkan",

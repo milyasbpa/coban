@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "きよ",
         "romanji": "kiyo",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "清潔",
             "furigana": "せいけつ",
             "romanji": "seiketsu",
@@ -39,7 +41,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "清浄",
             "furigana": "せいじょう",
             "romanji": "seijou",
@@ -52,11 +54,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "清浄",
             "furigana": "せいじょう",
             "romanji": "seijou",

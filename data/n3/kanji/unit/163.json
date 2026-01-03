@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おもて",
         "romanji": "omote",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "あらわ",
         "romanji": "arawa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "表す",
             "furigana": "あらわす",
             "romanji": "arawasu",
@@ -41,11 +43,13 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒョウ",
         "romanji": "hyou",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "ビョウ",
         "romanji": "byou",
         "examples": []
@@ -54,7 +58,7 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "発表",
           "furigana": "はっぴょう",
           "romanji": "happyou",

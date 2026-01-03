@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たよ",
         "romanji": "tayo",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ベン",
         "romanji": "ben",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "便利",
             "furigana": "べんり",
             "romanji": "benri",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ビン",
         "romanji": "bin",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "船便",
             "furigana": "ふなびん",
             "romanji": "funabin",

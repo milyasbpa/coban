@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やっ",
         "romanji": "ya",
         "examples": [
@@ -21,6 +22,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "や",
         "romanji": "ya",
         "examples": [
@@ -49,11 +51,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハチ",
         "romanji": "hachi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "八年",
             "furigana": "はちねん",
             "romanji": "hachinen",
@@ -68,7 +71,7 @@
     "exception": {
       "examples": [
         {
-          "id": 4,
+          "id": 1,
           "word": "八百",
           "furigana": "はっぴゃく",
           "romanji": "happyaku",

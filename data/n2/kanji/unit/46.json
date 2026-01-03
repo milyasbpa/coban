@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひか",
         "romanji": "hika",
         "examples": [
@@ -33,11 +34,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ひかり",
         "romanji": "hikari",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "光",
             "furigana": "ひかり",
             "romanji": "hikari",
@@ -52,11 +54,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "日光",
             "furigana": "にっこう",
             "romanji": "nikkou",

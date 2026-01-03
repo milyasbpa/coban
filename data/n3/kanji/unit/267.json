@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "お",
         "romanji": "o",
         "examples": [
@@ -33,6 +34,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "おび",
         "romanji": "obi",
         "examples": [
@@ -63,11 +65,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "タイ",
         "romanji": "tai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "熱帯",
             "furigana": "ねったい",
             "romanji": "nettai",

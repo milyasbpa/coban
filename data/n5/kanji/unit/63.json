@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なに",
         "romanji": "nani",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "なん",
         "romanji": "nan",
         "examples": [
@@ -28,11 +30,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "幾何",
             "furigana": "きか",
             "romanji": "kika",

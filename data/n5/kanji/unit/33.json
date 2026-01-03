@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "とも",
         "romanji": "tomo",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ユウ",
         "romanji": "yuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "友人",
             "furigana": "ゆうじん",
             "romanji": "yuujin",
@@ -37,7 +39,7 @@
             }
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "友親",
             "furigana": "ゆうしん",
             "romanji": "yuushin",

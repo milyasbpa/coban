@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "か",
         "romanji": "ka",
         "examples": [
@@ -57,11 +58,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シャク",
         "romanji": "shaku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "借家",
             "furigana": "しゃくや",
             "romanji": "shakuya",
@@ -85,11 +87,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "シャッ",
         "romanji": "sha(tsu kecil)",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "借金",
             "furigana": "しゃっきん",
             "romanji": "shakkin",

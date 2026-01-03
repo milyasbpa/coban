@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いわ",
         "romanji": "iwa",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュク",
         "romanji": "shuku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "祝日",
             "furigana": "しゅくじつ",
             "romanji": "shukujitsu",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "シュウ",
         "romanji": "shuu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "祝儀",
             "furigana": "しゅうぎ",
             "romanji": "shuugi",

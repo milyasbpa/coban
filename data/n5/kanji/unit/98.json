@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あいだ",
         "romanji": "aida",
         "examples": [
@@ -21,6 +22,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ま",
         "romanji": "ma",
         "examples": []
@@ -28,11 +30,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "時間",
             "furigana": "じかん",
             "romanji": "jikan",
@@ -44,11 +47,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ケン",
         "romanji": "ken",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "世間",
             "furigana": "せけん",
             "romanji": "seken",
@@ -60,11 +64,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ゲン",
         "romanji": "gen",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "人間",
             "furigana": "にんげん",
             "romanji": "ningen",
@@ -79,7 +84,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "客間",
           "furigana": "きゃくま",
           "romanji": "kyakuma",

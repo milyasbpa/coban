@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ぬ",
         "romanji": "nu",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ダツ",
         "romanji": "datsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "脱税",
             "furigana": "だつぜい",
             "romanji": "datsuzei",
@@ -44,7 +46,7 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "脱線",
           "furigana": "だっせん",
           "romanji": "dassen",

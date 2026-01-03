@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "むね",
         "romanji": "mune",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "むな",
         "romanji": "muna",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "胸毛",
             "furigana": "むなげ",
             "romanji": "munage",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キョウ",
         "romanji": "kyou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "胸囲",
             "furigana": "きょうい",
             "romanji": "kyoui",

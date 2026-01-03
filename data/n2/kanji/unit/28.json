@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かわ",
         "romanji": "kawa",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "がわ",
         "romanji": "gawa",
         "examples": []
@@ -17,11 +19,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "皮膚",
             "furigana": "ひふ",
             "romanji": "hifu",

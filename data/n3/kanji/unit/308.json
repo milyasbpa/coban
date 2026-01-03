@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やぶ",
         "romanji": "yabu",
         "examples": [
@@ -24,11 +25,13 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ハイ",
         "romanji": "hai",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "バイ",
         "romanji": "bai",
         "examples": []
@@ -37,7 +40,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "失敗",
           "furigana": "しっぱい",
           "romanji": "shippai",

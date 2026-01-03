@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はな",
         "romanji": "hana",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カ",
         "romanji": "ka",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "花瓶",
             "furigana": "かびん",
             "romanji": "kabin",
@@ -42,7 +44,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "雄花",
           "furigana": "おばな",
           "romanji": "obana",

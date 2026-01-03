@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒャク",
         "romanji": "hyaku",
         "examples": [
@@ -22,16 +23,18 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ヒャッ",
         "romanji": "hyat",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "ビャク",
         "romanji": "byaku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "三百",
             "furigana": "さんびゃく",
             "romanji": "sanbyaku",
@@ -46,7 +49,7 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "六百",
           "furigana": "ろっぴゃく",
           "romanji": "roppyaku",
@@ -56,7 +59,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 2,
           "word": "八百",
           "furigana": "はっぴゃく",
           "romanji": "happyaku",

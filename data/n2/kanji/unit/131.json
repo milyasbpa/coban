@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はぶ",
         "romanji": "habu",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "かえり",
         "romanji": "kaeri",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "省みる",
             "furigana": "かえりみる",
             "romanji": "kaerimiru",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "省略",
             "furigana": "しょうりゃく",
             "romanji": "shouryaku",
@@ -58,11 +61,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "反省する",
             "furigana": "はんせいする",
             "romanji": "hansei suru",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あ",
         "romanji": "a",
         "examples": [
@@ -20,7 +21,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "青空",
             "furigana": "あおぞら",
             "romanji": "aozora",
@@ -33,11 +34,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "そら",
         "romanji": "sora",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "空色",
             "furigana": "そらいろ",
             "romanji": "sorairo",
@@ -50,16 +52,18 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ぞら",
         "romanji": "zora",
         "examples": []
       },
       {
+        "id": 4,
         "furigana": "から",
         "romanji": "kara",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "空手",
             "furigana": "からて",
             "romanji": "karate",
@@ -74,11 +78,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "クウ",
         "romanji": "kuu",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "空港",
             "furigana": "くうこう",
             "romanji": "kuukou",

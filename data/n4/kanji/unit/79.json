@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おも",
         "romanji": "omo",
         "examples": [
@@ -33,11 +34,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "かさ",
         "romanji": "kasa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "重ねる",
             "furigana": "かさねる",
             "romanji": "kasaneru",
@@ -59,7 +61,7 @@
             ]
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "重なる",
             "furigana": "かさなる",
             "romanji": "kasanaru",
@@ -85,11 +87,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "jyuu",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "重要",
             "furigana": "じゅうよう",
             "romanji": "jyuuyou",
@@ -111,7 +114,7 @@
             ]
           },
           {
-            "id": 5,
+            "id": 2,
             "word": "体重",
             "furigana": "たいじゅう",
             "romanji": "taijyuu",
@@ -135,11 +138,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "チョウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 6,
+            "id": 1,
             "word": "貴重",
             "furigana": "きちょう",
             "romanji": "kishou",

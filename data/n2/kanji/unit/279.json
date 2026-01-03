@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふで",
         "romanji": "fude",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒツ",
         "romanji": "hitsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "毛筆",
             "furigana": "もうひつ",
             "romanji": "mouhitsu",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ヒッ",
         "romanji": "hitsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "毛筆",
             "furigana": "もうひつ",
             "romanji": "mouhitsu",
@@ -56,7 +59,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "筆記",
             "furigana": "ひっき",
             "romanji": "hikki",
@@ -69,11 +72,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ピツ",
         "romanji": "pitsu",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "鉛筆",
             "furigana": "えんぴつ",
             "romanji": "enpitsu",

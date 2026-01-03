@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なら",
         "romanji": "nara",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "なみ",
         "romanji": "nami",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "並木",
             "furigana": "なみき",
             "romanji": "namiki",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘイ",
         "romanji": "hei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "並列",
             "furigana": "へいれつ",
             "romanji": "heiretsu",

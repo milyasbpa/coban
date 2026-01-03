@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "やわ",
         "romanji": "yawa",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "柔道",
             "furigana": "じゅうどう",
             "romanji": "juudou",
@@ -39,7 +41,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "柔術",
             "furigana": "じゅうじゅつ",
             "romanji": "juujutsu",
@@ -52,6 +54,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ニュウ",
         "romanji": "nyuu",
         "examples": []

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "どろ",
         "romanji": "doro",
         "examples": [
@@ -24,6 +25,7 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "デイ",
         "romanji": "dei",
         "examples": []
@@ -32,7 +34,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "天地泥の差",
           "furigana": "てんちどろのさ",
           "romanji": "tenchidoro no sa",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さわ",
         "romanji": "sawa",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ふ",
         "romanji": "fu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "触れる",
             "furigana": "ふれる",
             "romanji": "fureru",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショク",
         "romanji": "shoku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "感触",
             "furigana": "かんしょく",
             "romanji": "kanshoku",
@@ -56,7 +59,7 @@
             "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "感触",
             "furigana": "かんしょく",
             "romanji": "kanshoku",
@@ -69,6 +72,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": []

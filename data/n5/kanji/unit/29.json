@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "なか",
         "romanji": "naka",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "チュウ",
         "romanji": "chuu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "中学校",
             "furigana": "ちゅうがっこう",
             "romanji": "chuugakkou",
@@ -39,11 +41,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "一日中",
             "furigana": "いちにちじゅう",
             "romanji": "ichinichijuu",

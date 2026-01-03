@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おぼ",
         "romanji": "obo",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "さ",
         "romanji": "sa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "覚める",
             "furigana": "さめる",
             "romanji": "sameru",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カク",
         "romanji": "kaku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "覚悟",
             "furigana": "かくご",
             "romanji": "kakugo",

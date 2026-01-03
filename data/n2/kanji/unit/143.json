@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "がら",
         "romanji": "gara",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "え",
         "romanji": "e",
         "examples": []
@@ -17,11 +19,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヘイ",
         "romanji": "hei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "横柄",
             "furigana": "おうへい",
             "romanji": "ouhei",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "とうと",
         "romanji": "touto",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "たっと",
         "romanji": "tatto",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "尊ぶ",
             "furigana": "たっとぶ",
             "romanji": "tatobu",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ソン",
         "romanji": "son",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "尊重",
             "furigana": "そんちょう",
             "romanji": "sonchou",

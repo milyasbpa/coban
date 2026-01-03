@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "の",
         "romanji": "no",
         "examples": [
@@ -57,11 +58,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヤ",
         "romanji": "ya",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "野球",
             "furigana": "やきゅう",
             "romanji": "yakyuu",
@@ -83,7 +85,7 @@
             ]
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "野生",
             "furigana": "やせい",
             "romanji": "yasei",

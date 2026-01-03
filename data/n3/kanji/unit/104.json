@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "き",
         "romanji": "ki",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケツ",
         "romanji": "ketsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "決意",
             "furigana": "けつい",
             "romanji": "ketsui",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ケッ",
         "romanji": "ke",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "決意",
             "furigana": "けつい",
             "romanji": "ketsui",
@@ -56,7 +59,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "決定",
             "furigana": "けってい",
             "romanji": "kettei",

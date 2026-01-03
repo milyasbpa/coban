@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "おとず",
         "romanji": "otozu",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "たず",
         "romanji": "tazu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "訪れる",
             "furigana": "たずれる",
             "romanji": "tazureru",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "訪問",
             "furigana": "ほうもん",
             "romanji": "houmon",
@@ -58,6 +61,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ボウ",
         "romanji": "bou",
         "examples": []

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かわ",
         "romanji": "kawa",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "河川",
             "furigana": "かせん",
             "romanji": "kasen",
@@ -42,7 +44,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "小川",
           "furigana": "おがわ",
           "romanji": "ogawa",

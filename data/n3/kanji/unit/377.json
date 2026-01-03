@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "たたか",
         "romanji": "tataka",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "いくさ",
         "romanji": "ikusa",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "戦",
             "furigana": "いくさ",
             "romanji": "ikusa",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セン",
         "romanji": "sen",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "戦争",
             "furigana": "せんそう",
             "romanji": "sensou",
@@ -56,7 +59,7 @@
             "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "挑戦",
             "furigana": "ちょうせん",
             "romanji": "chousen",

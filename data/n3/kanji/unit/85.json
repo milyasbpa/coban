@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こま",
         "romanji": "koma",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "コン",
         "romanji": "kon",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "貧困",
             "furigana": "ひんこん",
             "romanji": "hinkon",

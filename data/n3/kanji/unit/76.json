@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふたた",
         "romanji": "futata",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サイ",
         "romanji": "sai",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "再開",
             "furigana": "さいかい",
             "romanji": "saikai",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "サ",
         "romanji": "sa",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "再開",
             "furigana": "さいかい",
             "romanji": "saikai",
@@ -56,7 +59,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "再来週",
             "furigana": "さらいしゅう",
             "romanji": "saraishuu",

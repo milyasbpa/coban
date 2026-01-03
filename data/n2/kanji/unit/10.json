@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひき",
         "romanji": "hiki",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "びき",
         "romanji": "biki",
         "examples": []
@@ -17,11 +19,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ヒツ",
         "romanji": "hitsu",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "馬匹",
             "furigana": "ばひつ",
             "romanji": "bahitsu",
@@ -34,11 +37,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ヒッ",
         "romanji": "hitsu",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "馬匹",
             "furigana": "ばひつ",
             "romanji": "bahitsu",
@@ -49,7 +53,7 @@
             "sentences": []
           },
           {
-            "id": 5,
+            "id": 2,
             "word": "匹敵",
             "furigana": "ひってき",
             "romanji": "hitteki",

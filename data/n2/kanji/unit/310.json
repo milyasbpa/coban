@@ -6,6 +6,7 @@
     "kun": [],
     "on": [
       {
+        "id": 1,
         "furigana": "ハク",
         "romanji": "haku",
         "examples": [
@@ -23,11 +24,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "バク",
         "romanji": "baku",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "賭博",
             "furigana": "とばく",
             "romanji": "tobaku",
@@ -43,7 +45,7 @@
     "exception": {
       "examples": [
         {
-          "id": 3,
+          "id": 1,
           "word": "万博",
           "furigana": "ばんぱく",
           "romanji": "banpaku",
@@ -54,7 +56,7 @@
           "sentences": []
         },
         {
-          "id": 4,
+          "id": 2,
           "word": "博士",
           "furigana": "はかせ",
           "romanji": "hakase",

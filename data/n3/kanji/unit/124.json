@@ -5,16 +5,18 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "いだ",
         "romanji": "ida",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "かか",
         "romanji": "kaka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "抱える",
             "furigana": "かかえる",
             "romanji": "kakaeru",
@@ -27,6 +29,7 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "だ",
         "romanji": "da",
         "examples": [
@@ -46,11 +49,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ホウ",
         "romanji": "hou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "抱負",
             "furigana": "ほうふ",
             "romanji": "houfu",

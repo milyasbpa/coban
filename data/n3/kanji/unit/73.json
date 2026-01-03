@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "な",
         "romanji": "na",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "成立",
             "furigana": "せいりつ",
             "romanji": "seiritsu",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "成就",
             "furigana": "じょうじゅ",
             "romanji": "jouju",

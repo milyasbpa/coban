@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "したが",
         "romanji": "shitaga",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ジュウ",
         "romanji": "juu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "従順する",
             "furigana": "じゅうじゅんする",
             "romanji": "juujun suru",
@@ -41,11 +43,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ショウ",
         "romanji": "shou",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "従容",
             "furigana": "しょうよう",
             "romanji": "shouyou",
@@ -58,11 +61,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "ジュ",
         "romanji": "ju",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "従順する",
             "furigana": "じゅうじゅんする",
             "romanji": "juujun suru",
@@ -73,7 +77,7 @@
             "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "従三位",
             "furigana": "じゅさんみ",
             "romanji": "jusanmi",

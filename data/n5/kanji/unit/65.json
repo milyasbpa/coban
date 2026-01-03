@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "くるま",
         "romanji": "kuruma",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シャ",
         "romanji": "sha",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "自動車",
             "furigana": "じどうしゃ",
             "romanji": "jidousha",
@@ -37,7 +39,7 @@
             }
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "車掌",
             "furigana": "しゃしょう",
             "romanji": "shashou",

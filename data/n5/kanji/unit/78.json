@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "あと",
         "romanji": "ato",
         "examples": [
@@ -21,11 +22,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "うし",
         "romanji": "ushi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "後ろ",
             "furigana": "うしろ",
             "romanji": "ushiro",
@@ -37,11 +39,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "のち",
         "romanji": "nochi",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "後ほど",
             "furigana": "のちほど",
             "romanji": "nochihodo",
@@ -53,11 +56,12 @@
         ]
       },
       {
+        "id": 4,
         "furigana": "おく",
         "romanji": "oku",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "後れる",
             "furigana": "おくれる",
             "romanji": "okureru",
@@ -71,11 +75,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ゴ",
         "romanji": "go",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "食後",
             "furigana": "しょくご",
             "romanji": "shokugo",
@@ -87,11 +92,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "コウ",
         "romanji": "kou",
         "examples": [
           {
-            "id": 6,
+            "id": 1,
             "word": "後輩",
             "furigana": "こうはい",
             "romanji": "kouhai",

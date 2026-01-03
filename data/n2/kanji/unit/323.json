@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "す",
         "romanji": "su",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サク",
         "romanji": "saku",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "酢酸",
             "furigana": "さくさん",
             "romanji": "sakusan",
@@ -44,7 +46,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "梅酢",
           "furigana": "うめず",
           "romanji": "umezu",

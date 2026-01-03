@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "も",
         "romanji": "mo",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "さか",
         "romanji": "saka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "盛ん",
             "furigana": "さかん",
             "romanji": "sakan",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "盛大",
             "furigana": "せいだい",
             "romanji": "seidai",
@@ -58,11 +61,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "繁盛",
             "furigana": "はんじょう",
             "romanji": "hanjou",

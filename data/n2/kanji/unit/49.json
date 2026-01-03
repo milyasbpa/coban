@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "しるし",
         "romanji": "shirushi",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "じるし",
         "romanji": "jirushi",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "イン",
         "romanji": "in",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "印刷",
             "furigana": "いんさつ",
             "romanji": "insatsu",
@@ -49,7 +52,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "矢印",
           "furigana": "やじるし",
           "romanji": "yajirushi",

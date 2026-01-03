@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かつ",
         "romanji": "katsu",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "にな",
         "romanji": "nina",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "担う",
             "furigana": "になう",
             "romanji": "ninau",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "タン",
         "romanji": "tan",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "担任",
             "furigana": "たんにん",
             "romanji": "tannin",

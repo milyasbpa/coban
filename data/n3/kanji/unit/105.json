@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "はつ",
         "romanji": "hatsu",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "はじ",
         "romanji": "haji",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "初め",
             "furigana": "はじめ",
             "romanji": "hajime",
@@ -37,7 +39,7 @@
             "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "初める",
             "furigana": "はじめる",
             "romanji": "hajimeru",
@@ -50,11 +52,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "うい",
         "romanji": "ui",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "初陣",
             "furigana": "ういじん",
             "romanji": "uijin",
@@ -67,6 +70,7 @@
         ]
       },
       {
+        "id": 4,
         "furigana": "そ",
         "romanji": "so",
         "examples": []
@@ -74,11 +78,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ショ",
         "romanji": "sho",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "初級",
             "furigana": "しょきゅう",
             "romanji": "shokyuu",

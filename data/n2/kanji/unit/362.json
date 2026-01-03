@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "との",
         "romanji": "tono",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "どの",
         "romanji": "dono",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "テン",
         "romanji": "ten",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "御殿",
             "furigana": "ごてん",
             "romanji": "goten",
@@ -46,11 +49,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "デン",
         "romanji": "den",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "沈殿",
             "furigana": "ちんでん",
             "romanji": "chinden",
@@ -66,7 +70,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "山口健殿",
           "furigana": "やまぐちけんどの",
           "romanji": "yamaguchi ken dono",

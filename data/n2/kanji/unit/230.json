@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "もと",
         "romanji": "moto",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "もとい",
         "romanji": "motoi",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "キ",
         "romanji": "ki",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "基礎",
             "furigana": "きそ",
             "romanji": "kiso",
@@ -49,7 +52,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "国の基",
           "furigana": "くにのもとい",
           "romanji": "kuni no motoi",

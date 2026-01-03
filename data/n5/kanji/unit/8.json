@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "みっ",
         "romanji": "mit",
         "examples": [
@@ -23,11 +24,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "サン",
         "romanji": "san",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "三年",
             "furigana": "さんねん",
             "romanji": "sannen",
@@ -42,7 +44,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "三重",
           "furigana": "みえ",
           "romanji": "mie",
@@ -52,7 +54,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 2,
           "word": "千葉",
           "furigana": "ちば",
           "romanji": "chiba",

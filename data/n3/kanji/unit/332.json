@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "わり",
         "romanji": "wari",
         "examples": [
@@ -22,11 +23,13 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "さ",
         "romanji": "sa",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "わ",
         "romanji": "wa",
         "examples": [
@@ -46,11 +49,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カツ",
         "romanji": "katsu",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "分割",
             "furigana": "ぶんかつ",
             "romanji": "bunkatsu",

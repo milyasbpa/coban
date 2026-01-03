@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ひ",
         "romanji": "hi",
         "examples": [
@@ -21,11 +22,13 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "び",
         "romanji": "bi",
         "examples": []
       },
       {
+        "id": 3,
         "furigana": "か",
         "romanji": "ka",
         "examples": []
@@ -33,11 +36,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ニチ",
         "romanji": "nichi",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "日常",
             "furigana": "にちじょう",
             "romanji": "nichijou",
@@ -49,11 +53,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジツ",
         "romanji": "jitsu",
         "examples": [
           {
-            "id": 6,
+            "id": 1,
             "word": "休日",
             "furigana": "きゅうじつ",
             "romanji": "kyuujitsu",
@@ -68,7 +73,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "今日",
           "furigana": "きょう",
           "romanji": "kyou",
@@ -78,7 +83,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 2,
           "word": "二日",
           "furigana": "ふつか",
           "romanji": "futsuka",
@@ -88,7 +93,7 @@
           }
         },
         {
-          "id": 5,
+          "id": 3,
           "word": "日光",
           "furigana": "にっこう",
           "romanji": "nikkou",

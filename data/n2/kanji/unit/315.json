@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さむ",
         "romanji": "samu",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "カン",
         "romanji": "kan",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "寒暑",
             "furigana": "かんしょ",
             "romanji": "kansho",

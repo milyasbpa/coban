@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "こえ",
         "romanji": "koe",
         "examples": [
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "こわ",
         "romanji": "kowa",
         "examples": []
@@ -29,11 +31,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "セイ",
         "romanji": "sei",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "音声",
             "furigana": "おんせい",
             "romanji": "onsei",
@@ -44,7 +47,7 @@
             "sentences": []
           },
           {
-            "id": 4,
+            "id": 2,
             "word": "声帯",
             "furigana": "せいたい",
             "romanji": "seitai",
@@ -57,11 +60,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ジョウ",
         "romanji": "jou",
         "examples": [
           {
-            "id": 5,
+            "id": 1,
             "word": "大音声",
             "furigana": "だいおんじょう",
             "romanji": "daionjou",
@@ -77,7 +81,7 @@
     "exception": {
       "examples": [
         {
-          "id": 2,
+          "id": 1,
           "word": "歌声",
           "furigana": "うたごえ",
           "romanji": "utagoe",

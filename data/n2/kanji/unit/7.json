@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "ふと",
         "romanji": "futo",
         "examples": [
@@ -24,11 +25,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "タ",
         "romanji": "ta",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "太刀",
             "furigana": "たち",
             "romanji": "tachi",
@@ -39,7 +41,7 @@
             "sentences": []
           },
           {
-            "id": 3,
+            "id": 2,
             "word": "太陽",
             "furigana": "たいよう",
             "romanji": "taiyou",
@@ -52,11 +54,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "タイ",
         "romanji": "tai",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "太陽",
             "furigana": "たいよう",
             "romanji": "taiyou",

@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "つめ",
         "romanji": "tsume",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "ひ",
         "romanji": "hi",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "冷やす",
             "furigana": "ひやす",
             "romanji": "hiyasu",
@@ -39,11 +41,12 @@
         ]
       },
       {
+        "id": 3,
         "furigana": "さ",
         "romanji": "sa",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "冷める",
             "furigana": "さめる",
             "romanji": "sameru",
@@ -58,11 +61,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "レイ",
         "romanji": "rei",
         "examples": [
           {
-            "id": 4,
+            "id": 1,
             "word": "冷蔵庫",
             "furigana": "れいぞうこ",
             "romanji": "reizouko",

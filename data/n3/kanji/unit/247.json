@@ -5,6 +5,7 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "さけ",
         "romanji": "sake",
         "examples": [
@@ -22,11 +23,12 @@
         ]
       },
       {
+        "id": 2,
         "furigana": "さか",
         "romanji": "saka",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "酒屋",
             "furigana": "さかや",
             "romanji": "sakaya",
@@ -41,11 +43,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "シュ",
         "romanji": "shu",
         "examples": [
           {
-            "id": 3,
+            "id": 1,
             "word": "日本酒",
             "furigana": "にほんしゅ",
             "romanji": "nihonshu",

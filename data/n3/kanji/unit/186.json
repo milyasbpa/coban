@@ -5,11 +5,13 @@
   "readings": {
     "kun": [
       {
+        "id": 1,
         "furigana": "かた",
         "romanji": "kata",
         "examples": []
       },
       {
+        "id": 2,
         "furigana": "かたち",
         "romanji": "katachi",
         "examples": []
@@ -17,11 +19,12 @@
     ],
     "on": [
       {
+        "id": 1,
         "furigana": "ケイ",
         "romanji": "kei",
         "examples": [
           {
-            "id": 2,
+            "id": 1,
             "word": "体型",
             "furigana": "たいけい",
             "romanji": "taikei",
