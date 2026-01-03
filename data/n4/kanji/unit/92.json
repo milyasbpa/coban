@@ -1,33 +1,57 @@
 {
   "id": 92,
-  "character": "研",
-  "strokes": 9,
+  "character": "勉",
+  "strokes": 10,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "ケン",
-        "romanji": "ken",
+        "furigana": "ベン",
+        "romanji": "ben",
         "examples": [
           {
             "id": 1,
-            "word": "研究",
-            "furigana": "けんきゅう",
-            "romanji": "kenkyuu",
+            "word": "勉強",
+            "furigana": "べんきょう",
+            "romanji": "benkyou",
             "meanings": {
-              "id": "penelitian",
-              "en": "research"
-            }
+              "id": "pelajaran, belajar",
+              "en": "study, learning"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日日本語を勉強しています。",
+                "furigana": "まいにちにほんごをべんきょうしています。",
+                "romaji": "mainichi nihongo wo benkyou shiteimasu.",
+                "meanings": {
+                  "id": "Saya belajar bahasa Jepang setiap hari.",
+                  "en": "I study Japanese every day."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "研修",
-            "furigana": "けんしゅう",
-            "romanji": "kenshuu",
+            "word": "勉学",
+            "furigana": "べんがく",
+            "romanji": "bengaku",
             "meanings": {
-              "id": "pembelajaran dan pelatihan",
-              "en": "training"
-            }
+              "id": "pelajaran",
+              "en": "study, studies"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "勉学に励んでいます。",
+                "furigana": "べんがくにはげんでいます。",
+                "romaji": "bengaku ni hagendeimasu.",
+                "meanings": {
+                  "id": "Saya tekun dalam belajar.",
+                  "en": "I am devoted to my studies."
+                }
+              }
+            ]
           }
         ]
       }
@@ -35,7 +59,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "penelitian",
-    "en": "research, study"
+    "id": "belajar",
+    "en": "study, diligence"
   }
 }
