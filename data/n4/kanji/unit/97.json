@@ -15,8 +15,20 @@
             "romanji": "kaeru",
             "meanings": {
               "id": "pulang",
-              "en": "to return"
-            }
+              "en": "to return, go home"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "6時に家に帰ります。",
+                "furigana": "6じにいえにかえります。",
+                "romaji": "roku ji ni ie ni kaerimasu.",
+                "meanings": {
+                  "id": "Saya pulang ke rumah pada jam 6.",
+                  "en": "I go home at 6 o'clock."
+                }
+              }
+            ]
           },
           {
             "id": 2,
@@ -26,7 +38,19 @@
             "meanings": {
               "id": "jalan pulang",
               "en": "way home"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "帰り道にスーパーに寄りました。",
+                "furigana": "かえりみちにスーパーによりました。",
+                "romaji": "kaerimichi ni suupaa ni yorimashita.",
+                "meanings": {
+                  "id": "Saya mampir ke supermarket di jalan pulang.",
+                  "en": "I stopped by the supermarket on my way home."
+                }
+              }
+            ]
           }
         ]
       }
@@ -44,7 +68,41 @@
             "meanings": {
               "id": "pulang ke negeri sendiri",
               "en": "returning to one's country"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来月、帰国します。",
+                "furigana": "らいげつ、きこくします。",
+                "romaji": "raigetsu, kikoku shimasu.",
+                "meanings": {
+                  "id": "Bulan depan saya akan pulang ke negara sendiri.",
+                  "en": "I will return to my country next month."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "帰化",
+            "furigana": "きか",
+            "romanji": "kika",
+            "meanings": {
+              "id": "naturalisasi",
+              "en": "naturalization"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本に帰化したいです。",
+                "furigana": "にほんにきかしたいです。",
+                "romaji": "nihon ni kika shitai desu.",
+                "meanings": {
+                  "id": "Saya ingin menjadi warga negara Jepang.",
+                  "en": "I want to become a Japanese citizen."
+                }
+              }
+            ]
           }
         ]
       }
