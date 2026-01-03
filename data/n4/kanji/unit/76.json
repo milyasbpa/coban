@@ -1,50 +1,130 @@
 {
   "id": 76,
-  "character": "急",
+  "character": "送",
   "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "いそ",
-        "romanji": "iso",
+        "furigana": "おく",
+        "romanji": "oku",
         "examples": [
           {
             "id": 1,
-            "word": "急ぐ",
-            "furigana": "いそぐ",
-            "romanji": "isogu",
+            "word": "送る",
+            "furigana": "おくる",
+            "romanji": "okuru",
             "meanings": {
-              "id": "terburu-buru",
-              "en": "to hurry"
-            }
+              "id": "mengirim",
+              "en": "to send"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "友達に手紙を送りました。",
+                "furigana": "ともだちにてがみをおくりました。",
+                "romaji": "tomodachi ni tegami wo okurimashita.",
+                "meanings": {
+                  "id": "Saya mengirim surat kepada teman.",
+                  "en": "I sent a letter to my friend."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "見送り",
+            "furigana": "みおくり",
+            "romanji": "miokuri",
+            "meanings": {
+              "id": "mengantar (dengan pandangan)",
+              "en": "seeing off"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "駅で家族の見送りをしました。",
+                "furigana": "えきでかぞくのみおくりをしました。",
+                "romaji": "eki de kazoku no miokuri wo shimashita.",
+                "meanings": {
+                  "id": "Saya mengantar keluarga di stasiun.",
+                  "en": "I saw off my family at the station."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "キュウ",
-        "romanji": "kyuu",
+        "furigana": "ソウ",
+        "romanji": "sou",
         "examples": [
           {
-            "id": 2,
-            "word": "急用",
-            "furigana": "きゅうよう",
-            "romanji": "kyuuyou",
+            "id": 3,
+            "word": "送金",
+            "furigana": "そうきん",
+            "romanji": "soukin",
             "meanings": {
-              "id": "keperluan mendadak",
-              "en": "urgent business"
-            }
+              "id": "kiriman uang",
+              "en": "remittance"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "母に送金しなければなりません。",
+                "furigana": "ははにそうきんしなければなりません。",
+                "romaji": "haha ni soukin shinakereba narimasen.",
+                "meanings": {
+                  "id": "Saya harus mengirim uang kepada ibu.",
+                  "en": "I must send money to my mother."
+                }
+              }
+            ]
           },
           {
-            "id": 3,
-            "word": "特急",
-            "furigana": "とっきゅう",
-            "romanji": "tokkyuu",
+            "id": 4,
+            "word": "送別会",
+            "furigana": "そうべつかい",
+            "romanji": "soubetsukai",
             "meanings": {
-              "id": "pelafalan",
-              "en": "express train"
-            }
+              "id": "pesta perpisahan",
+              "en": "farewell party"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "来週、先生の送別会があります。",
+                "furigana": "らいしゅう、せんせいのそうべつかいがあります。",
+                "romaji": "raishuu, sensei no soubetsukai ga arimasu.",
+                "meanings": {
+                  "id": "Minggu depan ada pesta perpisahan untuk guru.",
+                  "en": "There will be a farewell party for the teacher next week."
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "word": "放送",
+            "furigana": "ほうそう",
+            "romanji": "housou",
+            "meanings": {
+              "id": "penyiaran",
+              "en": "broadcast"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "このドラマは毎週月曜日に放送されます。",
+                "furigana": "このドラマはまいしゅうげつようびにほうそうされます。",
+                "romaji": "kono dorama wa maishuu getsuyoubi ni housou saremasu.",
+                "meanings": {
+                  "id": "Drama ini disiarkan setiap hari Senin.",
+                  "en": "This drama is broadcast every Monday."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "terburu-buru",
-    "en": "hurry, sudden"
+    "id": "mengirim",
+    "en": "send, transport"
   }
 }
