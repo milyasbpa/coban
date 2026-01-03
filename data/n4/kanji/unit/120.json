@@ -1,40 +1,136 @@
 {
   "id": 120,
-  "character": "菜",
-  "strokes": 11,
+  "character": "楽",
+  "strokes": 13,
   "readings": {
     "kun": [
       {
-        "furigana": "な",
-        "romanji": "na",
+        "furigana": "たの",
+        "romanji": "tano",
         "examples": [
           {
             "id": 1,
-            "word": "菜",
-            "furigana": "な",
-            "romanji": "na",
+            "word": "楽しい",
+            "furigana": "たのしい",
+            "romanji": "tanoshii",
             "meanings": {
-              "id": "sayur-sayuran",
-              "en": "vegetable"
-            }
+              "id": "menyenangkan",
+              "en": "fun, enjoyable"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昨日のパーティーは楽しかったです。",
+                "furigana": "きのうのパーティーはたのしかったです。",
+                "romaji": "kinou no paatii wa tanoshikatta desu.",
+                "meanings": {
+                  "id": "Pesta kemarin menyenangkan.",
+                  "en": "Yesterday's party was fun."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "楽しむ",
+            "furigana": "たのしむ",
+            "romanji": "tanoshimu",
+            "meanings": {
+              "id": "menikmati",
+              "en": "to enjoy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "休みの日を楽しんでいます。",
+                "furigana": "やすみのひをたのしんでいます。",
+                "romaji": "yasumi no hi wo tanoshinde imasu.",
+                "meanings": {
+                  "id": "Saya menikmati hari libur.",
+                  "en": "I am enjoying my day off."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "サイ",
-        "romanji": "sai",
+        "furigana": "ガク",
+        "romanji": "gaku",
         "examples": [
           {
-            "id": 2,
-            "word": "野菜",
-            "furigana": "やさい",
-            "romanji": "yasai",
+            "id": 1,
+            "word": "音楽",
+            "furigana": "おんがく",
+            "romanji": "ongaku",
             "meanings": {
-              "id": "sayur mayur",
-              "en": "vegetables"
-            }
+              "id": "musik",
+              "en": "music"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "音楽を聞くのが好きです。",
+                "furigana": "おんがくをきくのがすきです。",
+                "romaji": "ongaku wo kiku no ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka mendengarkan musik.",
+                  "en": "I like listening to music."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "ラク",
+        "romanji": "raku",
+        "examples": [
+          {
+            "id": 1,
+            "word": "楽",
+            "furigana": "らく",
+            "romanji": "raku",
+            "meanings": {
+              "id": "nyaman, mudah",
+              "en": "comfortable, easy"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この椅子は座るのが楽です。",
+                "furigana": "このいすはすわるのがらくです。",
+                "romaji": "kono isu wa suwaru no ga raku desu.",
+                "meanings": {
+                  "id": "Kursi ini nyaman untuk diduduki.",
+                  "en": "This chair is comfortable to sit on."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "楽観的",
+            "furigana": "らっかんてき",
+            "romanji": "rakkanteki",
+            "meanings": {
+              "id": "optimisme",
+              "en": "optimistic"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼はいつも楽観的です。",
+                "furigana": "かれはいつもらっかんてきです。",
+                "romaji": "kare wa itsumo rakkanteki desu.",
+                "meanings": {
+                  "id": "Dia selalu optimis.",
+                  "en": "He is always optimistic."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "sayur-sayuran",
-    "en": "vegetable"
+    "id": "menyenangkan, mudah",
+    "en": "fun, easy, music"
   }
 }
