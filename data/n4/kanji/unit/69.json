@@ -1,40 +1,108 @@
 {
   "id": 69,
-  "character": "知",
-  "strokes": 8,
+  "character": "度",
+  "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "し",
-        "romanji": "shi",
+        "furigana": "たび",
+        "romanji": "tabi",
         "examples": [
           {
             "id": 1,
-            "word": "知らせる",
-            "furigana": "しらせる",
-            "romanji": "shiraseru",
+            "word": "度々",
+            "furigana": "たびたび",
+            "romanji": "tabitabi",
             "meanings": {
-              "id": "memberitahu",
-              "en": "to inform"
-            }
+              "id": "sering kali",
+              "en": "often, frequently"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は度々遅刻します。",
+                "furigana": "かれはたびたびちこくします。",
+                "romaji": "kare wa tabitabi chikoku shimasu.",
+                "meanings": {
+                  "id": "Dia sering kali terlambat.",
+                  "en": "He is often late."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "チ",
-        "romanji": "chi",
+        "furigana": "ド",
+        "romanji": "do",
         "examples": [
           {
-            "id": 2,
-            "word": "知識",
-            "furigana": "ちしき",
-            "romanji": "chishiki",
+            "id": 1,
+            "word": "温度",
+            "furigana": "おんど",
+            "romanji": "ondo",
             "meanings": {
-              "id": "pengetahuan",
-              "en": "knowledge"
-            }
+              "id": "suhu, temperatur",
+              "en": "temperature"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日の温度は30度です。",
+                "furigana": "きょうのおんどは30どです。",
+                "romaji": "kyou no ondo wa sanjuu do desu.",
+                "meanings": {
+                  "id": "Suhu hari ini adalah 30 derajat.",
+                  "en": "Today's temperature is 30 degrees."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "もう一度",
+            "furigana": "もういちど",
+            "romanji": "mouichido",
+            "meanings": {
+              "id": "satu kali lagi",
+              "en": "once more, again"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "もう一度説明してください。",
+                "furigana": "もういちどせつめいしてください。",
+                "romaji": "mouichido setsumei shite kudasai.",
+                "meanings": {
+                  "id": "Tolong jelaskan satu kali lagi.",
+                  "en": "Please explain once more."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "態度",
+            "furigana": "たいど",
+            "romanji": "taido",
+            "meanings": {
+              "id": "sikap",
+              "en": "attitude"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼の態度はとても丁寧です。",
+                "furigana": "かれのたいどはとてもていねいです。",
+                "romaji": "kare no taido wa totemo teinei desu.",
+                "meanings": {
+                  "id": "Sikapnya sangat sopan.",
+                  "en": "His attitude is very polite."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +110,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "memberitahu",
-    "en": "know, inform"
+    "id": "tingkat",
+    "en": "degree, time"
   }
 }
