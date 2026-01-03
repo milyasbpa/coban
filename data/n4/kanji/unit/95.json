@@ -1,56 +1,136 @@
 {
   "id": 95,
-  "character": "借",
+  "character": "通",
   "strokes": 10,
   "readings": {
     "kun": [
       {
-        "furigana": "か",
-        "romanji": "ka",
+        "furigana": "とお",
+        "romanji": "too",
         "examples": [
           {
             "id": 1,
-            "word": "借りる",
-            "furigana": "かりる",
-            "romanji": "kariru",
+            "word": "通る",
+            "furigana": "とおる",
+            "romanji": "tooru",
             "meanings": {
-              "id": "meminjam",
-              "en": "to borrow"
-            }
+              "id": "melewati",
+              "en": "to pass through"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この道を通って学校に行きます。",
+                "furigana": "このみちをとおってがっこうにいきます。",
+                "romaji": "kono michi wo tootte gakkou ni ikimasu.",
+                "meanings": {
+                  "id": "Saya pergi ke sekolah melewati jalan ini.",
+                  "en": "I go to school through this road."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "かよ",
+        "romanji": "kayo",
+        "examples": [
+          {
+            "id": 2,
+            "word": "通う",
+            "furigana": "かよう",
+            "romanji": "kayou",
+            "meanings": {
+              "id": "pulang pergi",
+              "en": "to commute"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "電車で大学に通っています。",
+                "furigana": "でんしゃでだいがくにかよっています。",
+                "romaji": "densha de daigaku ni kayotteimasu.",
+                "meanings": {
+                  "id": "Saya pulang pergi ke universitas dengan kereta.",
+                  "en": "I commute to university by train."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シャク",
-        "romanji": "shaku",
-        "examples": [
-          {
-            "id": 2,
-            "word": "借家",
-            "furigana": "しゃくや",
-            "romanji": "shakuya",
-            "meanings": {
-              "id": "rumah sewaan",
-              "en": "rented house"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "シャッ",
-        "romanji": "shat",
+        "furigana": "ツウ",
+        "romanji": "tsuu",
         "examples": [
           {
             "id": 3,
-            "word": "借金",
-            "furigana": "しゃっきん",
-            "romanji": "shakkin",
+            "word": "通勤",
+            "furigana": "つうきん",
+            "romanji": "tsuukin",
             "meanings": {
-              "id": "hutang",
-              "en": "debt"
-            }
+              "id": "pulang pergi kerja",
+              "en": "commuting to work"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "通勤に1時間かかります。",
+                "furigana": "つうきんに1じかんかかります。",
+                "romaji": "tsuukin ni ichi jikan kakarimasu.",
+                "meanings": {
+                  "id": "Perjalanan pulang pergi kerja memakan waktu 1 jam.",
+                  "en": "It takes one hour to commute to work."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "word": "交通",
+            "furigana": "こうつう",
+            "romanji": "koutsuu",
+            "meanings": {
+              "id": "lalu lintas",
+              "en": "traffic, transportation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この町は交通が便利です。",
+                "furigana": "このまちはこうつうがべんりです。",
+                "romaji": "kono machi wa koutsuu ga benri desu.",
+                "meanings": {
+                  "id": "Transportasi di kota ini nyaman.",
+                  "en": "Transportation in this town is convenient."
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "word": "普通",
+            "furigana": "ふつう",
+            "romanji": "futsuu",
+            "meanings": {
+              "id": "biasanya",
+              "en": "usually, ordinary"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "普通は7時に起きます。",
+                "furigana": "ふつうは7じにおきます。",
+                "romaji": "futsuu wa shichi ji ni okimasu.",
+                "meanings": {
+                  "id": "Biasanya saya bangun jam 7.",
+                  "en": "I usually wake up at 7 o'clock."
+                }
+              }
+            ]
           }
         ]
       }
@@ -58,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "meminjam",
-    "en": "borrow, rent"
+    "id": "melewati, umum",
+    "en": "pass through, common"
   }
 }
