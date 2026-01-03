@@ -1,50 +1,130 @@
 {
   "id": 126,
-  "character": "場",
-  "strokes": 12,
+  "character": "歌",
+  "strokes": 14,
   "readings": {
     "kun": [
       {
-        "furigana": "ば",
-        "romanji": "ba",
+        "furigana": "うた",
+        "romanji": "uta",
         "examples": [
           {
             "id": 1,
-            "word": "場所",
-            "furigana": "ばしょ",
-            "romanji": "basho",
+            "word": "歌",
+            "furigana": "うた",
+            "romanji": "uta",
             "meanings": {
-              "id": "tempat",
-              "en": "place"
-            }
+              "id": "lagu",
+              "en": "song"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この歌が好きです。",
+                "furigana": "このうたがすきです。",
+                "romaji": "kono uta ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka lagu ini.",
+                  "en": "I like this song."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "場合",
-            "furigana": "ばあい",
-            "romanji": "baai",
+            "word": "歌う",
+            "furigana": "うたう",
+            "romanji": "utau",
             "meanings": {
-              "id": "hal, kasus",
-              "en": "case"
-            }
+              "id": "bernyanyi",
+              "en": "to sing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "友達と一緒に歌いました。",
+                "furigana": "ともだちといっしょにうたいました。",
+                "romaji": "tomodachi to issho ni utaimashita.",
+                "meanings": {
+                  "id": "Saya bernyanyi bersama teman.",
+                  "en": "I sang together with my friends."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ジョウ",
-        "romanji": "jou",
+        "furigana": "カ",
+        "romanji": "ka",
         "examples": [
           {
-            "id": 3,
-            "word": "駐車場",
-            "furigana": "ちゅうしゃじょう",
-            "romanji": "chuushajou",
+            "id": 1,
+            "word": "歌手",
+            "furigana": "かしゅ",
+            "romanji": "kashu",
             "meanings": {
-              "id": "tempat parkir",
-              "en": "parking lot"
-            }
+              "id": "penyanyi",
+              "en": "singer"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "姉は有名な歌手です。",
+                "furigana": "あねはゆうめいなかしゅです。",
+                "romaji": "ane wa yuumei na kashu desu.",
+                "meanings": {
+                  "id": "Kakak perempuan saya adalah penyanyi terkenal.",
+                  "en": "My older sister is a famous singer."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "歌詞",
+            "furigana": "かし",
+            "romanji": "kashi",
+            "meanings": {
+              "id": "lirik lagu",
+              "en": "lyrics"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この歌の歌詞を覚えました。",
+                "furigana": "このうたのかしをおぼえました。",
+                "romaji": "kono uta no kashi wo oboemashita.",
+                "meanings": {
+                  "id": "Saya menghafal lirik lagu ini.",
+                  "en": "I memorized the lyrics of this song."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "国歌",
+            "furigana": "こっか",
+            "romanji": "kokka",
+            "meanings": {
+              "id": "lagu nasional",
+              "en": "national anthem"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "式で国歌を歌いました。",
+                "furigana": "しきでこっかをうたいました。",
+                "romaji": "shiki de kokka wo utaimashita.",
+                "meanings": {
+                  "id": "Kami menyanyikan lagu kebangsaan di upacara.",
+                  "en": "We sang the national anthem at the ceremony."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "tempat",
-    "en": "place, field"
+    "id": "lagu",
+    "en": "song, sing"
   }
 }
