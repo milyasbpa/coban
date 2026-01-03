@@ -1,40 +1,85 @@
 {
   "id": 83,
-  "character": "計",
+  "character": "茶",
   "strokes": 9,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "はか",
-        "romanji": "haka",
+        "furigana": "チャ",
+        "romanji": "cha",
         "examples": [
           {
             "id": 1,
-            "word": "計る",
-            "furigana": "はかる",
-            "romanji": "hakaru",
+            "word": "お茶",
+            "furigana": "おちゃ",
+            "romanji": "ocha",
             "meanings": {
-              "id": "mengukur",
-              "en": "to measure"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "ケイ",
-        "romanji": "kei",
-        "examples": [
+              "id": "teh",
+              "en": "tea"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "お茶を飲みながら話しましょう。",
+                "furigana": "おちゃをのみながらはなしましょう。",
+                "romaji": "ocha wo nominagara hanashimashou.",
+                "meanings": {
+                  "id": "Mari berbicara sambil minum teh.",
+                  "en": "Let's talk while drinking tea."
+                }
+              }
+            ]
+          },
           {
             "id": 2,
-            "word": "時計",
-            "furigana": "とけい",
-            "romanji": "tokei",
+            "word": "日本茶",
+            "furigana": "にほんちゃ",
+            "romanji": "nihoncha",
             "meanings": {
-              "id": "jam (tangan/dinding)",
-              "en": "clock, watch"
-            }
+              "id": "teh jepang",
+              "en": "Japanese tea"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本茶が好きですか。",
+                "furigana": "にほんちゃがすきですか。",
+                "romaji": "nihoncha ga suki desu ka.",
+                "meanings": {
+                  "id": "Apakah Anda suka teh Jepang?",
+                  "en": "Do you like Japanese tea?"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "サ",
+        "romanji": "sa",
+        "examples": [
+          {
+            "id": 3,
+            "word": "茶道",
+            "furigana": "さどう",
+            "romanji": "sadou",
+            "meanings": {
+              "id": "seni minum teh",
+              "en": "tea ceremony"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "母は茶道を習っています。",
+                "furigana": "はははさどうをならっています。",
+                "romaji": "haha wa sadou wo naratteimasu.",
+                "meanings": {
+                  "id": "Ibu sedang belajar seni minum teh.",
+                  "en": "My mother is learning tea ceremony."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +87,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mengukur",
-    "en": "measure, plan"
+    "id": "teh",
+    "en": "tea"
   }
 }
