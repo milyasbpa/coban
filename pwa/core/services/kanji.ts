@@ -5,8 +5,21 @@ import n2KanjiData from "@/data/n2/kanji/kanji.json";
 import { getLessonsByLevel } from "@/pwa/features/home/utils/lesson";
 
 export interface KanjiReading {
+  id: number;
   furigana: string;
   romanji: string;
+  examples: KanjiExample[];
+}
+
+export interface KanjiSentence {
+  id: number;
+  sentence: string;
+  furigana: string;
+  romaji: string;
+  meanings: {
+    id: string;
+    en: string;
+  };
 }
 
 export interface KanjiExample {
@@ -18,6 +31,7 @@ export interface KanjiExample {
     id: string;
     en: string;
   };
+  sentences?: KanjiSentence[];
 }
 
 export interface ReadingUsage {
@@ -41,12 +55,14 @@ export interface KanjiDetail {
   readings: {
     kun: KanjiReading[];
     on: KanjiReading[];
+    exception?: {
+      examples: KanjiExample[];
+    } | null;
   };
   meanings: {
     id: string;
     en: string;
   };
-  examples: KanjiExample[];
 }
 
 /**
@@ -192,7 +208,7 @@ export class KanjiService {
       return {
         kanjiId: kanji.id.toString(),
         kanjiCharacter: kanji.character,
-        totalWords: kanji.examples?.length || 1,
+        totalWords: this.getAllExamples(kanji).length || 1,
       };
     }
 
@@ -229,12 +245,13 @@ export class KanjiService {
 
     // Direct word lookup in examples
     for (const kanji of kanjiData.items) {
-      const wordFound = kanji.examples?.some((ex) => ex.word === word);
+      const examples = this.getAllExamples(kanji);
+      const wordFound = examples.some((ex) => ex.word === word);
       if (wordFound) {
         return {
           kanjiId: kanji.id.toString(),
           kanjiCharacter: kanji.character,
-          totalWords: kanji.examples?.length || 1,
+          totalWords: examples.length || 1,
         };
       }
     }
@@ -247,7 +264,7 @@ export class KanjiService {
         return {
           kanjiId: kanji.id.toString(),
           kanjiCharacter: kanji.character,
-          totalWords: kanji.examples?.length || 1,
+          totalWords: this.getAllExamples(kanji).length || 1,
         };
       }
     }
@@ -282,7 +299,8 @@ export class KanjiService {
     const kanji = this.getKanjiById(kanjiId, level);
     if (!kanji) return null;
 
-    const currentWord = kanji.examples.find(
+    const allExamples = this.getAllExamples(kanji);
+    const currentWord = allExamples.find(
       (ex) => ex.furigana === wordFurigana
     );
     if (!currentWord) return null;
@@ -298,7 +316,7 @@ export class KanjiService {
       currentWord,
       usedReading,
       otherReadings,
-      allExamples: kanji.examples,
+      allExamples,
     };
   }
 
@@ -319,9 +337,7 @@ export class KanjiService {
         return {
           reading: onReading,
           type: 'on',
-          examples: kanji.examples.filter((ex) =>
-            ex.furigana.toLowerCase().includes(readingHiragana.toLowerCase())
-          ),
+          examples: onReading.examples || [],
         };
       }
     }
@@ -333,9 +349,7 @@ export class KanjiService {
         return {
           reading: kunReading,
           type: 'kun',
-          examples: kanji.examples.filter((ex) =>
-            ex.furigana.toLowerCase().includes(readingHiragana)
-          ),
+          examples: kunReading.examples || [],
         };
       }
     }
@@ -355,10 +369,7 @@ export class KanjiService {
 
     // Group by ON readings
     kanji.readings.on.forEach((onReading) => {
-      const readingHiragana = this.katakanaToHiragana(onReading.furigana);
-      const examples = kanji.examples.filter((ex) =>
-        ex.furigana.toLowerCase().includes(readingHiragana.toLowerCase())
-      );
+      const examples = onReading.examples || [];
 
       if (examples.length > 0) {
         groups.push({
@@ -371,10 +382,7 @@ export class KanjiService {
 
     // Group by KUN readings
     kanji.readings.kun.forEach((kunReading) => {
-      const readingHiragana = kunReading.furigana.toLowerCase();
-      const examples = kanji.examples.filter((ex) =>
-        ex.furigana.toLowerCase().includes(readingHiragana)
-      );
+      const examples = kunReading.examples || [];
 
       if (examples.length > 0) {
         groups.push({
@@ -396,6 +404,34 @@ export class KanjiService {
       const chr = match.charCodeAt(0) - 0x60;
       return String.fromCharCode(chr);
     });
+  }
+
+  /**
+   * Get all examples from a kanji (examples are now nested in readings)
+   */
+  private static getAllExamples(kanji: KanjiDetail): KanjiExample[] {
+    const examples: KanjiExample[] = [];
+    
+    // Collect from kun readings
+    kanji.readings.kun.forEach((reading) => {
+      if (reading.examples) {
+        examples.push(...reading.examples);
+      }
+    });
+    
+    // Collect from on readings
+    kanji.readings.on.forEach((reading) => {
+      if (reading.examples) {
+        examples.push(...reading.examples);
+      }
+    });
+    
+    // Collect from exception readings
+    if (kanji.readings.exception?.examples) {
+      examples.push(...kanji.readings.exception.examples);
+    }
+    
+    return examples;
   }
 
   /**
@@ -452,7 +488,7 @@ export class KanjiService {
       );
 
       if (matchingKanji) {
-        relatedWords.push(...matchingKanji.examples);
+        relatedWords.push(...this.getAllExamples(matchingKanji));
       }
     }
 

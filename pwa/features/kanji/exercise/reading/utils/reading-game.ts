@@ -43,17 +43,59 @@ export const createReadingQuestions = (
 
   // Collect examples from selected kanji as questions
   selectedKanjiDetails.forEach((kanji) => {
-    kanji.examples.forEach((example) => {
+    // Collect from kun readings
+    kanji.readings.kun.forEach((reading) => {
+      reading.examples?.forEach((example) => {
+        selectedOptions.push({
+          ...example,
+          kanjiId: kanji.id,
+        });
+      });
+    });
+    
+    // Collect from on readings
+    kanji.readings.on.forEach((reading) => {
+      reading.examples?.forEach((example) => {
+        selectedOptions.push({
+          ...example,
+          kanjiId: kanji.id,
+        });
+      });
+    });
+    
+    // Collect from exception readings
+    kanji.readings.exception?.examples?.forEach((example) => {
       selectedOptions.push({
-        ...example,           // Spread all KanjiExample fields
-        kanjiId: kanji.id,    // Add parent kanji ID
+        ...example,
+        kanjiId: kanji.id,
       });
     });
   });
   
   // Collect all examples from wrong options pool
   wrongOptionsPool.forEach((kanji) => {
-    kanji.examples.forEach((example) => {
+    // Collect from kun readings
+    kanji.readings.kun.forEach((reading) => {
+      reading.examples?.forEach((example) => {
+        allOptionsForWrongAnswers.push({
+          ...example,
+          kanjiId: kanji.id,
+        });
+      });
+    });
+    
+    // Collect from on readings
+    kanji.readings.on.forEach((reading) => {
+      reading.examples?.forEach((example) => {
+        allOptionsForWrongAnswers.push({
+          ...example,
+          kanjiId: kanji.id,
+        });
+      });
+    });
+    
+    // Collect from exception readings
+    kanji.readings.exception?.examples?.forEach((example) => {
       allOptionsForWrongAnswers.push({
         ...example,
         kanjiId: kanji.id,

@@ -9,11 +9,31 @@ export const createPairingWords = (
   const words: PairingWord[] = [];
 
   kanjiDetails.forEach((kanji) => {
-    // Use examples from kanji data, just add kanjiId
-    kanji.examples.forEach((example) => {
+    // Collect examples from kun readings
+    kanji.readings.kun.forEach((reading) => {
+      reading.examples?.forEach((example) => {
+        words.push({
+          ...example,
+          kanjiId: kanji.id,
+        });
+      });
+    });
+    
+    // Collect examples from on readings
+    kanji.readings.on.forEach((reading) => {
+      reading.examples?.forEach((example) => {
+        words.push({
+          ...example,
+          kanjiId: kanji.id,
+        });
+      });
+    });
+    
+    // Collect examples from exception readings
+    kanji.readings.exception?.examples?.forEach((example) => {
       words.push({
-        ...example,           // Spread all KanjiExample fields (id, word, furigana, romanji, meanings)
-        kanjiId: kanji.id,    // Add parent kanji ID
+        ...example,
+        kanjiId: kanji.id,
       });
     });
   });

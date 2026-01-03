@@ -49,7 +49,28 @@ export function getWritingQuestions(
 
     // Collect all questions from all kanji in lesson
     allKanjiItems.forEach((kanjiItem) => {
-      kanjiItem.examples.forEach((example) => {
+      // Collect from kun readings
+      kanjiItem.readings.kun.forEach((reading) => {
+        reading.examples?.forEach((example) => {
+          allQuestions.push({
+            ...example,
+            kanjiId: kanjiItem.id,
+          });
+        });
+      });
+      
+      // Collect from on readings
+      kanjiItem.readings.on.forEach((reading) => {
+        reading.examples?.forEach((example) => {
+          allQuestions.push({
+            ...example,
+            kanjiId: kanjiItem.id,
+          });
+        });
+      });
+      
+      // Collect from exception readings
+      kanjiItem.readings.exception?.examples?.forEach((example) => {
         allQuestions.push({
           ...example,
           kanjiId: kanjiItem.id,
@@ -64,7 +85,28 @@ export function getWritingQuestions(
       );
 
       selectedKanjiItems.forEach((kanjiItem) => {
-        kanjiItem.examples.forEach((example) => {
+        // Collect from kun readings
+        kanjiItem.readings.kun.forEach((reading) => {
+          reading.examples?.forEach((example) => {
+            selectedQuestions.push({
+              ...example,
+              kanjiId: kanjiItem.id,
+            });
+          });
+        });
+        
+        // Collect from on readings
+        kanjiItem.readings.on.forEach((reading) => {
+          reading.examples?.forEach((example) => {
+            selectedQuestions.push({
+              ...example,
+              kanjiId: kanjiItem.id,
+            });
+          });
+        });
+        
+        // Collect from exception readings
+        kanjiItem.readings.exception?.examples?.forEach((example) => {
           selectedQuestions.push({
             ...example,
             kanjiId: kanjiItem.id,

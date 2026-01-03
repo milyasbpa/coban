@@ -363,7 +363,11 @@ export function KanjiCard({ kanji, index, level }: KanjiCardProps) {
 
       {/* Example words */}
       <div className="space-y-1.5 pt-1">
-        {kanji.examples.map((example, idx) => (
+        {[
+          ...(kanji.readings.kun.flatMap(r => r.examples || [])),
+          ...(kanji.readings.on.flatMap(r => r.examples || [])),
+          ...(kanji.readings.exception?.examples || [])
+        ].map((example, idx) => (
           <div
             key={idx}
             className="grid grid-cols-[1fr_auto] gap-2 items-center text-sm"
