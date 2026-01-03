@@ -1,50 +1,64 @@
 {
   "id": 114,
-  "character": "黒",
-  "strokes": 11,
+  "character": "短",
+  "strokes": 12,
   "readings": {
     "kun": [
       {
-        "furigana": "くろ",
-        "romanji": "kuro",
+        "furigana": "みじか",
+        "romanji": "mijika",
         "examples": [
           {
             "id": 1,
-            "word": "黒",
-            "furigana": "くろ",
-            "romanji": "kuro",
+            "word": "短い",
+            "furigana": "みじかい",
+            "romanji": "mijikai",
             "meanings": {
-              "id": "warna hitam",
-              "en": "black"
-            }
-          },
-          {
-            "id": 2,
-            "word": "黒い",
-            "furigana": "くろい",
-            "romanji": "kuroi",
-            "meanings": {
-              "id": "hitam",
-              "en": "black (adjective)"
-            }
+              "id": "pendek",
+              "en": "short"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼女の髪は短いです。",
+                "furigana": "かのじょのかみはみじかいです。",
+                "romaji": "kanojo no kami wa mijikai desu.",
+                "meanings": {
+                  "id": "Rambutnya pendek.",
+                  "en": "Her hair is short."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "コク",
-        "romanji": "koku",
+        "furigana": "タン",
+        "romanji": "tan",
         "examples": [
           {
-            "id": 3,
-            "word": "黒板",
-            "furigana": "こくばん",
-            "romanji": "kokuban",
+            "id": 1,
+            "word": "短期",
+            "furigana": "たんき",
+            "romanji": "tanki",
             "meanings": {
-              "id": "papan tulis",
-              "en": "blackboard"
-            }
+              "id": "jangka pendek",
+              "en": "short term"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "短期のアルバイトを探しています。",
+                "furigana": "たんきのアルバイトをさがしています。",
+                "romaji": "tanki no arubaito wo sagashite imasu.",
+                "meanings": {
+                  "id": "Saya sedang mencari pekerjaan paruh waktu jangka pendek.",
+                  "en": "I'm looking for a short-term part-time job."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +66,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "warna hitam",
-    "en": "black"
+    "id": "pendek",
+    "en": "short"
   }
 }
