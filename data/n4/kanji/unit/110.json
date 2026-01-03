@@ -1,32 +1,56 @@
 {
   "id": 110,
-  "character": "終",
+  "character": "習",
   "strokes": 11,
   "readings": {
     "kun": [
       {
-        "furigana": "お",
-        "romanji": "o",
+        "furigana": "なら",
+        "romanji": "nara",
         "examples": [
           {
             "id": 1,
-            "word": "終わる",
-            "furigana": "おわる",
-            "romanji": "owaru",
+            "word": "習う",
+            "furigana": "ならう",
+            "romanji": "narau",
             "meanings": {
-              "id": "mengakhiri",
-              "en": "to end"
-            }
+              "id": "belajar",
+              "en": "to learn"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "私はピアノを習っています。",
+                "furigana": "わたしはピアノをならっています。",
+                "romaji": "watashi wa piano wo naratte imasu.",
+                "meanings": {
+                  "id": "Saya sedang belajar piano.",
+                  "en": "I am learning piano."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "終える",
-            "furigana": "おえる",
-            "romanji": "oeru",
+            "word": "見習い",
+            "furigana": "みならい",
+            "romanji": "minarai",
             "meanings": {
-              "id": "berakhir, selesai",
-              "en": "to finish"
-            }
+              "id": "latihan, magang",
+              "en": "apprentice, trainee"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は料理人の見習いです。",
+                "furigana": "かれはりょうりにんのみならいです。",
+                "romaji": "kare wa ryourinin no minarai desu.",
+                "meanings": {
+                  "id": "Dia adalah magang koki.",
+                  "en": "He is a chef's apprentice."
+                }
+              }
+            ]
           }
         ]
       }
@@ -37,14 +61,70 @@
         "romanji": "shuu",
         "examples": [
           {
-            "id": 3,
-            "word": "終点",
-            "furigana": "しゅうてん",
-            "romanji": "shuuten",
+            "id": 1,
+            "word": "学習",
+            "furigana": "がくしゅう",
+            "romanji": "gakushuu",
             "meanings": {
-              "id": "stasiun (pembentukan) terakhir",
-              "en": "terminal station"
-            }
+              "id": "belajar",
+              "en": "learning, study"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日漢字の学習をしています。",
+                "furigana": "まいにちかんじのがくしゅうをしています。",
+                "romaji": "mainichi kanji no gakushuu wo shite imasu.",
+                "meanings": {
+                  "id": "Saya belajar kanji setiap hari.",
+                  "en": "I study kanji every day."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "予習",
+            "furigana": "よしゅう",
+            "romanji": "yoshuu",
+            "meanings": {
+              "id": "persiapan belajar",
+              "en": "preparation, preview"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "明日の授業の予習をしました。",
+                "furigana": "あしたのじゅぎょうのよしゅうをしました。",
+                "romaji": "ashita no jugyou no yoshuu wo shimashita.",
+                "meanings": {
+                  "id": "Saya sudah mempersiapkan pelajaran besok.",
+                  "en": "I prepared for tomorrow's lesson."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "復習",
+            "furigana": "ふくしゅう",
+            "romanji": "fukushuu",
+            "meanings": {
+              "id": "pengulangan pelajaran",
+              "en": "review, revision"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "テストの前に復習が必要です。",
+                "furigana": "テストのまえにふくしゅうがひつようです。",
+                "romaji": "tesuto no mae ni fukushuu ga hitsuyou desu.",
+                "meanings": {
+                  "id": "Sebelum ujian perlu mengulang pelajaran.",
+                  "en": "Review is necessary before the test."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mengakhiri",
-    "en": "end, finish"
+    "id": "belajar",
+    "en": "learn, practice"
   }
 }
