@@ -10,24 +10,26 @@
         "romanji": "hatsu",
         "examples": [
           {
-            "id": 3,
-            "word": "発明",
-            "furigana": "はつめい",
-            "romanji": "hatsumei",
+            "id": 1,
+            "word": "発音",
+            "furigana": "はつおん",
+            "romanji": "hatsuon",
             "meanings": {
-              "id": "berkering",
-              "en": "invention"
-            }
-          },
-          {
-            "id": 4,
-            "word": "髪作",
-            "furigana": "はつさく",
-            "romanji": "hatsusaku",
-            "meanings": {
-              "id": "kambuh",
-              "en": "hairstyle"
-            }
+              "id": "lafal",
+              "en": "pronunciation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この言葉の発音が難しいです。",
+                "furigana": "このことばのはつおんがむずかしいです。",
+                "romaji": "kono kotoba no hatsuon ga muzukashii desu.",
+                "meanings": {
+                  "id": "Pelafalan kata ini sulit.",
+                  "en": "The pronunciation of this word is difficult."
+                }
+              }
+            ]
           }
         ]
       },
@@ -36,63 +38,90 @@
         "romanji": "patsu",
         "examples": [
           {
-            "id": 1,
+            "id": 2,
             "word": "出発",
             "furigana": "しゅっぱつ",
             "romanji": "shuppatsu",
             "meanings": {
               "id": "keberangkatan",
               "en": "departure"
-            }
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "バスは朝8時に出発します。",
+                "furigana": "バスはあさ8じにしゅっぱつします。",
+                "romaji": "basu wa asa hachi ji ni shuppatsu shimasu.",
+                "meanings": {
+                  "id": "Bus berangkat pada pukul 8 pagi.",
+                  "en": "The bus departs at 8 a.m."
+                }
+              }
+            ]
           }
         ]
       },
       {
         "furigana": "ハッ",
-        "romanji": "hat",
+        "romanji": "ha(tsu kecil)",
         "examples": [
           {
-            "id": 2,
-            "word": "発見",
-            "furigana": "はっけん",
-            "romanji": "hakken",
-            "meanings": {
-              "id": "berkerangkat",
-              "en": "discovery"
-            }
-          },
-          {
             "id": 3,
-            "word": "発明",
-            "furigana": "はつめい",
-            "romanji": "hatsumei",
+            "word": "発汗",
+            "furigana": "はっかん",
+            "romanji": "hakkan",
             "meanings": {
-              "id": "berkering",
-              "en": "invention"
-            }
-          },
-          {
-            "id": 4,
-            "word": "髪作",
-            "furigana": "はつさく",
-            "romanji": "hatsusaku",
-            "meanings": {
-              "id": "kambuh",
-              "en": "hairstyle"
-            }
+              "id": "berkeringat",
+              "en": "sweating"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "運動すると発汗が始まります。",
+                "furigana": "うんどうするとはっかんがはじまります。",
+                "romaji": "undou suru to hakkan ga hajimarimasu.",
+                "meanings": {
+                  "id": "Ketika berolahraga, mulai berkeringat.",
+                  "en": "When you exercise, sweating begins."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "ホツ",
-        "romanji": "hotsu",
-        "examples": []
+        "furigana": "ホッ",
+        "romanji": "ho(tsu kecil)",
+        "examples": [
+          {
+            "id": 4,
+            "word": "発作",
+            "furigana": "ほっさ",
+            "romanji": "hossa",
+            "meanings": {
+              "id": "kambuh",
+              "en": "seizure, attack"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "祖父は時々発作が起こります。",
+                "furigana": "そふはときどきほっさがおこります。",
+                "romaji": "sofu wa tokidoki hossa ga okorimasu.",
+                "meanings": {
+                  "id": "Kakek kadang-kadang mengalami serangan.",
+                  "en": "My grandfather sometimes has seizures."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "exception": null
   },
   "meanings": {
-    "id": "keberangkatan",
+    "id": "berangkat, memancarkan",
     "en": "departure, emit"
   }
 }
