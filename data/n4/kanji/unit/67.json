@@ -1,66 +1,94 @@
 {
   "id": 67,
-  "character": "者",
-  "strokes": 8,
+  "character": "昼",
+  "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "もの",
-        "romanji": "mono",
-        "examples": []
+        "furigana": "ひる",
+        "romanji": "hiru",
+        "examples": [
+          {
+            "id": 1,
+            "word": "昼寝",
+            "furigana": "ひるね",
+            "romanji": "hirune",
+            "meanings": {
+              "id": "tidur siang",
+              "en": "nap, afternoon nap"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "疲れたので昼寝をしました。",
+                "furigana": "つかれたのでひるねをしました。",
+                "romaji": "tsukareta node hirune wo shimashita.",
+                "meanings": {
+                  "id": "Saya tidur siang karena lelah.",
+                  "en": "I took a nap because I was tired."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "昼休み",
+            "furigana": "ひるやすみ",
+            "romanji": "hiruyasumi",
+            "meanings": {
+              "id": "istirahat siang",
+              "en": "lunch break"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昼休みに友達と話しました。",
+                "furigana": "ひるやすみにともだちとはなしました。",
+                "romaji": "hiruyasumi ni tomodachi to hanashimashita.",
+                "meanings": {
+                  "id": "Saya berbicara dengan teman saat istirahat siang.",
+                  "en": "I talked with my friend during lunch break."
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "on": [
       {
-        "furigana": "シャ",
-        "romanji": "sha",
+        "furigana": "チュウ",
+        "romanji": "chuu",
         "examples": [
           {
-            "id": 2,
-            "word": "医者",
-            "furigana": "いしゃ",
-            "romanji": "isha",
+            "id": 1,
+            "word": "昼食",
+            "furigana": "ちゅうしょく",
+            "romanji": "chuushoku",
             "meanings": {
-              "id": "dokter",
-              "en": "doctor"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ジャ",
-        "romanji": "ja",
-        "examples": [
-          {
-            "id": 3,
-            "word": "患者",
-            "furigana": "かんじゃ",
-            "romanji": "kanja",
-            "meanings": {
-              "id": "pasien",
-              "en": "patient"
-            }
+              "id": "makan siang",
+              "en": "lunch"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎日12時に昼食を食べます。",
+                "furigana": "まいにち12じにちゅうしょくをたべます。",
+                "romaji": "mainichi juuniji ni chuushoku wo tabemasu.",
+                "meanings": {
+                  "id": "Saya makan siang setiap hari pukul 12.",
+                  "en": "I eat lunch at 12 o'clock every day."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 1,
-          "word": "怠け者",
-          "furigana": "なまけもの",
-          "romanji": "namakemono",
-          "meanings": {
-            "id": "pemalas",
-            "en": "lazy person"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "pemalas",
-    "en": "person"
+    "id": "siang",
+    "en": "noon, daytime"
   }
 }
