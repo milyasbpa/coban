@@ -1,45 +1,130 @@
 {
   "id": 71,
-  "character": "使",
-  "strokes": 8,
+  "character": "屋",
+  "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "つか",
-        "romanji": "tsuka",
+        "furigana": "や",
+        "romanji": "ya",
         "examples": [
           {
             "id": 1,
-            "word": "使う",
-            "furigana": "つかう",
-            "romanji": "tsukau",
+            "word": "本屋",
+            "furigana": "ほんや",
+            "romanji": "honya",
             "meanings": {
-              "id": "menggunakan",
-              "en": "to use"
-            }
+              "id": "toko buku",
+              "en": "bookstore"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "本屋で新しい辞書を買いました。",
+                "furigana": "ほんやであたらしいじしょをかいました。",
+                "romaji": "honya de atarashii jisho wo kaimashita.",
+                "meanings": {
+                  "id": "Saya membeli kamus baru di toko buku.",
+                  "en": "I bought a new dictionary at the bookstore."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "肉屋",
+            "furigana": "にくや",
+            "romanji": "nikuya",
+            "meanings": {
+              "id": "toko daging",
+              "en": "butcher shop"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "肉屋で新鮮な肉を買います。",
+                "furigana": "にくやでしんせんなにくをかいます。",
+                "romaji": "nikuya de shinsen na niku wo kaimasu.",
+                "meanings": {
+                  "id": "Saya membeli daging segar di toko daging.",
+                  "en": "I buy fresh meat at the butcher shop."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "屋台",
+            "furigana": "やたい",
+            "romanji": "yatai",
+            "meanings": {
+              "id": "kaki lima",
+              "en": "food stall"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "屋台でラーメンを食べました。",
+                "furigana": "やたいでラーメンをたべました。",
+                "romaji": "yatai de raamen wo tabemashita.",
+                "meanings": {
+                  "id": "Saya makan ramen di kaki lima.",
+                  "en": "I ate ramen at a food stall."
+                }
+              }
+            ]
           }
         ]
-      },
-      {
-        "furigana": "つかい",
-        "romanji": "tsukai",
-        "examples": []
       }
     ],
     "on": [
       {
-        "furigana": "シ",
-        "romanji": "shi",
+        "furigana": "オク",
+        "romanji": "oku",
         "examples": [
           {
-            "id": 2,
-            "word": "大使館",
-            "furigana": "たいしかん",
-            "romanji": "taishikan",
+            "id": 1,
+            "word": "屋上",
+            "furigana": "おくじょう",
+            "romanji": "okujyou",
             "meanings": {
-              "id": "kedutaan besar",
-              "en": "embassy"
-            }
+              "id": "di atas atap",
+              "en": "rooftop"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "屋上から景色を見ました。",
+                "furigana": "おくじょうからけしきをみました。",
+                "romaji": "okujyou kara keshiki wo mimashita.",
+                "meanings": {
+                  "id": "Saya melihat pemandangan dari atas atap.",
+                  "en": "I saw the view from the rooftop."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "屋内",
+            "furigana": "おくない",
+            "romanji": "okunai",
+            "meanings": {
+              "id": "dalam ruangan",
+              "en": "indoor, inside"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "屋内プールで泳ぎます。",
+                "furigana": "おくないプールでおよぎます。",
+                "romaji": "okunai puuru de oyogimasu.",
+                "meanings": {
+                  "id": "Saya berenang di kolam renang dalam ruangan.",
+                  "en": "I swim in the indoor pool."
+                }
+              }
+            ]
           }
         ]
       }
@@ -47,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "menggunakan",
-    "en": "use, employ"
+    "id": "toko",
+    "en": "shop, roof"
   }
 }
