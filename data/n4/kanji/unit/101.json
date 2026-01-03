@@ -1,60 +1,79 @@
 {
   "id": 101,
-  "character": "荷",
-  "strokes": 10,
+  "character": "理",
+  "strokes": 11,
   "readings": {
-    "kun": [
+    "kun": [],
+    "on": [
       {
-        "furigana": "に",
-        "romanji": "ni",
+        "furigana": "リ",
+        "romanji": "ri",
         "examples": [
           {
             "id": 1,
-            "word": "荷物",
-            "furigana": "にもつ",
-            "romanji": "nimotsu",
+            "word": "理由",
+            "furigana": "りゆう",
+            "romanji": "riyuu",
             "meanings": {
-              "id": "barang bawaan",
-              "en": "luggage"
-            }
+              "id": "alasan",
+              "en": "reason"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "遅れた理由を教えてください。",
+                "furigana": "おくれたりゆうをおしえてください。",
+                "romaji": "okureta riyuu wo oshiete kudasai.",
+                "meanings": {
+                  "id": "Tolong beritahu saya alasan keterlambatan Anda.",
+                  "en": "Please tell me the reason you were late."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "荷作り",
-            "furigana": "にづくり",
-            "romanji": "nizukuri",
+            "word": "理想的",
+            "furigana": "りそうてき",
+            "romanji": "risouteki",
             "meanings": {
-              "id": "paking",
-              "en": "packing"
-            }
+              "id": "ideal",
+              "en": "ideal"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "これは理想的な場所です。",
+                "furigana": "これはりそうてきなばしょです。",
+                "romaji": "kore wa risouteki na basho desu.",
+                "meanings": {
+                  "id": "Ini adalah tempat yang ideal.",
+                  "en": "This is an ideal place."
+                }
+              }
+            ]
           },
           {
-            "id": 4,
-            "word": "入荷",
-            "furigana": "にゅうか",
-            "romanji": "nyuuka",
-            "meanings": {
-              "id": "pemasukan barang",
-              "en": "arrival of goods"
-            }
-          }
-        ]
-      }
-    ],
-    "on": [
-      {
-        "furigana": "カ",
-        "romanji": "ka",
-        "examples": [
-          {
             "id": 3,
-            "word": "出荷",
-            "furigana": "しゅっか",
-            "romanji": "shukka",
+            "word": "料理",
+            "furigana": "りょうり",
+            "romanji": "ryouri",
             "meanings": {
-              "id": "pengeluaran barang",
-              "en": "shipment"
-            }
+              "id": "masakan",
+              "en": "cooking, cuisine"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "日本料理が好きです。",
+                "furigana": "にほんりょうりがすきです。",
+                "romaji": "nihon ryouri ga suki desu.",
+                "meanings": {
+                  "id": "Saya suka masakan Jepang.",
+                  "en": "I like Japanese cuisine."
+                }
+              }
+            ]
           }
         ]
       }
@@ -62,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "barang bawaan",
-    "en": "luggage, cargo"
+    "id": "alasan, logika",
+    "en": "reason, logic"
   }
 }
