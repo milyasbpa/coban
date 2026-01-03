@@ -1,33 +1,79 @@
 {
   "id": 87,
-  "character": "界",
-  "strokes": 9,
+  "character": "員",
+  "strokes": 10,
   "readings": {
     "kun": [],
     "on": [
       {
-        "furigana": "カイ",
-        "romanji": "kai",
+        "furigana": "イン",
+        "romanji": "in",
         "examples": [
           {
             "id": 1,
-            "word": "世界",
-            "furigana": "せかい",
-            "romanji": "sekai",
+            "word": "店員",
+            "furigana": "てんいん",
+            "romanji": "tenin",
             "meanings": {
-              "id": "dunia",
-              "en": "world"
-            }
+              "id": "pelayan toko",
+              "en": "store clerk"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "店員に質問してください。",
+                "furigana": "てんいんにしつもんしてください。",
+                "romaji": "tenin ni shitsumon shite kudasai.",
+                "meanings": {
+                  "id": "Silakan bertanya kepada pelayan toko.",
+                  "en": "Please ask the store clerk."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "境界",
-            "furigana": "きょうかい",
-            "romanji": "kyoukai",
+            "word": "会員",
+            "furigana": "かいいん",
+            "romanji": "kaiin",
             "meanings": {
-              "id": "batas, limit",
-              "en": "boundary"
-            }
+              "id": "anggota perkumpulan",
+              "en": "member"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "このジムの会員になりたいです。",
+                "furigana": "このジムのかいいんになりたいです。",
+                "romaji": "kono jimu no kaiin ni naritai desu.",
+                "meanings": {
+                  "id": "Saya ingin menjadi anggota gym ini.",
+                  "en": "I want to become a member of this gym."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "議員",
+            "furigana": "ぎいん",
+            "romanji": "giin",
+            "meanings": {
+              "id": "anggota majelis",
+              "en": "member of parliament"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は国会議員です。",
+                "furigana": "ちちはこっかいぎいんです。",
+                "romaji": "chichi wa kokkaigiin desu.",
+                "meanings": {
+                  "id": "Ayah saya adalah anggota parlemen.",
+                  "en": "My father is a member of parliament."
+                }
+              }
+            ]
           }
         ]
       }
@@ -35,7 +81,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "dunia",
-    "en": "world, boundary"
+    "id": "anggota",
+    "en": "member, personnel"
   }
 }
