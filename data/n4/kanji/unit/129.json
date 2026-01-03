@@ -1,66 +1,158 @@
 {
   "id": 129,
-  "character": "集",
-  "strokes": 12,
+  "character": "親",
+  "strokes": 16,
   "readings": {
     "kun": [
       {
-        "furigana": "あつ",
-        "romanji": "atsu",
+        "furigana": "おや",
+        "romanji": "oya",
         "examples": [
           {
             "id": 1,
-            "word": "集める",
-            "furigana": "あつめる",
-            "romanji": "atsumeru",
+            "word": "親",
+            "furigana": "おや",
+            "romanji": "oya",
             "meanings": {
-              "id": "mengumpulkan",
-              "en": "to gather"
-            }
+              "id": "orang tua",
+              "en": "parent"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "親と一緒に住んでいます。",
+                "furigana": "おやといっしょにすんでいます。",
+                "romaji": "oya to issho ni sunde imasu.",
+                "meanings": {
+                  "id": "Saya tinggal bersama orang tua.",
+                  "en": "I live together with my parents."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "集まる",
-            "furigana": "あつまる",
-            "romanji": "atsumaru",
+            "word": "母親",
+            "furigana": "ははおや",
+            "romanji": "hahaoya",
             "meanings": {
-              "id": "berkumpul",
-              "en": "to gather (intransitive)"
-            }
+              "id": "ibu",
+              "en": "mother"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "母親は優しい人です。",
+                "furigana": "ははおやはやさしいひとです。",
+                "romaji": "hahaoya wa yasashii hito desu.",
+                "meanings": {
+                  "id": "Ibu saya adalah orang yang baik hati.",
+                  "en": "My mother is a kind person."
+                }
+              }
+            ]
           }
         ]
       },
       {
-        "furigana": "つど",
-        "romanji": "tsudo",
+        "furigana": "した",
+        "romanji": "shita",
         "examples": [
           {
-            "id": 3,
-            "word": "集う",
-            "furigana": "つどう",
-            "romanji": "tsudou",
+            "id": 1,
+            "word": "親しい",
+            "furigana": "したしい",
+            "romanji": "shitashii",
             "meanings": {
-              "id": "berkumpul, bertemu",
-              "en": "to gather, meet"
-            }
+              "id": "mesra, intim",
+              "en": "close, intimate"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼とは親しい友達です。",
+                "furigana": "かれとはしたしいともだちです。",
+                "romaji": "kare to wa shitashii tomodachi desu.",
+                "meanings": {
+                  "id": "Dia adalah teman dekat saya.",
+                  "en": "He is a close friend of mine."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "シュウ",
-        "romanji": "shuu",
+        "furigana": "シン",
+        "romanji": "shin",
         "examples": [
           {
-            "id": 4,
-            "word": "集会",
-            "furigana": "しゅうかい",
-            "romanji": "shuukai",
+            "id": 1,
+            "word": "親切",
+            "furigana": "しんせつ",
+            "romanji": "shinsetsu",
             "meanings": {
-              "id": "pertemuan",
-              "en": "meeting"
-            }
+              "id": "ramah, baik hati",
+              "en": "kind, kindness"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "あの人は親切です。",
+                "furigana": "あのひとはしんせつです。",
+                "romaji": "ano hito wa shinsetsu desu.",
+                "meanings": {
+                  "id": "Orang itu baik hati.",
+                  "en": "That person is kind."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "親友",
+            "furigana": "しんゆう",
+            "romanji": "shinyuu",
+            "meanings": {
+              "id": "teman karib",
+              "en": "close friend, best friend"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼は私の親友です。",
+                "furigana": "かれはわたしのしんゆうです。",
+                "romaji": "kare wa watashi no shinyuu desu.",
+                "meanings": {
+                  "id": "Dia adalah sahabat saya.",
+                  "en": "He is my best friend."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "両親",
+            "furigana": "りょうしん",
+            "romanji": "ryoushin",
+            "meanings": {
+              "id": "kedua orang tua",
+              "en": "parents"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "両親に電話しました。",
+                "furigana": "りょうしんにでんわしました。",
+                "romaji": "ryoushin ni denwa shimashita.",
+                "meanings": {
+                  "id": "Saya menelepon kedua orang tua.",
+                  "en": "I called my parents."
+                }
+              }
+            ]
           }
         ]
       }
@@ -68,7 +160,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "mengumpulkan",
-    "en": "gather, collect"
+    "id": "orang tua",
+    "en": "parent, intimate"
   }
 }
