@@ -1,40 +1,136 @@
 {
   "id": 64,
-  "character": "定",
-  "strokes": 8,
+  "character": "待",
+  "strokes": 9,
   "readings": {
     "kun": [
       {
-        "furigana": "さだ",
-        "romanji": "sada",
+        "furigana": "ま",
+        "romanji": "ma",
         "examples": [
           {
             "id": 1,
-            "word": "定める",
-            "furigana": "さだめる",
-            "romanji": "sadameru",
+            "word": "待つ",
+            "furigana": "まつ",
+            "romanji": "matsu",
             "meanings": {
-              "id": "menetapkan",
-              "en": "to determine"
-            }
+              "id": "menunggu",
+              "en": "to wait"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "駅で友達を待っています。",
+                "furigana": "えきでともだちをまっています。",
+                "romaji": "eki de tomodachi wo matte imasu.",
+                "meanings": {
+                  "id": "Saya sedang menunggu teman di stasiun.",
+                  "en": "I am waiting for my friend at the station."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "まち",
+        "romanji": "machi",
+        "examples": [
+          {
+            "id": 1,
+            "word": "待合室",
+            "furigana": "まちあいしつ",
+            "romanji": "machiaishitsu",
+            "meanings": {
+              "id": "ruang tunggu",
+              "en": "waiting room"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "病院の待合室で本を読みました。",
+                "furigana": "びょういんのまちあいしつでほんをよみました。",
+                "romaji": "byouin no machiaishitsu de hon wo yomimashita.",
+                "meanings": {
+                  "id": "Saya membaca buku di ruang tunggu rumah sakit.",
+                  "en": "I read a book in the hospital waiting room."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "テイ",
-        "romanji": "tei",
+        "furigana": "タイ",
+        "romanji": "tai",
         "examples": [
           {
-            "id": 2,
-            "word": "否定",
-            "furigana": "ひてい",
-            "romanji": "hitei",
+            "id": 1,
+            "word": "待遇",
+            "furigana": "たいぐう",
+            "romanji": "taiguu",
             "meanings": {
-              "id": "sangkalan",
-              "en": "denial"
-            }
+              "id": "perlakuan",
+              "en": "treatment, conditions"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この会社は待遇がとても良いです。",
+                "furigana": "このかいしゃはたいぐうがとてもよいです。",
+                "romaji": "kono kaisha wa taiguu ga totemo yoi desu.",
+                "meanings": {
+                  "id": "Perlakuan di perusahaan ini sangat baik.",
+                  "en": "The treatment at this company is very good."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "期待",
+            "furigana": "きたい",
+            "romanji": "kitai",
+            "meanings": {
+              "id": "harapan",
+              "en": "expectation, hope"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "合格を期待しています。",
+                "furigana": "ごうかくをきたいしています。",
+                "romaji": "goukaku wo kitai shite imasu.",
+                "meanings": {
+                  "id": "Saya berharap bisa lulus.",
+                  "en": "I am hoping to pass."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "招待",
+            "furigana": "しょうたい",
+            "romanji": "shoutai",
+            "meanings": {
+              "id": "undangan",
+              "en": "invitation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "結婚式に招待されました。",
+                "furigana": "けっこんしきにしょうたいされました。",
+                "romaji": "kekkonshiki ni shoutai saremashita.",
+                "meanings": {
+                  "id": "Saya diundang ke pesta pernikahan.",
+                  "en": "I was invited to a wedding."
+                }
+              }
+            ]
           }
         ]
       }
@@ -42,7 +138,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "menetapkan",
-    "en": "determine, fix"
+    "id": "menunggu",
+    "en": "wait"
   }
 }
