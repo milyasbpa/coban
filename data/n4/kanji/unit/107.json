@@ -1,65 +1,130 @@
 {
   "id": 107,
-  "character": "閉",
+  "character": "動",
   "strokes": 11,
   "readings": {
     "kun": [
       {
-        "furigana": "し",
-        "romanji": "shi",
+        "furigana": "うご",
+        "romanji": "ugo",
         "examples": [
           {
             "id": 1,
-            "word": "閉める",
-            "furigana": "しめる",
-            "romanji": "shimeru",
+            "word": "動く",
+            "furigana": "うごく",
+            "romanji": "ugoku",
             "meanings": {
-              "id": "menutup",
-              "en": "to close"
-            }
+              "id": "bergerak",
+              "en": "to move"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この機械は動きません。",
+                "furigana": "このきかいはうごきません。",
+                "romaji": "kono kikai wa ugokimasen.",
+                "meanings": {
+                  "id": "Mesin ini tidak bergerak.",
+                  "en": "This machine doesn't move."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "閉まる",
-            "furigana": "しまる",
-            "romanji": "shimaru",
+            "word": "動き",
+            "furigana": "うごき",
+            "romanji": "ugoki",
             "meanings": {
-              "id": "tutup",
-              "en": "to be closed"
-            }
+              "id": "gerakan",
+              "en": "movement, motion"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼の動きはとても速いです。",
+                "furigana": "かれのうごきはとてもはやいです。",
+                "romaji": "kare no ugoki wa totemo hayai desu.",
+                "meanings": {
+                  "id": "Gerakannya sangat cepat.",
+                  "en": "His movements are very fast."
+                }
+              }
+            ]
           }
         ]
-      },
-      {
-        "furigana": "と",
-        "romanji": "to",
-        "examples": []
       }
     ],
     "on": [
       {
-        "furigana": "ヘイ",
-        "romanji": "hei",
+        "furigana": "ドウ",
+        "romanji": "dou",
         "examples": [
           {
-            "id": 3,
-            "word": "閉鎖",
-            "furigana": "へいさ",
-            "romanji": "heisa",
+            "id": 1,
+            "word": "動物",
+            "furigana": "どうぶつ",
+            "romanji": "doubutsu",
             "meanings": {
-              "id": "mengalihkan, menjamakan",
-              "en": "closure"
-            }
+              "id": "binatang",
+              "en": "animal"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "動物園にはいろいろな動物がいます。",
+                "furigana": "どうぶつえんにはいろいろなどうぶつがいます。",
+                "romaji": "doubutsuen ni wa iroiro na doubutsu ga imasu.",
+                "meanings": {
+                  "id": "Ada berbagai macam binatang di kebun binatang.",
+                  "en": "There are various animals at the zoo."
+                }
+              }
+            ]
           },
           {
-            "id": 4,
-            "word": "閉店",
-            "furigana": "へいてん",
-            "romanji": "heiten",
+            "id": 2,
+            "word": "運動",
+            "furigana": "うんどう",
+            "romanji": "undou",
             "meanings": {
-              "id": "tutup toko",
-              "en": "store closing"
-            }
+              "id": "olah raga",
+              "en": "exercise, sports"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎朝運動をしています。",
+                "furigana": "まいあさうんどうをしています。",
+                "romaji": "maiasa undou wo shite imasu.",
+                "meanings": {
+                  "id": "Saya berolahraga setiap pagi.",
+                  "en": "I exercise every morning."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "行動",
+            "furigana": "こうどう",
+            "romanji": "koudou",
+            "meanings": {
+              "id": "gerak-gerik",
+              "en": "action, behavior"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼の行動がよく分かりません。",
+                "furigana": "かれのこうどうがよくわかりません。",
+                "romaji": "kare no koudou ga yoku wakarimasen.",
+                "meanings": {
+                  "id": "Saya tidak begitu mengerti tindakannya.",
+                  "en": "I don't really understand his actions."
+                }
+              }
+            ]
           }
         ]
       }
@@ -67,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "menutup",
-    "en": "close, shut"
+    "id": "bergerak",
+    "en": "move, motion"
   }
 }
