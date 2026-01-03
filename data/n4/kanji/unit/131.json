@@ -1,50 +1,92 @@
 {
   "id": 131,
-  "character": "働",
-  "strokes": 13,
+  "character": "顔",
+  "strokes": 18,
   "readings": {
     "kun": [
       {
-        "furigana": "はたら",
-        "romanji": "hatara",
+        "furigana": "かお",
+        "romanji": "kao",
         "examples": [
           {
             "id": 1,
-            "word": "働く",
-            "furigana": "はたらく",
-            "romanji": "hataraku",
+            "word": "顔",
+            "furigana": "かお",
+            "romanji": "kao",
             "meanings": {
-              "id": "bekerja",
-              "en": "to work"
-            }
+              "id": "wajah, muka",
+              "en": "face"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "彼女は顔がきれいです。",
+                "furigana": "かのじょはかおがきれいです。",
+                "romaji": "kanojo wa kao ga kirei desu.",
+                "meanings": {
+                  "id": "Wajahnya cantik.",
+                  "en": "Her face is beautiful."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "furigana": "がお",
+        "romanji": "gao",
+        "examples": [
+          {
+            "id": 2,
+            "word": "笑顔",
+            "furigana": "えがお",
+            "romanji": "egao",
+            "meanings": {
+              "id": "senyum, wajah tersenyum",
+              "en": "smile, smiling face"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "いつも笑顔でいてください。",
+                "furigana": "いつもえがおでいてください。",
+                "romaji": "itsumo egao de ite kudasai.",
+                "meanings": {
+                  "id": "Selalu tersenyumlah.",
+                  "en": "Please always smile."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ドウ",
-        "romanji": "dou",
+        "furigana": "ガン",
+        "romanji": "gan",
         "examples": [
           {
-            "id": 2,
-            "word": "労働",
-            "furigana": "ろうどう",
-            "romanji": "roudou",
-            "meanings": {
-              "id": "kerja, pekerjaan",
-              "en": "labor"
-            }
-          },
-          {
             "id": 3,
-            "word": "労働者",
-            "furigana": "ろうどうしゃ",
-            "romanji": "roudousha",
+            "word": "洗顔",
+            "furigana": "せんがん",
+            "romanji": "sengan",
             "meanings": {
-              "id": "buruh, pekerja",
-              "en": "worker"
-            }
+              "id": "cuci muka",
+              "en": "face washing"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎朝洗顔をします。",
+                "furigana": "まいあさせんがんをします。",
+                "romaji": "maiasa sengan wo shimasu.",
+                "meanings": {
+                  "id": "Setiap pagi saya cuci muka.",
+                  "en": "I wash my face every morning."
+                }
+              }
+            ]
           }
         ]
       }
@@ -52,7 +94,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "bekerja",
-    "en": "work"
+    "id": "wajah",
+    "en": "face"
   }
 }
