@@ -1,86 +1,130 @@
 {
   "id": 90,
-  "character": "建",
-  "strokes": 9,
+  "character": "起",
+  "strokes": 10,
   "readings": {
     "kun": [
       {
-        "furigana": "た",
-        "romanji": "ta",
+        "furigana": "お",
+        "romanji": "o",
         "examples": [
           {
             "id": 1,
-            "word": "建つ",
-            "furigana": "たつ",
-            "romanji": "tatsu",
+            "word": "起きる",
+            "furigana": "おきる",
+            "romanji": "okiru",
             "meanings": {
-              "id": "berdiri",
-              "en": "to stand (building)"
-            }
+              "id": "bangun",
+              "en": "to wake up"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "毎朝7時に起きます。",
+                "furigana": "まいあさ7じにおきます。",
+                "romaji": "maiasa shichi ji ni okimasu.",
+                "meanings": {
+                  "id": "Saya bangun setiap pagi jam 7.",
+                  "en": "I wake up at 7 o'clock every morning."
+                }
+              }
+            ]
           },
           {
             "id": 2,
-            "word": "建てる",
-            "furigana": "たてる",
-            "romanji": "tateru",
+            "word": "起こる",
+            "furigana": "おこる",
+            "romanji": "okoru",
             "meanings": {
-              "id": "mendirikan",
-              "en": "to build"
-            }
+              "id": "terjadi",
+              "en": "to happen, occur"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "昨日、大きな事故が起こりました。",
+                "furigana": "きのう、おおきなじこがおこりました。",
+                "romaji": "kinou, ookina jiko ga okorimashita.",
+                "meanings": {
+                  "id": "Kemarin terjadi kecelakaan besar.",
+                  "en": "A big accident happened yesterday."
+                }
+              }
+            ]
           },
           {
             "id": 3,
-            "word": "建物",
-            "furigana": "たてもの",
-            "romanji": "tatemono",
+            "word": "起こす",
+            "furigana": "おこす",
+            "romanji": "okosu",
             "meanings": {
-              "id": "gedung, bangunan",
-              "en": "building"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "たて",
-        "romanji": "tate",
-        "examples": [
-          {
-            "id": 2,
-            "word": "建てる",
-            "furigana": "たてる",
-            "romanji": "tateru",
-            "meanings": {
-              "id": "mendirikan",
-              "en": "to build"
-            }
-          },
-          {
-            "id": 3,
-            "word": "建物",
-            "furigana": "たてもの",
-            "romanji": "tatemono",
-            "meanings": {
-              "id": "gedung, bangunan",
-              "en": "building"
-            }
+              "id": "membangunkan, menyebabkan",
+              "en": "to wake (someone), cause"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "朝6時に起こしてください。",
+                "furigana": "あさ6じにおこしてください。",
+                "romaji": "asa roku ji ni okoshite kudasai.",
+                "meanings": {
+                  "id": "Tolong bangunkan saya jam 6 pagi.",
+                  "en": "Please wake me up at 6 a.m."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "ケン",
-        "romanji": "ken",
+        "furigana": "キ",
+        "romanji": "ki",
         "examples": [
           {
             "id": 4,
-            "word": "建設",
-            "furigana": "けんせつ",
-            "romanji": "kensetsu",
+            "word": "起床",
+            "furigana": "きしょう",
+            "romanji": "kishou",
             "meanings": {
-              "id": "konstruksi",
-              "en": "construction"
-            }
+              "id": "bangun tidur",
+              "en": "waking up, getting up"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "起床時間は6時です。",
+                "furigana": "きしょうじかんは6じです。",
+                "romaji": "kishou jikan wa roku ji desu.",
+                "meanings": {
+                  "id": "Waktu bangun tidur adalah jam 6.",
+                  "en": "The wake-up time is 6 o'clock."
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "word": "起立",
+            "furigana": "きりつ",
+            "romanji": "kiritsu",
+            "meanings": {
+              "id": "siap, berdiri",
+              "en": "standing up"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "先生が来たら起立してください。",
+                "furigana": "せんせいがきたらきりつしてください。",
+                "romaji": "sensei ga kitara kiritsu shite kudasai.",
+                "meanings": {
+                  "id": "Jika guru datang, tolong berdiri.",
+                  "en": "Please stand up when the teacher comes."
+                }
+              }
+            ]
           }
         ]
       }
@@ -88,7 +132,7 @@
     "exception": null
   },
   "meanings": {
-    "id": "berdiri",
-    "en": "build, construct"
+    "id": "bangun, terjadi",
+    "en": "wake up, occur"
   }
 }
