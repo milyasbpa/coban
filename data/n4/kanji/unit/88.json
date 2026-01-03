@@ -1,71 +1,94 @@
 {
   "id": 88,
-  "character": "風",
-  "strokes": 9,
+  "character": "病",
+  "strokes": 10,
   "readings": {
     "kun": [
       {
-        "furigana": "かぜ",
-        "romanji": "kaze",
+        "furigana": "や",
+        "romanji": "ya",
         "examples": [
           {
             "id": 1,
-            "word": "風",
-            "furigana": "かぜ",
-            "romanji": "kaze",
+            "word": "病む",
+            "furigana": "やむ",
+            "romanji": "yamu",
             "meanings": {
-              "id": "angin",
-              "en": "wind"
-            }
-          },
-          {
-            "id": 3,
-            "word": "風邪",
-            "furigana": "かぜ",
-            "romanji": "kaze",
-            "meanings": {
-              "id": "masuk angin",
-              "en": "cold (illness)"
-            }
+              "id": "sakit",
+              "en": "to fall ill"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "心を病んでいる人が増えています。",
+                "furigana": "こころをやんでいるひとがふえています。",
+                "romaji": "kokoro wo yande iru hito ga fueteimasu.",
+                "meanings": {
+                  "id": "Orang yang sakit hati semakin bertambah.",
+                  "en": "The number of people suffering mentally is increasing."
+                }
+              }
+            ]
           }
         ]
       }
     ],
     "on": [
       {
-        "furigana": "フウ",
-        "romanji": "fuu",
+        "furigana": "ビョウ",
+        "romanji": "byou",
         "examples": [
           {
             "id": 2,
-            "word": "風船",
-            "furigana": "ふうせん",
-            "romanji": "fuusen",
+            "word": "病気",
+            "furigana": "びょうき",
+            "romanji": "byouki",
             "meanings": {
-              "id": "balon udara",
-              "en": "balloon"
-            }
+              "id": "penyakit",
+              "en": "illness, disease"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "病気になったので、病院に行きました。",
+                "furigana": "びょうきになったので、びょういんにいきました。",
+                "romaji": "byouki ni natta node, byouin ni ikimashita.",
+                "meanings": {
+                  "id": "Karena sakit, saya pergi ke rumah sakit.",
+                  "en": "Because I got sick, I went to the hospital."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "成人病",
+            "furigana": "せいじんびょう",
+            "romanji": "seijinbyou",
+            "meanings": {
+              "id": "penyakit orang dewasa",
+              "en": "adult disease"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "成人病を予防するために運動しています。",
+                "furigana": "せいじんびょうをよぼうするためにうんどうしています。",
+                "romaji": "seijinbyou wo yobou suru tame ni undou shiteimasu.",
+                "meanings": {
+                  "id": "Saya berolahraga untuk mencegah penyakit orang dewasa.",
+                  "en": "I am exercising to prevent adult diseases."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 4,
-          "word": "風呂",
-          "furigana": "ふろ",
-          "romanji": "furo",
-          "meanings": {
-            "id": "kamar mandi",
-            "en": "bath"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "angin",
-    "en": "wind"
+    "id": "sakit, penyakit",
+    "en": "illness, disease"
   }
 }
