@@ -1,102 +1,43 @@
 {
   "id": 65,
-  "character": "物",
-  "strokes": 8,
+  "character": "洋",
+  "strokes": 9,
   "readings": {
-    "kun": [
-      {
-        "furigana": "もの",
-        "romanji": "mono",
-        "examples": []
-      }
-    ],
+    "kun": [],
     "on": [
       {
-        "furigana": "ブツ",
-        "romanji": "butsu",
+        "furigana": "ヨウ",
+        "romanji": "you",
         "examples": [
           {
-            "id": 3,
-            "word": "動物",
-            "furigana": "どうぶつ",
-            "romanji": "doubutsu",
+            "id": 1,
+            "word": "洋食",
+            "furigana": "ようしょく",
+            "romanji": "youshoku",
             "meanings": {
-              "id": "binatang",
-              "en": "animal"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "ブッ",
-        "romanji": "butsu",
-        "examples": [
-          {
-            "id": 3,
-            "word": "動物",
-            "furigana": "どうぶつ",
-            "romanji": "doubutsu",
-            "meanings": {
-              "id": "binatang",
-              "en": "animal"
-            }
-          },
-          {
-            "id": 4,
-            "word": "物価",
-            "furigana": "ぶっか",
-            "romanji": "bukka",
-            "meanings": {
-              "id": "harga barang",
-              "en": "commodity prices"
-            }
-          }
-        ]
-      },
-      {
-        "furigana": "モツ",
-        "romanji": "motsu",
-        "examples": [
-          {
-            "id": 5,
-            "word": "食物",
-            "furigana": "しょくもつ",
-            "romanji": "shokumotsu",
-            "meanings": {
-              "id": "barang bawaan",
-              "en": "food"
-            }
+              "id": "masakan ala barat",
+              "en": "Western food"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "今日の夕食は洋食にしましょう。",
+                "furigana": "きょうのゆうしょくはようしょくにしましょう。",
+                "romaji": "kyou no yuushoku wa youshoku ni shimashou.",
+                "meanings": {
+                  "id": "Mari kita makan masakan barat untuk makan malam hari ini.",
+                  "en": "Let's have Western food for dinner today."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 1,
-          "word": "品物",
-          "furigana": "しなもの",
-          "romanji": "shinamono",
-          "meanings": {
-            "id": "barang-barang",
-            "en": "goods"
-          }
-        },
-        {
-          "id": 2,
-          "word": "買い物",
-          "furigana": "かいもの",
-          "romanji": "kaimono",
-          "meanings": {
-            "id": "belanja",
-            "en": "shopping"
-          }
-        }
-      ]
-    }
+    "exception": null
   },
   "meanings": {
-    "id": "barang-barang",
-    "en": "thing, object"
+    "id": "barat",
+    "en": "Western, ocean"
   }
 }
