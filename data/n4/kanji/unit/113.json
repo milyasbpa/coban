@@ -1,44 +1,138 @@
 {
   "id": 113,
-  "character": "部",
-  "strokes": 11,
+  "character": "場",
+  "strokes": 12,
   "readings": {
-    "kun": [],
-    "on": [
+    "kun": [
       {
-        "furigana": "ブ",
-        "romanji": "bu",
+        "furigana": "ば",
+        "romanji": "ba",
         "examples": [
           {
             "id": 1,
-            "word": "全部",
-            "furigana": "ぜんぶ",
-            "romanji": "zenbu",
+            "word": "工場",
+            "furigana": "こうば",
+            "romanji": "kouba",
             "meanings": {
-              "id": "semua",
-              "en": "all"
-            }
+              "id": "pabrik",
+              "en": "factory, workshop"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "父は工場で働いています。",
+                "furigana": "ちちはこうばではたらいています。",
+                "romaji": "chichi wa kouba de hataraite imasu.",
+                "meanings": {
+                  "id": "Ayah bekerja di pabrik.",
+                  "en": "My father works at a factory."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "場所",
+            "furigana": "ばしょ",
+            "romanji": "basho",
+            "meanings": {
+              "id": "tempat",
+              "en": "place, location"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "待ち合わせの場所を教えてください。",
+                "furigana": "まちあわせのばしょをおしえてください。",
+                "romaji": "machiawase no basho wo oshiete kudasai.",
+                "meanings": {
+                  "id": "Tolong beritahu saya tempat pertemuan.",
+                  "en": "Please tell me the meeting place."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "word": "場合",
+            "furigana": "ばあい",
+            "romanji": "baai",
+            "meanings": {
+              "id": "hal, kasus",
+              "en": "case, situation"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "雨が降った場合は中止します。",
+                "furigana": "あめがふったばあいはちゅうしします。",
+                "romaji": "ame ga futta baai wa chuushi shimasu.",
+                "meanings": {
+                  "id": "Dalam hal hujan turun, akan dibatalkan.",
+                  "en": "In case it rains, it will be canceled."
+                }
+              }
+            ]
           }
         ]
       }
     ],
-    "exception": {
-      "examples": [
-        {
-          "id": 2,
-          "word": "部屋",
-          "furigana": "へや",
-          "romanji": "heya",
-          "meanings": {
-            "id": "ruangan, kamar",
-            "en": "room"
+    "on": [
+      {
+        "furigana": "ジョウ",
+        "romanji": "jyou",
+        "examples": [
+          {
+            "id": 1,
+            "word": "工場",
+            "furigana": "こうじょう",
+            "romanji": "koujyou",
+            "meanings": {
+              "id": "pabrik",
+              "en": "factory"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "この工場は大きいです。",
+                "furigana": "このこうじょうはおおきいです。",
+                "romaji": "kono koujyou wa ookii desu.",
+                "meanings": {
+                  "id": "Pabrik ini besar.",
+                  "en": "This factory is big."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "word": "駐車場",
+            "furigana": "ちゅうしゃじょう",
+            "romanji": "chuushajyou",
+            "meanings": {
+              "id": "tempat parkir",
+              "en": "parking lot"
+            },
+            "sentences": [
+              {
+                "id": 1,
+                "sentence": "駐車場はどこにありますか。",
+                "furigana": "ちゅうしゃじょうはどこにありますか。",
+                "romaji": "chuushajyou wa doko ni arimasu ka.",
+                "meanings": {
+                  "id": "Tempat parkir ada di mana?",
+                  "en": "Where is the parking lot?"
+                }
+              }
+            ]
           }
-        }
-      ]
-    }
+        ]
+      }
+    ],
+    "exception": null
   },
   "meanings": {
-    "id": "bagian",
-    "en": "part, section"
+    "id": "tempat",
+    "en": "place, location"
   }
 }
