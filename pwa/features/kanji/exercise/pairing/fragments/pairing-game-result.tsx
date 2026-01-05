@@ -54,11 +54,37 @@ export function PairingGameResult() {
       return { writing: 0, reading: 0 };
     }
 
+    // If specific kanji are selected, manually calculate progress for those kanji only
+    if (selectedKanjiIds && selectedKanjiIds.length > 0) {
+      let writingCompleted = 0;
+      let readingCompleted = 0;
+
+      selectedKanjiIds.forEach((kanjiId) => {
+        const kanjiMastery = currentUserScore.kanjiMastery[level]?.[kanjiId.toString()];
+        if (kanjiMastery) {
+          // Check if any word in this kanji has completed the exercise
+          const words = Object.values(kanjiMastery.words);
+          const hasWriting = words.some((word) => word.exerciseScores.writing > 0);
+          const hasReading = words.some((word) => word.exerciseScores.reading > 0);
+          
+          if (hasWriting) writingCompleted++;
+          if (hasReading) readingCompleted++;
+        }
+      });
+
+      const total = selectedKanjiIds.length;
+      return {
+        writing: Math.round((writingCompleted / total) * 100),
+        reading: Math.round((readingCompleted / total) * 100),
+      };
+    }
+
+    // Otherwise, use the store function for full lesson progress
     return {
       writing: getExerciseProgress("writing", lessonId, level),
       reading: getExerciseProgress("reading", lessonId, level),
     };
-  }, [lessonId, level, currentUserScore, getExerciseProgress]);
+  }, [lessonId, level, selectedKanjiIds, currentUserScore, getExerciseProgress]);
 
   const scoreColors = getScoreColor(score);
 

@@ -30,11 +30,12 @@ interface KanjiScoreState {
   ) => Promise<void>;
 
   // Getters (untuk UI compatibility)
-  getLessonProgress: (lessonId: string, level: string) => number;
+  getLessonProgress: (lessonId: string, level: string, selectedKanjiIds?: number[]) => number;
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
     lessonId: string,
-    level: string
+    level: string,
+    selectedKanjiIds?: number[]
   ) => number;
   getOverallProgress: () => {
     currentLevel: string;
@@ -53,8 +54,14 @@ interface KanjiScoreState {
 }
 
 // Helper functions for scoring calculations
-const getTotalWordsInLesson = (lessonId: number, level: string): number => {
-  const kanjiList = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
+const getTotalWordsInLesson = (lessonId: number, level: string, selectedKanjiIds?: number[]): number => {
+  let kanjiList = KanjiService.getKanjiDetailsByLessonId(lessonId, level);
+  
+  // Filter kanji if selectedKanjiIds is provided
+  if (selectedKanjiIds && selectedKanjiIds.length > 0) {
+    kanjiList = kanjiList.filter((kanji) => selectedKanjiIds.includes(kanji.id));
+  }
+  
   let totalWords = 0;
   kanjiList.forEach((kanji) => {
     // Count examples from kun readings
@@ -83,7 +90,8 @@ const getCorrectWordsInScope = (
   currentUserScore: KanjiUserScore,
   lessonId: string,
   level: string,
-  exerciseType?: ExerciseType
+  exerciseType?: ExerciseType,
+  selectedKanjiIds?: number[]
 ): number => {
   let correctWords = 0;
 
@@ -91,10 +99,16 @@ const getCorrectWordsInScope = (
   let scopeKanjiIds: string[] = [];
 
   const numericLessonId = parseInt(lessonId);
-  const kanjiList = KanjiService.getKanjiDetailsByLessonId(
+  let kanjiList = KanjiService.getKanjiDetailsByLessonId(
     numericLessonId,
     level
   );
+  
+  // Filter kanji if selectedKanjiIds is provided
+  if (selectedKanjiIds && selectedKanjiIds.length > 0) {
+    kanjiList = kanjiList.filter((kanji) => selectedKanjiIds.includes(kanji.id));
+  }
+  
   scopeKanjiIds = kanjiList.map((kanji) => kanji.id.toString());
 
   // Count correct words in scope
@@ -196,13 +210,13 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
   },
 
   // Get lesson progress
-  getLessonProgress: (lessonId: string, level: string): number => {
+  getLessonProgress: (lessonId: string, level: string, selectedKanjiIds?: number[]): number => {
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
     // Calculate total words in lesson
     const numericLessonId = parseInt(lessonId);
-    const totalWords = getTotalWordsInLesson(numericLessonId, level);
+    const totalWords = getTotalWordsInLesson(numericLessonId, level, selectedKanjiIds);
 
     if (totalWords === 0) return 0;
 
@@ -210,7 +224,9 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
     const totalCorrectWords = getCorrectWordsInScope(
       currentUserScore,
       lessonId,
-      level
+      level,
+      undefined,
+      selectedKanjiIds
     );
     const totalPossibleWords = totalWords * 3; // 3 exercise types (writing, reading, pairing)
 
@@ -224,14 +240,15 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
   getExerciseProgress: (
     exerciseType: "writing" | "reading" | "pairing",
     lessonId: string,
-    level: string
+    level: string,
+    selectedKanjiIds?: number[]
   ): number => {
     const { currentUserScore } = get();
     if (!currentUserScore) return 0;
 
     // Calculate total words in lesson
     const numericLessonId = parseInt(lessonId);
-    const totalWords = getTotalWordsInLesson(numericLessonId, level);
+    const totalWords = getTotalWordsInLesson(numericLessonId, level, selectedKanjiIds);
 
     if (totalWords === 0) return 0;
 
@@ -240,7 +257,8 @@ export const useKanjiScoreStore = create<KanjiScoreState>((set, get) => ({
       currentUserScore,
       lessonId,
       level,
-      exerciseType
+      exerciseType,
+      selectedKanjiIds
     );
 
     return Math.round((correctWords / totalWords) * 100 * 10) / 10;

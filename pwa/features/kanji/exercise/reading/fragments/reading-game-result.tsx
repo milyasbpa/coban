@@ -20,6 +20,17 @@ export function ReadingGameResult() {
 
   const lessonId = searchParams.get("lessonId");
   const level = searchParams.get("level") || "N5";
+  const selectedKanjiParam = searchParams.get("selectedKanji");
+
+  // Parse selected kanji IDs from URL parameter with memoization to prevent re-creation
+  const selectedKanjiIds = useMemo(() => {
+    return selectedKanjiParam
+      ? selectedKanjiParam
+          .split(",")
+          .map((id) => parseInt(id.trim()))
+          .filter((id) => !isNaN(id))
+      : undefined;
+  }, [selectedKanjiParam]);
 
   // Get data from store instead of props
   const {
@@ -46,11 +57,37 @@ export function ReadingGameResult() {
       return { writing: 0, pairing: 0 };
     }
 
+    // If specific kanji are selected, manually calculate progress for those kanji only
+    if (selectedKanjiIds && selectedKanjiIds.length > 0) {
+      let writingCompleted = 0;
+      let pairingCompleted = 0;
+
+      selectedKanjiIds.forEach((kanjiId) => {
+        const kanjiMastery = currentUserScore.kanjiMastery[level]?.[kanjiId.toString()];
+        if (kanjiMastery) {
+          // Check if any word in this kanji has completed the exercise
+          const words = Object.values(kanjiMastery.words);
+          const hasWriting = words.some((word) => word.exerciseScores.writing > 0);
+          const hasPairing = words.some((word) => word.exerciseScores.pairing > 0);
+          
+          if (hasWriting) writingCompleted++;
+          if (hasPairing) pairingCompleted++;
+        }
+      });
+
+      const total = selectedKanjiIds.length;
+      return {
+        writing: Math.round((writingCompleted / total) * 100),
+        pairing: Math.round((pairingCompleted / total) * 100),
+      };
+    }
+
+    // Otherwise, use the store function for full lesson progress
     return {
       writing: getExerciseProgress("writing", lessonId, level),
       pairing: getExerciseProgress("pairing", lessonId, level),
     };
-  }, [lessonId, level, currentUserScore, getExerciseProgress]);
+  }, [lessonId, level, selectedKanjiIds, currentUserScore, getExerciseProgress]);
 
   const handleRestart = () => {
     restartGame();
