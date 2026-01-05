@@ -15,6 +15,8 @@ export const createPairingWords = (
         words.push({
           ...example,
           kanjiId: kanji.id,
+          readingType: 'kun',
+          readingId: reading.id,
         });
       });
     });
@@ -25,6 +27,8 @@ export const createPairingWords = (
         words.push({
           ...example,
           kanjiId: kanji.id,
+          readingType: 'on',
+          readingId: reading.id,
         });
       });
     });
@@ -34,6 +38,8 @@ export const createPairingWords = (
       words.push({
         ...example,
         kanjiId: kanji.id,
+        readingType: 'exception',
+        readingId: 0, // Exception doesn't have reading.id
       });
     });
   });

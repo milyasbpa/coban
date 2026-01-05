@@ -3,6 +3,8 @@ import { KanjiExample } from "@/pwa/core/services/kanji";
 // Types untuk pairing game
 export interface PairingWord extends KanjiExample {
   kanjiId: number;     // Parent kanji ID for grouping and scoring
+  readingType: 'kun' | 'on' | 'exception'; // Reading type for uniqueness
+  readingId: number;   // Reading ID within type for uniqueness
   // Inherited from KanjiExample:
   // - id: number (example ID for Firestore)
   // - word: string
@@ -12,8 +14,9 @@ export interface PairingWord extends KanjiExample {
 }
 
 // Helper function to get composite ID for UI keys and matching
+// Uses kanjiId-readingType-readingId-exampleId to ensure uniqueness
 export const getCompositeId = (word: PairingWord): string => {
-  return `${word.kanjiId}-${word.id}`;
+  return `${word.kanjiId}-${word.readingType}-${word.readingId}-${word.id}`;
 };
 
 export interface GameState {

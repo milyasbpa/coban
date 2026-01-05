@@ -5,11 +5,14 @@ import { shuffleArray } from "../../pairing/utils/pairing-game";
 // Independent interface extending KanjiExample - following pairing pattern
 export interface WritingQuestion extends KanjiExample {
   kanjiId: number;      // Parent kanji ID for scoring
+  readingType: 'kun' | 'on' | 'exception'; // Reading type for uniqueness
+  readingId: number;    // Reading ID within type for uniqueness
 }
 
 // Helper function to get composite ID for UI keys
+// Uses kanjiId-readingType-readingId-exampleId to ensure uniqueness
 export const getCompositeId = (question: WritingQuestion): string => {
-  return `${question.kanjiId}-${question.id}`;
+  return `${question.kanjiId}-${question.readingType}-${question.readingId}-${question.id}`;
 };
 
 /**
@@ -55,6 +58,8 @@ export function getWritingQuestions(
           allQuestions.push({
             ...example,
             kanjiId: kanjiItem.id,
+            readingType: 'kun',
+            readingId: reading.id,
           });
         });
       });
@@ -65,6 +70,8 @@ export function getWritingQuestions(
           allQuestions.push({
             ...example,
             kanjiId: kanjiItem.id,
+            readingType: 'on',
+            readingId: reading.id,
           });
         });
       });
@@ -74,6 +81,8 @@ export function getWritingQuestions(
         allQuestions.push({
           ...example,
           kanjiId: kanjiItem.id,
+          readingType: 'exception',
+          readingId: 0,
         });
       });
     });
@@ -91,6 +100,8 @@ export function getWritingQuestions(
             selectedQuestions.push({
               ...example,
               kanjiId: kanjiItem.id,
+              readingType: 'kun',
+              readingId: reading.id,
             });
           });
         });
@@ -101,6 +112,8 @@ export function getWritingQuestions(
             selectedQuestions.push({
               ...example,
               kanjiId: kanjiItem.id,
+              readingType: 'on',
+              readingId: reading.id,
             });
           });
         });
@@ -110,6 +123,8 @@ export function getWritingQuestions(
           selectedQuestions.push({
             ...example,
             kanjiId: kanjiItem.id,
+            readingType: 'exception',
+            readingId: 0,
           });
         });
       });

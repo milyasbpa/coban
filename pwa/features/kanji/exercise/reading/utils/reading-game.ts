@@ -8,16 +8,21 @@ import { shuffleArray } from "../../pairing/utils";
 // Independent interface extending KanjiExample - following pairing pattern
 export interface ReadingQuestion extends KanjiExample {
   kanjiId: number;      // Parent kanji ID for scoring
+  readingType: 'kun' | 'on' | 'exception'; // Reading type for uniqueness
+  readingId: number;    // Reading ID within type for uniqueness
   options: ReadingOption[];
 }
 
 export interface ReadingOption extends KanjiExample {
   kanjiId: number;      // Parent kanji ID
+  readingType: 'kun' | 'on' | 'exception'; // Reading type for uniqueness
+  readingId: number;    // Reading ID within type for uniqueness
 }
 
 // Helper function to get composite ID for UI keys
+// Uses kanjiId-readingType-readingId-exampleId to ensure uniqueness
 export const getCompositeId = (item: ReadingQuestion | ReadingOption): string => {
-  return `${item.kanjiId}-${item.id}`;
+  return `${item.kanjiId}-${item.readingType}-${item.readingId}-${item.id}`;
 };
 
 export interface ReadingGameData {
@@ -49,6 +54,8 @@ export const createReadingQuestions = (
         selectedOptions.push({
           ...example,
           kanjiId: kanji.id,
+          readingType: 'kun',
+          readingId: reading.id,
         });
       });
     });
@@ -59,6 +66,8 @@ export const createReadingQuestions = (
         selectedOptions.push({
           ...example,
           kanjiId: kanji.id,
+          readingType: 'on',
+          readingId: reading.id,
         });
       });
     });
@@ -68,6 +77,8 @@ export const createReadingQuestions = (
       selectedOptions.push({
         ...example,
         kanjiId: kanji.id,
+        readingType: 'exception',
+        readingId: 0,
       });
     });
   });
@@ -80,6 +91,8 @@ export const createReadingQuestions = (
         allOptionsForWrongAnswers.push({
           ...example,
           kanjiId: kanji.id,
+          readingType: 'kun',
+          readingId: reading.id,
         });
       });
     });
@@ -90,6 +103,8 @@ export const createReadingQuestions = (
         allOptionsForWrongAnswers.push({
           ...example,
           kanjiId: kanji.id,
+          readingType: 'on',
+          readingId: reading.id,
         });
       });
     });
@@ -99,6 +114,8 @@ export const createReadingQuestions = (
       allOptionsForWrongAnswers.push({
         ...example,
         kanjiId: kanji.id,
+        readingType: 'exception',
+        readingId: 0,
       });
     });
   });
