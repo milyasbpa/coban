@@ -195,10 +195,10 @@ export function WritingExerciseContainer() {
       onDragEnd={handleDragEnd}
     >
       <div className="min-h-screen bg-background">
-        <div className="max-w-md mx-auto p-4 space-y-6">
+        <div className="max-w-md mx-auto space-y-6">
           <WritingHeader />
 
-          <div className="space-y-6">
+          <div className="space-y-6 p-4">
             {/* Audio and Reading Display with timer */}
             <Question 
               timerDuration={timerDuration}
