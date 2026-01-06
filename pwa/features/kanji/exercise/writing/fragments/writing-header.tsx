@@ -5,13 +5,14 @@ import { ArrowLeft } from 'lucide-react';
 import { AppHeader } from '@/pwa/core/components/app-header';
 import { useWritingExerciseStore } from '../store/writing-exercise.store';
 import { useLoginStore } from '@/pwa/features/login/store';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { clearLastVisitedPage } from '@/pwa/core/lib/hooks/use-last-visited-page';
 import { signOut } from 'firebase/auth';
 import { auth } from '@/pwa/core/config/firebase';
 
 export function WritingHeader() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { gameState, questionState } = useWritingExerciseStore();
   const { isAuthenticated, user, logout: storeLogout } = useLoginStore();
   const currentQuestionIndex = questionState.currentQuestionIndex;
@@ -20,9 +21,21 @@ export function WritingHeader() {
   
   const totalQuestions = questions.length;
   const progress = ((currentQuestionIndex) / totalQuestions) * 100;
-  
-  const handleBack = () => {
-    router.back();
+
+  // Get URL parameters for back navigation logic
+  const lessonId = searchParams.get("lessonId");
+  const level = searchParams.get("level");
+  const selectedKanji = searchParams.get("selectedKanji");
+
+  // Determine back URL based on route context
+  const getBackUrl = () => {
+    // If coming from exercise with selectedKanji, go back to lesson
+    if (selectedKanji && lessonId && level) {
+      return `/kanji/lesson?lessonId=${lessonId}&level=${level}`;
+    }
+
+    // Default back to home
+    return "/";
   };
 
   const handleLogout = async () => {
@@ -44,9 +57,8 @@ export function WritingHeader() {
       <AppHeader
         leftSide={{
           type: "back",
-          href: "/",
+          href: getBackUrl(),
           icon: ArrowLeft,
-          onClick: handleBack,
         }}
         title="Kanji Writing"
         showSettings={true}

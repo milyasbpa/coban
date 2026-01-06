@@ -5,7 +5,7 @@ import { AppHeader } from "@/pwa/core/components/app-header";
 import { Progress } from "@/pwa/core/components/progress";
 import { useReadingDisplayOptions } from "../store/reading-display-options.store";
 import { useLoginStore } from "@/pwa/features/login/store";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { clearLastVisitedPage } from "@/pwa/core/lib/hooks/use-last-visited-page";
 import { signOut } from "firebase/auth";
 import { auth } from "@/pwa/core/config/firebase";
@@ -16,7 +16,24 @@ export function ReadingHeader() {
   const { isAuthenticated, user, logout: storeLogout } = useLoginStore();
   const { getProgress } = useReadingExerciseStore();
   const router = useRouter();
+  const searchParams = useSearchParams();
   const progress = getProgress();
+
+  // Get URL parameters for back navigation logic
+  const lessonId = searchParams.get("lessonId");
+  const level = searchParams.get("level");
+  const selectedKanji = searchParams.get("selectedKanji");
+
+  // Determine back URL based on route context
+  const getBackUrl = () => {
+    // If coming from exercise with selectedKanji, go back to lesson
+    if (selectedKanji && lessonId && level) {
+      return `/kanji/lesson?lessonId=${lessonId}&level=${level}`;
+    }
+
+    // Default back to home
+    return "/";
+  };
 
   const handleLogout = async () => {
     try {
@@ -67,7 +84,7 @@ export function ReadingHeader() {
       <AppHeader
         leftSide={{
           type: "back",
-          href: "/",
+          href: getBackUrl(),
           icon: X,
         }}
         title="Kanji Reading"
