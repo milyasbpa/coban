@@ -38,6 +38,13 @@ export function SortableKanjiTile({
     transition,
   } : undefined;
 
+  // Handle click to remove (only if not dragging)
+  const handleClick = (e: React.MouseEvent) => {
+    if (showAnswer || isDragging) return;
+    e.stopPropagation();
+    onRemove();
+  };
+
   return (
     <div 
       ref={setNodeRef} 
@@ -47,15 +54,16 @@ export function SortableKanjiTile({
         isDragging && "z-50"
       )}
     >
-      {/* Kanji Button - with drag listeners */}
+      {/* Kanji Button - with drag listeners and click to remove */}
       <button
         {...attributes}
         {...listeners}
+        onClick={handleClick}
         disabled={showAnswer}
         className={cn(
           "min-w-[44px] h-11 rounded-md border-2 flex items-center justify-center text-base font-medium select-none",
           "border-primary bg-primary/10 text-primary hover:bg-primary/15",
-          !showAnswer && "cursor-grab active:cursor-grabbing touch-none",
+          !showAnswer && "cursor-pointer active:cursor-grabbing touch-none",
           isDragging && "opacity-40",
           showAnswer && "cursor-default"
         )}
