@@ -105,6 +105,10 @@ export function ReadingGameResult() {
 
     params.append("lessonId", lessonId);
 
+    if (selectedKanjiParam) {
+      params.append("selectedKanji", selectedKanjiParam);
+    }
+
     router.push(`${baseUrl}?${params.toString()}`);
   };
 
