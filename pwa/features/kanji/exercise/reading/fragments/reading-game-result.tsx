@@ -6,6 +6,7 @@ import { Confetti } from "@/pwa/core/components/confetti";
 import { RotateCcw, Home, PenLine, Link2 } from "lucide-react";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { useReadingExerciseStore } from "../store";
 import { useKanjiScoreStore } from "@/pwa/features/score/store/kanji-score.store";
 import { useLoginStore } from "@/pwa/features/login/store/login.store";
@@ -93,8 +94,15 @@ export function ReadingGameResult() {
     restartGame();
   };
 
-  const handleBackToHome = () => {
-    router.back();
+  // Determine back URL based on route context
+  const getBackUrl = () => {
+    // If coming from exercise with selectedKanji, go back to lesson
+    if (selectedKanjiParam && lessonId && level) {
+      return `/kanji/lesson?lessonId=${lessonId}&level=${level}`;
+    }
+
+    // Default back to home
+    return "/";
   };
 
   const handleNavigateToExercise = (exerciseType: "writing" | "pairing") => {
@@ -215,14 +223,12 @@ export function ReadingGameResult() {
               Try Again
             </Button>
 
-            <Button
-              onClick={handleBackToHome}
-              variant="outline"
-              className="w-full"
-            >
-              <Home className="w-4 h-4 mr-2" />
-              Back to Home
-            </Button>
+            <Link href={getBackUrl()} className="w-full">
+              <Button variant="outline" className="w-full">
+                <Home className="w-4 h-4 mr-2" />
+                Back to Home
+              </Button>
+            </Link>
           </div>
         </Card>
       </div>
