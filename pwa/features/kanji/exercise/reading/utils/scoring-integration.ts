@@ -1,6 +1,7 @@
 import { KanjiService } from "@/pwa/core/services/kanji";
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/kanji-score";
 import type { ReadingQuestion } from "./reading-game";
+import { getCompositeId } from "./reading-game";
 
 /**
  * Integrate reading exercise results with kanji scoring system
@@ -43,13 +44,27 @@ export const integrateReadingGameScore = async (
     // Get final results from store
     const exerciseResults: KanjiExerciseResult[] = [];
 
+    console.log('🔍 [Reading Score Integration] Processing questions:', {
+      totalQuestions: allQuestions.length,
+      level,
+    });
+
     // Process all questions and determine first-attempt accuracy
     allQuestions.forEach((question) => {
       // Get accurate kanji information using kanjiId (direct lookup - more reliable)
       const kanjiInfo = KanjiService.getKanjiInfoById(question.kanjiId, level);
 
-      // Use example ID for Firestore (question.id from KanjiExample)
-      const wordId = question.id.toString();
+      console.log(`  📝 Question: ${question.word} (ID: ${question.id})`, {
+        kanjiId: question.kanjiId,
+        readingType: question.readingType,
+        kanjiInfo,
+      });
+
+      // Use composite ID for Firestore to ensure uniqueness across kun/on/exception readings
+      // Format: kanjiId-readingType-readingId-exampleId (e.g., "1-kun-1-1", "1-on-2-1")
+      const wordId = getCompositeId(question);
+
+      console.log(`    ✅ Using composite wordId: ${wordId}`);
 
       // Determine if this question was correct on first attempt
       // If question word is NOT in errorWords, it means it was answered correctly on first attempt
@@ -77,9 +92,21 @@ export const integrateReadingGameScore = async (
       return acc;
     }, {} as Record<string, KanjiExerciseResult[]>);
 
+    console.log('📊 [Reading Score Integration] Results by Kanji:', {
+      kanjiCount: Object.keys(resultsByKanji).length,
+      totalResults: exerciseResults.length,
+      details: Object.entries(resultsByKanji).map(([kanjiId, results]) => ({
+        kanjiId,
+        character: results[0].kanji,
+        wordsCount: results.length,
+        words: results.map(r => `${r.word}(${r.isCorrect ? '✅' : '❌'})`),
+      })),
+    });
+
     // Update kanji mastery for each kanji
     for (const [kanjiId, results] of Object.entries(resultsByKanji)) {
       const kanjiCharacter = results[0].kanji;
+      console.log(`💾 Saving ${results.length} words for Kanji ${kanjiCharacter} (ID: ${kanjiId})`);
       await updateKanjiMastery(kanjiId, kanjiCharacter, results);
     }
   } catch (error) {

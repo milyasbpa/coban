@@ -1,6 +1,7 @@
 import { KanjiService } from "@/pwa/core/services/kanji";
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/kanji-score";
 import type { WritingQuestion } from "./kanji-data.utils";
+import { getCompositeId } from "./kanji-data.utils";
 
 /**
  * Integrate writing exercise results with kanji scoring system
@@ -48,8 +49,9 @@ export const integrateWritingGameScore = async (
       // Get accurate kanji information using kanjiId (direct lookup - more reliable)
       const kanjiInfo = KanjiService.getKanjiInfoById(question.kanjiId, level);
 
-      // Use example ID for Firestore (question.id from KanjiExample)
-      const wordId = question.id.toString();
+      // Use composite ID for Firestore to ensure uniqueness across kun/on/exception readings
+      // Format: kanjiId-readingType-readingId-exampleId (e.g., "1-kun-1-1", "1-on-2-1")
+      const wordId = getCompositeId(question);
 
       // Determine if this question was correct on first attempt
       // If question word is NOT in errorWords, it means it was answered correctly on first attempt

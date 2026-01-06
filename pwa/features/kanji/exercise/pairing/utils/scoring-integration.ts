@@ -1,6 +1,7 @@
 import { KanjiService } from "@/pwa/core/services/kanji";
 import type { KanjiExerciseResult } from "@/pwa/features/score/model/kanji-score";
 import type { PairingWord } from "../types";
+import { getCompositeId } from "../types";
 
 /**
  * Integrate pairing game results with kanji scoring system
@@ -45,8 +46,9 @@ export const integratePairingGameScore = async (
       // Get accurate kanji information using kanjiId (direct lookup - more reliable)
       const kanjiInfo = KanjiService.getKanjiInfoById(word.kanjiId, level);
 
-      // Use example ID for Firestore (word.id from KanjiExample)
-      const wordId = word.id.toString();
+      // Use composite ID for Firestore to ensure uniqueness across kun/on/exception readings
+      // Format: kanjiId-readingType-readingId-exampleId (e.g., "1-kun-1-1", "1-on-2-1")
+      const wordId = getCompositeId(word);
 
       // Determine if this word was correct on first attempt
       // If word is NOT in globalErrorWords, it means it was answered correctly on first attempt
