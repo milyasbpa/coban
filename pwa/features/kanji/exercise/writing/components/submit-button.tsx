@@ -4,12 +4,8 @@ import { Button } from "@/pwa/core/components/button";
 import { useWritingExerciseStore } from "../store/writing-exercise.store";
 
 export function SubmitButton() {
-  const { 
-    questionState, 
-    checkAnswer, 
-    setIsCorrect, 
-    setShowFeedback 
-  } = useWritingExerciseStore();
+  const { questionState, checkAnswer, setIsCorrect, setShowFeedback } =
+    useWritingExerciseStore();
 
   const { selectedKanji, showAnswer } = questionState;
   const canSubmit = selectedKanji.length > 0 && !showAnswer;
@@ -27,8 +23,8 @@ export function SubmitButton() {
       <div className="max-w-2xl mx-auto">
         <Button
           onClick={handleSubmitAnswer}
+          className="w-full"
           disabled={!canSubmit}
-          className="w-full h-10 text-sm bg-primary disabled:bg-muted text-white disabled:text-foreground"
         >
           Submit
         </Button>
