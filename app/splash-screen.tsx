@@ -42,9 +42,9 @@ export default function SplashScreen({
 
   if (isLoading) {
     return (
-      <div className="fixed inset-0 bg-background flex flex-col items-center justify-center z-50 transition-colors duration-300">
+      <div className="fixed inset-0 bg-black flex flex-col items-center justify-center z-50 transition-colors duration-300">
         {/* Background Pattern */}
-        <div className="absolute inset-0 bg-linear-to-br from-background via-background/98 to-card/30"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-black via-black/98 to-[oklch(0.14_0_0)]/30"></div>
 
         {/* Character Image */}
         <div className="relative mb-8 animate-bounce-slow z-10">
@@ -55,27 +55,27 @@ export default function SplashScreen({
           />
 
           {/* Glow effect around character */}
-          <div className="absolute inset-0 w-40 h-40 bg-primary/30 rounded-full blur-xl animate-pulse"></div>
+          <div className="absolute inset-0 w-40 h-40 bg-white/30 rounded-full blur-xl animate-pulse"></div>
 
           {/* Additional subtle glow */}
-          <div className="absolute inset-0 w-40 h-40 bg-accent/20 rounded-full blur-2xl animate-pulse [animation-delay:0.5s]"></div>
+          <div className="absolute inset-0 w-40 h-40 bg-gray-400/20 rounded-full blur-2xl animate-pulse [animation-delay:0.5s]"></div>
         </div>
 
         {/* App Info */}
         <div className="text-center mb-6 z-10">
-          <h1 className="text-2xl font-bold text-foreground mb-2 tracking-tight">
+          <h1 className="text-2xl font-bold text-white mb-2 tracking-tight">
             Coban
           </h1>
           <Badge
             variant="secondary"
-            className="text-sm bg-secondary/80 text-secondary-foreground border-secondary/30 backdrop-blur-sm"
+            className="text-sm bg-[oklch(0.25_0_0)]/80 text-white border-[oklch(0.25_0_0)]/30 backdrop-blur-sm"
           >
             Japanese Learning App
           </Badge>
           {isInstalled && (
             <Badge
               variant="outline"
-              className="mt-2 text-xs flex items-center gap-1 mx-auto w-fit border-border/50 bg-card/50 backdrop-blur-sm text-muted-foreground"
+              className="mt-2 text-xs flex items-center gap-1 mx-auto w-fit border-[oklch(0.26_0_0)]/50 bg-[oklch(0.14_0_0)]/50 backdrop-blur-sm text-[oklch(0.72_0_0)]"
             >
               <svg
                 width="12"
@@ -84,7 +84,7 @@ export default function SplashScreen({
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
-                className="text-accent"
+                className="text-[oklch(0.32_0_0)]"
               >
                 <polyline points="20,6 9,17 4,12" />
               </svg>
@@ -95,9 +95,9 @@ export default function SplashScreen({
 
         {/* Simple Loading Dots */}
         <div className="flex space-x-2 z-10">
-          <div className="w-3 h-3 bg-foreground/90 rounded-full animate-bounce [animation-delay:-0.3s] shadow-sm"></div>
-          <div className="w-3 h-3 bg-foreground/90 rounded-full animate-bounce [animation-delay:-0.15s] shadow-sm"></div>
-          <div className="w-3 h-3 bg-foreground/90 rounded-full animate-bounce shadow-sm"></div>
+          <div className="w-3 h-3 bg-white/90 rounded-full animate-bounce [animation-delay:-0.3s] shadow-sm"></div>
+          <div className="w-3 h-3 bg-white/90 rounded-full animate-bounce [animation-delay:-0.15s] shadow-sm"></div>
+          <div className="w-3 h-3 bg-white/90 rounded-full animate-bounce shadow-sm"></div>
         </div>
       </div>
     );
