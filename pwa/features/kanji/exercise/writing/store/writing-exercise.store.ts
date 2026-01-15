@@ -359,9 +359,17 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       const {
         gameState: { questions, availableCharacters },
       } = get();
+      
+      // Shuffle questions for new game order using Fisher-Yates algorithm
+      const shuffledQuestions = [...questions];
+      for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+      }
+      
       set({
         gameState: {
-          questions,
+          questions: shuffledQuestions,
           score: 0,
           isComplete: false,
           availableCharacters,
@@ -538,24 +546,35 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       // Use distractor pool if available, otherwise use selected questions
       const poolForDistractors = distractorPool || questions;
 
-      // Get some random kanji from distractor pool as distractors
-      const otherKanji = poolForDistractors
+      // Get all unique characters from distractor pool as distractors
+      const allPoolChars = poolForDistractors
         .filter((q) => !(q.kanjiId === currentQuestion.kanjiId && q.id === currentQuestion.id))
-        .flatMap((q) => q.word.split(""))
-        .filter((char, index, arr) => arr.indexOf(char) === index); // Remove duplicates
+        .flatMap((q) => q.word.split(""));
 
-      // Combine correct chars with other kanji, ensuring no duplicates
-      const allUniqueChars = new Set([...correctChars, ...otherKanji]);
+      // Remove duplicates using Set
+      const uniquePoolChars = Array.from(new Set(allPoolChars));
+
+      // Shuffle the pool characters using Fisher-Yates algorithm
+      const shuffledPoolChars = [...uniquePoolChars];
+      for (let i = shuffledPoolChars.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledPoolChars[i], shuffledPoolChars[j]] = [shuffledPoolChars[j], shuffledPoolChars[i]];
+      }
+
+      // Take more distractors to make it harder (at least 8-10 extra characters)
+      const numDistractors = Math.max(10, correctChars.length + 8);
+      const distractors = shuffledPoolChars.slice(0, numDistractors);
+
+      // Combine correct chars with distractors, ensuring no duplicates
+      const allUniqueChars = new Set([...correctChars, ...distractors]);
       const allOptions = Array.from(allUniqueChars);
 
-      // Take only what we need (ensure we have enough options but not too many)
-      const finalOptions = allOptions.slice(
-        0,
-        Math.max(8, correctChars.length + 5)
-      );
-
-      // Shuffle the options
-      const shuffled = finalOptions.sort(() => Math.random() - 0.5);
+      // Shuffle the final options using Fisher-Yates algorithm
+      const shuffled = [...allOptions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
 
       set((state) => ({
         gameState: {
