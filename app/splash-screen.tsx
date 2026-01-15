@@ -44,21 +44,21 @@ export default function SplashScreen({
     return (
       <div className="fixed inset-0 bg-background flex flex-col items-center justify-center z-50 transition-colors duration-300">
         {/* Background Pattern */}
-        <div className="absolute inset-0 bg-linear-to-br from-background via-background/95 to-card/50 dark:from-background dark:via-background/98 dark:to-card/30"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-background via-background/98 to-card/30"></div>
 
         {/* Character Image */}
         <div className="relative mb-8 animate-bounce-slow z-10">
           <img
             src="/icon-512x512.png"
             alt="Coban Character"
-            className="w-40 h-40 object-contain drop-shadow-2xl dark:drop-shadow-[0_20px_35px_rgba(255,255,255,0.1)]"
+            className="w-40 h-40 object-contain drop-shadow-[0_20px_35px_rgba(255,255,255,0.1)]"
           />
 
-          {/* Glow effect around character - Enhanced for dark mode */}
-          <div className="absolute inset-0 w-40 h-40 bg-primary/20 dark:bg-primary/30 rounded-full blur-xl animate-pulse"></div>
+          {/* Glow effect around character */}
+          <div className="absolute inset-0 w-40 h-40 bg-primary/30 rounded-full blur-xl animate-pulse"></div>
 
-          {/* Additional subtle glow for dark mode */}
-          <div className="absolute inset-0 w-40 h-40 bg-accent/10 dark:bg-accent/20 rounded-full blur-2xl animate-pulse [animation-delay:0.5s]"></div>
+          {/* Additional subtle glow */}
+          <div className="absolute inset-0 w-40 h-40 bg-accent/20 rounded-full blur-2xl animate-pulse [animation-delay:0.5s]"></div>
         </div>
 
         {/* App Info */}
@@ -93,11 +93,11 @@ export default function SplashScreen({
           )}
         </div>
 
-        {/* Simple Loading Dots - Enhanced for dark mode */}
+        {/* Simple Loading Dots */}
         <div className="flex space-x-2 z-10">
-          <div className="w-3 h-3 bg-foreground/80 dark:bg-foreground/90 rounded-full animate-bounce [animation-delay:-0.3s] shadow-sm"></div>
-          <div className="w-3 h-3 bg-foreground/80 dark:bg-foreground/90 rounded-full animate-bounce [animation-delay:-0.15s] shadow-sm"></div>
-          <div className="w-3 h-3 bg-foreground/80 dark:bg-foreground/90 rounded-full animate-bounce shadow-sm"></div>
+          <div className="w-3 h-3 bg-foreground/90 rounded-full animate-bounce [animation-delay:-0.3s] shadow-sm"></div>
+          <div className="w-3 h-3 bg-foreground/90 rounded-full animate-bounce [animation-delay:-0.15s] shadow-sm"></div>
+          <div className="w-3 h-3 bg-foreground/90 rounded-full animate-bounce shadow-sm"></div>
         </div>
       </div>
     );
