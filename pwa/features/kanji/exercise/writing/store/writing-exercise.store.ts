@@ -355,13 +355,16 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
       next();
     },
 
-    resetExercise: () =>
+    resetExercise: () => {
+      const {
+        gameState: { questions, availableCharacters },
+      } = get();
       set({
         gameState: {
-          questions: [],
+          questions,
           score: 0,
           isComplete: false,
-          availableCharacters: [],
+          availableCharacters,
           isRetryMode: false,
           wrongQuestions: [],
           correctQuestions: [],
@@ -378,7 +381,8 @@ export const useWritingExerciseStore = create<WritingExerciseState>(
           usedKanji: [],
           scoreIntegrated: false,
         },
-      }),
+      });
+    },
 
     resetExerciseProgress: () =>
       set({
