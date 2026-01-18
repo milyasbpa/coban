@@ -145,7 +145,8 @@ export const createReadingQuestions = (
     });
   });
 
-  return questions;
+  // Shuffle questions to randomize order across all kanji
+  return shuffleArray(questions);
 };
 
 // Helper function to check if answer is correct (for computed logic)
