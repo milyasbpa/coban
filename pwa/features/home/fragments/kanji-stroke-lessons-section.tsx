@@ -36,48 +36,34 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
   // Ambil stroke lessons berdasarkan level yang dipilih
   const strokeLessons: Lesson[] = getLessonsByLevel(selectedLevel);
 
-  // Sort lessons by progress before pagination
-  const sortedLessons = useMemo(() => {
-    return [...strokeLessons].sort((a, b) => {
-      const progressA = getLessonProgress(a.id.toString(), selectedLevel);
-      const progressB = getLessonProgress(b.id.toString(), selectedLevel);
-      
-      // Group 1: Completed (100%) - at bottom
-      if (progressA === 100 && progressB === 100) {
-        return a.id - b.id; // Both completed, sort by ID
-      }
-      if (progressA === 100) return 1; // A completed, push down
-      if (progressB === 100) return -1; // B completed, push down
-      
-      // Group 2: Not started (0%) - in middle
-      if (progressA === 0 && progressB === 0) {
-        return a.id - b.id; // Both not started, sort by ID
-      }
-      if (progressA === 0) return 1; // A not started, lower priority
-      if (progressB === 0) return -1; // B not started, lower priority
-      
-      // Group 3: In progress (1-99%) - at top, higher progress first
-      return progressB - progressA;
-    });
-  }, [strokeLessons, selectedLevel, getLessonProgress, isInitialized]);
-
   // Apply filter based on selected filter tab
   const filteredLessons = useMemo(() => {
     if (kanjiStrokeFilterTab === "all") {
-      return sortedLessons;
+      // For "all" tab: sort by lesson ID only (no progress sorting)
+      return [...strokeLessons].sort((a, b) => a.id - b.id);
     } else if (kanjiStrokeFilterTab === "in-progress") {
-      return sortedLessons.filter((lesson) => {
-        const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
-        return progress > 0 && progress < 100;
-      });
+      // For "in-progress" tab: sort by progress (higher progress first)
+      return [...strokeLessons]
+        .filter((lesson) => {
+          const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
+          return progress > 0 && progress < 100;
+        })
+        .sort((a, b) => {
+          const progressA = getLessonProgress(a.id.toString(), selectedLevel);
+          const progressB = getLessonProgress(b.id.toString(), selectedLevel);
+          return progressB - progressA; // Higher progress first
+        });
     } else if (kanjiStrokeFilterTab === "finished") {
-      return sortedLessons.filter((lesson) => {
-        const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
-        return progress === 100;
-      }).sort((a, b) => a.id - b.id); // Sort finished by lesson number
+      // For "finished" tab: sort by lesson ID
+      return [...strokeLessons]
+        .filter((lesson) => {
+          const progress = getLessonProgress(lesson.id.toString(), selectedLevel);
+          return progress === 100;
+        })
+        .sort((a, b) => a.id - b.id);
     }
-    return sortedLessons;
-  }, [sortedLessons, kanjiStrokeFilterTab, selectedLevel, getLessonProgress]);
+    return [...strokeLessons].sort((a, b) => a.id - b.id);
+  }, [strokeLessons, kanjiStrokeFilterTab, selectedLevel, getLessonProgress, isInitialized]);
 
   // Bagi stroke lessons ke dalam tab-tab (pagination dengan limit 10)
   const lessonTabs = useMemo(() => {
