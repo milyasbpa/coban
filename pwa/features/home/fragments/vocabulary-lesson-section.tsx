@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { VocabularyLessonCard } from "../components/vocabulary-lesson-card";
 import { VocabularyService } from "@/pwa/core/services/vocabulary";
@@ -21,11 +21,10 @@ interface VocabularyLessonSectionProps {
 }
 
 export function VocabularyLessonSection({ showProgress = false }: VocabularyLessonSectionProps) {
-  const { selectedLevel, vocabularyFilterTab, setVocabularyFilterTab } = useHomeSettingsStore();
+  const { selectedLevel, vocabularyFilterTab, setVocabularyFilterTab, vocabularyPaginationTab, setVocabularyPaginationTab } = useHomeSettingsStore();
   const { openVocabularyExerciseModal } = useHomeStore();
   const { getCategoryProgress, isInitialized } = useVocabularyScoreStore();
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState("1");
 
   const CATEGORIES_PER_TAB = 10;
 
@@ -95,11 +94,20 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
     return tabs;
   }, [filteredCategories]);
 
-  // Reset to Part 1 when filter changes
-  const handleFilterChange = (value: string) => {
-    setVocabularyFilterTab(value as "all" | "in-progress" | "finished");
-    setActiveTab("1");
-  };
+  // Validate pagination tab - fallback to "1" if stored tab doesn't exist
+  const validatedPaginationTab = useMemo(() => {
+    const tabExists = categoryTabs.some(tab => tab.id === vocabularyPaginationTab);
+    return tabExists ? vocabularyPaginationTab : "1";
+  }, [categoryTabs, vocabularyPaginationTab]);
+
+  // Reset stored pagination if validation failed
+  useEffect(() => {
+    if (validatedPaginationTab !== vocabularyPaginationTab) {
+      setVocabularyPaginationTab("1");
+    }
+  }, [validatedPaginationTab, vocabularyPaginationTab, setVocabularyPaginationTab]);
+
+  // Filter changes already handled by store (auto-resets pagination)
 
   // Handle exercise click for vocabulary categories
   const handleVocabularyExerciseClick = (categoryId: number) => {
@@ -138,7 +146,7 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
     return (
       <div className="space-y-4">
         {/* Filter Tabs */}
-        <Tabs value={vocabularyFilterTab} onValueChange={handleFilterChange} className="w-full">
+        <Tabs value={vocabularyFilterTab} onValueChange={(value) => setVocabularyFilterTab(value as "all" | "in-progress" | "finished")} className="w-full">
           <TabsList className="grid w-full grid-cols-3">
             <TabsTrigger value="all" className="text-xs">
               All
@@ -189,7 +197,7 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
   return (
       <div className="space-y-4">
       {/* Filter Tabs */}
-      <Tabs value={vocabularyFilterTab} onValueChange={handleFilterChange} className="w-full">
+      <Tabs value={vocabularyFilterTab} onValueChange={(value) => setVocabularyFilterTab(value as "all" | "in-progress" | "finished")} className="w-full">
         <TabsList className="grid w-full grid-cols-3">
           <TabsTrigger value="all" className="text-xs sm:text-sm">
             All
@@ -204,7 +212,7 @@ export function VocabularyLessonSection({ showProgress = false }: VocabularyLess
       </Tabs>
 
       {/* Pagination Tabs */}
-      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+      <Tabs value={validatedPaginationTab} onValueChange={setVocabularyPaginationTab} className="w-full">
         <TabsList
           className="grid w-full bg-muted/50"
           style={{ gridTemplateColumns: `repeat(${categoryTabs.length}, 1fr)` }}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { GrammarLessonCard } from "../components/grammar-lesson-card";
 import { GrammarService } from "@/pwa/core/services/grammar";
@@ -22,11 +22,10 @@ interface GrammarLessonSectionProps {
 export function GrammarLessonSection({
   showProgress = false,
 }: GrammarLessonSectionProps) {
-  const { selectedLevel } = useHomeSettingsStore();
+  const { selectedLevel, grammarPaginationTab, setGrammarPaginationTab } = useHomeSettingsStore();
   const { openGrammarExerciseModal } = useHomeStore();
   const { getPatternProgress } = useGrammarScoreStore();
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState("1");
 
   const PATTERNS_PER_TAB = 10;
 
@@ -51,6 +50,19 @@ export function GrammarLessonSection({
     }
     return tabs;
   }, [allPatterns]);
+
+  // Validate pagination tab - fallback to "1" if stored tab doesn't exist
+  const validatedPaginationTab = useMemo(() => {
+    const tabExists = patternTabs.some(tab => tab.id === grammarPaginationTab);
+    return tabExists ? grammarPaginationTab : "1";
+  }, [patternTabs, grammarPaginationTab]);
+
+  // Reset stored pagination if validation failed
+  useEffect(() => {
+    if (validatedPaginationTab !== grammarPaginationTab) {
+      setGrammarPaginationTab("1");
+    }
+  }, [validatedPaginationTab, grammarPaginationTab, setGrammarPaginationTab]);
 
   // Handle exercise click
   const handleGrammarExerciseClick = (patternId: number) => {
@@ -111,7 +123,7 @@ export function GrammarLessonSection({
   // Display with tabs if patterns > 10
   return (
     <div className="space-y-4">
-      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+      <Tabs value={validatedPaginationTab} onValueChange={setGrammarPaginationTab} className="w-full">
         <TabsList
           className="grid w-full"
           style={{

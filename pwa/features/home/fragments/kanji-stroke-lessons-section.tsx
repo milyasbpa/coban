@@ -20,16 +20,10 @@ interface KanjiStrokeLessonsSectionProps {
 }
 
 export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeLessonsSectionProps) {
-  const { selectedLevel, kanjiStrokeFilterTab, setKanjiStrokeFilterTab } = useHomeSettingsStore();
+  const { selectedLevel, kanjiStrokeFilterTab, setKanjiStrokeFilterTab, kanjiPaginationTab, setKanjiPaginationTab } = useHomeSettingsStore();
   const { openKanjiExerciseModal } = useHomeStore();
   const { getLessonProgress, isInitialized } = useKanjiScoreStore();
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState("1");
-
-  // Reset to tab 1 when selected level changed
-  useEffect(() => {
-    setActiveTab("1");
-  }, [selectedLevel]);
 
   const LESSONS_PER_TAB = 10;
 
@@ -83,11 +77,20 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
     return tabs;
   }, [filteredLessons]);
 
-  // Reset to Part 1 when filter changes
-  const handleFilterChange = (value: string) => {
-    setKanjiStrokeFilterTab(value as "all" | "in-progress" | "finished");
-    setActiveTab("1");
-  };
+  // Validate pagination tab - fallback to "1" if stored tab doesn't exist
+  const validatedPaginationTab = useMemo(() => {
+    const tabExists = lessonTabs.some(tab => tab.id === kanjiPaginationTab);
+    return tabExists ? kanjiPaginationTab : "1";
+  }, [lessonTabs, kanjiPaginationTab]);
+
+  // Reset stored pagination if validation failed
+  useEffect(() => {
+    if (validatedPaginationTab !== kanjiPaginationTab) {
+      setKanjiPaginationTab("1");
+    }
+  }, [validatedPaginationTab, kanjiPaginationTab, setKanjiPaginationTab]);
+
+  // Filter changes already handled by store (auto-resets pagination)
 
   // Handle exercise click for stroke-based lessons
   const handleExerciseClick = (lessonId: number) => {
@@ -122,7 +125,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
     return (
       <div className="space-y-4">
         {/* Filter Tabs */}
-        <Tabs value={kanjiStrokeFilterTab} onValueChange={handleFilterChange} className="w-full">
+        <Tabs value={kanjiStrokeFilterTab} onValueChange={(value) => setKanjiStrokeFilterTab(value as "all" | "in-progress" | "finished")} className="w-full">
           <TabsList className="grid w-full grid-cols-3">
             <TabsTrigger value="all" className="text-xs">
               All
@@ -172,7 +175,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
   return (
       <div className="space-y-4">
       {/* Filter Tabs */}
-      <Tabs value={kanjiStrokeFilterTab} onValueChange={handleFilterChange} className="w-full">
+      <Tabs value={kanjiStrokeFilterTab} onValueChange={(value) => setKanjiStrokeFilterTab(value as "all" | "in-progress" | "finished")} className="w-full">
         <TabsList className="grid w-full grid-cols-3">
           <TabsTrigger value="all" className="text-xs sm:text-sm">
             All
@@ -187,7 +190,7 @@ export function KanjiStrokeLessonsSection({ showProgress = false }: KanjiStrokeL
       </Tabs>
 
       {/* Pagination Tabs */}
-      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+      <Tabs value={validatedPaginationTab} onValueChange={setKanjiPaginationTab} className="w-full">
         <div className="w-full overflow-x-auto">
           <TabsList
             className={`
