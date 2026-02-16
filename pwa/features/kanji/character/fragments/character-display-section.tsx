@@ -7,6 +7,7 @@ import { useLoginStore } from "@/pwa/features/login/store/login.store";
 import { getAccuracyColor } from "../../list/utils/accuracy-colors";
 import { LargeKanjiDisplay } from "../components/large-kanji-display";
 import { KanjiReadingCard } from "../components/kanji-reading-card";
+import { CharacterNavigation } from "../components/character-navigation";
 
 export function CharacterDisplaySection() {
   const searchParams = useSearchParams();
@@ -40,7 +41,10 @@ export function CharacterDisplaySection() {
 
   return (
     <div className="p-6 space-y-4 bg-background">
-      <div className="max-w-2xl mx-auto space-y-4">
+      <div className="max-w-4xl mx-auto space-y-4">
+        {/* Navigation with Character Display */}
+        <CharacterNavigation currentId={character.id} level={level} />
+        
         {/* Large Kanji Character with Card Border */}
         <LargeKanjiDisplay 
           character={character.character}
