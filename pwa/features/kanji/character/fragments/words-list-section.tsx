@@ -64,7 +64,7 @@ export function WordsListSection() {
 
             return (
               <button
-                key={`${id}-${level}-${word.id}`}
+                key={word.uniqueKey}
                 onClick={() => handleWordClick(word)}
                 className="w-full bg-card border border-border rounded-lg p-3 hover:bg-muted/50 transition-colors text-left"
               >

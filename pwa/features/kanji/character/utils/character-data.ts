@@ -33,39 +33,62 @@ export const getCharacterData = (
  */
 export interface WordItem extends KanjiExample {
   vocabularyId: string; // For score lookup
+  readingType: 'kun' | 'on' | 'exception'; // Track which reading type this word comes from
+  readingId: number; // Reading ID within the reading type
+  uniqueKey: string; // Unique identifier combining readingType + readingId + id
 }
 
 /**
  * Get words list from kanji examples with vocabulary IDs
  * Format vocabularyId as "level_exampleId" for score lookup
  * Examples are now nested in readings (kun/on/exception)
+ * Includes uniqueKey to avoid duplicate keys when same example ID appears in different readings
  */
 export const getWordsFromCharacter = (
   character: CharacterData
 ): WordItem[] => {
-  const examples: KanjiExample[] = [];
+  const examples: Array<KanjiExample & { readingType: 'kun' | 'on' | 'exception'; readingId: number }> = [];
   
   // Collect from kun readings
   character.readings.kun.forEach((reading) => {
     if (reading.examples) {
-      examples.push(...reading.examples);
+      examples.push(
+        ...reading.examples.map(ex => ({ 
+          ...ex, 
+          readingType: 'kun' as const,
+          readingId: reading.id
+        }))
+      );
     }
   });
   
   // Collect from on readings
   character.readings.on.forEach((reading) => {
     if (reading.examples) {
-      examples.push(...reading.examples);
+      examples.push(
+        ...reading.examples.map(ex => ({ 
+          ...ex, 
+          readingType: 'on' as const,
+          readingId: reading.id
+        }))
+      );
     }
   });
   
   // Collect from exception readings
   if (character.readings.exception?.examples) {
-    examples.push(...character.readings.exception.examples);
+    examples.push(
+      ...character.readings.exception.examples.map(ex => ({ 
+        ...ex, 
+        readingType: 'exception' as const,
+        readingId: 0 // exception doesn't have reading.id
+      }))
+    );
   }
   
   return examples.map((example) => ({
     ...example,
     vocabularyId: `${character.level}_${example.id}`,
-  }));
+    uniqueKey: `${example.readingType}-${example.readingId}-${example.id}`,
+  })) as WordItem[];
 };
